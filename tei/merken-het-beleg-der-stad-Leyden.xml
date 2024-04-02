@@ -1,0 +1,3544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000226" xml:lang="dut">
+
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Het beleg der stad Leyden</title>
+				<title type="sub"/>
+				<author>
+					<persName>
+						<forename>Lucretia Wilhelmina</forename>
+						<nameLink>van</nameLink>
+						<surname>Merken</surname>
+					</persName>
+					<idno type="wikidata">Q3265974</idno>
+					<idno type="pnd">104226285</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL"
+						>https://www.dbnl.org/tekst/wint009toon01_01/wint009toon01_01_0002.php</idno>
+					<title>Nicolaas Simon van Winter en Lucretia Wilhelmina van Merken,
+						Tooneelpoëzy. Deel 1. Pieter Meijer, Amsterdam 1774.</title>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Nicolaas Simon van Winter en Lucretia Wilhelmina van Merken,
+						Tooneelpoëzy. Deel 1. Amsterdam: Pieter Meijer, 1774.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="MALE" xml:id="boisot">
+						<persName>Lodewyk van Boisot</persName>
+					</person>
+					<person sex="MALE" xml:id="de-valdez">
+						<persName>Don Francisco de Valdez</persName>
+					</person>
+					<person sex="MALE" xml:id="weesjongen">
+						<persName>Een Weesjongen</persName>
+					</person>
+					<person sex="MALE" xml:id="eerste-burger">
+						<persName>Eerste Burger</persName>
+					</person>
+					<person sex="FEMALE" xml:id="elizabeth-van-der-werf">
+						<persName>Elizabeth van der Werf</persName>
+					</person>
+					<person sex="FEMALE" xml:id="magdalena">
+						<persName>Magdalena Moons</persName>
+					</person>
+					<person sex="MALE" xml:id="tweede-burger">
+						<persName>Tweede Burger</persName>
+					</person>
+					<person sex="MALE" xml:id="van-baarsdorp">
+						<persName>Jan Jansz van Baarsdorp</persName>
+					</person>
+					<person sex="MALE" xml:id="van-der-does">
+						<persName>Jongkheer Jan van der Does</persName>
+					</person>
+					<person sex="MALE" xml:id="van-der-werf">
+						<persName>Pieter Adriaansz. van der Werf</persName>
+					</person>
+					<person sex="MALE" xml:id="van-hout">
+						<persName>Jan van Hout</persName>
+					</person>
+					<person sex="MALE" xml:id="van-noorden">
+						<persName>Cornelis van Noorden</persName>
+					</person>
+					<person sex="MALE" xml:id="van-zwieten">
+						<persName>Cornelis Claasz. van Zwieten</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-02">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1774">
+				<desc/>
+			</event>
+			<event type="premiere" when="1775">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+
+			<head>Het beleg der stad Leyden. <lb/> Door Lucretia Wilhelmina van Merken.</head>
+			<p><figure/></p>
+			<div type="dedication">
+				<head>Toewying aan de edele grootachtbaare heeren, schout, burgemeesteren,
+					schepenen, vroedschappen en veertigen der stad Leyden, midsgaders derzelver
+					ministers; uitmaakende het ligchaam der regeeringe van dezelve stad.</head>
+				<lg>
+					<l>Regeerders van de Stad, waar door de Rynstroom vloeit,</l>
+					<l>Eer hy de zandige en met helm begroeide kruinen</l>
+					<l>Van Hollands strand genaakt, en naar de rustplaats spoeit</l>
+					<l>Waar hy zyn' loop vergeet, by Katwyks oude duinen!</l>
+					<l>Getrouwe Vaders van 't beroemd Bataafsch Atheen',</l>
+					<l>De Stad, die Spanje stuitte op haar bestreden wallen;</l>
+					<l>Den hoed der Vryheid won, twee Eeuwen reeds geleên!</l>
+					<l>Ik wyde u in dees blaên een deel der lotgevallen</l>
+					<l>Die Leyden onderging in dien benaauwden tyd.</l>
+					<l>Doorleest ze, en beeft op 't zien van haar geleden plaagen:</l>
+					<l>Neen, looft de hoogste Magt, waardoor zy wierd bevryd,</l>
+					<l>En na een' nacht van ramp den dag des heils zag daagen.</l>
+					<l>Waar leed, waar streed men ooit, der Vryheid ten gevall',</l>
+					<l>Met grooter heldenmoed, dan op haar zwakke muuren?</l>
+					<l>Haar braave Burgery stond onbeweeglyk pal,</l>
+					<l>In spyt van hongersnood, van pest en oorlogsvuuren.</l>
+					<l>Ziet hoe de Bondgebuur haar bystaat in den nood,</l>
+					<l>En wyde meiren vormt van weelige valeiën.</l>
+					<l>Juicht op 't gewenscht gezicht der voedzelryke Vloot,</l>
+					<l>Die, door Boisot geleid, het vlak bezeilt dier weiën.</l>
+					<l>Eert met verwondering de hulp der hoogste Hand,</l>
+					<l>Die Spanje door den storm haar almagt dwingt te aanschouwen.</l>
+					<l>Ziet door de Vaderliefde en zucht voor 't Vaderland</l>
+					<l>Het deugdzaam hart bezield van Nederlandsche Vrouwen.</l>
+					<l>Ziet door de min den ramp van Leyden afgewend;</l>
+					<l>Staat des aan Valdez toe naar haar gebeên te hooren;</l>
+					<l>Verschoont een zwakheid, die de Veldheer zelf erkent;</l>
+					<l>Een zwakheid, zonder wie de Vesting waar' verloren.</l>
+					<l>Zy heeft haar goed en bloed niet vruchteloos gespild;</l>
+					<l>En al wat Vryheid mint, wie Leydens naam hoort noemen,</l>
+					<l>Of roode Sleutels ziet op 't zilvren Wapenschild,</l>
+					<l>Zal haar als de eerste burg der Vryheid juichend roemen.</l>
+					<l>Beschouwt der Vadren zorg en vlyt en waakzaamheid;</l>
+					<l>Den moed van Van der Does, den Held der Batavieren;</l>
+					<l>De trouw van Van der Werf, wiens oordeelryk beleid</l>
+					<l>Het hart in wanhoop zelfs de driften leert bestieren:</l>
+					<l>Hy is de ziel des Raads, de hoop van 't Vaderland,</l>
+					<l>Een steun van 't vry gemoed, een dapper Staatsverweerder,</l>
+					<l>De toevlucht van het volk, der braaven rechtehand,</l>
+					<l>En 't achtbaarst voorbeeld van een' waardig' Volksregeerder.</l>
+					<l>Beschermers van de Stad, die thans, in blyder tyd,</l>
+					<l>Voor de eedle Vryheid waakt, naast God door hem behouên,</l>
+					<l>En u volyvrig voor Stads Recht en Handvest kwyt!</l>
+					<l>Wat roem, moogt ge in 's Mans beeld uw eigen beeld beschouwen!</l>
+					<l>Der Vadren glori strekt het nageslacht tot eer.</l>
+					<l>Betreed hun loflyk spoor als rechtgeaarte Zoonen;</l>
+					<l>Smaakt nooit hun bitter lot; de dag keer' nimmer weêr</l>
+					<l>Dat ge op zo zwaar een proef der Stad uw trouw moet toonen!</l>
+					<l>Mogt Leyden zonder einde in ons Gemeenebest</l>
+					<l>In welvaart, in geluk, in eer en zegen bloeijen!</l>
+					<l>Mogt de achtbre Hoogeschool in haar beroemde Vest,</l>
+					<l>Tot by het laatst geslacht, in lof en luister groeijen!</l>
+					<l>De Hemel hoed' de Stad en braave Burgery!</l>
+					<l>Nooit moet' haar hoofd den hoed der eedle Vryheid derven!</l>
+					<l>Dat Leydens achtbre Raad een baak in Holland zy,</l>
+					<l>En door alle eeuwen roeme op trouwe Van der Werven!</l>
+				</lg>
+				<p>LUCRETIA WILHELMINA VAN WINTER,</p>
+				<p>geboren VAN MERKEN.</p>
+				<p>mdcclxxiv.</p>
+			</div>
+			<div type="preface">
+				<head>Voorbericht.</head>
+				<p>Onder de merkwaardige gebeurdtenissen, in welken de trouw en dapperheid onzer
+					Voorvaderen, ter handhaavinge der Burgerlyke en Godsdienstige Vryheid, by de
+					grondlegging van ons gezegend Gemeenebest uitblinken, verdient zekerlyk de
+					dappere verdediging der Stad Leyden eene der eerste plaatsen. Hierom is, ter
+					gedachtenisse van dit Staatsheil, in die Stad een jaarlyks plegtig Dankfeest
+					ingesteld. Wy mogen thans, in den jaare 1774, het tweede Eeuwgetyde van Leydens
+					Verlossing beleeven, en niet alleen elk' ingezeten van die plaats, maar ook
+					ieder rechtgeaart inwooner van ons Gemeenebest, heeft reden om de wonderbaare
+					bescherming des Allerhoogsten in de verlossing van Leyden te danken, en zich, in
+					die redding, over de redding van het Vaderland ongeveinsd te verheugen.</p>
+				<p>Al voor langen tyd is my het beleg van Leyden als eene geschikte stoffe ter
+					dichtöefeninge voorgekomen; en by de nadering van deszelfs tweede Eeuwgetyde
+					besloot ik myn kunstvermogen daaräan te beproeven; en den braaven Burgemeester
+					van der Werf, als een waardig Voorbeeld van een' rechtgeaart' Vaderlander en
+					Regent voor te stellen.</p>
+				<p>Behalven van de Nederlandsche Geschiedenissen en de Beschryving en Historie der
+					Stad, de Latynsche Gedichten van Janus Douza, en de naauwkeurige Werkjes van
+					Zonhoven en Aldekerk, heeft het my mogen gebeuren gebruik te maaken van
+					verscheidene schriftelyke aanteekeningen, die onder eenige oude en voornaame
+					Familiën van Leydsche Regenten berustende waren, en my vriendelyk zyn
+					medegedeeld; waarvoor ik de edelmoedige Begunstigers van mynen arbeid thans
+					openlyk dankzegge.</p>
+				<p>'t Zal, vertrouw ik, veelen myner Leezeren niet onaangenaam zyn, uit die
+					berichten eenige byzonderheden aangaande den vryheidlievenden Burgemeester van
+					der Werf te verneemen. Zyn Vader, Adriaan Vermeer, Lauwrens Maartenszoon, was
+					Leeraar der Doopsgezinden; en is te Haarlem, werwaart hy zich begeeven had, om
+					voor de gemeente aldaar te prediken, in den jaare 1537 om zyn geloof onthalsd;
+					nalaatende eene Weduwe en vier Kinderen: Adriaan, Pieter, Nicolaas, en Barbara.
+					Onze Burgemeester Pieter Adriaansz van der Werf (welken toenaam hy waarschynlyk
+					verkregen heeft uit oorzaake van de groote Werf, die by zyne Zeemtouwerye lag,
+					en van waar zekere straat te Leyden nog den naam van Werfstraat draagt,) was
+					geboren in den jaare 1529. In den beginne van het jaar 1568 is hy, nevens zyne
+					twee Broederen en veele andere welmeenende Lieden, om den Godsdienst, en uit
+					vreeze voor den Hertog van Alva, naar Embden gevlucht; en, nevens zyn broeder
+					Nicolaas, op den 31 sten Augustus des zelfden jaars door dien Hertog gebannen,
+					met verbeurtverklaaring hunner goederen. Naderhand is hy, in den jaare 1570,
+					1571 en 1572, Commissaris geweest van den Prins van Oranje, Willem den eersten,
+					in Holland; en heeft zich in deeze en menigvuldige andere Commissiën, niet
+					zonder merkelyke schade aanzyne goederen, en zelfs meer dan eens met het
+					uiterste gevaar van het leven, altoos zeer yverig gekweeten ten nutte van 't
+					Gemeenebest. Geduurende de beide Belegeringen, in de jaaren 1573 en 1574, was hy
+					voorzittend Burgemeester der Stad Leyden; en heeft vervolgens nog tienmaalen de
+					zelfde waardigheid bekleed. Tweemaalen is hy een Lid der Staaten van Holland
+					geweest. Ook heeft hy, genoegzaam tegen zynen dank, toen in 1585 het Collegie
+					van Gecommitteerde Raaden wierd opgericht, daar in zitting moeten neemen.
+					Vervolgens nog in verscheidene gewigtige Commissiën gebruikt zynde, is hy
+					overleden den 5den January, in het jaar 1604. nalaatende, van zyne eerste
+					Echtgenoote, Aefjen Lauwrens, twee Zoonen en eene Dochter: Adriaan Pietersz,
+					naderhand veertig in Raade, Burgemeester, en Ontfanger van de gemeenelands
+					Middelen; en Dirk, en Elizabeth. By zyne tweede Echtgenoote, Ida van Tol, had hy
+					geene kinderen. Uit zyne derde Echtgenoote, Maria Duyst van Voorhout, wierden
+					hem twee Zoonen en twee Dochters geboren: Frans Duyst, naderhand Schepen;
+					Adriaan, Geertruid, en Clara, gehuwd aan Bartholomeus van Assendelft, zoon van
+					Jan Bartholomeus van Assendelft en Lucia van Banchem; by wien zy drie zoonen
+					heeft nagelaaten: Jan, Pieter, en Adriaan; die, ter eere van hunnen Grootvader,
+					Pieter Adriaansz van der Werf, een wit marmeren grafteeken hebben opgericht;
+					waarschynlyk in den jaare 1660, in de Hooglandsche of St. Pancras Kerk; alwaar
+					hetzelve heden nog gezien word.</p>
+				<p>'t Is, dunkt my, onnoodig wegens de dichterlyke vryheid, die ik gebruikt heb, van
+					den Bevelhebber Valdez en Jongkvrouwe Magdalena Moons binnen Leyden te brengen,
+					voor den kundigen eenige verdediging te maaken; en ik vleie my, dat men, het
+					stuk geleezen hebbende, over deeze schikking voldaan zal zyn.</p>
+				<p>Noodig is het dat ik van Jongkvrouwe Magdalena Moons iets zegge, dewyl zy het
+					ongeluk gehad heeft, dat door haat of onkunde haare weldadigheid en trouw met
+					smaad beloond is; terwyl echter haare deugd en verdienste recht gedaan is door
+					Strada, Aldekerk, Zonhoven; en byzonderlyk in zeker geschrift, enkel ter haarer
+					verdediging uitgegeeven, achter de korte Historische Aanteekeningen wegens de
+					Belegeringen van Haarlem, Alkmaar, en Leyden. Hieruit blykt, dat gemelde
+					Jongkvrouwe af komstig is geweest, van Vaders zyde, uit eene deftige Hollandsche
+					Familie; en van Moeders zyde, uit een adelyk Brabantsch Geslacht. Haar Vader was
+					de Heer Pieter Moons, ten tyde van Karel den Vyfden Ontfanger Generaal van 's
+					Keizers beden over Holland, en tevens Raadsheer van zyne Majesteit. Haar oudste
+					Broeder, ook Pieter Moons genaamd, bekleedde onder Philippus den Tweeden het
+					Ampt van Raadsheer in den Hove van Holland, nevens meer andere waardigheden; en
+					was een man van groot gezag en achting. Zy woonde, nevens haare Moeder en nog
+					een Broeder en Zuster, in den Haage, geduurende de Belegering van Leyden; alwaar
+					Valdez haar ten huwelyk verzocht; over welk verzoek door haare Familie veel
+					zwaarigheden wierden gemaakt wegens de omstandigheden des tyds. Dan de gemelde
+					Jongkvrouwe, omtrent dertig jaaren oud zynde, liet zich eindelyk door het
+					aanhouden van Valdez beweegen in zyn huwlyksverzoek te stemmen. Doch de
+					voltrekking van dien echt wierd uitgesteld, om de belemmering door het Beleg van
+					Leyden veroorzaakt, het welk Valdez druk bezig hield. Deeze Bevelhebber, zich,
+					langer dan hy gedacht had, door de dapperheid der Leydenaaren opgehouden ziende,
+					en nu voorgenomen hebbende door eenen algemeenen storm de Stad te dwingen,
+					verzocht des daags te vooren, in den Haage, nevens verscheiden aanzienlyke
+					Lieden, zyne verloofde Bruid en haare Familie op een' maaltyd; waar hy, door
+					haare ongewoone treurigheid getroffen, met aandrang de reden van dezelve
+					verzocht te mogen weeten; waaröp zy hem vryuit verklaarde, dat zyn voorneemen om
+					Leyden te bestormen daarvan de oorzaake was; dat zy in de Stad veelen haarer
+					naaste Magen had woonen, wier lot haar na aan 't harte lag, en welke ongetwyfeld
+					verloren waren, indien de Stad stormenderhand overging. Dat zy een af keer had
+					van bloedstorting en geweld; en dat hy, indien hy haar waarlyk beminde, moest
+					afzien van 't bestormen eener Stad, die hem binnen weinig dagen van zelve moest
+					in de handen vallen; en eindelyk, dat hy nooit haare hand verwerven zou, indien
+					hy de Stad op haare gebeden niet verschoonde. Door welken krachtigen aandrang,
+					door traanen ondersteund, hy, die haar teder beminde, haar met eede zwoer van
+					den storm te zullen afzien; 't geen, den tyd rekkende, onder den Goddelyken
+					zegen de behoudenisse van Leyden geweest is. Valdez, na het opbreeken van het
+					beleg, eerst naar Utrecht, en vervolgens naar Brabant geweken zynde, hield van
+					daar met brieven aan, dewyl het hem niet mooglyk was naar Holland weder te
+					keeren, dat zyne Bruid mogte gebragt worden ten huize van haare gehuwde Zuster,
+					te Antwerpen; in welke Stad zy, door eenigen haarer Bloedvrienden geleid zynde,
+					haar huwelyk met Valdez plegtig voltrokken heeft, in 't byzyn haarer aanzienlyke
+					Magen, aldaar woonachtig. Na het overlyden van Valdez, in den jaare 1580 of
+					1581, heeft zy zich wederom naar Holland begeeven; en is, na eenigen tyd weduwe
+					gebleven te zyn, weder gehuwd aan Jongkheer Willem de Bye; die eertyds Edelman
+					van Willem den Eersten, Prins van Oranje, geweest was; met wien zy eenige Jaaren
+					in huwlyk geleefd hebbende, en ten tweedenmaale weduwe geworden, weder in huwlyk
+					getreeden is met Jongkheer Juriaan van Lennip, een Kleefsch Edelman, van veel
+					aanzien; met wien zy op het Huis te Werve, hem aangestorven, en gelegen te
+					Voorburg by den Haage, eenige jaaren gewoond heeft, en daarna met haaren Gemaal
+					te Utrecht hun verblyf genomen hebbende, is zy aldaar in hoogen ouderdom, zonder
+					kinderen na te laaten, overleden.</p>
+				<p>Wat de Afbeeldingen der vyf Hoofdpersoonadiën van dit Dichtstukje betreft, die de
+					Heer Pieter Meijer, met overleg van ons en andere goede Vrienden, uit
+					hoogachting voor de verdiensten onzer Voorvaderen, heeft laaten vervaardigen, om
+					voor of in hetzelve geplaatst te kunnen worden; dezelven zyn door den beroemden
+					Houbraken, naar de bekende oude groote prenten gesneden: dat van Van der Werf
+					door Philippe, en die van Jongkvrouwe Moons, Valdez, van der Does, en Boisot;
+					door Cornelis Visscher gegraveerd; allen naar origineele afbeeldingen, en door
+					Petrus Scriverius uitgegeeven, in den jaare 1649.</p>
+				<p>De Burgemeester van der Werf schynt in een ander gewaad verbeeld te zyn dan de
+					Burgemeesterlyke tabbaard; een soort van toga, van zwart laken, van vooren ter
+					wederzyde omgeslagen, en die omslagen ten voeten toe gevoederd met zwart satyn;
+					verder met naauwe mouwen en opene armsgaten, waar men somtyds de armen doorstak,
+					zonder de mouwen te gebruiken; ter wederzyde van het slinker zakgat van den
+					tabbaard, hechte men met groote zilvren Romeinsche letteren den naam van Leyden:
+					dus was de kleeding van Schout, Burgemeesteren en Schepenen van dien tyd; en is
+					nog by sommige plegtige gelegenheden in gebruik.</p>
+				<p>De kleeding, in welke Magdalena Moons is afgebeeld, naar het origineele
+					schildery, toen berustende, nevens dat van haaren Gemaal, Francisco Valdez, in
+					het kabinet van haaren Broeder, den Raadsheer Pieter Moons, verstrekt een bewys
+					van haaren rang; zynde dit het gewaad der aanzienlykste Vrouwen van dien tyd;
+					naar een gebruik, waarschynlyk hier uit Vrankryk overgekomen; gelyk blykt uit
+					afbeeldingen in Les Monumens de La Monarchie Françoise, van B. de Montfaucon;
+					waarïn Elizabeth van Oostenryk, gemalinne van Karel den Negenden, Koning van
+					Vrankryk; en de Hertoginne van Montpensier, op de zelfde wyze gekleed zyn, in 't
+					jaar 1570. Zelfs schynt die kleeding reeds vyftig jaaren te vooren aan de
+					Spaansche Vorstinnen eigen geweest te zyn; gelyk in het bovengenoemde werk
+					blykt, uit de Afbeelding van Eleonora van Oostenryk, Zuster van Keizer Karel den
+					Vyfden, en Gemalinne van François den Eersten, Koning van Vrankryk.</p>
+				<p>De Afbeelding van Valdez is in de Spaansche kleeding van dien tyd; en die van Van
+					der Does en Boisot vertoonen de oude Hollandsche Krygsmans kleedinge der
+					Bevelhebberen; de Burgers droegen een pansier en yzeren hoed, musket en forket;
+					die spietsen voerden, droegen een harnas met een krop en morion. Het gewaad der
+					Weezen van Leyden was toen eenigzins anders dan tegenwoordig. De Jongens waren
+					gekleed in roode Wambuizen, waarschynlyk van Leydsche karsaai; behalven de
+					slinker mouw, die wit was, hebbende aan de schouderen, of by het aanvoegsel van
+					den arm by het lyf, een dikke naad of rol, tot onder den arm toe omloopende.
+					Voorts een vry wyden rooden broek, roode kousen, zwarte schoenen, en een'
+					zwarten hoed. Gelyk blykt in zeker kaartboek van Landeryen de Weezen van Leyden
+					toebehoorende, gemaakt by Simon Arentsz Bruiningen, gezworen Landmeeter van
+					Rynland, in den jaare 1593.</p>
+				<p>Ten besluite hoop ik dat myne poogingen, om myne Tydgenooten by deeze plegtige
+					gelegenheid aan de deugden onzer Voorvaderen, en aan de weldaaden door den
+					Allerhoogsten hen bewezen, die de grondslagen zyn van het heil dat wy thans
+					genieten, te doen gedenken, hen niet onaangenaam zullen zyn. De zelfde krachtige
+					Arm, die Leyden verlost heeft van het geweld eens magtigen Vyands, bewaare, eeuw
+					uit eeuw in, ons dierbaar Vaderland by het onwaardeerbaar genot van Vrede en
+					Vryheid!</p>
+			</div>
+
+			<castList>
+				<head>Vertooners.</head>
+				<castItem corresp="#van-der-werf">
+					<role>Pieter Adriaansz. van der Werf, Burgemeester.</role>
+				</castItem>
+				<castItem corresp="#van-zwieten">
+					<role>Cornelis Claasz. van Zwieten, Burgemeester.</role>
+				</castItem>
+				<castItem corresp="#van-noorden">
+					<role>Cornelis van Noorden, Burgemeester.</role>
+				</castItem>
+				<castItem corresp="#van-baarsdorp">
+					<role>Jan Jansz van Baarsdorp, Burgemeester.</role>
+				</castItem>
+				<castItem corresp="#van-hout">
+					<role>Jan van Hout, Secretaris.</role></castItem>
+				<castItem corresp="#van-der-does">
+					<role>Jongkheer Jan van der Does, Bevelhebber der Burgery.</role>
+				</castItem>
+				<castItem corresp="#boisot">
+					<role>Lodewyk van Boisot, Admiraal van Vlissingen.</role>
+				</castItem>
+				<castItem corresp="#de-valdez">
+					<role>Don Francisco de Valdez, Spaansch Bevelhebber.</role>
+				</castItem>
+				<castItem corresp="#magdalena">
+					<role>Magdalena Moons, verloofde Bruid van F. de Valdez.</role>
+				</castItem>
+				<castItem corresp="#elizabeth-van-der-werf">
+					<role>Elizabeth van der Werf, Dochter van den Burgemeester.</role>
+				</castItem>
+				<castItem corresp="#muitend-volk">
+					<role>Muitend Volk.</role>
+				</castItem>
+				<castItem corresp="#weesjongen">
+					<role>Een Weesjongen.</role>
+				</castItem>
+			</castList>
+			<castList>
+				<head>Zwygende.</head>
+				<castItem corresp="#adriaan-willemszoon">
+					<role>Adriaan Willemszoon, Admiraal van Zierikzee.</role>
+				</castItem>
+				<castItem corresp="#stads-zeekapiteinen">
+					<role>Stads- en Zeekapiteinen, Raaden.</role>
+				</castItem>
+				<castItem corresp="#gewapende-burgerij">
+					<role>Gewapende Burgery.</role>
+				</castItem>
+				<p>Het TOONEEL is in de Stad LEYDEN, in het Huis van den Burgemeester Pieter
+					Adriaansz. van der Werf.</p>
+				<p><figure> </figure></p>
+
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<head>Het beleg der stad Leyden. </head>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth van der Werf</speaker>
+						<stage>alleen.</stage>
+						<l>Myn Vader! waar vertoeft ge? Ach! wist gy hoe verlegen</l>
+						<l>Ik omzwerf door al 't huis, en uitzie allerwegen</l>
+						<l>Naar uwe wederkomst, terwyl uw wys beleid</l>
+						<l>'t Belegerd Leyden schraagt! helaas! myn hart beschreit</l>
+						<l>Al 't leed der Stad, myn leed, het onheil myner maagen,</l>
+						<l>Maar meest uw ongeval, ô oorsprong myner dagen!</l>
+						<l>Ach! is 'er dan geen einde aan uwe elende en smart!</l>
+						<l>Wat leed uw jeugd niet reeds in 't ouderminnend hart,</l>
+						<l>Toen wreede zieldwang om 't geloof uw' vroomen Vader</l>
+						<l>Deed knielen voor het zwaard als ketter en verraader!</l>
+						<l>Wat ondervond gy niet toen Neêrland door 't geweld</l>
+						<l>Des wreeden Alvaas wierd in rep en roer gesteld;</l>
+						<l>Toen die ontmenschte u doemde om huis en haard te derven,</l>
+						<l>En met oom Nicolaas in ballingschap te zwerven!</l>
+						<l>Ach! vind gy meer geluks, nu gy, van zorg doorknaagd,</l>
+						<l>De Stad een burg verstrekt, den last van allen draagt,</l>
+						<l>En, zelfs, in wederwil van weiflende Amptgenooten,</l>
+						<l>'t Hoogmoedig Spanje 't hoofd nog voor dees Vest doet stooten?</l>
+						<l>Hoe duur, helaas! zal u uw moed en yver staan,</l>
+						<l>Indien de bange Stad in 't eind moet overgaan!</l>
+						<l>Hoe zal van Zwieten, hoe van Noorden zegevieren,</l>
+						<l>Als zy de Spaansche vaan van onzen wal zien zwieren!</l>
+						<l>Zy stooken in 't geheim het vuur der muitery,</l>
+						<l>En Baarsdorps woeste drift versterkt die razerny.</l>
+						<l>Myn Vader! al uw trouw kan Leyden niet behoeden,</l>
+						<l>En Spanjes dwinglandy zal hier haast toomloos woeden.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Elizabeth, Magdalena Moons.</stage>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Helaas! myn Hartvriendin! moest gy door uwe trouw</l>
+						<l>In Leydens deerlyk lot, in d' algemeenen rouw</l>
+						<l>Ook deelen nevens ons! ach! waart ge weg gebleven!</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>De zucht van 't bloed heeft my naar deeze vest gedreven.</l>
+						<l>Ik deelde, na 't ontzet, verheugd in uw geluk;</l>
+						<l>En deel, by 't nieuw beleg, vrywillig in uw' druk.</l>
+						<l>Het waar' my ligt geweest naar 's Graavenhaag te keeren,</l>
+						<l>Zo gy besloten had, op 't Vaderlyk begeeren,</l>
+						<l>Met my de ontroerde Stad te ontwyken in dat uur;</l>
+						<l>Doch niets bewoog uw ziel, dan de inspraak der natuur.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Zou ik, terwyl myn trouw myn' Vader meest kan baaten,</l>
+						<l>Myzelf beveiligen, hem in 't gevaar verlaaten;</l>
+						<l>Nu 't onverwacht beleg zyn nieuwe Gemalin,</l>
+						<l>Het waardig voorwerp van zyn trouwe huwlyksmin,</l>
+						<l>En myne Broedren, die als ik hunn' Vader eeren,</l>
+						<l>Belet van Rotterdam naar deeze Vest te keeren;</l>
+						<l>Nu hy, door deezen ramp beroofd van allen troost,</l>
+						<l>Zyn zwangre Gade mist, en, buiten my, zyn kroost?</l>
+						<l>Myn waarde Vader is het leven van myn leven.</l>
+						<l>Kan ik, om my te hoên, hem in dien staat begeeven?</l>
+						<l>Neen; schoon ik sterven moest als 't veege Leyden zwicht,</l>
+						<l>Nooit, nooit rouwt my een blyk van liefde en kinderpligt.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>'k Misprys uw teêrheid niet: uw yver is rechtvaardig,</l>
+						<l>En de eedle Dochter van zo groot een' Vader waardig.</l>
+						<l>Ik bleef om u en hem vrywillig in deez' Wal,</l>
+						<l>Daar ik u beiden hoên, of met u sterven zal.</l>
+						<l>Ach! mogt, daar gy me om u en hem myzelf ziet waagen,</l>
+						<l>Hem myn verworpen raad in 't eind zo ver behaagen,</l>
+						<l>Dat ik 't verdrag bewerkte; en gy 't behoud der Stad,</l>
+						<l>By dat uws Vaders, aan myn zorg te danken had!</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Neen, waarde Magdalene! ik prys uw loflyk poogen;</l>
+						<l>Doch 't redden van de Stad is buiten uw vermogen.</l>
+						<l>Men denke aan geen verdrag; te wel, helaas! geleerd,</l>
+						<l>Dat zich de Kastiljaan aan woord noch eeden keert.</l>
+						<l>Hoe dier het staat met Spanje in vreêverdrag te treeden,</l>
+						<l>Getuigt het rookend bloed van de overheerde Steden;</l>
+						<l>Dat bloed, 't welk nog om wraak aan 's Hemels vierschaar schreit,</l>
+						<l>En Leyden toeroept: Beef; zie Spanjes trouwloosheid.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Men wyte aan Spanje niet 't geen Alvaas razernye</l>
+						<l>Bedreef, tot vestiging van 's Konings heerschappye.</l>
+						<l>Hy koos een' slinkschen weg; en gaf, door spoorloosheên,</l>
+						<l>Tot wederspannigheid, en zelfs tot afval reên.</l>
+						<l>De nieuwe Landvoogd zal eerlang, door zachter wetten,</l>
+						<l>De Steden veiligen, het krygsvolk paalen zetten.</l>
+						<l>Mogt Valdez de eerste zyn, by 't mindren van de klagt,</l>
+						<l>Die hem de sleutels van 't gehoorzaam Leyden bragt!</l>
+						<l>Wat zou 't zyne eedle ziel een zuivre blydschap baaren!</l>
+						<l>Hy zoekt, ik ken zyn' aart, der burgren bloed te spaaren;</l>
+						<l>En stelt zyn glori in 't behouden van een Vest,</l>
+						<l>Die hoopeloos verzinkt in hongersnood en pest.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Uw zucht voor Valdez doet u 't best van hem vermoeden.</l>
+						<l>Zyn gunst niet, maar de gunst des Hemels zal ons hoeden.</l>
+						<l>Hoe hoog gy hem verheft, wy steunen in 't verdriet</l>
+						<l>Op 's Lands gerechte zaak, maar op zyn goedheid niet.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Ik schat waarlijk Valdez hoog; myne achting is rechtvaardig,</l>
+						<l>En maakte hem den naam van mynen bruîgom waardig.</l>
+						<l>'k Was reeds aan hem verknocht, indien 't beleg der Stad</l>
+						<l>Ons huwlyk tot dit uur niet opgehouden had.</l>
+						<l>Maar schoon ik hem bemin, gy weet hoe diep myn harte</l>
+						<l>In 't heil van Neêrland deelt. Gy weet met welk een smarte</l>
+						<l>My Alvaas wreedheid trof; en hoe ik, naar myn magt,</l>
+						<l>In Leydens zwaar beleg myn pligten heb betracht.</l>
+						<l>Romero wilde lang de Vest door storm doen bukken:</l>
+						<l>Ik deed zyn oogmerk door myn' Held tot nog mislukken.</l>
+						<l>Zo Valdez voor zyn' pligt hierin gevaar voorzag,</l>
+						<l>Hy had reeds meer dan eens gestormd voor deezen dag.</l>
+						<l>Hy kent de hagchlykheid der wisslende oorlogskanssen.</l>
+						<l>Hy heeft de Stad omringd met twee-en-zestig schanssen.</l>
+						<l>Tienduizend krygsliên, die vast vlammen op den buit,</l>
+						<l>Zien naar 't bevel des storms met roofzieke oogen uit;</l>
+						<l>Des onweêrstaanbren storms, die Leyden zal vernielen.</l>
+						<l>De burgery smelt weg in 't uitzien naar de kielen,</l>
+						<l>Waardoor ze ontzet verwacht in 't alleruiterst wee:</l>
+						<l>Al 't Land is vruchteloos herschapen in een zee.</l>
+						<l>Het water wast niet aan; en hoe 't Boisot moog' deeren,</l>
+						<l>Hy zal, zelfs voor zyn oog, de Vest zien overheeren.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Gy maalt my vruchteloos de grootheid van 't verdriet.</l>
+						<l>'k Vrees dat myn Vader-zelf ons lot te klaar voorziet.</l>
+						<l>Hoe bleek is zyn gelaat door 't zorgen, vasten, waaken!</l>
+						<l>Hoe dikwerf vind ik hem met traanen op de kaaken!</l>
+						<l>En als ik hem omärm, en troost naar mynen pligt,</l>
+						<l>Kust hy me, al zuchtend', met de traanen in 't gezicht;</l>
+						<l>En toont me, in weêrwil van zyn harte, wat gedachten</l>
+						<l>Hy heimlyk voed van 't lot dat Leyden staat te wachten.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Myn waarde Elizabeth! wat baat vergeefsch beklag?</l>
+						<l>Indien ge uw' Vader mint, beweeg hem tot verdrag.</l>
+						<l>Ik eer zyn vryheidzucht; doch met iets toe te geeven</l>
+						<l>Behoud men hen, die thans door pest en honger sneeven.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Helaas! waar of hy toeft? De raad was nooit voorheen</l>
+						<p/>
+						<l>Zo lang...</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Van Hout genaakt.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Elizabeth, Magdalena, Jan van Hout.</stage>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<stage>tegen van Hout.</stage>
+						<l>Ach! keert ge dus alleen?</l>
+						<l>Waar liet ge uw' trouwsten Vriend?</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Ik dacht hem hier te aanschouwen;</l>
+						<l>Ik liet hem by 't Stadhuis; ligt word hy opgehouên.</l>
+						<l>De Vest is vol gewoels; en elk, die hem ontmoet,</l>
+						<l>Smeekt hem om troost of raad in zynen tegenspoed.</l>
+						<l>De Stad erkent in hem haar' allertrouwsten Raader;</l>
+						<l>De burgers eeren hem als hunn' geliefden Vader;</l>
+						<l>Als hy zyn' mond ontsluit hoort elk een hemelstem;</l>
+						<l>'t Smeekt all' om zyn behoud, en alles oogt op hem.</l>
+						<l>Stel des uw hart gerust; hy zal terstond hier weezen.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Hoe staat het in de Stad?</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Wy hebben 't ergst' te vreezen.</l>
+						<l>De Raad vergaêrde by het ryzend morgenlicht,</l>
+						<l>Om tot het uiterst' zich te kwyten van zyn' pligt,</l>
+						<l>Wanneer van Noorden straks elks deernis zocht te wekken</l>
+						<l>Door al 's Volks rampen op 't beweeglykst ons te ontdekken.</l>
+						<l>Hy maalde hoe de pest in wyk by wyk regeert;</l>
+						<l>Hoe 't volk, dien ramp ontgaan, door honger word verteerd.</l>
+						<l>Wy hebben, voer hy voort, in spyt van ons verlangen,</l>
+						<l>Geen' bode van Oranje of van de vloot ontfangen;</l>
+						<l>Ten zy de Hemel 't keere, is 't met de Stad gedaan.</l>
+						<l>Terwyl hy ons de elend' der burgren deed verstaan,</l>
+						<l>Wierd ons geboodschapt, dat een bende muitelingen,</l>
+						<l>Oproerig saamgerot, dreigde in de zaal te dringen.</l>
+						<l>Men stuitte hen een wyl, en pleegde inmiddels raad,</l>
+						<l>Wat best te doen stond in dien zorgelyken staat.</l>
+						<l>Doch eer men onderling tot een besluit kon komen,</l>
+						<l>Kwam 't volk, gelyk een vloed, ter raadzaal' binnen stroomen.</l>
+						<l>Een troostelooze hoop, verzwakt en uitgeteerd.</l>
+						<l>De wanhoop had hun hart en zinnen overheerd.</l>
+						<l>Een van hen voerde 't woord, en wekte elks medelyden</l>
+						<l>Door 't maalen van 't gebrek, waarmeê men had te stryden,</l>
+						<l>En eischte vrede of spys, tot mindring van den nood.</l>
+						<l>Fluks rees een groot geschreeuw, van vrede, vrede, of brood!</l>
+						<l>Maar 't geen de welgezinde een billyk omzien baarde</l>
+						<l>Was dat een deel des Raads zich voor hunn' eisch verklaarde.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Dit is de vrucht, helaas! van Baarsdorps woeste reên.</l>
+						<l>Hy houd de Spaansche zy'.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Hield hy die slechts alleen,</l>
+						<l>En had de Vesting niets dan zyne drift te schroomen.</l>
+						<l>Maar ach! van Zwieten zelfs is eindlyk uitgekomen.</l>
+						<l>Hy sterkte 't muitziek volk, met loosbelegde taal;</l>
+						<l>En zwoer, met dieren eed, dat hy, die menigmaal</l>
+						<l>Naar vrede had gewenscht, 't verdrag had aangeprezen,</l>
+						<l>Geen heillooze oorzaak van der burgren moord zou weezen;</l>
+						<l>En dat, indien men hem gehoor gaf, deezen dag</l>
+						<l>Getuige weezen zou van 't sluiten van 't verdrag.</l>
+						<l>Maar 't kleenste en beste deel van Leydens achtbre Raaden,</l>
+						<l>Bewust dat ons de vreê min baaten zou dan schaaden,</l>
+						<l>Vertoonde 't volk den ramp die hen te wachten stond</l>
+						<l>Zo Spanje hier zyn woord, als korts in Haarlem, schond.</l>
+						<l>Dan waar' 't beklag te laat en 't onheil niet te ontwyken:</l>
+						<l>Romero had zyn roof- en moordzucht steeds doen blyken;</l>
+						<l>Maar boven allen toonde uw Vader 't volk hunn' pligt,</l>
+						<l>Beklaagde hunne elend met traanen in 't gezicht;</l>
+						<l>Verhief hunn' moed, en zwoer, dat zy die hen vertzaagden,</l>
+						<l>Veel minder dan hyzelf hun deerlyk lot beklaagden;</l>
+						<l>Dat hy het volk beminde, en, tot bewys van trouw,</l>
+						<l>De Stad beveiligen, of met haar vallen zou.</l>
+						<l>Hy stelde toen al 't schoon der vryheid hen voor oogen.</l>
+						<l>Het naadren van de vloot; de magt van 't Alvermogen;</l>
+						<l>En won in 't eind zo veel, door zyn welspreekendheid,</l>
+						<l>Dat deeze storm bedaarde, en hy, door zyn beleid,</l>
+						<l>De burgery bewoog zich met veréénde krachten</l>
+						<l>Te kwyten van haar' pligt en op 't ontzet te wachten.</l>
+						<l>Terwyl door Raad en Volk hem eerbied wierd betuigd,</l>
+						<l>Vertrokken we in triomf, van allen toegejuicht.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Ligt heeft het muitend Volk iets ergers voorgenomen.</l>
+						<l>Helaas! hy toeft te lang. Zyn afzyn doet my schroomen.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Schep moed; daar is hyzelf.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Elizabeth, Magdalena, van Hout, Pieter Adriaansz van der Werf, Cornelis
+						Claasz van Zwieten, Cornelis van Noorden, Jan Jansz van Baarsdorp.</stage>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Myn Vader! welk een vreugd!</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Hoe dus beschreid myn Kind! Bedwing uw ongeneugt.</l>
+						<l>Gy ziet, door 's Hemels gunst, my weder in uwe armen.</l>
+						<l>Ligt zal zy over ons en Leyden zich erbarmen.</l>
+						<l>Men steune op haar-alléén, en kwyt' zich van zyn' pligt.</l>
+						<stage>Tegen van Hout.</stage>
+						<l>Na 't scheiden van den Raad ontfingen wy 't bericht,</l>
+						<l>Dat niets Romeroos drift tot stormen kan bepaalen,</l>
+						<l>En Valdez zich in 't eind' door hem liet overhaalen.</l>
+						<l>Wy hebben deeze maar' den Hopliên meêgedeeld;</l>
+						<l>Doch ze is voor 't weerloos volk, zo veel men kon, geheeld.</l>
+						<l>De burgers zyn getroost den aanval af te wachten.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Wat weêrstand wacht gy toch van hun verzwakte krachten?</l>
+						<l>Vergeef myn ronde taal; 'k doe ze u uit nood verstaan.</l>
+						<l>Een enkle storm doet ons, doet al de Stad vergaan.</l>
+						<l>Ik durf myn woord, myn hoofd, voor Valdez deugd verpanden:</l>
+						<l>Sluit een verdrag met hem. Vertrouw u in zyn handen.</l>
+						<l>Beschouw wat deerlyk lot de Stad te wachten staat</l>
+						<l>Indien ze in 't stormen aan den Spanjaard overgaat.</l>
+						<l>Geef toch den gantschen Raad, uzelf, de burgerye,</l>
+						<l>Niet over tot een prooie aan 's vyands razernye.</l>
+						<l>'t Is reeds te lang gemard en hier geen toevens tyd.</l>
+						<l>Zorg voor het heil der Vest, waarvoor uw trouw zich kwyt.</l>
+						<l>Myn Bruidegom zal meer, dan hy reeds aanbood, schenken.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Wy kennen Spanje. 'k Wil Valdez roem niet krenken;</l>
+						<l>Maar als de vogelaar het zachtst en lieflykst fluit,</l>
+						<l>Is hy, het belge u niet, meest op bedriegen uit.</l>
+						<l>Dacht Spanje als gy, de vreê zou onze rampen keeren;</l>
+						<l>Nu moet men met de Stad vergaan, of triomfeeren.</l>
+						<l>Dit is 't besluit des Raads. Al 't Nederlandsch gewest</l>
+						<l>Verwacht zyn vryheid met de vryheid deezer Vest;</l>
+						<l>En, worden we onder 't puin van haaren wal begraaven,</l>
+						<l>Dan staaven we onzen eed, en leeven niet als slaaven.</l>
+					</sp>
+					<sp who="#van-baarsdorp">
+						<speaker>van Baarsdorp</speaker>
+						<l>'t Is inderdaad niet vreemd, dat de eigenzinnigheid</l>
+						<l>En vrede en slaaverny zo weinig onderscheid.</l>
+						<l>Maar acht gy Neêrlands volk, veel eeuwen lang rechtvaardig</l>
+						<l>Door Graaf op Graaf bestierd, den naam van slaaven waardig?</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Geenszins, zo lang de Graaf, getrouw aan pligt en eed,</l>
+						<l>De wetten handhaafde en 's Lands rechten niet bestreed;</l>
+						<l>En grooter glori vond, hoe hoog in magt gerezen,</l>
+						<l>In de éérste eens vryen volks dan in tyran te weezen:</l>
+						<l>Maar sints ons Phlips verdrukt door wreede dwinglandy,</l>
+						<l>Verschilt de vreê met hem niet meer van slaaverny.</l>
+					</sp>
+					<sp who="#van-baarsdorp">
+						<speaker>van Baarsdorp</speaker>
+						<l>Men kan hem door 't verdrag aan nieuwe banden binden.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Zo u zyn dienst gevalt, gaa hem in Spanje vinden.</l>
+					</sp>
+					<sp who="#van-zwieten">
+						<speaker>van Zwieten</speaker>
+						<l>Maar zo men Leyden door den vrede kon behoên...</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Geef toch geen verdren voet aan 't opgevat vermoên.</l>
+					</sp>
+					<sp who="#van-noorden">
+						<speaker>van Noorden</speaker>
+						<l>Men zorgt niet zonder reên voor echtgenoote en telgen.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Hoe wrang de teug ook vall', men moet die saam verzwelgen.</l>
+						<l>'t Is beter dat hen 't zwaard des hongers nederslaa,</l>
+						<l>Dan dat ze een prooi zyn van des krygsvolks ongenaê.</l>
+					</sp>
+					<sp who="#van-noorden">
+						<speaker>van Noorden</speaker>
+						<l>Gy kent de banden niet die 't hart zo naauw verbinden.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>'k Lyd mooglyk dubbel in al 't lyden myner vrinden.</l>
+						<l>Doch wie 't verdrag ook raade, ik vloek de slaaverny;</l>
+						<l>Ik zwoer der vryheid hulde, en leeve of sterve vry.</l>
+					</sp>
+					<sp who="#van-noorden">
+						<speaker>van Noorden</speaker>
+						<l>'k Ben nevens u getroost voor Godsdienst, Recht en Wetten,</l>
+						<l>Schoon ik myn huis beschrei, het leven op te zetten.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<stage>tegen van der Werf.</stage>
+						<l>Ik heb voldaan aan 't geen my wierd verzocht, Mynheer!</l>
+						<l>Doch 't zy by ons geheim.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<stage>Tegen de Vrouwen, die op zyn' wenk vertrekken.</stage>
+						<l>Ik zie terstond u weêr.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>van der Werf, van Zwieten, van Noorden, van Baarsdorp, van Hout.</stage>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Men heeft den voorraad in de Vesting opgenomen.</l>
+						<l>De nood is hoog, en reeds op 't uiterste gekomen.</l>
+						<l>Ik vond geen brood, hoe naauw ik alles heb doorzocht.</l>
+						<l>De tweebak en het meel zyn gantschlyk uitverkocht.</l>
+						<l>Men zal op deezen dag de laatste paarden slagten.</l>
+						<l>De schraale moutkoek kan den honger schaarsch verzachten;</l>
+						<l>En echter strekt zy slechts drie dagen, verder niet.</l>
+					</sp>
+					<sp who="#van-noorden">
+						<speaker>van Noorden</speaker>
+						<l>Ziet daar, helaas! ziet daar wat Leyden overschiet.</l>
+					</sp>
+					<sp who="#van-baarsdorp">
+						<speaker>van Baarsdorp</speaker>
+						<l>Een kranke troost voor zo veel hongerige monden.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Och! of myn raad voorheen meer ingang had gevonden,</l>
+						<l>Toen Spanje uit nood de Vest van 't eerst beleg ontsloeg!</l>
+					</sp>
+					<sp who="#van-zwieten">
+						<speaker>van Zwieten</speaker>
+						<l>Men heeft voor spys gezorgd.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Men zorgde niet genoeg</l>
+						<l>Ten nutte van 't gemeen, maar slechts voor huisgenooten.</l>
+						<l>Dit blykt aan 't meel, dat, loos, in kussens wierd besloten.</l>
+					</sp>
+					<sp who="#van-baarsdorp">
+						<speaker>van Baarsdorp</speaker>
+						<l>Een lastrend volksgerucht is naauwlyks antwoord waard'.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>De zwynen op de stal, tot eigen nut gespaard,</l>
+						<l>Die zich, van tyd tot tyd, ontdekken door hun knorren,</l>
+						<l>Verschaffen 't hongrig volk, met reden, stof tot morren.</l>
+					</sp>
+					<sp who="#van-baarsdorp">
+						<speaker>van Baarsdorp</speaker>
+						<l>Oranje draagt u gunst: die Schutsheer maakt u stout.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Maar zeg wiens gunst zoekt hy, die al de gerst vermout,</l>
+						<l>En 't bier verzuuren laat, opdat der Burgerye</l>
+						<l>Noch 't voedsel noch de drank tot onderstand gedye,</l>
+						<l>En dus door hongersnood de Stad mooge overgaan?</l>
+					</sp>
+					<sp who="#van-zwieten">
+						<speaker>van Zwieten</speaker>
+						<l>Hoe! wyt ge aan my den ramp, die my zo duur zal staan?</l>
+						<l>Waar blykt...</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>In 's Hemels naam, laat ons geen tweedragt voeden.</l>
+						<l>Met twisten is de Vest voor 't onheil niet te hoeden.</l>
+					</sp>
+					<sp who="#van-zwieten">
+						<speaker>van Zwieten</speaker>
+						<l>Had elk zich-zelv' verzorgd op 't naadren van 't gevaar!</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Die last betrof de Stad, en was voor 't volk te zwaar.</l>
+						<l>Wat word 'er niet vereischt voor veertien duizend zielen!</l>
+						<l>Schoon reeds drie duizend door 't vernielend pestvuur vielen;</l>
+						<l>Schoon schutgevaarte en stryd twee duizend wreed verslond;</l>
+						<l>En 't aakelig gebrek ons nog op duizend stond;</l>
+						<l>Ons is, sints 't nieuw beleg, in agttien bange weeken,</l>
+						<l>Hoe zwaar de schaarschheid drukt, helaas! te klaar gebleken.</l>
+					</sp>
+					<sp who="#van-noorden">
+						<speaker>van Noorden</speaker>
+						<l>Men vleide zich met grond, toen Valdez, op 't ontbiên</l>
+						<l>Des Landvoogds, ons verliet, hem nimmer weêr te zien.</l>
+						<l>En waar' Graaf Lodewyk niet op de hei geslagen,</l>
+						<l>Men had alom den glans der vryheid op zien daagen.</l>
+						<l>En wy....</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>'k Zie van der Does.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Zesde tooneel.</head>
+					<stage>van der Werf, van Zwieten, van Noorden, van Baarsdorp, van Hout,
+						Jongkheer Jan van der Does.</stage>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Verschoon 't zo ik u stoor.</l>
+						<l>Een boô van Valdez eischt by Leydens Raad gehoor.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Alweêr een nieuwe list.</l>
+					</sp>
+					<sp who="#van-noorden">
+						<speaker>van Noorden</speaker>
+						<l>Indien men dorst vertrouwen</l>
+						<l>Dat hy...</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Wie durft, wie kan op 't woord van Spanje bouwen?</l>
+						<l>Een andre vyand vond geloof; doch 't is bekend</l>
+						<l>Hoe ligt de Castiljaan de heiligste eeden schend.</l>
+						<l>Kon Valdez van 't verdrag alleen nog meester weezen,</l>
+						<l>Men had ligt minder voor meineedigheid te vreezen.</l>
+						<l>Hy gaf geen doorslaand blyk van wreedheid tot deez' dag:</l>
+						<l>Doch daar Romero met hem deelt in 't krygsgezag,</l>
+						<l>Daar de uitslag van 't Beleg betrouwd is aan hen beiden,</l>
+						<l>Sterve eer de laatste man, verzinke eer 't hooploos Leyden,</l>
+						<l>Eer ons zyn vleitaal door beloften dwaas verblind',</l>
+						<l>En hy hier nieuwe prooi voor woede en ontucht vind'!</l>
+					</sp>
+					<sp who="#van-zwieten">
+						<speaker>van Zwieten</speaker>
+						<stage>tegen van der Does.</stage>
+						<l>Maar zo hy zich bereid om Leydens zwakke wallen,</l>
+						<l>Gelyk-men ons bericht, met stormen aan te vallen,</l>
+						<l>Durft ge ons verzeekren dat de Stad hem af zal slaan?</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Voor d'uitslag van den storm den Raaden in te staan,</l>
+						<l>Waare onbedachtzaamheid; maar 'k durf vrymoedig zweeren</l>
+						<l>Tot aan myn' jongsten snik hem van den muur te weeren.</l>
+						<l>De Hopliên zyn den dood getroost. Dan hoe 't zich wend',</l>
+						<l>Men kan de razerny des vyands in het end',</l>
+						<l>Schoon hy zich meester zag, door wanhoop nog bedwingen,</l>
+						<l>En met de veege Stad hem in de lucht doen springen.</l>
+					</sp>
+					<sp who="#van-noorden">
+						<speaker>van Noorden</speaker>
+						<l>ô Goede Hemel! keer dien schrikkelyken slag!</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Ik volg u in den stryd; 't is Leydens jongste dag.</l>
+					</sp>
+					<sp who="#van-zwieten">
+						<speaker>van Zwieten</speaker>
+						<stage>tegen van Hout.</stage>
+						<l>Denk aan uw zusters telg.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Ons is geen hoop gebleven.</l>
+						<l>Ik acht een' braaven dood meer dan een eerloos leven.</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<stage>tegen van der Werf.</stage>
+						<l>Gy zwygt.</l>
+					</sp>
+					<sp who="#van-baarsdorp">
+						<speaker>van Baarsdorp</speaker>
+						<stage>tegen van der Werf.</stage>
+						<l>In 's Hemels naam, spreek 's vyands boô, Mynheer!</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Men hield tot aan dit uur, en 't strekt de Stad tot eer,</l>
+						<l>In spyt van Valdez bede en uitgestrekt verlangen,</l>
+						<l>Zyn boden uit de Stad; en zal men die ontfangen</l>
+						<l>Nu alles hooploos is, en toonen hem hoe 't staat?</l>
+						<l>Zal hy de Burgren, door gebrek en pest, op straat,</l>
+						<l>Van levenskracht beroofd, bezwymd zien nedervallen;</l>
+						<l>Hen wagglend kruipen zien naar de afgestreden wallen,</l>
+						<l>Daar degen en musket hen siddren in de hand?</l>
+						<l>Dan was zyn wit bereikt; dan wist hy in wat stand</l>
+						<l>De Vesting zich bevind, en kon die ligt verwinnen.</l>
+						<l>Men biede aan Spanje 't hoofd, en laat' geen vleijers binnen.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Ik heb met aandacht op 't gewigt der zaak gelet,</l>
+						<l>En voed, hoe flaauw, nog hoop op 't langgewenschte ontzet.</l>
+						<l>Schoon 't wassend water door Romero word bedwongen,</l>
+						<l>De vloot is echter tot den Kerkweg doorgedrongen.</l>
+						<l>'t Is waar dat 's vyands magt volstrekt haar keeren kan.</l>
+						<l>Al zyn beschanssingen zyn daar getuigen van;</l>
+						<l>Te Zwieten, Zoeterwoude en de omgelegen streken;</l>
+						<l>Vooräl te Lammen, daar Boisot dient dóór te breeken.</l>
+						<l>Doch 't springty nadert reeds; en God, die wondren doet,</l>
+						<l>En Leydens traanen ziet, beheerscht den watervloed.</l>
+						<l>De westewind steekt op; wie weet wat heil kan daagen,</l>
+						<l>Indien wy ons bederf slechts eenen dag vertraagen?</l>
+						<l>'k Heb jaar op jaar myn trouw aan Nederland betoond,</l>
+						<l>En, daar 't zyn nut betrof, myn leven nooit verschoond:</l>
+						<l>'k Ben nog gereed myn bloed tot Leydens heil te geeven.</l>
+						<l>Doch word de Stad gered als we op haar muuren sneeven?</l>
+						<l>Ik weet, men kan zich van den felsten oorlogsnood</l>
+						<l>In 't eind bevryden door een' eerelyken dood;</l>
+						<l>Maar word dit naar ontwerp uit wanhoop niet geboren?</l>
+						<l>Hoe veel onnoozlen doen we in 't laauwe bloed niet smooren!</l>
+						<l>Een Christen, hoe vol moeds, voed altoos deerenis,</l>
+						<l>En geeft geen wanhoop plaats eer alles hooploos is.</l>
+					</sp>
+					<sp who="#van-noorden">
+						<speaker>van Noorden</speaker>
+						<l>Ach! kunnen wy de drift des vyands paalen zetten?</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Wy moeten, 't gaa zo 't will', het stormen hem beletten.</l>
+						<l>De ramp, hoe spaê hy koom', komt altoos veel te vroeg;</l>
+						<l>En, moet de Stad vergaan, 't is morgen tyds genoeg.</l>
+						<l>Men hoor' den bode; en doe geblind hem herwaart voeren.</l>
+						<l>Geen vyand moet den staat van Leyden loos beloeren.</l>
+						<l>Men houd', kan 't zyn, hem op, als zocht men handeling.</l>
+						<l>Al wint men niets dan tyd, die winst is niet gering.</l>
+						<l>Ziet daar myn' raad; en weet ge in onzen nood iets nader</l>
+						<l>Tot redding, spreek vry uit.</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<stage>tegen van der Werf.</stage>
+						<l>Getrouwe Burgervader!</l>
+						<l>Ik eer uw wys beleid.</l>
+					</sp>
+					<sp who="#van-baarsdorp">
+						<speaker>van Baarsdorp</speaker>
+						<stage>tegen van der Werf.</stage>
+						<l>Uw raad heeft my behaagd.</l>
+					</sp>
+					<sp who="#van-noorden">
+						<speaker>van Noorden</speaker>
+						<l>Ik stem in alles 't geen den val der Stad vertraagt.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<stage>tegen van der Werf.</stage>
+						<l>Maar waar' 't niet best, om 't volk niet in de zaak te mengen,</l>
+						<l>Den bode, langs den wal, in uw verblyf te brengen?</l>
+						<l>De Vroedschap heeft zich op het Raadhuis naauw' vergaêrd,</l>
+						<l>Of al het hooploos volk is daar omheen geschaard;</l>
+						<l>En ging 't als flus, dan waar' 't den vyand klaar gebleken</l>
+						<l>Hoe sterk de tweedragt 't hoofd hier somtyds op durft steeken.</l>
+						<l>De Raad zy stil verzocht in deeze omstandigheên,</l>
+						<l>En koom', van tyd tot tyd, in 't heimlyk hier byéén.</l>
+					</sp>
+					<sp who="#van-zwieten">
+						<speaker>van Zwieten</speaker>
+						<l>Dit strekt tot nut.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Weläan, ik zal u hier verbeiden.</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>En ik terstond den boô doen in de Stad geleiden.</l>
+					</sp>
+					<stage>Einde van het eerste Bedryf.</stage>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<head>Tweede bedryf.</head>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+					<stage>van der Werf, Magdalena.</stage>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Ja, toen wy dachten dat het stormen aan zou gaan,</l>
+						<l>Deed van der Does aan ons het vreemd bericht verstaan,</l>
+						<l>Dat Valdez door een' bode ons iets had voor te draagen.</l>
+						<l>Men heeft, na ryp beraad, 't gesprek niet afgeslagen.</l>
+						<l>Ik wacht den bode, en acht dat Valdez, die gewis</l>
+						<l>Veel meer om u dan om de Stad bekommerd is,</l>
+						<l>Niet heeft verzuimd aan hem een' brief voor u te geeven.</l>
+						<l>Ge ontzegt my niet te zien wat hy u heeft geschreven?</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Hy zal niets melden 't geen de Stad betreft, ô neen.</l>
+						<l>Hem is te wel bewust wat ongelegenheên</l>
+						<l>Die onvoorzichtigheid aan my zou kunnen baaren.</l>
+						<l>Ik zal, 't geen hy my schryft, u onbeschroomd verklaaren.</l>
+						<l>'t Verheugt my dat de Raad den bode hooren zal.</l>
+						<l>Geloof my, Valdez deelt in Leydens ongeval;</l>
+						<l>Hy zoekt het door zyn zorg in 't uiterst' nog te hoeden.</l>
+						<l>Bevry met hem de Stad van grooter tegenspoeden.</l>
+						<l>Zal haar de wanhoop doen vergaan in 't ongeluk,</l>
+						<l>Daar zelfs de vyand haar wil redden uit den druk?</l>
+					</sp>
+					<p>
+						<figure> </figure>
+					</p>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Indien men door beleid het stormen kan beletten,</l>
+						<l>Is 't nog niet hoopeloos dat wy haar zien ontzetten.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>'t Staat alles hoopeloos; vergeef het my, Mynheer!</l>
+						<l>Wat uitkomst wacht ge toch? De nood groeit meer en meer.</l>
+						<l>De hongersnood vernielt hen die het pestvuur spaarde;</l>
+						<l>En of ons zo veel ramps nog niet genoeg bezwaarde,</l>
+						<l>Een deel der Burgery is heimlyk Spaanschgezind.</l>
+						<l>'t Verschil van Godsdienst scheid den vrind van zynen vrind.</l>
+						<l>Dees pleit voor 't oud geloof, en die voor 't beeldenstormen;</l>
+						<l>Dees kiest des Konings dienst, die wil den Staat hervormen.</l>
+						<l>De tweedragt scheid hen die de elende saamenknoopt.</l>
+						<l>En ach! de hulp is verr'. Men heeft vergeefs gehoopt</l>
+						<l>Dat de aangegroeide vloed den vyand zou doen wyken.</l>
+						<l>Gantsch Rynland is een zee, door 't sloopen van de dyken;</l>
+						<l>Doch 't Spaansche heir houd stand, en 't water schiet te kort,</l>
+						<l>Terwyl de elende al vast ondraagelyker word.</l>
+						<l>Hoe menigwerf zyn in den nood en Prins en Staaten</l>
+						<l>Om redding aangezocht; en ach! wat kan 't ons baaten?</l>
+						<l>Men geeft ons flaauwe hoop; helaas! die hoop is 't all':</l>
+						<l>En, tot een overmaat van al ons ongeval,</l>
+						<l>Keert geen der Helden weêr, die, met gevaar van 't leven,</l>
+						<l>Den Bondgenoot bericht van onzen toestand geeven.</l>
+						<l>'t Schynt of de Spanjaard zelfs de wacht houd in de lucht.</l>
+						<l>Wat zou de duiven toch weêrhouden in haar vlucht,</l>
+						<l>Indien ze in 't Spaansche heir niet wierden opgevangen?</l>
+						<l>Gy hebt, in weêrwil van al 't wenschen en verlangen,</l>
+						<l>Sints u de laatste duif in Leyden tyding bragt,</l>
+						<l>Vier dagen lang vergeefs naar nieuw bericht gewacht.</l>
+						<l>Men weet niets van de vloot, men hoort niets van de Staaten.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Schoon alles ons begeeft, God heeft ons niet verlaaten.</l>
+						<l>Ik hoop, zelfs tegen hoop, op zynen onderstand.</l>
+						<l>Voldoe aan myn verzoek; spreek Valdez afgezant:</l>
+						<l>Hy is alrede in huis; ik zal hem hier doen komen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>van der Werf, Magdalena, van Hout.</stage>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Mynheer! de Vesting heeft een nieuw verraad te schroomen.</l>
+						<l>De vyand zend een' bode; en, eer men dien nog hoort,</l>
+						<l>Bekruipt zyn legerknecht de Hoogewoertsche poort,</l>
+						<l>En zoekt door snoode list het bolwerk te overvallen.</l>
+						<l>Wat heil dat hem Montfoort zag sluipen naar de wallen!</l>
+						<l>Hy gaat hem reeds te keer, kloekmoedig bygestaan</l>
+						<l>Van Duivenvoorde en Schot. De vyand rukt steeds aan.</l>
+						<l>De stryd word van belang.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Kom, laat ons derwaart streeven,</l>
+						<l>En nieuwe blyken van standvasten yver geeven.</l>
+						<stage>Tegen Magdalena.</stage>
+						<l>Spreek met des Vyands boô; zeg, dat, tot Leydens val,</l>
+						<l>De list zo weinig als de woede baaten zal.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Door dit gehaat bestaan gaat al myn hoop verloren.</l>
+						<l>Men scheen in 't eind naar my en naar verdrag te hooren,</l>
+						<l>Indien deeze oorlogslist....</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Magdalena, Don Francisco de Valdez.</stage>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Waar ben ik? Kan 't geschiên!</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>'t Ontzet u mooglyk hier een Vrouw alléén te zien,</l>
+						<l>Daar gy den gantschen Raad vergaderd dacht te aanschouwen.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>Valdez</speaker>
+						<l>Myn waarde Magdaleen!</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Durf ik myn oog vertrouwen?</l>
+						<l>'t Misvormd gelaat weêrspreekt de welbekende stem.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Ach! raadpleeg met uw hart.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Dat hart herkende hem</l>
+						<l>Aan wien 't getrouwheid zwoer, by ons noodlottig scheiden.</l>
+						<l>Maar ach! wat jaagt u hier? wat doet gy binnen Leyden?</l>
+						<l>Zo iemant u ontdekt, wat eindelooze elend....</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>'k Loop geen gevaar, naardien myn Bruid-zelf my niet kent.</l>
+						<l>Ik heb, vermomd in 't kleed van een' van myn soldaaten,</l>
+						<l>Ten beste van de Stad, de legerplaats verlaaten.</l>
+						<l>'k Beloofde u met een' eed van 't stormen af te staan,</l>
+						<l>In hoop dat haar 't gebrek haast zou doen overgaan:</l>
+						<l>Nu dit mislukt, en ik myn leger veel zie lyden</l>
+						<l>Op 't nat moerassig veld, door 't onöphoudlyk stryden,</l>
+						<l>Beproef ik met gevaar myns levens, deezen dag,</l>
+						<l>Of hier de Vroedschap nog wil luistren naar verdrag.</l>
+						<l>Ik hoopte u, kon het zyn, door één' der Roomschgezinden,</l>
+						<l>Te ontdekken in wat staat de zaaken zich bevinden;</l>
+						<l>En dat ik Juliaan niet meer weêrhouden kan.</l>
+						<l>'k Waag ligt te veel; maar gy, gy zyt 'er de oorzaak van.</l>
+						<l>Ik dacht niet, toen ik my dorst in de Vest betrouwen,</l>
+						<l>Dat my 't geluk aldaar myn Bruid zou doen aanschouwen.</l>
+						<l>Men bragt my van den wal geblind tot op dit erf;</l>
+						<l>Waar liet men my in 't einde?</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>In 't huis van Van der Werf.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Van hem, die, hoopeloos, de veege Stad verdedigt,</l>
+						<l>Myn Bruid gevangen houd, en my in haar beledigt?</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Hoe! waant gy dat men my hier vasthield met geweld?</l>
+						<l>Neen, 'k bleef uit keur; men heeft my d'uitgang vrygesteld.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Gy bleeft, daar ik 't beleg had om de Stad geslagen?</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Ik bleef om u, 'k bleef om my-zelve, en om myn maagen.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Gy toefde om my niet, maar uit liefde tot de Stad.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Ach! Valdez! Leyden is myn wieg en bakermat:</l>
+						<l>All' wat hier aanzien heeft bestaat my in den bloede.</l>
+						<l>De braave van der Werf, door wiens getrouwe hoede</l>
+						<l>De Stad beschermd word, is myn naaste bloedverwant;</l>
+						<l>Zyn telg myn hartvriendin; en zoude ik, in een' stand</l>
+						<l>Die zo gevaarlyk is, de Vest en hen begeeven?</l>
+						<l>Neen, neen; myn leven hangt aan myner vrienden leven.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Gy kent myn trouw te wel, dan dat gy zoud vermoên</l>
+						<l>Dat Valdez uw geslacht in 't leed niet zou behoên.</l>
+						<l>Ik had om u voor hen een teedre zorg gedraagen.</l>
+						<l>Uw vreugd strekt my tot vreugd, uw maagen zyn myn maagen.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Gy weet hoe 't Spaansche heir gewoed heeft tot deez' dag,</l>
+						<l>Wanneer het Steden won, al waar' 't zelfs door verdrag.</l>
+						<l>Gy, die myn inborst kent, kunt ligtelyk bevroeden</l>
+						<l>Wat afkeer ik gevoel van dat rampzalig woeden.</l>
+						<l>Hoe trof my Zutfens leed en Naardens wreed verdriet!</l>
+						<l>Wat leed ik door den val van 't schreijend' Haarlem niet!</l>
+						<l>Ik heb een Hollandsch hart; en heb u niet verzwegen</l>
+						<l>Dat niets het Vaderland by my ooit op kan weegen.</l>
+						<l>'k Misgun u de eer niet dat gy Leyden bukken doet,</l>
+						<l>Maar 'k moest verhoeden dat gy 't smoorde in burgerbloed.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>'k Heb nimmer dan door dwang der burgren bloed vergoten.</l>
+						<l>Ach! had ge u om die reên niet in de Stad besloten!</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Ik hoopte dat uw gunst, bewogen door myn trouw,</l>
+						<l>De Vest en burgery om my verschoonen zou;</l>
+						<l>En zocht, aan de andre zyde, uw' oorlogsroem te sterken,</l>
+						<l>Door een gewenscht verdrag ten spoedigste uit te werken.</l>
+						<l>Tot nog toe is 't mislukt. Men vreest, niet zonder reên,</l>
+						<l>Romeroos dolle woede en zyn meinëedigheên.</l>
+						<l>Die snoode kent geen deugd; en zoekt zelfs Leydens wallen,</l>
+						<l>By een der poorten, door zyn benden te overvallen,</l>
+						<l>Terwyl ge afweezig zyt: ik beef om uw gevaar.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Wat zegt ge? Hemel!</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Denk hoe my die wreede maar'</l>
+						<l>Het hart doorgriefde, en my doet siddren voor uw leven.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Romero zal, hoe stout, geen' last tot stormen geeven,</l>
+						<l>Vóór hy my wederziet. Doch zo ik deezen dag</l>
+						<l>De Vroedschap niet beweeg tot sluiting van verdrag,</l>
+						<l>Acht ik me ontslagen van den eed aan u gezworen.</l>
+						<l>Al 't leger mort; men wil niet meer van uitstel hooren.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Zoud gy besluiten tot den storm? zoud gy, Mynheer! ...</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Beklaag u niet van my; 'k ben des geen meester meer.</l>
+						<l>'k Heb om myn deerenis my reeds te lang zien hoonen.</l>
+						<l>Men zegt, dat ik door u my van myn' pligt laat troonen;</l>
+						<l>Des Konings dienst verzuim en Leyden tracht te hoên.</l>
+						<l>Niets dan de zege kan me ontslaan van dit vermoên.</l>
+						<l>'t Is zeker dat de Vest myn magt niet kan ontkomen;</l>
+						<l>Maar 'k heb Romeroos nyd en 's krygsvolks drift te schroomen.</l>
+						<l>Behoed met my de Stad voor haar' gewissen val.</l>
+						<l>Ligt dat myn voorslag aan den Raad behaagen zal.</l>
+						<l>Hoe 't zy, ik zal voor u en voor al de uwen zorgen.</l>
+						<l>'k Zie, als verwinnaar of als vriend, u weêr op morgen.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Zal Valdez dan, in spyt des eeds dien hy my zwoer? ...</l>
+						<l>Wat's dit? Ik hoor van verre een vreesselyk rumoer.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Ik hoor trompet en trom; dit zou my schier doen vreezen</l>
+						<l>Dat iets....</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Keer naar 't vertrek 't welk u is aangewezen.</l>
+						<l>'t Is uw en myn belang den achterdocht te ontvliên.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Hoe! scheiden? ...</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Volg myn' raad; ik hoop u weêr te zien.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Helaas! hoe zal ik best hem aan 't gevaar onttrekken,</l>
+						<l>En hem voor 't scherpziende oog van Van der Werf bedekken?</l>
+						<l>'t Baart alles achterdocht; een woord, een enkle zucht.</l>
+						<l>Ik vroeg geen' brief! Hoe sterk vermeerdert het gerucht!</l>
+						<l>Het nadert meer en meer op 't klinken der trompetten.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Zesde tooneel.</head>
+					<stage>Magdalena, Elizabeth.</stage>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Hoort gy die woeling niet? nu 't lossen van musketten,</l>
+						<l>Dan 't buldren van 't geschut, en dan weêr vreugdgeluid.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>ô Ja, maar 't blykt my niet waarüit dit alles spruit.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Ik zocht vergeefs de reên. Het volk schynt uitgelaaten.</l>
+						<l>Ik zag een' grooten hoop van allerleie staaten</l>
+						<l>Zich voegen by elkaêr; dees luistert, die verhaalt;</l>
+						<l>Op 't een gelaat schynt vreugd, op 't andre druk gemaald;</l>
+						<l>Dees slaat het oog omhoog, die vouwt de handen saamen;</l>
+						<l>Dees springt, een andre juicht; en, daar ik poog te raamen</l>
+						<l>Wat elk tot dit gewoel met zo veel drifts vervoert,</l>
+						<l>Hoor ik op 't steeken der trompet de trom geroerd.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>'t Schynt vreugd. Ach! dat dees vreugd de Stad tot heil gedye!</l>
+						<l>Daar is uw Vader-zelf, aan 't hoofd der burgerye.</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>Zevende tooneel.</head>
+					<stage>Magdalena, Elizabeth, van der Werf. Gewapende Burgers.</stage>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Ik dank u voor 't gelei; geliefde Burgerschaar!</l>
+						<l>Gaa, troost uw vrienden met dees heuchelyke maar',</l>
+						<l>En doe straks vaandels van de molenroeden waaijen.</l>
+						<l>Om blyken van uw' moed den vyand toe te zwaaijen.</l>
+						<l>Dat elk de post bewaar' die hem bevolen is.</l>
+						<l>De Hemel loone uw trouw door uw behoudenis!</l>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>Agtste tooneel.</head>
+					<stage>van der Werf, Magdalena, Elizabeth.</stage>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Wy hebben in het eind, door 's Hemels dierbren zegen,</l>
+						<l>Een aangenaam bericht uit Rotterdam gekregen.</l>
+						<l>Terwyl de vyand, die de Hoogewoertsche poort</l>
+						<l>Zocht te overromplen, in zyn' aanslag wierd gestoord,</l>
+						<l>En Duivenvoorde en Schot, kloekmoedig uitgevallen</l>
+						<l>Tot sterking van Montvoort, hem dreeven van de wallen,</l>
+						<l>Is Frans Corneliszoon, dien ik 's Lands Redder zond,</l>
+						<l>Opdat hy weeten mogt' hoe 't hier geschapen stond,</l>
+						<l>Begunstigd door 't gevecht by ons te rug gekomen.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Hebt ge uit dien trouwen bode iet goeds voor ons vernomen?</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Ja, zo slechts voor een poos het stormen word geweerd.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Voed gy nog hoop? kan 't zyn?</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Wy vinden ons verëerd</l>
+						<l>Met 's Prinssen eigen schrift; waarïn hy ons doet weeten,</l>
+						<l>Hoe hy, door koortsen in het krankbed neêrgesmeten,</l>
+						<l>Zich meer om ons dan om zich-zelven had gekweld;</l>
+						<l>Doch dat hy, thans volmaakt door 's Hemels gunst hersteld,</l>
+						<l>Zyn vlyt verdubblen, en, met 's Lands getrouwe Staaten,</l>
+						<l>Tot redding van de Stad niets onbeproefd zal laaten;</l>
+						<l>Dat hy de vloot bezocht; en dat ze, sterk bemand,</l>
+						<l>En ryklyk is voorzien van allen onderstand;</l>
+						<l>Dat Willemse en Boisot en al de fiere Zeeuwen,</l>
+						<l>Van yver blaakende, zo moedig zyn als leeuwen,</l>
+						<l>En glori draagen op de wonden, die hun trouw</l>
+						<l>Verkreeg in 't schraagen van het wanklend Staatsgebouw;</l>
+						<l>Dat zy, om Leydens leed op Spanje fel te wreeken,</l>
+						<l>Zich reeds bereiden om den Kerkweg dóór te steeken;</l>
+						<l>Terwyl men, vol van hoop, op 't nadrend springty wacht.</l>
+						<l>Wy hebben 's Volks verdriet, zo veel men kon, verzacht</l>
+						<l>Door deeze maar' terstond van 't Raadhuis af te leezen.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Helaas! verschaft dit reên om zo verheugd te weezen?</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Dit troost het treurend volk, en sterkt het in 't verdriet.</l>
+						<l>'t Hervat den moed, wanneer 't den Raad gemoedigd ziet;</l>
+						<l>En woeste muitzucht, die ons reden gaf tot zorgen,</l>
+						<l>Houd, op 't gezicht dier vreugd, uit angst het hoofd verborgen.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Ik merk, helaas! schoon ons Oranje vleijend schryft,</l>
+						<l>Dat Leyden weinig hoops op uitkomst ovrig blyft,</l>
+						<l>En haast ten wissen prooije aan Spanjes wraak zal strekken.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Ik zal het, met Gods hulp, nog aan die wraak onttrekken.</l>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>Negende tooneel.</head>
+					<stage>van der Werf, Magdalena, Elizabeth, van Hout.</stage>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Myn waarde Vrienden! deelt in 't heil dat elk verblyd;</l>
+						<l>'t Schynt of de hoogste Magt voor Leydens burgren stryd.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Wat is 'er gaans?</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Na dat de wakkre Duivenvoorde</l>
+						<l>Met Schot tot in het heir der Castiljaanen boorde,</l>
+						<l>Hun list hen duur betaalde, en wraak nam in hun bloed,</l>
+						<l>Trok Haviks met zyn bende, ontvonkt door d' eigen moed,</l>
+						<l>Daar 't volk van Van der Does zyn' aanslag onderstutte,</l>
+						<l>Stil naar de Haagsche poort; of hy, de Stad ten nutte,</l>
+						<l>Gelukkig slaagen mogt de Boschenhuizer schans</l>
+						<l>Te winnen door geweld. Hoe hagchlyk hen de kans</l>
+						<l>Der zege viel, thans blykt wat drift en moed vermogen.</l>
+						<l>Het volk, met stillen trom, in orde voortgetoogen,</l>
+						<l>Tot aan den Schanswal toe, viel aan met heesch geschreeuw,</l>
+						<l>En toonde aan Spanje d'aart van Hollands fieren Leeuw.</l>
+						<l>De vyand scheen gehard den aanval af te keeren,</l>
+						<l>En poogde, schoon verrast, kloekmoedig zich te weeren.</l>
+						<l>Ons dapper volk bood trouw elkandren onderstand.</l>
+						<l>De glazen sulpherfles vliegt straks uit hand by hand,</l>
+						<l>En word met brandend lont den vyand toegedreven,</l>
+						<l>Zet al de schans in roer en doet de stoutsten sneeven,</l>
+						<l>Daar stof en rook en vlam zich mengen, slag op slag.</l>
+						<l>De polsstok-zelf dient tot geweer op deezen dag.</l>
+						<l>Men zag Phlip Dirksz het eerst den schanswal overspringen.</l>
+						<l>De vyand zocht vergeefs ons volk terug te dringen.</l>
+						<l>Door vuur of zwaard verschrikt, dat hy aan allen kant</l>
+						<l>Ontmoet, zinkt hem in 't eind de degen uit de hand.</l>
+						<l>Hy smeekt om lyfsgenaê. Doch 't loon, dat wy beloofden</l>
+						<l>In d' aanvang van 't Beleg voor de afgehouwen hoofden,</l>
+						<l>Heeft meer vermogen dan zyn smeeken en gebeên.</l>
+						<l>'t Geschrei van zege en moord vermengt zich onderéén.</l>
+						<l>Geen Spanjaard vind genaê; all' wat niet vlucht moet sneeven.</l>
+						<l>Zelfs rukte een Zeeuwsch matroos, hier in de Vest gebleven,</l>
+						<l>Een' Spaansch' soldaat het hart halfleevende uit de borst,</l>
+						<l>En sloeg 'er, woedende en van 't laauwe bloed bemorst,</l>
+						<l>De scherpe tanden in, en wierp het voor de honden,</l>
+						<l>Naardien hy 't voor zyn' smaak te bitter had bevonden.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Tot welk een razerny zet wanhoop Neêrland aan!</l>
+						<l>Ach! had de woede van den wreeden Castiljaan</l>
+						<l>De ontzinde wraakzucht in ons hart niet op doen komen!</l>
+						<l>Dan 't voegt ons door beleid die woestheid in te toomen.</l>
+						<l>Vervolg.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>De vyand zond, gewekt door 't moordgerucht,</l>
+						<l>Alöm uit schans by schans vuurteekens naar de lucht.</l>
+						<l>Het volk van Marion, hoe spoedig aangevlogen,</l>
+						<l>Zag de aangevochten schans met smart in ons vermogen.</l>
+						<l>Al 't leger raakt in roer. De vyandlyke schaar',</l>
+						<l>Van Lammen, Zoeterwoud, Voorschooten, Wassenaar</l>
+						<l>En Leyderdorp, snelt aan. Ons volk zag trouw zich schraagen</l>
+						<l>Door Duivenvoorde en Schot, die zich kloekmoedig waagen,</l>
+						<l>Om, zo het mooglyk waar', der burgerye kans</l>
+						<l>En tyd te geeven tot vernieling van de schans.</l>
+						<l>Wat arbeids deed men niet; hoe repten zich de handen!</l>
+						<l>'t Scheen of het driftig volk met nagelen en tanden</l>
+						<l>Het vyandlyk gevaart' zou sloopen tot den grond.</l>
+						<l>En schoon de Castiljaan zich driewerf onderwond</l>
+						<l>Om Leydens helden uit de veege schans te jaagen,</l>
+						<l>Men heeft tot driewerf toe hem stout terug geslaagen.</l>
+						<l>Doch Spanjes overmagt wierd in het eind zo groot,</l>
+						<l>Dat ons kloekmoedig volk den aftogt wys besloot,</l>
+						<l>Uit zorg of 't zich den weg naar Leyden mogt zien stoppen:</l>
+						<l>Men keerde in zegepraal met honderd Spaansche koppen.</l>
+						<l>Doch Haviks is gewond; dees ramp verkleint de vreugd.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>ô Leydsche Burgers, zo beroemd door heldendeugd!</l>
+						<l>Kost gy den hongersnood gelyk het zwaard verduuren,</l>
+						<l>Gy zaagt al Spanjes magt verstuiven van uw muuren.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Dit voorval rekt den tyd en geeft den burger moed,</l>
+						<l>Terwyl hy de uuren telt van 't wassen van den vloed.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Helaas! wat voordeel kan de vloed aan Leyden baaren?</l>
+						<l>Zo 't Spaansche Legerhoofd zyn posten blyft bewaaren,</l>
+						<l>Zien wy de Zeeuwsche vloot....</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>De Raad komt reeds byéén.</l>
+						<stage>Tegen Magdalena.</stage>
+						<l>Gy hebt den boô gezien? bragt hy u brieven?</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Neen.</l>
+						<l>Hy heeft my slechts gemeld dat Valdez, aangedreven</l>
+						<l>Door 's krygsvolks woeste drift, het stormen toe moet geeven;</l>
+						<l>Doch dat hy, steeds bedacht op 't spaaren van de Stad,</l>
+						<l>Den Spaanschen Krygsraad door zyn taal bewogen had</l>
+						<l>Om, eer men tot den storm bevel gaf aan de benden,</l>
+						<l>Aan Leydens Raad voor 't laatste een' bode toe te zenden,</l>
+						<l>En hen, zo 't mooglyk waar', te noopen tot den vreê.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Eer 't moedig Leyden hoor' naar die geveinsde beê,</l>
+						<l>Gaa al het Spaansche heir, en Valdez-zelf verloren!</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Uw yver gaat wat ver; laat ons den bode hooren.</l>
+					</sp>
+					<stage>Einde van het tweede Bedryf.</stage>
+				</div>
+			</div>
+			<div type="act" n="3">
+				<head>Derde bedryf.</head>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+					<stage>van der Werf, van Zwieten, van Noorden, van Baarsdorp, van Hout, van der
+						Does, Raaden, Kapiteinen der Burgery.</stage>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Men dient, eer Valdez boô by Leydens achtbren Raad</l>
+						<l>Zyns meesters last verricht, den hagchelyken staat</l>
+						<l>Waarïn de Stad zich vind aandachtig te overweegen.</l>
+					</sp>
+					<sp who="#van-noorden">
+						<speaker>van Noorden</speaker>
+						<l>Het ongenoegen is ten hoogsten top gestegen.</l>
+						<l>'t Volk is mistroostig door den honger, die het knelt,</l>
+						<l>En schimpt op 't schrift, gedrukt op ons papieren geld</l>
+						<l>Door last des achtbren Raads.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Dit is de vrucht van 't stooken.</l>
+						<stage>Tegen van der Werf.</stage>
+						<l>Had ik myn' zin gevolgd, die toeleg waar' gebroken.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Het volk verwart de zaak; zyn ongenoegen zal</l>
+						<l>Bedaaren als de Stad bevryd is van haar' val.</l>
+					</sp>
+					<p>
+						<figure> </figure>
+					</p>
+					<sp who="#van-noorden">
+						<speaker>van Noorden</speaker>
+						<l>Gy denkt dan nog dat gy de Vesting zult bevryden,</l>
+						<l>Sints Haviks haar ontviel, die zwoer haar vry te stryden?</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Beschimpt ge een' dooden leeuw?</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Dit is dan 't loon der trouw?</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Strekte elk zo sterk een zuil aan 't wanklend Staatsgebouw</l>
+						<l>Als Haviks, Allertszoon, en Bronkhorst in hun leven,</l>
+						<l>De magt van Spanje waar' voorlang als kaf verdreven.</l>
+						<l>'t Gemeene welzyn wierd verdadigd door hunn' moed.</l>
+						<l>Gelukkig in zich-zelv', geleerd door tegenspoed,</l>
+						<l>Hield hunne vroomheid proef in 't midden der gevaaren.</l>
+						<l>De naneef zal hunn' roem in 's Lands kronyk bewaaren.</l>
+					</sp>
+					<sp who="#van-zwieten">
+						<speaker>van Zwieten</speaker>
+						<l>Zy zyn den ramp ontgaan, die, in deez' zwakken wal,</l>
+						<l>Ten zy 't verdrag ons redde, ons allen treffen zal.</l>
+					</sp>
+					<sp who="#van-baarsdorp">
+						<speaker>van Baarsdorp</speaker>
+						<l>'t Is meer dan zwichtens tyd. Elk hoede zich voor schade.</l>
+						<l>Men geev' de Vesting op, al waar' 't ook op genade.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Dat stemt geen eerlyk man, die binnen Leyden leeft.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>En 't is een Burgerheer die deezen raad ons geeft?</l>
+						<l>Dit draaft nog hooger dan door snoode muitelingen</l>
+						<l>Getrouwen van der Does en my naar 't lyf te dingen.</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Nu zien wy wie het zyn, wier baatziek zelfbelang</l>
+						<l>Naar eigen grootheid staat door Leydens ondergang.</l>
+						<l>Wy zwichten voor 't geweld? wie om genaê moog' smeeken,</l>
+						<l>Myn ziel beseft te wel wat gruwlen zy moet wreeken,</l>
+						<l>En om wat wreedheid ik, tot aan myn' jongsten dag,</l>
+						<l>De wraak des Hemels op den Spanjaard bidden mag.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>'k Waar' liever met de Stad door sulpher opgevlogen.</l>
+					</sp>
+					<sp who="#van-zwieten">
+						<speaker>van Zwieten</speaker>
+						<l>Gyzelf toont door die taal ons Leydens onvermogen.</l>
+					</sp>
+					<sp who="#van-baarsdorp">
+						<speaker>van Baarsdorp</speaker>
+						<l>Neen, dit heet zorgen voor het welzyn van 't gemeen.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Wy hebben eens de Stad kloekmoedig vrygestreên;</l>
+						<l>En zou men wanklen, nu de vyand op de wallen,</l>
+						<l>Waar hy het hoofd voor stiet, op nieuw is aangevallen?</l>
+						<l>Hy smeek' wien 't smeeken lust'; ik stem tot geen verdrag.</l>
+					</sp>
+					<sp who="#van-noorden">
+						<speaker>van Noorden</speaker>
+						<l>Uw yver waar' gegrond, indien men uitkomst zag.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>De Handvestschenner vleit, om zich door list te wreeken,</l>
+						<l>En, onder vriendschapsschyn, ons naar het hart te steeken.</l>
+						<l>Zo deed hy Egmond, Hoorne, en Batenborg welëer;</l>
+						<l>Wy kennen zyn bedrog: hier geld geen vleitaal meer.</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>De Hopliên zyn getroost zich van hunn' eed te kwyten,</l>
+						<l>En op den muur het spits kloekhartig af te byten.</l>
+						<l>Wat zou een vergelyk ons baaten? geen verbond,</l>
+						<l>Hoe sterk gestaafd, dat Phlips, als 't hem geviel, niet schond.</l>
+						<l>Gantsch Nederland heeft tot zyn schaê zulks ondervonden;</l>
+						<l>'k Zwyg wat de Spanjaards in America bestonden.</l>
+						<l>De hulp des Hemels bleek op deezen dag zo klaar,</l>
+						<l>Dat elk den moed hervat in weêrwil van 't gevaar.</l>
+						<l>Schoon ik den toestand van de Stad gevaarlyk reken',</l>
+						<l>'k Denk echter dat men straks de handling af moet breeken.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Dat ons geen list verstrikk': des vyands oogmerk is</l>
+						<l>Geenszins verdrag te biên, maar wel vergiffenis.</l>
+						<l>En heeft een volk, dat nooit het Graaflyk recht ontëerde,</l>
+						<l>Maar slechts zyn eigen recht naar billykheid verweerde,</l>
+						<l>Vergifnis noodig van zyn' Landsheer? neen, ô neen.</l>
+						<l>Men gaf 't misbruikt gezag daardoor gelegenheên</l>
+						<l>Om Neêrlands Steden haar geheiligd recht te ontrukken,</l>
+						<l>En aller vryheid op het schandlykst te onderdrukken.</l>
+						<l>Wie slaverny verkieze, ik acht het my tot eer</l>
+						<l>Dat ik, tot aan myn' dood, de vryheid trouw verweer'.</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Welke eene onsterflyke eer voor Neêrlands wyze Staaten</l>
+						<l>En Held Oranje, zo hun voorzorg ons kon baaten;</l>
+						<l>En 't offren van al 't land aan 't overstroomend nat</l>
+						<l>Ten minsten diende tot verlossing van de Stad!</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Zou Alkmaars Vest, die 't Land doet van haar' roem gewaagen,</l>
+						<l>En Spanjes Dwingeland zo fier heeft afgeslagen,</l>
+						<l>Ons niet doen bloozen, zo de Leydsche burgery</l>
+						<l>Voor zyn geweld bezweek, en minder deed dan zy?</l>
+					</sp>
+					<sp who="#van-zwieten">
+						<speaker>van Zwieten</speaker>
+						<l>Hoe stillen wy 't gemor der Castiljaansgezinden?</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<stage>tegen van Zwieten.</stage>
+						<l>Men legg' hen de inborst vóór van hun geveinsde vrinden,</l>
+						<l>En toon' hoe weinig hen die vriendschap baaten kan;</l>
+						<l>Al de ingenomen Steên zyn daar getuigen van.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Dewyl de stedeling toch 't leven moet verliezen,</l>
+						<l>By de overgaaf der Stad, zo laat ons 't veiligst kiezen;</l>
+						<l>En wachten op 't ontzet en 's Hemels onderstand.</l>
+						<l>Wat zegt de Raad?</l>
+						<stage>Hy ziet de Raaden in het ronde aan, die vervolgens zich buigen; en
+							zegt, na een weinig stilzwygens.</stage>
+						<l>Wat heil voor 't lieve Vaderland,</l>
+						<l>Zo veel Grootmoedigen in Leydens Raad te ontdekken,</l>
+						<l>Die 't weeren van 't geweld zich doen tot glori strekken!</l>
+						<stage>Tegen van der Does.</stage>
+						<l>Gelei den bode hier op ons verzoek, Mynheer!</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>van der Werf, van Zwieten, van Noorden, van Baarsdorp, van Hout, Raaden,
+						Kapiteinen der Burgery.</stage>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>De algoede Hemel zie op onze elende neêr!</l>
+						<l>Zyn hand, die 't ravensnest, daar 't schreeuwt om aas, wil voeden,</l>
+						<l>Zal Leydens hongrend volk óók in zyn' nood behoeden.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>van der Werf, van Zwieten, van Noorden, van Baarsdorp, Raaden, Kapiteinen
+						der Burgery, van der Does, de Valdez.</stage>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>De Hoofden van ons heir begroeten Leydens Raad.</l>
+						<l>Zy zenden, wel bewust hoe 't hier geschapen staat,</l>
+						<l>En dat de veege Stad 't bederf niet kan ontvlieden,</l>
+						<l>My voor de laatstemaal om haar den vreê te bieden.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>De naam van vrede klinkt in Leydens ooren schoon;</l>
+						<l>Maar zeg ons welk een vreê de Stad word aangeboôn.</l>
+						<l>Zal Spanje in 't eind om ons de benden doen vertrekken,</l>
+						<l>Die 't kwynend Nederland tot wreede beulen strekken;</l>
+						<l>Den Staat ontheffen van d'ondraagelyken last</l>
+						<l>Der schattingen, waardoor de Steden zyn vermast;</l>
+						<l>Zal 't eens de ketenen van 't vry geweeten breeken,</l>
+						<l>Geen martelvuuren meer in Nederland ontsteeken,</l>
+						<l>En laaten aan het volk zyn recht en Godsdienst vry,</l>
+						<l>Opdat de vreê geen bron van nieuwen oorlog zy?</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Dit is geen antwoord op myn' last u voorgedraagen.</l>
+						<l>Zo Neêrland op dien voet den Vorst om vreê dorst vraagen,</l>
+						<l>Verstrekte nog die taal tot hoon van zyn gezag.</l>
+						<l>Ik spreek u van geen Staats-, maar van een Stadsverdrag.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Is Leyden dan geen lid van Hollands achtbre Staaten?</l>
+						<l>Wy hebben één belang, en zouden wy 't verlaaten</l>
+						<l>En sterken tot hun schaê het onbepaald gebied!</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Gy pleit voor hun belang en ziet het uwe niet.</l>
+						<l>Myn meesters zoeken u den ramp te doen ontkomen,</l>
+						<l>Die al de Steden als een vloed zal overstroomen,</l>
+						<l>Wier onbezonnen drift tot muitzucht saamenspant.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<stage>ter zyde.</stage>
+						<l>Ja, muitzucht moet het zyn.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>'t Is hard dat Nederland</l>
+						<l>Zich tegen zynen Vorst, door nood geperst, moet weeren.</l>
+						<l>Doch dit, dit is de vrucht van 't onbepaald regeeren.</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Had hy, gelyk men hem zo dikwerf heeft geraên,</l>
+						<l>De rechten van het Land wat minder wederstaan;</l>
+						<l>Granvelle min geloofd; geluisterd naar de beden,</l>
+						<l>Voor zynen troon gestort door Edelen en Steden;</l>
+						<l>Hy waar' nog door al 't Land gediend tot deezen dag.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Het bleek hoe veel het volk zyn' wettig' Vorst ontzag,</l>
+						<l>Wanneer 't, in stede van zyne oppermagt te erkennen,</l>
+						<l>Door Nassauws list verleid, zich op hem aan liet schennen;</l>
+						<l>Zich schuldig maakende aan gekwetste Majesteit.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Het Land erkent een' Graaf, geen oppermogendheid.</l>
+						<l>Het zwoer den Koning trouw, en hy zwoer ons 's Lands rechten</l>
+						<l>Trouwhartig vóór te staan; en dorst hy die bevechten,</l>
+						<l>Wie schond dan, hy of wy, het vastgestaafd verbond?</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Men weet wat Brederoô met de Edelen bestond.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Zy zagen met verdriet de rechten van de Steden</l>
+						<l>Verachtelyk beschimpt en met den voet getreeden.</l>
+						<l>Wie hen verweerde wierd vervolgd en uitgeroeid,</l>
+						<l>En 't vry geweeten zelfs door 't snoodst geweld geboeid.</l>
+						<l>Men zocht, naar eigenwil, gehaate vreemdelingen</l>
+						<l>In 't Bisschoplyke kleed de kerken op te dringen,</l>
+						<l>Om 't inquizitievuur te ontsteeken in ons Land.</l>
+						<l>Hoe veelen zyn 'er door hun woeden niet verbrand?</l>
+						<l>Wat heeft der beulen zwaard al schuldloos bloed vergoten?</l>
+						<l>Dees leeden om 't geloof, die om geloofsgenooten.</l>
+						<l>Hoe lang heeft Nederland dit met geduld geleên!</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Men zag de teekenen van 's volks langkmoedigheên,</l>
+						<l>Wanneer het wyd en zyd, in kerk en op altaaren,</l>
+						<l>De Heiligen vernielde.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Al die verbryzelaaren</l>
+						<l>En beeldenstormers zyn 's Lands braafste burgers niet.</l>
+						<l>'t Gemeen volgt onbedacht al wat de drift gebied.</l>
+						<l>Zyn woede, door het woên der Geestlykheid ontstoken,</l>
+						<l>Heeft al het martelbloed op hout en steen gewroken.</l>
+						<l>'k Misprys nochtans die drift: men moest elkaêr verstaan.</l>
+						<l>Nooit heeft de bittre twist den Godsdienst nut gedaan.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Ik zie nog minder kwaad in 't woeste beeldvernielen,</l>
+						<l>Dan in veel duizenden door vuur en staal te ontzielen.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Gy pleit voor muitzucht en voor heiligschendery?</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Gy pleit voor snood geweld en zielendwinglandy?</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Dit twisten is onnut. Myn meesters trachten Leyden</l>
+						<l>Aan 't leed te onttrekken dat de storm het zou bereiden.</l>
+						<l>Voorkom uw' ondergang. 'k Bie u vergiffenis</l>
+						<l>Zo ruim als ze immer aan een Stad geschonken is.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Dit is de vrede dan die Leyden zou erlangen?</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Die schuldloos is, heeft geen vergiffenis te ontfangen.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Wanneer de veege Stad zal vallen door den stryd,</l>
+						<l>Zal 't krygsvolk u doen zien hoe schuldeloos gy zyt.</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Wy zullen dat gespuis van onze wallen keeren,</l>
+						<l>En tot den laatsten man de vryheid grootsch verweeren.</l>
+						<l>Wy stryden voor haar recht.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Zeg dat gy daarvoor vast.</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Dat vasten doet ons eer; maar 't strekt tot Spanjes last</l>
+						<l>Dat onze dapperheid op zyne legerwallen</l>
+						<l>Reeds byna honderdmaal met vrucht is uitgevallen.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Dat baarde u weinig nuts. Gy vleit u met den vloed.</l>
+						<l>Klim naar uw toorens; zie daar 't water te gemoet.</l>
+						<l>Doch eer de Vest door 't nat verlossing zal verkrygen,</l>
+						<l>Zal 't water, 'k zweer u zulks, de schanssen over stygen.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Gy overschryd uw last en dwaalt van 't spoor der reên.</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Zo groot een hoon wierd naauw' van Valdez-zelv' geleên.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Ik spreek vryüit, om u aan 't ongeval te onttrekken.</l>
+						<l>Het deert my Leydens Raad een' prooi te zien verstrekken</l>
+						<l>Van 's krygsvolks woeste drift, die onverbidlyk woed.</l>
+						<l>Verschoon de Stad, u-zelv', en spaar der burgren bloed.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Wy zullen welgetroost ons naadrend lot verbeiden.</l>
+						<l>Men zal u, naar ons woord, weêr veilig uitgeleiden.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>van der Werf, van Zwieten, van Noorden, van Baarsdorp, van der Does, van
+						Hout, Raaden, Kapiteinen der Burgery.</stage>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Gy hoort met welk een' trots de Spanjaard ons beschimpt,</l>
+						<l>En 's Vorsten dwinglandy, die ons verdrukt, verglimpt.</l>
+						<l>Dit was de vrede dan die ons wierd voorgedraagen!</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Wat heil, dat zulk een vreê door ons is afgeslagen!</l>
+					</sp>
+					<sp who="#van-zwieten">
+						<speaker>van Zwieten</speaker>
+						<l>Maar zo de vyand tot den storm besluit, Mynheer!</l>
+						<l>Gelyk hy heeft gedreigd?</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Dan sterven wy met eer.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>'t Is beter eerlyk in 't verdedigen te sneeven,</l>
+						<l>Dan Leyden aan het woên des krygsvolks op te geeven.</l>
+					</sp>
+					<sp who="#van-noorden">
+						<speaker>van Noorden</speaker>
+						<l>Doch zo men 't stormen kon verhoeden door beleid.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>'t Waar' nut, en stuite ligt den ramp aan ons bereid.</l>
+						<l>Gy weet waartoe myn Nicht zich ophoud in de Veste,</l>
+						<l>En hoe ze in 't lang Beleg zich kweet ten onzen beste;</l>
+						<l>Dat Valdez haar bemint en zy hem huuwen zal.</l>
+						<l>Men zoeke, uit naam des Raads, haar aan in 't ongeval;</l>
+						<l>En doe haar met den bode, eer hy terug keert, spreeken.</l>
+					</sp>
+					<sp who="#van-noorden">
+						<speaker>van Noorden</speaker>
+						<l>Haar trouw is in den nood ons meer dan eens gebleken.</l>
+					</sp>
+					<sp who="#van-zwieten">
+						<speaker>van Zwieten</speaker>
+						<l>Zou door haar tusschenkomst zich Valdez laaten raên?</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Zy zal all' wat zy kan tot Leydens heil bestaan.</l>
+						<l>Van alle rampen staat ons 't stormen meest te vreezen;</l>
+						<l>En, schoon haar voorspraak wierd door Valdez afgewezen,</l>
+						<l>Wy waagen niets.</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Weläan, beproeven we op deez' dag</l>
+						<l>Of liefde en deernis by een' Spanjaard iets vermag.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<stage>tegen van der Werf.</stage>
+						<l>Myn Vriend, ik zal terstond haar in de zaal geleiden.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>van der Werf, van Zwieten, van Noorden, van Baarsdorp, van der Does,
+						Raaden, Kapiteinen der Burgery.</stage>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Romero zal gewis niet meer met stormen beiden.</l>
+						<l>'t Verveelt hem dat hy reeds zich op de Vest niet wreekt.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Ligt dat dit tusschen hem en Valdez tweedragt kweekt.</l>
+						<l>Wy weeten dat ze alreeds, door eerzucht aangedreven,</l>
+						<l>Elkandren blyken van de hevigste afgunst geeven.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Zesde tooneel.</head>
+					<stage>van der Werf, van Zwieten, van Noorden, van Baarsdorp, van der Does,
+						Raaden, Kapiteinen der Burgery, van Hout, Magdalena.</stage>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>'t Is Leydens Raad, myn Nicht! die u door my begroet.</l>
+						<l>De deernis, die uw ziel om onzen toestand voed,</l>
+						<l>Deed ons besluiten om, in de algemeene smarte,</l>
+						<l>Een steun te zoeken in uw trouw en Hollandsch harte.</l>
+						<l>Ligt is 't behoud der Stad dit uur in uwe hand.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Myn ziel vind haar geluk in 't heil van 't Vaderland.</l>
+						<l>Een Nederlandsche vrouw waardeert en kent haar pligten.</l>
+						<l>Maar ach! wat kan ik thans tot Leydens heil verrichten?</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Men heeft den boô gehoord en hem zyn' eisch ontzegd.</l>
+						<l>De Raaden zyn getroost voor 's Lands geheiligd recht</l>
+						<l>Kloekmoedig pal te staan, en in de Vest te sneeven,</l>
+						<l>Eer dan haar aan 't geweld des vyands op te geeven.</l>
+						<l>Doch Valdez dreigt den storm; en, zo hy dien bestaat,</l>
+						<l>Is 't hagchlyk of de Stad daardoor niet overgaat.</l>
+						<l>Zo dit gebeurt, zal hier de moedwil alles vellen.</l>
+						<l>Gy hebt tot aan dit uur het stormen uit doen stellen.</l>
+						<l>Spreek Valdez afgezant op ons verzoek, en tracht</l>
+						<l>Ons voor geweld te hoên, ten minsten deezen nacht.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Myn hart had zich gevleid de wreede krygsëlenden</l>
+						<l>Door een gewenscht verdrag van Leyden af te wenden;</l>
+						<l>De Stad te veiligen voor haar' gedreigden val.</l>
+						<l>Ik heb my, op die hoop, besloten in deez' wal.</l>
+						<l>Doch nu men in den Raad tot noodweer blyft besluiten;</l>
+						<l>Nu ik door geen verdrag het ongeval kan stuiten,</l>
+						<l>Zal ik, hoe weinig vrucht ik van myn voorspraak wacht',</l>
+						<l>Den Raad voor 't minst doen zien hoe hoog ik Leyden acht.</l>
+					</sp>
+					<sp who="#van-noorden">
+						<speaker>van Noorden</speaker>
+						<l>Ach! doe den vyand door uw beê den storm vertraagen:</l>
+						<l>Beveilig dus de Stad, de burgren en uw magen.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Wat roem verkrygt ge, ô Moons! zo onze hoop gelukt!</l>
+						<l>Heeft Kenau Hasselaar haar' naam den tyd ontrukt,</l>
+						<l>Door Haarlem vóór te staan in't kloek doch vruchtloos stryden?</l>
+						<l>Wat eer wacht u, indien gy Leyden kunt bevryden!</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>Zevende tooneel.</head>
+					<stage>van der Werf, van Zwieten, van Noorden, van Baarsdorp, van der Does, van
+						Hout, Magdalena, Raaden, Kapiteinen der Burgery, Elizabeth.</stage>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Wat jaagt u hier, myn Kind?</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Gedreven door myn' pligt,</l>
+						<l>Breng ik den achtbren Raad een aangenaam bericht.</l>
+						<l>Het water is alreeds byna een' voet gewassen.</l>
+						<l>De dappre vlooteling zoekt op die kans te passen,</l>
+						<l>En valt den Kerkweg aan. Het akelig gerucht</l>
+						<l>Van 't weêrzyds krygsgeschrei vervult alöm de lucht.</l>
+						<l>'k Begaf my naar den wal en op den Monniks-toren:</l>
+						<l>Ik zag van daar 't gevecht; gy kunt nog 't schieten hooren.</l>
+						<l>'t Volk schreit van blydschap op de straaten; groot en kleen</l>
+						<l>Vliegt naar de kerken, om met zuchten en gebeên</l>
+						<l>Te smeeken dat de vloed den Kerkweg dóór moog' dringen,</l>
+						<l>En 's Hemels dierbre gunst de dappre vlootelingen</l>
+						<l>Genadig bystaa in den hagchelyken stryd.</l>
+						<l>De vloed bruischt sterker aan en wast van tyd tot tyd.</l>
+						<l>De lucht is dik bezet met nevelen en buijën.</l>
+						<l>De wind steekt hevig op en trekt steeds meer naar 't zuijen.</l>
+						<l>Dit geeft den Burger hoop op 't langgewenscht ontzet.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Algoedheid, staa ons by! verhoor des volks gebed!</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<stage>tegen Elizabeth.</stage>
+						<l>Uw tyding doet de vreugd in 't hart des Raads herleeven.</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Komt, laat ons eensgezind naar Leydens muuren streeven,</l>
+						<l>Om by der hand te zyn zo 't wierd vereischt.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Weläan.</l>
+						<stage>Tegen Magdalena.</stage>
+						<l>Spreek Valdez boô, en tracht den storm toch af te raên.</l>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>Agtste tooneel.</head>
+					<stage>Magdalena, Elizabeth.</stage>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Myn Hartvriendin! wat vreugd, na zo veel tegenspoeden!</l>
+						<l>Och of de Hemel ons voor 't onheil wilde hoeden!</l>
+						<l>Gy zwygt; en gy verbleekt. Wat deert u? Wat gaf reên</l>
+						<l>Tot deeze ontsteltenis?</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Vriendin! ... ach! laat me alleen.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Schuwt gy myn byzyn? hoe! ...</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Helaas! ik ben verloren.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Mag ik uw onderhoud met Valdez boô niet hooren?</l>
+						<l>Hebt gy geheimen die ge Elizabeth thans heelt,</l>
+						<l>Daar ge anders haar 't geheim uws harte mededeelt?</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Helaas! Vriendin!</l>
+						<stage>Na een weinig stilzwygens.</stage>
+						<l>Zie of myn hart u durft betrouwen.</l>
+						<l>'t Is Valdez-zelf dien ik terstond hier zal aanschouwen.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Wat zegt ge? Valdez! Hy! dit moet de Raad verstaan.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<stage>haar wederhoudende.</stage>
+						<l>Vertoef. Helaas! gy zoud ons allen doen vergaan.</l>
+						<l>Moet ik u by 't behoud van Stad en volk bezweeren....</l>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>Negende tooneel.</head>
+					<stage>Magdalena, Elizabeth, de Valdez.</stage>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Waartoe belet men my weêr naar ons heir te keeren?</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>'k Zocht u nog eens te zien, eer gy de Stad verlaat.</l>
+						<l>Myn Valdez!</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Hemel! Is 't myn Bruid die my verraad?</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Kunt gy myn ziel van die lafhartigheid verdenken?</l>
+						<l>Neen, vrees niet dat ik ooit myn deugd en trouw zal krenken.</l>
+						<l>'t Geval heeft myn Vriendin in dit vertrek gebragt</l>
+						<l>Terwyl ik u verbeide; en 't stond niet in myn magt</l>
+						<l>U by ons laatst vaarwel te onttrekken aan haare oogen.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<stage>tegen Elizabeth.</stage>
+						<l>Mevrouw! zo u 't gevaar der Vest ooit heeft bewogen;</l>
+						<l>Zo gy belang in 't heil van uwen Vader stelt;</l>
+						<l>Indien uw veiligheid in 't minste by u geld;</l>
+						<l>Bewaar dan dit geheim.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Ik dat geheim bewaaren?</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Myn Hartvriendin! laat dit verzoek u niet bezwaaren.</l>
+						<l>De Raad heeft Spanjes bode een vry gelei verleend;</l>
+						<l>En is die afgezant een ander dan gy meent,</l>
+						<l>'t Is buiten u, en kan tot niemands nadeel strekken.</l>
+						<stage>Tegen Valdez.</stage>
+						<l>Stel u gerust, Mynheer! zy zal u niet ontdekken.</l>
+						<l>Maar meld me, eer gy vertrekt, wat ge eindlyk zult bestaan.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Men dwingt my tot den storm. 't Is met de Stad gedaan.</l>
+						<l>Men weigert fier 't verdrag, en luistert naar geen reden.</l>
+						<l>Men hoont myn' Vorst en my door bitsche oploopendheden.</l>
+						<l>'k Heb all' wat ik vermogt tot heil der Vest verricht.</l>
+						<l>Verwyt voortaan my niets. Vaar wel; ik ken myn' pligt.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Is 't Valdez, die altoos de onnoozlen zocht te hoeden,</l>
+						<l>Die in dit uur besluit des krygsvolks heilloos woeden</l>
+						<l>Te sterken door zyn' last? zal hy de droeve Stad,</l>
+						<l>Alreeds door pest verzwakt, door honger afgemat,</l>
+						<l>En neigende ten val, door stormen overheeren?</l>
+						<l>Zal hy het ovrig volk doen door het staal verteeren,</l>
+						<l>En verwen met hun bloed de aan my verloofde hand;</l>
+						<l>En stichten voor myn oog een' onuitbluschbren brand?</l>
+						<l>Zal hy, om de yslykheên des oorlogs saam te mengen,</l>
+						<l>Des krygsvolks heilloos woên op vrouw en maagd gehengen;</l>
+						<l>En wisschen op één' dag al zyne deugden uit?</l>
+						<l>Zal hy in deezen stand de aan hem verloofde Bruid,</l>
+						<l>Bezweken door verdriet by haar geslagte magen,</l>
+						<l>Waarvoor zy vruchtloos bad, begroeten en behaagen?</l>
+						<l>Is dit de huwlykspraal die hy voor haar bereid?</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Gy schildert my vergeefs des oorlogs aakligheid.</l>
+						<l>'k Ben schuldloos nu de Stad zich-zelve wil verderven.</l>
+						<l>Wat kon myn zorg, wat kost gy-zelf op haar verwerven?</l>
+						<l>Men vloekt op 's Konings magt en loont myn gunst met smaad.</l>
+						<l>Wyt my het onheil niet; neen, wyt het Leydens Raad.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Die Raad volbrengt zyn' pligt en tracht de stedelingen</l>
+						<l>Romeroos wreed geweld, zo 't mooglyk is, te ontwringen;</l>
+						<l>Die korts nog blyken gaf van zyn moorddadigheid</l>
+						<l>In Leeuwtjes deerlyk lot, met recht door elk beschreid!</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Ik heb tot tweewerf toe een' burger brood doen geeven,</l>
+						<l>Die, om zyn veeg gezin te houden by het leven,</l>
+						<l>By nacht de Stad ontzwom, en spys zocht by myn tent.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Ach! Valdez, toon uw deugd; voorkom al 's volks elend.</l>
+						<l>Indien de Stad bezweek, gy zoud, hoe 't u mogt deeren,</l>
+						<l>Noch plondering, noch moord, noch schennis kunnen weeren.</l>
+						<l>Bekoort dit schouwspel 't oog van een' grootmoedig' Held?</l>
+						<l>Bekoort het u, die in de deugd uw glori stelt?</l>
+						<l>Ach! zo gy Magdalene ooit liefde hebt gedraagen,</l>
+						<l>Verschoon de Stad om haar! verschoon ze om haare magen!</l>
+						<l>Gy hebt de Vest reeds in uw magt. Helaas! zy zal</l>
+						<l>Haast zwichten voor al 't leed dat woed in haaren wal.</l>
+						<l>Moet uw verloofde Bruid in 't stof uw kniên omärmen,</l>
+						<l>U smeeken dat uw gunst zich haarer wil erbarmen?</l>
+						<l>Aanschouw myn traanen. Zie dit afgetreurd gelaat.</l>
+						<l>'k Verkwyn uit angst voor 't lot dat ons te wachten staat.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Hoe! knielt gy, Magdalene! ik zal dit nooit gedoogen.</l>
+						<l>Wat zou uw voorspraak niet op Valdez hart vermogen?</l>
+						<l>Doch 't stemmen van uw bede is niet in myne magt.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Voor 't minste, keer den storm om my nog deezen nacht!</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Laat af; men voed alreeds het schandlykst achterdenken,</l>
+						<l>Dat gy my mynen pligt in 's Konings dienst doet krenken.</l>
+						<l>'t Bevordren van myn schande is u tot weinig eer.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>'k Wil liever nuttig zyn dan blinkende, Mynheer!</l>
+						<l>'k Misgun u niet de Stad gelyk een held te winnen;</l>
+						<l>Maar nooit, zo lang ik leef, komt gy daar stormend binnen.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Hoe! poogt ge...</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Neen, gy zult, na dit beweenlyk uur,</l>
+						<l>Uw troostelooze Bruid aanschouwen op den muur.</l>
+						<l>Ik-zelf zal in de spits de stormers tegentrekken,</l>
+						<l>En helpen dus de Vest voor hunnen aanval dekken.</l>
+						<l>Of zo de zwakke muur door 't stormen nederstort,</l>
+						<l>En de ingang voor uw volk daardoor ontsloten word,</l>
+						<l>Zult gy my in de bres voor haar behoud zien stryden;</l>
+						<l>Totdat een van uw volk, ontbloot van medelyden,</l>
+						<l>Zyn schitterende kling doet rooken van myn bloed:</l>
+						<l>Dan kunt gy-zelf, aan 't hoofd van al den woesten stoet,</l>
+						<l>Myn stervend leven door uw eigen voet vertreeden.</l>
+						<l>Dan zal ik u niet meer vermoeijen met gebeden.</l>
+					</sp>
+					<sp who="#de-valdez">
+						<speaker>de Valdez</speaker>
+						<l>Wat zegt ge? ô Hemel! Ach! met welk een bittre smart</l>
+						<l>Doorgrieft uw wanhoop my! Bedaar; gy kent myn hart.</l>
+						<l>Bedaar; ik zal om u, ik zweer 't, het stormen staaken.</l>
+						<l>'t Verschilt my niet wie my verheffen mooge of laaken;</l>
+						<l>Zo Magdaleen my mint, is 't Valdez roems genoeg.</l>
+						<l>Blyf altoos my getrouw; en, hoe de Hemel 't voeg',</l>
+						<l>Ik zweer u dat ge u nooit zult over my beklaagen.</l>
+						<l>Verlaat u op myn zorg voor u en voor uw magen.</l>
+						<stage>Haar omhelzende.</stage>
+						<l>Vaar wel, myn Bruid!</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Vaar wel; 'k verlaat my op uw woord.</l>
+					</sp>
+				</div>
+				<div type="scene" n="10">
+					<head>Tiende tooneel.</head>
+					<stage>Magdalena, Elizabeth.</stage>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<stage>Magdalena omärmende.</stage>
+						<l>Myn dierbre Hartvriendin, hoe heeft me uw deugd bekoord!</l>
+						<l>De algoede Hemel kroone uw onnavolgbaar poogen!</l>
+						<l>Gy zyt dit oogenblik een Engel in myne oogen.</l>
+						<l>Ach! was gantsch Neêrland van uw trouw als ik bewust!</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>'k Volbragt myn' pligt. Men gaa. Waar vind myn hart nog rust!</l>
+					</sp>
+					<stage>Einde van het derde Bedryf.</stage>
+				</div>
+			</div>
+			<div type="act" n="4">
+				<head>Vierde bedryf.</head>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>ô Doodlyke angst! hoe lang zal uwe woede duuren!</l>
+						<l>Myn Vader! toeft gy nog op Leydens zwakke muuren?</l>
+						<l>De dag is lang gedaald. Ik voel van oogenblik</l>
+						<l>Tot oogenblik myn ziel ten prooije aan grooter schrik.</l>
+						<l>Ik hoor den fellen storm door 't luchtruim buldrend loeijen;</l>
+						<l>Dan ach! hy zal den vloed nooit hoog genoeg doen groeijen.</l>
+						<l>Of zwygt de wind een poos, dan treft nog feller smart,</l>
+						<l>Door jammerlyker toon, myn medelydend hart;</l>
+						<l>Dan hoor ik schreijend volk, dat, doodelyk verlegen,</l>
+						<l>Van dollen honger huilt, en vruchtloos langs de wegen</l>
+						<l>Naar afgeknaagd gebeente of loof of koolstruik zoekt;</l>
+						<l>En, zo 't nog iets ontdekt, door andren word verkloekt.</l>
+						<l>Dan baart de nood krakeel, dat naauwlyks zich laat scheiden.</l>
+						<l>Helaas! men hoopt vergeefs. 't Is uit, 't is uit met Leyden.</l>
+						<l>Schoon Valdez zich verbond van 't stormen af te staan,</l>
+						<l>Zal 't akelig gebrek de Stad doen overgaan.</l>
+					</sp>
+					<p>
+						<figure> </figure>
+					</p>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Elizabeth, van der Werf.</stage>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<stage>haar' Vader te gemoet streevende.</stage>
+						<l>Ach! waarde Vader!</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Ach! myn Kind! myn welbehaagen!</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Uw droefheid drukt my meer dan de allerzwaarste plaagen.</l>
+						<l>Ik vraag u niet hoe hoog de storm het water joeg,</l>
+						<l>Of gy nog hoopen durft: uw oog zegt my genoeg.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>'t Bericht door u gebragt is door ons waar bevonden.</l>
+						<l>Maar ach! het baat ons niet. De ondiepte van de gronden</l>
+						<l>Zet al de kielen vast en wederhoud de vloot.</l>
+						<l>Het dapper scheepsvolk, dat den Kerkweg sterk beschoot,</l>
+						<l>Heeft vruchtloos kans gezocht, en houd thans op met schieten;</l>
+						<l>Ook tusschen Zoeterwoude en 't aadlyk huis van Zwieten.</l>
+						<l>Ach! alle hoop is uit die Leyden had gevleid!</l>
+						<l>De wateringen zyn met paalwerk toegeheid.</l>
+						<l>De vyand houd zich trotsch, en laat de veldbanieren</l>
+						<l>En vaandels wyd en zyd van al zyn schanssen zwieren.</l>
+						<l>Zyn bode, die men flus terug zond, heeft de smart</l>
+						<l>En doodsängst nog vergroot in 's volks verlegen hart,</l>
+						<l>Door hen te melden dat zyn voorslag was verworpen;</l>
+						<l>Dat binnen kort de wraak der burgren bloed zou slorpen,</l>
+						<l>Wyl Leyden geen genaê voortaan te hoopen stond.</l>
+						<l>Dit baarde een groot gemor. Ik zag het volk in 't rond,</l>
+						<l>Verdeeld in hunnen wensch, de hoofden saamenvoegen;</l>
+						<l>En speurde hier en ginds weêr teekens van misnoegen.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Helaas! dit geeft ligt stof tot nieuwe muitery.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Terwyl het volk zich voegde aan de eene of de andre zy',</l>
+						<l>En dees voor vryheid pleitte en die voor vreê met Spanje,</l>
+						<l>Naardat men hoopt op Phlips of heul zoekt aan Oranje,</l>
+						<l>Daalde in de Stad een duif, op gistren van de vloot</l>
+						<l>Ons toegeschikt, met raad in onzen hoogen nood.</l>
+						<l>Wy lazen in haar' brief, ons door Boisot gezonden,</l>
+						<l>Dat groot en kleen zich op de vloot gemoedigd vonden</l>
+						<l>Om aan te vallen op den Kerkweg. Men verzocht</l>
+						<l>De Stad van haaren kant te doen wat zy vermogt;</l>
+						<l>En als de vlooteling den Spanjaard zou bespringen,</l>
+						<l>De schans te Lammen hem op d' eigen stond te ontwringen;</l>
+						<l>Opdat die aanslag, zo gevaarelyk als stout,</l>
+						<l>Deez' dag de bange Vest mogt strekken tot behoud.</l>
+						<l>Het duifje zworf te lang en komt voor ons te spade.</l>
+						<l>Boisot hield woord; maar ach! wat onherstelbre schade!</l>
+						<l>Men wist zyn oogmerk niet. Hoe veel gewenschter kans</l>
+						<l>Had daar ons volk gehad dan op Boschhuizens schans,</l>
+						<l>Die weinig vroeger aan den vyand wierd ontwrongen!</l>
+						<l>Hoe willig hadden wy den vlootling bygesprongen!</l>
+						<l>Nu is 't vergeefs dat elk dit kansverlies beklaagt.</l>
+						<l>'t Word nacht. Wat raad, indien Romero 't stormen waagt?</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Indien de bode slechts in 't heir is aangekomen,</l>
+						<l>Heeft Leyden deezen nacht voor 't stormen niet te schroomen.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Kan 't waar zyn? hebt ge u ook met ydle hoop gevleid?</l>
+						<l>Wat zekerheid hebt gy?</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>De grootste zekerheid.</l>
+						<l>'k Zag Magdalenaas trouw en yvrend mededoogen.</l>
+						<l>Haar gadelooze deugd heeft ons dien ramp onttoogen.</l>
+						<l>De bode zwoer haar dat het heir niet stormen zou.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Een onbezonnen eed, tot stilling van een vrouw.</l>
+						<l>Al 't leger eischt den storm; en zal zich weinig keeren,</l>
+						<l>Zyn slechts de hoofden 't eens, aan zyn ligtvaardig zweeren.</l>
+						<l>Wat invloed heeft een bode?</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>In kleeding en gelaat</l>
+						<l>Geleek hy weinig meer dan een gemeen soldaat:</l>
+						<l>'t Was echter Valdez-zelf.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Hoe kan zulks mooglyk weezen?</l>
+						<l>Zou Valdez, wiens verstand in Neêrland word geprezen,</l>
+						<l>Die Leydens hoogen nood vergroot door zyn beleid,</l>
+						<l>Zich waagen in de Stad, in deeze omstandigheid?</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>De liefde tot zyn Bruid verachte die gevaaren.</l>
+						<l>Hy had haar toegezegd de Stad van storm te spaaren;</l>
+						<l>Doch door Romero, door de Hopliên aangespoord,</l>
+						<l>Vond hy zich-zelv' met smart geen meester van zyn woord.</l>
+						<l>Des zocht hy, door de Vest een goed verdrag te schenken,</l>
+						<l>Haar te overwinnen, om zyne eeden niet te krenken;</l>
+						<l>Doch, afgezet, had hy den storm gewis bestaan,</l>
+						<l>Had Magdalene op nieuw hem niet doen overslaan.</l>
+						<l>Indien gy had gezien hoe zy door haar gebeden</l>
+						<l>De Vest voor deezen nacht van storm heeft vrygestreden;</l>
+						<l>Hoe zy, op de aard geknield, al weenende aan haar' Held</l>
+						<l>De elende maalde die het stormen vergezelt,</l>
+						<l>En hoe zy zwoer eer in de bres te zullen sneeven,</l>
+						<l>Dan 't onherstelbaar leed van Leyden te overleeven,</l>
+						<l>Tot hy verwonnen wierd door haaren traanenvloed,</l>
+						<l>Gy stond, als ik, verbaasd om haar' verheven moed.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>De Hemel loon' haar deugd!</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>an der Werf, Elizabeth, Magdalena.</stage>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Grootmoedigste aller vrouwen!</l>
+						<l>Met recht mogt Leydens Raad u 't heil der Stad betrouwen.</l>
+						<l>Uwe edelmoedigheid...</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Ik heb myn' pligt betracht.</l>
+						<l>Maar ach! verneem wat ramp ons dreigt in deezen nacht.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Wat zegt ge! welk een ramp? ...</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>De muitzucht is aan 't woeden.</l>
+						<l>Wy zien 't oproerig volk zich driftig herwaart spoeden.</l>
+						<l>Een groote menigte vergadert voor dit huis,</l>
+						<l>En schreeuwt zich heesch om spys; en dwingt, met woest gedruis,</l>
+						<l>Om u te zien, en u zyn eischen te openbaaren.</l>
+						<l>Wy poogden vruchteloos de drift te doen bedaaren.</l>
+						<l>Men heeft een' zielloos mensch, door honger, zo men zegt,</l>
+						<l>Van 't levenslicht beroofd, hier voor de poort gelegd;</l>
+						<l>Dit wil men met geweld aan uw gezicht vertoonen.</l>
+						<l>De dolle woede durft 's Lands Vadren schandlyk hoonen,</l>
+						<l>Als ging der burgren leed hen weinig aan het hart.</l>
+						<l>'t Volk toont een mengeling van wanhoop, drift en smart,</l>
+						<l>Naardat hun ziel of meer of minder word bewogen.</l>
+						<l>Hen af te wyzen is niet langer in 't vermogen</l>
+						<l>Van ons verlegen doch trouwhartig huisgezin.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Helaas! is dit uw loon voor trouwe burgermin!</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Nu zien wy wat de Stad aan Bronkhorst heeft verloren.</l>
+						<l>Die wist de oproerigheid door wys beleid te smooren,</l>
+						<l>En vestigde 't ontzag voor Leydens achtbren Raad.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Wie keert, wie keert den ramp, die my te treffen staat!</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Ontzet u niet te sterk; ik zal bedaard hen spreeken.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Myn waarde Vader! toef. Zult gy, na zo veel weeken,</l>
+						<l>Verduurd in angst en zorg ten nutt' van 't Vaderland,</l>
+						<l>Uw dierbaar leven zien verkorten door de hand</l>
+						<l>Van 't onbezonnen volk, dat doof is voor de reden,</l>
+						<l>En in zyn spoorloos woên trouwhartige Overheden,</l>
+						<l>Wier zorg hen redden wil, zyn wreede elende wyt?</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Ach! zorg veelëer hoe gy hun woede best vermyd!</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Hun woede myden? neen! 'k Heb nooit het volk beledigd.</l>
+						<l>'k Heb altoos zyn belang, niet myn belang verdedigd.</l>
+						<l>Men kent myn' aart te wel dan dat ik vreezen zou.</l>
+						<l>Hun woeste drift spruit uit geen' afkeer, maar uit rouw.</l>
+						<l>En zou een hoofd des Raads, die 't volk heeft trouw gezworen,</l>
+						<l>Ontzeggen naar de klagt der burgery te hooren?</l>
+						<l>Dit deed niet slechts myn ampt, maar zelfs myn eer te kort.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Ach! om myn droefheid, om de traanen die ik stort,</l>
+						<l>Om all' wat gy waardeert; ontgaa hen op myn bede!</l>
+						<l>Of zo dit niet kan zyn, vergun dan dat ik mede</l>
+						<l>My blootstelle aan 't gevaar en deele in 't geen u treft!</l>
+						<l>Hoor, hoor hoe 't woest geschreeuw zich meer en meer verheft.</l>
+						<l>Gy waagt te veel, en zult hun woede niet ontvlieden.</l>
+						<l>Myn hart voorzegt het my.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>van der Werf, Magdalena, Elizabeth, van der Does.</stage>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Ik kom u bystand bieden.</l>
+						<l>'k Vloog herwaart heen zo ras 't gerucht ons had gemeld</l>
+						<l>Hoe 't door de muitery van 't volk hier was gesteld,</l>
+						<l>Dat dreigend saamenrotte uit de omgelegen straaten.</l>
+						<l>De woeste bende heeft my eindlyk doorgelaaten,</l>
+						<l>Na dat ik my verbond dat zy u spreeken zou.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Weläan. Vergunnen wy dien troost haar in haar' rouw.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<stage>tegen van der Does.</stage>
+						<l>Weêrhou myn Vader! ach! help dit besluit weêrstreeven!</l>
+						<l>Zo ras hy 't huis verlaat is hy gewis om 't leven.</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<stage>tegen van der Werf.</stage>
+						<l>Wilt gy de oproerigheid in 't aanzicht wederstaan,</l>
+						<l>En onbedacht aan u de snoode hand doen slaan?</l>
+						<l>Ik zal in eeuwigheid dit opzet niet gedoogen.</l>
+						<l>Het stillen van haar woede is boven uw vermogen.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Zou zich een vader niet ontfermen over 't kroost?</l>
+						<l>Zou de Overheid het volk versteeken van den troost,</l>
+						<l>Om, als de nood het eischt, zyn klagten aan te hooren?</l>
+						<l>Waartoe is dan de Raad, waartoe ben ik verkoren?</l>
+						<l>De deur ligt ras omver, dan zal 't hier slimmer gaan.</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Naardien gy u bepaalt om 't volk te woord te staan,</l>
+						<l>Zal ik een deel van hen doen in de zaal geleiden.</l>
+						<l>Een kleen gedeelte is min verhit, min onbescheiden</l>
+						<l>Dan al de woeste hoop, verbonden met elkaêr.</l>
+						<l>Zo leenigt men voor 't minst het dreigende gevaar:</l>
+						<l>En loopt het averechts, men kan u onderschraagen.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Ik prys dit wys ontwerp.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Indien ge u toch moet waagen,</l>
+						<l>Stem voor het minst dan in dien voorslag, om uw kind!</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Weläan. Verkiest gy 't dus; laat hen dan in, myn Vrind.</l>
+						<l>En zo 't gevolg niet mogt voldoen aan myn vertrouwen,</l>
+						<l>Beveel ik u de zorg voor dees verlaaten vrouwen.</l>
+						<l>Vaar wel, myn Dochter! steun op 's Hemels onderstand.</l>
+						<l>Hy heeft alleen ons lot en leven in zyn hand.</l>
+						<l>Laat my alleen.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<stage>haar' Vader omhelzende.</stage>
+						<l>Vaar wel; de Hemel wille u hoeden!</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<stage>tegen van der Does, heengaande.</stage>
+						<l>Weêrhou toch 't volk, Mynheer! Voorkom meer tegenspoeden.</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>Vertrouw myn woord; ik zal hunn' aandrang wederstaan,</l>
+						<l>En, pleegen zy geweld, hen 't muiten doen vergaan.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>ô Leydsche Burgery! wat gaat me uw ramp ter harte!</l>
+						<l>Ach! lyde ik niet genoeg door huisselyke smarte?</l>
+						<l>ô Zwangre Gade! ô Zoons, die aan des Maasstrooms boord</l>
+						<l>Het jammerlyk gerucht van Leydens onheil hoort,</l>
+						<l>En zo veel traanen stort omdat ge my moet derven!</l>
+						<l>Mogt, mogt ik u nog eens omhelzen vóór myn sterven!</l>
+						<l>Myn ziel bezwykt schier door 't gewigt van al 't verdriet.</l>
+						<l>Myn Dochter, 't eenig pand dat my nog overschiet,</l>
+						<l>Die al myn troost verstrekt door haare onwrikbre trouwe,</l>
+						<l>Smelt voor myne oogen weg, en kwynt en sterft van rouwe.</l>
+						<l>Wat arbeid, hoe veel zorg, wat schier ondraagbre last</l>
+						<l>Is voor een' eerlyk' man aan 't wigtig Staatsämpt vast!</l>
+						<l>Hy moet zyn eigen heil en vreugd en rust verzaaken,</l>
+						<l>Om voor de rust, de vreugd en 't heil des volks te waaken,</l>
+						<l>Opdat de burgerstand in hem een' trouwen vrind,</l>
+						<l>De weêuw een toeverlaat, de wees een' vader vind'.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Zesde tooneel.</head>
+					<stage>van der Werf, vyf Burgers, een Weesjongen, die zich allengs aan de zyde
+						van Van der Werf voegt.</stage>
+					<sp who="#eerste-burger">
+						<speaker>Eerste Burger</speaker>
+						<l>Hoe lang zal Leyden nog met 's oorlogs wreede rampen,</l>
+						<l>En pest en hongersnood zo deerlyk moeten kampen?</l>
+						<l>Is 't nog geen tyd om ons te ontslaan van ons verdriet?</l>
+					</sp>
+					<sp who="#tweede-burger">
+						<speaker>Tweede Burger</speaker>
+						<l>De grooten voelen, naar het schynt, ons onheil niet.</l>
+						<l>Geen wonder; zo 't gerucht de waarheid heeft gesproken,</l>
+						<l>Dan zyn zy wel verzorgd en hebben spys verstoken,</l>
+						<l>Terwyl het arme volk van honger kwynt en sterft.</l>
+						<l>Ginds ligt een mensch dat door gebrek het leven derft.</l>
+						<l>Wy kunnen, om de elend naar eisch u af te maalen,</l>
+						<l>Indien gy 't wilt, het lyk hier voor uwe oogen haalen.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Misleide Burgerschaar! met welk een' bitschen hoon</l>
+						<l>Beledigt my uw drift? is dit, is dit myn loon</l>
+						<l>Voor zo veel trouw en vlyt en onöphoudlyk zorgen?</l>
+						<l>Doorzoekt myn wooning of gy voorraad vind verborgen.</l>
+						<l>Zo lang ik iets bezat, heb ik myn' pligt betracht,</l>
+						<l>Myn brood met u gedeeld, en uwen ramp verzacht.</l>
+						<l>Myn tederheid voorkwam uw wenschen en gebeden.</l>
+						<l>Ik heb met myn gezin zo veel als gy geleden.</l>
+						<l>Verdien ik, daar myn huis, daar my niets overschiet,</l>
+						<l>Dit onbedacht verwyt?</l>
+					</sp>
+					<sp who="#eerste-burger">
+						<speaker>Eerste Burger</speaker>
+						<l>Neen. Gy verdient het niet.</l>
+						<l>Maar ach! daar zyn 'er, die, in steê van 't volk te schraagen,</l>
+						<l>In d' algemeenen nood hun eigen nut bejaagen.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Hoont toch 's Lands Vadren niet door onbedachte reên.</l>
+						<l>Elk deelt zo veel hy kan in 't lot van 't algemeen.</l>
+						<l>Verdenkt ge om een gerucht, 't welk muiters ligt verspreidden</l>
+						<l>Opdat de tweedragt groeij', den achtbren Raad van Leyden?</l>
+						<l>Verdenkt hun list, en steunt, naast God, op onze vlyt;</l>
+						<l>Gy zult de vruchten daar van zien in korten tyd.</l>
+					</sp>
+					<sp who="#eerste-burger">
+						<speaker>Eerste Burger</speaker>
+						<l>Vergeefsche hoop, helaas! wy slyten vast de dagen,</l>
+						<l>Die eeuwen strekken, in de jammerlykste plaagen.</l>
+						<l>Wy zweegen uit ontzach, zo lang men in de Stad</l>
+						<l>Nog eetbre blaadren aan geboomte en wynstok had:</l>
+						<l>'t Geduld is thans ten eind, nu alles is verslonden.</l>
+						<l>Geen eetbaar huisdier word in Leyden meer gevonden.</l>
+						<l>Ja zelfs het ongediert', dat hen tot voedsel strekt,</l>
+						<l>Heeft, in den hoogen nood, ons leven nog gerekt.</l>
+						<l>Men moord elkandren op den mesthoop, onder 't wroeten</l>
+						<l>Naar struiken of gebeente, om 't naar gebrek te boeten;</l>
+						<l>En vind men iets, men sterft somwyl op d' eigen stond,</l>
+						<l>Terwyl de veege hand reeds nadert tot den mond.</l>
+						<l>'t Geronnen bloed word zelfs in 't hongrig lyf geslagen.</l>
+						<l>'t Zyn de armen niet alleen die dus hun spys bejaagen;</l>
+						<l>De rykdom waart, beschaamd, by avond of by nacht,</l>
+						<l>En zoekt in oorden waar de weelde nooit aan dacht</l>
+						<l>Naar levens onderhoud, en kan het niet verwerven.</l>
+						<l>De zwangre moeder voelt haar vrucht van honger sterven,</l>
+						<l>En sterft, terwyl zy 't lot bejammert van haar spruit.</l>
+						<l>De vader keert naar huis met een' gevonden buit,</l>
+						<l>Dien hy voor echtgenoote en kroost met angst vergaêrde,</l>
+						<l>En, uit zyn' hollen buik, voor haar trouwhartig spaarde;</l>
+						<l>En ach! daar hy hen dacht te spyzen in den nood,</l>
+						<l>Vind hy zyn zwakke gade en hooploos kroost gedood</l>
+						<l>Door 't hevig vuur der pest. Wat loon voor angstig slaaven!</l>
+					</sp>
+					<sp who="#tweede-burger">
+						<speaker>Tweede Burger</speaker>
+						<l>De leevende kan zelfs den dooden niet begraaven,</l>
+						<l>Zygt by de lykbaar neêr, en ziet zich 't levenslicht</l>
+						<l>Ontzinken op de straat, in 't kwyten van zyn' pligt;</l>
+						<l>En al het ovrig volk gelykt een heir van schimmen,</l>
+						<l>Door honger uitgeteerd. Moet deeze elend nog klimmen,</l>
+						<l>Dan sterven we allen tot den allersterksten man.</l>
+						<l>Dan valt de Stad met ons. Wat baat 's volks yver dan?</l>
+						<l>Dan waar' het best geweest de Vesting op te geeven.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Zou Leydens Burgery de vryheid overleeven?</l>
+						<l>Zou zy, die zo vol moeds zich voor 's Lands welzyn kweet,</l>
+						<l>Zich hooploos domplen in het allerschriklykst leed,</l>
+						<l>Door Spanjes Dwingeland op nieuw haar trouw te zweeren?</l>
+						<l>Dan waar' het best geweest zyn wet te blyven eeren;</l>
+						<l>Dan heeft der burgren deugd en eedle heldenmoed</l>
+						<l>Dus lang vergeefs gestreên; vergeefs de Stad behoed;</l>
+						<l>Dan zyn 'er honderden, wier arm op Leydens wallen</l>
+						<l>Voor recht en vryheid vocht, vergeefs door 't zwaard gevallen;</l>
+						<l>Dan baat der Staaten trouw, noch Held Oranjes vlyt.</l>
+						<l>Verwint de wanhoop, die uw ziel zo sterk bestryd.</l>
+						<l>Zoud gy, na zo veel roems, uw glori laaten vaaren,</l>
+						<l>En leveren uw Stad, uw haardsteên en altaaren,</l>
+						<l>Tot een' gewissen prooi in 's vyands wreede hand?</l>
+						<l>Zo zaagt ge in weinig tyds de veege Vest in brand;</l>
+						<l>Wat wapens voeren kan door 't moordend staal verslonden;</l>
+						<l>De zuigeling geslagt, en vrouw en maagd geschonden.</l>
+						<l>Dit zoud, ge winnen by het afstaan van de Vest.</l>
+						<l>Gedenkt Romeroos woên alöm in ons gewest.</l>
+						<l>Gedenkt aan 't schriklyk lot van 't uitgeplonderd Naarden;</l>
+						<l>Aan de ongelukkigen, die in de kerk vergaêrden,</l>
+						<l>En daar geslagt zyn door des krygsvolks razerny.</l>
+						<l>Ach! Burgers! wilt gy zo rampzalig zyn als zy?</l>
+						<l>Daar al uw rampspoed in 't verloop van weinig uuren</l>
+						<l>Kan eindigen? Daar gy de vloot ziet van uw muuren?</l>
+						<l>Daar 't water merklyk wast; en 't ryzen van den vloed</l>
+						<l>U mooglyk nog voor 't juk der slaverny behoed?</l>
+					</sp>
+					<sp who="#eerste-burger">
+						<speaker>Eerste Burger</speaker>
+						<l>Wie zou de vryheid niet voor slaverny verkiezen?</l>
+					</sp>
+					<sp who="#tweede-burger">
+						<speaker>Tweede Burger</speaker>
+						<l>Nog beter slaaf te zyn dan 't leven te verliezen.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Verdoolde! waant ge dat ge uw leven zult behoên.</l>
+						<l>Als Spanje meester is? Het zal, zyn wraak ten zoen,</l>
+						<l>Hier niemand spaaren die nog ovrig is gebleven.</l>
+						<l>Wanneer 't de vryheid geld, wie denkt dan aan het leven?</l>
+						<l>Ik zal, met 's Hemels hulp, verhoên dat Leydens val.</l>
+						<l>Ooit voedsel aan den trots des Spanjaards geeven zal,</l>
+						<l>Of sterven op den muur, voor vryheid, recht en wetten.</l>
+						<l>Zo gy daarvoor met my het leven op wilt zetten,</l>
+						<l>Zyt dan in 't leed getroost en draagt het met geduld.</l>
+						<l>Wie weet hoe weinig tyds gy 't nog verduuren zult?</l>
+					</sp>
+					<sp who="#eerste-burger">
+						<speaker>Eerste Burger</speaker>
+						<l>Ach! wisten wy slechts raad om 't leven te onderschraagen!</l>
+					</sp>
+					<sp who="#tweede-burger">
+						<speaker>Tweede Burger</speaker>
+						<l>Wy zullen nevens u op nieuw het uiterst waagen,</l>
+						<l>Indien gy slechts het woên des dollen hongers stilt.</l>
+						<l>Wy sterven door gebrek, zo ge ons niet voeden wilt.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Ach! Mannen! zou ik u niet van den dood bevryden</l>
+						<l>Zo ik u redden kon? Is u myn medelyden</l>
+						<l>En trouwe voorzorg niet gebleken, dag aan dag?</l>
+						<l>'k Heb all' voor u verricht wat eenig mensch vermag.</l>
+						<l>Indien ik voedsel had, gy zoud niet vruchtloos smeeken.</l>
+						<l>Gy ziet uit deernis met uw' ramp myn traanen leeken.</l>
+						<l>Toeft nog een weinig tyds. Doch duld de nood zulks niet,</l>
+						<l>Aanvaart dan 't eenige dat my nog overschiet.</l>
+						<l>Daar is myn zwaard. Komt, slagt me, om u den dood te ontrukken.</l>
+						<l>Scheurt dan myn lyk vanéén, en deelt het om aan stukken;</l>
+						<l>Zo word ge, als ik u niet kan redden met myn bloed,</l>
+						<l>Ten minsten met myn vleesch, 't geen ik u schenk, gevoed.</l>
+					</sp>
+					<sp who="#tweede-burger">
+						<speaker>Tweede Burger</speaker>
+						<l>ô Hemel! zouden wy dit gruwelstuk volbrengen!</l>
+					</sp>
+					<sp who="#eerste-burger">
+						<speaker>Eerste Burger</speaker>
+						<l>Wy 't onwaardeerbaar bloed des trouwsten Vaders plengen!</l>
+					</sp>
+					<sp who="#tweede-burger">
+						<speaker>Tweede Burger</speaker>
+						<l>Veelëer getroosten we ons den smartelyksten dood.</l>
+					</sp>
+					<stage>De burgers knielen allen.</stage>
+					<sp who="#eerste-burger">
+						<speaker>Eerste Burger</speaker>
+						<l>Veelëer zweere al het volk, in 't woeden van den nood</l>
+						<l>Den eenen arm 't gebrek groothartig toe te wyden,</l>
+						<l>Terwyl wy 't Vaderland met d'andren arm bevryden.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Ryst op; dit dulde ik niet. Ryst, dierbre Burgerschaar!</l>
+						<l>Wie tart voor zulk een volk niet willig 't grootst gevaar?</l>
+						<l>Steunt op des Hoogsten hulp en uwer Vadren zorgen.</l>
+						<l>Ligt sleet ge uw' bangsten dag. Wie kent het lot van morgen?</l>
+						<l>Gelooft my; zo de Raad de Stad onredbaar vond,</l>
+						<l>Men had de handling niet vertraagd tot deezen stond.</l>
+						<l>Hoort gy den zuidewind niet door de wolken gieren?</l>
+						<l>Hy, die den storm gebied, kan ook den vloed bestieren.</l>
+						<l>Het water bruischt vast aan, en wast van tyd tot tyd.</l>
+						<l>Ligt dat zyn krachtige arm dit uur voor Leyden stryd.</l>
+						<l>Gaat; troost het arme volk, tracht nieuwen moed te wekken.</l>
+						<l>Een weinig toevens kan tot grooten zegen strekken.</l>
+					</sp>
+					<sp who="#tweede-burger">
+						<speaker>Tweede Burger</speaker>
+						<l>ô Goede Hemel! red de Stad en van der Werf!</l>
+					</sp>
+					<sp who="#eerste-burger">
+						<speaker>Eerste Burger</speaker>
+						<l>Of valt de Stad, spaar hem in 't algemeen verderf!</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>Zevende tooneel.</head>
+					<stage>van der Werf, een Weesjongen.</stage>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Wat doet gy hier?</l>
+					</sp>
+					<sp who="#weesjongen">
+						<speaker>De Weesjongen</speaker>
+						<l>'t Is my gelukt in huis te dringen.</l>
+						<l>Ik wilde u hoeden voor 't geweld der muitelingen.</l>
+						<l>Gy spysde ons huis en my. 'k Ben arm, en heb geen brood.</l>
+						<l>Maar 'k geef u al myn bloed tot redding in den nood.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>ô Hemel! welk een trouw! ....</l>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>Agtste tooneel.</head>
+					<stage>van der Werf, een Weesjongen, van der Does.</stage>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<l>'t Is met ons omgekomen.</l>
+						<l>De veege Stad heeft thans haar' overgang te schroomen.</l>
+						<l>De Koepoort word bestormd. Wat schrikkelyk gedruis,</l>
+						<l>Gevolgd van slag op slag! Wy siddren met dit huis.</l>
+						<l>Het weêrelooze volk loopt jammrend langs de straaten</l>
+						<l>Van 't een naar 't ander oord; de rouw is uitgelaaten.</l>
+						<l>Terwyl de burgery, door u bezield met moed,</l>
+						<l>Te wapen vliegt, getroost den laatsten droppel bloed</l>
+						<l>Op te offren voor 't behoud van haar geliefde panden.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Men volg' haar fluks. ô Gy! in wiens geduchte handen</l>
+						<l>Het lot der volken staat, versterk ons in 't gevaar!</l>
+						<l>Verleen een nieuwe kracht aan de afgevaste schaar'!</l>
+						<l>Behoed de veege Stad in 't onheil dat wy vreezen,</l>
+						<l>Om 't ongelukkig volk en om de onnoozle weezen!</l>
+					</sp>
+					<stage>Einde van het vierde Bedryf.</stage>
+				</div>
+			</div>
+			<div type="act" n="5">
+				<head>Vyfde bedryf.</head>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>ô Wreede onzekerheid, die my van rust berooft!</l>
+						<l>Ach! Valdez! heb ik my te veel van u beloofd?</l>
+						<l>Verbreekt ge, of houd ge uw' eed? ô Pynigend verbeiden!</l>
+						<l>'k Hoor niets van Van der Werf; 'k hoor niets van 't lot van Leyden.</l>
+						<l>Hoe lang, hoe bang valt my deeze eindelooze nacht,</l>
+						<l>In zo veel traanen en bekomring doorgebragt!</l>
+						<l>Myn waarde Hartvriendin zwerft rustloos op en neder,</l>
+						<l>En ziet naar tyding uit. Haar bode keert niet weder.</l>
+						<l>Wie zal haar redden zo de Vesting overgaat?</l>
+						<l>Ach! Valdez! schend ge uw woord, waaröp ik my verlaat?</l>
+						<l>Ik kan de onzekerheid myns lots niet meer verduuren.</l>
+						<l>Hoe! dierbre Elizabeth! ....</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Magdalena, Elizabeth.</stage>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>ô Doodlykst aller uuren!</l>
+					</sp>
+					<p>
+						<figure> </figure>
+					</p>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Wat schrik beroert uw ziel? Wat spelt dees bittre smart,</l>
+						<l>Dees wanhoop in uw oog? Spreek op. Ontlast uw hart.</l>
+						<l>Wat wil dat handgewring? Hoe staat het op de wallen?</l>
+						<l>Zou Leyden? ....</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Ach!</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Vaar voort.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Ach! Leyden is gevallen.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Gevallen! Hemel! Kan zulks zyn? Wie bragt die maar'?</l>
+						<l>Zou Valdez dus zyn' eed? ...</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Helaas! 't is al te waar.</l>
+						<l>De Vest is overheerd. De vyand komt reeds nader.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>ô Deerniswaarde Stad!</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Myn Vader! Ach! myn Vader!</l>
+						<l>Gy zyt gewis ontzield door Spanjes moordgeweer.</l>
+						<l>Treur, treur, Elizabeth! gy hebt geen' Vader meer.</l>
+						<l>Helaas! de vyand plant zyn vaanen op de muuren.</l>
+						<l>Wat lot wacht my! wat lot zal Leyden nu bezuuren!</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>In 's Hemels naam, bedaar, en geef my meerder licht.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Myn bode keerde met dit doodelyk bericht.</l>
+						<l>Hy poogde vruchteloos myn' Vader op te spooren,</l>
+						<l>En wierd door 't volk gestuit digt by Bourgonjes tooren,</l>
+						<l>Daar 't vast van allen kant, in 't prangen van den nood,</l>
+						<l>Als tot hun jongste wyk, al gillend kerkwaart vlood;</l>
+						<l>Daar de een den andren noopte en toeriep onder 't spoeden:</l>
+						<l>De vyand heeft een bres van vyfëntwintig roeden.</l>
+						<l>Die doodelyke maar', bevestigd wyd en zyd</l>
+						<l>Door 's volks verhaaste vlucht en jammerlyk gekryt,</l>
+						<l>Dreef hem terug, helaas! en niemand weet te melden</l>
+						<l>Hoe 't met myn' Vader staat en de andre Leydsche Helden,</l>
+						<l>Gevlogen naar den muur, door wanhoop voortgeprest,</l>
+						<l>Om daar te sneuvelen by de omgestormde Vest.</l>
+						<l>Waar bergen we ons? helaas!</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Ik bid u, hoor my spreeken.</l>
+						<l>Zo Leyden voor de magt des vyands waar' bezweken,</l>
+						<l>Zou dan uw Vader zich terstond niet herwaart spoên,</l>
+						<l>En trachten in de elend' zyn dierbaarst pand te hoên?</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Zou hy de Stad om my in 't uiterst uur begeeven?</l>
+						<l>Hy is gebleven, ach! Vriendin! hy is gebleven</l>
+						<l>In 't stuiten van 't geweld!</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>My dunkt, ik hoor gerucht.</l>
+						<l>Men nadert ons.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Het is van Hout, die herwaart vlucht.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Magdalena, Elizabeth, van Hout.</stage>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Ach! leeft myn Vader nog?</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Wat schrik heeft u bevangen? ...</l>
+						<l>Hy leeft; en zend me om u bericht te doen erlangen</l>
+						<l>Van all' wat ons weêrvoer; 'k meld een gebeurdtenis</l>
+						<l>Waarvan in Nederland tot nu geen voorbeeld is.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Ach! zeg my eerst hoe ik myn' Bruîgom moet aanschouwen.</l>
+						<l>Brak hy zyn woord?</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>ô Neen; hy heeft zyn woord gehouên.</l>
+						<l>'k Begaf my naar de poort in 't aaklig oogenblik</l>
+						<l>Toen 't onverwacht rumoer een' doodelyken schrik</l>
+						<l>In aller harten joeg. 't Vloog alles naar de wallen,</l>
+						<l>In vrees dat Leyden thans in Spanjes magt zou vallen.</l>
+						<l>Ik vond uw' Vader, eerst van weinigen verzeld;</l>
+						<l>Doch ons getal groeide aan. De vaderlandsche Held</l>
+						<l>Gaf. vast den burgren moed, om nevens hem te toonen</l>
+						<l>Wat helden Nederland en Leydens grond bewoonen.</l>
+						<l>Wy hoorden midlerwyl, tot troost in deezen nood,</l>
+						<l>Het dondren van 't geschut gestadig van de vloot;</l>
+						<l>Gevolgd van slag op slag uit roeren en musketten,</l>
+						<l>Als of men Zoeterwou den vyand wilde ontzetten.</l>
+						<l>Men trok in orde voort, wanneer ons, onverwacht,</l>
+						<l>Word toegeschreid: Helaas! wy zyn in 's vyands magt;</l>
+						<l>Hy heeft alrede een bres van vyfëntwintig roeden.</l>
+						<l>Wy siddren op dees maar', die ons den tred doet spoeden.</l>
+						<l>Terwyl wy nadren, en 't gekerm vast sterker word,</l>
+						<l>Zien we in de graft der Stad den wal omver gestort,</l>
+						<l>Naby den toren van Bourgonje.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Kan zulks weezen?</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Verbeeld u onzen schrik; daar wy met reden vreezen</l>
+						<l>Dat 's vyands oorlogsvolk zich by die plaats bevind.</l>
+						<l>De naarheid van den nacht, het buldren van den wind,</l>
+						<l>'t Vermeerdert all' den angst der sterkberoerde schaaren.</l>
+						<l>Wat arbeid had men niet om hen te doen bedaaren;</l>
+						<l>Te toonen dat de muur geenszins door 's vyands magt,</l>
+						<l>Maar eigen zwakheid, was tot deezen val gebragt!</l>
+						<l>Inmiddels rees van verre een brand met naaren luister,</l>
+						<l>Kreeg krachten door den wind, en lichtte ons toe in 't duister;</l>
+						<l>Gantsch Zoeterwoude scheen in lichterlaaie vlam,</l>
+						<l>Die meerder voedsel door den brand der kerk bekwam.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Wat zegt ge? ô Hemel! heeft myn hoop my niet bedrogen,</l>
+						<l>Dan is reeds Zoeterwoude in held Boisots vermogen;</l>
+						<l>Dan is 'er kans voor ons.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Och of langs deezen weg</l>
+						<l>De Stad ontslagen wierd van 't eindeloos beleg!</l>
+						<l>Ik bid vervolg, Mynheer.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Het volk dorst, op 't aanschouwen</l>
+						<l>Des Zoeterwoudschen brands, zyne oogen naauw' betrouwen.</l>
+						<l>'t Gekerm veranderde in luidruchtig vreugdgeschal.</l>
+						<l>Men vloog, verrukt, elkaêr in de armen op den wal.</l>
+						<l>De een riep den andren toe: God sterk' de vlootelingen!</l>
+						<l>Indien zy Zoeterwoude aan Spanjes vuist ontwringen,</l>
+						<l>Dan word zyn magt geknakt; en Lammens schans belet</l>
+						<l>Alleen, na deeze zege, ons langgewenscht ontzet.</l>
+						<l>De Raad vond, om 't bestaan des vlootlings te onderschraagen,</l>
+						<l>Geraên by 't ryzend licht een' kans daaröp te waagen,</l>
+						<l>Naardien reeds 't water wies tot aan der dyken boord.</l>
+						<l>Terwyl het volk met vreugd 't besluit des aanslags hoort,</l>
+						<l>Genaakt de Weesknaap, die, door dankbaarheid gedreven,</l>
+						<l>Uw' Vader redden wilde of moedig voor hem sneeven;</l>
+						<l>Hy trok dien Held ter zyde, en sprak: Houd voor gewis</l>
+						<l>Dat Lammens schans alreeds geheel verlaaten is.</l>
+						<l>Het volk wierd myn gezicht wel door den nacht onttoogen,</l>
+						<l>Maar 't glimmen van hun lont blonk telkens my in de oogen;</l>
+						<l>Het trok gestadig af en keerde nimmer weêr.</l>
+						<l>Men twyfelde aan 't bericht; hy sterkte 't meer en meer,</l>
+						<l>En bood gewillig aan zich naar de schans te spoeden.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Trouwhartig Jongeling! de Hemel wille u hoeden</l>
+						<l>Voor Spanjes moordend staal! Hoe liep zyn voorslag af?</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Men roemde zynen moed en 't voorbeeld dat hy gaf.</l>
+						<l>De Raad beloofde hem zyn trouw naar eisch te loonen.</l>
+						<l>Hy moest, als zocht hy spys, zich voor de schans vertoonen,</l>
+						<l>En smeeken lyfsgenade en levensönderhoud.</l>
+						<l>Op zyn herhaald verzoek wierd hem het stuk betrouwd.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Wat wil dit groot gedruis, die woeling langs de straaten?</l>
+						<l>Men schiet van allen kant; de vreugd schynt uitgelaaten;</l>
+						<l>'t Gejuich verdubbelt en genaakt van tyd tot tyd.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<stage>Magdalena omhelzende.</stage>
+						<l>Zo ik my niet bedrieg, hebt gy de Stad bevryd.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Het eerste schemerlicht vertoonde ons 't loflyk poogen</l>
+						<l>Des Weesknaaps, als een pyl naar Lammens schans gevlogen.</l>
+						<l>Hy kwam 'er, zag rondöm, en wuifde met den hoed.</l>
+						<l>Dit heuchelyk gezicht verdubbelde aller moed.</l>
+						<l>Doch wy, niet zonder reên, beducht voor 's vyands laagen,</l>
+						<l>Weêrhielden 't volk, dat op zyn' wenk zich wilde waagen;</l>
+						<l>Tot dat zich Torenvliet op 't overstroomde land</l>
+						<l>Aan ons vertoonde met een' polsstok in de hand.</l>
+						<l>Men zag hem met zyn' pols de slooten overspringen;</l>
+						<l>Hy liep de schans voorby tot by de vlootelingen.</l>
+						<l>Toen rees de vreugdegalm der burgren hemelhoog.</l>
+						<l>Een vloed van traanen borst uit aller dankbaar oog.</l>
+						<l>Elk riep: Kan 't waarheid zyn! wie dorst dat ooit vertrouwen!</l>
+						<l>God lof! dé vyand vlood! God lof! wy zyn behouên!</l>
+						<l>De Algoedheid zy geroemd! De blydschap hield geen maat.</l>
+						<l>Dees bid, die juicht, of kust de handen van den Raad.</l>
+						<l>De dappre van der Laan had reeds verlof doen vraagen</l>
+						<l>Om met zyn willig volk den vlootling te onderschraagen.</l>
+						<l>Zy trokken, toen ik ging, alreeds het paalwerk uit</l>
+						<l>Waardoor het nadren van de schepen word gestuit.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Spaar, Hemel! spaar altoos dees Stad door u beveiligd!</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Dees dag zy eeuwig u ter dankbaarheid geheiligd,</l>
+						<l>Door 't vrolyk Nageslacht!</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Daar is myn Boezemvrind.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Magdalena, Elizabeth, van Hout, van der Werf.</stage>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<stage>naar van der Werf snellende.</stage>
+						<l>Gy leeft! wy zyn verlost!</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Herstel uw' geest, myn Kind!</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>ô Hemel! 'k voel myn vreugd myn kracht te boven streeven:</l>
+						<l>Hoe uit myn hart zich best? wat lof zal ik u geeven?</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Myn Vrienden! deelt in 't heil dat al de Stad geniet;</l>
+						<l>De wellekoome vloot is binnen door de Vliet.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>ô Blyde komst!</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Men kan zyn traanen niet bedwingen</l>
+						<l>By de ongemeene vreugd van Leydens stedelingen.</l>
+						<l>'t Raakte alles op de been, op 't allerëerst gerucht.</l>
+						<l>Het wellekoom geschrei vervulde al 't ruim der lucht.</l>
+						<l>De kade wierd bedekt door eenen drang van menschen.</l>
+						<l>Men wyst elkaêr de vloot, en trekt haar aan met wenschen,</l>
+						<l>Totdat ze in 't eind genaakt; toen had de vreugd geen maat:</l>
+						<l>De blydschap spreide een' glans op 't uitgeteerd gelaat.</l>
+						<l>Had gy al 't volk gezien, en hoe ze elkaêr verdrongen,</l>
+						<l>Zich overreikten, tot de borst in 't water sprongen,</l>
+						<l>Om 't allerëerst genot van haring of van brood,</l>
+						<l>Dat hen uit hand by hand gereikt wierd van de vloot;</l>
+						<l>Had gy hunn' dankbren galm gehoord tot hun behoeders;</l>
+						<l>'t Geroep uit ieder schip: Komt! leeft! Komt! eet nu; Broeders!</l>
+						<l>Gy had u nevens my in Hollands oude deugd</l>
+						<l>Van mededeelzaamheid en dankbaarheid verheugd.</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Nu kan door's Hemels gurist zich 't hongrend volk verkwikken.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Wy vreesden dat het zich door graagte zou verstikken.</l>
+						<l>De langverzwakte maag, het voedsel ongewoon,</l>
+						<l>Neemt ligt te veel als 't haar zo ruim word aangeboôn.</l>
+						<l>Een deel van onzen Raad zet hunnen yver paalen,</l>
+						<l>Opdat ze in 't heilrykst uur geen onheil op zich haalen.</l>
+						<stage>Tegen Magdalena.</stage>
+						<l>Smaak al het zoet dat een grootmoedig harte smaakt</l>
+						<l>Wanneer 't rampzaalgen red, en hen gelukkig maakt!</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Ik deel in 't heil der Stad; maar ach! myn minnend harte</l>
+						<l>Schreit, midden in de vreugd, om Valdez schaamte en smarte.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Wat of dees jonge knaap zo schichtig herwaart leid?</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>van der Werf, van Hout, Magdalena, Elizabeth, een Weesjongen.</stage>
+					<sp who="#weesjongen">
+						<speaker>De Weesjongen</speaker>
+						<stage>tegen van der Werf.</stage>
+						<l>Ik bid u, stoor u niet aan myn vrymoedigheid.</l>
+						<l>'k Hoorde u deez' nacht aan 't volk dat gy gebrek leed melden:</l>
+						<l>'k Sprong tot den hals in 't nat op de overstroomde velden.</l>
+						<l>Dees haring en dit brood zyn my van 't volk vereerd.</l>
+						<l>Ik bad 'er om voor u. Maar, weêr op 't land gekeerd,</l>
+						<l>Deed, tot myn smart, de nood my mynen pligt vergeeten.</l>
+						<l>Vergeef het my; ik heb de helft van 't brood gebeten.</l>
+						<l>Aanvaard toch de andre helft, met deezen schoonen visch.</l>
+						<l>'k Haal ylings meer, zo u myn vlyt behaaglyk is.</l>
+					</sp>
+					<sp who="#elizabeth-van-der-werf">
+						<speaker>Elizabeth</speaker>
+						<l>Is 't mooglyk!</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>Welk een trouw!</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Dat hem de Hemel zegen'!</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Zoude ik u van uw spys, met lyfsgevaar verkregen,</l>
+						<l>Berooven? neen, ô neen, trouwhartig Jongeling!</l>
+						<l>'k Versmaad u niet; ik acht uw' yver niet gering.</l>
+						<l>'s Volks vreugd strekt my tot spys. Verzadig u. 'k Zal toonen,</l>
+						<l>Myn Kind! dat ik uw deugd en yver kan beloonen.</l>
+						<l>De Hemel zorgt voor u; zyn zegen blyve u by!</l>
+						<l>Zo strekt ge een waardig lid van Leydens burgery.</l>
+						<l>Ik zal zo min dees daad, als de eedle trouw vergeeten</l>
+						<l>Waarmeê ge u in de schans te Lammen hebt gekweten.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Zesde tooneel.</head>
+					<stage>van der Werf, van Hout, Magdalena, Elizabeth, de Weesjongen, van Zwieten,
+						van Noorden, van Baarsdorp, Raaden.</stage>
+					<stage>De Weesjongen voegt zich aan de zyde van Van der Werf, een weinig
+						achterwaart.</stage>
+					<sp who="#van-noorden">
+						<speaker>van Noorden</speaker>
+						<l>Wy zonden van der Does Boisot reeds te gemoet,</l>
+						<l>Die zich met Willemsse en de Hopliên herwaart spoed,</l>
+						<l>Op 't vrolyk krygsmuzyk van pauken en trompetten.</l>
+						<l>'t Volk juicht aan allen kant waar zy de schreden zetten,</l>
+						<l>En viert hunne aankomst met schalmei en luit en trom,</l>
+						<l>Alöm gemengeld met der klokken dof gebrom.</l>
+						<l>De dappre vlootling, die de zege ons heeft verworven,</l>
+						<l>Ontzachlyk van gelaat, met houw op houw gekorven,</l>
+						<l>Verminkt in 't stryden voor de vryheid van 't gemoed,</l>
+						<l>Draagt halve maanen op den halfversleten hoed,</l>
+						<l>Die aan 't verheugde volk dit opschrift geeft te leezen:</l>
+						<l>'t Is eindloos beter Turks- dan Spaanschgezind te weezen.</l>
+					</sp>
+					<sp who="#van-zwieten">
+						<speaker>van Zwieten</speaker>
+						<l>De jeugdige Montfoort, veréénd met van der Laan,</l>
+						<l>Vervolgt inmiddels, langs met rysgehoogde paên,</l>
+						<l>Den Spaanschen vluchteling; die, uit ons oog gevloden,</l>
+						<l>Het krygstuig achterliet, en zelfs niet weinig dooden.</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Het krygsmuzyk genaakt. Daar is de Heldenschaar.</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>Zevende tooneel.</head>
+					<stage>van der Werf, van Zwieten, van Noorden, van Baarsdorp, Magdalena,
+						Elizabeth, Raaden, van Hout, de Weesjongen, Boisot, van der Does, Willemsse,
+						Land- en Zee-Kapiteinen, Gewapende Burgers en Scheepsvolk, met Vaanen,
+						Trompetten en Trommelen.</stage>
+					<sp who="#boisot">
+						<speaker>Boisot</speaker>
+						<l>Geluk, driewerf geluk, na 't uitgestaan gevaar,</l>
+						<l>ô Burgervadren en beroemde Raad van Leyden!</l>
+						<l>Gantsch Neêrland zal uw' lof eeuw uit eeuw in verbreiden,</l>
+						<l>Uw naamen tellen by de Helden, door wier deugd</l>
+						<l>Het Land in 't bly genot der vryheid zich verheugt.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>Zo min zal tyd of eeuw aan Neêrland doen vergeeten</l>
+						<l>Hoe zich 's Lands Staaten tot behoud van Leyden kweeten;</l>
+						<l>Der Kapiteinen moed, Oranjes wys beleid,</l>
+						<l>De trouw des vlootelings en uwe dapperheid:</l>
+						<l>Dat zich de veege Stad voor 't onheil vind geborgen,</l>
+						<l>Zyn wy, naast God, verpligt aan die veréénde zorgen.</l>
+					</sp>
+					<sp who="#boisot">
+						<speaker>Boisot</speaker>
+						<l>Wat heil dat Leyden van die zorg de vruchten smaakt!</l>
+						<l>Hoe heeft ons aller hart naar dat geluk gehaakt!</l>
+						<l>Wat is, op 's Prinssen raad, al arbeids ondernomen</l>
+						<l>Om Delf- en Rynland door het Maasnat te overstroomen,</l>
+						<l>Opdat men redding zond langs 't golvend waterspoor!</l>
+						<l>Wat groef men wegen uit, wat stak men dyken dóór!</l>
+						<l>Doch al die arbeid had de Stad niet kunnen baaten,</l>
+						<l>Zo Spanje Lammens schans uit vrees niet had verlaaten.</l>
+						<l>Hoe rees de hoop zo ras zyn oogmerk wierd bespied;</l>
+						<l>En hy 't geschut dier schans deed zinken in de Vliet!</l>
+						<l>Toen sprak de blydschap uit kartouwen en trompetten;</l>
+						<l>En all' wat riemen voerde of zeilen by kon zetten</l>
+						<l>Genaakte al juichende de thans verloste plaats.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<stage>tegen Boisot.</stage>
+						<l>Had Valdez, op den eisch des woedenden soldaats,</l>
+						<l>Het stormen op de Stad deez' nacht nog ondernomen,</l>
+						<l>Gy waart tot haar behoud, helaas! te spaê gekomen.</l>
+					</sp>
+					<sp who="#boisot">
+						<speaker>Boisot</speaker>
+						<l>'t Is vreemd dat hy tot nu dat opzet heeft vertraagd.</l>
+						<l>Wat of hem wederhield?</l>
+					</sp>
+					<sp who="#van-hout">
+						<speaker>van Hout</speaker>
+						<l>Dees gadelooze Maagd,</l>
+						<l>Uit d' adelyken stam van schrandren Moons gesproten;</l>
+						<l>Die, schoon reeds Valdez Bruid, zich met ons heeft besloten</l>
+						<l>In dees benaauwde Vest, op hoop dat, door haar trouw,</l>
+						<l>Het volk met haar geslacht den ramp ontkomen zou.</l>
+					</sp>
+					<sp who="#boisot">
+						<speaker>Boisot</speaker>
+						<stage>tegen Magdalena.</stage>
+						<l>Wat zal u 't Vaderland tot eene erkentnis wyden?</l>
+					</sp>
+					<sp who="#magdalena">
+						<speaker>Magdalena</speaker>
+						<l>'t Is me eers genoeg dat ik de Vesting hielp bevryden.</l>
+					</sp>
+					<sp who="#boisot">
+						<speaker>Boisot</speaker>
+						<l>Zo lang men Leydens naam met lof in Neêrland noemt,</l>
+						<l>Worde ook uw deugd en naam door 't nageslacht geroemd!</l>
+					</sp>
+					<sp who="#van-der-does">
+						<speaker>van der Does</speaker>
+						<stage>tegen van der Werf.</stage>
+						<l>ô Eedle van der Werf, die in de staatsgevaaren</l>
+						<l>Zo pal stond als een rots in 't hart der woênde baaren;</l>
+						<l>Die, zelf verdrukt door 't leed, het onze hebt verzacht!</l>
+						<l>Duld dat de dankbre Stad u als haar' Vader acht'!</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>De gantsche Raad heeft naar vermogen zich gekweten.</l>
+					</sp>
+					<sp who="#boisot">
+						<speaker>Boisot</speaker>
+						<l>Opdat geen tyd den moed van Leyden doe vergeeten,</l>
+						<l>Heeft Hollands Staat beraamd, om binnen zynen muur</l>
+						<l>Een School te vestigen, die eeuw en tyd verduur'.</l>
+						<l>Men noem' de trouwe Stad voortaan 't Bataafsch Atheenen;</l>
+						<l>Een plaats waar Godvrucht, Kunde en Yver zich veréénen;</l>
+						<l>Die door Geleerdheid gantsch Europe aan zich verpligt',</l>
+						<l>En in wier kreits de troon der wysheid is gesticht.</l>
+					</sp>
+					<sp who="#van-der-werf">
+						<speaker>van der Werf</speaker>
+						<l>De Stad aanvaard deeze eer met een erkennend harte.</l>
+						<l>Zo strekk' de Hooge School, die haar geleden smarte</l>
+						<l>Door de edelmoedigheid der Staaten grootsch vergoed,</l>
+						<l>Door alle de eeuwen heen een blyk van haaren moed;</l>
+						<l>En lever' Helden uit, die 't Vaderland waardeeren,</l>
+						<l>De Vryheid des gemoeds met goed en bloed verweeren;</l>
+						<l>Altoos gedachtig hoe veel rampen Leyden leed,</l>
+						<l>Wanneer 't de dwinglandy met zo veel krachts bestreed,</l>
+						<l>En in der burgren bloed den eersten grondslag veste</l>
+						<l>Der eedle vryheid vàn al 't Nederlandsch geweste.</l>
+						<l>Zy bloeije eeuw uit eeuw in; en zy door 't nageslacht</l>
+						<l>Met waare dankbaarheid eeuw uit eeuw in herdacht;</l>
+						<l>Terwyl wy, jaar op jaar, eerbiedig neêrgebogen,</l>
+						<l>Met ééne stem, één hart, Gods grooten naam verhoogen.</l>
+						<l>Ons voorbeeld baane al 't volk hier toe een loflyk spoor,</l>
+						<l>En leid' het juichend op naar 't heilig tempelchoor.</l>
+					</sp>
+					<stage>Onder een aangenaam muzyk van pauken, trompetten en trommelen, vertrekken
+						Boisot, Willemsse en van der Werf. Van Zwieten bied de hand aan Magdalena;
+						en van Noorden aan Elizabeth, om hen te volgen. Zy worden gevolgd door van
+						Baarsdorp en van der Does. Deezen door de Raaden en van Hout. En terwyl de
+						Land- en Zee-Kapiteinen vertrekken, valt het gordyn.</stage>
+					<p>Einde van het vyfde Bedryf.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

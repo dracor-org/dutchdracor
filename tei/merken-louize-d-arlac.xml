@@ -1,0 +1,4432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000229" xml:lang="dut">
+
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Louize d'Arlac</title>
+				<title type="sub"/>
+				<author>
+					<persName>
+						<forename>Lucretia Wilhelmina</forename>
+						<nameLink>van</nameLink>
+						<surname>Merken</surname>
+					</persName>
+					<idno type="wikidata">Q3265974</idno>
+					<idno type="pnd">104226285</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL"
+						>https://www.dbnl.org/tekst/wint009toon02_01/wint009toon02_01_0009.php</idno>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Nicolaas Simon van Winter and Lucretia Wilhelmina van Merken,
+						Tooneelpoëzy. Deel 2. Amsterdam: Pieter Johannes Uylenbroek, 1786.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="MALE" xml:id="adusta">
+						<persName>Adusta</persName>
+					</person>
+					<person sex="MALE" xml:id="cipiere">
+						<persName>Cipiere</persName>
+					</person>
+					<person sex="MALE" xml:id="du-bree">
+						<persName>Du Bree</persName>
+					</person>
+					<person sex="MALE" xml:id="fransche-en-amerikaansche-krygslieden">
+						<persName>Fransche en Amerikaansche Krygslieden</persName>
+					</person>
+					<person sex="MALE" xml:id="gourges">
+						<persName>Dominicus de Gourges</persName>
+					</person>
+					<person sex="MALE" xml:id="hoya">
+						<persName>Hoya</persName>
+					</person>
+					<person sex="MALE" xml:id="joinville">
+						<persName>Joinville</persName>
+					</person>
+					<person sex="MALE" xml:id="la-val">
+						<persName>La Val</persName>
+					</person>
+					<person sex="MALE" xml:id="la-vigne">
+						<persName>La Vigne</persName>
+					</person>
+					<person sex="FEMALE" xml:id="louize">
+						<persName>Louize</persName>
+					</person>
+					<person sex="MALE" xml:id="oades">
+						<persName>Oades</persName>
+					</person>
+					<person sex="FEMALE" xml:id="olinde">
+						<persName>Olinde</persName>
+					</person>
+					<person sex="MALE" xml:id="otocara">
+						<persName>Otocara</persName>
+					</person>
+					<person sex="MALE" xml:id="satouria">
+						<persName>Satouria</persName>
+					</person>
+					<person sex="MALE" xml:id="stalame">
+						<persName>Stalame</persName>
+					</person>
+					<person sex="MALE" xml:id="vesti">
+						<persName>Vesti</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-02">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1786">
+				<desc/>
+			</event>
+			<event type="premiere" when="">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+
+	<text>
+		<front>
+
+			<head>Louize d'Arlac. <lb/> Treurspel. <lb/> Door Lucretia Wilhelmina van Merken.</head>
+
+			<div type="preface">
+
+				<head>Voorbericht.</head>
+				<p>Beleedigingen en Geweld, aan Volk of Vaderland gedaan, zyn menigwerf, daar
+					Vaderland of Volk op dien tyd onmagtig was dezelven of voor te komen of af te
+					weeren, door byzondere Persoonen, wier ziel te groot was om onbillykheden en
+					tiranny te dulden, rechtvaardiglyk gestraft; en daar hunne Land- en Tydgenooten
+					doorgaans onmagtig of niet geschikt zyn geweest hunne deugden naar waarde te
+					erkennen, heeft de Historie hunnen naam en welverdienden roem vereeuwigd; en de
+					Nakomelingschap bewyst hen, als voorbeelden van waare grootheid, de dankbaarste
+					erkentenis. De voortreffelyke Fransche Historieschryver de Thou heeft dus den
+					naam van Dominicus de Gourges voor altoos der vergetelheid onttrokken. De
+					Admiraal de Coligny had in de voorleden eeuw voor de vervolgde Hugenooten een
+					wykplaats op doen zoeken, om, des noods, in Florida, thans Noordcarolina, zich
+					te kunnen bergen. Karelsburg, het tegenwoordig Charlestown, was, kort na
+					deszelfs stichting, door de Spanjaarden overvallen en uitgemoord. Gourges alleen
+					ondernam dit geweld te straffen, en de oprechte en groote de Thou alleen
+					vereeuwigt zyn' roem, en verwerft hem den onverwelkelyken lof der
+					Nakomelingschap voor zyne deugd. Ik heb, door den Held in dit Treurspel een
+					Dochter te geeven, (van welke dit Stuk den naam draagt,) zyne Vaderlandliefde
+					door de Ouderlyke liefde slechts gesterkt, en tevens zyne daad geschikt om
+					dezelve, zo ik hoop, in de schoonste kracht van werking te kunnen vertoonen. De
+					groote Albestuurder der waereld geeve, dat het nimmer eene eeuw mooge ontbreeken
+					aan Beschermers van Deugd en Gerechtigheid!</p>
+			</div>
+
+			<castList>
+				<head>Vertooners.</head>
+				<castItem corresp="#gourges">
+					<role>Dominicus de Gourges, Fransch Edelman en Opperbevelhebber.</role>
+				</castItem>
+				<castItem corresp="#louize">
+					<role>Louize, Weduwe van Francois d'Arlac, Fransch Edelman.</role>
+				</castItem>
+				<castItem corresp="#la-val">
+					<role>La Val, } Fransche Edellieden en Bevelhebbers.</role>
+				</castItem>
+				<castItem corresp="#cipiere">
+					<role>Cipiere, } Fransche Edellieden en Bevelhebbers.</role>
+				</castItem>
+				<castItem corresp="#vesti">
+					<role>Vesti, } Fransche Edellieden en Bevelhebbers.</role>
+				</castItem>
+				<castItem corresp="#joinville">
+					<role>Joinville, } Fransche Edellieden en Bevelhebbers.</role>
+				</castItem>
+				<castItem corresp="#du-bree">
+					<role>Du Bree, Bejaard Fransch Edelman.</role>
+				</castItem>
+				<castItem corresp="#satouria">
+					<role>Satouria, Koning van een groot gedeelte van Florida.</role>
+				</castItem>
+				<castItem corresp="#olinde">
+					<role>Olinde, Gemaalinne van Satouria.</role>
+				</castItem>
+				<castItem corresp="#otocara">
+					<role>Otocara, Broeder van Olinde, en Koning van een groot gedeelte van
+						Florida.</role>
+				</castItem>
+				<castItem corresp="#adusta">
+					<role>Adusta, } Koningen van gedeelten van Florida, doch cynsbaar aan
+						Satouria.</role>
+				</castItem>
+				<castItem corresp="#stalame">
+					<role>Italame, } Koningen van gedeelten van Florida, doch cynsbaar aan
+						Satouria.</role>
+				</castItem>
+				<castItem corresp="#hoya">
+					<role>Hoya, Vriend van Adusta.</role>
+				</castItem>
+				<castItem corresp="#oades">
+					<role>Oades, Hoofdman der Lyfwachten van Satouria en Otocara.</role>
+				</castItem>
+				<castItem corresp="#fransche-onderbevelhebbers">
+					<role>Fransche Onderbevelhebbers en Krygslieden.</role>
+				</castItem>
+				<castItem corresp="#amerikaansche-grooten">
+					<role>Amerikaansche Grooten en Landzaaten.</role>
+				</castItem>
+			</castList>
+			<castList>
+				<head>Zwygenden.</head>
+				<castItem corresp="#zoontje">
+					<role>Een Zoontje van Satouria en Olinde.</role>
+				</castItem>
+				<castItem corresp="#lyfwachten">
+					<role>Lyfwachten van Satouria en Otocara.</role>
+				</castItem>
+				<p>Het TOONEEL is in FLORIDA;</p>
+				<p>het eerste en tweede bedryf aan het strand; de drie overigen op eene vlakte, in
+					een bosch.</p>
+
+
+
+				<figure/>
+				<p>Gy sterft, myn Vriend! gy zyt niet meer op my verbolgen! Vertoef, en voer my meê!
+					<lb/> Vde Bedr. VIde Toon. <lb/> p.j. uylenbroek excud.</p>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+
+				<head>Louize d'Arlac. </head>
+				<head>Treurspel.</head>
+				<head>Eerste bedryf.</head>
+				<stage>Het tooneel vertoont het einde van een bosch, by een bergachtig strand: men
+					ziet, ter zyde, onder een' boom, het wapen van Vrankryk, op een' steen
+					uitgehouwen, opgericht; en, in het verschiet, de zee.</stage>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+					<stage>Satouria, Otocara, Lyfwachten.</stage>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>'s Lands Vorsten eischen deel aan ons lofwaardig poogen;</l>
+						<l>Men wil in Florida geen Spanjaards meer gedoogen.</l>
+						<l>Sints, door die wreedaarts, in dit voormaals vreedzaam oord,</l>
+						<l>De nieuwe vesting wierd verheerd en uitgemoord,</l>
+						<l>Aan deze kust gebouwd door Vrankryks onderzaaten,</l>
+						<l>Zyn zy in hunnen waan verwinnaars onzer Staaten.</l>
+						<l>Hoe veel heeft dit gewest niet door hunn' dwang geleên!</l>
+						
+						<l>Te lang, te fel getergd door hunne uitspoorigheên,</l>
+						<l>Is elk dit uur bereid zich voor 's Lands heil te waagen,</l>
+						<l>En, vóór hun sterkten zelfs, den Spanjaard op te daagen.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Men dien' zich van de kans, die 't goed geluk ons bied,</l>
+						<l>Tot stuiting van 't geweld. Doch 't is de tyd thans niet</l>
+						<l>Om die ontmenschten uit hun rust te doen ontwaaken,</l>
+						<l>Nu wy van verre een vloot zien tot hun hulp genaaken.</l>
+						<l>Gy onderscheidde zelf, by 't ryzen van den dag,</l>
+						<l>Niet verre van de kust, de Castiljaansche vlag;</l>
+						<l>En ligt waar' 't scheepsvolk reeds verscheenen op de stranden,</l>
+						<l>Zo hen de tegenwind niet had belet te landen.</l>
+						<l>'t Is veiligst dat men eerst den vlooteling bestry';</l>
+						<l>En, zo men zegeviert, de sterkten zyn naby;</l>
+						<l>'t Zal ons verwinnend heir aan moed noch kracht ontbreeken,</l>
+						<l>Om, na 't bederf der vloot, op 't landvolk zich te wreeken.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Door 't lossen van 't geschut op 't onverwachtst gewekt,</l>
+						<l>Wierd van 't gebergte door myn wacht die vloot ontdekt.</l>
+						<l>Terstond wierd op een' top het seinvuur aangestoken:</l>
+						<l>'k Vloog yllings derwaart heen, zo ras 't begon te rooken,</l>
+						<l>En zag het eerbewys van 't land en uit de zee.</l>
+						<l>Men wuifde en wenkte, en wees het scheepsvolk naar de reê.</l>
+						<l>De wind is om; de vloot kan spoedig ons genaaken.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Men zal haar nadring ons ten eersten kenbaar maaken.</l>
+						<l>Men geeft van allen kant op haar beweeging acht.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Ik had Adusta en Stalame reeds verwacht.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Zy zyn gewis naby.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Gevloekte Castiljaanen.</l>
+						<l>Bewerkers van 's Lands ramp en van Louizes traanen!</l>
+						<l>Hoe haakt myn ziel naar 't uur, waarin ik, door uw' val,</l>
+						<l>Myn' roem vermeerdren en ons-allen wreeken zal.</l>
+						<l>ô Liefde! sterk myn hoop!</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Ik zie Oades komen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Satouria, Otocara, Oades, Lyfwachten.</stage>
+					<sp who="#oades">
+						<speaker>Oades</speaker>
+						<stage>tegen Satouria.</stage>
+						<l>Wy hebben van 't gebergte Adustaas heir vernomen;</l>
+						<l>Hy trekt zyn benden voor, langs d' oever der rivier.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Wys 't volk de legerplaats, en lei den Koning hier.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Satouria, Otocara.</stage>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Ik houde Adusta voor den waardsten myner Vrinden;</l>
+						<l>Gy zult, als ik, zyn trouw en yver ondervinden.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>'k Heb, om zyn dapperheid, hem altoos hoog geschat;</l>
+						<l>Gelukkig, zo zyn aart wat minder woestheid had,</l>
+						<l>En hy bezadigdheid met krygsdeugd wist te paaren.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>De driften mindren met het klimmen onzer jaaren.</l>
+						<l>Wie nadert ons?</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Stalame.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Satouria, Otocara, Stalame, Lyfwachten.</stage>
+					<sp who="#stalame">
+						<speaker>Stalame</speaker>
+						<l>ô Vorsten! zyt gegroet.</l>
+						<stage>Tegen Satouria.</stage>
+						<l>'k Heb met myn oorlogsvolk my op uw' last gespoed;</l>
+						
+						<l>Elk brand van yver om den vlootling te overromplen,</l>
+						<l>En al de Spanjaards in 't gewis bederf te domplen.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Ik vlei my met hunn' val, nu elk ons bystand bied.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Wat edelmoedig hart haat die ontmenschten niet?</l>
+					</sp>
+					<sp who="#stalame">
+						<speaker>Stalame</speaker>
+						<l>Welk een verschil in hen en Vrankryks eedle schaaren!</l>
+						<l>Die zag men nooit door dwang dit vry gewest bezwaaren:</l>
+						<l>Zy leefden met ons volk gelyk het broedren past;</l>
+						<l>Zy roofden graan noch vee; geen vrouw leed overlast.</l>
+						<l>Zy sleeten, met hun lot in Karelsburg te vreden,</l>
+						<l>De dagen beurtelings in arbeid en gebeden;</l>
+						<l>Of zongen in hun taal hun Godendom ter eer';</l>
+						<l>Of zetten zich by ons in onze hutten neêr,</l>
+						<l>En hielden feest met ons; of leerden ons hun spelen,</l>
+						<l>En deeden in de vreugd zelfs onze kindren deelen.</l>
+						<l>Dus liepen de uuren in vermaak en onschuld voort;</l>
+						<l>Tot hen de Castiljaan onmenschlyk heeft gemoord,</l>
+						<l>Zich in hun plaats gevest, en, door zyne euveldaaden,</l>
+						<l>Onze onverzoenbre wraak zich op den hals gelaaden.</l>
+						<l>Zy vormen van ons land een woonplaats van elend'.</l>
+						<l>Hier word het vee geroofd; daar word de maagd geschend;</l>
+						<l>Ginds eischen zy den dienst van onze jongelingen;</l>
+						
+						<l>En, word hen die ontzegd, zy dreigen, pressen, dwingen,</l>
+						<l>En leggen 't slaafsche juk baldaadig op den hals</l>
+						<l>Van vrygeboren volk. In zo veel ongevals</l>
+						<l>Is niet dan hoop op wraak ons overig gebleeven.</l>
+						<l>Men sterve of overwinne, en doe die wreedaarts sneeven.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Stalame! Ik voel myn hart verrukt door uwe reên.</l>
+						<l>Men sterve of overwinn'. 't Is reeds te veel geleên.</l>
+					</sp>
+					<sp who="#stalame">
+						<speaker>Stalame</speaker>
+						<stage>tegen Satouria.</stage>
+						<l>Vergun my dat ik u myn benden moog' vertoonen.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<stage>tegen Otocara.</stage>
+						<l>Wil by Adusta myn verhaast vertrek verschoonen.</l>
+						<l>Men maake elk tydstip zich ten nutte, om, by het strand,</l>
+						<l>Ten stryd gereed te zyn zo ras de Spanjaard land.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Verlaat u op myn zorg. Ik zal hem hier verwachten.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>alleen.</stage>
+						<l>Louize! mogt myn trouw in 't einde uw smart verzachten!</l>
+						<l>Mogt ik de wreeker zyn van al uw zielverdriet;</l>
+						<l>Den wreeden Castiljaan, wiens woede niets ontziet,</l>
+						<l>Door stroomen schuldig bloed uw traanen doen betaalen,</l>
+						<l>En door myn teêrheid op uw' afkeer zegepraalen;</l>
+						
+						<l>De alziende Zon had, in haar waereldheerschappy,</l>
+						<l>Nooit sterveling belonkt, gelukkiger dan my!</l>
+						<l>Doch, zo myn liefde niet op dezen prys kan hoopen,</l>
+						<l>Wensch ik ten minsten voor myn bloed uw rust te koopen,</l>
+						<l>Opdat ge een eind' moogt zien aan uw rampzaligheên.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Zesde tooneel.</head>
+					<stage>Otocara, Adusta.</stage>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Myn waarde Boezemvriend dus peinzende en alleen?</l>
+						<l>Ik dacht Satouria met u hier te onderhouên.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Stalame noodde hem zyn legermagt te aanschouwen,</l>
+						<l>Opdat men vaardig zy den Spaanschen 't hoofd te biên.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Hoe vrolyk zou myn oog die snooden sneuvlen zien!</l>
+						<l>Gy kent de vriendschap die ik Vrankryks onderdaanen</l>
+						<l>Standvastig heb gewyd, sints vyf en zestig maanen.</l>
+						<l>Hoe ik voor Ribaud zorgde, en van hem wierd bemind;</l>
+						<l>En Laudonniere was, als hy, me een dierbaar Vrind.</l>
+						<l>Hoe dikwerf denk ik aan die wenschelyke stonden,</l>
+						<l>Waarin uw Zuster, aan Satouria verbonden,</l>
+						<l>Hem Vader maakte van den Erfgenaam van 't Ryk!</l>
+						
+						<l>Wat gaaven zy ons toen van trouw en vriendschap blyk!</l>
+						<l>Wat zag men hen aan Zoon en Moeder niet vereeren!</l>
+						<l>Hoe hielpen ze op het feest de gulle vreugd vermeêren!</l>
+						<l>Wat was hun inborst heusch! Hoe minzaam hun gedrag!</l>
+						<l>Zy strekten Florida ten zegen, tot den dag</l>
+						<l>Waarop de Spanjaards hen moorddaadig overvielen.</l>
+						<l>Hoe wenschte ik dat dees dolk die wreeden konde ontzielen!</l>
+						<l>Ja, schoon een priester my nog onlangs heeft voorzegd,</l>
+						<l>Dat ik zal sneuvlen in de woede van 't gevecht;</l>
+						<l>Dit heilloos voorspook zou my treffen noch ontroeren,</l>
+						<l>Indien ik ze allen slechts met my kon medevoeren.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Dat u die ramp nooit treffe, en 't onheil hen verteer'!</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Hoe deerlyk velden zy de braave Franschen neêr!</l>
+						<l>Ontferming vond geen plaats by die geweldenaaren.</l>
+						<l>Ze ontzaagen deugd, noch jeugd, noch achtbre gryze hairen.</l>
+						<l>De zwakke kunne zelf wierd woedende omgebragt;</l>
+						<l>De droeve Moeder met den zuigeling geslagt;</l>
+						<l>Wat zyn 'er op dien dag al euveldaên bedreeven!</l>
+						<l>Een enkel man nochtans behield het veege leven,</l>
+						<l>En borg zich in myn land; daar ik hem heusch ontfing.</l>
+						<l>Hy is reeds hoog bejaard. Die achtbre vreemdeling</l>
+						<l>Is in de legerplaats, waar ik u hem zal wyzen.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Waartoe de gruwlen, die met recht elks hart doen yzen,</l>
+						<l>Op nieuw gemaald, myn Vriend? De deerniswaarde elend'</l>
+						<l>Die dit gewest vervulde is niemand onbekend.</l>
+						<l>Hoe driftig wensch ik op de Spanjaards ons te wreeken!</l>
+						<l>Uw Vreemdling echter is alleen hen niet ontweeken;</l>
+						<l>Een jonge Fransche Vrouw, het moordend staal ontvlucht,</l>
+						<l>Vond ook een wykplaats in Satouriaas gehucht;</l>
+						<l>Zy zag haar' Echtgenoot geveld door die barbaaren,</l>
+						<l>En wierd dus weduwe in het bloeien van haar jaaren.</l>
+						<l>Het onmeêdoogendst oog ziet haar met deerenis.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Is 't mooglyk dat een vrouw den moord ontkomen is!</l>
+						<l>'k Beklaag haar lot. 't Valt hard, alleen, by onbekenden,</l>
+						<l>In een uitheemsch gewest het kwynend leven te enden.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Verlegen vliedende, en vervuld van smart en schroom,</l>
+						<l>Vond zy een schuilplaats in een' uitgehoolden boom,</l>
+						<l>En sleet een' bangen nacht in zuchten en in traanen;</l>
+						<l>Tot zy Satouria, met eenige Indiaanen,</l>
+						<l>In 't bosch verschynen zag, by 't ryzen van het licht.</l>
+						<l>Zy viel hem aan de kniên, met een beschreid gezicht,</l>
+						<l>En bad en smeekte hem haar voor den moord te bergen.</l>
+						<l>Wien kon zy veiliger en beter schuilplaats vergen?</l>
+						
+						<l>Zyn edelmoedig hart wierd met haar' ramp begaan.</l>
+						<l>Hy zag haar van dat uur gelyk iets heiligs aan;</l>
+						<l>En bragt haar in zyn huis, by myn geliefde Zuster.</l>
+						<l>Olindes byzyn maakte allengs haar hart geruster.</l>
+						<l>Doch, als zy slechts aan 't woên der Castiljaanen denkt,</l>
+						<l>Kwynt ze als een tedre bloem, door stormgeweld gekrenkt.</l>
+						<l>De moord van haar' Gemaal zweeft haar altoos voor de oogen.</l>
+						<l>Gelukkig hy die ooit haar traanen af zal droogen!</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Gy deelt in haare smart vry sterk.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Geliefde Vrind!</l>
+						<l>Ik min haar sterker dan ooit sterfling heeft bemind.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Zy zal gelukkig zyn met u in d' echt te leeven.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Ach! nimmer heeft zy my een' blik van hoop gegeeven.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Gy, minnen zonder hoop? Een vreemde en zwakke vrouw...</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Hou op; gy kent haar niet. Eerbiedig haaren rouw.</l>
+						<l>De sterren, tintlende aan de breede hemelboogen,</l>
+						<l>Staan dof en duister by den luister van haare oogen;</l>
+						<l>De roode roos verbleekt by haar' koraalen mond;</l>
+						
+						<l>Ze is schoon, gelyk de maan by zomeravondstond;</l>
+						<l>Zachtmoedig, als een lam; en vlug, gelyk een hinde.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Een minnaar vind niets schoon dan 't schoon van zyn beminde.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Haar reednen vloeien als het zacht geruisch der beek,</l>
+						<l>Die kabblend heenen dryft in de Almakansche streek.</l>
+						<l>Wanneer zy somtyds, om de deernis niet te wekken,</l>
+						<l>Haar smart, uit heuschheid, poogt te smooren of te dekken;</l>
+						<l>Wanneer de wolk van druk op 't lief gelaat verdwynt,</l>
+						<l>Is 't of de glans der zon door dunne nevels schynt</l>
+						<l>Op 't Apalietsch gebergt', gereed om door te breeken.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Gy schildert sterk, en zoud nieuwsgierigheid ontsteeken</l>
+						<l>Om 't voorwerp van uw min, zo 't mooglyk waar', te zien.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Kom, waarde Adusta, kom; dit kan terstond geschiên.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Uw Broeder zou zich ligt door ons beleedigd achten,</l>
+						<l>Indien hy by myn volk naar myne komst moest wachten.</l>
+						<l>Men groet' hem eerst.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Weläan.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Wie nadert in 't verschiet?</l>
+						<l>Is dat de uitheemsche Vrouw met uwe Zuster niet?</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>ô Ja; zy is 't. Nu kunt ge uw eigen oog betrouwen.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Laat ons een oogenblik haar onbemerkt beschouwen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>Zevende tooneel.</head>
+					<stage>Otocara, Adusta, Louize, Olinde.</stage>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>ô Strand, getuige van Castiljes zegepraal!</l>
+						<l>ô Berg, ô moordplaats van myn' hartvriend, myn' Gemaal!</l>
+						<l>ô Cederwoud, besproeid door 't bloed der Hugenooten!</l>
+						<l>Moest ik, door u te zien, myn wanhoop nog vergrooten!</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Louize! geeft dit oord uw droefheid nieuwe kracht?</l>
+						<l>Myn hartvriendin! heb ik u daartoe hier gebragt?</l>
+						<l>Gy vleide my, dees plaats zoude uwen rouw verzachten,</l>
+						<l>En naauwlyks zyt gy hier, of gy berst uit in klagten.</l>
+						<l>Louize! ach! ween niet meer. Uw boezem zwoegt. Gy beeft.</l>
+						<l>Indien myn vriendschap op uw hart nog invloed heeft,</l>
+						
+						<l>Vertrek met my van hier.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Ik bid u, laat ons blyven.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Ik voed geen oogmerk om u wetten voor te schryven;</l>
+						<l>Maar is 't u nut?</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Helaas! ken ik myzelve recht?</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>tegen Otocara.</stage>
+						<l>Ze is inderdaad zeer schoon.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Ik heb u zulks gezegd.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Ik zie myn' Broeder: tracht uw droefheid in te binden.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Vergun my dat ik u den waardsten myner Vrinden,</l>
+						<l>Die met ons stryden zal, gulhartig aan moog' biên.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Gy zult ons beiden u ter wraak steeds vaardig zien.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Vergeefs, helaas! Geen wraak geeft my myn' Egaê weder.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Is dan voor dien Gemaal alleen uw hart zo teder?</l>
+						<l>Kan geen beschermer, kan geen Broeder, kan geen Vrind</l>
+						
+						<l>Zich vleien met de hoop door u te zyn bemind?</l>
+						<l>Gy weent, en antwoord niet!</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>ter zyde.</stage>
+						<l>Wien zou zy niet bekooren!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>'k Heb all' wat ik beminde in myn' Gemaal verlooren.</l>
+						<l>Vernoeg u, op myn beê, met myne erkentenis.</l>
+						<l>'t Is 't eenige, helaas! dat my nog ovrig is.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Indien myn tedre trouw uw hartwond' niet kan heelen,</l>
+						<l>Sta my ten minsten toe in uwe smart te deelen.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>tegen Otocara en Olinde.</stage>
+						<l>Hoe dikwerf heb ik u beroerd door myn verdriet.</l>
+						<l>Ach. ween niet over my, schoon gy my weenen ziet.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Myn Zuster! myn Vriendin!</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Zou 't u tot troost verstrekken,</l>
+						<l>Dat gy hier iemand van uw Landsliên konde ontdekken?</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Mogt ik dit hoopen! mogt ik zo gelukkig zyn!</l>
+						<l>Maar neen; wat vleie ik my? uw zeggen heeft geen schyn.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Een uwer Landsliên leeft.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Durf ik uw woord betrouwen?</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Hy heeft zich, na den moord, altoos by my onthouên.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Zoud gy my toestaan hem te spreeken?</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Twyfel niet;</l>
+						<l>Myn Vriend deelt nevens ons in al uw zielverdriet.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Stel u gerust, gy hebt geen weigering te vreezen;</l>
+						<l>Hy zal terstond hier zyn.</l>
+						<stage>Ter zyde.</stage>
+						<l>Mogt zy de myne wezen!</l>
+						<stage>Tegen Otocara.</stage>
+						<l>Kom, Otocara, laat ons gaan.</l>
+						<stage>Tegen Olinde.</stage>
+						<l>Ik bid, verschoon</l>
+						<l>Dat ik niet eerder u myn' dienst hebbe aangeboôn;</l>
+						<l>De droefheid dezer Vrouw trof my met mededoogen.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Hy eert me, Adusta, die haar traanen tracht te droogen.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Wy gaan u wreeken van Castiljes dwinglandy;</l>
+						
+						<l>Verwacht den Vreemdling straks; hy is hier reeds naby.</l>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>Agtste tooneel.</head>
+					<stage>Louize, Olinde.</stage>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Ik sta in twyfling wat ik hoopen moet of vreezen.</l>
+						<l>Is 't waar, of is 't een droom? Wie kan die Vreemdling wezen?</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Misschien een Bloedverwant, een Vriend, een Broeder.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Neen;</l>
+						<l>'k Had hier geen Vrienden dan myn' Echtgenoot alleen.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Maar waarom hebt ge u toch naar dit gewest begeeven?</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Toen Laudonniere was tot Admiraal verheven,</l>
+						<l>Ontfing myn Gaê bevel, met eenige Edelliên</l>
+						<l>Zich in te scheepen, om dien Vlootvoogd hulp te biên.</l>
+						<l>Gewoon in myn' Gemaal myn rust en heil te stellen,</l>
+						<l>Kon ik niet anders dan standvastig hem verzellen.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Had gy geen Ouders?</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Ach! wat naam hebt gy genoemd!</l>
+						<l>Myn Vader, door zyn deugd en dapperheid beroemd,</l>
+						<l>Was, verre uit ons gewest, by Vrankryks legervaanen,</l>
+						<l>Om stryd te voeren met de wreede Castiljaanen.</l>
+						<l>Myn Moeder, die hem niet kon volgen, stierf van druk,</l>
+						<l>En zag noch haars Gemaals noch Dochters ongeluk.</l>
+						<l>Ken, waarde Olinde! ken al de angsten die my prangen.</l>
+						<l>Myn Vader wierd, helaas! in eenen stryd gevangen,</l>
+						<l>En op de roeigalei, gelyk een slaaf, gescheept;</l>
+						<l>Daar hy, zo hy nog leeft, zyne yzren keten sleept.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>ô Deerlyk ongeval!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Beklaagenswaardig Vader!</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Hoe zwaar zyn onheil zy, uw toestand was nog kwaader.</l>
+						<l>Wie bragt u toch bericht van dees gebeurtenis?</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Een naare brief, die door hemzelv' geschreeven is,</l>
+						<l>En ons door Ribaud wierd behandigd, toen hy keerde</l>
+						<l>Slechts weinig dagen voor de Spanjaard ons verheerde.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Myn hart is meer dan ooit met uwe smart begaan.</l>
+						
+						<l>Vergeet, zo 't mooglyk is, den wreeden Castiljaan.</l>
+						<l>Myn dierbre zielvriendin! leef hier gerust en veilig.</l>
+						<l>Keer weder tot uzelf. Gy zyt ons-allen heilig.</l>
+						<l>Hier leeft geen mensch die u geen onderstand zal biên.</l>
+						<l>Gy zult gantsch Florida deez' dag gewapend zien.</l>
+						<l>Elk brand van yver om den Spanjaard op te daagen.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>En zo die legermagt rampspoedig wierd verslaagen?</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Nog is 'er volks genoeg in ieder Koningkryk.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Ach! vlei u niet te veel; de kans is te ongelyk.</l>
+						<l>En zo het vlootvolk al in t landen wierd verwonnen;</l>
+						<l>Wat zou het baaten? niets: de zaak waar' naauw' begonnen.</l>
+						<l>De snoode Castiljaan heeft in dit groot gewest</l>
+						<l>Zich, om verheerd te zyn, te wel, te sterk gevest.</l>
+						<l>Hy ligt, uit burg by burg, gelyk een leeuw te loeren.</l>
+						<l>Wat kan bestaan, zo hy 't geschut slechts aan doet voeren,</l>
+						<l>En op d' Amerikaan zyne yzren kogels schiet?</l>
+						<l>Uw volk heeft moeds genoeg, maar 't kent dien vyand niet.</l>
+						<l>Half naakt, en slechts voorzien van spietsen, dolken, pylen,</l>
+						<l>Of zwaare steenen, of geschonken legerbylen,</l>
+						<l>En ongewoon aan orde, ontschaart het zich eerlang.</l>
+						<l>De Castiljaan staat pal, en wykt niet uit zyn' rang.</l>
+						
+						<l>Zyn harnas is zo sterk dat hem geen pylen deeren;</l>
+						<l>Hy weet die op het schild behendig af te keeren;</l>
+						<l>En velt door 't zwaar kanon, of ligter schietgeweer,</l>
+						<l>All' wat hem wederstaat by gantsche drommen neêr.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Schep moed; de alziende Zon, getuige van uw lyden</l>
+						<l>En 't onheil van ons land, zal voor ons leger stryden.</l>
+						<l>Ik zie den Vreemdeling. Gedoog dat ik vertrekk'.</l>
+						<l>Gy wenscht misschien dit uur geen derde in uw gesprek.</l>
+						<l>Maar laat uw afzyn my ontrusten noch bedroeven;</l>
+						<l>Keer spoedig naar myn hut.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Ik zal niet lang vertoeven.</l>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>Negende tooneel.</head>
+					<stage>Louize, Du Bree.</stage>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Wat zie ik? 't Is du Bree, van wien Adusta sprak!</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Is 't mooglyk, Hemel! vind ik hier Mevrouw d' Arlac!</l>
+						<l>Is zy de uitheemsche Vrouw, wie elk Louize noemde!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Gy ziet Louize, wie het lot tot lyden doemde.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Schep moed, en wanhoop aan des Hemels goedheid niet.</l>
+						<l>Zie hoe ze, op 't onverwachtst, u een' beschermer bied.</l>
+						<l>Ik heb de wondre wyz', waarop gy zyt ontkomen,</l>
+						<l>Door Otocara in de legerplaats vernomen;</l>
+						<l>En dank de Hoogste magt, die u beveiligd heeft!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Roemwaardige Du Bree, 't verkwikt my dat gy leeft;</l>
+						<l>Dat ik een' Christen vind, met wien ik hart en oogen,</l>
+						<l>In al myn zielverdriet, kan opslaan naar den hoogen.</l>
+						<l>Ach! schoon Satouria myn ongeval beklaagt,</l>
+						<l>De oprechte Olinde als waar' ze een Zuster zich gedraagt,</l>
+						<l>En elk zich yvrig toont om voor myn heil te waaken,</l>
+						<l>Myn ziel, te fel geschokt, kan tot geen rust geraaken.</l>
+						<l>De trouw, de vriendschap, die gantsch Florida my bied,</l>
+						<l>Wekt myne erkentenis, maar stilt myn droefheid niet.</l>
+						<l>Het minste woord beroert me; elk voorwerp wekt myn traanen;</l>
+						<l>En echter leef ik niet dan door de Amerikaanen.</l>
+						<l>Hun bystand troost een vreemde en droeve weduwvrouw,</l>
+						<l>Die, zonder hen, bezweek voor 't woeden van den rouw.</l>
+						<l>Gezegend zy de Magt, die tot myn hulp u spaarde!</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Is 't gantsche leven niet een vreemdlingschap op aarde?</l>
+						<l>Zyn wy niet veilig by den trouwen Floridaan?</l>
+						
+						<l>'t Verschilt niet uit wat oord we in 't eind' ten hemel gaan.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>ô Myn d'Arlac!</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Waartoe, waartoe dit troostloos weenen?</l>
+						<l>Op 't moeilyk scheiden volgt een zegenryk heréénen.</l>
+						<l>D'Arlac ging u vooruit, daar gy hem volgen zult.</l>
+						<l>Leef in die hoop; verwacht dat tydstip met geduld.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Ik zal, zo veel ik kan, my naar uw' raad gedraagen.</l>
+						<l>Dan ach! myn Vriend, wie ziet een einde aan onze plaagen?</l>
+						<l>Verbeeld ge u dat een heir van t' saamgeraapte liên</l>
+						<l>In staat zal wezen om den vlootling 't hoofd te biên;</l>
+						<l>En zo 't in dezen stryd al mogt verwinnaar blyven,</l>
+						<l>Den trotschen vyand uit de sterkten zal verdryven?</l>
+						<l>Beseft gy welk een lot al 't land genaakende is,</l>
+						<l>Zo hy verwinnaar word?</l>
+						<stage>Na een weinig stilzwygens.</stage>
+						<l>Ach! toon me uw deerenis,</l>
+						<l>Indien hy triomfeert!</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Wat eischt gy van myn trouwe?</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Helaas!..</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Voleind!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Red dan een hulpelooze Vrouwe.</l>
+						<l>Beloof my dat gy my zult bergen; dat ik aan</l>
+						<l>Des vyands razerny noch smaad ten doel zal staan.</l>
+						<l>Zweer dat gy my uw' dolk zult in den boezem wringen,</l>
+						<l>Eer ik het voorwerp word' van zyn mishandelingen.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Wat vergt gy my? Zou ik u moorden? Zou uw Vrind,</l>
+						<l>Die zich voor 't Alziend oog tot uwe hulp verbind,</l>
+						<l>En niets zo vuurig wenscht dan u ten steun te strekken,</l>
+						<l>Zyn hand wreedaartig met uw schuldloos bloed bevlekken?</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Ach! weiger my dien troost in 't uiterst onheil niet!</l>
+						<l>Indien de Castiljaan, wiens woede niets ontziet,</l>
+						<l>Zyn wraak voldaan hield door 't verkorten van myn dagen,</l>
+						<l>'k Zou mooglyk minder van uw weigring my beklaagen.</l>
+						<l>Maar kunt ge eene eedle Vrouw, de weduw van uw' Vrind,</l>
+						<l>Een hugenoote, die op aard' geen redder vind,</l>
+						<l>Een onheil wreeder dan de wreedste dood zien lyden,</l>
+						<l>Waarvan uw deernis haar weldaadig kon bevryden?</l>
+						<l>Of dulden dat zy, in het akligst tydgewricht,</l>
+						<l>U met haar' hooner daag' voor 's Hoogsten wraakgericht?</l>
+						
+						<stage>Zy wil hem te voet vallen.</stage>
+						<l>Ik smeek u; ik bezweer...</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<stage>haar wederhoudende.</stage>
+						<l>Wat magt is u gegeeven,</l>
+						<l>Om dus, naar 't u behaagt, te speelen met uw leven?</l>
+						<l>Denk dat ge een Christen zyt. Denk dat geen sterveling</l>
+						<l>Beschikken kan van goed dat hy ter leen ontfing.</l>
+						<l>Kan hy, die u bewaarde, u niet altoos bewaaren?</l>
+						<l>Breng toch, zo 't mooglyk is, uw wanhoop tot bedaaren.</l>
+						<l>Gy, schoon een zwakke vrouw, gy zyt misschien gered</l>
+						<l>Uit d'algemeenen ramp, op uw d'Arlacs gebed.</l>
+						<l>Gy zyt beveiligd toen de dappren zelf bezweeken.</l>
+						<l>Is u dezelfde hulp niet uur op uur gebleeken?</l>
+						<l>Ontbrak 't u ooit aan troost? Heeft u de Amerikaan</l>
+						<l>Niet tot dit oogenblik weldaadig bygestaan?</l>
+						<l>Wie heeft de harten tot uw' onderstand bewoogen?</l>
+						<l>En zoud gy twyflen aan den bystand uit den hoogen?</l>
+						<l>Zo wy ons, tegen hoop, verwonnen mogten zien,</l>
+						<l>Beloof ik, zo ik leef, met u dit oord te ontvliên.</l>
+						<l>Ik zal, dit zweer ik u, niet willig van u scheiden;</l>
+						<l>Een Magtiger dan ik zal u en my geleiden.</l>
+						<l>Wie weet of Coligny eerlang geen schepen zend;</l>
+						<l>Of we ons nog niet in 't eind' gered zien uit de elend'.</l>
+						<l>Een Hooger zorgt voor ons. Laat ons ons niet beklaagen.</l>
+						
+						<l>'t Moet ons behaagen 't geen den Hemel zal behaagen.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Gy zyt een engel, die my troost in mynen rouw.</l>
+						<l>Verschoon de angstvalligheid van een verlaaten vrouw.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Kom, laaten we ons geloof uit ons gedrag bewyzen,</l>
+						<l>Opdat het Heidendom met ons één Magt leer' pryzen...</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Zie hoe op 't ginds gebergt' het seinvuur rookt en brand.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Wyk nevens my van hier; gewis, de Spanjaard land.</l>
+					</sp>
+					<stage>Einde van het eerste Bedryf.</stage>
+				</div>
+			</div>
+			<div type="act" n="2">
+
+				<head>Tweede bedryf.</head>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+					<stage>Gourges, Vesti, La Val, Cipiere, La Vigne, en groot gevolg van Fransche
+						Bevelhebbers en Soldaaten.</stage>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Getrouwe Vrienden, myn geloofs- en landgenooten,</l>
+						<l>Die, op myn' voorslag, hebt tot dezen togt beslooten,</l>
+						<l>Opdat men zuidwaart aan gantsch Florida ontdekk',</l>
+						<l>En roem voor 't Vaderland uit onzen zeetogt trekk'!</l>
+						<l>Een waereld, niet geschokt door onze burgertwisten,</l>
+						<l>Een nieuwe waereld, waar uw Vaders niets van wisten,</l>
+						<l>Bewoond door Wilden, en, schoon woest en onbebouwd,</l>
+						<l>Een bron van overvloed, word thans door u beschouwd.</l>
+						<l>Hoort, nu wy vaardig staan om landwaart in te streeven,</l>
+						<l>Wat my tot dezen togt het sterkst heeft aangedreeven.</l>
+						<l>De braave Coligny, uw hoofd en rechtehand;</l>
+						<l>De trouwe Vader van 't geschokte Vaderland;</l>
+						<l>Bewust van 't moordverbond, door Koning Phlips geslooten</l>
+						<l>Met wreeden Guize, tot bederf der hugenooten;</l>
+						<l>En yvrend dat die ramp nog tydig wierd gestuit,</l>
+						
+						<l>Zag, vruchtloos, in Europe alom naar schuilplaats uit;</l>
+						<l>Zyne onvermoeide zorg voor zyn vervolgde Vrinden</l>
+						<l>Deed hem die eindlyk in eene andre waereld vinden.</l>
+						<l>Hy zond held Ribaud met een vloot naar dit gewest.</l>
+						<l>Dees heeft, op zyn bevel, hier Karelsburg gevest,</l>
+						<l>En met d'Amerikaan een' vasten vreê geslooten.</l>
+						<l>Verzekerd van de trouw dier nieuwe bondgenooten,</l>
+						<l>Liet hy zyn benden hier, en keerde spoedig weêr.</l>
+					</sp>
+					<sp who="#cipiere">
+						<speaker>Cipiere</speaker>
+						<l>Dit mannelyk ontwerp strekt Coligny tot eer.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Men hoorde in Vrankryk naauw' den uitslag van zyn poogen,</l>
+						<l>Of 't Hof, met hem verzoend, en door zyn' raad bewoogen,</l>
+						<l>Zond naar Amerika een tweede scheepsvloot af,</l>
+						<l>Waarvan men 't hoog bevel aan Laudonniere gaf.</l>
+						<l>Hy wierd op reis verzeld van eenigen der Grooten,</l>
+						<l>En een geheele schaar' van vroome hugenooten.</l>
+						<l>Myn Schoonzoon, aan myn Telg nog naauw' een jaar verknocht,</l>
+						<l>Begaf zich met zyn Gade op dien rampzaalgen togt.</l>
+						<l>Ikzelf had hen verzeld, ten waar' men in Toscaanen</l>
+						<l>My opgehouden had met Vrankryks legervaanen,</l>
+						<l>Daar ik voor Medicis, en tegen Spanje streed.</l>
+						<l>Die Vyand stortte eerlang my in 't verschriklykst leed.</l>
+						<l>Hy trok my met myn bende in zyn verborgen laagen,</l>
+						
+						<l>En doemde ons ter galeië, en deed ons ketens draagen.</l>
+					</sp>
+					<sp who="#la-val">
+						<speaker>La Val</speaker>
+						<l>Hoe! U, een hoofd van 't heir?</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Myn Vriend, beklaag my niet;</l>
+						<l>Zie my gepynigd door een wreeder zielverdriet.</l>
+						<l>Ik wierd, na 't einden van twee lange en bange jaaren,</l>
+						<l>Uit dezen staat verlost door Malthaas Ridderschaaren;</l>
+						<l>En keerde naar Rochelle; alwaar my wierd gemeld</l>
+						<l>Hoe deerniswaardig 't in deze oorden was gesteld:</l>
+						<l>Dat Spanjes vloekrot, op de vesting aangevallen,</l>
+						<l>Zich meester had gemaakt der welverweerde wallen;</l>
+						<l>En, (ach! hoe melde ik 't u!) hier alles had geslagt,</l>
+						<l>Behalven 't weinig volk dat ons dees tyding bragt.</l>
+					</sp>
+					<sp who="#la-val">
+						<speaker>La Val</speaker>
+						<l>ô Gruwel!</l>
+					</sp>
+					<sp who="#la-vigne">
+						<speaker>La Vigne</speaker>
+						<l>Hemel!</l>
+					</sp>
+					<sp who="#vesti">
+						<speaker>Vesti</speaker>
+						<l>'k Was getuige van hun woede,</l>
+						<l>En 't was ter naauwernood dat ik myn leven hoedde.</l>
+					</sp>
+					<sp who="#cipiere">
+						<speaker>Cipiere</speaker>
+						<l>Hoe! Weet gantsch Vrankryk niets van dien gevloekten moord?</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Die droeve tyding wierd door 't Hof met zorg gesmoord;</l>
+						<l>En aan 't behouden volk het strengst bevel gegeeven,</l>
+						<l>'t Geheim te heelen, op verbeurte van het leven.</l>
+					</sp>
+					<sp who="#la-val">
+						<speaker>La Val</speaker>
+						<l>Kon Coligny dan niets...?</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Helaas! gy weet hoe 't staat.</l>
+						<l>Door 't moorden van Condé byna ten einde raad,</l>
+						<l>Is hy naauw' magtig ons verslaagen heir te bergen.</l>
+						<l>Wie kan, helaas! wie kan hem wraak of bystand vergen,</l>
+						<l>Daar hy zyn Gade en Kroost van stad naar stad doet vliên,</l>
+						<l>En naauwlyks weet hoe hy de Guizen 't hoofd zal biên?</l>
+					</sp>
+					<sp who="#la-val">
+						<speaker>La Val</speaker>
+						<l>'t Onschuldig bloed eischt wraak.</l>
+					</sp>
+					<sp who="#cipiere">
+						<speaker>Cipiere</speaker>
+						<l>Wie kan dien moord gedoogen?</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Myn Vrienden, 'k vind my niet in myne hoop bedroogen.</l>
+						<l>Beseft hoe myne ziel door woede en deerenis,</l>
+						<l>Sints ik dien gruwel hoorde, altoos gefolterd is.</l>
+						<l>'k Verkocht myn huis en land om schepen uit te rusten,</l>
+						<l>Waarmede ik zeilen kon naar deze uitheemsche kusten;</l>
+						<l>Doch, niet ter wraak' van myn gesneuveld Kroost alleen,</l>
+						
+						<l>Maar 't Vaderland ter eer', ter wraak' van 't algemeen.</l>
+						<l>'k Verborg, hoe fel gegriefd door wanhoop en door smarte,</l>
+						<l>Tot op dit oogenblik myn oogmerk in myn harte.</l>
+						<l>Indien u 't knaagend leed eens droeven Vaders treft,</l>
+						<l>Zo gy de elende van den hugenoot beseft,</l>
+						<l>'t Is nu of nimmer tyd hun aller ramp te wreeken.</l>
+						<l>Ik dring u echter niet; schroom niet rechtuit te spreeken.</l>
+					</sp>
+					<sp who="#la-vigne">
+						<speaker>La Vigne</speaker>
+						<l>Wy allen wierden in den burgerstryd gespaard.</l>
+						<l>De wraak dier gruwlen is gewis voor ons bewaard.</l>
+						<l>Zou Spanje strafloos 't bloed van onze broedren plengen?</l>
+					</sp>
+					<sp who="#la-val">
+						<speaker>La Val</speaker>
+						<l>Zoekt Phlips niet ons als hen moorddaadig om te brengen?</l>
+						<l>Zyn Alva en Granvelle aan iemand onbekend?</l>
+						<l>Zyn zy de Stichters niet der algemeene elend'?</l>
+						<l>De wreede Guize, die, door eigenbaat gedreeven,</l>
+						<l>Zyne eigen grootheid zoekt door Spanje steun te geeven,</l>
+						<l>Is 't heimlyk met hen eens, om, ten bestemden tyd,</l>
+						<l>Ons 't leed te brouwen dat gantsch Nederland reeds lyd.</l>
+						<l>De Koning is een kind, zo woest als onervaaren;</l>
+						<l>En ach! zyn moeder heult met die Geweldenaaren.</l>
+					</sp>
+					<sp who="#vesti">
+						<speaker>Vesti</speaker>
+						<l>Gelukkig, zo men hier de vesting nog bezat!</l>
+					</sp>
+					<sp who="#cipiere">
+						<speaker>Cipiere</speaker>
+						<l>De waare dapperheid behoeft noch wal noch stad.</l>
+					</sp>
+					<sp who="#la-vigne">
+						<speaker>La Vigne</speaker>
+						<l>Men winn' de sterkte weêr.</l>
+					</sp>
+					<sp who="#la-val">
+						<speaker>La Val</speaker>
+						<l>Laat ons de moorders straffen.</l>
+						<l>De Hemel zal gewis de onnoozlen wraak verschaffen.</l>
+						<l>Gy zyt ons Opperhoofd: kom, Gourges! voer ons aan.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Bedenk u wél; het is een hagchelyk bestaan.</l>
+						<l>Ik ben gereed, en waag zeer weinig aan myn leven.</l>
+					</sp>
+					<sp who="#la-vigne">
+						<speaker>La Vigne</speaker>
+						<l>Zo ons de kans mislukt, wy zullen met u sneeven.</l>
+					</sp>
+					<sp who="#vesti">
+						<speaker>Vesti</speaker>
+						<l>ô Hemel! sta ons by: eisch van al 't Spaansch gebroed</l>
+						<l>Gestrenge rekenschap van 't wreedvergooten bloed.</l>
+					</sp>
+					<sp who="#cipiere">
+						<speaker>Cipiere</speaker>
+						<l>Wat mart men nog? laat ons de ontmenschten overvallen.</l>
+						<l>ô Gourges! voer ons aan. Het is de wensch van allen.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Myn hart en hand zyn tot der moordren straf bereid.</l>
+						<l>Doch laat ons niets bestaan dan met bedaard beleid.</l>
+						<l>De Spanjaard houd ons nog gelukkig voor zyn vrinden.</l>
+						<l>Men heeft, gelyk gy weet, om hem het oog te blinden,</l>
+						
+						<l>By 't nadren tot de kust, de Castiljaansche vlag</l>
+						<l>Doen waaien van de steng, zelfs eer men 't land nog zag.</l>
+						<l>Ook deed ons zwaar geschut de schooten wederkeeren,</l>
+						<l>Waarmeê we ons uit de vest als vrienden zaagen eeren.</l>
+						<l>Dus word de vyand door geen achterdocht ontrust;</l>
+						<l>En wacht, in dezen tyd, geen Franschen op de kust.</l>
+						<l>Doch 't zou gevaarlyk zyn indien de Amerikaanen</l>
+						<l>Zich thans verëenden met de snoode Castiljaanen.</l>
+					</sp>
+					<sp who="#la-val">
+						<speaker>La Val</speaker>
+						<l>Zulks ducht ik niet; ô neen: de landzaat heeft gewis</l>
+						<l>Hier reeds met smart beproefd hoe wreed de Spanjaard is.</l>
+					</sp>
+					<sp who="#vesti">
+						<speaker>Vesti</speaker>
+						<stage>op het wapen van Vrankryk wyzende.</stage>
+						<l>Ja, twyfel niet; elk zal van trouw ons blyken geeven.</l>
+						<l>Dit schild van Vrankryk waar' niet overeind' gebleeven,</l>
+						<l>Indien 't verbond, met ons geslooten, wierd versmaad.</l>
+						<l>Dit schild strekt ten bewyz' dat elk hier Spanje haat.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Ik heb, onzeker hoe 't by 't volk hier was geschapen,</l>
+						<l>De wachten uitgezet; en vlei my...</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Gourges, Vesti, La Val, Cipiere, La Vigne, en groot gevolg van Fransche
+						Bevelhebbers en Soldaaten. Joinville.</stage>
+					<sp who="#joinville">
+						<speaker>Joinville</speaker>
+						<stage>van binnen.</stage>
+						<l>Wapen! wapen!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Wat hoor ik?</l>
+					</sp>
+					<sp who="#joinville">
+						<speaker>Joinville</speaker>
+						<stage>vooraan, ter linkerzyde van het tooneel, schielyk opkomende.</stage>
+						<l>Wapen!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>hem stuitende.</stage>
+						<l>Sta; en geef ons meer bericht.</l>
+					</sp>
+					<sp who="#joinville">
+						<speaker>Joinville</speaker>
+						<l>De verste schildwacht is verrast en opgeligt;</l>
+						<l>En de Indiaan gereed ons yllings te overvallen</l>
+						<l>Met een geduchte magt van veele duizendtallen,</l>
+						<l>Gewapend naar 's lands wyz'. Zy trekken driftig voort.</l>
+						<l>De gantsche voorhoede is niet verre van dit oord.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Dat elk zich vaardig maake om onheil af te wenden.</l>
+						
+						<stage>Tegen twee onderofficieren.</stage>
+						<l>Verzamelt in der yl de reeds ontscheepte benden,</l>
+						<l>Geleidt ze hier; en brengt op onze vloot bevel,</l>
+						<l>Dat een gedeelte der matroozen hen verzell'.</l>
+						<stage>De twee officieren vertrekken.</stage>
+						<l>Myn landgenooten, laat geen drift u overheeren;</l>
+						<l>Bepaalt, zo 't mooglyk is, alleen u aan 't verweeren;</l>
+						<l>Doch, zo de Amerikaan u noodzaakt tot den stryd,</l>
+						<l>Toont dat gy helden, maar ook tevens Christnen zyt.</l>
+						<l>Daar is de vyand zelf.</l>
+					</sp>
+					<stage>Gourges schaart zich met zyn volk ter rechter zyde van het tooneel. De
+						bevelhebbers trekken op zyn voorbeeld den degen. De soldaaten staan gereed
+						met lanssen en vuurroers. Trompetten en trommen kondigen krygsalarm
+						aan.</stage>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Gourges, Vesti, La Val, Cipiere, La Vigne, Joinville, een groot gevolg
+						van Fransche Bevelhebbers en soldaaten, aan de eene zyde van het tooneel; Du
+						Bree, met den schildwacht, die ongeboeid is; Otocara en Adusta, met eenige
+						Amerikaansche Grooten, en een gedeelte van hun leger, aan de andere zyde. Zo
+						ras Gourges Du Bree, die een' cedertak in de rechterhand heeft en opheft,
+						met den schildwacht ziet naderen, doet hy, door een teeken, trompetten en
+						trommen zwygen.</stage>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Ik breng deez' man u weder.</l>
+						<l>Indien gy Franschen zyt, legt dan uw wapens neder.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Hoe! Daar ge ons tot op 't strand gewapend tegentrekt?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Men had de Spaansche vlag op uwe vloot ontdekt,</l>
+						<l>En waande dat gy uit Castilje waart gezonden.</l>
+						<l>Men heeft hier 't vreêverbond met Vrankryk nooit geschonden.</l>
+					</sp>
+					<sp who="#vesti">
+						<speaker>Vesti</speaker>
+						<stage>Du Bree sterk aanziende, ter zyde.</stage>
+						<l>Ik twyfel. Neen, hy is 't.</l>
+						
+						<stage>Tegen Du Bree.</stage>
+						<l>Du Bree!</l>
+						<stage>Zy vliegen elkander in de armen.</stage>
+						<l>Myn waarde Vrind!</l>
+						<l>Gy leeft!</l>
+					</sp>
+					<sp who="#vesti">
+						<speaker>Vesti</speaker>
+						<l>Ik leef, verrukt dat ik u leevend vind.</l>
+						<stage>Tegen Gourges.</stage>
+						<l>Geef aan Du Bree geloof, hy zal u niet misleiên.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen Du Bree.</stage>
+						<l>Kan ik my met de hoop op uw getrouwheid vleien?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Ja, gy en al uw volk, geloof my op myn woord,</l>
+						<l>Gy hebt geen vyand dan den Spanjaard in dit oord.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>ter zyde.</stage>
+						<l>ô Onverhoopt geluk!</l>
+						<stage>Hy geeft aan den wedergekeerden schildwacht een' wenk, om zich by zyn
+							volk te voegen. Verder tegen zyn volk.</stage>
+						<l>Ontrolt de vredevaanen.</l>
+						<l>Wy vinden vrienden in de braave Floridaanen.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Dit edelmoedig volk mint Vrankryks heerschappy,</l>
+						<l>En is, door Spanjes dwang, niet min getergd dan wy.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>tegen zyne benden, zo ras hy het wapen van Vrankryk in sommige vaanen
+							ziet.</stage>
+						<l>Ontspant den boog, en steekt den wraakdolk in de schede.</l>
+						<l>'t Zyn waarlyk Franschen! dus is 't vrede.</l>
+					</sp>
+					<sp who="#fransche-en-amerikaansche-krygslieden">
+						<speaker>Fransche en Amerikaansche Krygslieden</speaker>
+						<l>Vrede! vrede!</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<stage>tegen Gourges.</stage>
+						<l>De Amerikaan voed schroom voor 't moordend schietgeweer.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen zyne soldaaten.</stage>
+						<l>Men wekk' geen achterdocht. Elk legg' het vuurroer neêr.</l>
+					</sp>
+					<stage>Otocara nadert, van Adusta verzeld. Onder het naderen steeken zy hun
+						dolken in hun gordels. Gourges en de Fransche bevelhebbers, dit ziende,
+						steeken hunne degens in de schede.</stage>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Zyt welkom in ons land, geliefde Bondgenooten!</l>
+						<l>Wy hebben tegen Spanje al t' saam den kryg beslooten.</l>
+						<l>Gelukkig, zo gy ons trouwhartig by wilt staan!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Wy allen zyn bereid met u ten stryd te gaan.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Ik heb Satouria alreeds bericht gezonden,</l>
+						<l>Dat wy, op 't onverwachtst, hier vriend voor vyand vonden.</l>
+						<l>Hy zal terstond hier zyn, en volgt ons op den voet.</l>
+					</sp>
+					<sp who="#vesti">
+						<speaker>Vesti</speaker>
+						<stage>tegen Gourges, ter zyde.</stage>
+						<l>Ik bid u, sta my toe dat ik dees Vorsten groet':</l>
+						<l>'t Zyn helden, op wier deugd ge u veilig kunt verlaaten.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen Vesti.</stage>
+						<l>Voldoe uw' wensch.</l>
+					</sp>
+					<sp who="#vesti">
+						<speaker>Vesti</speaker>
+						<stage>Otocara en Adusta naderende.</stage>
+						<l>Gy ziet my weder in dees Staaten.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>Vesti de hand biedende.</stage>
+						<l>Goedhartige Vesti! wees driewerf wellekom.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>Vesti omhelzende.</stage>
+						<l>Met welk een vreugd vind ik myn' ouden Vriend weêrom!</l>
+						<l>Hoe zyt gy 't woest geweld der moordren toch ontkomen?</l>
+					</sp>
+					<sp who="#vesti">
+						<speaker>Vesti</speaker>
+						<l>Ik zwom naar Ribauds kiel, die my heeft ingenomen.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>tegen al de Fransche bevelhebberen.</stage>
+						<l>Gy zult hier niemand zien die u geen vriendschap toont.</l>
+						<l>Denkt dat gy in ons land by uwe Broeders woont.</l>
+						<l>Wy allen vloeken Spanje, en blaaken van verlangen</l>
+						<l>Om die wreedaartigen het loon te doen ontfangen</l>
+						<l>Zo wel van 't geen uw volk door hen heeft ondergaan,</l>
+						<l>Als van de gruwlen die zy daaglyks nog bestaan.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Wy zullen ons niet slechts, als 't Broeders voegt, gedraagen,</l>
+						<l>Maar, dit gewest ten dienste, ons-aller leven waagen.</l>
+						
+						<l>Wy wisten, toen ons 't lot van de onzen wierd ontvouwd,</l>
+						<l>Wat gy met de uwen van die snooden lyden zoud;</l>
+						<l>Dit heeft ons aangezet om naar dit oord te spoeden,</l>
+						<l>Of 't ons nog mooglyk waare u voor 't bederf te hoeden.</l>
+						<l>Gelukkig, dat de vloot hier tyds genoeg verscheen!</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Ik zie Satouria.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Stalame volgt zyn schreên.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Gourges, Vesti, La Val, Cipiere, La Vigne, Joinville, Du Bree, en groot
+						gevolg van Fransche Bevelhebbers en soldaaten, aan de eene zyde van het
+						tooneel; Otocara en Adusta, met eenige Amerikaansche Grooten en een gedeelte
+						van hun leger aan de andere zyde. Satouria, Stalame, Oades.</stage>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Satouria, gy ziet onze oude en trouwe vrinden,</l>
+						<l>Die zich niet minder dan wy ons beleedigd vinden.</l>
+						<l>Zy komen ons ter hulp'.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<stage>tegen Gourges.</stage>
+						<l>Gy zyt ons wellekom.</l>
+						<l>Maar, zo gy Franschen zyt, meldt my de reên waarom</l>
+						<l>Gy gistren al den dag Castiljes vlag vertoonde,</l>
+						<l>En 't eerbewys der vest met uw geschut beloonde?</l>
+						<l>Dit dunkt met reên my vreemd.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Hoon ons door argwaan niet.</l>
+						<l>Het voeren van die vlag is op myn' last geschied,</l>
+						<l>Om des te veiliger den Spanjaard op te komen.</l>
+						<l>Had hy de Fransche vlag op onze vloot vernomen,</l>
+						<l>Hy waare ontwyfelbaar door dat gezicht ontrust,</l>
+						<l>En had ons ligt belet te nadren tot de kust.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Gy had u door dees daad veel onheils kunnen baaren.</l>
+						<l>Wy allen, fel getergd door die geweldenaaren,</l>
+						<l>Veréénden onze magt om u het hoofd te biên,</l>
+						<l>En hebben u van 't strand voor vyand aangezien.</l>
+						<l>Beseft gy tot wat smart het u en my zou strekken,</l>
+						<l>Zo gy geen middel had gevonden u te ontdekken,</l>
+						<l>En by uw landing door ons heir waart aangetast,</l>
+						<l>Gelyk ons oogmerk was?</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Vesti vond zich gelast</l>
+						
+						<l>Met de eersten van ons volk zich naar het land te spoeden.</l>
+						<l>Dus had men goede hoop tot stuiting van 't vermoeden.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Vesti!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Gy ziet hem hier.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<stage>Vesti ziende.</stage>
+						<l>Ik voel myn hart verblyd.</l>
+						<l>Nu ben ik overtuigd dat gy geen Spanjaards zyt.</l>
+						<l>Nu ziet ge in my uw' Vriend. Vesti is geen verraader.</l>
+						<l>Ik min hem als een Zoon bemind word door zyn' Vader.</l>
+					</sp>
+					<sp who="#vesti">
+						<speaker>Vesti</speaker>
+						<stage>ontroerd.</stage>
+						<l>Myn hart erkent de gunst, my steeds door u betoond.</l>
+						<l>Hoe wensche ik dat die door myn Vrienden word' beloond!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen Satouria.</stage>
+						<l>Wy zullen, door de wraak op Spanje, uw trouw vergelden.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Nu is myn ziel gerust op u en al uw Helden.</l>
+						<l>'k Zal zorgen dat u in deze oorden niets ontbreek'.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Wy steunen op uw deugd; doch...</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Wat begeert gy? Spreek.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Ik zal, dewyl gy 't vergt, my ongeveinsd verklaaren.</l>
+						<l>Ontfang twee hopliên van myn heir als gyzelaaren,</l>
+						<l>Tot dat ik met myn volk verwinnaar wederkeer';</l>
+						<l>Doch geef, op myn verzoek, my onderpanden weêr;</l>
+						<l>Zo zal ons de achterdocht niet stooren of ontrusten.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Gy komt als vreemdeling voor 't eerst aan onze kusten;</l>
+						<l>Wie keurt gy waardig u te worden aangeboôn?</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Vertrouw in myne hoede uwe Echtgenoote en Zoon.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Gy eischt een' zwaaren eisch.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>tegen Satouria.</stage>
+						<l>Laat ons niet tegenstreeven;</l>
+						<l>Zy waagen zich voor ons.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<stage>tegen Gourges.</stage>
+						<l>Hoe! ik die panden geeven?</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Ik eisch niet, dat ge uw Gade op onze vloot vertrouwt,</l>
+						<l>Maar slechts dat ze in myn tent zich met uw' Zoon onthoud',</l>
+						<l>Tot na 't aanstaand gevecht. Du Bree zal haar bewaaren,</l>
+						<l>Terwyl we afwezig zyn met onze legerschaaren;</l>
+						<l>En zelfs, indien dit blyk van trouw uw' schroom verzacht,</l>
+						
+						<l>'t Zy half met onze, half met Floridaansche wacht.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Welaan, 'k zal aan uw zorg die panden overgeeven.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>En ik, Amerika bevryden, of hier sneeven.</l>
+					</sp>
+					<stage>Zy omhelzen elkander.</stage>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<stage>tegen Oades.</stage>
+						<l>Gelei Olinde met het Jongske hier.</l>
+						<stage>Oades vertrekt. </stage>
+						<l>Mynheer,</l>
+						<l>Besef door dit besluit hoe hoog ik u waardeer.</l>
+						<l>'k Vertrouw u al myn heil, de blydschap myner dagen.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Gy zult, geloof my, van dees daad u nooit beklaagen.</l>
+						<l>Ik weet te wel, helaas! wat rouw de ziel verscheurt,</l>
+						<l>Wanneer men troosteloos om Gade en Telgen treurt.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Hebt gy uwe Echtgenoote en Kindren moeten derven?</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Myn afzyn heeft myn Gaê van hartewee doen sterven.</l>
+						<l>En ach! myn Telgen zyn, door 't spooreloos geweld</l>
+						<l>Van Spanjes moordziek rot, in dit gewest geveld.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Gy treurt niet zonder reên. Dit leed doorgrieft het harte.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>tegen Gourges.</stage>
+						<l>'k Neem als een Broeder deel in uwe ondraagbre smarte.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>driftig.</stage>
+						<l>Ik zal in 't oorlogsveld den snooden Castiljaan....</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Poog, zo 't u mooglyk is, veeleer den stryd te ontgaan.</l>
+						<stage>Tegen Satouria.</stage>
+						<l>Het priesterdom voorspelde Adustaas deerlyk sneeven</l>
+						<l>In 't naast gevecht. Voorkom dit onheil. Red hem 't leven.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Zwyg, Otocara, zwyg, gy hoont my door uw reên.</l>
+					</sp>
+					<sp who="#stalame">
+						<speaker>Stalame</speaker>
+						<stage>tegen Adusta.</stage>
+						<l>Hy zorgt voor uw behoud, laat my uw plaats bekleên:</l>
+						<l>Het is geen dapperheid zich roekeloos te waagen.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Zou ik niet stryden? ik lafhartig my gedraagen?</l>
+						<l>Denkt Otocara dit?</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Ik bid u, laat u raên.</l>
+						<l>'t Is geen lafhartigheid aan 't lot geloof te slaan.</l>
+						<l>Uw Vader liet zich door zyn krygsdrift overheeren;</l>
+						<l>Gy weet wat hem weêrvoer.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Laat ons dit onheil keeren.</l>
+						<l>Wy doen u allen recht. Uw dapperheid is groot.</l>
+						<l>Maar sta ons toe dat wy u hoeden voor de dood.</l>
+					</sp>
+					<sp who="#stalame">
+						<speaker>Stalame</speaker>
+						<l>Gy zult, volgt ge onzen raad, den vyand niet genaaken.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Gebie de lyfwacht die myn Gade zal bewaaken.</l>
+						<l>Denk hoe gy door dees daad, en in dit tydgewricht,</l>
+						<l>Satouria, Olinde, en uwen Vriend verpligt.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Hoe moeilyk 't my ook vall' my naar uw' raad te voegen,</l>
+						<l>Dewyl gy 't allen wenscht, welaan, 'k zal u vernoegen.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Een wyze ziet bedaard den staat der zaaken in.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>tegen Adusta.</stage>
+						<l>Hoe duur verpligt ge my!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Ik zie de Koningin.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>Gourges, Vesti, La Val, Cipiere, La Vigne, Joinville, Du Bree, en groot
+						gevolg van Fransche Bevelhebbers en soldaaten, aan de eene zyde van het
+						tooneel; Satouria, Otocara, Adusta, Stalame, met eenige Amerikaansche
+						Grooten en een gedeelte van hun leger aan de andere zyde. Olinde, met haar
+						Zoontje, Oades.</stage>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<stage>tegen Satouria.</stage>
+						<l>Mag ik gelooven 't geen Oades my deed hooren?</l>
+						<l>Is Florida deez' dag het groot geluk beschooren</l>
+						<l>Dat Vrankryks dapper volk, aan deze kust geland,</l>
+						<l>Ons leger sterken zal door hunnen onderstand?</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Ja, dierbre Olinde, ja; zie Vrankryks onderzaaten,</l>
+						<l>Waarop ik als weleer my veilig durf verlaaten.</l>
+						<l>Ten blyk' dat zich myn hart van hen verzekerd houd,</l>
+						<l>Heb ik dit Kind en u, als panden, hen betrouwd.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Wat zegt ge! uw' Zoon en my?</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>'t Is slechts voor weinig dagen.</l>
+						<l>Laat deze schikking u ontroeren noch mishaagen.</l>
+						<l>Gy blyft in 's Veldheers tent in onze legersteê,</l>
+						<l>Waar u Adusta zal bewaaken met Du Bree.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Olinde is niet gewoon uw' wensch te wederstreeven.</l>
+						<l>Indien 't uw heil vergroot, wat vraag ik naar myn leven!</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Stel u gerust, Olinde, en vrees geen ongeval,</l>
+						<stage>Op Gourges wyzende.</stage>
+						<l>Verzekerd dat dees Held uw schutsheer wezen zal.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen Otocara.</stage>
+						<l>Uwe edelmoedigheid gaat boven myn verwachting,</l>
+						<l>En vordert billyk myne en aller braaven achting.</l>
+						<stage>Tegen Olinde.</stage>
+						<l>Verlaat u op myn woord, Mevrouw. Verban uw smart.</l>
+						<l>Gy zyt zo dierbaar als een dochter aan myn hart.</l>
+						<l>Geen van de mynen zal u reên tot klagten geeven.</l>
+						<l>'k Zou u behoeden, zelfs ten koste van myn leven.</l>
+						<stage>Tegen Satouria.</stage>
+						<l>ô Vorst! dat ons verbond altoos onschendbaar zy!</l>
+						<l>Ontfang ten steun daarvan dees gyzelaars van my.</l>
+						<l>Vesti, Joinville.</l>
+						
+						<stage>Vesti en Joinville naderen.</stage>
+						<l>Strekt tot borgen, aan den Koning</l>
+						<l>En al dees Vorsten, van myn zuivre trouwbetooning.</l>
+						<stage>Vesti en Joinville voegen zich by de Amerikaanen.</stage>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<stage>neemt Olinde by de hand, en bied haar Gourges aan.</stage>
+						<l>Aanvaard van myne hand het voorwerp myner min.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<stage>Satouria omhelzende.</stage>
+						<l>Vaar wel. Ik bid u, waak voor myne zielvriendin.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<stage>tegen Olinde.</stage>
+						<l>Ik zal haar gadeslaan.</l>
+						<stage>Olinde gaat met haar Zoontje, Adusta, Du Bree, en drie Amerikaanen,
+							aan de zyde der Franschen over. </stage>
+						<l>Verzel ons met dees Grooten</l>
+						<l>Naar 't gindsche cederwoud. Getrouwe Bondgenooten!</l>
+						<l>Komt, woont aldaar met ons een raadsvergadring by,</l>
+						<l>Opdat men overweeg' wat middel oorbaarst zy</l>
+						<l>Om ons te ontheffen van de woede der tirannen.</l>
+						<l>Gy kunt daar, onder 't loof, uw tenten uit doen spannen:</l>
+						<l>Zo blyft uw landing aan den Spanjaard onbekend,</l>
+						<l>Die zeldzaam eenig volk in onze bosschen zend.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Ik volg u; doch vergun my eenige oogenblikken,</l>
+						
+						<l>Om alles op de vloot en in myn heir te schikken.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Wy wachten op uw komst, en gaan u derwaart voor.</l>
+						<stage>Tegen Oades.</stage>
+						<l>Oades, blyf, en wys den Franschen 't naaste spoor.</l>
+					</sp>
+					<stage>Satouria, Otocara, Stalame, met Vesti en Joinville, en de Floridaansche
+						Grooten en Amerikaanen vertrekken.</stage>
+				</div>
+				<div type="scene" n="6">
+					<head>Zesde tooneel.</head>
+					<stage>Gourges, La Val, Cipiere, La Vigne, Du Bree, Olinde, met haar Zoontje,
+						Adusta, met drie Amerikaanen, Oades, een groot gevolg van Fransche
+						Bevelhebbers en soldaaten.</stage>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen Cipiere.</stage>
+						<l>Cipiere, meld dit heil terstond op onze schepen,</l>
+						<l>En doe het krygstuig en den voorraad herwaart sleepen.</l>
+						<stage>Cipiere vertrekt. </stage>
+						<l>Gelei ons heir, waar u Oades voor zal gaan.</l>
+						<stage>La Val vertrekt, met een gedeelte der Fransche Bevelhebbers en
+							soldaaten. </stage>
+						<l>Doe in een lomrig oord de tenten nederslaan.</l>
+						
+						<stage>La Vigne vertrekt met de overíge Fransche Bevelhebbers en soldaaten;
+							behalven drie soldaaten, die zich, op een' wenk van La Vigne, by Du Bree
+							voegen. </stage>
+						<l>Reik my uw hand, Mevrouw.</l>
+						<stage>Tegen Adusta en Du Bree.</stage>
+						<l>Verzelt ons, braave Vrinden,</l>
+						<l>Opdat wy ons in 't bosch al t' saam vereenigd vinden.</l>
+					</sp>
+					<stage>Gourges geleid Olinde, verzeld van haar Zoontje; Adusta vertrekt met Du
+						Bree, gevolgd van de drie Fransche en de drie Amerikaansche soldaaten.
+							<lb> </lb>
+					</stage>
+				</div>
+			</div>
+			<div type="act" n="3">
+
+				<head>Derde bedryf.</head>
+				<stage>Het tooneel verbeeld eene aangenaame vlakte, omringd van oranje-, citroen- en
+					cederboomen. Gourges zit op de hoogste plaats in den raad; Satouria en Stalame
+					aan zyne rechte, Otocara en Adusta aan zyne slinke hand, op zetels van riet
+					gevlochten, en met groente gesierd. De Fransche en Amerikaansche Bevelhebbers
+					zitten op den heuvelachtigen grond, ter wederzyden. Men ziet aan de rechte hand,
+					naby den voorgrond, een gedeelte van de tent van Gourges.</stage>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+					<stage>Gourges, Satouria, Otocara, Stalame, Adusta, La Val, Cipiere, La Vigne,
+						Du Bree, en eenige andere Fransche Bevelhebbers; Oades, Hoya, en eenige
+						andere Amerikaansche Grooten.</stage>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Men houde, ô Vorsten! zich aan 't vastgesteld besluit,</l>
+						<l>En kiez' de duisternis tot de onderneeming uit.</l>
+						<l>Zo ras wy 't zonnelicht beneên de kim zien zinken,</l>
+						<l>De heldre sterren aan den hoogen hemel blinken,</l>
+						
+						<l>Kwyte elk zich moedig van zyn' aangenomen last.</l>
+						<l>Het sterke Karelsburg zal, onverwacht verrast,</l>
+						<l>Door ons veréénigd heir welhaast gewonnen wezen,</l>
+						<l>Naardien Melendes, verr' van eenig leed te vreezen,</l>
+						<l>Zich met zyn heilloos rot gerust en veilig acht.</l>
+						<l>En, zo deze aanval slaagt, dan, met veréénde magt,</l>
+						<l>De beide burgen der tirannen aangevallen,</l>
+						<l>Opdat deze eigen nacht ons meester zie van allen.</l>
+						<l>Men zorg' vooral dat ons de ontmenschten niet ontvliên,</l>
+						<l>En in gehucht of woud naar schuilplaats ommezien.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Men zal den Castiljaan het vluchten wel beletten,</l>
+						<l>En al de paden, om de sterkten, naauw bezetten;</l>
+						<l>Zo wacht' hem zyne straf, waar hy zich keere of wend'.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>'k Verlaat my op uw zorg; al 't land is u bekend.</l>
+					</sp>
+					<sp who="#stalame">
+						<speaker>Stalame</speaker>
+						<l>Wy zullen allen u van yver blyken geeven.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Dat Vrankryk triomfeere, en al de Spanjaards sneeven!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Dat zich gantsch Florida in vryheid zie hersteld!</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>tegen Gourges.</stage>
+						<l>Hoe gaarne had ik op deez' krygstogt u verzeld!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen Adusta.</stage>
+						<l>Wy kennen reeds uw' moed; thans zult ge uw trouw doen blyken</l>
+						<l>Door 't hoeden van Olinde.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Ik zal niet van haar wyken.</l>
+					</sp>
+					<stage>Gourges luistert La Val iets in, die daarop vertrekt, maar terstond
+						wederkeert met eenige soldaaten, die eenige zwaarden, bylen en korte
+						spietsen draagen.</stage>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>ô Eedle Vorsten, die, zo naauw aan ons verknocht,</l>
+						<l>Uw leven nevens ons zult waagen op deez' togt!</l>
+						<l>Vergunt dat ik aan u en aan uwe oorlogslieden,</l>
+						<l>Uit naam van Vrankryks Vorst, dees wapens aan moog' bieden.</l>
+						<stage>Tegen Satouria.</stage>
+						<l>Ontfang dit blinkend staal: het strekke in uwe hand</l>
+						<l>Tot glori van uw huis en van uw Vaderland!</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<stage>het zwaard bezichtigende, nadat hy 't uit de schede heeft
+							getrokken.</stage>
+						<l>En tot den ondergang der snoode Castiljaanen.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>terwyl hy Adusta en Stalame elk een zwaard aanbied.</stage>
+						<l>Bestrydt de haaters der getrouwe Floridaanen.</l>
+						
+						<stage>Adusta en Stalame aanvaarden de zwaarden, en buigen zich. </stage>
+						<l>Gebruik deez' kling ter wraak' van 's lands geleeden hoon.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>in de hand van La Val een byl ziende.</stage>
+						<l>Schenk my dees legerbyl; ik ben geen zwaard gewoon.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Aanvaard ze beiden, zo ze beiden u behaagen.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Ik zal, ik zweer u zulks, die gunst my waard' gedraagen.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen La Val, Cipiere, en La Vigne.</stage>
+						<l>Voorziet deze eedle schaar' van blinkend krygsgeweer;</l>
+						<l>Zo ga men Spanjes magt met grooter kracht te keer.</l>
+						<stage>La Val, Cipiere, en La Vigne ontfangen de zwaarden, spietsen en bylen
+							uit de handen der krygslieden, en deelen ze uit aan de Amerikaansche
+							Grooten. </stage>
+						<l>Uw benden zyn vermoeid door 't waaken op de kusten;</l>
+						<l>Doe haar van spys voorzien, en gun haar uit te rusten,</l>
+						<l>Tot byna middernacht: dat elk dan vaardig zy,</l>
+						<l>Om zich te wreeken van des vyands dwinglandy.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Verlaat u op myn zorg: gy zult met vreugd bevinden</l>
+						<l>Hoe trouw de Floridaan zich kwyt voor zyne vrinden.</l>
+						
+						<stage>Tegen zyne Vrienden.</stage>
+						<l>Verzelt me, ô Vorsten! geeft met my naauwkeurig acht</l>
+						<l>Dat all' wat noodig is ter uitvoer word' gebragt.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Ik wensch een oogenblik Du Bree hier te onderhouên.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Gebiê, Mynheer.</l>
+					</sp>
+					<stage>Hy geeft Du Bree een' wenk om te blyven, en vertrekt, verzeld van de
+						Vorsten, en gevolgd van alle de Amerikaanen.</stage>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Gourges, La Val, Cipiere, La Vigne, Du Bree, en eenige andere Fransche
+						Bevelhebbers.</stage>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen Du Bree.</stage>
+						<l>Ik stel, ten blyk' van myn betrouwen,</l>
+						<l>Niet slechts Olinde alleen, maar zelfs de legersteê,</l>
+						<l>In onze afwezendheid, in uwe hand, Du Bree;</l>
+						<l>Gebiê de Fransche wacht, die beiden zal bewaaren.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Ontbloot u niet te veel van uwe legerschaaren;</l>
+						<l>Gy hebt uw oorlogsvolk hoognoodig in 't gevecht;</l>
+						<l>En deze landaart is goedhartig en oprecht;</l>
+						
+						<l>Dus staat geen onheil in uw afzyn my te duchten.</l>
+					</sp>
+					<sp who="#la-val">
+						<speaker>La Val</speaker>
+						<l>Olinde zelf kon u uit schroom veelligt ontvluchten.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Verdenk haar vroomheid niet; al bleef zy gantsch alleen,</l>
+						<l>Zou ze, eer gy wederkeerde, uit deze tent niet treên.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen zyne togtgenooten.</stage>
+						<l>Beseft gy al 't geluk, dat ons tot nu bejegent,</l>
+						<l>En hoe, op 't onvoorzienst, ons oogmerk word gezegend?</l>
+					</sp>
+					<sp who="#cipiere">
+						<speaker>Cipiere</speaker>
+						<l>De Hemel duld somtyds dat de onschuld word verdrukt;</l>
+						<l>Doch, schoon hy niet altyd haar aan den ramp ontrukt,</l>
+						<l>Hy zal nooit straffeloos haar' ondergang gedoogen.</l>
+					</sp>
+					<sp who="#la-vigne">
+						<speaker>La Vigne</speaker>
+						<l>Wy zien zo duidelyk den bystand uit den hoogen,</l>
+						<l>Dat ik my vleien durf met d' uitslag van den stryd.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Ik bid u, zegt my of gy hugenooten zyt?</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Ja, allen die hier zyn.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Gy vind in my een' Broeder.</l>
+					</sp>
+					<stage>Gourges omhelst hem, en allen reiken hem de hand toe, of geeven hem
+						teekenen van vriendschap.</stage>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Gy ook een hugenoot! Gezegend zy de Hoeder,</l>
+						<l>Die u beveiligd heeft voor 's vyands razerny!</l>
+						<l>Maar ach! is niemand hier den moord ontgaan dan gy?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Helaas! hoe kon het volk den Castiljaan ontkomen?</l>
+						<l>De dappre Ribaud, die, vol vuurs, had voorgenomen,</l>
+						<l>Zo dra hy 't landen van die wreeden had verstaan,</l>
+						<l>Met onze schepen op hun schepen los te gaan,</l>
+						<l>Schoon hem die stoute togt ontraên wierd door ons allen,</l>
+						<l>Wierd door een' fellen storm rampzalig overvallen;</l>
+						<l>De kielen tegen 't strand verbryzeld en vernield,</l>
+						<l>Behalven 't schip waarin zyn Broeder zich onthield,</l>
+						<l>Waarin Vesti zich borg; en dat u in het ende</l>
+						<l>De tyding heeft gebragt der algemeene elende.</l>
+					</sp>
+					<sp who="#la-val">
+						<speaker>La Val</speaker>
+						<l>En zo veel ongevals word door het hof gesmoord?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>'k Bevond, op dezen togt, my binnen Ribauds boord.</l>
+						<l>Terwyl wy streeden met de orcaanen en de stroomen,</l>
+						<l>Was 't sterke Karelsburg al stormende ingenomen.</l>
+						<l>De vyand had niet slechts wat weêrstand bood geslagt,</l>
+						<l>Maar zelfs de onweêrbre schaare onmenschlyk omgebragt.</l>
+						<l>De braave Ribaud zag, van al zyn waterschaaren,</l>
+						
+						<l>Niet meer dan dertig man geborgen uit de baaren.</l>
+						<l>Wy allen waanden dat de vest nog wierd verweerd,</l>
+						<l>En wendden ons daarheen; doch 't was te spaê gekeerd.</l>
+						<l>Valmonte bood van verre ons, die nog ovrig bleeven,</l>
+						<l>Als waar' hy moordens moê, behoudenis van 't leven.</l>
+						<l>Wy gaaven, ach! te ligt, zyn vleiery geloof,</l>
+						<l>En steunden op zyn woord, en vielen hem ten roof.</l>
+						<l>Men stelde vruchtloos voor aan de aartsgeweldenaaren,</l>
+						<l>Dat wy met Spanjes Vorst in vasten vrede waaren;</l>
+						<l>Die snooden spotten met ons deerlyk zielverdriet.</l>
+						<l>Dit onheil, spraaken zy al schimpend, treft u niet</l>
+						<l>Als vrienden van ons Ryk, als Vrankryks onderdaanen,</l>
+						<l>Maar als aartskettren, als vloekwaarde Lutheraanen.</l>
+					</sp>
+					<sp who="#la-val">
+						<speaker>La Val</speaker>
+						<l>Dat hen de Hemel straffe!</l>
+					</sp>
+					<sp who="#cipiere">
+						<speaker>Cipierf</speaker>
+						<l>Ik brand van ongeduld.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Indien de hoogste Magt ons aller wensch vervult,</l>
+						<l>Zal 't zelfde lot eerlang de ontmenschten wedervaaren,</l>
+						<l>Is 't niet als Spanjaards, 't zy als wreede moordenaaren.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Dus wierden we allen door de ontrouwen neêrgeveld.</l>
+						<l>Ik, flaauw door 't bloedverlies, wierd by de doôn geteld.</l>
+						
+						<l>De vyand week, toen hy ons 't leven dacht benomen.</l>
+						<l>De koelte van den nacht deed my allengs bekomen.</l>
+						<l>Ik borg met moeite my in 't diepst' van 't naaste woud,</l>
+						<l>En vond in 't einde by Adusta myn behoud.</l>
+						<l>Ik dank, naast 's Hemels gunst, aan zyne gunst myn leven.</l>
+						<l>'k Heb my, op zyn verzoek, met hem naar 't heir begeeven,</l>
+						<l>En hoorde op dezen dag, met veel verwondering,</l>
+						<l>Dat hier een jonge vrouw der moordren staal ontging.</l>
+					</sp>
+					<sp who="#la-val">
+						<speaker>La Val</speaker>
+						<l>'k Zie Otocara.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen La Vigne.</stage>
+						<l>Laat ons krygsvolk zich verkwikken,</l>
+						<l>Opdat men vaardig zy, in weinige oogenblikken,</l>
+						<l>Ten vastgestelden tyde.</l>
+					</sp>
+					<stage>La Vigne vertrekt met alle de onderofficieren; zy groeten Otocara, die
+						hen vriendlyk wedergroet.</stage>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Gourges, La Val, Cipiere, Du Bree; Otocara, met het zwaard op zyde, en de
+						byl in de hand; Oades.</stage>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Ik stoor misschien uw reên;</l>
+						<l>Doch, zo ge alleen wilt zyn....</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Neen, Otocara, neen.</l>
+						<l>Wy spreeken niets geheims: treê onbelemmerd nader.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>tegen La Val, Cipiere, en Du Bree.</stage>
+						<l>'k Zie u als Broeders aan.</l>
+						<stage>Tegen Gourges.</stage>
+						<l>En u als mynen Vader.</l>
+						<l>Uw heusche minzaamheid, uw openhartige aart</l>
+						<l>En groote kundigheên, zyn al myn' eerbied waard'.</l>
+						<l>Sta Otocara toe aan uwe zy' te stryden;</l>
+						<l>Hy zal aan uw behoud zyn leven willig wyden,</l>
+						<l>En u doen zien, zo gy die eer hem waardig vind,</l>
+						<l>Hoe hy den Spanjaard haat, hoe hy de Franschen mint.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Ik stem uw' voorslag toe, zo 't u tot vreugd kan strekken.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>verheugd, en zyne byl toonende.</stage>
+						<l>Nu zal Melendes zich dees heirbyl niet onttrekken.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Wat heeft u aangezet tot zulk een' fellen haat? ...</l>
+						<l>Spreek; is 't ons onheil, is 't het onheil van uw' Staat?</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>De rampen van uw volk en van onze onderdaanen</l>
+						<l>Doen ieder gruwen van de snoode Castiljaanen:</l>
+						<l>Doch 't zyn de bronnen van myn wraakzucht niet alleen;</l>
+						
+						<l>Neen; 't is de deernis met Louizes droef geween.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>eenigzins ontzet, ter zyde.</stage>
+						<l>Louize! ...</l>
+						<stage>Tegen Otocara.</stage>
+						<l>Is dit een naam, dien hier de vrouwen draagen?</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Gy zoud, zo gy haar zaagt, haar ongeluk beklaagen.</l>
+						<l>Hoe schoon de vrouwen in Europe ook moogen zyn,</l>
+						<l>Louize is de allerschoonste.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>ter zyde.</stage>
+						<l>Ach! neen; het heeft geen' schyn.</l>
+						<stage>Tegen Otocara.</stage>
+						<l>Word zy door u bemind?</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Wien zou zy niet bekooren?</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Is ze eene uitheemsche of in Amerika gebooren?</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Niet in Amerika, maar in uw Vaderland.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>ter zyde.</stage>
+						<l>Helaas!</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Satouria verleent haar onderstand;</l>
+						<l>Zy leeft hier in zyn huis, met myn geliefde Zuster,</l>
+						
+						<l>Olinde, en is thans door haar afzyn te ongeruster.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Ik bid u, antwoord my. Zyt gy haar bruidegom</l>
+						<l>Of haar gemaal?</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Neen, neen.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Mint ze u dan niet weêrom?</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Ik heb myn hart en hand voorlang haar opgedraagen,</l>
+						<l>Dan ach! zy heeft myn min standvastig afgeslaagen.</l>
+						<l>Maar schoon ik, dag aan dag, om deze weigring zucht',</l>
+						<l>Ik dwing haar niet; de liefde is vry, gelyk de lucht.</l>
+						<l>Zy heeft, zo ras ons volk uw vriendschap was gebleeken,</l>
+						<l>Satouria verzocht om u te moogen spreeken.</l>
+						<l>Hy heeft haar zulks vergund. Zy smeekte my, ik zou</l>
+						<l>Haar' wensch u doen verstaan. Zy komt.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Gourges, La Val, Cipiere, Du Bree, Otocara, Oades, Louize.</stage>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Treê toe, Mevrouw.</l>
+					</sp>
+					<stage>Zo dra Louize Gourges ziet, heft zy de oogen en handen ten hemel, en zygt
+						neder, op een' van de rieten zetels.</stage>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>ô Hemel! ...</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Ach! zy is 't.</l>
+					</sp>
+					<stage>Hy bezwykt in de armen van La Val en Cipiere. Du Bree treed naar Louize
+						en ondersteunt haar. Otocara geeft de byl, die hy in de hand heeft, aan
+						Oades over, en spoed zich naar Louize.</stage>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>by haar knielende.</stage>
+						<l>Louize! myn Louize!</l>
+						<l>Herstel uw' geest: ik sterf, indien ik u verlieze.</l>
+					</sp>
+					<sp who="#la-val">
+						<speaker>La Val</speaker>
+						<stage>tegen Gourges.</stage>
+						<l>Bedaar. Waaruit ontstaat dees groote ontsteltenis?</l>
+					</sp>
+					<sp who="#cipiere">
+						<speaker>Cipiere</speaker>
+						<stage>tegen Gourges.</stage>
+						<l>Keer weder tot uzelv', indien 't u mooglyk is.</l>
+					</sp>
+					<stage>Gourges doet vruchtloos pooging om te spreeken.</stage>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Louize! zie myn smart.</l>
+						<stage>Tegen Du Bree.</stage>
+						<l>Wat is hen toch weêrvaaren?</l>
+						<l>Weet gy 't, Du Bree?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Laat hen een oogenblik bedaaren.</l>
+					</sp>
+					<sp who="#la-val">
+						<speaker>La Val</speaker>
+						<stage>tegen Cipiere.</stage>
+						<l>Zyn boezem jaagt; hy beeft!</l>
+					</sp>
+					<sp who="#cipiere">
+						<speaker>Cipiere</speaker>
+						<l>Zou ook de stem van 't bloed? ...</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Louize! wat beroert dus hevig uw gemoed?</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>allengs bekomende.</stage>
+						<l>Ach! had ik ooit gedacht...?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Ik bid, verklaar u nader.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Myn Vader! ach!</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Wat zegt ge!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Ach! breng my by myn' Vader!</l>
+					</sp>
+					<stage>Otocara en Du Bree geleiden haar naar Gourges, voor wien zy
+						knielt.</stage>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>ô Onverwacht geluk! wat is myn hart verblyd!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>tegen Gourges.</stage>
+						<l>Myn Vader! al myn heil!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>haar de hand toereikende.</stage>
+						<l>Myn Kind! myn troost! zyt gy 't?</l>
+					</sp>
+					<sp who="#cipiere">
+						<speaker>Cipiere</speaker>
+						<l>ô Hemel! laat de vreugd hen niet van 't licht berooven!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>zich allengs herstellende, tegen allen.</stage>
+						<l>Myn Vrienden! ziet myn Telg.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Ach! dorst ik ooit gelooven,</l>
+						<l>Dat ik myn' Vader in dees landstreek vinden zou!</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>De hoogste Goedheid troost de onnoozlen in hunn' rouw.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Myn dankbre ziel erkent het heil, van haar verkreegen.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>poogende haar op te heffen.</stage>
+						<l>Rys, dierbre Dochter! rys.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Neen; schenk my eerst uw' zegen.</l>
+						<l>Ach! al het onheil, dat myn kwynend hart verdrukt,</l>
+						<l>Trof my, rampspoedige, omdat gy my waart ontrukt.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>Louize opheffende.</stage>
+						<l>De Hemel zegene u, en straff' die u doen treuren!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>in de armen van haaren Vader.</stage>
+						<l>Nu zal geen Castiljaan my uit uwe armen scheuren.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Myn Kind! myn Dochter! was dit heil voor ons bewaard!</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Zeg nu, dat myne min u troost noch blydschap baart.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>hem de hand toereikende, die hy kust.</stage>
+						<l>Wat ben ik u verpligt!</l>
+					</sp>
+					<sp who="#la-val">
+						<speaker>La Val</speaker>
+						<stage>tegen Gourges en Louize.</stage>
+						<l>Hoe is myn ziel bewoogen!</l>
+					</sp>
+					<sp who="#cipiere">
+						<speaker>Cipiere</speaker>
+						<l>Dees blyde ontmoeting perst de traanen my uit de oogen.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>De hoogste Magt geev' dat uw heil bestendig zy!</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Leef, leef hier nevens ons, van alle rampen vry!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Ach! mogt d'Arlac als ik dit heilryk uur beleeven!</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Zoek thans geen nieuwe stof aan d'ouden rouw te geeven.</l>
+						<l>Wees vrolyk, als de zon, die berg en woud verkwikt.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Draag met geduld het leed dat u is toegeschikt.</l>
+						<l>Gy waart voor uw' d'Arlac altoos getrouw en teder.</l>
+						<l>Hy, die hem van u nam, geeft u een' Vader weder.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Ja, laat ons allen, schoon ons lot ons lastig schyn',</l>
+						<l>Aan 't geen de Hemel wil steeds onderworpen zyn.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>de byl, die Oades hem aanbied, wederneemende.</stage>
+						<l>Oades, deel dit heil aan onze Vorsten mede.</l>
+					</sp>
+					<stage>Oades vertrekt.</stage>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Myn waarde Dochter! stel uw treurig hart te vrede.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>ô Stem! ô minzaam oog!</l>
+						<stage>Haar' vader by de hand vattende.</stage>
+						<l>ô Teêrgeliefde hand! ...</l>
+						<l>Wie maakte uw kluisters los? Wat zoekt gy in dit land?</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Ik zal van alles, naar uw' wensch, u onderrichten.</l>
+						<l>'t Vernoege u thans, dat al myn helden zich verpligten,</l>
+						<l>Tot eer van 't vaderland en 't heil der maatschappy,</l>
+						<l>Gantsch Florida te ontslaan van Spanjes dwinglandy.</l>
+						<l>De dappre Amerikaan zal onzen toeleg schraagen,</l>
+						<l>En is, met ons, bereid den vyand op te daagen.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Wat zegt ge my? helaas! Gy, vaardig tot den stryd?</l>
+						<l>'k Zie naauw' u in myn' arm, of raak u weder kwyt!</l>
+						<l>Dit, dit ontbrak nog aan de smarten, die my kwellen,</l>
+						
+						<l>Dat ik, als myn' d' Arlac, u voor myn oog zie vellen.</l>
+						<l>Melendes en Valmonte, om stryd verhit op buit,</l>
+						<l>Zien naar een' nieuwen roof met vlammende oogen uit.</l>
+						<l>Zy domplen al het land in jammerlyke smarte.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Te dieper treft het lot des Floridaans my 't harte.</l>
+						<l>Te meer is 't onze pligt hem moedig by te staan.</l>
+					</sp>
+					<sp who="#cipiere">
+						<speaker>Cipiere</speaker>
+						<l>Wy zullen van 't geweld hem redden, of vergaan.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Wie wenscht dit achtbaar Volk niet aan hunn' ramp ontheven!</l>
+						<l>'k Ben alles hen verpligt, myn eer, bestaan en leven.</l>
+						<l>Myn ziel, bewoogen door oprechte erkentenis,</l>
+						<l>Beklaagt hun deerlyk lot, dat onverdraaglyk is.</l>
+						<stage>Tegen Gourges.</stage>
+						<l>Maar uwe veiligheid, uw leven raakt my nader.</l>
+						<l>Helaas! myn hart wenscht niets ten koste van myn' Vader.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>De algoede Hemel, die ons beiden heeft bevryd,</l>
+						<l>Zal my, op uw gebed, bewaaren in den stryd.</l>
+						<l>Zou ik dit dierbaar volk, dat u zo minzaam hoedde,</l>
+						<l>Hier overlaaten aan Castiljes wreede woede!</l>
+						<l>Neen, myn Louize, neen. Toon uw erkennend hart.</l>
+						<l>Dit edelmoedig volk vertroostte u in uw smart,</l>
+						
+						<l>En voedde u van zyn brood, en redde uw eer en leven;</l>
+						<l>En zoud gy hen aan hun verdrukkers overgeeven?</l>
+						<l>Wie weet waartoe ik in deze oorden wierd geleid?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Verwin, zo 't mooglyk is, uw twyfelmoedigheid.</l>
+						<l>Maak u niet schuldig aan schroomvallig misvertrouwen,</l>
+						<l>Terwyl de Hemel zelf u wondren doet beschouwen.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Welaan, ik zal myn' rouw verwinnen, of de smart</l>
+						<l>Ten minste smooren in myn wreedbestreeden hart.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Ja, myn Louize, ja, u staat geen ramp te vreezen.</l>
+						<l>Uw Vader zal, zo lang ik 't licht zie, veilig wezen.</l>
+						<l>Ik zal hem hoeden in 't gevecht.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>tegen Otocara.</stage>
+						<l>Getrouwe Vrind!</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>tegen Gourges.</stage>
+						<l>Maar als gy, na den stryd, u overwinnaar vind,</l>
+						<l>En veilig onder ons blyft met uw Franschen woonen,</l>
+						<l>Myn Vader! zult gy my dan ook uw gunst betoonen?</l>
+						<l>Zult gy uw Dochter dan beweegen tot myn min?</l>
+						<l>Zal ik haar groeten als myn Gaê, myn Koningin?</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Hoe hoog myn hart u acht is duidlyk u gebleeken.</l>
+						
+						<l>Wy zullen van die min eerlang bedaarder spreeken.</l>
+						<l>Wees overtuigd dat ik uw trouw en heuschheid ken,</l>
+						<l>En dat ik klaar besef wat ik u schuldig ben.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Uw rede beurt my op, gelyk een zachte regen</l>
+						<l>De kruiden opbeurt, door de hitte neêrgezeegen.</l>
+						<l>'k Zou voor Louize en u myn' laatsten droppel bloed</l>
+						<l>Opoffren met vermaak.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Ik zie den Vorstenstoet.</l>
+					</sp>
+					<stage>Het word allengs avond.</stage>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>Gourges, Louize, Otocara, La Val, Cipiere, Du Bree, Oades, Satouria,
+						Stalame, Adusta, Hoya.</stage>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<stage>tegen Gourges.</stage>
+						<l>Vergun ons in 't geluk dat u belonkt te deelen.</l>
+						<l>Ons hart gevoelt wat vreugd uw teder hart moet streelen,</l>
+						<l>Nu gy, in dit gewest, een Dochter leevend vind,</l>
+						<l>Die, met het hoogste recht, van ieder word bemind.</l>
+						<l>'k Heb haar, van 't uur dat zy de moorders was ontkomen,</l>
+						<l>Trouwhartig onderstut; haar in myn huis genomen,</l>
+						
+						<l>En, als myne eigen Telg, voor allen ramp behoed.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>'k Erken uwe eedle trouw, en al 't genooten goed,</l>
+						<l>Dat gy Louize hebt beweezen in haar smarte.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>tegen Satouria.</stage>
+						<l>Lees, bid ik, in myn oog den toestand van myn harte.</l>
+						<l>De woorden zyn te zwak voor myne erkentenis.</l>
+						<l>'k Weet wat myn ziel Olinde en u verschuldigd is.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Satouria? Olinde? en kunt gy my niet noemen?</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>'k Zal steeds, met hunne gunst, uw deugd en goedheid roemen.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<stage>tegen Gourges.</stage>
+						<l>Wy hebben haar bewaard, als een geheiligd pand;</l>
+						<l>Thans moet zy de uwe zyn: aanvaard haar van myn hand.</l>
+						<l>Doch sta my toe, Mynheer, haar dit sieraad te schenken,</l>
+						<l>Opdat ze aan ons, als aan haar Vrienden, moog' gedenken.</l>
+					</sp>
+					<stage>Hy hangt haar een groot paerelsnoer om.</stage>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Uwe edelmoedigheid verbaast ons; doch dit uur</l>
+						<l>Werkt niets zo sterk op ons als de inspraak der natuur.</l>
+						<l>Gy hebt, ô Vorsten! door het hoeden van haar leven,</l>
+						<l>Me een' grooter rykdom dan gantsch Florida gegeeven.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Ach! wist myn Troosteres in al myn zielverdriet,</l>
+						<l>Myn trouwe Olinde, welk een heil ik thans geniet!</l>
+					</sp>
+					<stage>Het word wat meerder duister.</stage>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Zy is in deze tent, gy kunt u by haar voegen.</l>
+						<l>Ga, maak haar deelgenoot' van uw en ons genoegen.</l>
+						<l>Maal haar myn dankbaar hart. Zeg, dat ik 't haar eerlang</l>
+						<l>Zal toonen, door dit land te ontslaan van allen dwang.</l>
+						<stage>Louize treed in de tent, terwyl Gourges vervolgt.</stage>
+						<l>Het blinkend zonlicht is, ô Vorsten! aan 't verdwynen;</l>
+						<l>Wy zien reeds de avondster aan 't luchtazuur verschynen.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Wy hebben 't all' voorzien wat menschen zorg vermogt.</l>
+						<l>Uw benden en ons heir staan vaardig tot den togt.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Welaan, laat ons al t' saam kloekmoedig heenen streeven,</l>
+						<l>Om dit verdrukt gewest de vryheid weêr te geeven.</l>
+						<stage>Tegen Du Bree, ter zyde.</stage>
+						<l>Du Bree, indien de kans ons onverhoopt ontschoot,</l>
+						<l>Red dan uzelv' en berg myn Dochter op de vloot.</l>
+					</sp>
+					<stage>Einde van het derde Bedryf.</stage>
+				</div>
+			</div>
+			<div type="act" n="4">
+
+				<head>Vierde bedryf.</head>
+				<stage>'t Is nacht; twee toortsen branden voor de tent van Gourges.</stage>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+					<stage>Adusta, Hoya.</stage>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>ô Ja, ik vond myn hart by de afscheidsgroet bewoogen,</l>
+						<l>En smoorde vruchteloos myn werkzaam mededoogen.</l>
+						<l>De tedre Olinde weende, als of haar ziel voorzag</l>
+						<l>Dat Vorst Satouria zou sneuvlen in den slag.</l>
+						<l>Hy drukte ze aan zyn hart, en nam zyn' Zoon in de armen.</l>
+						<l>Maar wie, geliefde Vriend, kon, zonder zich te erbarmen,</l>
+						<l>Louizes stille smart en heete traanen zien?</l>
+					</sp>
+					<sp who="#hoya">
+						<speaker>Hoya</speaker>
+						<l>Haar droefheid trof de ziel der moedigste oorlogsliên.</l>
+						<l>Held Gourges zelf had moeite om haar zyn zorg te ontveinzen.</l>
+						<l>Zyn oog verried, naar 't scheen, onwillig zyn gepeinzen.</l>
+						<l>Doch Otocara had, in spyt van 't krygsgevaar,</l>
+						<l>Dat uur geen oogen, geen gedachten dan voor haar.</l>
+						<l>Met hoe veel hartewee zag hy de schoone treuren!</l>
+						<l>Hoe heusch zocht hy haar ziel door troostreên op te beuren!</l>
+						
+						<l>Hoe dikwerf zwoer die Vorst, zo dapper als getrouw,</l>
+						<l>Dat hy haar' Vader hoên, of met hem sneuvlen zou!</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Ach! had ik haar dat blyk van liefde moogen geeven!</l>
+					</sp>
+					<sp who="#hoya">
+						<speaker>Hoya</speaker>
+						<l>Hoe! gy?</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Louize is al de blydschap van myn leven.</l>
+						<l>Besef, indien gy kunt, de grootheid van myn' druk.</l>
+						<l>Myn ziel kent, zonder haar, genoegen noch geluk.</l>
+						<l>En ach! het lot doet, in den waardsten myner Vrinden,</l>
+						<l>In Otocara, my een' medeminnaar vinden.</l>
+					</sp>
+					<sp who="#hoya">
+						<speaker>Hoya</speaker>
+						<l>Is u bekend, wanneer zyn hartstocht oorsprong nam?</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>ô Ja, van 't uur dat ze in zyns Broeders wooning kwam.</l>
+					</sp>
+					<sp who="#hoya">
+						<speaker>Hoya</speaker>
+						<l>Zy kent zyn deugd, zy heeft verpligting aan zyn maagen,</l>
+						<l>Die zekerlyk met kracht zyn aanzoek onderschraagen.</l>
+						<l>Wat pleit niet al voor hem? deugd, liefde, erkentenis.</l>
+						<l>Geloof me; indien haar ziel niet ongevoelig is,</l>
+						<l>Zal zyn getrouwe min eerlang haar hand verwerven.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Wat zegt ge? hy.. haar hand; en ik, ik zou die derven?</l>
+					</sp>
+					<sp who="#hoya">
+						<speaker>Hoya</speaker>
+						<l>Bedenk dat ge in haar oog byna een vreemdling zyt.</l>
+						<l>Gy zaagt deez' dag haar 't eerst, in al uw' levenstyd.</l>
+						<l>Wie weet hoe verr' hy reeds haar teder hart kon winnen.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Neen, neen; zy mint hem niet.</l>
+					</sp>
+					<sp who="#hoya">
+						<speaker>Hoya</speaker>
+						<l>Zal zy dan u beminnen?</l>
+						<l>Hy is geen sterfling voor zyn ryksgebied verpligt,</l>
+						<l>En kent niets boven zich dan 't blinkend zonnelicht.</l>
+						<l>Gy zaagt, door Vorstengunst, u met den staf bedeelen,</l>
+						<l>En zyt afhangklyk van Satouriaas bevelen.</l>
+						<l>Zal ze, om een' cynsbaar' Vorst, een' vry' Monarch versmaên?</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Gy yvert vruchtloos om myn drift te keer te gaan.</l>
+						<l>Die drift is, eer ik 't wist, ten hoogsten top gereezen.</l>
+						<l>Louize is al myn heil; zy moet de myne wezen.</l>
+					</sp>
+					<sp who="#hoya">
+						<speaker>Hoya</speaker>
+						<l>Bezadig u, en wacht op d' uitslag van den stryd.</l>
+						<l>Ligt raakt ge, in dezen nacht, uw' medeminnaar kwyt.</l>
+						<l>Ligt zal zy, na zyn dood, uw aanzoek niet verachten.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>En zo hy triomfeert, wat staat my dan te wachten?</l>
+					</sp>
+					<sp who="#hoya">
+						<speaker>Hoya</speaker>
+						<l>Hy is uw vriend; een vriend, die zich op u betrouwt.</l>
+						<l>Hy zorgde, zelfs deez' dag, nog voor uw lyfsbehoud.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>'k Zou ook voor zyn behoud myn leven willig waagen;</l>
+						<l>Maar moet ik, eer ik min, hem daar verlof toe vraagen?</l>
+					</sp>
+					<sp who="#hoya">
+						<speaker>Hoya</speaker>
+						<l>Geenzins, zo zyn meestres uwe oogen niet bekoort.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Zy mint hem niet; ik eisch geen goed dat hem behoort.</l>
+						<l>Maar waartoe, zonder nut, met duizende gepeinzen</l>
+						<l>Den dierbren tyd verspild? Ik wil u niet ontveinzen,</l>
+						<l>Dat ik in Hoya dacht een' bloedverwant te zien,</l>
+						<l>Die, in myn' toeleg, my kloekhartig hulp zou biên.</l>
+					</sp>
+					<sp who="#hoya">
+						<speaker>Hoya</speaker>
+						<l>Steun op myn vriendschap; ze is u menigwerf gebleeken.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Ik zie my met den dag van alle hoop versteeken,</l>
+						<l>Ten zy ik spoedig my van myn vermogen dien',</l>
+						<l>En Gourges Dochter dwing' met my van hier te vliên,</l>
+						<l>Haar naar myn Ryk vervoer'.</l>
+					</sp>
+					<sp who="#hoya">
+						<speaker>Hoya</speaker>
+						<l>Wat zegt gy? Kunt gy denken,</l>
+						<l>Dat Hoya tot een daad u onderstand zal schenken,</l>
+						
+						<l>Die u in weinig tyds, helaas! te duur zou staan;</l>
+						<l>En u en al uw volk rampzalig doen vergaan?</l>
+						<l>Zou Gourges, raazende van spyt en woede en smarte,</l>
+						<l>Om 't rooven van een pand, zo dierbaar aan zyn harte,</l>
+						<l>Van al de Vorsten van gantsch Florida verzeld,</l>
+						<l>Niet yllings tegen ons verschynen in het veld?</l>
+						<l>Zal die verëende magt niet spoedig ons verheeren?</l>
+						<l>Zyt gy, zyn wy in staat, hen-allen af te keeren?</l>
+						<l>Sta van dit opzet af.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Zwyg. Langer tegenspraak</l>
+						<l>Maakte u ligt, eer gy 't waande, een offer van myn wraak.</l>
+						<l>Zoek, door uw laffe vrees, in andren schrik te wekken.</l>
+						<l>'k Nam buiten u 't besluit, 'k zal 't buiten u voltrekken.</l>
+						<l>'t Ontbreekt gelukkig me aan geen bystand tot dees daad.</l>
+					</sp>
+					<sp who="#hoya">
+						<speaker>Hoya</speaker>
+						<l>Ik zocht uw deugd te hoên door myn' getrouwen raad;</l>
+						<l>Doch, nu gy dien verwerpt, en 't opzet wilt volbrengen,</l>
+						<l>Behoeft gy andren in den toeleg niet te mengen.</l>
+						<l>Uw wil, Adusta, strekt een wet voor uwen Vrind.</l>
+						<l>Welaan: 'k zal zorgen dat gy alles vaardig vind.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>alleen.</stage>
+						<l>Myn wil strekt hem een wet! Hy zocht myn deugd te hoeden!</l>
+						<l>'t Is dan door dwang! Geef ik van ondeugd hem vermoeden?</l>
+						<l>Wie word verongelykt? Is 't Gourges? neen; myn min</l>
+						<l>Verheft zyn Telg eerlang tot myne Koningin;</l>
+						<l>Hy zal haar liever tot dien gloritrap verheven,</l>
+						<l>Dan van de weldaên van Satouria zien leeven.</l>
+						<l>Zal Otocara, na den uitslag van 't gevecht,</l>
+						<l>Haar hooploos minnen, nooit haar dwingen tot zyn' echt?</l>
+						<l>En zo haar hart zyn hand standvastig blyft versmaaden,</l>
+						<l>Zal zy dan aller haat zich op den hals niet laaden?</l>
+						<l>Wie weet of zy van my geen mindren afkeer heeft?..</l>
+						<l>Maar zo haar fierheid my dees schaaking niet vergeeft?</l>
+						<l>Zo zy my haat? Geen nood; ik zal haar echter minnen;</l>
+						<l>Myn liefde zal, Louize! uw' haat in 't eind' verwinnen.</l>
+						<l>Kan Otocara zich beklaagen, daar hy ziet</l>
+						<l>Dat ze onverschillig blyft voor al zyn zielverdriet?</l>
+						<l>Zou hy, zo Gourges haar een' Fransch' Gemaal wil geeven,</l>
+						<l>Haar niet veel liever met zyn' boezemvriend zien leeven?</l>
+						<l>Wie onzer weet wat lot haar Vader ons bereid?</l>
+						<l>Veelligt dat hy zyn Telg aan hem en my ontzeit;</l>
+						<l>Haar meêvoert op de vloot, naar de Europeesche Staaten;</l>
+						
+						<l>Terwyl wy beiden hier... Wat zal dan 't klaagen baaten?</l>
+						<l>Word door 't voorkomen van dien ramp myn deugd besmet?</l>
+						<l>Zal ik misdaadig zyn, zo ik haar vlucht belet?</l>
+						<l>Maar heeft haar Gourges niet betrouwd aan myne zorgen?</l>
+						<l>Ben ik niet schuldig voor haar in te staan tot morgen?</l>
+						<l>Sprak Otocara niet: Wat is myn ziel verblyd,</l>
+						<l>Myn hartvriend, dat myn zorg uw leven heeft bevryd!</l>
+						<l>Ik laat myn Zuster en Louize in uwe handen;</l>
+						<l>Waak, in ons afzyn, voor die teêrgeliefde panden.</l>
+						<l>Dus nam hy afscheid, met de traanen in 't gezicht.</l>
+						<l>Wat ben ik aan zyn trouw en vriendschap niet verpligt!</l>
+						<l>ô Hartstocht, die my moord! zult gy die vriendschap dooven?</l>
+						<l>Neen, braave Gourges, neen; ik zal uw Kind niet rooven.</l>
+						<l>Waarde Otocara!.. Ach! wie brengt myn ziel tot rust?..</l>
+						<l>Vergeefsche deernis, die myn gloênde drift niet bluscht!..</l>
+						<l>Zo ik, by 't ryzend licht, haar niet van hier kan rukken,</l>
+						<l>Zal my, na deze kans, myn oogmerk nooit gelukken.</l>
+						<l>Ik moet besluiten, of ik ben haar eeuwig kwyt.</l>
+						<l>Vertrouwen, vriendschap, liefde, (ô bange boezemstryd!)</l>
+						<l>Wie van u-allen zal in 't eind' hier overwinnen?</l>
+						<l>ô Hoya! breng voortaan myn deugd my nooit te binnen...</l>
+						<l>Ja, toon my al haar' glans als ik haar' glans vergeet...</l>
+						<l>Ik sidder voor myzelv'... Myn opzet was te wreed.</l>
+						<l>Wie nadert my?</l>
+					</sp>
+					<stage>Du Bree en Olinde treeden uit de tent.</stage>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Adusta, Olinde, Du Bree.</stage>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<stage>tegen Olinde.</stage>
+						<l>Vorstin! ik billyk uw verlangen.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Hoe vuurig haakt myn ziel om bly bericht te ontfangen!</l>
+						<l>ô Nacht, die beurtlings my beroert door vreeze en hoop!</l>
+						<l>ô Eindelooze Nacht! verhaast uw' traagen loop.</l>
+						<stage>Tegen Adusta.</stage>
+						<l>Adusta! hoe! gy hier? Hebt ge iets van 't heir vernomen?</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Het leger is nog naauw' voor Karelsburg gekomen;</l>
+						<l>Het is onmooglyk dat hier tyding wezen zou.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Neem, zo 't u mooglyk is, een weinig rust, Mevrouw;</l>
+						<l>Ten minsten tot het licht is uit de kim gereezen.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Hoe kan zy rusten, ach! die alles heeft te vreezen?</l>
+						<l>Helaas! Louize heeft my Spanjes overmagt</l>
+						<l>Op 't Floridaansche heir zo klaar voor 't oog gebragt,</l>
+						<l>Dat my byna geen hoop meer ovrig is gebleeven.</l>
+						<l>Ligt doet de vyand thans myn' Gade en Broeder sneeven.</l>
+						
+						<l>Myn hart voorzegt het my; ik zie hen nimmer weêr.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Gaat Gourges 't moordziek rot niet met uw volk te keer?</l>
+						<l>Steun, bid ik, op de hulp van uwe bondgenooten.</l>
+						<l>Nooit is voor Spanjes moed hun moed te kort geschooten.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Maar wel hun magt; indien, gelyk Melendes meld,</l>
+						<l>Zyn Koning eens uw' Vorst in ketens heeft gekneld;</l>
+						<l>Een ramp, die, zo hy zegt, gantsch Vrankryk nog doet klaagen.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>François was jong, vol vuurs, en ligt te stout in 't waagen.</l>
+						<l>Had hy naar raad gehoord, die ramp waar' nooit geschied.</l>
+						<l>Geloof my, Vrankryks magt wykt die van Spanje niet.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Een ongelukkige vind altoos stof tot schroomen.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Schep moed; ons leger zal verwinnend wederkomen;</l>
+						<l>De dappre Franschen zyn niet min getergd dan wy.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Ach! waaren we eenmaal van 't geweld der Spanjaards vry!</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Bedriegt myn hoop my niet, gy zult dien wensch verwerven:</l>
+						<l>Het wreedvergooten bloed zal thans geen wreekers derven.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Waar is uw Hartvriendin?</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Verlegen en benaauwd,</l>
+						<l>Nu eens verkwikt door hoop, en dan door vrees verflaauwd,</l>
+						<l>Heeft ze eindlyk, weenens moede, allengs het oog geslooten,</l>
+						<l>En sints een oogenblik een weinig rust genooten.</l>
+						<stage>Tegen Du Bree.</stage>
+						<l>Beloof my toch, indien de Castiljaan verwint,</l>
+						<l>Dat gy Louize, my, noch myn onnoozel Kind,</l>
+						<l>Hier aan zyn dolle woede en wraak ten prooi' zult laaten.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Vorstin! gy hebt des noods een wykplaats in myn Staaten.</l>
+						<l>Du Bree kan tuigen hoe Adusta hem ontfing.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<stage>tegen Adusta.</stage>
+						<l>Ik ben u meer verpligt dan eenig' sterveling.</l>
+						<stage>Tegen Olinde.</stage>
+						<l>Stel u gerust, Vorstin! gy hebt geen reên tot vreezen.</l>
+						<l>Een Magtiger dan wy zal uw Beschermer wezen.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Een Magtiger dan gy? Wie toch? Wie is die Held?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>'t Is Hy, die zelf de zon haar loopbaan heeft gesteld;</l>
+						<l>Die de onschuld ondersteunt, uit gunstig mededoogen,</l>
+						
+						<l>En tegen wiens bestier de Spanjaards niets vermoogen.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Ach! smeek Hem, dat Hy ons weldaadig bystand bied'.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Ik zie Louize.</l>
+					</sp>
+					<stage>Het daglicht begint allengs een weinig aan te breeken.</stage>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Adusta, Olinde, Du Bree, Louize.</stage>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>tegen Olinde.</stage>
+						<l>Ik beef.. Vriendin! verlaat my niet!</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Hoe dus ontsteld?</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Gy weent!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Ach! laat me een poos bedaaren.</l>
+						<stage>Na een weinig stilzwygens.</stage>
+						<l>Zo ras myne oogen door den slaap bevangen waaren,</l>
+						<l>Verbeeldde ik me, in den droom, dat ik me in 't heir bevond,</l>
+						<l>En dat d' Arlac, helaas! al bloedend voor my stond.</l>
+						<l>Hy zag my minzaam aan, doch met gebroken oogen.</l>
+						
+						<l>Vlucht, riep hy, vlucht, Louize! ik ben met u bewoogen.</l>
+						<l>Verlaat op 't spoedigst dit voor ons zo doodlyk strand.</l>
+						<l>Ontwyk Amerika; keer naar uw Vaderland.</l>
+						<l>'k Zocht hem te omarmen; ach! hy was alreeds verdweenen.</l>
+						<l>Toen zag ik niets dan stryd en rook, rondom my heenen.</l>
+						<l>De Castiljaan scheen my zo woedende, als weleer.</l>
+						<l>En Otocara stortte op 't bloedig slagveld neêr.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Ach!</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>ter zyde.</stage>
+						<l>Otocara!</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Tel geen droom.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>ter zyde.</stage>
+						<l>Wat moet ik hooren!</l>
+						<l>Zyn beeldtenis komt zelfs haar in haar' slaap te vooren!</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<stage>tegen Olinde.</stage>
+						<l>Olinde! ontzet u niet.</l>
+						<stage>Tegen Louize.</stage>
+						<l>Uw al te angstvallig hart</l>
+						<l>Heeft al 't voorleedene en toekomende verward.</l>
+						<l>Verzwaar uw ongeluk niet door gewaande plaagen.</l>
+						<l>Geef op geen droomen acht.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>ter zyde.</stage>
+						<l>Zy vind in hem behaagen!</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Hoe heeft uw naare droom myn teder hart beroerd!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Myne afgematte ziel, door schok op schok vervoerd,</l>
+						<l>Was waarlyk niet geschikt om slaapend rust te vinden.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Ik wacht in weinig tyds bericht van onze vrinden.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Helaas! wie weet hoe 't in het leger staat?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Misschien</l>
+						<l>Veel beter dan gy waant.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>ter zyde.</stage>
+						<l>Zy zal hem niet meer zien.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>De morgenschemering begint allengs te lichten;</l>
+						<l>Wy hadden tyding, zo ons heir had moeten zwichten.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>'k Zal van een hoogte al 't land in 't ronde gadeslaan,</l>
+						<l>En all' wat ik ontdekke u spoedig doen verstaan.</l>
+						<stage>Ter zyde.</stage>
+						<l>Myn medeminnaar zal op my niet zegepraalen.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Wacht u van in het woud by 't scheemrend licht te dwaalen.</l>
+					</sp>
+					<stage>Het licht breekt allengs wat meer der door.</stage>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>Louize, Olinde, Du Bree.</stage>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>tegen Du Bree.</stage>
+						<l>Ach! voed uw hart nog hoop op d'uitslag van den stryd?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Waarom het leed vervroegd door kwelling voor den tyd?</l>
+						<l>Myn ziel heeft zich gewend by 't oogenblik te leeven.</l>
+						<l>De hand, die 't all' bestiert, zal ons het beste geeven.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Myn Vader! zo ik wist dat gy verwinnaar waart,</l>
+						<l>Ik scheidde met vermaak van dees rampspoedige aard';</l>
+						<l>Om u, om u-alleen, kan ik het licht gedoogen;</l>
+						<l>Wat zou, van u beroofd, iets op uw Telg vermoogen?</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Ach! deelt uw ziel dan niet in myne ondraagbre smart?</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Doe toch geen ongelyk aan myn erkennend hart.</l>
+						<l>'k Zie, zonder ongeduld, den laatsten myner maagen,</l>
+						
+						<l>Myn' Vader, al myn' troost, zyn dierbaar leven waagen,</l>
+						<l>Om u en dit gewest van wreeden dwang te ontslaan.</l>
+						<l>Myn waarde Olinde, kan myn teêrheid verder gaan?</l>
+						<l>Denk, denk een oogenblik aan 't lot van uw Louize.</l>
+						<l>Wat zal het zyn, zo ik myn' Vader hier verlieze?</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Denkt ge aan Satouria en Otocara niet?</l>
+						<l>Ligt dat ge uw' Vader, na den veldslag, wederziet,</l>
+						<l>Terwyl ik, hoopeloos, het jammerlyk verscheien</l>
+						<l>Van mynen Echtgenoot en Broeder zal beschreien.</l>
+						<l>Wie zal myn trooster zyn, zo my dit onheil treft?</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Waan nimmer dat Louize uw' toestand niet beseft.</l>
+						<l>Ik deel in hun gevaar: de Hemel zy hun hoeder!</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Voeg by de elende van de Weduw die der Moeder.</l>
+						<l>Beschouw myn' tedren Zoon, van Vorsten afgestamd.</l>
+						<l>Denk hoe Adusta heeft op onzen Staat gevlamd,</l>
+						<l>Tot hem Satouria in 't oorlogsveld verneêrde.</l>
+						<l>Ik waar' verlooren, zo ons heir niet triomfeerde.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Vrees niet dat Gourges u niet ondersteunen zou.</l>
+						<l>Olinde, ik blyf u borg voor zyne onwrikbre trouw.</l>
+						<l>Dan ach! indien het staal des vyands hem mogt moorden!</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Dan vond gy nog by ons een toevlucht in deze oorden;</l>
+						<l>En, zo uw tedre ziel voor Otocaraas min</l>
+						<l>Ooit deernis voeden kon, wy groetten u Vorstin.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Laat toch uw zucht voor hem u niet van 't spoor vervoeren.</l>
+						<l>Helaas! wat baat het u myn ziel op nieuw te ontroeren?</l>
+						<l>Uws Broeders deugden zyn eerwaardig in myn oog.</l>
+						<l>Ik ken me aan hem verpligt, en acht hem waarlyk hoog.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Ach! mogt die achting u in 't eind' tot weêrmin wekken!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Ik heb u niets ontveinsd; 'k zal alles u ontdekken.</l>
+						<l>Schoon myn erkennend hart Vorst Otocara acht,</l>
+						<l>Myn hand hem toe te staan is nimmer in myn magt.</l>
+						<l>Beweeg hem, op myn' raad, eene andre vrouw te minnen.</l>
+						<l>Myn teder hart, Vriendin, is niet dan ééns te winnen.</l>
+						<l>Ik was aan myn' d'Arlac ter goeder uur gepaard;</l>
+						<l>Die dierbaare Echtgenoot was al myn teêrheid waard';</l>
+						<l>Myn ziel mint niets dan hem, en zal zyn dood beweenen</l>
+						<l>Tot een volzalig uur ons weder zal heréénen.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Vriendin, gy bid, als wy, de gouden zon niet aan.</l>
+						<l>Ligt kan 's Lands godsdienst met uw' godsdienst niet bestaan.</l>
+						
+						<l>Laat dit myn' Broeder van uw liefde niet berooven;</l>
+						<l>Verlicht hem, zo gy kunt; zeg wat hy moet gelooven.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Wierd gy, en hy, en al het volk uit uw gebied,</l>
+						<l>Het heider licht gewaar, dat gantsch Europe ziet,</l>
+						<l>Wat zou het in myn ziel een zuivre blydschap wekken!</l>
+						<l>De Magt, die 't ons deed zien, zal, hoop ik, 't u ontdekken.</l>
+						<l>Maar schoon dit heillot u en hem te beurte viel,</l>
+						<l>Geen sterfling dan d' Arlac beheerscht Louizes ziel.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Adusta keert te rug; nu zult gy tyding hooren.</l>
+					</sp>
+					<stage>De dageraad begint door te breeken: een dienaar van Gourges treed uit de
+						tent, neemt de toortsen weg, en vertrekt.</stage>
+				</div>
+				<div type="scene" n="6">
+					<head>Zesde tooneel.</head>
+					<stage>Louize, Olinde, Du Bree, Adusta.</stage>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<stage>tegen Adusta.</stage>
+						<l>Wat jaagt u, dus verbaasd?</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Helaas! wy zyn verlooren!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>ô Hemel!</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Ach! Vriendin!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Was ons die ramp bereid!</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Vlucht allen nevens my.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Geef ons meer zekerheid.</l>
+						<l>Ik twyfel aan 't bericht.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>'k Geloof myne eigen oogen.</l>
+						<l>De wreede Castiljaan komt herwaart aangevloogen;</l>
+						<l>Ik zag hem by den stroom, hy nadert deze plaats.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>tegen Olinde.</stage>
+						<l>Helaas! waar bergen we ons voor 't woeden des soldaats?</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Adusta zal u in dit onheil niet verlaaten.</l>
+						<l>Wyk fluks met my van hier, en berg u in myn Staaten.</l>
+						<stage>Tegen Louize.</stage>
+						<l>Kom, volg.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<stage>tegen Adusta.</stage>
+						<l>Geenzins.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Hoe nu?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>De vloot is hier naby;</l>
+						<l>Daar zyn wy veilig voor des vyands razerny.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Zoud gy Olinde naar de Fransche schepen voeren?</l>
+						<l>Haar uit dit land..?</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<stage>de handen ten Hemel heffende.</stage>
+						<l>Helaas!</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<stage>tegen Olinde.</stage>
+						<l>Laat af u dus te ontroeren.</l>
+						<l>Steun op Louize en my. Vorstin! verban uw zorg;</l>
+						<l>De Hemel zelf is u voor onze oprechtheid borg.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>tegen Du Bree.</stage>
+						<l>Wat razerny is dit! Du Bree, heb ik voordezen</l>
+						<l>U daarom, in uw' ramp, myn gunst en hulp beweezen?</l>
+						<l>Waar kunt ge u veiliger vertrouwen in deez' nood</l>
+						<l>Dan in myn Ryksgebied?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Nog beter op de vloot.</l>
+						<l>Indien de Castiljaan ons leger heeft geslaagen,</l>
+						<l>Zult gy welhaast hem in uw Staaten op zien daagen.</l>
+						<l>Gy hebt geen magts genoeg om hem het hoofd te biên.</l>
+						<l>Dan zyn wy verr' van zee.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Dan kan men bergwaart vliên.</l>
+						<l>Het groot gevaar eischt spoed. Wat helpt dit tegenstreeven?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Ik volg den last, die my van Gourges wierd gegeeven.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Wat magt heeft Gourges hier?</l>
+						<stage>Ter zyde.</stage>
+						<l>Myn toorn voert my van 't spoor.</l>
+						<stage>Tegen Louize en Olinde.</stage>
+						<l>Om all' wat gy bemint, geeft toch myn' raad gehoor.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>tegen Audusta.</stage>
+						<l>Neen, neen; Louize volgt het Vaderlyk beveelen.</l>
+						<stage>Tegen Olinde.</stage>
+						<l>Vriendin! ...</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Ik blyf u by, om in uw lot te deelen.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>Louize aangrypende.</stage>
+						<l>Houd stand! Gy zyt de myne, en zult my niet ontgaan.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<stage>hem wederhoudende.</stage>
+						<l>Laat af! Gy zult aan haar, ik zweer 't, de hand niet slaan.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>zyne stem verheffende.</stage>
+						<l>Kom, Hoya!</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>Zevende tooneel.</head>
+					<stage>Louize, Olinde, Du Bree, Adusta; Hoya, met eenige Amerikaanen. <lb> </lb>
+					</stage>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Hemel! help!</l>
+						<stage>Tegen Hoya.</stage>
+						<l>Laat los, laat los, verraader!</l>
+						<stage>Tegen Olinde.</stage>
+						<l>Olinde!..</l>
+						<stage>Tegen Du Bree.</stage>
+						<l>Ach! help, Du Bree!</l>
+						<stage>In het wegvoeren.</stage>
+						<l>Myn Vader! ach! myn Vader!</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Toeft, wreedaarts!</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<stage>nog met Adusta worstelende.</stage>
+						<l>Hemel! help! Myn wacht!</l>
+					</sp>
+					<stage>Twee Amerikaanen schieten toe, en houden Du Bree.</stage>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Helaas!</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Myn wacht!</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Ontzinde Gryzaart, gy bevind u in myn magt.</l>
+						<l>Louize is myne, in spyt van al uw tegenstreeven.</l>
+						<l>Ik spaar, hoe fel getergd, uit deernis u het leven.</l>
+						<stage>Tegen de Amèrikaanen.</stage>
+						<l>Komt, volgt me.</l>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>Agtste tooneel.</head>
+					<stage>Olinde, Du Bree. <lb> </lb>
+					</stage>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>ô Wreede smart!</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<stage>tegen de soldaaten.</stage>
+						<l>Vliegt, kwyt u van uw' pligt.</l>
+						<l>Adusta heeft de Telg van Gourges opgeligt.</l>
+						<l>Ziet of 't u mooglyk is dien snooden in te haalen.</l>
+						<stage>De soldaaten streeven den weg op, werwaart Adusta en de Amerikaanen
+							gegaan zyn. Een soldaat word door Du Bree wederhouden.</stage>
+						
+						<stage>Tegen den soldaat.</stage>
+						<l>Spoei naar dien heuvel; zie in 't ronde, op al de dalen;</l>
+						<l>En keer, zo ge iets ontdekt, op 't oogenblik weêrom.</l>
+						<stage>De soldaat vertrekt.</stage>
+						<l>ô Ramp! ô bittre spyt! ô magtlooze ouderdom!..</l>
+						<stage>Tegen Olinde.</stage>
+						<l>Treed in de tent, Vorstin!</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<stage>weenende.</stage>
+						<l>Ach! wat zal my weêrvaaren!</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Ontmenschte! uwe euveldaad bezwalkt myn gryze hairen.</l>
+					</sp>
+					<stage>Einde van het vierde Bedryf.</stage>
+				</div>
+			</div>
+			<div type="act" n="5">
+
+				<head>Vyfde bedryf.</head>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+					<stage>Olinde, en haar Zoontje; Du Bree.</stage>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Adustaas valsch bericht had u en my misleid.</l>
+						<l>Men ziet den vyand niet. Wy zyn in zekerheid.</l>
+						<l>Dan ach! ons krygsvolk heeft Louize niet vernomen.</l>
+						<l>Hoe ras 't zich heeft gespoed, het is te spaê gekomen.</l>
+						<l>De snoode roover, die eene engte hield bezet,</l>
+						<l>Heeft, by die engte, aan hen den doortogt stout belet,</l>
+						<l>Tot hy haar in het diepst der bosschen had doen voeren.</l>
+						<l>Hoe zal dit gruwelstuk held Gourges hart beroeren!</l>
+						<l>Wie meld, wie meld hem dit? ik vind my buiten staat.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Was die rampspoedige gespaard tot dezen smaad!</l>
+						<l>Zy waande zich by ons in veiligheid te vinden,</l>
+						<l>En, wat ze ook vreezen mogt, zy vreesde niets van Vrinden.</l>
+						<l>Des vyands woede alleen... Beklaagenswaarde Vrouw!</l>
+						<l>Louize! myn Louize! ik smelt om u van rouw.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Amerika, helaas! voed ook zyn wangedrochten.</l>
+						<l>Adusta wierd altoos, door sterke boezemtochten,</l>
+						
+						<l>Geplaagd, gejaagd, geschokt; doch zyn meêwaarig hart</l>
+						<l>Toonde echter deernis met der droeven ramp en smart;</l>
+						<l>Zyn ziel geraakte, schoon zyn driften woedend waaren,</l>
+						<l>Als hy geen weêrstand vond, allengs weêr aan 't bedaaren;</l>
+						<l>Dan vloekte hy de drift, die hem had aangezet;</l>
+						<l>Dan gaf betaamlykheid zyn hart op nieuw de wet.</l>
+						<l>Hoe laag is hy deez' dag gezonken in myne oogen!</l>
+						<l>Ik gruw van zyn bestaan, en ben met hem bewoogen.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Bewoogen? gy? met hem?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Denk dat ik 't levenslicht</l>
+						<l>Aan zyn weldaadigheid en bystand ben verpligt.</l>
+						<l>Dan ach! waartoe, waartoe behield hy my het leven!</l>
+						<l>Veel beter had hy my zyn' dolk in 't hart gedreeven,</l>
+						<l>Dan dat hy door dees daad myn' roem en achting krenkt.</l>
+						<l>Wie weet of Gourges in zyn smart my niet verdenkt,</l>
+						<l>Dat ik, rampspoedige, van 't schelmstuk heb geweeten,</l>
+						<l>En voor zyn Dochter niet naar eisch my heb gekweeten.</l>
+						<l>Hoe willig had ik voor myn' laatsten droppel bloed</l>
+						<l>Adustaas boosheid en Louizes ramp verhoed!</l>
+						<l>Myn ziel verwenscht het uur dat hy haar 't eerst aanschouwde.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Wie onzer had vermoed dat hy dien ramp ons brouwde?</l>
+						
+						<l>ô Myn Satouria! wat baat nu onze vlyt?</l>
+						<l>Myn Broeder! wie verzacht uw hartewee en spyt?</l>
+						<l>Uw Vriend, dien gy behoed, uw Vriend is uw verraader.</l>
+						<l>Louize! in welk een' staat verliest ge op nieuw uw' Vader?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Ik, die Adusta ken, bemerkte alreeds deez' dag</l>
+						<l>Dat hy Louize met begeerige oogen zag.</l>
+						<l>Maar nimmer achtte ik hem bekwaam tot gruwelstukken;</l>
+						<l>Of waande dat hy haar aan onze zorg ontrukken,</l>
+						<l>Zichzelv' door vrouwenroof bezoedlen, en de trouw</l>
+						<l>Van zynen Boezemvriend zo avrechts loonen zou.</l>
+						<l>ô Driften! hoe vervoert uw kracht de beste menschen!</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Olinde, met haar zoontje; Du Bree, La Vigne.</stage>
+					<sp who="#la-vigne">
+						<speaker>La Vigne</speaker>
+						<l>Sta aan La Vigne toe u beiden heil te wenschen.</l>
+						<l>Wy hebben Karelsburg gewonnen in den stryd;</l>
+						<l>De Spanjaard is geveld, en Florida bevryd.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Ons Land verlost! maar ach! myn Gaê misschien gebleeven,</l>
+						<l>Of Otocara?</l>
+					</sp>
+					<sp who="#la-vigne">
+						<speaker>La Vigne</speaker>
+						<l>Neen, ô neen; zy beiden leeven,</l>
+						<l>En juichen nevens ons om 't heil van dit Gewest.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Hoe wierd het heldenheir verwinnaar van de vest?</l>
+					</sp>
+					<sp who="#la-vigne">
+						<speaker>La Vigne</speaker>
+						<l>'t Is ons naar wensch gelukt den vyand te overvallen.</l>
+						<l>De braave Gourges had, vóór 't nadren tot de wallen,</l>
+						<l>Opdat de Castiljaan 't ontvluchten wierd belet,</l>
+						<l>De paden naar het bosch met oorlogsvolk bezet.</l>
+						<l>Stalame, die verheugd dien last had aangenomen,</l>
+						<l>Heeft loflyk dien volvoerd: geen vluchtling is ontkomen.</l>
+						<l>Het saamgevoegde heir trok, by het licht der maan,</l>
+						<l>Op 't sterke Karelsburg in groote stilheid aan,</l>
+						<l>Opdat de Vyand ons te spader mogt ontdekken.</l>
+						<l>Wy vreesden dat de graft vertraaging zou verwekken,</l>
+						<l>Doch vonden die ondiep en naauwer dan men dacht.</l>
+						<l>Fluks wierd, naar ons gebruik, 't bestormtuig aangebragt.</l>
+						<l>Held Gourges had nog naauw' de ladders op doen rechten,</l>
+						<l>Of Otocara, niet gewoon in rang te vechten,</l>
+						<l>Vloog onverschrokken, met zyn heirbyl in de hand,</l>
+						<l>Naar boven; won den wal, en hield 'er rustig stand;</l>
+						<l>En deed den schildwacht, door een' zwaaren slag getroffen,</l>
+						<l>Al suizebollende, in de vesting nederploffen.</l>
+						
+						<l>Wy vloogen, op zyn spoor, vol moeds den vestwal op;</l>
+						<l>Toen rees de alarmklank en 't gejuich alom in top.</l>
+						<l>De ontwaakte vyand, in geen staat ons 't hoofd te bieden,</l>
+						<l>Scheen als in twyfling of hy vechten wilde of vlieden.</l>
+						<l>Melendes, die ons zocht te keeren met zyn wacht,</l>
+						<l>Is door de dappre vuist uws Broeders omgebragt.</l>
+						<l>Valmonte is, aan zyn zy', door uw' Gemaal verslaagen.</l>
+						<l>De vest was overheerd toen 't licht begon te daagen.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>De vrekke vyand, die zo wreed ons heeft verdrukt,</l>
+						<l>Heeft veelen van ons volk naar Karelsburg gerukt,</l>
+						<l>Daar die rampspoedigen in naare elende kwynen,</l>
+						<l>Of zich gedoemd zien tot den arbeid in de mynen;</l>
+						<l>Helaas! hebt gy hen niet gevonden in dat oord,</l>
+						<l>Of heeft zyn razerny hen op uw komst gemoord?</l>
+					</sp>
+					<sp who="#la-vigne">
+						<speaker>La Vigne</speaker>
+						<l>Wy hebben honderden bedrukte Amerikaanen,</l>
+						<l>Die in de ketens der gevloekte Castiljaanen</l>
+						<l>Als slaaven kwynden, uit hun wreede boei verlost.</l>
+						<l>De braave Gourges heeft, na 't winnen van deez' post,</l>
+						<l>'t Veréénigd leger in twee deelen afgescheiden.</l>
+						<l>Hyzelf, met uw' Gemaal, zal de eene helft geleiden</l>
+						<l>Naar een' der burgen door den Spanjaard hier gebouwd;</l>
+						<l>En de andre helft wierd aan uw' Broeder toebetrouwd,</l>
+						
+						<l>Om, daar onze oorlogsliên hem moedig onderschraagen,</l>
+						<l>Terstond vóór d'andren burg den vyand op te daagen.</l>
+						<l>Die plaatsen zyn te zwak om tegenstand te biên;</l>
+						<l>Des zult ge uw Vrienden haast verwinnend wederzien.</l>
+						<stage>Tegen Du Bree.</stage>
+						<l>Verblyd ge u niet met ons om 't heil, deez' nacht verkreegen?</l>
+						<stage>Tegen Olinde.</stage>
+						<l>Ik bid u, ween niet meer. Wat maakt u thans verlegen?</l>
+						<l>Gy beiden zwygt, en zucht! Wat is 't dat u ontroert?</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Helaas! Louize is door Adusta... weggevoerd.</l>
+					</sp>
+					<sp who="#la-vigne">
+						<speaker>La Vigne</speaker>
+						<l>Adusta!.. Gourges Telg!.. dit kan ik nooit gelooven.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>'t Is al, 't is al te waar.</l>
+					</sp>
+					<sp who="#la-vigne">
+						<speaker>La Vigne</speaker>
+						<l>Hy, Gourges Dochter rooven?</l>
+						<l>Wat heeft hem aangezet tot zulk een snoode daad?</l>
+						<l>Of wreekt hy Spanjes ramp door schandelyk verraad?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>ô Neen: het gruwelstuk, dat ons de ziel doorgriefde,</l>
+						<l>Sproot niet uit zucht tot wraak, maar uit ontzinde liefde.</l>
+						<l>Ik heb my, ach, vergeefs! gekweeten van myn' pligt.</l>
+						<l>Ik heb voor uw behoud all' wat ik kon verricht,</l>
+						
+						<l>Rampzalig offer! ...</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Myn Louize!</l>
+					</sp>
+					<sp who="#la-vigne">
+						<speaker>La Vigne</speaker>
+						<l>Elendig Vader!</l>
+						<l>Hoe ons dit onheil treft, helaas! hem treft het nader.</l>
+						<l>Wat was zyn ziel verrukt toen hy zyn Dochter zag!</l>
+						<l>Hoe zal die vrolykheid verandren in geklag!</l>
+						<l>Hy vind haar, onverwacht, als tot zyn' troost herbooren;</l>
+						<l>Hy juicht om haar behoud; en ze is voor hem verlooren:</l>
+						<l>Verlooren, voor altoos!.. Verberg, uit deerenis,</l>
+						<l>Aan hem dit ongeval, zo lang 't u mooglyk is.</l>
+						<l>Helaas! hy zal het niet dan al te vroeg ontdekken.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>ô Wreede Adusta! moest ge ons thans dien ramp verwekken?</l>
+						<l>Moest uw gehaate drift..?</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Ik hoor trompet en trom.</l>
+					</sp>
+					<sp who="#la-vigne">
+						<speaker>La Vigne</speaker>
+						<l>De dappre Gourges keert verwinnaar wederom.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Hoe jaagt myn angstig hart!</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Hoe zal ik 't onheil melden!</l>
+					</sp>
+					<sp who="#la-vigne">
+						<speaker>La Vigne</speaker>
+						<l>Verberg, in 's Hemels naam, uw smart. Daar zyn de Helden.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Olinde, en haar Zoontje; Du Bree, La Vigne, Gourges, Satouria, Stalame,
+						gevolg van Fransche Officieren en Amerikaansche Grooten.</stage>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<stage>ter zyde.</stage>
+						<l>ô Hemel! geef my kracht!</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<stage>Satouria te gemoet streevende.</stage>
+						<l>Ach! myn Satouria!</l>
+						<l>Wat vreugd! ik zie u weêr.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<stage>haar omhelzende.</stage>
+						<l>Myn teêrbeminde Gaê!</l>
+						<l>Verban thans voor altoos de droefheid uit uw zinnen.</l>
+						<l>Zie Florida verlost: dees Held deed ons verwinnen.</l>
+					</sp>
+					<stage>Satouria strekt de hand uit naar zyn Zoontje, die dezelve aangrypt, en
+						vrolyk kust.</stage>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>ô Ja, Vorstin! gy zyt ontslaagen van uw' druk.</l>
+						<l>Myn ziel deelt ongeveinsd in uw en 's Lands geluk.</l>
+						<l>De vyand ligt geveld; en al uw onderdaanen,</l>
+						<l>Die hy in slaverny geboeid hield... Stort geen traanen.</l>
+						
+						<l>Gy ziet de rust en vreugd hersteld in uw Gebied;</l>
+						<l>La Vigne meldde u reeds...</l>
+						<stage>Ter zyde.</stage>
+						<l>Ik zie Louize niet.</l>
+						<stage>Tegen Du Bree.</stage>
+						<l>Waar is myn Kind, Du Bree? Wat is hier voorgevallen?</l>
+						<l>Gy zucht, en antwoord niet! Hoe! zwygt en schreit gy allen?</l>
+						<l>Du Bree, waar is het pand aan uwe zorg betrouwd?</l>
+						<l>Waar is myn Dochter?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>'k Bid, dat gy me onschuldig houd.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Waarvan onschuldig? Van haar dood? Gy doet my beeven.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Zy leeft; dan ach! ik zorg zy zal rampspoedig leeven.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Ontdek u klaar: denk hoe myn ziel naar tyding haakt.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Helaas! Adusta heeft, haars ondanks, haar geschaakt.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Adusta! haar geschaakt!</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Is 't mooglyk, groote Goden!</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Ik heb haar naar myn magt, doch vruchtloos, hulp gebooden.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Gy zyt Adustaas Vriend, en duur aan hem verpligt.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Verdenk hem niet; hy heeft all' wat hy kon verricht.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Adusta! haar geschaakt! ô Hemel! welk een smarte!</l>
+						<l>Myn dierbaar Kind! myn troost! de wellust van myn harte! ..</l>
+						<l>Gy in eens roovers magt! ..</l>
+						<stage>Du Bree aangrypende.</stage>
+						<l>Geef my myn Dochter weêr.</l>
+						<l>Ik eisch haar van uw hand.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Bezadig u, Mynheer.</l>
+						<l>Wacht u in wanhoop op onschuldigen te woeden.</l>
+						<l>Had ik, ten koste van myn bloed, haar kunnen hoeden,</l>
+						<l>Nooit was zy, 'k zweer u zulks, in dezen ramp gestort.</l>
+						<l>Doe, smeek ik u, door drift myn vroomheid niet te kort.</l>
+						<l>'k Heb niet ontzien myzelv' om haar behoud te waagen.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Hy heeft zich waarlyk als een eerlyk man gedraagen.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Ach! waare ik door 't geweld der Spanjaards omgebragt,</l>
+						
+						<l>Of door Adustaas dolk meêdoogenloos geslagt,</l>
+						<l>Zo zou geen achterdocht myn deugd dus schandlyk hoonen!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Besef myn' staat.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Ik kan uw wanhoop ligt verschoonen.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>ô Myn Louize! ... ik raas van ongeduld en spyt.</l>
+						<l>Myn ongelukkig Kind! uw Vader is u kwyt.</l>
+						<l>Hoe word myn ziel om u, om u, vaneen gereeten!</l>
+						<l>Onnoozel lam! myn lam! een wolf heeft u verbeeten...</l>
+						<l>Is dit de blydschap, die myn hart zich had voorspeld,</l>
+						<l>Wanneer zich Florida in vryheid zag hersteld?</l>
+						<l>Doch 't zal hier zo niet gaan: ik zal u wederhaalen.</l>
+						<l>Uw snoode roover zal zyn misdaad duur betaalen.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<stage>tegen Du Bree.</stage>
+						<l>Ik bid u, meld ons hoe dit stuk wierd uitgericht.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Wy vreesden geen gevaar, vóór 't ryzen van het licht,</l>
+						<l>Wanneer Adusta ons door 't valsch bericht ontstelde,</l>
+						<l>Dat, na uw nederlaag, de vyand herwaart snelde.</l>
+						<l>Hy bood ons in zyn Ryk een schuilplaats in deez' nood.</l>
+						<stage>Tegen Gourges.</stage>
+						<l>Ik wilde, naar uw' last, ons bergen op de vloot.</l>
+						
+						<l>Dit deed hem tegen my byna onzinnig woeden.</l>
+						<l>Hy greep uw Dochter aan, ik poogde haar te hoeden.</l>
+						<l>Terwyl ik zyn geweld kloekhartig tegenstond,</l>
+						<l>Riep hy zyn heilloos volk, dat zich alhier bevond;</l>
+						<l>Het rukte my te rug en voerde uw Dochter heenen,</l>
+						<l>In wederwil van haar, en van Olindes weenen.</l>
+						<l>Op ons geschreeuw, vloog ons de wacht ter hulp; dan ach!</l>
+						<l>Zy vond zichzelf te zwak tot weering van den slag.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Gevloekte Adusta! wat berokkent ge ons al smarte!</l>
+						<stage>Tegen Olinde.</stage>
+						<l>Ach! welk een diepe wond' voor Otocaraas harte!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Een doodwond' voor het myne. Ik blaak van ongeduld.</l>
+						<l>En 't geen myn droeve ziel met bittre spyt vervult</l>
+						<l>Is, dat ons volk, vermoeid door 't waaken en door 't stryden,</l>
+						<l>Thans buiten staat is haar te redden uit haar lyden.</l>
+					</sp>
+					<sp who="#la-vigne">
+						<speaker>La Vigne</speaker>
+						<l>Dit wederhoude u niet; geef slechts bevel, Mynheer.</l>
+						<l>Ik vind my uitgerust.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Welaan, men toev' niet meer.</l>
+					</sp>
+					<sp who="#stalame">
+						<speaker>Stalame</speaker>
+						<l>Ik zal u met myn heir trouwhartig bystand bieden.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Voeg by uw legermagt myn dapperste oorlogslieden.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Hoe duur verpligt ge my, myn Vrienden, door uw trouw!</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<stage>tegen Gourges.</stage>
+						<l>Wie komt daar, met uw volk?</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>ô Hemel! ... 'k zie een vrouw.</l>
+						<l>Wat vreugd! het is Louize.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Gourges, Satouria, Stalame; Olinde, en haar Zoontje; La Vigne, Du Bree,
+						gevolg van Fransche Officieren en Amerikaansche Grooten; Louize, La Val,
+						Cipiere, en eenige Fransche krygslieden.</stage>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Ach! dierbre Telg! treed nader.</l>
+						<stage>Haar omhelzende.</stage>
+						<l>Louize! in welk een' staat ontmoet ge op nieuw uw' Vader!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>hem weder omhelzende.</stage>
+						<l>Gy ziet my anderwerf beveiligd en bevryd,</l>
+						<l>En meer dan ooit voorheen door uw gezicht verblyd.</l>
+						
+						<stage>Tegen Du Bree.</stage>
+						<l>Goedhartige Du Bree! hoe trouw hebt ge u gekweeten!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen Du Bree, hem de hand drukkende.</stage>
+						<l>Vergeef my 't ongelyk...</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<stage>hem de hand weder drukkende.</stage>
+						<l>'t Is alles reeds vergeeten.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>tegen Olinde, haar omhelzende.</stage>
+						<l>En gy, myn Hartvriendin! wat ben ik u verpligt!</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<stage>haar weder omhelzende.</stage>
+						<l>Myn waardste! ..</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Uws Broeders moed heeft wondren uitgericht:</l>
+						<l>Hy is myn redder.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Goôn!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>De Hemel zy zyn hoeder!</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>ô Heilryke ommekeer! Wat blydschap voor myn' Broeder!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen Louize.</stage>
+						<l>Hoe vond hy u? Waar viel die zegen hem te beurt?</l>
+					</sp>
+					<stage>Satouria luistert een' van de Amerikaansche Grooten iets in, die terstond
+						vertrekt, en op het einde van Louizes verhaal met Vesti en Joinville
+						wederkeert.</stage>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Adustaas volk had me uit Olindes arm gescheurd,</l>
+						<l>Terwyl Du Bree, vol moeds, my tegen hem verweerde.</l>
+						<l>Zo ras men uit dit oord zich met my boschwaart keerde,</l>
+						<l>Hield Hoya aan dat ik myn wanhoop stillen zou;</l>
+						<l>Hy wilde eerlang zyn' vriend beweegen tot berouw,</l>
+						<l>En onbeleedigd my alhier te rug geleiên.</l>
+						<l>Ik gaf hem geen gehoor, en hield vast aan met schreien,</l>
+						<l>En riep den Hemel aan om uitkomst in 't gevaar.</l>
+						<l>Wy wierden middlerwyl d' ontmenschten zelv' gewaar,</l>
+						<l>Die van Du Bree en van de wacht zich had ontslaagen;</l>
+						<l>En zich bevlytigde om zyn helpers voort te jaagen.</l>
+						<l>Terwyl ik, worstlens moê, met traanen weêrstand bood,</l>
+						<l>Zond my de hoogste Magt eene uitkomst in den nood.</l>
+						<l>Held Otocara had, gesterkt door onze vaanen,</l>
+						<l>De laatste vest verheerd der wreede Castiljaanen,</l>
+						<l>En keerde door het woud waardoor Adusta kwam.</l>
+						<l>Verbeeld u met wat spyt myn Schaaker hem vernam.</l>
+						<l>Hy zocht, doch zonder vrucht, myn jammerkreet te smooren.</l>
+						<l>Ik schreeuwde, ik gilde om hulp, opdat men my zou hooren.</l>
+						<l>Goôn! riep myn Redder: Goôn! het is Louizes stem.</l>
+						<l>Fluks stond hy aan myn zyde, en naauwlyks zag ik hem,</l>
+						<l>Of yllings vond ik my ontweldigd aan den Roover.</l>
+						<l>Hy gaf terstond my aan myn Landgenooten over.</l>
+						
+						<l>Ga, sprak hy, breng dit pand aan Gourges wederom.</l>
+						<l>Ga, zeg hem dat de troost van zynen ouderdom</l>
+						<l>Door Otocaraas hand aan hem word weêrgegeeven.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Door uw behoudenis behoud hy my het leven.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>op haar geleiders wyzende.</stage>
+						<l>Dees Helden hebben hem kloekmoedig onderschraagd,</l>
+						<l>En tegen 't rooversrot zich tot myn heil gewaagd.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen de leidslieden van Louize.</stage>
+						<l>Nooit, nooit zal Gourges, nooit zyn Telg uw deugd vergeeten.</l>
+					</sp>
+					<sp who="#la-val">
+						<speaker>La Val</speaker>
+						<l>Wy hebben ons met vreugd van onzen pligt gekweeten;</l>
+						<l>Onze enkle nadring deed de meeste roovers vliên.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>'t Verwondert my dat wy myn' Broeder hier niet zien.</l>
+						<stage>Tegen La Val.</stage>
+						<l>Waar liet gy hem, Mynheer?</l>
+					</sp>
+					<sp who="#la-val">
+						<speaker>La Val</speaker>
+						<l>Gy hebt geen reên tot vreezen;</l>
+						<l>Hy zal, met al ons volk, op 't oogenblik hier wezen.</l>
+					</sp>
+					<sp who="#cipiere">
+						<speaker>Cipiere</speaker>
+						<l>Adusta vloog, toen wy vertrokken, driftig aan.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Helaas! wie weet wat hem de woede doet bestaan!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>die Vesti en Joinville ziet, tegen Olinde.</stage>
+						<l>Vrees niet, ons oorlogsvolk zal voor uw' Broeder waaken.</l>
+						<stage>Tegen Satouria.</stage>
+						<l>Behaagt het u dat wy onze onderpanden slaaken?</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Niets zal my liever zyn.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>bied de hand aan Olinde, die haar Zoontje by de hand vat, en hy
+							geleid hen beiden naar Satouria.</stage>
+						<l>Vorstin, vergun my de eer...</l>
+						<stage>Tegen Satouria.</stage>
+						<l>Ontfang van myne hand uw Gade en Erfprins weêr.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Hoe zal Satouria uw' moed en deugd vergelden!</l>
+						<stage>Hy wenkt Vesti en Joinville, en bied hen Gourges aan.</stage>
+						<l>Aanvaard op uwe beurt de aan my betrouwde Helden.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Ik zie myn' Broeder. Maar, helaas! in welk een' staat!</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>Gourges, Louize, Satouria, Stalame; Olinde, en haar Zoontje; Vesti, La
+						Val, Cipiere, La Vigne, Joinville, Du Bree, gevolg van Fransche Bevelhebbers
+						en Amerikaansche Grooten en krygslieden; Otocara, op een rosbaar, van takken
+						gemaakt, en door zes Amerikaanen gedraagen, die hem nederzetten; Oades, en
+						gevolg van Fransche en Amerikaansche soldaaten.</stage>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Waarde Otocara!</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Ach!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>de rosbaar naderende, en hem de hand toereikende.</stage>
+						<l>Myn Vriend!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Myn toeverlaat!</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Hoe treft my deze ramp!</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<stage>die, geduurende eenige oogenblikken, als verstomd door droefheid
+							gestaan heeft, streeft naar de rosbaar, en knielt 'er by.</stage>
+						<l>Myn teêrgeliefde Broeder!</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Myn dierbre Vrienden! myn Olinde!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>hem de hand toereikende, die hy aangrypt.</stage>
+						<l>ô Myn Behoeder!</l>
+						<l>Heeft my uw heldenmoed tot zulk een' prys bevryd?</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Ween niet, myn Hartvriendin, nu gy beveiligd zyt.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<stage>tegen Otocara.</stage>
+						<l>Ach! is 't Adustaas dolk, die u in 't graf doet daalen?</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen Satouria.</stage>
+						<l>Wy zullen hem eerlang zyn bloedschuld doen betaalen.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<stage>tegen Otocara.</stage>
+						<l>Ik zweer u by het licht, dat ik, uw ongeval</l>
+						<l>Ter wraak', zyn Ryksgebied geheel verdelgen zal!</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Ja, wreek myn dood op hem, maar spaar zyne onderdaanen.</l>
+						<l>Adusta is alleen de bron van al uw traanen.</l>
+						<l>Hy zette, raazende van minnenyd en smart,</l>
+						<l>Om 't missen van zyn' prooi, zyn' vriend een' dolk op 't hart.</l>
+						
+						<stage>Tegen Louize.</stage>
+						<l>Ik heb uw hand verdiend, en moet die eeuwig derven.</l>
+						<l>Doch Otocara is bereid voor u te sterven.</l>
+						<l>Maar deel uit deerenis ten minste in myn verdriet;</l>
+						<l>En zeg: Getrouwe Vriend, Louize haat u niet.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Myn Vriend! myn Toeverlaat! Trouwhartigste aller menschen!</l>
+						<l>Wat zou Louizes ziel voor uw behoud niet wenschen?</l>
+						<l>Zie hoe myn oog om u in heete traanen smelt.</l>
+						<l>Myn Otocara! 'k heb u altoos hoog gesteld,</l>
+						<l>'k Zal myn' Gemaal en u steeds in myn hart veréénen,</l>
+						<l>En tevens om d'Arlac en Otocara weenen.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Myn Otocara! Goôn!.. Louize! ik ben voldaan.</l>
+						<l>Nu zal myn ziel getroost uit deze waereld gaan,</l>
+						<l>En 't Apalietsch gebergt' gemoedigd overzweeven,</l>
+						<l>Om daar gelukkiger dan in myn land te leeven:</l>
+						<l>Daar zal ik woonen in eene aangenaame streek,</l>
+						<l>En, onder 't hoog geboomte, of by een koele beek,</l>
+						<l>Getroost aan myn Louize en myne Olinde denken;</l>
+						<l>Totdat de Alziende Zon u my zal wederschenken.</l>
+						<stage>Na een weinig stilzwygens.</stage>
+						<l>Myn waarde Zuster, rys; breng, breng me uw' oudsten Zoon.</l>
+						<stage>Zy brengt hem het Kind.</stage>
+						
+						<l>Lief Kind, wees erfgenaam van Otocaraas Kroon.</l>
+						<l>Dwing, door goedhartigheid, de volken u te minnen,</l>
+						<l>En breng u, zo gy kunt, somtyds uw' Oom te binnen.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Myn Broeder! al myn troost!</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Groothartig sterveling!</l>
+						<l>Hoe treft me uw lot! Ik acht uw weldaad niet gering,</l>
+						<l>Maar wenschte dat gy lang, zeer lang met ons mogt leeven,</l>
+						<l>En aan uw eigen Kroost uw' scepter overgeeven.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>tegen Gourges.</stage>
+						<l>Ik heb u niet vergeefs myn' dienst en hulp geboôn.</l>
+						<l>Zyt gy voldaan?</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>hem de hand drukkende.</stage>
+						<l>Voldaan? Ik min u als myn' Zoon.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Adusta nadert ons.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Zesde tooneel.</head>
+					<stage>Gourges, Louize, Satouria, Otocara, Stalame; Olinde, en haar Zoontje;
+						Vesti, La Val, Cipiere, La Vigne, Joinville, Du Bree, gevolg van Fransche
+						Bevelhebbers en Amerikaansche Grooten en krygslieden; Oades, en lyfwachten;
+						Adusta, met een' ontblooten dolk in de hand.</stage>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Wat zoekt gy hier, Verraader?</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>Adusta ziende, wykt by Gourges.</stage>
+						<l>ô Hemel!</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<stage>tegen Oades en de lyfwachten.</stage>
+						<l>Grypt hem aan.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Laat af. Houdt stand. Niet nader.</l>
+						<l>Hoor my, Satouria. Ik heb niets haatlyks voor.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<l>Ontmenschte!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<l>Ik beef.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen Satouria.</stage>
+						<l>Geef hem een oogenblik gehoor.</l>
+						
+						<l>Hy is alom bezet, en kan ons niet ontkomen.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>den dolk in de schede steekende.</stage>
+						<l>Waar is myn Vriend?</l>
+						<stage>Ter zyde.</stage>
+						<l>Ik kan myn wanhoop naauw' betoomen.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<stage>op de rosbaar wyzende.</stage>
+						<l>Aanschouw het offer van uw boosheid en verraad.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Goôn! Otocara, met de doodverwe op 't gelaat!</l>
+						<l>En ik, ik ben het die hem 't levenslicht doe derven?</l>
+						<l>Ach! mogt hy leeven! mogt zyn Moorder voor hem sterven!</l>
+						<l>Hoe word myn angstig hart door naberouw verscheurd!</l>
+						<l>Gevloekte driften! maar, helaas! te spaê betreurd!</l>
+						<stage>Hy nadert de rosbaar.</stage>
+						<l>Och! kunt ge Adusta in uw byzyn nog gedoogen?</l>
+						<l>Is hy dit oogenblik geen Monster in uwe oogen?</l>
+						<l>Beschouw de wanhoop, die myn gantsche ziel vervult.</l>
+						<stage>Hy knielt by de rosbaar.</stage>
+						<l>Ik kom niet smeeken om vergeeving van myn schuld.</l>
+						<l>Neen; Otocara, neen: ik wil die niet verschoonen.</l>
+						<l>Vergun Adusta slechts u zyn berouw te toonen.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<l>Ach! had myn vriendschap van uw hand dit loon verdiend,</l>
+						<l>Ondankbre?</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<l>Ik bid, verschoon uw' deerniswaarden Vriend.</l>
+						<l>De lofspraak, door uw' mond uw minnaares gegeeven,</l>
+						<l>Is de oorzaak van myn schuld en uw rampzalig sneeven.</l>
+						<l>Die lofspraak wekte in my begeerte om haar te zien,</l>
+						<l>En wie, die haar beschouwt, kan lang haar weêrstand biên?</l>
+						<l>Haar schoonheid dwong myn hart, onwillig zelfs, tot minnen.</l>
+						<l>My bleef noch hoop noch tyd om ooit haar hart te winnen,</l>
+						<l>Ten zy ik haar vervoerde, en naar myn Staaten bragt.</l>
+						<l>Myn list gelukte my. Ik zag haar in myn magt,</l>
+						<l>Toen gy door uwe komst myn blyde hoop verplette;</l>
+						<l>My van myn' buit beroofde, en uw meestresse ontzette.</l>
+						<l>Vervoerd, verwoed door toorn en liefde en minnenyd,</l>
+						<l>Bragt ik u in den staat, helaas! waarin gy zyt.</l>
+						<l>'k Zal door myne eigen hand uw' toorn voldoening geeven,</l>
+						<l>'k Wil met u sterven, nu gy niet met my kunt leeven.</l>
+						<l>Myn ziel zal met uw ziel, om u ten dienst te staan,</l>
+						<l>Het Apalietsch gebergt' gewillig overgaan.</l>
+						<l>'k Zal onophoudlyk u myn vlyt en trouw betoonen,</l>
+						<l>Totdat in 't einde uw gunst myn misdaad zal verschoonen;</l>
+						<l>Totdat gy me, als welëer, uw vriendschap waardig vind.</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>tegen Satouria en Gourges.</stage>
+						<l>Vergeeft hem zyne schuld.</l>
+						<stage>Tegen Adusta, hem de hand toereikende, die Adusta met vervoering
+							kust.</stage>
+						
+						<l>Adusta, 'k sterf uw Vrind.</l>
+						<stage>Tegen Louize.</stage>
+						<l>Ach! mogt ik thans nog eens uw lieve hand verwerven,</l>
+						<l>En drukken ze aan myn harte, ik zou gelukkig sterven.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>geleid Louize naar Otocara.</stage>
+						<l>Voldoe hem.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>Otocara de hand geevende.</stage>
+						<l>Ach!</l>
+					</sp>
+					<sp who="#otocara">
+						<speaker>Otocara</speaker>
+						<stage>het hoofd op haare hand buigende.</stage>
+						<l>Louize....</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>ô Smart! hy geeft den geest.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<stage>met het hoofd op de borst van Satouria vallende.</stage>
+						<l>ô Goden! staat my by!</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>weenende.</stage>
+						<l>Helaas! hy is geweest.</l>
+					</sp>
+					<sp who="#adusta">
+						<speaker>Adusta</speaker>
+						<stage>driftig opstaande.</stage>
+						<l>Gy sterft, myn Vriend! gy zyt niet meer op my verbolgen!</l>
+						<l>Vertoef, en voer my meê!</l>
+						<stage>Hy doorsteekt zichzelven.</stage>
+						<l>Myn ziel zal de uwe volgen!</l>
+						<stage>Tegen Satouria.</stage>
+						<l>Bewys me uw deerenis nu gy myn wanhoop ziet,</l>
+						<l>En scheî myn lyk van 't lyk van Otocara niet.</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>in de armen van haaren Vader streevende.</stage>
+						<l>ô Hemel! wat al ramps!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Myn hart beklaagt hen beiden.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>Moest gy, rampzaalge! moest gy dus van de aarde scheiden?</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<stage>tegen Oades en de lyfwachten.</stage>
+						<l>Men draag' de lyken weg, en plaats' hen by elkaêr,</l>
+						<l>Opdat dit droef gezicht de elende niet verzwaar'.</l>
+						<stage>Tegen Olinde, terwyl de lyken weggebragt worden.</stage>
+						<l>Myn Waardste! laat uw trouw voor my en onze Kindren,</l>
+						<l>Indien het mooglyk is, uw hartewee vermindren.</l>
+						<stage>Tegen de Fransche Bevelhebbers.</stage>
+						<l>En gy, ô Heldenstoet, die my zo dierbaar zyt,</l>
+						<l>En 't zuchtend Florida van slaverny bevryd!</l>
+						<l>Bewoont de sterkten, die, gevestigd in myn Staaten,</l>
+						<l>Door 's vyands nederlaag u ovrig zyn gelaaten.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>We erkennen dit bewys van vriendschap naar waardy,</l>
+						<l>Doch 't blyven in dit Oord staat ons tot nog niet vry;</l>
+						<l>Wy zyn verpligt te rug naar 't Vaderland te streeven,</l>
+						<l>En onzen Vorst bericht van onzen togt te geeven.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Myn Broeders! blyft ons by.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Ach! had ik 't in myn hand!</l>
+						<l>Leef bly, leef veilig in dit vry gevochten land.</l>
+					</sp>
+					<sp who="#olinde">
+						<speaker>Olinde</speaker>
+						<stage>Louize in de armen vallende.</stage>
+						<l>ô Myn Louize! moet Olinde ook u ontbeeren?</l>
+					</sp>
+					<sp who="#louize">
+						<speaker>Louize</speaker>
+						<stage>haar omhelzende.</stage>
+						<l>Myn Zuster! myn Vriendin!</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<stage>tegen Olinde.</stage>
+						<l>Wy zullen wederkeeren</l>
+						<l>Na veertien maanden tyds, indien 't ons mooglyk is.</l>
+						<l>Die blyde hoop, Vorstin, verzachte uw droefenis.</l>
+						<stage>Tegen de Vorsten.</stage>
+						<l>ô Vorsten! hoort myn' raad, die u tot heil moet strekken.</l>
+						<l>Duldt nooit dat vreemden, die dit waerelddeel ontdekken,</l>
+						<l>Zich meester maaken van de sterkten hier gegrond.</l>
+						<l>Steunt nimmer op hunn' eed, betrouwt op geen verbond.</l>
+						<l>De vreemde reizigers, die vestingen begeeren,</l>
+						<l>Zyn heimelyk geneigd de landzaat te overheeren.</l>
+						<l>Sloopt al de sterkten, die tot nu hier zyn gebouwd.</l>
+						<l>Gelooft my als uw' Vriend; ik zorg voor uw behoud.</l>
+					</sp>
+					<sp who="#satouria">
+						<speaker>Satouria</speaker>
+						<l>Gy doet uwe eedle deugd ons onbetwistbaar blyken.</l>
+						<l>Beloof my, tot myn' troost, niet uit myn Ryk te wyken</l>
+						<l>Eer gy die met den grond gelyk gesteld zult zien.</l>
+					</sp>
+					<sp who="#gourges">
+						<speaker>Gourges</speaker>
+						<l>Ik zal, met al myn volk, u daartoe bystand biên:</l>
+						<l>Zo zal geen Castiljaan hier ligt weêr zegepraalen.</l>
+					</sp>
+					<sp who="#du-bree">
+						<speaker>Du Bree</speaker>
+						<l>De magt des Hemels zet de magt der boosheid paalen.</l>
+					</sp>
+					<stage>EINDE.</stage>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
