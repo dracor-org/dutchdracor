@@ -1,18 +1,19 @@
- <?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/odd/out/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000001" xml:lang="dut">
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/odd/out/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dutch000001" xml:lang="dut">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Gysbreght van Aemstel</title>
-				<title type="sub">d' Ondergang van zijn stad en zijn ballingschap.
-					Trevrspel.</title>
+				<title type="sub">d' Ondergang van zijn stad en zijn ballingschap. Trevrspel.</title>
 				<author>
 					<persName>
-						<forename>Joost van den Vondel</forename>
-						<surname>van den Vondel</surname>
+						<forename>Joost</forename>
+						<nameLink>van den</nameLink>
+						<surname>Vondel</surname>
 					</persName>
 					<idno type="wikidata">Q312673</idno>
-					<idno type="pnd">pnd identifier (optional)</idno>
+					<idno type="pnd">118627848</idno>
 				</author>
 			</titleStmt>
 			<publicationStmt>
@@ -21,8 +22,7 @@
 				<availability>
 					<licence>
 						<ab>CC0 1.0</ab>
-						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
-							>Licence</ref>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
 					</licence>
 				</availability>
 			</publicationStmt>
@@ -31,17 +31,16 @@
 					<name>DBNL</name>
 					<idno type="URL"
 						>https://www.dbnl.org/tekst/vond001dewe03_01/vond001dewe03_01_0120.php</idno>
-					<title>J.F.M. Sterck, H.W.E. Moller, C.G.N. de Vooys, C.R. de Klerk, B.H.
-						Molkenboer, J. Prinsen J.Lzn. en L. Simons (eds), De werken van Vondel.
-						Derde deel 1627-1640. De Maatschappij voor goede en goedkoope lectuur,
-						Amsterdam 1929</title>
+					<title>J.F.M. Sterck, H.W.E. Moller, C.G.N. de Vooys, C.R. de Klerk, B.H. Molkenboer, J.
+						Prinsen J.Lzn. en L. Simons (eds), De werken van Vondel. Derde deel 1627-1640. De
+						Maatschappij voor goede en goedkoope lectuur, Amsterdam 1929</title>
 					<availability status="free">
 						<p>In the public domain.</p>
 					</availability>
 				</bibl>
 				<bibl type="originalSource">
-					<title>Joost van den Vondel, Gysbreght van Aemstel. d' Ondergang van zijn stad
-						en zijn ballingschap. Trevrspel. Amsterdam: Wilhelm Blaeu, 1637.</title>
+					<title>Joost van den Vondel, Gysbreght van Aemstel. d' Ondergang van zijn stad en zijn
+						ballingschap. Trevrspel. Amsterdam: Wilhelm Blaeu, 1637.</title>
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
@@ -135,11 +134,12 @@
 				<keywords>
 					<term type="genreTitle">Tragedy</term>
 				</keywords>
+				<classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
 			</textClass>
 		</profileDesc>
 		<revisionDesc>
 			<listChange>
-				<change when="0000-00-00">who did what</change>
+				<change when="2023-06-28">(Lucas van der Deijl) convert from source</change>
 			</listChange>
 		</revisionDesc>
 	</teiHeader>
@@ -156,160 +156,146 @@
 			</event>
 		</listEvent>
 		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata"
-				passive="http://www.wikidata.org/entity/"/>
+			<relation active="https://dracor.org/entity/dutch000001" name="wikidata"
+				passive="http://www.wikidata.org/entity/Q2683725"/>
 		</listRelation>
 	</standOff>
 	<text>
 		<front>
-			<docTitle>
-				<titlePart>I.V. Vondels <lb/> Gysbreght van Aemstel, </titlePart>
+			<titlePage>
+				<docTitle>
+					<titlePart>I.V. Vondels <lb/> Gysbreght van Aemstel, </titlePart>
 
-				<titlePart>d' Ondergang van zijn stad en zijn ballingschap. <lb/>
-					Trevrspel.</titlePart>
-				<titlePart>Vrbs antiqua ruit.</titlePart>
+					<titlePart>d' Ondergang van zijn stad en zijn ballingschap. <lb/> Trevrspel.</titlePart>
+					<titlePart>Vrbs antiqua ruit.</titlePart>
 
-				<titlePart>t' Amsterdam, <lb/> By Wilhelm Blaev. <lb/> CIƆ IƆ C XXXVII.</titlePart>
-				<figure/>
-			</docTitle>
+					<titlePart>t' Amsterdam, <lb/> By Wilhelm Blaev. <lb/> CIƆ IƆ C XXXVII.</titlePart>
+					<figure/>
+				</docTitle>
+			</titlePage>
 			<div type="preface">
 
-				<head>De ‘Verthooninge vande superstitien vande paperye als misse ende andere
-					ceremonien’ in Vondels Gysbreght van Aemstel door Dr. J.F.M. Sterck</head>
-				<p>Een der moeilijkste tooneelen in Vondels <title>Gysbreght van Aemstel</title>
-					vind ik altijd de Kerstnacht-scène in de kloosterkapel. Bij de opvoering weet de
-					regie dan ook geen raad met de voorstelling. Uit de verzen blijkt (bijv. vs.
-					988) dat het tafereel voor een ‘autaer’ speelt. Maar met de aankleeding daarvan
-					op het tooneel weet men eigenlijk geen weg. De gravure in Van Lenneps Vondel
-					naar de mooie teekening van Ch. Rochussen (Dl. III, 406) vertoont op het altaar
-					een reliekschrijn. Bij sommige opvoeringen, zooals door Royaards in 1912, zet
-					men een kruisbeeld tegen het retabel, als in een Luthersche kerk; anderen maken
-					het af met een gekleurd raam of zoo iets. Niemand denkt er echter aan bij de
-					altaartafel een sacramentshuisje te plaatsen, zooals in Gysbreghts tijd zeker
-					het gebruik was.</p>
-				<p>Vóór dat fantastische altaar zit dan vader Gozewyn met den rug er heen gekeerd.
-					Hij laat zich vervolgens in zijn vol bisschoppelijk ornaat kleeden, en gaat met
-					de nonnen zingen: ‘den lofzang van oude Simeon’. Zeker een kale
-					Kerstnachtviering, al maakt het tafereel wel een diepen indruk als geheel, -
-					ofschoon de steeds zoo goed onderrichte Vondel stellig toch wel bekend was met
-					de van ouds opgedragen plechtige H. Mis in den Kerstnacht. Allerlei kleine
-					kerkelijke bijzonderheden weet de alles onderzoekende treurspel-dichter er bij
-					te pas te brengen; en zou bijvoorbeeld zijn beste en belangstellende vriend
-						<name type="variant">Kornelis Gysbertsz Plemp</name> hem van deze ceremonie
-					onkundig hebben gelaten? Ik kan het niet aannemen. Er moet een andere reden
-					zijn.</p>
-				<p><name type="variant">Brandt</name> verhaalt dat ‘Gysbreght’ werd ten tooneele
-					gevoerd: ‘niet zonder tegenmorren van eenigen, die 't zochten te weeren, en
-					etlyke daaghen ophielden; om dat hy de Roomsche kerkzeden, naar eisch des tydts,
-					daar in ten toon stelde’ (blz. 40). Later heeft het Protocol van den Kerkeraad
-					aan het licht gebracht, dat het de Gereformeerde predikanten zijn geweest, die
-					een commissie aan de Regenten van het Weeshuis, als beheerders van den
-					Schouwburg, gezonden hebben om hen aan te manen na te laten de ‘verthooninge
-					vande superstitien vande paperye als misse ende andere ceremonien’. Ofschoon zij
-					een weigerend antwoord ontvingen, verkregen de predikanten toch op hun verzoek
-					aan Burgemeesteren, dat de opvoering van 26 December tot 3 Januari werd
+				<head>De ‘Verthooninge vande superstitien vande paperye als misse ende andere ceremonien’ in
+					Vondels Gysbreght van Aemstel door Dr. J.F.M. Sterck</head>
+				<p>Een der moeilijkste tooneelen in Vondels <title>Gysbreght van Aemstel</title> vind ik
+					altijd de Kerstnacht-scène in de kloosterkapel. Bij de opvoering weet de regie dan ook
+					geen raad met de voorstelling. Uit de verzen blijkt (bijv. vs. 988) dat het tafereel voor
+					een ‘autaer’ speelt. Maar met de aankleeding daarvan op het tooneel weet men eigenlijk
+					geen weg. De gravure in Van Lenneps Vondel naar de mooie teekening van Ch. Rochussen (Dl.
+					III, 406) vertoont op het altaar een reliekschrijn. Bij sommige opvoeringen, zooals door
+					Royaards in 1912, zet men een kruisbeeld tegen het retabel, als in een Luthersche kerk;
+					anderen maken het af met een gekleurd raam of zoo iets. Niemand denkt er echter aan bij de
+					altaartafel een sacramentshuisje te plaatsen, zooals in Gysbreghts tijd zeker het gebruik
+					was.</p>
+				<p>Vóór dat fantastische altaar zit dan vader Gozewyn met den rug er heen gekeerd. Hij laat
+					zich vervolgens in zijn vol bisschoppelijk ornaat kleeden, en gaat met de nonnen zingen:
+					‘den lofzang van oude Simeon’. Zeker een kale Kerstnachtviering, al maakt het tafereel wel
+					een diepen indruk als geheel, - ofschoon de steeds zoo goed onderrichte Vondel stellig
+					toch wel bekend was met de van ouds opgedragen plechtige H. Mis in den Kerstnacht.
+					Allerlei kleine kerkelijke bijzonderheden weet de alles onderzoekende treurspel-dichter er
+					bij te pas te brengen; en zou bijvoorbeeld zijn beste en belangstellende vriend <name
+						type="variant">Kornelis Gysbertsz Plemp</name> hem van deze ceremonie onkundig hebben
+					gelaten? Ik kan het niet aannemen. Er moet een andere reden zijn.</p>
+				<p><name type="variant">Brandt</name> verhaalt dat ‘Gysbreght’ werd ten tooneele gevoerd:
+					‘niet zonder tegenmorren van eenigen, die 't zochten te weeren, en etlyke daaghen
+					ophielden; om dat hy de Roomsche kerkzeden, naar eisch des tydts, daar in ten toon stelde’
+					(blz. 40). Later heeft het Protocol van den Kerkeraad aan het licht gebracht, dat het de
+					Gereformeerde predikanten zijn geweest, die een commissie aan de Regenten van het
+					Weeshuis, als beheerders van den Schouwburg, gezonden hebben om hen aan te manen na te
+					laten de ‘verthooninge vande superstitien vande paperye als misse ende andere ceremonien’.
+					Ofschoon zij een weigerend antwoord ontvingen, verkregen de predikanten toch op hun
+					verzoek aan Burgemeesteren, dat de opvoering van 26 December tot 3 Januari werd
 					uitgesteld.</p>
-				<p>Aangenomen kan worden, dat die predikanten zich goed op de hoogte hebben gesteld
-					van den inhoud van het treurspel. De dichter zal zijn handschrift of de
-					drukproef bij de Weesmeesters ter goedkeuring hebben moeten inzenden, en de
-					Schouwburgregent Simon Engelbrechts, een tegenstander van het stuk, heeft de
-					predikanten kunnen inlichten.</p>
+				<p>Aangenomen kan worden, dat die predikanten zich goed op de hoogte hebben gesteld van den
+					inhoud van het treurspel. De dichter zal zijn handschrift of de drukproef bij de
+					Weesmeesters ter goedkeuring hebben moeten inzenden, en de Schouwburgregent Simon
+					Engelbrechts, een tegenstander van het stuk, heeft de predikanten kunnen inlichten.</p>
 				<p>Veilig mag dan worden verondersteld, dat hun vrees voor de ‘verthooninghe vande
-					superstitien vande paperye als misse ende andere ceremonien’ gegrond was op hun
-					kennis van het stuk. Nu is het wel opmerkelijk dat in het heele stuk, zooals het
-					vertoond werd, niets voorkomt, over de Mis. En toch lag het voor de hand dat
-					Vondel bij de viering van den Kerstnacht door den Bisschop een Mis zou laten
-					lezen, of daarvan tenminste melding zou maken. En ik acht het dus een gegronde
-					veronderstelling, dat in Vondels oorspronkelijken tekst hetzij een mededeeling
-					over een Misviering, hetzij een voorstelling daarvan heeft gestaan, en dat hij
-					door dit tafereel te wijzigen eerst van Burgemeesteren verlof heeft gekregen
-					voor de opvoering.</p>
-				<p>Ware er geen sprake geweest van een Misviering, dan hadden Weesmeesters en
-					Burgemeesteren den predikanten op het volkomen ongegronde van hunne bezwaren
-					gewezen, die immers geen steek hielden, indien de Mis slechts in hun verbeelding
-					bestond.</p>
-				<p>In die acht dagen uitstel kan <name type="variant">Vondel</name> de Misscène
-					vervangen hebben door de zwakke Kerstmisviering van Bisschop Gozewyn met zijn
-					nonnetjes in het vierde bedrijf. Het bewijs dat werkelijk voldaan is aan der
-					predikanten verlangen wordt geleverd door hun bezoek bij Burgemeesteren na de
-					opvoering. Een predikant en een ouderling kwamen vragen: ‘serieuselyk de
-					weygeringe van de paepsche Tragedie.... hier voor desen geageert; en sulk en
-					diergelycke stouticheden’ voortaan te verhinderen; ‘hoewel so geseyt wert, de
-					aenstootelyckste saken daeruit geroyeert syn’.</p>
-				<p>Vondel heeft dus toegegeven en blijkbaar een aantal bijzonder katholiek uitziende
-					scènes geschrapt, waaronder de Mis, door de predikanten uitdrukkelijk genoemd.
-					De regenten van het Wees- en Oude Mannenhuis werden ook door de predikanten
-					berispt, en verdedigden zich: ‘dat sy weynigh in die sake werden gekent, dat sy
-					niettemin by tyt en wylen alles souden doen 't gene tot de meeste stichtinge
-					ende minste quetsinge van de christelyke religie soude mogen strecken’.
-					(Protocol van den Kerkeraad, Fo 232-233).</p>
-				<p>Onlangs zei me een Vondelkenner: ‘Gerard Brom vindt Gysbreght “rooms als een
-					altaar”; maar dan toch zonder H. Sacrament!’ Dat gebrek is inderdaad heel
-					zonderling. Nu moet men dat niet willen verklaren met: Vondel was wel
-					katholiseerend, maar voor de Eucharistie stond hij nog wat vreemd, zooals
-					dikwijls bekeerlingen. Men vergete toch niet, dat hij, zeker vóór 1638 De
-					Kruisbergh heeft gedicht, dien heerlijken lofzang op de H. Eucharistie. Want, nu
-					moge men ontkennen, dat het ‘een echt Roomsch gedicht is’, wanneer het goed
-					gelezen en begrepen wordt, bevat het niets dan een zuivere verheerlijking van de
-					H. Eucharistie. Dat ‘d'AertsEnglen mann' met nectar kneden En hemels suicker en
-					ambroos Uit leliwit en roosenblos’ kan toch niets anders voorstellen, dan dat
-					brood en wijn veranderen in Christus' lichaam en bloed (wit manna en roode wijn)
-					bij de Offerande, die de Aertsengelen aan God opdragen door den priester.</p>
-				<p>Nog enkele andere verzen van Vondels Kruisbergh bevestigen dit. Er bestaat dus
-					geen reden om te veronderstellen, dat de dichter van Gysbreght eigener beweging
-					de vermelding van het H. Sacrament geheel zou hebben vermeden. Maar hij kende te
-					goed zijn oude vijanden, de predikanten, die scherp op de loer lagen om hem in
-					zijn verzen te vangen. Daarom heeft Vondel blijkbaar alles wat eenigszins
-					ergernis zou kunnen geven en de opvoering in gevaar brengen bij voorbaat
-					achterwege gelaten. Alleen de Kerstnachtmis kon zijn dichterlijk vroom gemoed
-					niet missen. En juist daarover zijn die ijverige predikanten toch nog
+					superstitien vande paperye als misse ende andere ceremonien’ gegrond was op hun kennis van
+					het stuk. Nu is het wel opmerkelijk dat in het heele stuk, zooals het vertoond werd, niets
+					voorkomt, over de Mis. En toch lag het voor de hand dat Vondel bij de viering van den
+					Kerstnacht door den Bisschop een Mis zou laten lezen, of daarvan tenminste melding zou
+					maken. En ik acht het dus een gegronde veronderstelling, dat in Vondels oorspronkelijken
+					tekst hetzij een mededeeling over een Misviering, hetzij een voorstelling daarvan heeft
+					gestaan, en dat hij door dit tafereel te wijzigen eerst van Burgemeesteren verlof heeft
+					gekregen voor de opvoering.</p>
+				<p>Ware er geen sprake geweest van een Misviering, dan hadden Weesmeesters en Burgemeesteren
+					den predikanten op het volkomen ongegronde van hunne bezwaren gewezen, die immers geen
+					steek hielden, indien de Mis slechts in hun verbeelding bestond.</p>
+				<p>In die acht dagen uitstel kan <name type="variant">Vondel</name> de Misscène vervangen
+					hebben door de zwakke Kerstmisviering van Bisschop Gozewyn met zijn nonnetjes in het
+					vierde bedrijf. Het bewijs dat werkelijk voldaan is aan der predikanten verlangen wordt
+					geleverd door hun bezoek bij Burgemeesteren na de opvoering. Een predikant en een
+					ouderling kwamen vragen: ‘serieuselyk de weygeringe van de paepsche Tragedie.... hier voor
+					desen geageert; en sulk en diergelycke stouticheden’ voortaan te verhinderen; ‘hoewel so
+					geseyt wert, de aenstootelyckste saken daeruit geroyeert syn’.</p>
+				<p>Vondel heeft dus toegegeven en blijkbaar een aantal bijzonder katholiek uitziende scènes
+					geschrapt, waaronder de Mis, door de predikanten uitdrukkelijk genoemd. De regenten van
+					het Wees- en Oude Mannenhuis werden ook door de predikanten berispt, en verdedigden zich:
+					‘dat sy weynigh in die sake werden gekent, dat sy niettemin by tyt en wylen alles souden
+					doen 't gene tot de meeste stichtinge ende minste quetsinge van de christelyke religie
+					soude mogen strecken’. (Protocol van den Kerkeraad, Fo 232-233).</p>
+				<p>Onlangs zei me een Vondelkenner: ‘Gerard Brom vindt Gysbreght “rooms als een altaar”;
+					maar dan toch zonder H. Sacrament!’ Dat gebrek is inderdaad heel zonderling. Nu moet men
+					dat niet willen verklaren met: Vondel was wel katholiseerend, maar voor de Eucharistie
+					stond hij nog wat vreemd, zooals dikwijls bekeerlingen. Men vergete toch niet, dat hij,
+					zeker vóór 1638 De Kruisbergh heeft gedicht, dien heerlijken lofzang op de H. Eucharistie.
+					Want, nu moge men ontkennen, dat het ‘een echt Roomsch gedicht is’, wanneer het goed
+					gelezen en begrepen wordt, bevat het niets dan een zuivere verheerlijking van de H.
+					Eucharistie. Dat ‘d'AertsEnglen mann' met nectar kneden En hemels suicker en ambroos Uit
+					leliwit en roosenblos’ kan toch niets anders voorstellen, dan dat brood en wijn veranderen
+					in Christus' lichaam en bloed (wit manna en roode wijn) bij de Offerande, die de
+					Aertsengelen aan God opdragen door den priester.</p>
+				<p>Nog enkele andere verzen van Vondels Kruisbergh bevestigen dit. Er bestaat dus geen reden
+					om te veronderstellen, dat de dichter van Gysbreght eigener beweging de vermelding van het
+					H. Sacrament geheel zou hebben vermeden. Maar hij kende te goed zijn oude vijanden, de
+					predikanten, die scherp op de loer lagen om hem in zijn verzen te vangen. Daarom heeft
+					Vondel blijkbaar alles wat eenigszins ergernis zou kunnen geven en de opvoering in gevaar
+					brengen bij voorbaat achterwege gelaten. Alleen de Kerstnachtmis kon zijn dichterlijk
+					vroom gemoed niet missen. En juist daarover zijn die ijverige predikanten toch nog
 					gevallen.</p>
-				<p>Toch heeft de dichter aan de predikanten ook nadrukkelijk willen laten blijken,
-					dat hij nog niet roomschgezind was, doordat hij den hemelgezant Rafaël aan den
-					vroom-katholieken Gysbreght, zeer te onpas, het minder opwekkende vooruitzicht
-					voorstelde, dat</p>
+				<p>Toch heeft de dichter aan de predikanten ook nadrukkelijk willen laten blijken, dat hij
+					nog niet roomschgezind was, doordat hij den hemelgezant Rafaël aan den vroom-katholieken
+					Gysbreght, zeer te onpas, het minder opwekkende vooruitzicht voorstelde, dat</p>
 				<lg>
 					<l>De Hollandsche gemeent zal, eer dry honderd jaer.</l>
 					<l>...Schoppen 't Roomsch autaer met kracht uit alle kercken,</l>
 				</lg>
-				<p>Aan Gysbreght moet dit, bij zijn vertrek, geen bijzonderen troost in zijn smart
-					gegeven hebben.</p>
-				<p>In de latere uitgaven van zijn treurspel heeft Vondel getracht deze wat al te
-					forsch klinkende woorden weer goed te maken door Rafaël de volgende verzen in
-					den mond te leggen:</p>
+				<p>Aan Gysbreght moet dit, bij zijn vertrek, geen bijzonderen troost in zijn smart gegeven
+					hebben.</p>
+				<p>In de latere uitgaven van zijn treurspel heeft Vondel getracht deze wat al te forsch
+					klinkende woorden weer goed te maken door Rafaël de volgende verzen in den mond te
+					leggen:</p>
 				<lg>
 					<l>Valt u 't verwoesten der godtsdienstigheit te lastigh,</l>
 					<l>Volhardt by 't out geloof en Godts altaer stantvastigh,</l>
 					<l>Op 't spoor der ouderen, u moedigh voorgetreên.</l>
 					<l>Zoo draeft men recht naer Godt, door alle starren heen.</l>
 				</lg>
-				<p>Dat wil zeggen, als dat krachtig uitschoppen van die Roomsche altaren u soms wat
-					zou hinderen, houdt u dan maar aan dat oude Roomsche geloof en dat verschopte
-					altaar van God.</p>
-				<p>Zoo ziet men, hoe zelfs een genie als <name type="variant">Vondel</name> in de
-					war gebracht kan worden wanneer bekrompen vitzucht van kleingeestige menschen in
-					zijn werk gaan ‘royeren’. Nu trachtte hij het ieder naar den zin te maken.</p>
+				<p>Dat wil zeggen, als dat krachtig uitschoppen van die Roomsche altaren u soms wat zou
+					hinderen, houdt u dan maar aan dat oude Roomsche geloof en dat verschopte altaar van
+					God.</p>
+				<p>Zoo ziet men, hoe zelfs een genie als <name type="variant">Vondel</name> in de war
+					gebracht kan worden wanneer bekrompen vitzucht van kleingeestige menschen in zijn werk
+					gaan ‘royeren’. Nu trachtte hij het ieder naar den zin te maken.</p>
 				<p>Hoe had Vondel overigens zijn best gedaan om die ‘superstitiën vande paperye’ zoo
-					onschuldig mogelijk voor te stellen. Als de soldaten aan het plunderen slaan in
-					de Hooftkerck, vallen zij niet op het sacrement aan, maar ‘oock zelf Het
-					Marianum dat te pronck hing van 't gewelf, Wordt afgeruckt’ alsof het een
-					belangrijk heiligdom was, terwijl dit in de kerk toch maar een zeer
-					ondergeschikte beteekenis heeft. Op dat Marianum had Plemp blijkbaar Vondels
-					aandacht gevestigd. Want deze had het in zijn gedicht De Patria reeds vermeld:
-					‘Argenti magno Marianum ex pondere facto!’</p>
-				<p>Verder ontleent Vondel herhaaldelijk aan verzen van de Eneide de voorstelling der
-					gewijde zaken, die hij in Gysbreght te pas brengt. Als hij de nonnen beschrijft,
-					die naar het altaar vluchten in de kloosterkapel (vs. 977), heeft hij Aen. II,
-					523 voor oogen, waar Hecuba met hare dochters naar het huisaltaar de wijk
-					nemen.</p>
-				<p>Een voorname rol in het heiligdom speelt hier het kruis. Al wat Proost Willem,
-					volgens de beschrijving van Arend, gered heeft, is ‘het overschot van 't kruis
-					des Heilands’, dat hij heeft ‘geladen onder d'armen’ (vs. 1143). Maar ‘het
-					heilighdom van 't kruis den proost deê weinigh nuts’ (vs. 1201). Had de proost
-					niet in de eerste plaats het H. Sacrament in veiligheid behooren te brengen?
-					Onder de hand ‘torst men'er kelcken uit, kassuiffelen en kappen, Die stijf staen
-					van gesteent, van parlen en rood goud’ (vs. 1173); maar wat er in die kelken
-					werd bewaard, wordt verzwegen. Daarna: ‘De Kerstnacht lag in stucken’.</p>
+					onschuldig mogelijk voor te stellen. Als de soldaten aan het plunderen slaan in de
+					Hooftkerck, vallen zij niet op het sacrement aan, maar ‘oock zelf Het Marianum dat te
+					pronck hing van 't gewelf, Wordt afgeruckt’ alsof het een belangrijk heiligdom was,
+					terwijl dit in de kerk toch maar een zeer ondergeschikte beteekenis heeft. Op dat Marianum
+					had Plemp blijkbaar Vondels aandacht gevestigd. Want deze had het in zijn gedicht De
+					Patria reeds vermeld: ‘Argenti magno Marianum ex pondere facto!’</p>
+				<p>Verder ontleent Vondel herhaaldelijk aan verzen van de Eneide de voorstelling der gewijde
+					zaken, die hij in Gysbreght te pas brengt. Als hij de nonnen beschrijft, die naar het
+					altaar vluchten in de kloosterkapel (vs. 977), heeft hij Aen. II, 523 voor oogen, waar
+					Hecuba met hare dochters naar het huisaltaar de wijk nemen.</p>
+				<p>Een voorname rol in het heiligdom speelt hier het kruis. Al wat Proost Willem, volgens de
+					beschrijving van Arend, gered heeft, is ‘het overschot van 't kruis des Heilands’, dat hij
+					heeft ‘geladen onder d'armen’ (vs. 1143). Maar ‘het heilighdom van 't kruis den proost deê
+					weinigh nuts’ (vs. 1201). Had de proost niet in de eerste plaats het H. Sacrament in
+					veiligheid behooren te brengen? Onder de hand ‘torst men'er kelcken uit, kassuiffelen en
+					kappen, Die stijf staen van gesteent, van parlen en rood goud’ (vs. 1173); maar wat er in
+					die kelken werd bewaard, wordt verzwegen. Daarna: ‘De Kerstnacht lag in stucken’.</p>
 				<p>Aan het slot, voordat Gysbreght met de zijnen Amsterdam verlaat, wordt weer het
 					kruisbeeld naar voren gebracht; Gysbreght spreekt:</p>
 				<lg>
@@ -317,13 +303,12 @@
 					<l>Dat voor mijn' oudren lang heeft op 't autaer gestaen,</l>
 					<l>En my is aenge-erft.... (vs. 1879).</l>
 				</lg>
-				<p>Van dat heilig kruisbeeld, dat in Gysbreght een voornamere beteekenis heeft dan
-					het H. Sacrament, vond Vondel een voorbeeld in een der heiligdommen van de
-					Eneide, waar de penaten eenzelfde beteekenis hebben. De hier laatst aangehaalde
-					verzen zijn geïnspireerd op Aen. II, 717: tu genitor, cape sacra manu patriosque
-					penates. Broer Peter draagt bij den uittocht dat H. Kruis mede evenals Anchises
-					de penaten. De plundering van de kloosterkapel is ook weer aan Aen. II, 763
-					ontleend:</p>
+				<p>Van dat heilig kruisbeeld, dat in Gysbreght een voornamere beteekenis heeft dan het H.
+					Sacrament, vond Vondel een voorbeeld in een der heiligdommen van de Eneide, waar de
+					penaten eenzelfde beteekenis hebben. De hier laatst aangehaalde verzen zijn geïnspireerd
+					op Aen. II, 717: tu genitor, cape sacra manu patriosque penates. Broer Peter draagt bij
+					den uittocht dat H. Kruis mede evenals Anchises de penaten. De plundering van de
+					kloosterkapel is ook weer aan Aen. II, 763 ontleend:</p>
 				<lg>
 					<l>en zagh al 't zilverwerck en goud,</l>
 					<l>Geplondert heilighdom, tapijten en schildrijen,</l>
@@ -338,13 +323,12 @@
 					<l>congeritur</l>
 				</lg>
 				<p>Hier vinden we ook de gouden ‘kelken’ terug van ‘Gysbreght’ (vs. 1172),</p>
-				<p>In Gysbreght (vs. 1493) wordt in de kloosterkapel, onder het altaar, de albasten
-					tombe van een martelaar opengebroken en ontheiligd door de plunderaars; doch het
-					Sacramentshuisje, anders steeds het eerste mikpunt, blijft ook hier
-					onaangeroerd.</p>
+				<p>In Gysbreght (vs. 1493) wordt in de kloosterkapel, onder het altaar, de albasten tombe
+					van een martelaar opengebroken en ontheiligd door de plunderaars; doch het
+					Sacramentshuisje, anders steeds het eerste mikpunt, blijft ook hier onaangeroerd.</p>
 				<p>Maar ten slotte, het sterkste bewijs, dat Vondel het noodig acht het H. Sacrament
-					opzettelijk te verzwijgen ligt in vers 981-vlg. bij de vermelding van het wonder
-					van Sinte Klaere:</p>
+					opzettelijk te verzwijgen ligt in vers 981-vlg. bij de vermelding van het wonder van Sinte
+					Klaere:</p>
 				<lg>
 					<l>Doen 't Sarazijnsche heir vermeesterde al de stad,</l>
 					<l>Daer sinte Klaere was, wat deedze doch? zy trad</l>
@@ -353,46 +337,44 @@
 					<l>Haer moed, haer sterck geloof, en yverigh gebed</l>
 					<l>Verstreckte haer een zwaerd, en harnas, en helmet.</l>
 				</lg>
-				<p>Het was Vondel toch zeker wel bekend, dat de Saracenen op de vlucht gingen, toen
-					S. Clara hun met het H. Sacrament tegemoet trad, en niet alléén door haar
-					verschijning. Zie zijn Lof-zang van Sinte Klara, vs. 49-56.</p>
-				<p>De noodzakelijkheid, om de opvoering niet onmogelijk te maken, heeft Vondel er
-					toe gebracht een altaar zonder Sacrament voor te stellen, en ook elke toespeling
-					er op te vermijden; zelfs een voorstelling, of de vermelding van een
-					Kerstnachtmis heeft hij ten slotte ook nog moeten schrappen toen de predikanten
-					daartegen nadrukkelijk bezwaar hadden gemaakt, en aldus vóór de opvoering ‘de
-					aenstootelyckste saken daeruit geroyeert’ waren.</p>
-				<p>Wij weten dus niet, welke veranderingen Vondel in zijn oorspronkelijken tekst
-					heeft aangebracht, noch zelfs, hoe de voorstelling van de ‘misse ende andere
-					ceremonien’ geweest kan zijn, voordat de vitzucht der predikanten aan het
-					snoeien was geweest.</p>
+				<p>Het was Vondel toch zeker wel bekend, dat de Saracenen op de vlucht gingen, toen S. Clara
+					hun met het H. Sacrament tegemoet trad, en niet alléén door haar verschijning. Zie zijn
+					Lof-zang van Sinte Klara, vs. 49-56.</p>
+				<p>De noodzakelijkheid, om de opvoering niet onmogelijk te maken, heeft Vondel er toe
+					gebracht een altaar zonder Sacrament voor te stellen, en ook elke toespeling er op te
+					vermijden; zelfs een voorstelling, of de vermelding van een Kerstnachtmis heeft hij ten
+					slotte ook nog moeten schrappen toen de predikanten daartegen nadrukkelijk bezwaar hadden
+					gemaakt, en aldus vóór de opvoering ‘de aenstootelyckste saken daeruit geroyeert’
+					waren.</p>
+				<p>Wij weten dus niet, welke veranderingen Vondel in zijn oorspronkelijken tekst heeft
+					aangebracht, noch zelfs, hoe de voorstelling van de ‘misse ende andere ceremonien’ geweest
+					kan zijn, voordat de vitzucht der predikanten aan het snoeien was geweest.</p>
 				<p> </p>
 				<p>DE GYSBREGHT VAN AEMSTEL WORDT HIER AFGEDRUKT NAAR DE TEKST VAN DE EERSTE UITGAVE
-					(T'AMSTERDAM, BY WILHELM BLAEV. 1637.) ZIE 'T TITELBLAD TYPOGRAFIES NAGEVOLGD OP
-					BLADZIJ 514. (UNGER: BIBLIOGRAPHIE, NR. 236).</p>
+					(T'AMSTERDAM, BY WILHELM BLAEV. 1637.) ZIE 'T TITELBLAD TYPOGRAFIES NAGEVOLGD OP BLADZIJ
+					514. (UNGER: BIBLIOGRAPHIE, NR. 236).</p>
 			</div>
 
 			<div type="preface">
 				<head>[Voorwerk]</head>
-				<head>Den heere Hvigh de Groot, <lb/> Gezant der koninginne en kroone van Zweden, by
-					den alderchristelijxsten koning, Luidewijck van Bourbon, koning van Vranckrijck
-					en Navarre.</head>
+				<head>Den heere Hvigh de Groot, <lb/> Gezant der koninginne en kroone van Zweden, by den
+					alderchristelijxsten koning, Luidewijck van Bourbon, koning van Vranckrijck en
+					Navarre.</head>
 				<p>Myn Heer,</p>
 				<p> </p>
-				<p><lb/> Het rijzen van onzen nieuwen Schouwburgh, gevordert door de heeren <lb/>
-					geesten en wetenschappen, dede onzen lust rijzen, om dit aenzienelijck <lb/>
-					gebouw in te wijen met eenigh werck, dat deze stad en burgerije moght <lb/>
-					behaegen: waerom wy voor onze stoffe uitkoozen de jammerlijcke ver- <lb/>
-					woesting van Aemstelredam, en ballingschap van Gijsbreght van Aemstel, <lb/>
-					doenmaels heer der zelve stede:</p>
+				<p><lb/> Het rijzen van onzen nieuwen Schouwburgh, gevordert door de heeren <lb/> geesten en
+					wetenschappen, dede onzen lust rijzen, om dit aenzienelijck <lb/> gebouw in te wijen met
+					eenigh werck, dat deze stad en burgerije moght <lb/> behaegen: waerom wy voor onze stoffe
+					uitkoozen de jammerlijcke ver- <lb/> woesting van Aemstelredam, en ballingschap van
+					Gijsbreght van Aemstel, <lb/> doenmaels heer der zelve stede:</p>
 				<lg>
 					<l>Genus à quo principe nostrum:</l>
 					<l>De rechte stam van Amsterdam.</l>
 				</lg>
-				<p><lb/> Het is kennelijck dat d'aeloude dichters pooghden de ghedichten den <lb/>
-					oir, den stam der Fransche koningen: en Hoofd de Drost van Muiden <lb/> streelt
-					d'Amsterlanders en zijn geboortestad, in Velzens treurspel, met <lb/> de
-					voorspelling van de Vecht; en de Baethouwers met zijnen Baeto, der</p>
+				<p><lb/> Het is kennelijck dat d'aeloude dichters pooghden de ghedichten den <lb/> oir, den
+					stam der Fransche koningen: en Hoofd de Drost van Muiden <lb/> streelt d'Amsterlanders en
+					zijn geboortestad, in Velzens treurspel, met <lb/> de voorspelling van de Vecht; en de
+					Baethouwers met zijnen Baeto, der</p>
 				<lg>
 					<l>Eumenidum veluti demens videt agmina Pentheus,</l>
 					<l>Et solem geminum, &amp; duplices se ostendere Thebas:</l>
@@ -409,18 +391,17 @@
 					<l>Hy vlood voor 's moeders geest, verzien met zwarte slangen</l>
 					<l>En tortzen, daer de Wraeck den drempel dicht bezet.</l>
 				</lg>
-				<p><lb/> Het en is oock de reden niet ongelijck, dat onze eige zaecken ons meer
-					<lb/> zwaeren val hunner muuren, en 't verstroien der voorouderen te hooren;
-					<lb/> zoo word die bittere nasmaeck verzoet, door Rafaëls voorspelling van <lb/>
-					de heerlijcke verrijssenisse der verdelgde vesten en verstroielingen; dat <lb/>
-					wy nu op 't allergeluckighste beleven, onder de wijze regeering der tegen- <lb/>
-					woordige burgemeesteren, die het gemeen beste boven hun eigen be- <lb/>
-					hartigen, en geenen oorloogh prijzen, dan die om vreede gevoert word. <lb/> Ick
-					vermat my verwaendelijck dit uwe Exc. op te draegen, en dat te <lb/>
-					vrijpostiger, overmits uwe Exc. van den treurigen tooneelstijl, die de <lb/>
-					zijne ballingschap mijnen Gijsbreght van Aemstel, den godvruchtigen <lb/> en
-					dapperen balling. Omhels hem uit medoogen, die eer medoogen dan <lb/> gramschap
-					waerdigh is, en leef lang ter eere van uw Vaderland.</p>
+				<p><lb/> Het en is oock de reden niet ongelijck, dat onze eige zaecken ons meer <lb/>
+					zwaeren val hunner muuren, en 't verstroien der voorouderen te hooren; <lb/> zoo word die
+					bittere nasmaeck verzoet, door Rafaëls voorspelling van <lb/> de heerlijcke verrijssenisse
+					der verdelgde vesten en verstroielingen; dat <lb/> wy nu op 't allergeluckighste beleven,
+					onder de wijze regeering der tegen- <lb/> woordige burgemeesteren, die het gemeen beste
+					boven hun eigen be- <lb/> hartigen, en geenen oorloogh prijzen, dan die om vreede gevoert
+					word. <lb/> Ick vermat my verwaendelijck dit uwe Exc. op te draegen, en dat te <lb/>
+					vrijpostiger, overmits uwe Exc. van den treurigen tooneelstijl, die de <lb/> zijne
+					ballingschap mijnen Gijsbreght van Aemstel, den godvruchtigen <lb/> en dapperen balling.
+					Omhels hem uit medoogen, die eer medoogen dan <lb/> gramschap waerdigh is, en leef lang
+					ter eere van uw Vaderland.</p>
 				<p><lb/> t'Amsterdam CIƆ IƆ CXXXVII.</p>
 				<p><lb/> den XVIen van Wijnmaend.</p>
 				<p><lb/> uwe E. ootmoedige dienaer</p>
@@ -429,8 +410,8 @@
 			</div>
 			<div type="dedication">
 
-				<head>Voorspel van Gysbreght van Aemstel, aen Schout, Burghemeesters, Schepens, en
-					Raed van Amsterdam.</head>
+				<head>Voorspel van Gysbreght van Aemstel, aen Schout, Burghemeesters, Schepens, en Raed van
+					Amsterdam.</head>
 				<lg>
 					<l>De trotze Schouwburgh heft zijn spitze kap</l>
 					<l>Nu op, en gaet de starren naderen,</l>
@@ -498,8 +479,7 @@
 			</div>
 
 			<div type="dedication">
-				<head>Op den nieuwen Schouwburgh. <lb/> Aen den Raedsheer Nikolaes van
-					Kampen.</head>
+				<head>Op den nieuwen Schouwburgh. <lb/> Aen den Raedsheer Nikolaes van Kampen.</head>
 				<lg>
 					<l>Wy bootzen 't groote Rome na in 't kleen,</l>
 					<l>Nu Kampen bezigh is met bouwen,</l>
@@ -533,32 +513,28 @@
 			<div type="preface">
 				<head>Kort Begriip.</head>
 				<p><lb/> Gysbreght van Aemstel, heer van Aemstelredam en Aemsterland, met <lb/> meer
-					treffelicke heeren en edelen, om het vangen van graef Floris, die den <lb/>
-					ouden adel verdruckte, en vrouw Machtelt van Velzen, zijn zusters dochter, <lb/>
-					schendigh verkrachte, lang in ballingschap omgezworven hebbende, <lb/> quam, na
-					de dood van 's graeven erfgenaem, weder 't Aemstelredam: <lb/> maer de
-					graefsgezinden (waeronder Kennemers en Waterlanders de ver- <lb/> bittersten
-					waren) belegerden hem in zijn stad een rond jaer lang, en om <lb/> die te
-					vermeesteren, verzierden ten leste eenen aenslagh, en gelieten <lb/> d'abdy
-					aenvallende, dwongen den heer over den binnen-Aemstel te <lb/> vluchten. Hy
-					aldaer de nieuwe zijde verloren, en d'oude mede in brand <lb/> ziende, en
-					hoorende de ruitery de Doelebrugh over trecken, weeck na <lb/> den burgh met
-					eenen hoop vlughtelingen, en verhaelde zijn gemaelin <lb/> het overige van zijn
-					wedervaeren; gelijck oock de bode kort daer op <lb/> hem verslagh dede, hoe het
-					met d'abdije en al de stad voort afgeloopen <lb/> was. Terstond dedemen van 't
-					slot eenen uitval en werd binnen gedreven, <lb/> met verlies van Arend van
-					Aemstel, dien de broeder doodlijck gewond <lb/> boven brogt, daer hy daetelijck
-					den geest gaf. Stracx quam de heer van <lb/> Maer terwijl hy ijverde om gemaelin
-					en kinders met allen den gevlughten <lb/> scheep te doen gaen, en voor had zelf
-					het huis te verdedigen, ver- <lb/> scheen'er Rafael, een der zeven engelen, die
-					hem vermaende zich met <lb/> allen den zijnen te water en na Pruissen te
-					begeven, en daer een stad, <lb/> die noch Holland heet, te stichten, en
-					vertrooste den godvruchtigen <lb/> held, met de voorspelling der toekomende
-					grootheid van Aemstelredam, <lb/> en 't geluck zijner nakomelingen: en daer op
-					verliet Gijsbreght het slot.</p>
+					treffelicke heeren en edelen, om het vangen van graef Floris, die den <lb/> ouden adel
+					verdruckte, en vrouw Machtelt van Velzen, zijn zusters dochter, <lb/> schendigh
+					verkrachte, lang in ballingschap omgezworven hebbende, <lb/> quam, na de dood van 's
+					graeven erfgenaem, weder 't Aemstelredam: <lb/> maer de graefsgezinden (waeronder
+					Kennemers en Waterlanders de ver- <lb/> bittersten waren) belegerden hem in zijn stad een
+					rond jaer lang, en om <lb/> die te vermeesteren, verzierden ten leste eenen aenslagh, en
+					gelieten <lb/> d'abdy aenvallende, dwongen den heer over den binnen-Aemstel te <lb/>
+					vluchten. Hy aldaer de nieuwe zijde verloren, en d'oude mede in brand <lb/> ziende, en
+					hoorende de ruitery de Doelebrugh over trecken, weeck na <lb/> den burgh met eenen hoop
+					vlughtelingen, en verhaelde zijn gemaelin <lb/> het overige van zijn wedervaeren; gelijck
+					oock de bode kort daer op <lb/> hem verslagh dede, hoe het met d'abdije en al de stad
+					voort afgeloopen <lb/> was. Terstond dedemen van 't slot eenen uitval en werd binnen
+					gedreven, <lb/> met verlies van Arend van Aemstel, dien de broeder doodlijck gewond <lb/>
+					boven brogt, daer hy daetelijck den geest gaf. Stracx quam de heer van <lb/> Maer terwijl
+					hy ijverde om gemaelin en kinders met allen den gevlughten <lb/> scheep te doen gaen, en
+					voor had zelf het huis te verdedigen, ver- <lb/> scheen'er Rafael, een der zeven engelen,
+					die hem vermaende zich met <lb/> allen den zijnen te water en na Pruissen te begeven, en
+					daer een stad, <lb/> die noch Holland heet, te stichten, en vertrooste den godvruchtigen
+					<lb/> held, met de voorspelling der toekomende grootheid van Aemstelredam, <lb/> en 't
+					geluck zijner nakomelingen: en daer op verliet Gijsbreght het slot.</p>
 
-				<p><lb/> Het tooneel is voor en in de stad en op het huis. Gijsbreght van
-					Aemstel</p>
+				<p><lb/> Het tooneel is voor en in de stad en op het huis. Gijsbreght van Aemstel</p>
 
 			</div>
 
@@ -2005,8 +1981,8 @@
 			<div n="4" type="act">
 				<head>Het vierde bedryf.</head>
 				<div n="1" type="scene">
-					<stage>GOZEWIJN VAN AEMSTEL. KLAERIS VAN VELZEN. REY VAN KLAERISSEN. GIJSBREGHT
-						VAN AEMSTEL.</stage>
+					<stage>GOZEWIJN VAN AEMSTEL. KLAERIS VAN VELZEN. REY VAN KLAERISSEN. GIJSBREGHT VAN
+						AEMSTEL.</stage>
 					<sp who="#gozewyn-van-aemstel">
 						<speaker>Gozewijn</speaker>
 						<l>Het loopt met Amsterdam, gelijck ghy hoort, ten ende,</l>
@@ -2970,8 +2946,8 @@
 					</sp>
 				</div>
 				<div n="4" type="scene">
-					<stage>GIJSBREGHT VAN AEMSTEL. BADELOCH. BROER PETER. VLUGHTELINGEN. ADELGUND.
-						VEENERICK. BODE. RAFAEL.</stage>
+					<stage>GIJSBREGHT VAN AEMSTEL. BADELOCH. BROER PETER. VLUGHTELINGEN. ADELGUND. VEENERICK.
+						BODE. RAFAEL.</stage>
 					<sp who="#gysbreght-van-aemstel">
 						<speaker>Gijsbreght</speaker>
 						<l>Wy gaven Vooren kort en duidelijck bescheed.</l>
