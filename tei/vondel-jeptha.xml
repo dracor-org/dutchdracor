@@ -1,0 +1,3238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000023" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Jeptha</title>
+				<title type="sub">Of Offerbelofte</title>
+				<author>
+					<persName>
+						<forename>Joost</forename>
+						<nameLink>van den</nameLink>
+						<surname>Vondel</surname>
+					</persName>
+					<idno type="wikidata">Q312673</idno>
+					<idno type="pnd">118627848</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL"
+						>https://www.dbnl.org/tekst/vond001dewe08_01/vond001dewe08_01_0250.php</idno>
+					<title>J.F.M. Sterck, H.W.E. Moller, C.G.N. de Vooys, C.R. de Klerk, B.H.
+						Molkenboer, J. Prinsen J.Lzn., L. Simons, C.C. van de Graft, L.C. Michels,
+						J.D. Meerwaldt en A.A. Verdenius (eds), De werken van Vondel. Achtste deel
+						1656-1660. De Maatschappij voor goede en goedkoope lectuur, Amsterdam
+						1935</title>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Joost van den Vondel: Jeptha Of Offerbelofte. Amsterdam: widow of Abraham
+						de Wees, 1659.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person xml:id="hofmeester" sex="MALE">
+						<persName>HOFMEESTER</persName>
+					</person>
+					<person xml:id="filopaie" sex="FEMALE">
+						<persName>FILOPAIE</persName>
+					</person>
+					<person xml:id="slotvooght" sex="MALE">
+						<persName>SLOTVOOGHT</persName>
+					</person>
+					<person xml:id="rey-van-maeghden" sex="FEMALE">
+						<persName>REY VAN MAEGHDEN</persName>
+					</person>
+					<person xml:id="ifis" sex="FEMALE">
+						<persName>IFIS</persName>
+					</person>
+					<person xml:id="jeptha" sex="MALE">
+						<persName>JEPTHA</persName>
+					</person>
+					<person xml:id="hofpriester" sex="MALE">
+						<persName>HOFPRIESTER</persName>
+					</person>
+					<person xml:id="wetgeleerde" sex="MALE">
+						<persName>WETGELEERDE</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-02">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1659">
+				<desc/>
+			</event>
+			<event type="premiere" when="1659">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart>J. V. Vondels <lb/> Jeptha Of Offerbelofte. <lb/> Treurspel.</titlePart>
+				<titlePart>t'Amsterdam,</titlePart>
+				<titlePart>Voor de weduwe van Abraham de Wees, op den Middeldam, 1659.</titlePart>
+				<titlePart><figure/></titlePart>
+			</docTitle>
+
+			<div type="dedication">
+				<head>Aen Mevrouw Anna van Hooren, Gemaelin van den edelen Heere, <lb/> Cornelis van
+					Vlooswyck, Heere van Vlooswijck, Diemerbroeck, en Paepekoop, Burgermeester, en
+					Raet van Amsterdam.</head>
+				<lg>
+					<l>Het heilighdom des bybels is behangen</l>
+					<l>Met beelden, die Messias, hoogh gewijt,</l>
+					<l>Uitbeelden, en gemoeten met verlangen,</l>
+					<l>Eer hy verschijnt ten offer op zijn tijt.</l>
+					<l>Zijn offerampt was uitgebeelt door dieren,</l>
+					<l>En menschen. zoo verbeelde ons Abels lam,</l>
+					<l>Verteert op 't eerste altaer in smoock, en vieren,</l>
+					<l>d'Onnozelheit, die 't kruishout op zich nam.</l>
+					<l>Aldus verbeelde ons Isack, offerreede</l>
+					<l>Op 't berghaltaer, den eerstgeboren zoon,</l>
+					<l>En eenigen, die 't al verzoende in vrede</l>
+					<l>Wat knielen kon voor dien genadetroon.</l>
+					<l>Het eenigh beelt van Isack kon verdoven</l>
+					<l>Alle offermans, en offers van de wet:</l>
+					<l>Maer deze maeght gaet al de mans te boven,</l>
+					<l>En geeft een kracht aen dees tooneeltrompet.</l>
+					<l>De sterckste zwicht voor d'allerzwackste kunne.</l>
+					<l>Gewis zy hoeft blancketsel noch cieraet.</l>
+
+					<l>Schoon 't mansbeelt haer den offerpalm misgunne,</l>
+					<l>Noch staet het stom voor d'uitspraeck van haer daet.</l>
+					<l>Als zy den eedt des vaders komt te hooren,</l>
+					<l>Verschricktze niet, maer antwoort offerreedt:</l>
+					<l>Heeft vader dit belooft, en Godt gezworen:</l>
+					<l>Voltreck, voltreck uw woort, en hoogen eedt,</l>
+					<l>Dewijl u Godt aen Ammon quam te wreecken.</l>
+					<l>Bezegel uw belofte: gunme alleen</l>
+					<l>Dat ick bedruckt mijn' maeghdom vier paer weecken</l>
+					<l>Met speelgenoots in eenzaemheit beween.</l>
+					<l>Gehoorzaem komtze aldus in hooge brozen</l>
+					<l>Ten heiligen tooneele, en outer treên.</l>
+					<l>Graftjoffers, stroit nu lelien, stroit rozen</l>
+					<l>Voor 't morgenlicht, daer 't kruislicht op verscheen:</l>
+					<l>En gy, Mevrouw, die Franschen, Italjaenen,</l>
+					<l>Als neêrduitsch dicht, in hunne spraeck verstaet,</l>
+					<l>En menighmael tooneelen zaeght in traenen,</l>
+					<l>Gewaerdigh toe te luistren naer dees maet.</l>
+					<l>Gy zult de zon van zege, hier betogen</l>
+					<l>Met eene wolck van druck, niet zonder gunst,</l>
+					<l>Zien schilderen tapijt, en regenbogen</l>
+					<l>Van beeldewerck, te schicken naer de kunst.</l>
+					<l>Magh deze maeght op uw behaegen stappen</l>
+					<l>Ten offer, tot een' spiegel van de jeught,</l>
+					<l>De Schouburgh zal in zijne handen klappen:</l>
+					<l>De rouw des volcks verkeert in volle vreught.</l>
+				</lg>
+			</div>
+
+			<div type="preface">
+				<head>Berecht <lb/> Aen de begunstelingen der toneelkunste.</head>
+				<p> Ick voere nu Jeptha, den zeeghhaftigen helt, lantvooght, rechter, en veltheer
+					der Hebreen, ten stichtigen treurtooneele, waer op mijne gedachten al menige
+					jaeren geleden speelden: maer het spel bleef steecken, om de twee maenden
+					uitstels, de dochter toegestaen, middelerwijl zy haeren maeghdelijcken staet op
+					de bergen beschreit: welck uitstel Aristoteles tooneelwet in het licht staet:
+					want hy zeght dat het treurspel allermeest begrijpt den handel van eenen
+					zonneschijn, of luttel min, of meer: waer tegens Buchanan, in zijn treurspel van
+					Jeptha, zich [behoudens zijne treffelijcke eer in de dichtkunste,] te grof
+					vergreepen heeft, oock tegens d'openbaere waerheit der bybelsche historie:
+					gelijck van wijlen de heer professor Vossius, op de tooneelwetten afgerecht, die
+					in Buchanan overlang tegens my bestrafte. Sedert de geschiedenis van Jeptha
+					ernstiger by my naergespoort, hoorde ick hoe Serarius, Arias, Saliaen, en andere
+					treflijcke vernuften gevoelden dat Jepthas krijghstoght tegens de wederspannige
+					Efraimmers noch uitgevoert wiert, eer de gemelde twee maenden uitstels
+					verstreecken waren, schoon het boeck der Rechteren, en Josefus deze orden niet
+					houden, om het verhael van Jeptha en zijne offerhande, alreede begonnen, niet te
+					stooren, en te deelen, maer vervolgens achter een te beschrijven. Dees
+					hinderpael hier mede verzet zijnde, [want het is klaer dat men in het heilighdom
+					des bybels niets magh veranderen,] nam ick voor dit werck op te zetten, oock in
+					dier voege, dat het alle eigenschappen, tot een volkomenheit vereischt, in zich
+					moght besluiten, en te gelijck den aenkomenden treurdichteren dienen tot een
+					voorbeeldelijck onderwijs van het toestellen der treurspelen. Aristoteles heeft
+					zijne leerlingen ingescherpt hoe veel gelegen zy aen eene eenige schickelijcke
+					stellinge, in de voorbeelden der leeringen en kunsten, by overoude wijzen, ten
+					hooghste waergenomen, en in zijn onderwijs van de dichtkunst by den gemelden
+					niet overgeslagen. Zoo plaghten de doorluchtighste Italiaensche schilders, in
+					hunne historischilderyen, byzonder op het wel schicken, de kroon van hunne
+					wercken, te passen. Het spel heeft zijne behoorlijcke hoegrootheit, en leden,
+					met de maete van evenredenheit gemeeten. De gansche handel van Jeptha is een, en
+					eenigh, en de verscheidenheit der bedrijven, en alle omstandigheden van tijt en
+					plaetse en andersins worden hier tot het uitvoeren en voltrecken van dezen
+					eenigen handel gegeschickt: dewijl de schickelijcke t'zamenstellinge der
+					bedrijven de ziel des treurspels genoemt wort, dat zonder deze niet rechtmaetigh
+					kan bestaen, schoon'er manhaftige uitspraeck, nochte zeden, nochte spreucken
+					ontbreecken. Ons tooneel staet hier doorgaens onverwrickt en vast, voor het hof
+					te Masfe in Galaäd; eene uitsteeckende opmerckinge, waerop Euripides in zijne
+					volwrochte Fenisse zonderling gelet heeft. Het spel is niet eenverwigh, maer
+					geschakeert. zoo heeten wy het volkomener slagh van spel, dat niet altyt eenen
+					zelven toon van droefheit of blyschap houdt, maer van staet verandert, het zy
+					van ongeluck in geluck, of van geluck in ongeluck: gelijck in Filopaie sterck,
+					in Jeptha flaeuwer gezien wort. Oock levert deze geschiedenis den rechtschapen
+					aert van een treurspel: want de zwaericheit en het haperen valt niet simpelijck
+					tusschen gemeene of verre bloetvrienden, maer tusschen het naeste bloet, vader,
+					moeder, en dochter, een eenige dochter, en gemael, en gemaelin. Jeptha, de
+					hooftpersonaedje, uit den stamme van Manasse gesproten, en een doorluchtigh velt
+					overste, verschijnt hier nochte heel vroom, nochte onvroom, maer tusschen beide:
+					want hy verliest door onweetenden yver, ongehoorzaemheit, en het overtreden der
+					wet en zijnen vaderlijcken plicht, den naem van eene volkome vromicheit, en
+					staet hierom, voor zijne verzoeninge met Godt, en den aertspriester, [waer na hy
+					endelijck heilighlijck overlijdt, en namaels onder de Heiligen, als in triomfe,
+					omgevoert wort,] tusschen vroom en onvroom, eene hoedanigheit eigentlijck in een
+					personaedje van een volkomen treurspel vereischt. De beide hooftcieraden, hier
+					by een gevoeght, by de Latijnen peripetia, en agnitio, of staetveranderinge, en
+					herkennis genoemt, gaen in arbeit, om hunne kracht met eene maghtige
+					beweeghenisse te baeren: want d'onmaetige blyschap der moeder, [aldus te
+					voorschijn gebrogt, om hier na het weeligh hart eenen zwaerder slagh te geven,]
+					verandert in d'uiterste droefheit, gramschap, wraecklust, en zinneloosheit:
+					gelijck 's vaders reuckeloze offeryver in een schrickelijck en bykans
+					mistroostigh naberouw: en zy komen beide te spade tot kennis, d'eene van haer
+					dochters ongeluck, d'ander van zijne blintheit, in het godeloos uitvoeren der
+					dwaze offerbelofte. De uitbreitsels, by de Latijnisten episodia geheeten, worden
+					niet tegens de natuur ingedrongen, nochte te verre gehaelt, maer dienen ter
+					zaecke, en zetten den handel eenen heerlijcken luister by. Onder de trapswijze
+					en langksaeme opsteigeringe wort'er by wijlen eenigh zaet van het toekomende
+					gezaeit, dat te zijner tijt opkomt, om opmerckende toehoorders geduurigh
+					t'onderhouden, in eene bespiegelinge van het navolgende. De rede is gezedevormt
+					naer den staet en gesteltenis der personaedje, zonder het welck goeden en
+					quaeden onder een gemengt worden, en de schouwburgh, ten nadeele van het
+					staetgezagh, eene school van gebreken, en niet van deughden streckt, waerin
+					zelfs aeloude tooneelmeesters van het rechte wit afdwael den. Om dien misslagh
+					te schuwen, zochten wy op de voeghlijckheit te letten, en elcke personaedje naer
+					zijne oude, staet, en gelegenheit uit te beelden, en de zeden, en spreucken naer
+					de leest van elcks lijf te passen. Men vint hier dryderhande oude, de jeught der
+					dochter, de middelbaere oude in vader, en moeder, den ouderdom in den
+					hofmeester, en eersten hofraet. De dochter draeght zich godtvruchtigh,
+					gehoorzaem, en eerbiedigh neffens Godt, vader, en moeder, en den hofpriester. De
+					moeder wort, naer den tederen aert der vrouwen, ingevoert dertel, moedigh, en
+					uitgespat in voorspoet, en liefde tot haere eenige dochter, en entlijck zoo veel
+					te dieper in kleenmoedigheit, over hals en hooft, gedompelt. Jeptha draeght zich
+					manhaftigh, en gestreng in den oorlogh, is reuckeloos yverigh in 't beloven,
+					onverzetbaer in 't beloofde te voltrecken, en wort ondertusschen in het
+					vaderlijck harte van weemoedigheit geschockt, en getroffen, en blijft entlijck,
+					tot naberouw en herkennis van zijn lasterstuck gekomen, niet wederhoorigh om dit
+					te boeten, en zich met Godt, en den aertspriester, Godts mont, en de levendige
+					stem der wet, te verzoenen. De hofmeester toont zich, naer den eisch van een
+					weereltlijck raetsheer, en zijnen hoogen ouderdom, nadachtigh, en omzichtigh in
+					beleit, en raetgeven. De hofpriester, en wetgeleerde yveren voor de wet, en
+					waerachtigen godtsdienst, hanthaven het hooftgezagh des aertspriesters, poogen
+					alle schandaelen, naer hun vermogen, te weeren, en ondertusschen den lantvooght
+					met alle bescheidenheit, den staet en vaderlande ten beste, in te volgen, zoo
+					veel hun heiligh ampt en wijdinge eenighzins lijden kan. De hofpriester laet ten
+					leste Jeptha in zijne verlegenheit niet steecken, nochte de misdaet onbestraft,
+					maer wijst hem naer den aertspriester, om eene uitkomste te vinden, en alle
+					steurnis, tegens d'aenkomste der bedgenoote, te minderen. Hy bejegent de
+					wederkeerende moeder naer heure kranckheit, zetze allengs neder, vertroostze, en
+					voorspelt, door eene heimelijcke openbaeringe, Jepthaes geluckzaligheit, en
+					heiligheit, namaels, onder de gelovige helden en heiligen, ten toon te voeren.
+					De reien der maeghden blijven middelerwijl zedigh, in het heelen der
+					geheimenisse, haer toebetrouwt, getrouw in het vertroosten en stercken der
+					godtvruchtige dochter, begunstigen de billijckheit, keeren het onheil, naer heur
+					vermogen, en verheffen de gehoorzaemheit. Aldus woelen, tuimelen, en barnen hier
+					verscheide hartstoghten, door geduurige veranderingen van den beginne tot het
+					ende. De slagh, voorheene tegens Ammon geslagen, wort in 't voorbygaen slechts
+					beknopt en kort aengeroert; de strijt, sedert tegens Efraim gestreden, breet
+					verhaelt, dewijl dit niet kon vertoont worden, oock buiten tijts was. De maeght
+					sterft niet voor d'oogen des aenschouwers, gelijck Horatius in zijne dichtkunste
+					leert, om ongeloofwaerdigheit te schuwen. Ondertusschen wort de voorbereidinge
+					ter doot den oogen niet onttrocken: dewijl het zien meer de harten beweeght dan
+					het aenhooren en verhael van het gebeurde: schoon de toestel des treurhandels
+					zoodaenigh behoorde te wezen, dat die, zonder eenige kunstenary, of hulp der
+					lijdende personaedje, maghtigh ware alleen door het aenhooren en lezen der
+					treurrolle, [zonder wanschape en gruwzaeme wreetheden te vertoonen, en
+					misgeboorten, en wanschepsels, door het ontstellen van zwangere vrouwen, te
+					baeren,] medoogen en schrick uit te wercken op dat het treurspel zijn einde en
+					ooghmerck moght treffen, het welck is deze beide hartstoghten in het gemoedt der
+					menschen maetigen, en manieren, d'aenschouwers van gebreken zuiveren, en leeren
+					de rampen der weerelt zachtzinniger en gelijckmoediger verduuren. Wy zochten
+					oock te bereicken de dry deughden des tooneelstijls, klaerheit, en
+					geloofwaerdigheit doorgaens, en kortheit ter behoorlijcke plaetse. Dit treurspel
+					treet voort op vaerzen van tien en elf lettergreepen: naerdien de edele heer
+					Ronsard, de vorst der Fransche dichteren, deze dichtmaet hooghdravender
+					oordeelt, en beter van zenuwen voorzien, en gesteven dan d'Alexandrijnsche, van
+					twalef en dertien lettergreepen, die, zoo veel langer, naer zijn oordeel,
+					flaeuwer vallen, en meer op ongebonde rede trecken, ten zy deze, uit eenen
+					uitnemenden meesters koker komende, zich verheffen, gelijck uitheffende
+					schilderyen, en, rijck gestoffeert, en doorwrocht, van gemeenen kout en
+					ommegangk verre afgescheiden zijn; een uitsteeckentheit boven al in treurspelen
+					vereischt, gelijck Ovidius, wiens Medea, helaes, verloren blijft, in dit vaers
+					opzong:</p>
+				<lg>
+					<l>Hoe hoogh men drave in stijl en toon,</l>
+					<l>Het treurspel spant alleen de kroon.</l>
+				</lg>
+				<p> Om in dezen treurhandel nergens het leven, zijn voorbeelt, te bezwijcken,
+					ververschten wy onze geheughenis met overlezen, en herlezen van Aristoteles en
+					Horatius dichtkunst, en hunne uitleggers over de zelve stof, naemelijck,
+					Robertellus, Madius, Lombardus, Scaliger, Heinsius, en de voorrede van Huigh de
+					Groot, op Euripides vertaelde Fenisse, Castelvetro, Delrius, en Strada, oock
+					Vossius, en Menardieres, die beide, elck om het wackerste, d'een in Latijn,
+					d'ander in Fransch, den Schouburgh, het worsteíperck der menschelijcke
+					hartstoghten, helpen opbouwen. Maer gelijck den Griecken d'eer van den
+					heerlijcken vont der tooneelspelen, allengs by trappen in top gesteigert, niet
+					kan gelochent worden, zoo vereischt een gewijt treurspel, op hunnen leest
+					geschoeit, tot het uitvoeren, keur van bequame personaedjen, en toestel van
+					tooneel, en maetgezang van reien, geoefent door eenen grooten Orlando, om onder
+					het speelen d'aenschouwers te laeten hooren eene hemelsche gelijckluidentheit
+					van heilige galmen, die alle deelen der goddelijcke zangkunste in hunne
+					volkomenheit zodanigh bereickt, datze de zielen buiten zich zelve, als uit den
+					lichame, verruckt, en ten volle met eenen voorsmaek van de gelukzaligheit der
+					engelen vergenoegt. Wy oordeelden niet ondienstigh dit treurspel, en zijne
+					omstandigheden t'ontleden, of het opwassende en leergeerige Nederduitschen
+					leerde opmercken om zich, als van een toneelkompas, hier van op deze holle
+					dijningen, te dienen, alle klippen en zantplaeten van doolinge, en schipbreuck
+					van onwettige schickinge te mijden, en entlijck, beter gemaniert de gewenschte
+					haven van de volkomenheit der tooneelkunste in te zeilen. Behaeght het hun,
+					laetze eens lustigh en rustigh in de handen klappen, en my helpen hooge en laege
+					staeten met spel en zang stichten en verheugen. </p>
+			</div>
+
+			<div type="preface">
+				<head>Inhoudt.</head>
+				<p> Jeptha, Galaäds natuurlijcke zoon, wert, na zijn vaders doot, van zijne
+					broederen, als onwettigh, uit het erfdeel gestooten. Hy, van nootdruftigheit
+					aengeperst, geneerde zich by Heidenschen roof, en gaf treflijcke proeven van
+					dapperheit, dies hem de bloetvrienden, en Hebreen, van d'Ammonners beoorloght,
+					uit noot ten veltheere, lantvooght, en rechter kozen, om zich t'ontlasten van
+					het afgodische juck der slavernye, achtien jaeren lang gedraegen. Hy hierop te
+					velde treckende, beloofde Gode, indien het heir d'overhant behielt, op te
+					offeren wat hem eerst uit zijne poorte zoude bejegenen. Hier na zeeghaftigh
+					wedergekeert, gemoete hem zijne eenige dochter, die zich gehoorzaem en gewilligh
+					ten offer instelde, behoudens datze twee maenden haeren maeghdelijcken staet op
+					de bergen moght beschreien, het welck de vader haer toestont. Middelerwijl
+					stonden d'Efraïmmers uit haet en nijt tegens hem op, die hy in eenen veltslagh
+					verdelghde: waer na de dochter van de bergen, de vader uit den slagh
+					wedergekeert, haer Gode ten brantoffer opofferde. Het tooneel is voor het hof te
+					Masfa. Het treurspel begint voor den opgang, en eindight met den ondergang der
+					zonne. De stof is genomen uit het boeck der Rechteren.</p>
+			</div>
+
+
+			<castList>
+				<head>Spreeckende Personaedjen.</head>
+				<castItem corresp="#hofmeester">
+					<role>HOFMEESTER, eerste raet.</role>
+				</castItem>
+				<castItem corresp="#filopaie">
+					<role>FILOPAIE, Jepthaes gemaelin.</role>
+				</castItem>
+				<castItem corresp="#slotvooght">
+					<role>SLOTVOOGHT.</role>
+				</castItem>
+				<castItem corresp="#rey-van-maeghden">
+					<role>REY VAN MAEGHDEN.</role>
+				</castItem>
+				<castItem corresp="#ifis">
+					<role>IFIS, Jeptha's dochter.</role>
+				</castItem>
+				<castItem corresp="#jeptha">
+					<role>JEPTHA. De lantvooght, rechter, en veltheer.</role>
+				</castItem>
+				<castItem corresp="#hofpriester">
+					<role>HOFPRIESTER.</role>
+				</castItem>
+				<castItem corresp="#wetgeleerde">
+					<role>WETGELEERDE.</role>
+				</castItem>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<head>Jeptha.</head>
+				<head>Offerbelofte.</head>
+				<head>Het eerste bedryf.</head>
+				<div type="scene" n="1">
+					<stage>HOFMEESTER. FILOPAIE.</stage>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>De tijding van uw' heer' vooruitgevlogen</l>
+						<l>Jaeght u voor dagh ten bedde uit, en uwe oogen</l>
+						<l>Gaen op, eer 't licht den hemel open sluit.</l>
+						<l>Al 't hof krioelt. de blyschap moet'er uit.</l>
+						<l>Men rust zich toe, om zegenrijck te praelen,</l>
+						<l>En Jeptha weêr met staetsie in te haelen.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>'k Heb jaeren lang geworstelt, en gestreên</l>
+						<l>Met rampen: noit waeide eene buy alleen</l>
+						<l>My over 't hooft, of d'andre stont'er neffens:</l>
+						<l>Maer nu, Godt lof, komt mijn geluck al teffens</l>
+						<l>My t'huis. 'k verwacht mijn dochter t'huis van daegh,</l>
+						<l>Van 't hoogh geberghte, en hoor de nederlaegh</l>
+						<l>Van Efraim. Godt zegende 's lants hoeder.</l>
+						<l>Hoe weeligh valt de dochter haere moeder,</l>
+						<l>De brave helt zijn blijde bedtgenoot</l>
+						<l>In d'armen, als een dau in 's aerdtrijcks schoot!</l>
+						<l>Hoe vrolijck zal ickze alle bey bejegenen!</l>
+						<l>Geen vloecken schaên, als Godt dit hof wil zegenen.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Toen Godt dit hof wou zegenen, verdween,</l>
+						<l>Verstoof het heir van Ammon, en al scheen</l>
+						<l>Ons Efraim verre over 't hooft gewassen,</l>
+						<l>Een hooger maght kon hem ontharrenassen.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Indien oit vrou van blyschap sterven kon,</l>
+						<l>Is 't wonder dat ick levendigh de zon</l>
+						<l>Verwacht: zoo had de blyschap al de geesten</l>
+						<l>Van 't hart gezet: toen ick, op d'eer der feesten,</l>
+						<l>Mijn lief in zijn triomfe, na den slagh,</l>
+						<l>En Ammons val, verwellekomde, en zagh</l>
+						<l>Hem heerlijck hier te Masfe 't hof opvaeren,</l>
+						<l>Door al den drang, en toevloet van de schaeren.</l>
+						<l>Ick zeegh, op dat gezicht, ter aerde in 't stof.</l>
+						<l>De hofstoet droegh my, als een lijck, op 't hof,</l>
+						<l>Tot dat mijn hart bequam, natuur zich redde.</l>
+						<l>Mijn dochter stont bekreeten voor het bedde,</l>
+						<l>En steende, en kermde, en zuchte in zulck een noot.</l>
+						<l>De vader sprack: nu, moeder is niet doot.</l>
+						<l>Zy krijght haer verf. toen kusteze mijn wangen,</l>
+						<l>En bleecken mont, uit hartelijck verlangen.</l>
+						<l>Ick quam, gelijck de zon uit eene wolck,</l>
+						<l>Te voorschijn, toegejuicht van 't hof, en 't volck.</l>
+						<l>Nu wort die vreught verdubbelt: want wy hooren</l>
+						<l>Dat Efraim den veltslagh heeft verloren,</l>
+						<l>Voor Jeptha vlught naer d'oevers der Jordaen.</l>
+						<l>Zoo moeten al Godts vyanden vergaen.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Mevrouw, 't is kunst de blyschap in te toomen,</l>
+						<l>Zoo wel als rouw te maetigen. wy koomen</l>
+						<l>In beide wel te kort. de weerelt gaet</l>
+						<l>Door druck en vreught by beurte. wie de maet</l>
+						<l>En regel treft is wijs. de kanssen keeren.</l>
+						<l>Men spiegle zich aen Jeptha, om te leeren</l>
+						<l>'t Verandren van elcks lot, dan droef, dan bly.</l>
+						<l>De zwaertzy zet hem hoogh: de spillezy</l>
+						<l>Verneêrt hem door d'onwettigheit in 't erven;</l>
+						<l>Dies hy, geschupt van zijne broêrs, most zwerven,</l>
+						<l>Zich eerst in Tob geneeren op den roof;</l>
+						<l>Daer hy den vloet van 't Heidensch ongeloof,</l>
+						<l>Gelijck een dam, behinderde in te breecken.</l>
+						<l>Wat heeft zijn deught ons menighmael gebleken!</l>
+						<l>Het heiloos heir van Ammon quam in 't velt</l>
+						<l>Hereischen al wat Juda met gewelt</l>
+						<l>Zijn Goôn ontruckte, als Isax erfgenaemen</l>
+						<l>Eerst herwaert uit Egypten over quamen:</l>
+						<l>Schoon 't Ammon niet, maer 't hooft der Amorreen</l>
+						<l>Ontruckt, by ons dry eeuwen achtereen</l>
+						<l>Bezeten was in pais. men zat verlegen.</l>
+						<l>Gansch Galaäd zocht troost aen Jepthaes degen,</l>
+						<l>Verhief hierom 's lants balling tot 's lants hooft,</l>
+						<l>En over 't heir. op dit verdragh belooft</l>
+						<l>Hy hun zijn trou, en strijt, als 's volcks verweerder,</l>
+						<l>Wint twintigh steên, wort hier, als triomfeerder,</l>
+						<l>Te Masfa, na dien zwaeren slagh, begroet.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Mijn dochter juicht hem vrolijck in 't gemoet,</l>
+						<l>Groet vader voor de hofpoort met tamboeren,</l>
+						<l>En reien: maer dit scheen zijn hart t'ontroeren:</l>
+						<l>Doch d'oirzaeck kon ick noit uit hem verstaen.</l>
+						<l>Daer schuilt iet, my te duister om te raên.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Niet duister: want het is terstont gebleken</l>
+						<l>Hoe Efraim den kam quam op te steecken,</l>
+						<l>By duizenden den zegenrijcken helt</l>
+						<l>Het voorhooft biên, en daegen in het velt,</l>
+						<l>Daer d'allerhooghste uw wapenrecht verdaedight.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>De hemel heeft ons weder begenadight.</l>
+						<l>Zoo schijnt de vorst een Godt, geen sterflijck mensch.</l>
+						<l>Wien 't lot niet dient, het rolt naer mijnen wensch.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Een teêre vrou spat uit, al t' ongelaetigh,</l>
+						<l>In weelde en druck: een manshart draeght zich maetigh</l>
+						<l>In beide, en kent het weifelende lot;</l>
+						<l>Dat rolt elck toe naer 't wijs beleit van Godt.</l>
+						<l>Niets staet hier stil. geen blyschap is volkomen.</l>
+						<l>Geen druck mist troost: en tusschen hoop en schroomen</l>
+						<l>Verslijt de tijt des levens. quaet en goet</l>
+						<l>Elck heeft zijn tijt, en beurte, als eb, en vloet.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Ons erfgenaeme en dochter dorst ons vergen</l>
+						<l>Of zy een wijl zich eenzaem op de bergen</l>
+						<l>Verquicken moght met haeren trouwen rey.</l>
+						<l>De vader gaf haer vrolijck het geley.</l>
+						<l>Zy scheide, en nu zijn net, naer dat ick reken,</l>
+						<l>Twee maenden, dat my lastigh viel, verstreecken.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Men zalze haest ten hove weder zien.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>'k Zal haer met vreught omhelzen: zoo misschien</l>
+						<l>Geen ongeval, Godt keer 't, haer stuit in 't keeren.</l>
+						<l>Een moeder kon misschien haer hart ontbeeren,</l>
+						<l>Haer eenigh kroost geensins; een kint, nu rijp</l>
+						<l>En huwbaer; meer dan menschelijck begrijp</l>
+						<l>Kan vatten, met vernuft verciert, en gaven.</l>
+						<l>Men ziet om 't hof de jonge heeren draven,</l>
+						<l>En vlammen op der maeghden bloem, zoo schoon.</l>
+						<l>Godtvruchtigheit spant in het hart de kroon,</l>
+						<l>Als 't eêlste, daer de hemel haer me zegent.</l>
+						<l>Geluckigh die zoo schoon een roos bejegent,</l>
+						<l>Geluckiger dieze afpluckt met zijn hant.</l>
+						<l>Zoo 't vrystont zulck een perle, een diamant</l>
+						<l>Te hechten aen een kroon, 't zou Memfis passen:</l>
+						<l>Maer neen, z'is voor geen' Heiden opgewassen;</l>
+						<l>Geen' koning, die, noch vremt van Moses wet,</l>
+						<l>Onwaerdigh is dees schoone in 't heiloos bedt</l>
+						<l>t'Omhelzen, schoon zijn kroon in top moght steigeren.</l>
+						<l>Al eischte haer een koning, 'k zouze weigeren.</l>
+						<l>Hofmeester, is 't niet recht, bestraf mijn' roem.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Mevrouw, gy noemde uw dochter flus een bloem.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Met reên, is 't vreemt dat ick haer schoonheit prijze?</l>
+						<l>Een bloem gelijcke?</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Ick straf het geener wijze.</l>
+						<l>Maer zaeghtge noit des morgens bloemen staen,</l>
+						<l>En vontze voor den avontstont vergaen,</l>
+						<l>Van brant gezengt, van hagelsteen geslagen,</l>
+						<l>Of afgemaeit? Wat kan een bloem verdraegen,</l>
+						<l>Een buye ter genade in ope lucht!</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Wat zeghtge? quam u eenigh droef gerucht</l>
+						<l>Ter ooren?</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Neen, ick heb niet quaets vernomen,</l>
+						<l>Prijs schoonheit, als een gaef, van Godt gekomen;</l>
+						<l>Maer stelle alleen 't verwelcken by de verf</l>
+						<l>Der schoonste bloem. Godt laetze vaders erf</l>
+						<l>Bezitten. 'k wensch dat gy in haer mooght leven,</l>
+						<l>En haere vrucht.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Dat wil de hemel geven.</l>
+						<l>Die, onder tien geboôn van Moses wet,</l>
+						<l>Wie d'ouders eert in zulck een waerde zet,</l>
+						<l>Dat hy haer heil belooft, en blijde jaeren.</l>
+						<l>Op zulck een' wensch wil u de hemel spaeren.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Dat zy, van 't lant, de vader, uit den slagh,</l>
+						<l>U, elck om 't blyste, in d'armen vallen magh,</l>
+						<l>Is al mijn wensch: het kan niet lang vertrecken.</l>
+					</sp>
+
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Ick hoop mijn heer zal zelf de bo verstrecken.</l>
+						<l>Daer duncktme hoort men 's lants bazuin in 't velt.</l>
+						<l>Ay, zie eens uit.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Verwellekom den helt.</l>
+						<l>De slotvooght komt, bestuwt met krijghsstandaerden.</l>
+						<l>Men hoort alreê het pruischen van de paerden.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>SLOTVOOGHT. FILOPAIE. HOFMEESTER.</stage>
+					<sp who="#slotvooght">
+						<speaker>Slotvooght</speaker>
+						<l>Ter goeder tijt vinde ick mevrouw gezont.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Hoe staet het? is mijn heer noch ongewont?</l>
+					</sp>
+					<sp who="#slotvooght">
+						<speaker>Slotvooght</speaker>
+						<l>Gelijck hy trock om Efraim t'ontmoeten,</l>
+						<l>Wiens heirbanier ick offere aen uw voeten</l>
+						<l>Eerbiedigh door 't gebodt van uwen heer.</l>
+						<l>Ontfang dit pant van zege. Godt zy d'eer.</l>
+						<l>Ontfang dien stier, uit louter gout gegoten.</l>
+						<l>Die stoots was, heeft de horens afgestooten.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Wat zienwe? ô vreught! gelooft, gelooft zy Godt.</l>
+						<l>Men steeck' dit voort ter tinne uit van het slot,</l>
+						<l>Op dat het blijck' hoe wy het velt behielen.</l>
+						<l>Aldus moet Godt de vyanden vernielen,</l>
+						<l>Die Jeptha en zijn' hoogheit wederstaen.</l>
+					</sp>
+					<sp who="#slotvooght">
+						<speaker>Slotvooght</speaker>
+						<l>De vyant vlught aen d'oevers der Jordaen,</l>
+						<l>Gansch Efraim zwicht voor Manasses degen.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Dat Godt voortaen Manasses afkomst zegen'.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Verhael den strijt: het zekerste bescheit</l>
+						<l>Weet gy op 't naust. Verhael het wijs beleit.</l>
+						<l>Mijn yver volghde uw' optoght met gebeden,</l>
+						<l>En vasten. Godt heeft zelf voor ons gestreden.</l>
+						<l>Een post vooruit verkuntschapte ons 't geluck</l>
+						<l>Des strijts in 't gros: maer 't lustme stuck voor stuck</l>
+						<l>Te hooren hoe 't zich toedroegh onder 't stryen.</l>
+						<l>'t Verhael moet Gode alleen ten prijs gedyen.</l>
+					</sp>
+					<sp who="#slotvooght">
+						<speaker>Slotvooght</speaker>
+						<l>Gewelt, en haet, en nijt zijn uitgebroet</l>
+						<l>In 't Heidensch nest. een' ander heil en spoet</l>
+						<l>Misgunnen, en den bontgenoot bespringen,</l>
+						<l>Zijn wettigh recht onwettigh hem t'ontwringen,</l>
+						<l>Voeght onbesneên, en Filistijnschen aert,</l>
+						<l>Een' afgodist, die minst Godts wet bewaert:</l>
+						<l>Doch Efraim, niet vry van zulcke vlecken,</l>
+						<l>Ontziet zich niet oproerigh op te trecken,</l>
+						<l>Aen dees zy der Jordaene, en 't vrye veer,</l>
+						<l>Manasse uit trots te daegen voor de speer;</l>
+						<l>Toen Ammon en zijne ysre krijghsgeleden</l>
+						<l>Getrappelt, wy al teffens twintigh steden</l>
+						<l>Verlichtten van het juck der slaverny,</l>
+						<l>Van afgoôn, zwart van roock, en smoockery;</l>
+						<l>Zoo verre 't lant bepaelt wort van vier streecken,</l>
+						<l>De bergen, en Jordaen, en bey de beecken,</l>
+						<l>Als Arrenon, en Jabok, die gelijck</l>
+						<l>Uitloopen in den stroom van 't heiligh rijck.</l>
+						<l>Wy pooghden 't pleit door middelaers te slechten,</l>
+						<l>'t Geschil met reên, en geen rappier te rechten,</l>
+						<l>En hielden 't staen vier weecken, eer men vocht.</l>
+						<l>Elck spant zijn tent van wederzy. elck broght</l>
+						<l>Zijn reden in wat hem ten oorlogh porde:</l>
+						<l>Maer Efraim bleef wreveligh, en morde.</l>
+						<l>Geen dreigement ontbrack' er naer zijn' aert,</l>
+						<l>Het basterthuis, en lant met vier en zwaert</l>
+						<l>Te dempen, stam en tack en al verdelgen.</l>
+						<l>O Jakob, zie eens op hoe uwe telgen</l>
+						<l>Verbasteren, zoo hebt gy Esau niet</l>
+						<l>Bejegent, die u dreigende verstiet.</l>
+						<l>Men hadde hen niet eens, als bontgenooten,</l>
+						<l>Gekent, en van den wapenroof verstooten</l>
+						<l>Op Ammons toght; een ongegront beklagh;</l>
+						<l>Want toen men trock, getroost om Ammon slagh</l>
+						<l>Te leveren, en aenhielt datze ons steven,</l>
+						<l>Ontzeiden zy 't. men trock [het golt ons leven,</l>
+						<l>En eer, en staet,] den vyant in 't gemoet.</l>
+						<l>Men greep hem aen, en zette voet by voet.</l>
+						<l>Nu had men 't Gode, en Jepthas vuist te dancken</l>
+						<l>Dat Ammon zwichte. och, geene artsny kon krancken</l>
+						<l>Genezen, die des artsens raet versmaên.</l>
+						<l>Zy wrockten vast, en niemant liet zich raên.</l>
+						<l>Men rust dan toe om hantgemeen te worden.</l>
+						<l>Men stelt met kracht de standers in slaghorden.</l>
+						<l>De morgenzon, die met den heldren dagh</l>
+						<l>De wapenoogst der wetgebroedren zagh,</l>
+						<l>En hun gereet een nederlaegh te baeren,</l>
+						<l>Scheen drymael, dootsch van schrick, te rugh te vaeren.</l>
+						<l>Uw man, in 't hart der heirkracht, tuight in 't kort'</l>
+						<l>Voor Abrams Godt, dat hy onschuldigh wort</l>
+						<l>Tot slaen geperst, daer 't bloet der wetgenooten,</l>
+						<l>Gelijck een zee, zal werden uitgegoten.</l>
+						<l>Hy kent zich vry van wraeck, en broederslaght,</l>
+						<l>Waer door Godts naem ontwijt wort, en veracht;</l>
+						<l>Verblijft het aen Manasse, zijnen broeder,</l>
+						<l>En Josefs zoon, van eene zelve moeder</l>
+						<l>Gebaert als hy; wil trecken eene lijn,</l>
+						<l>Oock tegens al die Josef vyant zijn:</l>
+						<l>Dat 's verre van met zwaert en spiets te deeren</l>
+						<l>Die Kanaän voor 't heidendom verweeren.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Godt, die geen recht om gunst noch afgunst buight,</l>
+						<l>Hoor wat mijn man in 't openbaer betuight.</l>
+					</sp>
+					<sp who="#slotvooght">
+						<speaker>Slotvooght</speaker>
+						<l>Terwijlze zich dus schrap in orden zetten,</l>
+						<l>Ging Efraïm den moedt der benden wetten,</l>
+						<l>Daer hy alom, vol moedts, in 't midden reedt.</l>
+						<l>Nu houdt u aen dien eens gestaefden eedt,</l>
+						<l>Die u verbint dit bastertbloet te keeren,</l>
+						<l>Het welck den leeuw van Juda wil regeeren,</l>
+						<l>De stammen dwingt alleen hem naer den mont</l>
+						<l>Te zien, ons part noch deel aen krijghseer gont.</l>
+						<l>Schoon Ammon leght door 't bastertbloet verslonnen:</l>
+						<l>Valt rustigh aen: wy zien den slagh gewonnen.</l>
+						<l>De krijghbazuin klinckt op van overal.</l>
+						<l>Zy stooten toe met schrickelijck geschal.</l>
+						<l>De bodem dreunt, op 't ysselijck ontmoeten</l>
+						<l>Van zeissenradt, en hoeve, en paerdevoeten.</l>
+						<l>Geschrey, gebriesch, de stofwolck, het gerucht,</l>
+						<l>'t Geklickklack van het harnas, aen de lucht</l>
+						<l>Gestegen, mengt zich naer in duizent nooden,</l>
+						<l>En jammeren van levenden, en dooden.</l>
+						<l>Men strijt om strijt. elck staet, gelijck een helt.</l>
+						<l>Het roode meer schuimt bruizende over 't velt,</l>
+						<l>En wint'er velt door 't openen der aderen,</l>
+						<l>Die roockende in een' boezem hier vergaderen.</l>
+						<l>Men twijfelt ruim een uur wie 't winnen zal.</l>
+						<l>Men keert zich noch aen dooden, noch getal</l>
+						<l>Van zielen, die hier sneuvelen: maer echter</l>
+						<l>Daeght Jeptha Godt, dat hy, de hooghste rechter,</l>
+						<l>'t Krackeel beslechte, en geeft zich daer de strijt</l>
+						<l>Het bangste valt. hy grijpt den bitsen nijt</l>
+						<l>In 't hart aen, wort gevolght van al de braven.</l>
+						<l>Waer hem de haet opdondren ziet, en draven,</l>
+						<l>Begint de moedt te zincken. hy dringt door.</l>
+						<l>Wat hem bestuwt volght op zijn bloedigh spoor.</l>
+						<l>Een hemelsch heir, van toorne en wraeck ontsteecken,</l>
+						<l>Scheen vlammende aen de wolcken door te breecken</l>
+						<l>Met wapenklanck, en luidt bazuingeschal,</l>
+						<l>Dat vee en volck verschrickte, en duin en dal.</l>
+						<l>De vyant flucks aen 't spatten aller wegen:</l>
+						<l>De ruiters eerst. het voetvolck stont verslegen,</l>
+						<l>Wert van de hoef getrappelt, en getreên.</l>
+						<l>Een springvloet, als hy doorbreeckt, ziet noch steen</l>
+						<l>Noch paelwerck aen, acht hooft, noch dam, noch dijcken,</l>
+						<l>Maer gaet met vee, en stal, en menschen strijcken.</l>
+						<l>Ons bruizent heir vint nu geen tegenstant.</l>
+						<l>Uw vorst zit af, danckt Godt, die d'overhant</l>
+						<l>Hem gunt. hy laet het veer des strooms bezetten,</l>
+						<l>En d'overvlught der vyanden beletten,</l>
+						<l>Verbiet den haet, te kenbaer aen zijn spraeck,</l>
+						<l>Te spaeren, uit een goddelijcke wraeck.</l>
+						<l>Wat zagh men na den slagh al mannen vellen!</l>
+						<l>Van duizenden zal 't niemant navertellen.</l>
+						<l>Daer lagh langs 't velt een veertighduizenttal.</l>
+						<l>Zoo gaet met recht de hooghmoedt voor den val.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Hoe zijn wy voor die zege aen Godt gehouden!</l>
+						<l>Wat wijdt men hem, die alle zijn vertrouden</l>
+						<l>Beschut, verdelght wat Jeptha met zijn hof</l>
+						<l>En naem, en bloet wou trappen in het stof!</l>
+					</sp>
+					<sp who="#slotvooght">
+						<speaker>Slotvooght</speaker>
+						<l>De veltheer, door belofte aen Godt verbonden,</l>
+						<l>Wil offeren, en heeft my afgezonden,</l>
+						<l>Om u terstont te voeren, daer de maght</l>
+						<l>Van 't danckbaer heir uw blijde komst verwacht.</l>
+						<l>Belieft het u, zit op: de hackeneien</l>
+						<l>En muil staen reê. wy zullen u geleien.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>'k Zie Ifis, van 't geberghte in Galaäd,</l>
+						<l>Alle oogenblick genaecken naer de stadt.</l>
+						<l>Kan ick mijn' heer nu volgen, en believen?</l>
+					</sp>
+					<sp who="#slotvooght">
+						<speaker>Slotvooght</speaker>
+						<l>'k Volgh meesters last, en vreeze hem te grieven,</l>
+						<l>Door uw vertreck. ontschuldigh my, mevrouw.</l>
+						<l>Gy gaeft aen een' soldaet uw hant en trouw.</l>
+						<l>Een krijgsmans hart kan smaet noch schimp gedoogen.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Ick min hem, als den appel van mijne oogen.</l>
+						<l>My trecken man en kint, beide even sterck</l>
+						<l>Van wederzijde, als in een worstelperck.</l>
+						<l>Zal ick 't ontbodt van mijnen heer misachten?</l>
+						<l>Of met de zon mijn dochter eerst verwachten?</l>
+						<l>Hier is geen tijt. hofmeester, geefme raet.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Volgh eerst uw' heer, en zijn triomffeest. laet</l>
+						<l>My hier ten hove uwe erfgenaeme ontfangen.</l>
+					</sp>
+					<sp who="#slotvooght">
+						<speaker>Slotvooght</speaker>
+						<l>Zit op, mevrouw: men wacht u met verlangen.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Hofmeester, zie dat gy, tot dat ick keer',</l>
+						<l>Haer onderhoudt.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Hoe luttel weetze, ô heer,</l>
+						<l>Wat voor een lot haer heden schijnt beschoren.</l>
+						<l>Daer rijdtze heene, en noopt den muil met sporen.</l>
+						<l>Godt geef dat zy den lantsheer', die haer mijt,</l>
+						<l>En herwaert draeft, niet onder d'oogen rijdt.</l>
+						<l>Het waer genoegh om dit altaer t'ontdecken,</l>
+						<l>En 't offer, dat men heden wil voltrecken.</l>
+						<l>De dochter schijnt, uit eene wolck van stof,</l>
+						<l>Te spoedigen ten berge af, naer het hof,</l>
+						<l>Of 't mistme. ick wil ter tinne uit zien van boven.</l>
+						<l>Een dunne mist, voor 't rijzend licht geschoven,</l>
+						<l>Belet de zon te schijnen op het slot.</l>
+						<l>Zy rijdt bedeckt ter kimme uit. goede Godt,</l>
+						<l>Gy zegentze al, die op uw goetheit hoopen!</l>
+						<l>Uw hant alleen vermoght den knoop t'ontknoopen;</l>
+						<l>Toen menschenraet te kleen viel, en te kort.</l>
+						<l>De maeght genaeckt, tot zingen aengeport.</l>
+						<l>De zanglust noopt de trippelende voeten.</l>
+						<l>Men zalze in 't hof verwachten, en gemoeten,</l>
+						<l>Dan melden hoe Godt Efraim verneêrt,</l>
+						<l>De vader weer in 't harnas triomfeert.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage/>
+					<sp who="#rey-van-maeghden">
+						<speaker>I. Zang</speaker>
+						<l>O Galaäd,</l>
+						<l>Die 't voorhooft kroont met palmen,</l>
+						<l>En op zegegalmen</l>
+						<l>De maeghden voert ten rey,</l>
+						<l>Voor Levijs stadt;</l>
+						<l>Ay, help ons triomfeeren,</l>
+						<l>Die nu wederkeeren</l>
+						<l>Met bommen, en schalmey:</l>
+						<l>Volgh de maeghdelijcke harten,</l>
+						<l>Die de doot in 't aenzicht tarten.</l>
+						<l>Volgh Jepthaes spruit.</l>
+						<l>Zy noodt uw burgers uit.</l>
+					</sp>
+
+					<sp who="#rey-van-maeghden">
+						<speaker>I. Tegenzang</speaker>
+						<l>Toen Ammon prat,</l>
+						<l>Op zijnen zeissenwagen</l>
+						<l>Trots ten toon gedraegen,</l>
+						<l>Wou dempen Jepthaes hof,</l>
+						<l>Zich zelf vermat</l>
+						<l>Met bolpees, en met slagen</l>
+						<l>'t Heiligh volck te plaegen,</l>
+						<l>Te trappen in het stof,</l>
+						<l>Eeuwigh, als verweze slaven,</l>
+						<l>Naer zijn zweep te leeren draven,</l>
+						<l>Heeft Godt alleen</l>
+						<l>Den hooghmoedt afgestreên.</l>
+					</sp>
+					<sp who="#rey-van-maeghden">
+						<speaker>II. Zang</speaker>
+						<l>Godt heeft de steên</l>
+						<l>En sloten omgeworpen,</l>
+						<l>Heuvels, vlecken, dorpen</l>
+						<l>Van afgoôn schoon geschuimt,</l>
+						<l>En zijn Hebreen,</l>
+						<l>Gedruckt in slavernye,</l>
+						<l>d'Eerste heerschappye</l>
+						<l>Genadigh ingeruimt.</l>
+						<l>Astataroth, en Chamos vloden,</l>
+						<l>Idumeesche en Sidons goden.</l>
+						<l>De Heidens vloôn</l>
+						<l>Met hun beroockte goôn.</l>
+					</sp>
+					<sp who="#rey-van-maeghden">
+						<speaker>II. Tegenzang</speaker>
+						<l>Abrahams zaet</l>
+						<l>Aenbidt nu, vry van smetten,</l>
+						<l>Naer d'aeloude wetten,</l>
+						<l>En Moses zuivren stijl,</l>
+						<l>Den toeverlaet</l>
+						<l>Der vroomen, volght hun zeden</l>
+						<l>Na in alle steden.</l>
+						<l>Al wat een lange wijl</l>
+						<l>Was verstroit van 't heil der vadren</l>
+						<l>Ziet men wederom vergadren</l>
+						<l>Met vreught by een</l>
+						<l>Ten schimp der onbesneên.</l>
+					</sp>
+					<sp who="#rey-van-maeghden">
+						<speaker>III. Zang</speaker>
+						<l>Drymael in 't jaer</l>
+						<l>Verschijnen twalef stammen</l>
+						<l>Daer men runders, rammen</l>
+						<l>Te Silo Gode slaght,</l>
+						<l>Op 't hoogh altaer,</l>
+						<l>De priesters wieroock zwaeien,</l>
+						<l>En de Godtheit paeien,</l>
+						<l>Geduurigh op hun wacht:</l>
+						<l>Daer de bontkist omgedraegen,</l>
+						<l>Antwoort op 's aertspriesters vraegen,</l>
+						<l>Orakels spreeckt,</l>
+						<l>Wanneer hy bid en smeeckt.</l>
+					</sp>
+					<sp who="#rey-van-maeghden">
+						<speaker>III. Tegenzang</speaker>
+						<l>Nu Ammon vlught,</l>
+						<l>Het Heidendom ter schande,</l>
+						<l>Uit den ganschen lande,</l>
+						<l>Schroomt Ifis Gode niet,</l>
+						<l>Uit eedle zucht,</l>
+						<l>Een willige offerhande,</l>
+						<l>Hier ten onderpande,</l>
+						<l>Na al 't geleên verdriet,</l>
+						<l>En den prijs, behaelt in 't strijden,</l>
+						<l>Lustigh rustigh toe te wijden.</l>
+						<l>Of Jeptha quam:</l>
+						<l>Hier is het offerlam.</l>
+					</sp>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>De roos van Jericho gaet open,</l>
+						<l>In 't opgaen van de morgenstont.</l>
+						<l>Zy heeft den koelen dau gezopen.</l>
+						<l>Het manne viel haer in den mont:</l>
+						<l>En Ifis hart luickt op, van weelde</l>
+						<l>En blyschap, nu zy dezen dagh</l>
+						<l>Het offer, datze zich verbeelde,</l>
+						<l>Naer vaders eisch, voltrecken magh,</l>
+						<l>Den vaderlande en 't volck ten zegen,</l>
+						<l>Ten prijs van Godt, den eigenaer</l>
+						<l>Van al, die door verborge wegen</l>
+						<l>Zijn heiligen zoo wonderbaer,</l>
+						<l>En boven hun begrijp, kan leien.</l>
+						<l>Treênwe in, op bommen, en schalmeien.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="2">
+
+				<head>Het tweede bedryf.</head>
+				<div type="scene" n="1">
+					<stage>IFIS. HOFMEESTER. REY.</stage>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>Ick heb dus lang de heuvels op en neder</l>
+						<l>Met dezen rey bewandelt heene en weder,</l>
+						<l>Mijn' maeghdestaet, en jeught genoegh beweent.</l>
+						<l>De berghgalm heeft ons lijckklaght nagesteent.</l>
+						<l>De zon en maen, by beurte op haeren wagen,</l>
+						<l>Getuigen hoe ons al te druckigh klaegen</l>
+						<l>De rotsen zelfs beweeghde, west en oost.</l>
+						<l>Nu quam, nu quam ick vader t'huis, getroost</l>
+						<l>[De hemel laet' mijn opzet hem behaegen,]</l>
+						<l>Dit lichaem Gode en 't outer op te draegen,</l>
+						<l>Voor vaders zege, op Ammon heir behaelt.</l>
+						<l>Het heeftme noch aen wil, noch tijt gefaelt.</l>
+						<l>Hoe treurt het hof dus eenzaem, zonder hoeder?</l>
+						<l>Het aengezicht van vader en van moeder</l>
+						<l>Te derven, slaet my neêr in dezen staet.</l>
+						<l>Gy, stut van 't hof, en vaders eerste raet,</l>
+						<l>Weet op wat voet wy stil van vader scheidden:</l>
+						<l>Ontvou nu wat geval hier tusschen beiden</l>
+						<l>Geschoten is, dat vader niet verschijnt.</l>
+						<l>Dus wort een hart door uitstel afgepijnt.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Mevrouw was noch nau bergewaert vertrocken,</l>
+						<l>Of Efraim, gewoon van outs te wrocken,</l>
+						<l>Borst tegens hem, gelijck een onweêr, uit,</l>
+						<l>Als waer die stam misdeelt in d'eere en buit,</l>
+						<l>Op Ammons heir door vaders deught bevochten.</l>
+						<l>Dit dreef hem weêr, om zulcke lantgedroghten</l>
+						<l>Te toomen: en, Godt woud's, het is geluckt.</l>
+						<l>Dat tuight die vaen, de stier, den haet ontruckt.</l>
+						<l>Uw moeder reedt, op zijn ontbodt, flus derwaert</l>
+						<l>Naer dees triomf. nu spoet uw vader herwaert.</l>
+						<l>Ick wacht hem vast, op dat hy heden hier</l>
+						<l>Uw hooghtijt, in uw moeders afzijn, vier',</l>
+						<l>Terwijlze 't heir in 't velt ziet triomfeeren.</l>
+					</sp>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>Wist moeder niet dat ick most wederkeeren</l>
+						<l>Van 't hoogh geberght, gelijck het was gezeit?</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Zy wist het: maer men heeft haer loos misleit</l>
+						<l>Door vaders last, gelijck het was besteecken.</l>
+					</sp>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>Zoude ick voor 't lest mijn moeder zien, noch spreecken?</l>
+						<l>O onbescheit! moght vader dit van 't hart?</l>
+						<l>Ick ben de schrick des doots voorby. ick tart</l>
+						<l>De doot, en zie haer rustigh onder d'oogen.</l>
+						<l>'k Heb lang den hals voor vaders zwaert gebogen:</l>
+						<l>Maer my dus streng dien redelijcken eisch</l>
+						<l>Ontzeggen? eer mijn vaderlijck palais</l>
+						<l>Verlaeten, en noch eenwerf vier paer weecken</l>
+						<l>My, op geberghte, en rots, in bosch versteecken.</l>
+						<l>Ick sterf niet, eer ick moeder zie, en spreeck.</l>
+						<l>Gy reien, volghtme: al weder naer de streeck</l>
+						<l>Der heuvelen: vangt weder aen te treuren,</l>
+						<l>En met misbaer 't gewaet van 't lijf te scheuren,</l>
+						<l>De vlechten uit te trecken: weêr, verstockt</l>
+						<l>In rouw, gezucht, gesteent, gekermt, genockt,</l>
+						<l>Den galm geweckt, die lust schept na het baeuwen,</l>
+						<l>Tot dat gehuil, en jammerklaghten flaeuwen,</l>
+						<l>Van rots in rots. ick paste op mijn gety:</l>
+						<l>Nu staet met recht het uitstel weêr aen my.</l>
+						<l>Mijn speelnoots, dat 's u voor naer d'oude heuvelen.</l>
+						<l>Of wy op bergh, en rots, of outer sneuvelen,</l>
+						<l>Dat 's evenveel: 't verschilt slechts in de wijs.</l>
+						<l>Ick offere mijn leven, Godt ten prijs.</l>
+						<l>Wat uitstels is niet weigeren te sterven.</l>
+						<l>Zou ick voor 't jongste oock moeders aenspraeck derven!</l>
+						<l>'t Is nodigh haer te spreecken, en een blijck</l>
+						<l>Van danckbaerheit: want quaem zy op mijn lijck</l>
+						<l>Te zwijmen, 't bloet zou my van zelf ontspringen,</l>
+						<l>Het leste woort gelijck ter keele uitwringen,</l>
+						<l>Tot een bewijs van kinderlijcke trou,</l>
+						<l>Haer jongste troost, te kleen in grooten rouw.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Mevrouw, ay blijf: ten minste hoor mij spreecken.</l>
+					</sp>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>U hooren? neen, men kent uw loze streecken,</l>
+						<l>Die moeder, voor mijne aenkomst, stiert van kant.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Door vaders last, niet wijt, maer by der hant.</l>
+						<l>Bedaer een poos: alle oogenblick wort vader</l>
+						<l>Ten hoof verwacht: dan spreeckt elckandre nader.</l>
+						<l>Verzoeck dat gy van moeder afscheit neemt.</l>
+					</sp>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>En slaet hy 't af?</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester.</speaker>
+						<l>Zijn hart is niet vervreemt</l>
+						<l>Van liefde, hy bewilgde u vier paer weecken,</l>
+						<l>En stelde 't uit.</l>
+					</sp>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>Die tijt is nu verstreecken.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester.</speaker>
+						<l>Uw vader bint zich niet zoo stip aen tijt.</l>
+					</sp>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>Zoo vader acht dat dit geen uitstel lijdt,</l>
+						<l>Hoe dan toe?</l>
+					</sp>
+
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Hou slechts aen met droevigh smeken.</l>
+						<l>Heeft hy u oit van uw verzoeck versteecken?</l>
+					</sp>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>Verzoeck staet vry, het weigeren aen hem.</l>
+						<l>Ick hoor zijn spraeck, gelijck een engels stem.</l>
+						<l>Als vader spreeckt, wat heeft een kint te zeggen?</l>
+						<l>'k Wil voor hem op mijn aenzicht nederleggen,</l>
+						<l>En schroom geen doot, maer ongehoorzaemheit.</l>
+						<l>Betuigh hem hoe ick nederquam, bereit</l>
+						<l>Ten outer, als een willige offerhande.</l>
+						<l>Schoon 't zwaert my treff', het vier dit lichaem brande</l>
+						<l>Tot stof, en asch: 'k getroost my zoo 't Godt voeght,</l>
+						<l>Als vader, en vrou moeder zijn vernoeght.</l>
+						<l>'k Gebruick mijn recht, hoef niemant dit te vergen.</l>
+						<l>Genooten, volghtme al weder naer de bergen.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Heeft moeder zich van mijnen raet gedient;</l>
+						<l>Houdt vader my voor zijnen outsten vrient,</l>
+						<l>En eersten raet van al zijn staetvertrouden;</l>
+						<l>Hiet moeder my u minzaem onderhouden,</l>
+						<l>Toen zy vertrock, tot datze wederquaem;</l>
+						<l>En is'er niets een kint meer aengenaem,</l>
+						<l>Dan zich geheel naer moeders wil te schicken;</l>
+						<l>Wacht vader, dien wy hier alle oogenblicken</l>
+						<l>Verwachten, en vertrou wat wy met raet</l>
+						<l>Vermogen, u ten dienst in dezen staet;</l>
+						<l>Uw hoogheit hoeft ons nergens in te spaeren.</l>
+						<l>Dees stramme leên, en grijze zilverhaeren,</l>
+						<l>Dit voorhooft, van den ouderdom geploeght</l>
+						<l>Vol rimpelen, verzoecken datge u voeght.</l>
+						<l>Belieft het u, tre binnen: hoor ons spreecken.</l>
+					</sp>
+					<sp who="#rey-van-maeghden">
+						<speaker>Rey</speaker>
+						<l>Mevrouw, ay hoor, en luister naer zijn smeecken.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Heirmeester, dat ging wel. ick doock nau in</l>
+						<l>Het eicken bosch, of mijne gemaelin</l>
+						<l>Stoof ons voorby. gy zaeght hoe, aen haer zijde,</l>
+						<l>De Slotvooght 't bosch van Efraïm vermijde.</l>
+						<l>Al hoorde men tot noch toe geen gewagh</l>
+						<l>Van 't geen 'er smeult: het moet nu aen den dagh.</l>
+						<l>Hier staet het hof ten hemel opgetogen.</l>
+						<l>Wy zagen 't eer met vreught en vrolijcke oogen:</l>
+						<l>Maer sedert ons de hoop van onzen stam,</l>
+						<l>Ter hofpoorte uit, met bommen tegen quam;</l>
+						<l>Toen Ammon ons ten roof viel met zijn vaenen,</l>
+						<l>Aenschouden wy dees poort noit zonder traenen,</l>
+						<l>En 't hart vol drucks. wat baet het dat een heer</l>
+						<l>Gezegent, trots en heerlijck triomfeer',</l>
+						<l>De vleugels van den vyant koom' te korten,</l>
+						<l>Als hy gekeert zijn stamhuis in ziet storten.</l>
+						<l>Een vorst leeft meest tot heil van 't algemeen;</l>
+						<l>Of deelt hy in 't gemeen, dat is alleen</l>
+						<l>Voor 't eenige oir, van boven hem gegeven,</l>
+						<l>Om na zijn doot in 't eenigh oir te leven.</l>
+						<l>Dees hoop wort my ontweldight: en ick moet</l>
+						<l>Godt lochenen, of scheiden van mijn bloet,</l>
+						<l>Onnozel bloet, dat van 't altaer zal leken.</l>
+						<l>Wat baet die stier, ter hoftinne uitgesteecken,</l>
+						<l>Tot 's vyants schimp, gesleurt in bloet en stof!</l>
+						<l>Een feller zwaert treft heden Jepthaes hof,</l>
+						<l>Daer Efraïm, en Ammon om zal vieren,</l>
+						<l>Herwinnen al d'ontruckte krijghsbanieren.</l>
+						<l>Het dwersse lot zet heden ruim betaelt</l>
+						<l>Die trotse zege, op beide in 't velt behaelt.</l>
+						<l>Treck in den stier. wat vordert dit braveeren?</l>
+						<l>'t Is uit met my. de kans was lang aen 't keeren,</l>
+						<l>Toen, in 't gevaer des lants, mijn droeve ziel</l>
+						<l>Die hooge altaerbelofte uit noot ontviel,</l>
+						<l>Onkundigh dat, tot boete van elcks lijden,</l>
+						<l>Dit woort my eerst de hartaêr af zou snijden,</l>
+						<l>Dan 's dochters hals. och woort, een zwaert, gesmeet</l>
+						<l>Van Ammons wraeck! ô onherhaelbaere eedt!</l>
+						<l>Hoe sprong mijn hart, toen Ifis wiert geboren!</l>
+						<l>Dees overwinste en schat wort nu verloren</l>
+						<l>Door schipbreuck van een eenigh enckel woort.</l>
+						<l>Hoe stom en stil is nu de zelve poort,</l>
+						<l>Waeruit zy my met bommen in quam haelen,</l>
+						<l>En zegezang, en blijde morgenstraelen</l>
+						<l>Der oogen: als de dageraet der jeught</l>
+						<l>My tegenblonck, en oploock met een vreught,</l>
+						<l>Die snel verdween: gelijck by zomerdagen</l>
+						<l>De heldre lucht betrocken wort met vlaegen.</l>
+						<l>My dunckt ick hoor mijn dochter wederom.</l>
+						<l>Zy heetme noch met bommen wellekom.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>IFIS. JEPTHA.</stage>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>Ter goeder uure omhelze ick vader weder,</l>
+						<l>En schrey van vreught. een maeghdenhart is teder,</l>
+						<l>Zoo wel in rouw, als blyschap weêr te staen.</l>
+						<l>Tot tweemael heeft de wisselbaere maen</l>
+						<l>Haer horens in een' ronden kringk gebogen,</l>
+						<l>Na mijn vertreck ten berge uit vaders oogen,</l>
+						<l>Nu is'er niets dat my vervaeren kan.</l>
+						<l>Indien ick noch de kroon in 't harte span,</l>
+						<l>Gelijck voorheen; laet my mijn liefde blussen:</l>
+						<l>Heer vader, gunme uw' mont noch eens te kussen.</l>
+						<l>Wat wort mijn hart van droefenis verlicht,</l>
+						<l>Nu Godt my gunt uw hemelsch aengezicht</l>
+						<l>t'Aenschouwen! kon oit zon, op tin en daecken</l>
+						<l>Van 't hof, my meer verquicken, meer vermaecken</l>
+						<l>Dan uw gezicht, genadigh my gegont!</l>
+						<l>Gelooft zy Godt, dat vader ongewont,</l>
+						<l>En gaef verschijnt, van daer ontelbre punten,</l>
+						<l>Geschut, en speer het op zijn leven muntten.</l>
+						<l>Wie had dien storm verwacht van Efraïm!</l>
+						<l>Maer afgunst volght de krijghseer, als de schim</l>
+						<l>Het lichaem: doch wat hindert dat benijden,</l>
+						<l>Als 't Gode, die u hanthaefde onder 't strijden,</l>
+						<l>En zijnen wille alleen op 't hooghst behaeght!</l>
+						<l>'t Is beter zoo benijt, dan droef beklaeght.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Och dochter, och, uwe aengenaeme woorden</l>
+						<l>Zijn pijlen, die mijn hart noch eens vermoorden.</l>
+						<l>Nu leve ick eerst, te recht beklaegens waert,</l>
+						<l>Of sterve, en voel al levende het zwaert,</l>
+						<l>Het zwaert des doots, door mijnen boezem dringen.</l>
+						<l>Geen vyant durf van buiten my bespringen:</l>
+						<l>Hy zitme in 't hart: de strijt gaet aen in my:</l>
+						<l>Daer kiezen mijn gedachten elck haer zy,</l>
+						<l>Beginnen 't zwaert om strijt op zy te gorden.</l>
+						<l>Zy zetten zich gewapent in slaghorden.</l>
+						<l>Het vaders hart is al te naeu een velt</l>
+						<l>Voor zulck een' strijt, en gruwelijck gewelt.</l>
+						<l>Waer heul gezocht? waer vinde ick troost en bystant?</l>
+						<l>Och, Jeptha heeft zich zelf alleen ten vyant:</l>
+						<l>Geen Efraïm, noch Ammon rant hem aen</l>
+						<l>In 't hart. kon een gety oit stercker gaen,</l>
+						<l>Wanneer de zee op strant en steenrots barrent,</l>
+						<l>Ter helle daelt, en oprijst aen 't gestarrent!</l>
+						<l>Mijn eenigh oir, ô dochter, gy ontroert</l>
+						<l>Uw vaders bloet. waer worde ick heengevoert!</l>
+					</sp>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>Nu vader, draegh uw hartewee geduldigh.</l>
+						<l>Ben ick, och arme, aen uwe elende schuldigh,</l>
+						<l>Aen uw verdriet? vaer voort, en strafme vry.</l>
+						<l>Ontlast uw ziel: ick neem de schult op my,</l>
+						<l>En op mijn ziel, dan is de strijt ten ende.</l>
+						<l>Gy blijft gepaeit; ick vaere uit deze elende.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>O dochter, hoor mijn rouwklaght met gedult.</l>
+						<l>Ick houde u vry. uw vader draeght de schult.</l>
+						<l>Had hem een lam eerst uit den stal bejegent,</l>
+						<l>Of witte vaers: toen hy, van Godt gezegent,</l>
+						<l>En zegenrijck naer 't hof quam uit den slagh;</l>
+						<l>Men hadze Godt geoffert, als men plagh,</l>
+						<l>Te Silo, daer de Godtheit, in het midden</l>
+						<l>Van 't heilighdom, op 's hoogen priesters bidden,</l>
+						<l>Orakels spreeckt, op cherubijnen rust:</l>
+						<l>Nu zijtge my bejegent, onbewust</l>
+						<l>Van mijn belofte, en reuckeloos beloven,</l>
+						<l>Dat my zoo dier verbint aen Godt daer boven.</l>
+						<l>Het aengaen van dien zwaeren slagh en toght</l>
+						<l>Beroofde 't brein van dieper achterdocht.</l>
+						<l>Noit docht ick Gode een offer op te draegen</l>
+						<l>Van menschenbloet, veel min een van mijn maegen,</l>
+						<l>En allerminst mijn dochter, 't eenigh kint,</l>
+						<l>Mijn levens hoop, mijn kroon. wat straf verblint,</l>
+						<l>Vervoertme in dit beloven, zonder paelen,</l>
+						<l>Een woort, te zwaer om door den hals te haelen!</l>
+						<l>Geluckigh die zijn woort herhaelen moght.</l>
+						<l>Al d'eer verdwijnt, die 't zwaert met Godt bevocht.</l>
+						<l>Ick zocht den volcke een wegh tot heil te baenen</l>
+						<l>Door 's vyants bloet: nu drijft mijn hof in traenen,</l>
+						<l>En zuiver bloet. dit offer, Godt gewijt,</l>
+						<l>Zal eeuwen lang noch smoocken na mijn tijt.</l>
+					</sp>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>Uwe onschult zal by allerhande staeten</l>
+						<l>Alle eeuwen zich alomme hooren laeten.</l>
+						<l>Geen kinderhaet verruckt u tot dees daet.</l>
+						<l>Gy waert tot noch, naest Godt, de toeverlaet</l>
+						<l>Des vaderlants, en hebt door zoo veel slaegen</l>
+						<l>Den onderdaen, als onder 't hart, gedraegen,</l>
+						<l>Godts wet beschut, dat Masfa, Levijs stadt,</l>
+						<l>Noit vroomer noch oprechter rechter had.</l>
+						<l>Het stamhuis volght geen Heidensche geboden,</l>
+						<l>Dient Astaroth, noch Baäl, noch de goden</l>
+						<l>Van Syrie, en out Sidon, noch voedt smoock</l>
+						<l>Voor Ammons goôn, en Moabs helsch gespoock.</l>
+						<l>Elck zit gerust in schaduw van zijne eicken,</l>
+						<l>En vette olijf, zoo wijt uw zwaert kan reicken;</l>
+						<l>Dies zal u naem, van stam tot stam, te boeck,</l>
+						<l>Beschaemen en verduuren 's haeters vloeck.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>'t Godtvruchtigh kint spreeckt loffelijck en eerlijck</l>
+						<l>Van d'ouderen: maer midlerwijl is 't deerlijck</l>
+						<l>d'Onschuldige te zien in stervens noot.</l>
+					</sp>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>Is sterven dan zoo jammerlijck? de doot</l>
+						<l>Klopt aen de deur van allerley geslachten.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Zoo stroit het volck de lijck-en-jammerklaghten</l>
+						<l>Al t' ydel uit op ieders heenevaert.</l>
+						<l>Is sterven rouw noch jaergetijden waert;</l>
+						<l>Men moght met recht alle ydle traenen spaeren.</l>
+						<l>Doch 't scheelt noch veel, of iemant op zijn jaeren,</l>
+						<l>Bedaeght, en out, en stram, ten grave gaet;</l>
+						<l>Of een, die jong, in 's levens dageraet,</l>
+						<l>Het sterflijck kleet ontijdigh af moet leggen.</l>
+					</sp>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>Zy hebben beide alle even veel te zeggen,</l>
+						<l>'t Zy out, of jongk: de doot schroomt jongk noch out.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Natuurlijck staen wy alle in 's doots gewoudt.</l>
+						<l>Natuurlijck geeft het lemmet vlam noch dampen,</l>
+						<l>Als d'olie is verbarrent in de lampen:</l>
+						<l>Maer 't lijt gewelt, als 't licht wort uitgebluscht.</l>
+					</sp>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>Een schoone doot wort minnelijck gekust,</l>
+						<l>Voor haeren mont, en roozeroode kaecken.</l>
+						<l>Ick voel mijn' geest naer zulck een afscheit blaecken.</l>
+						<l>Een ander sterve en quijne op 't muffe bedt,</l>
+						<l>Van schreienden, en huilenden bezet,</l>
+						<l>En teer' schoon uit op hongerige koortsen:</l>
+						<l>My lust het, op het licht van offertoortsen,</l>
+						<l>Op blijden galm van vedel en schalmey,</l>
+						<l>Gelijck een bruit bekranst, van rey by rey</l>
+						<l>Bestuwt, niet zwack, maer moediger en stouter,</l>
+						<l>Mijn groene jeught de Godtheit, op het outer,</l>
+						<l>Op t'offeren. ay vader, treur niet meer:</l>
+						<l>Uw dochter schijnt geschapen tot deze eer,</l>
+						<l>Die weinigen ter weerelt magh gebeuren.</l>
+						<l>Ick sta bereit. de tijt is uit van treuren.</l>
+						<l>De hemel biet van verre my de hant,</l>
+						<l>En zijne trouw. ick kus dat diere pant,</l>
+						<l>Behoudens noch een minnelijcke bede.</l>
+						<l>Nu zijt getroost, en stel uw hart te vrede.</l>
+						<l>Een bede alleen [verdient uw kint gehoor,]</l>
+						<l>Verzoeckt het slechts, en daerop treet het voor.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>De wijze sterft vrywilligh, doch voorzichtigh,</l>
+						<l>Zoo 't Godt behaeght. het sterven is gewightigh,</l>
+						<l>En van belang. de vader blijft al stil</l>
+						<l>Voor eerst vernoeght met 's dochters vryen wil.</l>
+						<l>De bede, die gy vader leght te voren,</l>
+						<l>Daer zal hy u, of uwen stoet, op hooren.</l>
+						<l>Wat billijck is, wort niet uw bede ontzeit.</l>
+						<l>Volhardt terwijl in onderdaenigheit.</l>
+						<l>De vader ga de dochter voor naer binnen.</l>
+						<l>Zoo groot een zaeck eischt rijp beraet, en zinnen.</l>
+					</sp>
+
+				</div>
+				<div type="scene" n="3">
+					<stage/>
+					<sp who="#rey-van-maeghden">
+						<speaker>I. Zang</speaker>
+						<l>Aertsvader Josef, och,</l>
+						<l>Zoo gy ten grave uit noch</l>
+						<l>Eens uw hooft, lang berooft van zijn straelen,</l>
+						<l>Opstaeckt in 't staetbedrogh:</l>
+						<l>Verreest gy van de doot,</l>
+						<l>En zaeght uw bloet in noot</l>
+						<l>Met gedult vaders schult gaen betaelen,</l>
+						<l>En 't yslijck slaghzwaert bloot:</l>
+						<l>Hoe zoude u 't grijze haer</l>
+						<l>Te berge staen zoo naer!</l>
+						<l>Zoudtge niet van verdriet weêr verzincken,</l>
+						<l>Uit schrick voor dit altaer?</l>
+						<l>Of zoudtge uit onverdragh</l>
+						<l>Niet schutten dezen slagh,</l>
+						<l>Eer de hant haer in 't zant quaem te klincken,</l>
+						<l>Eer 't hooft gevallen lagh?</l>
+					</sp>
+					<sp who="#rey-van-maeghden">
+						<speaker>I. Tegenzang</speaker>
+						<l>Ter weerelt staet niet stil.</l>
+						<l>Op 's hemels ronde spil</l>
+						<l>Draeit het radt staet, en stadt ongestadigh</l>
+						<l>Door pais en krijghsgeschil.</l>
+						<l>Het groot beweeght het kleen.</l>
+						<l>Door duizent moeilijckheên</l>
+						<l>Rolt de tijt, en verslijt ongenadigh</l>
+						<l>Verbrijzelt stael, en steen.</l>
+						<l>De hooghste wijsheit, Godt</l>
+						<l>Heeft geen bestendigh lot</l>
+						<l>Hier beneên in 't gemeen toebeschoren.</l>
+						<l>In 't purper zit de mot.</l>
+						<l>De roest verteert het stael</l>
+						<l>En glans van schoon metael.</l>
+						<l/>
+						<l>Als een klanck van gezangk in de ooren</l>
+						<l>Verdwijnt al 's weerelts prael.</l>
+					</sp>
+					<sp who="#rey-van-maeghden">
+						<speaker>II. Zang</speaker>
+						<l>Asnethe aertsmoeder, hoe</l>
+						<l>Was u zoo bly te moê,</l>
+						<l>Toen gy rijck zat te prijck, na het trouwen,</l>
+						<l>En Josef juichte toe:</l>
+						<l>Daer Faro 't bruiloftsfeest</l>
+						<l>Bekleede, bly van geest,</l>
+						<l>Om u bey aen den rey t'onderhouwen,</l>
+						<l>Als gy den hemel preest.</l>
+						<l>Hoe luttel kon men toen</l>
+						<l>Bedencken en vermoên</l>
+						<l>Dat een beelt, aengeteelt van u beide,</l>
+						<l>Zou sterven, 't lant ten zoen;</l>
+						<l>Manasse, uw outste zoon,</l>
+						<l>Zien vallen zijne kroon</l>
+						<l>In het stof, daer al 't hof dit beschreide,</l>
+						<l>Met een' bedruckten toon!</l>
+					</sp>
+					<sp who="#rey-van-maeghden">
+						<speaker>II. Tegenzang</speaker>
+						<l>Manasses naem melt dat</l>
+						<l>De vader schoon vergat</l>
+						<l>Ongeluck, ramp, en druck, eer geleden,</l>
+						<l>Nu hy naest Faro zat,</l>
+						<l>Als 's rijcks geheimen raet,</l>
+						<l>Ten steun van hof en staet;</l>
+						<l>Tot een wijck van al 't rijck, dat verlegen</l>
+						<l>Verhongert quam om raet.</l>
+						<l>Och, moghten wy ons leedt,</l>
+						<l>Den slagh van Jepthas eedt,</l>
+						<l>Die ons smert in het hart oock vergeeten.</l>
+						<l>Wat grimt dit schouspel wreet!</l>
+						<l>Aertsvader, koom in 't licht.</l>
+						<l>Koom redt d'onnoosle nicht.</l>
+						<l>Koom ontbint 't lieve kint van dees keten.</l>
+						<l>Bewaer een' grootvaêrs plicht.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="3">
+
+				<head>Het derde bedryf.</head>
+				<div type="scene" n="1">
+					<stage>JEPTHA. HOFMEESTER.</stage>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Gy onderzocht by wijl mijn gemaelin,</l>
+						<l>Na mijn vertreck?</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Ick toetste meer of min</l>
+						<l>Hoe 't lagh in haer gedachten, doch met schroomen.</l>
+						<l>Een vrou is teêr. men dorst niet nader komen,</l>
+						<l>Om achterdocht te schuwen. had zy iet</l>
+						<l>Geroken van 't genaeckende verdriet,</l>
+						<l>En hoe het kint ten berge met haer reien</l>
+						<l>Vertrock, om daer den maeghdom te beschreien;</l>
+						<l>Wat ging ons aen? hoe had men haer geredt?</l>
+						<l>Zy waer al doot, of lagh van schrick te bedt.</l>
+						<l>Nu trockze u na, tot danckbaerheit gedreven,</l>
+						<l>Om d'overhant, u weêr van Godt gegeven.</l>
+						<l>Zy smilt schier van verlangen naer het kint,</l>
+						<l>Het eenighste een, dat zy naest Godt bemint.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Ter weerelt leeft geen droever man en vader.</l>
+						<l>De rouw gaet nu in arbeit. hoe dees nader</l>
+						<l>Aen 't baeren is, hoe my de last meer smart,</l>
+						<l>En met dien last ontzincktme zin en hart.</l>
+						<l>Een ander melt zijn' rouw, magh zich verluchten,</l>
+						<l>Maer ick ontzagh en vreesde een' zucht te zuchten,</l>
+						<l>En kropte mijn verdriet in nacht en dagh.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Zy merckte al dat u iet op 't harte lagh.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Zy vraeghde eerst wat mijn moedigh hart moght prangen,</l>
+						<l>Na zulck een zege en eer, van Godt ontfangen:</l>
+						<l>Toen stelde ick mijn gelaet, gelijck een helt,</l>
+						<l>Die triomfeert, en niet als 't was gestelt,</l>
+						<l>Heel anders dan toen Ammons heir te paerde</l>
+						<l>Ons opquam, met den schitterenden zwaerde,</l>
+						<l>Godts stamhuis dreighde alleen in mijnen hals</l>
+						<l>t'Onthalzen: toenme in zoo veel ongevals</l>
+						<l>Niets overschoot dan Godt, in 't voorst' der troepen,</l>
+						<l>Met een altaerbelofte om hulp te roepen,</l>
+						<l>Op 't offren wat, ter poorte uit van mijn hof,</l>
+						<l>My eerst gemoete, alleen Godts naem ten lof.</l>
+						<l>Ick docht niet dat zy d'eerste my zou groeten,</l>
+						<l>Uit deze poort met zang en bom gemoeten,</l>
+						<l>Stof geven aen den vader, in dien staet</l>
+						<l>Van schrick en rouw, te scheuren zijn gewaet.</l>
+						<l>Ick docht niet dat mijn dochter d'offerhande</l>
+						<l>Most strecken, die zich zelf voor 't lant te pande</l>
+						<l>Zou stellen, en vrywilligh ten altaer</l>
+						<l>Zich wijden, my, gelijck een' zegenaer,</l>
+						<l>Omhelzen, als ick 't jammer quaem te mellen.</l>
+						<l>Och, sprackze, gunme alleen dit uit te stellen,</l>
+						<l>Twee maenden op 't geberght, mijn' maeghdenstaet,</l>
+						<l>Het ondergaen van 's levens dageraet,</l>
+						<l>Met mijnen rey weemoedigh te beweenen.</l>
+						<l>Och vader, badtze, och vader, rust van steenen.</l>
+						<l>Hebt gy dit Godt gezworen met een' eedt;</l>
+						<l>Ick offre Godt mijn leven, ben gereet</l>
+						<l>Te sterven, 't volck met mijne doot te zegenen,</l>
+						<l>Mijn zuiver bloet op 't lant te laeten regenen,</l>
+						<l>Te storten, al den stammen tot een' zoen.</l>
+						<l>Dus voerze heen, gaf moeder geen vermoên.</l>
+						<l>Dat jammer zou haer tijts genoegh bedroeven.</l>
+						<l>Hoe wort mijn hart beklemt, gelijck met schroeven!</l>
+						<l>Wy hadden 't u ter noot geopenbaert.</l>
+						<l>Och, Ammon rant vry Jeptha met uw zwaert</l>
+						<l>En zeissens aen: het staet hem licht te sneven.</l>
+						<l>'k Vont heil in 't velt, maer t'huis noch lust noch leven.</l>
+						<l>Een woort, uit noot gesproken, veltme neêr.</l>
+						<l>Geen Ammon dreightme nu met zwaert, en speer:</l>
+						<l>Ick heb my zelf ten vyant, sta beneepen.</l>
+						<l>Mijn eigen zwaert is tegens my geslepen.</l>
+						<l>'k Heb al den staet tot tweemael trots geredt</l>
+						<l>Uit slaverny: nu strijde ick met mijn bedt,</l>
+						<l>En erfgenaeme, en ga in haer verloren.</l>
+						<l>Ter quader uure is zy, helaes, geboren</l>
+						<l>Van my, die my alleen ten vyant heeft.</l>
+						<l>Ick heb mijn hoop en zegen overleeft.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Gy hebt voorheene u moediger gedraegen</l>
+						<l>In 't scheiden.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Zegh, mijn hartewee met knaegen</l>
+						<l>In 't hart gesmoort. het uitstel streelt de pijn,</l>
+						<l>En geeft van ver de rampen andren schijn:</l>
+						<l>Maer anders is 't van verre, en onder d'oogen</l>
+						<l>Wat anders. och, de doot grimt voor mijne oogen:</l>
+						<l>Zy tast den stam in d'afkomst aen te stout.</l>
+						<l>Mijne aders slaen: de leden worden kout,</l>
+						<l>En sidderen. noit schroomde ick onder 't horten</l>
+						<l>Der heiren, daer geheele benden storten</l>
+						<l>Rondom mijn lijf: nu treftme schrick op schrick.</l>
+						<l>Geen vader leeft rampzaliger dan ick:</l>
+						<l>Zoo 't leven heet alle oogenblick te sterven,</l>
+						<l>Versteecken van zijn hoop, en bloet, en erven.</l>
+						<l>Wat 's Jepthaes huis? een lichaem, zonder hooft.</l>
+						<l>Dit hadde ick my van Ifis niet belooft,</l>
+						<l>Maer hoopte noch uit grootvaêr Josefs asse</l>
+						<l>Op stoel te zien de glori van Manasse;</l>
+						<l>Een' die [gelijck helt Gedeon, wel eer</l>
+						<l>De koningen, gekroont langs 't roode meer</l>
+						<l>In Madian, Godts erfdeel leerde ruimen,]</l>
+						<l>Dit zeestrant zou van Filistijnen schuimen.</l>
+						<l>Nu stort dees hoop in d'asch van 't offervier,</l>
+						<l>En smoort in bloet. wat troost, wat raet is hier?</l>
+					</sp>
+
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>'k Heb dickwijl by den lantvooght d'eer genooten,</l>
+						<l>Dat zonder my niet wightighs wiert besloten,</l>
+						<l>Noch vast gestelt, in 's lants geheimen raet,</l>
+						<l>Tot heil des volcks, en nootweer voor den staet,</l>
+						<l>Maer vondt noit stuck, zoo zwaer in 't overweegen</l>
+						<l>Als dit. hier wil des hemels vloeck, of zegen</l>
+						<l>Op volgen. eer of schande hangt hier aen.</l>
+						<l>De schael van 't brein zal heene en weder slaen,</l>
+						<l>Haer tong u wijs, of onvoorzichtigh noemen,</l>
+						<l>Elck, naer zijn drift, dit kroonen, of verdoemen.</l>
+						<l>d'Een schat u vroom, in 't houden van Godts eedt;</l>
+						<l>Een ander schelt u godeloos, en wreet.</l>
+						<l>De Heiden, en besneden zal 't waerdeeren,</l>
+						<l>Menschofferen, en wreetheit hier uit leeren.</l>
+						<l>Een lantvooght, die de stammen zal gebiên</l>
+						<l>Naer Moses stijl, hoeft uit- en om te zien.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>'t Was uitziens tijt, eer wy de boogen spanden</l>
+						<l>Om Ammons heir gewapent aen te randen,</l>
+						<l>Eer Gode blint het offer wiert gewijt:</l>
+						<l>Nu is 't te spade, en uit- noch omziens tijt.</l>
+						<l>De tijt staet pal. men magh den eedt niet krencken.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>'t Gevolgh van 't werck geeft maghtigh achterdencken.</l>
+						<l>Want anders is 't van achter, en van voor</l>
+						<l>Wat anders. wat scherpziende ziet hier door?</l>
+						<l>'t Beloven scheen u nodigh, voor het strijden:</l>
+						<l>Nu ziet gy dit van achter, dus in lijden,</l>
+						<l>Met naberouw vast na: nu druckt en smart</l>
+						<l>U dees belofte, en valt u op het hart,</l>
+						<l>Gelijck een steen. Godt wil uw hart verlichten.</l>
+						<l>Een zelve zaeck heeft menige aengezichten,</l>
+						<l>Naer datze wordt gedraeit, gewent, gekeert</l>
+						<l>Op 's menschen oogh. dit wort met rouw geleert,</l>
+						<l>En schande, en scha. zoo leert men al zijn leven.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Noch blijven wy op twijfelingen zweven.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Hier strijden twee nootpunten tegens een.</l>
+						<l>Kies een van beide, of rust, en kies 'er geen.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Die rusten moght. een dagh is haest verstreecken.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Opofferen, of uw belofte breecken</l>
+						<l>Staet hier in uw bedencken. kies, en deel.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Voor 't zweeren stont ick noch op mijn geheel.</l>
+						<l>Toen hadde ick keur te zwijgen, of beloven.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Uw vyant leght verslagen: gy staet boven:</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Om jammerlijck te vallen in mijn bloet.</l>
+						<l>De zege viel my toe, op dezen voet.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Wat voet? dat gy uw dochter Godt zoudt slaghten?</l>
+						<l>Opoffren?</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Noit schoot dit in mijn gedachten.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Hoet staet gy dan verbonden aen uw woort?</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Mijn eedt staet vast. de Godtheit heeft gehoort</l>
+						<l>Hem wijden wat my 't eerste uit mijne poorte</l>
+						<l>Gemoeten zou.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Geen die in haer geboorte</l>
+						<l>U zalighde, en den naem van vader gaf,</l>
+						<l>Maer eer een kalf, of wat ten heuvel af</l>
+						<l>Quaem huppelen, het waer dan kalf, of stieren.</l>
+						<l>De wet beveelt de Godtheit stomme dieren</l>
+						<l>Op 't offeren.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>De naem van dier is me</l>
+						<l>Den mensch gemeen, zoo wel als 't stomme vee:</l>
+						<l>En mensch en vee zijn onderdaen aen 't sterven.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Men onderscheit met recht die reden derven</l>
+						<l>Van dieren, klaer met licht van reên verlicht.</l>
+						<l>Waer is de wet, die iemant houdt verplicht</l>
+						<l>Aen 't offeren van redelijcke zielen?</l>
+						<l>Dat is geen wet hanthaven, maer vernielen.</l>
+						<l>Doch d'uitspraeck en het oordeel van de wet</l>
+						<l>Is aen den mont der priesteren gezet,</l>
+						<l>Bewaerders van de wet, en Moses boecken.</l>
+						<l>Ick rade u by den priester raet te zoecken,</l>
+						<l>En wetgeleerde, om niet zoo los te gaen.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>En vinden zy dit offren ongeraên,</l>
+						<l>Hoe dan toe? kan ick staen op hun besluiten,</l>
+						<l>Hen volgen, mijn geweten gaen te buiten?</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Zy zullen niets besluiten, zonder reên,</l>
+						<l>En klaer bewijs. zoo leert men onderscheên</l>
+						<l>De letter, en den zin van 's hemels woorden;</l>
+						<l>Wat offeren verschilt van kindermoorden.</l>
+						<l>Bestemmen zy dit offer met bescheit,</l>
+						<l>En schijn van reên: hun geloofwaerdigheit,</l>
+						<l>Hun aenzien geeft uw daet by 't volck een' luister,</l>
+						<l>Al dwaelde gy. de priester, om niet duister</l>
+						<l>Te wandelen, schoon hy de wet verstaet,</l>
+						<l>Gaet zelf by Godt, en zijne hut om raet.</l>
+						<l>Dus raeckt gy best dees zwaericheên te boven.</l>
+						<l>Dus wort de schult, van uwen hals, geschoven</l>
+						<l>Op 's priesters hals, indien'er is gefaelt.</l>
+						<l>Hoe heeft Godts volk in 't offren eer gedwaelt</l>
+						<l>Van Godt, die hun de wet, om niet te missen,</l>
+						<l>Genadigh schonck! in welcke duisternissen</l>
+						<l>Vervielen zy, die blint hunne eige vrucht</l>
+						<l>Het heiloos spoock opdroegen, eene vlught</l>
+						<l>Van afgoôn! kon den hemel dit behaegen?</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Geensins. zijn vrucht den afgront op te draegen,</l>
+						<l>Wie zich zoo dwaes in 't offeren verliep;</l>
+						<l>Ick draegh mijn vrucht hem op, die alles schiep,</l>
+						<l>Den eigenaer en heer van alle dingen,</l>
+						<l>Die my beschutte, en Ammons maght kon dwingen.</l>
+						<l>Maer aengezien het raetzaem schijnt Godts mont</l>
+						<l>Te spreecken voor het offren; laet terstont</l>
+						<l>Den priester, en den wetgeleerde ontvouwen</l>
+						<l>Op welck een' gront dit outer staet te bouwen.</l>
+						<l>Godt stercke ons in de barning van dien noot.</l>
+						<l>Hier worstelen het leven, en de doot,</l>
+						<l>De schande, en eer, de vloeck, en zegen t'zamen,</l>
+						<l>Godtvruchtigheit, en liefde, het betaemen,</l>
+						<l>En schricklijckheên, och hartstorm al te zwaer!</l>
+						<l>Hier loopt mijn ziel, of staetheil groot gevaer</l>
+						<l>Van schipbreuck. och, wat zijde zal ick kiezen?</l>
+						<l>Godts zegen, of de gunst des volcks verliezen</l>
+						<l>Verschilt te veel: doch 't eerste weeght wel meest.</l>
+						<l>Hoe wanckelt hier mijn aengevochten geest!</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>HOFPRIESTER. WETGELEERDE. JEPTHA.</stage>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Godt spaer' de telgh van Josef, en Manasse.</l>
+					</sp>
+					<sp who="#wetgeleerde">
+						<speaker>Wetgeleerde</speaker>
+						<l>Dat zy gelijck een ceder eeuwigh wasse,</l>
+						<l>Het gansche lant beschaduw' met haer kroon.</l>
+					</sp>
+
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>De hemel spaere en zegene Arons zoon,</l>
+						<l>En Levijs zoon, leitstarren der geslachten,</l>
+						<l>Die op den troost van Godt Messias wachten.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Wat hooren wy? ô onverwinbre helt,</l>
+						<l>Wat offer is 't dat uw gemoedt ontstelt?</l>
+						<l>Eischt d'Opperste danckoffer, outervieren,</l>
+						<l>Een rijcke gaef van hondert witte stieren,</l>
+						<l>Voor uwe zege, op Ammons heir behaelt;</l>
+						<l>Treck op, treck op naer Silo: daer betaelt</l>
+						<l>Elck Gode zijn belofte, en offergaven.</l>
+						<l>Zoo werde uw leedt vergeeten, en begraven,</l>
+						<l>Uw ziel ontlast van 't pack, dat heur bezwaert.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Geluckigh die aldus zijn bedevaert</l>
+						<l>Voltrecken magh met redenloze kudden,</l>
+						<l>En danckbaer al zijn hart voor Gode uitschudden:</l>
+						<l>Maer ick, helaes, ben Gode een offerboet,</l>
+						<l>Een eenigh kint, mijn ziel, mijn hartebloet,</l>
+						<l>Gehouden op te draegen, droef en druckigh.</l>
+					</sp>
+					<sp who="#wetgeleerde">
+						<speaker>Wetgeleerde</speaker>
+						<l>Wie zijn geluck niet kent leeft ongeluckigh</l>
+						<l>In rijck bezit. wat baete al' s aertrijcks schat</l>
+						<l>Den eersten mensch, die 't paradijs bezat,</l>
+						<l>En onvernoeght noch, tegens 's hemels wetten,</l>
+						<l>Zijn lippen aen verboden ooft wou zetten;</l>
+						<l>Waerop Godts vloeck hem van dit erf verstack</l>
+						<l>In ballingschap, verdriet, en ongemack?</l>
+						<l>Zoo gaet het u. Godt zegende u met faeme,</l>
+						<l>En eere, en staet, en d'eenige erfgenaeme,</l>
+						<l>Uw hoop, en vreught: en wilt gy, tegens Godt,</l>
+						<l>En zijne wet, en uitgedruckt verbodt,</l>
+						<l>Haer offeren? wat plaegh verruckt uw zinnen!</l>
+						<l>Natuur leerde elck zijn kinders trouw beminnen,</l>
+						<l>Heeft kinderliefde en trouw in rots noch steen,</l>
+						<l>Maer in het hart der ouderen gesneên,</l>
+						<l>Gelijck een wet. zy planteze oock in dieren,</l>
+						<l>Die door de lucht op hunne pennen zwieren,</l>
+						<l>Of zwemmen in de zee, en watervloên,</l>
+						<l>Of weiden in geberghte, en klavergroen.</l>
+						<l>De pellikaen, by mangel van den regen,</l>
+						<l>En water, laet de jongen niet verlegen,</l>
+						<l>Maer opent zelf alle aders in zijn borst,</l>
+						<l>En tapt het bloet van 't hart, om hunnen dorst</l>
+						<l>Te lesschen, hen te spijzen met zijn spieren.</l>
+						<l>Gy hoort den leeu, en beer, en tyger tieren,</l>
+						<l>En brullen, zoo de jaeger 't nest berooft.</l>
+						<l>Wat mensch is dan zoo dol, die noch gelooft</l>
+						<l>Den goeden Godt met bloedige offerhanden</l>
+						<l>Van kinderen te paeien; zoo de landen,</l>
+						<l>Bevochtight van Eufraet, en vruchtbren Nijl,</l>
+						<l>Zelfs vreemt zijn van dien wreeden offerstijl!</l>
+						<l>De Godtheit der aertsvaderlijcke stammen</l>
+						<l>Eischt 's menschen hart, en zuivere offervlammen,</l>
+						<l>Gehoorzaemheit, en geensins menschevleisch.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Heeft Abraham, op 's hemels last en eisch,</l>
+						<l>Zijn' eenigen en lieven eerstgeboren,</l>
+						<l>Waerin hem zulck een zegen was beschoren,</l>
+						<l>Niet op den bergh gevoert, op 't hout geleit?</l>
+						<l>Stont Abraham niet willigh, en bereit</l>
+						<l>Om Isack met zijn blanck geweer te treffen?</l>
+						<l>Was 't gruwelijck? hoe loven en verheffen</l>
+						<l>Dan engelen en menschen hem zoo hoogh?</l>
+					</sp>
+					<sp who="#wetgeleerde">
+						<speaker>Wetgeleerde</speaker>
+						<l>De Godtheit zagh met haer genadigh oogh</l>
+						<l>Dit aen, verboodt by tijts den zoon te dooden.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Godt had nochtans dit offer hem geboden.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Tot eene proef van's mans gehoorzaemheit,</l>
+						<l>Geloof, en trouw, die, meer dan os, en geit,</l>
+						<l>En stier, en ram, den oppersten gevallen;</l>
+						<l>Want d'opperste behoeft nog vee, noch stallen:</l>
+						<l>De Godtheit eischt gehoorzaemheit, en 't hart.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Daer deert het my. dat is het dat my smert.</l>
+					</sp>
+					<sp who="#wetgeleerde">
+						<speaker>Wetgeleerde</speaker>
+						<l>Wat smert u?</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Dat ick Godt verongelijcke,</l>
+						<l>Zoo 't hart hem niet gehoorzaeme, en dit blijcke</l>
+						<l>Doer 't offer, hem belooft voor d'overhant.</l>
+						<l>Ick steecke in schult: belofte is een verbant.</l>
+						<l>Hier staet mijn ziel geketent, en gebonden.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Gy hebt door die belofte u onderwonden</l>
+						<l>Het geen noit mensch vermoght?</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Ben ick geen heer</l>
+						<l>Van mijne vrucht?</l>
+					</sp>
+					<sp who="#wetgeleerde">
+						<speaker>Wetgeleerde</speaker>
+						<l>Zoo verre het tot eer</l>
+						<l>Der Godtheit streckt: nu streckt uw dwaes beloven</l>
+						<l>Ten laster van Godts naem en eer daer boven.</l>
+						<l>Indien gy dees belofte uitwercken zult,</l>
+						<l>Uw ziel vervalt dan allerdiepst in schult.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Is 't redelijck zijn' dieren eedt te breecken?</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Volbrengt gy dien, de hooghste zal het wreecken.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>De wetbelofte is vast by Godt gestelt.</l>
+					</sp>
+					<sp who="#wetgeleerde">
+						<speaker>Wetgeleerde</speaker>
+						<l>In billijckheit; geen reuckeloosheit gelt,</l>
+						<l>Noch kan voor Godt bestaen, in geene wijze.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Het voeght niet dat een vorst zich zelven prijze:</l>
+						<l>Maer gy, die licht en duisternissen scheit,</l>
+						<l>Alziende Godt, ô aldoordringentheit,</l>
+						<l>O engelen, in 't eeuwigh licht, daer boven</l>
+						<l>Zoo hoogh verlicht, gy weet hoe mijn beloven,</l>
+						<l>In 't dringenste en in 't nijpen van dien noot,</l>
+						<l>Uit loutre liefde, en gloênden yver sproot,</l>
+						<l>Om Godts altaer en erfdeel met deze ermen</l>
+						<l>Te zuiveren, en geensins in t'beschermen</l>
+						<l>Van Moses wet t'ontbreecken, na een juck</l>
+						<l>Van achtien jaer, te jammerlijck in druck</l>
+						<l>By 't volck bezuurt. hoe kan een rein geweeten</l>
+						<l>Godts weldaên, en zich zelf zoo gansch vergeeten!</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Wy volgen u, zoo ver het Godt gehengt.</l>
+					</sp>
+					<sp who="#wetgeleerde">
+						<speaker>Wetgeleerde</speaker>
+						<l>Uw yveren was loflijck, maer gemengt</l>
+						<l>Met onverstant.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Uw ooghmerck was Godt eeren:</l>
+						<l>Maer 't middel strijt recht tegens Godts begeeren.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Wat middel kan my van dien bant ontslaen?</l>
+					</sp>
+					<sp who="#wetgeleerde">
+						<speaker>Wetgeleerde</speaker>
+						<l>Danckofferen, dat wettigh magh bestaen.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Mijn heilige eedt is my een wet geworden.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Een gruwelwet. zy strijt met Moses orden,</l>
+						<l>En Godts verbodt, raeckt Godt aen zijne kroon.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Hoe luidt dan dit verbodt?</l>
+					</sp>
+					<sp who="#wetgeleerde">
+						<speaker>Wetgeleerde</speaker>
+						<l>Gy zult niet doôn.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Ick ben hier zelf gewettight tot 's lants rechter.</l>
+					</sp>
+
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Op dat gy 't recht hanthaven zoudt: en echter</l>
+						<l>Beneemtge uw huis het recht, te byster blint.</l>
+					</sp>
+					<sp who="#wetgeleerde">
+						<speaker>Wetgeleerde</speaker>
+						<l>'t Is billijck dat de wet en 't recht begint</l>
+						<l>Van 't hooft des rechts, indien dit qualijck oordeelt,</l>
+						<l>Zoo sterckt de mont van 't recht, door zulck een voorbeelt</l>
+						<l>Het onrecht, om met wetteloozen toom</l>
+						<l>Het ongelijck te volgen, zonder schroom.</l>
+						<l>Godt wort, indien een staetloos man verbastert</l>
+						<l>Van zijnen plicht, ontheilight, en gelastert,</l>
+						<l>Maer allermeest zoo 't hooft van 't vry gebiet</l>
+						<l>Hier afdwaelt: want al 't volck, dat op hem ziet,</l>
+						<l>Wort schandelijck ge-ergert; dat verloopen</l>
+						<l>Te gulziger, als water, ingezopen.</l>
+						<l>Dat evel kruipt van 't hooft door al de leên,</l>
+						<l>Gelijck de wolf, of kancker. geef dan geen</l>
+						<l>Aenvoedtzel tot misbruicken, en schandaelen.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Moght ick dees schult zelf boeten en betaelen</l>
+						<l>Met dezen hals, wat waer het my een vreught!</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Haer leven hangt aen uwen wil. gy meught</l>
+						<l>Haer spaeren.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Wie kan my dees schult vergeven?</l>
+					</sp>
+					<sp who="#wetgeleerde">
+						<speaker>Wetgeleerde</speaker>
+						<l>Godts priester. hy ontslaet u: laetze leven.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Ontsloeghme mijn geweeten?</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Wat is dit</l>
+						<l>Geweeten, dat wijt afdwaelt van Godts wit?</l>
+						<l>Men magh geen quaet met schijn van goet verbloemen,</l>
+						<l>Onweetenheit een rein geweeten noemen.</l>
+						<l>Wilt gy naer een gerust geweeten staen,</l>
+						<l>Volgh 's hemels wet: want onrust vangt eerst aen,</l>
+						<l>Zoo ras men wijckt van Godts gezetten regel.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Een drift van Godt inwendigh steeckt het zegel</l>
+						<l>Aen 't werck, waerin men zijn genegentheên</l>
+						<l>Versterft, en breeckt, ten prijs van Godt alleen.</l>
+					</sp>
+					<sp who="#wetgeleerde">
+						<speaker>Wetgeleerde</speaker>
+						<l>Zegh Godt ten vloeck. zoo tergt men 's hemels toren.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Laet d'uitspraeck des aertspriesters hier op hooren.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Heel gaerne, indien dit offer uitstel lijdt.</l>
+					</sp>
+					<sp who="#wetgeleerde">
+						<speaker>Wetgeleerde</speaker>
+						<l>Men borght een schult, noch schelt men die niet quijt.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Een dagh of vijf is haest voorby gegleden.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>De tijt is uit: nu gelden geen gebeden.</l>
+					</sp>
+					<sp who="#wetgeleerde">
+						<speaker>Wetgeleerde</speaker>
+						<l>d'Aertspriester wort geraeckt in deze daet.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Godt is mijn burgh, en vaste toeverlaet.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Zult gy zoo los 's aertspriesters raet versmaeden?</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Ick heb my nu met Godt hier op beraeden.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>d'Aertspriester is tot middelaer gezet,</l>
+						<l>Om, tusschen Godt en ons, door zijn gebedt</l>
+						<l>En offerhande alle ongelijck te slechten.</l>
+						<l>Hy is gestelt tot rechter, om te rechten</l>
+						<l>In 't heilighdom, naer eisch van elcke zaeck,</l>
+						<l>Wanneer Godts boeck een tong eischt, en een spraeck,</l>
+						<l>De boeckstaef wort misduit door avrechts spellen.</l>
+						<l>Hy magh geen punt in Moses bladt herstellen,</l>
+						<l>Maer houden elcks betekenis in kracht.</l>
+						<l>Hy zit naest Godt op stoel, als eerste maght,</l>
+						<l>Behantvest met het recht van doot en leven.</l>
+						<l>Vertrouw hy zal u haest eene uitkomst geven,</l>
+						<l>U redden in dit hachelijck geval.</l>
+						<l>Verzuimt gy 't, denck dat u dit rouwen zal.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Mijn hart wert sterck van 's hemels geest gedreven,</l>
+						<l>Toen ick, getroost te sterven, of te leven,</l>
+						<l>Godts volck, en Godt ten dienste, heenevoer,</l>
+						<l>Den oppersten eene offerhande zwoer</l>
+						<l>Te heiligen. nu buiten mijn vermoeden</l>
+						<l>Dit uitvalt, en d'onnoosle maeght moet bloeden,</l>
+						<l>Vertroostme dat Godts geest mijn' yver steef.</l>
+						<l>d'Aertspriester hou zijne eer, en waerde: ick leef</l>
+						<l>Nu raet met Godt: hier gelt geen tegenreden.</l>
+						<l>Gy zult met uw Levijten 't feest bekleeden,</l>
+						<l>En 't offerlam geleiden aen mijn zy.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Ontschuldigh ons.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Ick neem den last op my.</l>
+						<l>Laet d'opspraeck vry alleen op Jeptha kleven,</l>
+						<l>Alle eeuwen vry hun oordeel hier op geven.</l>
+						<l>Dit vonnis houdt zijn kracht: het leght gevelt.</l>
+					</sp>
+					<sp who="#wetgeleerde">
+						<speaker>Wetgeleerde</speaker>
+						<l>Ontschuldigh ons genadigh, braefste helt.</l>
+						<l>Hoe wil de stadt en 't lant hier over krijten!</l>
+						<l>Ontwijt men dus den vryburgh der Levijten,</l>
+						<l>De hooge school der wetgeleertheit! och,</l>
+						<l>Bedenck u: staeck dit gruwzaem opzet toch.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>De zon is hoogh; het hof verwachtme binnen.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Wat gaet ons aen?</l>
+					</sp>
+					<sp who="#wetgeleerde">
+						<speaker>Wetgeleerde</speaker>
+						<l>Wat zullen wy beginnen?</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Mijn Jonathan, trouwhartighste Levijt,</l>
+						<l>Beschry terstont den postmuil. vliegh den tijt</l>
+						<l>Met kracht voorby. ontdeck mevrouw dees treken.</l>
+						<l>Zoo zy haer kint wil levend zien en spreecken,</l>
+						<l>'t Is tijt, hoogh tijt, om herwaert aen te spoên.</l>
+						<l>Zy juicht in 't heir, en heeft geen quaet vermoên.</l>
+						<l>Men triomfeert om d'Efraïmsche bossen.</l>
+						<l>De moeder kon misschien haer kint verlossen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>HOFPRIESTER. HOFMEESTER.</stage>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Hofmeester, waer verzeilen wy alreê?</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Hy hoorde u?</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Ja, gelijck een rots in zee</l>
+						<l>Naer 't barnen en gebruisch der baren luistert.</l>
+						<l>By vlaegen wort de klaere zon verduistert</l>
+						<l>Van eene wolck: noch breecktze na of voor</l>
+						<l>Met eene strael, ter zijde of elders, door:</l>
+						<l>Maer 't licht van 't brein is hier te dicht besloten.</l>
+						<l>Nu drijft hy noch dat wy altaergenooten,</l>
+						<l>Wy priesters, wy Levijten [uitgelot</l>
+						<l>Om, onderdaen en zedigh, onder Godt</l>
+						<l>Alleen te staen, en zijne stedehouderen</l>
+						<l>d'Aertspriestren,] dit met onzen hals en schouderen</l>
+						<l>Zelfs stutten, en dien kindermoort bekleên.</l>
+						<l>Hofmeester, denck, ay denck waer wil dit heen.</l>
+						<l>Hy, van een' geest der dwaelingen gedreven,</l>
+						<l>Pooght zijne drift een' schoonen schijn te geven</l>
+						<l>Door ons gezagh: en worden wy gedaeght</l>
+						<l>Te Silo: zoo ons Amarias vraeght</l>
+						<l>Op welck een' voet wy, tegens Moses regelen,</l>
+						<l>Oock zonder 't hoofd te kennen, dit bezegelen,</l>
+						<l>Dit stercken met ons tegenwoordigheit:</l>
+						<l>Wat middel om, voor Arons stoel, dit pleit,</l>
+						<l>Dit bloedigh pleit, rechtmaetigh uit te voeren?</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Ontvaltge hem, het zal den staet beroeren.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Bestemmen wy 't, de godtsdienst krijght gewis</l>
+						<l>Een schantvleck, die niet af te wasschen is.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Hy draegh' de schult, die niet voor u wll buigen.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Wat raet dan?</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Laet voor 't hofgerecht betuigen</l>
+						<l>Dat gy hier toe geperst wort. scheur uw kleet,</l>
+						<l>Tot een bewijs van rouw, en harteleet.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Hoe durf de vorst Godts volck zoo lastigh vallen?</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>De vorst draeght eerst den zwaersten last van allen.</l>
+						<l>De vader sterft de doot, in 's dochters smert,</l>
+						<l>Dies trapt hem, schoon gy recht hebt, niet op 't hart.</l>
+						<l>Hy heeft al 't lant, den godtsdienst eerst, verdaedight,</l>
+						<l>Het priesterdom behantvest, begenadight,</l>
+						<l>Uwe inkomst, noch uw tienden noit besnoeit</l>
+						<l>In oorloghslast. gy zaeght hem noit vermoeit</l>
+						<l>In 't yveren, en menighmael in traenen,</l>
+						<l>Of blijdelijck de feest, en nieuwe maenen</l>
+						<l>Toejuichen, met de vreught in 't aengezicht.</l>
+						<l>'k Verzwijgh hoe hy de wetschool bouwt en sticht,</l>
+						<l>En luistert naer den mont der wetgeleerden,</l>
+						<l>Afkeerigh van waenwijzen, en verkeerden.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Zoo raetge ons niet te treên in dit geschil?</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Om 's vaders, of ten minste om 's dochters wil.</l>
+						<l>Uw byzijn zal haer troosten in dit lijden,</l>
+						<l>Uw zegen haer in 't uiterste verblijden,</l>
+						<l>Om moediger naer 't hofaltaer te treên.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Hoe draeghtze zich?</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Groothartigh, niet als een</l>
+						<l>Die sterven moet, maer rustiger, en stouter.</l>
+						<l>Op 't voorhof staet, helaes, het deerlijck outer</l>
+						<l>Met rijs gedeckt, waerop zy knielen zal.</l>
+						<l>Dit worstelperck des doots is overal</l>
+						<l>Met maeghdepalm bestroit, in geen saizoenen</l>
+						<l>Verwelckbaer; zuil en hofmuur met feestoenen</l>
+						<l>En hoftapijt behangen in 't vierkant.</l>
+						<l>Natuur en kunst ontzeggen niet de hant</l>
+						<l>Te houden aen den schouburgh, die het leven</l>
+						<l>Aen menigh moort-en-treurtooneel zal geven;</l>
+						<l>Zoo menighmael godtvruchtigh dichtvernuft</l>
+						<l>Den treurtoon, die alle andren toon verbluft,</l>
+						<l>Op Jeptha zet, in tijt van pais, en stilten,</l>
+						<l>Om 't volck te zien in bloet aen traenen smilten,</l>
+						<l>Den schouwburgh root geverft in maeghdenbloet:</l>
+						<l>Want schreien is oock aengenaem en zoet,</l>
+						<l>Zet hartewee, lang aengegroeit by droppen,</l>
+						<l>Met kracht van 't hart, na'et langkzaem innekroppen.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Hoe kleetze zich? ich denck geheel in rouw.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>In bruitsgewaet, als eene die haer trouw</l>
+						<l>En blijde hant den bruidegom zal schencken.</l>
+						<l>Hier komt noch doot, noch leven in bedencken.</l>
+						<l>De lelien van gout, in 't sneeuw gespreit</l>
+						<l>Van 't onderkleet der maeght, haer zuiverheit,</l>
+						<l>Onnozelheit, en vast geloof afmaelen.</l>
+						<l>Het opperste gewaet, vol zonnestraelen</l>
+						<l>In purper, en doorgloeit van 't zonneroot,</l>
+						<l>Sleept achter na, vloeit met zijn' rijcken schoot</l>
+						<l>Van vore om laegh. geen ring, noch halskarkanten</l>
+						<l>Van perlen, noch onschatbre diamanten</l>
+						<l>Ontbreecken hals, en hant. het blonde haer,</l>
+						<l>Met geur gepoêrt, vloeit neder, als een baer</l>
+						<l>Van gout in zee, van achter met zijn glanssen,</l>
+						<l>Waerop de kroon om 't hooft sluit, met dry transsen</l>
+						<l>In top, gelijck een myter opgehaelt,</l>
+						<l>Die met gesteente en met karboncklen praelt.</l>
+						<l>Hier toonen deught en schoonheit haer vermogen.</l>
+						<l>Onsterflijckheit ziet haer alreê ten oogen</l>
+						<l>En aenschijn uit. wat ziel wort ingetoomt!</l>
+						<l>Wie spat niet uit, zoo zy te voorschijn koomt!</l>
+						<l>Kan Jeptha dat gezicht alleen verdraegen;</l>
+						<l>Gewis hy heeft noit grooter slagh geslaegen;</l>
+						<l>Dies bidde ick: sla hem zijn verzoeck niet af.</l>
+						<l>Hy staet noch, maer met eenen voet in 't graf.</l>
+						<l>Godt spaere hem, tot heil van bey de staeten.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Nu 't wezen moet, wy stellen ons gelaeten.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<stage>REY. HOFMEESTER.</stage>
+					<sp who="#rey-van-maeghden">
+						<speaker>Rey</speaker>
+						<l>Vergeef het ons, hofmeester, vallen wy</l>
+						<l>U lastigh: want dit schricklijcke offerty</l>
+						<l>Ontraet de hulck van' 't hof niet zeil te minderen.</l>
+						<l>Wat uitstels kan het offren niet verhinderen.</l>
+						<l>Een be verzocht d'onnoosle, moght het zijn:</l>
+						<l>Verwerf dat zy, in dezen jongsten schijn,</l>
+						<l>Haer moeder noch eens spreeck' voor 't allerleste.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>'k Verzocht dit by den vader, haer ten beste,</l>
+						<l>Uit haeren naem. hy weigert het uit geen</l>
+						<l>Quaetwilligheit, maer met gezonde reên.</l>
+					</sp>
+					<sp who="#rey-van-maeghden">
+						<speaker>Rey</speaker>
+						<l>Al is hier 't bloên der hartaêr niet te stelpen,</l>
+						<l>Dees halsquetsuur met geene artsny te helpen:</l>
+						<l>Onheelbaer quaet wort dickwijl noch verzacht.</l>
+						<l>Indien men op haer moeders komste wacht,</l>
+						<l>Die aenspraeck zou 't verwezen hart noch stercken:</l>
+						<l>Hoewel men niet aen haer gelaet kan mercken</l>
+						<l>Dat zy verflaeut. de godtgewijde bruit</l>
+						<l>Staet offerreede, en stapt getroost vooruit.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Bedenck het na. gy wilt het topzeil zwichten</l>
+						<l>In dezen storm. is dat de hulck verlichten,</l>
+						<l>In 't uiterste, in het barnen van dien noot?</l>
+						<l>Men klampt aldus veel dooden op een doot.</l>
+						<l>Als een leeuwin, of tygerin opdondert,</l>
+						<l>Het hongrigh nest berooft vint, en geplondert</l>
+						<l>Van 't lieve jong, aen haere speen gevoedt,</l>
+						<l>Geaest, gelaeft met melck, en zuiver bloet,</l>
+						<l>Haer van het hart gezogen, na de vlaegen</l>
+						<l>Voor 't worpen, eerst met smerte aen 't hart gedraegen:</l>
+						<l>Hoe vlieghtze voort den rover na. zy brult.</l>
+						<l>Woestijn, en woudt, van yslijckheên gevult,</l>
+						<l>Staen overent. niet tammer, maer verwoeder</l>
+						<l>Van ongedult, zoudt gy de dolle moeder</l>
+						<l>Haer nagels fel zien zetten in het licht</l>
+						<l>Der oogen van haer' man; hem in 't gezicht</l>
+						<l>Aengrijpen; niet met handen, maer met klaeuwen</l>
+						<l>Gewapent hem aenranden, onder 't flaeuwen</l>
+						<l>Der bleecke maeght, die nu, al offerreedt,</l>
+						<l>De doot getroost, van doot noch sterven weet.</l>
+						<l>De vader, die, verknocht aen zijn geweten,</l>
+						<l>Niet wijcken wil, moght nutter aen een keten</l>
+						<l>Zijn gemaelin dan sluiten, eer haer hant</l>
+						<l>Dit heerlijck hof kranckzinnigh staecke aen brant,</l>
+						<l>En zy in 't vier uit wanhoop quam gesprongen.</l>
+						<l>Wat dunckt u? waer 't dan nut wat tijts bedongen?</l>
+						<l>Wat rijp is lijt geen uitstel: hoe het zy,</l>
+						<l>Het uitstel brengt dan niet als schade by.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<stage/>
+					<sp who="#rey-van-maeghden">
+						<speaker>I. Zang</speaker>
+						<l>Toen d'oude dwinglant van den Nijl</l>
+						<l>Besloot Godts stamhuis plat te treden,</l>
+						<l>De droeve Jochebed een wijl</l>
+						<l>Het kraemkint berghde, en door haer leden</l>
+						<l>Alle oogenblick een grilling ging,</l>
+						<l>En angstigh aen elck haer,</l>
+						<l>In schrickelijck gevaer,</l>
+						<l>Een druppel dootzweet hing:</l>
+						<l>Het minste ruisschen van een bladt</l>
+						<l>De kraemvrou, al te vroegh,</l>
+						<l>Met kracht ter nedersloegh,</l>
+						<l>Belaên met haeren schat:</l>
+						<l>Bevalze, uit hoogen noot, het kint,</l>
+						<l>In eenen rieten kist verborgen,</l>
+						<l>De wufte gunst van stroom, en wint,</l>
+						<l>En 's hemels vaderlijcke zorgen.</l>
+						<l>Godt weet hoe 't moederlijcke hart,</l>
+						<l>In dien bedruckten stant,</l>
+						<l>Om 't kostelijcke pant</l>
+						<l>Beklemt was en benart:</l>
+						<l>Toen zy 't op 't water drijven liet,</l>
+						<l>De zuster al belaên</l>
+						<l>Het stil zou gadeslaen,</l>
+						<l>Gedoken achter 't riet.</l>
+					</sp>
+					<sp who="#rey-van-maeghden">
+						<speaker>I. Tegenzang</speaker>
+						<l>Hoe kon d'ondanckbre vorst zoo haest</l>
+						<l>Dien voesterheer des volcks vergeeten,</l>
+						<l>Al Josefs weldaên! och, hy raest,</l>
+						<l>Gelijck een tiger, van zijn keten</l>
+						<l>Geborsten, om onnozel bloet,</l>
+						<l>De toevlught der Hebreen,</l>
+						<l>Oock zonder recht, en reên,</l>
+						<l>Te plompen in den vloet:</l>
+						<l>De manlijcke afkomst algelijck</l>
+						<l>De telgen, uit den stam</l>
+						<l>Geteelt van Abraham,</l>
+						<l>Te roien uit het rijck.</l>
+						<l>De krokodil, dat moortgedroght,</l>
+						<l>Verschoonde 't kint uit mededoogen.</l>
+						<l>Denck of zijn moeders achterdocht</l>
+						<l>Dit hartewee alleen haere oogen,</l>
+						<l>En Gode klaeghde, daerze zat</l>
+						<l>Op d'oevers van den vliet.</l>
+						<l>Wat kermt, wat klaeghtze niet,</l>
+						<l>Van zuchten afgemat!</l>
+						<l>Hoe kropte zy de jammerklaght</l>
+						<l>Inwendigh, en zagh, stom</l>
+						<l>Van angst en dootschrick, om,</l>
+						<l>Beducht voor 's konings wacht!</l>
+					</sp>
+					<sp who="#rey-van-maeghden">
+						<speaker>II. Zang</speaker>
+						<l>d'Alziende wachter, die noit sliep,</l>
+						<l>En Jakobs afkomst trou bewaeckte,</l>
+						<l>Zagh uyt den hemel neêr, zoo diep,</l>
+						<l>Op 't vlotend kraemkint: dat genaeckte</l>
+						<l>Den oever, daer de koningin</l>
+						<l>De dochter, in het groen</l>
+						<l>Van 't lachende saizoen,</l>
+						<l>Verquickte hart en zin.</l>
+						<l>Het kleentje viel haer in den schoot,</l>
+						<l>Al schreiende. zy kust</l>
+						<l>En welkomt het met lust,</l>
+						<l>Beschut voor 's waters noot.</l>
+						<l>Zy koestert het aen 's moeders borst,</l>
+						<l>En treckt het heerlijck op in 't ende,</l>
+						<l>Voor haeren zoon, gelijck een' vorst,</l>
+						<l>Tot dat het, na geleên elende,</l>
+						<l>Zijn stamhuis ruckte uit Faroos maght,</l>
+						<l>Die voort met zwaert en speer,</l>
+						<l>In 't midden van het meer,</l>
+						<l>Het roode meer, versmacht:</l>
+						<l>Daer Godts genootschap op het strant</l>
+						<l>Met zang en spel Godt looft,</l>
+						<l>En aller stammen hooft,</l>
+						<l>Gehanthaeft van Godts hant.</l>
+					</sp>
+					<sp who="#rey-van-maeghden">
+						<speaker>II. Tegenzang</speaker>
+						<l>Och, of Godt mede eene uitkomst gaf</l>
+						<l>Aen Ifis onbewuste moeder,</l>
+						<l>Ten beste van haer vrucht, dus straf</l>
+						<l>Te handelen van haeren hoeder,</l>
+						<l>En eigen vader, om een woort,</l>
+						<l>Een' onbeschaefden eedt,</l>
+						<l>Te stercken overwreet</l>
+						<l>Door 't offer, noit gehoort:</l>
+						<l>Zoo moght haer dochter noch, ten stut</l>
+						<l>Des lants, een' braven helt</l>
+						<l>Gewinnen, die in 't velt,</l>
+						<l>Als Moses, 't volck beschut.</l>
+						<l>Wat zal men eerst beklaegen, of</l>
+						<l>De schoonheit, of het jonge leven,</l>
+						<l>Of haer stantvastigheit? een stof</l>
+						<l>Voor dichteren, om op te zweven.</l>
+						<l>Wat gaet de ontstelde moeder aen,</l>
+						<l>Als zy, verheught van geest,</l>
+						<l>Op 't blijde zegefeest,</l>
+						<l>Dit jammer zal verstaen?</l>
+						<l>Waer me verschoonen wy voor haer</l>
+						<l>Ons stillezwijgentheit</l>
+						<l>Van 't offer, lang beschreit?</l>
+						<l>O schendigh moortaltaer!</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="4">
+
+				<head>Het vierde bedryf.</head>
+				<div type="scene" n="1">
+					<stage>IFIS. HOFPRIESTER. JEPTHA. HOFMEESTER.</stage>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>Geen hygend hart, vervolght, en afgeronnen,</l>
+						<l>Verlangde oit meer naer koele waterbronnen,</l>
+						<l>Als mijne ziel, na zoo veel strijts, verlangt</l>
+						<l>En hijght naer Godt, waer aen mijn leven hangt,</l>
+						<l>Der zielen troost in 't eeuwigh licht t'aenschouwen,</l>
+						<l>Daer engelen om strijt zijn' lof ontvouwen.</l>
+						<l>Hoe lust het my in Godts onsterflijckheit</l>
+						<l>Te deelen, daer men nimmer zucht noch schreit,</l>
+						<l>Maer eeuwigh rust, bevrijt van zorgh en kommer,</l>
+						<l>In vrede, en stilte, in liefelijcke lommer!</l>
+						<l>Hofpriester, gy gewijde zegenaer,</l>
+						<l>En godtstolck, die u draeght als middelaer,</l>
+						<l>Om, tusschen Godt en menschen, Godt te paeien,</l>
+						<l>Het wierroockvat den hooghsten toe te zwaeien;</l>
+						<l>Geleime, op dat, zoo hoogh uit onzen dagh,</l>
+						<l>Mijn offer Gode alleen behaegen magh.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>O schoone ziel, hoe deeltge in 's hemels schatten</l>
+						<l>Alree zoo diep, die door 't geloof kunt vatten,</l>
+						<l>Dat weinigen begrijpen, hier beneên!</l>
+						<l>Gy zijt alree met Godt den schepper een,</l>
+						<l>Een hart, een ziel; en uwe ziel, ontslagen</l>
+						<l>Van 't sterflijck pack, is boven alle vlaegen</l>
+						<l>Van weereltsheit, en jammer, vry van smet,</l>
+						<l>In staet van rust en zekerheit gezet.</l>
+						<l>Het alziende oogh ziet neêr door alle starren,</l>
+						<l>En nevels, hoe wy hier beneden warren</l>
+						<l>In schaduwen, verbystert, en verblint</l>
+						<l>Van aerdtscheit, daer men troost noch heil by vint.</l>
+						<l>Geene aerdtscheit kan den rijcksten mensch meer geven</l>
+						<l>Dan aerdtsch genot, een kort onzeker leven,</l>
+						<l>Vol zwaerigheên. men pluckt geen roos, of voelt</l>
+						<l>Den doren, die de hant quetst. hoe men woelt</l>
+						<l>Om rijckdom; hoe men zweet om eer en staeten;</l>
+						<l>'t Genoegen vlught. al laegen al de straeten</l>
+						<l>Met kroonegout en scepteren bezaeit,</l>
+						<l>En diamant, en perlen: schijngoet paeit</l>
+						<l>Geen' gierigaert; geen wellust wulpsche zinnen.</l>
+						<l>In Gode is 't al, daer buiten niets te winnen.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Gy gaet dan heen naer vader Abraham,</l>
+						<l>En Josef, en Manasse, vaders stam.</l>
+						<l>De weerelt zijt gy moedigh doorgestreden:</l>
+						<l>Uw vader blijft in traenen hier beneden,</l>
+						<l>Dus kinderloos, en zonder erfgenaem.</l>
+						<l>Nu kan noch staet, zeeghaftigheit, noch faem,</l>
+						<l>Noch heerschappy hem troosten, en genoegen.</l>
+						<l>De lantman hoopt, na zweet, en lastigh ploegen,</l>
+						<l>En zaeien, op den zegenrijcken oogst,</l>
+						<l>Die hem in 't endt met aeren kroont, en troost;</l>
+						<l>En ick, helaes, zie hier, na d'oorloghsvlaegen,</l>
+						<l>Mijn korenbloem gezengt, en neêrgeslaegen,</l>
+						<l>Mijn huwlijckshoop en vreught te leur gestelt.</l>
+					</sp>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>Ter weerelt is'er niets dat Ifis quelt</l>
+						<l>Dan vaders smert; dies wenscht zy alle rampen</l>
+						<l>Van vader noch op haere doot te klampen,</l>
+						<l>Zoo 't mooghlijck waer. zy wenscht oock na haer doot</l>
+						<l>Te deelen in der oudren druck en noot.</l>
+						<l>Wat kanze meer?</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Geslage bloem, en lover,</l>
+						<l>Och dochter, hebt gy noch voor vader over,</l>
+						<l>En lijdt gy niet genoegh by vaders schult?</l>
+					</sp>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>Ick bidde Godt dat hy u met gedult</l>
+						<l>Begiftige, om dit rustigh uit te harden.</l>
+						<l>Ay vader, scheur uw kleeders niet aen flarden.</l>
+						<l>Keer 't aenzicht niet weemoedigh van my af.</l>
+						<l>Mijn sterven is een zegen, geene straf.</l>
+						<l>Gehoorzaemheit, vrywilligh voorbereiden</l>
+						<l>Zijn speelnoots, die my naer dees staetsi leiden.</l>
+						<l>Ick reken 't my ter eere toe naest Godt,</l>
+						<l>Uitdeeler van een ieders staet, en lot.</l>
+						<l>Ick durf de doot nu onder d'oogen tergen.</l>
+						<l>Zoo 't anders lagh: men had my op de bergen</l>
+						<l>Geborgen, of by tijts een wisse wijck</l>
+						<l>En vryburgh opgespoort, in 't heidensch rijck.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Hoe kan dees hant dien blancken hals doorhouwen,</l>
+						<l>Dat zuiver sneeuw?</l>
+					</sp>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>Volgh Abram, dien getrouwen</l>
+						<l>Aertsvader, vorst en spiegel van 't geloof,</l>
+						<l>Dat Godt behaeght.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Waer Jeptha blint, en doof,</l>
+						<l>Hy zaegh u niet, noch zou dit woort niet hooren.</l>
+						<l>Godt geve dat, uit 's hemels negen kooren,</l>
+						<l>Een engel daele, eer Jeptha, dootsch en bleeck</l>
+						<l>Van schrick, u treffe; op dat hy 't slaghzwaert steeck'</l>
+						<l>Onbloedigh in zijn scheede. ô overwreede,</l>
+						<l>Kunt gy dit zwaert wel rucken uit de scheede,</l>
+						<l>En houwen op dit schoone lichaem toe?</l>
+						<l>Waer ben ick? och, wat wordme bang te moe!</l>
+						<l>Hofpriester, och, vergeef het my: aen 't bidden:</l>
+						<l>Och bidt. Godt sterck' mijn kloppend hart, in 'tmidden</l>
+						<l>Der gruwelen, en naere afgrijslijckheên.</l>
+						<l>Wat rust is hier voor my geschapen? neen,</l>
+						<l>Hier is geen rust, geen vreught voor my geschapen.</l>
+						<l>Dit is de helt, die onlangs, braef te wapen,</l>
+						<l>Twee slagen sloegh, zoo stout, en onvermoeit;</l>
+						<l>Daer zoo veel lants, van stroomen bloets bevloeit,</l>
+						<l>Verdroncken leght, en wit bezaeit met schenckel,</l>
+						<l>En beckeneel; daer 't krijghsvolck over d'enckel</l>
+						<l>Door plassen bloets moet waeden. dit's de helt,</l>
+						<l>Die met een' slagh dry reuzen teffens velt.</l>
+						<l>Alle oorloghseer loopt in een' slagh verloren.</l>
+						<l>Daer bloostze, die monarchen zou bekooren,</l>
+						<l>Assyrien, den Persiaen, en Parth.</l>
+						<l>O boezem, steeckt een tiger in dit hart,</l>
+						<l>Geen vaders hart. verschijn uit alle hoecken:</l>
+						<l>Verschijn, en koom den dochterslager vloecken,</l>
+						<l>Wat vloecken kan: 'k heb Godt noch mensch ten vrient.</l>
+						<l>Vloeck Jeptha vry, gelijck dit stuck verdient.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>De lantvooght ga met my wat aen een zijde.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Hofpriester, och, bedenck eens wat ick lijde.</l>
+						<l>Mijn haeren staen te berge. een druppel zweet</l>
+						<l>Hangt aen elck haer. Wat pijnight my zoo wreet?</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Het is geen tijt een veege meer te vergen.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Gord af dit zwaert: gord af. 'k zal 't heimlijck bergen,</l>
+						<l>Bedecken met mijn kleet, op datze niet,</l>
+						<l>Voor 't ende, van inbeelding dootsch verschiet'.</l>
+						<l>Wanneerze knielt op d'oevers van haer leven,</l>
+						<l>Het hofaltaer, zal ick 't u wedergeven.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Daer is het. Och, dat mijn genegenheit</l>
+						<l>Haer schrick aenjaege, in doots verlegenheit,</l>
+						<l>Is wreetheit, geen genegenheit uitdrucken.</l>
+						<l>De droefheit kan het vaders hart verrucken,</l>
+						<l>Dat hy verdwaelt, in dit verbaest beleit,</l>
+						<l>Van reedlijckheit, en van voorzichtigheit.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Gy zult haer hart door dit gekerm vertsaegen.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Hoe kan ick min dan Godt mijn hart uitklaegen?</l>
+						<l>Benyme niet, helaes, een luttel tijt.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Dees weeklaght voedt den innerlijcken strijt,</l>
+						<l>Als oli 't vier: als bulderende vlaegen.</l>
+						<l>De wateren tot aen de starren jaegen.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Bezwijckt de maeght, een maeghdenhart is teêr,</l>
+						<l>Wat gaet ons aen?</l>
+					</sp>
+					<sp who="#ifis">
+						<speaker>Ifis</speaker>
+						<l>Nu kerm, nu klaegh niet meer.</l>
+						<l>Gy waert dus lang mijn vader, mijn behoeder:</l>
+						<l>Nu ken ick Godt: geen vader, geene moeder</l>
+						<l>Heeft langer deel aen Ifis, als voorheen:</l>
+						<l>Die naem heeft uit. De Godtheit is alleen</l>
+						<l>Mijn vader, en mijn moeder beide t'zamen.</l>
+						<l>Nu hoeft gy u dit offer niet te schaemen.</l>
+						<l>Nu is het valsch dat gy uw dochter slaght,</l>
+						<l>Uw eigen bloet zult storten. staeck dees klaght,</l>
+						<l>Dit hartewee: ick ben den hemel eigen.</l>
+						<l>'t Geloof is nu mijn schilt, die op geen dreigen</l>
+						<l>Noch kerven past van zwaert, of iemants hant.</l>
+						<l>Op dezen schilt, van louter diamant,</l>
+						<l>Zal 't snedighste metael in stucken springen,</l>
+						<l>Zoo bros als glas. 't is tijdt Godt lof te zingen.</l>
+						<l>Mijn hart gevoelt alreede een nieuwe kracht,</l>
+						<l>Als Isack, die getroost den slagh verwacht,</l>
+						<l>De weerelt voor zijn sterven afgestorven.</l>
+						<l>Laet rollen 't hooft: de ziel blijft onbedorven,</l>
+						<l>Ontslagen van den hoofdeloozen romp,</l>
+						<l>Een hantvol klay en stof, een aerdtsche klomp.</l>
+						<l>Koom herrewaert, mijn speelgenoots, mijn reien:</l>
+						<l>Het is een tijt van blyschap, niet van schreien.</l>
+						<l>Hoort wacker toe hoe gy u draegen zult.</l>
+						<l>Betaeltme noch deze allerleste schult.</l>
+						<l>Wanneer ick sta voor 't outer, wilt niet schricken,</l>
+						<l>Maer scheit mijn haer in vlechten: valt aen 't stricken,</l>
+						<l>En wint het om mijn hooft, gelijck een kroon,</l>
+						<l>Zoo zal mijn hals gansch bloot staen, en ick, schoon</l>
+						<l>Ten slage, voor den offraer nederknielen.</l>
+						<l>Laet maeghden, zuivre en onbesmette zielen,</l>
+						<l>En zusters my bewaeren, best elck magh,</l>
+						<l>Zorghvuldigh om dit lichaem, na den slagh,</l>
+						<l>In 't vallen met mijn kuisch gewaet te decken.</l>
+						<l>Zoo zal geen oogh mijn zuiverheit bevlecken,</l>
+						<l>Na mijne doot: en, eer men 't lijck verbrant,</l>
+						<l>Dat zy 't in pluimaluin met haere hant</l>
+						<l>Bewimpelen, geen mans mijne eer verkorten.</l>
+						<l>Zy zullen d'asch in deze dootbus storten,</l>
+						<l>Die uwe zorgh bevolen blijft. terstont</l>
+						<l>Het staetsibed gespreit, en zet u ront</l>
+						<l>Om d'offerasch, en dootbus, overscheenen</l>
+						<l>Van lampen, om mijn uitvaert onder 't weenen,</l>
+						<l>Te houden, tot dat moeder, nu niet meer</l>
+						<l>Mijn moeder, uit het leger wederkeer'.</l>
+						<l>Nu kustme noch voor 't leste. ay, feestgenooten,</l>
+						<l>Ay, schrey niet meer. al nats genoegh vergoten:</l>
+						<l>Genoegh geschreit twee maenden achter een.</l>
+						<l>'k Verlaet u, en dees weerelt, ga daer geen</l>
+						<l>Ontsteltenis, geen staetveranderingen</l>
+						<l>Opwellen, noit de starren onder gingen:</l>
+						<l>En nu, Godt lof, aenvaerde ick mijne reis.</l>
+						<l>Vaer eeuwigh wel, ô vaderlijck palais,</l>
+						<l>Daer ick geteelt, en opgevoedt in weelde,</l>
+						<l>My zoo veel staets en ydelheit verbeelde.</l>
+						<l>Aertsvaders, neemt als een danckofferpant,</l>
+						<l>Ontfangt mijn ziel, tot heil van 't vaderlant.</l>
+						<l>Zy raeckt geen aerde, en zweeft u vrolijck tegen.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester:</speaker>
+						<l>Nu kniel: ontfang nu Godts en Arons zegen.</l>
+						<l>Godts aenschijn strael' genadigh van om hoogh</l>
+						<l>U toe, en schijn' door dezen regenboogh</l>
+						<l>Van traenen uit den hemel op u neder.</l>
+						<l>Gy quaemt van Godt: hy wellekomt u weder.</l>
+						<l>Gy maeghden, juicht, en triomfeert met palm:</l>
+						<l>Zy stapt verheught ten outer op dien galm.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage/>
+					<sp who="#rey-van-maeghden">
+						<speaker>I. Zang</speaker>
+						<l>Laet gehoorzaemheit</l>
+						<l>Toonen haer vermogen</l>
+						<l>In dees maeght, bereit</l>
+						<l>Zonder traen in d'oogen,</l>
+						<l>Jammer, en misbaer,</l>
+						<l>In haer lentedagen,</l>
+						<l>Willigh op 't altaer</l>
+						<l>Godt zich op te draegen,</l>
+						<l>Tot een offerhant,</l>
+						<l>Voor het vaderlant,</l>
+						<l>Om den vaderlijcken eedt,</l>
+						<l>En het vast verbont,</l>
+						<l>Godt met vryen mont</l>
+						<l>Toegezworen, eer men street,</l>
+						<l>In zijn kracht te zetten,</l>
+						<l>Zonder dwang van wetten,</l>
+						<l>Tot een' spiegel voor de jeught,</l>
+						<l>Die hier uit zal leeren</l>
+						<l>Godt in d'oudren eeren.</l>
+						<l>O hoe zeldzaem is dees deught!</l>
+					</sp>
+
+					<sp who="#rey-van-maeghden">
+						<speaker>I. Tegenzang</speaker>
+						<l>Wie gerust en stil</l>
+						<l>Zich kan overgeven</l>
+						<l>Aen een anders wil,</l>
+						<l>Zonder wederstreven,</l>
+						<l>In gelaetenheit</l>
+						<l>Tegens eigen oordeel,</l>
+						<l>Dat hier tegens pleit,</l>
+						<l>Afstaen van zijn voordeel,</l>
+						<l>Heeft een stercker maght</l>
+						<l>Onder zich gebragt</l>
+						<l>Dan die heiren overwint,</l>
+						<l>Of het woest gewelt</l>
+						<l>Van een' boschreus velt,</l>
+						<l>Of een' leeuw, die 't al verslint.</l>
+						<l>Keur en zinlijckheden</l>
+						<l>Met den voet te treden,</l>
+						<l>Godt ten prijs, tot 's naesten baet,</l>
+						<l>Is een' strijt gestreden</l>
+						<l>Hooger dan de reden,</l>
+						<l>En 't verstant der wijzen gaet.</l>
+					</sp>
+					<sp who="#rey-van-maeghden">
+						<speaker>II. Zang</speaker>
+						<l>Isack, Abrams zoon,</l>
+						<l>Volghde zijnen vader,</l>
+						<l>Hielt dien hoogen toon.</l>
+						<l>Zietze bey te gader.</l>
+						<l>'t Outer staet gebout.</l>
+						<l>Isack, 's vaders zegen,</l>
+						<l>Knielt op 't offerhout.</l>
+						<l>Abram treckt den degen</l>
+						<l>Om te slaen, als hem</l>
+						<l>d'Engel met zijn stem</l>
+						<l>Uit den hemel tegenhiel,</l>
+						<l>En beval den ram</l>
+						<l>t'Offren in de vlam,</l>
+						<l>Dat den hemel meer beviel</l>
+						<l>Dan den eerstgeboren</l>
+						<l>In zijn bloet te smooren,</l>
+						<l>Met des offraers hart vernoeght,</l>
+						<l>Gode op zijn behaegen,</l>
+						<l>Willigh opgedraegen.</l>
+						<l>Ziet hoe hier die kroon op voeght.</l>
+					</sp>
+					<sp who="#rey-van-maeghden">
+						<speaker>II. Tegenzang</speaker>
+						<l>Isack streeck deze eer,</l>
+						<l>Maer hy moet het geven,</l>
+						<l>Nu een maeght, dus teêr,</l>
+						<l>Niet ontziet haer leven</l>
+						<l>t'Offren onvervaert,</l>
+						<l>Zonder tegenspreecken,</l>
+						<l>Aen heur vaders zwaert.</l>
+						<l>O gehoorzaem teken!</l>
+						<l>d'Eeuwen zullen lang</l>
+						<l>Met tooneelgezang</l>
+						<l>Loven dees heldinnedaet,</l>
+						<l>Die het mannenhart</l>
+						<l>In het knielen tart,</l>
+						<l>Met een ongezwicht gelaet.</l>
+						<l>Och, dat nu een engel</l>
+						<l>Dezen strick ontstrengel,</l>
+						<l>Godt den wil neem' voor het werck.</l>
+						<l>Maer zy voortgedreven</l>
+						<l>Kiest de doot voor 't leven.</l>
+						<l>Yver valt de doot te sterck.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="5">
+
+				<head>Het vyfde bedryf.</head>
+				<div type="scene" n="1">
+					<stage>JEPTHA. HOFPRIESTER.</stage>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>O avontzon, die, steil aen 't overleenen,</l>
+						<l>Uw straelen, nu vermoeit, en afgescheenen,</l>
+						<l>Zult zincken, en in 't westen onder gaen;</l>
+						<l>Jaegh voort, jaegh voort: indienge stil bleeft staen,</l>
+						<l>Of deisde voor dit outer; ras aen 't zincken:</l>
+						<l>Hael in 't verzuim, om andren toe te blincken,</l>
+						<l>Die waerdiger verdienen 't heiligh licht,</l>
+						<l>Den glans van uw gezegent aengezicht,</l>
+						<l>t'Aenschouwen dan dees schelmsche dochterslaghter,</l>
+						<l>Aertsmoordenaer, bloetschender, wetverachter,</l>
+						<l>Die naer den mont der wetgeleerden, noch</l>
+						<l>Godts priesters niet wou luisteren. och, och,</l>
+						<l>Nu gaen te spa, te spa mijne oogen open.</l>
+						<l>Dit outer heeft godtvruchtigh bloet gezopen.</l>
+						<l>Dees handen zien besmet van 't kuische bloet.</l>
+						<l>Geen havicksnest verslint zijn jong gebroet:</l>
+						<l>Geen wollefshol vernielt zijne eige jongen:</l>
+						<l>En ick die 't woên des Heidens heb gedwongen,</l>
+						<l>Afgrijslijckheên, en tygers leide aen bant,</l>
+						<l>Bedwong my niet, noch deze dolle hant,</l>
+						<l>Dus root geverft in 't bloet der zuivere aêren.</l>
+						<l>Ick zie den geest der maeght rondom my waeren.</l>
+						<l>Daer staetze: zie hoe zy noch waert, en spoockt.</l>
+						<l>Legh af dit zwaert, dit gruwzaem zwaert: het roockt</l>
+						<l>Van edel bloet. och, breng het uit mijne oogen,</l>
+						<l>Dat drywerf, uit vertsaechtheit en medoogen,</l>
+						<l>En schrick ontzagh te treffen, toe te slaen</l>
+						<l>Op 't marmerbeelt. helaes, het is gedaen,</l>
+						<l>Mijn eer, mijn staet, mijn bloet, en al verloren.</l>
+						<l>Wat klaegh ick! och, de hemel heeft geene ooren.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Het naberouw volght, als een gezellin,</l>
+						<l>Hardneckigheit, die haeren eigen zin</l>
+						<l>Bewieroockt, meer dan Godt, en Godts beveelen.</l>
+						<l>Een wonde, die zich niet wil laeten heelen,</l>
+						<l>Roept spade om hulp, als 't heelen, lang verlengt,</l>
+						<l>Met groot gevaer van 't leven is gemengt.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Och vader, och, ick heb my zelf verraeden,</l>
+						<l>En voel met recht de nasmert van mijn daeden.</l>
+						<l>'k Heb dwaes belooft, stont stip op dit besluit,</l>
+						<l>En voerde mijn belofte Godtloos uit.</l>
+						<l>Ick ken mijn schult, en worpme voor uw voeten.</l>
+						<l>Bereit, kan 't zijn, dit zwaer vergrijp te boeten.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Dat zwaere stuck eischt rijper overlegh,</l>
+						<l>Een hooger maght.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Verstont ick langs wat wegh</l>
+						<l>Dit lasterstuck te zoenen stont, geen lijden</l>
+						<l>Viel my te zwaer. ich stelde 't hof ter zijden,</l>
+						<l>Vergat mijn' staet en bedgenoote, en al.</l>
+						<l>Geen steile rots viel my te steil, geen dal</l>
+						<l>Te droef, te diep, in op en neêr te stijgen,</l>
+						<l>Door doornehaegh, baervoets, bezweet, te hijgen</l>
+						<l>Naer mijnen aêm. ick trock een hairenkleet</l>
+						<l>Aen 't lijf, en vaste in asch en harteleedt,</l>
+						<l>In eenzaemheit, en wouden, en woestijnen.</l>
+						<l>Bedenck vry, hael te zamen alle pijnen,</l>
+						<l>Weedommen, en verdrieten, en geklagh:</l>
+						<l>Indien ick Godt alleen vermurwen magh,</l>
+						<l>Geen strengheit zal my hinderen, noch keeren.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Hy dwaelt niet heel, die zich wil laeten leeren.</l>
+						<l>Toen d'aerde lagh besmet om 't eerste altaer,</l>
+						<l>En Abels bloet den broedermoordenaer</l>
+						<l>Ter vierschaer daeghde, en wraeck riep, dat, van vreezen</l>
+						<l>En dootschrick, al zijn haeren teffens rezen,</l>
+						<l>Godts donderstem hem dreighde, vloodt hy heen,</l>
+						<l>En kreet verbaest, van wanhoop afgestreên:</l>
+						<l>Wat hebbe ick een groot lasterstuck bedreven!</l>
+						<l>Godt zelf kan my dit nimmermeer vergeven:</l>
+						<l>Doch gy, die uw vergrijp bekent dus spa,</l>
+						<l>Vertwijfelt niet, maer hoopt op Godts gena,</l>
+						<l>Die maghtigh al zijn wercken gaet te boven,</l>
+						<l>Geene engletong genoeghzaem kan volloven.</l>
+						<l>Volhardt in dit betrouwen. treck terstont</l>
+						<l>Naer Silo toe: daer kuntge u met Godts mont</l>
+						<l>Verzoenen, en vergiffenis verwachten.</l>
+						<l>d'Aertsofferaer, de toevlught der geslachten,</l>
+						<l>Die nacht en dagh bespiegelt 's hemels wet,</l>
+						<l>Alleen zijn' voet in 't allerheilighst zet,</l>
+						<l>Godt vraeght om raet, naer Arons stijl en zeden,</l>
+						<l>Zal offeren, en, vierige gebeden</l>
+						<l>Uitstortende, u door middelen en raet</l>
+						<l>Herstellen in den allereersten staet.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Zal ick niet eerst mijn bedgenoot verbeien,</l>
+						<l>Haer ongedult neêrzetten onder 't schreien?</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>In geener wijze. uw tegenwoordigheit</l>
+						<l>Zal 't hartewee verbittren. geen bescheit,</l>
+						<l>Geen reden kan dien stroom van droefheit breecken.</l>
+						<l>Men hoeftze eerst bot te geven, zacht te smeecken,</l>
+						<l>Te handelen omzichtigh, en met schroom:</l>
+						<l>Gelijck een arts het kranckbedde, in den droom</l>
+						<l>Der kortsen, als d'elendige is aen 't woelen,</l>
+						<l>Den brant, in 't brein geslagen, pooght te koelen,</l>
+						<l>Het flaeuwe hart te stercken meer en meer,</l>
+						<l>En na dien brant te koesteren, om weêr</l>
+						<l>Het lijf allengs zijn eerste kracht te geven.</l>
+						<l>Laet my begaen: ick weet met haer te leven.</l>
+						<l>Het heelen van u beide eischt groot gedult,</l>
+						<l>En raet, en tijt, zoo gy genezen zult.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>HOFMEESTER. JEPTHA. HOFPRIESTER.</stage>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>De slotwacht ziet twee muilen herwaert vliegen.</l>
+						<l>Zoo d'oogen hem in 't uitzien niet bedriegen,</l>
+						<l>Het is mevrouw, met eenen heer verzelt.</l>
+						<l>De stofwolck rolt vast stewaert over 't velt.</l>
+						<l>De lantvooght stelle op haere toekomste orden.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>O Godt, wat raet?</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Laet my hier me geworden.</l>
+						<l>Gy hofstoet, geef u met den lantsheer voort</l>
+						<l>Naer Silo toe. ry fluks door d'achterpoort</l>
+						<l>De jaghtlaen door, om niet mevrouw t'ontmoeten.</l>
+						<l>De bodem, op 't getrappel van de voeten</l>
+						<l>Der muilen, dreunt, en davert overwijt.</l>
+						<l>In Godts naem spoet: het is geen draelens tijt.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>In dezen schijn van d'echtgenoote scheiden?</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Het is hoogh tijt: gy mooght haer niet verbeiden.</l>
+					</sp>
+					<sp who="#jeptha">
+						<speaker>Jeptha</speaker>
+						<l>Hofmeester, bie den vader uwe hant,</l>
+						<l>Op datze niet, terwijl de rou 't verstant</l>
+						<l>Aen 't hollen helpe, ons jammer noch verzwaere.</l>
+						<l>Wy rijden heen.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Godt zeegne, Godt bewaere</l>
+						<l>U midlerwijl op uwe bedevaert.</l>
+						<l>Levijten voort. komt haestigh herrewaert.</l>
+						<l>Mevrouw genaeckt: helpt ons haer droefheit stieren,</l>
+						<l>Intoomen, en by wijl den breidel vieren.</l>
+						<l>'t Is groote kunst een' maetelozen rouw</l>
+						<l>Te maetigen. de stadt, het hofgebouw,</l>
+						<l>En al de bergh zal galmen op dat huilen,</l>
+						<l>Uit hol gewelf, speloncke, en naere kuilen.</l>
+						<l>Zy nadert vast. de wint verwaeit het stof</l>
+						<l>Vooruit. men sluit' de binnepoort van 't hof.</l>
+						<l>Wat wercken kan dat repp' zich, valle aen 't breecken</l>
+						<l>Van 't moortaltaer op 't voorhof. laet geen teken</l>
+						<l>Van 't offer haer bedroeven. rept u, ras.</l>
+						<l>Ruck af tapijt, feestoen. een ander wasch</l>
+						<l>Het bloet af. brengt al wat de wraeck kan tergen</l>
+						<l>Uit d'oogen. och, zy hoopt haer kint te bergen,</l>
+						<l>En komt te spa. staetjoffers, haest u, spoet,</l>
+						<l>Vlieght snel vooruit de moeder in 't gemoet.</l>
+						<l>Betoomtze, stut d'ontstelde met uwe ermen.</l>
+						<l>My dunckt ick hoorze alree van verre kermen.</l>
+						<l>Brengt stoelen: brengt hier rozewater, dra,</l>
+						<l>Eer zy bezwijm'. zoo d'opperste gena</l>
+						<l>Haer hart niet sterck', het is hier omgekomen.</l>
+						<l>Godt spaerze lang, ten troost van alle vroomen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>HOFPRIESTER. FILOPAIE. HOFMEESTER.</stage>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Zijt wellekoom, mevrouw.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Waer is mijn lam,</l>
+						<l>Mijn hart, mijn ziel, de hoop van onzen stam?</l>
+						<l>Waer is mijn kint, mijn bloet?</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Het is daer binnen.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Laet los: laet los: het gaet my aen de zinnen.</l>
+						<l>Laet los: laet los: ick wil mijn dochter zien.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Mevrouw, bedaer een poos: het zal geschiên.</l>
+					</sp>
+
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Beletge my mijn eigen kint te spreecken?</l>
+						<l>Gewelt, gewelt, wat 's dit? och och, ick reken</l>
+						<l>De maeght om hals. waer steeckt de moordenaer?</l>
+						<l>Laet los: laet los. Waer schuilt die booswicht? waer</l>
+						<l>Verberght hy zich, die vloeck, die dochterslaghter?</l>
+						<l>Daer ziet men hem: laet los: daer schuilt hy achter</l>
+						<l>Den pijler van het hof, in 't hofpoortael.</l>
+						<l>Wie wapent my met fackelen, en stael,</l>
+						<l>En vier, en zwaert? brengt wapens. hofstoet, mannen,</l>
+						<l>Geweer, geweer, dat ick hem aen magh rannen.</l>
+						<l>Onthoudt men my geweer, en wapen? neen,</l>
+						<l>Noch weet ick raet, om hem met kracht van een</l>
+						<l>Te scheuren, fel te neemen op mijn tanden,</l>
+						<l>Verandert in een' weerwolf, deze handen</l>
+						<l>In klaeuwen. wee die my mijn dochterrooft!</l>
+						<l>Daer ruck ick hem zijne oogen uit het hooft,</l>
+						<l>Dat valsche hart ten boezem uit, de darmen</l>
+						<l>Ten buick uit. ziet hem spartlen: hoort hem kermen.</l>
+						<l>Dat is zijn loon. mijn dochter ziet het aen.</l>
+						<l>Zy lacht'er om, en laet niet eenen traen:</l>
+						<l>Met reden: niet te schreien, met geen reden.</l>
+						<l>Hy luisterde naer traenen, noch gebeden,</l>
+						<l>In 't slaghten der onschuldige op 't altaer.</l>
+						<l>Dit 's Abraham. hy neemt Godts aenspraeck waer.</l>
+						<l>Nu denck dit na. de vader, 's volcks behoeder,</l>
+						<l>Vernielt zijn kint: met recht. waerom? de moeder</l>
+						<l>Had deel noch recht aen 't kint: 't behoorde hem.</l>
+						<l>De moeder was haer vremt, en had geen stem</l>
+						<l>In dit gerecht. de vader is 's lants rechter:</l>
+						<l>Bestraf hem niet. dit is de vroome vechter,</l>
+						<l>Die 't volck beschut, zijn eigen hof vernielt,</l>
+						<l>Zijn eenigh oir, en erfgenaeme ontzielt.</l>
+						<l>Is dat niet bly zijn dochter uitbesteden?</l>
+						<l>Ter bruiloft gaen? was oit een onbesneden</l>
+						<l>Dus onbesneên van zeden, en van aert?</l>
+						<l>Wat is 'er dat een mensch niet wedervaert!</l>
+						<l>Men stierde my van kant door loze treken.</l>
+						<l>Och, liet men my ten minste haer eens spreecken,</l>
+						<l>Voor 't allerjongst: zoo hadde ick noch mijn hart</l>
+						<l>Eens uitgeklaeght: nu kropt het deze smert,</l>
+						<l>Dit wee, en zal 't inkroppen al zijn dagen.</l>
+						<l>Maer 't is te spa. helaes, hier baet geen klaegen.</l>
+						<l>De doot bekruipt mijn leden, dat ick 't voel.</l>
+						<l>Mijn hart bezwijckt.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>nu zetze in dezen stoel:</l>
+						<l>Het hart wort flaeu. laet rozewater brengen,</l>
+						<l>Het aengezicht met eenen tack besprengen.</l>
+						<l>Staetjoffers, helpt: gy ziet hoe zy verflaeut.</l>
+						<l>Ontrijghtze, ontrijghtze om 't hart, ter doot benaeut.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Het moeders hart, helaes, kan nimmer liegen.</l>
+						<l>Wat middel om den rouw in slaep te wiegen?</l>
+						<l>Wat boete is hier voor onherhaelbre scha?</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Dat onheil sleept een' staert van jaeren na.</l>
+						<l>De reden, en de tijdt moet dit genezen.</l>
+						<l>Ick zalze, indien het hart bekomt, belezen,</l>
+						<l>En smeecken, en involgen, zacht en zoet,</l>
+						<l>Ten leste door troostmiddelen 't gemoedt</l>
+						<l>Ophelpen, door beloften 't hart verlichten.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Gy zult haer' heer, en 't hof, en elck verplichten.</l>
+						<l>Het schijnt dat zy verquickt, zich weder rept,</l>
+						<l>Het aengezicht weêr lucht en adem schept.</l>
+						<l>Besprengtze weêr met verschen dau van rozen.</l>
+						<l>Men zietze allengs opluicken, weder blozen.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Schep moedt, mevrouw, en zoeck uw' troost aen Godt.</l>
+					</sp>
+
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>My docht ick zagh mijn dochter, die voor 't slot</l>
+						<l>Haer moeder zocht, met traenen overgoten:</l>
+						<l>Maer och, de deur bleef tusschen bey gesloten.</l>
+						<l>Op dat gezicht verdweenze uit mijn gezicht.</l>
+						<l>De zoete droom heeft mijn gemoedt verlicht.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Gelooft zy Godt, die in gezicht en droomen</l>
+						<l>Zijn Heiligen is dickwijl voorgekomen,</l>
+						<l>Oock Josef, toen hy in den kercker lagh,</l>
+						<l>Eene uitkomst gaf, schoon hy geene uitkomst zagh.</l>
+						<l>De Godtheit, in 't beoogen van elcks zegen,</l>
+						<l>Houdt onbekende en wonderlijcke wegen.</l>
+						<l>Getroost u met uw toebescheiden lot.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Gebeurde my mijn dochters overschot</l>
+						<l>Noch eens te zien, het zou noch troostbaer schijnen.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Staetjoffers, ras, schuift op de lijckgordijnen.</l>
+						<l>Mevrouw, Godt geef dat gy den rouw verzet.</l>
+						<l>Daer zietge noch den rey in 't staetsibed,</l>
+						<l>In rouw rondom de dootbus neêrgezeten,</l>
+						<l>De maeghden root en jammerlijck bekreeten,</l>
+						<l>En treurigh om het offren van de maeght,</l>
+						<l>Die Godt door haer gehoorzaemheit behaeght.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Wat zienwe? och, geeft de dootbus. laet ons kussen,</l>
+						<l>Omhelzen, en den rouw met traenen blussen,</l>
+						<l>Verzadigen met zuchten, nimmer moe.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Gy maeghden reickt mevrouw de dootbus toe:</l>
+						<l>Zoo zal de druck het hart niet overstulpen.</l>
+						<l>Een treurigh hart is met geklagh behulpen.</l>
+					</sp>
+
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Och, Ifis, och, ick scheide flus:</l>
+						<l>Gy trockt ten berge met uw reien,</l>
+						<l>En komtme t'huis in deze bus.</l>
+						<l>Gy scheide, om eens voor al te scheien.</l>
+						<l>Godtvruchte lentebloem, gy zijt</l>
+						<l>Ontijdigh, als een damp, verdweenen,</l>
+						<l>In 't vrolijckste van uwen tijt.</l>
+						<l>Uw morgenzon heeft uitgescheenen.</l>
+						<l>Een wolck benijde uw' schoonen glans.</l>
+						<l>Is dit een eenigh kint besteden!</l>
+						<l>Is dit den blijden bruiloftsdans</l>
+						<l>Aenheffen, u in purper kleeden,</l>
+						<l>En kroonen op den vorstentroon,</l>
+						<l>In eenen drang van alle menschen!</l>
+						<l>Kon uwe heerlijckheit, zoo schoon,</l>
+						<l>Zoo gansch verwelcken, en verslenssen!</l>
+						<l>Verwachte ick dus uit uwen schoot</l>
+						<l>Kints kinders, en nakomelingen!</l>
+						<l>Mijn hoop en toeverlaat is doot.</l>
+						<l>O weerelt, vol veranderingen!</l>
+						<l>Wat is het aerdtsch betrouwen broos!</l>
+						<l>Nu treur ik droef, en kinderloos.</l>
+					</sp>
+					<sp who="#hofmeester">
+						<speaker>Hofmeester</speaker>
+						<l>Ontlast mevrouw. ontfang de dootbus weder.</l>
+					</sp>
+					<sp who="#filopaie">
+						<speaker>Filopaie</speaker>
+						<l>Staetjoffers, helptme, en zetme in 't rouwbed neder,</l>
+						<l>Dat ick te nacht met haer mijn hart uitklaegh',</l>
+						<l>My zelve trooste: indien het Godt behaegh'</l>
+						<l>Mijn kleen gedult door zulck een bitter lijden</l>
+						<l>Te proeven.</l>
+					</sp>
+					<sp who="#hofpriester">
+						<speaker>Hofpriester</speaker>
+						<l>Eer en zege volght na'et strijden.</l>
+						<l>Op 't zelve spoor zijn d'ouden voorgegaen.</l>
+						<l>Zy wijzen u naer Godt langs deze baen.</l>
+						<l>Leer uw verlies geduldigh overzetten.</l>
+						<l>De hemel kon dien slagh des doots beletten,</l>
+						<l>Indien het hem beliefde: maer hy wou</l>
+						<l>Dat ieder zich aen Jeptha spieglen zou,</l>
+						<l>En wachten van dit reuckeloos beloven,</l>
+						<l>Daer Abrams last, gesterckt in 't hof der hoven,</l>
+						<l>Noch Moses wet, gehoort van mont tot mont,</l>
+						<l>Noit den Hebreeu, noch 't stamhuis aen verbont.</l>
+						<l>Uw bedgenoot, van naberouw bestreden,</l>
+						<l>Zoeckt raet, en is naer Silo toe gereden,</l>
+						<l>Om zich met Godt en Amarias mont</l>
+						<l>Te zoenen, naer den eisch van 't wetverbont.</l>
+						<l>Ick zie hem, na verloop van lange dagen,</l>
+						<l>Voor ieder, op den hoogen zegewagen</l>
+						<l>Der Heiligen, in 't midden der Hebreen,</l>
+						<l>Ten toon gevoert, geviert en aengebeên.</l>
+						<l>'k Hoor midlerwijl de maeghdelijcke reien,</l>
+						<l>Op 't pleghtigh feest, uw dochters lijck beschreien,</l>
+						<l>Jaer in, jaer uit, vier dagen lang met druck.</l>
+						<l>Zoo groot een troost verzachte uw ongeluck.</l>
+					</sp>
+					<p>UIT.</p>
+				</div>
+			</div>
+
+		</body>
+	</text>
+</TEI>

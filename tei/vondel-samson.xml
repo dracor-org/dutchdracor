@@ -1,0 +1,2846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000027" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Samson</title>
+				<title type="sub">of Heilige Wraeck.</title>
+				<author>
+					<persName>
+						<forename>Joost</forename>
+						<surname>van den Vondel</surname>
+					</persName>
+					<idno type="wikidata">Q312673</idno>
+					<idno type="pnd">pnd identifier (optional)</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL"
+						>https://www.dbnl.org/tekst/vond001dewe09_01/vond001dewe09_01_0016.php</idno>
+					<title>J.F.M. Sterck, H.W.E. Moller, C.G.N. de Vooys, C.R. de Klerk, B.H.
+						Molkenboer, J. Prinsen J.Lzn., L. Simons, C.C. van de Graft, L.C. Michels,
+						J.D. Meerwaldt en A.A. Verdenius (eds), De werken van Vondel. Negende deel
+						1660-1663. De Maatschappij voor goede en goedkoope lectuur, Amsterdam
+						1936</title>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Joost van den Vondel: Samson of Heilige Wraeck. Amsterdam: widow of
+						Abraham de Wees, 1660.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person xml:id="dagon" sex="MALE">
+						<persName>DAGON</persName>
+					</person>
+					<person xml:id="de-tuchtknaep-van-samson" sex="MALE">
+						<persName>De Tuchtknaep van Samson</persName>
+					</person>
+					<person xml:id="samson" sex="MALE">
+						<persName>SAMSON</persName>
+					</person>
+					<person xml:id="de-rey-van-iodinnen" sex="FEMALE">
+						<persName>De Rey van Iodinnen</persName>
+					</person>
+					<person xml:id="de-vorst-van-gaze" sex="MALE">
+						<persName>De Vorst van Gaze</persName>
+					</person>
+					<person xml:id="de-vorstin-van-gaze" sex="FEMALE">
+						<persName>De Vorstin van Gaze</persName>
+					</person>
+					<person xml:id="de-aertspriester-der-filistijnen" sex="MALE">
+						<persName>De Aertspriester der Filistijnen</persName>
+					</person>
+					<person xml:id="de-waerzeggerin-van-akkaron" sex="FEMALE">
+						<persName>De Waerzeggerin van Akkaron</persName>
+					</person>
+					<person xml:id="de-kooraelen" sex="UNKNOWN">
+						<persName>De Kooraelen</persName>
+					</person>
+					<person xml:id="de-bode" sex="MALE">
+						<persName>De Bode</persName>
+					</person>
+					<person xml:id="samsons-bloetvrienden" sex="UNKNOWN">
+						<persName>Samsons bloetvrienden</persName>
+					</person>
+					<person xml:id="fadaël" sex="MALE">
+						<persName>FADAËL</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2023-06-28">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1660">
+				<desc/>
+			</event>
+			<event type="premiere" when="1660">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+
+			<docTitle>
+				<titlePart>J. V. Vondels <lb/> Samson of Heilige Wraeck. <lb/>
+					Treurspel.</titlePart>
+
+				<titlePart>t'AMSTERDAM,<lb/>Voor de weduwe van Abraham de Wees, op den Middeldam, M.
+					DC. LX.</titlePart>
+				<titlePart><figure/></titlePart>
+			</docTitle>
+			<div type="dedication">
+				<head>Den weledelen en gestrengen heere, Cornelis van Outshoren, <lb/> Ridder, heere
+					van Outshoren en Gnephoeck, Burgermeester en raet van Amsterdam.</head>
+				<p>Hoewel Godt niet dan louter Godt en wezen is, nochtans bespiegelen de
+					Godtgeleerden dit eenigh wezen in verscheide eigenschappen, hem toege-eigent.
+					Onder deze eigenschappen blijcken zijne wijsheit, goetheit, en mogenheit, die
+					zich in Samson levendigh openbaeren: want hy is van Godts wijsheit geschickt om
+					eenen grooten verlosser door zijn geboorte leven en sterven uit te beelden.
+					Godts goetheit blijckt in hem, als hy door dien stercken zijne uitgekoornen van
+					het veertighjaerige juck der Heidensche slavernye verlost, en hen twintigh
+					jaeren onder zijn rechterschap en wethouderye beschermt: maer Godts mogenheit
+					ontdeckt zich allermeest in de sterckheit van dezen helt, bestaende in zijne
+					haerlocken. Het haer is niet anders dan een uitworpsel, om het hooft te decken,
+					en tot cieraet te dienen, gelijck het loof de boomen verciert, en het ooft
+					beschut. maer wat is'er onstercker dan het haer? evenwel wert Godts kracht te
+					meer in deze onsterckheit geopenbaert, toen het hem beliefde dit tot een
+					heilzaem eindt te gebruicken: en wanneer de menschen Godts gaven misbruiken en
+					verwaerloozen, dan ontruckt d'allerhooghste hun zijne genade, en laetze
+					onderdrucken, om hen te leeren hoe los zy buiten Godt en zijne invloeiende
+					kracht staen. In de doot van Samson blijckt zijne wraeckzucht, zich wreeckende,
+					door eene heilige aendrift van Godts geest, aen de Filistijnen, Godts erfvyanden
+					en afgodisten, over het uitsteecken van zijne oogen. Hy overwint de vyanden door
+					zijn doot, tot een voorbeelt van den beloofden verlosser, en wetgever der
+					menschen, die door het voorschrift van de wet der liefde, in het eenige woort
+					Bemin begrepen, alle voorgaende wetgevers en wijsheit der wijzen overtreft, en
+					de wraeckgierigheit met wortel met al uit de harten zijner leerlingen ruckende,
+					deze nieuwe en volkome wet plant, waer tegens alle die op zijnen naem ydel
+					roemen zich ten hooghste bevlecken, zoo menighmael zy hun leedt en ongelijck met
+					gedachten, woorden, of wercken wreecken, en niet liever door weldaedigheit hunne
+					haeters overtuigen, om te toonen dat zy van den geest der liefde gedreven
+					worden, naer het onbevleckte voorbeelt, hun in dien hemelschen wetgever
+					voorgestelt. De helt Samson, van den allerhooghsten met zulck eene
+					onoverwinbaere kracht en sterckheit gewapent, wert endelijck ontwapent door de
+					loosheit en bekoorlijckheit van zijne boelschap, om de reuckeloze jongkheit te
+					waerschuwen zich van de bekoorlijcke streecken der lichtvaerdige schoonheden te
+					hoeden, waer door zoo veele dappere mannen ten val geraeckten. Ick oordeelde
+					niet ondienstigh Samson in zijne versmaetheit ten tooneele te voeren, om
+					wulpsche zinnen in te tomen van alle ongeregeltheit, en hen te leeren de
+					natuurgaven Gode, den oirsprongk van alle goet, ter eere te gebruicken. Om dezen
+					grootdaedigen helt in zijne vernederinge heerlijcker te voorschijn te brengen,
+					ontleene ick den glans van uwen Ridderlijken naem en stam, wiens overouden
+					luister nu al omtrent dryhondert en vijftigh jaren gebloncken heeft, in den
+					heere Willem van Outshoren, en zijnen broeder Jakob, tot de hoogheit en eer des
+					bisdoms van Uitrecht verheven; een stam die sedert eene lange ry van brave
+					mannen uitleverde, waeronder uwe voorouders, grootvader en vader met lof gestelt
+					worden, naerdien zy het vaderlant en deze stadt door getrouwe diensten aen hunne
+					nakomelingen eeuwigh verbonden: dat my te hooger verplicht altijt te
+					blijven,</p>
+				<p>Weledele en gestrenge heer,</p>
+				<p>Uwe weled. en gestr. dienstwillige</p>
+				<p>J. V. Vondel.</p>
+			</div>
+
+			<div type="preface">
+				<head>Inhoudt.</head>
+				<p>Manoë, uit den stamme van Dan, en zijne huisvrou woonden te Saraä, lange
+					kinderloos. Godts engel verscheen haer eerst in 't byzonder, daer na hun beide,
+					en spelde dat hun een zoon te teelen stont, die, van moeders lichaem aen Gode
+					toegeheilight, wijn nochte stercken dranck zoude drincken, geene onreine spijs
+					proeven, nochte zijn haer laeten scheeren, en de twalef stammen beginnen te
+					verlossen uit de veertighjaerige slavernye der Filistijnen: na welcke
+					openbaringe de hemelsche gezant in de vlamme des altaers ten hemel voer. Hierna
+					baerde de huisvrou den beloofden zoon, noemde hem Samson, dat de zon betekent.
+					Hy, van Godts Geest gezalft en gedreven, zette zich neder tusschen Saraä, en
+					Esthol. Eerst verscheurde hy te Thamnata eenen jongen brullenden leeu, en vont
+					in het wederkeeren eenen byenzwarm in het leeuwenaes. Hy troude door Godts
+					ingeven eene Filistijnsche vrou, en gaf op de bruiloft dit dubbelzinnige raetzel
+					uit:</p>
+				<lg>
+					<l>Een eeter spijst. het stercke jong</l>
+					<l>Schaft zoeticheit voor mont en tong.</l>
+				</lg>
+				<p> Samsons bruit, van de bruiloftsgasten [die by gebreck van het raetsel te raden
+					den prijs, daer op gezet, verliezen zouden,] schrickelijck gedreight, perste den
+					bruidegom met veele traenen den zin des raetsels uit, en melde het den gasten,
+					die hiermede dertigh hemden en vierkleeders wonnen, hun van Samson gelevert,
+					toen hy by Askalon dertigh mannen versloegh, en stroopte. De helt ving
+					dryhondert vossen, koppeldeze staert aen staert, met vierwerck daer in
+					gevlochten, dreefze in het korenlant der vyanden en verbrande hun koren,
+					wijnbergen, en olijfboomen. Hy brack den Filistijnen, by menighten, armen en
+					beenen. Toen de stam van Juda, om der Filistijnen gramschap te stillen, hem
+					gebonden in hunne handen leverde, ruckte hy stricken en banden in stucken,
+					sloegh duizent mannen met een ezels kinnebacken, waeruit, op zijn gebedt in
+					noodt gestort, eene levendige bron sprong, die zijnen dorst leschte. Te Gaza,
+					van zijne vyanden bezet en besloten, rees hy by midnacht uit den bedde, ruckte
+					stadts poorte, met beide de posten, uit haere krammen en pannen, en droeghze op
+					zijnen hals te Hebron op den bergh. Endelijck verliefde hy by Soreck op de
+					schoone Dalila, die, lichtvaerdigh en geltgierigh, van den vyant omgekocht, hem
+					verscheide reizen listigh ondertaste waer zijne kracht in bestont. Drymael
+					paeide hy haer met beuzelingen. Drymael gebonden ruckte de helt zijne banden
+					los, en stelde haer en de vyanden te leur: doch ten vierden maele, door het
+					vleien en schreien van zijne boelschap afgemat, openbaerde hy heur hoe Godts
+					kracht in zijne haerlocken school. Zy, nu haer ooghmerck bereickende, liet hem,
+					in haeren schoot slaepende, de zeven locken afscheeren, waerop de Filistijnen,
+					haer eerst den beloofden prijs toetellende, den maghtelozen overvielen, d'oogen
+					uitstaecken, en, met twee ketenen gebonden, naer Gaze voerden, daer hy in
+					gevanckenisse most maelen, tot dat, zijn haer weder aen 't wassen, de
+					Filistijnsche vorsten op Dagons feest vergaderden, over hem triomfeerden, en,
+					onder d'offermaeltijt vrolijck, den gevangen dwongen voor hun te speelen. De
+					helt tijt en gelegenheit waernemende beval den tucht knaep, die hem leide te
+					brengen by de twee hooftpylaeren, waerop het gansche gebou van Dagons kerck
+					steunde. Toen vatte hy beide de pylaeren in zijne armen, riep Godt om sterckheit
+					aen, op dat hy zich over zijne blintheit aen den vyant moght wreecken, en boogh
+					de pylaeren met volle kracht te zaemen, waer op het gansche kerckgebou instorte
+					op de vorsten, en eenige duizenden van mannen en vrouwen, zulx dat Samson in
+					zijne doot meer vyanden met zich vernielde, dan hy oit in zijn gansche leven
+					verslagen hadde. Op dit gerucht quamen zijne broeders en vaders bloetvrienden,
+					alreede op wegh naer Gaze, in de stadt zijne uitvaert bekleeden, om het lijck in
+					het vaderlijcke graf, tusschen Saraä en Esthol, te begraven, na het twintighste
+					jaer van zijne lantvooghdye en rechterschap.</p>
+				<p> Het treurspel is getrocken uit het boeck der Rechteren, en Josefus vijfde boeck
+					der Joodtsche geschiedenissen. Het tooneel is te Gaze, op Dagons kerckhof, by
+					het hof. Het spel begint voor den opgangk, en endight met den ondergangk der
+					zonne. De Jodinnen bekleeden den rey. </p>
+			</div>
+
+
+			<castList>
+				<head>De treurspeelders.</head>
+				<castItem corresp="#dagon">
+					<role>DAGON. De vorst des afgronts, en allergrootste afgodt der
+						Filistijnen.</role>
+				</castItem>
+				<castItem corresp="#de-tuchtknaep-van-samson">
+					<role>De Tuchtknaep van Samson.</role>
+				</castItem>
+				<castItem corresp="#samson">
+					<role>SAMSON. De lantvooght, en rechter van Israël.</role>
+				</castItem>
+				<castItem corresp="#de-rey-van-iodinnen">
+					<role>De Rey van Iodinnen.</role>
+				</castItem>
+				<castItem corresp="#de-vorst-van-gaze">
+					<role>De Vorst van Gaze.</role>
+				</castItem>
+				<castItem corresp="#de-vorstin-van-gaze">
+					<role>De Vorstin van Gaze.</role>
+				</castItem>
+				<castItem corresp="#de-aertspriester-der-filistijnen">
+					<role>De Aertspriester der Filistijnen.</role>
+				</castItem>
+				<castItem corresp="#de-waerzeggerin-van-akkaron">
+					<role>De Waerzeggerin van Akkaron.</role>
+				</castItem>
+				<castItem corresp="#de-kooraelen">
+					<role>De Kooraelen.</role>
+				</castItem>
+				<castItem corresp="#de-bode">
+					<role>De Bode.</role>
+				</castItem>
+				<castItem corresp="#samsons-bloetvrienden">
+					<role>Samsons bloetvrienden.</role>
+				</castItem>
+				<castItem corresp="#fadaël">
+					<role>FADAËL. Samsons geboortengel.</role>
+				</castItem>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+
+				<head>Samson of Heilige Wraeck. </head>
+				<head>Treurspel.</head>
+				<head>Het eerste bedryf.</head>
+				<div type="scene" n="1">
+					<sp who="#dagon">
+						<speaker>Dagon</speaker>
+						<l>Ick, die den ysren staf, van roest half opgegeten,</l>
+						<l>Beneden zwaeie, en, in den helschen raet gezeten,</l>
+						<l>Voorstelle, en sluite wat ten dienst van 't zwarte rijck</l>
+						<l>Wort goet gekent, koom hier te Gaza, d'oude wijck</l>
+						<l>Der geesten, wien het luste in ope lucht te zwieren</l>
+						<l>Met vleermuisvleuglen, en dit feest te helpen vieren,</l>
+						<l>Den grooten ommegangk te volgen met mijn' stoet,</l>
+						<l>Die naer den zwavel stinckt, en morssigh, vuil van roet,</l>
+						<l>Met kromme krauwels kemt mijn pruick, en ruige locken,</l>
+						<l>Al giftige adders, boos en afgerecht op wrocken,</l>
+						<l>Gelijckze 't gloeiend nest, den diepen zwavelpoel,</l>
+						<l>Ontruckt zijn, my tot pracht; het zy ick uit den stoel</l>
+						<l>Beneden spreecke, of hier in 't heiligh kerckbeelt waere,</l>
+						<l>Daer Dagons priesterdom, eerbiedigh ten altaere</l>
+						<l>Getreên, ter eere van mijn godtheit stieren slaght,</l>
+						<l>Spijsoffers inwijt, en den grootvorst van den nacht</l>
+						<l>Met juichen en triomf verwelkomt, en gezangen,</l>
+						<l>En offerspelen, daer wy spoocken naer verlangen.</l>
+						<l>Wat wil 't een vreught zijn, als voor onze majesteit</l>
+						<l>d'Aertsvyant Samson in triomf wort omgeleit,</l>
+						<l>Zoo blint gelijck hy is, aen eene dubble keten</l>
+						<l>Gesloten, en op straet getout, en dicht gesmeeten</l>
+						<l>Met eene bolpees van den tuchtknaep, die hem stiert,</l>
+						<l>De schakels van den toom, de keten, ruimer viert,</l>
+						<l>Of aenhaelt, dat hy rijst, of neêrstort van vermoeien,</l>
+						<l>En 't zweet by druppels langs het aenzicht drupt. hier groeien</l>
+						<l>Ons dienaers by, terwijl die lantplaegh zucht, en steent,</l>
+						<l>De voorhuitloze Jood, de vloeck van mijn gemeent'.</l>
+						<l>Wat heeftze twintigh jaer, en langer al geleden</l>
+						<l>Van dezen rechter, daer alom de Joodsche steden</l>
+						<l>Om vierden, toen hy haer verlichte van ons juck,</l>
+						<l>Een juck wel veertigh jaer bezuurt met smerte en druck.</l>
+						<l>Zoo veel vermoght de kracht, hem heiloos aengeboren,</l>
+						<l>Die met de locken nu zoo gladt is afgeschoren.</l>
+						<l>De leeuwentemmer, kort getemt van eene vrou,</l>
+						<l>Leght mack, gelijck een lam, gesloten in zijn kou,</l>
+						<l>Bestoven van het meel, kan naulijx adem haelen,</l>
+						<l>Eet brocken, als een hont. hy grimbeckt onder 't maelen,</l>
+						<l>En knarssetant van spijt. wat plaeghde hy ons vroegh,</l>
+						<l>Die stout voor Askalon wel dertigh mannen sloegh,</l>
+						<l>Hun kleeders stroopte, en ging met al dien vrybuit strijcken.</l>
+						<l>Noch slimmer ging 't toen hy, tot afbreuck van vijf rijcken,</l>
+						<l>Dryhondert vossen ving, hen knoopte staert aen staert,</l>
+						<l>Met vierwerck, hars, en vlas, en zwavel. hier op vaert</l>
+						<l>De vlam in 't koren, waer zy voor zijn geessel streven.</l>
+						<l>De hongerige vlam, in 't voortslaen noch gedreven</l>
+						<l>Van eenen stercken wint, zet al het korenlant,</l>
+						<l>Veel mijlen wijt en breet, in eene zee van brant,</l>
+						<l>Zoo veele duizenden van Dagons onderdaenen,</l>
+						<l>Vijf hooftsteên, langs de zee, en al 't gebiet in traenen.</l>
+						<l>De wijnbergh mist zijn druif, d'olijfboom zijne vrucht,</l>
+						<l>De korenbloem haer eer. de zeekust kermt, en zucht,</l>
+						<l>Van Gaza tot aen Geth, daer onze tempelheeren</l>
+						<l>Spijsoffers, inkomste, en kerckschattingen ontbeeren.</l>
+						<l>Toen een Thamnijt dees plaegh verstack van zijne vrou,</l>
+						<l>Bezuurde 't gansche lant dien smaet met zulck een' rou:</l>
+						<l>En schoon de Filisteen dit straften, en den vader</l>
+						<l>Met zijne dochter in een zelve vier te gader</l>
+						<l>Verbrandden, noch sloegh hy uit wraecklust echter voort,</l>
+						<l>En brackze hals en been. de Filistijns, gestoort</l>
+						<l>Met reden, quamen fel de Joôn beoorelogen,</l>
+						<l>Die zich onschuldighden, en zelfs, tot recht bewogen,</l>
+						<l>Den rechter leverden in zijn dootvyants maght:</l>
+						<l>Toen brack hy koorde en bant, als vlas, door zijne kracht,</l>
+						<l>Sloegh duizent helden met een ezels kinnebacken.</l>
+						<l>Ten leste kwam hy hier in Gaza nederzacken.</l>
+						<l>Men sloot de poorten toe. de booswicht, loos en valsch,</l>
+						<l>Rijst 's nachts, en neemt stadts poort op zijnen stercken hals,</l>
+						<l>Stapt recht naer Hebron toe, als met een lichte veder,</l>
+						<l>En leght stepoort en post op bergh en steenrots neder.</l>
+						<l>Men bond hem reis op reis vergeefs met tou en snoer,</l>
+						<l>Tot dat zijn boelschap loos de zeven locken schoer,</l>
+						<l>Het broeinest van zijn kracht. wy, meester door haer treken,</l>
+						<l>Verzuimen niet hem bey d'ooghappels uit te steecken,</l>
+						<l>Te tuchtigen. nu zit hy hier te Gaze vast,</l>
+						<l>Jerusalem ten schimp. de maght van Dagon wast,</l>
+						<l>En groeit geweldigh aen. wy gaen de Joden stooren,</l>
+						<l>Brantschatten, om de scha te boeten van ons koren.</l>
+						<l>Het hof van Dagon is met reden voor den geest</l>
+						<l>Van onze erfvyanden, het Jodendom, bevreest,</l>
+						<l>Dat met de Godtsdraght en zijn kistspel, heet op wreecken,</l>
+						<l>Ons godtheit noch eens dreight met kracht den hals te breecken,</l>
+						<l>Te bonzen van 't altaer, waerom ick, schalck en stil,</l>
+						<l>Als in slaghorde, my hier tegens kanten wil.</l>
+						<l>Gy allen zult van daegh, vermomt, vernist met glimpen,</l>
+						<l>En schijn van heiligheit, het Jodendom beschimpen</l>
+						<l>In Samson, die zoo lang mijn heirkracht onder hiel,</l>
+						<l>Het voorhuitloos gebroet, dat in ons erfdeel viel,</l>
+						<l>Zoo veel geweldenaers, die goôn en menschen plaegen,</l>
+						<l>En onder schijn van recht en godtsdienst, moorden, jaegen,</l>
+						<l>Beeltstormen, branden, en schoffeeren, zullen zien</l>
+						<l>Dat Dagons maght, en kracht den stercksten kan gebiên,</l>
+						<l>Die 't hooft der vreeselijcke en hooghgewasse reuzen</l>
+						<l>Durf met een kaeckebeen, zijn knods, te mortel kneuzen.</l>
+						<l>Een ieder vaer' daer hy zijn personaedje speelt:</l>
+						<l>Wy gaen ons zetten in 't helheiligh outerbeelt.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>TUCHTKNAEP. SAMSON.</stage>
+					<sp who="#de-tuchtknaep-van-samson">
+						<speaker>Tuchtknaep</speaker>
+						<l>Verblinde Jood, ga voort. nu is 't geen tijt van treuren.</l>
+						<l>Het is genade, die u heden zal gebeuren,</l>
+						<l>Dat gy wat adems schept. de vorsten, alle steên</l>
+						<l>Vergaderen op 's lants triomffeest hier by een.</l>
+						<l>Gy zult nu blindeling den ommegang bekleeden,</l>
+						<l>En voor ons heilighdom geketent heenetreden,</l>
+						<l>Bestoven van het meel. verdraegh het met gedult.</l>
+						<l>Al schimpt het volck: genoegh dat gy niet maelen zult,</l>
+						<l>Dewijl het vierdagh is. komt iemant u belachen,</l>
+						<l>En wiltge danssen, 't zal u vry staen gelt te prachen,</l>
+						<l>Of vleesch, of tarwe korst. verneemtge wat geschals,</l>
+						<l>Gerucht van menschen, klinck de bel om uwen hals.</l>
+						<l>Uit mededoogen kunt gy noch een gaef genieten,</l>
+						<l>Tot nootdruft in dien stant, vol onlust en verdrieten.</l>
+						<l>De tuchtvooght heeft u dit om 't hooghtijt toegestaen.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Nu schep ick lucht. is 't nacht? of schijnt de halve maen?</l>
+					</sp>
+					<sp who="#de-tuchtknaep-van-samson">
+						<speaker>Tuchtknaep</speaker>
+						<l>De zon schijnt uit de kim in velden en landouwen,</l>
+						<l>Voor menschen, waerdiger het hemelsch licht t'aenschouwen</l>
+						<l>Dan Samson, die zich zelf' verstack van 's levens troost.</l>
+					</sp>
+
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Waer stappe ick by den tast, ten zuiden, of in 't oost?</l>
+					</sp>
+					<sp who="#de-tuchtknaep-van-samson">
+						<speaker>Tuchtknaep</speaker>
+						<l>Op Dagons kerckhof, by het princenhof, daer d'eicken</l>
+						<l>Den gront beschaduwen, en met hunne armen reicken</l>
+						<l>Tot boven aen de lucht. nu volghme by den tast.</l>
+						<l>Ick sluite u met den ring van uw halsketen vast</l>
+						<l>Aen dezen hollen eick, een hol om in te schuilen,</l>
+						<l>Wanneerge, moe beschimpt, belust wort uit te pruilen.</l>
+						<l>Gy mooght hier uit en in, en prachen met de schel;</l>
+						<l>Terwijl ick in het hof uw tuchtvooghts streng bevel</l>
+						<l>Uitvoere, zoo 't behoort. gy moet u zedigh draegen,</l>
+						<l>Of deze bolpees zou u met de huit vol slagen</l>
+						<l>Begroeten: want de straf houdt bozen aert in tucht.</l>
+						<l>Misbruick de gunst niet van den tuchtvooght. zoo gy vlught,</l>
+						<l>En niet ontvlught, gelijck 't onmogelijck is t'ontsluipen,</l>
+						<l>Dat zou u schrickelijck en fel in d'oogen druipen.</l>
+						<l>Men zou, na'et geeslen met een taeie bondel roên,</l>
+						<l>Uw taeck en arbeit noch verzwaeren, en u voên</l>
+						<l>Met haverkorsten, of gemaelen bry van schorssen.</l>
+						<l>Gy zoudt na'et maelen noch het branthout moeten torssen,</l>
+						<l>En kloven, tot een boet van uw moedtwilligheit.</l>
+						<l>Ick ga ten hove, daer de tuchtvooght my verbeit.</l>
+						<l>Gy tuchtwacht, hou u hier om 't kerckhof. sla hem gade.</l>
+						<l>De wacht is u betrout, op 's vorsten ongenade.</l>
+						<l>Het yzer wort door gout en list by wijl gekrenckt.</l>
+						<l>Een arm gevangen vorst bedenckt dat niemant denckt.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>REY VAN JODINNEN.</stage>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Zang</speaker>
+						<l>Wy dienen ons wat in te toomen,</l>
+						<l>Beschroomt aen eene zijde heen</l>
+						<l>In schaduw van dees kerckhofboomen</l>
+						<l>Te duicken. vrouwen van Hebreen</l>
+						<l>Zijn al te kenbaer by Gazanen.</l>
+						<l>Wat 's dit een heerelijcke kerck!</l>
+						<l>Hoe krielt de stadt van onderdaenen,</l>
+						<l>En burgeryen! wat een werck</l>
+						<l>Is 't hof, ten hemel opgetogen.</l>
+						<l>  Wat galeryen zienwe hier!</l>
+						<l>De marmerpijlers draegen boogen</l>
+						<l>Ten trots gewelft. wat staet het dier</l>
+						<l>Zoo groot een kerck in top te bouwen</l>
+						<l>Tot aen de starren. reuzekracht</l>
+						<l>Heeft uit de rots arduin gehouwen,</l>
+						<l>Dit uitgevoert met volle pracht.</l>
+						<l>Och, kende Godt hen voor zijn vrienden!</l>
+						<l>Och, ofze Belzebub niet dienden,</l>
+						<l>Noch Dagons beelt, noch Astaroth,</l>
+						<l>  Maer 't eenigh wezen, Jakobs Godt!</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Tegenzang</speaker>
+						<l>Dat lot is ons ten deel gevallen,</l>
+						<l>En niet den blinden Filisteen.</l>
+						<l>Wat baeten hoven, stercke wallen,</l>
+						<l>Geweer, en wapens? Godt alleen,</l>
+						<l>By ons bekent, is erfbeschermer</l>
+						<l>Van zijn verkoornen. geen gesticht,</l>
+						<l>Hoe hoogh gebout, noch gout, noch marmer,</l>
+						<l>Behaegen hem, die zijn gezicht</l>
+						<l>Van afgoôn keert, en hunne klancken,</l>
+						<l>  En kerckgezangen. wieroockvat,</l>
+						<l>En geur van afgoôn acht hy stancken.</l>
+						<l>Spijsofferhanden, pracht en schat</l>
+						<l>Van afgodisten, ongetrouwen</l>
+						<l>Mishaegen hem. wat zal men niet</l>
+						<l>Al gruwelen van daegh aenschouwen!</l>
+						<l>Hoe zullen wy, tot ons verdriet,</l>
+						<l>De priesterdommen en lantsheeren</l>
+						<l>Zien over Samson triomfeeren,</l>
+						<l>In Dagons ketenen beknelt!</l>
+						<l>  Helaes, waer toe verviel Godts helt!</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="2">
+
+				<head>Het tweede bedryf.</head>
+				<div type="scene" n="1">
+					<stage>REY. SAMSON.</stage>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Wat schel magh 't wezen, die wy ginder hoorden klincken?</l>
+						<l>Wie schijnt van verre ons uit dien hollen boom te wincken,</l>
+						<l>Te roepen? gaenwe eens al te zamen derwaert heen.</l>
+						<l>Wat mensch zit in dien eick dus eenzaem, en alleen?</l>
+						<l>Het schijnt hy bid ons om een aelmos, gansch verlegen</l>
+						<l>Van bittere armoede.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Och, ontferm u toch. Godt zegen,</l>
+						<l>Godt hoede u allen: wie gy zijt, of niet mooght zijn,</l>
+						<l>Vertroost en helpme toch, in dezen droeven schijn,</l>
+						<l>Een' armen blinden man, op zijnen hals gevangen,</l>
+						<l>Geboeit, geketent, met een ruwe py behangen,</l>
+						<l>Versuft, en afgeslaeft van arbeit, van het stof</l>
+						<l>En zweet en bozen stanck bekrozen. dit 's het hof</l>
+						<l>Van Samson, onlangs noch een lantvooght, vorst, en rechter</l>
+						<l>Van duizent duizenden, van zoo veel lants, en echter,</l>
+						<l>Te jammerlijck, helaes, vervallen van zijn' staet.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Godt hoede ons allen. wat verschijnt ons? och, wat raet?</l>
+						<l>Och, och, hoe kunnen wy dit schicken? dit verduwen?</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Ay staet. gy hoeft u niet te schaemen, my te schuwen</l>
+						<l>Misschien uw' lantsman: want het schijnt aen uwe reên,</l>
+						<l>Dat gy u rekent uit den stamme der Hebreen,</l>
+						<l>En mogelijck uit Dan gesproten. treet wat nader.</l>
+						<l>Zoo ick aen 't ruisschen hoor springt hier omtrent eene ader,</l>
+						<l>Een levendige bron. heeft iemant kroes of schael,</l>
+						<l>Zoo bid ick laef mijn hart, op dat het adem hael'.</l>
+						<l>'K heb veele maenden lang, gesloten aen dees keten,</l>
+						<l>In 't molentuchthuis hier mijn tijt bedroeft gesleten,</l>
+						<l>Zoo blint, gelijckge ziet, geslagen, en begraeut.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Nu drinck eens. vat de schael.</l>
+					</sp>
+
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>wat was mijn hart benaeut,</l>
+						<l>Versmacht van grooten dorst! in duizent ongevallen</l>
+						<l>En pijnen is de dorst het bitterste van allen.</l>
+						<l>Toen door Godts kracht een bron uit ezelstanden sprongk,</l>
+						<l>En ick, verhit van slaen, het hart verkoelde, en dronck,</l>
+						<l>Bequam die wonderbron my dus in mijne smerte.</l>
+						<l>De hemel zegene u, voor uw medoogend harte.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Prins Samson, vroome prins, wat is het ons een pijn</l>
+						<l>U hier te vinden, in dien jammerlijcken schijn!</l>
+						<l>Wy zijn Jodinnen, hier vergaêrt van west en oosten,</l>
+						<l>En komen op dit feest u zoecken, u vertroosten,</l>
+						<l>Naer tijts gelegenheit, maer niet naer onzen wensch.</l>
+						<l>Geen onbeschaemder dier dan een ondanckbaer mensch:</l>
+						<l>Dat weeten wy, u dienst, en hulp, en eere schuldigh.</l>
+						<l>Verdaediger des volx, och, draegh uw smert geduldigh,</l>
+						<l>Tot dat het Godt voorzie. ô hartewee! ô smert!</l>
+						<l>Al weigert u de zon haar licht: Godt kan uw hart</l>
+						<l>Verlichten met een' glans inwendigh, die de straelen</l>
+						<l>Van duizent zonnen dooft. wie kan de maght bepaelen</l>
+						<l>Des alleroppersten? die u zoo wonderbaer</l>
+						<l>Begaefde met een kracht, verborgen in uw haer,</l>
+						<l>Is maghtigh, als het hem belieft, in u te wercken,</l>
+						<l>Oock zonder haerlock u te wapenen, te stercken,</l>
+						<l>Te rucken uit den klaeu des tigers, die u druckt.</l>
+						<l>Verhael ons toch, hoe komt gy dus verongeluckt,</l>
+						<l>Verlaeten van uw kracht? wy hoorden 't slechts in 't hondert.</l>
+						<l>Al 't lant heeft van uw' val gewaeght. dat heeft gedondert</l>
+						<l>Van Dan tot Berseba. wat oude, kunne, en staet</l>
+						<l>Zat niet in rouwe om u, en uw bederf, en smaet.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Och, waer ick schuw geweest van Filistijnsche vrouwen,</l>
+						<l>Bedrieghlijck in den aert. my magh de dagh wel rouwen,</l>
+						<l>Dat ick by Sorek lest verliefde op Dalila,</l>
+						<l>Lichtvaerdigh, liefdeloos, en gierigh. op gena</l>
+						<l>En ongenade van een boelschap los te drijven,</l>
+						<l>Is op een stille zee, in noot van eens te blijven,</l>
+						<l>Zich reuckloos waegen. zy, die op beloften zagh,</l>
+						<l>Door 's vyants gelt bekoort, hiel aen my nacht en dagh</l>
+						<l>Te vergen het geheim van mijne kracht te melden,</l>
+						<l>In 't heetste van den gloet der minne; een zielstorm, zelden</l>
+						<l>Van mannen wederstaen. had toen, helaes, mijn geest</l>
+						<l>Zoo sterck van krachten en gewelt als 't lijf geweest,</l>
+						<l>'k Had dicht gebleven, my gehoedt dit klaer te zeggen.</l>
+						<l>Noch wist ick 't drywerf haer met eenen schijn t'ontleggen,</l>
+						<l>Van groene basten; van de zeven zeelen, noit</l>
+						<l>Gebezight; van mijn haer gevlochten, en getoit,</l>
+						<l>De zeven locken in een snoer, en vast geslagen,</l>
+						<l>Genagelt aen den muur. Gods vyant, uit zijn laegen</l>
+						<l>Gesprongen, schoot drywerf in zijne kracht te kort.</l>
+						<l>Toen klampteze my dus aen boort, als uitgestort:</l>
+						<l>Meineedige aert, hoe zoude ick u een hart toedraegen,</l>
+						<l>Die my uw hart ontveinst, en nimmer op mijn vraegen</l>
+						<l>Waerachtigh antwoort geeft? zijt gy aen Godt verlooft,</l>
+						<l>Van moeders lichaem; schoer noit scheermes 't ruige hooft,</l>
+						<l>En locken; spaentge uw lust van wijn en dronckenschappen;</l>
+						<l>Zijt gy besneên, en volghtge uw grootvaêrs op hun stappen,</l>
+						<l>En uwe strenge wet, die 't jonge kint besnijt;</l>
+						<l>Ontzietge onreyne spijs te proeven: 'k schel 't u quijt:</l>
+						<l>Ick vorder niet dat gy veraert van Moses zeden.</l>
+						<l>Volhardt by die gewoonte, en offer uw gebeden</l>
+						<l>Aen uwe godtheit, die, alleen in uwe hut</l>
+						<l>Besloten, op een kist haer priesterdom beschut:</l>
+						<l>Maer toonme waer uw wet leert liegen, en bedriegen,</l>
+						<l>Een schoonheit, die u mint en eert, in slaep te wiegen</l>
+						<l>Met woorden, zonder kracht, en nadruck. is dat trou</l>
+						<l>Bewijzen aen uw bruit, en d'allerschoonste vrou</l>
+						<l>Van Palestijne, zelf geweigert aen de grooten?</l>
+						<l>Wat hebtge al weelde, wat al vrientschap korts genooten</l>
+						<l>By mijnen ommegangk! hoe pluckte gy met vreught</l>
+						<l>De bloem van mijnen tijt, de rozen van mijn jeught,</l>
+						<l>En levens dageraet! hoe offerde ick mijn leden,</l>
+						<l>Dit zuiver marmerbeelt, van boven tot beneden,</l>
+						<l>Dit lichaem [waerdiger geheilight aen het bedt</l>
+						<l>Der groote koningen van Askalon, of Geth,</l>
+						<l>Azothus, Akkaron, of Gaze,] aen uw behaegen.</l>
+						<l>Elck roept: zy heeft een' Jode, ons lantplaegh aengeslagen,</l>
+						<l>Haer jeught verydeltuit aen eenen Joodschen hont.</l>
+						<l>Hoe schoon staet nu mijn zaeck! ô weiflaer, zonder gront,</l>
+						<l>En dubbelhartigh, zal men dus de liefste onthaelen,</l>
+						<l>Een rijck beloven, al beloven, noit betaelen?</l>
+						<l>Gy die 's lants rechter zijt, 's volx ongelijck beslecht,</l>
+						<l>Ga nu ter vierschaere in u zelven. is dit recht?</l>
+						<l>Verongelijcktge dus uw allerliefste, uw trouwe?</l>
+						<l>Hoe zoudtge een vreemde dan bejegenen, een vrouwe</l>
+						<l>Wiens schoonheit by de mijne een schaduwe is, en schim?</l>
+						<l>Waer vontge oit mijns gelijcke in Dan, of Efraïm?</l>
+						<l>Ben ick het waerdigh dat de keurighste om my hengel,</l>
+						<l>Zoo houme in waerde. durft gy roemen dat een engel</l>
+						<l>Uwe oudren spelde van een' godtgewijden zoon,</l>
+						<l>Die hun te teelen stont; zoo laet uw mont de kroon</l>
+						<l>Van heiligheit, u vroegh tot een cieraet gegeven,</l>
+						<l>Niet schenden. wortge van een' hoogen geest gedreven,</l>
+						<l>Tot voorstant van uw volck, leg af dien valschen schijn.</l>
+						<l>Laet rechter Samsons woort gelijck een zegel zijn.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Die vleister zou een hart, zoo hardt als steen, beweegen.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Noch stont ick nacht en dagh die stormen moedigh tegen,</l>
+						<l>En weeck noch zwichte noit. toen borstze in tranen uit,</l>
+						<l>Gelijck een krokodil, en sloegh een loos geluit.</l>
+						<l>Zy zaghme 's morgens vroegh van gloênde minne blaecken,</l>
+						<l>Verzwoerme haer gena: de traenen op de kaecken:</l>
+						<l>Dat gaf het blozen van de wang een' eedler gloet,</l>
+						<l>Gelijck de lenteroos, verdroncken in een' vloet,</l>
+						<l>Ons aengloeit met een kracht, geen bloemen ingeschapen.</l>
+						<l>Het schreien van een vrouwe, een schoone, is 't reedtste wapen,</l>
+						<l>Wanneerze wanhoopt van het ooghmerck, daerze op mickt.</l>
+						<l>Zy dreight zich zelve met een korte doot, verschrickt</l>
+						<l>Mijn hart, om haer in last. zy houdt niet op van kermen.</l>
+						<l>Ga heene, wreedaert, val een liever bruit in d'armen,</l>
+						<l>Naerdien mijn wellust niet zoo veel op u vermagh,</l>
+						<l>Dat gy uwe ooren naer mijn zuchten en beklagh</l>
+						<l>Eens neigen zoudt, uw hart my rustigh openbaeren.</l>
+						<l>Gezwore vyant van ons goden, en altaeren,</l>
+						<l>En kercken, repme niet. voortaen zal geen Hebreeu</l>
+						<l>Dit poezeligh albast, dit blaeu dooradert sneeu,</l>
+						<l>Dees bloemen op mijn wang, dees bloetroos, versch ontloocken</l>
+						<l>Voor Filistijnschen dau, meer reppen ongewroken,</l>
+						<l>Indien ick 't niet besterf. keer elders uw gezicht.</l>
+						<l>Gy zijt niet waerdigh dat dit diamantenlicht</l>
+						<l>Der oogen u beschijn'. vergeefs hebt gy de voncken</l>
+						<l>Van my, niet meer uw lief, zoo gulzigh ingedroncken,</l>
+						<l>U telckens veinzende van mijne min verruckt,</l>
+						<l>Als gy de rozen op mijn wangen kreuckt, en druckt,</l>
+						<l>Mijn borst en lippen kuste, en ick u wederkuste,</l>
+						<l>U streelde, nippelde, en uw dolle vlammen bluschte.</l>
+						<l>Dat hebtge wech, gy zijt des waerdigh, ofte niet.</l>
+						<l>Vertreck uit mijn gezicht, ô joffereverdriet.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Och, hadge, noch was 't tijt, u van haer minne onttrocken!</l>
+					</sp>
+
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Mijn hart was blint van liefde, en dat geduurigh nocken</l>
+						<l>Bedroefde my ter doot. haer jammerklaght in top</l>
+						<l>Vermurwde 't hart, als was. zoo wint de waterdrop</l>
+						<l>Op eenen harden steen. ick laetme in 't endt beweegen,</l>
+						<l>Ontvouwe hoe mijn kracht, door 's allerhooghsten zegen,</l>
+						<l>In 't noit geschoren haer bestaet. zy zweert vooral</l>
+						<l>By Dagon, dat de mont dit niemant melden zal:</l>
+						<l>En echter regent'er in haeren schoot een regen</l>
+						<l>Van 's vyants zilvre munt, die scherper dan een degen</l>
+						<l>Door 's boelschaps boezem dringt, en 't gierigh hart bekoort.</l>
+						<l>De wraeckzucht by der hant, verlaet zich op haer woort.</l>
+						<l>Toen gundeze ons volop van wellust, lietme roncken</l>
+						<l>In haer' verzaden schoot, naer lijf en ziel verdroncken</l>
+						<l>Van minne. midlerwijl [dat Godt de schenster straff',]</l>
+						<l>Scheert my het scheermes stil de zeven locken af.</l>
+						<l>'k Ontwaeck, maer och te spa. de vyant, heet van toren,</l>
+						<l>Berst in, ontziet zich niet mijne oogen uit te booren.</l>
+						<l>Hy ketent my, en sleeptme in Gaza, daer ick krimp,</l>
+						<l>Gedoemt ten arbeit in het tuchthuis, elck ten schimp.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>O prins van Israël, hanthaver van de vroomen,</l>
+						<l>Hoe is uw staet verkeert! waer zijtge toe gekomen!</l>
+						<l>Wat eischtge in dezen schijn van ons? wy staen hier ree</l>
+						<l>U noch te dienen. och, ontdeck uw hartewee.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>De tuchtknaep keert terstont. hy zal geen tijt verzuimen.</l>
+						<l>Mijn locken groeien weêr. ick legge op mijne luimen</l>
+						<l>Om my te wreecken aen dit Heidensche geslacht,</l>
+						<l>En vroeger dan men waent. de Geest wees my te nacht</l>
+						<l>Een middel, om mijn ziel te slaecken van dees banden.</l>
+						<l>Getroost u. schreit niet meer: mijn afscheit is voorhanden.</l>
+						<l>Een triomfante doot, daer 't aerdtrijck van gewaeght,</l>
+						<l>Hangt Samson over 't hooft. hy zal niet lang geplaeght,</l>
+						<l>Beschimpt van alle kunne en oude, koren maelen.</l>
+						<l>Zy zullen met den hals dien arbeit dier betaelen.</l>
+						<l>Dit bidde ick, dat men my na mijnen sterrefdagh</l>
+						<l>Eene uitvaert gunn', begrave in 't vaderlijcke graf.</l>
+						<l>Belooftme, elck met uw hant, dit heiligh uit te wercken.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Bedroefde prins, helaes, de hemel wil u stercken.</l>
+						<l>Wy hoopen immers niet, noch durven het vermoên,</l>
+						<l>Dat gy u zelven zoudt met uwe hant verdoen.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Ick zweer mijn handen aen dit lichaem niet te schenden,</l>
+						<l>Maer wil, gelijck Godts helt, mijn leven heerlijck enden,</l>
+						<l>Dat teffens aerde en zee hier van gewaegen zal.</l>
+						<l>Verschrickt niet, hoort gy hoe de vyant quam ten val.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Indienge heerlijck sterft, ten spiegel van de braven,</l>
+						<l>Wy zullen uw gebeent by Manoë begraven,</l>
+						<l>En vaders asschen noch verheugen met uw lijck;</l>
+						<l>Is 't anders in ons maght. ontfang, tot eene blijck</l>
+						<l>En zegel van ons trou, de hant van al de vrouwen.</l>
+						<l>De hemel strafze, wie ontbreeckt haer woort te houwen.</l>
+						<l>Ontfang, ô prins des lants, dees zilverlingen toch,</l>
+						<l>Om u te dienen in uwe armoede, och, och, och.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Behoudt die gaef voor u. 'k verwachte blijder uuren.</l>
+						<l>Al ben ick arm, wil 't Godt, het zal niet lange duuren.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Gebie ons vry: wy staen tot uwen dienst alleen.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Draeght zorge, waer gy komt, en gaet, dat geen Hebreen</l>
+						<l>Zich heden in de kerck van Dagon vinden laeten.</l>
+						<l>Zy zullen u misschien gemoeten langs de straeten,</l>
+						<l>Of merckten, op de maer van dit afgodisch feest,</l>
+						<l>Geschickt tot een triomf, om, trots en bly van geest,</l>
+						<l>Gevangen Samson uit te lachen met hun reyen,</l>
+						<l>En in den ommegangk, hun godtsdraght, om te leien.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Uw lantsliên zijn belust noch eens den prins te zien,</l>
+						<l>In dezen droeven schijn.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>zeer wel. dat kan geschiên</l>
+						<l>Door eene trali, uit een venster, of van daecken.</l>
+						<l>Het voeght den stammen niet, die zuiver offer blaecken,</l>
+						<l>En branden, Godt ten prijs, zich in afgodendom</l>
+						<l>Te mengen, daer men danst op hun geloey, en bom,</l>
+						<l>Voor Dagons zwart altaer, en, onder 't bancketteeren,</l>
+						<l>Hem geile spelen wijdt. gy moet dien laster keeren.</l>
+						<l>Gebiet uit onzen naem, wy yvren voor de wet,</l>
+						<l>Dat niemant zijnen voet op Dagons drempel zett',</l>
+						<l>Of Godt zich openbaerde, als eertijts, door een wonder,</l>
+						<l>En klonck 't gevloeckt gebou de kruin in met den donder.</l>
+						<l>Ick zegh het nu niet al wat mijn geboortegeest</l>
+						<l>En wachter my te nacht voorspelde van dit feest.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>TUCHTKNAEP. REY.</stage>
+					<sp who="#de-tuchtknaep-van-samson">
+						<speaker>Tuchtknaep</speaker>
+						<l>Jodinnen, hebt gy hier zoo vroegh den prins gevonden?</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Een' prins om zijnen hals met ketenen gebonden,</l>
+						<l>Van zijn gezicht berooft, gedoemt ten arrebeit,</l>
+						<l>In 't molentuchthuis. och, wat's dit een onbescheit,</l>
+						<l>Een' overwonnen helt te ketenen, te treden,</l>
+						<l>Te laeten maelen! gy volght billijckheit noch reden.</l>
+					</sp>
+					<sp who="#de-tuchtknaep-van-samson">
+						<speaker>Tuchtknaep</speaker>
+						<l>Wy slachten Samson, die met kaeckebeenen sloegh,</l>
+						<l>De vossen, staert aen staert geknoopt, in 't koren joegh;</l>
+						<l>Zoo schoone landen, als de zon oit moght beschijnen,</l>
+						<l>Misschepte in wildernisse, en heiden, en woestijnen.</l>
+						<l>Uw vaders zoncken zelfs hun' broeder in den put,</l>
+						<l>Verkochten hem voor slaef, beroofden van zijn' stut</l>
+						<l>Den ouden vader, die zoo lang te deerlijck treurde,</l>
+						<l>Door 't overdencken dat een ondier hem verscheurde.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Het diende Josef tot eene opkomst, na een wijl</l>
+						<l>Gekoren tot een' vorst en rijxvooght aen den Nijl.</l>
+					</sp>
+					<sp who="#de-tuchtknaep-van-samson">
+						<speaker>Tuchtknaep</speaker>
+						<l>Dat 's waer, het diende hem tot eer, zoo hoogh gezeten:</l>
+						<l>Maer dit behoefde hy zijn broêrs geen' danck te weeten.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>In welck een jammer heeft de boelschap hem gebroght,</l>
+						<l>In zijnen diepen slaep verraeden, en verkocht!</l>
+						<l>Hy is niet voor de vuist getemt, en overwonnen.</l>
+					</sp>
+					<sp who="#de-tuchtknaep-van-samson">
+						<speaker>Tuchtknaep</speaker>
+						<l>Zoo vaerenze met recht, die zich niet spaenen konnen</l>
+						<l>Van schoone boelen, valsch en trouweloos van aert.</l>
+						<l>Nu wort het tijt te gaen, eer 't volck op straet vergaêrt.</l>
+						<l>Gy kunt zijn droefheit niet verminderen met schreien.</l>
+						<l>Het hof belast hem noch in hechtenis te leien,</l>
+						<l>Tot nader overleg. ick bondt op 's meesters last</l>
+						<l>Den blinden aen dien boom met zijne keten vast:</l>
+						<l>Nu worde ick wederom met hem naer huis gezonden.</l>
+						<l>Zoo staet mijn wacht aen hem, hy aen mijn wacht gebonden.</l>
+						<l>Wat is de hofdienst oock een jammerlijck bedwangk!</l>
+						<l>Daer hapert altijt iet. dan valt het snoer te langk,</l>
+						<l>En dan te kort: zoo draeit de weerhaen van de zinnen.</l>
+						<l>Ick broght hem daetlijck uit, nu drijft men ons naer binnen.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Wy bidden u, verschoon den armen blinden man.</l>
+					</sp>
+					<sp who="#de-tuchtknaep-van-samson">
+						<speaker>Tuchtknaep</speaker>
+						<l>Wat eischtge dit van my? daer komt de vorst, die kan,</l>
+						<l>Behaeght het hem, dit juck verlichten, of bezwaeren.</l>
+						<l>Ick volgh mijn' last: my wort bevolen voort te vaeren.</l>
+						<l>Gaet heene, spreeckt den vorst: misschien wat gy verwerft.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>O prins, Godt stercke uw hart, eer gy van droefheit sterft.</l>
+					</sp>
+
+				</div>
+				<div type="scene" n="3">
+					<stage>DE VORST. REY.</stage>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>De groote toevloet der rondomgelege volcken</l>
+						<l>In deze hooftstadt zagh de zon, met droeve wolcken</l>
+						<l>Behangen, opgaen uit den oosten, dies men vreest</l>
+						<l>Of eenigh onweêr en stortregen Dagons feest</l>
+						<l>Moght stooren op zijn schoonste, en blussen d'outervieren,</l>
+						<l>t'Ontsteecken met triomf voor hondert witte stieren,</l>
+						<l>Zijn godtheit toegewijt, tot eene danckbre pracht,</l>
+						<l>Dewijl de lantplaegh van gansch Palestijne ons maght</l>
+						<l>In ketenen gevoelt: doch 't weder kan verkeeren,</l>
+						<l>De lucht opklaeren. wie komt hier het hooghtijt eeren?</l>
+						<l>Dit schijnen altemael Jodinnen, niet te bly.</l>
+						<l>Zy zien versuft, en bloo. het hooft hangt op een zy.</l>
+						<l>De moedt is haer vergaen, ontzoncken. 't is geen wonder.</l>
+						<l>Wy kreegen endelijck den grooten vyant onder</l>
+						<l>De klaeuwen. hoe of heur die maer in d'ooren klinckt,</l>
+						<l>En nu de ketenklank, daer hy vergaet, verstinckt</l>
+						<l>In zijn gevangkenis! zy komen herwaert treden.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Genadighste, gedoogh dat wy u met gebeden</l>
+						<l>Genaecken, en vergeef ons dees vrymoedigheit.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Hebreeusche joffers, wat is d'oirzaeck dat gy schreit?</l>
+						<l>Verkorte u iemant? hier is 't hof, dat elck verdaedight,</l>
+						<l>En hanthaeft by zijn recht, weldoenders begenadight,</l>
+						<l>De boozen straft. dit hof ziet geen persoonen aen.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Genadighste, dat's recht. zoo kan een rijck bestaen.</l>
+						<l>Maer evenwel waerdeert een vorst gelede schade</l>
+						<l>Zoo dier niet, of hy mengt gestrengheit en genade</l>
+						<l>In eenen, die naer recht verdient de hooghste straf.</l>
+						<l>Wy quamen op den roep van dit triomffeest af</l>
+						<l>Naer Gaze, met die hoop, of wy de strenge maghten</l>
+						<l>Van Palestijne noch met onze jammerklaghten</l>
+						<l>Beweegen moghten acht te neemen op den staet</l>
+						<l>Van onzen prins, te droef vervallen in dien haet,</l>
+						<l>Helaes, by hoogh en laegh, en geensins zonder reden.</l>
+						<l>De schade, alom geleên by Filistijnsche steden,</l>
+						<l>Is onvergoebaer, quetst vijf hooftsteên in haer ziel.</l>
+						<l>Maer 't ongenadigh lot, dat hem ten deele viel,</l>
+						<l>Het licht t'ontbeeren, in een' nacht van duisternissen,</l>
+						<l>Wat is dit anders dan het halve leven missen?</l>
+						<l>Hy leedt een halve doot, toen hem, van kracht berooft,</l>
+						<l>De vyant boorde bey zijne oogen uit het hooft,</l>
+						<l>Geketent door 't gejuich der straeten heenevoerde,</l>
+						<l>Dat zelfs de harten der beledighden beroerde</l>
+						<l>Tot mededoogen. meng ten minste [al is het spa</l>
+						<l>Nu wy u smeecken,] noch een' druppel van gena</l>
+						<l>Met uw rechtvaerdigheit. laet uwe wraeck bedaeren,</l>
+						<l>Zoo volght u d'eer dat gy uw' vyant noch kunt spaeren.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Gelijck uw hooftstam, die den leeu voert in zijn vaen,</l>
+						<l>Zoo dra niet overtreckt de kil van ons Jordaen,</l>
+						<l>En Adonibezeck den koning 't velt leert ruimen,</l>
+						<l>Of houwt hem, in de vlught gegrepen, flux de duimen</l>
+						<l>Van hant en voeten af. toen most hy, als een hont,</l>
+						<l>De kruimen, van den disch gevallen, met den mont</l>
+						<l>Van d'aerde zamelen, op handen en op voeten</l>
+						<l>Gekropen, in het stof zich wentelen, en wroeten,</l>
+						<l>En, naer Jerusalem vervoert met veel geschals,</l>
+						<l>In banden sterven, en het boeten met den hals.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Zoo hy geen zeventigh erfkoningen moordadigh</l>
+						<l>Mishandelde op die wijs, men had dus ongenadigh</l>
+						<l>Hem zijne tiranny niet weêr betaelt gezet.</l>
+						<l>Men streeck het vonnis naer zijne ingestelde wet.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Zoo kan dan Samson met geen reden zich beklaegen.</l>
+						<l>Wie andren plaegen wil verdient de zelve plaegen.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Is Samson losbaer, stel hem op een' hoogen prijs.</l>
+					</sp>
+
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Men koopt hier 't recht niet om, dat strijt met onze wijs.</l>
+						<l>Men geeft geen' vyant maght en vryheit zich te wreecken.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>De prins zit blint, van licht en zijn gezicht versteecken.</l>
+						<l>Een blinde is maghteloos, en droomt van geene wraeck.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Hy slijte dus den tijt, den bozen tot een baeck.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Het missen van 't gezicht dient andren tot een voorbeelt.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Men heeft hem eeuwigh ter gevangkenis veroordeelt:</l>
+						<l>En beter eeuwigh dan voor een gezette tijt.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Een zelve maght verwijst: een zelve schelt hem quijt.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Een vonnis krencken, noch niet lang geleên gestreecken?</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Het vonnis blijve: geef hem lucht om uit te breecken.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Uitbreecken? hoe kan dit, behoudens recht, geschiên?</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Men kan ontveinzende, wel door de vingers zien.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>De menschen zijn te loos, en lozen zouden 't mercken:</l>
+						<l>En waer toe dient het, als om boze in 't quaet te stercken,</l>
+						<l>Den ouden gangk te gaen, gebuuren tot verdriet.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Zoo Samson dit bequam gelust het niemant niet:</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Gy zult den nadruck eerst gevoelen van ons kusten.</l>
+						<l>Wy laeten 't by de straf van Samson niet berusten.</l>
+						<l>Het is besloten dat men 't gansche Jodenlant</l>
+						<l>Zal overtrecken, en tot aen den waterkant</l>
+						<l>Der stroomende Jordaen brantschatten alle stammen,</l>
+						<l>Of zetten voor de vuist al 't lant in bloet en vlammen.</l>
+						<l>Wy willen boven dat hereischen achterstel</l>
+						<l>Van schattingen, ons hof door Samsons trots bevel</l>
+						<l>En sterckheit, twintigh jaer, te wreveligh onthouwen.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Zoo wreet bejegenen Godts erfdeel, en getrouwen?</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Wat erfdeel?</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Kanaän is lang van Abraham,</l>
+						<l>Achthondert jaer geleên, bezeten. dit's de stam</l>
+						<l>Van Godt gezegent, in Egypten aengewassen.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Gy onbeschaemden wilt met roemen elck verbassen.</l>
+						<l>Gy putte Egypten uit, beroofde 't van zijn' schat.</l>
+						<l>Een acker lants was 't al, dat een Chaldeeu bezat</l>
+						<l>Te Mamre, daer hy vreemt van 't zuiden quam getogen.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Aertsvader Abraham heeft dappere oorelogen</l>
+						<l>Met koningen gevoert, zijn' broeder Loth ontzet,</l>
+						<l>De neef van Abraham Egyptenlant geredt,</l>
+						<l>Gespijst uit zijnen schoot. zy dancken 't vreemdelingen,</l>
+						<l>Datze al van hongersnoot niet storven, en vergingen.</l>
+						<l>De Godt der vadren schonck ons 't vruchtbre Kanaän.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Hy schonck het u? aen wien? een heiloos moortgespan,</l>
+						<l>Erfvyanden van Goôn, en kercken, en altaeren,</l>
+						<l>Beeltstormers, die noch koor noch heilighdommen spaeren.</l>
+						<l>Gy quaemt van buiten in, verhongert, en verwoet,</l>
+						<l>En stiet gewettighden, erfvorsten uit hun goet,</l>
+						<l>En overout bezit, en, van dien geest bezeten,</l>
+						<l>Voert nieuwe wetten in, en pijnight het geweeten.</l>
+						<l>Men loop' niet wijdt: uw prins, voor wien gy spreeckt en pleit,</l>
+						<l>Heeft gruwzaemer dan oit al 't lant in d'asch geleit.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Vergeef het naer uw maght. ons past geen tegenspreecken.</l>
+						<l>Wy quamen hier, om slechts te bidden, en te smeecken.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Dit smeecken is vergeefs: vergeefs gena geverght.</l>
+						<l>Zoo wort geen straf verzacht, maer 't vonnis eer geterght.</l>
+						<l>Men kan naer billijckheit niet tweemael vonnis strijcken.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Ten minste laet een' strael van uw genade blijcken,</l>
+						<l>In deze strengheit, en behou uw recht geheel.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Kan 't voeghelijck geschiên, betoont ons in wat deel.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Dees ongeluckige, verkloeckt, verrascht, gegrepen,</l>
+						<l>Berooft van 't hemelsch licht, met ketenen genepen,</l>
+						<l>Gedoemt ten arbeit, op 's aenklaegers straffen eisch,</l>
+						<l>Gevoelt, in luttel tijts, de krachten, en het vleisch</l>
+						<l>Zoo wechgesmolten, dat hy wanckelt op zijn beenen,</l>
+						<l>Allengs aen 't quijnen slaet, den tijt verslijt met steenen,</l>
+						<l>En zuchten. dus geperst door 't nijpen van den noot,</l>
+						<l>Verwacht dees onlangs stercke een' onverwachten doot.</l>
+						<l>Dat 's d'eenige uitkomste, en zijn uiterste verlangen.</l>
+						<l>Moght hy tot zijnen troost de blyde maer ontfangen,</l>
+						<l>Dat hem vergunt wort, na deze uitgestaene straf,</l>
+						<l>Te rusten in den schoot van 't vaderlijcke graf,</l>
+						<l>d'Elendige zou dit de hooghste weldaet achten.</l>
+						<l>Dat 's buiten lantgevaer 's gevangens smert verzachten.</l>
+						<l>Het toestaen van een graf en uitvaert is het al</l>
+						<l>Waerop hy hoopt. helaes, verwerven wy 't, het zal</l>
+						<l>U tot onsterflijcke eer, en eenen naem gedyen</l>
+						<l>By alle staeten, zelfs die uwe kroon benyen.</l>
+						<l>Genadighste, och vergun dat vrouwen, luttel kloeck,</l>
+						<l>En bloode, en schaemroot, in haer mondeling verzoeck,</l>
+						<l>Zoo veel genade hier ten hove in u gemoeten.</l>
+						<l>Wy worpen met dees hoope, aen 't outer van uw voeten,</l>
+						<l>Ons met eerbiedigheit in 't stof ter aerde neêr.</l>
+						<l>De titel van genade ontsta u nimmermeer.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Hebreeusche joffers, rijst: schept moet: hout op van treuren.</l>
+						<l>Wischt af uw traenen. wat gy bidt zal u gebeuren.</l>
+						<l>Ick zweer by Dagon, by mijn hooft, en 't hoogh altaer,</l>
+						<l>Zoo Samson sterft, men zal de vorstelijcke baer,</l>
+						<l>De rosbaer van het hof zijn lichaem niet ontzeggen.</l>
+						<l>Vervoert het. laet het lijck in vaders grafstê leggen.</l>
+						<l>Is ergens stercker Godt, waer by men zweeren magh,</l>
+						<l>Hy rucke 't kerckgewelf van Dagon dezen dagh,</l>
+						<l>In 't midden van de vreught, op 't hooft der Filistijnen,</l>
+						<l>Begrave en overstulpe al die te feest verschijnen:</l>
+						<l>En kunt gy 't vinden by uw vaderlijcke wet,</l>
+						<l>Vergast te middagh ons op Dagons kerckbancket.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<stage>REY VAN JODINNEN.</stage>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Zang</speaker>
+						<l>  Bestaen hier alle dingen</l>
+						<l>In 't groot heelal by treck</l>
+						<l>En tegenheit, en houdt Godts maght</l>
+						<l>Het al in zijn besteck</l>
+						<l>Door eenigheit, en tegendringen,</l>
+						<l>  Als een gewelf met kracht</l>
+						<l>Gebonden hangt te gader;</l>
+						<l>Wat wonder is 't, dat bloet naer bloet</l>
+						<l>Getrocken wort met zulck een' gloet,</l>
+						<l>Als eigen aen eene ader!</l>
+						<l>Na'et overlijden zoeckt het kint</l>
+						<l>De moeder, vrolijck als 't haer vint.</l>
+						<l>De zoon zoeckt rust by vader.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>I. Tegenzang.:</speaker>
+						<l>Zoo schijnt het hier gelegen</l>
+						<l>Met Samson in zijn smert,</l>
+						<l>In zulck een' jammerlijcken staet</l>
+						<l>Treckt noch zijn treurigh hart</l>
+						<l>Naer vaders asch, als naer een' zegen,</l>
+						<l>En troost, in zoo veel smaet:</l>
+						<l>Als of hy dan wou klaegen</l>
+						<l>Het onheil, dat hem wedervoer;</l>
+						<l>Hoe 't scheermes al de kracht afschoer;</l>
+						<l>d'Erfvyant uit zijn laegen</l>
+						<l>Den weerelozen overviel,</l>
+						<l>En pijnighde een bedroefde ziel.</l>
+						<l>  Wat baert de min al plaegen!</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>II. Zang</speaker>
+						<l>d'Aertsvaders door die reden</l>
+						<l>Bewogen in 't gemoedt,</l>
+						<l>Zoo menige eeuw geleên,</l>
+						<l>Gaen op dien zelven voet</l>
+						<l>  Begraven elck zijn overleden</l>
+						<l>Te Hebron al by een,</l>
+						<l>Op eene zelve stede,</l>
+						<l>Hier toe gewijt van Abraham.</l>
+						<l>Daer raeckt de telgh by haeren stam.</l>
+						<l>  't Gebeent van Josef mede</l>
+						<l>Wort derwaert, naer der stammen stijl,</l>
+						<l>Gevoert van Memfis, en den Nijl.</l>
+						<l>Zoo rustenze alle in vrede.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>II. Tegenzang</speaker>
+						<l>De vorst heeft hoogh gezworen</l>
+						<l>  By Dagon met een' eedt.</l>
+						<l>Best datwe naer den kercker gaen</l>
+						<l>En in zijn harteleet</l>
+						<l>Den droeven prins, by Godt verkoren,</l>
+						<l>Dit melden, om het hart t'ontslaen</l>
+						<l>  Van zijn bekommeringen</l>
+						<l>Voor graf, en uitvaert, of hy snel</l>
+						<l>Ons quaem t'ontvallen door gequel</l>
+						<l>En druck, die hem omringen,</l>
+						<l>Daer d'arme blinde in duisternis</l>
+						<l>Van menschentroost versteecken is,</l>
+						<l>Hy zal van blyschap springen.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="3">
+
+				<head>Het derde bedryf.</head>
+				<div type="scene" n="1">
+					<stage>VORSTIN. VORST.</stage>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>De triomfeerende vijf hoven, hier by een,</l>
+						<l>En elck op 't prachtighste, vergaêrt uit alle steên,</l>
+						<l>Om 't heiligh offerfeest, waerop gy hun liet nooden,</l>
+						<l>Te vieren, tot eene eer der Filistijnsche Goden,</l>
+						<l>Begeeren ernstigh dat gevange Samson speel',</l>
+						<l>Het Godtsbancket verheuge, en op een kercktooneel</l>
+						<l>Zijn kunst vertoone, voor 's lants vorsten, en vorstinnen.</l>
+						<l>Zoo kuntge Dagons gunst, en 't hart der heeren winnen.</l>
+						<l>Al 't joffrentimmer dringt eendraghtigh hier op aen</l>
+						<l>Van allen kanten. kan de vorst dit zoo verstaen,</l>
+						<l>Hy toone heden watwe op zijn gena vermogen.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Tooneelspel heeft voorheene ons meer dan eens bedrogen</l>
+						<l>Met schijn van waerheit, en niet ongeluckigh: want</l>
+						<l>Zoo wort de deught met vreught den vorsten ingeplant,</l>
+						<l>Al 't weereltlijck beloop naer 't leven afgeschildert,</l>
+						<l>Door spreeckende schildry. men ziet een hof verwildert,</l>
+						<l>Verwart, en overendt, geverft met prinssenmoort.</l>
+						<l>Daer wort van schennisse en wraeckgierigheit gehoort.</l>
+						<l>Men ruckt gekroonden, en gezalfden, van hun stoelen.</l>
+						<l>Hartstoghten, onderlinge aen 't barrenen, aen 't woelen,</l>
+						<l>Ontvouwen zich, gelijck de verwen, met de naelt</l>
+						<l>Of schietspoel net geleght, en daer geen meester dwaelt</l>
+						<l>Van wel te schicken, zijn tapijtwerck geestigh tekent,</l>
+						<l>Dat wie 't bespiegelt dit een overeenkomst rekent</l>
+						<l>Van hemelsch ooghmuzijck. hier geeft de bloem van spreuck</l>
+						<l>En hemelval een' geur, een' liefelijcken reuck,</l>
+						<l>Die meer dan wieroockgeur, den Goden opgedraegen</l>
+						<l>Met gouden wierroockvat, en schaelen, hun behaegen.</l>
+						<l>Tooneelspel sticht een' staet, verschoont geen lastervleck,</l>
+						<l>En smet in heiligh, noch onheiligh. elx gebreck</l>
+						<l>Wort, zonder iemants naem te quetsen, aengewezen.</l>
+						<l>Tooneelspel wort alleen van dommekracht misprezen,</l>
+						<l>Die recht noch reden volght. tooneelspel leent een' schat</l>
+						<l>Van wijsheit by de naelt van Memfis, Zonnestadt,</l>
+						<l>De hooge rijxschool der befaemde Egyptenaeren,</l>
+						<l>Die op de wolcken treên, en kost noch arbeit spaeren,</l>
+						<l>Om vrou natuur, van lidt tot lidt, geheel t'ontleên.</l>
+						<l>Zoo zamelden zy al wat kenbaer is by een,</l>
+						<l>Een' schat van wijsheit, opgestapelt van veele eeuwen.</l>
+						<l>Het snaterbecken van alle aexteren en spreeuwen</l>
+						<l>Verbluft geen speeltooneel. is eenigh vorst belust</l>
+						<l>Op spel; wie meer dan wy? dit 's u, mevrou, bewust.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Zoo stemt de vorst met ons, en hun, die dit begeeren?</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Betrou ons toe, de kunst zou heden triomfeeren,</l>
+						<l>Indien men vroeger op dien voorslagh had gelet.</l>
+						<l>Nu schiet ons tijt te kort. het kerckelijck bancket</l>
+						<l>Wort reede al toegestelt.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>wiltge ons die blyschap gunnen</l>
+						<l>Dan wil het blijcken wat wy noch uitwercken kunnen.</l>
+						<l>De rol van Samson zal afloopen, als een draet.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Hier valt een zwaericheit. het priesterdom verstaet</l>
+						<l>Niet licht tot nieuwicheit, en steunt op oude zeden.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>In alle hoven wort tooneelspel wel geleden.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Tooneelspel in een kercke, en van een' blinden Jood?</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Of Dagonist, of Jode, is dit geschil zoo groot,</l>
+						<l>Wie speelt, of waer men speelt?</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>men magh geen kerck ontwijden,</l>
+						<l>Geloof het priesterdom van Dagon zal 't niet lijden,</l>
+						<l>En minst van een' Hebreeu, die door zijn nieuwe wet</l>
+						<l>Den ouden godtsdienst van den Filistijn besmet.</l>
+						<l>Doch lust den vorsten spel, dit hof staet voor hun open.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Van d'offermaeltijt uit de kerck in 't hof te loopen,</l>
+						<l>Zou luttel voegen: maer al zittende aen den disch</l>
+						<l>Der Goden by den wijn, terwijl men vrolijck is,</l>
+						<l>De kelcken ommegaen, te zien op een stellaedje,</l>
+						<l>Den onlangs stercken, hoe hy zijne personaedje,</l>
+						<l>Het feest ter eere, speelt, dat waer de tafelvreught</l>
+						<l>Verdubbelen. indien godtvruchtigheit een deught,</l>
+						<l>Oock d'allerhooghste deught, geschat wort, kan men laecken</l>
+						<l>Altaergenooten, die van grooten yver blaecken</l>
+						<l>Om Godt te dancken, dus t'onthaelen op een' dagh,</l>
+						<l>Tot blyschap ingestelt: naerdien men, zonder slagh,</l>
+						<l>En stortinge van bloet, geraeckte aen eenen zegen,</l>
+						<l>In twintigh jaeren noit met wapenen gekregen.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Ick love uw ooghmerck, maer de wijs is ongeraên.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Verstaet de vorst dit, al de weerelt zal 't verstaen.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>De menschen zijn gedeelt in aert en zinlijckheden.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Hoe kan een reedlijck dier zich kanten tegens reden?</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Wat 's reden by het volck?</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>dat redenmatigh is.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Nu stel de maet van reên eens zeker, en gewis.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Dat by de wijzen magh de maet van reden heeten.</l>
+					</sp>
+
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Der wijzen reden zelf valt ongelijck in 't meeten.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Hoe kan dit zijn?</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>dees schiet te verre, en die te kort.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Is reden niet den mensch natuurlijck ingestort?</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Z'is elck natuurelijck, doch ongelijck, gegeven.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Hoe waer 't dan mogelijck op eenen voet te leven?</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Dat is onmogelijck. dit houdt het volck gedeelt,</l>
+						<l>Het volck, dat hooft voor hooft, in 't oordeel wijt verscheelt.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Om dan gelijck te gaen, wert maght vereischt in 't stieren</l>
+						<l>Van menschen.</l>
+					</sp>
+					<sp who="#de-vorst-van-gaze">
+						<speaker>Vorst</speaker>
+						<l>Een geslacht van heele en halve dieren.</l>
+						<l>Deze ongelijckheit heeft de maghten ingezet.</l>
+						<l>De weereltwijsheit smede uit noot een wijze wet,</l>
+						<l>Om al wat afdwaelt van de middenlijn te toomen.</l>
+						<l>Noch konze tot haer wit en ooghmerck geensins komen,</l>
+						<l>Door hoop van loon, en vrees voor straffe van het quaet:</l>
+						<l>Daer wert noch iet vereischt, dat vry wat verder gaet:</l>
+						<l>Want weereltsche overheit kon slechts de leên regeeren,</l>
+						<l>Zoo wijt haer maght reickt, maer de harten niet grondeeren:</l>
+						<l>Dies quam de vreeze voor de goôn, [een hooger maght,</l>
+						<l>Die elx gedachten kent, en, als een zwaert, met kracht</l>
+						<l>Door 's menschen boezem dringt, ontrust het valsch geweeten,</l>
+						<l>Het vroome rust bestelt, en uit en in kan meeten</l>
+						<l>Wat elck verdient,] ten steun der overheên, den staet,</l>
+						<l>Door 't innevoeren van den Godtsdienst, noch te baet.</l>
+						<l>Zoo dienen dan, om 't volck geschickt en recht te leiden,</l>
+						<l>Het outerboeck en 't zwaert in geener wijs gescheiden.</l>
+						<l>De tweederhande maght is noodigh, en 't gemeen</l>
+						<l>Leeft zaligh, stemmen deze eenstemmigh overeen,</l>
+						<l>Als snaeren op een luit. men schuw' dan valsche klancken</l>
+						<l>Van toonen, op dit feest: wy zullen 't ons bedancken.</l>
+						<l>Het hooft van Dagons kerck, wien d'eer van 't godendom</l>
+						<l>Bevolen blijft en uit zijn' hoogen stoel alom,</l>
+						<l>Van Gaze tot aen Dor, de wacht houdt over tempels,</l>
+						<l>Bewaert de hantvest van 't gebiên. men magh Godts drempels</l>
+						<l>Niet bezigen, ten zy de kerckstoel wort gekent.</l>
+						<l>Kan hy 't verstaen: 't is tijt dat gy een' bode zent,</l>
+						<l>En eerst verneemt, of hem uw voorslagh zou behaegen.</l>
+						<l>Wy vraegen 't niet, zoo wort het ons niet afgeslagen,</l>
+						<l>En gaen ten hove, daer een drang van heeren beit.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Hofmeester, 'k wensche dat 's aertspriesters heiligheit</l>
+						<l>Zich zelf gewaerdighde ons verzoeck terstont te hooren.</l>
+						<l>Ga heene. 'k zou hem noode in bezigheden stooren.</l>
+						<l>De plechtigheden van den godtsdienst geven hem</l>
+						<l>Geduurigh werck. hy hoeft zijn wettigheit en stem</l>
+						<l>Alom te leenen, tot een blijck en heiligh zegel.</l>
+						<l>Zoo dwaelt geen amptenaer van zijn gewoonte en regel.</l>
+						<l>Daer komt d'aertspriester juist ter kercke uit naer ons toe.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>AERTSPRIESTER. VORSTIN.</stage>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Genadighste vorstin, dat Dagon u behoe.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Eerwaertste vader, die, ter eere van de Goden,</l>
+						<l>Geduurigh waeckt, en met den toom van uw geboden</l>
+						<l>Zoo veele volcken stiert, langs 't Palestijnsche strant;</l>
+						<l>De Goden leverden dien vyant in ons hant,</l>
+						<l>Door kracht van uw gebeên. nu wenschten al de heeren</l>
+						<l>Dat Samson, onder dit zeeghaftigh bancketteeren,</l>
+						<l>Die vyant, onlangs noch onoverwinbaer sterck,</l>
+						<l>Op een triomftooneel, moght speelen in de kerck,</l>
+						<l>Ten prijs van Dagon, en tot blyschap van hun allen.</l>
+						<l>Gevalt die voorslagh u, wy laeten 't ons gevallen.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Tooneelspel was van outs verdienstigh by de Goôn.</l>
+						<l>Zoo wort hun naem ge-eert, een hoogen draf en toon</l>
+						<l>Gezet op stoffen, die, met weetenschap te schicken,</l>
+						<l>Toehoorders wonderlijck verrucken, en verquicken:</l>
+						<l>Want als de personaedje in 't ende binnen stapt,</l>
+						<l>Dan hoort men hoe al 't volck in zijne handen klapt,</l>
+						<l>Den Goden toejuicht, lacht, en met een luit geschater</l>
+						<l>De schouburgh uitberst, dat het, over wal en water</l>
+						<l>En merckt en hoftin, klinckt, en weêrgalmt langs de kust.</l>
+						<l>Zijn nu de vorsten en vorstinnen met een' lust</l>
+						<l>Van speelen aengedaen; men volge wijze en wetten.</l>
+						<l>Laet Samson inkleên. laet den schouburgh open zetten.</l>
+						<l>Wy zegenen het spel, Godt Dagons naem ten lof.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>De vorst van Gaze biet tot Samsons spel zijn hof</l>
+						<l>Te leenen: maer men wenscht dit in de kerck t'aenschouwen.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Daer staet geen speeltooneel.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>wy zullen 't daetlijk bouwen.</l>
+						<l>Het hof heeft bouwers en gereetschap by der hant.</l>
+						<l>De bouheer van het hof ontbreeckt geen snel verstant,</l>
+						<l>Om zonder kerckgerucht, het houtwerck, als gewassen</l>
+						<l>Tot een tooneel, terstont met kunst in een te passen.</l>
+						<l>De kerckkapel, die zoo veel heilighdoms bewaert,</l>
+						<l>En, tot der Goden dienst, gewaet noch speeltuigh spaert,</l>
+						<l>Maer gaeren uitreickt, zal, tot een godtvruchtigh teicken,</l>
+						<l>Niet weigren Samson op uw' last de hant te reicken.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Is blinde Samson dus op speelen afgerecht?</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Wat speelde Samson niet! hy worstelt, schermt, en vecht,</l>
+						<l>En plagh den harnasdans te danssen, eer 't vermogen</l>
+						<l>Hem door de schoone wert al vleiende uitgetogen.</l>
+						<l>De godtshut van de Joôn stont stom, zoo menighmael</l>
+						<l>Hy voor de godtskist diende, als zanger, en koorael,</l>
+						<l>Met eene harpe of fluite alle ooren wist te streelen.</l>
+						<l>Wy zullen in de kercke een spel van zinnen speelen,</l>
+						<l>Hoe Wellust Sterckheit leght al slaepende aen een' bant</l>
+						<l>Van rozen, en den helt ontwapent, met haer hant</l>
+						<l>Ten toon voert, macker dan een lam, hem, blint van minne,</l>
+						<l>Leert luistren naer den mont der vleiende boelinne,</l>
+						<l>Die in zijn blintheit zich godtvruchtigh aen hem wreeckt,</l>
+						<l>Ten dienst van haeren Godt.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>hoe gaet dit toe?</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>zy steekt</l>
+						<l>Het gouden wierroockvat, eer 't wierroock wort geroken,</l>
+						<l>Hem in de hant, en zwaeit, en helpt den blinden smoocken,</l>
+						<l>Voor Dagons outerbeelt. zoo geeft hy Dagon d'eer.</l>
+						<l>Dan zal op 't schateren des volx het Doode Meer,</l>
+						<l>De stroomende Jordaen verbaest te rugge vaeren,</l>
+						<l>En Silo, doodtsch van schrick en boosheit, al de haeren</l>
+						<l>Te berge zetten, als de vorst van 't Jootsche lant</l>
+						<l>De godtskist schantvleckt met deze onafwischbre schant.</l>
+						<l>De blinde midlerwijl, zal, onder al de deelen</l>
+						<l>Van 't stichtigh zinnespel, met danssen, zingen, speelen,</l>
+						<l>Uw priesters, hant aen hant, omvoeren op dien toon.</l>
+						<l>Wat Godtheit heet, zal uit de wolcken, haeren troon,</l>
+						<l>Van boven neêrzien, en, gelijck uit schouburghstoelen,</l>
+						<l>Met duizenden om laegh 't genoegen zelf gevoelen.</l>
+						<l>De godtsdienst des Hebreeus, wien 't noit aen roem gebrack,</l>
+						<l>Krijght dus door Samsons spel een' vreesselijcken krack.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Wy wenschten dat het alle ons priesters eerst verstonden.</l>
+						<l>De naugezetten staen, als aen een stroo, gebonden.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Men zal 't afkundigen, eer iemant zich ontstell':</l>
+						<l>Eer Samson wort gehaelt uit uwe kerckkapel,</l>
+						<l>Om, vorstelijck gekleet, te treên ter kerckstellaedje.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Dat 's wel. maer noem my nu oock d'andre personaedje.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Noëma heetze, in wie de Wellust haere rol</l>
+						<l>Zal speelen.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>is zy loos?</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>een die den rijxten pol</l>
+						<l>Van Palestijne zoo betoverde, en beroofde</l>
+						<l>Van zinnen, onder 't spel, dat hy zijn trou beloofde</l>
+						<l>Aen die lichtvaerdige bekoorster, zonder trou.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Dat 's een naer Samsons lijf, indien hy speelen zou:</l>
+						<l>Want naer uw voorstel schijnt de kunst hem aengeboren.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Hy wert 's lants rechter voor zijn twintigh jaer gekoren:</l>
+						<l>Want toen de sterckheit noch by zijne wijsheit quam,</l>
+						<l>Gaf dit hem zulck een' glans.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>en eene vleister nam</l>
+						<l>Dien helt de wijsheit, en de kracht, toen min hem griefde?</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Zoo een in dwaelingh valt, uit kracht van vrouwenliefde,</l>
+						<l>Dat is verschoonbaer, en in princen allermeest.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Hoewel ick schuw ben van Hebreen, noch wort mijn geest</l>
+						<l>Door uwe rede ontvonckt. wy stemmen uw begeeren,</l>
+						<l>Naerdien gy met dit spel Godt Dagon wilt vereeren.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Gy zult de vorsten en dees vorstelijcke poort</l>
+						<l>Verplichten door dit spel.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>wy stemmen 't. vaer vry voort.</l>
+						<l>Kerckmeester, rep u. laet den blinden hier verschijnen.</l>
+						<l>Bestel het kercktoneel te bouwen. leen gordijnen,</l>
+						<l>Tapijten, speeltuigh en gewaet in Godts kapel,</l>
+						<l>En al wat dienen kan tot dit godtvruchtigh spel.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Ons zal verlangen hoe dit Samson wil behaegen.</l>
+						<l>Men dient hem door belofte, en allerhande laegen</l>
+						<l>Een hart te steecken in den boezem, op dat hy</l>
+						<l>Gewilliger den hove en ons te wille zy.</l>
+						<l>Zijn last verlichten dient om hem in slaep te wiegen.</l>
+						<l>Daer komt hy. kon men slechts dien Joodt met hoop bedriegen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>SAMSON. TUCHTKNAEP. VORSTIN.</stage>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Waerheene leit men my?</l>
+					</sp>
+					<sp who="#de-tuchtknaep-van-samson">
+						<speaker>Tuchtknaep</speaker>
+						<l>gy staet voor 's lants vorstin.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Zegh liever voor mijn grootste en wreetste vyandin.</l>
+					</sp>
+					<sp who="#de-tuchtknaep-van-samson">
+						<speaker>Tuchtknaep</speaker>
+						<l>Wie overheert is, leer' by tijts het juck verdraegen.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Och, bitter leeren, uitgehongert, blaeu geslagen,</l>
+						<l>Van maelen afgemat, berooft van 't hemelsch licht,</l>
+						<l>Ontbloot van hulp en troost.</l>
+					</sp>
+					<sp who="#de-tuchtknaep-van-samson">
+						<speaker>Tuchtknaep</speaker>
+						<l>zoo moet het gaen. zo sticht</l>
+						<l>Een Joodt geen' korenbrant met opgevange vossen.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Schep moedt, gevangen vorst. gy kunt u zelf verlossen,</l>
+						<l>Of uwen zwaeren last verlichten. laet u raên.</l>
+						<l>Men wint genade en gunst met aen de hant te gaen.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Geen mensch, geen vorst kan my mijne oogen wedergeven.</l>
+						<l>Ick mis mijne oogen, och, dat 's meer dan 't halve leven.</l>
+						<l>De dagh ging onder eens voor eeuwigh. ick verwacht</l>
+						<l>Den opgang nimmermeer. het is hier eeuwigh nacht:</l>
+						<l>Noch mogen in der nacht alle andre dieren slaepen,</l>
+						<l>En rusten: Samson ziet geen rust voor hem geschapen.</l>
+					</sp>
+
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Gy ziet zoo deerlijck, dat my zelve uw droefheit deert.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Bezie dit krancke lijf. hoe is mijn vleesch verteert!</l>
+						<l>De beenen wanckelen, en waggelen alreede.</l>
+						<l>'k Verandere in een schim. tot noch heeft mijne bede</l>
+						<l>Den tuchtvooght noit verzacht. hy valt ons even straf,</l>
+						<l>Hoewel de kracht bezwijckt. men roept: uw werck moet af.</l>
+						<l>Het hof hoeft meel. voort voort te molen: voort te molen.</l>
+						<l>Het hof beschuldight my. de wacht staet my bevolen.</l>
+						<l>Men rijdt een' ezel zoo den hals af. is 'er dan</l>
+						<l>Geen mededoogen? och, de kunst van menschen kan</l>
+						<l>Een' harden diamant vermurwen, en verzachten:</l>
+						<l>Al zweet ick bloet voor zweet, geen traenen, geene klaghten</l>
+						<l>Vermurwen 's vyants hart: dat is en blijft verstockt.</l>
+						<l>Verzaet u 't meel niet, dat ick maele; hacktme, en brockt</l>
+						<l>Dit mager lichaem, vel en beenders, in uw potten:</l>
+						<l>Aen 't vleesch is geen belang: het stinckt, en moet verrotten.</l>
+						<l>Verrot het in uw mage, en smaeckt het uwen mont,</l>
+						<l>'t Gedye u tot een spijs. tast aen: tast aen: zoo kont</l>
+						<l>Gy roemen overal hoe Samson, doot van slaven,</l>
+						<l>En opgegeeten, in uw maege leght begraven,</l>
+						<l>Min vreesselijcker dan of tiger, of griffoen</l>
+						<l>My opvrat voor een aes. 't is toch om my te doen:</l>
+						<l>Om Samson juicht dit feest. gy mooght hem vry beschimpen:</l>
+						<l>Zijn levens spil loopt af: het lijf begint te krimpen:</l>
+						<l>De geest is 't lijf te groot, en zoeckt een ruimer lucht.</l>
+						<l>Een snixke, dan niet meer. een zucht, de leste zucht.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Bedaer wat, brave helt: bedaer wat. al dit quellen,</l>
+						<l>Dit jammeren kan u maer quetsen, en ontstellen.</l>
+						<l>Wy wenschten, [woudt gy 't van uw vyandin verstaen,</l>
+						<l>Zoo heet gy ons,] u noch in uw verdriet te raên,</l>
+						<l>Verlossen wy u niet, ten minste uw' last te minderen:</l>
+						<l>En, och, of gy 't beproefde: een proef kan u niet hinderen.</l>
+					</sp>
+
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Is noch mevrou belust, dus schots, op Dagons dagh,</l>
+						<l>Te schimpen met een' slaef, een' dien zy over magh,</l>
+						<l>Een' armen blinden man, op zijnen hals gevangen,</l>
+						<l>En meer dan op den hals. mijn zuchten, mijn verlangen,</l>
+						<l>Mijn roepen, nacht en dagh, is om een korte doot,</l>
+						<l>Voor duizent doôn. ô Godt, gy ziet, en kent mijn' noodt.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Zoo gy 't betrouwen kunt: wy komen u ten beste.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Zoo gy 't geloven kunt, het loopt met my op 't leste.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Neen, neen, men sterft zoo niet: al is uw staet belast,</l>
+						<l>Een al te taeie bant houdt ziel en lichaem vast.</l>
+						<l>De draet van 's levens webbe is al te sterck gesponnen.</l>
+						<l>Men ziet zieltoogenden, en watze al lijden konnen,</l>
+						<l>Eer 't web wort afgeknipt. schoon 't leven endtlijck stuit,</l>
+						<l>Dees vaert'er lichter, die bezwaerelijcker uit.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Wat middel zietge tot verlichting van ons quaele?</l>
+						<l>Durf Samson hoopen, heet dat hy niet langer maele.</l>
+						<l>Betoon datge eenen vorst van slaven onderscheit.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Daer is mijn hant.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>ô hant, wat hebtge lang gebeit!</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Gy zult na dezen dagh niet meer den molen trecken.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Wat is'er nu, dat my genade kan verwecken,</l>
+						<l>Verwerven by den vorst?</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>dit pleghtigh offerfeest</l>
+						<l>Vereischt wat zonderlings. wy weeten hoe uw geest</l>
+						<l>Begaeft is met de kunst van worstelen, en springen,</l>
+						<l>En schermen. Samson weet van danssen, speelen, zingen,</l>
+						<l>Oock van tooneelspel: want de wijsheit van den Nijl</l>
+						<l>Had Moses opgequeeckt, die zijn Hebreen dien stijl</l>
+						<l>Hiet volgen. kunt gy nu uw hoogheit eens verneêren,</l>
+						<l>En met een stichtigh spel van zinnen triomfeeren,</l>
+						<l>In Dagons kerck, wanneer de vorsten zijn vergaêrt;</l>
+						<l>Wy zien het juck verlicht, dat uwen hals bezwaert.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Kan ick met spel en zang den vryen staet herwinnen,</l>
+						<l>Wy willen, op die hoop, een heiligh spel beginnen,</l>
+						<l>Dat Gaze en al het lant wel eeuwigh heugen zal.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Gy kunt in Dagons kerck veel duizent in getal</l>
+						<l>Verheugen op het feest.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>zoo zy 't gehengen konnen.</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Wy hebben lastigh zelf's aertspriesters hart gewonnen.</l>
+						<l>Hy heeft het toegestemt. men zocht een, die op 't feest</l>
+						<l>Moght speelen tegens u, Noëma, rijck van geest,</l>
+						<l>En wonderlijck begaeft.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>laet haer de stof verzieren,</l>
+						<l>Een spel van zinnen, dat den wulpschen aert leert stieren,</l>
+						<l>Zal teffens stichten, en verquicken; en ick rijck,</l>
+						<l>Met zingen, danssen, en een hemelsche muzijck,</l>
+						<l>Het speelgerecht, als met een edel sap, begieten,</l>
+						<l>Dat dit d'aenschouwers na dien dagh niet zal verdrieten.</l>
+						<l>Hoewel ick luttel danx by Silo kan begaen,</l>
+						<l>'k Zoecke uitkomste in mijn ramp. wat reên zou dit ontraên?</l>
+					</sp>
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Ga rustigh heene. laet u heerlijck innekleeden.</l>
+						<l>Alleen getroost u in den ommegangk te treden</l>
+						<l>Voor 't heilighdom. dan wacht in onze kerckkapel.</l>
+						<l>Men zal u nooden, om het stichtelijcke spel</l>
+						<l>Te speelen naer den eisch, als gy geraên zult vinden.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Het rechte middel om my van dees boey t'ontbinden.</l>
+					</sp>
+
+					<sp who="#de-vorstin-van-gaze">
+						<speaker>Vorstin</speaker>
+						<l>Geley den lantsvorst ter kapelle. hou u reedt.</l>
+						<l>Verklee hem naer zijn' staet: verander mede uw kleet.</l>
+						<l>Hoe snel veranderde de Joodt, zoo ras hy hoorde</l>
+						<l>Van zijne ontlastinge, en de vryheit hem bekoorde.</l>
+						<l>Dees heerlijcke ommegang, en kercktriomf, en faem</l>
+						<l>Van Samsons wieroock, en tooneelspel zal den naem</l>
+						<l>Der Filistijnsche Goôn tot aen de lucht verheffen,</l>
+						<l>d'Aenpaelende Hebreen vernederen, en treffen,</l>
+						<l>Dat hun gezantschap, hier te Gaze in ons palais,</l>
+						<l>Met kracht aenhouden zal om rust, en vasten pais.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<stage>REY VAN JODINNEN.</stage>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>I. Zang</speaker>
+						<l>Wort 's lichaems blintheit onvermogen</l>
+						<l>En arremoe gerekent, wat</l>
+						<l>Is 't missen der inwendige oogen</l>
+						<l>Een grooter armoe: zoo men schat</l>
+						<l>De ziel en 't lichaem naer heur waerde.</l>
+						<l>Het lichaem is slechts asch, en aerde,</l>
+						<l>De ziel al geest, en niet dan geest,</l>
+						<l>Het lichaem in der tijdt bederflijck;</l>
+						<l>De ziel leeft eeuwigh, en onsterflijck.</l>
+						<l>  Zy schoeit op eene hooger leest,</l>
+						<l>En zoeckt den oirsprongk aller vroomen,</l>
+						<l>Dat 's Godt, van wienze is afgekomen.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>I. Tegenzang</speaker>
+						<l>Gevangen Samson, nu aen 't quijnen,</l>
+						<l>Voelt blint deze armoede in den druck:</l>
+						<l>Noch armer staen de Filistijnen,</l>
+						<l>In 't midden van hun staetgeluck.</l>
+						<l>Zy missen hun gezicht inwendigh,</l>
+						<l>Gevoelen niet dat zij t'elendigh</l>
+						<l>Versteecken zijn van 't hooghste goet,</l>
+						<l>Dat 's Godt te kennen, en aenschouwen,</l>
+						<l>Hem aen te hangen met betrouwen,</l>
+						<l>Ontvonckt van 's hemels Geest, en gloet.</l>
+						<l>Den reênloze is 't gezicht gegeven:</l>
+						<l>De reden leert ons hooger zweven.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>II. Zang</speaker>
+						<l>Zoo d'onbesnede Dagonisten</l>
+						<l>Hun blintheit kenden, zouden zy,</l>
+						<l>Misleit door 's afgronts loze listen,</l>
+						<l>Den afgodt op zijn jaergety</l>
+						<l>Met offerhande en omgang eeren,</l>
+						<l>Op d'offermaeltijt bancketteeren,</l>
+						<l>Verzaecken Godt, der dingen bron,</l>
+						<l>Waeruit zy lijf en ziel ontfangen?</l>
+						<l>Nu houdt hen Dagons nacht gevangen:</l>
+						<l>Dat 's meer te missen dan de zon,</l>
+						<l>Het eenigh en onendigh wezen.</l>
+						<l>O licht der Godtheit, noit volprezen!</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>II. Tegenzang</speaker>
+						<l>Geluckiger staen wy Hebreeuwen,</l>
+						<l>Wien Godt die glanssen openbaert,</l>
+						<l>Eerst vader Abram voor veele eeuwen,</l>
+						<l>  Daer na aen Moses zich verklaert,</l>
+						<l>In zijne wetten, en beveelen.</l>
+						<l>Een eenigh wezen, Godt, te deelen,</l>
+						<l>Is af te gaen van 't eenigh een,</l>
+						<l>Een gruwelijcke afgoderye.</l>
+						<l>O Godt, bewaer in slavernye</l>
+						<l>Helt Samson, nu beschimpt, getreên</l>
+						<l>Van Dagons razende offerknaepen.</l>
+						<l>Gy zijt alleen zijn sterckte en wapen.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="4">
+
+				<head>Het vierde bedryf.</head>
+				<div type="scene" n="1">
+					<stage>TUCHTKNAEP. SAMSON.</stage>
+					<sp who="#de-tuchtknaep-van-samson">
+						<speaker>Tuchtknaep</speaker>
+						<l>De Joodtsche rechter, by 't Gazaensch gerecht verwezen,</l>
+						<l>Gedoemt ten schimp, en smaet, begint alree te vrezen,</l>
+						<l>Nu hy voor 't heilighdom, in Dagons ommegang,</l>
+						<l>Zal worden omgeleit, door aller volcken drang</l>
+						<l>En toevloet: nu hy moet, getreên ter kerckstellaedje,</l>
+						<l>Bekleên op 't offerfeest zijn eige personaedje,</l>
+						<l>De Sterckheit, in den strick der Wellust, van haer kracht,</l>
+						<l>En scherp gezicht berooft, in eenen langen nacht</l>
+						<l>Geketent, als een slaef, van arrebeit gebroken,</l>
+						<l>Om vryheit prachen, en voor Dagons outer smoocken.</l>
+						<l>Dat leght hem op de leên. nu ziedt het bloedt, van spijt,</l>
+						<l>En wraeck, doch al vergeefs, de locken is hy quijt,</l>
+						<l>Het broeinest van zijn kracht, en kan zich naulijx reppen.</l>
+						<l>Ga hael hem. ziet hy komt, en zoeckt wat luchts te scheppen,</l>
+						<l>En schijnt te twijflen aen den vrydom, hem belooft.</l>
+						<l>Hy schuimbeckt, knarstant, brult. d'ooghwinckels in zijn hooft</l>
+						<l>Broên wraeck, en gruwelen. de wraeck begint t'ontsteecken.</l>
+						<l>Hy schudt het hooft. hy trapt, en stampt, en kan niet spreecken.</l>
+						<l>De leeuwentemmer, een lantstroopende Hebreeu,</l>
+						<l>Gelijckt zich zelven niet, durf nu geen' jongen leeu</l>
+						<l>Aenranden, scheuren, van den muil en bey zijne ooren,</l>
+						<l>Tot achter aen den staert; geen lant noch lieden stooren</l>
+						<l>Met vossekoppelen, en zetten 't korenlant,</l>
+						<l>Zoo wijt men af kan zien, in eenen lichten brant;</l>
+						<l>Daer arme bouliên, van den oogst, hun hoop, versteecken,</l>
+						<l>Ten hemel schreien, dat een steenen hart moet breecken;</l>
+						<l>Hy, koel op eenen bergh gezeten, dit belacht,</l>
+						<l>En groeit in 's volx verdriet. ô stoockebrant! maer zacht:</l>
+						<l>Best zwijge ick, eer hy 't hoor'. best luistre ick aen een zijde</l>
+						<l>Waer hem de wraeck vervoert. hy klaeght, maer al t'ontijde.</l>
+					</sp>
+
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Zie eenmael neêr, ô groote Godt</l>
+						<l>Van Abraham: zie eenmael neder.</l>
+						<l>Herstel mijn eerste sterckheit weder.</l>
+						<l>Wat lijdt uw naem al schimp en spot,</l>
+						<l>By deze blinde Filistijnen,</l>
+						<l>Afgodendienaers, die uw wet</l>
+						<l>  Ontheiligen met Dagons smet!</l>
+						<l>Dat smert my meer dan alle pijnen.</l>
+						<l>'k Heb mijne blintheit, mijn verdriet</l>
+						<l>Verwonnen. wiltge, sla my stijver.</l>
+						<l>Nu blaeckt mijn hart alleen van yver.</l>
+						<l>  Het hart zoeckt Godt, en anders niet.</l>
+						<l>Uwe eer, ô vader in den hoogen,</l>
+						<l>Was 't eenigh ooghmerck van den stam,</l>
+						<l>Den onverwinbren Abraham.</l>
+						<l>Uwe eer ga boven bey mijne oogen.</l>
+						<l>  Zy voeren vry mijne oogen om,</l>
+						<l>Geregen aen de zeven locken.</l>
+						<l>Zy slaen dit lichaem blaeu met stocken,</l>
+						<l>Voor Dagons beelt, op pijp, en bom:</l>
+						<l>Zy mogen schimpen, en braveeren</l>
+						<l>  Met Samson, armen blindeman,</l>
+						<l>Zoo lang hy zich niet weeren kan:</l>
+						<l>Laet Palestijne triomfeeren:</l>
+						<l>Als, midden onder 't zegefeest</l>
+						<l>Der Heidenen, noch wort bevonden</l>
+						<l>Dat d'almaght geensins staet gebonden</l>
+						<l>Aen 't haer, een vuilnis, lang gevreest.</l>
+						<l>Mijn engel Fadaël quam heden</l>
+						<l>My noch vertroosten, daer ick zat,</l>
+						<l>En op de knien om sterckheit badt.</l>
+						<l>Toen steef een nieuwe kracht mijn leden.</l>
+						<l>Godts Geest, die my, van kintsbeen af,</l>
+						<l>Tot hooge daeden heeft gedreven,</l>
+						<l>Gebietme rustigh door te streven.</l>
+						<l>Bereitme een heerlijck vorstengraf:</l>
+						<l>Een lijckgraf, daer geen Memfis naelden,</l>
+						<l>Zoo hoogh gesteigert door de lucht,</l>
+						<l>Zoo wijt en zijt alom berucht,</l>
+						<l>Noch voor noch na my, prijs by haelden.</l>
+						<l>Als Godt my sterckt zal kaeckebeen,</l>
+						<l>De reuzeneêrlaegh, korenvelden</l>
+						<l>In asch, noch Gazaes poort niet gelden,</l>
+						<l>Noch wat Godts vyant schricklijck scheen.</l>
+					</sp>
+					<sp who="#de-tuchtknaep-van-samson">
+						<speaker>Tuchtknaep</speaker>
+						<l>Doorluchtste prins, ick hoore uw jammerklaegen.</l>
+						<l>'k Heb my, door last van ons vorstin, gedraegen</l>
+						<l>Beneffens u, gelijck uw hooge staet</l>
+						<l>Vereischt. men heeft u 't vorstelijck gewaet,</l>
+						<l>Den staetsirock eerbiedigh aengetogen,</l>
+						<l>Uw hooft, op dat gy praelt voor ieders oogen,</l>
+						<l>Beschaduwt met een' rijcken tullebant,</l>
+						<l>Daer een pluimaedje, aen eenen diamant</l>
+						<l>Gehecht, om zwaeit. waertoe u zelven langer</l>
+						<l>Geterght, en dus, gelijck van wraeckzucht zwanger,</l>
+						<l>Dien vloeck gebaert, dit schandelijck verwijt?</l>
+						<l>Gy zijt, 't is waer, 'k beklaegh 't, uwe oogen quijt.</l>
+						<l>Geen heer, geen vorst, geen koning in dit leven</l>
+						<l>Is maghtigh u uwe oogen weêr te geven,</l>
+						<l>Als Dagon, daer dees hooftstadt in gelooft,</l>
+						<l>By zweert, en teert. ay lantvooght, schudt uw hooft</l>
+						<l>Van belghzucht niet: ick spreeck naer onze zede,</l>
+						<l>En lantgebruick. de godtsdienst brengt dit mede</l>
+						<l>In ons gebiet: en kont gy 't zoo verstaen,</l>
+						<l>Om naer 't gebruick aen 's priesters hant te gaen;</l>
+						<l>Gy zoudt eene eer inleggen by Gazanen,</l>
+						<l>En, aengebeên van volck en onderdaenen,</l>
+						<l>Den rechterstoel des Filistijns bekleên,</l>
+						<l>Met grooter eer dan oit in Jakobs steên.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Laet Samson zich braveeren van een' jongen!</l>
+						<l>Dat leedt hy van geen' jongen leeu, die, dol</l>
+						<l>Van hongersnoodt, al brullende uit zijn hol,</l>
+						<l>  Met open muil hem quam op 't lijf gesprongen.</l>
+						<l>Wat vraege ick na een knods, of kaeckebeen!</l>
+						<l>De strantreus moet zich met geweer beschermen:</l>
+						<l>Helt Samson hoeft geen wapens. bey deze armen</l>
+						<l>Zijn stercker dan metael, en stael, en steen.</l>
+						<l>Dit 's noch de man: dit zijn de zelve klaeuwen,</l>
+						<l>Van reuzelant, en zeestrant, en geberght</l>
+						<l>Noit, zonder wraeck te voelen, aengeterght.</l>
+						<l>Geen tuchtknaep zal, wil 't Godt, my lang begraeuwen.</l>
+						<l>Mijn kracht, die, nu geknackt, het koren maelt,</l>
+						<l>Indienze noch haer kracht eens magh herhaelen,</l>
+						<l>Zal harssenpan, gebeente, en schenckels maelen.</l>
+						<l>Zoo zetze rijck haer achterstel betaelt.</l>
+						<l>Dees voeten staen noch vaster dan pylaeren</l>
+						<l>In Dagons kerck, van donderslagh geschockt.</l>
+						<l>  Mijn wraeck, wat rustge? al lang genoegh gewrockt.</l>
+						<l>Berst uit: berst uit. 't is tijt u t'openbaeren.</l>
+						<l>Hoe ziedt mijn bloet, op een gepackt, verrot!</l>
+						<l>De zwarte gal loopt in alle aders over.</l>
+						<l>Hereisch, hereisch uwe oogen van dien rover.</l>
+						<l>  Verdraegh, verdraegh niet langer schimp, en spot.</l>
+						<l>Gelijck een gloet, aen 't broên, en lang besloten,</l>
+						<l>Ten leste berst uit eene zwangre wolck,</l>
+						<l>Vertsaeghtheit baert, en schrick in 't dootsche volck,</l>
+						<l>Van donderkloot en blixemstrael beschoten:</l>
+						<l>  Dan zwicht het al wat met een trotse kruin</l>
+						<l>De godtheit dreighde, en terghde met zijn' horen:</l>
+						<l>De donderslagh, en blixem zien geen' toren</l>
+						<l>Noch transsen aen, noch kerck, noch rots, noch duin:</l>
+						<l>Zoo zal mijn wraeck, getrotst, getrapt, in 't ende,</l>
+						<l>  Al schijntze nu te slaepen in een graf,</l>
+						<l>Verrijzen, tot der Dagonisten straf,</l>
+						<l>Dat lant en strant Gode aenschreie uit d'elende.</l>
+						<l>Mijn haer, gewoon te zwaeien om den neck,</l>
+						<l>Gelijck een kroon van gout om 't hooft te krullen,</l>
+						<l>Kan ick niet meer opschudden, onder 't brullen.</l>
+						<l>Noch houdt mijn kracht zich binnen haer besteck.</l>
+						<l>Dan steecke ick eerst mijn duimen in dees holen</l>
+						<l>Van d'oogen, uit haer winckelen geboort,</l>
+						<l>En weck de wraeck voor 't aengaen van dien moort.</l>
+						<l>Wat wraeck? Godts wraeck, my van Godts Geest bevolen.</l>
+						<l>Dan roepe ick Godt, mijn' Godt, om sterckheit aen:</l>
+						<l>Mijn Godt, mijn Godt, zie neêr van 's hemels boogen.</l>
+						<l>Wat eischtge? ick eisch den Filistijn mijne oogen:</l>
+						<l>Dan kraeckt het, of de weerelt wou vergaen.</l>
+						<l>Al 't aerdtrijck beeft, en davert, als getroffen</l>
+						<l>Van zulck een' krack, gevolght van zulck een' slagh.</l>
+						<l>Maer maghtelooze en blinde man, wat magh,</l>
+						<l>Die niets vermagh, op zijne sterckheit stoffen!</l>
+					</sp>
+					<sp who="#de-tuchtknaep-van-samson">
+						<speaker>Tuchtknaep</speaker>
+						<l>Ick wenschte dat gy Dagon glori gaeft,</l>
+						<l>Een godtheit, die zoo sterck veel hooger draeft.</l>
+					</sp>
+					<sp who="#samson">
+						<speaker>Samson</speaker>
+						<l>Zwijgh jongen, zwijgh. hou op van Godt te lasteren.</l>
+						<l>Wy willen niet veraerden, noch verbasteren</l>
+						<l>Van Moses stijl, al raest gy noch zoo fel.</l>
+						<l>Geleime naer uw afgodts kerckkapel.</l>
+						<l>Wy zullen, vroegh verlooft, Godts maght betuigen,</l>
+						<l>Wanneer de kerck van Dagon spat aen duigen.</l>
+					</sp>
+					<sp who="#de-tuchtknaep-van-samson">
+						<speaker>Tuchtknaep</speaker>
+						<l>Spat Dagons kerck aen duigen dezen dagh,</l>
+						<l>Gewis uw hooft zal draeien van dien slagh.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>AERTSPRIESTER. KOORWAERZEGGERIN.</stage>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>De koorwaerzeggerin van Akkaron, gedraegen</l>
+						<l>Op haere rosbaer, daer de straeten van gewaegen,</l>
+						<l>Geeft groot bedencken dat den Dagonisten stof</l>
+						<l>Van opspraeck wort bereit. laet Dagons kerreckhof</l>
+						<l>Bezetten. voort staffiers. 'k heb hondert offerstieren</l>
+						<l>Al ingewijt. men slaght, ontsteeckt alle outervieren.</l>
+						<l>Geen priesters rusten. elck bewaert zijn ampt, en beurt.</l>
+						<l>Zoo deze ontzaghbre non den grooten omgangk steurt,</l>
+						<l>Wat raet? wat gaet ons aen? dit raeckt ons in 't gebeente,</l>
+						<l>Verdort van ouderdom. de wacht voor dees gemeente</l>
+						<l>En alle zeesteên staet onze opzicht toebetrout.</l>
+						<l>Dat hier het Jodendom geen oproer onder brouwt,</l>
+						<l>Om alle altaeren door een rottery te splissen.</l>
+						<l>Help Dagon, wat zoudt gy al eer en offer missen!</l>
+						<l>Hoe zou de nieuwe rot aenwinnen, en dit strant,</l>
+						<l>Met Moses boeck in d'eene, en 't zwaert in d'andre hant,</l>
+						<l>Afloopen regelrecht, en tegens recht, en reden.</l>
+						<l>Daer komt die grijze non ten kerckhove opgetreden.</l>
+						<l>Twee joffers schorten haer eerbiedigh van weêrzy.</l>
+						<l>Hooghwaertste vrou, verschijnt gy mede op 't jaergety?</l>
+						<l>Zijt welkom met uw' sleep gewijde en zuivre nonnen.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Wy komen in der yl van Akkaron geronnen.</l>
+						<l>Eerwaertste vader, 'k zou u zoecken in de kerck,</l>
+						<l>En vinden wy u hier? dat Godt uw' yver sterck'.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aaertspriester</speaker>
+						<l>Wat yver, moeder, drijft u herwaert aen, en heden</l>
+						<l>Op dit gezegent feest? gewis dit steunt op reden.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Wel degelijck. geloof wy zouden niet zoo licht</l>
+						<l>U komen steuren, in het midden van uw' plicht,</l>
+						<l>En pleghtigheden, die Godt Dagons eer bewaeren.</l>
+						<l>O heilighdom, ô kerck, ô kooren, ô altaeren,</l>
+						<l>O offeryveraers, ô zielen, zonder tal,</l>
+						<l>Op deze Godtstriomf vergaêrt van overal,</l>
+						<l>Wat donckre wolcken zien wy boven Gaza hangen!</l>
+					</sp>
+
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Laet hooren wat gy ziet. wy luistren met verlangen.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>De vorst van Akkaron reedt nau met zijn vorstin</l>
+						<l>Te wagen herwaert aen, bestuwt van hofgezin</l>
+						<l>En adel, of men ging het offer toebereiden,</l>
+						<l>Met wenschen, en gebeên hun godevaert geleiden:</l>
+						<l>Maer al wat in den dienst der goden ons gemoet</l>
+						<l>Loopt op quaet voorspoock uit. d'altaervlam, root als bloet,</l>
+						<l>Ontzeght te rijzen. 't vee heeft mangel. d'ingewanden</l>
+						<l>Zien blaeu, vol sprengklen bloets. het ongel wil niet branden.</l>
+						<l>De lever is verrot. alle offervinders staen</l>
+						<l>Verbaest, zien merck by merck met schreiende oogen aen.</l>
+						<l>De kerck is vol gespoox. men hoort geschrey van vrouwen,</l>
+						<l>En mans, en kinderen, instorten van gebouwen.</l>
+						<l>De kerckpylaeren staen en schudden. 's avonts spa</l>
+						<l>Wort eene stem gehoort. de kerckgalm baeut het na,</l>
+						<l>En antwoort zeven mael uit heilighdom, en kooren.</l>
+						<l>Hy scheen te roepen: och, nu gaet het al verloren.</l>
+						<l>De kerckwacht tuight het zelf. de kopre kerckdeur kraeckt,</l>
+						<l>En slaet een schor geluit, van niemants hant geraeckt.</l>
+						<l>De dierewichlaers zien een veltslang den vrybuiter</l>
+						<l>Aenranden op den wegh, zoo ras het paert den ruiter</l>
+						<l>Bezwijckt, daer zy den hiel gevat houdt met den tant.</l>
+						<l>De starrekijckers, zoo verheven van verstant,</l>
+						<l>Zien 's hemels Reus om hoogh een leger overrompelen.</l>
+						<l>Al 't priesterdom verbaest, nu dees geruchten mompelen</l>
+						<l>En morren, drijven ons ten heilighdomme om raet.</l>
+						<l>Ick schiete op hun gebeên 't gewijde koorgewaet</l>
+						<l>Godtvruchtigh aen, bekrans het hooft, als Godts gewijde,</l>
+						<l>Met lauwer, deck het met sneeuwitte sluierzijde,</l>
+						<l>Valle in de koorkapel op 't aenzicht drymael neêr,</l>
+						<l>En roepe ons godtheit aen. ô Godt, indienwe d'eer</l>
+						<l>Van offren en gebeên u naer den eisch opdraegen,</l>
+						<l>En gy uw antwoort niet onwaerdight die u vraegen,</l>
+						<l>Gewaerdigh heden ons, in een' verlegen staet,</l>
+						<l>t'Ontvouwen op wat ramp dit heiloos voorspoock slaet,</l>
+						<l>Wat naeckende ongeval zoo veele tekens spellen.</l>
+						<l>Och, hanthaef uw kapel, alleen uit veel kapellen</l>
+						<l>Behantvest voor den tijt te melden van wat vrucht</l>
+						<l>De tijt in arbeit gaet. op dat gebedt verzucht</l>
+						<l>En steent het koor; gelijck een zwangre, die verlegen</l>
+						<l>In baerens noot zit. ick verwacht, en leg verslegen</l>
+						<l>Op 't aenzicht, luistre wat op 't zuchten volgen zal.</l>
+						<l>Ten leste berst dees stem ten koore uit met geschal,</l>
+						<l>Dat alle priesters in de kerck het hooren meugen:</l>
+						<l>Het Joodtsche treurspel zal gansch Palestijne heugen.</l>
+						<l>Wy roepen: Godt bewaer' den vorst en zijn vorstin.</l>
+						<l>Zoo roept de gansche kerck, verbaest van hart en zin.</l>
+						<l>De priesters drijven ons naer Gaze, en onderwegen</l>
+						<l>Loopt ons een lantgeschrey van alle kanten tegen</l>
+						<l>Dat Samson in de kerck van Dagon speelen zal.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Is dit uw zwaericheit? dit spelt geen ongeval.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Waer hier geen zwaericheit voor 't gansche lant geschapen,</l>
+						<l>Geloof het Akkaronsche orakel liet ons slaepen.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Wy eeren heiligh Godts orakels, en Godts tolck,</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Wanneerze u dienen, zijtge een wachter over 't volck.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Indien gy 't ons betrout, men sloft hier niet te waecken.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Betoon het dan dat Godts waerschuwingen u raecken.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Hoe waerschuwt Godt, dat wy elckandre recht verstaen?</l>
+					</sp>
+
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Hy waerschuwt dat dit spel u qualijck zal vergaen.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Verhael 't orakel, dat wy 't klaerder kennen meugen.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Het Joodtsche treurspel zal gansch Palestijne heugen.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Wat 's dit gezeght? hy dreight ons met geen ongeval.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Hy spelt dat ons dit spel tot ramp gedyen zal.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Hy spelt dat ons dit spel tot blyschap zal gedyen.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Zijt gy Godts tolck alleen, zoo valt'er niet te stryen.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Wy meeten reuckloos ons uw wettigheit niet aen.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Zoo luister naer Godts mont, daer mooghtge vast op staen.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Een dubbelzinnigheit geeft vryen keur in 't kiezen.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>En keur baert hoop en angst van winnen of verliezen.</l>
+						<l>Het veilighste is dat gy de koornon dit betrout,</l>
+						<l>Gedreven van een' geest, die haer Godts zin ontvout.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Belieft het u, laet ons met reên ter zaecke komen.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Welaen. wy hoeven voor de reden niet te schroomen.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Wat misdaet steeckt ons in eene onverzoenbre schult?</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Dat gy door 't Joodtsche spel een kerck ontwijden zult.</l>
+					</sp>
+
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>De kerck ontwijden? neen, dit spel zal Dagon eeren.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Dit Joodtsche treurspel zal Godts kerck en Godt schoffeeren.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>De vorsten drijven 't zelfs, tot zinrijck spel gezint.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>De weereltwijzen zijn in 't heiligh steecke blint.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Getrou aen Astaroth, en zuivre Dagonisten.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Verzaeckt gy onzen Godt, en rockent tempeltwisten?</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Wy zonden menighmael naer Akkaron om raet.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Nu antwoort u Godts mont, en d'antwoort wort versmaet.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Men moet wel dagelijx verkeeren met de Joden.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>In 't heilige wort hun gemeenschap ons verboden.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Om een tooneelspel, drijft gy dit zoo stip, en straf.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Zy roeien kercken uit. zy houwen 't kerckwoudt af.</l>
+						<l>Zy branden beelden, en de Goôn, die 't lant beschermen,</l>
+						<l>En durven juichende zich by de koolen wermen.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Indien hun rechter voor Godt Dagons outer speelt,</l>
+						<l>En 't gouden wieroockvat hem toezwaeit, en zijn beelt,</l>
+						<l>Het zal in 't heilighdom voor Siloos Godtskist schreeuwen,</l>
+						<l>En overtuigen al de nijdige Hebreeuwen.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Gy zoeckt uw drift een verf te geven, en een' glans.</l>
+						<l>Vaer echter voort. men zal uit geenen torentrans</l>
+						<l>Al 't onheil over zien, uit zulck een spel te spruiten.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Wat raet? wat zullen wy vast stellen? wat besluiten?</l>
+						<l>Dit spel is toegestemt met onzen vryen wil.</l>
+						<l>Men heeft ons raet gevraeght: en nu een kerckgeschil</l>
+						<l>Verwecken? d'ongena der vorsten en vorstinnen</l>
+						<l>Ons haelen op den hals? geen tijt kan dit herwinnen.</l>
+						<l>'t Aertspriesterlijck gezagh te krencken om een woort,</l>
+						<l>Dat twijfelachtigh luidt?</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>gy hebt gelijck: vaer voort,</l>
+						<l>Behaeght het u: vaer voort: wy hebben ons gequeten.</l>
+						<l>Wat zijtge met den geest van 't Jodendom bezeten!</l>
+						<l>Die groote stoockebrant zal op een kercktooneel</l>
+						<l>Beschimpen in zijn hart den godtsdisch. een bordeel</l>
+						<l>Behaeghde hem doorgaens veel meer dan Dagons tempels.</l>
+						<l>Hy zette noit een' voet op ons gewijde drempels:</l>
+						<l>En trouwen 't is een aert van dit besneên geslacht,</l>
+						<l>Dat, onbesneên van geest, noch Godt noch godtsdienst acht,</l>
+						<l>Dan dien een vondeling van Faro heeft gevonden,</l>
+						<l>Alle ouden wetten door zijn nieuwe wet geschonden,</l>
+						<l>De vorsten uit hun erf met vier en zwaert gezet.</l>
+						<l>Waer Samson omgebroght, toen hy in 't geile bedt,</l>
+						<l>En in den gloênden schoot van zijn boelinne ontslaepen,</l>
+						<l>Gesmoort lagh in dien droom; het stont hier niet geschapen</l>
+						<l>Al 't Filistijnsch gebiet te geven eenen krack,</l>
+						<l>Die eeuwigh heugen zal.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>een blindeman, zoo mack</l>
+						<l>Gelijck een jaerigh lam? ô hoorde gy zijn schinckelen,</l>
+						<l>Zijn mergeloos gebeent, van maelen dor, eens rinckelen,</l>
+						<l>En rammelen, gy zoudt niet reppen, zonder gront,</l>
+						<l>Dat ons een lantbederf van hem te wachten stont.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Van hem, of anders, wil men onzen Godt betrouwen.</l>
+						<l>De dubbelzinnigheit staet ons met recht t'ontvouwen,</l>
+						<l>Het gansche priesterdom te luistren hoe het luidt.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Zijt gy onfaelbaer in uw oordeel en besluit?</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Wilt gy d'orakels nu afschaffen, of bedillen?</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>In geenerhande wijs. wie kan dit onweêr stillen?</l>
+						<l>Mevrou, gaf al te spa zich herwaert aen op wegh.</l>
+						<l>Wanneer men tijdigh spreeckt, en raet met overlegh</l>
+						<l>Van een vergaderinge uit alle priesterdommen,</l>
+						<l>Dan kan men tegenspraeck door kerckgezagh verstommen,</l>
+						<l>En rijp besluiten wat men volgen moet, of niet.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Wy quamen op zijn tijt, gelijck Godts inspraeck riedt.</l>
+						<l>Laet gy u door zoo veel voorspoocken niet beweegen,</l>
+						<l>Alle elementen, Goôn en menschen staen u tegen.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Dees lantstriomf moet voort, al hoorde men gewagh</l>
+						<l>Van voorspoock.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>staeck het spel.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>dat krenckt het hooftgezagh,</l>
+						<l>Te hoogh ons toebetrout. om stem, gespoock, noch maeren,</l>
+						<l>Om offervinders, noch om vogelwichelaeren,</l>
+						<l>Om starrekijckers, noch om hantbekijckers droom,</l>
+						<l>En drift is 't niet geraên den kerckelijcken toom</l>
+						<l>Te laeten glijden. 'k zou my anders voor u buigen.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Wy zullen t'Akkaron voor al de kerck betuigen</l>
+						<l>Hoe wy ons queten om dit dreigende ongeval</l>
+						<l>Te schutten, daer men reed zoo verre een lantgeschal,</l>
+						<l>Een lantgedruisch van hoort. ô droeve aenstaende tijden!</l>
+						<l>Gelt Godts orakel niet, en durf men dat bestrijden,</l>
+						<l>Zoo heeft die Godtsdienst uit: zoo hoeft de kerck geen tolck:</l>
+						<l>Zoo zit ons Godtheit stom. het yverende volck,</l>
+						<l>Dat raet wil vraegen, zal veranderen, met hoopen,</l>
+						<l>By menighten van hier om raet naer Silo loopen.</l>
+						<l>Zoo wort de Godtskist van de Joden aengebeên.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Hier wort nu Akkarons orakel niet bestreên,</l>
+						<l>Maer zachter uitgeleit. wy strijden in 't verklaeren.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Span in de rosbaer: 't is hoogh tijt dat wy vervaeren.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Belieft het u, beklee den grooten ommegang.</l>
+					</sp>
+					<sp who="#de-waerzeggerin-van-akkaron">
+						<speaker>Koorwaerzeggerin</speaker>
+						<l>Span in de rosbaer. voort, wy blyven hier te lang.</l>
+						<l>Gehoorzaeme aerdt plagh flux te volgen op ons wincken:</l>
+						<l>Hier gelt geen wijze raet. de schouburgh moet verzincken,</l>
+						<l>Met Dagons kercke, en al wat aen dien gruwel vast,</l>
+						<l>Op koorwaerzeggery, noch ons waerschuwing past.</l>
+					</sp>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Ontschuldigh ons, mevrou: wy hoeven tijt te winnen.</l>
+						<l>De priesters wachten vast: het hooghtijt roept ons binnen.</l>
+						<l>En Samson ingekleet, staet vaerdigh en bereit</l>
+						<l>Te volgen in triomf den tuchtknaep, die hem leit.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>AERTSPRIESTER. KOORAELEN.</stage>
+					<sp who="#de-aertspriester-der-filistijnen">
+						<speaker>Aertspriester</speaker>
+						<l>Nu den grooten ommegangk</l>
+						<l>  Eens geviert met spel en zangk,</l>
+						<l>En in Dagons naem begonnen,</l>
+						<l>Die den vyant heeft verwonnen.</l>
+						<l>Laet de schuttery vooruit</l>
+						<l>Heenetreên op bom, en fluit,</l>
+						<l>Feestbazuinen, en trompetten.</l>
+						<l>Laet zich Godts gewijden zetten</l>
+						<l>In hunne orde, paer en paer,</l>
+						<l>Met een staetigh kerckgebaer,</l>
+						<l>En, gekranst met eickeblaêren,</l>
+						<l>d'Eer van 't hooge feest bewaeren.</l>
+						<l>Laet kooraelen hunne keel</l>
+						<l>Mengen met schalmeie, en veêl.</l>
+						<l>Samson trede op hun gezangen,</l>
+						<l>Met een' braven stoet behangen,</l>
+						<l>  Dan de torts, dan 't wierroockvat.</l>
+						<l>Dagon, 't heilighdom der stadt,</l>
+						<l>Volge, op eenen stoel gedraegen.</l>
+						<l>Wy, gereet op zijn behaegen,</l>
+						<l>Volgen hem, en op dien trant</l>
+						<l>  Al de vorsten van het lant,</l>
+						<l>En vorstinnen, en de Grooten,</l>
+						<l>Met den stoet van 't hof gesloten.</l>
+						<l>Gy kooraelen, zingt ons voor</l>
+						<l>Op dit zegenrijcke spoor.</l>
+					</sp>
+					<sp who="#de-kooraelen">
+						<speaker>Kooraelen</speaker>
+						<l>Groot is Dagon, 't hooft der Goden,</l>
+						<l>Die Godts vyant onverwacht</l>
+						<l>Heeft gelevert in ons maght,</l>
+						<l>Voor wiens kracht de reuzen vloden;</l>
+						<l>Die alleen zoo veel vermoght,</l>
+						<l>Zonder zwaert op zy te gorden,</l>
+						<l>Als een heirkracht in slaghorden,</l>
+						<l>Op een' vorstelijcken toght.</l>
+						<l>Groot is Dagon, 't hooft der Goden,</l>
+						<l>Die Godts vyant leide aen bant,</l>
+						<l>  En hem leverde in ons hant,</l>
+						<l>Tot een schimp der blinde Joden.</l>
+						<l>Ziet hoe is hy nu verneêrt,</l>
+						<l>Tegens wien noit Filisteenen</l>
+						<l>Ongequetst in 't velt verscheenen.</l>
+						<l>  Ziet hoe Gaza triomfeert.</l>
+						<l>Groot is Dagon, 't hooft der Goden,</l>
+						<l>Die Godts vyant, overal</l>
+						<l>Zoo ontzaghlijck, broght ten val.</l>
+						<l>Haelt uw hart op, gy genooden,</l>
+						<l>  Die ten offermaeltijt zult</l>
+						<l>Samson zelf op treurtooneelen</l>
+						<l>Zien zijne eige treurrol speelen.</l>
+						<l>Schrickt niet, zoo hy briescht en brult.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<stage>REY VAN JODINNEN.</stage>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Zang</speaker>
+						<l>Wanneer de zon, aen 't nedervaeren</l>
+						<l>  En daelen, uit den Leeu met kracht</l>
+						<l>Haer straelen schiet op 't aerdtsch geslacht,</l>
+						<l>De Leeu zijn kracht begint te baeren</l>
+						<l>Dan valt haer gloet te sterck:</l>
+						<l>Gelijck in 't dierenperck</l>
+						<l>De koning van de dieren,</l>
+						<l>Van zenuwen en spieren,</l>
+						<l>Gebit en klaeu voorzien,</l>
+						<l>Verslint wat weer wil biên.</l>
+						<l>De zon wint kracht in 't leeuwenbloet.</l>
+						<l>Dan zwicht het al voor haeren gloet.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Tegenzang</speaker>
+						<l>Zoo moght het hier den Filistijnen</l>
+						<l>Wel gaen, in 't endt van 't lantgeschil,</l>
+						<l>Als Godt helt Samson stercken wil,</l>
+						<l>Die, nu aen 't afgaen, schijnt te quijnen.</l>
+						<l>  Men schoer hem, tot zijn straf,</l>
+						<l>De lange haerlock af,</l>
+						<l>Maer Godt, te geene stonden,</l>
+						<l>Staet aen een haer gebonden,</l>
+						<l>Noch vuilnis, als hy werckt,</l>
+						<l>  En zijne helden sterckt.</l>
+						<l>Al slaept Godts kracht voor eene poos,</l>
+						<l>Zy slaept niet eeuwigh en altoos:</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Toezang</speaker>
+						<l>Zoo Samson Godts getijde raem,</l>
+						<l>Met een doorluchte daet zijn' naem</l>
+						<l>  Bezegle, en wecke een lantgeschreeu:</l>
+						<l>De zon zal gloeien uit den Leeu.</l>
+						<l>Dan zal men alle Filisteenen</l>
+						<l>Zien heenesmilten, dootgescheenen:</l>
+						<l>Dan smilt Godts zon een' bergh van sneeu.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="5">
+
+				<head>Het vyfde bedryf.</head>
+				<div type="scene" n="1">
+					<stage>REY. BODE.</stage>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Genade, ô Godt, genade. ô help ons. help ons heden.</l>
+						<l>Vertroost ons in dien noodt. wy schreien van beneden</l>
+						<l>Naer uwen hoogen troon. wat 's dit een overval!</l>
+						<l>Waer zijn, waer staenwe? dit afgrijsselijck geschal</l>
+						<l>Verdooft onze ooren. al dit stof verblint onze oogen.</l>
+						<l>Wy sticken. wy vergaen van stof. het puin gevlogen,</l>
+						<l>Gestoven door de stadt, vervult de ruime lucht.</l>
+						<l>De stadt is vol geschreis, vol jammers. het gerucht,</l>
+						<l>Het huilen, het gekerm verspreit zich door de straeten.</l>
+						<l>De stadt zit overstulpt van droefheit, zit verlaeten.</l>
+						<l>Elck zoeckt zijn dooden, en noch weet men niet hoe 't leit.</l>
+						<l>Wy durven, en 't is best, niet uitzien naer bescheit.</l>
+						<l>Wy duicken stil een wijl in deze kerckhofhaegen.</l>
+						<l>Hier komt'er een, verbaest, verbijstert, en verslagen.</l>
+						<l>Laet ons verneemen hoe het staet, hoe 't is vergaen.</l>
+						<l>Ay hoveling, belieft het u, ay blijf wat staen.</l>
+						<l>Verhael ons toch hoe 't leght geschapen, en geschoren,</l>
+					</sp>
+					<sp who="#de-bode">
+						<speaker>Bode</speaker>
+						<l>Hebreeusche joffers, och, heel Gaze is nu verloren,</l>
+						<l>Al 't Filistijnsche lant in zijnen hooghsten noodt.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Hoe ging 't met Samson, is hy levendigh of doot?</l>
+					</sp>
+					<sp who="#de-bode">
+						<speaker>Bode</speaker>
+						<l>Al doot, en koudt. och, waer hy tijdigh doot gesmeten,</l>
+						<l>In stê van bundeling, gebonden aen een keten,</l>
+						<l>Mishandelt, omgevoert, verbittert, en verstockt.</l>
+						<l>Nu heeft hy in zijn wraeck zich zelven ingebrockt.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Zoo missen wy Hebreen voor eeuwigh onzen rechter,</l>
+						<l>En lantbeschermer. och, dit's jammerlijck. maer echter</l>
+						<l>Verhael ons, stuck voor stuck, al wat gy hoorde en zaeght.</l>
+					</sp>
+
+					<sp who="#de-bode">
+						<speaker>Bode</speaker>
+						<l>Ick zagh een wraeck, daer al de weerelt van gewaeght.</l>
+						<l>De koorwaerzeggerin wist dit zoo klaer te spellen,</l>
+						<l>Als zaghze Dagons kerck bouvalligh overhellen.</l>
+						<l>Dat komt van speelen en tooneelspel in Godts kerck,</l>
+						<l>Ontwijt om eenen Jode, alleen al 't lant te sterck.</l>
+						<l>Wy zagen Samson eerst den ommegangk geleien,</l>
+						<l>Voor Dagons heilighdom ten toon treên op schalmeien,</l>
+						<l>Op snaer, en zegezang, en vrolijck feestgeluit.</l>
+						<l>Hy stont den schimp en smaet des volx geduldigh uit,</l>
+						<l>En mack, gelijck een lam, en hiel zich ingetrocken,</l>
+						<l>Maer kaeude midlerwijl de heimelijcke wrocken.</l>
+						<l>Zoo raeckte d'ommegangk van Dagon aen zijn endt.</l>
+						<l>Het offermael begon, gelijck men is gewent,</l>
+						<l>Doch heerlijcker dan oit, uit blyschap dat de landen</l>
+						<l>Den grootsten vyant, nu gevangen in hun handen,</l>
+						<l>Vast ringeloorden, in zijn blintheit en verdriet.</l>
+						<l>Men gaf hem honighraet te proeven, ofze niet</l>
+						<l>Zoo lecker was, gelijck de honig, en de raten</l>
+						<l>Der byen, die in 't aes van zijnen leeusromp zaten,</l>
+						<l>Van hem voorheen verscheurt, toen, in zijn volle kracht,</l>
+						<l>Hy noit om 't kerckbancket van Gaza had gedacht.</l>
+						<l>Men noode hem, hy zou zich toeven, en verzaden.</l>
+						<l>Men vraeghde of hier nu niet een raetsel viel te raeden,</l>
+						<l>Dat dubbelzinnigh was: wie hem de sterckste scheen:</l>
+						<l>Of nu een leger volx niet stercker was dan een.</l>
+						<l>De priesters kroonden hem het hooft met eicke kranssen,</l>
+						<l>En nooden hunnen gast, en porden hem te danssen</l>
+						<l>Voor Dagons hoogh altaer. hy zweegh, als doof, en stom.</l>
+						<l>Terwijl ging op 't bancket de berckemeier om,</l>
+						<l>Op Samsons rechterschap. men dronck met groote toogen.</l>
+						<l>Zy wenschten hem geluck, en twee paer andere oogen.</l>
+						<l>Dat schimpen nam geen endt. ten leste quam een vrou</l>
+						<l>Noëma voor den dagh, die 't mael besluiten zou</l>
+						<l>Met geen onstichtigh spel, een zedigh spel van zinnen.</l>
+						<l>Zy klommen ten tooneele, en zouden werck beginnen.</l>
+						<l>Hy speelde eerst op een harp, zong vrolijck onder 't spel.</l>
+						<l>De toon ging middelbaer, dan langkzaem, dan weêr snel.</l>
+						<l>De kerckgenootschap juicht. zy lachen datze schateren.</l>
+						<l>De kerckgalm baeut hen na. men hoort de galmen klateren,</l>
+						<l>Die groeien by den wijn. de groote kelck ging om,</l>
+						<l>Op d'eer van Dagon, en het gansche Godendom.</l>
+						<l>Men zou, tot slot van 't feest, ten speele zich bereiden.</l>
+						<l>De blinde Samson zeght: ay tuchtknaep, wilme leiden</l>
+						<l>Daer dit tooneel aen bey de hooftpylaeren leunt,</l>
+						<l>En 't schrickelijck gevaert van al de kerck op steunt,</l>
+						<l>Op datwe, moê van spel en dans, wat rusten mogen,</l>
+						<l>En dan met volle kracht aenheffen voor elx oogen.</l>
+						<l>Verpoozen sterckt den geest met eenen nieuwen lust.</l>
+						<l>Hy, van zijn opzet en wraeckgierigheit bewust,</l>
+						<l>Die afgeterght in 't licht zou komen uitgeborsten,</l>
+						<l>Ten ondergangk van al de Filistijnsche vorsten,</l>
+						<l>Betast van wederzy de hooftpylaeren vast,</l>
+						<l>Die Dagons kerckgebou, van duizenden vermast,</l>
+						<l>En zulck een werckstuck van de reuzen onderschraegen:</l>
+						<l>Terwijl d'aenschouwers door het dack van boven zagen,</l>
+						<l>Behalve duizenden om galeryen heen,</l>
+						<l>Dry hoogh gebouwt, en een ontelbaerheit beneên</l>
+						<l>In 't koor, en in den buick der kercke, en ommegangen,</l>
+						<l>Die opgespannen al naer Samsons spel verlangen.</l>
+						<l>Het schijnt hy roock het hoe Noëma, luttel trou,</l>
+						<l>Hem door het wieroockvat in 't spel verschalcken wou,</l>
+						<l>Wanneerze, hant aen hant, den blinden om zou draeien,</l>
+						<l>En hy den wieroockgeur met haer den Godt toezwaeien,</l>
+						<l>Ten schimp van Arons dienst, waerop de maght van 't lant</l>
+						<l>De feest besluiten door het klappen in de hant:</l>
+						<l>Maer anders ging het, en dat blyspel voor de grooten</l>
+						<l>Wert met hun treurspel al t'afgrijsselijck besloten.</l>
+					</sp>
+
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Wy schricken voor het endt des treurspels, nu 't genaeckt.</l>
+					</sp>
+					<sp who="#de-bode">
+						<speaker>Bode</speaker>
+						<l>Hy staet in 't midden der pylaeren, brant en blaeckt</l>
+						<l>Van eenen hoogen geest, een godtheit, een vermogen,</l>
+						<l>Een grooter sterckte dan hem korts was uitgetogen.</l>
+						<l>De blinde vorst vertreckt zijn winckbraeu, knarssetant,</l>
+						<l>Schijnt zelf een fiere leeu, die eene wijl aen bant,</l>
+						<l>En ongenezen van zijn korts ontfange wonden,</l>
+						<l>Het hooft schudt, los ruckt wat hem terghde, en hiel gebonden,</l>
+						<l>En zoo vervaerlijck brult, dat al wat daer omtrent</l>
+						<l>Zich houdt zijn dootverf zet, en 't haer zet overendt.</l>
+						<l>Het haer om Samsons hooft scheen haestigh aen te wassen.</l>
+						<l>Hy hief zijn hooft heel trots om hoogh naer 's hemels assen,</l>
+						<l>En riep: mijn Godt, mijn Godt, vaer neder: ruck beneên.</l>
+						<l>Nu hanthaef uwen naem. hereisch den Filisteen</l>
+						<l>Onze oogen. nu is 't tijt uw kracht in ons te baeren.</l>
+						<l>Zoo ruckt hy kruisgewys de beide hooftpylaeren</l>
+						<l>Met bey zijne armen datze buigen overeen.</l>
+						<l>Hy roept: mijn ziel, nu sterf met al de Filisteen.</l>
+						<l>Zoo ras houvasten, balck, en dack, en galeryen</l>
+						<l>Hun steunsel wort ontruckt, ontzet van alle zyen,</l>
+						<l>Verkiezen zwaerte en last van menschen en gesticht</l>
+						<l>Het middelpunt om laegh. de zon schijnt met haer licht</l>
+						<l>Te rug te vaeren. dat geschrey van doode volcken</l>
+						<l>En hallef levenden vaert op in dicke wolcken</l>
+						<l>Van stof, en assche, en puin. de gront der aerde loeit,</l>
+						<l>En davert van dien smack. 't gerucht slaet voort, en groeit</l>
+						<l>Door dal en duinen aen. gansch Gaze raeckt aen 't hollen.</l>
+						<l>De reuzen in 't geberght zien uit, en wat gezwollen</l>
+						<l>Van hovaerdye op dees triomffeest roemt en stoft</l>
+						<l>Ontzinckt de moedt, zoo laegh als Dagon nederploft,</l>
+						<l>Begraven onder puin met beckeneel en schedel.</l>
+						<l>Een zelve graf bestulpt hier edel, en onedel.</l>
+						<l>De staet des Filistijns, die 't hooft ten hemel stack,</l>
+						<l>Kreegh nu door Samsons val zoo schrickelijck een' krack,</l>
+						<l>En nederlaegh, als noit voorheene in al zijn leven.</l>
+						<l>Het is'er teffens al met eenen slagh gebleven.</l>
+						<l>De wreecker, afgemat van 't jammer, dat hy leê,</l>
+						<l>Nam al de vyanden op zijne tanden meê.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Gy zijt geluckigh, die ontglipt dit mooght vertellen.</l>
+					</sp>
+					<sp who="#de-bode">
+						<speaker>Bode</speaker>
+						<l>Ick hing aen een' pylaer, alreede aen 't overhellen,</l>
+						<l>En zagh van boven al dit deerlijck schouspel aen,</l>
+						<l>Bescheidelijcker toen het stuiven was vergaen;</l>
+						<l>Geplet, en half geplet, en hals en been gebroken,</l>
+						<l>Het bloet en puin gemengt, de bleecke geesten spoocken</l>
+						<l>En waeren om den romp, of doot, of hallef doot.</l>
+						<l>Dees rept den arm noch, die vertreckt zijn been in noodt:</l>
+						<l>Een ander zieltooght vast: een ander onder 't kermen</l>
+						<l>Komt onder uit het puin opdondren. schenckels, darmen,</l>
+						<l>En hooft, en ingewant, een misselijck beslagh,</l>
+						<l>Door een gemengt, en vleesch, en been, en brein den dagh</l>
+						<l>Bezwalcken met een lucht, die haest een pest zal baeren.</l>
+						<l>Het volck, van overal toeschietende op dees maeren,</l>
+						<l>Geraeckt in oorlogh, elck om zijn verwant, en bloet.</l>
+						<l>Het bloedigh puin wort om en wederom gewroet.</l>
+						<l>De doôn begruist, gekneust, zijn naulijx t'onderscheien.</l>
+						<l>Dat handenwringen, dat gekerm, dat deerlijck schreien</l>
+						<l>Is onverdraeghelijck. zy kennenze aen 't gewaet,</l>
+						<l>Zoo 't aenzicht is geschent, of heel, of half. men slaet</l>
+						<l>Lidtekens gade, of let op ieders kunne, of jaeren.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>En weet noch zaeghtge niet hoe Samson is gevaeren?</l>
+					</sp>
+					<sp who="#de-bode">
+						<speaker>Bode</speaker>
+						<l>Het schijnt een zwaere steen heeft hem het hart geplet,</l>
+						<l>En van verdriet verlost. men heeft het lijck gezet</l>
+						<l>In eene rosbaer, uit ontzagh voor uw Hebreeuwen:</l>
+						<l>Want om een' dooden leeu zoo menigh duizent leeuwen</l>
+						<l>Te tergen vint de stadt, in rouw, nu ongeraên.</l>
+						<l>Men weet de vorst had u zijne uitvaert toegestaen.</l>
+						<l>Men zal de rosbaer nu hier brengen, zonder beiden.</l>
+						<l>Gy mooght, belieft het u, het doode lijck geleiden</l>
+						<l>Ter hofpoort achter uit, om zoo d'onstelde straet</l>
+						<l>Te mijden, en 't gerucht des volx, verkropt van haet.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>BLOETVRIENDEN. REY. FADAËL.</stage>
+					<sp who="#samsons-bloetvrienden">
+						<speaker>Bloetvrienden</speaker>
+						<l>Wy wensten noch voor 't lest den dooden helt t'aenschouwen:</l>
+						<l>Maer zienwe ginder niet een schaer Hebreeusche vrouwen?</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Ter goeder uure komt gy hier met ons by een,</l>
+						<l>Om d'uitvaert van uw bloet met uwen rou te kleên.</l>
+						<l>Daer komt de rosbaer. zetze een wijl op 't kerckhof neder,</l>
+						<l>By deze haege. och, och, hoe keert de lantvooght weder,</l>
+						<l>Heel anders dan hy korts te velde ging om roof</l>
+						<l>Te haelen voor de vuist op 't Heidensch ongeloof!</l>
+						<l>Wy trocken herwaert aen, of wy hem spreecken moghten,</l>
+						<l>En hoerende hoe vroom hy zich had vry gevochten,</l>
+						<l>Door zulck een schoone wraeck, zoo komen wy in stê</l>
+						<l>Ter uitvaert van zijn lijck. nu laet ons eene bê</l>
+						<l>Uitstorten, op dat Godt het lijck en ons bewaere,</l>
+						<l>Terwijl al 't volck zich geeft naer Gaze op deze maere.</l>
+					</sp>
+					<sp who="#fadaël">
+						<speaker>Fadaël</speaker>
+						<l>Gy zoons en dochters van aertsvader Abraham,</l>
+						<l>Verschrickt niet: 't is om u dat ick van boven quam.</l>
+						<l>Gy ziet hier Fadaël, gedaelt uit 's hemels poorte.</l>
+						<l>'k Heb Samsons ouderen gespelt van zijn geboorte,</l>
+						<l>En hoe d'onvruchtbre noch zou baeren eenen zoon,</l>
+						<l>Van moeders lichaem af verlooft aen 's hemels kroon,</l>
+						<l>Hoe nimmer scheermes zou zijn hooft en haer ontwijden,</l>
+						<l>Geen wijn zijn tong; hy sterck al 't stamhuis trou bevrijden</l>
+						<l>Voor 't Filistijnsch gewelt. nu heeft de helt Godts wraeck</l>
+						<l>Stantvastigh uitgevoert, uit yver voor Godts zaeck.</l>
+						<l>Zijn doodt bedroeve u niet. de geest, bevrijt van kommer</l>
+						<l>En 's lichaems blintheit, waert gerust in koele en zoete lommer</l>
+						<l>By d'oude helden, hem grootdaedigh voorgetreên.</l>
+						<l>Na twalefhondert jaer, door alle starren heen</l>
+						<l>Om hoogh gevoert, zal hy zijn faem hier op den wagen</l>
+						<l>Gezeten, onder al Godts Heiligen zien draegen,</l>
+						<l>Omvoeren in triomf, wanneer men klaer verstaet</l>
+						<l>Hoe 't voorbeelt van zijn doot en leven doorgaens slaet</l>
+						<l>Op een' verlosser, van Godts Geest, als hy gedreven,</l>
+						<l>Die stervende den Doot den dootsteeck noch zal geven,</l>
+						<l>En door een zachter wet elx hart van wraecke ontlast,</l>
+						<l>Een wet van liefde, daer de hooghste kroon op past.</l>
+						<l>Gy zult by 's vaders lijck zijn grafstê heerlijck bouwen,</l>
+						<l>En op den zerck des zoons dit grafschrift laeten houwen:</l>
+						<l>Hier rust helt Samson, die Godts volck beschutten kon.</l>
+						<l>Wat helt? die stervende den Filistijn verwon.</l>
+						<l>Staet op, en volght mijn spoor terstont met deze bare.</l>
+						<l>Ick decke u met een wolck, dat niemant u bezwaere.</l>
+						<l>De muilen aen de poort staen reede, en by der hant.</l>
+						<l>Voort voort. 't is tijt dat gy hen in de lijckbaer spant.</l>
+					</sp>
+					<sp who="#de-rey-van-iodinnen">
+						<speaker>Rey</speaker>
+						<l>Och gave Godt dat een verlosser moght verschijnen,</l>
+						<l>Die grooter vyanden dan alle Filistijnen</l>
+						<l>Verdelghde door de maght en nadruck van zijn doot.</l>
+						<l>Wy brengen op dien wensch dit lijck in 's vaders schoot.</l>
+					</sp>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

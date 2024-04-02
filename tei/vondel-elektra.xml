@@ -1,0 +1,3169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000012" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Elektra</title>
+				<title type="sub">van Sophokles</title>
+				<author>
+					<persName>
+						<forename>Sophocles</forename>
+						<surname/>
+					</persName>
+					<idno type="wikidata">Q7235</idno>
+					<idno type="pnd">118615688</idno>
+				</author>
+				<author>
+					<persName>
+						<forename>Joost</forename>
+						<nameLink>van den</nameLink>
+						<surname>Vondel</surname>
+					</persName>
+					<idno type="wikidata">Q312673</idno>
+					<idno type="pnd">118627848</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL"
+						>https://www.dbnl.org/tekst/vond001dewe03_01/vond001dewe03_01_0138.php</idno>
+					<title>J.F.M. Sterck, H.W.E. Moller, C.G.N. de Vooys, C.R. de Klerk, B.H.
+						Molkenboer, J. Prinsen J.Lzn. en L. Simons (eds), De werken van Vondel.
+						Derde deel 1627-1640. De Maatschappij voor goede en goedkoope lectuur,
+						Amsterdam 1929</title>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Sophocles, Joost van den Vondel (trans): Elektra van Sophokles.
+						Amsterdam: Dirck Cornelisz Houthaeck, 1639.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person xml:id="leermeester" sex="MALE">
+						<persName>Leermeester</persName>
+					</person>
+					<person xml:id="orestes" sex="MALE">
+						<persName>Orestes</persName>
+					</person>
+					<person xml:id="elektra" sex="FEMALE">
+						<persName>Elektra</persName>
+					</person>
+					<person xml:id="rey" sex="FEMALE">
+						<persName>Rey</persName>
+					</person>
+					<person xml:id="chrysothemis" sex="FEMALE">
+						<persName>Chrysothemis</persName>
+					</person>
+					<person xml:id="klytemnestra" sex="FEMALE">
+						<persName>Klytemnestra</persName>
+					</person>
+					<person xml:id="aegisth" sex="MALE">
+						<persName>Aegisth</persName>
+					</person>
+					<person xml:id="pylades" sex="MALE">
+						<persName>Pylades</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-02">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1639">
+				<desc/>
+			</event>
+			<event type="premiere" when="1640">
+				<desc/>
+			</event>
+			<event type="written" when="1639">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart>I.V. Vondels <lb/> Elektra van Sophokles. <lb/>Trevrspel.</titlePart>
+				<titlePart>Sola Sophocleo tua carmina digna cothurno.</titlePart>
+				<titlePart>Ghespeelt in de Amsterdamsche Schouwburgh, in November,1640.</titlePart>
+
+				<titlePart>t'Amsterdam,</titlePart>
+				<titlePart>Gedruckt by Nicolaes van Ravesteyn.</titlePart>
+				<titlePart>Voor Dirck Cornelisz Hout-haeck, Boeckverkooper op de Nieuwe zijds Kolck,
+					Anno 1639.</titlePart>
+				<titlePart><figure/></titlePart>
+			</docTitle>
+
+			<div type="dedication">
+				<head>Aen de Wijze en vernuftige Ioffrouwe Maria Tesselscha Roemers, <lb/> Weduwe
+					van wijlen Heer Alard Krombalck.</head>
+				<p>VVijze en vernuftige Ioffrouw,</p>
+				<p>Gelijck een vryer met overlegh, en oordeel zijn hart, en liefde zet op een jonge
+					vryster, die, om haere natuurlijcke schoonheid, aengebore bevalligheid, en
+					voegelijck cieraed, bekoorlijck is; eveneens kreegh ick een' treck tot deze
+					princes Elektra, of liever Electa, een uitgeleze dochter, uit dien naemhaftigen
+					koning, en gezongen veldoverste, Agamemnon, geboren; en herboren uit de
+					harssenen van dien Atheenschen en zegenrijcken veldheer, Sophokles, die haer,
+					tot verwondering zijner en der navolgende eewen, van ouds, op het tooneel, te
+					voorschijn broght,</p>
+
+				<lg>
+					<l>Met vaerzen, schoejende op den leest</l>
+					<l>Van zijnen goddelijcken geest.</l>
+				</lg>
+				<p> Meester Ioan victorijn, in wiens mond Elektra bestorven is, prickelde ons zoo
+					menighmael hier toe aen, tot dat wy het ten leste waeghden, en deze doorluchtige
+					Ionckvrouw, op onze wijze, Neerlandsch spreecken leerden, met hulpe van dien
+					hooghgeleerden Iongeling, Isaak Vossius; een loos vos, en wacker vernuft, om het
+					Griecksche wild, hoe diep en duister het oock verborgen zy, op te snuffelen. In
+					dit treurspel woelen veelerleie hartstoghten, gramschap, stoutigheid, vreeze,
+					bekommeringe, haet en liefde, trouw en ontrouw, droefheid en blyschap, elck om
+					't hevighste. Men hoort hier klaere vertellingen, gewightige beraedslaegingen,
+					gezonde gezoute leeringen, en goude spreucken. Dit vervat inzonderheid het geen
+					den sterflijcken menschen ten allerhooghsten oirbaer is, naemelijck, dat Gods
+					uitgestelde straf endelijck schelmen en booswichten rechtvaerdighlijck
+					achterhaelt; welck leerstuck het zout, en een van de zenuwen der godvruchtigheid
+					streckt. AEschylus, Sophokles, en Euripides hebben, alle drie om strijd, van
+					deze stof gehandelt. Nadien wy deze schilderyen zelfs, die de heldere middaghzon
+					niet schroomen, voor Nederduitschen ten toon stellen, zal't onnodigh zijn, in 't
+					byzonder, en ten nauwsten, te ontvouwen alle d'onnavolgelijcke kunst, die in dat
+					aeloude werckstuck, by opmerckende verstanden, kan waergenomen worden. Alle
+					leden dezer edele en koningklijcke maeghd zijn gelijckmaetigh, en
+					onberispelijck, gelijck oock de verwen der welsprekentheid kunstighlijck in 't
+					Griex verdreven. Men ziet 'er niet wanschapens, en alle deelen van 't minste tot
+					het meeste hangen hecht te zaemen, en vloeien zonder dwang uit malkanderen. Hoe
+					men met den zinnen hier dieper doordringt, hoe zich meer wonderen openbaeren, en
+					t' elckens yet anders, en 't geen men te voren over 't hoofd zagh. Walgelijcke
+					opgeblaezenheid, waer van Griecken en Latynen hoe aelouder, hoe vryer zijn,
+					heeft hier nergens plaets; oock geen wispeltuurigheid van stijl, en de
+					tooneeldichter is overal zich zelven gelijck, en geeft te kennen dat'er een
+					veldheer insteeckt. Toestel en redenen zijn gepast naer de personagien, elck
+					naer den eisch levendigh uitgebeelt. Hebbenwe 't geen door tijds langduurigheid,
+					en het menighvuldigh omsuckelen, van hand tot hand, uitgewischt, gevlackt, of
+					verbasterd zy, eer verdonkert dan verlicht, men ontschuldige ons, die tegens ons
+					geweten niet moedwilligh dochten te misdoen. Men bejegent plaetsen zo duister
+					als raedsels, waer over d'uitleggers noch met zich zelve, noch met anderen
+					overeen stemmen, en in 't uitleggen hemel en aerde verschillen. Oock is 't
+					onmogelijck de redenen wel te binden, indien men gehouden zijnde de Griecksche
+					koppelingen stip te volgen, niet met een ruim geweten wat vrymoedigh daer over
+					heenen durf vaeren. Rijm en maet, waer aen de vertolcker gebonden staet,
+					verhindert oock menighmael, dat de vertaelder niet zoo wel en volmaecktelijck
+					naspreeckt, 't geen zoo wel en heerlijck voorgesproken word; en yet van d'eene
+					tael in d'ander, door eenen engen hals te gieten, gaet zonder plengen niet te
+					werck: een zaeck die ghy, wyze en vernuftige Ioffrou, maghtigh zijt te
+					oordeelen, door ondervinding in 't vertaelen van uwen Tuscaenschen Tasso, zoo
+					menighmael ghy voor Ierusalem, met zynen dapperen Buljon, dien Christen oorloogh
+					voert; waer over wy, met anderen vast verlangende, eens hopen te vieren, zoo dra
+					uwe hand het heiligh graf, met d'yverige pen, gelijck Godefroy met den gewyden
+					zwaerde, hebbe bemaghtight. Uwe bezigheid ondertusschen by poozen wat
+					uitgespannen zijnde, om de snede van vernuft en zinnen, door het al te stadigh
+					blocken, op een zelve werck, niet te verstompen, verquickt en zegent zomtijds
+					den Hollandschen Parnas met eenen lieflijcken en aengenamen dauw, van aertige
+					spitsvondigheden, en geestige bloemen, en druckt uwe schrandere gedachten, in
+					verscheide taelen, geluckighlijck uit, en koomt zelve op welgestelde toonen van
+					leckere poësy al zoetelijck en zachtelijck aen, gelijck het luisterende hart
+					naer den kittelenden galm van luiten en fluiten; waerom wy onze Elektra, voor
+					uwe voeten, als aen eene der hemelsche zanggodinnen, opofferen, en wenschen te
+					blijven,</p>
+
+				<p><lb/> Wijze en vernuftige Joffrouw,</p>
+				<p><lb/> Vwe E. allerminste dienaer</p>
+				<p><lb/> J.V. Vondel.</p>
+				<p><lb/> t'Amsterdam, 1639. den 19en van May.</p>
+			</div>
+
+			<div type="preface">
+				<head>Aulus Gellius in het zevenste boeck, en vijfde <lb/>hoofdstuck van zijn
+					Attische Nachten.</head>
+				<p>In Grieckenland was een wijd vermaert tooneelspeelder, die in gebaer,
+					bevalligheid, en heldere uitspraeck alle anderen overtrof. Men noemde hem Polus:
+					Hy speelde der doorluchtige poëten treurspelen meesterlijck, en onbeteutert. De
+					dood benam hem zijnen zoon, op wien hy al zijn hart gezet hadde. Toen hem docht
+					dat de rouw uit, en zijn kind genoegh beweent was, begaf hy zich weder tot de
+					kunst, om wat te winnen. Zullende in dien tijd t' Athenen Sophokles Elektra
+					speelen, most hy quansuis Orestes doodbus en gebeente draegen. Het inhoud van
+					dit treurspel brengt mede, dat Elektra, quansuis haer broeders overschot
+					draegende, beschreit en betreurt de dood des genen, dienze meent by ongeval
+					omgekomen te wezen. Polus dan Elektraes rouwkleederen aentreckende, haelde zijn
+					zoons gebeente en doodbus uit den grave, en gelijck of hy Orestes noch omhelsde,
+					bootste zoo die droefheid na, niet met eenen gemaeckten schijn, maer
+					natuurlijcke lijckklaghten, en waerachtige traenen, en verweckte door dit
+					middel, onder het spelen, zijn eige droefheid.</p>
+			</div>
+			<div type="preface">
+				<head>Justus Lipsius, het licht der geleerdheid zijner eeuwe, spreeckt door Langius,
+					in het eerste boeck van zijn Standvastigheid, aldus:</head>
+				<p>Men zeit van Polus, dien vermaerden tooneelspeelder, toen men t'Athenen zoude
+					speelen het spel, waer in men droefheid most uitbeelden, dat hy heimelijck zijn
+					overleden zoons gebeente en doodbus op het tooneel broght, en den geheelen
+					schouwburgh met waerachtigen rouw vervulde.</p>
+			</div>
+			<div type="preface">
+
+				<head>Inhoud.</head>
+				<p> In deze fabel word de grijze Voestervader of Leermeester vooraen gestelt, die
+					Orestes ontdeckt al 't geen t'Argos gebeurde. Want Elektra, een groothartige
+					dochter, verzend haren broeder Orestes, noch een kind heimelijck gestolen, en
+					den voestervader gelevert, naer Phocis, by Strophius, van waer hy endelijck,
+					twintigh jaeren na 's vaders dood, wederkerende, wraecke neemt over zijn vaders
+					moord. </p>
+				<p>De Fabel word t'Argos gespeelt. De Rey bestaet uit inlandsche Maeghden. De
+					Leermeester spreeckt de voorrede.</p>
+			</div>
+
+			<castList>
+				<head>Personagien</head>
+				<castItem corresp="#leermeester">
+					<role>Leermeester.</role>
+				</castItem>
+				<castItem corresp="#orestes">
+					<role>Orestes.</role>
+				</castItem>
+				<castItem corresp="#elektra">
+					<role>Elektra.</role>
+				</castItem>
+				<castItem corresp="#rey">
+					<role>Rey van inlandsche Maeghden.</role>
+				</castItem>
+				<castItem corresp="#chrysothemis">
+					<role>Chrysothemis.</role>
+				</castItem>
+				<castItem corresp="#klytemnestra">
+					<role>Klytemnestra.</role>
+				</castItem>
+				<castItem corresp="#aegisth">
+					<role>Aegisth.</role>
+				</castItem>
+				<castItem corresp="#pylades">
+					<role>Pylades, een stomme personagie.</role>
+				</castItem>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<head>Elektra.</head>
+				<div type="scene" n="1">
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>O Zoon van Atreus zoon, die 't opperste gezagh</l>
+						<l>In 't Griecksche leeger had, toen hy voor Troje lagh,</l>
+						<l>Nu zietge zelf het geen, daer staegh u hart naer haeckte.</l>
+						<l>Dit's Argos, d'oude Stad, daer uw gemoed om blaeckte.</l>
+						<l>Dit 's 't woud van Iö zelf, dat dolgeprickelt dier.</l>
+						<l>Het Wolfsveld van Apol, den wolvenschrick, is hier,</l>
+						<l>En dees vermaerde kerck, die Argos Iuno wydde,</l>
+						<l>Rijst ginder hemelhoogh, aen uwe rechte zijde.</l>
+						<l>Orest, wy zijn geraeckt, daer ghy nu Pelops Stad,</l>
+						<l>Het rijck Mycaenen, ziet, en 't Hof met moord beklad;</l>
+						<l>Van waer ick eertijds, toen uw Vader raeckte om 't leven,</l>
+						<l>U, die my van Elektre, uw zuster, werd gegeven,</l>
+						<l>Heb weghgedragen, stil geberght, en opgevoed,</l>
+						<l>Tot datghe maghtigh waert te wreecken Vaders bloed.</l>
+						<l>Orest, en Pylades, mijn huisvriend, nu met zinnen</l>
+						<l>Eens haestigh overleit, hoe wy dit best beginnen;</l>
+						<l>Nadien de voglezang zoo schel, en zoetgebeckt,</l>
+						<l>In 't kriecken ván den dagh, de zon ten bedde uitweckt,</l>
+						<l>En ree de zwarte nacht de starren heb verdreven.</l>
+						<l>Eer zich dan eenigh mensch ga buitens huis begeven,</l>
+						<l>Zoo overlegh het stuck; want wy zijn t'zaemen daer</l>
+						<l>Dien aenslagh dient gespoeit, en 't marren geeft gevaer.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Mijn waerdste dienaer, o wat is door menigh teecken</l>
+						<l>Uw onvervalschte zucht te mywaert klaer gebleecken!</l>
+						<l>Want eveneens, gelijck een edelmoedigh paerd,</l>
+						<l>Hoe oud het zy, nochtans in onspoed niet veraerd</l>
+						<l>Van zijnen tuck, maer briescht met opgesteecken ooren,</l>
+						<l>Zoo vangt ghy 't stuck zelf aen, en noopt ons, als met spooren:</l>
+						<l>Derhalven zal ick u ontdecken mynen zin.</l>
+						<l>Nu luister scherp, en is'er yet ontydighs in</l>
+						<l>Mijn reên, verbeter dat; want toen ick God ging spreecken,</l>
+						<l>Te Delphis, op wat wyze ick Vaders dood moght wreecken,</l>
+						<l>Ried my Apollo zelf, en antwoorde op mijn vraegh,</l>
+						<l>Dat ick niet met een heir, maer heimelijcke laegh</l>
+						<l>De moorders straffen zou rechtvaerdighlijck aen 't leven.</l>
+						<l>Nadien die God my dan dees antwoord heeft gegeven,</l>
+						<l>Ga by gelegenheid bespieden, hoe het staet</l>
+						<l>Ten Hove, en wat'er toch al by hen ommegaet,</l>
+						<l>Op dat ghy ons ontdeckt, en meld uw wedervaeren.</l>
+						<l>Ten Hoof zal niemant u, die omzworft zoo veel jaeren,</l>
+						<l>En grijs zijt, en ontmunt, meer kennen kunnen, nocht</l>
+						<l>Uw uitheemsch kleed, en draght geeft niemant achterdocht.</l>
+						<l>Geef u voor vreemdling uit, en ga voor een' Phocenser,</l>
+						<l>Die afgevaerdight werd van hunnen Phanotenser;</l>
+						<l>Want dat's hun beste vriend, en trouwste bondgenoot.</l>
+						<l>Ga boodschap hen, en sterck met eede Orestes dood;</l>
+						<l>Hoe hem de renzucht broght, daer Griecken renfeest hielen,</l>
+						<l>Aen 't sneuvlen, en ten val, met barrenende wielen.</l>
+						<l>Laet dit uw boodschap zijn. na dat mijn Vaders graf</l>
+						<l>Gekroont zy, naer den raed, die ons 't Orakel gaf,</l>
+						<l>Met afgesneden hair, met offerwijn te plengen,</l>
+						<l>Zoo zie ons hier te moet; wanneerwe medebrengen</l>
+						<l>Die kopre bus, in ruight gestopt, gelijckghe weet:</l>
+						<l>Op dat men door gerucht, met waerheids schijn bekleed,</l>
+						<l>En blyde tyding hen bedrieghelijck verrassche;</l>
+						<l>Hoe 't lichaem van Orest verbarrent zy tot assche:</l>
+						<l>Want dood te heeten deert my toch op geene wijs,</l>
+						<l>Indien ick leef, en zoo met grooter eer verrijs.</l>
+						<l>Ick kan een' nutten klanck niet lastren noch misprijzen.</l>
+						<l>'K heb menighmael gezien, dat doodgeheete wijzen</l>
+						<l>Het hoofd met meerder roem verhieven in hun lucht;</l>
+						<l>En hoop oock desgelijcks, na dit gestroit gerucht,</l>
+						<l>Voor myne vyanden verscheenen, van zoo verre,</l>
+						<l>Te blincken, op een nieuw, gelijck een klaere starre.</l>
+						<l>Maer o mijn Vaderland, en vaderlandsche Goôn,</l>
+						<l>Verwellekoomtme zoo, en baent den wegh zoo schoon,</l>
+						<l>Dat d'aenslagh my geluck; en ghy mijn erfpaleizen,</l>
+						<l>Laet my met schande niet van dezen bodem deizen;</l>
+						<l>Nadien ick u ter liefde, en van de Goôn geport,</l>
+						<l>U wasschen koom van 't bloed, op uwen troon gestort.</l>
+						<l>Maeckt my nu eigenaer der Koningklijcke goeden,</l>
+						<l>En heiland van dit huis: dat bid ick. Nu aen 't spoeden,</l>
+						<l>Stockoude man, volvoer het geen u is belast.</l>
+						<l>Wy gaen oock; want 't is tijd, en 't is de tijd, die vast</l>
+						<l>Het meeste zeggen heeft in menschelijcke zaecken.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wee my ellendigh mensch!</l>
+					</sp>
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>Mijn zoon, ick hoor genaecken,</l>
+						<l>Daer binnen, zoome dunckt, een dienstmaeghd, die dus steent.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zou 't wel Elektra zijn, die om heur rampen weent,</l>
+						<l>Wat dunckt u? zullen wy vertoeven, om te weten</l>
+						<l>Waerom zy klaegt?</l>
+					</sp>
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>geensins, men moet zich niets vermeeten</l>
+						<l>Te doen, voor dat men hebbe Apolloos last voldaen.</l>
+						<l>Men vang van Vaders lyck, en moordgety eerst aen;</l>
+						<l>Want hier aen hangt de kracht en zege van dien aenslagh.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>O koesterende bron der daegen,</l>
+						<l>O lucht, geparst om 's aerdrijx korst,</l>
+						<l>Hoe dickwils hoorde ghy my klaegen,</l>
+						<l>En slaen voor mijn gekrabde borst;</l>
+						<l>Wanneer de morgen was herboren:</l>
+						<l>Want al wat 's nachts bedreven word</l>
+						<l>Gezin en ledekanten hooren,</l>
+						<l>In dit paleis, met bloed bestort;</l>
+						<l>Daer ick betreur mijn Vaders euvlen,</l>
+						<l>Die niet, op den uitheemschen boôm,</l>
+						<l>Door wreeden oorloogh quam te sneuvlen;</l>
+						<l>Maer door mijn Moeder, los van toom,</l>
+						<l>En door AEgisth, onkuisch van zede.</l>
+						<l>Dees kloofden 't Koningshoofd zoo stout</l>
+						<l>Met d'ysre moordbyl, scherp van snede;</l>
+						<l>Als d'ackermans een eick in 't woud.</l>
+						<l>En, o mijn Vader! o mijn smarte!</l>
+						<l>Zoo schelmsch, zoo schendigh omgebroght,</l>
+						<l>Niet een neemt uwe dood ter harte:</l>
+						<l>Maer ick zal mijn gejammer, nocht</l>
+						<l>Mijn kermen, en geschrey niet staecken,</l>
+						<l>Zoo lang de zonne ryze, en dael,</l>
+						<l>En starren aen den hemel blaecken:</l>
+						<l>En even als een nachtegael</l>
+						<l>Besteent het plondren, van zijn jongen,</l>
+						<l>Zal ick, voor Vaders Hof, en poort,</l>
+						<l>My laeten hooren onbedwongen,</l>
+						<l>Zoo luide, dat het yeder hoort.</l>
+						<l>O onderaerdsche heerschappyen!</l>
+						<l>O aerdsche Godstolck, gaeuw en kloeck!</l>
+						<l>Gods Dochters, felle Raezeryen,</l>
+						<l>En ghy, ontzaghelijcke Vloeck,</l>
+						<l>Slaet d'oogen neder. koomt ons redden.</l>
+						<l>Aenschouwt dien ongerechten moord,</l>
+						<l>En die ter sluick een anders bedden</l>
+						<l>Berooven; koomt, en helpt hen voort.</l>
+						<l>Koomt straft mijn Vaders nederlaegen,</l>
+						<l>En stuurt mijn' Broêr. ick ben te zwack,</l>
+						<l>Om langer dus alleen te draegen</l>
+						<l>Mijn' druck, een al te lastigh pack.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>O Kind der jammerlijckste Vrouwe,</l>
+						<l>Elektra, droeve Dochter, ach!</l>
+						<l>Waeromme quijntghe, nacht en dagh,</l>
+						<l>Van onverzaedelijcken rouwe,</l>
+						<l>Om Agamemnon, eer verdaen</l>
+						<l>Door list en schalckheid, noit verwoeder,</l>
+						<l>Van uwe goddelooze Moeder,</l>
+						<l>En met haer booze hand verraên?</l>
+						<l>De donder sla hen, en wil 't wreecken;</l>
+						<l>Indien't hier vry staet zoo te spreecken.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>O spruit, van vroomen voortgebroght,</l>
+						<l>Koomt ghy my troosten in ellende?</l>
+						<l>Ick weet het wel. 't zijn welbekende</l>
+						<l>En dingen lang by my bedocht:</l>
+						<l>Maer 'k wil niet laeten te beweenen</l>
+						<l>Mijn Vaders jammerlijcke dood.</l>
+						<l>Laet my begaen, ghy die in nood</l>
+						<l>My bystaet, om al 't goed voorheenen</l>
+						<l>Van my genoten. laetme toch.</l>
+						<l>Ick ben verloren. och och och!</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Ghy zult nochtans met al dit krijten</l>
+						<l>En kermen Vader op zijn' stoel</l>
+						<l>Uit den gemeenen jammerpoel</l>
+						<l>Niet wecken, maer u zelve slijten</l>
+						<l>Door endelooze droefenis,</l>
+						<l>En ongeneezelijcke smarte.</l>
+						<l>Wat lichtenis verwacht uw harte</l>
+						<l>Uit leed, dat niet te boeten is?</l>
+						<l>Wat staetghe, door geduurigh klaegen,</l>
+						<l>Naer't geen ghy niet vermooght te draegen?</l>
+					</sp>
+
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Een zot vergeet zijn ouders haest,</l>
+						<l>Die omgekomen zijn zoo snoode:</l>
+						<l>Maer 't vogelken, de zomerbode,</l>
+						<l>Dat altijd Itys Itys raest</l>
+						<l>En kermt, gelijckt my gansch in dezen.</l>
+						<l>Rampzaelge Niobe, o ick acht</l>
+						<l>U een van 't goddelijck geslacht.</l>
+						<l>Ick acht u een Godin te wezen,</l>
+						<l>Die yslijck in een steenen graf</l>
+						<l>Roept, wee en wach, en laet niet af.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>O Dochter, onder die verschoven</l>
+						<l>Gaen treuren, zijt ghy 't van uw' stam</l>
+						<l>Alleen niet, die dit over quam;</l>
+						<l>En nochtans gaetghe in rouw te boven</l>
+						<l>Uw gansche maeghschap, en u bloed,</l>
+						<l>Daer binnen, als Iphianasse,</l>
+						<l>Chrysothemis, en d'onvolwasse,</l>
+						<l>Die stil zijn ramp betreuren moet.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Orest, van hoogen stam geboren,</l>
+						<l>Ter goeder uur zult ghy ten toon</l>
+						<l>Eens, op Iupijns verheughden troon</l>
+						<l>Gekeert, tot Koning zijn gekoren,</l>
+						<l>Van 't wijd vermaert Myceensch gezagh.</l>
+						<l>Ick kinderlooze, en ongehuwde,</l>
+						<l>En ongeluckige, en geschuwde,</l>
+						<l>U wachtende, van dagh tot dagh,</l>
+						<l>Met droeve traenen op de kaecken,</l>
+						<l>Verga terwyl van al 't verdriet;</l>
+						<l>Maer ghy gedenckt mijn weldaên niet,</l>
+						<l>Noch d'ongelijcken die u raecken.</l>
+						<l>Wat valsche maren hebben wy</l>
+						<l>Van u niet, reis op reis, vernomen?</l>
+						<l>Ghy dreight, en zult te voorschijn komen,</l>
+						<l>Maer zet uw komste aen eene zy.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Hou moed, mijn Dochter, tot het ende.</l>
+						<l>Iupijn met zijn alwetende oogh,</l>
+						<l>Die 't al bestiert, zit daer om hoogh.</l>
+						<l>Beveel hem uwe groote ellende,</l>
+						<l>En weest op henliên, dien ghy haet,</l>
+						<l>Niet ongeduldighlijck gebeten,</l>
+						<l>Ghy zult nochtans dit niet vergeten.</l>
+						<l>De tijd is langsaem van beraed:</l>
+						<l>En Agamemnons zoon, te Krisse,</l>
+						<l>In 't weiland, vlughtigh door zijn lot,</l>
+						<l>Kan wel eens keeren, oock de God</l>
+						<l>Des afgronds, en der duisternisse.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Een groot gedeelt van's levens tijd</l>
+						<l>Is door, en noch zal hy verschynen,</l>
+						<l>En ick, die ouderloos ga quynen,</l>
+						<l>Heb niet een' vriend die voor my stryd,</l>
+						<l>Noch kracht genoegh, om 't quaed te keeren:</l>
+						<l>En moet, gelijck een kamenier,</l>
+						<l>Verschoven, Vaders kamer hier</l>
+						<l>Bedienen, en in slechte kleeren,</l>
+						<l>Die my niet voegen, heenen gaen,</l>
+						<l>En dus voor lege tafels staen.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>O droeve spraeck van Vaders komen,</l>
+						<l>En wederkomste uit Priams oord.</l>
+						<l>O naere kreet, die in dien moord</l>
+						<l>Uit Vaders kamers werd vernomen;</l>
+						<l>Toen hy dien slagh met d'ysre bijl</l>
+						<l>Op 't hoofd ontfing. Bedrogh bedocht het.</l>
+						<l>De Liefde trof hem, en volbroght het.</l>
+						<l>Zy stroiden schricklijck in der yl</l>
+						<l>Een schelmsch gerucht, en waren reede,</l>
+						<l>Als of een God of mensch dit deede.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>O dagh, dien ick vervloeck alleen,</l>
+						<l>Het zy wat dagh oock dat'er ryze;</l>
+						<l>O nacht, o moordbancket en spijze,</l>
+						<l>Wat brouwt ghy ons al zwaerigheên?</l>
+						<l>Wat snooder dood is hy gestorven,</l>
+						<l>Toen twee verraêrs hem randden aen.</l>
+						<l>Die klaeuwen hebben 't my gedaen,</l>
+						<l>En met mijn' Vader my bedorven.</l>
+						<l>De groote God des hemels zet</l>
+						<l>Hen dit betaelt, en straf rechtvaerdigh,</l>
+						<l>Noch maeck hen eenige eere waerdigh</l>
+						<l>Die met dit schelmstuck zijn besmet.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Zie toe, verloop u niet met spreecken.</l>
+						<l>Of mercktghe niet uit welck een' staet</l>
+						<l>Ghy, tot uw eige scha, en smaed,</l>
+						<l>Vervalt, en blijft van gunst versteecken?</l>
+						<l>Ghy baert, door wraeckzucht, die u drijft,</l>
+						<l>U zelve vyanden en hinder.</l>
+						<l>Het is geen wijsheid, dat een minder</l>
+						<l>Met maghtiger krackeelt en kijft.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ick word geperst van 't schendigh lijen.</l>
+						<l>Ick weet het wel, en ken mijn' kop;</l>
+						<l>Maer 'k zal mijn leven lang, mijn' krop</l>
+						<l>Uitschuddende, niet konnen myen</l>
+						<l>Mijn scha, om 't schendigh moordgeschrey:</l>
+						<l>Want wanneer, om mijn' rouw te zachten,</l>
+						<l>Heb ick een troostlijck woord te wachten</l>
+						<l>Van dees gelieven allebey?</l>
+						<l>Van wien die pit heeft achter d'ooren?</l>
+						<l>Mijn troosterssen, verlaetme toch.</l>
+						<l>Verlaetme vry. dees droefheid, och!</l>
+						<l>Is niet te dempen noch te smooren.</l>
+						<l>Mijn zwaerigheidt duurt voor altoos,</l>
+						<l>Zoo is 't geklagh oock endeloos.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Maer 't is uit gunst, dat ick's my moeie:</l>
+						<l>Gelijck een trouwe moeder doet,</l>
+						<l>Op dat uw wellende gemoed</l>
+						<l>Niet d'eene ellende uit d'ander broeie.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Nu zeghme, met wat maet, hoe kort</l>
+						<l>Zou ick mijn jammer zien gesleten?</l>
+						<l>Is 't voeghlijck dooden te vergeten?</l>
+						<l>Wien heeft Natuur dit ingestort?</l>
+						<l>Ick zou geen' roem van hen begeeren:</l>
+						<l>Noch by een wederga gevoeght,</l>
+						<l>Niet vreedzaem leven, noch vernoeght;</l>
+						<l>Indien ick most met luchte veeren</l>
+						<l>Gaen vliegen over het verdriet</l>
+						<l>Des moordkreets, die al 't Rijck vervaerde.</l>
+						<l>'T is waer, de doode is stof, en aerde,</l>
+						<l>En aerde zijnde, en anders niet,</l>
+						<l>Zal eeuwighlijck ellendigh leggen.</l>
+						<l>Zou daerom, die dien moordslagh gaf</l>
+						<l>Niet draegen zijn verdiende straf?</l>
+						<l>Wat had de Schaemte dan te zeggen?</l>
+						<l>Godvruchtigheid voortaen veracht,</l>
+						<l>Had uit by 't menschelijck geslacht.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>O Dochter, ick koom hier in aller yl gevlogen,</l>
+						<l>Zoo wel door mijnen plicht als uwen druck bewogen;</l>
+						<l>Indien ick qualijck spreeck, zoo win het vry: 'k zal nu</l>
+						<l>Gevolleghzaem terstond my buigen onder u.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>O Vrouwen, 'k schaem my des, dat ick, dus bang te moede,</l>
+						<l>U overlastigh val: neemt mijn gekerm ten goede.</l>
+						<l>Dit perst de nood van 't hart: want zekerlijck, hoe zou</l>
+						<l>Een Koningklijcke spruit, een hooghgebore Vrouw</l>
+						<l>Dit staecken, daerze, nacht en dagh, geen' aêm kan haelen,</l>
+						<l>En vaders ongeluck verryzen ziet, en daelen.</l>
+						<l>Vooreerst al 't geenme van mijn Moeder, uit wiens schoot</l>
+						<l>Ick in de weereld quam, bejegent is zoo snood.</l>
+						<l>Daerna verkeer ick vast in 't eigen Hof mijns Vaders,</l>
+						<l>Met zijne moordenaers, en schendige verraeders,</l>
+						<l>En word van hen bestiert, en moet van henliên staegh</l>
+						<l>Myn' noodruft, en myn' kost genieten alledaegh.</l>
+						<l>Oock denckt eens, hoe dien dagh met droefheid word gesleeten,</l>
+						<l>Als ick AEgisth moet zien, op Vaders troon gezeten,</l>
+						<l>Met Agamemnons kleed bekleed, en veel cieraeds,</l>
+						<l>En drincken offerwijn ons Huisgoôn toe, ter plaets</l>
+						<l>Daer zy hem broght om hals: maer 'k zie, wie zou 't gelooven?</l>
+						<l>Een hoofdschand, die noch verre alle andre gaet te boven,</l>
+						<l>Dien snooden moorder zelf, in Vaders plaets, het bed</l>
+						<l>Met mijn bedorven Moêr (indien ick zonder smet</l>
+						<l>Haer Moeder noemen magh) die by hem leit, onteeren,</l>
+						<l>En haer te goddeloos met zulck een smet verkeeren;</l>
+						<l>Geen Raezery ontzien, maer lachen welgemoed</l>
+						<l>In al dees gruwelen, die zy bedrijft en doet.</l>
+						<l>Zy ziet het moordgety te moet met groot verlangen;</l>
+						<l>Dien dagh, toen zy met list mijn' Vader kreegh gevangen,</l>
+						<l>En zoo om 't leven holp. wanneer die dagh verjaert,</l>
+						<l>Dan steltze danssen in: dan slaght zy onbezwaert</l>
+						<l>De schaepen, die, ter maend gekeelt, voor d'outers bloeden,</l>
+						<l>Ter eere van dees Goôn, die haer tot noch behoedden.</l>
+						<l>Ick ongeluckige dit ziende, in ons paleis,</l>
+						<l>Versmelt, en zucht, en schrey, en vloecke reis op reis</l>
+						<l>Mijn Vaders moordbancket, en moordmael, zoo zy 't heeten.</l>
+						<l>En stondme 't schreien vry, en had ick eens gekreeten</l>
+						<l>Zoo lang, als 't hart wel lust: want deze trotse Vrouw</l>
+						<l>Beschimpt al mijn misbaer, en jammerlijcken rouw:</l>
+						<l>O hellevloeck der Goôn, mist ghy dien overleden</l>
+						<l>Alleen, en treffen u alleen dees zwaerigheden?</l>
+						<l>Dat dy de hagel sla: dat d'onderaerdsche gloed</l>
+						<l>En Pluto geve, dat ghy eeuwigh balcken moet.</l>
+						<l>Aldus beschimptze my: maer als zy heeft vernomen,</l>
+						<l>En krijght een lucht, en rieckt dat Broeder staet op 't komen.</l>
+						<l>Dan staetze zinneloos by my en stampt, en raest:</l>
+						<l>Is dit niet uw bedrijf, die steelwijs in der haest</l>
+						<l>Orestes my ontdroeght? maer denck vry 'k zal 't eens straffen,</l>
+						<l>Gelijckge wel verdient. zoo hoort al 't Hof heur blaffen.</l>
+						<l>Haer lieve Bruigom staet aen heure zy, en schent,</l>
+						<l>En hitst heur aen: die bloed, en oirzaeck van d'ellend:</l>
+						<l>Die met de vrouwen treckt te velde, en aen den reie:</l>
+						<l>Maer ick, die midlerwijl Orestes vast verbeie,</l>
+						<l>Dat hy dit onweêr stil, verga in mijn verdriet:</l>
+						<l>Want sammelend, bederft hy 't geen ick hoop, en niet</l>
+						<l>Verhoop: en o Vriendin, hoe kan ick, dus gedreven,</l>
+						<l>My maetigen in rouw, of recht godvruchtigh leven?</l>
+						<l>In quaede zaecken moet de hooge nood my raên,</l>
+						<l>Die raed een' quaeden wegh en onwegh in te slaen.</l>
+					</sp>
+
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Wel, zeghme, durftghe dus by uwen stiefvaêr wrocken?</l>
+						<l>Of als hy dit niet hoore, en zy van huis getrocken?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Met reden. denck dit vry, was hy niet uitgegaen,</l>
+						<l>Dat ick voor deze deur gerust zou blyven staen.</l>
+						<l>Hy is naer buiten toe.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Zoo durf ick met u kouten,</l>
+						<l>Is 't waerheid, 't geenge zeght.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ghy mooght u vry verstouten.</l>
+						<l>AEgisth is nu niet t'huis, dies vraegh al wat u lust.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Zoo vraegh ick, watghe zeght, en wat u zy bewust</l>
+						<l>Van Broeders wederkomste, of van zijn langsaem wachten?</l>
+						<l>Berichtme van dit stuck.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wie zou zijn zeggen achten?</l>
+						<l>Hy zeit veel, en volvoert niet eens het geen hy zeit.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Een die wat groots besteeckt is traegh in zijn beleid.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Maer ick was slof noch traegh, in 't bergen van zijn leven.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Hou moed. hy is te vroom, om vrienden te begeven.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>'K vertrouw dit, anders was 't met my geheel gedaen.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Nu zwijgh, Chrysothemis koomt uit den huize gaen,</l>
+						<l>Uw Zuster, van een bed en ouderen geboren</l>
+						<l>Met u. zy draeght, het geen den afgrond is beschoren,</l>
+						<l>Lijckoffer naer het graf.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Hoe roeptghe voor de poort</l>
+						<l>En op de plaets zoo luide, o Zuster, dat men 't hoort?</l>
+						<l>Kan u 't verloop des tijds niet leeren anders zingen,</l>
+						<l>En uw oploopentheid, die ydel is, bedwingen?</l>
+						<l>'K beken wel, dat ick mede, als ramp voorhanden is,</l>
+						<l>Bedruckt ben, en bedroeft; en had ick maght, gewis</l>
+						<l>'K zou daedelijck, wat hart ick henliên draegh, doen blijcken.</l>
+						<l>Nu wil ick liever 't zeil in tegenspoed wat strijcken,</l>
+						<l>En schijnen stil te staen, en hen geen ongenoeght</l>
+						<l>Te brouwen, en wou wel dat ghy u oock zoo droeght.</l>
+						<l>Het geen ghy drijft is recht, en niet het geen ick oordeel.</l>
+						<l>'K beken 't; maer staet het vry, zich naer het meeste voordeel</l>
+						<l>Te schicken, zoo is 't reên, dat elck dien wegh ingaet,</l>
+						<l>En hen gehoorzaem zy, daer 't hoogh gezagh by staet.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>'T en staet niet wel, noch luid niet eerlijck by den vroomen,</l>
+						<l>Dat ghy vergeet het bloed van wienghe zijt gekomen,</l>
+						<l>En dus voor Moeder zorght: want al wat ghy terstond</l>
+						<l>Tot mijn vermaening zeid, dat hebtghe uyt haeren mond,</l>
+						<l>En uit u zelve niet. ick geef u keur van beide:</l>
+						<l>Ghy stemt dien doodslagh toe, dien ick tot noch beschreide:</l>
+						<l>Of kennende het leed van Vader, u zoo lief,</l>
+						<l>Hebt geen gedachtenis van hem, om 't ongerief.</l>
+						<l>Gy zeght wel, stond de maght aen u, de daed zou spreecken,</l>
+						<l>Hoe ghy hen haet: en ick vast bezigh, met besteecken</l>
+						<l>Van al, wat tot dees wraeck vereischt word, krijgh van u</l>
+						<l>Geen hulp, en word hier door van dezen aenslagh schuw.</l>
+						<l>Zoo koomt de suffery ons rampen nog vermeeren.</l>
+						<l>Maer 'k bid u, leer my toch, of laet ick zelve u leeren.</l>
+						<l>Wat voordeel geeft het my, indien ick 't huilen staeck?</l>
+						<l>Ick leef, maer nauwelicx. dat 's my ghenoegh. ick maeck</l>
+						<l>Hen 't leven zuur, en eere aldus dien overleden;</l>
+						<l>Indien men hier door gunst verwerreft daer beneden.</l>
+						<l>Maer ghy, die my belijd, dat ghy die moorders haet,</l>
+						<l>Die haet hen met den mond; maer houd het in der daed</l>
+						<l>Met vadermoordenaers. Al schonck men my geschencken,</l>
+						<l>Daer uw gemoed op vlamt; ick liet mijn trouw niet krencken,</l>
+						<l>Noch heulde met zulck slagh. ga heenen. zet u vry</l>
+						<l>Ter tafel, daer het vloeit van Hoofsche leckerny,</l>
+						<l>En overdaed van spijs, wat noodrufts, zonder wroegen,</l>
+						<l>Vernoeght my meer. kunt ghy u dus ten Hove voegen,</l>
+						<l>Om 't lief genot van eer; zy hangtme geensins aen.</l>
+						<l>En waertghe zelve wijs, ghy zoud die oock versmaên.</l>
+						<l>Nu past het, datghe niet, naer uwen trouwsten hoeder,</l>
+						<l>Uw Vaders Dochter heet, maer troetelkind van Moeder:</l>
+						<l>Zoo zal uw ondeughd klaerst ten toon voor yeder staen;</l>
+						<l>Wanneerghe Vaders asch, en maeghschap hebt verraên.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Om Gods wil, vaer niet uit; want in het overwegen</l>
+						<l>Van 't onderling gespreck veel voordeels is gelegen,</l>
+						<l>Zoo elck van wederzy zich dient met 's anders toon.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>O Moeders, ick ben dit van Zuster al gewoon,</l>
+						<l>En had dit niet gerept, 't en waer uit groot erbarmen;</l>
+						<l>Nadien ick weet wat ramp haer naeckt, om al dit kermen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Zegh op, wat ramp? want ick zal hier niet tegens zijn,</l>
+						<l>Al raeckte ick oock daer door in noch bedroefder schijn.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>'K zal zeggen 't geen ick weet. zoo ghy niet rust van huilen,</l>
+						<l>Zal 't hof u, buyten 's lands, al levendigh, verschuilen</l>
+						<l>In een gevangenis, daer nimmer 's hemels lamp</l>
+						<l>In schijne, en ghy met recht mooght jancken, om uw ramp.</l>
+						<l>Nu spreeck, of zwijgh hier na, wanneerghe raeckt in lyden.</l>
+						<l>Nu kuntghe, wiltghe noch, dees zwaerigheid vermyden.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Zoo hebbenze over my dees straf bestemt alree?</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Zoo dra AEgisth van 't land in 't Hof koomt, en in steê.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wel laet hem in der yl om deze reden keeren.</l>
+					</sp>
+
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Ellendige, wenscht ghy om 't geen u zelf kan deeren?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Hy koom, indien hy dit beginnen wil, in stadt.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Op datghe in lyden raeckt? waerom begeertge dat?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Op dat ick wijd en zijd van u werd weghgedreven.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Zoo scheptge geen vermaeck in 't tegenwoordigh leven?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wist ghy hoe bly ick leef, ghy zoud verwondert staen.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Het waer zoo, stelde ghy het wijslijck daer naer aen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ay, leerme niet, dat ick mijn vrienden moet onteeren.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Niet dit, maer datghe hoort naer henliên, die regeeren.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Leer my niet, watme voeght: Bezorgh u zelf voor al.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>'T is loflijck, dat men niet door reuckeloosheid val.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Men val, zoo 't wesen moet, door Vaders wraeck ten leste.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Neen, Vader, weet ick wel, houd zelf ons dit ten beste.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Die woorden hebben lof by menigh onverlaet.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Beweegh ick u noch niet te luistren naer mijn' raed?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Gansch niet, noch denck het niet. zou ick zoo breinloos doolen?</l>
+					</sp>
+
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Ick ga dan heen mijns weeghs, gelijck my is bevolen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Waer heen? waer brengtghe nu dees offerkannen heen?</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Ick gietze op Vaders graf, door Moeders last alleen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>O haetelijckste mensch, hoe spreecktghe toch, ghy snoode.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Ghy meent, ick gietze op 't graf, uit last van die hem doode?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wat bloedvriend leert haer dit? Wie is 't, dien dit behaeght?</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Een nachtspoock, zo my dunckt, maeckt Moeders hart versaegt.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>O Vaderlijcke Goôn, nu helpt dees arme weeze.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Schept ghy wat harts, wat moeds uit deze haere vreeze?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Vertel 't gezicht, en 'k zal 't u zeggen, zoo ick kan.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Ick weet'er nauwelix of maer een luttel van.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Verhael het. weinigh reên die hadden dick 't vermogen,</l>
+						<l>Dat zy den mensch weleer of redden, of bedrogen.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>De roep gaet, datze zelf ons' Vader weêr vernam,</l>
+						<l>Die, nu de tweede mael, zich met heur paeren quam,</l>
+						<l>En grijpende den staf des Rijx, weleer gedraegen</l>
+						<l>By hem, maer nu gevat van die hem heeft verslaegen,</l>
+						<l>Dien plantte, en uit dien staf verrees een groene plant,</l>
+						<l>Die met haer schaduw deckte al dit Myceensche land.</l>
+						<l>Dit heb ick uit den mond van eenen, die 't my melde,</l>
+						<l>En tegenwoordigh was, daer zy haer' droom vertelde,</l>
+						<l>Aen d'opgereze zon. ick weet'er meer niet af,</l>
+						<l>Dan datze my, uit schrick, gezonden heeft naer 't graf.</l>
+						<l>Nu bid, nu smeeck ick u, by Vaders eige Goden,</l>
+						<l>Dat ghy gehoorzaem volght mijn raeden, en geboden,</l>
+						<l>En niet zoo reuckeloos u zelve stort ter neêr.</l>
+						<l>Verjaeghtghe my, vergeefs roept ghy uw Zuster weêr.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Mijn waerde Zuster, wacht u toch. het zou niet passen</l>
+						<l>Te gieten 't geenge draeght op Vaders graf, en asschen;</l>
+						<l>Want dit kan nimmer recht, noch vroom noch billijck zijn,</l>
+						<l>Dat zoo een vrouw, als zy, een vyandin, met wijn</l>
+						<l>En offervaten doe des dooden graf besprengen.</l>
+						<l>Ga pleng het onderwege, of ga het elders brengen.</l>
+						<l>Verbergh het diep in 't zand, op dat het Vaders rust</l>
+						<l>Niet steure, en deze zaeck hem nimmer zy bewust:</l>
+						<l>En laetze dit juweel voor heure grafste spaeren,</l>
+						<l>Om t'offren, als haer geest beneden zy gevaeren:</l>
+						<l>Nadien dees goddelooze en godvergete vrouw</l>
+						<l>Zelf eenige oirsprong is van alle dezen rouw,</l>
+						<l>En met vervloeckten wijn noit d'asch heeft overgoten</l>
+						<l>Des geenen, dienze moorde, en holp ten afgrond stooten.</l>
+						<l>Bedenck met wat een gunst, en minnelijck gelaet</l>
+						<l>Die doode ontfangen zal 't geschenck van die hem haet;</l>
+						<l>Van die zoo eerloos hem vermoorde, en heeft geschonden,</l>
+						<l>En wascht met offerwijn het bloed, dat uit de wonden</l>
+						<l>Van zijn' gekloven hoofd quam springen op haer lijf.</l>
+						<l>Of meentghe, dat dit boet haer gruwelijck bedrijf?</l>
+						<l>Geensins, dies staeck dit werck, en laet u onderrechten,</l>
+						<l>En sny veel liever af de tippen van uw vlechten,</l>
+						<l>En 't zachtste hair van my, die naulix adem schep.</l>
+						<l>Dit is gering, nochtans ick wy hem, 't geen ick heb,</l>
+						<l>Dit offerhair, en oock mijn riem, doch niet met steenen</l>
+						<l>En parlen geborduurt. ga kniel voor hem, met eenen</l>
+						<l>Vermaen hem, bid, en smeeck, dat van beneên al stil</l>
+						<l>Hy zynen vyanden toch eens opkomen wil,</l>
+						<l>En dat de kleene Orest verflaeuwe, noch verslappe,</l>
+						<l>Maer levend met den voet op 's vyands hoofden trappe;</l>
+						<l>Op datmen 't graf bekroon met een gaefrijcker hand</l>
+						<l>Dan tegenwoordighlijck, in dezen droeven stand:</l>
+						<l>En 'k hou het voor gewis, het is van hem gekomen,</l>
+						<l>Dat Moeder zagh, by nacht, dees spoockery, en droomen.</l>
+						<l>Maer Zuster, nietemin doe dit, tot nut van my,</l>
+						<l>En u; ten dienst van hem, tot eer van hem, dien wy</l>
+						<l>Beminnen, boven al de menschen, die hier woelen;</l>
+						<l>Ten dienst van Vaders geest, gedaelt in 's afgronds poelen.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Dees Dochter spreeckt zeer vroom. ghy Dochter zijtge vroed,</l>
+						<l>Volbreng dit.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>'K zal het doen. een reedlijck schepsel moet,</l>
+						<l>Om 't geen rechtvaerdigh is, niet twisten, noch krackeelen,</l>
+						<l>Maer 't werck benaerstigen. terwyl ick uw beveelen,</l>
+						<l>Vriendinnen, dan volbreng, zy zwygen yeders plicht:</l>
+						<l>Want was ons Moeder yet van dit gespreck bericht,</l>
+						<l>Wy zouden (hou ick vast, dies wilt dees woorden staecken)</l>
+						<l>Hier door in groot gevaer, en zwaerigheid geraecken.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Spel ick geen verzierde zaecken,</l>
+						<l>Uit een hoofd vol ydelheid,</l>
+						<l>'K zie, gelijck men heeft voorzeit,</l>
+						<l>De gedreighde straf genaecken,</l>
+						<l>Met rechtvaerdigheid, en maght</l>
+						<l>Toegerust, en in heur kracht.</l>
+						<l>Kind, zy zal eerlange komen;</l>
+						<l>Dat 's mijn hope, nu ick hoor</l>
+						<l>Tuiten in mijn luistrende oor</l>
+						<l>Deze liefelijcke droomen:</l>
+						<l>Want der Griecken Vorst vergeet</l>
+						<l>D'ysre bijl niet, die zoo sneed</l>
+						<l>Van weerzyden scherp om 't even,</l>
+						<l>En hem schendigh broght om 't leven.</l>
+						<l>Uit haer schrickelijcke laegen,</l>
+						<l>Daerze stil verborgen lagh,</l>
+						<l>Springt Erynnis voor den dagh.</l>
+						<l>Tal van ysre voeten draegen</l>
+						<l>'T monster, nimmer woedens moe;</l>
+						<l>Met veel klaeuwen tast het toe:</l>
+						<l>Want met haer is 't omgekommen,</l>
+						<l>Die het schendigh bruilofsbed,</l>
+						<l>Op de feest van bloed besmet,</l>
+						<l>Schaemte en eerloos heeft beklommen;</l>
+						<l>Dies ick vastelijck betrouw,</l>
+						<l>Dat dit onberisplijck droomen</l>
+						<l>Niet voor euvel heb genomen</l>
+						<l>Al het roepen dezer vrouw</l>
+						<l>Over ons, die ingespannen</l>
+						<l>Wrocken tegens dees tyrannen.</l>
+						<l>Al het raemen, al 't bescheid</l>
+						<l>Van 't gedroom is ydelheid,</l>
+						<l>Kan men uit dien droom niet raeden,</l>
+						<l>Daerwe nu me zijn beladen.</l>
+						<l>Pelops renstrijd lang geleden,</l>
+						<l>Oirzaeck van veel zwaerigheden,</l>
+						<l>Och hoe dier staet ghy dit land;</l>
+						<l>Sedert Myrtilus, aen strand,</l>
+						<l>In de baeren werd vergeten;</l>
+						<l>Na dat hy ter neêr gesmeeten</l>
+						<l>Werd van 't gouden rad in 't veld</l>
+						<l>Met een jammerlijck geweld.</l>
+						<l>Sedert nam de groote ellende</l>
+						<l>Van dit droevigh hof geen ende.</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>Nu rinckelroitghe vast, en springt weêr uit den band,</l>
+						<l>Vermits AEgisthus juist niet hier is by der hand,</l>
+						<l>Die u gemeenelijck verplicht hiel aen 't betaemen,</l>
+						<l>Op datghe buitens huis geen vrienden zoud beschaemen.</l>
+						<l>Nu hy naer buiten is, heeft Moeder geen ontzagh.</l>
+						<l>Nu maecktghe, by elck een, my zwart met u beklagh;</l>
+						<l>Als of ick met een juck van onrecht u belade.</l>
+						<l>En u, en al uw doen, vermetelijck versmade:</l>
+						<l>Hoe wel ick u vermy; want of my nu, en dan,</l>
+						<l>Wat quaeds ter ooren koomt, ick rep'er naulix van.</l>
+						<l>Ghy durft my dagelix wel bits in 't aenzicht byten,</l>
+						<l>My Vaders dood alleen, en niemant meer verwyten:</l>
+						<l>Hoewel ick 't wel beken, 'k heb hem ter neêr geleit,</l>
+						<l>Doch niet alleen, dien slagh gaf hem Rechtvaerdigheid.</l>
+						<l>Gebrack' t u niet aen brein, ghy zoud my hulp bestellen;</l>
+						<l>Nadien uw Vader zelf, om wien ghy u gaet quellen,</l>
+						<l>Uit zoo veel volx alleen uw eige Zusters ziel</l>
+						<l>Durf offren aen de Goôn. hoe bang my 't baeren viel,</l>
+						<l>Weet ick, niet hy, die haer geteelt heeft, niet gedraegen.</l>
+						<l>Maer om wat reên most hy den Goden dus behaegen?</l>
+						<l>Om der Argiven wil? wel wat lagh hen daer aen,</l>
+						<l>Dat juist mijn Dochter most naer 't bloedigh outer gaen?</l>
+						<l>'T geschiede om Broeders wil, om Menelaus beden.</l>
+						<l>Heeft hy dan niet om 't stuck verdiende straf geleden?</l>
+						<l>Had Oom niet by Heleen twee kinderen geteelt?</l>
+						<l>'T waer beter dat men die geslaght hadde, en gekeelt,</l>
+						<l>Als eige kinderen dier oudren, om wier zaecken</l>
+						<l>Men heen naer Troje voer. of hyghden 's afgronds kaecken</l>
+						<l>Meer naer mijn Kinderen, dan naer zijn Broeders bloed?</l>
+						<l>Uw Vader moordgezind, had die uit zijn gemoed</l>
+						<l>De kinderzucht gejaeght, en voer die in de kinderen</l>
+						<l>Van Menelaus, om zijn eigen zaed te hinderen?</l>
+						<l>Is niet dat Vaders hart onreedlijck, en veraerd?</l>
+						<l>Zoo schijnt het my, al gaet mijn oordeel niet gepaert</l>
+						<l>Met uw verstand. ick weet my zou geen stem ontbreecken,</l>
+						<l>Indien die doode Maeghd zelf opzagh, en kon spreecken:</l>
+						<l>Waerom ick, om dit stuck, in 't minst geen droefheid maeck.</l>
+						<l>En achtghe, dat ick dool, die recht heb in dees zaeck,</l>
+						<l>Bestrafme, daer ick 't hoor.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ghy zoud niet kunnen zeggen,</l>
+						<l>Wat uwe bitsheid my niet al te last durf leggen;</l>
+						<l>En geeftghe my verlof, 'k zal, van onze Iphigeen,</l>
+						<l>En Vader, spreecken met bescheidenheid, en reên.</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>'K vergun 't u. was ick zoo altijd ontmoet te voren,</l>
+						<l>Uw Moeder had u noit zoo dick gedreight, uit toren.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>'K zal 't zeggen. ghy bekent dien manslaght nu recht uit.</l>
+						<l>Waer sprack oit vrou een woord, dat schandelijcker luid?</l>
+						<l>Hy heeft met recht, of niet dien neerslagh dan geleden.</l>
+						<l>Ick zegh, ghy broght hem om heel godloos, tegens reden.</l>
+						<l>Maer 't aenraên van dien boel, en zijn vervloeckte min</l>
+						<l>Heeft u zoo veer gebroght. ga vraegh de Jaghtgodin,</l>
+						<l>Diane eens, om wiens wil, en om wat smaed te wreecken,</l>
+						<l>Zy 't schrickelijcke weêr in Aulis op deed steecken.</l>
+						<l>Of zoud ghy 't liever zelf uyt mynen mond verstaen,</l>
+						<l>Nadien men 't nu niet kan vernemen uit Diaen?</l>
+						<l>Mijn Vader, zoo ick hoorde, op zekren tijd uit jaegen,</l>
+						<l>In 't woud van dees Godin, joegh op uit ruighte, en hagen,</l>
+						<l>Een schoon gespickelt hart, het welck hy doodlijck trof,</l>
+						<l>En treffende verliep in 't roemen zich te grof;</l>
+						<l>Dies dees Godin verstoort, d'Achaiers vloot verlette,</l>
+						<l>Opdat de Vader zelf, tot boete van die smette,</l>
+						<l>En dit geschoten dier, zijn Dochter offren zou.</l>
+						<l>Dit offer eischte zy, en zonder 't offer wou</l>
+						<l>Zy 't leger noch naer huis, noch Troje laeten vaeren.</l>
+						<l>De Koning deed zijn beste, om deze Maeghd te spaeren,</l>
+						<l>En marde lang, maer most, geperst van overal,</l>
+						<l>In 't end daer aen, doch niet zijn' Broeder te geval.</l>
+						<l>Genomen (dat ick koom, daer ghy het liet voor dezen)</l>
+						<l>Mijn Vader wou zijn' Broêr hier in te wille wezen;</l>
+						<l>Most ghy hem daerom doôn? ay zeghme, naer wat wet?</l>
+						<l>Zie toe, zie toe, dat ghy het volck geen' regel zet,</l>
+						<l>Die namaels allereerst u rouwe, en dapperst raecke:</l>
+						<l>Want zullen wy, uit haet, en onderlinge wraecke,</l>
+						<l>Malkandren randen aen, zoo denck, dat ghy gewis</l>
+						<l>Eerst sterven zult, indien 'er recht by rechtbanck is;</l>
+						<l>Dies zoeck geen uitvlught, daer die nergens word gevonden:</l>
+						<l>En wiltghe, zegh, waerom ghy nu dus ongebonden</l>
+						<l>Volhard; aen uwen boel, en moordenaer verknocht,</l>
+						<l>Die Vader, och! met u, om lijf, en leven broght,</l>
+						<l>En kinders teelt by u; terwijl ghy onverdroten</l>
+						<l>Het kroost, van 't eerste bed zoo eerelijck gesproten,</l>
+						<l>Verjaeght. hoe zou ick toch u loven in die zaeck?</l>
+						<l>Of zeghtge: Dochters moord vereischt die wederwraeck;</l>
+						<l>Zoo spreeckt uw mond het geen hy eer behoort te schuwen.</l>
+						<l>'T mistaet, om Dochters wil, aen vyanden te huwen:</l>
+						<l>Doch 't voeght niet wel, dat ick u leere, of yet verwijt,</l>
+						<l>En hard ontmoet, nadien ghy myne Moeder zijt.</l>
+						<l>Ja 'k hou u te gelijck Vooghdes, en Moeder beide</l>
+						<l>Te wezen, over my, die zulck een leven leide,</l>
+						<l>En om uw' bedgenoot, en uwent wil vast zucht:</l>
+						<l>Gelijck die droeve Orest, uw handen naeuw ontvlught,</l>
+						<l>Zijn leven deerlick slijt; om wien met harde woorden</l>
+						<l>Ghy my zoo dickwils scheld, als of, om u te moorden,</l>
+						<l>Ick hem hadde opgevoed: ja stond dit in mijn maght,</l>
+						<l>Denck vry, het zou geschiên; dies houme vry verdacht,</l>
+						<l>En scheldme tegens elck voor koppigh, en quaedaerdigh,</l>
+						<l>En onbeschaemt van mond: want ben ick lastrens waerdigh,</l>
+						<l>Om die gebreecken, denck: Elektra aerd naer dy.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Ay zie, zy zwelt om 't hoofd, maer of 't met reden zy,</l>
+						<l>Dat kan ick niet bevroên.</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>Wat straf zal haer betoomen,</l>
+						<l>Die dus haer Moeder scheld, van wie zy is gekomen,</l>
+						<l>En noch zoo jong, en wulpsch? wat dunckt u zouze niet</l>
+						<l>Wel schaemteloos bestaen?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Hoewel ghy 't niet en ziet,</l>
+						<l>Zoo weet nochtans, dat wy ons dezer woorden schaemen.</l>
+						<l>Wy weeten wel, wy doen 't geen kindren niet betaemen,</l>
+						<l>En gansch ontydigh zy. maer 't ingewortelt zaed,</l>
+						<l>De haet, dien ick u draegh, verrucktme tot dit quaed:</l>
+						<l>Want d'eene schande geeft aen d'andre schande voedsel.</l>
+						<l>Men leert het quaed van 't quaed.</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>O schaemteloos gebroedsel!</l>
+						<l>Mijn woorden, en mijn werck u schaffen lastrens stof.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Dat zeght ghy zelf, niet ick. ghy spint het werck zoo grof,</l>
+						<l>En 't werreck baert krackeel.</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>Ick zweer by ons Godinne,</l>
+						<l>Zoo dra AEgisthus keert, en treed ter poorten inne,</l>
+						<l>Word u die stoute mond eens degelijck gesnoert.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Nu wordghe wederom van gramschap weghgevoert.</l>
+						<l>Ghy laet my 't spreecken toe, en wilt'er niet naer hooren.</l>
+					</sp>
+
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>Zult ghyme hinderen, in mijn' gerechten tooren;</l>
+						<l>Nadien ick u vergun te spreecken zo gerust.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>'K verhinder 't niet. 'k beveel 't. nu raes, zoo lang 't u lust.</l>
+						<l>Geef mynen mond geen schuld. 'k zal stom u gramschap vlughten.</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>Ghy die rondom my staet, aenvaerd deze offervruchten,</l>
+						<l>Op dat ick van dien schrick, die al mijn leên ontzet,</l>
+						<l>Ontslagen werde. Apol, die op de huizen let,</l>
+						<l>Verhoor mijn stille be: want ick stort geene bede</l>
+						<l>By vrienden, noch men magh niet alles, hier ter stede,</l>
+						<l>Ontdecken, nademael Elektra by my staet;</l>
+						<l>Op datze, met veel klaps, uit nijd, my over straet,</l>
+						<l>En al de stad niet draegh. verhoorme goedertieren,</l>
+						<l>In 't geen ick nu verzoeck. o wildschut, schrick der dieren,</l>
+						<l>Zoo dit gespoock van bey mijn droomen, u vertelt:</l>
+						<l>En 's nachts gezien, geluck, en geene rampen spelt;</l>
+						<l>Volvoer het: spelt het quaed, zoo keer het op de quaden,</l>
+						<l>En al ons vyanden: en schoon' er zijn, die raeden</l>
+						<l>En staen, door loos bedrogh, naer mijn bederf, hun wit;</l>
+						<l>Zoo schopme nochtans niet uit zulck een rijck bezit:</l>
+						<l>Maer gunme, dat ick, staegh behouden, magh bewoonen,</l>
+						<l>In mijn onnozelheid, het hof van Atreus zoonen;</l>
+						<l>Regeeren met hun staf; verkeeren, naer mijn' lust,</l>
+						<l>Met vrienden, dien ick ken, en leven zoo gerust,</l>
+						<l>By myne kinderen, dien ick uit haet noch tooren</l>
+						<l>Verdruck. o schrick van 't woud, Apollo, neigh uw ooren,</l>
+						<l>Naer uw zachtmoedigheid, tot mijn gebeên, en my.</l>
+						<l>Verleen ons, al het geen wy bidden, en wat wy</l>
+						<l>Verzwygen, weetghe toch, die, als een God, daer boven,</l>
+						<l>Doorziet al wat'er is; gelijckwe recht gelooven,</l>
+						<l>Daer Jupiters geslacht het alles ziet, en weet.</l>
+					</sp>
+
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>Uitheemsche vrouwen, zeght, wie geeft my best bescheed,</l>
+						<l>Of dit gebouw het hof zy van AEgisth, uw' koning?</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Mijn vriend, ghy raed het juist. dit 's zijn paleis, en wooning.</l>
+					</sp>
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>'K geloof dit 's zijn gemael. zy schijnt de Koningin.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Zy is 't gewisselijck.</l>
+					</sp>
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>Ick groet u, o Vorstin.</l>
+						<l>Ick koom van uwen vriend, en breng u, en met eenen</l>
+						<l>AEgisth, zoo blyde een mare, als yemant broght voorheenen.</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>'K aenvaerd het geen ghy zeght. maer wou wel eerst verstaen,</l>
+						<l>Wat man het zy, die u gestiert heb herwaerts aen.</l>
+					</sp>
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>U vriend, Phanoteus zelf, om geen geringe zaecken.</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>Wat magh dit zijn? ick weet hy zoecktme te vermaecken.</l>
+						<l>Een vriend, zoo lief als hy, die brengt niet onliefs voort.</l>
+					</sp>
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>Orest is dood. daer hebt ghy 't nu in 't kort gehoort.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wee my ellendigh dier! nu ben ick gansch verloren.</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>Wat zeghtghe vreemdeling? zegh op, en stop uw ooren</l>
+						<l>Voor deze.</l>
+					</sp>
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>'K zeide, Orest is dood, en zegh het noch.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Helaes! ick ben om hals. 't is uit met my. och och!</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>Vaer voort, ghy Bo, vaer voort, en wil voor niemant schroomen.</l>
+						<l>Vertel my, op wat wyze Orest zy omgekomen.</l>
+					</sp>
+
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>Mijn boodschap brengt dit meê. ick zal 't u al verslaen.</l>
+						<l>Orestes quam, gelijck als anderen, ter baen,</l>
+						<l>In die vermaerde plaets van Griecken, om te deelen</l>
+						<l>De glori, die men haelt in Delphis ridderspelen.</l>
+						<l>Na dat de roeper luid ten loopstrijd daeght het tal,</l>
+						<l>Waer van de dapperste de prijzen winnen zal,</l>
+						<l>Vlieght d'eedle jongeling vooruit met zulck een felheid,</l>
+						<l>Dat alle omstanders zich verwondren om zijn snelheid.</l>
+						<l>De loopstrijd was zijn' aerd gelijck, die niet bezweeck,</l>
+						<l>Voor dat hy trots het lot des overwinners streeck.</l>
+						<l>En om te krimpen, 't geen wijdloopigh stof zou geven;</l>
+						<l>'k Zagh diergelijcke kracht in niemant al mijn leven.</l>
+						<l>En ghy weet zelf, hoe al 't vijfjaerigh spel verhaelt,</l>
+						<l>En ons, van tijd tot tijd, zoo breed zy afgemaelt.</l>
+						<l>Na dat de rechters nu door hunnen roeper riepen,</l>
+						<l>Dat hy den loopprijs won voor al die met hem liepen,</l>
+						<l>Noemde al de menight strax Orestes by zijn' naem,</l>
+						<l>Den zoon van Atreus zoon, die, groot van naem en faem,</l>
+						<l>Dat heir in Griecken had verzaemt, en opontboden.</l>
+						<l>Zoo droegh 't zich toe: want als d'onsterfelijcke Goden</l>
+						<l>Gezint zijn leed te doen een' sterfelijcken man,</l>
+						<l>Onmooghlijck is 't, dat hy dien slagh ontvlughten kan.</l>
+						<l>Dit bleeck, toen 's andren daeghs de zon de zeen en landen</l>
+						<l>Beschijnende, de beurt des renstrijds was voorhanden.</l>
+						<l>Orestes quam'er met veel wagenridders aen.</l>
+						<l>Achaien zondt' er een'. men zagh'er een' Spartaen,</l>
+						<l>Noch twee uit Lybien, op wagens met twee paerden.</l>
+						<l>Hy zelf, de vijfste, ging niet koel met hen aenvaerden</l>
+						<l>Met braeve Thessalers het vlugge wagenspel.</l>
+						<l>De zeste, een AEtolier, had rossen geel van vel.</l>
+						<l>De zevenste quam uit Magnesien, vol hitte.</l>
+						<l>Maer d' AEnianer reed hier d'achtste met twee witte.</l>
+						<l>De negenste verliet Athenen, Pallas stad.</l>
+						<l>Beotien voer meê, en dreef het tiende rad.</l>
+						<l>Na datze vaerdigh staen met hun gezwinde wielen,</l>
+						<l>Een yeder op zijn plaets, naer dat de loten vielen,</l>
+						<l>Getrocken zonder nijd door hen, die zijn gezet</l>
+						<l>Tot wachters over 't spel, zoo steeckt men de trompet:</l>
+						<l>Daermede voortgeruckt, en elck 't gareel gespannen.</l>
+						<l>Gebriesch van paerden mengt zich in geroep van mannen.</l>
+						<l>Men schud de toomen vast. men raest van ongeduld:</l>
+						<l>Zoo dat de wagendrift de gantsche renbaen vult,</l>
+						<l>Gehaspelt stof de lucht. zy worden ingewickelt,</l>
+						<l>En warren onder een. elck drijft, elck roept, elck prickelt</l>
+						<l>Zijn hygend paerd om prijs, waer naer het al verlangt,</l>
+						<l>En 't schuim verspreit, om ros, en wiel, en wagen hangt.</l>
+						<l>Orestes, achter opgezeten, heet op 't winnen,</l>
+						<l>Trock vast den disselboom naer zich, oock 't paerd van binnen,</l>
+						<l>En gaf het buitenst bot. de wagens dus gement,</l>
+						<l>Die streefden, in het eerst, noch heel, en ongeschent:</l>
+						<l>Maer toen een Ainiaen, met zijn gespan aen 't hollen,</l>
+						<l>Zich keerde, en, na zesmael, recht toe recht aen, quam rollen</l>
+						<l>Op ons Barceesche raên, geraeckte men dat pas</l>
+						<l>Van d'eene ramp in een, die noch veel arger was.</l>
+						<l>Hy storte, en al die in 't Krisseesche renperck reden</l>
+						<l>Vervulden 't perck, daer zy in stucken rabreuck leden.</l>
+						<l>De schrandre Athener zagh 't. hy staeckte zijnen vaert,</l>
+						<l>Begaf zich buiten om, en wist met wiel, en paerd</l>
+						<l>Het midden, daer het barnt van wagenen, te myden.</l>
+						<l>Maer uw Orestes quam de leste, en spader rijden,</l>
+						<l>Met groote hoop naer prijs: en ziende neffens hem</l>
+						<l>Geen andren, noopte vast de hengsten met zijn stem,</l>
+						<l>En vloogh d'Athener naer. elcks kleppers, snel als veugels,</l>
+						<l>Geraeckten zy aen zy met evensnelle teugels;</l>
+						<l>Dan weder d'een, en dan een anders kop wat voor.</l>
+						<l>Orestes had dus lang noch veiligh 't wagenspoor</l>
+						<l>Gemaeckt, tot dat hy liet den slincken teugel glyen,</l>
+						<l>En raeckende onverziens den perckpilaer, in 't ryen,</l>
+						<l>Vermorselde zijn as, en viel van boven neêr,</l>
+						<l>Gewickelt in den toom. door 't vallen van dien Heer</l>
+						<l>Verstroide het gespan, in't heftighste van't jaegen.</l>
+						<l>D'aenschouwers, die hem dus zien sneuvelen, beklaegen</l>
+						<l>Dien Jongeling, zoo groot en onvertsaeght van ziel,</l>
+						<l>Gelijck d'ellende was, die hem te beurte viel.</l>
+						<l>Hy word gesleept gesleurt, langs d'aerde, al 't renpad heenen,</l>
+						<l>En steeckt by wylen noch ten hemel bey zijn beenen,</l>
+						<l>Tot dat men, in hun' loop, de dulle rossen stuit,</l>
+						<l>En dien gevallen red: maer laes! hy ziet'er uit,</l>
+						<l>En leit'er zo bebloed, dat zelfs der vrienden oogen</l>
+						<l>'T ellendigh aengezicht, noch zwinxel kennen mogen.</l>
+						<l>Men brande 't lijck tot stof. Phanoteus stelde ras</l>
+						<l>Twee mans, die, in een kleine en kopre doodbus, d'asch</l>
+						<l>Van 't groote lichaem u nu brengen tot een gave,</l>
+						<l>Op dat men 't in dit land, zijn vaderland, begraeve.</l>
+						<l>'K verhael u dit zoo 't voer. 't verhael ontstelt my, ach!</l>
+						<l>Die 't zagen, tuighden, dat noit mensch yet droevers zagh.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Och Pelops stam! ghy stort met al uw tacken neder.</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>O Jupiter, wat hoor, wat hoor ick hier al weder?</l>
+						<l>Hoe zal ick dese maer best noemen, quaed of goed?</l>
+						<l>Z'is my ten minste nut. 't valt bitter voor 't gemoed</l>
+						<l>Met druck en hartewee te slyten al zijn jaeren.</l>
+					</sp>
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>Mevrouw, bedroeft ghy u om deze nieuwe maeren?</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>Het kinderbaeren is een last, en ongenught,</l>
+						<l>Want geene moeder haet heur schadelijcke vrucht.</l>
+					</sp>
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>Zoo breng ick u vergeefs nu tyding van dien doode.</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>Geensins, want ghy verstreckt my een loofwaerdigh bode</l>
+						<l>Van hem, mijn halve ziel, dien 't luste te versmaên</l>
+						<l>Zijn voesters, en mijn borst, en liefst wou balling gaen.</l>
+						<l>'K heb sedert dat hy 't land verliet, en was vertrocken,</l>
+						<l>Hem noit gezien, die, niet ophoudende van wrocken,</l>
+						<l>En vreeslijck dreigend, my den vadermoord verweet;</l>
+						<l>Zoo dat ick nimmer dagh noch nacht gerust versleet,</l>
+						<l>Noch slaepen kon. my docht, zy stonden naer mijn leven:</l>
+						<l>En heden is my eerst uit mijn gemoed gedreven</l>
+						<l>Dien schrick voor hem, en haer, dat my aen't harte trof:</l>
+						<l>En deze Elektra zoogh, gelijck een pest in 't hof,</l>
+						<l>Mijn hartebloed; maer nu van schrick en angst ontslaegen,</l>
+						<l>Hoop ick voortaen gerust te leven al mijn dagen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wee my ellendigh mensch! Orest, moet ick in nood</l>
+						<l>Beklaegen uw ellende, om datghe, na uw' dood,</l>
+						<l>Noch lyden moet dien smaed, en 't lasteren van Moeder?</l>
+						<l>Betaemt u dit?</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>'K versma met recht, en reên uw' Broeder,</l>
+						<l>Niet u.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Hoor Nemesis, wie 't lijck met smaed belast.</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>Zy heeft het al gehoort, en zoo gelijck het past,</l>
+						<l>En voerde 't heerlijck uit.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Braveert nu vry uw' kindren,</l>
+						<l>Dewijl 't geluck u dient.</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>Zult ghy my dit verhindren?</l>
+						<l>Of zal 't Orestes doen?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wy zwichten bang, en schuw,</l>
+						<l>En hinderen u niet.</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>O vreemdeling, 'k zou 't u</l>
+						<l>Beloonen, wistghe haer dat snatren te verleeren.</l>
+					</sp>
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>Mijn boodschap is beschickt. het is nu tijd te keeren.</l>
+					</sp>
+
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>Geensins. want hoe zou my, of dezen trouwen heer,</l>
+						<l>Die u heeft uitgestuurt, dit passen, datghe weêr</l>
+						<l>Vertrockt, zoo ononthaelt: dies ga met my hier binnen.</l>
+						<l>Laet deze voor de deur vergadren haere zinnen,</l>
+						<l>En treuren over 't leed van haer en haer geslaght.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Dunckt u, dat wy bedruckt, met al te groot een klaght,</l>
+						<l>'T rampzaligh ongeval van uwen zoon beweenen?</l>
+						<l>Helaes! daer gaetze nu al bly en lachend heenen.</l>
+						<l>Wee my ellendigh mensch! Orest, mijn lieve broêr,</l>
+						<l>Ghy brengtme voort om hals, door 't geen u wedervoer.</l>
+						<l>Door uwe dood is my de hope voort bezweecken,</l>
+						<l>Dat ghy weerkeerend my, en Vaders dood zoud wreecken.</l>
+						<l>Waer wende ick nu mijn' tred? ick eenzaem, zonder hoofd,</l>
+						<l>Ben vaderlooze wees, en van mijn' Broêr berooft.</l>
+						<l>Nu moet ick zien mijn jeughd in slaverny verslenssen,</l>
+						<l>En dienen de gehaetste en snoodste van de menschen,</l>
+						<l>Den vadermoordenaers: gedijtme dat tot lof?</l>
+						<l>Neen, 'k woon voortaen niet meer by hen in 't zelve hof,</l>
+						<l>Maer wil, voor deze deur, berooft van al mijn magen,</l>
+						<l>Gaen leggen, en aldus verslyten al mijn dagen.</l>
+						<l>Laet een van 't hofgezin, en dien 't niet lastigh val,</l>
+						<l>My doodslaen, daer ick hem noch voor bedancken zal:</l>
+						<l>Want ick ben 't leven moe: 'k verlang niet meer naer 't leven.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Waer of de blixem van Jupijn,</l>
+						<l>Waer of de klaere zon magh zijn,</l>
+						<l>Dat zy dit ongelijck verdraegen?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Och och!</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Mijn kind, waer toe dit klaegen?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Och och!</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Nu krijt niet al te luid.</l>
+					</sp>
+
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ghy moordme.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Hoe? legh my dit uit.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Indienge my, die ben bedorven,</l>
+						<l>Noch hopen doet op dien gestorven,</l>
+						<l>Zoo zultghe mijnen rouw slechs voên,</l>
+						<l>En my noch grooter hartzeer doen.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Amphiaraus, die vol zorgen</l>
+						<l>Voor 't oorloogh heimlijck zat verborgen,</l>
+						<l>Werd van zijn vrouw, die 't was vertrouwt,</l>
+						<l>Om eene keten, rood van goud,</l>
+						<l>Verraden, en beneên gevaeren,</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Och och!</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Quam hy noch openbaeren</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Och och!</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Dit schendigh stuck daer na.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Kreegh Eriphyl heur straf?</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>O ja.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>'T is waer. Alcmaeon voortgekomen,</l>
+						<l>Heeft wraeck van 's vaders leed genomen:</l>
+						<l>Maer niemant denckt helaes! om my,</l>
+						<l>En die 't zou doen raeckt aen een zy.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Wat treffen u al ongelucken!</l>
+					</sp>
+
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ick ken de rampen, die my drucken,</l>
+						<l>De lange ontelbre zwaerigheên,</l>
+						<l>Die t'zaemenloopen, en tot een.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>'K weet wat ghy zeght, gestadigh banger.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Vertroost Elektra dan niet langer,</l>
+						<l>Nadien 'er geen.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Wat zeghtghe toch?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Al d'overige hulp, tot noch</l>
+						<l>Verwacht, bestond alleen in loten</l>
+						<l>Van adelijcken stam gesproten,</l>
+						<l>De tijdgenooten van Orest.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>De dood valt elck te beurt in 't lest.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Och dat de dood oock trof hen allen,</l>
+						<l>Als hem in 't renperck neergevallen.</l>
+						<l>Och datze oock warden in den toom.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>'T vertreckt eer deze straffe koom.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wie straft dit? hy in vreemde landen,</l>
+						<l>Die word niet van mijn eige handen.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Och och!</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Hy leit'er al, hy leit</l>
+						<l>Van ons begraeven, noch beschreit.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Mijn allerliefste, ick koom hier haestigh aengevlogen,</l>
+						<l>Vergeet al mijn cieraed. ghy ziet mijn vreughd in d'oogen.</l>
+						<l>Ick breng een blyde maere. uw jammerlijcke ellend,</l>
+						<l>Al uw geleên verdriet, en droefheid neemt een end.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Van waer hebt ghy wat troost voor myne quael vernomen?</l>
+						<l>Ick zie geen mensch te moet, die my te hulp zou komen.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Zoo waer als ghy my ziet, Orestesbroêr is hier.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Beschimptghe uw lot, en my? o zot en arrem dier!</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Ick zweer by Vaders hof, ick zegh het niet vermeten</l>
+						<l>Uit schimp, hy is hier by. wy zeggen 't geenwe weeten.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Rampzalige, wat mensch heeft u 't verstand berooft,</l>
+						<l>Dat ghy zoo lichtelijck zijn' dwaezen klap gelooft?</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Ick heb het van my zelve, en niet van hooren spreecken.</l>
+						<l>'K geloofde toen ick zagh geen een onfeilbaer teecken.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Waer meê bewijstghe dan het geenghe zaeght? wat voed</l>
+						<l>Uw hope met die koorts, en ongeneesbren gloed?</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Ick bidde u by de Goôn, wil eerst mijn rede hooren,</l>
+						<l>En noem my dan vry wijs, of zetme by de dooren.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Zegh op, nadienghe hier zoo zeer toe zijt belust.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>'K zal zeggen al het geen waer van ick ben bewust.</l>
+						<l>Toen wy naer 't oude graf van onzen vader spoeiden,</l>
+						<l>Vernam men endelijck, hoe melleckbronnen vloeiden</l>
+						<l>Noch versch en eerst geplengt van zijnen graftop af,</l>
+						<l>En allerhande slagh van bloemen over 't graf,</l>
+						<l>En Vaders kist bekranst. ick sta gelijck een stomme,</l>
+						<l>Om dit gezicht, en zie verbaest een poos rondomme,</l>
+						<l>Maer zie hier niet een' mensch ontrent, die my verrasch:</l>
+						<l>En ziende dat het hier heel stil, en veiligh was,</l>
+						<l>Genaeckte ick 't graf heel dicht, daer lijckhout, rijs, en stocken</l>
+						<l>Op een gestapelt zijn, en 'k zagh gekrulde locken,</l>
+						<l>Noch versch van 't hoofd gesneên hier hangen: maer zo ras</l>
+						<l>Ick dit bevond, mijn hart noch veel ontstelder was;</l>
+						<l>Om dat mijn broêr Orest, de liefst van al die leven,</l>
+						<l>Voorhanden, my dit hair wou tot een teecken geven.</l>
+						<l>Ick vat het aen, en gaf wel geen bedroeft geluid;</l>
+						<l>Nochtans zoo borsten my van vreughd de tranen uit:</l>
+						<l>En toen geloofde ick vast, en nu geloof ick mede,</l>
+						<l>Dat niemant dit cieraed gebroght heb hier ter stede</l>
+						<l>Als hy: want wie zou't doen, behalven ick, en ghy?</l>
+						<l>Ghy deed het niet, en 'k weet dit koomt oock niet van my:</l>
+						<l>Want hoe zoud ghy 't bestaen, die zonder rouw, en vloecken</l>
+						<l>Niet uit dit hof kunt gaen de Goôn, en 't graf bezoecken?</l>
+						<l>Noch dit raeckt Moeder niet: en deed zy 't, deze daed</l>
+						<l>Kon niet verborgen zijn. het is Orests cieraed,</l>
+						<l>Mijn Zuster, nu schep moet. Fortuin te wispeltuurigh,</l>
+						<l>Blijft in een zelve huis niet stadigh, noch geduurigh.</l>
+						<l>Zy die voorhanden is ons veel gelux belooft.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>'K heb overlang beklaeght uw zinnelooze hoofd.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Wat zegtghe? komt uw hart dit hoorende, niet boven?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ghy weet niet watghe zeght, noch watghe zult gelooven.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Hoe weet ick niet het geen ick met mijn oogen zie?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Verdwaelde, hy is dood, en alle teeckens, die</l>
+						<l>Ghy van zijn welvaert zaeght, zijn ydel. 't is verloren,</l>
+						<l>Dat ghy noch hoopt.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Wee my, hoe quam u dit ter ooren?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ick heb het uit den mond van die hem sterven zagh.</l>
+					</sp>
+
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Waer is die vreemde man? ick sta verwondert, ach!</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>In 't hof, en wellekom by Moeder, nu genezen.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Wee my ellendigh mensch! wiens offer zou 't dan wezen?</l>
+						<l>Wie goot dit over 't lijck, eer ick het graf bezocht?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>'K acht dat dit teeckens zijn, die yemant heb gebroght</l>
+						<l>Tot een gedachtenis van dezen droeven doode.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Wee my ellendigh mensch! ick docht een blyde bode</l>
+						<l>Te strecken in der yl, niet denckende dit pas,</l>
+						<l>Dat zulck een ongeluck ons overkomen was:</l>
+						<l>Maer komende, verneem ick nu, dat tot ons plaegen,</l>
+						<l>En ongevallen noch een ander zy geslaegen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Zoo is 'ter meê gestelt, en volghtghe mijnen raed,</l>
+						<l>'K wed ick u redden zal uit dien bedruckten staet.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Hoe dat? kan ick het lijck doen leven, als te voren?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ick zegh dit niet. ick heb mijn zinnen niet verloren.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Wat wiltghe dat ick doe, in dit ons ongeval?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Het geenge kunt, en 't geen ick u vermaenen zal.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Indien 't ons redden kan, ick zal'er niet voor schroomen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Men kan tot dit geluck niet zonder arbeid komen.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Ick zie het wel, en zal verduren wat ick kan.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Zoo hoor nu, wat ick ra, en volgh mijn' raedslagh dan.</l>
+						<l>Ghy weet, wy zijn berooft van vrienden, en van magen,</l>
+						<l>Met een' van alle hulp, ons van de dood ontdraegen,</l>
+						<l>En zijn verdruckt alleen slechs over van 't geslacht.</l>
+						<l>Zoo lang mijn Broeder leefde, en bloeide, en werd geacht,</l>
+						<l>Verhoopte ick, dat hy eens zijn Vaders moord zou wreecken.</l>
+						<l>Nu hy verscheiden is, moet ick u moed inspreecken,</l>
+						<l>Op datghe niet versloft, met my, uw eigen bloed,</l>
+						<l>Dien vadermoordenaer te dooden: want ick moet</l>
+						<l>Nu spreecken, en kan u niet heelen mijn gedachten.</l>
+						<l>Wat sloft ghy? of hoe lang wilt ghy op uitkomst wachten?</l>
+						<l>Ghy die niet anders doet dan schreien, altijd nat</l>
+						<l>Van traenen, om ons erf, en dien beroofden schat.</l>
+						<l>Wat doetghe meer, dan dat ghy ongehuwt uw jaeren</l>
+						<l>Vast doorbrengt met verdriet, tot uwe gryze hairen?</l>
+						<l>Ghy hoeft uw leven niet te hopen op 't genot</l>
+						<l>Van erf, of huwelijck. AEgisth is niet zoo zot,</l>
+						<l>Dat hy gedoogen zal, dat uwe of oock mijn erven</l>
+						<l>Vermeerderen, om hem in 't ende te bederven:</l>
+						<l>Dies zooghe mynen raed te volgen zijt bereit,</l>
+						<l>Zoo zal voor 't allereerst d'eer van godvruchtigheid,</l>
+						<l>Aen Vaders lijck, met een' aen Broeders graf bewezen,</l>
+						<l>U niet ontstaen. daerna, gelijckghe word geprezen,</l>
+						<l>Als een, die geen slaevin, maer vrygeboore zijt,</l>
+						<l>Zoo zultghe dezen naem oock draegen onbenijd,</l>
+						<l>En huwen naer uw' staet: want elck bemint de braeven.</l>
+						<l>Begrijptghe niet, hoe hoog ons beider Faem zal draeven,</l>
+						<l>Zoo ghy mijn' voorslagh volght? wat vreemde, of burger, die</l>
+						<l>Ons krijght in 't oogh, zal u en my niet loven? zie,</l>
+						<l>Ay zie, mijn vriend, dat zijn die zusters, die te gader</l>
+						<l>Herstelden in zijn' staet het hof van heuren vader;</l>
+						<l>Die op haer leven niet eens passende, en vol moeds,</l>
+						<l>Haer vyanden in weelde opquamen onverhoeds.</l>
+						<l>Een yegelijck behoort eerbiedigh haer t' ontfangen.</l>
+						<l>Een yegelijck behoort op feesten met gezangen</l>
+						<l>Te loven heuren naem, en onversaeghden aerd,</l>
+						<l>In steden, daer het volck van overal vergaert.</l>
+						<l>Dien lof en roem zal elck ons bey te zaemen geven,</l>
+						<l>Noch lang na onze dood, en midlerwijl wy leven:</l>
+						<l>Zoo dat in eeuwigheid onze eer niet kan vergaen.</l>
+						<l>Dies, Zuster, laet u toch van uwe Zuster raên.</l>
+						<l>Verweer uw Vaders eer. verweer uw' Broeder mede.</l>
+						<l>Verlos u zelve en my van rampen. dat 's mijn bede;</l>
+						<l>En overlegh, en denck, hoe schandelijck het staet,</l>
+						<l>Dat vry geboren bloed in slaeverny vergaet.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>In zulcke zaeken is voorzichtigheid van noode,</l>
+						<l>Die 't zeit, en die dit hoort.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>O vrouwen, deedze zoo de</l>
+						<l>Voorsichtigheid vereischt, zy deed gelijck 't betaemt,</l>
+						<l>En had, eer zy noch sprack, dier woorden zich geschaemt:</l>
+						<l>Want waerom staertghe op my, zoo stout, en zoo vermeten,</l>
+						<l>En portme tot dit stuck? of hebtghe zelf vergeten,</l>
+						<l>Dat ghy een dochter zijt, geen man tot zulck een werck?</l>
+						<l>Uw handen zijn te teêr, de vyanden te sterck.</l>
+						<l>Fortuin begunstight hen, en schuwt ons, en gaet heenen.</l>
+						<l>Wie zulck een man bespringt, dien springt het voor de scheenen.</l>
+						<l>Wat kans, wat hoop is hier? zie voor u, watghe maeckt,</l>
+						<l>Dat ghy misdoende, niet in grooter jammer raeckt,</l>
+						<l>Zoo yemant dit verneemt. wat heil kunt ghy verwerven,</l>
+						<l>Dat ghy naer eere streeft, en eerloos koomt te sterven?</l>
+						<l>Ja zelf de dood is niet zoo haetelijck, noch snood,</l>
+						<l>Dan dat men sterven moet een altijdvliende dood.</l>
+						<l>Dies bid ick u, eer wy ellendigh ommekomen,</l>
+						<l>En ons geslacht verga, wil toch uw gramschap toomen,</l>
+						<l>En 't geenghe hebt gezeit, zal ick in stilligheid</l>
+						<l>Verzwijgen, als een zaeck van niemant oit gezeit.</l>
+						<l>'T is tijd, en meer dan tijd, om weder te bedaeren;</l>
+						<l>Nadienghe niets vermooght, zoo wacht u uit te vaeren,</l>
+						<l>En hou gevolleghzaem den maghtigen te vriend.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Gehoorzaem. wijsheid, en voorzichtigheid die dient</l>
+						<l>Den mensch op 't allerhoogst.</l>
+					</sp>
+
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ghy spreeckt, gelijckwe dachten.</l>
+						<l>Ick wist het wel, dat ghy mijn bede zoud verachten,</l>
+						<l>En zal dan 't stuck alleen volvoeren, en bestaen:</l>
+						<l>Want deze daed magh hen niet ongestraft vergaen.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Och hadghe 't hart gehad, toen Vader quam te sneven,</l>
+						<l>Ghy had al watghe woud met yver doorgedreven.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Aen hart ontbracktme niet, 't ontbrack my aen vernuft.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Volhard dan, zooghe wilt, als een die nimmer suft.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ghy leertme dit, en houd geen hand aen deze zaecken.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Wie 't quaed neemt by der hand, kan daer niet goeds af maecken.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>'K bemin wel uw verstand, maer haet uw suffery.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis;</speaker>
+						<l>'K verdraegh dit, oock wanneer ghy loflijck spreeckt van my.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra;</speaker>
+						<l>Ghy zultme nimmermeer uw lafheid hooren pryzen.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>De tijd die volght is langh, en zal het vonnis wyzen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ga heenen, want ghy hebt geen hellepende hand.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Zy is behullepzaem, maer ghy hebt geen verstand.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Als ghy by Moeder koomt, verklick dan al mijn treken.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Ick ben met zulck een haet noch niet op u ontsteecken.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ay zie eens watghe my niet doet tot smaed, en spijt?</l>
+					</sp>
+
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>'K versma u niet, maer wensch dat ghy voorzichtigh zijt.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Is 't recht dat ick u volge, en doe naer uw begeeren?</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Wanneerghe wijslijck raed, dan zultghe my regeeren.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Hoe hard is 't, dat die geen die wel spreeckt zich vertast?</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Ghy geeft het quaed zijn' naem, en zijt 'er zelf aen vast.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Hoe zoo? schijn ick u yet met onrecht te verklaeren?</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Wat wel gesproken word, kan scha noch hinder baeren.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ick wil die wetten niet beleven met geduld.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Zoo ghy dit doet, ick weet dat ghy my pryzen zult.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ick wil het doen. geen schrick zal nu mijn opzet weeren.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Is 't waer? zult ghy van raed verandren noch verkeeren?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ick weet niet snoders als een valsche en quade raed.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>My dunckt, dat ghy het geen ick zegge niet verstaet.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Dit is niet nieuw. ick heb dit lang al voorgenomen.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Ick ga dan heen mijns weeghs, nadienghe schijnt te schroomen</l>
+						<l>Te loven mijnen raed, en ick uw quade zeên.</l>
+					</sp>
+
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ga in. 'k ben niet gezint te volgen uwe reên,</l>
+						<l>Hoe zeer ghy hier naer haeckt met hartelijck verlangen.</l>
+						<l>Een dwaeze jaeght het wild, dat nergens is te vangen.</l>
+					</sp>
+					<sp who="#chrysothemis">
+						<speaker>Chrysothemis</speaker>
+						<l>Ghy zult mijn overlegh (zoo u geen brein ontbreeckt)</l>
+						<l>Noch loven, maer te spa, als ghy in droefheid steeckt.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Hoe koomt het toch, dat wy aenschouwende</l>
+						<l>De schrandre vogels in de lucht,</l>
+						<l>Met zulck een' grooten treck, en zucht</l>
+						<l>Haer kleen gebroedsel onderhouwende,</l>
+						<l>Niet met onze afkomst zijn belaên.</l>
+						<l>Maer by Jupijn, en zyne schichten,</l>
+						<l>By 't hemelsch Recht, zy zullen zwichten,</l>
+						<l>En jammerlijck eerlang vergaen.</l>
+						<l>O Faem der wereld, stil d'Atryden,</l>
+						<l>En hun gekerm, gehoort dat pas,</l>
+						<l>Het kermen, dat een voorbo was</l>
+						<l>Van een veel schandelijcker lyden.</l>
+						<l>Dewijl de zaecken nu daer binnen</l>
+						<l>Zoo qualijck staen, het hof beroert,</l>
+						<l>De kinders, tegens een gevoert,</l>
+						<l>Malkandren helpen noch beminnen;</l>
+						<l>Die droeve Elektra dus alleen,</l>
+						<l>En gansch verlaeten, heen en weder</l>
+						<l>Gedreven, jammert op en neder,</l>
+						<l>En treurt om 's Vaders zwarigheen,</l>
+						<l>Gelijck een nachtegael; om 't even</l>
+						<l>'T zy datze leef, of 't licht ontbeer,</l>
+						<l>Als zy twee moorders velt ter neêr.</l>
+						<l>Hoe kan een edel hart zoo leven!</l>
+						<l>Geen eedle spruit laet zich verdrucken,</l>
+						<l>Noch wil, by yeder een veracht,</l>
+						<l>Haer faem en koninglijck geslacht</l>
+						<l>Beschaemen door oneerbre stucken.</l>
+						<l>O kind! o dochter vol verdriet!</l>
+						<l>Hoe treft u d'algemeene ellende,</l>
+						<l>Op datghe 't schelmstuck wreeckt in 't ende,</l>
+						<l>En dubblen lof hier door geniet,</l>
+						<l>En werd genoemt, na d'ongevallen,</l>
+						<l>Het wijste en beste kind van allen.</l>
+						<l>Ick wensch dat wy u mogen loven,</l>
+						<l>Wanneerghe rijck, door uwe daed,</l>
+						<l>Zoo laegh ghy onder henliên staet,</l>
+						<l>Zoo veer uw' vyand raeckt te boven:</l>
+						<l>Nadien ick merck, hoe dwers het lot</l>
+						<l>U tegenvalt; hoewel uw zaecke</l>
+						<l>Gerechtigh blijckt, en roept om wraecke,</l>
+						<l>Na datghe lange zijt bespot.</l>
+						<l>Men hoope elx deughden op malkandren,</l>
+						<l>Ghy overtreft in dit al d'andren.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>O vrouwen, wijst men ons, en gaenwe, zoo 't behoort?</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Wat zoecktghe? waerwaert streckt uw komste in dezen oord?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ick heb AEgisthus hof een wyl gezocht met dezen.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Ghy zijt oock niet verdoolt. men heeft u recht gewezen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wie boodschapt onze komst hier binnen, daerze alree</l>
+						<l>Verlangen, uur op uur, en wachten naer ons twee?</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Dees Joffer, die het past dees tyding eerst te bringen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ga vrouw in 't hof, en zegh: Phocenser vreemdelingen</l>
+						<l>Verzoecken met AEgisth te spreecken, magh 't geschiên.</l>
+					</sp>
+
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wee my ellendigh dier! 'k geloof dat deze liên</l>
+						<l>Ons brengen wis bescheid van 't geen ons quam ter ooren.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ick weet niet, watghe hier voor tijdingen mooght hooren.</l>
+						<l>Ick koom van Strophius den gryze in dit gewest.</l>
+						<l>Hy vaerdighde my af met tyding van Orest.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wat's dat? ô vreemdeling! ick schrick om deze reden.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wy brengen 't overschot van dezen overleden,</l>
+						<l>In deze kleene bus, gelijck ghy zelve ziet.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wee my ellendigh mensch! nu zie ick met verdriet</l>
+						<l>Mijn tegenwoordigh leed: nu zie ick 't met mijn oogen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Indien Orestes val u raeckt uit mededoogen,</l>
+						<l>Zoo weet dat deze bus zijn overschot bevat.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ick bid u, by de Goôn, o vreemdling, geefme dat,</l>
+						<l>Op dat ick handel 't geen, waer in hy leit besloten;</l>
+						<l>Op dat dees asch van my met traenen overgoten</l>
+						<l>Magh werden, en ick my, en al mijn bloed beween.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Nu hael het voor den dagh, en geef haer dit, als een</l>
+						<l>Die hem noch vyandschap, noch haet schijnt toe te draegen;</l>
+						<l>Maer zijn vriendin moet zijn, of een der naeste magen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Gedachtenis van dien ick hiel</l>
+						<l>Voor d'allerliefste van de menschen,</l>
+						<l>Kleen overschot van Broeders ziel,</l>
+						<l>Ghy koomt niet 't huis, gelijckwe wenschen;</l>
+						<l>Gelijck ick hoopte, toen ick u</l>
+						<l>Als balling zond in vreemde landen.</l>
+						<l>Orestesbroer, ick draegh dy nu,</l>
+						<l>Die stof, ja niets zijt, op mijn handen.</l>
+						<l>Ghy waert een aertigh kind weleer,</l>
+						<l>Toen ick, tot berging van uw leven,</l>
+						<l>U elders zond, zoo wijd en veer.</l>
+						<l>Och had ick eerst den geest gegeven,</l>
+						<l>Eer ick u met dees handen stal,</l>
+						<l>En midden uit die moordellenden</l>
+						<l>Al bevend stierde, om 't ongeval</l>
+						<l>T'ontvliên, by vreemde, en onbekenden;</l>
+						<l>Zoo hadghe, toenmaels omgebraght,</l>
+						<l>Met Vader, op een' dagh, genoten</l>
+						<l>Het graf van 't vaderlijck geslacht:</l>
+						<l>Maer nu 's rijcks balling, en verstooten,</l>
+						<l>Most ghy, op dien uitheemschen grond,</l>
+						<l>Dien schrickelijcken smack gevoelen;</l>
+						<l>Daer ghy uw Zuster niet en vond,</l>
+						<l>Noch zy 't gesleurde lijck kon spoelen;</l>
+						<l>Noch met heur waerde handen 't bloed</l>
+						<l>Afwasschende, met offer eeren;</l>
+						<l>Noch door het lijckhout, en zijn' gloed,</l>
+						<l>Zoo 't voeght, de grove stof verteeren:</l>
+						<l>Maer vreemden hebben dit verricht.</l>
+						<l>Rampzalighe, komt ghy dus weder?</l>
+						<l>Helaes! hoe weeghtghe nu zoo licht?</l>
+						<l>Hoe heb ick u, noch kleen, en teder,</l>
+						<l>Zoo vruchtloos opgevoed met smart?</l>
+						<l>Hoewel ick 't dede met verlangen,</l>
+						<l>Dies over Zuster meer uw hart</l>
+						<l>Als over Moeder heeft gehangen.</l>
+						<l>'T waer zot, dat een van 't hofgezin</l>
+						<l>Van uw opvoeding, zich beroemde.</l>
+						<l>Ghy waert alleen by my te min,</l>
+						<l>Die ghy altijd uw Zuster noemde.</l>
+						<l>Dit alles houd al t'effens nu</l>
+						<l>In eenen dagh op met uw leven.</l>
+						<l>Alle andre dingen zijn met u,</l>
+						<l>Gelijck een buy, voorby gedreven.</l>
+						<l>Uw Vader is oock voort, ons hoofd,</l>
+						<l>En heden is mijn tijd verstreecken.</l>
+						<l>De Dood heeft my van u berooft:</l>
+						<l>Maer onze vyanden die steecken</l>
+						<l>Den kop al lachende in de lucht,</l>
+						<l>En onze liefdelooze Moeder</l>
+						<l>Is dol van vreughd, om dit gerucht;</l>
+						<l>Zy, om wiens wil, o waerde Broeder,</l>
+						<l>Ghy my zoo dickwils trooste in nood,</l>
+						<l>En heimlijck liet een hart inspreecken,</l>
+						<l>Dat ghy ten leste eens Vaders dood</l>
+						<l>Rechtvaerdighlijck zoud komen wreecken:</l>
+						<l>Maer nu heeft uw rampzaligh lot,</l>
+						<l>En 't mijn dit alles weghgenomen;</l>
+						<l>Nu wy, in plaetse van 't genot</l>
+						<l>Uws lieven aenschijns, asch bekomen,</l>
+						<l>En ydle schaduwe, en bedrogh.</l>
+						<l>O wee! o wach! ick ben verloren.</l>
+						<l>O deerlijck lichaem! och och och!</l>
+						<l>Orestesbroêr, mijn uitverkoren,</l>
+						<l>Hoe heb, hoe heb ick u verruckt</l>
+						<l>Naer zulcke doodelijcke wegen?</l>
+						<l>Hoe hebtghe my verongeluckt,</l>
+						<l>Mijn Broêr, mijn hoofd tot my genegen?</l>
+						<l>Hoe sleeptghe my met u ten val?</l>
+						<l>Ontfang my, om by u te schuilen,</l>
+						<l>Die zijt, als ick, gansch niet met met al;</l>
+						<l>Op dat ick, na dit stadigh huilen,</l>
+						<l>By u magh woonen, daer beneên:</l>
+						<l>Want alzoo lang ick was hier boven,</l>
+						<l>Had ick het al met u gemeen:</l>
+						<l>Maer 't licht voor my nu toegeschoven,</l>
+						<l>Die merck, dat voor begraeve doôn</l>
+						<l>Noch druck noch droefheid zy geschapen,</l>
+						<l>Zoo wensch ick by u met der woon</l>
+						<l>In 't zelve graf altijd te slaepen.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Bedenck, Elektra, dat uw Vader en uw heer,</l>
+						<l>En Broeder sterflijck was; dies zucht niet al te zeer.</l>
+						<l/>
+						<l>Wy moeten altemael in 't graf, en d'aerde duicken.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Och och! wat zegh ick best? wat reên zal ick gebruicken?</l>
+						<l>Ick kan mijn tong niet meer bedwingen. och och och!</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wat wiltghe zeggen? spreeck, wat droefheid let u toch?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Elektra, zijtghe dit, ghy wijdvermaerde vrouwe?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ick ben die zelve noch, maer steeck in grooten rouwe.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Helaes! wat zie ick hier mijn hartewee aen u?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ghy vreemdeling, zegh op, waerom verzuchtghe nu?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Hoe is uw lichaem dus verandert, en vervallen?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Beklaeghtghe my alleen? of raeckt uw klaght ons allen?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Hoe treckt men ongehuwt u op tot mijn verdriet!</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ghy vreemdeling, waerom verzuchtghe, als ghyme ziet?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Om dat ick niet eens wist wat rampen u omringen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Hoe weetghe 't gheenghe zeght? hoe weetghe deze dingen?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Om dat ick zie, hoe ghy om veele ellenden treurt.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Noch zietge 't allerminst van 't leed, dat my gebeurt.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wat snooder ongeval kan yemant wedervaeren?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Om dat ick leven moet by felle moordenaeren.</l>
+					</sp>
+
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Met wien? wie zijnze toch? wat zijn 't voor looze liên?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>By vadermoordenaers, dien ick gedwongen dien.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wat mensch bedwingt u dus tot deze nood, en smarte?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ick heet haer Moeder, maer zy heeft geen moeders harte.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wat? dwingtze u met heur hand? misguntze u dat ghy eet?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Met slagen, met verdriet, en allerhande leed.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wel is 'er niemant, die u voorstaet, op uw bede?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Niet een, en die'er was, diens assche brengtghe mede.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Rampzalige, 'k zie u met medelyden aen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Geen mensch, behalven ghy, was oit met my belaên.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Om u, en om uw leed, ick my zoo veer verpijnde.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ghy koomt niet hier, als een van ons namaeghschap zijnde?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>'K zou 't zeggen, wist ick dat u dees ten dienste staen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Zoo doenze. spreeck recht uit. niet een zal u verraên.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zoo zet die doodbus neêr. ick zal 't u al belyen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Neen, by de Goden, neen. laet my hier meê betyen.</l>
+					</sp>
+
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Gehoorzaem. 't zal u niet berouwen, zoo ghy 't doet.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ick bidde, ontneemme niet dit allerwaerdste goed.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Legh af, ick ly het niet.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wee my, om deze gaeve.</l>
+						<l>Orest, misgunt men my, dat ick uw asch begraeve?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Spreeck anders, want ghy zucht, en jammert zonder reên.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Is 't onrecht, dat ick noch mijn' dooden Broêr beweên?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ghy spreeckt van hem niet recht, maer ongerijmt, en snoode.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Was ick dan zoo onwaerd voor dezen by dien doode?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Geensins onwaerd, maer dit gaet u in 't minst niet aen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Dat ick Orestes draegh, en 't lichaem dus vergaen?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Dit is Orestes niet, maer 't word zoo voorgegeven.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Waer is dan 't graf van dien ellendigen gebleven?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>'T is nergens, want die leeft hoeft geen begraefenis.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wat zeghtghe, jongeling?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ick zegh gelijck het is.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Hoe? leeft die man dan noch?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Indienghe my ziet leven.</l>
+					</sp>
+
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Zijt ghy 't?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Bezie dien ring van Vader overbleven,</l>
+						<l>En leer of't waerheid zy, of valsch.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>O blijdste dagh!</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Mijn allerliefste, ick ben 't, zoo 'k waerheid spreecken magh.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>O stem! heb ick u hier?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Nu luister naer geen maeren.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Heb ick u by de hand?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ick wensch dat ghy veel jaeren</l>
+						<l>My hebben mooght als nu.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>O ghy bemind geslacht,</l>
+						<l>Poortressen, dit 's Orest, zoo langen tijd verwacht,</l>
+						<l>Die dood geheeten werd, en levende is verscheenen.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Ick zie 't, mijn kind, en moet met u van blyschap weenen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>O kind, o spruit, my oit zoo waerd,</l>
+						<l>Als oit een moeder heb gebaert,</l>
+						<l>Nu zijtghe weergekomen.</l>
+						<l>Nu vondghe, dieghe zoud.</l>
+						<l>Nu keertghe, en hebt vernomen,</l>
+						<l>En ziet haer, dieghe woud.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wy zijn by een, maer wacht al stille.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wat is 'er?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zwijgh, om beters wille,</l>
+						<l>Zoo zal uw stem ons niet verraên.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Maer by die eerbaere Diaen,</l>
+						<l>Ick zal niet suffen, noch verflouwen,</l>
+						<l>Voor zulck een menighte van vrouwen,</l>
+						<l>Die binnen strecken moeders stoet.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zie toe. in vrouwen is oock moed,</l>
+						<l>Gelijck d'ervaerenheid u leerde zoo waerachtich.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Helaes! ghy maecktme noch 't bekende stuck indachtigh,</l>
+						<l>Dat altijd brockt en wrockt, en geen verzoening lijd.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ick weet het wel, maer als de tijd</l>
+						<l>Voorhanden is, denck dan om 't wreecken.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>'T is altijd tijd van dit te spreecken.</l>
+						<l>'T komt altijd wel te pas met my.</l>
+						<l>Nu staetme naulix 't spreecken vry.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Dat zegh ick oock, dies wil dit spaeren.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wat zal ick doen dan rechtevoort?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>'T is nu geen tijd van uit te vaeren</l>
+						<l>Met veele woorden, dat men 't hoort.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Van wien word dit niet wel genomen,</l>
+						<l>Dat ick, dewijlghe zijt gekomen,</l>
+						<l>In ste van spreecken, stille zwijgh,</l>
+						<l>Nu ick u buiten hope krijgh?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ick quam, toen my de Goden dreven,</l>
+						<l>Dat ickme zou naer huis begeven.</l>
+					</sp>
+
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Och och! waer laet ick mijn geneught?</l>
+						<l>Dit strecktme noch tot grooter vreughd,</l>
+						<l>Dat u de Goden herwaert braghten.</l>
+						<l>'K zal dit voor een orakel achten.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Betoom uw vreughd zoo onverhoopt,</l>
+						<l>En 't hart dat hier van overloopt.</l>
+						<l>Ick vrees uw vreughd zal ons bezwaeren.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Och Broeder, na zoo veele jaeren,</l>
+						<l>Verschijntghe op dees gewenschte steê,</l>
+						<l>Daer ghyme ziet vol hartewee,</l>
+						<l>Bedruckt, en smelten in mijn traenen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wat wiltghe my hier meê vermaenen?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ghy zultme niet berooven van</l>
+						<l>Dees vreughd, die 't hart niet vatten kan,</l>
+						<l>Nu my uw aenschijn magh gebeuren.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>'K zou my hierom op andren steuren.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Zijt ghy te vrede?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zou ick niet?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Vriendinnen, 'k heb in mijn verdriet</l>
+						<l>Een onverwachte stem vernomen.</l>
+						<l>Ick was alreede stom van schroomen,</l>
+						<l>En nu een wijl zoo veer gebroght,</l>
+						<l>Dat ick 't geschrey niet draegen moght:</l>
+						<l>Nu houde ick u, o mijn behoeder.</l>
+						<l>Nu hebtghe my, o liefste Broeder,</l>
+						<l>Getoont uw troostlijck aengezicht,</l>
+						<l>Uw aenschijn, my zoo lief als 't licht;</l>
+						<l>'T welck ick in zwaeren druck gezeten</l>
+						<l>Noch eenigh hartzeer zou vergeten.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Laet vaeren al het geen u voordeel geeft noch my,</l>
+						<l>Of ghy het weet of niet. wat Moeders schelmery</l>
+						<l>Belangt, ick weet het wel, hoe zy zich heb gedraegen,</l>
+						<l>En hoe AEgisth zoo dol ons erfgoed door kan jaegen,</l>
+						<l>Dat weghsmijt, of te kost aen ydle dingen leit.</l>
+						<l>Terwijlghe dit vertelt verloopt gelegenheid</l>
+						<l>En tijd; dies zeghme, 't geen men noodigh moet bezorgen:</l>
+						<l>Waer wy opdonderende, of heimelijck verborgen,</l>
+						<l>Dees blyde vyanden best dempen op het pad,</l>
+						<l>Waer langs men hen verwacht. vooral draegh zorge, dat</l>
+						<l>Ons Moeder niet bemercke uit bly gelaet noch reden,</l>
+						<l>Wanneerwe te gelijck, en beide binnen treden:</l>
+						<l>Maer huil, om 't loos gerucht, dat u ter neder ruckt.</l>
+						<l>Het word eerst lachens tijd, als d'aenslagh ons geluckt.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Mijn Broeder, 't zal geschiên, gelijckge hebt besloten:</l>
+						<l>Want ick heb deze vreughd van u alleen genoten,</l>
+						<l>En niet my zelf gemaeckt, en wou geensins om veel</l>
+						<l>Yet doen, 't geen strecken moght tot Broeders achterdeel;</l>
+						<l>Noch tegenwoordigh heil in 't allerminste yet achten.</l>
+						<l>Ghy weet wel, en verstaet, wat onsliên staet te wachten,</l>
+						<l>En hebt gehoort, hoe nu AEgisth naer buiten is,</l>
+						<l>En Moeder binnen 't hof; en hou dit voor gewis,</l>
+						<l>Dat zy uit mijne vreughd het allerminst zal weeten;</l>
+						<l>Want 't hart van binnen is van ouds op haer gebeten.</l>
+						<l>Wanneer ick u aenschouw, dan zullen stadigh aen</l>
+						<l>Bedruckte traenen my van vreughd in d'oogen staen;</l>
+						<l>Want hoe waer 't mogelijck, dat wy niet schreien zouden,</l>
+						<l>Die op een' zelven wegh u dood zien, en behouden;</l>
+						<l>Het welck zoo zeldzaem is, dat of men schoon vernam</l>
+						<l>Hoe Vader levendig weêr uit den grave quam;</l>
+						<l>'K zou niet gelooven dit een spoockery te wezen,</l>
+						<l>Maer dat hy in der daed waerachtigh waer verrezen.</l>
+						<l>Dewylghe dezen wegh dan ingeslagen zijt,</l>
+						<l>Zoo doe al 't geenghe wilt; want ick had nu ter tijd</l>
+						<l>Alleen en onverzelt twee stucken voorgenomen;</l>
+						<l>My braef te redden, of met glori om te komen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zwijgh stil, zwijgh stil. ick hoor een uit den huize gaen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Koomt binnen, gasten, koomt, nadienghe hebt gelaên,</l>
+						<l>Het geen men noo nochtans een plaets vergunt hier binnen.</l>
+					</sp>
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>Ghy zotten, zijtghe bey berooft van brein en zinnen,</l>
+						<l>Noch draeghtghe zorgh voor 't lijf, mits u 'tverstand ontbreeckt,</l>
+						<l>Dat ghy niet riecken kunt in wat gevaer men steeckt?</l>
+						<l>Wat rampen om ons staen? indien ick deze deuren</l>
+						<l>Niet gaeuw bewaeckte, uw raed, en raedslagh waer te veuren</l>
+						<l>Ontdeckt, eer ghy uw' voet daer binnen had gezet.</l>
+						<l>Nu is dit ongeval door mijne zorgh belet.</l>
+						<l>Ga in. zwijgh stil. 't is tijd uw vreughd den mond te snoeren.</l>
+						<l>Dit stuck lijd geen vertreck. de lof leit in 't volvoeren.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wel zeghme dan, hoe is 't in 't hof, en daer ontrent?</l>
+					</sp>
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>Het is'er zoo gestelt, dat niet een mensch u kent.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Broght ghy hen tyding, hoe ick raeckte om lijf, en leven?</l>
+					</sp>
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>Men rekent u voor dood. ghy word al dood geschreven.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Gedyt hen dat tot vreughd? wat zeggenze toch al?</l>
+					</sp>
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>Dit dient eerst uitgevoert, eer ick 't u zeggen zal.</l>
+						<l>Zoo 't noch staet, is'er niets dien grooten aenslagh tegen.</l>
+						<l>Het staet 'er wel, oock daer 't niet wel meê is gelegen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wie is dit? by Jupijn, ay zeghme, zoo 't u lust.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wel kentghe dezen niet?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Niet dat my is bewust.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wel weetghe niet, wiens trouw ick eertijds werd bevolen?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Wat zeghtghe daer? wat man?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Die my weleer gestolen</l>
+						<l>Naer Phocis heeft gevoert, door Zusters kloeck beleid.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Dien ick getrouw bevond, en tot mijn' dienst bereid,</l>
+						<l>Toen 't op een weiflen ging, wanneerze Vader moorden?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Dat is die man. verra my niet met veele woorden.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>O langgewenschte dagh!</l>
+						<l>O eenige behoeder</l>
+						<l>Van Vaders huis, ach ach!</l>
+						<l>Hoe zijtghe met mijn' Broeder</l>
+						<l>Gekomen, hier ter steê?</l>
+						<l>Zijt ghy 't, die hem bewaerde,</l>
+						<l>En my, in 't hartewee</l>
+						<l>En leed, dat ons bezwaerde?</l>
+						<l>O allerliefste hand!</l>
+						<l>O allerwaerdste voeten!</l>
+						<l>Hoe waertghe in dezen stand,</l>
+						<l>Wanneerghe my quaemt groeten</l>
+						<l>Zoo vreemd, zoo onbekent?</l>
+						<l>Waerom moght ick niet weeten,</l>
+						<l>Wat lot u herwaert zend?</l>
+						<l>Ghy deedme doodzweet zweeten,</l>
+						<l>Door deze droeve maer;</l>
+						<l>Nochtans quaemt ghy my nader,</l>
+						<l>Tot redding van 't gevaer.</l>
+						<l>Ick groet u, als mijn' vader,</l>
+						<l>Ick zie mijn Vaders geest.</l>
+						<l>Ghy waert, nu ick 't verzinne,</l>
+						<l>Die, wien ick heden meest</l>
+						<l>Vervloeckte, en nu beminne.</l>
+					</sp>
+					<sp who="#leermeester">
+						<speaker>Leermeester</speaker>
+						<l>Hou op, ick ben vernoeght. Elektra, zwijgh, en staeck</l>
+						<l>Dees reen; daer is noch tijds genoegh, om van die zaeck</l>
+						<l>Te spreecken. ghyliên die te zaemen zijt gespannen,</l>
+						<l>'T is tijd, om werck te spoen, terwijl nu geene mannen</l>
+						<l>Daer binnen in het hof by Klytemnestra staen.</l>
+						<l>Indienghe dit vertraeght, zoo zultghe moeten slaen,</l>
+						<l>En vechten tegens haer, en die wat meer vermogen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Mijn Pylades, dit stuck dient langer niet vertogen.</l>
+						<l>Ga binnen, en aenbid de Goôn, die Vaders zael</l>
+						<l>Bewoonen, zooals zy bewoonen dit poortael.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>O vorst Apollo, weest genadigh</l>
+						<l>Dien jongeling, en hen, en my,</l>
+						<l>Die naer gelegenheid gestadigh</l>
+						<l>Met zidderende handen dy</l>
+						<l>Vereerde. Apollo, schrick der dieren,</l>
+						<l>Ick eisch, zoo hartelijck ick magh,</l>
+						<l>Val neêr, en koom uw Godheid vieren,</l>
+						<l>En bid, begunstigh dezen slagh,</l>
+						<l>En raedslagh. toon, hoe ghy van boven</l>
+						<l>Noch straft de schelmery der hoven.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Ay zie, hoe Mars naer binnen schiet,</l>
+						<l>Terwyl zijn bloed van tweedraght zied.</l>
+						<l>Alree zijn d'onontvlughtbre blaffers,</l>
+						<l/>
+						<l>Der booze schellemstucken straffers,</l>
+						<l>Naer binnen toe, zoo dat mijn schroom</l>
+						<l>Niet meer zal hangen aen dien droom.</l>
+						<l>Des dooden helper gaet daer heenen,</l>
+						<l>Op zijn bedriegelijcke beenen,</l>
+						<l>En met zijn punt noch versch besmet,</l>
+						<l>Naer Vaders rijcken troon, en bed:</l>
+						<l>Maer Majas zoon, de schalcke bode,</l>
+						<l>Verberght die wraecke van den doode,</l>
+						<l>Tot dat de boosheid stort ter neêr.</l>
+						<l>Hier geld, hier geld geen samlen meer.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>O waerde vrouwen, toeft. laet niemant zich verroeren.</l>
+						<l>De mannen sullen strax dien aenslagh uit gaen voeren.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Hoe zoo? wat doenze nu?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Dees ciert voor 't graf een' pot,</l>
+						<l>En deze staen'er by.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Ghy waeckt voor deur en slot.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Op dat AEgisthus ons niet onverhoeds koom vinden.</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>Och och! de huizen zijn gansch leegh van trouwe vrinden,</l>
+						<l>En vol van vyanden.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Vriendinnen, hoortghe niet?</l>
+						<l>Dat 's een, die binnen roept.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>My dunck ick hoor daer yet,</l>
+						<l>Dat onverdraeghlijck is te hooren.</l>
+						<l>Ick schrick. Wat koomt ons hier ter ooren!</l>
+					</sp>
+
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>O my ellendigh mensch! AEgisth, waer zijtghe nu?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Daer roeptze weêr.</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>O Zoon, o Zoon, erbarrem u.</l>
+						<l>Erbarm u over my. Erbarm u over Moeder.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Maer ghy erbarmde u niet om Vader, noch om Broeder,</l>
+						<l>Die van hem was geteelt.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>O stad! o afkomst, ach!</l>
+						<l>Hoe schend, en hoe verdelght u 't noodlot dezen dagh?</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>Wee mijn quetzuur! o lagen!</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Verdubbel deze slagen.</l>
+					</sp>
+					<sp who="#klytemnestra">
+						<speaker>Klytemnestra</speaker>
+						<l>Wee anderwerf! wee my!</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Het ga AEgisth, als dy.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>'T zal gaen, gelijckghe wenscht. de dooden leven weder;</l>
+						<l>Want dien de moord nu lang geworpen heeft ter neder,</l>
+						<l>Die neemen wederwraeck, met een versteurt gemoed,</l>
+						<l>Van hen, die oorzaeck zijn van al 't vergoten bloed.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Zy zijn nu by der hand, en hunne handen leken</l>
+						<l>Van 't bloed, door Mars gestort; en naulix kan ick spreecken,</l>
+						<l>Orestes, hoe het is.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>'T gaet binnen noch al wel.</l>
+						<l>Zoo 't recht is 't geen ick uit Apolloos antwoord spel.</l>
+						<l>Z'is dood. zijt onbevreest. ghy zult voortaen geen tyden</l>
+						<l>Beleven, datghe leed van Moeder hoeft te lijden.</l>
+					</sp>
+
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Houd op. ick zie AEgisth. hy koomt, en is hier by.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>O zoon, ga wegh, ga wegh. ziet ghy dien man? dat 's hy.</l>
+						<l>Ghy hebt hem in uw maght. hy koomt verheughd van buiten.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Gaet naer de binnendeur, op datghe mooght besluiten</l>
+						<l>Het geen noch ovrigh zy.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Vertrouw ons deze zaeck.</l>
+						<l>Wy zullen, 't geenghe denckt, voltrecken deze wraeck.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Zoo haest u.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ick ga heen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ick zal het voort bewaeren.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>'T zal goed zijn, dat men hem inluister deze maeren,</l>
+						<l>Zijn' ooren aengenaem, en 't geen betreft zijn' staet.</l>
+					</sp>
+					<sp who="#aegisth">
+						<speaker>AEgisth</speaker>
+						<l>Wie van u weet van 't volck, daer dit gerucht af gaet,</l>
+						<l>Waer deze gasten zijn van Phocis, deze boden,</l>
+						<l>Die tyding brengen van Orestes, onzen dooden,</l>
+						<l>Die rabreuck, zoo men zeit, nu korts in 't renperck leed?</l>
+						<l>Ghy korts hardneckigh dier, geef my hier op bescheed;</l>
+						<l>Dewyl dees dingen u, veel meer als yemant, smarten.</l>
+						<l>Ghy kunt het zeggen, want dit gaet u meest ter harten.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ick weet het wel. zou my dit wezen onbekent?</l>
+						<l>Zou ick niet weeten, hoe mijn Broeder omgerent,</l>
+						<l>In 't renperck raeckte om hals?</l>
+					</sp>
+					<sp who="#aegisth">
+						<speaker>AEgisth</speaker>
+						<l>Waer zijn die vreemdelingen?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Hier binnen, daerze hen met groote vreugd ontfingen.</l>
+					</sp>
+
+					<sp who="#aegisth">
+						<speaker>Aegisth</speaker>
+						<l>En zeidenze, dat hy gestorven was alree?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Zy zeiden 't niet alleen, maer toonden 't lichaem meê.</l>
+					</sp>
+					<sp who="#aegisth">
+						<speaker>Aegisth</speaker>
+						<l>Wel is dit by der hand, dat wy 't aenschouwen mogen?</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Dit deerlijck schouwspel kuntghe zien met bey uw oogen.</l>
+					</sp>
+					<sp who="#aegisth">
+						<speaker>Aegisth</speaker>
+						<l>Ghy boodschapt my veel vreughd, en zijt dit ongewoon.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Verheugh u, zooghe vreughd kunt scheppen uit dien doôn.</l>
+					</sp>
+					<sp who="#aegisth">
+						<speaker>Aegisth</speaker>
+						<l>'K gebiede dat men zwijgh, en deze deuren open,</l>
+						<l>Op dat Argivers, en Myceners, die noch hopen</l>
+						<l>Op zulck een' ydlen troost, aenziende Orestes lijck,</l>
+						<l>Zich buigen voor mijn' staf, en onder 't juck van 't Rijck;</l>
+						<l>En merckende, dat hier niet tegens staet te vechten,</l>
+						<l>Zich laeten, bang voor straf, van my voortaen berechten.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Ick schickme naer den tijd, die leertme meer verstaen,</l>
+						<l>Naer wijzer luistren, en hen aen de hand te gaen.</l>
+					</sp>
+					<sp who="#aegisth">
+						<speaker>Aegisth</speaker>
+						<l>Jupijn, wat zie ick hier! dit kan geen nijd ontstygen.</l>
+						<l>Maer is dit haetelijck, 'k heb liever dat te zwijgen.</l>
+						<l>Neem strax het deckkleed af, dat in den wege leit,</l>
+						<l>Op dat mijn neef van my voor 't lest noch werd beschreit.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Neem zelf het deckkleed af, dit zal u beter voegen,</l>
+						<l>Die lust hebt dit te zien, om d'uwe te vernoegen,</l>
+						<l>Met deze maer.</l>
+					</sp>
+					<sp who="#aegisth">
+						<speaker>Aegisth</speaker>
+						<l>Ghy spreeckt zeer wel. 'k gevoel als ghy.</l>
+						<l>Is Klytemnestra t'huis, men roep haer hier voor my.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zy is heel dicht by u, zie nergens elders heenen.</l>
+					</sp>
+					<sp who="#aegisth">
+						<speaker>Aegisth</speaker>
+						<l>Wee my! wat zie ick hier!</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wat vreeze doet u steenen?</l>
+						<l>Of welck een kentghe niet?</l>
+					</sp>
+					<sp who="#aegisth">
+						<speaker>Aegisth</speaker>
+						<l>Ellendige, ick ben vast,</l>
+						<l>En midden in hun net. Wie heeftme dus verrast?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Strax wistghe niet, dat ghy al levend spraeckt met dooden.</l>
+					</sp>
+					<sp who="#aegisth">
+						<speaker>Aegisth</speaker>
+						<l>Och dat's Orestes stem. ick spreeck met dien gevloden.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Hoe wis ghy spellen kost van ouds, noch miste u dat.</l>
+					</sp>
+					<sp who="#aegisth">
+						<speaker>Aegisth</speaker>
+						<l>Helaes! wy zijn om hals. helaes! wy zijn gevat.</l>
+						<l>Laet ons ten minste noch yet zeggen watwe kunnen.</l>
+					</sp>
+					<sp who="#elektra">
+						<speaker>Elektra</speaker>
+						<l>Neen Broeder, by de Goôn, ghy zult hem niet vergunnen,</l>
+						<l>Dat hy yet wyders spreeck, noch tijd met woorden reck.</l>
+						<l>Ick kan niet zien, dat dit tot eenigh voordeel streck,</l>
+						<l>Dat zulck een veege noch zijn hope langer voede;</l>
+						<l>Maer dood hem in der yl, en, warrem van den bloede,</l>
+						<l>Begraef hem buiten 't Rijck, gelijck het billijck is;</l>
+						<l>Op datme dit verlos van alle droefenis,</l>
+						<l>En mijn geleên verdriet.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Nu haast u, tre naer binnen.</l>
+						<l>Het geld uw' hals. hier is met woorden niet te winnen.</l>
+					</sp>
+					<sp who="#aegisth">
+						<speaker>Aegisth</speaker>
+						<l>Maer waerom rucktghe my hier in, uit elx gezicht?</l>
+						<l>Hoe dus? is 't werreck goed, wat maeckt u schuw van 't licht?</l>
+						<l>Waerom berooftghe my niet openbaer van 't leven?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Gebie niet. ga, daer ghy mijn' Vader eerst deed sneven,</l>
+						<l>Dat ghy daer mede sterft.</l>
+					</sp>
+					<sp who="#aegisth">
+						<speaker>Aegisth</speaker>
+						<l>Moet ick dees zaelen zien,</l>
+						<l>En wat van Pelops oit gebeurde, en zal geschiên?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ga voort. ick spel u niets of 't zal zich openbaeren.</l>
+					</sp>
+					<sp who="#aegisth">
+						<speaker>Aegisth</speaker>
+						<l>Wat roemtghe? uw Vader was in 't spellen onervaeren.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ghy smijt veel uit, en doet terwyle niets. ga voort.</l>
+					</sp>
+					<sp who="#aegisth">
+						<speaker>Aegisth</speaker>
+						<l>Nu leyme.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ga zelf voor. ga voor, door deze poort.</l>
+					</sp>
+					<sp who="#aegisth">
+						<speaker>Aegisth</speaker>
+						<l>Op dat ick u niet zou ontvlieden noch ontvlughten.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Op datghe niet en sterft met blyschap, en genughten,</l>
+						<l>Zal ick dees bitterheid vermeerdren: want het past,</l>
+						<l>Dat een gerechte straf geweldenaers verrast,</l>
+						<l>Die tegens 't heiligh Recht vermeetlijck zich verzetten,</l>
+						<l>Op dat de boosheid niet meer menschen zou besmetten.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>O Atreus afkomst, hoe bezwaerlijck zijtghe in 't end</l>
+						<l>Geworstelt, en geraeckt door allerleye ellend,</l>
+						<l>En uitgestaen verdriet tot deze vryheids zegen,</l>
+						<l>Een vryheid op die wijs geluckighlijck verkregen.</l>
+					</sp>
+					<stage>EINDE</stage>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

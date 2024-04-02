@@ -1,0 +1,2839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000003" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Faeton</title>
+				<title type="sub">Of Reuckeloze Stoutheit.</title>
+				<author>
+					<persName>
+						<forename>Joost</forename>
+						<nameLink>van den</nameLink>
+						<surname>Vondel</surname>
+					</persName>
+					<idno type="wikidata">Q312673</idno>
+					<idno type="pnd">118627848</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL"
+						>https://www.dbnl.org/tekst/vond001dewe10_01/vond001dewe10_01_0004.php</idno>
+					<title>J.F.M. Sterck, H.W.E. Moller, C.G.N. de Vooys, C.R. de Klerk, B.H.
+						Molkenboer, J. Prinsen J.Lzn. en L. Simons (eds), De werken van Vondel.
+						Tiende deel 1663-1674. De Maatschappij voor goede en goedkoope lectuur,
+						Amsterdam 1929</title>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Joost van den Vondel: Faeton. Of Reuckeloze Stoutheit. Treurspel.
+						Amsterdam: Abraham de Wees, 1663.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="FEMALE" xml:id="klymene">
+						<persName>KLYMENE</persName>
+					</person>
+					<person sex="MALE" xml:id="faëton">
+						<persName>FAËTON</persName>
+					</person>
+					<person sex="FEMALE" xml:id="zonnelingen">
+						<persName>ZONNELINGEN</persName>
+					</person>
+					<person sex="UNKNOWN" xml:id="rey-van-uuren">
+						<persName>REY van UUREN</persName>
+					</person>
+					<person sex="MALE" xml:id="febus">
+						<persName>FEBUS</persName>
+					</person>
+					<person sex="FEMALE" xml:id="juno">
+						<persName>JUNO</persName>
+					</person>
+					<person sex="UNKNOWN" xml:id="de-hemelraet">
+						<persName>DE HEMELRAET</persName>
+					</person>
+					<person sex="MALE" xml:id="de-faem">
+						<persName>DE FAEM</persName>
+					</person>
+					<person sex="MALE" xml:id="jupiter">
+						<persName>JUPITER</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-02">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1663">
+				<desc/>
+			</event>
+			<event type="premiere" when="1685">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart>J.V. Vondels <lb/>Faeton Of Reuckeloze Stoutheit. <lb/>
+					Treurspel.</titlePart>
+				<titlePart>PRIMITIAE JUVENIS MISERAE.</titlePart>
+				<titlePart>t'AMSTERDAM,</titlePart>
+				<titlePart>Voor de Weduwe van Abraham de Wees, op den Middeldam, in 't nieuwe
+					Testament. 1663.</titlePart>
+				<figure/>
+			</docTitle>
+			<div type="dedication">
+				<head>Aen De tooneelbegunstigers.</head>
+				<p>Janus Dousa, Huigh de Groot, Peter Schrijver, Peter Bokenbergh, Bernart Furmer,
+					Ubbo Emming, en alle edele vernuften, die den oirsprong van de Nederlanden en de
+					kentekens der geslete oudtheit opspoorden, getuigen hoe de heilige Willebrort in
+					deze landen, met de fackel van zijne leeringe, aen de zon der waerheit
+					ontsteecken, den nacht der Heidensche afgoderye verdreef, en den verduisterden
+					harten met het hemelsche licht toelichte, verlichte en Christende. Niemant zal
+					hierom dencken dat ick, met Faëton ten treurtooneele te voeren, het Heidendom
+					weder wil invoeren, neen geensins; maer alleen, tot verbeteringe der zeden,
+					tooneelwijs ontvouwen deze schoone fabel, by Ovidius heldendichtswijs,
+					overheerlijck en leerlijck, inzonderheit ten spiegel van reuckelooze stouten,
+					uitgebreit. De melckachtige tong van den heiligen Lactantius, de zielen, niet
+					door den Heidenschen melckwegh naer Jupijns hof, maer door Christus Jesus, den
+					wegh des heils, naer het beloofde vaderlant, daer honigh en melck vloeit, en het
+					palais van Godt den vader wijzende, zeght: Dichters verzierden geene
+					geschiedenissen, maer overbloemden de geschiedenissen met eene zekere verwe:
+					naerdien een dichters ampt hier in vereischt waerachtige geschiedenissen, in
+					eene andere gedaente van ter zijde, met eenigh voeghelijck cieraet over te
+					voeren: want d'oude fabelen der Egyptenaren en Griecken begrijpen in zich de
+					kennis der geschiedenissen, natuure, en zeden, welcke dryderhande kennis, onder
+					het overkunstigh tapijtwerck van Faëtons fabel, d'allerheerlijckste van Nazoos
+					herscheppinge, gebloemt en overschaduwt wort, om, gelijck Horatius zeght, het
+					oirbaer met den honigh van vermaeckelijckheit liefelijck te mengen, te maetigen,
+					en ruwe en onbesleepe zinnen te schaven en te wetten. My gedenckt dat van wijlen
+					de doorgeleerde heer Vossius tegens my zeide: Indien mijne pen Ovidius
+					Herscheppinge op het papier ontvoude, het zoude blijcken dat noit geleerder
+					boeck dan Ovidius Herscheppinge aen den dagh quam. Het kan hierom niet ongerijmt
+					schijnen, dat my luste treurtooneelwijs te bespiegelen dit voorbeelt van Faëton,
+					waerin de bovengemelde dryderhande kennis uitschijnt. Aldus houden de
+					historikundigen dat Faëton een zeker konings zoon was, die, te wagen langs Padus
+					oever, den stroom der Celten, rydende, in dien stroom quam te storten, en van
+					zijne zusteren zoo jammerlijck beklaeght wert, datze, verstockt en stom van
+					rouwe zittende, in popelierboomen scheenen te veranderen. Plutarchus zeght in
+					Pyrrus, dat d'eerste koning der Thesproten en Molossen, na den weereltvloet,
+					Faëton hiet, by Luciaen, in zyn gespreck van het starrekijcken, hierom den zoon
+					der zonne geacht, wien de zonnewagen wert toegestaen, naerdien hy d'eerste van
+					allen, den loop der zonne naerspoorde. Natuurkundigen zeggen, dat Faëton de zoon
+					van de Zonne en Klymene genoemt wort, naerdien hy, volgens zijnen naem in het
+					Griex, brant en hitte betekent, die uit de zonne spruit. Klymene bediet het
+					water. Wanneer nu de Zon de dampen ontsteeckt, dan openbaert zich de hitte,
+					omtrent den herfst bykans onverdraeghzaem, en die, na het uitbersten van blixem
+					en donder, door den slaghregen verkoelt: waerom gezeght wort, dat Jupiter Faëton
+					uit den wagen klonck. Staetkondigen en zedevormers leeraeren door Faëtons fabel,
+					dat de heerschappy van hooge staeten alleen aen wijzen en voorzichtigen, en niet
+					aen wulpen en onbeslepene harssens, te betrouwen staet: naerdien aen het wel en
+					qualijck regeeren het heil en onheil des volx hangt. De goddelijcke Plato moght
+					hierom met recht zeggen: Wy zullen de moeders en voesters vermaenen den jongen
+					knaepen uitgeleze fabelen te vertellen, en hunne gemoeden naerstiger met Fabelen
+					dan met handen te fatsoeneeren. Wat nu deze de tooneelwijze belangt, dit
+					treurspel is niet eenvoudigh en doorgaens eenen zelven toon van droefheit
+					houdende, maer ingewickelt, dat is ongelijck van toon. Blyschap en droefheit
+					steecken op elckandere af. De hartstoghten liefde en gramschap, hoop en wanhoop,
+					woelen en barnen heftigh door d'onderlinge bloetverwantschap van ouderen en
+					kinderen, den noot by hemel aerde en zee geleden, en den schrickelijcken
+					overgangk van geluck in ongeluck, maghtigh onverzetbaere gemoeden schrick en
+					medoogen in te boezemen. Het zoude my lusten dit breeder t'ontvouwen, maer de
+					schouburgh schuift de gordynen open, en Klymene met haere kinderen, voor Febus
+					hof, te voorschijn komende, gebietme te zwijgen, en aendachtigh toe te
+					luisteren. </p>
+			</div>
+
+			<div type="preface">
+				<head>Inhoudt.</head>
+				<p> Faëton, Febus en Klymenes zoon, van oom Epafus, Jupijns en Isis zoon, geterght
+					en beschimpt, over d'onkunde aen zijnen vader, hem van Klymene (zoo de schimper
+					uitstroide) toegeleght; bidt de moeder datze hem toch zijnen rechten vader
+					toone, het welck zy belooft. Hier op trecktze met den zoone en haere dry
+					dochteren, Faetuze, Lampetie, en Febe, uit Ethiopie door Oostindie, naer Febus
+					hof en den opgangk der zonne, daer Febus haer en de kinders wellekomt, Faëton
+					verzekert dat hy zijn eygen vader is, en, tot een onderpant van dien, met eenen
+					hoogen eedt zweert den zoon te schencken wat hy op zynen vader zal begeeren.
+					Faëton eischt reuckeloos den zonnewagen eenen dagh te mogen regeeren, het welck
+					Febus hem ongaerne, doch door den hoogen eedt verbonden, ten leste inwillight.
+					Faëton stijght hier op vrolijck te wagen, ruckt voort, en, onbedreven in het
+					mennen der zonnepaerden, verbystert, mist de rechte heirbaen, en helpt de
+					paerden, ten bederve der weerelt, aen 't hollen. Jupiter wert hierom van Juno en
+					den Hemelraet gedwongen dien brant te blusschen, en treft den reuckeloozen
+					wagenaer, dat hy in den Padus [sedert den Eridaen naer hem genoemt] nederplompt,
+					daer de moeder en gezusters met Cycnus, het begraven lijck beklagen, en Klymene
+					haere dochters in popelierboomen, Cycnus in eene zwaen ziet veranderen. Febus,
+					in zijnen rouwe van de Goden beklaegt, en treurigh, laet zich endelijck
+					troosten, en gaet heene, om den gerabraeckten zonnewagen te herstellen, en weder
+					te regeeren. </p>
+				<p> Het treurtooneel is Febus hof. Het treurspel begint met den opgangk, en endight
+					met den ondergangk, en de lijckstaetsie van Faëton.</p>
+			</div>
+			<castList>
+				<head>De treurspeelders.</head>
+				<castItem corresp="#klymene">
+					<role>KLYMENE</role>
+				</castItem>
+				<castItem corresp="#faëton">
+					<role>FAËTON</role>
+				</castItem>
+				<castItem corresp="#zonnelingen">
+					<role>ZONNELINGEN</role>
+				</castItem>
+				<castItem corresp="#rey-van-uuren">
+					<role>REY van UUREN</role>
+				</castItem>
+				<castItem corresp="#febus">
+					<role>FEBUS</role>
+				</castItem>
+				<castItem corresp="#juno">
+					<role>JUNO</role>
+				</castItem>
+				<castItem corresp="#de-hemelraet">
+					<role>DE HEMELRAET</role>
+				</castItem>
+				<castItem corresp="#de-faem">
+					<role>DE FAEM</role>
+				</castItem>
+				<castItem corresp="#jupiter">
+					<role>JUPITER</role>
+				</castItem>
+			</castList>
+		</front>
+		<body>			
+			<head>J.v. Vondels Faëton Of Reuckeloze stoutheit.</head>
+			<div n="1" type="act">
+				<head>Het eerste bedryf.</head>
+				<div n="1" type="scene">
+					<stage>KLYMENE. FAËTON. ZONNELINGEN.</stage>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>O Faëton, mijn zoon, en gy dry Zonnelingen,</l>
+						<l>Gezusters, hier is 't hof des Godts, die alle dingen</l>
+						<l>Bezielt, en leven schenckt, en voedt, en onderhoudt.</l>
+						<l>Hier rijst het zonnehof, van Mulciber gebout,</l>
+						<l>Toen hem de Hemelraet ten bouheere innewijde.</l>
+						<l>Waer 't wonder zoo Jupijn dit wonderwerck benijde,</l>
+						<l>En met den blixem eens beroofde van dien glans?</l>
+						<l>De bouheer, vierigh in dien arbeit, hing bykans</l>
+						<l>Aen dit gesticht al 't eêlst wat oosten kon bevatten,</l>
+						<l>En plonderde Indus kust en China van haer schatten.</l>
+						<l>Paktool, en Ganges, alle eilanden boôn de hant,</l>
+						<l>Ten bouwe, en zweetten gout gesteente en diamant.</l>
+						<l>Natuur, gedoken in het ingewant der aerde,</l>
+						<l>En blinckende aderen van rijcke mynen, spaerde</l>
+						<l>Noch zweet, noch kosten, om dit hof te zien volwrocht.</l>
+						<l>Nu zietge 't werckstuck, dat gy met verlangen zoght.</l>
+					</sp>
+					<sp who="#faëton">
+						<speaker>Faëton</speaker>
+						<l>Klymene moeder, ay wil uwen zoon verschoonen.</l>
+						<l>Myne enkle bede was, gy woudtme vader toonen.</l>
+						<l>'k Verlang naer zonnehof, noch star, noch rijzend licht;</l>
+						<l>Het rijs' zoo schoon het wil: 'k verlang het aengezicht</l>
+						<l>Van mijn' heer vader eens met kennisse t'aenschouwen.</l>
+						<l>Dat had vrou moeder my belooft. zou mijn betrouwen</l>
+						<l>My missen; liever wenschte ick noit de zon te zien,</l>
+						<l>Dan vader van den dagh.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>ò zoon, bedaer. misschien</l>
+						<l>Verwenscht uw mont hetgeen uw hart wenscht. leer bedaren.</l>
+					</sp>
+					<sp who="#faëton">
+						<speaker>Faëton</speaker>
+						<l>'k Versta dit niet. belieft vrou moeder t'openbaeren</l>
+						<l>Waer in hy dwaelt, die van verlangen quynt, en sterft,</l>
+						<l>Zoo lang het oogh 't gezicht van zijnen vader derft.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Nu zet uw hart gerust, mijn zoon: wy zijn al nader</l>
+						<l>By vader dan gy weet. ick noemde u flus den vader,</l>
+						<l>Den Godt, die 't al verlicht en voedt, en leven geeft.</l>
+					</sp>
+					<sp who="#faëton">
+						<speaker>Faëton</speaker>
+						<l>Vrou moeder, is het waer? och is het waer? zoo leeft</l>
+						<l>Ter weerelt niemant zoo geluckigh en zoo blijde.</l>
+						<l>De blyschap opent al myne aders. och, ick lijde,</l>
+						<l>Van blyschap droncken, schier een doodelijcke smart.</l>
+						<l>De vreught zet teffens al de geesten van het hart.</l>
+					</sp>
+					<sp who="#zonnelingen">
+						<speaker>Zonnelingen</speaker>
+						<l>Vrou moeder, is het waer? wat hooren wy? ontfingen</l>
+						<l>Wy hierop uit uw' mont den naem van Zonnelingen?</l>
+					</sp>
+					<sp who="#faëton">
+						<speaker>Faëton</speaker>
+						<l>Vrou moeder, is het waer? bezweer dit vast en trou.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Mijn kinders, hoort. zoo waer als ick de zon aenschou</l>
+						<l>Die alle dingen ziet: ick zweere u by die straelen,</l>
+						<l>Waerby de levenden hunn' geest en adem haelen;</l>
+						<l>De vader, die het licht aen al de weerelt deelt,</l>
+						<l>En schenckt, heeft u by my gewonnen en geteelt.</l>
+						<l>Verziere ick dit, zoo moet dit hart meineedigh quynen,</l>
+						<l>En na deze uur geen zon mijn aenschijn meer beschijnen.</l>
+					</sp>
+					<sp who="#faëton">
+						<speaker>Faëton</speaker>
+						<l>Geluckigh is de zoon, die nu zijn' vader kent.</l>
+						<l>Nu leve en zweve ick in mijn eigen element.</l>
+						<l>Schep moedt, ô Faëton: gy stijght in 's hemels daecken.</l>
+						<l>De bergen zincken in 't verschiet. mijn voeten raecken</l>
+						<l>Geene aerde. ô zonnebloem, ô zonnetelgh, schep moedt!</l>
+						<l>Gy sproot uit hemelsch zaet, met een uit sterflijck bloet.</l>
+						<l>Schept moedt, gezusters. hoe? is u de moedt bezweken?</l>
+					</sp>
+					<sp who="#zonnelingen">
+						<speaker>Zonnelingen</speaker>
+						<l>Wy staen verstomt. de vreught belet den mont te spreken.</l>
+					</sp>
+					<sp who="#faëton">
+						<speaker>Faëton</speaker>
+						<l>Nu durf oom Epafus my niet verwijten dat</l>
+						<l>Vrou moeder my bedrieght, en Febus afkomst schat,</l>
+						<l>En, zonder gront en slot, hem mijnen vader noemde.</l>
+						<l>Laet Isis zoon, die op Jupijn zijn' vader roemde,</l>
+						<l>Nu zwijgen: my genoeght dat ick mijn' vader ken,</l>
+						<l>En zeker d'afkomst van dien grooten Febus ben.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Och kinders, 'k wensche dat u 'srechten vaders kennis</l>
+						<l>Tot eeuwigh heil gedye, en niet tot schade en schennis.</l>
+						<l>Verheft uw hart niet. schuw de hovaerdy vooral.</l>
+						<l>Vermy vermeetenheit, die menigh broght ten val.</l>
+						<l>Het past den paeu uit trots den staert om hoogh te steecken:</l>
+						<l>Maer naulijx heeft hy op zijn voeten neêrgekeecken,</l>
+						<l>Of al de moedt zijght neêr, zoo hoogh de staert eerst rees.</l>
+						<l>Is Godt uw vader? 'k ben uw moeder. och ick vrees.</l>
+						<l>Wat ging my over dat ick u den vader melde?</l>
+						<l>Schoon bastert Epafus u bastertkinders schelde,</l>
+						<l>En vondelingen, by den wegh geraept in 't slijck;</l>
+						<l>Het waer veel nutter dit verwijt en ongelijck</l>
+						<l>Te lijden, dan bezorght te vreezen en beseffen</l>
+						<l>Datge op dien hoogen stam verwaent u moght verheffen,</l>
+						<l>En met uw lijfsgevaer een reuckloos stuck bestaen,</l>
+						<l>Dat, duizenden om een, ten erghste moght beslaen.</l>
+						<l>Helaes, mijn kinders, och had moeders mont gezwegen!</l>
+						<l>Wat baet de kennis van een waerheit, die geen' zegen</l>
+						<l>Maer vloecken naer zich sleept? de hemel zy uw stut.</l>
+						<l>De waerheit is wel goet, doch elck niet even nut.</l>
+						<l>De vader Febus wil u met zijn licht geleien.</l>
+					</sp>
+					<sp who="#zonnelingen">
+						<speaker>Zonnelingen</speaker>
+						<l>Hoe moeder? hoe, is 't ernst? is 't nu een tijt van schreien?</l>
+						<l>Wat komt u over? zijt gy van verstant berooft?</l>
+						<l>De zon scheen noit zoo schoon op uwer kindren hooft</l>
+						<l>Als nu. gy zult uw' zoon en dochters rijck besteden.</l>
+						<l>Nu wordenze van elck bewieroockt, aengebeden,</l>
+						<l>Als telgen, voortgeteelt uit hemelsch zonnezaet.</l>
+						<l>Ay wisch de traenen van de kaecken. moeder, laet</l>
+						<l>Ons heldre blyschap niet benevelt van uw traenen.</l>
+						<l>Dees kennis zal uw' zoon den wegh ten hemel baenen,</l>
+						<l>Langs vaders heirbaen, op het lang bereden spoor.</l>
+					</sp>
+					<sp who="#faëton">
+						<speaker>Faëton</speaker>
+						<l>Dat's recht. nu groeit mijn hart. de vader reedtme voor.</l>
+						<l>Zou een rechtschape telgh van haeren stam veraerden?</l>
+						<l>Nu schuwe ick d'aerde om laegh, en volgh de zonnepaerden.</l>
+						<l>Zy voeren my zoo hoogh, dat Epafus zich schaem',</l>
+						<l>Als hy den aerdtboôm hoort gewaegen van mijn naem.</l>
+						<l>Brengt lauwerblaên. bekranst mijn hooft met vaders lover.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Mijn zoon, het was mijn schult: my quam een zwackheit over.</l>
+						<l>Een donckre inbeelding viel my, als een mist, op 't hart.</l>
+						<l>Maer laet ons Febus hof bespiegelen. hier tart</l>
+						<l>Een onwaerdeerbre kunst den rijckdom van de stoffen.</l>
+						<l>'t Vernuft van Mulciber heeft net natuur getroffen</l>
+						<l>Naer 't leven, daer het oogh zijn godtheit in aenschout.</l>
+						<l>De pijlers draegen 't hof ten hemel. klinckklaer gout</l>
+						<l>En barnsteen gloeien hier en schitteren, als vlammen.</l>
+						<l>Het sneeuwit elpenbeen geeft dack. op heldre krammen</l>
+						<l>Van diamanten draeit de valdeur, dat het kraeckt.</l>
+						<l>Daer zienwe hoe de zee op strant haer golven braeckt,</l>
+						<l>En met haere armen al den aerdtkloot weet t'omvangen,</l>
+						<l>Waerover 't rijck gewelf des hemels wert gehangen.</l>
+						<l>De blaeuwe Zeegoôn, op den Oceaen gesneên,</l>
+						<l>De grijze Tritons, en godt Proteus, noit in een</l>
+						<l>Gedaente, en ander spoock, in 't zeeschuim, niet te temmen,</l>
+						<l>Op walvisch, en dolfijn, en schulp het diep bezwemmen.</l>
+						<l>De blanke Doris voert haer dochters aen den rey.</l>
+						<l>Het aerdtrijck draeght'er stadt, en bosch, en allerley</l>
+						<l>Gedierte, en ongedierte, en ackergoôn, en vlieten,</l>
+						<l>En bergen, dicht voor 't oogh, of die allengs verschieten.</l>
+						<l>De starrehemel drijft om hoogh, gerust en bly.</l>
+						<l>De hemeltekens staen gemaelt op elcke zy.</l>
+					</sp>
+					<sp who="#zonnelingen">
+						<speaker>Zonnelingen</speaker>
+						<l>De kunst van Mulciber is hier in top voltogen.</l>
+					</sp>
+					<sp who="#faëton">
+						<speaker>Faëton</speaker>
+						<l>Nu hoope ick vader zelf t'aenschouwen met mijne oogen.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Hy is voorhanden: maer gy mooght in dezen staet</l>
+						<l>Hem niet genaecken. flux verander uw gewaet.</l>
+						<l>Gy en uw zusters moet uw lichaemen beslingeren</l>
+						<l>Met regenbogen, schoon geweven met haer vingeren,</l>
+						<l>Vol zonnestraelen, rijck van kleuren, in het oogh</l>
+						<l>Zoo hemelsch geschakeert, gelijck de regenboogh</l>
+						<l>Ons toestraelt, als het licht der zonne door wil breecken.</l>
+						<l>Nu kinders rept u. wilt gy vader Febus spreecken,</l>
+						<l>En hem behaegen, neemt te hulpe al wat gy kunt.</l>
+						<l>De kleeding maeckt den man. elck spoede zich. zoo munt</l>
+						<l>Het kroost der goden uit. zoo ziet men jonge loten</l>
+						<l>Den goddelijcken stam gelijcken, daerze uit sproten.</l>
+						<l>Bezwaeit mijn leden met dees blaeuwe wolck, bezaeit</l>
+						<l>Met goude starren, van stroomjofferen genaeit.</l>
+					</sp>
+					<sp who="#zonnelingen">
+						<speaker>Zonnelingen</speaker>
+						<l>Als vader nu verschijnt, om montgemeen te worden?</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Dan wil ick voortreên. gy, mijn dochters, past met orden</l>
+						<l>Te volgen, Faëtuze in 't midden van u dry,</l>
+						<l>Lampete en Febe, naer heur orde, aen elcke zy,</l>
+						<l>Gelijck een halve maen, om uwe moeder heene,</l>
+						<l>Of vader u hierop genadiger bescheene.</l>
+					</sp>
+					<sp who="#faëton">
+						<speaker>Faëton</speaker>
+						<l>Vergeetge Faëton?</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>gy zult mijn slincke hant</l>
+						<l>Bekleên, beneden my. men houde drywerf stant,</l>
+						<l>En kniele drywerf neêr, wanneerwe Godt genaecken,</l>
+						<l>Doch langsaem, niet te dicht. hy is te sterck in 't blaecken,</l>
+						<l>En straelen uit zijn' troon, dies slaet het aenzicht neêr.</l>
+						<l>Genaeckt ootmoedigh: want Godts majesteit is teêr,</l>
+						<l>En lijt geen' schimp noch hoon. verwacht een gunstigh teken,</l>
+						<l>Waerme de Godtheit u gewaerdige te spreecken.</l>
+						<l>Maer luistert. 'k hoor een' galm en vrolijck zanggeluit.</l>
+						<l>De hemelsche Uuren treên ten hemelrey vooruit.</l>
+						<l>Vertreckenwe aen een zijde, en maetight uw verlangen.</l>
+						<l>De vader Febus zal, op deze lofgezangen,</l>
+						<l>Ten troon verschijnen, en verhooren ons verzoeck.</l>
+						<l>Nu luistert toe, en houdt u stil om dezen hoeck.</l>
+					</sp>
+				</div>
+				<div n="1" type="scene">
+					<stage>REY VAN UUREN.</stage>
+					<sp who="#rey-van-uuren">
+						<speaker>I. Zang</speaker>
+						<l>Verheffenwe eenstemmigh met lofgedicht</l>
+						<l>Den oirsprong van licht en leven,</l>
+						<l>Hoogh verheven,</l>
+						<l>De godtheit, der starren luister en licht,</l>
+						<l>Die rondom zijn aenschijn zweven,</l>
+						<l>Aengedreven</l>
+						<l>Van een danckbaer hart, vol vreught,</l>
+						<l>Voor 't genot van al zijn deught.</l>
+						<l>  Nu laet ons godt Febus vieren,</l>
+						<l>Besteecken, en vercieren</l>
+						<l>Met laurieren.</l>
+					</sp>
+					<sp who="#rey-van-uuren">
+						<speaker>I. Tegenzang</speaker>
+						<l>Het opperste rijxhooft op 's hemels troon</l>
+						<l>Verheerlijckt hem naer zijn waerde,</l>
+						<l>  En vergaerde</l>
+						<l>Onendigen zegen in zijnen zoon,</l>
+						<l>De blyschap der weelige aerde:</l>
+						<l>Want zy baerde</l>
+						<l>Jaerlijx vruchten uit haer' schoot,</l>
+						<l>  En verzade 's menschdoms noot,</l>
+						<l>Gekoestert door Godts vermogen,</l>
+						<l>Die neêrstraelt voor alle oogen</l>
+						<l>Uit den hoogen.</l>
+					</sp>
+
+					<sp who="#rey-van-uuren">
+						<speaker>II. Zang</speaker>
+						<l>De nachtegael, enckele stem en pluim,</l>
+						<l>  Gemoet hem alree van onder</l>
+						<l>In 't byzonder,</l>
+						<l>En smeeckt Godt, dat hy toch de kimmen ruim,</l>
+						<l>En oprijs', gelijck een wonder,</l>
+						<l>En doorgronder</l>
+						<l>  Van al wat de nacht verberght.</l>
+						<l>Hy, tot opstaen aengeterght,</l>
+						<l>Zal endtlijck te voorschijn komen,</l>
+						<l>De slaepzucht en de droomen</l>
+						<l>Innetoomen.</l>
+					</sp>
+					<sp who="#rey-van-uuren">
+						<speaker>II. Tegenzang</speaker>
+						<l>Hy zal haest verschijnen in zijne pracht</l>
+						<l>Van purper, met gout doorslaegen,</l>
+						<l>Voortgedraegen</l>
+						<l>Op eene klaer blinckende fenixschacht,</l>
+						<l>Gekroont, op Jupijns behaegen,</l>
+						<l>Het zal daegen</l>
+						<l>  Uit karbonklen van zijn kroon,</l>
+						<l>Zes paer even rijck en schoon.</l>
+						<l>Zoo zwaeit hy een torts van geuren,</l>
+						<l>Voor wieroock uit te keuren,</l>
+						<l>  Schuw van treuren.</l>
+					</sp>
+					<sp who="#rey-van-uuren">
+						<speaker>III. Zang</speaker>
+						<l>Zoo zet hy zich op een' smaragdentroon,</l>
+						<l>Die d'eeuwigheit kan verduuren.</l>
+						<l>Dagen, Uuren,</l>
+						<l>En Jaeren bewaecken het schoonste schoon.</l>
+						<l>  Lent, Zomer, Herfst, en de stuuren</l>
+						<l>Koude en guuren</l>
+						<l>Winter, wreet van aengezicht,</l>
+						<l>Houden wacht om 't heiligh licht,</l>
+						<l>Dat zich hoogh in 't gout zal zetten,</l>
+						<l>  En staven goude wetten,</l>
+						<l>Zonder smetten.</l>
+					</sp>
+
+					<sp who="#rey-van-uuren">
+						<speaker>III. Tegenzang</speaker>
+						<l>De nacht verdwijnt, om den morgenstont</l>
+						<l>Te wecken. de roozeknoppen</l>
+						<l>Zoet op droppen,</l>
+						<l>Verlangen den dau met hunn' open mont</l>
+						<l>Te drincken, als 't licht komt stoppen</l>
+						<l>'s Hemels toppen,</l>
+						<l>Met zijn kracht, en heerlijckheit,</l>
+						<l>En ontzaghbre majesteit,</l>
+						<l>Van godtheên en menschetongen,</l>
+						<l>Ter danckbaerheit gedrongen,</l>
+						<l>Toegezongen.</l>
+					</sp>
+				</div>
+			</div>
+			<div n="2" type="act">
+				<head>Het tweede bedryf.</head>
+				<div n="1" type="scene">
+					<stage>FEBUS. KLYMENE. FAËTON. ZONNELINGEN.</stage>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>De nanacht duurt noch: mensch en dier en vogel rusten,</l>
+						<l>Op bed, in hol, en boom, langs d'oosterlingsche kusten:</l>
+						<l>De nachtegael alleen, die zingende volhardt,</l>
+						<l>Getuight dat hem dees naem met recht geschoncken wert,</l>
+						<l>Dewijl hy, eer mijn torts de schaduwen komt stooren,</l>
+						<l>Voor dagh, voor dau, zijn stem schakeerende elck laet hooren,</l>
+						<l>In 't Indiaensche rijck, dat vorst noch winter kent,</l>
+						<l>Maer eeuwigh bloemen draeght: en daer de blijde lent</l>
+						<l>Geduurigh quinckeleert, de roozen nimmer sterven,</l>
+						<l>De zomer eeuwigh rieckt, de levendige verven</l>
+						<l>Van gout en purper, op de vogelpluim gesprengt,</l>
+						<l>En tot tapijt gewrocht, getuigen wie haer mengt,</l>
+						<l>Verdrijft en wrijft, en weet zoo hemelsch te gebruicken,</l>
+						<l>Dat alle kunstenaers en kunstpenseelen duicken,</l>
+						<l>Het licht aenbidden, en uitroepen: al ons werck</l>
+						<l>Is doof, en niet dan schijn. de zon, de kunst te sterck,</l>
+						<l>Blijft overwinner in dees renbaen, daer wy sliepen.</l>
+						<l>Zoo klonck Iö Pean, toen alle tongen riepen:</l>
+						<l>Men loof den schutter, die den Python vellen kost.</l>
+						<l>Men offre stieren. een heeft duizenden verlost,</l>
+						<l>De lucht, en 't lant, en al het Aziaensch geweste</l>
+						<l>Gevaeght van zulck een' stanck, en vloeck, en helsche peste.</l>
+						<l>Alle ackers laegen vuil, onvruchtbaer, en verrot.</l>
+						<l>Dat heerlijck heldenwerck vereischte alleen een' godt.</l>
+						<l>Geen sterflijck mensch dorst oit eens droomen, eenmael denken</l>
+						<l>Dat gruwzaem lantgedroght te naderen, te krencken.</l>
+						<l>Het deckte heuvels met zijn krullen, wijt gespreit.</l>
+						<l>Men zagh de beemden en de bergen afgeweit</l>
+						<l>Van zwart en blaeu venijn. de doorne en distel wiessen</l>
+						<l>Alle oogsten over 't hooft, en staecken fel, als spiessen.</l>
+						<l>Het onkruit overwon het uitgelezen zaet.</l>
+						<l>Gansch oosten schreide. ick nam mijn trots geweer te baet,</l>
+						<l>Mijn' koker, zwanger van geslepe en spitse pijlen,</l>
+						<l>En schoot, en trof. de draeck ontwaeckte, en eerst aen 't quijlen,</l>
+						<l>Daerna aen 't schuiflen en schuimbecken, sprong op sprong</l>
+						<l>Nam teffens al 't vergift op zijn drypunte tong,</l>
+						<l>En spalckte blicken op, gelijck een barrenoven.</l>
+						<l>Mijn vleugels voerden my gezwint en snel naer boven,</l>
+						<l>Zoo hoogh, dat hy vergeefs de groene gal uitbraeckt.</l>
+						<l>Toen weder op hem afgestegen, hem genaeckt,</l>
+						<l>En eer de leste pijl gespilt was, en verschoten,</l>
+						<l>Gaf 't gruweldier den geest. daer lagh het uitgegoten,</l>
+						<l>Zoo lang gelijck het was. toen zong al 't veltgespan</l>
+						<l>En danste, en blies klaroen, en bromde: Iö Pean.</l>
+						<l>Bewieroockt, kroont en kranst Apollo, den verpletter</l>
+						<l>Des schrickelijcken draecks, gesmoort in bloet en etter.</l>
+						<l>Maer laes d'ondanckbaerheit der menschen is zoo groot,</l>
+						<l>Dat elck Godts weldaet, en het redden uit den noot,</l>
+						<l>Vergeet, in stede van altaer en kerck te stichten,</l>
+						<l>Om door godtsdienstigheit ons godtheit te verplichten:</l>
+						<l>Dies vinden wy geraên het Pythisch feest in zwang</l>
+						<l>Te brengen, naer den naem van d'overwonne slang.</l>
+						<l>Wat jongling zich den boogh te handlen laet behaegen,</l>
+						<l>Of overwinner blijft, in 't rennen met den wagen</l>
+						<l>Door 't stuivend stof, of snelst den loopprijs wint te voet,</l>
+						<l>Dien zal men kranssen met den groenen lauwerhoedt,</l>
+						<l>En met klaroen en zang ten offerdisch geleiden.</l>
+						<l>Maer wie genaeckt ons dus eerbiedigh, eerwe scheiden?</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Genade Apollo. godt Apollo, zijt gegroet.</l>
+						<l>Zijt anderwerf gegroet, en drywerf, hemelgloet,</l>
+						<l>En eenigh oogh, waerop de goôn en menschen staeren.</l>
+						<l>Men eere u billijck met gezangen, en altaeren,</l>
+						<l>En offerhanden: want wy leven door uw kracht.</l>
+						<l>Waer gy uw aenschijn deckt is 't eeuwigh eeuwigh nacht.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Wie groet ons onverwacht door haren sluier heene?</l>
+						<l>Ontdeck uw aenschijn, ô mijn wederzon Klymene,</l>
+						<l>Genaeck ons vry: en gy, getrouwe hoftrouwant,</l>
+						<l>Ontfang dees fackel, die te klaer schijnt, uit ons hant.</l>
+						<l>Oock willenwe ons perruick wat maetigen in 't praelen:</l>
+						<l>Zoo mogenwe ongequetst uw aengezicht bestraelen.</l>
+						<l>Mijn schoone, in 't lauwerbosch, gelijck een tegenzon,</l>
+						<l>Gekust en weêrgekust, toen liefde een' godt verwon,</l>
+						<l>En geen omhelzen, geen liefkoozen hem verveelde,</l>
+						<l>Tot datge uit uwen schoot vier lieve kinders teelde,</l>
+						<l>Waerin de blozentheit van hunnen vader bloost,</l>
+						<l>De godtheit, licht gekent in zijn natuurlijck kroost.</l>
+						<l>Wy wenschen hen te zien in heerlijckheit voltogen.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Zy knielen schaemroot en beschaemt voor vaders oogen.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Getrouwe gemaelin, genaeck ons: blijf niet schuw.</l>
+						<l>Dat ick u wellekoome, omhelze, en kusse. nu</l>
+						<l>Mijn kinders, kust dees hant, waermede ick moeder troude,</l>
+						<l>Een trou, die wettigh mij in eeuwigheit noit roude.</l>
+						<l>Wat oirzaeck drijft u hier, zoo hoogh in 't oostpalais?</l>
+						<l>Wat heeft uw hart beweeght tot zulck een zwaere reis?</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>De smaet, onschuldigh van oom Epafus geleden.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Veraert mijn broeder dan van vaders aert en zeden,</l>
+						<l>Die, ieder even na, geen recht tot klaegen geeft?</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>De smaet, dus lang geleên, is zeker t'onbeleeft.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Wat stof wort hem bestelt, dat hy onze afkomst lastert?</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Hy schelt uw' Faëton uit haet en nijt een' bastert,</l>
+						<l>En deze uw dochters een onwettigh snoot gebroet.</l>
+						<l>Dat staetme op hartewee, en traenen. vader, moet</l>
+						<l>Dit langer duuren, 'k zal van rou mijn hart verteeren.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Durf Epafus zoo trots mijn hemelsch zaet braveeren?</l>
+						<l>Dat lijde ick nimmermeer. hoe wort zijn geest dus vlug?</l>
+						<l>Niet hooger, Epafus. zie om. ay zie te rug.</l>
+						<l>Hoe hiet de maeght, en hy, die haer met kracht schoffeerde,</l>
+						<l>In eenen dicken mist, toenze in een koey verkeerde,</l>
+						<l>Al wortze, in koeieschijn, bewieroockt aen den Nijl?</l>
+						<l>Wie andren t'onrecht quetst, wort met den zelven pijl</l>
+						<l>Naer recht en reden weêr in 't hartepunt getroffen.</l>
+						<l>Wat magh die booswicht, een gevloeckte bastert, stoffen!</l>
+						<l>Een die zich zelven niet wil kennen, wort gekent</l>
+						<l>Van andren, die hy met zijn lastertonge schent.</l>
+						<l>Hoe dus? 'k zie d'oogen van mijn kindren overloopen.</l>
+						<l>Schept moedt: uw vaders hart staet voor u allen open.</l>
+						<l>Hy kent u alle voor zijn zaet en wettigh bloet:</l>
+						<l>En twijffeltge aen mijn woort, en kuntge op dezen voet</l>
+						<l>U niet verzekren: eisch al watge zoudt begeeren</l>
+						<l>Ten onderpant. mijn zoon, eisch onbeschroomt. wy zweeren</l>
+						<l>By Plutoos jammerpoel, het heilighst, daer de Goôn</l>
+						<l>Hunn' eedt by staven: 'k zweer u heiligh by mijn kroon</l>
+						<l>En hooft, al watge wenscht zal vader u niet weigeren.</l>
+					</sp>
+					<sp who="#faëton">
+						<speaker>Faëton</speaker>
+						<l>Heer vader, gunme en laetme op uwen wagen steigeren,</l>
+						<l>En eenen encklen dagh uw paerden voeren om</l>
+						<l>Den aerdtkloot. Epafus zal voor dees glori stom</l>
+						<l>Verbluft en schaemroot staen, en zeil en bloetvlagh strijcken.</l>
+						<l>Zoo raecke ick boven wint. zoo moet die stoffer wijcken.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Och zoon, wat eischtge? zijt gy van verstant berooft?</l>
+						<l>De vader ziet u met den neck aen, schudt het hooft</l>
+						<l>Wel drywerf achter een, gaet heene, en stampt van toren.</l>
+						<l>Nu is het uit met ons. hy weigert u te hooren.</l>
+						<l>Hy staet verbaest van schrick, om dien gestaefden eedt.</l>
+						<l>Helaes, wat gaet ons aen? van bangheit breecktme zweet</l>
+						<l>En bloet uit. schrick bevangt en schud uw moeders leden.</l>
+						<l>Waer toe vervoerde ick u? daer komt hy herwaert treden,</l>
+						<l>Verbolgen en bedroeft, om zulck een' stouten eisch.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Och Faëton, mijn zoon, indienge een aertspalais,</l>
+						<l>Een oostersch errefleen verzocht, naer stijl en orden;</l>
+						<l>Of woudtge uw lichaem met een kleet van licht omgorden,</l>
+						<l>Het waer u toegestaen. nu quetstme naberou.</l>
+						<l>Gy overschrijt uw perck. bera u met mevrou,</l>
+						<l>Uw lieve moeder. eisch onoverwinbre standers,</l>
+						<l>En moedigheit in 't velt; een goutmijn, of iet anders,</l>
+						<l>Een konings dochter, die geen gade in schoonheit kent:</l>
+						<l>Maer wat gy eischt, bewaer uw eigen element.</l>
+						<l>Het lot van sterflijckheit is u te beurt gevallen.</l>
+						<l>Gy kent mijn' wagen niet, noch mijne paerdestallen,</l>
+						<l>Noch paerden, noch de baen, die my te rijden staet.</l>
+						<l>Jupijn, die weerelden met zijnen blixem slaet,</l>
+						<l>Kan zelf de wielen niet bestieren noch regeeren:</l>
+						<l>En wie is maghtiger dan 't hooft der Hemelheeren?</l>
+					</sp>
+					<sp who="#faëton">
+						<speaker>Faëton</speaker>
+						<l>Heer vader, 'k houme vast aen uw' gezworen eedt.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Och eedt, te reuckloos voor een reuckloos kint gereet!</l>
+						<l>Zal nu een Godt zijn' eedt verlochenen en schennen?</l>
+						<l>Lichtvaerdigh weifelen? wie zal zich niet gewennen,</l>
+						<l>Op zulck een voorbeelt, voort te vaeren los en valsch,</l>
+						<l>Om dien gestaefden eedt te haelen door den hals?</l>
+						<l>Vrou moeder, zie uw' zoon, is 't mooghlijck, om te zetten.</l>
+						<l>Zie toe, hy zal uw huis met eenen slagh verpletten.</l>
+						<l>Beweegh hem af te staen van zulck een dol verzoeck.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Wat gaet u over, zoon? wilt gy uw' vaders vloeck</l>
+						<l>U laden op den hals, en Epafus verblijden?</l>
+						<l>Hoe zou hy groeien in uw' ondergang en lijden!</l>
+						<l>Verander van beraet. gy zijt een sterflijck mensch.</l>
+					</sp>
+					<sp who="#zonnelingen">
+						<speaker>Zonnelingen</speaker>
+						<l>Heer broeder, geef gehoor: ontsla u van dien wensch,</l>
+						<l>Heer vader van dien eedt. och ofge laeger draefde.</l>
+					</sp>
+					<sp who="#faëton">
+						<speaker>Faëton</speaker>
+						<l>Ick hou my aen den eedt dien vaders mont my staefde,</l>
+						<l>En keerme aen moeder noch aen zusters 't minste niet.</l>
+					</sp>
+					<sp who="#zonnelingen">
+						<speaker>Zonnelingen</speaker>
+						<l>Zoo helptge moeder en uw zusters in 't verdriet.</l>
+					</sp>
+					<sp who="#faëton">
+						<speaker>Faëton</speaker>
+						<l>'K wil vaders moeders en der zustren eer verheffen:</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>En komt het ongeluck uw hooft, mijn kroon, te treffen,</l>
+						<l>Zoo stortge met uw hooft voorover in het slijck.</l>
+						<l>Gy zijt mijn troost op aerde, en uwer zustren wijck,</l>
+						<l>En vryburgh. kuntge uw lot, dat heerlijck is, gebruicken,</l>
+						<l>Geen morgenroozen op haer' steel zoo schoon opluicken,</l>
+						<l>Als ick, en gy, en uw dry zusters. geef gehoor.</l>
+					</sp>
+
+					<sp who="#faëton">
+						<speaker>Faëton</speaker>
+						<l>Het lustme, 't vall' hoe 't vall', het vaderlijcke spoor,</l>
+						<l>Het gouden zonnespoor te volgen, en te zwaeien</l>
+						<l>Rondom den hemelkloot, al zou 'er 't hooft af draeien,</l>
+						<l>En d'oogen in het hooft van schemeren in 't licht.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Och zoon, godt Febus laet van rou zijn aangezicht</l>
+						<l>Neêrhangen op de borst: en wortge niet bewogen?</l>
+						<l>Aenschou dees borsten. och, gy hebtze jong gezogen,</l>
+						<l>En zoogthme met de melck het bloet van 't zuiver hart,</l>
+						<l>Waer onder ick u droegh, veel maenden lang, met smart:</l>
+						<l>En deze uw zusters zijn met u de borstgenooten,</l>
+						<l>Gedraegen onder 't hart, waeruit gy zijt gesproten,</l>
+						<l>Van eenen zelven stam, een godtheit. zie haer aen.</l>
+						<l>Zy schreien. vader zelf, een Godt, vaeght traen op traen</l>
+						<l>Van 't aenschijn, dat nu zweemt naer 's hemels regenbogen.</l>
+						<l>Een wolck van droefheit houdt zijn helderheit betogen.</l>
+						<l>Heer vader, geef uw' zoon toch reden van 't gevaer,</l>
+						<l>Het onweêr, dat hem dreight: misschien of hy bedaer'.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Mijn waertste zoon, gy ziet uw moeder, root bekreten,</l>
+						<l>Uw zusters dootsch van schrick. wat durftge u noch vermeten?</l>
+						<l>De zonnebaen loopt eerst zoo steil en recht om hoogh,</l>
+						<l>Van 's aerdtrijx kimmen naer den starrelichten boogh,</l>
+						<l>Dat zelfs de paerden, in den koelen uchtend, weigeren</l>
+						<l>Het spoor te houden, en bezwijcken onder 't steigeren.</l>
+						<l>De renbaen, midden aen het hemelsche gewelf,</l>
+						<l>Leght zoo veel hooger van den aerdtkloot, dat my zelf</l>
+						<l>Het hart in 't lichaem beeft, en popelt onder 't vaeren,</l>
+						<l>Wanneer ick neêrzie naer den aerdtboôm, en de baren.</l>
+						<l>In 't ende helt de wegh voorover, en begeert</l>
+						<l>In 't nederrijden een gemaetightheit, volleert</l>
+						<l>Op 't onbekende spoor: en Tethys, vol verlangen,</l>
+						<l>Gewoon my 's avonts in haer' open schoot t'ontfangen,</l>
+						<l>Bestorf, uit vreeze dat ick niet met paert en wiel</l>
+						<l>Voorover nederplompte, en in haer golven viel.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Och zoon, hoor vaders les. laet zijnen raet u raden.</l>
+					</sp>
+					<sp who="#zonnelingen">
+						<speaker>Zonnelingen</speaker>
+						<l>Och broeder, geef u niet op dootelijcke paden.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Nu let eens hoe de kloot des hemels eeuwigh draeit,</l>
+						<l>En ommezwindelt met zijn kringen, dicht bezaeit</l>
+						<l>Van starren. durftge u in die wielingen begeven?</l>
+						<l>Dan moet men tegens stroom, dan tegens wint opstreven,</l>
+						<l>Niet zonder dootschrick, voor het breecken van een radt,</l>
+						<l>En wagenbreuck, indien het rytuigh berst en spat.</l>
+						<l>Genomen 'k gunde u los op mijne beurt te reizen;</l>
+						<l>Wat ging u aen, indien de wagen quaem te deizen?</l>
+						<l>Men eert daer geenen Godt, in kercken en in steên.</l>
+						<l>Het zonnespoor loopt door gedierte en ondier heen.</l>
+						<l>De wegh is afgemerckt, om nergens af te doolen.</l>
+						<l>Hier loeit de Stier; daer brult de Leeu uit zijne holen.</l>
+						<l>Gins dreight u Scorpioen, met zijnen langen arm,</l>
+						<l>En Kreeft, die d'armen buight recht avrechts. vecht en scherm</l>
+						<l>Eens tegens Schutters, fix om recht in 't hart te raecken.</l>
+						<l>Wat dunckt u? waer 't niet nutst dien hemeltoght te staecken,</l>
+						<l>En stil gebleven in uw eigen element?</l>
+						<l>Oock zijtge 't mennen van mijn paerden niet gewent,</l>
+						<l>Die vreeslijck vier en vlam uitblazen onder 't rollen.</l>
+						<l>Wanneerze, hardt van beck, geraecken aen het hollen,</l>
+						<l>Dan luisterenze noch naer voerman, noch naer toom.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Och zoon, bedenck u, en ontsla mijn hart van schroom.</l>
+					</sp>
+					<sp who="#zonnelingen">
+						<speaker>Zonnelingen</speaker>
+						<l>Ay wil toch moeder en uw zusters niet bedroeven.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Helaes, mijn hart bezwijckt, geneepen als met schroeven.</l>
+					</sp>
+
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Mijn zoon, bedenck u noch. 't is noch bedenckens tijt.</l>
+						<l>Bedien geen lastigh ampt, dat gy niet maghtigh zijt.</l>
+						<l>Verkies het veilighste. eischtge een pant, uwe eer ten goede,</l>
+						<l>Waerby het blijckt dat gy gewis uit onzen bloede</l>
+						<l>Gesproten zijt, op dat geen lastertong u tart;</l>
+						<l>Mijn zoon, ick toon het u. dit vaderlijcke hart,</l>
+						<l>De vaderlijcke vrees getuight het. hoor uw' vader.</l>
+						<l>Uw ongeval raeckt hem en moeder, niemant nader.</l>
+						<l>Bezie uw' vader stijf in 't hart door d'oogen heen.</l>
+						<l>Daer quetstme Faëton, uw moeders druck met een.</l>
+						<l>Gy kunt by dezen toght niet winnen, maer verliezen.</l>
+						<l>De hemel aerde en zee staen open. gy mooght kiezen,</l>
+						<l>Te kusse en keure gaen. dit eenigh bidde ick af.</l>
+						<l>Gy eischt geen godtsgeschenck, maer een gewisse straf.</l>
+						<l>Waerom omhelstge my? dat smeecken is verloren.</l>
+						<l>Wy hebben eenwerf by den jammerpoel gezworen.</l>
+						<l>'k Ontzegge uw' eisch niet, schoon mijn hart inwendig wroegt,</l>
+						<l>Maer wenschte alleen datge u in 't eischen wijzer droeght.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Ick zorgh, ick zorgh gy zult dien stouten toght beklaegen.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Waer blijven d'Uuren? voort, spant in, spant in den wagen.</l>
+						<l>De Dageraet breeckt aen. de morgenstar verschijnt,</l>
+						<l>En jaeght de starren voor. de bleecke maen verdwijnt.</l>
+						<l>Men brenge een balssemglas. genaeck, mijn zoon, zoo blijcke</l>
+						<l>Mijn liefde. dat ick u het aenzicht overstrijcke,</l>
+						<l>En voor de gloênde vlam beschutte. nu, mijn zoon,</l>
+						<l>Aenvaert mijn fackel. laet mijn diamante kroon</l>
+						<l>U kroonen: kan ickze u betrouwen zonder traenen!</l>
+						<l>Onnoosle jonge knaep, geef 't vaderlijck vermaenen</l>
+						<l>Ten minste noch gehoor, hoe blint u d'yver port.</l>
+						<l>Gebruick de zweep, doch schaers, en hou den teugel kort.</l>
+						<l>Zy loopen willigh uit hunn' aert, als snelle stroomen.</l>
+						<l>Men kanze in 't rennen pas met arbeit innetoomen.</l>
+						<l>Vermy te rijden langs den wegh, die regelrecht</l>
+						<l>Door vijf starriemen loopt, en voor u open leght:</l>
+						<l>Naerdien mijn heirbaen breet en dwers valt, nochtans binnen</l>
+						<l>Dry hemelriemen blijft. gebruick verstant en zinnen.</l>
+						<l>Vermy de zuidas, en het noortsche Beerespoor.</l>
+						<l>En volgh mijn heldre streeck. hier reedt u vader voor.</l>
+						<l>Zal aerde en hemel elck van pas uw warmte deelen,</l>
+						<l>Hou niet te hoogh, noch oock te laegh met uw garreelen:</l>
+						<l>Want rijdtge hoogh, zoo steeckt uw torts den hemel aen:</l>
+						<l>En rijdtge laegh, zoo ziet gy d'aerde in kolen staen.</l>
+						<l>De middelwegh alleen is veiligh, hoe men rijde.</l>
+						<l>Vermy de Slang aen d'een, 't Altaer aen d'andre zijde.</l>
+						<l>Blijf binnen uw besteck van wederzy vooral.</l>
+						<l>Al 't overigh beveele ick 't hachelijck geval,</l>
+						<l>Dat helpe en hoede u voort, in 't op- en nedervaeren,</l>
+						<l>Bewaere u beter dan ge u zelven kunt bewaeren.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Och zoon, onthou dees les, en vaders wijzen raet.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Gy ziet nu hoe de nacht in 't westen onder gaet.</l>
+						<l>Nu toef niet langer: want de schaduwe is gescheiden.</l>
+						<l>De dageraet verschijnt. men magh niet langer beiden.</l>
+						<l>Aenvaert den teugel: doch laetge u van vader raên,</l>
+						<l>Zoo laet, het is noch tijt, den zonnewagen staen.</l>
+						<l>Gy hebt het vaste lant noch onder uwe zolen,</l>
+						<l>En zit noch niet. laet my den wagentoght bevolen,</l>
+						<l>Daer gy t'onnozel dus, ter quaeder tijt, naer haeckt.</l>
+						<l>Zie met gerustheit aen, eer uw bederf genaeckt,</l>
+						<l>Dat ick den aerdtboôm met mijn hemelsch vier verlichte.</l>
+					</sp>
+					<sp who="#faëton">
+						<speaker>Faëton</speaker>
+						<l>Heer vader, met verlof, 'k bedancke u. gy verplichte</l>
+						<l>My eeuwigh door dien raet. dit eenige is mijn bê:</l>
+						<l>Zendt mijn vrou moeder, en haer schoone dochters mê</l>
+						<l>Al sluimrende in een wolck, naer Padus. dat's mijn haven.</l>
+						<l>Daer leght het vrolijck hart van Faëton begraven.</l>
+						<l>Ick hoopze aen d'oevers daer t'ontmoeten, en sla voort.</l>
+						<l>Nu moeder, zusters, dat's u veur door deze poort.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<stage>REY VAN UUREN.</stage>
+					<sp who="#rey-van-uuren">
+						<speaker>I. Zang</speaker>
+						<l>Wat is de kinderliefde krachtigh,</l>
+						<l>En oudersliefde kout en kil!</l>
+						<l>Wie kan dit onderling geschil</l>
+						<l>Beslechten, en haer beide eendraghtigh</l>
+						<l>Vereenigen? wie dit vermagh</l>
+						<l>Kan vier en water t'zamenmengen:</l>
+						<l>Dat zelf Natuur niet zou gehengen.</l>
+						<l>Zy strijden fel, als nacht en dagh,</l>
+						<l>Als vier en ys, en kool en kegel.</l>
+						<l>Men kan geen rechtuitstrijdigheên</l>
+						<l>Vereenigen. dat blijft een regel</l>
+						<l>Die vast gaet. zetze tegens een.</l>
+						<l>Gy ziet haer op elckandre afsteecken,</l>
+						<l>Gelijck de deughden by gebreken.</l>
+					</sp>
+					<sp who="#rey-van-uuren">
+						<speaker>I. Tegenzang</speaker>
+						<l>Nochtans had Faëton verlangen</l>
+						<l>  Te zien zijn vaders aengezicht.</l>
+						<l>Hy zocht het alverquickend licht,</l>
+						<l>Met moeielijcke en zwaere gangen:</l>
+						<l>Doch 't was om zijnen vader niet,</l>
+						<l>Maer om genot van hem te trecken,</l>
+						<l>En schande met deze eer te decken,</l>
+						<l>Het eenigh wit, dat hy beschiet.</l>
+						<l>Het sproot geensins uit vaderliefde,</l>
+						<l>Maer om t'ontgaen de bittre smart</l>
+						<l>Van Epafus, wiens tong hem griefde,</l>
+						<l>  En trof in 't binnenst van zijn hart.</l>
+						<l>Zoo duurt de min in 't kinderoordeel</l>
+						<l>Niet langer dan 't genot en voordeel.</l>
+					</sp>
+					<sp who="#rey-van-uuren">
+						<speaker>II. Zang</speaker>
+						<l>Zoo zal het westen 't heldere oosten</l>
+						<l>Gaen aendoen, over zee en zant,</l>
+						<l>  Om purper, gout, en diamant,</l>
+						<l>En zich Charibd en Scyl getroosten.</l>
+						<l>Gewinzucht ziet geen rampen aen,</l>
+						<l>Geen hitte, noch bevrozene assen.</l>
+						<l>Geen waterhonden haer verbassen,</l>
+						<l>  Geen storm, noch bulderende Orkaen.</l>
+						<l>Zy vreest geen wilde menschevreeters.</l>
+						<l>De winst verzacht den arrebeit,</l>
+						<l>En veilt en vent zich om wat beters.</l>
+						<l>De liefde scheit, daer aenwinst scheit.</l>
+						<l>Hier worden d'ouders uitgezondert.</l>
+						<l>Dat is een stem, die eeuwigh dondert.</l>
+					</sp>
+					<sp who="#rey-van-uuren">
+						<speaker>II. Tegenzang</speaker>
+						<l>De vader Febus, rijck van schatten,</l>
+						<l>Die d'eerste kroon in 't starlicht spant,</l>
+						<l>Bemint zijn' zoon, als 't rijckste pant,</l>
+						<l>Dat aerde of hemel kan omvatten.</l>
+						<l>Hy wacht geen voordeel van den zoon:</l>
+						<l>Noch bleeck zijn trou en liefde in 't scheien.</l>
+						<l>Men zagh de zon van droefheit schreien.</l>
+						<l>Dees liefde zagh op winst noch loon.</l>
+						<l>Zy zagh alleenop 's jonglings beste,</l>
+						<l>En vreesde een dreigende ongeval.</l>
+						<l>Hoe raeckt hy noch, van 't ooste aen 't weste,</l>
+						<l>Behouden in den avontstal?</l>
+						<l>Hy treet zijn vaders hart met hoeven.</l>
+						<l>Hoe menigh sneuvelde onder 't proeven!</l>
+					</sp>
+					<sp who="#rey-van-uuren">
+						<speaker>Slotzang</speaker>
+						<l>Nu laet ons in de zonnezaelen,</l>
+						<l>Behangen met tapijt van straelen,</l>
+						<l>Klymene en haere dochters gaen</l>
+						<l>Bedienen, daerze leggen aen</l>
+						<l>Den disch, gedeckt met leckernye</l>
+						<l>Van nekterdranck, en ambrozye;</l>
+						<l>En haer, geduurende den toght</l>
+						<l>Van Faëton, alle achterdocht</l>
+						<l>Beneemen, of hem iet moght deeren.</l>
+						<l>De hemel magh geen vreught ontbeeren.</l>
+						<l>De blyschap quam hier noit te vroegh.</l>
+						<l>De rou komt altijt tijts genoegh.</l>
+					</sp>
+				</div>
+			</div>
+			<div n="3" type="act">
+				<head>Het derde bedryf.</head>
+				<div n="1" type="scene">
+					<stage>KLYMENE. FEBUS. ZONNELINGEN.</stage>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>De zorgh der Goden wil mijn' zoon op wegh geleiden.</l>
+						<l>Het viel my, als een steen op 't hart, dat hy in 't scheiden</l>
+						<l>Den vader smeeckte my en zijne zusters naer</l>
+						<l>De kust van Padus heen te zenden, om ons daer</l>
+						<l>t'Ontmoeten. wat moght hem bewegen dit zijn haven</l>
+						<l>Te noemen? wat wou dit: daer leght mijn hart begraven?</l>
+						<l>En waerom leght zijn hart begraven aen dien stroom?</l>
+						<l>Dit voorspoock spelt niet goets, en baertme schrick en schroom.</l>
+						<l>Waertoe den watervliet van Padus uitgekoren,</l>
+						<l>En Ethiopie ('t gewest, daer hy geboren</l>
+						<l>En zijne zusters, eerst uw klaerheit straelen zagh,)</l>
+						<l>Verlaeten, en uitheemsch verhuist? een ieder plagh</l>
+						<l>Naer zijn geboortelant natuurelijck te haecken.</l>
+						<l>Dees lantstreeck voede hem dat kan hy niet verzaecken.</l>
+						<l>Oock paelt het zuiden zoo veel nader aen uw hof,</l>
+						<l>Den oirsprong van zijn heil; het welck tot grooter lof</l>
+						<l>En zegen streckt, dan van zijn vaders grens te dwaelen,</l>
+						<l>Een' vreemden nagebuur te zoecken, in de paelen</l>
+						<l>Van 't doncker westen, eens zoo wijt van uwen troon.</l>
+						<l>Of schijnt de middaghzon in 't hooftpunt niet zoo schoon,</l>
+						<l>En al te krachtigh op het hooft der zuiderlingen,</l>
+						<l>Dat hy den avont kiest, en westwaert uit moet springen?</l>
+						<l>Ick kan, hoe 't zy, geensins dit vatten en verstaen.</l>
+						<l>Zijn afscheitrede jaeght my schroomte en dootschrick aen.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Ay moeder, zet uw hart gerust, en wil niet schricken.</l>
+						<l>Ick weet deze afscheitrede in haere vou te schicken.</l>
+						<l>Uw zoon ging niet verdwaelt noch blindeling te keur,</l>
+						<l>In 't kiezen van dien stroom in d'avontstreeck. de geur</l>
+						<l>En adem van dat lant verquickt mijn heete straelen</l>
+						<l>En paerden, nat van zweet en moede, in 't nederdaelen;</l>
+						<l>Wanneer de daghvaert, om den halven hemelkloot,</l>
+						<l>Is afgeleght, die streeck ontfangtme in haeren schoot:</l>
+						<l>Gelijck een blijde bruit den bruigom plagh t'ontfangen</l>
+						<l>Met opene armen, en een onverzaet verlangen.</l>
+						<l>Hy weege, wien het luste, al 't aerdtrijck in een schael;</l>
+						<l>Dees lantstreeck overweeght de landen altemael</l>
+						<l>In schoonheit, waer mijn zon het gansche jaer haere oogen</l>
+						<l>En aenschijn nederslaet, uit 's hemels goude boogen.</l>
+						<l>Waer 't wonder zoo uw zoon verlangde naer dit lant,</l>
+						<l>Dat d'eerste lantkroon van alle andre landen spant?</l>
+						<l>De lantstroom Padus, die ten bergh af neêr komt spoelen,</l>
+						<l>Is maghtigh 's jonglings brant in zijne kil te koelen,</l>
+						<l>En hem te waschen, daer zijne afgeronne kar</l>
+						<l>Te water onder gaet, begroet van d'avontstar.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Och, had hy zich dien toght niet durven onderwinden!</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Schep moedt, gy zult hem daer in 't nederdaelen vinden.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Hiertoe verleenen hem de Goden heil en spoet.</l>
+						<l>Dat ick hem kransse met zijn vaders lauwerhoet.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Wat oefenspelen laet de jongling zich behaegen?</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Te vliegen over 't velt door bosch en groene haegen</l>
+						<l>Naer dassen, hart en hinde, en allerhande wilt.</l>
+					</sp>
+
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Hy zweemt naer vaders aert, die maght van pijlen spilt</l>
+						<l>Op weereloos gedierte, oock vreeslijcke everzwijnen</l>
+						<l>Den zwijnspriet plagh te biên, in ruighten en woestijnen:</l>
+						<l>Gelijck zijn moey Diane, in 't heetste van haer jaght,</l>
+						<l>Alle andre wellusten om deze lust misacht:</l>
+						<l>En deze uw dochters, hoe besteden zy haere uuren?</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Aen cieren, tekenen, bootseeren, en borduuren.</l>
+						<l>En dans, en maetgezang, en spel, en fluiteklanck,</l>
+						<l>Ontsteecken aen 't geluit van blijden voglezangk.</l>
+						<l>Ter liefde van de kunst, geen moeiten haer verdrieten.</l>
+						<l>Alle even afgerecht en fix op starreschieten.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Zoo volgenze den rey des zangberghs, rijck van toon:</l>
+						<l>Daer spant Melpomen, die de treurrol speelt, de kroon,</l>
+						<l>Der negen zusteren, en kan mijn hart beroeren,</l>
+						<l>Als zy Prometheus komt ten treurtooneele voeren,</l>
+						<l>En klinckt hem door Vulkaen, op 't baere noortsche strant,</l>
+						<l>Met eenen spijcker van geslepen diamant,</l>
+						<l>Aen eene strantklip, vast geketent ongenadigh.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Aen welck een gruwelstuck was d'arme man misdaedigh?</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Hy was vol geest, en in bootseeren uitgeleert</l>
+						<l>Van menschebeelden.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Och elendige, my deert</l>
+						<l>Uw jammer om een kunst wel waerdigh te benijden:</l>
+						<l>Al waer 't een misdaet, z'is veel minder dan dit lijden.</l>
+						<l>De straf en misdaet staen hier zeker t'ongelijck.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Maer neen, dat was het niet. hy quam het hemelsch rijck</l>
+						<l>En heiligh vier te na. dat kon geen Godt gehengen:</l>
+						<l>Want om het leven in zijn klaien beelt te brengen,</l>
+						<l>Genaeckte hy mijn zon met eenen bercken tack,</l>
+						<l>En, eer ick ommezagh in 't steigeren, ontstack</l>
+						<l>De vierdief 't berckenhout van achter aen den wagen,</l>
+						<l>En broght het leven in zijn vrouwebeelt, de plaegen</l>
+						<l>Ter weerelt door de vrou, de bron en 't eenigh zaet</l>
+						<l>Van alle schelmery. verdiende zulck een quaet</l>
+						<l>Een zachter straf dan dees? wie uitspat buiten orden,</l>
+						<l>En 't vier te na komt, dient zoo streng gestraft te worden.</l>
+					</sp>
+					<sp who="#zonnelingen">
+						<speaker>Zonnelingen</speaker>
+						<l>Vrou moeder, best dat wy 't bootseeren laeten staen.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Hoe wil mijn' Faëton dees zonnevaert vergaen?</l>
+						<l>My dunckt ick hoor Promeeth noch schreien aen zijn keten.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Hy schreide jammerlijck, verlaeten en vergeeten</l>
+						<l>Op 't naere baere strant, daer 't eeuwigh stormt en ruischt.</l>
+						<l>Jupijn, te recht vergramt, met zijn vergramde vuist</l>
+						<l>By wijlen afstijght, en met gloeiendige vingeren</l>
+						<l>Den rooden blixem zwaeit, en schricklijck onder 't slingeren</l>
+						<l>Den stouten vierdief roost, maer niet tot asch verbrant.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Helaes, hoe kon hy dit uitharden in dien stant?</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Het ruste hier niet by. de dondergodt beschickte</l>
+						<l>Dat d'arent door de borst hem in den lever pickte</l>
+						<l>By daegh, de lever 's nachts hergroeide en telckens wies.</l>
+						<l>Zoo boete d'aenwas 's nachts het dagelijx verlies.</l>
+						<l>Dat leert den zonnevloeck zich aen de zon vertasten.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Genade, ô Febus, och wie zal mijn hart ontlasten?</l>
+						<l>Nu zorge ick Faëton quam uwe zon te na.</l>
+					</sp>
+
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Hy steegh met mijn verlof te wagen. wort'et scha</l>
+						<l>Geleden op dien toght, my past dat ick 't verdaedigh.</l>
+					</sp>
+					<sp who="#zonnelingen">
+						<speaker>Zonnelingen</speaker>
+						<l>Och vader, vader, och zijt broeder toch genadigh.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Mijn hart hangt over hem noch eveneens als 't plagh.</l>
+					</sp>
+					<sp who="#klymene">
+						<speaker>Klymene</speaker>
+						<l>Ay sterck dit met een pant, dat ick betrouwen magh.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Ick zal het stercken, u aen d'oostpoort trou geleiden,</l>
+						<l>En met juweelen rijck beschencken, nu wy scheiden.</l>
+						<l>Deurwaersters, Uuren voort, en haelt ons voor den dagh</l>
+						<l>'t Juweelekoffer, 't schoonst dat menschenoogh oit zagh,</l>
+						<l>Gewrocht van Mulciber. men magh de stof waerdeeren</l>
+						<l>Maer kunst beschaemt de stof. hy woume dit vereeren,</l>
+						<l>En wy vereeren 't u, en uwe dochtren me.</l>
+						<l>Het puick van diamant en perlen, daer de zee</l>
+						<l>En Ganges moedt op draeght, leght in dees doos gesloten.</l>
+						<l>Sluit d'oostpoort open. nu mijn liefste dischgenooten,</l>
+						<l>Gy smaeckte ambrosie, en dronckt nektar, godendranck,</l>
+						<l>Dat kan u stercken: en gy zult den ondergangk,</l>
+						<l>Aen Padus oever, stil gevoert van oostewinden,</l>
+						<l>In eene koele wolcke, al sluimerende vinden,</l>
+						<l>En 't avont uwen zoon, Godt geve zonder smert,</l>
+						<l>Gelijck het wort gewenscht van 't vaderlijcke hart.</l>
+						<l>Nu kustme, ô roozemont Klymene, mijn getrouwe,</l>
+						<l>En gy mijn dochters; dat de westersche landouwe</l>
+						<l>U vrolijck wellekoom'. wy willen t'elckemael,</l>
+						<l>In 't nederzincken van den avontzonnestrael,</l>
+						<l>U daer bezoecken. weest te vrede. spaert uw traenen:</l>
+						<l>Ons zorgen zullen u den wegh ter eere baenen.</l>
+						<l>Nu treet door d'oostpoort. wy geleiden uwe reis.</l>
+						<l>Dat heene is d'uitgang van het oostersche palais.</l>
+					</sp>
+
+				</div>
+				<div n="2" type="scene">
+					<stage>JUNO. FEBUS.</stage>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Wat wolck is ginder snel naer 't westen heengevlogen?</l>
+						<l>Wat vier ontsteeckt de lucht? mijn paeuwestaert, vol oogen,</l>
+						<l>En schoon van veder, ziet geschonden en gezengt.</l>
+						<l>Wat komt ons over? suftge in 't hof alleen? gehengt</l>
+						<l>Gy zonder toezicht dat uw paerden heenerollen?</l>
+						<l>Of kennen zy hun spoor? of is u 't hooft op hollen?</l>
+						<l>De zonnewagen stijght met kracht naer 't hooftpunt toe,</l>
+						<l>En steeckt mijn lucht op 't hooft. uw paerden zijn de roê</l>
+						<l>Den teugel en 't gezagh des meesters lang ontwassen.</l>
+						<l>De brant wort ree gevoelt van beide 's weerelts assen.</l>
+						<l>Hoe gaet dit? zijtge tong en spraeck nu teffens quijt,</l>
+						<l>En teffens doof en stom? spreeck op: 't is spreeckens tijt.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>'k Hadde eenen enklen dag besloten stil te vieren,</l>
+						<l>En liet een' ander in mijn plaets den wagen stieren.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Een' ander in uw plaets te zetten, zonder last,</l>
+						<l>En Godt Jupijns verlof? dees reuckleloosheit past</l>
+						<l>Een' droncken Boxvoet, of Sileen, die licht kan dolen.</l>
+						<l>De zonnewagen is u veel te hoogh bevolen.</l>
+						<l>De zegen en de vloeck der weerelt hangt'er aen.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Ick hoopte dat die toght ten beste zou beslaen.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Op eene losse hoop al 's aertrijx heil te waegen?</l>
+						<l>Met eere moghtge wel uw' vader oorlof vraegen.</l>
+						<l>Had hy dit reuckloos stuck bezegelt met zijn stem,</l>
+						<l>Zoo bleeftge buiten last, en schooft de schult op hem.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Men hoope dat de toght ten beste magh gedyen.</l>
+					</sp>
+
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>En wien betroude gy den toom in 't heeneryen?</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Aen eenen, my niet vreemt, doch traegh op zijn verzoeck.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Zoo waren eischer en bestemmer even kloeck.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Wie zoude eens droomen dat hier onheil uit kon rijzen?</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Zoo spreecken dommen, geen voorzichtigen, geen wijzen.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Van achter zienwe dit met andere oogen aen.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Zoo staenze u in den neck. zy plaghten voor te staen.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>'t Verstant is altijt niet op 't snedighste geslepen.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>De plompheit blijckt. hier is te dapper misgegrepen.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Wie zijne misgreep ziet, kan 't beteren hier na.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Dat 's niet genoegh. hoe boet men d'algemeene scha?</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Een ouder had ick best gezet in mijne stede.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Zoo koostge een' wulpschen? want dit schijnt aen uwe rede.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Men denke een jonge moet oock leeren door een proef.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Wat was dit voor een' wulp? ô proefstuck, al te droef!</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Men noemt hem Faëton, gewonnen by Klymene.</l>
+					</sp>
+
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Hoe, reisde uw zoon zoo wijt van 't zuiden herwaert hene?</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Om zijnen vader zelf te groeten in 't palais.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Betroutge een' stouten knaep de beurt van uwe reis?</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Ongaerne, alleen uit dwang. ick kon het niet ontzeggen.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Ontbey, ontbey, hy zal het schendigh laeten leggen.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Ick stont te hoogh en dier verplicht aen mijnen eedt,</l>
+						<l>En kon hem zijn verzoeck, dat my in 't harte sneedt,</l>
+						<l>Niet weigren, zonder snoot het heilighste t'onteeren,</l>
+						<l>Den jammerpoel, waerby alle oppergoden zweeren.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Gy zwoert dan reuckeloos, en stont het reuckloos toe?</l>
+						<l>Helaes, veel nutter hem met eene vlammeroe</l>
+						<l>Ten hove uit naer 't gewest, van waer hy quam, gedreven,</l>
+						<l>Dan dien vervloeckten eisch den ruimen toom gegeven,</l>
+						<l>Al 't aerdtrijck ten bederve, en hem ten zwaeren val,</l>
+						<l>Waer van de hemel aerde en zee gewaegen zal.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Zoo hy te vallen quaem', gewis het zoume treffen.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Wie, boven zijnen staet, verwaent zich durf verheffen,</l>
+						<l>En steecken overdwaels den Goden naer hun kroon,</l>
+						<l>Verdient, ten spiegel van verwaenden aert, ten toon</l>
+						<l>Te staen op een schavot, zoo hoogh als 's hemels tinnen.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Hy won den halven wegh: dat's meer dan eerst beginnen.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Maer in het ende van dees renbaen blinckt de prijs.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Ick onderrechte hem. volhardt hy op dees wijs,</l>
+						<l>Zoo magh men 't jeugdigh hooft met eere lauwerieren.</l>
+					</sp>
+
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>En mist de daghvaert, pas zijne uitvaert dan te vieren.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Zoo most hy blijven, in zijne allereerste proef.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Een droeve wagenbreuck! noit schipbreuck viel zoo droef.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Den oogst verzengen is noch d'ackers niet verbranden.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Een watervloet verdelghde en dompelde alle landen:</l>
+						<l>Nu staet een viervloet elck te vreezen dezen dagh.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Tot noch toe hoort men schaers van onder het gewagh.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Ontbey, d'ontvonckte brant zal haest den slaeper wecken.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Vergader wolcken. laet de lucht bytijts betrecken.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Dees heete brant verteert de wolcken dor en droogh.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Uwe Iris spanne voor de zon haer' regenboogh.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Zy smilt van hitte, en durf het in den brant niet waegen.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>De Waterstorter kon de hitte licht verjaegen.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Zijn watervat is leêgh van vochtigheit en dou.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>De hemelheer verquick' den lantman en den bou.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Men magh geen nootlot noch zijn paelen overtreden.</l>
+						<l>De bovenzee verschilt van 't water daer beneden,</l>
+						<l>Gelijck het aerdtsche vier van 't hemelsche element.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>De noodt houdt streeck noch stijl, maer let op 't heilzaem ent.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Dat stont u toe, zoo hadtge u dit niet onderwonden,</l>
+						<l>Of hem aen uwe zy gezet, en ingebonden.</l>
+						<l>Nu is hy meester van dees daghvaert, u betrout.</l>
+						<l>Een jongen speelt met vier te zorghelijck en stout.</l>
+						<l>Indien de knaep alleen zich aen uw fackel brande,</l>
+						<l>Zoo moghtge deelen in dien rouwe en schade en schande:</l>
+						<l>Nu lijdt de weerelt, of de halve weereltkloot,</l>
+						<l>Ten zy 't geluck dit schutte en uitblussche in zijn doot.</l>
+						<l>Zoo 't hooger loopt: men zal den raet der Goden daegen,</l>
+						<l>Om raet te schaffen, voor het hollen van den wagen.</l>
+						<l>Merkuur is by der hant. my dunckt, ick hoor mijn lucht,</l>
+						<l>Die, ademloos en droogh van keel, ten hemel zucht.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<stage>REY VAN UUREN.</stage>
+					<sp who="#rey-van-uuren">
+						<speaker>I. Zang</speaker>
+						<l>Wij passen op ons ronde,</l>
+						<l>Geduurigh op de wacht,</l>
+						<l>Verzuimen geene stonde,</l>
+						<l>Voltrecken dagh en nacht</l>
+						<l>Het ampt, ons hoogh bevolen.</l>
+						<l>Wat dwaelt, of nimmer dwaelt,</l>
+						<l>Dit uurwerck magh niet doolen.</l>
+						<l>Geen zonnewijzer faelt</l>
+						<l>In 't mercken van zijn streecken.</l>
+						<l>  Al hoort men klock noch klanck,</l>
+						<l>Ons stomme tongen spreecken,</l>
+						<l>En roepen: gaet uw' gangk.</l>
+						<l>Verzuimt geene oogenblicken.</l>
+						<l>Het leven rent voorby.</l>
+						<l>O menschen, kostge wicken</l>
+						<l>En weegen uw gety,</l>
+						<l>Dat nimmer weêr zal keeren,</l>
+						<l>Gy zoudt den tijdt waerdeeren.</l>
+					</sp>
+					<sp who="#rey-van-uuren">
+						<speaker>I. Tegenzang</speaker>
+						<l>Toen wy met onze handen</l>
+						<l>  De paerden onder 't juck</l>
+						<l>Van Febus wagen spanden,</l>
+						<l>Onwilligh en met druck,</l>
+						<l>Uit angst voor 's jonglings leven,</l>
+						<l>Begonnen zy 't gebit</l>
+						<l>Het montstuck weêr te streven,</l>
+						<l>Al pruissende, en verhit.</l>
+						<l>Zy trappelen en steigeren,</l>
+						<l>Noch wordenze getoomt,</l>
+						<l>Na dat zy 't drymael weigeren,</l>
+						<l>  Weêrbarstigh en beschroomt.</l>
+						<l>Dat voorspoock, dat ontstellen</l>
+						<l>Schijnt Faëton niets goets</l>
+						<l>Maer eenigh ramp te spellen,</l>
+						<l>Al dorst hy, zoo vol moedts,</l>
+						<l>Opzitten, minst verlegen.</l>
+						<l>Het waegen ging voor 't weegen.</l>
+					</sp>
+					<sp who="#rey-van-uuren">
+						<speaker>II. Zang</speaker>
+						<l>De wulpscheit acht geen raeden,</l>
+						<l>Ziet recht noch reden aen,</l>
+						<l>Kiest zorghelijcke paden</l>
+						<l>  Op ingebeelde waen,</l>
+						<l>En eigen welbehaegen:</l>
+						<l>Dat is een Godt by haer,</l>
+						<l>Te trots om raet te vraegen</l>
+						<l>In hachelijck gevaer.</l>
+						<l>Haer dunckt, zy kan niet dwalen,</l>
+						<l>En past op niemants gunst:</l>
+						<l>Maer zeil in top te haelen,</l>
+						<l>Opzitten is min kunst</l>
+						<l>Dan in behoude haven</l>
+						<l>  Te raecken, en weêr af</l>
+						<l>Te zitten na het draven.</l>
+						<l>Zoo delft d'onwijze een graf</l>
+						<l>Voor 't reuckeloos vermeeten:</l>
+						<l>Dan is 't te spa gekreten.</l>
+					</sp>
+					<sp who="#rey-van-uuren">
+						<speaker>II. Tegenzang</speaker>
+						<l>Wy tellen d'oogenblicken</l>
+						<l>Van dezen bangen dagh,</l>
+						<l>En sidderen en schricken.</l>
+						<l>Men hoort allengs gewagh</l>
+						<l>Van 't ongeluckigh mennen</l>
+						<l>  Des wagens, hemelhoogh</l>
+						<l>Gevoert op hoef en pennen.</l>
+						<l>De vader houdt het oogh</l>
+						<l>Geduurigh, en van traenen</l>
+						<l>Besprengkelt, naer den zoon,</l>
+						<l>Die, tegens zijn vermaenen</l>
+						<l>En d'eer, hem aengeboôn,</l>
+						<l>Volharde een' staet t'aenvaerden,</l>
+						<l>Die boven 't menschdom stijght.</l>
+						<l>Indien hy met zijn paerden</l>
+						<l>  Behouden 't westen krijght,</l>
+						<l>Het ende, daer de prijs leit,</l>
+						<l>Dat's meer geluck dan wijsheit.</l>
+					</sp>
+				</div>
+			</div>
+			<div n="4" type="act">
+				<head>Het vierde bedryf.</head>
+				<div n="1" type="scene">
+					<stage>DE HEMELRAET. JUNO.</stage>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>O bedtgenoot van Godt Jupijn, vorstin der Goden,</l>
+						<l>Wy komen haestigh hier ten hove aen, opontboden,</l>
+						<l>Gedaghvaert van Merkuur, den oppersten herout,</l>
+						<l>Wiens hant de hemel zijn geslangde roê betrout.</l>
+						<l>Helaes, wy voelen al wat oirzaeck ons zoo schichtigh</l>
+						<l>Verdaghvaert: en gewis die reden is gewightigh,</l>
+						<l>En van een groot belang: nu wachtenwe uit uw' mont</l>
+						<l>Te hooren op wat hoop dees daghvaert wort gegront.</l>
+					</sp>
+
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>De noot, de hooge noot eischt raet, en daet, oock spoedigh.</l>
+						<l>De zonnevooght, waer van Natuur dus overvloedigh</l>
+						<l>En milt en minnelijck tot noch gekoestert wert;</l>
+						<l>Terwijl hy in zijn ampt, als voesterheer, volhardt,</l>
+						<l>En al wat groeit, gevoelt en reden kan gebruicken,</l>
+						<l>Geduurigh zegent, mensch en dier en boom en struicken;</l>
+						<l>De vier getijden, om den ronden weereltkloot,</l>
+						<l>Ons vruchten offeren, uit hunnen vollen schoot;</l>
+						<l>Die zonnevooght, wien gy de daghtorts liet bevolen,</l>
+						<l>Betrout dees torts zijn' zoon, die zet al d'aerde in kolen,</l>
+						<l>In eenen lichten brant, schoffeert, en blaeckt en schent</l>
+						<l>Alle elementen door een eenigh element.</l>
+						<l>Al wat geschapen wert, vergeet nu stijl en orden.</l>
+						<l>Dit wonderlijck heelal wil haest een baiert worden.</l>
+						<l>En storten overhoop in eenen mengelklomp.</l>
+						<l>Wat schijnt de weerelt nu? een hoofdelooze romp,</l>
+						<l>Een lichaem zonder hooft, dat noch wat tegenspartelt,</l>
+						<l>En wacht den lesten snick, ter doot toe afgemartelt.</l>
+						<l>Indien het Godendom noch langer stil blijf staen;</l>
+						<l>Wy mogen alle wel gepaert ten grave gaen.</l>
+						<l>De zonnelijcktorts schijnt het lijckhout aen te steecken,</l>
+						<l>Het lijckhout van Natuur, die, doot en gansch bezweken,</l>
+						<l>Tot asch verbrant. men hoeft slechts d'asschen uit den haert</l>
+						<l>Te scheppen, en alleen haer overschot, vergaert</l>
+						<l>En uitgegoten in de dootbus, t'overdecken</l>
+						<l>Met eenen zerck. dan magh al 't Godendom vertrecken.</l>
+						<l>Hun hooge heerschappy nam endtlijck eenen keer.</l>
+						<l>Natuur heeft uit: verwacht geene offerhanden meer.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Wat stem is dat? Jupijn, bewaer ons. wy verschricken.</l>
+						<l>Bewaer ons, Godt Jupijn. wy smilten, ja versticken</l>
+						<l>Van angst en heeten gloet. kon 't hooghste goet in 't lest,</l>
+						<l>Het zegenrijckste goet, verandren in een pest,</l>
+						<l>Een' dootelijcken vloeck van Goden en van menschen?</l>
+						<l>Zoo mogen wy de zon in eeuwigheit verwenschen</l>
+						<l>En vloecken. stont ons dit te wachten van de zon?</l>
+						<l>Sticht Godt dien weereltbrant? of Godt, of Faëton,</l>
+						<l>Een reuckeloos, een dwaes, een wulp, een dolle bastert,</l>
+						<l>Van Godt en menschen waert verdoemt, en waert gelastert?</l>
+						<l>Wat voerde Faëton tot zulck een stout bestaen?</l>
+						<l>Wat voerde hem zoo blint tot zulck een gruwel aen?</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Dat mooghtge dencken. 't is doch d'aert der bastertzoonen</l>
+						<l>Doorgaens naer hoogen staet te streven, scepters, kroonen,</l>
+						<l>En tullebanden, en wat heerlijck bromt en praelt</l>
+						<l>Zich t'eigenen, om door dien staetglans rijck betaelt</l>
+						<l>Te zetten 't arme slot, hun toegesmackt van boven,</l>
+						<l>En langer niet, als een verschoveling, verschoven,</l>
+						<l>Verstooten, met den neck by grooten aengezien,</l>
+						<l>Te duicken, maer verwaent den trotsten spits te biên,</l>
+						<l>En, zonder wedergade, een' grooten naem te draegen,</l>
+						<l>Al zou 't zich al wat leeft in eeuwigheit beklaegen.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Gy hebt hier Febus, zoo wy mercken op gehoort?</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Maer d'onschult viel te slecht.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Wat reden broght hy voort?</l>
+						<l>Verschoonde hy dit stuck, onmooghlijck te verweeren?</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Hy had het toegestaen op Faëtons begeeren,</l>
+						<l>Onwilligh en beducht, maer stont te vast verknocht</l>
+						<l>Aen zijnen hoogen eedt. hy hoopte dat de toght</l>
+						<l>Ten beste zou beslaen, indien de zoon de streecken</l>
+						<l>Des heemels gade sloegh, en nergens quaem 't ontbreecken,</l>
+						<l>Gelijck de vader riedt, en waerschuwde, eer het radt</l>
+						<l>Ter zonnepoorte uit reedt.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Een wulpsche jongen vat</l>
+						<l>Noch reên, noch onderwijs. geen jongkheit laet zich raeden.</l>
+						<l>De zonnewagen hangt met eene vracht geladen,</l>
+						<l>Die last lijdt, zoo het radt zijn spoor vergeet, en schockt.</l>
+						<l>Wat raet ziet Febus nu?</l>
+					</sp>
+
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Hy zit versuft, verstockt.</l>
+						<l>Van blinde liefde tot dien dwazen zoon gedreven,</l>
+						<l>Is hem, tot zijn bederf, de toom te ruim gegeven.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Hoe zit de Hemelraet met Febus nu bewaert?</l>
+						<l>De Goden hadden hem alleen de zonnevaert</l>
+						<l>Bevolen 't gansche jaer, door twee paer jaergetijden.</l>
+						<l>Dat hemelsch uurwerck kon geen schimp noch uitstel lijden,</l>
+						<l>Oock niet eene eenigh uur, noch min een etmael langk.</l>
+						<l>Dat uurwerck staet niet stil. de wijzer gaet zijn' gangk.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Zoo slecht was Febus niet. de zon verzuimt geene uuren,</l>
+						<l>En hierom liet hy haer van dezen stuurman stuuren.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Dees maght stont niet aen hem, neen zeker, maer die staet</l>
+						<l>Eerst in te willigen van al den Hemelraet.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Die was in zijnen zin al t'ongereet te zoecken.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Wie eigenwijs den raet van veelen wil verkloecken,</l>
+						<l>Moet op zijn zelfs gevaer gevoelen hoe 't beslaet.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Dat is wel billijck: maer nu lijdt de gansche staet</l>
+						<l>Der weerelt by een hooft, dat eerst natuur zou stutten.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Wat raet? hoe zou men best den dollen voerman schutten?</l>
+						<l>De wagen is te wijt van honck en d'oosterpoort.</l>
+					</sp>
+
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>De pijl, getrocken van de pees, moet immer voort.</l>
+						<l>Het treffe wien het treff'? men kan de vlught niet keeren.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Laet Febus boogh dan dit met schade en schande leeren.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Dat vreest, dat voelt hy nu, bekommert en verbaest:</l>
+						<l>Doch reedtste raet is nutst. wat raet is allernaest?</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Jupijn, der Goden hooft, te hooren uit den hoogen.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Hier komt de snelle Faem trompettende aengevlogen,</l>
+						<l>Met haer klaroen, die niets verzwijght, maer alles melt.</l>
+						<l>Wy zullen hooren hoe het westwaert is gestelt:</l>
+						<l>Dan kan men Jupiter met zekerheit berechten,</l>
+						<l>Om tegens onzen schijn en schaduw niet te vechten.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<stage>DE FAEM. JUNO. HEMELRAET.</stage>
+					<sp who="#de-faem">
+						<speaker>Faem</speaker>
+						<l>De hemel hoede ons, en de weerelt voor altoos.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Hoe dus, Godin? hoe dus verbaest en ademloos?</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Bedaer een poos, bedaer.</l>
+					</sp>
+					<sp who="#de-faem">
+						<speaker>Faem</speaker>
+						<l>Het is geen tijt van zwijgen.</l>
+						<l>Ick koome in aller yl van 't westen oostwaert stijgen.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Hoe ging het op de reis met wulpschen Faëton?</l>
+					</sp>
+					<sp who="#de-faem">
+						<speaker>Faem</speaker>
+						<l>Dat vraegh eens. Godt behoê de weerelt en de zon.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Die heeft een' wagenaer. hy zalze wel bewaeren.</l>
+					</sp>
+
+					<sp who="#de-faem">
+						<speaker>Faem</speaker>
+						<l>Een' dollen wagenaer, te wagen onervaeren,</l>
+						<l>Een' die al 't aerdtrijck waeght, op 't zorghlijck zonnespoor.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Dat 's lang geleght, en klaer. de vader reedt hem voor.</l>
+						<l>De baen wert afgemerckt met heldre beeldestarren.</l>
+						<l>Het is geen doolhof, daer de zinnen in verwarren:</l>
+					</sp>
+					<sp who="#de-faem">
+						<speaker>Faem</speaker>
+						<l>Een rechte doolhof voor dien onbedreven gast,</l>
+						<l>Een brein, dat wulpsch en dom, op geene mercken past,</l>
+						<l>En zich te veel vermeet.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Hoe voer hy toch ten leste?</l>
+					</sp>
+					<sp who="#de-faem">
+						<speaker>Faem</speaker>
+						<l>'k Geleide hem van 't ooste in 't zuiden en naer 't weste.</l>
+						<l>Belieft het u, zoo gunt uw postbodin gehoor.</l>
+						<l>De paerden trappelden en brieschten eerst, om door</l>
+						<l>Den draeiboom van de kim in 't open velt te raecken,</l>
+						<l>En Tethys, onbewust wat rampen haer genaecken,</l>
+						<l>Ontsloot haer' neef het heck. de hengst rijdt ongeport</l>
+						<l>Het veldt in, trapt de lucht. de donckre nevel wort</l>
+						<l>Gebroken van zijn borst. de paerden nu aen 't zweven,</l>
+						<l>Van hunne vleugelen gevoert en opgeheven,</l>
+						<l>Spoên, rijdende uit het oost, den oostenwint voorby.</l>
+						<l>De vracht viel lichter dan voorheenen, en, dat zy</l>
+						<l>Niet merckten, 't juck begon den ouden last te missen:</l>
+						<l>En recht gelijck een schip op 't water, door 't vergissen</l>
+						<l>Des zeemans, niet genoegh geballast, heene en weêr</l>
+						<l>Geslingert wort, en danst op 't ongestuimigh meer;</l>
+						<l>Zoo schockt de wagen, op en neder, en ter zijden.</l>
+						<l>De rossen riecken 't flux, en rucken voort, en rijden</l>
+						<l>Ter baene uit, en de hoef vergeet den eersten draf.</l>
+						<l>Hy schrickte zelf, en mende, een voorspel van zijn straf,</l>
+						<l>Den teugel niet, gelijck hem vader trou vermaende.</l>
+						<l>Al blonck het spoor, noch zagh de menner op 't gebaende</l>
+						<l>Hen niet te breidelen. de Vierstar voelde alreê</l>
+						<l>Dees hitte d'eerste reis, en pooghde zich in zee</l>
+						<l>Te dompelen, hoewel 't haer eeuwigh is verboden.</l>
+						<l>De Slang, dicht aen den Beer geplant, van 't hooft der Goden,</l>
+						<l>Ontdoide, door dien gloet tot gramschap aengeterght.</l>
+						<l>De Noortboer neemt de vlught, op dat hy 't leven berght.</l>
+						<l>De droeve Faëton, zoo diep in d'aerdtsche delling</l>
+						<l>Van boven ziende, zat gedootverft uit ontstelling,</l>
+						<l>En al te sterck een' dagh van 't onverdraeghsaem licht</l>
+						<l>Verduistert door dien glans zijn schemerend gezicht.</l>
+						<l>Nu wenscht de zoon dat hy zijn' vader noit eens kende,</l>
+						<l>En slechts, als Merops zoon, ontslagen van elende</l>
+						<l>Te leven. och, hy ziet te spade eens achterwaert</l>
+						<l>Een lange streeck, en voor een langer, om zijn vaert</l>
+						<l>Te staecken. och, hy ziet dan westwaert, dan ten oosten,</l>
+						<l>En niet dat hem in noot beschermen kan, en troosten,</l>
+						<l>Noch weet den teugel niet te houden, noch t'ontslaen.</l>
+						<l>De hemel jaeght hem schrick met stargedroghten aen.</l>
+						<l>'t Venijnigh Scorpioen steeckt van zich in zijn lijden.</l>
+						<l>De jongen laet, verbaest van schrick, den teugel glijden.</l>
+						<l>De paerden voelen 't, en, van muilprang nu ontsnoert,</l>
+						<l>Aen 't heenestreven, waer de drift hen heenevoert,</l>
+						<l>Zien spoor noch onspoor aen, verbysteren, verwarren,</l>
+						<l>En steigeren van losse oock naer de vaste starren,</l>
+						<l>Dan weder hoogh, dan laegh, daer vier en lucht zich mengt.</l>
+						<l>De wolcken roocken. d'aerdt wort van de vlam gezengt.</l>
+						<l>Het aerdtrijck splijt, en weide en beemt verbrant tot assen.</l>
+						<l>De bosschen branden, en alle ackers en gewassen.</l>
+						<l>De steden lijden last. de bergen staen in brant.</l>
+						<l>De stroomen droogen uit. de kil verkeert in zant.</l>
+						<l>De visschen leggen bloot, en ademloos bezweken.</l>
+						<l>De dolfijn durf het hooft niet uit de baren steecken.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Jupijn, beschut ons. zie den noot der weerelt aen.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Hoe wil dees zonnevaert ten leste noch vergaen?</l>
+					</sp>
+					<sp who="#de-faem">
+						<speaker>Faem</speaker>
+						<l>De voedtzaeme Aerde hief haer aengezicht naer boven,</l>
+						<l>En, van een koorts bereên, riep 't hooge hof der hoven</l>
+						<l>Aldus om bystant aen: ô opperste Jupijn,</l>
+						<l>Verdiende ick zulck een straf, zoo kort dees smart en pijn:</l>
+						<l>Doorschietme met uw' schicht: laet my alleen verwerven</l>
+						<l>Door uwen blixem, en geen ander vier, te sterven.</l>
+						<l>Mijn keel is heesch. de tong slaet nauwelijx geluit.</l>
+						<l>Mijn vlechten zien gezengt. ick aessem dampen uit.</l>
+						<l>Beloont men endtlijck dus mijn' last, geleên in 't baeren,</l>
+						<l>Den zuuren arbeit, en het zweet van zoo veel jaeren?</l>
+						<l>Mijn' boezem jaer op jaer doorsneên van schaer en ploegh?</l>
+						<l>Bestelde ick mensch en vee niet vrucht en voêr genoegh,</l>
+						<l>Uw outer wieroock? 'k ben te vrede, en hy geduldigh:</l>
+						<l>Maer aen wat misdaet zijn de brongodinnen schuldigh,</l>
+						<l>De stroomgodinnen, en de godtheên van de zee?</l>
+						<l>De zee zinckt laeger. ja de viervloet dreight alree</l>
+						<l>Den hoogen hemel in een zee van vier te zetten:</l>
+						<l>Want d'assen roocken. al de watergoôn trompetten:</l>
+						<l>Waeck op. de brant steeckt op, en flackert fel en snel.</l>
+						<l>De hoop is uit, ten zy Jupijn flux orden stell'.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Merkuur, verdaegh Jupijn. wy wachten hier ter stede.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Hy heeft de tijding wech. Jupijn genaeckt alreede.</l>
+						<l>O groote koningin, u voeght het uwen heer</l>
+						<l>Te prickelen in noot tot hulp, en tegenweer.</l>
+						<l>Belieft het u, hou aen, en stel den noot voor oogen.</l>
+						<l>Geene uitkomste is'er dan door Jupiters vermogen.</l>
+					</sp>
+
+				</div>
+				<div n="3" type="scene">
+					<stage>JUNO. JUPITER. HEMELRAET.</stage>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Myn bedtgenoot, mijn heer, wat raet in dezen stant?</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Wy staecken, reis op reis, een lant, een rijck in brant,</l>
+						<l>En hof en toren, oock mijn eigen koor en kercken.</l>
+						<l>Wy spaerden heiligh noch onheiligh, onder 't stercken</l>
+						<l>Van 't hooghste recht, om streng door aengejaeghden schroom,</l>
+						<l>Ten spiegel van elck een, 's volx boosheit by dien toom</l>
+						<l>Te houden: maer nu blaeckt de dolle zonnewagen</l>
+						<l>Den ganschen aerdtboôm, en bezaeit met pest en plaegen</l>
+						<l>De wijde weerelt, van het een aen 't ander endt.</l>
+						<l>Nu worden schuldige en onschuldige geschent.</l>
+						<l>Wy hooren het gekerm van allerhande troepen</l>
+						<l>Van volcken, die van oost en west om noothulp roepen.</l>
+						<l>Zu schreien hemelhoogh, in dien verlaeten staet.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Op dat geschreeu verschijnt de breede Hemelraet,</l>
+						<l>En wacht op uw gebodt en uitspraeck in 't byzonder.</l>
+						<l>Nu blixem, het is noot. nu bulder, balder, donder,</l>
+						<l>En weêrlicht. stort nu al uw sluizen teffens uit.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Ten zy uw majesteit dien blinden voerman stuit,</l>
+						<l>In zijnen wulpschen toght, het is'er omgekomen.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Wat raet, ô Hemelraet? wat best ter hant genomen?</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Zit aller Goden hooft in zijnen troon verbluft</l>
+						<l>Van achterdocht en schroom? zoo 't hooft der Goden suft,</l>
+						<l>Wie zal dien weereltbrant uitblusschen? wie ons redden?</l>
+						<l>Dit komt van bastertbloet, van vuile onechte bedden.</l>
+						<l>Klymene, had Lucijn, in uwen arrebeit,</l>
+						<l>U niet geredt; toen gy, bestorven, afgeschreit,</l>
+						<l>Om noothulp jammerde naer 's hemels hooge poorte;</l>
+						<l>Had zy dit bastertzaet gesmoort in zijn geboorte,</l>
+						<l>En vrucht en moeder, op een' oogenblick, verdaen,</l>
+						<l>De weerelt zou nu niet in lichte vlamme staen.</l>
+					</sp>
+
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Des naklaght kan ons nu geen' raet noch uitkomst geven,</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Neen zeker, dit's te spa. is iemant meer bedreven</l>
+						<l>En wijzer, laet hem raên. men sla een middel voor.</l>
+						<l>Wat ons belangt, helaes, wy zien hier naulijx door.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Zoo most uw adelaer veel scherper zien van boven.</l>
+						<l>Gy trefte menighmael de boozen, datze stoven,</l>
+						<l>Als asschen in den wint. sla toe. verdelgh. sla doot</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Wien dootslaen? Febus zoon? de vader is te groot.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Wat gaet u over? spreeckt Jupijn nu voor een' bastert,</l>
+						<l>Een' onverlaet, een' vloeck, een' booswicht, waert gelastert?</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Wie dezen zoon quetst, quetst den vader in den zoon.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Dit is een nieuwe spraeck, onze ooren ongewoon.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>'k Waerdeere en weeg den zoon naer 's vaders staet en waerde.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Verschoonde uw blixem wel het snoot gebroet van d'Aerde,</l>
+						<l>De berghopstapelaers, de reuzen, die met kracht,</l>
+						<l>Langs hunne storrembrugh, niet schroomden dagh en nacht</l>
+						<l>Te stormen op uw' burgh, om 't Godendom t'ontblooten</l>
+						<l>Van wapenen, en u en teffens ons te stooten,</l>
+						<l>Te bonzen uit den stoel, van eere en majesteit</l>
+						<l>T'ontluisteren? al zaeght gy d'Aarde root beschreit,</l>
+						<l>Zy most haere afkomst, van geberght bestulpt, zien smooren.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Der reuzen vyantschap verweckte's hemels toren</l>
+						<l>Tot nootweer: maer onnoosle en wulpsche Faëton</l>
+						<l>Vergrijpt zich zonder haet, in 't voeren van de zon.</l>
+						<l>Hy haet geen Goden, noch beoorloght hun uit boosheit.</l>
+						<l>Dees misdaet spruit alleen uit stoute reuckeloosheit.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>En zoo al 't aerdtrijck by dees reuckeloosheit lijdt?</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Hy lijdt zelf eerst, en schreit, en is de toom al quijt.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Laet hem met reden dan dees reuckeloosheit boeten.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Ja tree en trap hem: trap dit bastertbloet met voeten.</l>
+						<l>Och Isis, toghtigh dier, van schaemte en eer berooft,</l>
+						<l>Uw toght naer stieren kost mijn' trouwen wachter 't hooft:</l>
+						<l>Noch wortge, langs den Nijl, op 't outer aengebeden,</l>
+						<l>Bewieroockt en gedient in kercken en in steden.</l>
+						<l>Wat rechten basterden en boelen niet al aen!</l>
+						<l>Sla Faëton, of 'k wil hem met den donder slaen,</l>
+						<l>U zelf ontwapenen, en uw geweer ontwijden.</l>
+						<l>De Godtheên staet geen' schimp van basterden te lijden.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Niet hooger, Juno. draegh den oppersten ontzagh.</l>
+						<l>Men waerschuw' Febus eerst.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Ja, waerschuw met den slagh</l>
+						<l>Dien stouten schelm, niet waert in 't leven te gedoogen.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>En waerom schijnt uw hart met Febus rou bewogen?</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>De last der zonnevaert, het licht, wert hem betrout,</l>
+						<l>En zijn voorzichtigheit. hy koestert, onderhout</l>
+						<l>De menschen en het vee. beneem zijn hooft dien luister,</l>
+						<l>Zoo wort het eeuwigh nacht; zoo leght de weerelt duister,</l>
+						<l>En woest; zoo wort voor ons geen offervee geslaght.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>De Faem beweeghde ons hart met eene zelve klaght</l>
+						<l>Van d'Aerde, een moeder en voortbrengster aller dingen:</l>
+						<l>Want zonder d'Aerde, een bron van vruchtbaerheit, vergingen</l>
+						<l>De menschen, dieren, en wat lucht en adem schept.</l>
+						<l>Vertroostze, ô vader. al het aerdtrijck roept, en klept</l>
+						<l>De brantklock, schreeut zich heesch, te berste, en uit den adem,</l>
+						<l>Al wat Natuur uit liefde en zorge trou omvadem,</l>
+						<l>In haeren ruimen schoot, verwacht den jongsten snick.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Ontwaecktge niet, verwacht den lesten oogenblick.</l>
+						<l>De hemel zal terstont in lichten brant geraecken,</l>
+						<l>De daghtorts vaeren in de starrelichte daecken,</l>
+						<l>En 't hemelsche gespan: dan zultge nootweer biên,</l>
+						<l>Maer veel te spade naer uw hielen ommezien.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Een wulpscheit straffen, wat te dartel, en vermeeten?</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Gy klonckt Prometheus aen een steenrots, met zijn keten</l>
+						<l>Gebonden, en doorpickt van uwen adelaer</l>
+						<l>Zoo diep in 't harte, en niet gepijnt een eenigh jaer,</l>
+						<l>Maer eeuwigh, om een' tack aen 't zonneradt ontsteecken.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Gy vaeghde 't aerdtrijck van zijn smetten en gebreken,</l>
+						<l>En smoorde al 't menschdom, in een' hoogen watervloet:</l>
+						<l>Wat suftge nu, om slechts met eene hantvol bloet</l>
+						<l>Te blusschen deze zee van vier, eerze in koom' breecken?</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Het is geraden eerst den vader zelf te spreecken,</l>
+						<l>Of hy bestemmen kan ter straffe van den zoon.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Zie toe, beschut uw recht. het gelt uwe eer en kroon.</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<stage>JUPITER. FEBUS. JUNO. HEMELRAET.</stage>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Hoe laet nu Febus 't hooft zoo droef en treurigh hangen?</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Der Goden koning heeft de tijding al ontfangen.</l>
+						<l>Verschoon het dat de zoon zijn vaders les niet houdt.</l>
+					</sp>
+
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>De zonnewagen was den vader zelf betrout</l>
+						<l>Van al den Hemelraet, doch eerst op ons behaegen;</l>
+						<l>Geensins om dit heelal, op eenen sprong, te waegen,</l>
+						<l>Op uwen wagen, in dien blinden wagenaer.</l>
+						<l>Nu loopen hemel aerde en zee en lucht gevaer.</l>
+						<l>Hoe kon het Godendom en menschdom dit verwachten</l>
+						<l>Van zulck een' Godt als gy? nu steigeren de klaghten</l>
+						<l>Van onder door de lucht naer onzen hoogen stoel.</l>
+						<l>Wy zaten evenwel dus lang noch stil en koel.</l>
+						<l>Nu perst de noot het recht te scherpen uit den hoogen.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Genade, ô vader. och verschoon uit mededoogen</l>
+						<l>Dien ongebaerden knaep: het is zijne eerste proef.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Wat raet? ons rijxkroon hangt aen eene paerdehoef.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Oock 't leven van mijn' zoon, noch jongk en onervaeren.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Hoe sluit dit? zal men, om een' eenigen te spaeren,</l>
+						<l>Het al bederven, en de weerelt zien vergaen?</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Hy is noch niet gerolt ten ende van zijn baen,</l>
+						<l>En zal afzitten, na dees daghvaert, in het weste.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Dat is onmogelijck. het loopt met hem op 't leste.</l>
+						<l>Onze ooren worden door 's volx moortgeschrey verdooft.</l>
+						<l>Hy tuimelt om en weêr, en over hals en hooft.</l>
+						<l>De zonnewagen moet en is alreede aen 't storten.</l>
+						<l>Het waer u nutter hem de vleugels snel te korten,</l>
+						<l>En door een korte doot te helpen uit dees pijn,</l>
+						<l>Dan langer 't leven uit te zetten, of den schijn</l>
+						<l>Van 't leven: want dit kan geen' naem van leven draegen.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>'k Heb Python, oirzaeck van der sterfelijcken plaegen,</l>
+						<l>Doorschoten, en gevelt, gezuivert bergh en vliet:</l>
+						<l>Gedenckt het aerdtrijck nu aen Febus weldaet niet?</l>
+						<l>'k Genas der menschen quael door vonden van artsnyen,</l>
+						<l>En kracht van kruiden, om het kranckbedde in zijn lyen</l>
+						<l>Te zalven. ick verdreef zoo lang de naere schim,</l>
+						<l>En voerde met mijn licht de blyschap op de kim</l>
+						<l>Der weerelt. 'k wert alom bewieroockt, aengebeden,</l>
+						<l>En toegejuicht van 't volck, op 't lant, en in de steden.</l>
+						<l>De dichters zetten op mijn harp een' blijden toon:</l>
+						<l>En noemt men nu een feil een' misgreep van mijn' zoon</l>
+						<l>(Geen boosheit, maer alleen een reuckeloos vermeeten)</l>
+						<l>Een gruwzaeme euveldaet? wort al mijn deught vergeeten?</l>
+						<l>O vader Jupiter, 't believe uw majesteit</l>
+						<l>My aen te trecken een natuur van sterflijckheit,</l>
+						<l>En zoon en vader met uw' donderkloot te schieten:</l>
+						<l>Want dus te leven, zou een godtheit zelf verdrieten.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Indienge raet weet, schut het hollen van uw zon.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Geen wil ontbreecktme, indien men 't onheil schutten kon.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Wat wiltge dan? gy ziet den Hemelraet verlegen.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Laet Juno door een berst van wolcken en slaghregen</l>
+						<l>De lucht verkoelen, en het brandende aerdtrijck me.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Geen wolcken trecken naer den hemel uit de zee.</l>
+						<l>Men ziet den hemel met geen donckre wolck behangen.</l>
+						<l>De gloet verteert al 't vocht. de starren zelfs verlangen</l>
+						<l>Naer eenen druppel nats. de bron, die eeuwigh sprong,</l>
+						<l>Staet stil. de Watergoôn beginnen met hun tong,</l>
+						<l>Bykans van dorst verstickt, het drabbigh slym te lecken.</l>
+						<l>Een zwaere storting, buy noch regenvlaegh kan strecken</l>
+						<l>Tot koelnis van dien gloet. al d'aerde tot den gront</l>
+						<l>Gelijckt een oven. uit haer keele en droogen mont</l>
+						<l>Vlieght gloeiendige damp, en pest, en heete waessem.</l>
+						<l>Ten zy men haer verquick', zy geeft den lesten aessem.</l>
+					</sp>
+
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Hier gelt geen lang beraet. de weerelt hangt beklemt.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Wy willen datge flux der Goden raet bestemt.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Hoe kan ick stemmen het bederf van mijn' beminden,</l>
+						<l>Om een lichtvaerdigheit, een reuckloos onderwinden?</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Gy zult het stemmen, om dien algemeenen noot.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Och Faëton, hoe kan ick stemmen in uw doot?</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Het zy gy stemt, of zwijght, men kan uw' zoon niet spaeren.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Zoo straf eerst Epafus, te trots in uit te varen.</l>
+						<l>Uw Epafus gaf stof tot dees vermeetenheit.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Zie toe met wien gy spreeckt, en quets geen majesteit.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Verschoon mijn ongedult. de rou gebruickt geen reden.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>De brant wint aen, slaet voort, en steigert van beneden.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Wy voelen 't, doch vergeefs, ten zy gy d'oirzaeck blust.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Hy rolt al neder, en genaeckt de westerkust.</l>
+						<l>De zonnekloot zal haest te water gaen, en zincken:</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Zoo wy met eenen strael hem in den afgront klincken.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Ja klinck dien bastert, en zijn moeder in een' poel.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Och zwijgh. my dunckt dat ick dien slagh op 't hart gevoel.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>En beter dat het een gevoel, dan wy te gader.</l>
+					</sp>
+
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Och zoon, in welck een' staet verlaetge uw' lieven vader!</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Hoe menigh vader lijdt in zijnen zoone alleen?</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Nu Febus, hou eens op van 't ydele gesteen.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Gy zult besluiten, of de Hemelraet zal sluiten.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Ick wensch den donderkloot op deze borst te stuiten.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Bestem het, Febus: of wy stemmen zonder u.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Vaer voort. dit duurt te lang. waerom dus traegh en schuw</l>
+						<l>Het vonnis vast gestelt? de Hemelraet moet scheiden.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Zoo scheide ick eerst, ga heene, en wil dien slagh verbeiden.</l>
+					</sp>
+					<sp who="#juno">
+						<speaker>Juno</speaker>
+						<l>Ja schey vry: het is tijt. wy zijn dit kermen moê.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Nu vader Jupiter, hy stemt het zwijgend toe.</l>
+						<l>De hemel stickt van smoock, en opgestege dampen.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Getrouwe schiltknaep, voort: verschijn: gy wort met stampen,</l>
+						<l>Dat al de hemel dreunt, gedaghvaert hier ten hoof.</l>
+						<l>Te wapen, wapen voort. hier valt een vette roof</l>
+						<l>Voor u te strijcken. voort: gehoorzaem 't hoogh vermogen.</l>
+						<l>Daer komt mijn arent met den blixem aengevlogen,</l>
+						<l>In alle eerbiedigheit. nu rep de vleugels vlugh.</l>
+						<l>Wy willen voor de poort beschrijden uwen rugh,</l>
+						<l>En, zonder omzien, flux dit bloedigh treurspel sluiten:</l>
+						<l>Dat zal op Faëtons en Febus borst afstuiten.</l>
+					</sp>
+
+				</div>
+				<div n="5" type="scene">
+					<stage>REY VAN UUREN.</stage>
+					<sp who="#rey-van-uuren">
+						<speaker>I. Zang</speaker>
+						<l>  Geluckige Adelaer,</l>
+						<l>O vorst der voglen, die, geheven</l>
+						<l>Van d'aerde, door den hemel zweven,</l>
+						<l>Neem nu ons klaghten waer.</l>
+						<l>Gy kunt met scherpziende oogen</l>
+						<l>  Den brant van aller straelen bron,</l>
+						<l>Het steecken van de middaghzon</l>
+						<l>In 't hooftpunt zelf gedoogen.</l>
+						<l>Gy schroomt geen wederlicht</l>
+						<l>Noch gloet des blixems. uwe veêren</l>
+						<l>Alle andre pennen snel verteeren,</l>
+						<l>Genaeckenze u te dicht.</l>
+						<l>O schiltknaep van den vader</l>
+						<l>Jupijn, vol majesteit en kracht,</l>
+						<l>Betoom de snelheit van uw schacht.</l>
+						<l>Genaeck het westen spader.</l>
+						<l>Verschoon den jongen knecht.</l>
+						<l>Gena, gena, geen recht.</l>
+					</sp>
+					<sp who="#rey-van-uuren">
+						<speaker>I. Tegenzang</speaker>
+						<l>Betoom uw snelle vlught.</l>
+						<l>Waerom zoo heftigh toegeschoten</l>
+						<l>Met blixemschut, en donderklooten,</l>
+						<l>Door 't gloeien van de lucht?</l>
+						<l>Wat lust u roof te haelen</l>
+						<l>Op Febus afkomste, op het bloet</l>
+						<l>Van Jupiter, wiens torengloet</l>
+						<l>Geen grenzen kent, noch paelen?</l>
+						<l>De zon heeft noit ontdeckt</l>
+						<l>Aen Juno Jovis snoeperyen,</l>
+						<l>Boeleeringe, en ontuchtigh vryen,</l>
+						<l>Noch haere wraeck geweckt.</l>
+						<l>Jupijn, nu t'ongeduldigh,</l>
+						<l>Te streng in 't straffen van een zaeck,</l>
+						<l>Medoogenwaerdigh, vlamt op wraeck</l>
+						<l>Des jonglings, al t'eenvuldigh.</l>
+						<l>Een Godt, die 't al beheerst,</l>
+						<l>  Bestraff' zich zelven eerst.</l>
+					</sp>
+					<sp who="#rey-van-uuren">
+						<speaker>II. Zang</speaker>
+						<l>Had Faëton Jupijn</l>
+						<l>Gewelkomt aen den disch, geladen</l>
+						<l>Met menschevleesch, aen spit gebraden,</l>
+						<l>En, onder schoonen schyn</l>
+						<l>Van heusch onthael, besloten</l>
+						<l>By nacht den grooten dondergodt</l>
+						<l>Al stil te stooten door den strot,</l>
+						<l>Daer hy van slaepnat lagh begoten;</l>
+						<l>Gelijck het wreede dier</l>
+						<l>Lykaon hem zoo helsch onteerde,</l>
+						<l>En hierom in een' wolf verkeerde,</l>
+						<l>Gestraft door 't hemelsch vier:</l>
+						<l>Wy zouden dus niet kermen</l>
+						<l>Om Faëton, die naulijx leeft,</l>
+						<l>  En ree de doot geladen heeft,</l>
+						<l>Te bergen, en beschermen.</l>
+						<l>Hou draegende, en vaer slim!</l>
+						<l>Zoo wint de zoon de kim.</l>
+					</sp>
+					<sp who="#rey-van-uuren">
+						<speaker>II. Tegenzang</speaker>
+						<l>Apollo voelt noch hoe</l>
+						<l>De felle pijl der dertle liefde</l>
+						<l>Hem onlangs in het harte griefde.</l>
+						<l>Dees wonde is naulijx toe.</l>
+						<l>Hy voelt, het welck ons deerde,</l>
+						<l>De nasmert en quetsuur, geleên</l>
+						<l>  Om Peneus dochter, toenze in een'</l>
+						<l>Laurierboom snel verkeerde.</l>
+						<l>Hy staeckte al 't zanggeluit,</l>
+						<l>En hing de harp aen lauwerboomen,</l>
+						<l>Om 't lieve pant zijn liefde ontnomen,</l>
+						<l>  En zagh'er deerlijck uit.</l>
+						<l>Och treffen donderslaegen</l>
+						<l>Den zoon, alleen van hem bemint;</l>
+						<l>Hoe zal het vaders hart zijn kint,</l>
+						<l>Dat hemelsch pant, beklaegen!</l>
+						<l>  Och Adelaer, verschoon,</l>
+						<l>Verschoon toch Febus zoon.</l>
+					</sp>
+					<sp who="#rey-van-uuren">
+						<speaker>Slotzang</speaker>
+						<l>De schiltknaep, zwanger van Godts donder</l>
+						<l>En blixem, acht ons klaghten niet.</l>
+						<l>Het aerdtrijck wacht den slagh hier onder.</l>
+						<l>  De vogel streeft al voort, en schiet</l>
+						<l>Voorover naer de westerstreecken,</l>
+						<l>Hy achterhaelt den zonnetoom.</l>
+						<l>Indien Jupijn koome uit te breecken</l>
+						<l>Met donder, zal men stroom op stroom,</l>
+						<l>Stortregens uit de lucht zien bruizen</l>
+						<l>En koelen deze weereltkoorts,</l>
+						<l>Dien brant van kercken, hoven, huizen,</l>
+						<l>En Febus hooren hoe zijn toorts</l>
+						<l>In 't water kist. vertoeft niet langer.</l>
+						<l>Daer berst de lucht, van weêrlicht zwanger.</l>
+					</sp>
+				</div>
+			</div>
+			<div n="5" type="act">
+				<head>Het vyfde bedryf.</head>
+				<div n="1" type="scene">
+					<stage>DE FAEM. FEBUS.</stage>
+					<sp who="#de-faem">
+						<speaker>Faem</speaker>
+						<l>Ick blaes klaeroen van vreught. nu weêr Iö Pean</l>
+						<l>Gezongen, dat het klincke, en 't hemelsche gespan</l>
+						<l>Den weêrgalm zevenwerf te rugg' kaets' heene en weder.</l>
+						<l>De dolle wagenaer wort met een' ruck de veder</l>
+						<l>De slaghpen uitgeruckt. een heele weereltplaegh,</l>
+						<l>Een wreeder Python kreegh een zwaerder nederlaegh.</l>
+						<l>Men eere Jupiter in kercken en in kooren.</l>
+					</sp>
+
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Och Faëton, helaes, ter quader uur geboren</l>
+						<l>Tot zulck een ongeval, ter schande van mijn' naem!</l>
+						<l>Koom herwaert aan: ontvoume, onwellekome Faem,</l>
+						<l>Hoe deerlijck Faëton, mijne afkomst, quam te sneven.</l>
+					</sp>
+					<sp who="#de-faem">
+						<speaker>Faem</speaker>
+						<l>De dondergodt quam op zijn' arent nederstreven,</l>
+						<l>En zagh den wagenaer neêrhangen, dootsch van schroom,</l>
+						<l>Op 't hollend radt, ontbloot van zweep, en torts, en toom,</l>
+						<l>Beroockt, gezengt, gebraên van hitte, en afgeronnen.</l>
+						<l>Hy had de westkim en den avont schier gewonnen,</l>
+						<l>Wanneer Jupijn, van toorne ontsteecken, brult en bruist,</l>
+						<l>Den rooden blixem vat, in zijne rechte vuist,</l>
+						<l>En drymael wickte van zijn oortip, drymael mickte,</l>
+						<l>Zoo vreesselijck dat zelf de Hemelschutter schrickte.</l>
+						<l>Ten leste schoot hy toe. de donder sloegh geluit.</l>
+						<l>Zoo bluschte 't eene vier terstont het ander uit.</l>
+						<l>De blixem sleepte een streeck van weêrlicht, blaeu als zwavel</l>
+						<l>En root, na in zijn vlught. de slagh wert op den navel</l>
+						<l>Der aerde zelf gevoelt. de zonnepaerden staen</l>
+						<l>Verbaest, en steigren op elckandren blindling aen.</l>
+						<l>Zy schudden 't juck af van den neck, een wijl aen 't roocken,</l>
+						<l>En spatten buiten hun garreelen, nu gebroken.</l>
+						<l>Hier leght de breidel, daer de dissel van zijne as</l>
+						<l>Gesprongen, ginder speeck en radt. de wagen was</l>
+						<l>Gerabraeckt van dien slagh, en lagh gestroit aen stucken.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Och Faëton, uw val zal vader eeuwigh drucken.</l>
+						<l>Helaes, waer bleef mijn zoon? hoe was 't met hem gestelt?</l>
+					</sp>
+					<sp who="#de-faem">
+						<speaker>Faem</speaker>
+						<l>Het gouden haer gebrant. de groote schoonheit smelt,</l>
+						<l>Gelijck een wassenbeelt, het vier te na gekomen.</l>
+						<l>Hy stort voorover, dat zelfs hemeldieren schroomen,</l>
+						<l>Gelijck een heldre star om hoogh by nacht verschiet,</l>
+						<l>Eerst hangt, en twijffelt of zy vallen wil of niet,</l>
+						<l>Hy plompt in d'Eridaen, van zulck een' slagh gebroken:</l>
+						<l>Die spoelt den roock af van zijn aenzicht, onder 't smoocken.</l>
+						<l>De Watergodtheên van Hesperie, begaen</l>
+						<l>Met hem, begraven 't lijck. de moeder ziet het aen,</l>
+						<l>Met haere dochteren, en missen hunn' beschermer.</l>
+						<l>Zy lezen 't grafschrift, flux gehouwen op den marmer.</l>
+						<l>Hier rust de voerman van zijn vaders rijcke zon.</l>
+						<l>Italje is 't kerckhof van den stouten Faëton.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Och Faëton, mijn hart leght in uw hart begraven!</l>
+						<l>Dat komt van al te hoogh te reuckeloos te draven.</l>
+						<l>Hoe voer Klymene in 't endt, bezweecken door dien rou?</l>
+					</sp>
+					<sp who="#de-faem">
+						<speaker>Faem</speaker>
+						<l>Zy smilt van groot misbaer in traenen, d'arme vrou,</l>
+						<l>In wie de liefde noch het sterven tegensportelt.</l>
+						<l>De dry gezusters, met de voeten diep gewortelt</l>
+						<l>In d'aerde, worden met een dorre schors bedeckt.</l>
+						<l>De moeder ziet de schors, die over 't aenzicht treckt,</l>
+						<l>En kust de stervenden, tot stervens toe beladen.</l>
+						<l>Zy grijpt het vloeiend haer, maer grijpt een hantvol bladen.</l>
+						<l>Zy pooght de popelschors te rucken van de borst:</l>
+						<l>Maer 't is te spa, en zy t'onmaghtigh bast en korst</l>
+						<l>Te rucken van den buick. zy ziet de poeslige armen</l>
+						<l>Verkeert in tacken. och zy konze niet beschermen.</l>
+						<l>De traenen biggelen, als brantsteen, in de zon.</l>
+						<l>Daer leght nu al uw hoop gesmoort in Faëton.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Och, kon Klymene niet de schors van 't lichaem rucken?</l>
+					</sp>
+					<sp who="#de-faem">
+						<speaker>Faem</speaker>
+						<l>De dochters schreeuden: wee, ô wee, hou op van plucken.</l>
+						<l>Verschoon ons. moeder, och, hoe scheurtge ons zoo verwoet?</l>
+						<l>Gy breeckt de tacken; op de tacken volght het bloet,</l>
+						<l>Als uit een versche wonde. och, leer uw leedt gedoogen.</l>
+						<l>De boomschors sluit terwijl den mont, en luickt haere oogen.</l>
+						<l>Toen quamer Cycnus by, de koning over 't rijck</l>
+						<l>Van Ligurye, in aert neef Faëton gelijck:</l>
+						<l>Dees klaeghde en jammerde om zijn bloetverwanten droever,</l>
+						<l>Waerop de stroomgalm, langs den Eridaenschen oever,</l>
+						<l>Hem telckens antwoorde: en dus klaegende op het ruim,</l>
+						<l>Verandert al zijn vel en haer in zwaenepluim,</l>
+						<l>Het lichaem in een zwaen. toen vloogh ick herwaert heene.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Och Faëton, mijn zoon, och bedtgenoot Klymene,</l>
+						<l>Och dochters, Cycnus och, och heiloos blixemvier!</l>
+						<l>Gy Hemeluuren, brengt mijn' rouwesluier hier.</l>
+						<l>De vreught is uit. 't is tijt mijn aengezicht te decken.</l>
+						<l>Dees rouwesluier kan een regenboogh verstrecken,</l>
+						<l>Waerachter Febus glans der sterfelijcken oogh</l>
+						<l>Ontschuilt, en 't volck misgunt mijn straelen van om hoogh,</l>
+						<l>Om hunne ondanckbaerheit. het lustme nu te treuren,</l>
+						<l>De locken uit het hooft te trecken, 't kleet te scheuren,</l>
+						<l>Te huilen door 't gewelf des hemels zonder endt.</l>
+						<l>Och, dochters, popelbosch, och Faëton, geschent,</l>
+						<l>Geblixemt, och mijn zoon. och waertge noit geboren!</l>
+						<l>Was my dit ongeluck, dit hartewee beschoren?</l>
+						<l>Is dit rechtvaerdigheit? is 't hemelsch hof zoo dra</l>
+						<l>Verkeert in een gerecht van wraecke en ongena?</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<stage>JUPITER. HEMELRAET. FEBUS.</stage>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Wy komen uwen rou medoogende beklaegen:</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>En wenschen u gedult en kracht om dit te draegen,</l>
+						<l>Zoo kloeck en ongesteurt, gelijck een godtheit voeght,</l>
+						<l>Die onbezweken aen der Goden wil genoeght.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Dat's recht en billijck, en Jupijn zijn eer gegeven.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Men kan noch magh den wil der Goden wederstreven.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Wat onherstelbaer is wort met geen' rou geboet.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Hy mat vergeefs zich af, wie hier noch tegens wroet.</l>
+					</sp>
+
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Het tegenworstelen kan lijden slechts bezwaeren.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Gy stelde menighmael uw harp en taeie snaeren</l>
+						<l>Op eenen rechten toon: nu stel uw droefheit maet,</l>
+						<l>Ten spiegel van elck een, en schuw dit ongelaet.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Gy kunt met artsenye een anders smert verzachten.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Genees u zelven nu, en wil geen' raet misachten.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Wie zijnen rou voedt, voedt eene ope wonde in 't hart.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Genees uw hartquetzuur, zoo raecktge uit deze smert.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Met jammeren wort niets gebetert, niets gewonnen.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Men vint geen ende aen 't werck, dat telckens wort begonnen.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Gy schud het hooft, en kunt tot geenen troost verstaen.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Ay, zit niet langer stom: de vader spreeckt u aen.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Wie kan u helpen, zoo de rou naer niemant luistert?</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Legh af den sluier, die uw helderheit verduistert.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Rijs op, rijs op. gy valt den rou te streng en straf.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Ick legge in eeuwigheit, ick zweer 't, den rou niet af.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Ay, zweer niet reuckloos. laet u raeden en gezeggen.</l>
+					</sp>
+
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Zwijght stil: het is geen tijt den sluier af te leggen.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Gy kunt de weerelt weêr verheugen in den druck.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Wat weerelt, die noch lacht in Febus ongeluck?</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>De weerelt zonder u kan lust noch leven scheppen.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Zy kan, tot mijn verdriet, met lust de brantklock kleppen.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Uit hoogen noot, geensins uit lust tot uw verdriet.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Dat onweêr is voorby: dat's over: dat's geschiet.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Het onweêr in mijn hart begint eerst op te steecken.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Wy vlogen t'zamen hier, om dezen slagh te breecken.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Wie komt'er? die my trof met zulck een' donderslagh?</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Met uw bestemminge, en een onderling verdragh.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>'k Heb Faëtons bederf, een' moort, niet willen stemmen.</l>
+					</sp>
+					<sp who="#de-hemelraet">
+						<speaker>Hemelraet</speaker>
+						<l>Het hollend zonnepaert was anders niet te temmen.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Nu is het zonnepaert getemt en neêrgeleit.</l>
+						<l>Wat eischt men meer van my? 'k verdroegh dat onbescheit.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Dat gy uw ampt bekleet, en 't weder op laet klaeren.</l>
+					</sp>
+					<sp who="#febus">
+						<speaker>Febus</speaker>
+						<l>Ick heb dat lastigh ampt bekleet een ry van jaeren,</l>
+						<l>Van 's weerelts aenvang, en noit dagh, noit uur gerust,</l>
+						<l>En word dus snoot beloont. zoo u de moeite lust,</l>
+						<l>Of iemant anders, laet hem dezen last aenvaerden,</l>
+						<l>En, leerende den aert, de kracht der zonnepaerden,</l>
+						<l>Gevoelen of dees knaep verdiende dus geschent</l>
+						<l>Te leggen, die te slap den wagen heeft gement:</l>
+						<l>En is Jupijn belust den gloênden vlammeteugel</l>
+						<l>Te houden; dat hy leer' met blixemen den vleugel</l>
+						<l>Van Febus lieven zoone, om zulck een stout bewint,</l>
+						<l>Te korten: dat hy leere een' vader van zijn kint</l>
+						<l>Berooven. Faëton, och, waertge noit geboren!</l>
+						<l>'k Heb mijnen Faëton, mijn' Faëton verloren.</l>
+						<l>Och Faëton, hier staet de blixem, die u trof.</l>
+						<l>Ick wellekomde u flus met blyschap in mijn hof:</l>
+						<l>Nu zijtge een stinckend lijck. waer zijtge toe gekomen?</l>
+						<l>Uw zusters om uw graf, verkeert in popelboomen,</l>
+						<l>Beschreien uwen val, en onverdiende doot.</l>
+						<l>De moeder, die u docht te vangen in haer' schoot,</l>
+						<l>Gelijck eene avondzon in 't zincken noch t'onthaelen,</l>
+						<l>Zagh u neêrtuimelen, en zulcke schoone straelen,</l>
+						<l>De straelen van uw jeught, verdrincken in den vliet.</l>
+						<l>Zy hoorde u plompen in het water. ô verdriet,</l>
+						<l>Mijne afkomst leght'er toe. kan Febus dit vergeeten?</l>
+						<l>En wortme mijnen rou, die billijck is verweeten,</l>
+						<l>Gelijck een ongelaet, dat geenen vader past?</l>
+						<l>En durf de Hemelraet mijn' onverzetbren last,</l>
+						<l>Mijn al te lastigh pack, met schimpen noch bezwaeren?</l>
+						<l>Verscheur uw rougewaet, en sluier. treck uw haeren,</l>
+						<l>Eerst straelen, uit uw hooft. de vierde hemel schrey',</l>
+						<l>En voere in eeuwigheit hier na de roulivrey,</l>
+						<l>Getuige van mijn' rou, al d'aerde, in rou gezeten,</l>
+						<l>In naere duisternis verlaeten, en vergeeten,</l>
+						<l>Gevoele wat het is, en in heeft, mijnen zoon</l>
+						<l>Te moorden, mijne zon te raecken aen haer kroon.</l>
+						<l>Ick zweere in eeuwigheit geene oogen toe te lichten,</l>
+						<l>En wil voor godtheên, noch Jupijn, noch niemant zwichten.</l>
+					</sp>
+					<sp who="#jupiter">
+						<speaker>Jupiter</speaker>
+						<l>Nu zoon, al hoogh genoegh. bedaer en vaer niet voort.</l>
+						<l>Gy hebt mijne onschult, en uw vaders recht gehoort.</l>
+						<l>'t Gebieden staet aen my: noch koom ick nedrigh smeecken,</l>
+						<l>En daele uit mijnen troon zoo laegh. nu hoorme spreecken.</l>
+						<l>Gy hoort den Hemelraet, die u ootmoedigh bidt.</l>
+						<l>Gy ziet hoe 't menschdom droef in duisternisse zit,</l>
+						<l>En zonder vier en licht. wat noch in d'oogen blickert,</l>
+						<l>Is 't overschot des brants, dat noch een weinigh flickert,</l>
+						<l>En flonckert uit zijne asch. de weerelt leght onteert.</l>
+						<l>Zy schijnt haer' eersten vorm te derven, en gekeert</l>
+						<l>In d'oude woestheit, en een baiert, eerst geworden.</l>
+						<l>Herstel 't gerabraeckte, en den wagen in zijne orden.</l>
+						<l>Herspan de paerden, noch verbijstert, en gezengt.</l>
+						<l>Wisch af uw traenen, en den dau, die 't oogh besprengt.</l>
+						<l>Wy smeecken u gy wilt u naer ons bede neigen,</l>
+						<l>Of wacht den tweeden slagh. gehoorzaem, eerwe dreigen.</l>
+						<l>Jupijn gedooght geen schimp, noch al het godendom.</l>
+						<l>Rijs op: wy volgen u. rijs op, de dagh is om.</l>
+						<l>Hy gaet. elck spiegle zich aen 't graf, dat jongh en out zeit:</l>
+						<l>Italje is 't kerckhof van de reuckelooze Stoutheit.</l>
+					</sp>
+					<stage>UIT.</stage>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

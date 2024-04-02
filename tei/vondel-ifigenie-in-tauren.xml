@@ -1,0 +1,3090 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000031" xml:lang="dut">
+
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Ifigenie in Tauren</title>
+				<title type="sub">Uit Euripides.</title>
+				<author>
+					<persName>
+						<forename>Euripides</forename>
+						<surname/>
+					</persName>
+					<idno type="wikidata">Q48305</idno>
+					<idno type="pnd"></idno>
+				</author>
+				<author>
+					<persName>
+						<forename>Joost</forename>
+						<nameLink>van den</nameLink>
+						<surname>Vondel</surname>
+					</persName>
+					<idno type="wikidata">Q312673</idno>
+					<idno type="pnd">118627848</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL"
+						>https://www.dbnl.org/tekst/vond001dewe10_01/vond001dewe10_01_0056.php</idno>
+					<title>J.F.M. Sterck, H.W.E. Moller, C.G.N. de Vooys, C.R. de Klerk, B.H.
+						Molkenboer, J. Prinsen J.Lzn., L. Simons, C.C. van de Graft, L.C. Michels,
+						J.D. Meerwaldt en A.A. Verdenius (eds), De werken van Vondel. Tiende deel
+						1663-1674. De Maatschappij voor goede en goedkoope lectuur, Amsterdam
+						1937</title>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Euripides, Joost van den Vondel (trans.): Ifigenie in Tauren, Uit
+						Euripides. Amsterdam: widow of Abraham de Wees, 1666.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person xml:id="ifigenie" sex="FEMALE">
+						<persName>IFIGENIE</persName>
+					</person>
+					<person xml:id="orestes" sex="MALE">
+						<persName>ORESTES</persName>
+					</person>
+					<person xml:id="pylades" sex="MALE">
+						<persName>PYLADES</persName>
+					</person>
+					<person xml:id="rey-van-grieksche-vrouwen" sex="FEMALE">
+						<persName>REY van Grieksche vrouwen</persName>
+					</person>
+					<person xml:id="herder" sex="MALE">
+						<persName>HERDER</persName>
+					</person>
+					<person xml:id="thoas" sex="MALE">
+						<persName>THOAS</persName>
+					</person>
+					<person xml:id="bode" sex="MALE">
+						<persName>BODE</persName>
+					</person>
+					<person xml:id="minerve" sex="FEMALE">
+						<persName>MINERVE</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-02">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1666">
+				<desc/>
+			</event>
+			<event type="premiere" when="">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+
+			<docTitle>
+
+
+
+				<titlePart>J.v. Vondels <lb/>Ifigenie in Tauren <lb/> Uit Euripides.</titlePart>
+				<titlePart>Hic labor extremus, longarum haec meta viarum.</titlePart>
+				<titlePart>TREURSPEL.</titlePart>
+				<titlePart>t'Amsterdam,</titlePart>
+				<titlePart>Voor de weduwe van Abraham de Wees, op den Middeldam, in 't Nieuwe
+					Testament. Anno 1666.</titlePart>
+				<titlePart><figure/></titlePart>
+			</docTitle>
+			<div type="dedication">
+				<head>Den weledelen en grootachtbaeren Heere Joan Huidekooper, </head>
+				<head>Heere van Maerseveen, Neerdijk &amp;c. <lb/> Voorzittend Schepen en Raet
+					t'Amsterdam.</head>
+				<p>Aristoteles, de vorst der overoude wijzen, ontvout zijnen leerlingen wat de
+					volkomenheit der dichtkunste, en in haer het treurspel vereischt, gelijk
+					Horatius Flakkus hem hierin beknopt navolght. Onder onsterfelijke heldendichters
+					draven Homeer en Virgilius, d'een by de Grieken, d'ander by de Latijnen, gelijk
+					vorsten, vooruit, en zonder wedergade; onder Grieksche tooneeldichters Sofokles
+					en Euripides. De nijdigheit des tijts, ons zoo veele heerlijke tooneelwerken
+					misgunnende, spaerde geene Latijnschen dan alleen het overschot der
+					treurspeelen, in den afgangk der Roomsche taele, by verscheide vernuften
+					gedicht, en op den naem van Seneka den nakomelingen ter hant gekomen. De
+					keurmeesters der tooneelpoëzye strijden onderling of Sofokles of Euripides den
+					prijs in deze renbaene toekomt, en elx deught, van wederzijde, overwogen, en aen
+					den toetsteen van hun oordeel getoetst, zoo staenze met onderscheit beide de
+					kroon toe, Sofokles in onnavolghbaere hooghdravenheyt van stijl en woorden, de
+					staetigheit des treurspels wonderbaer passende; Euripides in het beweegen der
+					hartstoghten, en veele andere uitsteekentheden, van geene mindere waerdye: en
+					indien men zich houden wil aen d'uitspraek van Apollo te Delfis, zoo zal
+					Euripides Sofokles in wijsheit overtreffen: by welke uitspraek men moght voegen
+					het oordeel van den doorluchtigen ridder en drost Hooft, na het doorzien en
+					overweegen van dezen dichter, zoo veel hooger steigerende, en hem uitroepende
+					voor den wijsten, die oit pen op papier zette. Het gaet zeker dat het een eige
+					deught des treurspels is hartstoghten te verwekken, en onder de hartstoghten
+					schrik en medelijden [niet tegenstaende de Stoïsche wijzen zich hier vreemt van
+					houden] ook zulx dat by Aristoteles dit deel boven de welspreekenheit [waerin
+					Sofokles hooghste eer bestaet,] gestelt wort. Men houdt Eschylus voor den
+					eersten grontlegger der treurspelen, door Sofokles en Euripides voltrokken.
+					Krantor schat Homeer en Euripides boven alle dichters. Archelaus, koning van
+					Macedonie, en Dionijs, tyran in Sicilie, onthaelden Euripides menighmael ten
+					hove. Alexander de Groote hadde, in het op daegen der jeught, zijne vaerzen
+					doorgaens in den mont, gelijk ook de gedichten van Homeer, op het aenraeden van
+					Aristoteles, om uit hun den krijgshandel te leeren, en koningkrijken en volken
+					bestieren. Euripides faem was zoo hoogh gestegen, dat de gezanten van Athene
+					quamen zijn lijk verzoeken, om het in zijn vaderlant te laten rusten, doch hun
+					verzoek afgeslagen, zoo wert het te Pella, koning Filippus geboortestadt, met
+					eene heerlijke lijkstaetsie begraven. Twee doorluchtige Hollanders, een
+					Rotterdammer, en Delvenaer, Desiderius Erasmus, en Hugo de Groot, gezant van
+					Christine, koninginne van Sweden, elk een fenix der welsprekenheit en
+					letterwijsheit hunner eeuwe, rekenden het zich tot eere Euripides Poëzy in
+					Latijn te vertaelen. Erasmus zocht Hekuba en Ifigenie in Aulis uit. De Groot
+					koos, beneffens andere, de Fenisse, als de morgenstar der overgeschote werken
+					van Euripides, die zegenrijk vijfmael den prijs der tooneelspeelen won: want hy
+					leerde de natuurkennis van Anaxagoras, de zedekunst van Sokrates, te Delfis met
+					den titel van den wijsten der Grieken vereert. Deze noemden Euripides den
+					tooneelwijze. Quinctiliaen noemt hem den spreukrijken, en zedemeester, op het
+					spoor van Cicero, die elk tooneelvaers van Euripides voor eene merkwaerdige
+					getuighenisse van wijsheit aenneemt. Zoo gebruiken ook Plato, Aristoteles,
+					Plutarchus, en, onder de heilige outvaders, Klemens Alexandrijner dezen
+					tooneeldichter, om hunne zetrede te bezegelen. Ik, om den Nederduitschen
+					tooneeldichteren met eenigh proefstuk van Euripides te dienen, oordeelde niet
+					ongeraden Ifigenie in Tauren te verduitschen, een werkstuk niet misdeelt van
+					deughden en cieraden, in een volkomen treurspel vereischt: want schoon de
+					gedachte weledele heer de Groot de Fenisse in top van alle Euripides
+					treurspeelen verheft, noch moet hy zelf belijden, dat d'onderlinge herkennis van
+					Ifigenie en Orestes, haere kracht barende, aen zijne Fenisse ontbreekt. De heer
+					gezant moght hier niet ongevoeghelijk byvoegen de Catastrophe of uitgang des
+					treurspeels, waeraen d'ommezwaey van ongeluk tot geluk vast hangt door het
+					verschijnen van Minerve, genoemt Deus é machina, of hemelval. Deze beide
+					hooftcieraden munten hier uit, behalve dat vier zaeken, tot een volkomen
+					treurspel noodigh, hier volstaen, naemelijk, het gebou der verzieringe, de zeden
+					der tooneelisten, de zin der dingen, en uitspraek der woorden, alle vier breeder
+					t' onvouwen, indienwe niet liever dit wilden voor bystreven, alleen aantekenende
+					dat, volgens Aristoteles lessen, de treurrol binnen zonneschijn afrolt, het
+					tooneel voor Thoas hof en Dianaes kerke geduurigh onverzet en pal staet, en zoo
+					veel werks kunstigh met acht personaedjen, de reien voor eene enkele gerekent,
+					onverminkt wort uitgevoert.</p>
+				<p>Maer Ifigenie, aldus prachtigh ingekleet, koninglijk uitgestreeken, en vaerdigh
+					ten tooneele te treden, hoort men alreede onweetende tooneeldichthaeters
+					mompelen: wat komt men hier weder voor den dagh met Heidensche dromen en
+					gedichtzelen der Poëten? Laet kinders, laet oude wijven zich aen dusdaenige
+					ydelheden vergaepen; wylieden, wijzer, stemmiger, en ingetogen, stichtige
+					oefeningen hanteeren. Laet uwe ooren niet streelen met ratelende rijmen, en
+					kinderachtige beuzelingen van stoffeerende Poëten. Ja zeker. Denken deze wel dat
+					de deftighste kerk- en hofredenaers dank en eer schuldigh zijn aen Homerus,
+					Virgilius, Ovidius, Horatius, Seneka, Terentius, en diergelijken, hunnen eersten
+					en besten leermeesteren? hoordenze den overgeleerden heer Vossius, in zijn
+					onderwijs der dichtkunste, den grootmogenden Heeren Staeten van Hollant
+					opgedraegen, niet ontvouwen hoe d'oude wijsheit van natuurkennisse, zeden,
+					staetgeleertheit, historien, en andere geheimenissen, onder de bloem van
+					kunstige verzieringen, gescholen leght? Wort Salomons wijsheit niet gestelt
+					boven de wijsheit van Egypte, met de schorsse van aerdige gedachten bekleet?
+					weeten de haeters der dichtkunste wel dat Paulus de kruisgezant, het uitgekoren
+					vat, eenen godtvruchtigen geur ontleent van Aratus, Epimenides, en Menander; en
+					Epikureen, Stoïcijnen, en anderen dwersdrijveren den mont stopt met der
+					dichteren goude spreuken, in zijne gewijde bladen, gelijk perlen, en diamanten
+					uitstekende? doch dees ballon vol wint is voorheene meer dan eenwerf met een
+					armstuk van bondige bewijsredenen rustigh afgekaetst.</p>
+				<p>Weledele Heer van Maerseveen, ik neeme de vrymoedigheit deze vertaelinge Uwe
+					weled. op te draegen, om onder de schaduwe van Uwen naem de kunstbeminners meer
+					en meer t'ontsteeken in de liefde der tooneelpoëzye, zoo veele eeuwen in
+					keizerdommen, koningkrijken, en vrye staeten gehanthaeft; wenschende, ter
+					loflijke gedachtenisse van wijlen den Ridder, uwen heer Vader, uit verplichte
+					genegenheit, U iet waerdigers toe te eigenen: ondertusschen hoope ik d'eer te
+					genieten, dat dit kleene proefstuk uw bescheiden oordeel zal behaegen, en ik
+					blijven,</p>
+				<p>Weledele en grootachtbaere Heer,</p>
+				<p>Uwe weled. en grootachtbaerheids</p>
+				<p>ootmoedige dienaer</p>
+				<p>J.v. Vondel.</p>
+			</div>
+
+
+			<div type="preface">
+				<head>Inhoudt van Ifigenie in Tauren.</head>
+				<p> Orestes, zoon van koning Agamemnon en Klijtemnestre, bezeten van de Razernyen,
+					door Apolloos gebodt in Tauren, een geweste van Scythie, aengekomen, om zich van
+					zijne moederslaght te zuiveren, besluit het beelt van Diane, by de Scythen
+					aengebeden, heimelijk uit de kerke te schaeken, en ter galeie uitgetreden, wort
+					van de lantzaten gezien, en met zijnen bloet- en halsvrient Pylades gevangen:
+					maer ter kerke van Diane gebroght, om als vreemde gasten, naer 's lants wijze,
+					geslaght te werden, geraekt door onderling gesprek aen kennis van Ifigenie,
+					zijne zuster, nu priesterin van Diane, die t'Aulis, een hinde in de plaetse
+					stellende, toenze van den vader geoffert zoude worden, haer herwaert voerde. Zy,
+					na gesprek en beraet met Orestes en Pylades, wort, onder schijn van zich te
+					zuiveren, zeewaert geleit, en gescheept om te vlughten, het welk aen koning
+					Thoas verkuntschapt, hem opwekt om de vlughtelingen na te jaegen. Hierop
+					verschijnt Minerve aen Thoas, verbiet de najaght, en gebiet Orestes zijne reis
+					met de zuster en het geschaekte beelt naer Grieken te voltrekken, uit
+					dankbaerheit daer eene kerk te bouwen, en een jaerlijx feest in te wijden, ter
+					gedachtenisse der zuiveringe van zijne moederslaght, en het ontslaen van de
+					straffe der Razernyen.</p>
+				<p>Het tooneel der verzieringe wort toegestelt in Tauren. De Rey bestaet uit
+					Grieksche Vrouwen, dienstmaeghden van Ifigenie.</p>
+			</div>
+
+			<castList>
+				<head>De Treurspeelers.</head>
+				<castItem corresp="#ifigenie">
+					<role>IFIGENIE.</role>
+				</castItem>
+				<castItem corresp="#orestes">
+					<role>ORESTES.</role>
+				</castItem>
+				<castItem corresp="#pylades">
+					<role>PYLADES.</role>
+				</castItem>
+				<castItem corresp="#rey-van-grieksche-vrouwen">
+					<role>REY van Grieksche vrouwen.</role>
+				</castItem>
+				<castItem corresp="#herder">
+					<role>HERDER.</role>
+				</castItem>
+				<castItem corresp="#thoas">
+					<role>THOAS.</role>
+				</castItem>
+				<castItem corresp="#bode">
+					<role>BODE.</role>
+				</castItem>
+				<castItem corresp="#minerve">
+					<role>MINERVE.</role>
+				</castItem>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+
+				<head>J.v. Vondels <lb/> Ifigenie in Tauren. </head>
+				<div type="scene" n="1">
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>De koning Pelops, zoon van Tantalus, gedraegen</l>
+						<l>Te Pize, in 't renperk, met den oversnellen wagen,</l>
+						<l>Troude Enomaüs spruit, brogt Atreus voort, en hy</l>
+						<l>Vorst Menelaus, en ook Agamemnon. wy</l>
+						<l>Geheeten Ifigene [uit hem en d'echtgenoote</l>
+						<l>Vrou Klytemnestre, een telgh van Tyndar, voortgesproten]</l>
+						<l>Zijn, zoo heer vader waent, geoffert voor Diaen,</l>
+						<l>Daer d'engte Euripus schuurt gestadigh af en aen</l>
+						<l>Met ebbe en vloet den hals des inhams, en de randen</l>
+						<l>Van rustloos Aulis. hier vergaêrden op de stranden,</l>
+						<l>Door Agamemnons last, der Grieken legerheer,</l>
+						<l>Wel duizent schepen, om, tot Menelaus eer,</l>
+						<l>Helene, hem ontschaekt, uit Troie met den degen</l>
+						<l>Te voeren, met de kroon van vollen oorloghszegen:</l>
+						<l>Maer toen'er zwaericheit, voor d'uitgereede kiel</l>
+						<l>En zeilgereede vloot, om zee te kiezen viel,</l>
+						<l>De wint ongunstigh bleef, begon hy raet te leven</l>
+						<l>Met wichlerye uit vier. tolk Kalchas, wel bedreven,</l>
+						<l>Sprak Agamemnon aen: ô hooft der Grieksche vloot,</l>
+						<l>Men kan de haven niet met eenen ruimen schoot</l>
+						<l>Uitzeilen, eerge uw kint en dochter Ifigene</l>
+						<l>Opoffert aen Diaen; naerdienge zwoert voorheene</l>
+						<l>De schoonste vrucht van 't jaer de straelende godin</l>
+						<l>Te wijden. Klytemnestre, uw vrou en koningin,</l>
+						<l>Brogt toen een dochter voort. met dezen naem betekent</l>
+						<l>Hy ons, de schoonste vrucht van 't jaer by hem gerekent.</l>
+						<l>Dees moet gy offren. maer Ulysses voertme ontrou,</l>
+						<l>In schijn als of ik helt Achilles trouwen zou,</l>
+						<l>Met moeder heene: en toen ik t'Aulis was gekomen,</l>
+						<l>En op 't altaerhout knielde, en wachte vast met schromen</l>
+						<l>Den dootsteek van het zwaert, vervoerdeme Diaen,</l>
+						<l>Die eene hinde liet in mijne plaetse staen,</l>
+						<l>Door d'ope lucht hier in der Tauritanen oorden,</l>
+						<l>Daer d'ongriek Thoas heerscht met zijnen staf in 't noorden,</l>
+						<l>Die, vlugger dan een valk, den naem van snelvoet draeght.</l>
+						<l>Hy steltme in deze kerk, gewijt tot offermaeght:</l>
+						<l>Daer zijn godin Diaen gedient is met de wetten</l>
+						<l>Van een schijnheiligh feest, in 't midden van de smetten,</l>
+						<l>Die 'k uit eerbiedigheit veel liever zwijgen zal:</l>
+						<l>Want ik ten offer slaght, naerdien de stadt dit al</l>
+						<l>Van outs gewoon is, wie hier lant uit vreemde steden.</l>
+						<l>Ik wichle uit d'offerhande, en laet de schendigheden</l>
+						<l>Der bloedige offren, in Dianaes kerk geslaght,</l>
+						<l>Aen andren over. 'kwil verhaelen wat te nacht</l>
+						<l>Ons in de lucht verscheen, of dit te pas moght komen.</l>
+						<l>'K was t'Argos uit dit lant gevaeren in mijn droomen,</l>
+						<l>En sliep in 't midden van de maeghden. d'aerde scheen</l>
+						<l>Te daveren, en ik te vlughten ergens heen.</l>
+						<l>Ik stont van buiten, en zagh hof en dak van boven,</l>
+						<l>En posten, overhoop gevallen en geschoven,</l>
+						<l>Ter aerde storten: maer een eenigh hofpylaer</l>
+						<l>Van vaders huis scheen stant te houden in 't gevaer.</l>
+						<l>Een blonde haerlok quam op 's pijlers kruin uitbreeken,</l>
+						<l>En sloegh, gelijk een mensch, geluit, en scheen te spreeken.</l>
+						<l>Ik, die de gasten doode, en hier mijn ampt bekleê</l>
+						<l>Wiesch deze hofkolom, en zuchte, om datze mê</l>
+						<l>De doot was toegedoemt. dees naere droom betekent</l>
+						<l>Orestes doot, voorheen by my al doot gerekent.</l>
+						<l>De hofpylaer bediet de mannelijke vrucht.</l>
+						<l>De gasten sterven hier, als ik hen wassche en zucht.</l>
+						<l>Doch zulk een droom slaet niet op vrienden: want te voren</l>
+						<l>Was Strofius geen zoon, toen vader storf, geboren.</l>
+						<l>'K wil broeders uitvaert, of hy tegenwoordigh waer,</l>
+						<l>In zijn afwezen, hier gaen houden by 't altaer.</l>
+						<l>Ik kan 't uitvoeren met mijn dienstboôn, Grieksche vrouwen,</l>
+						<l>Van koning Thoas my gegunt, op goet vertrouwen.</l>
+						<l>Zy zijn om reên noch niet gekomen hier ter stê,</l>
+						<l>In deze kerk, daer ik mijn offerampt bekleê.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zie toe, sla gade, dat geen mensch ons hier betrappe.</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>'K bespiede, en zie rondom, voorzichtigh, waer ik stappe.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zie Pylades, schijnt dit Dianaes tempel niet,</l>
+						<l>Daer 't schip van Argos hier aen strant belande en stiet?</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>Orest, het schijnt me toe. 'k geloof het dunkt u mede:</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>En 't outer druipt van bloet, vergoten hier ter stede.</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>De kerk is nat van bloet, en root van moort voor 't oogh.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>De wapenroof hangt aen het kerkgewelf om hoogh:</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>Als eerstelingen der geslaghte vreemdelingen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Men zie dan wakker heene en weêr, eerze ons bespringen.</l>
+						<l>Apollo, waer vervoert uw antwoort my met kracht</l>
+						<l>Nu weder in dit net? na mijne moederslaght,</l>
+						<l>Tot wraek van vaders moort, verdreven Razernyen</l>
+						<l>'S lants ballingen uitheemsch rondom, aen alle zyen,</l>
+						<l>Geduurigh heene en weêr onrustigh en alom:</l>
+						<l>En toen ik u om raet vraeghde in uw heilighdom,</l>
+						<l>Op welk een wijs men best moght raeken aen een ende</l>
+						<l>Van dees bezetenheit, en jammerlijke elende,</l>
+						<l>In 't ommezwerven door gansch Griekenlant geleên,</l>
+						<l>Gebootge my door zee, naer 't noortsche Tauren heen</l>
+						<l>Te streven [daer Diaen, uw zuster, op altaeren</l>
+						<l>Gedient wort] om haer beelt, van over veele jaeren,</l>
+						<l>Gevallen uit de lucht, te schaeken uit de kerk,</l>
+						<l>Met list, of zoo het valle, en dit geheilight merk,</l>
+						<l>Gehaelt door veel gevaers, t'Athene in 't licht te stellen,</l>
+						<l>Om lucht te scheppen van benaeutheên, die my knellen,</l>
+						<l>En schriklijk pijnigen: een middel, u bewust,</l>
+						<l>En 't eenigh om te staen naer een volkome rust.</l>
+						<l>Ik kome, op uwen raet, dan herwaert aen ten leste</l>
+						<l>In 't vreemde en onbekende ongastvry lantgeweste.</l>
+						<l>Nu Pylades, gy zijt mijn halsvrient wijs en trou,</l>
+						<l>Wat vangen wy best aen? gy ziet dit kerkgebou,</l>
+						<l>Dees hooge muuren. zal men best naer boven stijgen,</l>
+						<l>Langs deze ladder, en aftreênde een venster krijgen,</l>
+						<l>Of breeken 't ysren slot met boomen en gewelt,</l>
+						<l>Niet weetende hoe 't hier van binnen is gestelt?</l>
+						<l>Ontsluitenwe de poort, en wordenwe genomen,</l>
+						<l>Als beeldestormers, dan is 't met ons omgekomen.</l>
+						<l>Doch eerwe sneven, laet ons haestigh vliên aen strant</l>
+						<l>Naer ons galey, waermê wy reisden aen dit lant.</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>Het vliên is ongeraên. wy zijn geen vlught gewoone.</l>
+						<l>Het is niet billijk dat de vrees Godts antwoort hoone.</l>
+						<l>Laet ons afwijken van de kerk, en stil in vrê</l>
+						<l>Ons bergen in een hol, waer op de zwarte zee</l>
+						<l>Haer golven breekt, heel wijt van 't schip, dat geene lieden</l>
+						<l>Het merken, en terstont den koning ons verspieden</l>
+						<l>Aenbrengen, en met kracht aengrypen by den hals.</l>
+						<l>Maer als de donk're nacht, die alle dingen valsch</l>
+						<l>En zonder verwe ziet, komt vallen, dan, als mannen,</l>
+						<l>Met alle middelen en krachten aengespannen,</l>
+						<l>En 't zuiver kerkbeelt stil geschaekt uit d'oude kerk.</l>
+						<l>Zie hoe men langs den muur by 't ronde pijlerwerk</l>
+						<l>Afglijden moet. een dappre ontziet geen zwaerigheden.</l>
+						<l>De bloode suffer zwicht, staet stijf, en rept geen leden.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wy roeiden vruchteloos veel mijlen herwaert aen,</l>
+						<l>En moeten keeren langs het spoor der zelve baen,</l>
+						<l>Weshalve, gy spreekt recht, men dient Godts raet te hooren.</l>
+						<l>Nu ga een' schuilhoek en een dootse plaets opspooren:</l>
+						<l>Want valt Apolloos raet en antwoort qualijk uit,</l>
+						<l>Men wijte onze eige schult noch Godt, noch Godts besluit.</l>
+						<l>Het moet gewaeght zijn. laet gevaer u niet verbluffen.</l>
+						<l>Het past geen jonge maets in zwaericheên te suffen.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenie</speaker>
+						<l>Hoort toe, inwooners, op de twee</l>
+						<l>Steenrotsen van d'Euxijnsche zee,</l>
+						<l>Te zamenklinkende, gesteegen.</l>
+						<l>O maeght Diktin, langs bergh en wegen</l>
+						<l>En streeken, rennende op de jaght,</l>
+						<l>Latonaes dochter, hoogh geacht,</l>
+						<l>Ik uwe dienstmaeght, koorkostresse,</l>
+						<l>En kerkgewijde priesteresse,</l>
+						<l>Zet mijn' gewyden maeghdevoet</l>
+						<l>Naer uw gestichten, heet van gloet,</l>
+						<l>Naer uwe goude heilighdommen,</l>
+						<l>Geciert met blinkende kolommen.</l>
+						<l>'K verliet Europe en vaders hof,</l>
+						<l>En Grieken, trots op oorloghslof,</l>
+						<l>Zijn torens en boschrijke beemden,</l>
+						<l>En slijt mijn dagen by de vreemden.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>Hier ben ik. zegh, hoe gaet het nu?</l>
+						<l>Wat zorgh, wat angst bekommert u?</l>
+						<l>Waerom waerom woudtge, afgescheiden</l>
+						<l>Van andren, my ter kerke leiden?</l>
+						<l>O telgh van 's konings hoogen stam,</l>
+						<l>Die moedigh naer de vesten quam</l>
+						<l>Van Troie ontelbre krijghsliên sleepen,</l>
+						<l>Met eene vloot van duizent schepen!</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenie</speaker>
+						<l>O dienstboôn, och helaes, hoe slijt</l>
+						<l>Ik jammerklaghtigh mijnen tijt,</l>
+						<l>En klaegh luitruchtigh iders ooren</l>
+						<l>Mijn leedt, onaengenaem te hooren!</l>
+						<l>Helaes, hoe lange steeke ik vast</l>
+						<l>In huisverdriet en last op last,</l>
+						<l>Betreurende, hier omgezworven,</l>
+						<l>Mijn' broeder, och my afgestorven!</l>
+						<l>Wat zagh ik voor een nachtgezicht,</l>
+						<l>Een' nevel, schuw van hemelsch licht!</l>
+						<l>'T is uit met my: 't is omgekomen</l>
+						<l>Met vaders huis, ik heb 't vernomen.</l>
+						<l>Helaes, wat's t'Argos niet geleên!</l>
+						<l>Och nootlot, laetge my alleen!</l>
+						<l>Berooftge my van mijnen broeder,</l>
+						<l>Mijn' troost en eenigen behoeder,</l>
+						<l>En zentge hem ter zielen heen,</l>
+						<l>Wiens uitvaert ik met rou beween,</l>
+						<l>En storte dees lijkofferdranken</l>
+						<l>Ter aerde met bedroefde klanken,</l>
+						<l>Dien jammerkelk, vol offerbloet</l>
+						<l>Van kalven, op geberght gevoedt,</l>
+						<l>En offerwijn en honigh mede,</l>
+						<l>Zoenoffers, tot der zielen vrede?</l>
+						<l>Reik hier het gouden offervat,</l>
+						<l>Des overledens zoen geschat.</l>
+						<l>Och Agamemnons telgh, wy geven</l>
+						<l>Dit u, gescheiden uit het leven.</l>
+						<l>Ontfang dees blonde haervlecht toch,</l>
+						<l>Op dezen grafzerk u tot noch</l>
+						<l>Niet aengeboôn. het kan niet baeten</l>
+						<l>Mijn traenen over u te laeten.</l>
+						<l>Wy beide zijn nu van der hant</l>
+						<l>Te verre van ons vaderlant,</l>
+						<l>Daer elk my schat in dat geweste</l>
+						<l>Geslaght, het vaderlant ten beste.</l>
+					</sp>
+
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>Mevrou, 'k zal op zijn ongrieksch nu</l>
+						<l>Met Asiaensche wijzen u</l>
+						<l>Antwoorden, en treurzangen zingen,</l>
+						<l>Gelijk voor 's lants verstorvelingen</l>
+						<l>Godt Pluto zingt op deze stof.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenie</speaker>
+						<l>Och Atreus huis, och vaders hof,</l>
+						<l>Het licht der kroonen is verdweenen.</l>
+						<l>Der Grieken maght, lang uitgescheenen,</l>
+						<l>De schult met rijke vorsten boet.</l>
+						<l>Het eene jammer 't ander broet.</l>
+						<l>De zon verberght haer blijde glanssen,</l>
+						<l>En wijkt te rugge aen 's hemels transsen</l>
+						<l>Met een bewolkt gespan alreê.</l>
+						<l>Het eene volght op 't ander wee,</l>
+						<l>En moort op moort, en slagh op slagen.</l>
+						<l>De straf treft Tantels bloet en magen,</l>
+						<l>Voorheen geplaeght. een helsche geest</l>
+						<l>Slaet voort, en plaeght u allermeest.</l>
+						<l>Het nootlot van mijn moeders huwelijk</l>
+						<l>En haere bruiloft trofme gruwelijk</l>
+						<l>In 't eerste, en een wreet nootlot leit</l>
+						<l>My van 't begin de zwaerigheit</l>
+						<l>Van mijn geboorte voor mijne oogen,</l>
+						<l>En waerom ik wert opgetogen,</l>
+						<l>Die van den Griek was aengezocht</l>
+						<l>Ten echte, om hunnen oorloghstoght</l>
+						<l>Te spoeden. ik, al t' ongelukkigh,</l>
+						<l>Een kint van Ledaes dochter drukkigh,</l>
+						<l>Ben al te weeligh opgevoet,</l>
+						<l>Om opgeoffert vroegh mijn bloet</l>
+						<l>Te storten, weghgevoert te wagen</l>
+						<l>Naer Aulis, daer de legers lagen,</l>
+						<l>Gelijk een bruit, een schoone bruit</l>
+						<l>Van Thetis zoon. ik jonge spruit</l>
+						<l>Och och in Pontus neêrgezeten,</l>
+						<l>Ongastvry Pontus, woon vergeeten</l>
+						<l>In 't guure en barre noortsche lant,</l>
+						<l>Versteeken van het huwlijkxpant,</l>
+						<l>Van kindren, maegen, en Micene,</l>
+						<l>En Junoos dienst, gelooft voorheene,</l>
+						<l>Al wevende door Pallas gunst</l>
+						<l>De zonnebeelden naer de kunst.</l>
+						<l>Ik ben een priesterin by vreemden,</l>
+						<l>Van bloet geverft in dorre beemden,</l>
+						<l>En doop de Vloekgodin in bloet,</l>
+						<l>Ook d'outers bloetroot en verwoet,</l>
+						<l>Op deerlijk jammeren en klaegen</l>
+						<l>Der schreienden, ter neêr geslagen.</l>
+						<l>'K herdenke 't leet, van outs geleên,</l>
+						<l>En klaege om broeder, te Miceen</l>
+						<l>Gestorven, mijn' Orest, geboren</l>
+						<l>Ter kroone, dien ik liet verloren,</l>
+						<l>Een teder kint, en zuigeling,</l>
+						<l>Dat noch aen moeders borsten hing.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>Hier komt een herder van het zeestrant aengestooten.</l>
+						<l>Gewis hy brengt wat nieus.</l>
+					</sp>
+					<sp who="#herder">
+						<speaker>Herder</speaker>
+						<l>ô dochter van den grooten</l>
+						<l>Vorst Agamemnon, spruit van Klytemnestre, hoor,</l>
+						<l>Ik brenge een nieuwe maer, die vreemt klinkt in uw oor.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenie</speaker>
+						<l>Wat schrikmaer brengtge ons nu?</l>
+					</sp>
+					<sp who="#herder">
+						<speaker>Herder</speaker>
+						<l>twee jongelingen quamen</l>
+						<l>Naer 't Cyaneesche lant te scheepe hier te zamen</l>
+						<l>Gevloôn, een aengenaem slaghtoffer voor Diaen.</l>
+						<l>Wilt gy het waschbadt en d'inwydinge en het slaen</l>
+						<l>Niet spoeden naer den eisch?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenie</speaker>
+						<l>Wat zijn dit voor gezellen?</l>
+						<l>Hoe heet hun lantgewest? kunt gy dien lantaert mellen?</l>
+					</sp>
+					<sp who="#herder">
+						<speaker>Herder</speaker>
+						<l>'t Zijn Grieken. dat 's het al, en meer niet, met een woort.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenie</speaker>
+						<l>Hoe heetenze? hebt gy hun naemen niet gehoort?</l>
+					</sp>
+					<sp who="#herder">
+						<speaker>Herder</speaker>
+						<l>d'Een noemde Pylades zijn' reisgenoot.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenie</speaker>
+						<l>zegh hoe men</l>
+						<l>Nu Pylades weêrom den reisgenoot hoort noemen.</l>
+					</sp>
+
+					<sp who="#herder">
+						<speaker>Herder</speaker>
+						<l>Dit's onbekent tot noch. wy hoorden 't van geen liên.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenie</speaker>
+						<l>Zegh op, hoe vingtge hen? hoe quaemtge hen te zien?</l>
+					</sp>
+					<sp who="#herder">
+						<speaker>Herder</speaker>
+						<l>In eene holle rots, aen d'ongastvrye stranden</l>
+						<l>Van Pontus.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenie</speaker>
+						<l>en wat zoekt gy herders, die de randen</l>
+						<l>Der zee niet bout, aen zee.</l>
+					</sp>
+					<sp who="#herder">
+						<speaker>Herder</speaker>
+						<l>wy quamen 't offervee</l>
+						<l>En d'ossen spoelen en afwasschen in de zee.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenie</speaker>
+						<l>Koom herwaert. zeghme nu, hoe kreeghtge hen gevangen,</l>
+						<l>En op wat wijs? 'k wensch dit te hooren met verlangen.</l>
+						<l>Zy komen spade hier. geen Griek heeft naer ons wet</l>
+						<l>Het outer van Diaen oit met zijn bloet besmet.</l>
+					</sp>
+					<sp who="#herder">
+						<speaker>Herder</speaker>
+						<l>Na dat wy herders een drift ossen derwaert dreven,</l>
+						<l>Daer 't water van de zee komt door twee rotsen streven,</l>
+						<l>En eene rotsspelonk de borst voorover steekt,</l>
+						<l>Waer op met woest gedruisch de golf geduurigh breekt,</l>
+						<l>En in wiens hol gewelf de purpervisschers doken,</l>
+						<l>Verneemt een herder van ons volk, eer wy het roken,</l>
+						<l>Twee jongelingen. hy deist schichtigh achterwaert</l>
+						<l>Op zijne toonen, zeght: och zietge niet een' aert</l>
+						<l>Van geesten zitten? een van d'onzen opgetogen,</l>
+						<l>Vout met eerbiedigheit zijn handen, slaet zijne oogen</l>
+						<l>Ter aerde, en bidt hen aen, ootmoedigh en gedwee:</l>
+						<l>O Godt Palemon, zoon van onze Leukoteê,</l>
+						<l>Schipredder, help ons toch: het zy gy bey te gader</l>
+						<l>Op strant zweeft: 't zy gy 't kroost zijt van den sterken vader,</l>
+						<l>Godt Nereus, die een' rey van vijftigh dochtren teelt.</l>
+						<l>Een ander los gezel en godtloos, wien 't verveelt,</l>
+						<l>Beschimpte zijn gebeên, en zey dat dees gestranden,</l>
+						<l>Na schipbreuk in het hol gedoken, onze handen</l>
+						<l>Uit schrik ontwijken, om t'ontgaen den offermoort,</l>
+						<l>En 't menscheslaghten, op hunne aenkomst eerst gehoort.</l>
+						<l>De meesten dochten dit was recht en wel gesproken,</l>
+						<l>En stemdenze aen te slaen, om voor Diaen te smooken,</l>
+						<l>Naer 's lants gebruik en wet: maer midlerwijl verlaet</l>
+						<l>Een van dees twee de laeghte, en stijght, tot dat hy staet</l>
+						<l>In top der steenrotse, en begint dan heene en weder</l>
+						<l>Het hooft te schudden, en te zwaeien op en neder,</l>
+						<l>En kermde al bevende, sloegh d'armen overal,</l>
+						<l>En raesde harssenloos, en schreeude, als uit een dal</l>
+						<l>De jaeger op de jaght: ô Pylades, zie deze:</l>
+						<l>Maer zietge niet hoe dees draekin, des afgronts vreeze,</l>
+						<l>My wil verslinden, en, met adderengebroet</l>
+						<l>Gewapent in de vuist, my aenrant zoo verwoet?</l>
+						<l>Een andre blaest vast vier en vlam uit haere kleêren,</l>
+						<l>Stookt moort, en, strevende op de zwarte draekeveeren,</l>
+						<l>Houdt moeder in den arm, om in dit steenen graf</l>
+						<l>Mijn lijf te dompelen. och och, zy valtme straf,</l>
+						<l>En wilme moorden. waer gevloôn uit doots gevaeren?</l>
+						<l>Men zagh hem razen, niet met eenerley misbaeren,</l>
+						<l>Maer op veel wijzen: want hy bulkte of baste fel,</l>
+						<l>Gelijk een kalf, of hont, of rees, als uit de hel</l>
+						<l>Een helsche Razerny in 't licht komt opgerezen.</l>
+						<l>Wy zaten stom van schrik, en als ter doot verwezen.</l>
+						<l>Hy rukte een zwaert uit, viel de kalvers op het lijf,</l>
+						<l>En dreef hun 't lemmer in de darmen fel en stijf:</l>
+						<l>Gelijk een wreede leeu, als een die, heet verbolgen,</l>
+						<l>De Razerny waent aen te tasten en vervolgen,</l>
+						<l>Zoo dat het bloet in zee zich mengde met het schuim.</l>
+						<l>Toen al de herders [nu vergadert op het ruim,</l>
+						<l>De neêrlaegh van hun vee en offerossen zaegen]</l>
+						<l>Den horen bliezen, dat' er 't lant af moght gewaegen,</l>
+						<l>Om alle huisliên flux te helpen op de been,</l>
+						<l>Dewijlze hunne maght oordeelden veel te kleen,</l>
+						<l>Om 't hooft te bieden aen dees sterke vreemdelingen;</l>
+						<l>Zoo quamenze te hoop uit alle hoeken springen:</l>
+						<l>Maer daetelijk bezweek de dolheit met dien gast.</l>
+						<l>Het schuim droop langs de kin. toen leedt men weinigh last,</l>
+						<l>En ieder pooght met kracht den overlast te keeren</l>
+						<l>Met slaen en worpen. om het onheil af te weeren</l>
+						<l>Sloegh Pylades hem gade, en vaeghde mont en kin</l>
+						<l>Van spogh en schuim, en vlyde en dekte uit trouwe min</l>
+						<l>Zorghvuldig 't kleet om 't lijf, en paste aen alle zijden</l>
+						<l>Hem voor de steenen en voor wonden te bevrijden,</l>
+						<l>Als een gedienstigh vrient, die zijnen plicht bewaert.</l>
+						<l>Maer als de dolle zijn verstant krijght en bedaert,</l>
+						<l>En schichtigh oprijst van zijn' val, ziet hy met schroomen</l>
+						<l>Een schriklijk onweêr van den vyant nader komen,</l>
+						<l>En dreigen met gevaer. hy zucht, wy vaeren voort</l>
+						<l>Met steenenworpen, elk om 't felste uit zijnen oort.</l>
+						<l>Wy hooren flux hoe d'een den andren maent heel deerlijk:</l>
+						<l>Wy moeten sterven: doch vrient Pylades, om eerlijk</l>
+						<l>Te sterven, volgh mijn zwaert, en pas nu weer te biên.</l>
+						<l>Wy, als zy moedigh dus de sabel zwaeien, vliên</l>
+						<l>Ten bosch, op 't voorgeberghte. in 't vlughten van den eenen</l>
+						<l>En 't staen van anderen, zoo rust men niet met steenen</l>
+						<l>Te treffen, datze in 't endt bezwijken. men liet af</l>
+						<l>Van worpen, toen men zagh hoe elk zich overgaf.</l>
+						<l>'T is ongeloofelijk, en wonder vreemt, dat onder</l>
+						<l>Al dien ontelbren hoop van lantvolk in 't byzonder</l>
+						<l>Niet een den offer der godinne veiligh kon</l>
+						<l>Aengrijpen: evenwel 't geschiede. men verwon</l>
+						<l>En kreeghze, toenwe schier te moedeloos veraerden.</l>
+						<l>Men slootze in eenen ring, en wrong met kracht de zwaerden</l>
+						<l>Uit hunne sterke vuist. zy vielen, flaeu en mat</l>
+						<l>Van worstlen, op hun knien. wy brengenze aengevat</l>
+						<l>Den koning toe, die zietze, en, zonder lang te wachten,</l>
+						<l>Verzentze aen u, om hen te wasschen en te slaghten.</l>
+						<l>Nu hebtge, ô priesterin, het geen uw hart begeert,</l>
+						<l>Twee vreemdelingen, ten brantoffer u vereert.</l>
+						<l>Het gansche Grieken zal rechtvaerdigh endtlijk moeten</l>
+						<l>Den nederslagh, aen u begaen in Aulis, boeten.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>Het zy wie 't wil, gy hebt wat wonders ons verhaelt</l>
+						<l>Van dezen Griek, dus wijt aen Pontus kust verdwaelt.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>'t Gaet wel. nu ga vry heene, en brengme dees gezellen.</l>
+						<l>Wy willen onzen plicht aen hen te werke stellen.</l>
+						<l>O wee mijn hart, gy waert voorheene wel gerust,</l>
+						<l>En toonde u tegens elk, die lande aen deze kust,</l>
+						<l>Medogende, gewoon te schreien om de zielen</l>
+						<l>Der vreemde gasten, die in uwe handen vielen:</l>
+						<l>Nu zultge, wie gy zijt, gevoelen onzen haet,</l>
+						<l>Ontsteeken door den droom, die op Orestes slaet,</l>
+						<l>Nu doot gerekent. dit verstoort mijn hart van binnen.</l>
+						<l>Dit 's zeker. waerde rey, trouhartige vriendinnen,</l>
+						<l>Ik wort gepijnight: want wie ongelukkigh leeft,</l>
+						<l>Valt wrevligh tegens hem, wien 't lot gezegent heeft.</l>
+						<l>Noit liet Jupijn een' wint uit Grieken herwaert ruischen.</l>
+						<l>Noit schip voerde oit Heleen, mijn schennis, door het bruischen</l>
+						<l>Der Cyaneesche rots, met Menelaüs hier,</l>
+						<l>Op dat ik wraek aen hen moght neemen trots en fier,</l>
+						<l>En offrenze op dit strant, gelijkze voor hun schepen</l>
+						<l>My, als een jonge vaers, op Aulis zeekust greepen,</l>
+						<l>En slaghtten. vader zelf verstrekte d'offerman;</l>
+						<l>Een gruwelstuk, dat ik noch niet vergeeten kan.</l>
+						<l>'K viel vader om den hals, en knielde, en kreet te gruwelijk:</l>
+						<l>O vader, gy besteetme. och och, een schendigh huwelijk!</l>
+						<l>Mijn moeder te Myceen, terwijlge my vermoort,</l>
+						<l>Verwekt den bruiloftsgalm met zang en fluit, gehoort</l>
+						<l>In 't hofgewelf. gy velt my met uwe eige handen.</l>
+						<l>De bruigom, my belooft, in 't voeren naer de stranden</l>
+						<l>Van Aulis te karros, met eenen loozen toon,</l>
+						<l>Ter moortfeest, was geensins Achilles, Peleus zoon,</l>
+						<l>Maer Pluto. 'k zagh helaes, heer broeder weêrgekomen</l>
+						<l>Door eenen sluier. 'k heb hem in den arm genomen,</l>
+						<l>Die nu al doot is, en schoon ik Orest bestont,</l>
+						<l>Als zuster, 'k myde hem te kussen mont aen mont,</l>
+						<l>Uit eerbre schaemte, als een' die Peleus hof zou eeren,</l>
+						<l>En staekte 't groeten, tot ik t' Argos weêr moght keeren.</l>
+						<l>Rampzaelge Orestes, gy zijt doot. wat ongeval</l>
+						<l>Heeft u, die vader volghde in deughden boven al,</l>
+						<l>Vernielt? 'k versma den list der godtheit, die wy eeren,</l>
+						<l>En, als een' smet, een' man van 't outer af durf keeren,</l>
+						<l>Zoo hy een nederslagh met zijne hant beging,</l>
+						<l>Of een doot lichaem raekte, of versch geboreling,</l>
+						<l>Naerdienze schept vermaek en lust in offerhanden</l>
+						<l>Van vreemdelingen, die op deze kust belanden.</l>
+						<l>Latone, gemaelin van Jovis majesteit,</l>
+						<l>Heeft geenerwijs geleert dees blinde onwetenheit:</l>
+						<l>En 'k hou het dischgerecht, de godtheên aengeboden</l>
+						<l>Van Tantalus, verziert. geen godtheit laet zich nooden</l>
+						<l>Op zulk een spijs, noch vont oit smaek in kinderspier:</l>
+						<l>Neen zeker, ik geloof dat d'ingezeten hier,</l>
+						<l>Moordaedigh uit den aert, dees smet op goden schoven:</l>
+						<l>Want geene boosheit hecht op 't godendom daer boven.</l>
+					</sp>
+					<stage/>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>I. Keer</speaker>
+						<l>O blaeuwe toevloet van het meer,</l>
+						<l>Dat stroomende langs Argos heen,</l>
+						<l>Met kracht doordringen quam weleer</l>
+						<l>In grondelooze Euxynsche zeen,</l>
+						<l>Op Asiaenschen gront, zoo wijt</l>
+						<l>Gedwaelt uit vliet Eurotas bedt;</l>
+						<l>Wat gasten [scheidende met vlijt</l>
+						<l>Van Lacedemons vloet, bezet</l>
+						<l>Met riet, en Dirces heilgen stroom,]</l>
+						<l>Verscheenen herwaert in dit lant,</l>
+						<l>Der vreemdelingen vloek en schroom,</l>
+						<l>Daer eene maeght brantoffers brant,</l>
+						<l>En voor de kerk het outer voedt,</l>
+						<l>Besmet en verft met menschenbloet?</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>I. Tegenkeer</speaker>
+						<l>Of roeidenze door zee dus vry</l>
+						<l>Met riemen van abeelen hout,</l>
+						<l>Slaghhoudende van wederzy,</l>
+						<l>En zeildenze voor wint heel stout</l>
+						<l>Om huis en hof met gelt en goet</l>
+						<l>Te proppen? want de hoop op gelt</l>
+						<l>Is onverzaedelijk en zoet</l>
+						<l>En zorghelijk. men streeft door 't velt</l>
+						<l>Der zee naer alle uitheemsche steên,</l>
+						<l>Uit ydele ingebeelde waen</l>
+						<l>Der menschen, vol begeerlijkheên,</l>
+						<l>Niet rustende naer winst te staen.</l>
+						<l>Gewinzucht prikkelt hart en zin</l>
+						<l>Den eenen meer, den andren min.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>II. Keer</speaker>
+						<l>Hoe ruktenze door 't luit geklots</l>
+						<l>Van Fineus ongeruste klip</l>
+						<l>En tegens een aenslaende rots,</l>
+						<l>Langs 't zeestrant met hun hobblend schip,</l>
+						<l>Daer Nereus dochters, vijftigh sterk,</l>
+						<l>Gaen zingende aen den ronden rey?</l>
+						<l>Hoe stuurdenze in het waterperk</l>
+						<l>Met zuidewinden hun galey</l>
+						<l>Naer 't vogelrijke lantgewest,</l>
+						<l>Daer 't krijtstrant van Achilles blank</l>
+						<l>Zich opdoet op het allerlest,</l>
+						<l>En helden met een' snellen gangk</l>
+						<l>Zich rustigh spoên, noit strevens moê,</l>
+						<l>Tot aen 't Euxynsche Pontus toe?</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>II. Tegenkeer</speaker>
+						<l>Och of, op 't wenschen van mevrou</l>
+						<l>Helene, Ledaes waerde spruit,</l>
+						<l>Eens by geval aen dees landou</l>
+						<l>Van Troie quaem, dit hof ten buit,</l>
+						<l>Om haeren hals en blonde vlecht</l>
+						<l>Te buigen voor mejoffers bijl,</l>
+						<l>Tet doot gedoemt van 't offerecht,</l>
+						<l>Gestraft als zy, naer Griekschen stijl.</l>
+						<l>Quaem hier [wat waer 't een blijde maer!]</l>
+						<l>Een Grieksche gley, en maekte een endt</l>
+						<l>Van slaverny. och of men waer,</l>
+						<l>Gelijkze droomde, uit deze elend</l>
+						<l>In 's vaders hooftstadt te Myceen,</l>
+						<l>En zong tot blyschap van elk een.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Maer deze beide, vast gebonden,</l>
+						<l>En streng gevleugelt, komen gaen,</l>
+						<l>Nieuwe offerhanden van Diaen.</l>
+						<l>Vriendinnen, zwijght, en houdt uw monden:</l>
+						<l>Want zy, der Grieken eerstelingen,</l>
+						<l>Genaeken ons van dichte by,</l>
+						<l>Op dat men hen ten offer wy',</l>
+						<l>Gelijkwe uit 's herders mont ontfingen.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>Eerwaerde maeght [och of de stadt</l>
+						<l>Dien offerdienst u wou vergeven,]</l>
+						<l>Ontfang toch zonder wederstreven</l>
+						<l>Dien offer naer 's lants wijs, geschat</l>
+						<l>Voor goddeloos in Grieksche steden.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>My staet eerst ga te slaen des tempels offerzeden,</l>
+						<l>Op dat de godtsdienst der godinne wel besla.</l>
+						<l>Ontbint de handen van de vreemdelingen, dra,</l>
+						<l>Op datze aen Godt gewijt, ontslagen staen van banden.</l>
+						<l>Vertrekt gy naer de kerk, en zuiverende uw handen,</l>
+						<l>Bereit al 't geene wat u d'offerwet gebiet,</l>
+						<l>En nu ter zaeke dient. ô wonder, wat men ziet!</l>
+						<l>Wie was uw moeder, wie uw vader? spreekt, laet hooren.</l>
+						<l>Hoe hiet uw zuster, was oit zuster u geboren?</l>
+						<l>Wat mist de broederlooze aen zulk een' troost en schat</l>
+						<l>Van jongelingen, zooze oit lieve broeders hadt!</l>
+						<l>Wat mensch weet d'uitkomst van gebeurelijke zaeken,</l>
+						<l>Die, noch toekomende en op wegh, van ver genaeken?</l>
+						<l>Der goden raetbesluit is donker. niemant weet</l>
+						<l>Wat ramp hem boven 't hooft magh hangen, ofte leet.</l>
+						<l>Het avontuur bedekt dit diep voor 's menschen oogen.</l>
+						<l>O arme gasten, uit wat lant komtge aengetogen?</l>
+						<l>Hoe verre zworftge, eer gy belande aen deze kust?</l>
+						<l>Hoe lang van 't vaderlant, geduurigh ongerust?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Waerom beschreitge dit zoo deerlijk? om wat zaeken</l>
+						<l>Betreurtge, wie gy zijt, de ween, die ons genaeken?</l>
+						<l>Ik reken hem niet wijs, die, veegh zijnde, uit ontzagh</l>
+						<l>Voor sterven, deze vrees wil dempen met beklagh,</l>
+						<l>En ook den klaeger, reedt een ander te beschreien,</l>
+						<l>Die, al verwezen, zich tot sterven moet bereien,</l>
+						<l>En geene hoop van heil kan scheppen, naerdemael</l>
+						<l>Hy enkel leet verkeert in eene dubble quael.</l>
+						<l>De droefheit houdt hem dan door haer vermogen onder.</l>
+						<l>Dan stervenze alle beide, in stê van een' byzonder.</l>
+						<l>Elk moet zijn avontuur uitharden. hierom laet</l>
+						<l>Dit schreien over ons: want wat hier ommegaet</l>
+						<l>In 't offren melden ons de lantliên, hier gezeten.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Wie van u beide toch wort Pylades geheeten,</l>
+						<l>Dat lustme uit uwen mont te hooren en verstaen?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Dit is de man. nu wat vermaek brengt u dit aen?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Waer wert hem 't burgerrecht in Grieken aengeboren?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Mevrouw, wat baet het u, wanneerge dit zult hooren?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Zijt gy gebroeders, uit een moeders schoot gebaert?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Gebroêrs, niet van geboort, maer vrientschap uit den aert.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Hoe heetge? melt uw' naem, indien men het magh weeten.</l>
+					</sp>
+
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Men moght ons beide wel met recht elendigh heeten.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Dat vraegh ik niet. wijt dit fortuin en 't hachlijk lot.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>En stervenwe onbekent, wy sterven vry van spot.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Gevoeltge dit naer uw groothartige gedachten?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Gy zult mijn lichaem, niet mijn' naem, ten offer slaghten.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Ontdektge ons niet den naem van uw geboortestê?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Gy vraeght het. dit brengt my, die sterf, geen voordeel mê.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Wat hindert het dus veel te melden, my ten beste?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ik roeme op Argos, mijn heer vaders lant en veste.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>O goden! vreemdling, is daer uw geboortestadt?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Mycenen is 't, voorheen zoo zegenrijk geschat.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Vertroktge, als balling, of van welk geval besprongen?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ik zworf, als balling 's lants, vrywilligh, en gedwongen.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Wilt gy niet melden 't geen ik aen u vraegen zal?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zoo 't kan ter loop geschiên, in zulk een ongeval.</l>
+					</sp>
+
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Gy komt uit Argos, hier gelant naer mijn gebeden.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Niet met mijn' wil, is 't u ten dienst, gy weet de reden.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Misschien kentge Ilium, alom ontzien met schroom?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Och kende ik Troie noit, noch zagh 't oit in mijn' droom!</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Men zeght het leit in d'assche, uit aller menschen oogen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Het is zoo. deze faem verkuntschapte u geen logen.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>En keerde toen Helene in Menelaüs stê?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zy keerde wel, doch bragt geen heil den mijnen mê.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Waer is zy? want zy trof voorheene my met smerte.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zy woont nu weder by haer' eersten man te Sparte.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>O algemeene plaegh, by Griek en my berucht!</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>En uit haer bruiloft plukte ik ook een bittre vrucht.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>En keerde 't Grieksche heir, gelijk men hoort gewaegen?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Gy vraegtme teffens veel, verwartme in al dit vraegen.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>'K wil weeten, eerge sterft, hoe 't daer gelegen zy.</l>
+					</sp>
+
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Vraegh wat u lust. vraegh stout: ik antwoort vrank en vry.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Is Kalchas, wichelaer van 't heir, weêr thuis verscheenen?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Men zeght hy is vergaen met krijghsvolk uit Mycenen.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Eerwaerdste godtheit! of Laërtes zoon noch leeft?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Hy keerde noch niet t' huis. men zeght hy zwerft en zweeft.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Dat hy verga, en niet in 't vaderlant vergader.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Gy wenscht zoo slim niet, of zy gunnen 't dien verraeder.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Leeft Thetis zoon Achil nu noch met lijf en ziel?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Al doot, die t'Aulis eer zoo vruchtloos bruiloft hiel.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Bedrieghlijk, zooze zeght, die 't voelde dus verwaten.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wie zijtge dan, die scherp doorzoekt de Grieksche staeten?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Ik ben van daer, en raekte een maeght ook vroegh van kant.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Mevrou, gy vraeght met reên wat omging in dat lant.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Waer is de veltheer, in 't getal der goôn getekent?</l>
+					</sp>
+
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wien meentge? dien ik kende is by 't geluk misrekent:</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Vorst Agamemnon, oir van Atreus rijxgebiet.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ik weet het niet. zwijgh stil, en vraegh dees vraegen niet.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Neen by Jupijn, zegh op: het kan mijn hart verblijden.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Hy raekte droef om hals, en miste een' in zijn lijden.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Is hy al heen? hoe quam hy aen zijn endt? ô wee!</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Hoe zuchtge dus hierom, of raekt u dit al mê?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>'K beklaegh zijn eerste heil, volmaekt en vry van rouwe.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Hy raekte droef om hals, vermoort van zijne vrouwe.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Beklaeghlijk lot, vermoort, en van zijn bedtgenoot?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Nu rust dan: vraegh niet meer, en laet die dingen doot.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Dus veel noch: leeftze, die hem heeft dien slagh gegeven?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Z'is doot: want dienze baerde ontnam de moeder 't leven.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Verwart palais! waerom holp hy de moeder voort?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Hy koelde aen haer zijn' moedt, tot wraek van 's vaders moort.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Hy strafteze, helaes, om zulk een stuk rechtvaerdigh.</l>
+					</sp>
+
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Met recht: en nochtans schat de godtheit hem strafwaerdigh.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Liet Agamemnon dan geen' erfgenaem in 't hof?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Elektre alleen, een maeght, befaemt en rijk van lof.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Wat stroit de faem nu van de dochter, die hy slaghte?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Datze uit dit leven scheide, en smolt in elx gedachte.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Zy was elendigh, en de vader, die haar doot:</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Om eene booze vrou geraekteze in die noot.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Leeft Agamemnons zoon noch t'Argos, en in vrede?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Dees droeve is nergens, en alom, en houdt geen stede.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>O valsche droomen, gy verdwijnt in ydelheên!</l>
+						<l>En gy, ô geesten, wijs geheeten om uw reên</l>
+						<l>Zijt logenachtigh, en lichtvaerdigh, als de droomen.</l>
+						<l>In menschelijke en in godts zaeken wort vernomen</l>
+						<l>Een wargeest. dit alleen blijft over, dat de zoon,</l>
+						<l>Die wijs was, en gespelt te zitten op den troon,</l>
+						<l>Nu doot is: magh men hun betrouwen dat zy 't weeten.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>Helaes, wie weet ons naer de waerheit af te meeten</l>
+						<l>Of ons voorouders noch in wezen zijn, of neen?</l>
+					</sp>
+
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Hoort toe, gy gasten: wy zyn in gesprek getreên</l>
+						<l>Heel ernstigh, dat u me ten beste kan gedyen,</l>
+						<l>Inzonderheit aen my, indienge dit wilt lyen.</l>
+						<l>Wilt gy naer Argos gaen, indien ik u beschut,</l>
+						<l>Iet bootschappen aen mijn bloetvrienden, hun tot nut,</l>
+						<l>En brengenze eenen brief, geschreven uit medoogen</l>
+						<l>Van een' gevangen, die wel weet dat wy niet poogen</l>
+						<l>Een' mensch te slaghten: want men dootze naer de wet</l>
+						<l>Van 't lant, gelijk Diaen die zelf heeft ingezet.</l>
+						<l>'K had dus lang niemant om naer Argos heen te zenden,</l>
+						<l>En brieven wederom te brengen van bekenden.</l>
+						<l>Gy zijt een, die, zoo 't schijnt, my geensins haetigh zijt,</l>
+						<l>En kent Mycene en hen, waer aen ik nu ter tijt</l>
+						<l>U af wil vaerdigen. men zal uw lijf verschoonen,</l>
+						<l>En om 't bestellen van een' brief dus rijk beloonen.</l>
+						<l>Maer d'ander zal alleen, van u gescheiden gaen</l>
+						<l>[Indien de stadt hem eischt,] ten offer van Diaen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Mevrou, gy spreekt heel wel, dit eenige uitgesloten,</l>
+						<l>Hem offeren, dat zou mijn hartewee vergrooten.</l>
+						<l>Ik ben de stuurman van de reis naer deze wal.</l>
+						<l>Hy is mijn reisgenoot, mijn jammer ten geval.</l>
+						<l>Het waer onbillijk u te dienen met zijn lijden</l>
+						<l>En sterven, en my zelf van jammer te bevryden:</l>
+						<l>Doch 't zal geschiên, geef hem den brief, met uw bevel,</l>
+						<l>Dat hy dien t'Argos brenge, en uwen last bestell'.</l>
+						<l>Laet iemant, wien het lust my slaghten. wie zijn kennis</l>
+						<l>En vrienden brengt in last, en zich houdt buiten schennis,</l>
+						<l>Is byster boos van aert. het is mijn reisgenoot:</l>
+						<l>'K zagh hem zoo noode als my opoffren aen de doot.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>O edelmoedige, uit een' braven stam gesproten,</l>
+						<l>Oprechte halsvrient van uw vrienden en genooten!</l>
+						<l>Och of mijn broeder, dien ik derf, zoodaenigh was:</l>
+						<l>Want ik, ô vrienden, derf mijn' broeder op dit pas</l>
+						<l>Alleen door 't niet te zien. wy zullen dezen zenden,</l>
+						<l>Dewijl gy 't zoo begeert, met brieven aen bekenden:</l>
+						<l>Maer gy zult sterven: want gy dringt hier sterk op aen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wie zalme slaghten, en dit gruwelstuk bestaen?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>De zoendienst der godinne is my belast te plegen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>O maeght, een schendigh ampt bedientge, en zonder zegen.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>'K bekleê dit ampt door noot, die my zoo verre braght.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Gy zijt een vrou, en voertge een zwaert, dat mannen slaght?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Geensins, maer 'k zal mijn hant afwasschen aen uw vlechten.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zoo vraegen vry staet, zegh, wie zalme heden rechten?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Zy zijn daer binnen, die het bloetrecht gadeslaen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wat graf verwacht ik, als het halsrecht is voldaen?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Het heiligh lijkvier, en een grafspelonk naer waerde.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Och zalme zusters hant niet dompelen in d'aerde?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Och arme mensch, gy wenscht al t'ydel, wiege ook zijt.</l>
+						<l>Uw zuster woont van deze ongrieksche kust te wijt:</l>
+						<l>Doch nu ge een Griek zijt, wil ik zelf, naer mijn vermogen,</l>
+						<l>U met dien lijkdienst trou berechten uit medoogen.</l>
+						<l>'K zal 't graf stoffeeren met cieraeden naer uw' staet,</l>
+						<l>En uw' lijkstapel voên met geelen honighraet,</l>
+						<l>Gezogen van de by uit bloem van bergh en dalen.</l>
+						<l>Maer 'k wil de brieven uit de godtskapelle haelen.</l>
+						<l>Gevoel dan dat ik u niet haete bits en boos.</l>
+						<l>Gy dienaers, slaetze ga, doch vry en bandeloos.</l>
+						<l>Ik zal misschien, tot vreught van mijnen welbekenden,</l>
+						<l>Op 't hooghst van my bemint, een bo naer Argos zenden.</l>
+						<l>De brief zal hem tot vreught eer lang bootschappen dat</l>
+						<l>Zy leven, die men lang voor doot gerekent hadt.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>'K beklaege u, dien men nu zal brengen</l>
+						<l>Om 't zoenaltaer met bloet te sprengen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Uitheemsche vrouwen, vaert, ay vaert</l>
+						<l>Vry voort: dit's geen ontfarmen waert.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>O jongeling, wy eeren u</l>
+						<l>Om dit gelukkigh lot, dat nu</l>
+						<l>U toeviel: want gy vrank ten leste</l>
+						<l>Zult keeren naer uw vaders veste.</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>Dit is onwenschbaer voor een' vrient,</l>
+						<l>Geensins met 's halsvrients doot gedient.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>Elendige offerhanden,</l>
+						<l>Den vreemde uit vreemde landen</l>
+						<l>Tot zijn bederf. och ongeval,</l>
+						<l>Wie of van beide sterven zal?</l>
+						<l>Ik hang in twijffel wie van bey dien last moet draegen.</l>
+						<l>Zal ik u allereerst, of uwen vrient beklaegen?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ay zeghme, ô Pylades, zijnwe eens, en bey vernoeght?</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>Ik weet niet. dit's een vraegh, waer op geen antwoort voeght.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wat maeght is dit? hoe wijs wist deze op Grieksch te vraegen,</l>
+						<l>En van de zwaericheên, voor Ilium gedraegen,</l>
+						<l>Ook van de wederkomst der Grieken, en Godts tolk,</l>
+						<l>Waerzegger Kalchas, en Achilles, stut van 't volk,</l>
+						<l>En Agamemnon, wiens elenden zy betreurde!</l>
+						<l>Zy vraeghde wat zijn vrouwe en kinderen gebeurde.</l>
+						<l>Dees jongkvrou is een telgh van Argos, hier gelant.</l>
+						<l>Zy zoude zeker nu geen' brief van haere hant</l>
+						<l>Heenzenden, noch zoo scherp die dingen onderzoeken,</l>
+						<l>Als of 't haer mede trof, indien het in die hoeken</l>
+						<l>Van Argos en het rijk noch wel geschapen stont.</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>Ik docht het geen gy zeght, en had het in den mont,</l>
+						<l>Behalve dit alleen: want ieder kan gewaegen,</l>
+						<l>Wie tijdingziek is, van der vorsten nederlaegen.</l>
+						<l>Doch dit ter zy gezet, zy sprak'er noch wat by.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wat was dit? legh het uit, op dat het klaerder zy.</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>'T waer schandelijk dat ik na uwe doot zou leven.</l>
+						<l>Wy reisden t'zaemen: 't past dat wy te zaemen sneven:</l>
+						<l>Of 't lantschap Focis en gansch Argos zou niet valsch</l>
+						<l>Getuigen welk een schande ik haelde op mijnen hals.</l>
+						<l>'T zal veelen schijnen, want boosaerdigen vermeeren,</l>
+						<l>Dat ik u hier verriet, om zelf alleen te keeren,</l>
+						<l>Of u om hals holp, tot verdriet van al 't geslacht,</l>
+						<l>Door looze laegen, om uw rijxkroon, groot van maght,</l>
+						<l>Uw zuster trouwende, en uw vaders erf te strijken.</l>
+						<l>Ik schaem my des, en 't hart van vreeze wil bezwijken.</l>
+						<l>Onmooghlijk is 't dat ik niet met u sterven zou,</l>
+						<l>Mijn bloet storte, en verbrande, uit ongeveinsde trou.</l>
+						<l>Ik blijve uw vrient, en zie dees vlek niet uit te vaegen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wat mooghtge strijden, 't voeght my zelf mijn' last te draegen.</l>
+						<l>Een enkle droefheit is genoegh. waer toe het leet</l>
+						<l>Verdubbelt en verzwaert? want nu gy 't schande heet</l>
+						<l>En droefheit, zou my ook het zelve wedervaeren,</l>
+						<l>Indien ik u, met my in last en doots bezwaeren,</l>
+						<l>Om 't leven holp. wat my belangt, 't gaet wel. ik sterf</l>
+						<l>Gelukkigh, die, van Godt bezocht, het leven derf.</l>
+						<l>Gy leeft gezegent, en in zuivre en blijde hoven,</l>
+						<l>Ik by Godtloozen. laet u zuster trou beloven,</l>
+						<l>En kinders winnen: want ik gafze u tot een vrou.</l>
+						<l>Zoo blijft mijn naem in eere, en vaders huis van rou</l>
+						<l>Bevrijt, niet kinderloos, ontbloot van erfgenaemen.</l>
+						<l>Dies ga, en leef, en bou mijn vaders hof te zamen.</l>
+						<l>Belantge in Grieken, en in Argos, d'eedle stadt,</l>
+						<l>'K bezweere u by uw hant, ernsthaftigh aengevat,</l>
+						<l>Bestelme een graf, tot een gedachte van 't voorleden.</l>
+						<l>Dat zuster my beklaege, en ga het graf bekleeden</l>
+						<l>Met eene haervlecht: en verkuntschap toch aen haer</l>
+						<l>Hoe eene Grieksche vrou my slaghte op 't zoenaltaer.</l>
+						<l>Verlaet mijn zuster niet: dat waer uw bloet versmaeden,</l>
+						<l>En vaders hoogen stam en heerlijk hof verraeden.</l>
+						<l>Vaer wel, mijn waertste vrient, en trouwe jaghtgenoot.</l>
+						<l>Gy hebt om mijnen 't wil geleden stoot op stoot.</l>
+						<l>Apol heeft, spellende te Delfis, ons bedrogen,</l>
+						<l>De logenkunst verjaeght uit Grieken, zoet op logen,</l>
+						<l>Waerzeggery ten smaet, en 't oude orakelkoor,</l>
+						<l>Toen ikze al 't mijn betroude, en gevende gehoor,</l>
+						<l>Mijn moeder moorde, en nu dit boete met mijn leven.</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>Uw graf gewort u. 'k zal uw zuster niet begeven,</l>
+						<l>Noch onze trou, en wil, als gy zijt overleên,</l>
+						<l>U noch veel vieriger beminnen dan voorheen.</l>
+						<l>Doch schoon de bittre doot gereet staet voor mijne oogen,</l>
+						<l>De godtspraek heeft hierom tot noch toe niet gelogen:</l>
+						<l>Want als d'elende komt in top gestegen staen,</l>
+						<l>Dan plaghze menighmael wel dapper om te slaen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zwijg stil. 'k verwacht geen' troost van godt Apolloos drempel.</l>
+						<l>Daer komt mevrou alreê getreden uit den tempel.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Vertrekt gylieden, en bereit daer binnen wat</l>
+						<l>Men tot den offerdienst en 't slaghten noodigh schat.</l>
+						<l>Hier zijn de brieven, niet geschreven zonder traenen</l>
+						<l>Voor u, ô gasten, hoort wat ik u wil vermaenen.</l>
+						<l>Geen drukkige is zich zelf' gelijk, als hy, ontlast</l>
+						<l>Van vreeze, stout wort, en op geen beloften past:</l>
+						<l>Dies docht ik dat hy, uit dit lant by zijn gezellen</l>
+						<l>Geraekt, verzuimen zal mijn brieven te bestellen,</l>
+						<l>Die dezen brief getrou naer Argos brengen moet.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wat eischtge? spreek ront uit. waer wringt de laers uw' voet?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Hy zweere dezen brief te levren ons bekenden,</l>
+						<l>En vrienden t'Argos, daer wy hem om heenezenden.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zult gy hem wederom trou zweeren met een' eedt?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenie</speaker>
+						<l>Om wat te doen, of niet? dit zeghme, op dat ik 't weet.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Dat ghy hem geensins doot, maer vry weêrom laet vaeren.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Met reên, zou hy mijn' wil aen vrienden openbaeren.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Maer zal de dwingelant dit lijden en verstaen?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>'K zal 't hem vroet maken, en dien vremdling t'scheep doen gaen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zoo zweer dan heiligh dit te doen naer mijn behaegen.</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>Ik zweer het.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>zegh dien brief te leveren mijn maegen.</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>'K zal zelf dees brieven aen uw vrienden draegen gaen.</l>
+					</sp>
+
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Ik u van 't Cyaneesch steenrotsigh strant ontslaen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wat godtheên neemtge tot getuigen van uwe eeden?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Diane, wiens altaer en offer wy bekleeden.</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>Ik zweer by 't hooft der goôn, wiens eer daer boven blijkt.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Indienge uwe eeden schent, en my verongelijkt?</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>Zoo keere ik nimmer: maer zoo gy uw trou durft smetten?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Zoo moete ik levend noit mijn' voet in Argos zetten.</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>Nu luister watwe noch te reukloos slaen voorby.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Wat wiltge dan noch meer? laet hooren wat het zy.</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>Bewilligh dit beding, zoo 't schip door storm moght blijven,</l>
+						<l>De brief in zee vergaen, en ik aen lant quaem drijven,</l>
+						<l>Dat gyme van dien eedt in dit geval ontslaet.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Hoor wat ik doen wil. veel gebeurt'er in elx staet.</l>
+						<l>'K wil 't inhoudt van dien brief by monde u openbaeren,</l>
+						<l>Op dat gy 't altemael mijn vrienden kunt verklaeren,</l>
+						<l>Dan gaenwe zeker: want indienge niet vergaet,</l>
+						<l>Zoo spreekt de stomme brief al wat geschreven staet.</l>
+						<l>Vergaet de brief in zee, en komtge aen lant gedreven,</l>
+						<l>Behouden 's lijfs, zoe kunt gy 't hun te kennen geven.</l>
+					</sp>
+
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>Dat 's recht. zoo kan ik my voldoen, den goôn vooral.</l>
+						<l>Nu zegh wien ik den brief in Argos levren zal,</l>
+						<l>En melt wat gy beveelt aen uw geslacht t'ontvouwen.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Zegh Ifigene leeft, al wortze doot gehouwen</l>
+						<l>By Grieken, en voorheene in Aulis lang verbrant.</l>
+						<l>Zy zent aen 's konings zoon Orest dit schriftlijk pant.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Waer woont zy? isze van de doot dan weêr verrezen?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Gy zietze: wilme met geen woorden lastigh wezen.</l>
+						<l>Zegh broeder, brengme weêr naer Argos, eer ik sterf,</l>
+						<l>Uit dit moordaedigh lant. verlosme van dit erf,</l>
+						<l>En 't offren der godinne, om wie ik 't ampt bewaere</l>
+						<l>Van vreemdelingen heen te leiden ten altaere.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wat zegh ik? Pylades? waer staenwe, en op wat gront?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Orestes is zijn naem, dien noemde ik u terstont.</l>
+						<l>Vergeet het niet, en quijt getrou uw heilige eeden.</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>O goden!</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>daeghtge Godt in dees gelegenheden?</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>Gansch niet: vaer voort: ik stont versuft om 't geen ik dacht.</l>
+						<l>'K zal vraegende misschien iet vinden onverwacht.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Ga zegh Orest, Diaen bestelde, om ons te hoeden</l>
+						<l>Voor vaders zwaert, een hinde, en lietze op 't outer bloeden,</l>
+						<l>Toen vader waende dat hy ons geoffert had.</l>
+						<l>Diane voerde ons hier. dit's d'inhoudt van dit bladt.</l>
+					</sp>
+					<sp who="#pylades">
+						<speaker>Pylades</speaker>
+						<l>Wat hebtge my nu met een' lichten eedt verbonden,</l>
+						<l>En braef gezworen! ik vertoef niet, maer gezonden</l>
+						<l>Van deze uw zuster, geve, Orest, aen u dit pant,</l>
+						<l>Den brief, geschreven met uw zusters eige hant.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>'K aenvaerde, en hoeve geen verklaering van dees blaeden.</l>
+						<l>'K gevoele geene vreught van woorden, maer van daeden.</l>
+						<l>O liefste zuster, ik sta stom, och och och och:</l>
+						<l>En schoon ik u omhels, 'k geloof het naulijx noch.</l>
+						<l>Wat zal 't een wellust zijn dit wederom te hooren!</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>O gasten, niet te ruigh een priesterin, gekoren</l>
+						<l>Ten offer van Diaen, t'omhelzen: draeght ontzagh.</l>
+						<l>Ontwijt den sluier niet, dien niemant raeken magh.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>O Agamemnons telgh, uit eenen stam gesproten</l>
+						<l>En vader! keer u om, en went eens onverschoten</l>
+						<l>Uw aengezicht naer my, uw' eigen broeder, dien</l>
+						<l>Gy nu omhelst, en docht uw leven noit te zien.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Noem ik u broeder? rust gy niet van zoo te spreeken?</l>
+						<l>Heel Argos spreekt van hem, en alle Eubeesche streeken.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Uw broeder is daer niet, elendige, voorwaer.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Zijt gy geboren uit de dochter van Tyndaer?</l>
+					</sp>
+
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>'K ben Agamemnons zoon, van Pelops voortgekomen.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Wat zeghtge? toonme een blijk. hoe hebtge dit vernomen?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>'K heb zeker blijks genoegh gehoort in vaders hof.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Zegh op, ik luister toe, en lette op deze stof.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>'k Zal 't melden. 'k hoorde eerst uit Elektre hoe gins tusschen</l>
+						<l>Thyest en Atreus een geschil rees, niet te blusschen.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Ik hoorde het gerucht van 't gulden vlies, heel oudt:</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>En 't heughtme wel wat gy borduurde in zijde en gout.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>O allerliefste, dus wort schier mijn hart bewogen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Een zon, schoon schijnende in gekleurde regenbogen.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Ik breide en weefde dat met kostelijke draên.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>En wiesch u moeder niet, toen gy zou t'Aulis gaen?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Ik weet het, om aldaer ter quaeder uur te trouwen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Waerom zondt gy een vlecht aen moeder door getrouwen?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Tot een gedachtenis van mijn begraven lijk.</l>
+					</sp>
+
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>'K zal tekens toonen, daer gezien, tot waerheits blijk.</l>
+						<l>'K zagh in de kamer van de maeghden, noch verholen,</l>
+						<l>Een oude speer in 't hof van Pelops, lang gescholen</l>
+						<l>Van Hippodamia de maeght, te Pize in 't zant,</l>
+						<l>Toen Enomaüs viel, gezwaeit met haere hant.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>O allerliefste want geen mensch bestaet my nader,</l>
+						<l>Orest, 'k omhelze u, ver van Argos hof en vader,</l>
+						<l>Uit Argos hier belant.</l>
+						<l>O allerliefste pant!</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>'K omhelze u, die wy lang al overleden waenen.</l>
+						<l>Nu menght zich vreught en druk, en onderlinge traenen</l>
+						<l>Bevochtigen de wang, van blyschap en van rou.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>'K liet hem, een teder kint, bevolen aen de trou</l>
+						<l>Van 's voesters armen, in het hof, bebloet van moorden.</l>
+						<l>Nu kan ik mijn geluk en blyschap met geen woorden</l>
+						<l>Uitbeelden. mijn gemoedt wat spreeke ik afgetreurt!</l>
+						<l>Dit's meer dan wonder, en wie kan 't geen hier gebeurt</l>
+						<l>Ontvouwen met de tong, en klaer te kennen geven!</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wy zullen beide nu gelukkigh t'zamen leven,</l>
+						<l>Om 't onderling geluk van wederzy verheught.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>O vrienden, my gemoet een onverwachte vreught.</l>
+						<l>Ik vreeze al dat hy magh ontglippen uit mijn handen.</l>
+						<l>O menscheneeters hof, gebout op noortsche stranden!</l>
+						<l>O waerdigh vaderlant, geboortestadt Myceen,</l>
+						<l>'K begroete u, daerme 't licht des levens eerst bescheen.</l>
+						<l>'K bedanke u, die my voede, en mijnen waerden broeder,</l>
+						<l>Het licht van al 't geslacht, en mijnen trouwen hoeder.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wy beiden sproten wel uit hoogen stamme, maer</l>
+						<l>Gansch ongelukkigh solt ons leven, van gevaer</l>
+						<l>En jammeren gepropt.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Dat voelde ik ongelukkigh,</l>
+						<l>Toen vader 't bloote zwaert uitrukte dootsch en drukkigh,</l>
+						<l>En 't koude lemmer my wou drijven in het hart.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Het schijntme afwezende u daer ook te zien met smart.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Och broeder, toen hy my met looze treken leide,</l>
+						<l>En zonder bruiloftstorts, terwijl een ieder schreide,</l>
+						<l>Naer helt Achilles tent, daer traenen en misbaer</l>
+						<l>Zich mengden onder een, om 't bloedigh moortaltaer.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wat waschbadt stont'er, om het offer rein te baden?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>'K moght vaders stout bestaen, te blint en onberaeden,</l>
+						<l>Beklaegen, en den moort, die geenen vader past.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Het eene gruwelstuk hing aen het ander vast.</l>
+						<l>Elendige, hadt gy uw' broeder moeten slaghten</l>
+						<l>Door dwang van dees godin; men zoude u schuldigh achten</l>
+						<l>Aen zulk een' broedermoort, te reukeloos begaen.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Ik hebbe een schendigh stuk bestaen,</l>
+						<l>Een schendigh moortstuk voorgenomen.</l>
+						<l>Och broeder, naulijx zijtge ontkomen</l>
+						<l>Mijn onrechtvaerdigh moortgewelt,</l>
+						<l>Mijn moortmes, op uw keel gestelt.</l>
+						<l>Wie ziet dees zwaericheên ten ende?</l>
+						<l>Wat avontuur helptme uit elende?</l>
+						<l>Wat heilzaem middel vinde ik best</l>
+						<l>Om u uit dit vervloekt gewest</l>
+						<l>Dees stadt te helpen, vry van rouwe,</l>
+						<l>In onze Argivische landouwe,</l>
+						<l>Eer ik mijn zwaert en handen moet</l>
+						<l>Besmetten met uw edel bloet?</l>
+						<l>Bedroefde ziel, 't zal u betaemen</l>
+						<l>Een veiligh middel te beraemen,</l>
+						<l>Om snel te voet te lande haest,</l>
+						<l>En niet ter zee, te vliên verbaest,</l>
+						<l>[De doot genaekt met wijde schreden,]</l>
+						<l>Door vreemde volken, woest van zeden,</l>
+						<l>Door ongebaende wegen: want</l>
+						<l>Langs 't Cyaneesch steenrotzigh strant</l>
+						<l>Is 't eng en boghtigh. zoo veel mijlen</l>
+						<l>Te scheepe zou de vlught verwijlen.</l>
+						<l>Elendige, och wat overlegh</l>
+						<l>Rukt deze hinderpaelen wech!</l>
+						<l>Wat Godt, wat mensch, eer wy 't vermoeden,</l>
+						<l>Zal deze vlught en nootreis spoeden,</l>
+						<l>En toonen Atreus overschot</l>
+						<l>Ons beide een ent van 't heiloos lot!</l>
+					</sp>
+
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>'K zagh in dit wonderbaer geval 't geen met geen monden</l>
+						<l>Is uit te drukken, en ik hoorde, en zal verkonden</l>
+						<l>Wat mijn gehoor vernam, mijne oogen moghten zien.</l>
+						<l>Orest, 't is billijk, dat oprechte vrienden, wien</l>
+						<l>'T gebeurde elkandere t'ontmoeten, uit ontfarmen</l>
+						<l>En blyschap onderling van weêrzy zich omarmen.</l>
+						<l>Nu voeght het ga te slaen, de rou ter zy gezet,</l>
+						<l>Hoe, na'et bereiken van 't gewenschte heil, wy met</l>
+						<l>De minste noot den gront van Tauren mogen ruimen.</l>
+						<l>De wijze mannen geen gelegenheit verzuimen</l>
+						<l>Die voorvalt, op dat hun geluk noch verder ga.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Dat's recht gezeit. fortuin verleene ons heur gena.</l>
+						<l>De maght van boven zal een grooter kracht byzetten.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenie</speaker>
+						<l>Het kan mijn opzet noch gesprek met u beletten,</l>
+						<l>Indienge eerst my berecht hoe 't met Elektre ging:</l>
+						<l>Wat lot haer toeviel. dit behaeghtme zonderling.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zy leeft, verlooft aen hem, gezegent en in weelde.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Wat man is dit? hoe hiet de vader, die hem teelde?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Focenser Strofius. begeertge meer, zoo vraegh.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Is om Elektre dan dees vrient zoo na mijn maegh?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Hy is ons zusterling, ten halsvrient my beschoren.</l>
+					</sp>
+
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Hy was, toen vader my wou slaghten, niet geboren.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Noch niet, want Strofius was toen noch kinderloos.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Mijn eige zusters man, zijt welkom voor altoos.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Hy is mijn bloetvrient niet alleen, maer ook mijn hoeder.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Hoe kontge lijden zulk een schelmstuk van uw moeder?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ay zwijgh. ik nam de wraek van haeren mannemoort.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>En om wat reden holp zy uwen vader voort?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Die klank luit schendigh. leer uw moeders schult verzwijgen.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Ik zwijgh. Mycene ziet u nu ten troone stijgen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Daer Menelaüs heerscht: wy zwerven buiten 't lant.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Verdrukt dan oom 't geslacht, befaemt door schant op schant?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Geensins, de Razerny vervolghtme alom te vinnigh.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Dit bleek op strant. men zeght gy raesde daer krankzinnigh.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>'K ben nu niet eerst om mijn bezetenheit verdacht.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>De Vloekgodin, zoo 'k hoor, bestraft uw moederslaght.</l>
+					</sp>
+
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zy rijdtme nacht en dagh, en weet my in te toomen.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Wat moghtge aen deze kust, zoo hoogh in 't noorden, komen?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Door Delfis antwoort, en Apollo, die het riedt.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Met welk een ooghmerk? magh men 't hooren ofte niet?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>'K zal 't zeggen. dit's 't begin van mijne zwaericheden.</l>
+						<l>Na datwe moeder met ons handen [welke reden</l>
+						<l>Wy liever zwijgen dan verhaelen], dreven knap</l>
+						<l>De Vloekgodinnen ons met kracht in ballingschap.</l>
+						<l>Ik trok op Godt Apols gebodt t'Athene binnen,</l>
+						<l>Om daer te pleiten voor onnoembre Vloekgodinnen:</l>
+						<l>Hier zit het heiligh recht, van Jupiter gestelt</l>
+						<l>Voor Mars, die zijne vuist bevlekte door gewelt:</l>
+						<l>En daer verscheenen, wou my geen der onderzaten</l>
+						<l>Huisvesting gunnen, als een' mensch by Godt verwaten:</l>
+						<l>Maer die, hierom beschaemt, noch, aengeport door reên,</l>
+						<l>Mijn heil behartighden, bestelden my alleen</l>
+						<l>Nootdruftigh dischgerecht, in 't eenzaem huis gezeten.</l>
+						<l>'K most zwijgen, en geen' mensch te spreeken my vermeeten,</l>
+						<l>Noch nutten spijs en drank met iemant dischgemeen.</l>
+						<l>Elk dronk zijn schael vol wijns, die langs de tafel heen</l>
+						<l>Omwandelde, terwijl men zong en quinkeleerde.</l>
+						<l>Ik dorst die gasten niet bestraffen, schoon 't my deerde,</l>
+						<l>En treurde stom en stil, ontveinsde 't geen ik zagh.</l>
+						<l>Ik zuchte zwijgende, om vrou moeders nederslagh.</l>
+						<l>Nu hoore ik heeft mijn ramp Athene stof gegeven</l>
+						<l>Een feest te vieren, noch by hen in zwang gebleven,</l>
+						<l>En Pallas volk eert noch dien gouden offerkelk.</l>
+						<l>Na dat ik stont te recht op Mavors bergh voor elk,</l>
+						<l>Besloegh ik eenen stoel, en 't hooft der Razernyen</l>
+						<l>Den andren stoel voor my. het ging'er op een stryen.</l>
+						<l>'K verweere mijne zaek met reên, en Febus hoort</l>
+						<l>De wettige oirzaek van dien droeven moedermoort,</l>
+						<l>En geeft getuighnis van mijne onschult. Pallas telde</l>
+						<l>Gelijke stemmen, dies de vierschaer vonnis velde,</l>
+						<l>En van de moederslaght my vrykende en ontsloegh.</l>
+						<l>Wat Vloekgodin hier zat, en 't vonnis overwoegh,</l>
+						<l>Bestemde dit besluit, en schoude my gansch louter:</l>
+						<l>Maer andre Vloeken, dol en wetteloos en stouter,</l>
+						<l>Vervolghden, dreven my, vol onrust, heene en weêr,</l>
+						<l>Dies ik naer 't heilighdom te Delfis wederkeer.</l>
+						<l>Daer legge ik voor de kerk gestrekt, en vaste en waeke,</l>
+						<l>En zweer de hant aen my, uit opgezette wraeke,</l>
+						<l>Te slaen, ten zy 't Apol, die my verriet, wil hoên.</l>
+						<l>Ik hoorde Febus uit den gouden dryvoet toen</l>
+						<l>My herwaert zenden, om Dianes beelt, gesteegen</l>
+						<l>Van boven uit de lucht, te schaeken door zijn' zegen,</l>
+						<l>En neêr te zetten op Athenes vryen gront.</l>
+						<l>Nu helpme trou aen 't heil, getoont door Febus mont.</l>
+						<l>Bestelme 't beelt, op dat de Razernye scheie,</l>
+						<l>En 'k zal u in Myceen herstellen met mijn gleie.</l>
+						<l>O waerde zuster, eer der zustren, helpme dan,</l>
+						<l>En 't vaderlijke huis: want zoo men 't beelt, dat van</l>
+						<l>Den hemel daelde, niet kan schaeken uit uw kooren,</l>
+						<l>Zoo is de gansche stam en Pelops hof verloren:</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>Der goden gramschap treft geduurigh dan en dus,</l>
+						<l>De telgen van den stam en 't zaet van Tantalus.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>O broeder, eerge quaemt was 't eenige verlangen</l>
+						<l>Naer Argos, om uw' mont te kussen en uw wangen.</l>
+						<l>Nu wil ik watge wilt, en wensche u naer mijn maght</l>
+						<l>Te vryen van uw smart, en vaders droef geslacht</l>
+						<l>Te redden, en weêrom op vasten voet te stellen,</l>
+						<l>En wil den dochtermoort niet wreeken, noch vertellen.</l>
+						<l>'K wil mijne hant aen u niet slaen, maer 't huis behoên,</l>
+						<l>Doch vreeze dees godin of dwinglant zal 't vermoên,</l>
+						<l>Als hy d'altaernis van het kerkbeelt vint verlaeten.</l>
+						<l>Hoe berge ik 't leven best? wat onschult kanme baeten?</l>
+						<l>Doch kan men teffens dit beschikken snel en stip,</l>
+						<l>Het kerkbeelt schaeken, en my bergen in een' schip,</l>
+						<l>Dat waer gevaerlijk, doch een daet met recht lofwaerdigh.</l>
+						<l>Maer wiltge scheiden, my hier laeten, 'k ben wilvaerdigh.</l>
+						<l>Trek vry behouden heen naer huis, en spoe u voort.</l>
+						<l>Ik zwicht voor lijfsgevaer, noch dreigement, noch moort,</l>
+						<l>Zoo gy geborgen blijft. men wenscht een' vorst in 't leven,</l>
+						<l>Den pijler van het huis. wat's aen een vrou bedreven!</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>'K wil niet mijn hant aen u, gelijk aen moeder, slaen:</l>
+						<l>Al bloet genoegh gestort. ik leef en sterf voortaen</l>
+						<l>Met u alleen, en wil een zelve lot genieten,</l>
+						<l>U medevoeren, of hier 't leven inneschieten,</l>
+						<l>En sterven aen uw zy. hoor mijn gevoelen noch.</l>
+						<l>Zoo dit Diaen verdriet, hoe zoume Febus toch</l>
+						<l>Beveelen 't outerbeelt naer Pallas stadt te scheepen,</l>
+						<l>Uw aenschijn hier te zien? want dit by een gegreepen,</l>
+						<l>En overwoogen, hoop ik t' Argos weêr te staen.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Hoe kan 't geschieden dat wy beide niet vergaen,</l>
+						<l>Terwijlwe mikken op het wit van ons begeeren?</l>
+						<l>Bedenk het. 't ooghmerk is alleen naer huis te keeren.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>En kan men dien tyran niet helpen aen een' kant?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Gevaerlijk, zoo hy wort van vreemden aengerant.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Men waegh' het, raeken wy aldus den noot te boven.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Ik durf het niet, en moet uw moedigh opzet loven.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Of gy my heimelijk verschuilde in deze kerk?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Om in de duisternis te glippen uit dit perk?</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>De nacht bedekt den dief: de waerheit zoekt de zonnen.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Men zou de tempelwacht niet licht bedriegen konnen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Helaes, wy zijn om hals. hoe raekt men van dien gront?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>My dunkt ik weet noch raet, en eenen nieuwen vont.</l>
+					</sp>
+
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Ontvou my uwen raet, of ik het ook verstont.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>'K gebruik met glimp dat gy van spooken zijt bezeten.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wat treken vint men, daer de vrouwen niet van weten?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>'K zal melden hoe gy vlughte om uwe moederslaght.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Gebruik mijn onheil tot ons heil, naer uwe maght.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>'K zal zeggen dat men u ten offer niet magh wijden:</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>En met wat glimp en schijn? 'k vermoede iet in dit lijden.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Gy zijt onzuiver, en moet eerst geloutert zijn.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Hoe kuntge 't kerkbeelt hun dan schaeken met een' schijn?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Ik wil het zuiveren aen strant, in zoute stroomen.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Is 't kerkbeelt binnen, daer wy beide om herwaert komen?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>'K zegh 't outerbeelt, van u bevlekt, eischt zuivering.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>En waer? zegh zuidwaert, daer ons d'inham eerst ontfing.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Daer 't schip op anker leght gemaert om af te vaeren.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Draeght iemant neffens u het kerkbeelt naer de baeren?</l>
+					</sp>
+
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Ik zelve alleen magh dit aenraeken, en niet ruw.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Wat deel heeft Pylades aen dezen moort zoo schuw?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Men zegge dat hy zich bezoedelt heeft aen u:</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Zult gy dit heimlijk of met 's konings wil voltrekken?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>'K zet hem met woorden om; ik kan 't niet anders dekken.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>De gley leght zeylreede, om te gaen op Godts gena.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Bezorght gy 't ovrige, op dat d'aenslagh wel besla.</l>
+					</sp>
+					<sp who="#orestes">
+						<speaker>Orestes</speaker>
+						<l>Een eenigh schort hier aen, dat d'aenslagh blijf verholen.</l>
+						<l>Bezweert dees vrouwen, en vermaentze, om niet te doolen.</l>
+						<l>Een vrouwetong verwekt medoogen in den mensch.</l>
+						<l>Ik hoope al 't ander zal beslaen naer onzen wensch.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>O waerde vrouwen, 'k heb mijn opzicht op u allen.</l>
+						<l>Mijn leven hangt aen u, en hoe dit uit wil vallen,</l>
+						<l>Of wel of qualijk, en versteeken van mijn lant,</l>
+						<l>En waertsten broeder, en mijn' waertsten bloetverwant.</l>
+						<l>Dit zy 't begin dan van mijn rede t'overwegen,</l>
+						<l>Hoe alle vrouwen van natuure zijn genegen</l>
+						<l>Tot onderlinge liefde, en, tot een' toeverlaet,</l>
+						<l>De hant te houden aen den algemeenen staet.</l>
+						<l>Zwijght stil, en helpt ons vlught. men looft getrouwe tongen.</l>
+						<l>Gedenkt hoe hier een trits van vrienden, hardt gedrongen,</l>
+						<l>Al teffens een gevaer geperst is uit te staen,</l>
+						<l>Te keeren in hun lant, of teffens hier vergaen.</l>
+						<l>Raek ik behouden, gy zult ook dien zegen erven.</l>
+						<l>'K zette u behouden en verheught op Grieksche werven.</l>
+						<l>Weshalve bidde ik u, by uwe rechte hant,</l>
+						<l>En u, en u, en u, met mont en kusverbant,</l>
+						<l>By uwe trou, en by de liefste in uw geslachten,</l>
+						<l>By vader, moeder, en uw kinders, leert u wachten.</l>
+						<l>Wat zeghtge nu hier toe? hoe sterktge dit verzoek?</l>
+						<l>Wie kan het weigeren? maektge u hierinne t'zoek,</l>
+						<l>Dan is 't voorwaer met my en broeder omgekomen.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>Mevrou, schep goeden moet. volhardt by 't voorgenomen:</l>
+						<l>Wat ons belangt, van ons wort niet een woort gerept</l>
+						<l>[Dat weet Jupijn], van al wat gy geboden hebt.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Het ga u wel om zulk een antwoort, rijp van reden.</l>
+						<l>Uw aller plicht vereischt terstont in 't hof te treden.</l>
+						<l>De koning van dit lant zal strax verschijnen, om</l>
+						<l>Hier t'onderzoeken of men voor het heilighdom</l>
+						<l>De gasten heeft geslaght, gewijt tot offerhanden.</l>
+						<l>  Eerwaerdighste godin, die, t'Aulis aen de stranden,</l>
+						<l>My voor 't moordaedigh zwaert van vader hebt bevrijt,</l>
+						<l>Behoeme, en deze mede, in dezen bangen strijt.</l>
+						<l>Of Grieken zal om u, lieght d'antwoort uit Godts kooren,</l>
+						<l>Noit Delfis zoeken, om Apolloos mont te hooren.</l>
+						<l>Maer nu verzoenbaer, schey uit dit verwaten lant.</l>
+						<l>Trek heen naer Pallas stadt, daer zy d'olyven plant.</l>
+						<l>Het voeght u langer niet te blijven by dien wreede,</l>
+						<l>Nu gy mooght woonen in een zegenrijke stede.</l>
+					</sp>
+
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>I. Keer</speaker>
+						<l>Halcyon, die, met rou belaên,</l>
+						<l>Om Pontus rotsstrant heenen</l>
+						<l>Uw droevigh onheil zingt met steenen,</l>
+						<l>Een' zang, by wijzen slechts verstaen,</l>
+						<l>En uwen man doorgaens beklaeght,</l>
+						<l>Met galmende gezangen,</l>
+						<l>'K gelijke my, van druk bevangen,</l>
+						<l>By u, waer van het strant gewaeght.</l>
+						<l>Ik hier een vogel, zonder schacht,</l>
+						<l>En onvoorzien van pennen,</l>
+						<l>Verlang naer Griekenlant te rennen,</l>
+						<l>Uit lust ter Godtheit van de jaght,</l>
+						<l>Die op den bergh van Cynthus vaert,</l>
+						<l>Met palmen, groen van bladen,</l>
+						<l>Laurieren en olijf geladen,</l>
+						<l>Latonaes dochter lief en waert.</l>
+						<l>'K wensch zwaenen, tot gezang geboren,</l>
+						<l>Aen 't water daer met lust te hooren.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>I. Tegenkeer</speaker>
+						<l>Het stontme op traenen, toen de stadt</l>
+						<l>Ter neêr plofte, ik most vaeren</l>
+						<l>Met vreemde roovers door de baren,</l>
+						<l>Om gout geveilt, en opgevat.</l>
+						<l>De spruit van Agamemnon moet</l>
+						<l>De maeght, een priesterinne,</l>
+						<l>Ten dienst der wufte jaghtgodinne,</l>
+						<l>Een plengster van het hartebloet,</l>
+						<l>Hier dienen met een offerboet,</l>
+						<l>En schaffen offerhanden</l>
+						<l>Van vee, om op 't altaer te branden,</l>
+						<l>Met een doorgaens bedrukt gemoedt.</l>
+						<l>Gy zijt de zwaericheên gewent,</l>
+						<l>En hoeftze niet te leeren</l>
+						<l>Verdraegen: doch de kans kan keeren</l>
+						<l>Met eenen zwaey, na lange elend.</l>
+						<l>Na zacht gevley van goede dagen</l>
+						<l>Is 't juk van rampspoên zwaer te draegen.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>II. Keer</speaker>
+						<l>De gley met vijftigh riemen zal,</l>
+						<l>Befaemde maeght, u slingeren</l>
+						<l>Naer Argos met den dans der vingeren</l>
+						<l>Op Faunus fluit. dat zoet geschal</l>
+						<l>Bestelt den roeier kracht en moedt.</l>
+						<l>Apollo spoedt het vaeren</l>
+						<l>Met zijne lier van zeven snaeren,</l>
+						<l>En zingt en speelt u door den vloet</l>
+						<l>Aen 't vruchtbre en vette Atheensche lant.</l>
+						<l>De snelle riemen streven</l>
+						<l>Door zee: ik eenzaam hier gebleven,</l>
+						<l>Sla mijn gezicht naer u van strant.</l>
+						<l>De winden vallen in het zeil</l>
+						<l>Van achter. touwen rekken</l>
+						<l>Terwijl de winden rustig trekken,</l>
+						<l>En 't schip door zee bruischt tot uw heil,</l>
+						<l>Op heesch klaeroen en zeetrompetten,</l>
+						<l>Om recht Pireüs in te zetten.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>II. Tegenkeer</speaker>
+						<l>Och quaem ik op de klaere baen,</l>
+						<l>Daer 't brandend vier der zonne,</l>
+						<l>Der hemellichten aêr en bronne,</l>
+						<l>Gewoon is jaerlijx om te gaen:</l>
+						<l>'K zou recht in top van 't oude hof,</l>
+						<l>Vol kamers, hangen blijven,</l>
+						<l>En op mijn taeie vleugels drijven</l>
+						<l>In 't hart der reien, daer met lof</l>
+						<l>Ik, maeght zijnde, in de bruiloft stont,</l>
+						<l>En voor mijn moeders voeten</l>
+						<l>Bevalligheden quam ontmoeten,</l>
+						<l>En voerdeze ten dansse in 't ront.</l>
+						<l>'K was uitgestreeken met de pracht</l>
+						<l>Van rijke feestgewaeden,</l>
+						<l>En puik van allerley cieraeden,</l>
+						<l>Daer 't al most volstaen in zijn kracht.</l>
+						<l>Haerlokken schaduwden mijn kaeken,</l>
+						<l>Waer op de roozen schooner blaeken.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Waer is, waer spreeke ik nu de Grieksche kerkkostrin?</l>
+						<l>Heeft zy de gasten al gewijt voor ons godin?</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>Hier isze, ô koning. die u reên geeft van haer werken.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Wel Agamemnons kint, draeghtge uit Dianaes kerken,</l>
+						<l>Dat ongeoorlooft is, dit kerkbeelt met uw hant?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Hou stant, heer koning. och hou toch een luttel stant.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Wat rechtge nieus aen? zeghme, ô Ifigeen, doe kennis.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Ik zuivere antwoorde u. my gruwt van zulk een schennis.</l>
+					</sp>
+
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Wat brengtge nieus voor? spreek recht uit, beknopt en klaer.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Gy vingt hier offers op, ten smette van 't altaer.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Hoe weetge dit? of spreektge alleen naer uwe meening?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Het kerkbeelt keerde zich, daer 't stont, om dees verkleening.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Van zelf? of keerde 't door aerdtbeving met een' zwey?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Van zelf, en ons godin look d'oogen alle bey.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Wat 's d'oirzaek? zijn de vreemde ontzuivert door hun leven?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Dat is 't, en anders niet. my schrikt 't geen zy bedreven.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Vermoordenze op hun kust een' aengekomen gast?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Zy quamen herwaert aen, met huismoort zwaer belast.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Wat huismoort? 't lustme dit te hooren, en te weeten.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Zy hebben, bey vervloekt, hun moeder dootgesmeeten.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>O Godt Apollo, dit's in 't noorden noit gehoort!</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Heel Grieken dreefze wech, en schupteze uit de poort.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Zoo brengtge 't beelt hierom naer buiten van het outer?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Om 't af te wasschen, in dees lucht, heel rein en louter.</l>
+					</sp>
+
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Hoe kreeghtge kennis van der vreemdelingen smet?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Toen 't kerkbeelt op 't altaer gekeert stont en verzet.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Gy vat het recht, als opgevoedt by Grieksche wijzen.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Hun blijde tyding streelt mijn hart, dat d'aders rijzen.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Zoo brengenze u wat goets van Argos uit de zee?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Mijn eenigh broêr Orest leeft noch in rust en vrê.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Zoo wiltge om deze maer hen spaeren by het leven?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>En vader is gezont en frisch tot noch gebleven.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Gy gingt, Diaen ten dienst, dan uit de kerk met reên?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Als die gansch Grieken haete, om 't onheil daer geleén.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Waer nu gebleven met dees vreemden uit de baren?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Men moet d'instelling van de kerkwet rein bewaeren.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Hoe komen waschvat en uw degen van der hant?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Ik wil ze eerst zuiveren kerkpleghtigh op het strant.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Met eene bronaêr, of in zoute waterplassen?</l>
+					</sp>
+
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>De zee is maghtigh al de vlekken af te wassen.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Het offer der godin zal heiliger beslaen:</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>En mijne tempelplicht ook heiliger bestaen.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Komt hier de zeetong niet Dianaes drempel likken?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Wy hoeven eenzaemheit, en moeten meer beschikken.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Zoo breng hen waerge wilt: 'k wil geen geheimnis zien.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>My past het outerbeelt in 't loutren eer te biên.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Met reên: het is bevlekt met moederslaght, te schroomen.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Ik had het anders uit den tempel niet genomen.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Godtvruchtigheit, met vlijt gepaert, een ieder sticht.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Hoor watme staet te doen.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Dat meltme naer uw' plicht.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Men boey de gasten.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Hoe, op datze niet ontvlieden?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Een Griek is trouweloos.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Gy dienaers, boeit henlieden.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Men breng' de gasten hier.</l>
+					</sp>
+
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Het zal terstont geschiên.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Men dekke d'oogen, dat zy 't zonnelicht niet zien.</l>
+						<l>Bestelme ook eenen stoet van uwe lijftrouwanten.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>En om wat reên?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Om al dien hoop in stadt te planten.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Op dat'er geen verschijne omtrent dien offerslaght? </l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Dat waer een gruwelstuk.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Ga heen, getrouwe wacht,</l>
+						<l>En zegh dat niemant dit slaghtoffer dicht genaeke.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Geen van de vrienden hoedt de stadt met zulk een waeke.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Gy tuight van my het geen op u veel beter slaet,</l>
+						<l>Naerdien het gansche lant om u verwondert staet.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Nu sta hier voor de kerk.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Om wat te doen en leeren?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>De kerk te zuiveren met gout, op dat in 't keeren</l>
+						<l>Gy haer gereinight vint, wanneer de gasten hier</l>
+						<l>Aenkomen.</l>
+					</sp>
+
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Wat verricht ik dan naer 's kerks manier?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Gy moet uwe oogen met een' zijden sluier dekken.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Om met geen offerslaght mijne oogen te bevlekken?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>En draele ik u te lang?</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Hoe treffe ik best de maet?</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Het geve u dan niet vreemt.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Beschik wat hier toe staet.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Och of dees zuivering besloegh naer mijn gebeden!</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Ik bidde desgelijx het zelve uit rijpe reden.</l>
+					</sp>
+					<sp who="#ifigenie">
+						<speaker>Ifigenia</speaker>
+						<l>Ik zie de gasten nu aenstappen uit het huis,</l>
+						<l>De jongelingen, en het heilighdom, heel kuisch,</l>
+						<l>Om dien vervloekten moort door offerslaght te vaegen.</l>
+						<l>Ik zie de fakkels voor de gasten heenedraegen,</l>
+						<l>En 't geen de loutering van hun en 't kerkbeelt eischt.</l>
+						<l>'K gebie den burger dat hy voor dees zuivring deist.</l>
+						<l>Zoo eenige kostrin de hant wil rein bewaeren,</l>
+						<l>Of huwlijk sluiten, of in arbeit gaet van baeren,</l>
+						<l>Vertrekt en wijkt, op dat gy smet ontfangt noch hoon.</l>
+						<l>O dochter van Jupijn, en dochter van Latoôn,</l>
+						<l>Wassche ik hun' dootslagh af, en offre hen ter stede</l>
+						<l>Daer 't voeght, gy zult voortaen, in veiligheit en vrede,</l>
+						<l>Gerust een zuiver huis bewoonen zonder vlek,</l>
+						<l>En wy gelukkigh zijn. schoon ik nu niet ontdek'</l>
+						<l>Het ovrige aen de goôn, veelkundigh en ervaeren,</l>
+						<l>Noch lust my, ô Diaen, dus veel u t'openbaeren.</l>
+						<l>De tweeling van Latone</l>
+						<l>Godt Febus, met zijn gouden haer,</l>
+						<l>Verdient dat elk hem kroone,</l>
+						<l>Om zijn vernuft en harpesnaer.</l>
+						<l>Diane, schoon van straelen,</l>
+						<l>Is fix op schieten afgerecht,</l>
+						<l>In Delos vruchtbre dalen.</l>
+						<l>De moeder van 't stilstaende en slecht</l>
+						<l>Bronwater, toenze scheide</l>
+						<l>Van 't eilant, overal befaemt</l>
+						<l>Door hun geboort, geleide,</l>
+						<l>Droeghze op de kruin Parnas genaemt,</l>
+						<l>Den wijngodt toegeschreven,</l>
+						<l>Daer eer de draek, een aerdtsch gedroght,</l>
+						<l>Den rugh hadde opgeheven,</l>
+						<l>Vol spikklen van natuur gewrocht.</l>
+						<l>De muil zagh root en bloedigh,</l>
+						<l>Vol kopre tanden. zulk een dier</l>
+						<l>Bewaekt Godts antwoort moedigh,</l>
+						<l>In schaduwe van lauwerier.</l>
+						<l>O Febus, gy, noch teder,</l>
+						<l>En hupplende op uw moeders arm,</l>
+						<l>Schoot dien spelonkdraek neder,</l>
+						<l>Begost, op 's vreemdelings gekerm,</l>
+						<l>Den vraegende te paeien,</l>
+						<l>Gezeten op den dryvoettroon,</l>
+						<l>Heel schuw van 't zaet te zaeien</l>
+						<l>Der logentael, te koop om loon,</l>
+						<l>Daer lang Kastalje in waerde</l>
+						<l>Haer water uitgiet klaer en puur,</l>
+						<l>En 't navelpunt der aerde</l>
+						<l>U kent voor zijnen nagebuur.</l>
+						<l>Maer Febus rant in 't ende</l>
+						<l>Vrou Themis, telgh van 't aerdtrijk, aen,</l>
+						<l>Verstootze, in droeve elende</l>
+						<l>Uit d'antwoortkoorspelonk, die waen</l>
+						<l>En zinnepoppen baerde,</l>
+						<l>Ook veelen 't aenstaende en 't verleên</l>
+						<l>En 't voor de hant verklaerde,</l>
+						<l>Wat in den droom op 't bed verscheen:</l>
+						<l>Want d'aerde, door 't verspreeken</l>
+						<l>Van 't kroost der bitse nydigheit,</l>
+						<l>Godt Febus had versteeken,</l>
+						<l>En hem 's waerzeggers dienst ontzeit.</l>
+						<l>De koning, snel van voeten,</l>
+						<l>Streeft naer den troon van Godt Jupijn,</l>
+						<l>En klaeght hem, na het groeten,</l>
+						<l>Hoe hy nu quam in armen schijn</l>
+						<l>Met lege handen klaegen,</l>
+						<l>En badt hem vierigh 's aerdtrijx haet</l>
+						<l>En Delfis antwoort toch te jaegen</l>
+						<l>Uit Febus kerke, nu versmaet.</l>
+						<l>Jupijn begost te lachen,</l>
+						<l>Naerdien de zoon zoo ras en snel</l>
+						<l>Hem quam om inkomst prachen</l>
+						<l>En winst voor zijn spelonkkapel.</l>
+						<l>Hy schud het hooft, en weigert</l>
+						<l>Dees bede, schort het droomgenot,</l>
+						<l>Neemt wegh het hooghgesteigert</l>
+						<l>Bedrogh, gedwongen met een slot,</l>
+						<l>Herstelt dus Febus waerde,</l>
+						<l>Beschikt den volken heiligh dicht</l>
+						<l>In eenen hoop by een vergaerde,</l>
+						<l>Een waere spellinge, uit het licht</l>
+						<l>Van zijnen troon daer boven;</l>
+						<l>Een afscheit waert te loven.</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>O kosterinnen van altaer en kerk, waerheen</l>
+						<l>Is koning Thoas, dien wy zoeken, nu getreên?</l>
+						<l>Sluit op de hofpoort: roept terstont den lantsheer buiten.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>Wat's dit? zal ik het geen my niet geboôn is uiten?</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Twee knaepen, door den raet van Agamemnons kint,</l>
+						<l>Vervlogen uit dit lant te water heel gezwint,</l>
+						<l>Met eene Grieksche gley, die zy ter sluik bevrachtten</l>
+						<l>Met ons Dianes beelt, het welk wy heiligh achten.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>Gy zeght het geen men naeu gelooft dat kan geschiên.</l>
+						<l>De koning van dit rijk, dien gy begeert te zien,</l>
+						<l>Ging haestigh uit de kerk.</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Waer ging hy heenestreven?</l>
+						<l>De vorst moet weeten wat de vreemden hier bedreven.</l>
+					</sp>
+
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>Wy weeten 't niet: hierom ga heene, jaegh hem na,</l>
+						<l>En openbaer dit zelf den koning niet te spa.</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Ay zie hoe trouweloos zijn vrouwen. zie haer nukken.</l>
+						<l>Gy zijt handaedigen aen haere lasterstukken.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>Gy raest. wy kreunen ons de vlught der vreemden niet.</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Zult gy de hofpoort niet ontsluiten? wacht u, ziet.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>Niet eer een tolk ons melde of nu de koning binnen</l>
+						<l>Of buiten 't hof ging.</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Op, sluit op, om tijt te winnen.</l>
+						<l>Ik zegge noch, sluit op. hofwachters, gaet terstont,</l>
+						<l>En zeght den koning aen, uit mijnen eigen mont,</l>
+						<l>Dat hier de bode komt, met onverzierde maeren</l>
+						<l>Van rampen, bootschappen hoe 't heden, is gevaeren.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Wie raest en klopt dus voor de kerkdeur van Diaen,</l>
+						<l>En jaeght een' dootschrik op het lijf die binnen staen?</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Dees logenachtigen my van den tempel dreven,</l>
+						<l>En zeiden gy waert uit, en zijt noch hier gebleven.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Wat winst verwachtten zy? wat zochtenze hier door?</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Dat melde ik u, ô vorst, hier na: nu luister, hoor</l>
+						<l>Wat voor de hant is. dees gewijde aen onze altaeren</l>
+						<l>Ifigenie is uit den lande weghgevaeren,</l>
+						<l>Met deze gasten, en het kerkbeelt schoon van strael.</l>
+						<l>Haer offerlouteren is loutre logentael.</l>
+					</sp>
+
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Wat zeghtge? van wat wint ter quaeder uur gedreven?</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Geeft u dit vreemt? zoo berghtze Orestes en zijn leven.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Wien bergtze, Tyndars zoon, haer' broeder, Tyndars zoon?</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Dien zy Diane toegewijt hadde om te doôn.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>O gruwelstuk, wat naem, wat vloek brengt gy niet mede?</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Hier denk niet aen, maer hoor, belieft het u, mijn rede,</l>
+						<l>En overweegh de zaek, en na'et verhaelen let</l>
+						<l>Met welk een' troep gy hen op 't spoor volgt en bezet.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Gy raetme wel. zy zijn heel diep in zee gesteeken,</l>
+						<l>Op datze vlughtende mijn speer en schicht ontweeken.</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Na datwe 't bare strant genaekten, daer Orest</l>
+						<l>De roofgley maerde al stil in 't boghtigh strantgewest,</l>
+						<l>Zoo wenkte ons [die, van u tot wachters megezonden,</l>
+						<l>De gasten hielden wel zorghvuldigh vastgebonden,]</l>
+						<l>De koninglijke maeght, dat wy van haer een stuk</l>
+						<l>Afweeken, op dat zy, op haeren aenslagh tuk,</l>
+						<l>'T geheime zuivervier ontsteeken moght en branden:</l>
+						<l>Maer zy hielt haere hant geslagen aen de banden</l>
+						<l>Der vreemdelingen, dat ons in nadenken braght.</l>
+						<l>Noch volghdenwe het spoor der bende naer ons maght.</l>
+						<l>Ten leste, op datze scheen wat anders aen te vangen,</l>
+						<l>Zoo stakze een keel op, huilde, en zong bedroefde zangen</l>
+						<l>In 't Grieksch, als die den moort wou spoelen in den vloet.</l>
+						<l>Na lang stilzitten schoot ons in of 't uitheemsch bloet,</l>
+						<l>Van bant geslaekt, haer hier moght moorden, dan ontvlieden.</l>
+						<l>De vrees nochtans, om niet t'aenschouwen 't geen onslieden</l>
+						<l>Niet vrystont, hielt ons lang vast zitten stom en stil.</l>
+						<l>Na'et zitten slooten wy met een' gemeenen wil</l>
+						<l>Te stappen derwaert zy by een gezeten waeren,</l>
+						<l>Al zou men 't ons verbiên. daer zienwe, reedt te vaeren,</l>
+						<l>Een Grieksche gley, voorzien met riemen, schrap en vlugh</l>
+						<l>Om zee te kiezen, als met vleuglen op den rugh</l>
+						<l>Gehecht, en vijftigh met den riem gereet te roeien,</l>
+						<l>De gasten achter op, geslaekt van bant en boeien,</l>
+						<l>Aen 't stuuren met den boom: maer andren winden vast</l>
+						<l>Het anker voor den boegh. een ander recht den mast,</l>
+						<l>Of vlieght de touwen op, en redze, en spant de zeilen,</l>
+						<l>En laet mevrou op strant. wy, ziende deze onheilen</l>
+						<l>En looze treken van de maeght, bezweeken niet,</l>
+						<l>Noch spaerden arrebeit, noch moeite, noch verdriet.</l>
+						<l>Wy houden 't hoofttou vast, en rukken, eerze spoeien,</l>
+						<l>Met kracht de dollen uit, op datze ons niet ontroeien.</l>
+						<l>Daer twistenwe onderling: wat spoetge uw reis ter zee,</l>
+						<l>En voert de priesterin, en 't heiligh kerkbeelt mê?</l>
+						<l>Waerom verstoutge u een verkochte maeght te roven?</l>
+						<l>Hy antwoort hun: Orest vervoert naer Argos hoven</l>
+						<l>De lang geschaekte, die men weder hier bequam,</l>
+						<l>Zijn zuster, eene telgh uit Agamemnons stam.</l>
+						<l>Wy houdenze evenwel, om dit gewelt te weeren,</l>
+						<l>En dwingenze, om met ons naer u ten hoof te keeren,</l>
+						<l>Waerop zy schriklijk ons in 't aenzicht randen aen.</l>
+						<l>Wy trekken geen geweer, noch zyliên ook, maer slaen</l>
+						<l>Met drooge vuisten toe, en bey de jonglings raeken</l>
+						<l>Ons op de borst en 't hart, dat al de ribben kraeken.</l>
+						<l>Wy, dus getaistert, vliên de rots op, heel geschent.</l>
+						<l>De leden, gansch vermoeit, bezwijken in het endt.</l>
+						<l>De mont en tanden bloên, en d'oogen, en de wangen.</l>
+						<l>Wy vechten veiliger daerwe op de steenrots hangen,</l>
+						<l>En smijten steenen: maer de schutters in het schip</l>
+						<l>Beschieten ons van ver met pijlen op de klip.</l>
+						<l>Het slingrend schip wort door de golf naer lant gedreven.</l>
+						<l>Maetroozen durven zich te water niet begeven.</l>
+						<l>Toen komt Orestes flux neêrstijgen in de zee.</l>
+						<l>Hy neemt zijn zuster op den arm en schouder mê,</l>
+						<l>En, langs den valreep steil en schichtigh opgevloogen,</l>
+						<l>Zet haer in 't schip, waerop het beelt, uit 's heemels boogen</l>
+						<l>Om laegh gedaelt, begint te spreeken op dees wijs:</l>
+						<l>O Grieksche zeeliên, valt aen 't roeien, elk om prijs,</l>
+						<l>Dat al het water schuimt. wy hebbenze. wy wonnen</l>
+						<l>Den schoonen buit, waerom men herwaert quam geronnen,</l>
+						<l>Tot in d'Euxynsche zee, door 't schrikkelijk geklots</l>
+						<l>Der Cyaneesche tegens een geklonke rots.</l>
+						<l>Zy streven, op dees stem door 't water datze steenen.</l>
+						<l>Het schip, zoo lang het in de haven is, spoet heenen,</l>
+						<l>Maer t'elkemael het uit de boght des inhams vlugh</l>
+						<l>Zou vaeren, smeet de golf en barning het te rugh:</l>
+						<l>Want byster onweêr, uit den zuiden opgesteeken,</l>
+						<l>Den vaert belette. zy, geleert op alle streeken</l>
+						<l>En buien, streven vast hier tegens aen met maght.</l>
+						<l>De konings dochter valt aen 't bidden met dees klaght:</l>
+						<l>Latonaes spruit, behoeme, uw tempelpriesterinne,</l>
+						<l>Dat ik, van dezen gront verlost, Atheene winne.</l>
+						<l>Vergeefme 't schaeken van uw heilighdom: want gy</l>
+						<l>Bemint uw' broeder ook. gedenk, godin, dat wy</l>
+						<l>Ons bloetverwanten me beminnnen naer 't betaemen.</l>
+						<l>Maetroozen hooren dit gebedt, en roepen t'zamen:</l>
+						<l>Godt woudts, ter goeder tijt. zy maenen op een ry</l>
+						<l>Elkandren rustigh aen, en slaen van wederzy</l>
+						<l>De handen aen den riem: doch 't schip, dat voortgang weigert,</l>
+						<l>Komt met den vloet allengs naer strant toe neêrgesteigert.</l>
+						<l>Dees springt in zee, om 't schip te zetten van het zant;</l>
+						<l>Die winden 't anker voor den boegh gemeener hant.</l>
+						<l>Men vaerdighde my af, als een' der gaeuste knaepen,</l>
+						<l>Om u te melden hoe het ginder staet geschapen.</l>
+						<l>Men ga dan heene, en hael de boeien by der hant.</l>
+						<l>Bedaert de zee niet, 'k zie dien ganschen hoop gestrant.</l>
+						<l>De zorgh des zeegodts heeft noch Troie niet vergeeten:</l>
+						<l>Want hy, op Pelops stam en telgen fel gebeeten,</l>
+						<l>Zal Agamemnons zoon den burgeren en u</l>
+						<l>Met recht nu levren, en Orestes zuster, schuw</l>
+						<l>Van Aulis in het eerste, om 't offer voor de schepen.</l>
+						<l>Zoo wort d'ondankbre van de kerkgodin gegreepen.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>Rampzalige Ifigeen, nu raektge t'onbedacht</l>
+						<l>Met uwen broêr Orest noch eens in 's konings maght.</l>
+					</sp>
+
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Gy burgers algelijk van deze ongrieksche kusten,</l>
+						<l>Welaen, wat sammeltge de paerden toe te rusten,</l>
+						<l>Te rennen strandewaert? zult gy de Grieksche gley</l>
+						<l>Niet neemen, en met hulp van 't goddelijk geley,</l>
+						<l>Dees godeloozen, op de vlught, met kracht aenrannen,</l>
+						<l>De zommigen het schip heenstrevende vermannen,</l>
+						<l>Te water en te lant met maght van ridderschap,</l>
+						<l>Om hen te vatten, en te slingren fel en rap</l>
+						<l>Van eene steenrotse, of, met eenen pael geslagen</l>
+						<l>Door 't lichaem heene, zulk een' sprong te leeren waegen?</l>
+						<l>Maer gy, ô vrouwen, wel bewust van dit verraet,</l>
+						<l>'K wil op zijn tijt u zulk een schendige euveldaet</l>
+						<l>Verleeren: nu gebiet de tijt het werk te spoeien,</l>
+						<l>Niet stil te zitten, eer de schelmen zeewaert roeien.</l>
+					</sp>
+					<sp who="#minerve">
+						<speaker>Minerve</speaker>
+						<l>Waer heene, ô koning? waer vervolghtge met dien troep</l>
+						<l>De vlughtelingen? sta, en hoor Minerves roep,</l>
+						<l>En staek dees najaght. staek 't verdaegen van uw bende;</l>
+						<l>Apolloos antwoort stuurde Orestes, vol elende,</l>
+						<l>Om zich, bereden van de Razerny, t'ontslaen,</l>
+						<l>Zijn zuster t'Argos t'huis te voeren, zeewaert aen,</l>
+						<l>En 't heiligh outerbeelt op mijnen gront te planten.</l>
+						<l>Ik zelve ontvouwe u dit. Orest met zijn trouwanten,</l>
+						<l>Die gy wilt dooden, daer de zeestorm hen bezwaert,</l>
+						<l>Is van Neptuin, ten dienst van my, in noot bewaert.</l>
+						<l>Hy roeit vast door de zee. Orest, hoor mijn geboden.</l>
+						<l>Gy hoort mijn stem om hoogh, al zijtge ver gevloden.</l>
+						<l>Aenvaert het kerkbeelt en uw zuster, en wanneer</l>
+						<l>Gy bly t'Athene komt, gesticht tot Pallas eer,</l>
+						<l>Daer leght een plaets gewijt, in d'Attikaensche paelen,</l>
+						<l>Omtrent Karystus boort, by 't volk in groene dalen</l>
+						<l>Geheeten Halas: bou en wy daer eene kerk,</l>
+						<l>En plant het kerkbeelt van Diane, tot een merk</l>
+						<l>Van uwe zwaericheên, genoemt Diane in 't noorden:</l>
+						<l>En ter gedachtenis van 't leet, na'et moedermoorden,</l>
+						<l>In 't ommezwerven door gansch Griekenlant geleên,</l>
+						<l>Door drift der Vloekgodinne in vlekken en in steên.</l>
+						<l>Men zal hier na het beelt van Tauren pleghtigh eeren:</l>
+						<l>Dan stel een kerkwet in voor die op 't feest verkeeren,</l>
+						<l>En vieren het ontslaen van uwe moederslaght.</l>
+						<l>Men prikke met een zwaert een' manshals week en zacht,</l>
+						<l>Dat die zijn bloet laete, om de schuldige eer te geven</l>
+						<l>Aen dees godin: en gy: ô Ifigeen, verheven</l>
+						<l>Ter kerkkostrinne, zult te Brauron voor Diaen</l>
+						<l>De tempeltrappen, haer geheilight, gadeslaen.</l>
+						<l>Als gy begraven leght, dan zal men, naer 's lants zeden,</l>
+						<l>U noch gedenken, en opdraegen zijde kleeden</l>
+						<l>En sluiers, die de vrou, in baerens last en noot</l>
+						<l>Gestorven, binnen 't huis ontruimde met haer doot.</l>
+						<l>'K beveele u dezen rey Griekinnen droef aen 't schreien,</l>
+						<l>Trouhartigh uit het lant te helpen en geleien;</l>
+						<l>Dewijl ik u behoede, en gy naer wensch in 't velt</l>
+						<l>Van Mars met evental van stemmen zijt herstelt:</l>
+						<l>En ô Orest, ik wil voortaen dat tot hun voordeel</l>
+						<l>Der stemmen evental gedaeghden berge in 't oordeel.</l>
+						<l>O Agamemnons zoon, voer zuster van dees kust:</l>
+						<l>En gy, ô Thoas, toom uw gramschap in, en rust.</l>
+					</sp>
+					<sp who="#thoas">
+						<speaker>Thoas</speaker>
+						<l>Minerve, ô koningin, wie zou den wil der goden</l>
+						<l>Niet volgen, nu dit wort van hooger hant geboden?</l>
+						<l>Gewis hy waer niet vroet. ik wil Orestes dan</l>
+						<l>Noch zijne zuster niet vervolgen, schoon hy van</l>
+						<l>'T altaer het kerkbeelt schaekte, en vloot met zijn gezellen.</l>
+						<l>Het voeght niet tegens uw vermogen zich te stellen.</l>
+						<l>Men laetze vaeren met ons kerkbeelt naer uw lant.</l>
+						<l>Het werde op uw altaer ter goeder tijt geplant.</l>
+						<l>'K wil deze vrouwen in 't gezegent Grieken zenden,</l>
+						<l>Op uw gebodt, en mijn gedaeghde ridderbenden</l>
+						<l>Te rugge houden van uitheemschen, en hun schip.</l>
+						<l>Ik loof 't geen u gevalt, en rust hier stil en stip:</l>
+						<l>Want aller goôn begeerte en d'uwe sta nu boven.</l>
+					</sp>
+					<sp who="#minerve">
+						<speaker>Minerve</speaker>
+						<l>Maetroozen, vaert vry heene, en voert den lang verschoven</l>
+						<l>Orestes, braven zoon van Agamemnon, heen</l>
+						<l>Naer mijn Athene toe. 'k geleize, en wil met een</l>
+						<l>Mijn zusters heilighdom voor smette en schantvlek hoeden.</l>
+						<l>Vaert heen, naer 's hemels wil en schikking, door de vloeden,</l>
+						<l>En slijt, bevrijt van druk,</l>
+						<l>Uw dagen met geluk.</l>
+					</sp>
+					<sp who="#rey-van-grieksche-vrouwen">
+						<speaker>Rey</speaker>
+						<l>Eerwaerdighste onder goôn en menschen,</l>
+						<l>Wy volgen, Pallas, naer ons wenschen,</l>
+						<l>Op uw gebodt. ik hoorde daer</l>
+						<l>Een onverwachte blyde maer.</l>
+						<l>Eerwaerdige overgroote zege,</l>
+						<l>'T is reên dat ik dit overweege</l>
+						<l>Mijn leven lang, en zulk een kans</l>
+						<l>Bekransse met den lauwerkrans.</l>
+					</sp>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

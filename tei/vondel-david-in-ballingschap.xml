@@ -1,0 +1,3546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000024" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Koning David In ballingschap</title>
+				<title type="sub"/>
+				<author>
+					<persName>
+						<forename>Joost</forename>
+						<nameLink>van den</nameLink>
+						<surname>Vondel</surname>
+					</persName>
+					<idno type="wikidata">Q312673</idno>
+					<idno type="pnd">118627848</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL"
+						>https://www.dbnl.org/tekst/vond001dewe09_01/vond001dewe09_01_0004.php</idno>
+					<title>J.F.M. Sterck, H.W.E. Moller, C.G.N. de Vooys, C.R. de Klerk, B.H.
+						Molkenboer, J. Prinsen J.Lzn., L. Simons, C.C. van de Graft, L.C. Michels,
+						J.D. Meerwaldt en A.A. Verdenius (eds), De werken van Vondel. Negende deel
+						1660-1663. De Maatschappij voor goede en goedkoope lectuur, Amsterdam
+						1936</title>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Joost van den Vondel: Koning David In ballingschap. Amsterdam: widow of
+						Abraham de Wees, 1660.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person xml:id="absolon" sex="MALE">
+						<persName>ABSOLON</persName>
+					</person>
+					<person xml:id="thamar" sex="FEMALE">
+						<persName>THAMAR</persName>
+					</person>
+					<person xml:id="david" sex="MALE">
+						<persName>DAVID</persName>
+					</person>
+					<person xml:id="rey-van-levyten" sex="UNKNOWN">
+						<persName>REY van LEVYTEN</persName>
+					</person>
+					<person xml:id="urias-geest" sex="MALE">
+						<persName>URIAS GEEST</persName>
+					</person>
+					<person xml:id="davids-bedgenooten" sex="MALE">
+						<persName>DAVIDS BEDGENOOTEN</persName>
+					</person>
+					<person xml:id="joab" sex="MALE">
+						<persName>JOAB</persName>
+					</person>
+					<person xml:id="bode" sex="MALE">
+						<persName>BODE</persName>
+					</person>
+					<person xml:id="tweede-bode" sex="MALE">
+						<persName>TWEEDE BODE</persName>
+					</person>
+					<person xml:id="aertspriesters" sex="MALE">
+						<persName>AERTSPRIESTERS</persName>
+					</person>
+					<person xml:id="bersabe" sex="FEMALE">
+						<persName>BERSABE</persName>
+					</person>
+					<person xml:id="achitofel" sex="MALE">
+						<persName>ACHITOFEL</persName>
+					</person>
+					<person xml:id="chusai" sex="MALE">
+						<persName>CHUSAI</persName>
+					</person>
+					<person xml:id="simei" sex="MALE">
+						<persName>SIMEI</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-02">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1660">
+				<desc/>
+			</event>
+			<event type="premiere" when="1660">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+
+	<text>
+		<front>
+			<docTitle>
+				<titlePart>J. V. Vondels <lb/>Koning David In ballingschap. <lb/>
+					Treurspel.</titlePart>
+				<titlePart>t'Amsterdam,<lb/>Voor de weduwe van Abraham de Wees, op den Middeldam.
+					1660.</titlePart>
+				<titlePart><figure/></titlePart>
+			</docTitle>
+
+			<div type="dedication">
+				<head>Den edelen en gestrengen heere Andries de Graef, <lb/> Ouden raet en
+					rekenmeester der Graeflijckheit van Hollant en Westvrieslant &amp;c.
+					Burgermeester van Amsterdam.</head>
+				<p> Onder Sint Lukas kunstgebroederschap, de schilders, is een gemein spreeckwoort
+					[eene waerheit, al over twee duizent jaeren, by den grooten treurspeldichter
+					Euripides gesterkt,] gangbaere munt: Kleene beelden kleene, groote beelden
+					groote misslagen: het welck niet ongerijmt op het beloop van het toneel der
+					weerelt slaet, daer eenerhande gebreken van kleenen of grooten nadruck zijn,
+					naer de kleenheit of grootheit der personaedjen, die daer heure rol speelen: en
+					de ridder en drost Hooft zeide niet buiten reden, dat d'allerschoonste dingen by
+					inbeeldinge bestaen. Deze beide grontstellingen kan men lichtelijck met
+					voorbeelden verlichten. De grootmaghtigste aertsengel Lucifer, Godts
+					stedehouder, bespiegelde hoe heerlijck het zoude zijn, indien hy het leen van
+					zijne kroone niet langer by Godt, zijnen schepper, hoefde te verheffen,
+					berockende hierom eenen burgerkrijgh in den hemel, en, van eenen schoonen
+					aertsengel in eenen gruwzaemen draeck, misschapen, sleepte eenen staert van het
+					derde deel der starren met zich ter eeuwige duisternisse. Een goude kroon op het
+					hooft te willen draegen, als Absolon, of de korte wellust van een schoon
+					vrouwenbeelt te genieten, als David, wat staenze zoone en vader dier! Heilige en
+					weereltsche bladen zijn dicht bezaeit met diergelijcke voorbeelden, daer
+					dickwijl eene heele weerelt, en duizenden onnozelen meer om te lijden hebben dan
+					de menschelijcke natuur maghtigh is uit te harden: en de heilige Geest toont
+					ons, als in eenen klaeren spiegel, wat het gezicht van eene badende Bersabe
+					vermagh op den grootdaedigen koning David, eenen profeet, yveraer voor de wet,
+					en man naer Godts hart; en hoe het reuckeloos verydelen der zinnen eeuwen van
+					jammeren en oorlogen na zich sleept, die, uit Davids huis gesproten, alle zijne
+					afkomste, en nazaten, uitgezondert Salomons geluckigen tijt, verduuren, en
+					profeet Nathans dreigement, uit Godts mont, bevestigen: gelijck dat
+					schrickelijcke vonnis met deze woorden gevelt lagh: Het zwaert zal in der
+					eeuwigheit van uwen huize niet aflaten. ick zal een ongeluck uit uwen huize
+					tegens u verwecken, uwe vrouwen voor uwe oogen wech rucken, uwen naesten geven,
+					en hy zalze by klaeren zonneschijn beslaepen. Hier koos ick koning Davids
+					ballingschap, en haer jammerlijck gevolgh, als een leerzaem voorbeelt, dat
+					rijcke stof en levendige verwen tot eene spreeckende tooneelschildery bestelt:
+					want men ziet in dien schichtigen ommezwaey van staet allerhande hartstoghten
+					zich openbaeren, en t'zamenworstelen in lijdende en verblijdende personaedjen,
+					naer datze hier nadeel of voordeel uit trecken. Een oude getuighenis zeght van
+					Euripides Fenisse, by den heer gezant Huigh de Groot, onsterfelijcker
+					gedachtenisse, geluckigh en heerlijck vertaelt, dat het een treurspel is,
+					gepropt van hartstoghten, rijck van personaedjen, en vol uitneemende spreucken.
+					Hoe na of verre ick, in de schaduwe van zulck eenen aelouden voorganger, volge,
+					daer van zou de heer Burgermeester konnen oordeelen, indien hij zich
+					gewaerdighde by gelegenheit eens zijne oogen op de tekeninge en schickinge van
+					dit treurtafereel te slaen, terwijl ick wensche te blijven</p>
+				<p> </p>
+				<p>Weledele en grootachtbaere heer</p>
+				<p> </p>
+				<p>Uwe weled. en grootachtb. ootmoedige dienaer</p>
+				<p> </p>
+				<p>J. V. Vondel.</p>
+			</div>
+
+			<div type="preface">
+				<head>Inhoudt.</head>
+				<p> Toen David, zoon van Jesse, en koning van Juda en Israël, zich door overspel met
+					Berseba, en door moort met Urias bloet besmet hadde, dreighde hem profeet
+					Nathan, uit Godts mont, met eenen langduurigen nasleep van straffen en plaegen,
+					hier op te volgen, schoon de misdaet, door schultbekentenisse, en
+					boetvaerdigheit, gezoent was. Hierop volghden eerst het overlijden der vrucht,
+					Ammons zusterschennis, Absolons broederslaght, en endelijck, na zijne gelede
+					ballingschap en verzoeninge, des zoons wederspannigh opzet, om naer vaders leven
+					en kroon te staen. De zoon, verzagh zich van eenen stoet lijfschutten, wagens,
+					en paerden, ging, als rechter, in het poortgerecht zitten, en, overschoon en
+					bevalligh, onderhiel de gemeente minzaem, en gespraeckzaem, en onderkroop
+					allengs het hart van alle stammen. Toen Absolon nu den tijt rijp zagh, om het
+					schelmstuck in 't werck te stellen, nam hy, glimpelijck en schijnheiligh, oorlof
+					van den vader, om naer Hebron, der Hebreen gebedeplaets, te reizen, en zich
+					t'ontslaen van den bant der offerbelofte, waer door hy, geduurende de
+					ballingschap, zijn geweten aen Godt verbonden hadde. Ondertusschen washet
+					[ongetwijfelt met Achitofels raet] besteecken, dat alle stammen, van Dan tot
+					Berseba, zich daer zouden gereet houden, op den naem van 's princen bedevaert en
+					offer te helpen bekleeden. Hy komt dan te Hebron, daer Achitofel, 's konings
+					geheimraet, en de stamheeren, op het kerckhof der aertsvaderen, met den prince
+					in vloeckverwantschap treden, Absolon, met geklanck van bazuinen en volle
+					staetsie, voor koning afkundigen, hem zalven, en kroonen, en voort gewapender
+					hant naer Jerusalem, den rijxstoel, optrecken. David besluit, op deze
+					onverwachte maere, de stadt te verlaeten, en tien beddegenooten den burgh te
+					beveelen. Hy treckt schreiende, het hooft met eenen rousluier beschaduwt, en
+					baervoets, met aertspriesteren, Leviten, de bondtkiste, en alle zijnen aenhang,
+					ter stede uit, over de Cederbeeck, naer den Olijfbergh, en, daer geene
+					openbaeringe noch goddelijck antwoort uit den genadetroon verneemende, gebiet
+					d'aertspriesters met hunne zoonen, en de Levyten, en het heilighdom weder
+					stedewaert te keeren, ofze hem, in dien droeven schijn, noch moghten dienen, en
+					voor gevaer waerschuwen. Ondertusschen ruckt de zoon, door zuster Thamars
+					tusschenspraeck niet vermorwt, zonder slagh en stoot, Jerusalem in, beraet zich
+					met Achitofel, die [om der weifelenden aenhang te verzekeren van des zoons
+					onverzoenbaerheit met den vader,] den nieuwen koning, nu zijnen heer, raet
+					Davids beddegenooten in het openbaer te beslaepen, en den balling terstont in
+					zijn zogh te volgen. Chusaï, Davids geheimraet, en vrient, ten hove
+					wederkeerende, stoot Achitofels raetslagh van terstont de koning te vervolgen
+					glimpelijck om, en wint uitstel. Simei, Sauls bloetvrient, komt oock in de
+					stadt, en verhaelt, om gunst by den wederspanneling te winnen, hoe hy den
+					balling, arm en nootdruftigh, van Siba ter noot met luttel voorraet voorzien, te
+					Bahurim vloeckte, en met steenen smeet. Absolon vaert voort, om 's konings
+					beddegenooten te misbruicken. Achitofel, ziende zijnen raetslagh door Chusaï
+					omgestooten, en wanhoopende aen Absolons behoudenis, besluit uit mistroostigheit
+					zich in Gilo, zijne stadt, om het leven te helpen, waerop d'aertspriesters, wien
+					het toekomende geopenbaert wort, Absolons aenstaende nederlaegh voorspellen, en
+					hoe hy, na het verlies des veltslaghs, onder het vlughten, in 't bosch van
+					Efraim, by zijn haer en locken aen eenen boom hangende, den dootsteeck in zijn
+					harte zou gevoelen.</p>
+				<p>Het inhoudt van dit treurspel is geschept uit het tweede boeck der koningen, en
+					Josefus zevende boeck van de geschiedenissen der Joden.</p>
+				<p>Het tooneel is te Jerusalem, voor Davids burgh. Het treurspel begint te midnacht
+					en endight met den avont. De Levyten bekleeden den rey.</p>
+			</div>
+
+			<castList>
+				<head>De Treurspeelers.</head>
+				<castItem corresp="#absolon">
+					<role>ABSOLON. De Prins.</role>
+				</castItem>
+				<castItem corresp="#thamar">
+					<role>THAMAR. De Princes.</role>
+				</castItem>
+				<castItem corresp="#david">
+					<role>DAVID. De koning.</role>
+				</castItem>
+				<castItem corresp="#rey-van-levyten">
+					<role>REY van LEVYTEN.</role>
+				</castItem>
+				<castItem corresp="#urias-geest">
+					<role>URIAS GEEST.</role>
+				</castItem>
+				<castItem corresp="#davids-bedgenooten">
+					<role>DAVIDS BEDGENOOTEN.</role>
+				</castItem>
+				<castItem corresp="#joab">
+					<role>JOAB. De Veltheer.</role>
+				</castItem>
+				<castItem corresp="#bode">
+					<role>BODE.</role>
+				</castItem>
+				<castItem corresp="#tweede-bode">
+					<role>TWEEDE BODE.</role>
+				</castItem>
+				<castItem corresp="#aertspriesters">
+					<role>AERTSPRIESTERS.</role>
+				</castItem>
+				<castItem corresp="#bersabe">
+					<role>BERSABE. De koningin.</role>
+				</castItem>
+				<castItem corresp="#achitofel">
+					<role>ACHITOFEL. Hofraet.</role>
+				</castItem>
+				<castItem corresp="#chusai">
+					<role>CHUSAI. Hofraet.</role>
+				</castItem>
+				<castItem corresp="#simei">
+					<role>SIMEI. Sauls bloetvrient.</role>
+				</castItem>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+
+				<head>Koning David In ballingschap. </head>
+				<head>Het eerste bedryf.</head>
+				<div type="scene" n="1">
+					<stage>ABSOLON. THAMAR. DAVID.</stage>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Myn schiltknaep, ga terstont in 't hof: roep zuster Thamer.</l>
+						<l>Zy zit en wachtme, alree gekleet in haere kamer.</l>
+						<l>Zegh datze hier verschijn', gelijck ick had belast.</l>
+						<l>De broeder Absolon verwacht heer vader vast</l>
+						<l>Voor 't hofpoortael. hy rijst, om met de koorlevyten,</l>
+						<l>Ten zang gewijt, zich in zijn nachtgebeên te quijten,</l>
+						<l>Voor Arons heilighdom. de tijt eischt datze spoê.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Zijt gy 't, heer broeder; dus vroegh op naer vader toe?</l>
+						<l>De starren staen in keer. de nacht snijt recht in 't midden</l>
+						<l>Zijn loopbaen. spoet gy mê ter Godtshutte om te bidden?</l>
+						<l>Dat is godtvruchtigheit. zoo volght men vader na,</l>
+						<l>Die zevenmael, eer 't licht verrijze en onder ga,</l>
+						<l>Gewoon is in 't gebedt den oppersten te smeecken.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Vrou zuster, 'k hadde met heer vader iet te spreecken:</l>
+						<l>Gelijck gy hooren zult. hier dringt de tijt op aen,</l>
+						<l>En mijn gelegenheit. het schijnen van de maen</l>
+						<l>Begunstight my. 'k verzoeck dit onder uw geleide.</l>
+						<l>Gy weet maer al te wel den onlust, tusschen beide</l>
+						<l>Gerezen: en hoewel die hofstorm raeckte in rust,</l>
+						<l>De koning, weêr verzoent, my minzaem heeft gekust,</l>
+						<l>Noch schroom ick hem by nacht te treden onder oogen.</l>
+						<l>Verwerf my eerst verlof, dat hyme uit mededoogen</l>
+						<l>Genadigh spreecken hoore, en toesta mijn verzoeck.</l>
+						<l>'k Zal midderwijl te rug hier ergens in een' hoeck</l>
+						<l>Wech schuilen, en hem niet genaecken al te vaerdigh,</l>
+						<l>Al kende hy ons zijn genade en aenschijn waerdigh.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Heer broeder, 'k hebbe uw' zin en meening wel verstaen.</l>
+						<l>Vertreck een kleine wijl: daer komt heer vader aen.</l>
+						<l>Levyten treên vooruit. de hofstoet volght in orden,</l>
+						<l>Met 's konings lijfstaffiers. al is hy grijs geworden,</l>
+						<l>En sestigh jaeren out: het aenschijn ziet verblijt:</l>
+						<l>Het voorhooft zet geen kreuck. Godt recke zijnen tijt.</l>
+						<l>Hy heft zijne oogen en het hart met vreught naer boven,</l>
+						<l>Gereet den hooghsten met gezang en harp te loven.</l>
+						<l>Godt stercke vader in zijn' yver voor de wet.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Godt zegene mijn kint. wat jaeght u uit uw bedt?</l>
+						<l>Mijn hofwacht heeft noch eerst den berghaen hooren kraeien.</l>
+						<l>Zoeckt gy de Godtheit oock met nachtgezang te paeien,</l>
+						<l>Zoo volghme in Moses hut Godtvruchtigh na, en paer</l>
+						<l>Uw liefelijcke keel met 's konings harp en snaer.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Ick koom, heer vader, uit den naem van mijnen broeder.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Uw komste is aengenaem. Godts engel zy de hoeder</l>
+						<l>Van Absolon, mijn' zoon. wat is uw boodtschap toch?</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Hy wenscht den koning [moght hem d'eer gebeuren] noch</l>
+						<l>Te spreecken: want hem zijn gelegentheden jaegen.</l>
+						<l>Hy schroomt heer vader 's nachts te moeien, iet te vraegen,</l>
+						<l>Eer ick hem gunst verwerve, uit zusterlijcken plicht.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>De zon verheught ons min dan Absolons gezicht.</l>
+						<l>Wat schroomt hy? laet hem vry terstont te voorschijn komen.</l>
+						<l>Hy hoeft ons aenschijn, oock by midnacht, niet te schroomen,</l>
+						<l>Maer spreecke ons aen, gelijck voorheene, vranck en vry.</l>
+					</sp>
+
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Ick ga hem haelen uit des konings galery.</l>
+						<l>Waer zijtge, broeder? koom te voorschijn.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Thamar zuster,</l>
+						<l>Wat antwoort kreeghtge?</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Zet uw hart nu vry geruster.</l>
+						<l>Uw vader wacht u. ga, spreeck hem vrymoedigh aen:</l>
+						<l>De wegh is nu gebaent.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Zoo durf ick henegaen?</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Vrymoedigh, als by daegh. gy hoeft geensins te zwichten.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Ter goeder uure. ick voel mijn hart alree verlichten.</l>
+						<l>De koning moedight my, en treedt zelf herrewaert.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Wel Absolon, mijn zoon, heeft iemant u bezwaert,</l>
+						<l>Dat gy ons aenschijn zoeckt by nacht? zegh op: laet hooren.</l>
+						<l>Wy zijn de zelve, en noch uw vader, als te vooren,</l>
+						<l>En gy mijn waertste zoon. tre nader: schroom niet meer.</l>
+						<l>Tre nader, zoon. ontfang mijn' zegen. groey in eer,</l>
+						<l>En in gezontheit. deel in 't koningklijck vermogen,</l>
+						<l>Gelijck een erfgenaem, ter hoogheit opgetogen,</l>
+						<l>Tot staet en heerschappy. ô hoofttack van mijn kroon!</l>
+						<l>Rijs op. spreeck vader aen, gelijckge zijt gewoon.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Genadighste, 'k verschijn om een geringe bede,</l>
+						<l>Een kinderlijck verzoeck, magh 't zijn: doch eer ick trede</l>
+						<l>Ter zaecke, sta het vry uw koningklijck gedult</l>
+						<l>Te recken, door 't verhael van mijn voorlede schult,</l>
+						<l>En droeve ballingschap, met recht hier uit gesproten,</l>
+						<l>En 't zoenen van die smet, waerop ick heb genoten</l>
+						<l>Den grooten zegen van uw aenschijn weêr te zien,</l>
+						<l>Daer mijn verzoeck uit vloeit. 'k heb met geboge knien</l>
+						<l>Den hemel dier belooft, toen rouw my overlade,</l>
+						<l>Zoo my gebeurde, ontlast van vaders ongenade,</l>
+						<l>Jerusalem en u te zien met volle vreught,</l>
+						<l>'k Zou Gode danckbaer zijn, voor die genote deught,</l>
+						<l>En weldaet, en, voor 't volck en alle Godts gemeente,</l>
+						<l>Te Hebron offren, by 't aertsvaderlijck gebeente.</l>
+						<l>Dat zoude u Syrie en gansch Gessur, grootvaêrs stadt,</l>
+						<l>Daer ick, 's rijx balling, lang in droeffenisse zat,</l>
+						<l>Getuigen: en hoe kan zich 't vrolijck hart onthouden</l>
+						<l>Van schreien, aengezien mijn schult is quijtgeschouden,</l>
+						<l>De nederslagh verzoent? dees bevaert, Godt belooft</l>
+						<l>Met eenen hoogen eedt, blijft maelen in mijn hooft,</l>
+						<l>Verdaghvaert my mijn schult, naer Moses eisch, te boeten.</l>
+						<l>Uw dienaer worpt zich met dees hoop voor 's konings voeten,</l>
+						<l>En bidt om oorelof, dat hy zijn ziel ontlast'</l>
+						<l>Van zulck een godtsschult. hier staet mijn geweten vast.</l>
+						<l>Och vader, heb ick my besmet met Ammons wonden,</l>
+						<l>En 't broederlijcke bloet: hoe kon ick mijn geschonden</l>
+						<l>Mijn schoone zuster zien, een bloem getreên in 't stof?</l>
+						<l>Dat ging uw kroon te na, en d'eer van 's konings hof.</l>
+						<l>De treck tot zuster, die uit eene zelve moeder</l>
+						<l>Met my sproot, eischte wraeck, die zagh noch bloet, noch broeder,</l>
+						<l>Noch iemant aen. zoo wort een edel hart vervoert</l>
+						<l>Van gramschap, als het bloet ontstelt is, en geroert.</l>
+						<l>Wat vieltme lang, na dat langduurigh ommezwerven,</l>
+						<l>Uw hof en aenschijn noch twee jaeren hier te derven!</l>
+						<l>Gy hebt u evenwel noch over my ontfermt,</l>
+						<l>De straf getoomt, en uw' weerspannigen beschermt.</l>
+						<l>U is alree bekent hoe by my was besloten</l>
+						<l>Te noôn op 't offerfeest zoo veele altaergenooten,</l>
+						<l>Als mijne godevaert uit omgelege steên</l>
+						<l>Begunstighden. het volck quam op dien roep by een,</l>
+						<l>Noch vroeger dan men docht. dit perst my dus te spoeden,</l>
+						<l>En hunnen yver, die zoo groot is, aen te voeden,</l>
+						<l>Eer zy verstroien. door dien toeval, niet verwacht,</l>
+						<l>Dient mijne reis gespoet, ontijdigh, en by nacht.</l>
+						<l>Magh ick dees godtschult nu in Hebron Godt betaelen,</l>
+						<l>Uw kroon zal op mijn hooft met vollen zegen straelen.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Wat haelt gy Thamar op, en Ammon? zwijgh hier af.</l>
+						<l>Gena bestulpt uw schult, gelijck de zerck zijn graf.</l>
+						<l>Brengt uw belofte dit door zoo veel toestels mede;</l>
+						<l>Treck op, mijn zoon: treck op naer Hebron: keer met vrede.</l>
+						<l>'k Had dees godtvruchtigheit en tijding dezen nacht</l>
+						<l>Van mijnen Absolon, dien schoonen, niet verwacht.</l>
+						<l>Hy licht alle andren voor, in Godt zijn woort te houden.</l>
+						<l>Wy hebben hem te spa zijn misdrijf quijt geschouden.</l>
+						<l>Wat draeght de zoon ontzagh aen vaders majesteit!</l>
+						<l>Met welck een nedrigh harte en onderdaenigheit</l>
+						<l>Bejegende hy ons, in 't bloeien van zijn jaeren!</l>
+						<l>Wat heeft mijn troon een steun aen zulcke ryxpylaeren</l>
+						<l>Van zoonen! een geluck, dat weinigen gebeurt.</l>
+						<l>De hemel heeft voor hem zijn gaven uitgekeurt,</l>
+						<l>Naerdien de schoonheit en godtvruchtigheit te gader</l>
+						<l>Met grooter gunst zich in hem paeren. volgh uw' vader,</l>
+						<l>Mijn dochter Thamar. volgh my na, terwijl de rey</l>
+						<l>Van Aron ons met zang naer Moses hut geley'.</l>
+						<l>Levyten, heft nu aen met uitgeleze klancken</l>
+						<l>En vrolijckheit den naem des oppersten te dancken,</l>
+						<l>Om 't onderling verdragh van vader en van kint,</l>
+						<l>Ons waerder dan de kroon, en 't waerste dat men vint.</l>
+						<l>Wanneer de zang bestemt het geen men heeft verkoren,</l>
+						<l>Dan klinckt die galm en wijs veel schooner in onze ooren.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>REY VAN LEVYTEN. DAVID.</stage>
+					<sp who="#rey-van-levyten">
+						<speaker>I. Zang</speaker>
+						<l>Zingt ter eere van de kroon,</l>
+						<l>  Nu de zoon</l>
+						<l>Treckt op vaders welbehaegen,</l>
+						<l>Nu gehoorzaeme Absolon</l>
+						<l>Met de zon</l>
+						<l>Godt zijn offers op zal draegen.</l>
+						<l>  Wie Godt zijn belofte houdt,</l>
+						<l>En betrouwt</l>
+						<l>Op den troost der oude vadren,</l>
+						<l>Toont dat hy zijn' oirsprong nam</l>
+						<l>Uit den stam,</l>
+						<l>Daer de stammen om vergadren.</l>
+					</sp>
+					<sp who="#rey-van-levyten">
+						<speaker>I. Tegenzang</speaker>
+						<l>Hebron is het kerreckhof,</l>
+						<l>Dat de stof</l>
+						<l>En 't gebeent der oudren heiligh</l>
+						<l>In zijn' stillen schoot bewaert,</l>
+						<l>  Daer elck vaert</l>
+						<l>Om te bidden stil en veiligh.</l>
+						<l>Om der vadren overschot</l>
+						<l>Hoort'er Godt</l>
+						<l>Naer d'aendachtige gebeden.</l>
+						<l>  's Volx brantoffer, hem gewijt</l>
+						<l>Op zijn' tijt,</l>
+						<l>Eert zijn' naem uit alle steden.</l>
+					</sp>
+					<sp who="#rey-van-levyten">
+						<speaker>II. Zang</speaker>
+						<l>Hebron, vryburgh der Hebreen,</l>
+						<l>Zagh voorheen</l>
+						<l>David hier de kroon opzetten,</l>
+						<l>Daer hy zeven jaeren trots</l>
+						<l>Van die rots</l>
+						<l>Zijn benijders zagh verpletten.</l>
+						<l>Absolon, die schoone, zagh</l>
+						<l>Hier den dagh</l>
+						<l>Opgaen uit des hemels poorte.</l>
+						<l>Billijck dat zijn hart geweckt</l>
+						<l>Nu noch treckt</l>
+						<l>Naer de stadt van zijn geboorte.</l>
+					</sp>
+					<sp who="#rey-van-levyten">
+						<speaker>II. Tegenzang</speaker>
+						<l>  Billijck dat hy op die stê,</l>
+						<l>Om den vrê</l>
+						<l>En zijn vaders zoen verworven,</l>
+						<l>Godt wil eeren, nu hy lang,</l>
+						<l>Droef en bang,</l>
+						<l>Als rijxballing heeft gezworven.</l>
+						<l>Wie zijn woort verwaereloost,</l>
+						<l>En zich troost</l>
+						<l>Dat Godts naem by Jakobs troepen</l>
+						<l>Los en ydel blijft onteert,</l>
+						<l>  Wort verleert</l>
+						<l>Hem lichtvaerdigh aen te roepen.</l>
+					</sp>
+					<sp who="#rey-van-levyten">
+						<speaker>III. Zang</speaker>
+						<l>Tusschen bloet en bloetverwant</l>
+						<l>Is een bant</l>
+						<l>Van natuur, niet licht te breecken.</l>
+						<l>  Van een' boom scheurt nimmer tack</l>
+						<l>Zonder krack,</l>
+						<l>Zonder zucht, en jammerteken.</l>
+						<l>Tusschen vader, en zijn kint,</l>
+						<l>Dat hy mint,</l>
+						<l>Is de taeiste bant van maegen;</l>
+						<l>Daer natuur, geraeckt in strijt,</l>
+						<l>Maghtigh lijt</l>
+						<l>Watze kan en niet kan draegen.</l>
+					</sp>
+					<sp who="#rey-van-levyten">
+						<speaker>III. Tegenzang</speaker>
+						<l>Als Godts zegen dan 't gedeeld'</l>
+						<l>  Heilzaem heelt,</l>
+						<l>En vereenight het gescheiden,</l>
+						<l>Spaert een danckbaer hart geen stof</l>
+						<l>Om Godts lof</l>
+						<l>Door danckoffers uit te breiden.</l>
+						<l>  Absolon treckt, heet van gloet,</l>
+						<l>Op dien voet,</l>
+						<l>Daer de stammen sterck vergaeren.</l>
+						<l>O godtvruchte en vreedzaeme aert,</l>
+						<l>Gode waert</l>
+						<l>Meer dan wieroock, en altaeren!</l>
+					</sp>
+
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Beleef ick dees gezegende uur!</l>
+						<l>Gewis een versche dootquetsuur</l>
+						<l>Bequam noit balssem aengenaemer</l>
+						<l>Dan my dees wijs. mijn dochter Thamer,</l>
+						<l>Hoe luidt dit anders dan het plagh!</l>
+						<l>'k Verlang na'et opgaen van den dagh</l>
+						<l>Te hooren hoe ontelbre zielen,</l>
+						<l>Als byen in een' bykorf, krielen</l>
+						<l>Te Hebron, daer geheele steên</l>
+						<l>Mijn zoons danckoffers bly bekleên.</l>
+						<l>Trê met ons in, om tijt te winnen.</l>
+						<l>Nu straelen goude cherubinnen</l>
+						<l>En Godt, uit zijn' genadetroon,</l>
+						<l>Ons klaerder toe, op dezen toon.</l>
+						<l>De Godtheit schijnt mijn hart te wecken.</l>
+						<l>Ick wil hier op mijn snaeren trecken</l>
+						<l>Zoo hoogh als oit, tot 's hemels prijs.</l>
+						<l>Dees blyschap eischt een nieuwe wijs.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="2">
+
+				<head>Het tweede bedryf.</head>
+				<div type="scene" n="1">
+					<sp who="#urias-geest">
+						<speaker>Urias Geest</speaker>
+						<l>Ick helt Urias, lang by geesten afgezondert</l>
+						<l>Van 's levens licht, quam uit den voorburgh opgedondert</l>
+						<l>By nacht te Sion, in dit oude hof, en vondt</l>
+						<l>De bedgenooten, die, van Davids min gewont,</l>
+						<l>In haeren eersten slaep gerust gevallen lagen.</l>
+						<l>Zy schrickten, toenze my by maenlicht waeren zagen</l>
+						<l>Voor haere ledekant, en mijn doorschote borst</l>
+						<l>Vol wonden, root van bloet geverft, en vuil bemorst.</l>
+						<l>De haeren rezen, en de teêre leden trilden.</l>
+						<l>'k Verweckte een krijghsgerucht van schilden tegens schilden,</l>
+						<l>Geklickklack van metael en harnas tegens een,</l>
+						<l>Bazuin- en yzerklanck, als of'er wert gestreên;</l>
+						<l>Een voorspoock van den strijt en 't oproer, reede op handen.</l>
+						<l>Zy zagen d'oogen in mijn hooft, als koolen, branden,</l>
+						<l>En hoorden een geschrey van wapen, wapen, wraeck,</l>
+						<l>Door alle kamers heen. haere oogen, van den vaeck</l>
+						<l>Verwonnen, zien gespoock, en twijfelen. haere ooren</l>
+						<l>Bestemmen naulijx het gerammel, datze hooren,</l>
+						<l>En d'ysselijcke stem: maer d'uitkomst van dien droom</l>
+						<l>Wil haest uitwijzen dat mijn geest geen'ydlen schroom</l>
+						<l>Den bedden aenjaeght van mijn' heer, die ongebonden</l>
+						<l>Zijn' troustens dienaers bed zoo schendigh heeft geschonden,</l>
+						<l>Mijne overschoone onteert, die, zwanger van een vrucht,</l>
+						<l>Verlegen zat om raet. de schender, om 't gerucht</l>
+						<l>Van overspel, by tijts, met eenen glimp te smooren,</l>
+						<l>Ontboodtme t'huis, of my de zwangre moght bekooren:</l>
+						<l>Maer 'k weigerde eerelijck, als een rechtschapen helt,</l>
+						<l>'t Gemack van 't bed, naerdien de veltheer lagh op 't velt,</l>
+						<l>Met al de stammen, en de bontkiste in hun tenten.</l>
+						<l>Wat raet? zijn eer in last, besluit de dreigementen</l>
+						<l>Van schande en laster af te keeren op mijn' hals,</l>
+						<l>Verzendtme met een' brief, moordaedigh, overvalsch,</l>
+						<l>Naer 't leger. Joab volght, daer 's meesters last hem preste,</l>
+						<l>En joeghme in Ammons zwaert te Rabba voor de veste.</l>
+						<l>Zoo klampte David, [och wie yst niet, die dit hoort!]</l>
+						<l>Op overspel, verraet, en godtvergeeten moort,</l>
+						<l>En laeu van 't bloet des mans, die Juda wou beschermen,</l>
+						<l>Omhelst de zwangre vrou, als koningin, in d'armen.</l>
+						<l>Een yvraer voor de wet, van 's hemels geest verlicht,</l>
+						<l>Die voor de bontkist danst, de harp huwt aen zijn dicht,</l>
+						<l>Een koningklijck profeet, befaemt door profeteeren,</l>
+						<l>Ziet Godt noch menschen aen in moorden, en schoffeeren:</l>
+						<l>Maer Nathan, die hem rechte uit zijnen eigen mont,</l>
+						<l>Dorst spellen wat dit hof hierna te vrezen stont;</l>
+						<l>Hoe 't zwaert gesleepen wiert, om eeuwigh, zonder kennis,</l>
+						<l>Te weiden. hier op sterft de vrucht. de zusterschennis</l>
+						<l>Staeckt nau haer weeklaght, en de broedermoort het bloên,</l>
+						<l>Of Absolon, in schijn van offren om zijn' zoen,</l>
+						<l>Leght op zijn luimen, om nu Nathans dreigementen</l>
+						<l>Te stercken, en 't verloop, de hooftsom met de renten,</l>
+						<l>Al teffens t'eischen, en, als een weêrspannigh zoon,</l>
+						<l>Den vader onvoorsiens te vliegen in zijn kroon.</l>
+						<l>De wraeck des hemels loopt door Davids zaelen spoocken,</l>
+						<l>Rinckincken. 'k zie eer lang Urias leedt gewroken.</l>
+						<l>De wraeck zet hof en stadt, en straeten overendt.</l>
+						<l>De zoon ontziet niet dat hy zijne handen schent</l>
+						<l>Aen vaders heilighdom, en hof, en bedtgenooten.</l>
+						<l>Godts wraeck verstoot hem, die Urias heeft verstooten,</l>
+						<l>Versteecken van zijn trouw. zy volght oock in zijn schim,</l>
+						<l>Den zoon tot aen den eick in 't bosch van Efraim:</l>
+						<l>Daer zal hy sneven, die eerst groeide in vaders schade:</l>
+						<l>En niets ontzagh, als hy zijn' moedtwil slechts verzade.</l>
+						<l>Maer tijt is 't dat ick daele, en naer mijn' kercker spoê:</l>
+						<l>De zon rijt op, en hijght my met haer paerden toe.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>DAVIDS BEDTGENOOTEN. THAMAR.</stage>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>De nacht, tot 's menschen rust geschapen,</l>
+						<l>Ontzeght den menschen stilte en rust.</l>
+						<l>  De nacht, die moeite en zorgen sust,</l>
+						<l>En wieght in slaep, verbiet te slaepen.</l>
+						<l>Wat spoockeryen zijn ons niet</l>
+						<l>In naere schaduwe verscheenen!</l>
+						<l>Wie waerde door de kamers heenen,</l>
+						<l>  En dreighde Sion met verdriet?</l>
+						<l>Of kan een droom het oogh bedriegen</l>
+						<l>Met schijn, en harssenschildery</l>
+						<l>Die, in 't verschiet, of van naby,</l>
+						<l>De waerheit naerbootseert met liegen?</l>
+						<l>  Of deckt de grijns van't nachtgezicht</l>
+						<l>De troni van aenstaende waerheit,</l>
+						<l>Het hof te vrezen? 'k wenschte klaerheit</l>
+						<l>Te scheppen uit een wijs bericht.</l>
+						<l>Maer Thamar komt hier aengetreden</l>
+						<l>  Uit Arons hutte, en heilighdom.</l>
+						<l>Zy ziet heel vrolijck naer ons om,</l>
+						<l>En schijnt getroost in haer gebeden.</l>
+						<l>Men gaze groeten, en met een</l>
+						<l>Ontvouwen hoe de harten schroomen</l>
+						<l>Voor zwaerigheên, en droeve droomen.</l>
+						<l>Laet 's konings dochter dit ontleên.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Geluck bejegene u, mevrouwen,</l>
+						<l>Van daegh, al rijst het hemelsch licht</l>
+						<l>Met een benevelt aengezicht.</l>
+						<l>Geen nevel steurt een vast betrouwen.</l>
+						<l>Hoe slaetge d'oogen zoo bedruckt</l>
+						<l>Naer d'aerde? wat 's u voorgekomen?</l>
+						<l>Hebt gy ons blyschap niet vernomen?</l>
+						<l>Mijn wensch, Godt lof, is my geluckt.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Wat wensch is dit, ô bloem der hoven?</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Mijn trouwe broeder Absolon</l>
+						<l>Wijdt Gode een offer met de zon,</l>
+						<l>Nu hy zijn rampen is te boven.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Waer offert uw heer broeder dan?</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Te Hebron, daer de stammeheeren</l>
+						<l>Ten offer met hem bancketteeren,</l>
+						<l>En zijn godtvruchtigh raetgespan.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Wanneer is Absolon vertogen?</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Te midnacht, zonder groot geluit.</l>
+						<l>  De vroomsten zondt hy eerst vooruit,</l>
+						<l>Van yver brandende en bewogen.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>En gaf uw vader zijne stem</l>
+						<l>Tot deze bedevaert alreede?</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>De vader stemde 't op zijn bede.</l>
+						<l>  Zoo trock hy uit Jerusalem.</l>
+						<l>Waer heeft mevrouw zoo lang gesteecken?</l>
+						<l>Al 't rijck, van Berseba tot Dan</l>
+						<l>Hiertoe genoodt, gewaeght hier van,</l>
+						<l>Jordaen, en zee, langs alle streecken.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>  Godt geve dat dit feest besla</l>
+						<l>Tot heil der kroone en onderdaenen,</l>
+						<l>Tot heil van 't hof, dus lang in traenen.</l>
+						<l>De hemel schutte Jakobs schâ.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>En waerom zuchtge dus zwaermoedigh?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>  Om 't nachtgezicht, dat ons vervaert.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>'t Is ydelheit, die 't hart bezwaert.</l>
+						<l>Noit heerste Juda zoo voorspoedigh.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Wy droomden in een berreghwoudt</l>
+						<l>Een' jongen leeuw, en maght van dieren</l>
+						<l>Te zien, die vrolijck, onder 't vieren,</l>
+						<l>Hem kroonden met een kroon van gout.</l>
+						<l>De jonge leeuw gemoedight, brulde,</l>
+						<l>En gaf een' vreesselijcken schreeuw,</l>
+						<l>Dat zelf zijn vader, d'oude leeuw,</l>
+						<l>Vernam wat boschgalm 't wout vervulde.</l>
+						<l>Uit schrick verliet de grijze 't nest.</l>
+						<l>De jonge leeuw, om velt te winnen,</l>
+						<l>Schiet toe, en grijpt de berghleeuwinnen,</l>
+						<l>Daer hy zijn' dollen gloet mê lescht.</l>
+						<l>Dat is 't niet al. toen scheenen troepen</l>
+						<l>Te worstelen, en hantgemeen,</l>
+						<l>Zich spits te kanten tegens een,</l>
+						<l>En wapen, wraeck, en moort te roepen.</l>
+						<l>De grijze leeuw in 't berghbosch maelt</l>
+						<l>Den leeuw van Juda af naer 't leven.</l>
+						<l>De jonge leeuw, tot staet verheven,</l>
+						<l>Schijnt Absolon, van gout bestraelt.</l>
+						<l>De berghleeuwinnen, aengegreepen,</l>
+						<l>Geschent van dien gekroonden leeuw,</l>
+						<l>  Verbeelden dat hy met geschreeuw</l>
+						<l>Zijn klaeuwen heeft op ons gesleepen.</l>
+						<l>Dees harnasklanck, dit krijghsgeluit</l>
+						<l>Beelt af hoe tusschen zoon en vader</l>
+						<l>Een tweedraght broeit: en weet gy 't nader,</l>
+						<l>  Ontvouw ons wat dit spoock beduit.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Mijn broeder wou ter sluick niet reizen,</l>
+						<l>Maer met des konings oorelof,</l>
+						<l>En viel hem hier te voet voor 't hof.</l>
+						<l>Hy wou zijn godtsvaert niet ontveizen.</l>
+						<l>  Weêrspannige aert beschiet zijn wit</l>
+						<l>Ter sluick, en door bedeckte laegen,</l>
+						<l>Om uit het doncker op te daegen,</l>
+						<l>Eer zijn party te paerde zit.</l>
+						<l>Om zich den wegh ten zoen te baenen</l>
+						<l>  Nam broeder afscheit, zoo verneêrt,</l>
+						<l>Dat zich de vader zijnes deert,</l>
+						<l>En niet onthouden kan van traenen.</l>
+						<l>De vader gaf op dit verzoeck</l>
+						<l>Hem openhartigh zijnen zegen.</l>
+						<l>Nu raeskalt, droomt, en spoockt hier tegen:</l>
+						<l>Hy reisde, ontlast van vaders vloeck.</l>
+						<l>Geduurende zijn ballingschappen</l>
+						<l>Vervolght, voorvlughtigh, west en oost,</l>
+						<l>Heb ick het treurigh hart getroost.</l>
+						<l>Hem lust dien zantwegh niet te stappen.</l>
+						<l>De koning zette een nieuwe wijs</l>
+						<l>Op dees verzoening, en geleenight,</l>
+						<l>Als was, heeft zijne harp vereenight</l>
+						<l>Met lofgezang, Godts naem ten prijs.</l>
+						<l>Al 't heilighdom kan u getuigen</l>
+						<l>Hoe vader met een' blijden zin</l>
+						<l>Den hemel danckte. laet de spin</l>
+						<l>Vry gal uit zulck een leli zuigen.</l>
+						<l>Of dunckt u dat ick broeder draegh',</l>
+						<l>Uit gunste en trouwe, my gebleecken,</l>
+						<l>Toen hy mijn ongelijck dorst wreecken,</l>
+						<l>En Ammon wis nam uit zijn laegh;</l>
+						<l>Gy mooght vry Joab ondervraegen,</l>
+						<l>Indienge voor den koning schroomt.</l>
+						<l>  Hy heeft den vader ingetoomt,</l>
+						<l>Den zoon, als op zijn' hals, gedraegen.</l>
+						<l>Hy komt u effen in 't gemoet,</l>
+						<l>Om in de hutte Godt te loven.</l>
+						<l>Nu spreeck hem aen. ick ga naer boven.</l>
+						<l>  My dunckt dat u de veltheer groet.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>JOAB. DAVIDS BEDTGENOOTEN.</stage>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>O schoonheên, zonder ga, des konings liefde waerdigh,</l>
+						<l>Gy yvert met den dagh, alree getoit en vaerdigh</l>
+						<l>Ter hutte, om, 's hooghsten naem ten prijs, uw vroegh gebedt</l>
+						<l>Te storten voor het koor. dat 's recht. de zuivre wet,</l>
+						<l>Van 's hemels hant in steen op Sinai gehouwen,</l>
+						<l>Ontfangt haere eer in 't hart der yverende vrouwen.</l>
+						<l>Wy volgen gaerne: het believe u voor te treên.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten.</speaker>
+						<l>Heer Joab, eenigh spoock, dat ons te nacht verscheen,</l>
+						<l>Versteurt de rust op 't hof. wy duchten en vermoeden</l>
+						<l>Of eenigh misverstant, het zy hoe 't wil, moght broeden</l>
+						<l>Ten hove, tusschen zoon en vader.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>spruit de reên</l>
+						<l>Van dit vermoeden slechts uit droom en nachtspoock?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Neen,</l>
+						<l>Ons is niet luttel stofs van achterdocht gegeven.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Zijn koningsvrouwen dan in 't hof dus onbedreven,</l>
+						<l>Dat zy niet weeten hoe de zoon en vader staen</l>
+						<l>In volle vrientschap? zijt gerust: hier schort niet aen.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Princesse Thamar melde in 't lang en breede heden</l>
+						<l>Met welck een afscheit hy naer Hebron is gereden.</l>
+					</sp>
+
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Laet vaeren dan gespoock, en droom, en kinderklucht.</l>
+						<l>Doch schuilt'er anders iet, het welck u houdt beducht,</l>
+						<l>Verhaelt het ront en klaer: al viel'er iet te zeggen</l>
+						<l>Dat schijn heeft; 'k zal 't met pit van reden wederleggen.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Wat aengaet dezen zoen der broêrslaght; kentge een' man,</l>
+						<l>Die zijn gedachten loos en kloeck ontveinzen kan,</l>
+						<l>Dat's Absolon, de schalckste en listighste in 't ontveinzen</l>
+						<l>Van zijn' verborgen haet, en wraeckzucht, en gepeinzen.</l>
+						<l>Had Ammon, schender van de koningklijcke maeght,</l>
+						<l>Dit konnen riecken; noit had David hem beklaeght,</l>
+						<l>Die, op het veltbancket, van moortgeweer doorregen,</l>
+						<l>Gesmoort lagh in zijn bloet. dit 's klaer. dit springt u tegen,</l>
+						<l>Zoo gy den zoen betrouwt. onthou van Absolon,</l>
+						<l>Dat hy twee jaeren lang de wraeck ontveinzen kon,</l>
+						<l>En smooren in zijn hart.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Gy sterckt uw vrees met reden.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Nu luister. oordeel voort uit alle omstandigheden</l>
+						<l>Van 's jonglings kroonzucht, ons ontdeckt door zijn beleit.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Dat waer een dootschult van gequetste majesteit.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>De majesteit is blint van al te groot een liefde.</l>
+						<l>De broeder, die den broêr met zijnen moortpriem griefde,</l>
+						<l>Ontziet den vader niet te steecken naer het hart.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>De zusterschennis kon de broeder zonder smert</l>
+						<l>Niet lijden.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Recht. nu denck hoe smert hem om te zwerven,</l>
+						<l>Zijn vaders aengezicht vijf jaeren lang te derven.</l>
+						<l>Stiet hy den vader weêr, als balling, uit het rijck;</l>
+						<l>Stont vaders rek'ning met den zoon dan niet gelijck?</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>De zoen staet hem te dier. de lucht van 't hof te scheppen</l>
+						<l>Koste arbeit. noit dorst ick een woort ten hove reppen,</l>
+						<l>En bezighde endtlijck stil de weeuw van Thekoa,</l>
+						<l>Verworf by trappen hem den toegang ter gena,</l>
+						<l>Dat hy herstelt twee jaer, gelijck in duisternissen,</l>
+						<l>Most wandelen, en 't licht van 's konings aenschijn missen.</l>
+						<l>Indien hier oorlogh school, wat lagh hem aen dien zoen?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Om onder schijn van pais een oorlogh uit te broên.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Zou d'erfgenaem des rijx zich tegens 't rijck gaen kanten?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>De blinde vader laet den zoon met lijftrouwanten,</l>
+						<l>Een' stoet gewapenden, bestuwt in 't openbaer,</l>
+						<l>De hoftrap optreên, recht of hy al koning waer.</l>
+						<l>Dit baert hem aenzien en ontzagh by d'onderdaenen.</l>
+						<l>Dit's maghtigh hem den wegh naer vaders troon te baenen.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>De vader eert zich zelf, in d'eere van den zoon.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Zegh: hy onteert zich, zet zijne afkomste op den troon.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>De koning magh met recht den eerstgeboren eeren.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>En d'outste vreest al of de jongste moght regeeren.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Terwijl de vader leeft houdt hy hen beide in dwang.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>De vader suft, en leeft den zoon alree te lang.</l>
+						<l>Hem dunckt de vader is in 't goet des zoons gezeten.</l>
+						<l>Dit weet de koning, of gewis hy wil 't niet weeten.</l>
+					</sp>
+
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Wat's dit?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>In welck gevaer hy zich en 't gansche rijck</l>
+						<l>Durf stellen. let hier op. gy hoeft geen klaerder blijck</l>
+						<l>Dat Absolon de kroon zich eigen door geboorte</l>
+						<l>Toerekent, en belaeght. hy zet zich in de poorte,</l>
+						<l>En 't poortgerecht, heel vroegh, als rechter van elx pleit,</l>
+						<l>Onthaelt en kust het volck, ontmoet elck met bescheit,</l>
+						<l>Als of de koning 't recht al willens wou verzuimen.</l>
+						<l>Zoo wint hy 't hart des volx, en leght op zijne luimen.</l>
+						<l>Al 't stamhuis bidt hem aen. de dageraet des mans</l>
+						<l>Zijn jeught, en schoonheit geeft hem gunst en eenen glans</l>
+						<l>By alle joffers, die hem gunstigh zien naer d'oogen,</l>
+						<l>Ten wasdom van zijne eere, en aenzien, en vermogen,</l>
+						<l>Dat stijght allengs in top van 't opperste gezagh.</l>
+						<l>Waeckt gy niet op: hy zal u wecken met den slagh,</l>
+						<l>En 't slaghzwaert op den hals. men mompelt onder kloecken</l>
+						<l>Dat hy Achitofel by wijlen ging bezoecken,</l>
+						<l>Te Gilo, zijne stadt.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>die vos is hem te loos.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Niet schalck en loos alleen, maer teffens loos en boos.</l>
+						<l>Wy kennen zijnen aert.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Hy heeft het hof begeven,</l>
+						<l>Om op zijn vaders erf gerust en stil te leven.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Het draeght dien naem by 't hof, doch blijft by ons verdacht.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Het achterdencken kent geen paelen, slaet met maght</l>
+						<l>Al voort.men kan op los vermoên niet zekers bouwen.</l>
+						<l>Het gelt den koning eerst:</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>en echter 's konings vrouwen.</l>
+					</sp>
+
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Hebt gy uwe achterdocht den koning niet ontdeckt?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Hoe durven wy? zy weckt een' leeu, die David weckt.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Een leeu versteurt zich niet, geweckt van zijn leeuwinne.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Wy koestren slechts zijn min, als voesters van zijn minne;</l>
+						<l>En reppen van geen' staet, uit angst voor ongena.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Ontziet gy 't, zoo gaet heene, ontdeckt het Berseba.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>En zoo zy ons ontdeckt, dan staen wy ruim noch slimmer.</l>
+						<l>Zy spant de kroon in 't hart, en haet al 't joffretimmer,</l>
+						<l>De bedtgenooten, en haer' aenhang. d'uchtendzon,</l>
+						<l>Gelijck gy weet, behaeght hem min dan Absolon:</l>
+						<l>Wanneer die met zijn haer in zijn gezicht komt praelen,</l>
+						<l>Zoo schoon als Godt hem schiep, zou vaders gramschap daelen,</l>
+						<l>En stellen allen schijn van nadocht aen een zy:</l>
+						<l>Dan lagen al des zoons beschuldigers in ly.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>De koning stelde ons tot een wachter van zijn benden.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>En zoo de zoon het roer des staets eens quaem te wenden.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>De zes paer stammen zijn in 's konings eedt getreên.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>En zooze eens weifelen, en raecken op de been?</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Daer hoeft meer tijt toe. dat gerucht zou verre klincken.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Gelooft de hulck van 't rijck is heimelijck aen 't zincken.</l>
+					</sp>
+
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Hoe slaept de stuurman dan, dat hy 't gevaer niet merckt?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Wie zal ons zeggen hoe Godts oordeel hier in werckt?</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>De wacht van 't leger staet den koning eerst bevolen.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Wat is het leger, zoo de legerhoofden doolen?</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Wat zoecktge dan by ons in dit gedroomt gevaer?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Weck uwen meester op: gy zijt 's rijx amptenaer,</l>
+						<l>En veltheer over 't heir, of hy uw' raet wou volgen.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Dat's zorghelijck. hy is oploopende en verbolgen.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Gy zoeckt zijn veiligheit, behoudenis, en rust.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Hy heeft op mijn verzoeck zijn' zoon noch eerst gekust.</l>
+						<l>Hoe durf ick, zonder gront, nu Absolon betygen?</l>
+						<l>En wert de zoon dit wijs?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>De vader zal het zwijgen.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Dat 's hachelijck: en zoo de zoon, in 't hof gedaeght,</l>
+						<l>Verschijnt, en eischt voor recht te zien wie hem beklaeght?</l>
+						<l>Waer berght zich Joab dan? die Ammons hooft niet spaerde,</l>
+						<l>Dat koningklijcke bloet, zou my met blancken zwaerde</l>
+						<l>Vervolgen, langer dan mijn ziel in 't lichaem leeft.</l>
+						<l>'k Zie hier geene uitkomst, zoo ons Godt geene uitkomst geeft.</l>
+						<l>Wy hoopen dat hy met den avont weêr zal keeren</l>
+						<l>Van Hebron, en de vrede in Juda triomfeeren.</l>
+						<l>'k Wil evenwel uw vrees verbergen. onderstut</l>
+						<l>Het rijck met uw gebeên, en gaenwe in Arons hut.</l>
+					</sp>
+
+				</div>
+				<div type="scene" n="4">
+					<stage>REY VAN LEVYTEN.</stage>
+					<sp who="#rey-van-levyten">
+						<speaker>I. Zang</speaker>
+						<l>De koning droegh zijn nachtgetijden</l>
+						<l>Den hemel op, die hem</l>
+						<l>  En gansch Jerusalem</l>
+						<l>Ten hooghste wou verblijden,</l>
+						<l>Door 't liefelijck verdraegen</l>
+						<l>Met zijnen liefsten zoon,</l>
+						<l>Als harp en keel op eenen toon.</l>
+						<l>Die pais reckt 's vaders dagen,</l>
+						<l>Als olie, in een goude lamp,</l>
+						<l>De vlam noch aenvoedt, en den damp</l>
+						<l>Der duisternisse drijft uit d'oogen.</l>
+						<l>Wat was de koning opgetogen!</l>
+					</sp>
+					<sp who="#rey-van-levyten">
+						<speaker>I. Tegenzang</speaker>
+						<l>De kroon en scepter lagen achter.</l>
+						<l>Hy scheen een ziel met Godt,</l>
+						<l>Zijn heil, en hooghste lot.</l>
+						<l>Hy wenschte, als tempelwachter,</l>
+						<l>Het heilighdom te hoeden,</l>
+						<l>  In 't midden van Godts schaer</l>
+						<l>Met blijden zang en harpesnaer</l>
+						<l>Zijne aendacht aen te voeden.</l>
+						<l>Hy triomfeerde met zijn maet,</l>
+						<l>Die, hoogh in top, al hooger gaet,</l>
+						<l>Van geene pennen t'achterhaelen.</l>
+						<l>Men kan den yver niet bepaelen.</l>
+					</sp>
+					<sp who="#rey-van-levyten">
+						<speaker>II. Zang</speaker>
+						<l>Maer midlerwijl [wat moght dit wezen?]</l>
+						<l>Daer 't oor dien galm inzwelght</l>
+						<l>Verschijnt iet, dat zich belght:</l>
+						<l>Want onder uitgelezen</l>
+						<l>Muzijck wil iet ontbreecken</l>
+						<l>Aen zoete eenstemmigheit,</l>
+						<l>Die graetige ooren streelt en vleit,</l>
+						<l>Misschien om af te steecken,</l>
+						<l>  Iet haetlijx, strijdigh tegens gunst,</l>
+						<l>Te laeten hooren, daer de kunst</l>
+						<l>Wat alssems mengt met honighklancken.</l>
+						<l>Geen oor kan zich dien smaeck misdancken.</l>
+					</sp>
+					<sp who="#rey-van-levyten">
+						<speaker>II. Tegenzang</speaker>
+						<l>Zoo ging 't. de harpenaer en zinger,</l>
+						<l>  Die met zijn aengezicht,</l>
+						<l>En voorhooft eerst een licht</l>
+						<l>Van vreught gaf, zijnen vinger</l>
+						<l>En keel volghde, in 't schakeeren</l>
+						<l>Van klancken, scheen een wijl</l>
+						<l>  Te flaeuwen in dien stijl,</l>
+						<l>En zijne vreught t'ontbeeren,</l>
+						<l>Als of hem d'eerste moedt ontviel.</l>
+						<l>De klaere spiegel van de ziel,</l>
+						<l>Zijn aenschijn, scheen bezwalckt van waessem.</l>
+						<l>Wat is ons blyschap kort van aessem!</l>
+					</sp>
+					<sp who="#rey-van-levyten">
+						<speaker>III. Zang</speaker>
+						<l>Zou David, 't licht van Godts profeeten,</l>
+						<l>Bespieglen in den geest</l>
+						<l>Iet, daer zijn hart voor vreest,</l>
+						<l>Dat Arons zoons niet weeten?</l>
+						<l>Zou hy van ver' zien komen</l>
+						<l>Een onweêr, dat misschien</l>
+						<l>Geen weereltwijzen zien?</l>
+						<l>Hanthaver van de vroomen,</l>
+						<l>Beschut den koning, die uw hut</l>
+						<l>  Ter harte neemt, het volck beschut</l>
+						<l>Voor inheemsche oorelogen.</l>
+						<l>Een oogh bewaeckt alle oogen.</l>
+					</sp>
+					<sp who="#rey-van-levyten">
+						<speaker>III. Tegenzang</speaker>
+						<l>Geen koningen is rust beschoren,</l>
+						<l>Ten minste een korte wijl.</l>
+						<l>  Dit was en blijft de stijl</l>
+						<l>Der weerelt. vorsten zijn gekoren</l>
+						<l>Tot wachters over onderzaten.</l>
+						<l>Zy zitten steil en hoogh,</l>
+						<l>En slaen hun waeckende oogh</l>
+						<l>Door alle huizen, alle straeten.</l>
+						<l>Zy zien en kennen 't onderscheit</l>
+						<l>Van ieders aert. hun wijs beleit</l>
+						<l>Hoeft onorde in haer ploy te schicken.</l>
+						<l>'s Volx rust is 't wit, daer wijze op micken.</l>
+						<l> </l>
+						<l>De hofbazuin, die tegens 't zuiden kraeit,</l>
+						<l>Spelt onweêr, dat van Hebron herwaert waeit.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="3">
+
+				<head>Het derde bedryf.</head>
+				<div type="scene" n="1">
+					<stage>JOAB. DAVID. BODE.</stage>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>De torenwachter ziet een' postmuil herwaert jaegen.</l>
+						<l>'k Wensch dat uw majesteit de tijding magh behaegen.</l>
+						<l>Het schijnt hy wort dus vroegh gestuurt van Absolon.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Zoo is hy afgereên voor 't opgaen van de zon.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Wat of hem herwaert jaegt?</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Men heeft niet quaets te schroomen.</l>
+						<l>Van Absolon kan niet dan blijde tijding komen.</l>
+						<l>Hy weet hoe vaders hert naer tijdingen verlangt,</l>
+						<l>Het hart, dat over hem, gelijck een zegen, hangt,</l>
+						<l>Zijn aenschijn noode derft. wat nieus kan hy ontdecken?</l>
+						<l>De kortheit van den tijt, die tusschen zijn vertrecken</l>
+						<l>Van 't hof en nu verliep, gehengt nau dat'er iet</l>
+						<l>Byzonders voorviel, 't geen tot vreught streckt, of verdriet.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Eene uur berockent wel meer werx met bystre zinnen</l>
+						<l>Dan duizent handen in een jaer zien af te spinnen.</l>
+						<l>Hoewel ick niet betrouw dat ons van dezen kant</l>
+						<l>Iet kan bejegenen, dat niet 't gezegent lant</l>
+						<l>Tot heil en nut gedye, en allen wetgenooten.</l>
+						<l>Daer komt de bode zelf al hygende aengestooten.</l>
+						<l>Hy ziet verbaest naer 't hof, en onzen koning om.</l>
+						<l>De koning spreecke hem. hy staet verbaest en stom.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Wel bode, van wat kant komt gy verbaest geronnen?</l>
+						<l>Zit af: schep aêm: genaeck dat wy u hooren konnen.</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Ten hove is zulck een post, als ick, onaengenaem.</l>
+						<l>Doch schoon ick stille zweegh, noch zou d'ontruste faem</l>
+						<l>Niet rusten haer bazuin uit tin en trans te blazen,</l>
+						<l>Van Dan tot Berzeba de weerelt te verbazen.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Is Absolon in noot, of in zijn vyants klem?</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Prins Absolon dreight u, en gansch Jerusalem.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Hy is met onzen wil te nacht hier uitgereden.</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Hy spant de kroon in 't hart van 't rijck en alle steden.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Spreeck klaerder, schoon die klanck niet schoon in d'ooren luit.</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Zijn bevaert quam te nacht op vloeckverwantschap uit.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Onmogelijck. wie heeft dat lasterstuck besteecken?</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Zoo groot een schelmstuck kon niet laeten uit te breecken.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Wat zekerheit kunt gy betoonen van dit stuck?</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Ick hoorde en zagh 't verraet. Godt keere uw ongeluck:</l>
+						<l>Mijn vroom geweten, aen de kroon en uw vertrouden</l>
+						<l>Verbonden, liet niet toe dit stil by my te houden.</l>
+						<l>Zoo koom ick met dien vloeck der vloecken opgedaeght.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Verhael ons dan oprecht al wat gy hoorde en zaeght,</l>
+						<l>En pas vooral dit naeckt, gelijck het leght, t'ontkleeden.</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Te nacht quam 's konings zoon te Hebron aengereden,</l>
+						<l>Met eenen nasleep van tweehondert, zonder ergh.</l>
+						<l>De maght van Israël en Juda om den bergh,</l>
+						<l>Had zich in tenten langs de dalen neêrgeslagen,</l>
+						<l>En wachte op 't offerfeest, de Godtheit op te draegen,</l>
+						<l>Met volle staetsien, en priesterlijcke pracht.</l>
+						<l>Der vadren kerckhof wert terstont met 's princen wacht</l>
+						<l>Heel scherp en nau bezet, rondom de doornehaegen.</l>
+						<l>De weelige eicken, die met schaduwen de laegen</l>
+						<l>Bedeckten, ruischten niet, daer 't licht door boschloof scheen.</l>
+						<l>De prins, Achitofel, de raet quam hier by een.</l>
+						<l>In 't ronde om Hebron loeide een menighte offerdieren;</l>
+						<l>Een voorspel van dit feest, met d'uchtendzon te vieren,</l>
+						<l>Uit danckbaerheit, zoo 't hiet, dat Absolon 't gezicht</l>
+						<l>Van 's konings aenschijn moght gebeuren, en den plicht</l>
+						<l>Van zijne Godtsbelofte,en hoogen eedt bezegelen:</l>
+						<l>Gelijck 't Hebreeusch geslacht gewoon is zich te regelen</l>
+						<l>Naer Moses wetboeck. hier ging t'samenrotten aen.</l>
+						<l>Ick kroop behendigh, by het schijnen van de maen,</l>
+						<l>Ter zijde door de haegh, daer niemant op vermoede.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Dat Godt den koning en het koningrijck behoede.</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Prins Absolon hief aen: gy zoons van Abraham,</l>
+						<l>Hanthavers van Godts recht, en Jesses braven stam,</l>
+						<l>Ick koom, van Godt gedaeght, tot voorstant van u allen</l>
+						<l>Mijn' dienst opoffren, eer de staet geraeckt te vallen.</l>
+						<l>De vader suft alree, gezwackt van ouderdom.</l>
+						<l>'k Heb 't poortgerecht gestut. mijn' hals, als een kolom,</l>
+						<l>Heeft, onder 't lastigh pack des rijx, geheele dagen</l>
+						<l>Gezweet. ick trooste 't volck, dat my zijn' noot quam klaegen.</l>
+						<l>De vleiers, die het hof om winst naer d'oogen zien,</l>
+						<l>En 't onrecht stercken, dorst mijn yver 't hof verbiên.</l>
+						<l>'k Heb weduwen geredt, de wezen en verdruckten</l>
+						<l>Geholpen op de been; griffoenen, die haer pluckten,</l>
+						<l>De nagels vry gekort: en zou men u den noot</l>
+						<l>Afmaelen, schoon de staet zeilt met een' ruimen schoot,</l>
+						<l>Een etmael kon zoo veel gevaeren niet begrijpen.</l>
+						<l>De hulck van 't gansche rijck dreight storm op storm te gijpen.</l>
+						<l>Wat hoop van beternis, daer 't hooft in deught bezwijckt,</l>
+						<l>En zelf zijn naeste bloet, den zoon, verongelijckt?</l>
+						<l>Wy hebben jaeren lang bezuurt in bittre elenden</l>
+						<l>De straf van Ammon, en dat gruwzaem zusterschenden,</l>
+						<l>Ten leste in schijn verzoent, na dien geleden hoon.</l>
+						<l>Wat heil verwacht gy? want een overspeelsters zoon</l>
+						<l>Wort dertel opgevoedt, om over lant en lieden,</l>
+						<l>Na vaders doot gezalft, tyrannigh te gebieden.</l>
+						<l>Waer heeft de koning oit de dapperheit beloont?</l>
+						<l>Vraeght dat Urias, die zich streng en eerlijck toont,</l>
+						<l>Op d'aerde slaept, en, na zijn vroome wapendaeden,</l>
+						<l>Met eenen moortbrief aen den veltheer wort verraden.</l>
+						<l>'k Ga Sauls huis voorby, eer lanckheit u vermoeit.</l>
+						<l>Hoe bloedigh heeft hy dien geslachtboom uitgeroeit,</l>
+						<l>En dreight den wortel uit te rucken, wech te houwen;</l>
+						<l>Hoewel hy d'eer genoot van Michols hant te trouwen!</l>
+						<l>Naerdien het stamhuis dan van hem geen heil verwacht,</l>
+						<l>Is 't nodigh zijnen stoel, op 's volx gemeene klaght,</l>
+						<l>Met eenen nazaet van zijn naeste bloet te kleeden.</l>
+						<l>Dit's mijn belofte aen Godt, waertoe gy wort gebeden.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Genadighste, vergeef het Joab, wiens verzoeck</l>
+						<l>Den zoon met u verzoende, eene oirzaeck van dien vloeck:</l>
+						<l>Hoe droegh Achitofel zich onder dees godtloosheit?</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Hy stack zijn zegel aen die godtvergeete boosheit,</l>
+						<l>Verhief d'oproerigheit, en zetteze in haer kracht,</l>
+						<l>Brogt voort hoe hy den zoon zoo menighmael by nacht</l>
+						<l>Te Gilo had geberght, toen, van het hof verschoven,</l>
+						<l>Om zijn gerechte wraeck, hem elck ontzagh te hoven,</l>
+						<l>De wijde weerelt den verschovling viel te kleen.</l>
+						<l>Hy haelde Urias op; wat Saul had geleên,</l>
+						<l>Veel jaeren na de doot, in zijn nakomelingen,</l>
+						<l>Die, treurigh, en gehaet, al quijnende vergingen.</l>
+						<l>Hoe d'overspeelster, als een stiefmoêr, Davids zoon,</l>
+						<l>Den eerstgeboren, wil versteecken van de kroon,</l>
+						<l>En wettigheit des rijx, en over d'oude heeren,</l>
+						<l>In haeren Salomon, na Davids doot regeeren.</l>
+						<l>Hy hoorde een ieders zin. de stemmen gingen om.</l>
+						<l>Men vraeghde hooft voor hooft. zoo steigerde, zoo klom</l>
+						<l>Weerspannigheit in top, uit eenen mont besloten.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Vervloeckte Achitofel, verwate vloeckgenooten!</l>
+						<l>Wat volghde op dit besluit? hoe liep dit kluwen af?</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Zy mompelden een wijl. toen sloegenze om het graf</l>
+						<l>Van vader Abraham een' ring, en voort aen 't bidden</l>
+						<l>Dat d'opperste hun recht wou zegenen. in 't midden</l>
+						<l>Stont Absolon, die zwoer zijn trou aen 't volck en 't rijck</l>
+						<l>Den stammeheeren toe, die zwoeren algelijck,</l>
+						<l>En gaven hem de hant, met een' den blancken degen.</l>
+						<l>Toen sloop ick heimlijck deur, tot stervens toe verlegen,</l>
+						<l>En koom den koning dit ontvouwen met gevaer.</l>
+						<l>Dat Godt het rijck behoede, en Godts gezalfden spaer'.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Belieft het Gode dat zijn knecht dien kelck zal proeven,</l>
+						<l>Ick sta gelaeten, wil my niet te vroegh bedroeven.</l>
+						<l>Hy kan dit keeren, hen veranderen van zin.</l>
+						<l>Gy bode, ga ten hove, en spreeck de koningin.</l>
+						<l>Heer Joab, laet de wacht de stadt en 't hof bezetten.</l>
+						<l>Voltreck de ronde, steeck bazuinen, en trompetten.</l>
+						<l>Och Absolon, hoe snel verandertge uwen zoen,</l>
+						<l>Dien kus en klanck van pais in eene krijghsklaeroen!</l>
+						<l>Lijfschutten, haest u, voort: de bloetvlagh uit den toren:</l>
+						<l>De standers op de poort. op op, men blaes den horen.</l>
+						<l>Mijn Krethen, Plethen, al de burgers in 't geweer.</l>
+						<l>De vlam slaet uit het hof: hier gelt geen veinzen meer.</l>
+						<l>Men hindre dat hier niet de weiflaers t'zamenrotten.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Ons staet dien hoogen boom van kroon en tack te knotten.</l>
+						<l>Zent flux bespieders uit naer Hebron. luister scherp</l>
+						<l>Wat nadruck volgen wil op zulck een ruw ontwerp.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>THAMAR. DAVIDS BEDTGENOOTEN.</stage>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Wat klanck is dit? wat wil ons weder overkomen?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Hoe fraey heeft Absolon zijn afscheit nu genomen?</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Wat gaet mijn broeder aen, dat hy dien haet verweckt!</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Gewis gy wist hier van: hy had het u ontdeckt.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Betrouw ons dat niet toe. wilt dat onze eer niet vergen.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Hy had zijn zuster lief: hoe kon hy 't haer verbergen?</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Zoo waerlijck als Godt leeft: dat hy ons sla en straff'.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Nu haelt hy Ammons moort en snoder uit het graf.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>'k Beken de vadermoort gaet boven broederslaghten.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Wie kon zich voor den wrock des dubblen huichlaers wachten?</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Och Absolon, is dit uw Hebrons Godevaert?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Dat is zijn godtsbelofte, en onderdaenige aert.</l>
+					</sp>
+
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Nu wort de wet met glimp by 't Heidendom gelastert.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Zoo gaet het telckens, als godtvruchtigh zaet verbastert.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Hy volght noch vaders les, noch vaders voorbeelt na.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Wy zagen 't onweêr in den droom, maer och te spa.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Men zal door middelaers misschien zijn hart verzachten.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Wy hoopen op 't misschien dien storm niet af te wachten.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Dat onweêr is noch wijt.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>het buldert voor de poort.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Te Hebron. hy hoeft tijt. men slaet zoo ras niet voort.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Gelijck een loopend vier, gestoockt van medestemmers.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Waer vint men die?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>dat vraegh vry ons Jerusalemmers.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Die zien naer David om, en niet naer Absolon.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Men eert d'opgaende, en niet eene ondergaende zon.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Zou 't volck zoo reuckeloos den ouden heer vergeeten?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Dat hangt aen een, gelijck de schakels van een keten.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>En zoo de keten breeckt?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>dan is de maght gedeelt.</l>
+					</sp>
+
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Hoe wenschelijck waer dit!</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>hoe wort dees scheur geheelt?</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Met balssem van gena.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>die heelt geen misvertrouwen.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Mijn vader is gestreng in elck zijn woort te houwen.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>En oock niet min gestreng in 't straffen, zonder maet.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Waer bleeck dat?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>vraegtge waer? wie eens naer Rabba gaet</l>
+						<l>Kan 't hooren, en alom in Ammons dootsche steden,</l>
+						<l>Die, wreet gerabraeckt, met hunne afgezaeghde leden,</l>
+						<l>In ysre tacken, en het gloeiend tichelvier</l>
+						<l>Verbrant, beklaeghden dat zy, d'ooreloghsbanier</l>
+						<l>Opsteeckende, zoo trots zich tegens Juda kantten.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Dat was het niet, maer eer 't mishandlen der gezanten,</l>
+						<l>Die tegens 't billijck recht der volcken, en de wet,</l>
+						<l>De wijde weerelt door natuurlijck ingezet,</l>
+						<l>Met hun gescheurde kleên, en half geschore baerden,</l>
+						<l>Van kinderofferaers, en gruwelijck veraerden,</l>
+						<l>Te rugge quamen by den koning, die hen zont.</l>
+						<l>Hy woegh de straf en 't quaet, tot dat het effen stont.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Is 't minder quaet, een zoon naer vaders hart te steecken?</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Een vaders hart verschoont verkleent zijn zoons gebreken.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>De vader heeft noch flus de broederslaght verschoont,</l>
+						<l>En wort dus averechts bejegent, en geloont,</l>
+						<l>Met eenen nieuwen slagh in zulck een versche wonde.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>'k Verschoon het niet. dit is een lasterlijcke zonde,</l>
+						<l>Een rechte burgerkrijgh berockent tegens Godt.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>De maegen steecken hier elckandre naer den strot.</l>
+						<l>Dit zwaert moort blindeling, de broeder zijnen broeder,</l>
+						<l>De vader zijnen zoon. de dochter kent geen moeder.</l>
+						<l>Hier worstelen in 't bloet de burgers tegens een.</l>
+						<l>De huizen staen gedeelt, de steden tegens steên.</l>
+						<l>De bondtgenoot ontziet verbont noch bontgenooten.</l>
+						<l>'t Omleggend Heidendom komt hier op aengestooten.</l>
+						<l>Het mengt zich in 't krackeel met een gemeine stem,</l>
+						<l>En wil het heilighdom en Godts Jerusalem</l>
+						<l>Tot in den gront met zwaert en fackelen verdelgen.</l>
+						<l>Zoo David zich niet belght, de hemel zal 't zich belgen.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Ick hoor een' kreet opgaen van 't hof en hofgezin,</l>
+						<l>En ga de trap op naer de droeve koningin.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Hier komt de veltheer aen, bestuwt met krijghskornellen.</l>
+						<l>Wy zullen, aen een zy, hem eerst zien orden stellen</l>
+						<l>Op wacht, en toght, en al. de krijghsraet is belaên,</l>
+						<l>De burgery verbaest. hoe wil dit spel vergaen!</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>JOAB. DAVIDS BEDTGENOOTEN.</stage>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Wachtmeesters, krijgskornels, waeckt rustigh met elckanderen.</l>
+						<l>Men zal van uur tot uur de leus of 't woort veranderen,</l>
+						<l>De ketens spannen, eer het oproer t'zamenrott'.</l>
+						<l>Men sla de ronde ga, verzekre, op 't hoogh gebodt,</l>
+						<l>Op halsstraf, Davids burgh, verzie de poort en vesten</l>
+						<l>Met dubble schiltwacht. laet terstont, van vier gewesten,</l>
+						<l>De torens mannen. dat de lichte ruitery,</l>
+						<l>Den wegh naer Hebron op gespreit, de zuiderzy</l>
+						<l>In 't velt bespiede. laet de pelgrims ondervraegen</l>
+						<l>Naer tijding van dien oort, en ofze nergens laegen</l>
+						<l>Vernaemen. laet geen' mensch passeeren, eer de wacht</l>
+						<l>Zijn naem opteken', hem geley, daer hy te nacht</l>
+						<l>Vernachten zal. verdeelt u voort in alle straeten.</l>
+						<l>d'Almaghtige beschaeme al die den koning haeten.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>O veltheer, hoe vervalt de kroon, en Davids rijck!</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Schept moedt: Jerusalem is u een wisse wijck.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Beschimp nu nachtgezicht, en spoockery, en droomen.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Het koningklijck gezagh wil haest het oproer toomen.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Een hollend paert acht toom, noch sporen, nochte roê.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Een hollend paert loopt eerst zich zellef doot en moê.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Het smackt den heer in 't zant, dat hals en lenden kraecken.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Zoo fel niet, of de heer kan weêr te paerde raecken.</l>
+						<l>Hy voerde 't Saul en zijne afkomste uit in 't endt.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>In zijne jeught: nu wort hy 't harnas ongewent.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Dat bleeck hoe hy zich liet van Ammons wrevel trotsen.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Dees jonge manschap zit in 't harnas vast, als rotsen.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Noch vaster dan de reus, de groote Filisteen?</l>
+					</sp>
+
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Dat was een lijfgevecht.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Noch viel de reus te kleen.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Het zwaert van Absolon is reede al opgeheven.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Gereet voor ons, om hem den wissen slagh te geven.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Wy spelden 't onweêr vroegh uit alle omstandigheên.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Hy ging vermomt, en wist zijn opzet fraey te kleên.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Hy ging zoo niet vermomt, of vrouwen konden 't mercken.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Eer 't rijp was, kon men dit met geen getuigen stercken.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>De tekens tuighden 't, had men oogen om te zien.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Het stont den vader toe hem 't klimmen te verbiên.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>De zoon heeft in het endt de grijns eens afgetrocken.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Dat's beter dan geveinst, en heimelijck te wrocken.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Hoe draegen wy ons best in burgerlijck geschil?</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Betrouwt u Gode en ons, en houdt u kloeck en stil.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Hoe houdt de koning zich, te blint den zoon genegen?</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Geduldigh, min voor zich dan om den zoon verlegen.</l>
+					</sp>
+
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Hoe sterck en krachtigh zijn de banden van natuur!</l>
+						<l>Wil hy hem keeren?</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>ja, maer zonder dootquetsuur.</l>
+						<l>Hem deert des jongelings. hy wijt de snoode daeden</l>
+						<l>Den valschen bloetraên, die den jongeling verraeden,</l>
+						<l>Met kracht verrucken uit de heirbaen van de deught.</l>
+						<l>Hy kent d'oploopentheit en 't hitzigh bloet der jeught,</l>
+						<l>Van schalcken lichtelijck door treken te misbruicken,</l>
+						<l>Roofvogels, vet gemest, gewoon het oogh te luicken,</l>
+						<l>Tot schade van 't gemeene, en ongelijck te voên,</l>
+						<l>Alleen uit eige baet. het averechts vermoên</l>
+						<l>Weêrspannigheit, gewelt, de wulpscheit, zich vergeeten,</l>
+						<l>Scherp uitzien, elx gebreck ten breetsten uit te meeten,</l>
+						<l>Onmaetige overdaet, pluimstrijcken, en bedrogh</l>
+						<l>Is d'eersleep, die hem volght, en voort al wat'er noch</l>
+						<l>Aen vast is. kon een prins, met zulck een stoet behangen,</l>
+						<l>Zich oit intoomen van verkeerde en slimme gangen?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Gy zeght gelijck het is. wy mompelden by wijl,</l>
+						<l>Maer kropten 't lijdzaem in. 't verandren van den stijl</l>
+						<l>Der princen kan men eer beklagen dan verhoeden.</l>
+						<l>Als Godt wil straffen dan ontbreecken hem geen roeden.</l>
+						<l>Hy treckt den zegen van verkeerden dickwijl in,</l>
+						<l>En laetze vallen in een' averechtsen zin.</l>
+						<l>De hooghste wijsheit, sterck en lieflijck in 't beleiden,</l>
+						<l>Kan boven ons begrijp de stoffen toebereiden,</l>
+						<l>Tot datze in 't ende 't wit, waerop zy mickt, beschiet.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Zoo zet uw hart gerust. wat my belangt, 'k zal niet</l>
+						<l>Verzuimen voor de stadt en 't lant en u te waecken.</l>
+						<l>Wy zullen haest met Godt dien hoeck te boven raecken,</l>
+						<l>En gaen nu voort om hoogh eens uitzien van de tin.</l>
+						<l>Mevrouwen, treet in 't hof, en sterckt de koningin.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<stage>THAMAR. DAVID. JOAB.</stage>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Heer vader, ick heb hoop mijn' broeder om te zetten,</l>
+						<l>Hem snel t'ontmoeten, zulck een jammer te beletten.</l>
+						<l>Vergunme dat ick met een ruiterbende treck',</l>
+						<l>Uw vaderlijck gemoedt hem levendigh ontdeck'.</l>
+						<l>Hy zal zijn opzet, al te bloedigh en verwaten,</l>
+						<l>Op zusters bede, haer ter liefde, vaeren laeten.</l>
+						<l>d'Aertsvader Jakob, wien 't aen omzicht niet ontbrack,</l>
+						<l>Smoorde Esaus bittren wrock, en schoof dat ongemack</l>
+						<l>Voorzichtigh van zijn' hals. een vriendelijck bejegenen</l>
+						<l>Vermurwt een steenen hart. de hemel zal het zegenen.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Mijn dochter, ick betrouw uw vredelievende aert</l>
+						<l>Zou niet eens schroomen op het punt van broeders zwaert</l>
+						<l>Met uwe bloote borst te paerde heen te rennen:</l>
+						<l>Maer die Achitofel, en zijn doortraptheit kennen,</l>
+						<l>Geloven niet dat dit verdragh te vinden staet.</l>
+						<l>Achitofel staet blanck, strafschuldigh aen verraet,</l>
+						<l>Ontvonckt het smeulend vier, en keert zich aen geen kermen,</l>
+						<l>Noch krijten, als hy zich magh by die koolen warmen.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Een minnelijck verzoeck ten minste kan niet schaên.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Raet hem Achitofel uw' voorslagh af te slaen,</l>
+						<l>Zich met beloften noch verdragh te laeten paeien?</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Zoo blijft het pleit in staet.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>dan zal hy luider kraeien,</l>
+						<l>Indien de vader schijnt te zwichten voor den zoon,</l>
+						<l>Die wint met zulck een' klanck terstont de halve kroon.</l>
+					</sp>
+
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Belieft het u, laet ons hierop den veltheer hooren.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Trouwanten, haelt hem, dat hy afstijgh van den toren.</l>
+						<l>De tijt lijt geen vertreck. men hoort van overal</l>
+						<l>Gerucht van oproer, en dit ooreloghsgeschal</l>
+						<l>Slaet voort van stadt tot stadt. de bergen en de daelen</l>
+						<l>Geraecken op de been. verbaestheit vlieght de paelen</l>
+						<l>Des rijx met kracht voorby. alle aengegrensde steên</l>
+						<l>Van 't Heidendom zien uit, en steecken 't hooft by een.</l>
+						<l>Zy rekenen den dagh nu eens te zien geboren</l>
+						<l>Om over ons Jordaen Godts stoel en Godt te stooren:</l>
+						<l>Maer toeft, als Godt ontwaeckt zal in- en uitlantsch spoock</l>
+						<l>Voor 't licht van zijn gezicht verdwijnen, als een roock.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Daer komt de veltheer af. 't gelieve u hem te vraegen.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Mijn dochter, uw princes, getroost zich zelf te waegen</l>
+						<l>Om haeren broeder om te zetten, en zijn' haet</l>
+						<l>Te blusschen, Godt ten dienst. wy neemen 't in beraet.</l>
+						<l>Zoo gy 't geraeden vint, en nut, ick stem het mede.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Bemiddeltze 's lants rust, en is 'er hoop van vrede,</l>
+						<l>Men zal haer eeren van den rijxstroom aen d'Eufraet,</l>
+						<l>Zy schooner keeren dan de schoone dageraet</l>
+						<l>Ons aenstraelt met den dagh. laet voortgaen, zonder beiden.</l>
+						<l>De koning zeegne haer. ick zalze voort geleiden</l>
+						<l>Ter burghpoorte uit, en met een bende ruitery</l>
+						<l>Bestuwen.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Godt verleen dat uwe reis gedy'</l>
+						<l>Tot rust van 't heiligh rijck. mijn dochter, treck in vrede.</l>
+						<l>Levyten treet ons voor, en offer uwe bede</l>
+						<l>Den Godt van Abraham, of Thamars vredetoght</l>
+						<l>Den vader en den zoon noch eens verzoenen moght.</l>
+					</sp>
+
+				</div>
+				<div type="scene" n="5">
+					<stage>REY VAN LEVYTEN.</stage>
+					<sp who="#rey-van-levyten">
+						<speaker>I. Zang</speaker>
+						<l>Princes, die, haeckende naer vrede,</l>
+						<l>Om vader en den zoon</l>
+						<l>  Op een' gelijcken toon</l>
+						<l>Te trecken, heentreckt uit de stede,</l>
+						<l>Hoe lieflijck is uw tredt!</l>
+						<l>Waer gy de voeten zet,</l>
+						<l>Daer wassen lelien en geuren,</l>
+						<l>Een regenboogh van schoone kleuren,</l>
+						<l>En hartverquickend kruit.</l>
+						<l>Men kieze al 't edelste uit,</l>
+						<l>En vlechte een' krans om u te kranssen.</l>
+						<l>Keer zoo, datze al rondom u danssen.</l>
+					</sp>
+					<sp who="#rey-van-levyten">
+						<speaker>I. Tegenzang</speaker>
+						<l>Dat 's billijck. eer en prijs is waerdigh</l>
+						<l>Die 't vaderlijck palais</l>
+						<l>Herstellen wil in pais.</l>
+						<l>Ay ziet, hoe spoetze zoo wilvaerdigh,</l>
+						<l>Of zy dees jammerbron</l>
+						<l>  Noch tijdigh stoppen kon,</l>
+						<l>Daer endtloos onheil uit zou vloeien,</l>
+						<l>Waerby alle onbesneden groeien,</l>
+						<l>Als hart staet tegens hart,</l>
+						<l>Geweer en vuist verwart,</l>
+						<l>Verblint, en heet op moort en schennis.</l>
+						<l>Het burgeroorlogh draeght geen kennis.</l>
+					</sp>
+					<sp who="#rey-van-levyten">
+						<speaker>II. Zang</speaker>
+						<l>De burgerkrijgh der twalef stammen,</l>
+						<l>Om 't gruwelijck misdrijf</l>
+						<l>Aen een Levitisch wijf,</l>
+						<l>Broght Gibea in lichte vlammen,</l>
+						<l>Stont haer en 't wraeckgespan</l>
+						<l>Op hondertduizent man,</l>
+						<l>Holp Benjamins geslacht in d'asschen.</l>
+						<l>Toen moght zich in zijn tranen wasschen</l>
+						<l>  Een deerlijck overschot,</l>
+						<l>Getreden, en bespot.</l>
+						<l>Dat quetste zelfs die 't velt behielen.</l>
+						<l>Wat velde een burgerzwaert al zielen!</l>
+					</sp>
+					<sp who="#rey-van-levyten">
+						<speaker>II. Tegenzang</speaker>
+						<l>Almaghtige, zie uit den hoogen.</l>
+						<l>  Verhoe toch Josefs scha.</l>
+						<l>Van Dan tot Berseba</l>
+						<l>Spant al de strijtbre jeught haer bogen.</l>
+						<l>Veel duizent vloeckgemeen,</l>
+						<l>Geharnast tegens een',</l>
+						<l>In aentoght met gevelde speere</l>
+						<l>Hem dreigen, die, uw' naem ter eere,</l>
+						<l>Zoo veele steden won,</l>
+						<l>Alle afgoôn dempte en schon.</l>
+						<l>Verdadigh toch uw volx behoeder.</l>
+						<l>De zuster stille haeren broeder.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="4">
+
+				<head>Het vierde bedryf.</head>
+				<div type="scene" n="1">
+					<stage>DAVID. TWEEDE BODE. JOAB.</stage>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Men zwaeit de veltbanier op 's burghpoorts hooge kruin,</l>
+						<l>En blaest van Hebron met de heldere bazuin</l>
+						<l>Te wapen, dat het klinckt door Davids stadt en straeten.</l>
+						<l>De wacht heeft door 't klincket den postbode ingelaeten.</l>
+						<l>Trouwanten, rept u. haelt hem daetlijck hier voor 't hof.</l>
+						<l>Daer komt hy, 't aenzicht zwart begruist van zweet en stof,</l>
+						<l>En hygende en vermoeit, kan naulijx adem scheppen.</l>
+					</sp>
+					<sp who="#tweede-bode">
+						<speaker>Bode</speaker>
+						<l>Godt spaer' den koning. op, men moet de handen reppen.</l>
+						<l>Te wapen, heeren, op te wapen: het is tijt.</l>
+						<l>De vyant voor de poort. men wapen' zich ten strijt.</l>
+						<l>Te wapen: op, de prins treckt aen met zijn standaerden.</l>
+						<l>Hy is in aentoght, draeft vast herwaert met de paerden,</l>
+						<l>Bezet de heirbaen. sluit den draeiboom. spoet u. voort.</l>
+						<l>Ick zie den prins van daegh te Sion voor de poort.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>De rijxprinces is flus naer Hebron toe getogen:</l>
+					</sp>
+					<sp who="#tweede-bode">
+						<speaker>Bode</speaker>
+						<l>Gelijck een blixemstrael my snel voorby gevlogen,</l>
+						<l>Ten halven wege, met een' ridderlijcken troep.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Laet hooren wat'er wanckt. zegh op: hoe gaet de roep.</l>
+					</sp>
+					<sp who="#tweede-bode">
+						<speaker>Bode</speaker>
+						<l>Zoo ras als Absolon den stammen had gezworen,</l>
+						<l>Op 't graf van Abraham, nam Arons zoon een' horen,</l>
+						<l>En zalfde 't schoone hooft in 't midden van al 't volck,</l>
+						<l>Dat hem omschaduwde, gelijck een dicke wolck.</l>
+						<l>Hy kroonde 't blonde haer met levendige straelen</l>
+						<l>Van gout en diamant. daer had gy hem zien praelen,</l>
+						<l>Gelijck een morgenzon, met eenen zwier van gunst,</l>
+						<l>Dat elck in twijfel trock of hier natuur, of kunst</l>
+						<l>De kroon spande in een' man, van boven tot beneden</l>
+						<l>Volschapen, zonder smet doorgaens aen al zijn leden.</l>
+						<l>Leef lang, leef lang, ô Prins, ô koning Absolon.</l>
+						<l>Leef lang, doorluchtste telgh. uw naem verdoof de zon</l>
+						<l>In glans en heerlijckheit. dat was 't geduurigh roepen,</l>
+						<l>'t Gejuich van duizenden, gedeelt in twalef troepen.</l>
+						<l>Hier op verhief zich voort een schel bazuingeschal,</l>
+						<l>Beantwoort met een' galm van heuvel en van dal,</l>
+						<l>Die aen de starren klonck. het offer wort ontsteecken.</l>
+						<l>Men deckte tafels. geen triomf, noch vreughdeteken</l>
+						<l>Ontbracker. d'offerspijs wert rustigh opgedischt.</l>
+						<l>Men stroide in 't hondert gout en zilver. ieder vischt</l>
+						<l>En grabbelt'er. de wijn springt levendigh uit bronnen.</l>
+						<l>Geheele kudden, noch gebrade runders konnen</l>
+						<l>De menighten verzaên. men hoorde een zelve stem</l>
+						<l>In duizenden. men sloot hier op Jerusalem</l>
+						<l>Te winnen, en den zoon in vaders troon te zetten,</l>
+						<l>Eer veltheer Joab schrap, den degen quaem te wetten.</l>
+						<l>Men stelde daetelijck het voetvolck in 't vierkant,</l>
+						<l>Gewapent, eensgezint, om voort gelijckerhant</l>
+						<l>Te rucken naer de stadt. de koning met zijn paerden</l>
+						<l>Voert zelf den voortoght aen, op brullende standaerden</l>
+						<l>Van dieren. Kanaän, zoo heerlijck als 't oit was,</l>
+						<l>Zagh noit een braver jeught in 't gouden harrenas,</l>
+						<l>Al gout is 't dat' er blinckt. de weelige livreien,</l>
+						<l>De wapenrocken, elck om 't prachtighste geleien</l>
+						<l>Den nieuwen koning, die, in 't harte van dees pracht,</l>
+						<l>Op eenen zwarten muil trots uitsteeckt, als by nacht</l>
+						<l>De heldre morgenstar de starren komt te dooven,</l>
+						<l>En al wat adem schept een' schoener dagh beloven.</l>
+						<l>Recht voor hem heene praelt de groote leeusbanier</l>
+						<l>Van Juda, en 's rijx leeu straelt moedigh vlam en vier</l>
+						<l>Ten grimmige oogen uit. hy dreight zijn scherpe klaeuwen</l>
+						<l>In uwe kroon te slaen, nu Davids helden flaeuwen.</l>
+						<l>De stammen volgen hem, doch langsaem na te voet,</l>
+						<l>Elck onderscheiden door zijn wapen, en vol moedt</l>
+						<l>Om ongestuit, recht toe, uw' burgh en Salems wallen</l>
+						<l>En poorten teffens, als een springvloet, t'overvallen.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Waer reedt Achitofel?</l>
+					</sp>
+					<sp who="#tweede-bode">
+						<speaker>Bode</speaker>
+						<l>recht achter 's konings zoon.</l>
+						<l>De stammevaders, als hanthavers van zijn kroon,</l>
+						<l>Omringden hem, gekleet in purpre staetsirocken,</l>
+						<l>Op hun strijtwagens, al van muilen voortgetrocken.</l>
+						<l>Dat gaf prins Absolon, de jonge majesteit,</l>
+						<l>Een' wonderbaeren glans en glimp van wettigheit.</l>
+						<l>Dus wort hy aengebeên met juichen, buigen, knielen,</l>
+						<l>Zoo verr' men uitzagh, daer alle oogen op hem vielen.</l>
+						<l>De rotsgalm rolde al voort, zoo wijt die rollen kon:</l>
+						<l>Godt spaer' den koning, 's rijx beschermer, Absolon.</l>
+						<l>Genadighste, waeck op: schut Josefs schande en schade.</l>
+						<l>Of breng de sleutels, op genade en ongenade,</l>
+						<l>Den erfgenaem des rijx, den jongen koning toe.</l>
+						<l>Is 't Godts gehengenis, zoo kus by tijts Godts roê.</l>
+						<l>Al 't heir spuwt vier en vlam, om Davids eer te minderen,</l>
+						<l>Haelt Saul uit het graf, het dempen van zijn kinderen,</l>
+						<l>Eischt wraeck om 't overspel, bespat met bloet en moort.</l>
+						<l>Het is al lasteringe en schennis wat men hoort.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Ga daetelijck in 't hof. verhael de koninginnen</l>
+						<l>Al wat gy hoorde, en zaeght. 't is tijt om tijt te winnen.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Zoo is 't, genadighste. dees storm eischt kort beraet.</l>
+						<l>De Kreten, Plethen schrap. de knods raeckt licht op straet.</l>
+						<l>Het graeu, de burgers zelf ontzien zich niet te mompelen</l>
+						<l>De burghpoort, en den burgh, en hofwacht t'overrompelen.</l>
+						<l>Wij mogen op geen' eedt van weifelaeren staen.</l>
+					</sp>
+
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Of nootweer bieden, of in ballingschap te gaen,</l>
+						<l>Te vlughten, eer de prins de stadt koome overvallen.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Het lest waer raedtzaemst: doch verlaeten wy de wallen,</l>
+						<l>Zoo zet hy zich op stoel, ten zy het Thamar keer'.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Die hoop is uit: hier gelt geen tusschenspreecken meer:</l>
+						<l>De kans is al gewaeght. het oproer moet'er onder,</l>
+						<l>Of over. deze stadt schijnt nu een lichaem, zonder</l>
+						<l>Het eêlste deel, het hooft, dat noch wat spartlen wil.</l>
+						<l>Elck ziet naer 't zuiden uit. 't ontvonckte vier smeult stil,</l>
+						<l>Zoeckt naer ontvonckbre stof, en komt het die te vatten,</l>
+						<l>De vlam zal uitslaen, en de daecken over spatten:</l>
+						<l>Dan brengt men ydel hulp en water by der hant.</l>
+						<l>De baet- en staetzucht, wraeck, en haet, en misverstant,</l>
+						<l>En ongebondenheit hun hoofden t'zamensteecken:</l>
+						<l>Als naer een dootquetsuur een toevloet van gebreken</l>
+						<l>Des lichaems t'zamenrot, tot ergernis van 't quaet.</l>
+						<l>Zoo is 't, helaes, gestelt met onzen krancken staet.</l>
+						<l>Maer laet ons raet met Gode en 's rijx aertspriestren leven,</l>
+						<l>Eer wy besluiten, en ons op de vlught begeven.</l>
+						<l>Staffiers, vlieght heene: roept d'aertspriesters hier voor 't hof.</l>
+						<l>Laet dreigen al wat wil: 't gedy Godts naem ten lof.</l>
+						<l>Ick zworf voor Saul lang in droeve ballingschappen.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Toen was de koning jong: nu vallen hem de stappen,</l>
+						<l>In zijnen ouderdom, te zuur: een hardt gelagh.</l>
+						<l>Hoe trapt een wrevligh zoon, in uwen ouden dagh,</l>
+						<l>Den vader, in wiens hart hy plagh de kroon te spannen!</l>
+						<l>Wat baert een lantverdriet al wolven, en tyrannen!</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>AERTSPRIESTERS. DAVID. JOAB.</stage>
+					<sp who="#aertspriesters">
+						<speaker>Aertspriesters</speaker>
+						<l>Lang leef de koning. Godt bewaere Jesses spruit.</l>
+						<l>De storm van oproer raest.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>het ziet'er byster uit.</l>
+					</sp>
+					<sp who="#aertspriesters">
+						<speaker>Aertspriesters</speaker>
+						<l>Wat sluit men?</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>onder Godts en Arons vollen zegen</l>
+						<l>Te vlughten uit de stadt. 't gelieve u te overweegen</l>
+						<l>Of 't niet geraeden zy dit hollend weêr den toom</l>
+						<l>Te vieren, liever dan stijfzinnigh, tegens stroom</l>
+						<l>En wint, de hulck des rijx in zulck een storm te waegen.</l>
+						<l>Wy sloten nodigh Godt en u om raet te vraegen.</l>
+					</sp>
+					<sp who="#aertspriesters">
+						<speaker>Aertspriesters</speaker>
+						<l>Genadighste, wy staen gelaeten onder Godt,</l>
+						<l>En 's konings wijsheit, en gereet op 't hoogh gebodt</l>
+						<l>Te volgen wat tot heil des volx wort goet gevonden.</l>
+						<l>'s Volx welstant is de wet, waer aen gy staet gebonden:</l>
+						<l>Maer 't is bedenckens waert of dit gevordert wort</l>
+						<l>Met voor te vlughten, eer de hooghste noot u port.</l>
+						<l>Gy hebt in uwen dienst de Krethen, en de Plethen,</l>
+						<l>De nederstadt in dwang, door 't spannen van de keten.</l>
+						<l>Uw helden, om hun deught en dapperheit ontzien,</l>
+						<l>Staen tegens duizenden, getroost hun 't hooft te biên.</l>
+						<l>Wy schuilen noch, beschut van torenrijcke muuren,</l>
+						<l>En graften, een gewelt, dat stormen kan verduuren,</l>
+						<l>En voor 't rammeien van den stormram suft noch zwicht.</l>
+						<l>Hoe zou dit schreeuwen, zoo een oorloghsman te licht</l>
+						<l>Zijn burgh en hooftstadt gaef ten rove aen wulpsche troepen!</l>
+						<l>Zy steecken u naer 't oogh met bulderen en roepen,</l>
+						<l>Doch min met hart en moedt. dit lichte kaf wil haest</l>
+						<l>Verstroien, zoo de wint, uw aêm, hier onder blaest.</l>
+						<l>De vroomen, op wier trouw een vorst zich magh verlaeten,</l>
+						<l>Staen vast, en pal, een man zoo goet als tien soldaeten.</l>
+						<l>Men zifte weifelaers en trouweloozen uit:</l>
+						<l>Want los Godts heilighdom, de bontkist, tot een buit</l>
+						<l>Te schencken; liever ons gewijde en heilige orden,</l>
+						<l>In 't blancke harrenas, het zwaert op zy te gorden,</l>
+						<l>De Godtskist met triomfe en juichende geschal</l>
+						<l>Rondom gevoert, ten schimp des oproers, op de wal.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Dat u de hemel loon', voor uwe oprechte trouwe,</l>
+						<l>Gebleecken t'onswaert, in het nijpen van dien rouwe.</l>
+						<l>Eerwaerdighsten, betrouwt wy weegen d'eer van Godt</l>
+						<l>En u veel zwaerder dan geluck van aertsch genot,</l>
+						<l>Den scepter en de kroon, ons toegekeurt van boven.</l>
+					</sp>
+					<sp who="#aertspriesters">
+						<speaker>Aertspriesters</speaker>
+						<l>Is hier geen middel om dien rijxgloet uit te doven,</l>
+						<l>Door tusschenspreecken, en belofte, en kloeck beleit?</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Dees rijxkoorts heeft zich reede in 't hart des rijx gespreit.</l>
+						<l>Wy zien geen middelen dien brant zoo dra te koelen.</l>
+						<l>Het krancke lichaem van den staet, benaeut aen 't woelen,</l>
+						<l>En flaeu van krachten, geeft den staetarts noch te raên</l>
+						<l>Of 't maghtigh zy dien stoot en aenval uit te staen.</l>
+						<l>Wy hebben niettemin, of Godt ons troost gewaerdight,</l>
+						<l>Ons dochter Thamar, op haer aenstaen, afgevaerdight,</l>
+						<l>En wachten tijding, zoo misschien die eedle ziel</l>
+						<l>Door licht betrouwen niet in broeders ongunst viel.</l>
+					</sp>
+					<sp who="#aertspriesters">
+						<speaker>Aertspriesters</speaker>
+						<l>De broeder was dus lang haer wonder wel gewogen.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Noch heeft hy haer vermomt vertreckende bedrogen,</l>
+						<l>Doch eerst zich zelven, door zijn bloetraên aengestoockt,</l>
+						<l>Daer nu het gansche lant te jammerlijck af roockt.</l>
+					</sp>
+					<sp who="#aertspriesters">
+						<speaker>Aertspriesters</speaker>
+						<l>Waer recht in zwang, dit stont dien bloetraet eerst te boeten.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Een eigen huisgenoot treet zijnen heer met voeten,</l>
+						<l>Achitofel, bewust van 't hofgeheimenis,</l>
+						<l>Die lang gemeenzaem met den koning ging ten disch;</l>
+						<l>Een wonde in onze borst: maer gaende slimme gangen,</l>
+						<l>Wat wonder waer 't, zoo hy in zijnen strick bleef hangen,</l>
+						<l>De steen, om hoogh gesmackt, quaem vallen op zijn hooft!</l>
+					</sp>
+					<sp who="#aertspriesters">
+						<speaker>Aertspriesters</speaker>
+						<l>Ruimt gy Jerusalem, als balling, dat verdooft</l>
+						<l>Den glans der majesteit, dus lang by alle volcken</l>
+						<l>Aenbiddelijck, zoo wijt de hemel hangt met wolcken</l>
+						<l>Betrocken: en wat hoop van Sion weêr te zien?</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Verdooft het min mijn' glans, den vader op de knien</l>
+						<l>Zien leggen voor den zoon, hem smeecken om genade;</l>
+						<l>En hachelijck of my het smeecken quaem te stade.</l>
+						<l>d'Aenstoockers van dit quaet, te gruwelijck verwoet,</l>
+						<l>By zich veroordeelt, geen gerustheit zien te moet,</l>
+						<l>Zoo lang de voorzaet leeft, en leght op zijne luimen,</l>
+						<l>Om t'achterhaelen, die hem 't erfdeel leerden ruimen,</l>
+						<l>Waerover hy, gezalft van Godt, den troon bezat.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Indien gy 't vlieden stemt, ten minste laet de stadt</l>
+						<l>Verzien met eenen glans en koningklijcken luister</l>
+						<l>Van bedtgenooten: recht gelijck de zon, by duister</l>
+						<l>Beneên de kim gedaelt, noch gansch niet onder gaet,</l>
+						<l>Ten zyze een wijl een streeck van glanssen na zich laet,</l>
+						<l>Getuigen dat het licht te water, na'et verdwijnen</l>
+						<l>In 't westen, weder uit den oosten zal verschijnen.</l>
+					</sp>
+					<sp who="#aertspriesters">
+						<speaker>Aertspriesters</speaker>
+						<l>De veltheer vat het recht: dat 's raetzaem en gegront.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Ick had dien voorslagh op de tong, en in den mont,</l>
+						<l>En vind geraden tien van mijne bedtgenooten</l>
+						<l>Te laeten in het hof. nu echter eens gesloten</l>
+						<l>Of niet het heilighdom, en priesterlijck geslacht,</l>
+						<l>En wat Godts hutte dient zal volgen. men verwacht</l>
+						<l>d'Aertspriesterlijcke stem. wy stellen 't aen uw oordeel.</l>
+					</sp>
+					<sp who="#aertspriesters">
+						<speaker>Aertspriesters</speaker>
+						<l>Al wat uw majesteit, Godts majesteit tot voordeel,</l>
+						<l>Geraden vint en nut, bestemt d'aertspriester mê.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Zoo rept u daetelijck, en houdt u t'samen ree:</l>
+						<l>Want ons gelegenheit van uur tot uur wort slimmer.</l>
+						<l>Levyt en bontkist voor, dan 't hof en joffrentimmer.</l>
+						<l>Laet Kreeth, en Pleeth, en al het regement van Geth</l>
+						<l>Den hindertoght bekleên, dat niemant ons belett',</l>
+						<l>Van 't zuiden opkoome, in den staert sla met den degen.</l>
+					</sp>
+					<sp who="#aertspriesters">
+						<speaker>Aertspriesters</speaker>
+						<l>Wy reppen ons: wy gaen. Godt geve u zijnen zegen.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Heer Joab, ruck al uw gewapenden by een.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Genadighste, terstont. maer langs wat heirbaen heen</l>
+						<l>Getrocken, veiligh voor den snellen scepterrover.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>De Beeckpoort uit, de brugh der beecke Cedron over,</l>
+						<l>Naer stadts Olijfbergh, op Bahurim oostwaert aen.</l>
+						<l>De wegh valt reisbaer, om het rijzen van de maen.</l>
+					</sp>
+					<sp who="#joab">
+						<speaker>Joab</speaker>
+						<l>Daer komt de koningin, bestuwt van bedtgenooten,</l>
+						<l>Bedroefde tronien, met traenen overgoten.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>BERSABE. DAVID. BEDTGENOOTEN.</stage>
+					<sp who="#bersabe">
+						<speaker>Bersabe</speaker>
+						<l>Genadighste, wat raet met onzen Salomon,</l>
+						<l>Dit kint, uw' erfgenaem, gevloeckt van Absolon?</l>
+						<l>Waer bergen wy uw spruit? wat schaduw zal haer decken?</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Schep moedt, mijn koningin: wy staen op ons vertrecken.</l>
+						<l>Dit kint en gy zult mê. bewaert behoedt ons Godt:</l>
+						<l>Wy trecken algelijck een zelve deel, een lot.</l>
+						<l>Gy hoeft de zorgh voor 't kint den vader niet te vergen.</l>
+						<l>Vergeet de kroonen en de scepters niet te bergen,</l>
+						<l>Het heilighdom des rijx: vooral vergeet dit niet,</l>
+						<l>En voort al wat ons nu niet in de zinnen schiet.</l>
+						<l>Vertreck, en houdt u reedt met al de koninginnen.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Helaes, wat gaet ons aen? wat raeden? wat beginnen?</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Het is besloten dat gy 't hof bewaeren zult.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Vertrecktge zonder ons? zoo boeten wy de schult</l>
+						<l>Van anderen alleen. wat ramp wil ons gemoeten!</l>
+						<l>De vyant zal zijn lust baldaedigh met ons boeten.</l>
+						<l>Geene onschult, noch bescheit houdt woesten by den toom</l>
+						<l>Van reden. och, nu zien wy d'uitkomst van den droom,</l>
+						<l>En 't ysselijck gespoock. de leeuw, die 't velt zal winnen,</l>
+						<l>Mishandelt brullende d'onschuldige leeuwinnen.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Laet vaeren ydelheit van droom en spoockery.</l>
+						<l>Het loop' zoo hoogh als 't wil, men houdt de vrouwen vry.</l>
+						<l>Hier valt geen wederstant: de stadt, en 't hof staen open.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Waer bergen wy onze eer. nu zullen wy 't bekoopen:</l>
+						<l>Want d'overwinner schat zijne eer te kort geschiet.</l>
+						<l>O koning, voer ons mê. behoê ons voor verdriet.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>De Sanhedrin zal zelf 't aentreckend heir gemoeten,</l>
+						<l>En offeren beleeft de sleutels aen de voeten</l>
+						<l>Des triomfeerders, die den vader overmagh,</l>
+						<l>En, jammerlijck misleit in zijnen ouden dagh,</l>
+						<l>Ten rijcke uitschupt. verhaelt hem vaders leste klaghten,</l>
+						<l>En droeven uitgang, of 't zijn hart noch moght verzachten.</l>
+						<l>Men stilt een' leeuw door zoet en minzaem ondergaen.</l>
+						<l>Wat hooren wy? hier komt ons dochter Thamar aen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<stage>THAMAR. DAVID. BEDGENOOTEN.</stage>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Ter goeder uure vinde ick u, heer vader, weder.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Gy zette uw broeders wrock en blinde gramschap neder?</l>
+						<l>Hy luisterde naer u?</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>gelijck een dove rots</l>
+						<l>Naer 't ruisschen van de zee. hy bleef verstockt, en trots.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Zoo hoopten wy vergeefs of gy dit quaet moght heelen.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Ick had met mijnen troep omtrent twee derdedeelen</l>
+						<l>Naer Hebron afgeleght, toen hy ons tegen quam,</l>
+						<l>En stont op ons bazuin. 'k viel hem te voet. hy nam</l>
+						<l>De zuster minnelijck, naer zijn gewoonte, in d'armen,</l>
+						<l>En hief haer uit het stof, met hartelijck ontfarmen.</l>
+						<l>Ick hielt op zijn genade ootmoedigh by hem aen,</l>
+						<l>Met een bedruckte stemme, op elcke wang een traen,</l>
+						<l>En badt, waer 't mogelijck, dien heirtoght noch te staecken,</l>
+						<l>Te minste vader niet te quetsen, door 't genaecken</l>
+						<l>Met zulck een vyantschap, noch reuckeloos zijn bloet,</l>
+						<l>Verkout van ouderdom, t'ontstellen, maer 't gemoedt</l>
+						<l>Des vaders, om den zoon tot stervens toe verlegen,</l>
+						<l>Te troosten. ick beloof hem al wat vaders zegen</l>
+						<l>Vermagh, oock zelf de kroon, met een gemeene stem</l>
+						<l>En tegenjuichen van geheel Jerusalem,</l>
+						<l>By vaders leven, te verzekren, toe te wijden,</l>
+						<l>Om namaels hierom met zijn' broeder niet te strijden.</l>
+						<l>Hy eischt mijn' last te zien. ick nam dien last op my,</l>
+						<l>Dit uit te voeren met verlof van vaders zy.</l>
+						<l>'k Verzekerde hy zou by uitstel meer verwerven,</l>
+						<l>En badt hem zich noch al zijne afkomst niet t'onterven</l>
+						<l>Door wapens, en gewelt. hy scheen ten leste een wijl</l>
+						<l>Te luistren naer dien toon, en liefelijcken stijl:</l>
+						<l>Maer uw Achitofel sloegh al dien handel gade,</l>
+						<l>Versteurde het gespreck, en keerde 't al ten quade.</l>
+						<l>Ten leste zwoer hy, borst met dreigementen uit,</l>
+						<l>Indien Jerusalem verhardt den intoght stuit,</l>
+						<l>Haer poorten en den muur ter aerde toe te slechten.</l>
+						<l>Zoo luidt zijn afscheit. kies te vlieden, of te vechten.</l>
+						<l>Geen middel is'er om zijn gramschap t'ondergaen.</l>
+						<l>Hy ruckt al brullende en verbolgen herwaert aen.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Zoo brult de jonge leeuw, en dreight de hofleeuwinnen.</l>
+						<l>Wat raet? wat gaet ons aen? wat zullen wy beginnen?</l>
+						<l>Tien bedgenooten, elck als een verlaete weeu,</l>
+						<l>Geschonden, geschoffeert, verslonden van den leeuw.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Zal mijn heer vader dan Jerusalem verlaeten?</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Wy trecken heen, gevolght van alle beyde staeten,</l>
+						<l>Het priesterdom, en 't hof, waer d'opperste ons geley.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Och, wat ontmoete my een lant- en stadtgeschrey!</l>
+						<l>Behaeghde 't vader dat uw dochter mê moght trecken.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Uw blijven zal misschien tot vaders voordeel strecken.</l>
+						<l>'k Beveel dees schreienden in uwe hoede. keer</l>
+						<l>Al wat gy keeren kunt. 'k beveel beschut haere eer,</l>
+						<l>Gelijck uw moeders. wisch de traenen van uw kaecken.</l>
+						<l>De slagh, die my raeckt, zal een iegelijck niet raecken.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Helaes, verlaet gy ons,in dezen droeven schijn?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Och, geeftge duiven, die toch zwack en weerloos zijn,</l>
+						<l>In 's havix klaeuwen?</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>dit 's besloten by ons allen.</l>
+					</sp>
+
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Most dan dit heiloos lot ons juist ten deele vallen?</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Gy zijt geluckiger dan wy, en zet geen' stap</l>
+						<l>Den drempel over; wy gaen heene in ballingschap,</l>
+						<l>Onzeker waer men zal ter neder slaen in 't ende.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Mevrouwen, weest getroost. wat jammer, wat elende</l>
+						<l>U overkomt, dat komt my over. broeder zal</l>
+						<l>Zich draegen, als 't betaemt, zijn zuster te geval.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Welaen dan, weest getroost, en wilt op Godt betrouwen,</l>
+						<l>Die ons met blyschap wil vergaderen. mevrouwen,</l>
+						<l>Mijn dochter, dat ick u voor 't leste eens kuss'. 't is tijt</l>
+						<l>Te scheiden voor een wijl. waertoe al dit gekrijt?</l>
+						<l>Dit schreien baet niet. nu mijn dochter, troost dees droeven,</l>
+						<l>U zelve mê. schep moedt. de hemel wil beproeven</l>
+						<l>Wat ons gedult vermagh.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>och vader, gaet gy heen?</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Hy gaet in ballingschap, verlaet ons hier alleen.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Naerdien het Godt belieft, laet u een hart inspreecken.</l>
+						<l>Wat my belangt: betrouwt u zal geen hulp ontbreecken.</l>
+						<l>'k Heb broeder menighmael getroost, en neêrgezet,</l>
+						<l>In zijne ballingschap naer mijne maght geredt.</l>
+						<l>Wat leedt hy niet, vervolght, gelastert, en besproken,</l>
+						<l>Schoon hy rechtvaerdigh zich aen Ammon had gewroken!</l>
+						<l>Noch loof ick niet dat hy zijn lijden eeuwigh kaeut,</l>
+						<l>Uit wraeck zijn vaderlant en vaders hart benaeut,</l>
+						<l>Daer hy de kroon in spant. Godt straff' den raet, die wrockend</l>
+						<l>Den jongling stijft in 't quaet, zoo groot een quaet berockent,</l>
+						<l>Den vader en den zoon gescheiden houdt, en lacht</l>
+						<l>In zulck een lantbederf. de koning moet te nacht,</l>
+						<l>Versteecken in een hol, en onderaerdtsche kuilen,</l>
+						<l>Zich met zijn koninginne en erfgenaem verschuilen:</l>
+						<l>Wy mogen veiligh in het hof te ruste gaen.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Godt geef dat dit, gelijck gy voorspelt, magh beslaen.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Men spoet de reis met kracht: zy hoeven tijt te winnen:</l>
+						<l>Laet ons terwijl in 't hof vergaêren onze zinnen,</l>
+						<l>Verstroit door al 't gewoel. vertreckenwe aen een zy.</l>
+						<l>Nu ebt hier 't heil van 't hof: verwachtenwe 't gety.</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Jordaen, die, boven stont, beneden</l>
+						<l>Den doortoght schonckt, door Godts gena,</l>
+						<l>  Aen 't heilrijck heir van Josua,</l>
+						<l>Een wonder voor den onbesneden:</l>
+						<l>Waerna de stammen, rijck van buit,</l>
+						<l>De dertigh rijcken deelden uit:</l>
+						<l>Nu hoeftge uw water op te trecken,</l>
+						<l>  Te stoppen uwe glaze kruick,</l>
+						<l>Op dat de koning, stil, ter sluick,</l>
+						<l>Uw kil doorwaede, en zich magh decken</l>
+						<l>In een woestijne voor zijn kint,</l>
+						<l>Van hem zoo vaderlijck bemint.</l>
+						<l>Och, Absolon, geen vrouweliefde,</l>
+						<l>In tonder van het jonge bloet</l>
+						<l>Gevat, ontsteeckt met zulck een' gloet,</l>
+						<l>Als gy het hart van vader griefde.</l>
+						<l>Wat hadge my, nu afgeslooft,</l>
+						<l>  Met uwen bloessem niet belooft!</l>
+						<l>'k Heb Jonathan, in 't velt verslagen,</l>
+						<l>Mijn' halsvrient, die mijn leven stut,</l>
+						<l>Voor vaders blinden wrock beschut,</l>
+						<l>Zoo niet betreurt: leght gy my laegen?</l>
+						<l>  Doorstietge my, gy zoudt, ô smert!</l>
+						<l>Uw hart doorstooten in mijn hart.</l>
+						<l>O hof, 'k getroost my u te missen.</l>
+						<l>d'Alziende kent hier d'oirzaeck af.</l>
+						<l>Hy kan, na d'uitgestaene straf,</l>
+						<l>De traenen van mijn aenzicht wissen.</l>
+						<l>'t Verschiltme luttel of ick leef,</l>
+						<l>Als Godt het Absolon vergeef.</l>
+						<l>'k Laet d'uitkomst van mijn leedt den oppersten bevolen.</l>
+						<l>Hy heeft den pael gestelt, hoe lang my staet te doolen.</l>
+						<l>Hier komen Levys zoons gepaert ter hutte uittreên,</l>
+						<l>De Godtskist volghtze, met d'aertspriestren. gaenwe heen.</l>
+						<l>Dat my de koningin, met onzen jongen zoone</l>
+						<l>En 't vrouwentimmer, volg'. de toeverlaet der kroone,</l>
+						<l>Helt Joab volge ons, en al 't hof, en lest de wacht</l>
+						<l>Des burghs, gesloten met de trouw van d'oorloghsmaght.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<stage>REY VAN LEVYTEN.</stage>
+					<sp who="#rey-van-levyten">
+						<speaker>Zang</speaker>
+						<l>Wat was 't een heerlijck praelen,</l>
+						<l>Toen gansch Jerusalem,</l>
+						<l>Een hart, een ziel, een stem,</l>
+						<l>Helt David in quam haelen!</l>
+						<l>Die op het punt van 't slaghzwaert,</l>
+						<l>Den Filistijn ontrooft,</l>
+						<l>Hun toonde 't reuzenhooft,</l>
+						<l>Dat flus al 't heir verdaghvaert.</l>
+						<l>Men zagh den helt geleien,</l>
+						<l>  Daer hy met eere tradt</l>
+						<l>Ter poorte in van de stadt,</l>
+						<l>Op bommen, en schalmeien.</l>
+						<l>Men hoorde joffrekeelen,</l>
+						<l>Gestelt op Jesses lof</l>
+						<l>  Hem voortreên op het hof,</l>
+						<l>En dezen, lofzang speelen:</l>
+						<l>Wie staet nu niet verwondert?</l>
+						<l>Om Geth het hooft te biên</l>
+						<l>Sloegh koning Saul tien-</l>
+						<l>Helt David honderthondert.</l>
+					</sp>
+					<sp who="#rey-van-levyten">
+						<speaker>Tegenzang</speaker>
+						<l>Nu treckt 's rijx heilant heenen,</l>
+						<l>Die dertigh jaeren prat</l>
+						<l>Den stoel des rijx bezat,</l>
+						<l>Baervoets, met bloote beenen,</l>
+						<l>Het hooft met rouw behangen,</l>
+						<l>Van jaeren overlast.</l>
+						<l>De traenen rollen vast,</l>
+						<l>En bigglen langs de wangen.</l>
+						<l>Nu moet hy nootdruft prachen,</l>
+						<l>  In ballingschap versmaet,</l>
+						<l>Gevloeckt, vervolght, gehaet,</l>
+						<l>Den vyant hooren lachen.</l>
+						<l>Al 's helts doorluchte daeden</l>
+						<l>Vergeet men. is 't niet snoot?</l>
+						<l>  Zijn hof- en dischgenoot</l>
+						<l>Durf zijnen heer verraden.</l>
+						<l>Al 't stamhuis, vol geschater,</l>
+						<l>Bestormt des vaders troon,</l>
+						<l>Verslingert op den zoon.</l>
+						<l>Het valt hem toe, als water.</l>
+					</sp>
+					<sp who="#rey-van-levyten">
+						<speaker>Slotzang</speaker>
+						<l>De koning leerde ons niet te bouwen</l>
+						<l>Op menschen reuckeloos,</l>
+						<l>Lichtvaerdigh, los, en broos,</l>
+						<l>Maer met een onverwrickt betrouwen</l>
+						<l>  Op Godt alleen te staen.</l>
+						<l>De weerelt, als de maen,</l>
+						<l>Is wisselbaer, dan heel volscheenen,</l>
+						<l>Dan half, dan minder, dan verdweenen.</l>
+						<l>Wat 's nu 't gekroonde hooft?</l>
+						<l>  De glans is uitgedooft.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="5">
+
+				<head>Het vyfde bedryf.</head>
+				<div type="scene" n="1">
+					<stage>ABSOLON. ACHITOFEL.</stage>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Zoo wort Jerusalem gewonnen zonder slagh:</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>En niet door laegen, maer by schoonen lichten dagh.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Deze avontzon van 't hof gaet snel in 't oosten onder:</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>En tegens haer natuur. wie zagh oit grooter wonder!</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Het is geraên dat zy de reedtste haven kies'.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Nu haer in 't zogh gevolght. ons dient geen tijtverlies.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Hy is gewapent, en gevaerlijck aen te rannen.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Wat 's Davids lijfwacht? slechts een hantvol bloode mannen.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Acht Davids helden niet zoo bloode, en zonder moedt:</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Die zinckt, en geeft u 't velt ten beste, indien gy spoet.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Men waeg' geen' voortogt. laet ons 't gros van 't leger wachten.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Men gunze tijt noch rust: men laetze niet vernachten.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Men stell' dit wijslijck uit, en volghze niet te dra.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Een rijpe krijghskans wint by uitstel niet dan scha.</l>
+					</sp>
+
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Met noot en wanhoope is het zorgelijck te vechten:</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>En zonder vechten is 't oneffen niet te slechten.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Wy zijn d'oneffenheit te boven in dit rijck.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Zoo David aenwast, staet zijn maght met u gelijck.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Daer hoeft noch tijt toe, om in krachten aen te groeien.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Zie toe uw telgh is teêr, en effen aen het bloeien.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>De stammen stutten ons. wy zitten op den troon:</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Zoo vast niet, of de kans des vyants staet noch schoon.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Wie kans ziet ruimt zoo licht geen' rijxstoel, en zijn veste.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Men gaet te rugge, en waeght een grooter sprong ten leste.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Hij springe zoo hy kan. wy wonnen dit vooruit.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Men schutt' zijn' loop, of wacht u voor den wederstuit.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Zoo stuit het op dien burgh, die koningklijcke muuren.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Een leger om een stadt kan stadt en burgh verduuren.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Verduurt de hongersnoot zoo groot een leger niet.</l>
+					</sp>
+
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Wie spijst de stadt, die zich rontom besloten ziet?</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Men hoeft veel duizenden om zoo een stadt te sluiten.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Hy kan een leger voên op roven, en op ruiten.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Een rover houdt geen' stant, en wort van elck gehaet.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Uw vader onderhiel op lantroof zich in staet.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Al vlughtende, en liet zich gelijck een haes verjaegen.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Zoo weet een kleine muis een' grooten leeuw te plaegen.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Gy zijt te driftigh: denck de nacht is voor de poort.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Met mindre moeite wort aenwassend quaet gesmoort.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Men wachte ons voetvolck in: het komt vast aengetogen.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Eer dit genaeckt is ons de vogel al ontvlogen.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>'K bedanckme zijne vlught. hy liet ons 't warme nest:</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Om elders uit te broên een schrickelijcker pest.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>En waer toch? in een hol, en duistre moortspeloncken?</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Die broeden tigers uit. my dunckt ick hoorze roncken.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Misgunze niet te nacht te rusten met gemack.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Lang rusten geeft u kans, die schoon staet, eenen krack.</l>
+					</sp>
+
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>'T zal eer dry dagen hun noch vroegh genoegh opdaegen.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Zoo spant gy 't paert niet voor maer achter uwen wagen.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Zoo holt mijn wagen niet te snel met lijfs gevaer.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Wint vader tijt, zoo raeckt hy daetlijck weder klaer.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Wy zullen rijper op dien voorslagh ons beraden.</l>
+						<l>Wat raet gy meer?</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>noch sta ick om een zaeck beladen.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Laet hooren wat u dunckt.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>een schrickelijck getal</l>
+						<l>Hangt noch in twijfel aen wat kant het hellen zal,</l>
+						<l>Waer hoop van winste, waer meer vrees is voor verliezen.</l>
+						<l>De weereltwijsheit raet de beste kans te kiezen.</l>
+						<l>Wie d'eene zijde kiest, staet d'andere in het licht.</l>
+						<l>Dat weiflen houdt de schael des staets in wederwight.</l>
+						<l>Hier grenst het bloet te na. al twisten zoon en vader,</l>
+						<l>Zy smilten licht in een, verzoenen zich te gader:</l>
+						<l>Dan staet hun aenhang blanck: dies is 't geraên in 't kort</l>
+						<l>Iet aen te rechten, dat gy onverzoenbaer wort</l>
+						<l>By vader, die u mint, ten minste in schijn voor d'oogen.</l>
+						<l>Zoo staet uw zetel vast, door aenwas van vermogen.</l>
+						<l>Indien gy zulck een daet groothartigh durft bestaen,</l>
+						<l>Al 't weiflend volck zal, als een weeghschael, overslaen.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Wat voor een daet hebt gy by uwen raet besloten?</l>
+					</sp>
+
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Beslaep in 't openbaer uw vaders bedtgenooten,</l>
+						<l>Op 't hooge dack van 't hof. schuif op de tentgordijn,</l>
+						<l>Dat vry de morgenzon den bruidegom beschijn'.</l>
+						<l>Hy liet zijn vrouwen tot een blijck van heerschappye.</l>
+						<l>Verdoof dien naglans. sterck zoo Nathans profecye,</l>
+						<l>Daer hy dien schuldigen aen moort en overspel</l>
+						<l>Rechtvaerdigh mede dreighde, uit kracht van Godts bevel.</l>
+						<l>En of men 't lastren wil, gelijck verbode spijze</l>
+						<l>Te smaecken met de tong: dit 's d'Asiaensche wijze.</l>
+						<l>Wie 's voorzaets vrouwen daer in d'armen neemen derf,</l>
+						<l>Die spant de kroon in 't rijck, gewettight tot dit erf.</l>
+						<l>Al 't volck zal roepen: noit zal Davids hart dien laster</l>
+						<l>Quijt schelden zulck een' zoon. de vader zat noit vaster.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Zoo stelt men 't volck gerust. dat's onverzoenbre stof.</l>
+						<l>Laet tenten spannen, op het gulden dack van 't hof,</l>
+						<l>En koninglijck bancket opdisschen. zegh mevrouwen,</l>
+						<l>'t Gelieve haer te nacht den koning t'onderhouwen,</l>
+						<l>Gelijck de voorzaet, met een hart van min doorstraelt,</l>
+						<l>In haeren schoot, vol weelde en wellust, wert onthaelt.</l>
+						<l>Men wellekome ons hier, en zonder lang beraeden.</l>
+						<l>Daer keeren Levys zoons, met heilighdom geladen.</l>
+						<l>d'Aertspriesters volgen. hoe waeit ons die wint in 't zeil!</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>AERTSPRIESTERS. ABSOLON.</stage>
+					<sp who="#aertspriesters">
+						<speaker>Aertspriesters</speaker>
+						<l>Geluck zy Absolon. wy wenschen spoet en heil</l>
+						<l>Den nieuwen koning, met de nieuwe heerschappye.</l>
+						<l>Dat die den stammen tot geluck en heil gedye.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Eerwaertste vaders, hoe? en keert gy wederom?</l>
+						<l>Verstaeckt gy vader van Godts troost, het heilighdom?</l>
+					</sp>
+					<sp who="#aertspriesters">
+						<speaker>Aertspriesters</speaker>
+						<l>Gy zoons van Levi, draeght de Godtskist in de hutte.</l>
+						<l>De tegenwoordigheit des oppersten beschutte</l>
+						<l>De spruit van Jesse, en 't rijck, en hanthaef 's hemels zaeck.</l>
+						<l>De pais bezitte 't hof. had Thamars tusschenspraeck</l>
+						<l>'t Geschil gemiddelt, och, wy klaegen 't Godt met zuchten,</l>
+						<l>De vader hoefde voor den zoone niet te vlughten.</l>
+						<l>Men had de bondtkist op 's olijfsberghs kruin gezet.</l>
+						<l>Wy vraeghden Godt om raedt, ons aenschijn in 't gebedt</l>
+						<l>Gekeert ten oosten, om te zien wat glans, wat klaerheit</l>
+						<l>Uit Arons borstgesteent, waerinne Licht en Waerheit</l>
+						<l>Met kunst gesneden staen, zich openbaeren zou:</l>
+						<l>Maer niets verscheen ons, dies uw vader liever wou</l>
+						<l>Dat wy en 't heilighdom weêr stêwaert zouden keeren,</l>
+						<l>En vreedzaem daer den zoon, des vaders nazaet, eeren.</l>
+						<l>Nu d'opperste gehengt dat d'een den andren wijck',</l>
+						<l>Verheugen wy ons noch: naerdien de kroon van 't rijck</l>
+						<l>Niet afdwaelt van het bloet, maer van den outstgeboren</l>
+						<l>Bemaghtight wort, gelijck een lot hem toebeschoren.</l>
+						<l>Wy zijn beraden ons te houden aen de kroon,</l>
+						<l>t'Aenbidden dien wy zien gewettight op den troon.</l>
+						<l>Wy eerden vader, toen hy 't roer hiel van Godts staeten:</l>
+						<l>Nu dees de hulck des rijx, de hooftstadt, heeft verlaeten,</l>
+						<l>Ontslaet ons zijn vertreck van onzen hoogen eedt.</l>
+						<l>Wy eeren die den stoel in vaders stê bekleet,</l>
+						<l>Betrouwen dat de zoon, niet minder dan de vader,</l>
+						<l>Den godtsdienst eeren zal.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>nu Arons zoons, treet nader.</l>
+						<l>Treet nader Abjathar, en Sadock. neemt ons hant</l>
+						<l>Tot een verzekeringe en heiligh onderpant</l>
+						<l>Van ons genade, die het wetboeck zal hanthaven,</l>
+						<l>Niet min dan vader. helpt ons door uwe offergaven</l>
+						<l>By Godt verzoenen in uwe aendacht, en 't gebedt.</l>
+						<l>Volhart, gelijck gy plaght, in yver voor de wet.</l>
+						<l>Wy willen tienden noch uw hantvest niet verminderen.</l>
+						<l>Besneên noch onbesneên zal uwen dienst behinderen.</l>
+						<l>De godtsdienst ga, gelijck voorheene, in vollen zwang.</l>
+						<l>'t Ontvouwen van de wet, het offer, koorgezang,</l>
+						<l>De hooghtijt drymael 's jaers, de vreught der nieuwe maenen,</l>
+						<l>De godtsdraght, het gejuich van volck en onderdaenen,</l>
+						<l>Op klinckende bazuin, schalmey, en harp, en fluit,</l>
+						<l>Verduure mijn gebiet, alle eeuwen in en uit.</l>
+						<l>Gaet heene, en onderstut mijn' stoel met uw gebeden.</l>
+						<l>Ter goeder uure komt hier Chusaï aengetreden.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>CHUSAÏ. ABSOLON. ACHITOFEL.</stage>
+					<sp who="#chusai">
+						<speaker>Chusaï</speaker>
+						<l>Geluck den koning, van zijn vaders raet en vrient.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Zijt gy dat, Chusaï?</l>
+					</sp>
+					<sp who="#chusai">
+						<speaker>Chusaï</speaker>
+						<l>'k heb vader trouw gedient,</l>
+						<l>Terwijl 't geluck hem diende, en nu hy, out van jaeren,</l>
+						<l>Onmaghtigh wort, en u den rijxstoel laet bewaeren,</l>
+						<l>Nam ick mijn afscheit. hy ontsloeghme van dien eedt.</l>
+						<l>Nu komen wy u t'huis, tot 's konings dienst gereet.</l>
+						<l>Belieft het u, gy mooghtme, als vader eer, gebruicken,</l>
+						<l>Ter eere van uw kroon. men ziet uw jeught opluicken,</l>
+						<l>Gelijck een schoone bloem, wanneer de nacht verdwijnt,</l>
+						<l>De zon de hoven met een' verschen glans beschijnt.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Gy komt hier juist te pas, tot onzen dienst genegen.</l>
+						<l>Men roepe Achitofel. het lust ons t'overweegen</l>
+						<l>Uw beide raeden, waer men 't eerste heil in stell'.</l>
+						<l>Laet hooren, Chusaï, gy mede, Achitofel,</l>
+						<l>Zoo lang, als hofraên, in heer vaders dienst gehouden.</l>
+						<l>Wy luisteren naer u, als naer ons staetvertrouden.</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Men vraeght ons of men tijt den vyant geven zal,</l>
+						<l>Of best hem snel vervolge, op bergh, in heide, en dal.</l>
+						<l>Wat my belangt, ick wensch dat wy hem op de hielen,</l>
+						<l>Met twalefduizent man, al helden, overvielen,</l>
+						<l>En liever dezen nacht, daer hy ontharrenast,</l>
+						<l>Vermoeit, zich legert, en half slapend wert verrast.</l>
+						<l>Al 't volck geraeckt aen 't vliên, zou zijne stem verheffen,</l>
+						<l>Ick zelf den koning, bloot van hulp en lijfwacht, treffen.</l>
+						<l>Dan bleef het overschot een lichaem zonder hooft.</l>
+						<l>Zoo broght men 't in uw' eedt, aen uwe kroon verlooft.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Die rede schijnt bekleet met schijn van rijpe reden.</l>
+						<l>Behaegtze Chusaï, hy helpze mê bekleeden.</l>
+					</sp>
+					<sp who="#chusai">
+						<speaker>Chusaï</speaker>
+						<l>Ick stemme in dezen raet niet met Achitofel.</l>
+						<l>De jonge koning kent den ouden al te wel,</l>
+						<l>Een' krijghsman in den aert, ten oorelogh geschapen,</l>
+						<l>Gelijck zijn helden, al gekloncken in hun wapen,</l>
+						<l>Elck vreeslijck, als een beer, die 't nest geplondert vint,</l>
+						<l>Met huilen 't wilde woudt doorgalmt, van toorne ontzint.</l>
+						<l>Uw vader duickt misschien in holen en speloncken.</l>
+						<l>Vernam hy onraet, strax zou hem de moedt ontvoncken.</l>
+						<l>Al kromp het leeuwenhart des stoutsten, als een haes:</l>
+						<l>Uw vader noch zijn moedt bezwijckt voor geen geraes.</l>
+						<l>Maer wiltge uw vyanden met eere en lof beschaemen,</l>
+						<l>Ruck al uw maght van Dan tot Berseba te zamen,</l>
+						<l>Ontelbaer, als het zant, aen 't gulle strant van 't meir.</l>
+						<l>Voer zelf den middeltoght, in 't midden van uw heir.</l>
+						<l>Gy zult hen, als de dauw de beemden, overdecken.</l>
+						<l>Niet een van 's vyants maght zal 't mogen navertrecken:</l>
+						<l>En vlught hy in een stadt: men brijzelze tot niet,</l>
+						<l>Dat niet een steen van huis en muuren overschiet'.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Laet bey dees raeden by den krijghsraet overweegen.</l>
+						<l>Wanneer een rijpe raet zich paert met 's krijgsmans degen,</l>
+						<l>Dan staet te hoopen dat de zege na den slagh</l>
+						<l>Zoo schoon opdaegen zal, als d'allerschoonste dagh.</l>
+					</sp>
+
+				</div>
+				<div type="scene" n="4">
+					<stage>SIMEÏ. ABSOLON.</stage>
+					<sp who="#simei">
+						<speaker>Simeï</speaker>
+						<l>Godt zegene Absolon, het hooft der heerschappye,</l>
+						<l>Uitvoerder van Godts wraecke, en Nathans profecye.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Godt zeegne Simeï, voor zulck een' avontgroet.</l>
+						<l>O Benjaminner, eer van koning Sauls bloet,</l>
+						<l>En zoon van Gera, zaeght gy vader niet ontsluipen?</l>
+					</sp>
+					<sp who="#simei">
+						<speaker>Simeï</speaker>
+						<l>'K zagh van een' heuvel hoe Godts vyant aen quam druipen</l>
+						<l>Naer ons Bahurim, met zijn' staert, en luttel moedts.</l>
+						<l>Het hooft hing overdeckt. hy schreide, ging baervoets.</l>
+						<l>Ick vloeckte hem, en al dien aenhang, smeet van boven</l>
+						<l>Uw' vyant en zijn' stoet met steenen, datze stoven,</l>
+						<l>En riep van verre den rijxballing toe in 't dal:</l>
+						<l>Heruit, gy bloethont, schalck, gy zoon van Belial.</l>
+						<l>Nu druipt u Sauls bloet op 't hooft, ô godtverbannen,</l>
+						<l>Die zoo verwaten Godts gezalfden aen dorst rannen,</l>
+						<l>Den staf ontweldigen, hem vliegen in zijn kroon.</l>
+						<l>Godt zet nu Absolon met recht op uwen troon,</l>
+						<l>En gy voorvlughtigh berght, ter nauwer noot, het leven.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Hoe liep dit vloecken af?</l>
+					</sp>
+					<sp who="#simei">
+						<speaker>Simeï</speaker>
+						<l>Abisaï, gedreven</l>
+						<l>Van gramschap, vraegde of oock zijn' heer te lijden stont</l>
+						<l>Dit grouzaem lasteren en bassen van een' hont.</l>
+						<l>Hy vloogh ten bergh op, om het lasterstuck te wreecken.</l>
+						<l>De balling keerde 't, hiet het slagzwaert op te steecken,</l>
+						<l>En sprack: hou stil, verdraegh van Simeï dien smaet.</l>
+						<l>'K verdraegh dat zelf mijn zoon naer vaders leven staet.</l>
+						<l>De hooghste, om ons gedult door tegenspoet te recken,</l>
+						<l>Staet hem dit vloecken toe. het kan ten zegen strecken,</l>
+						<l>Als hy ons, na die wolck des drux, zijn aenschijn toont,</l>
+						<l>En in Jerusalem met zijn genade kroont.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Hoe ging het voort?</l>
+					</sp>
+					<sp who="#simei">
+						<speaker>Simeï</speaker>
+						<l>Hy ruckte voort voorby mijn oogen,</l>
+						<l>En quam, begruist van stof, Bahurim ingetogen,</l>
+						<l>Nootdruftigh, en vermoeit, in zulck een' droeven schijn,</l>
+						<l>Dat zoo hem Seba niet op wegh, met weite, en wijn,</l>
+						<l>Rozijn, en vygen had bezorght, zy moghten sticken.</l>
+						<l>Toen sloegenze zich neêr, en mosten 't hart verquicken.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Neem u verblijf te nacht by ons. trê binnen 't hof.</l>
+						<l>'t Gaet wel: de vyanden verstuiven, als het stof</l>
+						<l>Voor eenen dwarrelwint. zoo wort de kroon gesloten</l>
+						<l>Op 't hooft van Absolon. mijn vaders bedtgenooten</l>
+						<l>En Thamar komen hier, bedruckt, en root beschreit.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<stage>THAMAR. BEDGENOOTEN. ABSOLON.</stage>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Geluck, heer broeder.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Godt verleene uw majesteit</l>
+						<l>Zijn' zegen, om den volcke een' wegh tot rust te baenen.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Wat wilt gy d'avontzon verdrincken in uw traenen,</l>
+						<l>Doorluchte schoonheên? haelt men zoo den koning in?</l>
+						<l>Gy zijt elck dubbel waert, gelijck een koningin,</l>
+						<l>Den zegenaer des rijx in uwen schoot t'ontfangen.</l>
+						<l>Juight al de stadt ons toe met blyschap en verlangen:</l>
+						<l>Vooral verwachtten wy van u dees welkomst niet.</l>
+						<l>Wy komen elck tot heil, en niemant tot verdriet,</l>
+						<l>Het vrouwentimmer minst. kunt gy 't ons toebetrouwen,</l>
+						<l>De zon van Absolon geeft eerst de schoone vrouwen</l>
+						<l>Haer deught, en warmte, en glans ten beste, niemant eer.</l>
+						<l>Doch wie verschoont u niet? een vrouwenhart is teêr</l>
+						<l>In schichtigh overslaen, en langzaem in 't gewennen.</l>
+						<l>Dat zal wel vallen, komt gy maer den zoon te kennen,</l>
+						<l>Gelijck den vader. zy verliest niet aen haer vreught,</l>
+						<l>Die traegen ouderdom aen eene wackre jeught</l>
+						<l>Verwisselt. helpt ons dan ten hove triomfeeren.</l>
+						<l>Wy zullen in een tent te zamen bancketeeren.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Genadighste, wat 's dit? uw raet Achitofel</l>
+						<l>Heeft ons genoot, uit kracht van 't koningklijck bevel,</l>
+						<l>Om op het hooge dack den koning t'onderhouwen,</l>
+						<l>Laet tenten spannen, laet tien ledekanten bouwen,</l>
+						<l>Tapijten hangen, stelt bancket en tafel toe.</l>
+						<l>De koning belg' zich niet, maer neeme het in 't goê,</l>
+						<l>Datwe opspraeck schuwen, en onze eerbaerheit bewaeren,</l>
+						<l>Ten dienst van vader, schoon hem in zijne oude jaeren</l>
+						<l>Dees droeve ballingschap, dit ongeluckigh lot,</l>
+						<l>Schijnt toegevallen, by gehengenis van Godt.</l>
+						<l>Op dat betrouwen zijn wy hier in 't hof gebleven.</l>
+						<l>Verschoon onnozelen, weerlozen, wien het leven</l>
+						<l>Onwaerder is dan eer, het edelste juweel</l>
+						<l>Van koningsvrouwen. laet dit ergerlijck tooneel</l>
+						<l>Niet opgaen in 't gezicht van alle de gemeente,</l>
+						<l>Dat vader smerten zoude in 't mergeloos gebeente,</l>
+						<l>En voedtsel geven tot eene onverzoenbaerheit;</l>
+						<l>Daer anders kroongeschil kan werden bygeleit,</l>
+						<l>Den zoon, gewettight van den vader, 't rijck regeeren.</l>
+						<l>Wy willen midlerwijl u gaerne, als koning, eeren.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Noit koning was gewoon van minderen een wet</l>
+						<l>t'Ontfangen, en noch minst aen tafel, en in 't bedt.</l>
+						<l>Wie op den troon zit, voeght het wetten voor te schrijven.</l>
+						<l>Genoeght aen onzen wil. was 't vaders wil te blijven,</l>
+						<l>Wy hadden hem den burgh van harte toegestaen,</l>
+						<l>Behoudens dat het rijck den erfzoon onderdaen</l>
+						<l>De kroon en scepter quam hooghtijdigh op te draegen,</l>
+						<l>Om vaders schouders en zijn halspack t'onderschraegen,</l>
+						<l>In zijnen ouden dagh, naerdien zoo zwaer een last</l>
+						<l>Een' jongen beter dan een' afgeleefden past.</l>
+						<l>Nu vader evenwel beliefde heen te reizen,</l>
+						<l>Oock, zonder onze komst te wachten, dees palaisen</l>
+						<l>Te ruimen, u in 't hof te laeten, is het reên</l>
+						<l>Dat gy u onderworpt. dit 's recht: dus rekent geen</l>
+						<l>Bezit van have en goet en ziel en lichaem eigen:</l>
+						<l>Gy moet u dezen nacht naer ons believen neigen.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Princes, beschut onze eer, uw vaders eer met een.</l>
+						<l>Och, dit 's de jonge leeu, die in den droom verscheen.</l>
+						<l>Wy zullen dit verblijf in eeuwigheit betreuren.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Heer broeder, magh my noch gena by u gebeuren,</l>
+						<l>Zoo gun uw zuster, uw slavin, noch eens gehoor.</l>
+						<l>Uw trouw te mywaert is gebleken na en voor.</l>
+						<l>Gy weet hoe Ammon veinsde, en om 't bezoeck van Thamer</l>
+						<l>Op 't kranckbed scheen belust, haer troonde in zijne kamer,</l>
+						<l>En overweldighde, en schoffeerde, en in dien staet</l>
+						<l>Ter kamer uitstiet, met afgrijsselijcken haet,</l>
+						<l>Waerover uwe wraeck, hoe langer hoe ontruster,</l>
+						<l>Den schender laegen leght, uit liefde tot uw zuster,</l>
+						<l>Tot dat men endelijck hem grijpt, en achterhaelt,</l>
+						<l>En zulck een lasterstuck rechtvaerdigh zet betaelt;</l>
+						<l>Oock zonder u t'ontzien vijf jaeren lang te zwerven,</l>
+						<l>En vaders aengezicht in ballingschap te derven.</l>
+						<l>Hoe ick om zulck een trouw verbonden blijf aen u,</l>
+						<l>Dat tuight mijn hart, en zal het eeuwigh tuigen. nu</l>
+						<l>Verzoeck, nu smeeck ick noch: hebt gy me uit mededoogen</l>
+						<l>Gewroken, afgewischt mijne uitgekretene oogen,</l>
+						<l>Wy zogen eene borst: een moeder heeft met smert</l>
+						<l>Ons beide, eer zy gelagh, gedraegen onder 't hart.</l>
+						<l>Gy hoort hoe Ammon om zijn bloetschant wort gelastert.</l>
+						<l>Zie voor u datge niet van Godt en eer verbastert,</l>
+						<l>Als eertijts Cham vervloeckt, uw vaders zegen derft,</l>
+						<l>Als Ruben, u van 't recht der eerstgeboorte onterft.</l>
+						<l>De wet dreight gruwelijck die vaders schaemte ontblooten.</l>
+						<l>Ontwy geen vaders bedt, noch konings bedtgenooten.</l>
+						<l>Besmet door bloetschant niet den intrê van uw hof</l>
+						<l>En rijck uit wreveltheit. bestel geen lasterstof.</l>
+						<l>Jerusalem ontbreeckt geen bloem van schoone maeghden,</l>
+						<l>Zoo schoon opluickende, als oit konings oogh behaeghden,</l>
+						<l>En geene uit duizenden, bekoorlijck als de zon,</l>
+						<l>Ontwaerdight zich de min van koning Absolon,</l>
+						<l>In 't opgaen van zijn jeught, zoo schoon, dat joffrenoogen</l>
+						<l>Hem zonder minnegloet niet eens bespieglen mogen.</l>
+						<l>Magh zuster dit op u verwerven, maghze u raên,</l>
+						<l>Dees weldaet zal haer diep in 't hart geschreven staen,</l>
+						<l>By d'andre deughden van uw trouw voorheen genoten.</l>
+						<l>O spruit van Jesse, die de schoonste van u loten,</l>
+						<l>Uw dochter Thamar noemde uit liefde naer mijn' naem,</l>
+						<l>Verschoon dees schreienden, onschuldigen. beschaem</l>
+						<l>Geensins uw zuster, in den opgang van haer daegen,</l>
+						<l>Gelijck een morgenroos getreên, en neêrgeslagen.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Gy zijt ons zuster, lief en waert, gelijck voorheen.</l>
+						<l>Gy weet wat Absolon al smaets heeft doorgestreên</l>
+						<l>By vader, om uw' rouw te troosten, u te redden;</l>
+						<l>Dies wacht u ons gedult te tergen. ziet de bedden</l>
+						<l>Daer boven al gespreit, de tenten, met den leeuw</l>
+						<l>Van Juda geborduurt, ons nooden. dit geschreeuw,</l>
+						<l>Dit huilen vordert niet. geen kermen kan dit keeren.</l>
+						<l>'t Gelieve haer te nacht met ons te bancketteeren.</l>
+						<l>Dit is niet reuckeloos besloten, maer met raet.</l>
+						<l>Het dient tot aenwas, en ten steun van 's konings staet.</l>
+						<l>Dat blijft den mannen, niet de vrouwen, aenbevolen.</l>
+						<l>'t Is d'Oosterlingsche wijs. komt Absolon te doolen,</l>
+						<l>Zoo doolt gansch Asien, dat draeght de kroon op dien</l>
+						<l>Zy 's voorzaets bedtgenoote op 't hof omhelzen zien,</l>
+						<l>Een blijck van wettigheit, en overoude zeden.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>'t Besneden stamhuis volght geen wet van onbesneden,</l>
+						<l>Maer Moses wet, zoo schuw van alle afgodery,</l>
+						<l>En haer gedichtslen, en misbruicken. komen wy</l>
+						<l>Ons naer het Heidendom en 's Brachmans wet te regelen,</l>
+						<l>Zoo hoeft men 't wetboeck met geen offerbloet te zegelen.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Staetkundigheit let niet zoo scherp op wet, of boeck.</l>
+						<l>Oock kent de noot geen wet: of vader was niet kloeck</l>
+						<l>Toen hy het toonbroot at, door hongersnoet verlegen,</l>
+						<l>Uit 's priesters eige hant, al street de wet hier tegen.</l>
+						<l>De schoonvaêr Saul dorst den schoonzoon scheiden van</l>
+						<l>Zijn dochter Michol, schonckze aen eenen andren man,</l>
+						<l>Hoewel natuur verbiedt het huwelijck te breecken.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Van koning Saul kan men luttel stichting spreecken.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Noch was 't een koningh, Godts gezalfde, een groot profeet.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Van Godt verstooten, en verbannen: en gy weet</l>
+						<l>Waer wederspannigheit hem toe vervoerde in 't leste,</l>
+						<l>Als hy verwaten, tot den appel van 't geveste,</l>
+						<l>In zijnen degen viel, mistroostigh en verwoet</l>
+						<l>De ziel ter wonde uitgoot, in eenen plas van bloet.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Magh voorbeelt gelden, zoo verlichtme, en trê wat nader.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Op welk een wijze?</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>ontvou hoe schoon een voorbeelt vader</l>
+						<l>Den zoon gaf, en noch scherp tien jaeren eerst geleên;</l>
+						<l/>
+						<l>Toen Bersabe hem in haer badt veel schooner scheen</l>
+						<l>Dan een albaste beelt, de lust het hart bekoorde,</l>
+						<l>Dat hy die schoone schon, dien helt, haer' man, vermoorde,</l>
+						<l>De rijcke herder stout den armen 't eenigh lam</l>
+						<l>Uit zijnen schoot ruckte, om de geile opgaende vlam</l>
+						<l>Te blusschen. zegh ons nu, of zwijgh van vrouweschennis.</l>
+						<l>Dat hy nu voor Godts kiste eens dansse, en van de kennis</l>
+						<l>Der wet op zijne harp ons zinge een heiligh dicht.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Gelijck u vaders val ontstichten quam, zoo sticht</l>
+						<l>Zijn boete u wederom. wie kan die smet verschoonen!</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Dat voorbeelt wettight ons hem weder dus te kroonen.</l>
+						<l>Hy liet ons deze tien, tien tacken tot een kroon.</l>
+						<l>De bruiloftstafel noot tien bruiden, alle schoon</l>
+						<l>En evenwaerdigh in te haelen, en te minnen.</l>
+						<l>Schept moedt, wy kroonen u te nacht tot koninginnen.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>Och, Thamar, bergh ons toch voor schipbreuck van onze eer.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar</speaker>
+						<l>Ick vergh de majesteit des konings nu niet meer,</l>
+						<l>En kan uw jammer niet aenschouwen met mijne oogen.</l>
+						<l>Godt trooste u: ick vertreck.</l>
+					</sp>
+					<sp who="#davids-bedgenooten">
+						<speaker>Bedtgenooten</speaker>
+						<l>is dit u mededoogen?</l>
+						<l>Dat hadge vader in zijn afscheit niet belooft.</l>
+						<l>Naerdien wy, weerloos dan van alle hulp berooft,</l>
+						<l>Niet maghtigh zijn gewelt te schutten, of te keeren,</l>
+						<l>Zoo laet ons toe dat wy ter aerde ons noch verneêren,</l>
+						<l>U smeecken voor het lest, van angst en noot geprest.</l>
+						<l>Is niets den koning aengenaemer</l>
+						<l>Dan 't licht van 's levens dageraet,</l>
+						<l>Opluickende in uw zuster Thamer,</l>
+						<l>Daer alle schoonheit doof by staet:</l>
+						<l>Zaeght gy haer noode in schenders kluiven,</l>
+						<l/>
+						<l>En kermen in een' arentsklaeuw,</l>
+						<l>Verschoon dan bloode en simple duiven,</l>
+						<l>Alree van wederstreven flaeuw.</l>
+						<l>Zoo groeie uwe erfgenaeme in weelden,</l>
+						<l>  En schoonheit, en bevalligheit,</l>
+						<l>Om eens wat lust zich kan verbeelden,</l>
+						<l>In een verliefde majesteit,</l>
+						<l>Te queecken, zoonen voort te planten,</l>
+						<l>Daer Absolon in wort gekent.</l>
+						<l>Verschoon toch vaders bedtverwanten,</l>
+						<l>Die, eenmael lasterlijck geschent,</l>
+						<l>Niets staet te wachten dan verstooten</l>
+						<l>Van vader, om dien hoon en smaet,</l>
+						<l>Te treuren, eeuwigh opgesloten,</l>
+						<l>  Gy hem herstelde in staet.</l>
+						<l>Och, of de koning zich beraede!</l>
+						<l>Wy stellen ons tot uw genade.</l>
+					</sp>
+					<sp who="#absolon">
+						<speaker>Absolon</speaker>
+						<l>Men blaest de hofbazuin. nu volght de majesteit.</l>
+						<l>De dacktent noot ons. u wort geen genade ontzeit.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<stage>AERTSPRIESTERS. ACHITOFEL.</stage>
+					<sp who="#aertspriesters">
+						<speaker>Aertspriesters</speaker>
+						<l>Geheimraet van het hof, wat drift verruckt uw zinnen?</l>
+					</sp>
+					<sp who="#achitofel">
+						<speaker>Achitofel</speaker>
+						<l>Vervloeckte Achitofel,</l>
+						<l>Wat wiltge nu beginnen?</l>
+						<l>Meineedige rebel,</l>
+						<l>Wat hebtge u onderwonden?</l>
+						<l>Door uwen valschen raet</l>
+						<l>Is 't koningsbedt geschonden.</l>
+						<l>Wat troost, wat toeverlaet</l>
+						<l>Verwachtge? plaegen, plaegen.</l>
+						<l>'k Heb koning Davids stadt,</l>
+						<l/>
+						<l>Den rijxstoel, daer hy zat,</l>
+						<l>Verraên door loze laegen,</l>
+						<l>Den zoon in top gevoert,</l>
+						<l>Het vaderlant beroert,</l>
+						<l>Dit burgervier ontsteecken.</l>
+						<l>Men ziet de vlam uitbreecken.</l>
+						<l>Zy slaet van dack in dack.</l>
+						<l>Mijn aenzien krijght een' krack.</l>
+						<l>Mijn raetslagh is verloren.</l>
+						<l>De krijghsraet heeft geene ooren.</l>
+						<l>Wat Chusaï besluit,</l>
+						<l>Dat draeft terstont vooruit.</l>
+						<l>Ick riedt den zoon den vader aen te rannen,</l>
+						<l>Met puick van strijtbre mannen,</l>
+						<l>Eer hy, van vlughten nu vermoeit,</l>
+						<l>Zijn kracht herwint, en weder groeit.</l>
+						<l>De hofraet roept: het is te vroegh.</l>
+						<l>Men ruck' by een de gansche maght,</l>
+						<l>En sla hem dan met volle kracht.</l>
+						<l>Dus wint de vyant tijdts genoegh,</l>
+						<l>Bereit te nacht zich eene baen,</l>
+						<l>En, vlughtende over ons Jordaen,</l>
+						<l>Wint ruiteren en knechten.</l>
+						<l>Men zet zich schrap te vechten.</l>
+						<l>Daer wint hy weder 't out gezagh</l>
+						<l>Alleen met eenen slagh,</l>
+						<l>En Absolon aen 't vlieden,</l>
+						<l>Onmaghtigh weêr te bieden,</l>
+						<l>Verstuift, gelijck een roock.</l>
+						<l>Waer ben ick? wat gespoock</l>
+						<l>Verschricktme? 'k wil naer Gilo trecken</l>
+						<l>Mijn vaders erfstadt maghme decken,</l>
+						<l>Of ick verkieze op 't slot</l>
+						<l>Den kortsten wegh, bevrijt voor spot.</l>
+					</sp>
+					<sp who="#aertspriesters">
+						<speaker>Aertspriesters</speaker>
+						<l>Hy ga den kortsten wegh, een strop om hals en strot,</l>
+						<l>Gelijck het billijck past een' bloetraet, rijxverraeder,</l>
+						<l>Een' stoockebrant, die zoon durf kanten tegens vader,</l>
+						<l>De rijxkroon tegens 't rijck. geheel Jerusalem</l>
+						<l>Verwachte eerlang den post, en een blijde stem,</l>
+						<l>Hoe 't wederspannigh hooft, geslagen na dit wrocken,</l>
+						<l>In 't bosch van Efraim, by zijne blonde locken,</l>
+						<l>Bleef hangen onder 't vliên, en, gaepende van dorst,</l>
+						<l>Den dootsteeck voelde in 't harte, en zijn verwate borst.</l>
+						<l>Zoo koom' de koning in de stadt te triomfeeren.</l>
+						<l>Zoo treff' Godts vloeck den zoon, die d'ouders durf onteeren.</l>
+					</sp>
+					<p>EINDE.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

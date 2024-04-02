@@ -1,0 +1,2947 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000017" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Peter en Pauwels</title>
+				<title type="sub"/>
+				<author>
+					<persName>
+						<forename>Joost</forename>
+						<nameLink>van den</nameLink>
+						<surname>Vondel</surname>
+					</persName>
+					<idno type="wikidata">Q312673</idno>
+					<idno type="pnd">118627848</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL"
+						>https://www.dbnl.org/tekst/vond001dewe04_01/vond001dewe04_01_0035.php</idno>
+					<title>J.F.M. Sterck, H.W.E. Moller, C.G.N. de Vooys, C.R. de Klerk, B.H.
+						Molkenboer, J. Prinsen J.Lzn. en L. Simons (eds), De werken van Vondel.
+						Vierde deel 1640-1645. De Maatschappij voor goede en goedkoope lectuur,
+						Amsterdam 1930</title>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Joost van den Vondel: Peter en Pauwels. Amsterdam: Abraham de Wees,
+						1641.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person xml:id="simon-toveraer" sex="MALE">
+						<persName>Simon Toveraer</persName>
+					</person>
+					<person xml:id="elymas" sex="MALE">
+						<persName>Elymas</persName>
+					</person>
+					<person xml:id="petronel" sex="FEMALE">
+						<persName>Petronel</persName>
+					</person>
+					<person xml:id="plautil" sex="FEMALE">
+						<persName>Plautil</persName>
+					</person>
+					<person xml:id="peter" sex="MALE">
+						<persName>Peter</persName>
+					</person>
+					<person xml:id="pauwels" sex="MALE">
+						<persName>Pauwels</persName>
+					</person>
+					<person xml:id="rey" sex="MALE">
+						<persName>Rey</persName>
+					</person>
+					<person xml:id="cornelia" sex="FEMALE">
+						<persName>Cornelia</persName>
+					</person>
+					<person xml:id="aertsofferwichelaer" sex="MALE">
+						<persName>Aertsofferwichelaer</persName>
+					</person>
+					<person xml:id="domitius-nero" sex="MALE">
+						<persName>Domitius Nero</persName>
+					</person>
+					<person xml:id="agrippa" sex="MALE">
+						<persName>Agrippa</persName>
+					</person>
+					<person xml:id="linus" sex="MALE">
+						<persName>Linus</persName>
+					</person>
+					<person xml:id="proces" sex="UNKNOWN">
+						<persName>Proces</persName>
+					</person>
+					<person xml:id="martiniaen" sex="MALE">
+						<persName>Martiniaen</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-02">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1641">
+				<desc/>
+			</event>
+			<event type="premiere" when="">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart>J.v. Vondels <lb/>Peter en Pauwels. Trevrspel.</titlePart>
+				<titlePart>Tantae molis erat Romanam condere Gentem.</titlePart>
+
+				<titlePart>t'AMSTERDAM, Gedruckt by Dominicus vander Stichel.</titlePart>
+				<titlePart>Voor Abraham de Wees, Boeckverkooper op den Middeldam, in 't Nieuwe
+					Testament. Anno 1641.</titlePart>
+				<titlePart><figure/></titlePart>
+			</docTitle>
+
+			<div type="dedication">
+
+				<head>Opdracht aen Eusebia.</head>
+				<lg>
+					<l>Eusebia, nu treck, op Godts bazuinen,</l>
+					<l>Met my, niet om den Ierichooschen muur;</l>
+					<l>Maer om de stadt, die, met haer zeven kruinen,</l>
+					<l>De donders tarte, en terghde al 't blixemvuur.</l>
+					<l>Nu leer met my zachtzinnigh oorelogen.</l>
+					<l>En Rome zelf bestormen op zijn kracht;</l>
+					<l>Niet met gewelt van schildtpadt, ram en bogen,</l>
+					<l>Waer me het fel al 't aertrijck t' onderbraght;</l>
+					<l>Maer met gebeên, en tranen, en twee tongen,</l>
+					<l>En wonderheên, en afgepynight bloet.</l>
+					<l>Wat Caesar dwongk heeft Christus dus gedwongen.</l>
+					<l>De doornekroon beschaemt den lauwerhoet.</l>
+					<l>Omhels dan dit paer helden, echte Vaders</l>
+					<l>Der Roomsche Bruit, en Godtverloofde maeght;</l>
+
+					<l>Die, op het bloet van hun doorluchtige aders,</l>
+					<l>Meer moedts dan op Anchises afkomst draeght:</l>
+					<l>Die afkomst quam den gryzen stroom oproeien,</l>
+					<l>En plante daer, door 't zwaert, vervloeckte Goôn;</l>
+					<l>d' Apostelschap, beknelt in ysre boeien,</l>
+					<l>Verhief' er 't Kruis, gezegent in Godts zoon.</l>
+					<l>Ghy kust en leest de blaên die eeuwigh leven;</l>
+					<l>De lelien met roozen overstroit;</l>
+					<l>Spierwit satijn met martelinckt beschreven,</l>
+					<l>En bloetkorael op sneeuw, dat niet ontdoit.</l>
+					<l>Daer ziet men druck het padt tot blyschap banen.</l>
+					<l>Daer puft de stanck des kerckers 't weeligh hof.</l>
+					<l>Daer kiest uw lust geen perlen voor die tranen.</l>
+					<l>Daer veeght men kroon en scepter uit, als stof.</l>
+					<l>Terwijl de jeught, met ydelheên geladen,</l>
+					<l>Den oogenblick des levens wulpsch verquist,</l>
+					<l>Leert d'aendacht hier de tyranny versmaden,</l>
+					<l>En d'ydelheên, noch ydeler dan mist.</l>
+					<l>Zy leert'er naer Godts strenge Ridders aerden,</l>
+					<l>Die 't hemelpadt, op purper niet betreên,</l>
+					<l>Maer op de punt van spijckers, sne van zwaerden,</l>
+					<l>Gekloncken en geknarst door vleesch en been.</l>
+					<l>Wat is ons vleesch, dat toch in 't graf moet rotten?</l>
+					<l>Wat is het lijf, vermast van snoode pracht?</l>
+
+					<l>Der wormen spijze, en voetsel voor de motten;</l>
+					<l>Een hindernis van 't geen Godt dierbaerst acht.</l>
+					<l>Dat's 't wezen uit zijn aengezicht gesneden,</l>
+					<l>De hemelsche en in klay gevange ziel;</l>
+					<l>Die haeckt te spoên, met wyde en wisse schreden,</l>
+					<l>Naer 't zaligh honck, waer op haer liefde viel.</l>
+					<l>Geen Labyrinth der weerelt kan verwarren</l>
+					<l>Haer opzet, zoo zy volght den marteldraet,</l>
+					<l>En 't licht der beide in bloet vergulde starren;</l>
+					<l>Waer voor het kroost van Tyndar onder gaet.</l>
+					<l>De Tiber komt ten Apennijn afbruizen,</l>
+					<l>En schijnt verheught, daer hy hun Graven schuurt;</l>
+					<l>Geviert van zoo veel Keizerlijcke huizen,</l>
+					<l>En Koningen, wier eere als Christus duurt.</l>
+					<l>Hoe dus? ick raeck geen aerde: myne veder</l>
+					<l>Verruckt den geest naer d'Apostolische asch.</l>
+					<l>Eusebia, laet los. ghy treckt my neder,</l>
+					<l>Die reede al uit den damp der weerelt was,</l>
+					<l>En liet u, na mijn afscheit, hier geen beter</l>
+					<l>Geheughnis, dan Sint Pauwels en Sint Peter.</l>
+				</lg>
+			</div>
+
+			<div type="preface">
+				<head>De Heer Huigh de Groot, koningklijck gezant by den Christelijcksten Koningk,
+					schrijft, in zijn Byhangsel der uitlegginge over den Antichrist, aldus, uit den
+					mont der zalige Vaderen, en de penne der kerckelijcke Historyschryveren: </head>
+				<p>Maer de Christenen, beide mannen en vrouwen, die te Rome waren, vlughtende naer
+					de koningklijcke kercken der Apostelen, Peter en Pauwels; zoo ten tyde van
+					Alarick, als van Theudorick, berghden hun leven, en hare kuischeit,
+					volkomentlijck door een gelijcke goddelijcke voorzienigheit, waer door, in
+					Hierusalems ondergangk, van Godt wierden behouden, die zyne wet hadden
+					gehouden.</p>
+				<p>Noch een luttel verder:</p>
+				<p>De Christenen deden 't geen God begeerde. Zy gingen uit Babylon, dat is uit de
+					stat Rome, naer de Heilige Plaetsen, die buiten de stat waren; en werden daer,
+					als in gerusten vrede, geberght; niet zoo zeer door der Gotten genade, als door
+					Godts beschuttinge. Zo regeerden de Martelaers met Christus.</p>
+			</div>
+
+			<div type="preface">
+				<head>Inhoudt.</head>
+				<p>d'Apostels, Peter en Pauwels, van Keizer Domitius Nero in den kercker gesmeten,
+					werden, op den top der gedreighde en genaeckende straffe (waer over hun
+					dootvyanden vast uit waren) gedrongen, door het hardt en gedurigh aenstaen der
+					Christenen, ter stadt uit te vlughten; daer hun gemoete Jesus Christus, die, van
+					Cephas gevraeght, waer hy henen gingk, hem antwoorde: naer Rome, om weder
+					gekruist te worden. De Bethsaïder hier uit besluitende, dat Godts zoon in hem,
+					zynen dienaer, aen het kruis, lyden zoude; keerde met den amptgenoot weder in
+					stadt, en gaf zich gewillighlijck in de Leeuwsklaeuwen des tyrans; die hen beide
+					liet geesselen, en (als schuldigh aen 't lasterstuck van godtloosheit) verwees,
+					den eenen, om gekruist, den anderen, om onthooft te worden. Alzoo wert de Prins
+					der Apostelen, op Janus bergh gekruist, doch, te zyner bede, met den hoofde
+					neêrwaert: en de Leeraer der Heidenen knielde, te Gutta, by het Salvische water,
+					rustigh voor het zwaert. Nero ontzette zich, tot razens toe, over hun doot, de
+					voltoyinge zyner schelmeryen; en tsidderde voor de geesten van Pauwels, en
+					Peter; wiens kudde bevolen bleef zynen nazaet Linus; die der Martelaren uitvaert
+					bezorgende, de bedruckten vertrooste met Godt, en de tegenwoordige en toekomende
+					glorie dezer Heiligen.</p>
+				<p>Het tooneel beelt Rome uit. De Geesten van Simon toveraer en Elymas spreecken de
+					voorrede. De Rey bestaet uyt gekerstende soldaten. Het treurspel begint te
+					midnacht, en endight met den volgenden dagh.</p>
+			</div>
+			<castList>
+				<head>Personagien.</head>
+				<castItem corresp="#simon-toveraer">
+					<role>Simon Toveraer. Geesten.</role>
+				</castItem>
+				<castItem corresp="#elymas">
+					<role>Elymas. Geesten.</role>
+				</castItem>
+				<castItem corresp="#petronel">
+					<role>Petronel. Leerlingen der Apostelen.</role>
+				</castItem>
+				<castItem corresp="#plautil">
+					<role>Plautil. Leerlingen der Apostelen.</role>
+				</castItem>
+				<castItem corresp="#peter">
+					<role>Peter. Apostels.</role>
+				</castItem>
+				<castItem corresp="#pauwels">
+					<role>Pauwels. Apostels.</role>
+				</castItem>
+				<castItem corresp="#rey">
+					<role>Rey. van gekerstende Soldaten.</role>
+				</castItem>
+				<castItem corresp="#cornelia">
+					<role>Cornelia. Moeder der Nonnen van Vesta.</role>
+				</castItem>
+				<castItem corresp="#aertsofferwichelaer">
+					<role>Aertsofferwichelaer.</role>
+				</castItem>
+				<castItem corresp="#domitius-nero">
+					<role>Domitius Nero. de Keizer.</role>
+				</castItem>
+				<castItem corresp="#agrippa">
+					<role>Agrippa. zijn Opperste.</role>
+				</castItem>
+				<castItem corresp="#linus">
+					<role>Linus. Sint Peters nazaet.</role>
+				</castItem>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<head>I.V. Vondels Peter en Pauwels. Het eerste bedryf.</head>
+				<div type="scene" n="1">
+					<stage>SIMON TOVERAER. ELYMAS.</stage>
+					<sp who="#simon-toveraer">
+						<speaker>Simon Toveraer</speaker>
+						<l>Ick Simon Toveraer boor hier, van 's afgronts stoel,</l>
+						<l>Door 's aertrijx ingewant, te keel uit van den poel,</l>
+						<l>Waer in de Ridder sprongk, die neder quam te paerde,</l>
+						<l>En sleepte zoo de pest van boven, onder d'aerde.</l>
+						<l>Wat uur magh 't zijn? my dunckt de sterren staen in keer.</l>
+						<l>De stille midnacht ronckt, en glijt op 't roncken nêer.</l>
+						<l>Waer sammelt Elymas? waer blijft mijn schiltknaep achter?</l>
+					</sp>
+					<sp who="#elymas">
+						<speaker>Elymas</speaker>
+						<l>Ick volgh op meesters spoor, al valt mijn tret wat zachter.</l>
+						<l>De werelt leit nu stom, in haren eersten droom.</l>
+						<l>Waer ben ick, meester? zegh, wat ruischt hier voor een stroom?</l>
+					</sp>
+					<sp who="#simon-toveraer">
+						<speaker>Simon Toveraer</speaker>
+						<l>De Roomsche Tiber, trots op zoo veel trotse wercken,</l>
+						<l>Op Neroos nieuwe stat, die, met driehondert kercken,</l>
+						<l>En smoockende outers, dient den grooten Lucifar,</l>
+						<l>Die onverzoenbaer noch den hemel tarten dar.</l>
+						<l>Maer och, ick tsidder, och.</l>
+					</sp>
+					<sp who="#elymas">
+						<speaker>Elymas</speaker>
+						<l>Ghy deist, wat doet u yzen?</l>
+					</sp>
+
+					<sp who="#simon-toveraer">
+						<speaker>Simon Toveraer</speaker>
+						<l>My dunckt, ick zie dat langs dien dootsen schouwburgh ryzen,</l>
+						<l>Die eeuwigh tuigen kan, en eeuwigh tuigen zal</l>
+						<l>Van mijn geknackte heup, en onvergeetbren val;</l>
+						<l>En hoe ick, uit de lucht, na' et zweven heen en weder,</l>
+						<l>Voor Neroos voeten, plat geploft van boven neder,</l>
+						<l>Gaf 't Galileesch gebroet, en des gekruistens naem</l>
+						<l>Gewonnen spel; in 't endt de hel mijn' lesten aêm,</l>
+						<l>En ziel; op 't hantgeklap en schateren der scharen,</l>
+						<l>My thans noch toegedaen, met beelden, en altaren,</l>
+						<l>Gewijt tot Simons eere. ô schouwburgh daer ghy staet,</l>
+						<l>'k Herdenck nu aen dien smack. een koorts een grilling gaet</l>
+						<l>En rijt door al mijn leên, nu ick dees plaets genaecke.</l>
+					</sp>
+					<sp who="#elymas">
+						<speaker>Elymas</speaker>
+						<l>'t Hervoelen van die smart geeft sporen aen de wraecke,</l>
+						<l>Die ons ter helle uit drijft, en uit den helschen gloet;</l>
+						<l>Om deze wraeckkoorts eens te koelen, met het bloet</l>
+						<l>Der Hooftapostelen, ons vyanden, en vloeckers:</l>
+						<l>Om al 't verlies betaelt te zetten, met veel woeckers;</l>
+						<l>'t Welck duyzentkunstenaers des naeren afgronts voeght,</l>
+						<l>Die zich, aen u en my, volkomentlijck genoeght.</l>
+					</sp>
+					<sp who="#simon-toveraer">
+						<speaker>Simon Toveraer</speaker>
+						<l>Samarien getuight, door 't dorp van mijn geboorte,</l>
+						<l>Dat Gitthon heet, hoe jongk, verlooft aen Plutoos poorte,</l>
+						<l>Ick daer de bastertjoôn kreegh listigh aen de koort;</l>
+						<l>Tot dat een Phlips my trots quam leggen boort aen boort,</l>
+						<l>En dreef de geesten uit, en goot op mans, en vrouwen</l>
+						<l>Zijn water. strax begon mijn aenzien te verflouwen;</l>
+						<l>Dies was het oock geraên te mommen met die grijns:</l>
+						<l>Ick (om ons zwarte kunst te witten, met veel schijns</l>
+						<l>Van heiligheit) vont goet het hooft te laten dompelen;</l>
+						<l>Zey zuchtende amen, op zijn vragen, op zijn mompelen;</l>
+						<l>Begafme aen 's leeraers zijde, en gaepte naer die stem:</l>
+						<l>Tot dat de lantsman oock quam van Jerusalem.</l>
+						<l>'k Beproefde schalck hun trouw met schatten te bekooren,</l>
+						<l>Om 't volck door wonderheên te leiden by zijn ooren:</l>
+						<l>Dan laes! 't was al vergeefs, en moeite en list gespilt:</l>
+						<l>Want Cephas voer my strax al vloeckende in den schilt.</l>
+						<l>Zy togen voort. Ick kuiste, om de oogen te benevelen,</l>
+						<l>In schijn hun wondren na, en prediken, en prevelen;</l>
+						<l>En schoeide meesterlijck op eenen zelven leest</l>
+						<l>Van Vader, of van Soon, of dien onzichtbren Geest;</l>
+						<l>Om zoo een ruimer wegh, naer 't barnend hof, te banen,</l>
+						<l>Voor kruisgezinde, en Joôn, en mijn Samaritanen.</l>
+						<l>Want ieder houdt den trant, gelijck hy is gewoon:</l>
+						<l>En op wat spil mijn kloot wil draeien, hy draeit schoon.</l>
+						<l>Mijn boel Selene noemde ick moeder aller dingen.</l>
+						<l>Zy baerde d'Englen: om haer schoon gestalt vergingen</l>
+						<l>De muuren van Priaem: zy was 't verdoolde schaep,</l>
+						<l>En Simon 's hemels kroost. Zoo wieghde ick elck in slaep.</l>
+						<l>Zy trat als Pallas: ick kon Jovis blixem handelen;</l>
+						<l>Of gingk, als watervooght, droogs voets op 't water wandelen:</l>
+						<l>Schiep weite en tarwe uit steen: brack poorten van metael:</l>
+						<l>Keeck voor en achter uit, als Janus: wist een zael</l>
+						<l>Met koningklijck tapijt door schimmen te behangen;</l>
+						<l>t' Onthalen te bancket, met spel en maetgezangen,</l>
+						<l>Mijn' dischgenoot; die (wat hy zagh, of gade sloegh)</l>
+						<l>Niet zien kon, wie de spijze, in goude vaten, droegh</l>
+						<l>Ter tafel; noch wat hant de pezen streelde, en snaren;</l>
+						<l>Noch uit wiens mont de wint quam in de fluiten varen.</l>
+						<l>Ick broght Samarien in 't harnas, op de been.</l>
+						<l>Het heir schoolde, aen den voet van Garizim, by een;</l>
+						<l>Om Mozes heilighdom te zien ten bergh uit graven,</l>
+						<l>Daer hy 't quansuis begroef: maer daetlijck zagh men draven</l>
+						<l>Den heilgen heuvel op Pilatus ruitery,</l>
+						<l>Die al mijn maght vertrapte, en vlamde felst op my.</l>
+					</sp>
+					<sp who="#elymas">
+						<speaker>Elymas</speaker>
+						<l>Maer ghy ontslipte hem, en quaemt in 't endt naer 't westen.</l>
+					</sp>
+					<sp who="#simon-toveraer">
+						<speaker>Simon Toveraer</speaker>
+						<l>Ick kreegh in mijn gewout deze oude en strijtbre vesten,</l>
+						<l>Daer allerhande slagh, zoo 't Galileesch als Jootsch</l>
+						<l>En Heidensch, onder een, my aenbadt, als yet groots,</l>
+						<l>Ja wierookte, als een God; en zwarmde en zwierde, als muggen,</l>
+						<l>Rontom mijn beelden; een in 't midden van twee bruggen;</l>
+						<l>En een op Quirinael. maer Peter, uit zijn' droom</l>
+						<l>Opschietende al verbaest, komt hevigh naer den stroom</l>
+						<l>Van Rome streven. wy, voor dat gezicht, aen 't schuilen;</l>
+						<l>Gelijck, voor 't morgenroot, de vledermuis, en d'uilen,</l>
+						<l>In een Cimmerisch hol, of blinde moortspelonck;</l>
+						<l>Daer nimmer zon noch maen, noch eenigh starlicht blonck.</l>
+					</sp>
+					<sp who="#elymas">
+						<speaker>Elymas</speaker>
+						<l>My heught uw vlught van Rome; en 't ongeluck is ouder</l>
+						<l>Dan 't mijn, te Paphos; daer ick om den stedehouder,</l>
+						<l>Den schrandren Sergius, oock tegens Sauwels beet,</l>
+						<l>Weleer Gamaliels scholier, die, fel en heet,</l>
+						<l>My scholt een vrucht van Styx, doortrapt, en valsch, en wrevel:</l>
+						<l>En, schuivende op mijn oogh een nacht, en dicken nevel,</l>
+						<l>Kreegh zoo het Cypersch hooft al smeeckende aen zijn snoer.</l>
+						<l>Men denck wat wraeck ick toen dien wreeden weiflaer zwoer.</l>
+						<l>Tot tuigen strecken my zoo veel geterghde vloecken,</l>
+						<l>Gebraeckt uit mynen mont; zoo veel vergalde boecken,</l>
+						<l>Gespogen uit mijn pen, die nergens spaert noch schroomt</l>
+						<l>Den naem, die al ons vlught zoo kort houdt ingetoomt.</l>
+					</sp>
+					<sp who="#simon-toveraer">
+						<speaker>Simon Toveraer</speaker>
+						<l>Ick, sedert Claudius bezocht de bleecke scharen,</l>
+						<l>Hervatte 't werck, zoo ras al 't puick der toveraren</l>
+						<l>Gedaghvaert, wert onthaelt van Neroos hof, en troon,</l>
+						<l>Die, zoet op toverkunst, Jupijn stack naer zijn kroon.</l>
+						<l>Toen most de magre strot van Peters kudde bloeden,</l>
+						<l>En blaeckeren. ick groeide, in 't bitterst van dat woeden,</l>
+						<l>En leerde elck wieroockvat noch afgodt te versmaên,</l>
+						<l>En onder water door, en boven water gaen,</l>
+						<l>Om 't martelen t'ontvliên; en kon mijn list verbloemen,</l>
+						<l>Ja liet my naer den naem van dien gekruisten noemen;</l>
+						<l>Wiens benden, op het punt van storten, en in last,</l>
+						<l>Om bystant jammerden, schier doot, en afgevast.</l>
+						<l>Dees tweelingen, om my de vleugels eens te korten,</l>
+						<l>Geweckt door dit gekerm en kryten, quamen storten,</l>
+						<l>Een yeder uit zijn oort, als stroomen, herwaerts aen.</l>
+						<l>Ick wederstontze; maer wie kon hun wederstaen?</l>
+						<l>Zy deden my de ziel, met bloet en galle, braecken.</l>
+						<l>O spijt! ick voel, ick hoor mijn heupebeen noch kraecken.</l>
+						<l>Ick storte al tuimelend, met ziel en lichaem, neêr</l>
+						<l>Ter aerde, en myne ziel, geperst ten lyve uit, weêr</l>
+						<l>Van d'aerde in Plutoos poel: en blijft dit ongewroken?</l>
+						<l>Wy kregen last op nieuw Apostelmoort te stoken.</l>
+						<l>Op, Elymas, nu sla dien u met blintheit sloegh.</l>
+						<l>Hitst Nero weder op: ghy kent zijn' aert genoegh.</l>
+						<l>Maer toef, waer blijft al 't spoock, gereet om op te trecken?</l>
+						<l>'k Zal stampen, dat het dreunt, en al den drommel wecken.</l>
+						<l>Mijn leerkint, volgh mijn stem. Op, Geesten, klooft den gront</l>
+						<l>Der aerde. sammelt ghy? 'k verdaegh u met mijn' mont.</l>
+						<l>Of stamp ick te vergeefs, met recht op u verbolgen?</l>
+						<l>Op, Spoocken, 't was bestemt ghy zoudt uw' leitsman volgen.</l>
+					</sp>
+					<sp who="#elymas">
+						<speaker>Elymas</speaker>
+						<l>Zy komen. d'aerde loeit, en tsiddrend berst van een.</l>
+						<l>Nu braecktze zwavelvier, en roock, en stof, en steen.</l>
+						<l>Daer zijnze.</l>
+					</sp>
+					<sp who="#simon-toveraer">
+						<speaker>Simon Toveraer</speaker>
+						<l>Wellekom, o nimmerslapende Ickers,</l>
+						<l>Zielmoorders, bloetraên, stokebranden, aertsverklickers,</l>
+						<l>Trauwanten, die, gespitst op 't schijnschoon valsch, en wreet,</l>
+						<l>Den Godt des afgronts dient, en stapt in zynen eedt;</l>
+						<l>Verblijt u, want ghy zult, met ons, uw kromme kraeuwels</l>
+						<l>Nu wasschen, in het bloet van Peter, en van Pauwels;</l>
+						<l>Die hier, in hechtenis en ketens, dagh en nacht,</l>
+						<l>Vast morren, naer de lucht, gebeden, zonder kracht.</l>
+						<l>Ghy zult u heden met dien vetten buit vernoegen.</l>
+						<l>Dit zijnze, die u staegh uit 's lichaems schorssen joegen,</l>
+						<l>En heerschten over doôn en spoocken, zonder tal,</l>
+						<l>Niet eens in een gewest, maer stadigh, overal.</l>
+						<l>Dit zijn de knevlers zelfs, die ons schriftuur verbrandden.</l>
+						<l>Dit zijnze, dien ghy sloeght in boeien, en in banden;</l>
+						<l>Holpt geeslen, steenigen, verbannen, reis op reis.</l>
+						<l>Verspreit ghy u door stadt: beveelt ons twee 't palais.</l>
+						<l>Bedrijft, gelijck noch korts, wat ongemeens, wat wonders.</l>
+						<l>Verwringt yet: breeckt yet: speelt met hagels blixems donders.</l>
+						<l>Verbaest, hitst op, deurspoockt de kercken onzer Goôn.</l>
+						<l>Berockent wat ghy kunt. de kans stont noit zoo schoon.</l>
+						<l>Ghy naer de Flamens. ghy naer priesters en Vestalen.</l>
+						<l>Ghy naer vernuften, die op losse starren dwalen,</l>
+						<l>En dryven met den kloot des hemels nimmer moe.</l>
+						<l>Ghy al u best naer vee-en-vogelwichlaers toe.</l>
+						<l>O helden, laet u niet verbluffen van een stercker.</l>
+						<l>Ghy holpt 't gehaete paer in dien benaeuden kercker:</l>
+						<l>Volvoert uw opzet nu, met onvergangkbren lof,</l>
+						<l>En steeckt de horens op, in spijt van 't hemelsch hof.</l>
+						<l>De hemel zelf verlaet zijn eigene afgezanten.</l>
+						<l>Ghy sleet d'Apostelschap allengs, aen alle kanten,</l>
+						<l>Door zaegh, of zwaert, of stock, of steen, of koort, of druck:</l>
+						<l>Een hooge dagh voltoie al 't vorige geluck.</l>
+						<l>Ick vliegh naer Neeroos hof. verspreit ghy u, by driften.</l>
+						<l>'t Lust Simon Simon nu, zoo fijn als meel, te ziften;</l>
+						<l>Dat al de werelt zie, hoe reuckeloos, hoe stout</l>
+						<l>De hemel kercken, op zoo krancke zuilen, bouwt:</l>
+						<l>Op dat geen maght zo groot verschijn, voor 's menschen oogen,</l>
+						<l>Waer tegens 's afgronts maght en kracht niet op zou mogen.</l>
+						<l>De haen, vol slaeps, klopt noch de slapers niet aen 't oor.</l>
+						<l>Ick streck een heldre maen by duister. dat 's u voor.</l>
+					</sp>
+					<sp who="#elymas">
+						<speaker>Elymas</speaker>
+						<l>Wel meester, waer blijf ick? wat oort wort my bevolen?</l>
+					</sp>
+					<sp who="#simon-toveraer">
+						<speaker>Simon Toveraer</speaker>
+						<l>Nu vraeg niet. volgh mijn toorts, zo kunt ghy niet verdolen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>PETRONEL. PLAUTIL.</stage>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>'t Is meer dan tijdt, om naer 't gevangenhuis te gaen,</l>
+						<l>En komt Plautil noch niet? 't wort spa: daer klopt zy aen.</l>
+					</sp>
+
+					<sp who="#plautil">
+						<speaker>Plautil</speaker>
+						<l>Doe open, Petronel: doe open, zonder schroomen.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Tre binnen, moeder. toef, ick zal hier licht doen komen.</l>
+						<l>Olympa, breng hier licht: waer blijft ghy? nu ga heen.</l>
+					</sp>
+					<sp who="#plautil">
+						<speaker>Plautil</speaker>
+						<l>Wel dochter, wats'er gaends? wy spreken nu alleen.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Nu naer de Vaders toe, waer henen ick u leide,</l>
+						<l>Die niemant nader, tot verlossing van hun beide,</l>
+						<l>Kon kiezen dan Plautil, wiens yver brant als vier;</l>
+						<l>Nadien zy 't leerkint is van Pauwels; ick scholier</l>
+						<l>En dochter, naer 't gemoedt, van onzen Bisschop Peter.</l>
+					</sp>
+					<sp who="#plautil">
+						<speaker>Plautil</speaker>
+						<l>Tot noothulp in gevaer verkoost ghy niemant beter</l>
+						<l>Dan my: maer dochter, hoe? wat durft uw jeught bestaen?</l>
+						<l>O reuckelooze jeught, dit kan niet wel beslaen.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>De jongkheit past wat stouts, en staet niet licht verlegen.</l>
+						<l>Bedaeghtheit, rijp van brein, wil wicken, overwegen,</l>
+						<l>En waeght niet wightighs, voor zy 't wis en zeker ziet,</l>
+						<l>En 't stuck hebbe in haer maght: maer neen, zoo gaet het niet</l>
+						<l>In zaecken van belangk. 'k misprijs niet raet te vragen:</l>
+						<l>Maer altijt suffen, altijt wicken, nimmer waegen,</l>
+						<l>Bedrijft bedijt oock niet.</l>
+					</sp>
+					<sp who="#plautil">
+						<speaker>Plautil</speaker>
+						<l>'t Is waer, doch wat kan 't schaên,</l>
+						<l>Dat mijn zwaermoedigheit den wegh (wil 't helpen) baen</l>
+						<l>Ten kercker? hindert het gevaerlijckheên te myden?</l>
+						<l>Zy grijnzen, niet van een, maer schier van alle zyden,</l>
+						<l>Zoo gruwlijck, dat mijn oogh hier naulix door kan zien:</l>
+						<l>Doch zoo ghy 't u getroost, in Godts naem, 't moet geschiên.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Ay zet geen zwarigheit, alleerze wort geboren.</l>
+					</sp>
+					<sp who="#plautil">
+						<speaker>Plautil</speaker>
+						<l>Ghy wilt dan, eer wy gaen, wel eerst mijn inzicht hooren?</l>
+					</sp>
+
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Zeer gaerne, moeder: zegh, wat maeckt uw hart bedeest?</l>
+					</sp>
+					<sp who="#plautil">
+						<speaker>Plautil</speaker>
+						<l>Zy vreest niet ydel, die by tijdts voor 't uiterst vreest:</l>
+						<l>Want mist die toght, ghy helpt de Harders gladt om 't leven,</l>
+						<l>Hun kudde aen nieuw gevaer. hoe menigh zal 'er sneven,</l>
+						<l>Die nu noch veiligh duickt.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Wel moeder, vaer zoo voort.</l>
+					</sp>
+					<sp who="#plautil">
+						<speaker>Plautil</speaker>
+						<l>Ghy zijt noch jongk, mijn kint: maer ick heb noit gehoort,</l>
+						<l>Hoe yemant uit dien muil des moordkuils zou geraken.</l>
+						<l>Hy slaght de hel, die weet van slicken, niet van slaken.</l>
+						<l>Dat Mamertijnsche hol; of is 't u onbekent?</l>
+						<l>'t Is rotssteen stael metael al wat 'er klinckt ontrent:</l>
+						<l>Cimente muuren, ysre staven, kopre deuren.</l>
+						<l>Kan uwe teere hant die breken, buigen, scheuren?</l>
+						<l>Of draeght ghy Samsons kracht verborgen in uw hair?</l>
+						<l>Of meent ghy, slechte maeght, zoo sluick van middel, daer</l>
+						<l>Te wringen door den muur, waer in geen zon kan schynen,</l>
+						<l>Als voor een halleve uur; en qualijck zonder quynen</l>
+						<l>Van 't alverquickend licht? zoo is 't 'er niet gestelt.</l>
+						<l>'t Zijn dubble tralien: 't zijn wercken voor gewelt.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Beschrijf den kercker niet: dat 's tijdt en tong versleten,</l>
+						<l>Voor my, die menigmael vervarsing, dranck, of eten,</l>
+						<l>Of brief, of artseny aen dees gevangens braght.</l>
+						<l>Zijn maeghdevingers teêr; dit yzertuigh heeft kracht,</l>
+						<l>Die sleutels.</l>
+					</sp>
+					<sp who="#plautil">
+						<speaker>Plautil</speaker>
+						<l>Petronel, door wien of dit geluckte?</l>
+						<l>Wie was zoo koen, die dit in wasch of potaerdt druckte?</l>
+						<l>Wie smede op vormen juist de rechte wederga?</l>
+					</sp>
+
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Nu onderzoeck niet scherp: dit baert min nut, dan scha.</l>
+						<l>Zegh op, wat vreest ghy meer?</l>
+					</sp>
+					<sp who="#plautil">
+						<speaker>Plautil</speaker>
+						<l>'t Gebas der wackre honden;</l>
+						<l>Het wachthuis, daer ontrent; de schiltwacht, en de ronden;</l>
+						<l>Het volck, dat 's nachts langs straet te doen heeft by geval:</l>
+						<l>En niet van eenen kant, ick schrick van overal,</l>
+						<l>Voor mijn gedachten zelfs, en wat men niet zou droomen.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>'k Wil ront gaen in de zaeck, zoo hoeft ghy min te schroomen.</l>
+						<l>De hondert oogen, die den kercker gade slaen,</l>
+						<l>Ja bey de hoofden zelfs, Proces, Martiniaen,</l>
+						<l>(Door wonderheên verlicht, daer Peter opgesloten,</l>
+						<l>Hen met zijn eige hant, gezalft heeft, en begoten;</l>
+						<l>Toen hy de bronaer sloegh in dien Tarpeeschen gront)</l>
+						<l>Begunstigen dit stuck, geen' lasterlijcken vondt;</l>
+						<l>Nadien men 't Capitool geen onheil pooght te brouwen.</l>
+					</sp>
+					<sp who="#plautil">
+						<speaker>Plautil</speaker>
+						<l>Maer waerom bezight men niet liever mans dan vrouwen,</l>
+						<l>Of maeghden? blyven mans op zulck een' aenslagh t' huis?</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Marien houden stant by 't graf, ja onder 't kruis,</l>
+						<l>Daer mannen angstig vliên, en nagels speer en doren,</l>
+						<l>Gelijck veel zwaerden, een Lievrouwehart deurboren.</l>
+						<l>En of 't misluckte, 't waer gevaerlijcker voor mans.</l>
+						<l>De maeghden acht men minst; want waegen die een kans;</l>
+						<l>'t Heet wyvenyver: 't geeft geen omzien niet met allen.</l>
+						<l>Nu den Verlosser, eer wy gaen, te voet gevallen.</l>
+						<l>Ghy zult op schiltwacht staen, gelijck een halsvriendin.</l>
+						<l>Nu kniel, op dat men 't werck aldus met Godt begin.</l>
+						<l>Verlosser, die, om elck te lossen, u liet vangen,</l>
+						<l>En binden; en nu zit, aen 's vaders zy, behangen</l>
+						<l>Met eenen mantel, rijck van Goddelijcken gloet,</l>
+						<l>Waer voor al 't zichtbre licht zijn stralen strijcken moet:</l>
+						<l>Ghy Samson, die den mont des afgronts op kost sparren,</l>
+						<l>Dien roof ontweldigen, en slepen naer de starren;</l>
+						<l>Op 't grimmigh brullen van 't kranckhoofdig helsch gedroght,</l>
+						<l>Dat, tegens uwe stem, een wijl niet kicken moght:</l>
+						<l>O Heilant, moedigh ons, om nergens voor te zwichten.</l>
+						<l>Verlos en redt die beide Apostolijcke lichten,</l>
+						<l>Op 't schreien van uw bruit, op 't jammerlijck geklagh</l>
+						<l>Van haer, die ongetroost dit pack niet dragen magh.</l>
+						<l>Ontruck uw hooftkerck niet den steun der hooftpylaren,</l>
+						<l>De dragers van het dack, waer onder wy vergaren.</l>
+						<l>Begunstigh onze hoop. zoo 't anders is verzien;</l>
+						<l>Wy rusten in uw' wil, die moet voor al geschiên.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>PETER. PAUWELS.</stage>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>O Wackerste van alle vogelen,</l>
+						<l>Die my uit 's misdaets dootslaep kraeit,</l>
+						<l>En drijft, door 't klappen uwer vlogelen,</l>
+						<l>De zon aen, die zich oostwaert draeit,</l>
+						<l>En langkzaem naer de kim komt ryden;</l>
+						<l>Terwijlze alree bekommert is,</l>
+						<l>Om d'ysre tralien te myden</l>
+						<l>Der Mamertijnsche vangkenis;</l>
+						<l>Die vasthoudt, in haer holle kaken,</l>
+						<l>Den weiflaer, dien 't van 't harte kon,</l>
+						<l>Al willends wetends te verzaken</l>
+						<l>Den glans der onderdruckte zon;</l>
+						<l>Een zon, die aller blinden oogen</l>
+						<l>Genezen quam: getrouwe haen,</l>
+						<l>Ghy kraeit, eer noch dees doeck kan droogen,</l>
+						<l>Alweêr op elcke wang een traen.</l>
+						<l>Ghy morgenwecker, leert my schreien</l>
+						<l>Geduurigh, eer de morgenstar</l>
+						<l>De scheemring, voor dien glans, gaet spreien,</l>
+						<l>Waer tegens ick niet opzien dar;</l>
+						<l>Waer tegens ick niet op kan beuren</l>
+						<l>Dit rompligh schrompligh aengezicht,</l>
+						<l>d'Ooghappels, weeck en blint van treuren;</l>
+						<l>Bezwalckt, beschaemt, en schuw van 't licht.</l>
+						<l>Heb ick hun noch niet uitgekreten,</l>
+						<l>Die waert zijn Godt noch zon te zien?</l>
+						<l>Heb ik mijn tong niet afgebeten?</l>
+						<l>Die, om gevaer en smaet t' ontvliên,</l>
+						<l>Verlochende den rechten hoeder;</l>
+						<l>Verzwoer het al t' onnozel lam;</l>
+						<l>Dat smetteloos van zyne moeder</l>
+						<l>Ter weerelt, al de weerelt quam</l>
+						<l>In bloet en hartewater baden:</l>
+						<l>Zich offeren op 't kruisaltaer.</l>
+						<l>O Paeschlam, ick holp u verraden,</l>
+						<l>In 't onweêr van die wreede schaer.</l>
+						<l>De kusser van 's verzoeners wangen</l>
+						<l>Verriet maer eens der menschen zoen:</l>
+						<l>Mijn mont, na dat hy was gevangen,</l>
+						<l>Verriet, helaes! hem driemael; toen</l>
+						<l>Hy vast bespot wiert, en bespogen.</l>
+						<l>Erbarm u myner: zie om laegh:</l>
+						<l>Alziende Waerheit, straf mijn logen:</l>
+						<l>Verzwaer de ketens, die ick draegh.</l>
+						<l>Wat woorden liet ick my ontslippen!</l>
+						<l>Verzaeckte ick zoo mijn' Godt, mijn' heer!</l>
+						<l>Wat lastren schonden deze lippen!</l>
+						<l>Ick nock, ick berst, ick kan niet meer.</l>
+						<l>Mijn geest bezwijckt. ick zijgh ter neêr.</l>
+						<l>Och och och och och och och och.</l>
+					</sp>
+
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Ay megevangen, staeck dit nocken, staeck dit stenen,</l>
+						<l>En laet my sluimeren. of zult ghy eeuwigh weenen,</l>
+						<l>Om 't struickelen der tonge? om zoo een woort, dat stil</l>
+						<l>De lippen los ontglipte, uit zwackheit, niet met wil?</l>
+						<l>Wat anders heeft de mont, wat anders 't hart gesproken.</l>
+						<l>Ghy ziet, van hartewee, verkniest, verout, gebroken.</l>
+						<l>Dit kermen, nacht op nacht, verzwackt den ouderdom,</l>
+						<l>Versteurt den slaep, of maeckt mijn nachtgebeden stom.</l>
+						<l>Ick schouw (want tranen uit berouw tot zuivring strecken</l>
+						<l>Van een bevleckt gemoedt) u rein van deze vlecken.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Mijn amptgenoot, ick weet, ick reck u taey gedult</l>
+						<l>Te lang, door 't moeielijck vernieuwen van mijn schult;</l>
+						<l>Zoo menighmael de haen aan 't sluimrigh hart komt kloppen.</l>
+						<l>Wat raêt? mijn hartaêr berst, in 't eerst allengs by droppen,</l>
+						<l>Dan korter, drop op drop; dan gietze beecken uit:</l>
+						<l>En schrey ick niet, zoo is 't alleens of 't hart my sluit.</l>
+						<l>Ay medebroeder, laet mijn tranen ruim gaen weien.</l>
+						<l>Laet my mijn dootvergrijp ophalen. laet my schreien.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Zoo klagen 't hart verlicht, vaer voort met uwe klaght.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>De nacht vermaent my weêr aen 's Heilants jongste nacht;</l>
+						<l>Waer in d'Aertspriesters zelfs, schijnheilige Ouderlingen,</l>
+						<l>En Schriftgeleerden hem, met stael en stocken, vingen,</l>
+						<l>Door d'opgeruide schaer, en dien Iscarioth;</l>
+						<l>Verkoopende, om wat gelts, zijn' meester, en zijn' Godt.</l>
+						<l>Ick trof in 't hondert, met den korten krommen degen,</l>
+						<l>Maer als vergeefs: elck vloot, en Simon stont verlegen,</l>
+						<l>Verlaten, en most zien, tot stervens toe bedruckt,</l>
+						<l>Hoe deerlijck Jesus daer zijn oogen wert ontruckt,</l>
+						<l>En stewaert in gesleept. 'k zagh om: elck was geweken.</l>
+						<l>'k Had nu door meesters last den houwer opgesteken;</l>
+						<l>En twijflende of mijn trouw hier mede moght volstaen,</l>
+						<l>Volghde al beducht de torts en nachttroep achter aen</l>
+						<l>Gelijck een dwalend lam al blatende den harder,</l>
+						<l>En 't siddrend voor den wolf; dan dichter, dan wat verder.</l>
+						<l>Helaes! zy sleurden 't Lam in 't priesterlijcke hof.</l>
+						<l>Ick zagh dit, en verdroegh 't. vergreep ick my niet grof?</l>
+						<l>Och och och och och och.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Ghy had u vroom gequeten.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Ick stijgh de trappen op, daer 't hof, op Godt gebeten,</l>
+						<l>Krioelt, en woelt, en galmt, en lastert, zoo versteurt;</l>
+						<l>En Kaïphas quansuis de kleedren rijt, en scheurt.</l>
+						<l>'k Hoor spuwen in 't gezicht, en klincken voor die wangen,</l>
+						<l>Waer aen zy 't dootzweet zien, by roode drupplen, hangen.</l>
+						<l>Nu Christus, propheteer: wie klopt u voor den mont?</l>
+						<l>Een meisken, dat my, in de voorzael, zitten vont,</l>
+						<l>Stoof op: dit's oock van 't slagh, die twist en oproer zoecken.</l>
+						<l>Ick schrik, verzaek mijn' heer, verdoem mijn ziel met vloeken,</l>
+						<l>Noch eenmael, en nog eens; en daetlijck kraeit de haen;</l>
+						<l>En Jesus ziet my stijf met straffende oogen aen,</l>
+						<l>Die dringen in de ziel. waer was ick toe gekomen!</l>
+						<l>Het hart wou op de tong, die liet zich naulix toomen,</l>
+						<l>Wee my, ellendigh man! erbarm u mijns! o heer.</l>
+						<l>Och och och och och och.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Mijn broeder, schrey niet meer.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>O Haen! de dagh wou op: my docht mijn hart wou sluiten.</l>
+						<l>Ick gingk beklemt om 't hart, ten hove uit, recht naer buiten,</l>
+						<l>Mijn stille schuilspelonck ontvouwen mijn verdriet,</l>
+						<l>In 't eerst met stom misbaer: geluit slaen kon ick niet.</l>
+						<l>Ick sloegh voor deze borst; begon het hair te rocken</l>
+						<l>Uit mijnen visschers baert; verzuchte, raeckte aen 't nocken,</l>
+						<l>Aen 't roepen op het lest; lagh plat op 't aenzicht neêr,</l>
+						<l>Zoo koudt, gelijck een visch, langs 't Galileesche meer,</l>
+						<l/>
+						<l>Noch zieltooght, op den kant des oevers, voor zijn sterven;</l>
+						<l>Als die zijn element, het water, niet kan derven.</l>
+						<l>Ick schreeuwde: o waterbron des levens! help my doch</l>
+						<l>Aen water: help mijn oogh aen tranen; is 'er noch</l>
+						<l>Wat hoops, wat levens, voor mijn ziel, in zilte plassen.</l>
+						<l>Maer neen, die vloeckvleck is met tranen niet te wassen.</l>
+						<l>O mijn vermetelheit! wat heb ick my beroemt</l>
+						<l>Van voorstant! heilge disch, en spijs, die my verdoemt.</l>
+						<l>O bloet, o dranck, o kelck! hy spelde 't al te veuren.</l>
+						<l>O sleutels, wat poortier vertrouwt men 's hemels deuren!</l>
+						<l>Gena, gena, gena. toen schreide ick, vlaegh op vlaegh,</l>
+						<l>Mijn oogen root en dick; en harde 't schreien staegh.</l>
+						<l>Laet tuigen van mijn' rouw, om mijn' bezweken yver,</l>
+						<l>Die Starrebron, by 't hol; die zuivre en klare Vyver.</l>
+						<l>O Peter, was dat pal, gelijck een pyler, staen!</l>
+						<l>En kon een maeghdeken een' man in 't veldt verslaen?</l>
+						<l>'t Viel mackelijcker 't lijf, verkleumt van kou te warmen,</l>
+						<l>Dan, met gevaer van 't lijf, uw' meester te beschermen.</l>
+						<l>Och och och och och och. wat kan een ydle schrick!</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Ghy zijt, op verre na, zoo schuldigh niet als ick,</l>
+						<l>Die zelfs de kleederen des steenigers bewaerde;</l>
+						<l>Daer Steven storte met een hagelbuy ter aerde,</l>
+						<l>En, van godtvruchtigh bloet, besprengkelt, paers en root,</l>
+						<l>My lachen zagh, wee my! in zyne onnoosle doot;</l>
+						<l>Daer 't lijck, half levend, lagh geplet van harde kaien.</l>
+						<l>Laet Simon zwygen: laet de bittre Sauwels schreien,</l>
+						<l>Wien Christus uit de lucht die gruwelen verwijt.</l>
+						<l>O hooft van 't lichaem zelf, waer in ghy sterft, en lijdt!</l>
+						<l>O glans, had ghy een' strael in mijn gezicht geslagen,</l>
+						<l>Eer bey deze oogen noch dien martler storten zagen.</l>
+						<l>Die Heiligh badt voor ons, en steegh de wolcken deur.</l>
+						<l>De steenen werden root, mijn wreetheit hiel haer kleur.</l>
+						<l>Mijn handen, hebt ghy oock doornagelt den Gekruisten?</l>
+						<l>Wee my, wee my, wee my! wie klinckt my daer met vuisten</l>
+						<l>Zoo fel in 't aengezicht? o nachtgeest, zijt ghy dat?</l>
+						<l>Sla toe, 'k verdien noch meer. ick zit van bloet bekladt.</l>
+						<l>Verneder dezen worm, eer hy zich verhoovaerdigh.</l>
+						<l>'k Vernoegh aen die gena; ben ick haer anders waerdigh.</l>
+						<l>Och och och och och och och och och och och och.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<stage>PETRONEL. PETER. PAUWELS. PLAUTIL.</stage>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Wat kermen hoort men daer? wat wil dat steenen toch?</l>
+						<l>Wy naecken het gevaer, en dienen niet te sammelen.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Wie spreekt'er?</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Hoor, ay hoor die ysre ketens rammelen.</l>
+						<l>My dunckt ick ken die spraeck. hou schiltwacht in dien hoeck.</l>
+						<l>Verneemt ghy ronde, of volck, zo brem eens. hou u kloeck.</l>
+						<l>De maen komt op, wiens schijn my luttel kan behagen.</l>
+						<l>Het licht is zelden vrient van heimelijcke lagen.</l>
+						<l>Dat geldt, in Jesus naem.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Hoe gaen wy? slim, of wel?</l>
+						<l>Waer sleept men ons by nacht? wie leit ons?</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Petronel.</l>
+						<l>Uw dochter naer 't gemoedt. ick bid u, volght te gader,</l>
+						<l>Ay oude Vader, volgh; ghy mede, o goede Vader,</l>
+						<l>In dezen achterhoeck, en uit den maneschijn,</l>
+						<l>In schaduw van dien muur: dat zal wel veilighst zijn.</l>
+						<l>De schiltwacht heeft den slaep vry gulzigh ingedroncken.</l>
+						<l>'k Verneem noch geen gewagh. ay hoor dien wachthont ronken,</l>
+						<l>Voor dezen drempel. lof zy u, Emanuël,</l>
+						<l>Die dit beleit. dit schijnt geen menschelijck bestel.</l>
+						<l>Het zou niet hinderen al schuilden wy wat verder.</l>
+						<l>O Jesus, u zy lof. o aller herdren Herder.</l>
+						<l>Nu Vaders, gun my, dat ick mijn verlangen blusch,</l>
+						<l>Dees hantboey eens ontsluit. laet my betyen. sus.</l>
+						<l>Een dalende Engel zy mijn hulp, en medewercker.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Ghy draeght de sleutelreex van kluisters, en van kercker.</l>
+						<l>Mijn kint, wat droom is dit? wat durft ghy op u laên?</l>
+						<l>Wie vordert u tot zulck een zorghelijck bestaen?</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>De vijftigh zielen zelfs, gezalight van uw handen,</l>
+						<l>Ter stede daer ghy zuchte, om 't knypen dezer banden;</l>
+						<l>De Roomsche kudde zelf, van Peters staf geweit,</l>
+						<l>En al wat, nacht en dagh, om zijn verlossing schreit,</l>
+						<l>En vast, en waeckt, en bidt (daer zy ter sluick vergaren)</l>
+						<l>Dat d'opperherder wil zijn' onderherder sparen,</l>
+						<l>Ten minste noch een wijl. gedooght dan, en gehengt</l>
+						<l>Te volgen, hant aen hant, daer Petronel u brengt,</l>
+						<l>In 't onderaertsche hol, by zoo veel aengezichten,</l>
+						<l>En kennis; om hen door uw wederkomst te stichten;</l>
+						<l>Te stercken in den strijt uw strydende gemeent.</l>
+						<l>My dunckt ick hoor alree, hoe 't hol van blyschap weent,</l>
+						<l>En galmt; terwijl ghy schijnt twee starren in het midden:</l>
+						<l>Dies volght my, op mijn bede, of liever op hun bidden.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Zoo Jesus dit behaegh, hy zende een' Engel neêr:</l>
+						<l>Hy sluit den kercker op, en helpe ons, als weleer.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Godt bezight Engelen, of dienst van zwacke menschen.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Maer Englen weten best, of 't nut is 't geen wy wenschen.</l>
+					</sp>
+
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>De menschen holpen u weleer ter goeder uur.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Uit geen gevangkenis, maer van Damascus muur.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Uit een gevangkenis van vesten, dicht gesloten.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Waer Christus staeg gevlugt, zijn bloet waer noit vergoten.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Het hooft most bucken, tot verheffing van zijn leên.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>De leden met hun hooft zijn lot-en-kruisgemeen.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>De kudde treurt, wanneer de herder is ontslapen.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>De vrome herder zet zijn leven voor zijn schapen.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Wanneer 't de noot vereischt, dan zwicht hy voor geen doot.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>De grootste Harder smeet zich willigh in die noot.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>De grootste Harder leert de kleensten 't kruis ontvlughten.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Maer onder en aen 't kruis daer bloeien schoone vruchten.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Ontydigh kruis brengt wrange en bittre vruchten voort.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>'t Is altijdt kruistijdt. kruis is 't schoonst dat my bekoort.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Ick roem in Christus kruis, ja sterven is mijn leven.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Wat heeft mijn vlught weleer al ergernis gegeven?</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Uw leven stutte Godts vervolghde en wanckle schaer.</l>
+					</sp>
+
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Mijn nazaet, roept my Godt, neem deze schaepskoy waer.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Als Godt u roept, dan kan de nazaet haer bezorgen.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Waer toe dit uitstel dan? waer toe gedraelt tot morgen?</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>De kinders scheiden van den vader tijdts genoegh.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>De vader zagh lang grijs: hy scheit nu niet te vroegh.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>d'Olijfbergh zagh ons van dien lieven meester scheiden.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>d'Olijfberg zagh oock, hoe bedrukt zijn jongers schreiden.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Wy scheidden evenwel, getroost en onbevreest.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Zijn Engel trooste u strax; daer na de Pinxtergeest.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Die zelve Geest kan u oock troosten, en verquicken.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Nu is het vlughten nutst, tot dat wy 't kunnen schicken.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>'t Geen nut en oirbaer schijnt past strax een yeder niet.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Zich zelven reuckeloos te werpen in verdriet?</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Men eert den Heilant zoo, door tranen bloet, en wonden.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Stroit roozen voor het zwijn: worpt perlen voor de honden.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Wat roos wat perlen heeft Godts wysheit niet gestroit?</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Noch bleef de boosheit blint, hardtneckiger dan oit.</l>
+					</sp>
+
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Dat zal haer in den dagh des oordeels overtuigen.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Uw kinders kryten, om uw leering noch te zuigen.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Zy zijn nu groot: hun dient geen melck, maer stercker spijs.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Misgunt men ons die rust, in 't hemelsch paradijs?</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Zy hopen daer met u te rusten, zonder ende.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Wat houdenze ons dan hier, gebonden aen ellende?</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Uit liefde, en een gemoedt van droefenis beknelt.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Men moet ten hemel zoo instormen met gewelt.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>De hemel staet alleen niet op voor martelaren.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Ons voorbeelt quam aldus den hemel ingevaren.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Hy had zijn midlaers ampt voltrocken hier beneên.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Wy hebben hier den strijt, ons opgeleit, volstreên.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Gedenckt ons andren dan, die hier noch moeten strijden.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Wie triomferen wil, leer strijden, sterven, lijden.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Zy strijden moediger, daer hoofden voor hen treên.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Wy treden nu voor uit: waer toe dan dit gesteen?</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Ga dochter, en ontlast die naer uw komst verlangen.</l>
+						<l>Wy geven op een nieuw ons wederom gevangen;</l>
+						<l>Zoo raeckt noch ghy, noch wacht, noch niemant in verdriet.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Heeft dan mijn trouw vergeefs gelegenheit bespiet?</l>
+						<l>Vergeefs het lijf gewaeght, om u het lijf te bergen?</l>
+						<l>Och vaders, vaders och, hoe kunt ghy ons dit vergen?</l>
+						<l>Is Petronel, ja al de kudde u niet meer waert?</l>
+						<l>Ten minste volgh my na in 't hol, daer 't al vergaert,</l>
+						<l>En wacht, en treurt, wat om uw uitkomst is verlegen:</l>
+						<l>En kan u niemants raet noch liefde daer bewegen,</l>
+						<l>Noch houden uit den muil van 't gapende gevaer;</l>
+						<l>Zoo keert van waer ghy quaemt. o al te vierigh paer,</l>
+						<l>'k Hoor onraet, zoo my dunckt, van volck op straet, of ronden.</l>
+						<l>Ick bidde u om de vijf quetsuren, de vijf wonden,</l>
+						<l>Om speer en nagels, om de scherpe doornekroon,</l>
+						<l>Gevlochten om het hooft van Gots verdruckten Zoon,</l>
+						<l>Bewillight Petronel haer hartelijcke bede.</l>
+						<l>Of (weigert ghy te gaen) ick treck, ick sleep u mede.</l>
+					</sp>
+					<sp who="#plautil">
+						<speaker>Plautil</speaker>
+						<l>Is 't hier noch dralens tijdt? het schemerlicht breeckt aen.</l>
+						<l>Ick hou van veer de wacht, en kan uw spraeck verstaen.</l>
+						<l>De leste ronde komt. ghy zult het stuck ontdecken.</l>
+						<l>De Vaders weigren meê te gaen: men moet hen trecken.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<stage>REY VAN GEKERSTENDE SOLDATEN.</stage>
+					<sp who="#rey">
+						<speaker>Zang</speaker>
+						<l>Voor Jesus naem, en Caesars Rijck,</l>
+						<l>Het zy in sterven, of in leven,</l>
+						<l>Staen wy gereet, een yegelijck</l>
+						<l>Zijn eer en eigen Recht te geven,</l>
+						<l>Door schuldige onderdanigheit;</l>
+						<l>Gelijck wy Gode en Caesar zwoeren;</l>
+						<l>En, met een wettigh onderscheit,</l>
+						<l>Ons tweederhande wapens voeren;</l>
+						<l>d'Onzichtbaere, om de blinde maght</l>
+						<l>Des afgronts Christelijck te keeren;</l>
+						<l>De zichtbaere, om gewelt, met kracht</l>
+						<l>Der armen, van 's Rijx hals te weeren;</l>
+						<l>Van 't Capitool, en al den Raet.</l>
+						<l>Dit past een Christensch Roomsch soldaet.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Tegenzang</speaker>
+						<l>Die zelve Caesar zal wel haest</l>
+						<l>Ons nieuwe Ridderschap bestoken,</l>
+						<l>Op datze, van de doot verbaest,</l>
+						<l>Jupijn met wierroock ga beroocken,</l>
+						<l>En den gekruisten Vorst verzweer;</l>
+						<l>Haer hoop, en zekerste betrouwen;</l>
+						<l>Den Vorst, die d'afgoôn preeckt ter neêr;</l>
+						<l>En tempels leert van harten bouwen,</l>
+						<l>Waer in hy leeft door zynen Geest;</l>
+						<l>Veel min gedient met goudt, en marmer,</l>
+						<l>Dan met een ziel, die zucht, en vreest;</l>
+						<l>En keert den levenden beschermer</l>
+						<l>Haer aenschijn toe, haer' rugh Jupijn.</l>
+						<l>Waer zal dan Christus ridder zijn?</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Toezang</speaker>
+						<l>Al stonden wy, met heele benden,</l>
+						<l>Gekerstent, blanck in 't harrenas,</l>
+						<l>En dat'er slechts een schrede was</l>
+						<l>In 't midden, tusschen moortellenden,</l>
+						<l>En 't Heidensch offren, naer den sleur;</l>
+						<l>Wy koren Christus voor den keur:</l>
+						<l>Wy lieten zygen weer en wapen;</l>
+						<l>De pylen speeren zwaerden slapen,</l>
+						<l>En offerden, als tamme schapen,</l>
+						<l>Ons willigh op, aen 't weerloos Lam,</l>
+						<l>Dat stom van zelf ten outer quam.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<head>Het tweede bedryf.</head>
+				<div type="scene" n="1">
+					<stage>CORNELIA. AERTSOFFERWICHELAER.</stage>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>Aertsofferwichelaer, hou op van meer te spellen,</l>
+						<l>Uit zoo veel teeckenen, als ghy ons komt vertellen,</l>
+						<l>Met die daer buiten staen. ons gruwt van dit verslagh.</l>
+						<l>Al wat men, nu te nacht, en oock voorhenen, zagh</l>
+						<l>Op d'aerde, of in de zee, of aen de lucht, gebeuren;</l>
+						<l>Beduit verandering, en komt den godtsdienst steuren,</l>
+						<l>Met eenen 't gansche Rijck, de wyde weerelt door;</l>
+						<l>'t En zy men 't slangenest en nieuw gebroetsel smoor;</l>
+						<l>Eer 't met vergiften tant den hiel der Priestren tarte,</l>
+						<l>En aenvliegh. maer wie treckt den godtsdienst nu ter harte?</l>
+					</sp>
+					<sp who="#aertsofferwichelaer">
+						<speaker>Aertsofferwichelaer</speaker>
+						<l>Dat komt op Caesar, 't hooft der heiligheden aen.</l>
+					</sp>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>Zoo lijdt de godtsdienst last, en kan niet langer staen:</l>
+						<l>Want hoe zou die in 't Rijck der Koperbaerden bloeien?</l>
+						<l>De derde outgrootvaêr dorst 's Aertspriesters maght besnoeien;</l>
+						<l>Vereerende eerst aen 't volck den priesterkeur; waer mé</l>
+						<l>Zijn heilooze afkomst nu, op des Hooftpriesters sté,</l>
+						<l>Vast pronckt; en stadigh uit om d'outers te verdrucken,</l>
+						<l>Betoont, tot ons verdriet, dat hem der oudren nucken</l>
+						<l>Noch zitten in den aert; wanneer hy 't out geloof</l>
+						<l>Verdelght; het heilighdom den krijghsliên geeft ten roof;</l>
+						<l>Ziet koor noch kercken aen; acht alles onverboden;</l>
+						<l>En smelt in krijghssoudy de goude en zilvre Goden,</l>
+						<l>Ja d'opperschutsgoôn zelfs, met al wat Rome stut,</l>
+						<l>En sterckt. al wort de buick der schatkiste uitgeput,</l>
+						<l>En 'tschamel volck den rugh, door schatting, ingereden;</l>
+						<l>Hy durf aen overdaet hun zweet en bloet besteden.</l>
+						<l>Oock 't Priesterlijcke gout, gespaert in tijdt van noot.</l>
+					</sp>
+					<sp who="#aertsofferwichelaer">
+						<speaker>Aertsofferwichelaer</speaker>
+						<l>Mevrouw Cornelia, zijn moedtwil, al te groot,</l>
+						<l>Beschaemt Salmoneus zelf. wie kan dien hooghmoet temmen?</l>
+					</sp>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>Die durf wel in de bron van Mars den vader zwemmen,</l>
+						<l>'t Gewyde water daer ontwyden, door de smet</l>
+						<l>Van zijn onzuiver lijf, geplaeght in 't krancke bedt.</l>
+						<l>Maer wat ontziet zich een, die raet om laegh durf zoecken,</l>
+						<l>Door toverofferhand, by ongoôn, en by Vloecken?</l>
+						<l>Die godtlooze, overtuight in zijn' verwaten geest,</l>
+						<l>Tradt huiverigh te rugge, op 't Eleusynsche feest,</l>
+						<l>Van die geheimenis, zoo ras hy hoorde roepen:</l>
+						<l>Vertreckt, misdadigen: vertreckt, besmette troepen.</l>
+					</sp>
+					<sp who="#aertsofferwichelaer">
+						<speaker>Aertsofferwichelaer</speaker>
+						<l>'t Valt langkzaem, eer de plaegh des hemels op hem druip.</l>
+						<l>Maer op dat midlerwijl dees pest niet dieper kruip</l>
+						<l>In 't ingewant des staets; en glip door al de leden</l>
+						<l>Van 't Rijck; is 't noodigh 't hooft van zulcke nieuwigheden;</l>
+						<l>Aen 't groeien dagh op dagh, te plettere te treên:</l>
+						<l>Gelijck Pilatus dat, in 't hooft der Jootsche steên,</l>
+						<l>Vermorzelde op een rots; hoewel die vruchtbre droppen</l>
+						<l>Nu grimmen, als een oegst, met giftige adderskoppen.</l>
+						<l>'t Is noodigh, dat'er een, uit onzer aller naem,</l>
+						<l>Den Vorst hierom begroet.</l>
+					</sp>
+
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>Maer wien acht ghy bequaem,</l>
+						<l>Om, met dit nootverzoeck, den troon te voet te vallen?</l>
+					</sp>
+					<sp who="#aertsofferwichelaer">
+						<speaker>Aertsofferwichelaer</speaker>
+						<l>Wie meer dan u, mevrouw, of yemant van u allen?</l>
+						<l>O onbesproke ziel, en Moeder, zonder dat;</l>
+						<l>Die het Trojaensch altaer bewieroockt, met uw vat,</l>
+						<l>Het welck voor Vesta smoockt; haer Godtheit aengenamer</l>
+						<l>Om u, die toegangk hebt in haar geheimste kamer,</l>
+						<l>En wie 't Palladium alleen wort toebetrouwt;</l>
+						<l>Om u, die 't eeuwigh vier met voetsel onderhoudt,</l>
+						<l>En, nacht en dagh, bewaeckt: Vooghdesse der Vestalen,</l>
+						<l>Uit welcker aengezicht de kuischeit met haer stralen</l>
+						<l>d'Onzuiverheit beschaemt, en ontuchts geilen nacht:</l>
+						<l>Uw lippen hebben 't hart des Vorsten in haer maght.</l>
+						<l>Uw woorden binden hem, gelijck vergulde schakels;</l>
+						<l>En Nero hoort uw stem, als goddelijcke orakels.</l>
+						<l>Hy schonck u 't Recht, om naer 't Olympisch feest te gaen.</l>
+						<l>Het bijl-en-bondelrecht blijft voor uw' hairbant staen.</l>
+						<l>De Burgemeesters zelfs, de Schouten, en Raetsheeren</l>
+						<l>Gaen uit den wegh voor u. woudt ghy u eens verneeren,</l>
+						<l>Tot troost des priesterdoms; dat nergens heul aen vint,</l>
+						<l>En stroit zoo vruchteloos zijn klaghten in den windt;</l>
+						<l>Dit eerloos rot zou zich niet langer durven reppen.</l>
+						<l>d'Aertspriesters zijn alleen de Goden, die u scheppen:</l>
+						<l>Dies ga ons t'zamen voor, en roept uw' Vader aen.</l>
+					</sp>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>Noemt ghy hem vader, om dat vaderlijck bestaen;</l>
+						<l>Dat vaderlijcke hart aen Rubria bewezen?</l>
+						<l>Zoo maecke ons Vesta strax vry vaderlooze weezen.</l>
+						<l>Hoe lang is 't, dat het oogh van zijn bedorve ziel</l>
+						<l>Op deze Roozemont, 't godtvruchtigh schepsel, viel?</l>
+						<l>Daer zy te koore quam, met neergeslagene oogen,</l>
+						<l>En kaecken, root van schaemt; de zinnen opgetogen</l>
+						<l>Tot moeder Cybele; haer Godtverloofde mont</l>
+						<l>Gepropt van lof; het hart van niemants min gewont,</l>
+						<l>Als van d'altaergodin, voor wie men haer zagh knielen,</l>
+						<l>Met zulck een nedrigheit, dat alle nonnezielen</l>
+						<l>Ontstaecken, door die vlam des yvers, en dat vier,</l>
+						<l>Uitstralende uit gebaer, gelaet, en hemelzwier</l>
+						<l>Van haer; die nu niet scheen op d'aerde te verkeeren,</l>
+						<l>Maer in een' gloet van geest en godtheit te verteeren.</l>
+						<l>De schaker vatte dit. hy streeck ten tempel uit,</l>
+						<l>En zwoer die witte duif te plucken, als zijn buit.</l>
+					</sp>
+					<sp who="#aertsofferwichelaer">
+						<speaker>Aertsofferwichelaer</speaker>
+						<l>Ay moeder, krab niet op de wonde van dit lyden.</l>
+					</sp>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>Zy quam, ten hove ontboôn, gerust den bergh opryden;</l>
+						<l>Niet droomende wat leet haer strax gemoeten zou.</l>
+						<l>Wat doet die schaker? och, hij past op Vestaes trouw,</l>
+						<l>Noch sneeuw van 't nonnekleet; op spansel, riem, noch banden;</l>
+						<l>Maer smackt haer op het bed, met godtvergete handen,</l>
+						<l>En rust niet, voor hy bluscht zijn vlam; en draeght noch roem</l>
+						<l>Op 't schricklijck gruwelstuck, het zengen van ons bloem.</l>
+						<l>Laet tuigen, van haer weer, zijn opgekrabde wangen;</l>
+						<l>Het hair des koperbaerts. die booswicht gingk zijn gangen.</l>
+						<l>Minerve, Veste, en wat oit lust in kuischeit schiep,</l>
+						<l>Getuigen, hoeze om hulp den hemel t'zamenriep.</l>
+						<l>Ick rep van d'andre niet, die, ziende hem bewogen</l>
+						<l>Om 't schoon gezicht, van spijt, een' priem stack in haer oogen,</l>
+						<l>Getroost veel liever 't licht te derven van de zon,</l>
+						<l>Dan hangends hoofts te gaen voor een verkrachte non.</l>
+						<l>Och och, zwijg stil. och zwijg. wat noemt ghy hem een' vader,</l>
+						<l>Dien nonneschender, dien altaervloeck, dien verrader!</l>
+					</sp>
+					<sp who="#aertsofferwichelaer">
+						<speaker>Aertsofferwichelaer</speaker>
+						<l>Geweldenaer, dat kan niet ongestraft vergaen.</l>
+					</sp>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>Hem quam, in onze kerck, noch korts een tsidderinge aen.</l>
+						<l>d'Ontheilighde Godin scheen neder, uit den hoogen,</l>
+						<l>Te dalen, en ontstelt te waeren, voor zijn oogen,</l>
+						<l>Bezoedelt van die maeghde-en-tempelschendery:</l>
+						<l>Want waer hy gaet, of staet, het brein is nimmer vry</l>
+						<l>Van 't wroegend schellemstuck. wat stoft hy op den stamme</l>
+						<l>Der Julien; door wien, daer Troje stont in vlamme,</l>
+						<l>Ons heilighdom van Veste, ons huisgoôn zijn geberght.</l>
+						<l>Waer heeft Anchises zoon de Goden oit geterght?</l>
+						<l>Vloot d' eerste van 't geslacht, toen 't oude Troje roockte;</l>
+						<l>Hy zy de lest, die 't vier in 't nieuwe Troje stoockte.</l>
+						<l>O tempelen der Goôn, vergaen in roock en stof,</l>
+						<l>Waer sliep de blixem, dat die 't godtloos hooft niet trof?</l>
+					</sp>
+					<sp who="#aertsofferwichelaer">
+						<speaker>Aertsofferwichelaer</speaker>
+						<l>Vergeet uw leet, mevrouw: laet ydle klaghten varen,</l>
+						<l>En kom in noodt te hulp ons haertsteên en altaren.</l>
+						<l>Verzelschap mijnen sleep, naer 't hof van Caesar toe;</l>
+						<l>Op dat men zoo 't gevaer van erger brant verhoe;</l>
+						<l>Nadien de hemel schijnt ontsteken, en verbolgen.</l>
+					</sp>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>Ga voor. 'k zal in karros u, met mijn Maeghden, volgen.</l>
+					</sp>
+
+				</div>
+				<div type="scene" n="2">
+					<stage>NERO. AGRIPPA.</stage>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Wat of 't verbolgen weêr van dezen nacht beduit?</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>De luchtgoôn borsten met hun gramschap t' effens uit.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Op hooge heuvels felst, en d' allersteilste wercken.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Jupijn schept lust doorgaens te dondren op zijn kercken.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Bestormt de godtheit 't geen haer zelf wiert toegewijt?</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Het zwanger aertrijck gingk in arrebeit van spijt.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Het steende, en quam in 't endt al tsidderende aen 't baeren.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Uw kamerdeur sprong op: ghy zaeght yet gruwzaems waeren.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>'k Heb den Samaritaen, in mijnen droom, gezien.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Wat komt d' ontruste Geest, in Caesars hof, bespiên?</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Den schouwburgh, daer hy plofte, afgrijsselijck vervloecken.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Of zijn geknackt gebeente en dorre schenkels zoecken.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Hy had het noch gelaên op 't Galileesch gebroet.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Gebroet, 't welck hem, by nacht te Rome, waeren doet.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>De wraeckzucht laet dien Geest niet in den afgront slapen.</l>
+					</sp>
+
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Die bezight hem, als een van zijn getrouwste knapen.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Hy vont nochtans geen trouw by 't vliegend draeckenspoock.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Dat blies, als Aetna, fel, ten neus uit, vier en smoock.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Het voerde hem om hoogh: wy zagen 't met ons allen.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Het voerde hem zoo hoogh, om laegh te laten vallen.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Zoo tuimelde Ikarus, te stout in 't stout bestaen.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>De Galileër won 't van den Samaritaen.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Dat prevelen had kracht, noch meer dan toverrymen.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Toen streden twee genans, en Symen won 't van Symen.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Die doode Symen eischt den levenden van my.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Dat's d' oorzaeck, raem ick recht, van al dees spoockery.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Vernoeght die aen geen straf van kercker, en van keten?</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>'t Is negen maenden leên, dat hy heeft vast gezeten.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>De boey en kercker zijn beletsels van veel quaet.</l>
+					</sp>
+
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>'k Geloof niet of hy zaeit al zittende zijn zaet.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>De kercker wort bewaeckt van wakers, en soldaten.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Zoo naeu niet, of ter sluick wort yemant ingelaten.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>De wakers tsidderen nochtans voor ons gebodt.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Wat durven krijghsliên niet, uit gunst, of om genot?</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Of Sibyllisten noch te zamen durven scholen?</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Zy nestelen by nacht in kelders, kuilen, holen.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Daer steeckt de middaghzon hun niet te heet op 't hooft.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Zy groeien nochtans aen: 't verboôn wort liefst gelooft.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>De gansche werelt lacht om zulcke razernyen.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Zy zelfs belachen elck, in 't bitterst van hun lyen.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Dat jongste lachen quam daer na op schreien uit.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Noch wert hun dolheit eer gesteven, dan gestuit.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Heeft yemant lust aen 't kruis het lijf te laten doemen?</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Het kruis is 't eenigh heil, waer in zy durven roemen.</l>
+					</sp>
+
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Vergeef hun vry dien roem in 't aengehaelde kruis.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Mevrouw Cornelia komt hier naer 's Vorsten huis.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Zy zoeckt gehoor. ick zal haer op den troon verbeiden.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Ick zie een' kuischen sleep van nonnen haer geleiden.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Oock Priesters, Flamens, vee-en-vogelwichelaers.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Het schijnt zy hebben 't hooft vol onweers, vol gevaers.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Zy kraeien onweêr, eer het onweêr is geboren.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>De Moeder stapt vooruit. verwaerdigh haer te hooren.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>CORNELIA. NERO.</stage>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>Der Goden Moeder neem den Vorst in haer gena.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Die zelve wake om u, mevrouw Cornelia.</l>
+					</sp>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>De godtheit van Jupijn, en Juno met Minerve</l>
+						<l>Verletten Caesar, dat hy lang de starren derve:</l>
+						<l>Dat Rome lang geniet zijn tegenwoordigheit;</l>
+						<l>Waer van de Raet en 't Volck niet zonder tranen scheit.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Uit liefde en treck tot Raet, en Volck, en burgeryen,</l>
+						<l>Bemin ick hen, die ons den hemel zelf benyen,</l>
+						<l>Ten beste van 't gebiet. sta op met dezen stoet,</l>
+						<l>En spreeck vry overendt. wat pynight uw gemoedt?</l>
+					</sp>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>De slaperige Nacht, van mankop overladen,</l>
+						<l>Was ruim ten halven wege, en reedt met zachte raden,</l>
+						<l>Die nimmer kraecken, stil en knickebollend neêr;</l>
+						<l>Als wy het eeuwigh licht, met geurigh voetsel, weêr</l>
+						<l>Verquickten, naer den plicht, waer in wy noit ontbraecken.</l>
+						<l>'t Vergulde koorgewelf, vol weêrglans, scheen te blaecken</l>
+						<l>Van d'onverzuimbre vlam; en niemant loock een oogh,</l>
+						<l>Maer zong, of las, of badt, en sloegh 't gezicht om hoogh.</l>
+						<l>Wat beurt' er? een gedruis komt kruipen door den drempel,</l>
+						<l>En spoockt, en dwarrelt vast, rontom den wackren tempel.</l>
+						<l>Een lucht, die, recht naer 't vier, haer' keer ellengskens nam,</l>
+						<l>Verwaeit in 't eerst, doorklooft daer na die klare vlam,</l>
+						<l>En slorptze op 't lest; als had een geest dien gloet gezopen.</l>
+						<l>Wy Nonnen, op dat spook, aen 't schreeuwen, voort aen 't lopen.</l>
+						<l>De tempel galmde naer, op 't maeghdelijck gekerm.</l>
+						<l>O Moeder Vesta, neem uw dochters in uw scherm.</l>
+						<l>Valt hier, op sluimeren of slapen, 't minst vermoeden;</l>
+						<l>Aertspriester, straf ons vry met angelen en roeden.</l>
+						<l>O schendigh lasterstuck! och schreit vry overluit.</l>
+						<l>Mijn kinders, och och och, ons heiligh vier ging uit.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Ick houde u buiten schult. het spoockte in Vestaes kooren</l>
+						<l>Alleen niet, maer Jupijn liet zich daer boven hooren.</l>
+						<l>'t Onbluschbaer vier lagh, meer dan eenmael, uitgedooft.</l>
+					</sp>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>De blixem trof Minerve en Jupiter op 't hooft,</l>
+						<l>In hun gewijdt gebouw; gingk dal en heuvel strijcken;</l>
+						<l>Verzengende al de stat, of meer dan veertien wijcken;</l>
+						<l>Verbrande 't worstelperck; ontsloot Augustus graf.</l>
+						<l>Het heerlijck zegebeelt viel onlangs elders af.</l>
+						<l>'t Gelauwerierde hooft van Nero smolt tot klompen.</l>
+						<l>Natuur, na'et zwangergaen, broght hoofdelooze rompen</l>
+						<l>En dubble hoofden voort. een joffer baerde een slang.</l>
+						<l>'t Getroffen aertrijk schudde, en dreunde, in 't bree, in 't lang,</l>
+						<l>Van hier in Asien, en smeet de steên ter aerde.</l>
+						<l>De zon verborgh haer glans: 't welck duisternissen baerde,</l>
+						<l>En ons liet dolen, op het midden van den dagh.</l>
+						<l>Een offerreede stier, daer 't vier op 't outer lagh,</l>
+						<l>Versmeet het zout, en meel, met wreveligen horen;</l>
+						<l>Ontvloot des priesters bijl; en, loeiende van toren,</l>
+						<l>Wert, na veel hollens, veer van 't outer neergevelt:</l>
+						<l>Een yslijck voorspoock, dat geen lichte rampen spelt.</l>
+						<l>Het dier, met hooft aen been, huilt oproer, leert ons waken.</l>
+						<l>De zee, met storm op storm, afgrijsselijck aen 't braecken</l>
+						<l>Van zeegedroghten, joegh de visschers dootsch van strant.</l>
+						<l>De schouwburgh loeide, en 't hof. de hemel stont in brant,</l>
+						<l>En gloeide, meer dan eens, van langgestaerte starren,</l>
+						<l>Die met haer bloedigh hair den staet van 't Rijck verwarren.</l>
+						<l>Augustus wagen (als bewust van eenigh quaet)</l>
+						<l>Hiel in de renbaen stant, voor 't aenzicht van den Raet,</l>
+						<l>Die d'elephanten zagh verbaest staen, en verslegen.</l>
+						<l>Van Alba quam het bloet by beecken neergestegen.</l>
+						<l>De blixemstrael, gelijck een gulzige Harpy,</l>
+						<l>Beroofde 's Vorstendisch van zyne leckerny:</l>
+						<l>Al teeckens, die doorgaends van quaet tot erger neigen,</l>
+						<l>En, met een grimmigh oogh, den zuivren godtsdienst dreigen,</l>
+						<l>Met eenen Caesars stoel; 't en zy men eens ontwaeck,</l>
+						<l>Met Flamens ga te rade, of volgh Godts wichelspraeck;</l>
+						<l>Die, uitgeleert op klanck en merck van 's hemels letter,</l>
+						<l>Het lichaem dezer stadt wil zuivren van dien etter,</l>
+						<l>Waer uit een stanck verrijst, die allen Goôn verdriet;</l>
+						<l>Wier gramschap bluschbaer is, indien men voor zich ziet.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Wat zuiveroffer zou dees vesten kunnen vagen?</l>
+					</sp>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>Dit Galileesche rot, grontoirzaeck aller plagen.</l>
+						<l>Men vang dat offer strax van zyne hoofden aen:</l>
+						<l>Hoe wel 't gerecht van daegh behoorde stil te staen.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>De heilge Claudius, mijn vader, heeft de Joden</l>
+						<l>Met hunnen aenhangk, streng en hardt, de Stat verboden:</l>
+						<l>Wy, tegens 't Christensch schuim, de Vloecken opgeprest,</l>
+						<l>En stadts gestichten brant, met godtloos bloet, gelescht.</l>
+						<l>Door dat weerspannigh bloet, gemengt met kool en asschen,</l>
+						<l>Zijn alle vlecken rein en zuiver afgewasschen.</l>
+						<l>De Goden brouwen ons, om 't magere getal,</l>
+						<l>Een deerlijck overschot, geen wyder ongeval.</l>
+					</sp>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>Een ongedoofde kool, waer onder winden stoocken,</l>
+						<l>Gaet vreesselijcker aen, na'et smeulen, en nae 't smoocken.</l>
+						<l>Geen zorgelijcker brant dan een verborgen gloet.</l>
+						<l>De minste vonck, wanneer men 't allerminst vermoedt,</l>
+						<l>Verdelght een groote stat. geen euvel staet te vreezen</l>
+						<l>Zoo zeer, als 't geen men slof verwaerloost te genezen,</l>
+						<l>En dickwils komt om lit, ja om het gansche lijf</l>
+						<l>En leven van den mensch. Dees aenhangk treckt zoo stijf</l>
+						<l>Het snoer van zynen droom, in 't beckeneel begrepen;</l>
+						<l>Dat die in 't eerst het volck allengs met zich zal slepen,</l>
+						<l>Daer na Augustus zelf, en zoo den heelen staet.</l>
+						<l>Dees kancker kruipt al stil in 't hof, en in den Raet.</l>
+						<l>De keurebenden gaen niet vry van zulcke koortsen.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Men diende zich van hun by nacht in sté van toortsen,</l>
+						<l>En brande schoon'er uit dien stoockebranders aert.</l>
+						<l>Ghy zijt, voor ydel spoock, en schijn en schim, vervaert.</l>
+					</sp>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>Zy dreigen 't bloeiend Rijck met Jootsche wichleryen</l>
+						<l>Van 't wonderlijck beloop der wereltheerschappyen,</l>
+						<l>Verbeelt door zeker beelt van vierderley metael;</l>
+						<l>De voeten slechtst van stof, gemengt uit leem, en stael;</l>
+						<l>En hoe een kleine steen, maer zonder hant gereten</l>
+						<l>Van eenen bergh, dat beelt te pletter heb gesmeten,</l>
+						<l>En groeide tot een bergh, ja tot een' wereltkloot.</l>
+						<l>Wat Rome hoopt of niet, hun hoop is ruim zoo groot.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Een krancke troost, indienze ellendigh zijnde yet hopen.</l>
+					</sp>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>Zy hebben al het Rijck, zoo wijdt het paelt, doorkropen,</l>
+						<l>En stat en lant alom in rep en roer gebraght;</l>
+						<l>Als haters van de Goôn, en 't menschelijck geslacht.</l>
+						<l>Zoo schelt hen Asien, de Nijl met al zijn Goden,</l>
+						<l>En al het onroomsch bloet. zoo schelden hen de Joden,</l>
+						<l>En Griecken; en wat, van Jerusalem tot hier,</l>
+						<l>Ons kerckzeên viert, en volght; oock Moor en Arabier.</l>
+						<l>Dit zijnze, die ons Goôn en Caesars diensten weigeren,</l>
+						<l>En halssterck naer de lucht, als nieuwe reuzen, steigeren.</l>
+						<l>De priester van Jupijn heeft, met gekransten stier,</l>
+						<l>Dees Galileers geviert. Diane trilde schier,</l>
+						<l>In 't hollende Ephesus, op haer' gewyden drempel.</l>
+						<l>Athenens grijze school noch Pallas wyze tempel</l>
+						<l>Zijn naulix van die smet gelaten ongeschent.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>t' Athenen staen de school en kerck noch overendt.</l>
+						<l>Wie bouwt van 't slechte brein ons dus een wereltsch wonder?</l>
+					</sp>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>Hoe slecht men 't acht, hier duickt wat groots, wat heerschlust
+							onder.</l>
+						<l>Geveinsde ootmoedigheit is dubble hovaerdy;</l>
+						<l>Die walght van 't laegh, en vlamt op maght, en heerschappy,</l>
+						<l>En rijckdom, onder schijn van alles te versmaden;</l>
+						<l>Terwijl al Kroesus schat haer schatzucht kan verzaden</l>
+						<l>Noch stoppen; zee noch lant die scepterzucht bepaelt.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>De zon van Rome is tot die laeghte niet gedaelt,</l>
+						<l>Dat eenigh licht zich, aen de lucht, durf openbaren,</l>
+						<l>Op 't godlijck spoor, waer langs August quam opgevaren.</l>
+						<l>Oock staet ons nootlot vast, en schiet een schot hier voor.</l>
+					</sp>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>De Nazarener zaeit bedeckt de weerelt door</l>
+						<l>'t Verwaten zaet, den oegst, die t'effens op zal komen.</l>
+						<l>Een oude wyveklucht, verzieringen, en droomen</l>
+						<l>Geraecken in 't geloof. het lichtgeloovigh volck</l>
+						<l>Acht Wichlaer noch Sibyl, Hetrus noch hemeltolck,</l>
+						<l>Noch drievoet noch gordijn, noch Delphis noch zijn kooren;</l>
+						<l>Maer loopt dien onbesuisde, als Godts orakel, hooren,</l>
+						<l>En ziet hem naer den mont; die knaeght Apolloos eer.</l>
+						<l>Zijn riem ontbint de koorts. men zet de baren neêr,</l>
+						<l>En bedden in zijn schim, als gafze dooden 't leven.</l>
+						<l>Een visscher dreight quansuis ons Goden, datze beven.</l>
+						<l>Wy schopten doorgaends uit Aegypters, en Chaldeen,</l>
+						<l>Oock korts ons Stoïcyns: en lijt men dees Hebreen?</l>
+						<l>Beguichelaers van 't graeuw.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Wat's aen dit paer bedreven?</l>
+					</sp>
+					<sp who="#cornelia">
+						<speaker>Cornelia</speaker>
+						<l>Niet veel, wert dagelix hun' aenhangk niet gesteven,</l>
+						<l>Te water en te land, met brieven, of met boôn;</l>
+						<l>Gezwore lasteraers van Godtsdienst, en van Goôn.</l>
+						<l>Maeck ons d' aenleiders quyt, waer aen dees zwarmen hangen.</l>
+						<l>Ghy hebtze in uw gewout: maer waer toe dient dit vangen;</l>
+						<l>Indien men t'elckens spaer den vorst van 't horzelnest?</l>
+						<l>Verplet dit hooft: verstroy dees onderaertsche pest,</l>
+						<l>Gewoon, by al wat rot, en zielloos aes te groeien.</l>
+						<l>Wat snoot, wat schendigh is wil hier wel t'zamenvloeien,</l>
+						<l>Daer 't licht in aenzien stijght, 't en zy het werd gebluscht.</l>
+						<l>Nu spreeck ick niet als met den naezaet van August,</l>
+						<l>Maer den Hooftpriester zelf, wien 't vierigh past te waken,</l>
+						<l>Als 't oogh der goddelijcke en menschelijcke zaken;</l>
+						<l>Op dat men 't hemelsch Recht toch niets ontreck ter sluick,</l>
+						<l>Door 't sloffen in 't aelout voorvaderlijck gebruick,</l>
+						<l>En aenwenst van yet nieuws, zoo driftigh en onzeker.</l>
+						<l>d' Oprechte Numa stelde u tot een yvrigh wreker,</l>
+						<l>En rechter, over al, wat zich te buiten gaet.</l>
+						<l>Ghy zijt de kopre zuil, op wien die godtsdienst staet,</l>
+						<l>Waer by dees Stat, gesticht tot een vooghdes der volcken,</l>
+						<l>Achthondert jaren stont, en uitsteeckt door de wolcken,</l>
+						<l>Met haer' geblutsten helm, en vreesselijcke speer;</l>
+						<l>Voor wie de koningen op 't aenzicht vallen neêr;</l>
+						<l>Of treuren, hangends hoofts, getemt door nederlagen,</l>
+						<l>En slepen d' ysre boey, voor haren gouden wagen.</l>
+						<l>Zy bid u, zy beveelt u dezer beider straf.</l>
+						<l>Zy roept: och keert die schant van mijn altaren af,</l>
+						<l>En kercken. Draegh toch zorgh voor kerckzeên, en geboden</l>
+						<l>Van Numa. laet niet toe, dat Rome, een stoel der Goden,</l>
+						<l>En aller heiligheit, onteert werde, en ontwijt,</l>
+						<l>Door dees wanschapenheên, gebroetsels van den Nijt;</l>
+						<l>Die loos, ontveinzende zijn aengebore nucken,</l>
+						<l>Dat goddelijck cieraet u van de kruin wil rucken,</l>
+						<l>En heerschen op dien troon, u wettigh toegeleit.</l>
+						<l>Stathouder van Jupijn, en van zijn Majesteit,</l>
+						<l>Ghy ziet, hoe onze en al der Priestren oogen leken:</l>
+						<l>Nadien de tong bezwijckt, laet aller tranen spreken.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Nu Moeder, zijt getroost. 'k heb uw verzoeck verhoort.</l>
+						<l>Agrip, men vaer terstont met dees gevangens voort.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<stage>REY VAN GEKERSTENDE SOLDATEN.</stage>
+					<sp who="#rey">
+						<speaker>Zang</speaker>
+						<l>Geen Gallen leidden lest de Stat in kolen,</l>
+						<l>O neen; maer ingeboren bloet</l>
+						<l>Zagh stil, en met een' koelen moedt,</l>
+						<l>Zijn torts zes etmael langk gaen ommedolen;</l>
+						<l>Dan in de dalen, dan gezwint om hoogh,</l>
+						<l>De bergen op, de starren licken,</l>
+						<l>Met gloende tongen; roock verdicken,</l>
+						<l>En smoock verdunnen, onder 's hemels boogh;</l>
+						<l>De vlam dan weder flackren, als herboren,</l>
+						<l>Door 't overslaen, van rack in rack.</l>
+						<l>Hier gaf een hof of kerck een' krack:</l>
+						<l>Daer borsten muuren: ginder storte een toren.</l>
+						<l>Het volck aen 't bergen, ginswaert op, dan hier,</l>
+						<l>Maer al vergeefs. Vulcaen voer spelen,</l>
+						<l>En teerde op stats twee derdedeelen.</l>
+						<l>Geleeck toen Rome niet een zee van vier?</l>
+						<l>O ydelheit der hoven,</l>
+						<l>Aen lucht aen asch aen roock aen stof verstoven.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Tegenzang</speaker>
+						<l>Hy, zoet op 't blaecken, past op klaght noch kryter,</l>
+						<l>Schept adem in dat vierprieel,</l>
+						<l>Een deerlijck kostelijck tooneel;</l>
+						<l>En stelt op 't kermen der gemeent zijn cyter.</l>
+						<l>Hy ziet den Tiber nu voor Xanthus aen,</l>
+						<l>Waer in de brant zijn weerga schildert.</l>
+						<l>Hy ziet het volck, verbaest, verwildert,</l>
+						<l>Op straten, daecken, 't onheil tegenstaen;</l>
+						<l>Of bleecke wanhoop in den viere springen;</l>
+						<l>Den kleinen neef, aen Panthus hant,</l>
+						<l>Vast rucken naer 't Sigeesche strant;</l>
+						<l>Gedrang van schimmen dootsch te poort uit dringen;</l>
+						<l>En sticht op 't bernen vast, in zynen zin,</l>
+						<l>Een nieuw palais, en schooner straten.</l>
+						<l>Zijn brein, alreede als uitgelaten</l>
+						<l>Met bouwen, brockt'er koningkrijcken in:</l>
+						<l>En, hooger in zijn wapen,</l>
+						<l>Acht alle dingk om een alleen geschapen.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Toezang</speaker>
+						<l>Op smoockend puin, en kool, noch ongedooft</l>
+						<l>Zit zijn Quirijner, van gedult berooft,</l>
+						<l>Met jammerlijck misbaer,</l>
+						<l>De handen in het hair,</l>
+						<l>Bestroit met gruizige asch;</l>
+						<l>En schreit een' bittren plas,</l>
+						<l>Of knarssende op zijn' tant,</l>
+						<l>Vervloeckt den stokebrant;</l>
+						<l>Die, om de wraeck te sussen,</l>
+						<l>De glimmende asch durf blussen</l>
+						<l>Met Christensch bloet, dat eeuwigh klaeght,</l>
+						<l>Door duizent dooden heengejaeght,</l>
+						<l>Met ongemat gedult:</l>
+						<l>Maer yeder schuift de schult</l>
+						<l>Op een', die 't nu ontschuldighde getal,</l>
+						<l>Gehaet als godtloos overal,</l>
+						<l>Verdoet zijn' lust, niet hunliên, te geval.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="3">
+				<head>Het derde bedryf.</head>
+				<div type="scene" n="1">
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Nu springt van vreugt mijn hart, ontboeit van duizent zorgen.</l>
+						<l>Ick heb, ter goeder uur, d'Apostels juist geborgen,</l>
+						<l>Toen hun die donckre wolck des doots hing over 't hooft.</l>
+						<l>O Engel, die hen leide, o leitsman, zij gelooft.</l>
+						<l>Ick zagh al bevende van achter, hoe zy traden</l>
+						<l>Ter poorte uit, door de wacht. hoe was mijn geest beladen!</l>
+						<l>Hoe hing aen yeder hair, van angst, een druppel zweet!</l>
+						<l>Al wat my voorquam green afgrijslijck, wreêr dan wreet.</l>
+						<l>'k Geloof dat Engelen des wakers oogh misleidden;</l>
+						<l>Of sluiers, dun van mist, om 't hooft der Helden spreidden.</l>
+						<l>Zy raeckten veiligh uit. hun uytgangk viel my zuur,</l>
+						<l>Die, al beklemt om 't hart, liep kijcken op stats muur,</l>
+						<l>Zoo veer het oogh, op 't spoor van Appius, kon reicken.</l>
+						<l>'k Vernam geen onraet meer, noch eenigh droevigh teicken,</l>
+						<l>Tot datze uit mijn gezicht, met druppelen bedouwt,</l>
+						<l>Verdwenen, daer de steen des mijlpaels schiltwacht houdt.</l>
+						<l>Hoe zwaerlick kon men hen tot deze vlught bewegen!</l>
+						<l>Wat dronck de dorstige aerde een' al te bittren regen</l>
+						<l>Van tranen, eer de drang der vromen hun gemoedt</l>
+						<l>Kon scheuren, van die schaer; by wie zy ziel en bloet,</l>
+						<l>En lijf en leven zich getroostten op te zetten;</l>
+						<l>Te vliegen, zonder schrick, in d'uitgespanne netten.</l>
+						<l>Hoe queet zich Aquila, Marcel, Lucijn, Priscil;</l>
+						<l>Hier Titus, Lukas; daer d'aenhoudende Plautil.</l>
+						<l>Wat zocht hun Cletus niet, wat Clemens in te scherpen.</l>
+						<l>Hoe pooghde Linus daer hen over stagh te werpen.</l>
+						<l>Nu springt mijn hart van vreugt. wat moeite en zweet het kost,</l>
+						<l>Zy zijn, ter rechte tijdt, uit dootsgevaer verlost,</l>
+						<l>Kan ick mijn blyschap wel verzwelgen, ofte heelen?</l>
+						<l>Wiens trouwe zal mijn mont zijn blyschap mededeelen?</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>PETER. PAUWELS. PETRONEL.</stage>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Hier zijn wy wederom.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Dat geldt zo recht naer 't hof.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>O Jesus, wat komt hier? wie geeft my weder stof</l>
+						<l>Tot schricken? zijt ghy 't zelf? of is 't uw geest, mijn Vader?</l>
+						<l>O Vaders, zijt ghy 't zelfs?</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Verschrick niet: tre vry nader.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Wat reuckeloosheit voert u in den jongsten noodt?</l>
+						<l>Och gaet niet voort: ghy gaet in een gewisse doot.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Die zoecken wy.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Ick sterf. ghy hoeft haer niet te zoeken,</l>
+						<l>Zy komt u t'huis van zelf, en loert uit alle hoecken</l>
+						<l>Der stede. och Vaders, och, wat jaeght u stewaert aen?</l>
+						<l>De krijghsliên zoecken u: want Caesar had verstaen,</l>
+						<l>Hoe ghy, ter sluick, by nacht, met list waert uitgebroken.</l>
+						<l>De wakers lyden last, indien het wort geroken,</l>
+						<l>Wie uwe boeien heb door zyne trouw geslaeckt.</l>
+						<l>De Hel heeft heiligh en onheiligh opgemaeckt,</l>
+						<l>Om Neroos gramschap, die gedooft scheen, weer t'ontsteken;</l>
+						<l>En houdt het voor gewis uw vonnis leit gestreken.</l>
+						<l>Proces, Martiniaen zijn (zoo men zeit) alree,</l>
+						<l>Ontboden voor Agrip, op 't missen van u twee.</l>
+						<l>'t En zy die beide van uw uitkomst reden geven,</l>
+						<l>En klaer bescheit; 't is omgekomen met hun leven.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Zoo stellen wy ons best voor hunliên in, als borgh.</l>
+					</sp>
+
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Och Vaders, duickt terstont. verlost mijn hart van zorgh.</l>
+						<l>Het uiterste gevaer leerde u mijn trouw beproeven;</l>
+						<l>En komt ghy my daer voor zoo hartelijck bedroeven?</l>
+						<l>Wee my! wat ga ick aen? och mannen, vlught van hier.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Rechtschape hopliên past te volgen de banier</l>
+						<l>En standert, dien zy trouw, in 't heiligh water zwoeren;</l>
+						<l>Te vechten, daer het hooft des heirs hen aen wil voeren.</l>
+						<l>Wy keeren in den strijt, door Christus eigen last.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Wat tael is dat? hier zijn verborgentheên aen vast.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>De Hertogh van Godts heir gemoete ons beide weder.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Mijn hart wort koudt. ick zwijm: och zet my hier wat neder.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Nu dochter, zijt gerust. 't is nu geen treurens tijdt.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Wie jaeght u wederom in 't bangste van den strijt?</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Wy zeggen Christus stuurt zijn boden herwaert henen.</l>
+						<l>Wy hoorden Jesus stem. hy is ons zelf verschenen.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Verhaelt dan waer, en hoe de Heilant u ontmoet.</l>
+						<l>Beschryft my zijn gedaente, en geef mijn hoop wat voet.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Zoo ras wy beide ontrent den eersten mijlpael quamen,</l>
+						<l>En voor noch achter ons yet zorghelijx vernamen;</l>
+						<l>Begon een zwarte wolck, een dicke donkre lucht,</l>
+						<l>Te daelen op den wegh; van waer een zwaere zucht,</l>
+						<l>Gelijck van een ter doot bedroefde, zich liet hooren.</l>
+						<l>Toen quam ons een gesteen tot driemael toe ter ooren.</l>
+						<l>Wy hielden, op 't gesteen en zuchten, t'zamen stant,</l>
+						<l>En vatten, wat beducht, malkandren hant aen hant.</l>
+						<l>Terwijl de zinnen dus vast opgespannen waren,</l>
+						<l>Begon die bruine wolck allengskens op te klaren,</l>
+						<l>(Gelijck de hemel in het kriecken van den dagh)</l>
+						<l>Tot datm'er in en door, en yet in roeren zagh,</l>
+						<l>'t Geen naer yet menschlijx zweemde; en wy, die vierigh baden,</l>
+						<l>Vernamen, na een poos, den Kruisvorst, overladen</l>
+						<l>Met zijn altaer, het kruis, dat van de schouder hing;</l>
+						<l>Een last, waer onder hy gekromt en buckend ging,</l>
+						<l>En hijghde al ademloos; terwijl de dorens pramen</l>
+						<l>'t Gekroont en hangend hooft; de pijnelijcke stramen</l>
+						<l>Der doorgeslage borst vast leken, en het zweet</l>
+						<l>Vermengen met zijn bloet; dat in den zoom van 't kleet</l>
+						<l>Komt vloeien, langs den hals, door 't hair, door al de leden;</l>
+						<l>En sleept al zijpende de geesten naer beneden.</l>
+						<l>De mont stont op van pijn. de lippen zwollen dick,</l>
+						<l>En paers, en blaeuw. 't gezicht gaf glinsterende een' blick</l>
+						<l>Van water, hier en daer noch drupplende op de wangen.</l>
+						<l>De winckbraeuw zackte op 't oogh, en scheen verslenst van 't hangen.</l>
+						<l>Men zagh gedult, gemengt met pijn en moedt, in hem.</l>
+						<l>In 't kort hy kroop, gelijck weleer Jerusalem,</l>
+						<l>En drie Marien, en wat noch zijn' kruisgangk deerde</l>
+						<l>Hem zagen, in dien schijn, toen hy zich ommekeerde,</l>
+						<l>En aen dien vrouwesleep, een dun een teer getal,</l>
+						<l>d' Aenstaende straf voorzey, en stats gedreighden val.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>O Jesus, gaet uw geest in die gestalte waeren?</l>
+						<l>d' Olijfbergh zagh u zoo niet op de wolcken varen.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Noch zoo verkeerde hy, op Thabor, in een zon,</l>
+						<l>Waer tegens mijn gezicht en oogh niet opzien kon.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Noch zoo verscheen hy my, die kerckers klingen koorden</l>
+						<l>Gereet had, om zijn volck te martelen, te moorden.</l>
+					</sp>
+
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Zoo scheen zijn staet verkeert, op een bedruckte wijs.</l>
+						<l>Mijn hairen staen te bergh, ick stockstijf, koudt als ijs.</l>
+						<l>'k Vermanme in 't einde, en vraegh: mijn heer, mijn Godt, waer henen?</l>
+						<l>Waer leit uw reis, mijn troost? hy antwoorde eerst met stenen,</l>
+						<l>Geborsten uit een hart, dat van benaeutheit sluit.</l>
+						<l>Ten leste borst zijn stem, doch flaeuw en heesch, dus uit:</l>
+						<l>Dat gaet naer Rome, om my noch eens te laten kruissen.</l>
+						<l>Strax hoorde ick, in de lucht, gesnor van vleuglen ruisschen;</l>
+						<l>En al 't gezicht verstoof verdween, voor mijn gezicht,</l>
+						<l>Door Jesus aenzicht dus geheldert, en verlicht.</l>
+						<l>Dat moedight my ter doot. men keert daer op te stouter</l>
+						<l>Naer stadt, daer Godt ons eischt ten offer, en ten outer.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Och anders schickt de mensch, en anders schickt het Godt.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>d' Alziende spelde my dit kruis, dit martellot,</l>
+						<l>Al overlang, niet lang na dat, aen 't hout ontslapen,</l>
+						<l>En 't nare graf ontruckt, zijn koy, zijn kudde schapen,</l>
+						<l>Niet eens, maer driewerf, bleef bevolen mijnen staf;</l>
+						<l>Toen hy my liefde verghde, en ick hem antwoort gaf.</l>
+						<l>Mijn trouwste leerling, sprack de Meester, die noit ruste,</l>
+						<l>Ghy gorde u, in uw jeught, en gingt, waer 't u geluste;</l>
+						<l>Maer in uw' ouderdom zult ghy, dees handen langk</l>
+						<l>Uitstreckende, en gegort van andren, uwen gangk</l>
+						<l>Eens zetten derwaert, daer 't hun lust u heen te leien.</l>
+						<l>Nu wort dit rijp. die kelck was my van toen bescheien.</l>
+						<l>'t Wil tijdt zijn, dat ick eens verhuize uit 's lichaems tent.</l>
+						<l>Godt roept my tot dit kruis. mijn baen is afgerent.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>En ick voorzagh al lang mijn offerhand genaken.</l>
+						<l>Mijn loopstrijt zal terstont het vrolijck einde raecken.</l>
+						<l>My dunckt 'k verander al in goddelijck gestalt.</l>
+					</sp>
+
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>En ick gevoel, helaes! hoe bitter 't scheiden valt.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Nu dochter, staeck dien rouw, en vollegh ons niet verder.</l>
+						<l>Gehoorzaem Linus nu, verwillight tot een' herder,</l>
+						<l>Nadien hem Clemens 't lot van mijnen zetel gunt.</l>
+						<l>Verquickt u onderling, ten beste dat ghy kunt.</l>
+						<l>d' Alziende waeckt met troost voor zijne schare, in 't midden</l>
+						<l>Van allerley verdriet. wy zullen voor haer bidden.</l>
+						<l>'t Is noodigh dat wy gaen, daer Godt ons henen zent.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Ick hoop u evenwel te spreken, voor het endt,</l>
+						<l>En scheide, maer met smert. och Vaders, ghy gaet sterven.</l>
+						<l>Och och, wat valt het zwaer uw aengezicht te derven!</l>
+						<l>Doch nietemin, nadien 't mijn Koningk zelf gebiet;</l>
+						<l>Volbrengt zijn noodtgebodt, gaet heene, ick houde u niet.</l>
+						<l>Ick hindert niet. gaet heen, 't gedy tot Jesus eere.</l>
+						<l>'t Zy verre dat men u in 't heiligh opzet keere.</l>
+						<l>De wettige eigenaer van lijf en ziel alleen</l>
+						<l>Is Godt; die eischtze beide, o Vaders, gaet dan heen,</l>
+						<l>Als offerlammers; naer die slaghtbanck, u beschoren.</l>
+						<l>Wy zijn tot zulck een kroon niet altemael geboren.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>AGRIPPA. PROCES. MARTINIAEN.</stage>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Men vont geen breuck, aen muur noch poort, noch eenigh slot</l>
+						<l>Des kerckers. o wat hoon! dit schijnt in ernst gespot</l>
+						<l>Met Caesar, dat men durf zijn halsgevangens slaken,</l>
+						<l>In spijt van 't wachthuis zelf, daer zoo veel oogen waken.</l>
+						<l>Ick heb Proces gedaeght, en oock Martiniaen,</l>
+						<l>De hoofden van de wacht. hoe euvel wil 't vergaen,</l>
+						<l>Indienze beide niet van 't onheil reden geven?</l>
+						<l>Ick zweer gansch Rome wil van zulck een straffe beven;</l>
+						<l>Wanneer ick 't al, wat hier om heind was of ontrent,</l>
+						<l>Ten nutten spiegel stel: gelijck men is gewent</l>
+						<l>Te straffen, al de geen, die zoo meineedigh handelen,</l>
+						<l>En, eerloos in den aert, voor trouwe dienaers wandelen.</l>
+						<l>Daer komenze. 'k zal eerst, uitvarende al gestoort,</l>
+						<l>En gaslaende elx gebaer, hen vatten woort voor woort;</l>
+						<l>Of ickze listigh kon verbluffen, of verstricken.</l>
+						<l>Meineedigen, durft ghy, en zonder eens te schricken,</l>
+						<l>Verschijnen voor Agrip, dien ghy te leure stelt?</l>
+						<l>Wanneer ghy, omgezet, en omgekocht met gelt,</l>
+						<l>Of errefvyanden des Roomschen keizers gunstigh,</l>
+						<l>By nacht gevangens slaeckt, zoo meesterlijck en kunstigh:</l>
+						<l>Terwijl de meester slaept, op uw gezwore trouw,</l>
+						<l>Veel vaster dan op muur, of slotwerck, of gebouw.</l>
+						<l>Dat stuck zou menschen min dan logge honden passen;</l>
+						<l>Die wecken, in gevaer, den meester noch met bassen,</l>
+						<l>En jancken; daer ghy zwijght, als in den wijn versmoort.</l>
+						<l>Ick zweer.</l>
+					</sp>
+					<sp who="#proces">
+						<speaker>Proces</speaker>
+						<l>Noch heeft mijn heer onze onschult niet gehoort.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Wat onschult grijpt hier plaets?</l>
+					</sp>
+					<sp who="#martiniaen">
+						<speaker>Martiniaen</speaker>
+						<l>Ten minste hoor ons spreken.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Wat spreken? zeght my flux, wie heeft dit stuck besteken?</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<stage>PETER. PAUWELS. AGRIPPA.</stage>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Myn heer, ick ben die man, om wien ghy u zoo steurt.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Men schuif de schult op my, indien hier is verbeurt.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Zeght op, hoe hebt ghy 't lijf des kerkers klaeuw ontwrongen.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Ick vondt den kercker op, en ben zoo uitgesprongen.</l>
+					</sp>
+
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Wie bootst de sleutels na van 't naeuw ontsluitbre slot?</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Wat sluitbaar is, ontsluit d' almogentheit van Godt.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Zijt ghy ons Goden dan en 't heiligh Recht ontwossen?</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>'t Valt mijn' Verlosser licht zijn dienaers te verlossen.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>'t Is om de streeck van zes en twintigh jaer geleên,</l>
+						<l>Dat Cesar Claudius den scepter van Judeen</l>
+						<l>En heel Samarien Herodes gaf te dragen;</l>
+						<l>Die, om den blinden haet der Joden te behagen,</l>
+						<l>Het hooft van Godts gezant dorst rollen in het stof;</l>
+						<l>En my, een' slechten roof, den toren van zijn hof,</l>
+						<l>En acht paer wakers, gaeuw als afgerechte valcken,</l>
+						<l>Vertroude, op dat men hem zou mompen noch verschalcken.</l>
+						<l>Jerusalem hiel feest. mijn kudde vaste, en badt</l>
+						<l>Den Heilant aen, om hulp, toen ick gevangen zat.</l>
+						<l>De nacht gaet voor den dagh, die my ten toon wil stellen.</l>
+						<l>Veel vege teeckens niet dan dootse rampen spellen.</l>
+						<l>Twee ketens binden 't lijf wel vast; de geest blijft vry.</l>
+						<l>De wacht bewaert de poort; een krijghsman elcke zy:</l>
+						<l>Wanneer het duistre hol des kerckers wordt beschenen</l>
+						<l>Van 't licht des Engels, die my weckt, en roept: ga henen.</l>
+						<l>Schiet aen, omgort uw kleet: treckt ras de schoenen aen.</l>
+						<l>Ick strijck de kluisters af, en stel my om te gaen,</l>
+						<l>Als in een' zoeten droom, door d' eerste en tweede wachter.</l>
+						<l>Mijn leitstar stapt vooruit; ick volgh haer' glans van achter,</l>
+						<l>En koom aen d'ysre poort, die opspringht voor mijn oogh.</l>
+						<l>Ick kies de stat. de Geest verdwijnt, en vlieght zoo hoogh,</l>
+						<l>Als d'offerhande stijght van myne danckbre lippen.</l>
+					</sp>
+
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Ick raeckte in hechtenis, in 't Macedoonsche Phlippen,</l>
+						<l>Om een waerzeggeres, by den gebedestroom,</l>
+						<l>Door Jesus grooten naem, verlost van 's afgodts toom;</l>
+						<l>Waer by haer heeren lang geen magre winst genoten.</l>
+						<l>Ick zat'er in den stock met Silas 's nachts gesloten.</l>
+						<l>Het bloet droop langs het streng gegeesselt lichaem af.</l>
+						<l>De lippen roerden vast, en zongen; 't zingen gaf</l>
+						<l>Een' goddelijcken galm, die boven uit den toren,</l>
+						<l>Recht opsteegh door de lucht, door zoo veel hemelkooren,</l>
+						<l>In 't juichend Paradijs; daer ick met lijf en geest,</l>
+						<l>Of, buiten 't lijf, met geest of zinnen ben geweest.</l>
+						<l>Terstont begon de gront, op d'aendacht der twee bidderen,</l>
+						<l>Gelijck van schrick geraeckt, te daveren, te tsidderen:</l>
+						<l>Toen volghde 't rammelen van koper yzer stael.</l>
+						<l>De deuren knarsten eerst op tanden van metael,</l>
+						<l>En sprongen echter op: cipier en wakers wacker.</l>
+						<l>De stockbewaerder, bang voor my, voor mynen macker;</l>
+						<l>Stack op; en, wanende dat al de kercker vloodt,</l>
+						<l>Greep 't uitgeruckte zwaert, en dreighde zich de doot.</l>
+						<l>Ick riep: verschoon uw ziel: wy zitten hier te zamen.</l>
+						<l>Hy vloogh met licht'er in, en wiesch ons roode stramen,</l>
+						<l>En viel ons bey te voet, met zijn herboren huis;</l>
+						<l>Het welck, vol blyschap, roemde in Christus doot, en kruis.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Ghy trouweloozen, zoeckt uw' moetwil te verbloemen,</l>
+						<l>Maer zult vergeefs op kruis en doode Goden roemen.</l>
+						<l>Trauwanten, boeit Proces, en boeit Martiniaen,</l>
+						<l>Op dat men boezem zulck een lasterlijck bestaen.</l>
+						<l>Verleert dit vlughtigh paer zijn vlught met scherpe roeden,</l>
+						<l>En leit het dan voor ons. men koelt die koorts met bloeden.</l>
+					</sp>
+
+				</div>
+				<div type="scene" n="5">
+					<stage> </stage>
+					<sp who="#rey">
+						<speaker>Zang</speaker>
+						<l>Hoe menigh Christen zagen wy</l>
+						<l>Aen 't kruis al levend hangen,</l>
+						<l>En d'oogen met verlangen</l>
+						<l>Naer Christus slaen, getroost en bly?</l>
+						<l>Hoe menigh in een hartevel</l>
+						<l>Of borstelen gesteken,</l>
+						<l>En by een wildt geleken,</l>
+						<l>Verstrecken voor een guichelspel</l>
+						<l>Der wreetheit, zoet op Christenjaght,</l>
+						<l>Met losgelate honden;</l>
+						<l>Te godtloos aengeschonden</l>
+						<l>Op Godts geduldighste geslacht?</l>
+						<l>Hoe menigh wert in 't diereperck</l>
+						<l>Den luypert voorgeworpen,</l>
+						<l>Verhit om bloet te slorpen?</l>
+						<l>Aldus voltrock de dagh zijn werck.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Tegenzang</speaker>
+						<l>Maer 's avonts gaet het vieren aen</l>
+						<l>Met menschen, die, op staken</l>
+						<l>Gespit, als fackels blaken,</l>
+						<l>En in geteerde rocken braên,</l>
+						<l>Of flackeren in wasseklêen.</l>
+						<l>Hoe gloeien 's Vorsten hoven</l>
+						<l>Van vier, gelijck een oven!</l>
+						<l>Was 't Heidensch hart toen stael of steen,</l>
+						<l>Dat het niet smolt in zulck een' gloet?</l>
+						<l>Ons docht, wy zagen Engelen</l>
+						<l>Zich in die vlamme mengelen.</l>
+						<l>Wat schael vol geuren rieckt zoo zoet</l>
+						<l>Voor Jesus, als die bittre smoock</l>
+						<l>Van zijne liefste panden:</l>
+						<l>O zalige offerhanden!</l>
+						<l>O Godtbehaeghelijcke roock!</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Toezang</speaker>
+						<l>Nu geven willigh zich ten roof</l>
+						<l>De standertdragers van 't beproeft geloof;</l>
+						<l>Niet als ons Decien, om eigen roem,</l>
+						<l>Van korten duur, gelijck een bloem;</l>
+						<l>Maer om Godts eer. wat klinckt'er beter?</l>
+						<l>En niet te min de Faem</l>
+						<l>Met haer bazuin zal zwellen op hun' naem,</l>
+						<l>En eeuwigh zwanger gaen van Pauwels, en van Peter.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="4">
+				<head>Het vierde bedryf.</head>
+				<div type="scene" n="1">
+					<stage>PLAUTIL. PETRONEL.</stage>
+					<sp who="#plautil">
+						<speaker>Plautil</speaker>
+						<l>Och dochter, och ik hoor het snerpen van de roên.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Zoo most de hemelsche om den aertschen Adam bloên,</l>
+						<l>Eer hy in 't rechthuis van den rechter was verwezen.</l>
+						<l>Zijn stramen hebben ons, ter goeder uur, genezen.</l>
+						<l>Och spaert d'onnozelen. o hartepijn, o smert!</l>
+					</sp>
+					<sp who="#plautil">
+						<speaker>Plautil</speaker>
+						<l>Och al t' onmenschlijck slaen. dat grizelt door mijn hart.</l>
+						<l>Och geessels, stramen och, och kostelijcke wonden.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Och pylers, die nu houdt geknevelt, en gebonden</l>
+						<l>De hooftpylaren zelfs van 't rijzend hooftgebouw,</l>
+						<l>Gemetst met bloedigh kalck; die proef doet van zijn trouw</l>
+						<l>Veel beter dan tiras: tyrannige pylaren,</l>
+						<l>Het kan gebeuren, dat ghy, over duizent jaren,</l>
+						<l>Noch tuigen streckt van 't leet, 't welck 's hemels eerste boôn</l>
+						<l>Nu uitstaen onvertsaeght; daer hun de martelkroon</l>
+						<l>Alree zoo troostelijck van verre straelt in d' oogen;</l>
+						<l>Een kroon, die, tegens goudt en diamant gewogen,</l>
+						<l>Den prijs behoudt. wel hem, die zulck een kroon verkiest,</l>
+						<l>Daer Caesars lauwerkrans zijn' luister by verliest.</l>
+					</sp>
+					<sp who="#plautil">
+						<speaker>Plautil</speaker>
+						<l>Het geesselen houdt op: men zal met hun voort doorgaen.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Kom, laet ons, naer de poort van Ostie, vast voorgaen.</l>
+					</sp>
+
+				</div>
+				<div type="scene" n="2">
+					<stage>AGRIPPA. PETER. PAUWELS.</stage>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Nadien dit paer om strijt 's Gekruistens aenhangk stijft;</l>
+						<l>Al 't Rijck in oproer houdt; zijn razernyen drijft;</l>
+						<l>Verbastert Stats gewoonte, en Numaes oude zeden;</l>
+						<l>Veroirzaeckt Simons val, door schendige gebeden;</l>
+						<l>Ons Joffers tot vervloeckte en blinde Hymens raet;</l>
+						<l>En sleept in 't vloeckverbont den amptheer, en soldaet,</l>
+						<l>En wat het listigh kan betovren, en belezen;</l>
+						<l>Zoo wort het bey ter doot, in 's Vorsten naem, verwezen.</l>
+						<l>De Bethsaïder sterve, als slaef, aen 't kruis gehecht.</l>
+						<l>Den Tharser gun men 't zwaert, uit kracht van 't burgerrecht.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>Hoe lieflijck klinckt die stem! van waer komt my die zegen?</l>
+						<l>De neergedaelde is, langs die ladder, opgestegen,</l>
+						<l>Door alle heemlen heen, ten hemel. o mijn Godt!</l>
+						<l>Van waer komt my dit goet, dit onverdiende lot?</l>
+						<l>O sleutel van het Kruis, ontsluit my 's hemels deuren.</l>
+						<l>Wien van ons twaleftal moght zulck een eer gebeuren.</l>
+						<l>Ick kus die schoone doot. hoe maecktze my gelijck</l>
+						<l>Den koningk, die dat langs zich zette in't hooghste Rijck.</l>
+					</sp>
+					<sp who="#pauwels">
+						<speaker>Pauwels</speaker>
+						<l>Zoo wort, ter goeder uur, de moede ziel ontbonden</l>
+						<l>Van 's lichaems lastigh pack, en vaert, door lieve wonden,</l>
+						<l>Haer' oirsprongk te gemoet, gelijck een hemelvlam.</l>
+						<l>De heilighste, die oit van vrouw ter weerelt quam,</l>
+						<l>En d' allergrootste ziel, en zuiverste in Godts oogen,</l>
+						<l>Voer zoo ter halsaêr uit, naer d' onbezwalckte bogen;</l>
+						<l>Terwijl de romp vast bloede, in zijn gevangkenis,</l>
+						<l>En 't lachend hooft de wraeck verzade, op 's konings disch.</l>
+						<l>Zoo tradt sint Jakob voor. hy moedight my, in 't knielen.</l>
+						<l>Soldaten, helpt my strax by 't zaligh tal der zielen,</l>
+						<l>En ruckt de sabel vry kloeckmoedigh uit de schee.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>'k Verzoeck slechts op August een vriendelijcke bé,</l>
+						<l>En wenschte, met meer smaet, en smert en pijn, te sterven.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Laet hooren, leit het zoo, dat kunt ghy licht verwerven.</l>
+					</sp>
+					<sp who="#peter">
+						<speaker>Peter</speaker>
+						<l>'k Heb mijn' gekruisten Vorst verlochent, in zijn noot,</l>
+						<l>My zelf onwaert gemaeckt aan d'eere zijner doot,</l>
+						<l>Het triomfeerend Kruis; en wensch die schult te boeten.</l>
+						<l>Men hang my dan om hoogh ten hemel, by de voeten;</l>
+						<l>En met dit schuldigh hooft, dien Godtvergeten mont,</l>
+						<l>Die driewerf Godt verzwoer, beneden, naer den gront;</l>
+						<l>Als een die wel verdien ten afgront neêr te daelen,</l>
+						<l>Versteken van den glans der zaligende stralen.</l>
+						<l>Dit's 't eenigh dat ick bid: vergun my die gena.</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Zy wort u toegestaen. nu voort, en rept u dra.</l>
+						<l>Dit Krijgsvolck wacht, om u naer 't hoogh gerecht te leiden.</l>
+						<l>Trauwanten, leit hen wech. men quist slechts tijdt met beiden.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>REY VAN GEKERSTENDE SOLDATEN.</stage>
+					<sp who="#rey">
+						<speaker>Zang</speaker>
+						<l>Och, of 't geoorlooft waer,</l>
+						<l>Op 't Apostolisch spoor, te blussen</l>
+						<l>Zijn' yver, met godtvruchtigh kussen</l>
+						<l>Der voetstappen van 't lijdzaem paer;</l>
+						<l>En elcken voetstap, met</l>
+						<l>Bedruckte tranen, te besprengen;</l>
+						<l>Ja tranen met hun bloet te mengen,</l>
+						<l>En uit te storten ons gebet;</l>
+						<l>Daer dat doorluchtigh root</l>
+						<l>Zal vloeien, uit zoo heilige aderen.</l>
+						<l>O Stat, heeft een wolvin uw Vaderen</l>
+						<l>Gelickt, gezooght; waerom verstoot</l>
+						<l>Ghy, grimmiger van aert,</l>
+						<l>Dees Vaders? och! waer sleept ghy henen</l>
+						<l>De Meesters, die, met eedler steenen,</l>
+						<l>Uw muuren trecken hemelwaert?</l>
+						<l>Van waer uw Godtsdienst, door de wolcken,</l>
+						<l>Wort toegeblazen allen volcken.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Tegenzang</speaker>
+						<l>Het Heidensch Rome most</l>
+						<l>Van outs, door bloet, zijn grootheit baren,</l>
+						<l>En oorloogh blazen zoo veel jaren:</l>
+						<l>Dat heeft van Remus af begost;</l>
+						<l>Van dat de broeder sloegh</l>
+						<l>Ter neder zijnen vollen broeder:</l>
+						<l>Gelijck nu lest de zoon zijn moeder,</l>
+						<l>Die hem, haer hoop, ter weerelt droegh,</l>
+						<l>En zette in top van 't Rijck.</l>
+						<l>Zou die zijn moeder zoo durf loonen,</l>
+						<l>Dan onze Vaders noch verschoonen;</l>
+						<l>Zoo was hy niet zich zelf gelijck.</l>
+						<l>Maer 't Christensch Rome moet</l>
+						<l>Door martelbloet zijn grootheit baren,</l>
+						<l>En worstelen door veel gevaren.</l>
+						<l>Ons Vaders stichten nu in bloet</l>
+						<l>Een nieuwe stat, die, door hun lyden,</l>
+						<l>Meer wint, dan d' oude, door haer strijden.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Toezang</speaker>
+						<l>Dat's meer dan op zijn Persiaens gestreên,</l>
+						<l>En deizende de kans</l>
+						<l>En onverwelckbren krans</l>
+						<l>Geruckt van 't hooft der trotste mogentheên.</l>
+						<l>Nu neemt uw' toevlught niet,</l>
+						<l>In 't uiterste verdriet,</l>
+						<l>Naer Capitool, of Jovis vogelen,</l>
+						<l>En goude standertgoón:</l>
+						<l>Zoeckt heul aen Jesus troon,</l>
+						<l>In schaduw van d'Apostlen, en hun vlogelen.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="5">
+				<head>Het vyfde bedryf.</head>
+				<div type="scene" n="1">
+					<stage>AGRIPPA. NERO.</stage>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>De Vorst, die onlangs speelde Orestes, droef en dol,</l>
+						<l>En vlughtigh voor de wraeck, speelt nu zijn eige rol;</l>
+						<l>Maer in der daet, en niet in schijn, van schrick gedreven,</l>
+						<l>Druckt uit, hoe veel de schijn en 't veinzen scheelt van 't leven.</l>
+						<l>De vlam, in 't rotte bloet ontsprongen, knaeght het vleesch.</l>
+						<l>Hy hijght naer zijnen aêm. de spraeck luit schor, en heesch.</l>
+						<l>De tong slaet yzerklanck, en slibbert onder 't spreken.</l>
+						<l>Al 't aengezicht, gelijck met dootverf overstreken,</l>
+						<l>Ziet bleeck, en blaeuw, als loot, en hier en daer gevlackt.</l>
+						<l>Nu steeckt hy 't hooft om hoogh. nu hangt het hooft, en zackt</l>
+						<l>Zwaermoedigh naer beneên, tot dat hy raeckt aen 't schricken,</l>
+						<l>Om 't kraecken van een deur; en opschiet, en twee blicken,</l>
+						<l>Zoo root als vier en bloet, aen alle zyden slaet,</l>
+						<l>En opspalckt; en al 't hair recht op te berge staet,</l>
+						<l>Om zijn verbeeldingen. dan tsidderen de leden,</l>
+						<l>Het koude zweet breeckt uit, en, van zijn schim bereden,</l>
+						<l>Verdaeght al 't hofgezin te hoop, met ope keel.</l>
+						<l>Hoe schichtigh is dit hof gedraeit, als een tooneel!</l>
+						<l>Hoe 's Vorsten staet verkeert! wat wil die plaegh beduien?</l>
+						<l>Daer komt hy weder aen, en heeft het hooft vol buien.</l>
+						<l>De wakers wijcken hem: een yeder maeckt zich t'zoeck.</l>
+						<l>Best zie ick 't veiligh aen, en sla hier om een' hoeck.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Och, berght Orestes. och, waer henen?</l>
+						<l>Waer berght hy 't lijf, in doots gevaer?</l>
+						<l>Wie steeckt die moorttrompetten daer?</l>
+						<l>Trompetter, blaest ghy uit Mycenen?</l>
+						<l>Of klinckt dit van Misenen af?</l>
+						<l>Wat Vloecken komen my verrassen?</l>
+						<l>Verrijst de Wraeck uit moeders assen,</l>
+						<l>En uit het moederlijcke graf?</l>
+						<l>Och, troost Orestes, in zijn lyen.</l>
+						<l>Nu weet hy nergens geen verblijf.</l>
+						<l>Och, berght den bangen balling 't lijf.</l>
+						<l>Waer vliet hy voor dees Razernyen?</l>
+						<l>'k Zie, op den gront van Plutoos poel,</l>
+						<l>De geesten, die ons 't licht benyen;</l>
+						<l>Gepynight om hun schelmeryen,</l>
+						<l>Rontom dien zwart beroockten stoel.</l>
+						<l>'t Is nacht, ick hoor de vlammen kraecken.</l>
+						<l>'t Aeloude Troje staet in brant,</l>
+						<l>Aen dezen, aen den andren kant;</l>
+						<l>Of brant hier Rome, en al zijn daecken?</l>
+						<l>Heb ick of Sinon brant gesticht?</l>
+						<l>Wat woelen hier al dootse zielen,</l>
+						<l>Die om mijn lijf, als byen, krielen.</l>
+						<l>Houdt op, ghy steeckt naer mijn gezicht.</l>
+						<l>Zeght op, wat zijt ghy voor gezellen?</l>
+						<l>Beschuldight ghy den rechten man?</l>
+						<l>Men maeck 'er weêr een nachttorts van,</l>
+						<l>Of steeck hen strax in dierevellen.</l>
+						<l>Neen, Vesta leit my hier aen boort,</l>
+						<l>Om hare dochters, versch geschonnen.</l>
+						<l>Ick was verslingert op uw Nonnen,</l>
+						<l>O moeder, zijt ghy noch gestoort?</l>
+						<l>Wat raet? ick hoor haer leeuwen brullen.</l>
+						<l>Ick vrees dat scherpgewet gebit;</l>
+						<l>Die keelen, brandende en verhit.</l>
+						<l>Ay ziet, hoe zy hun staerten krullen.</l>
+						<l>Daer roept mijn moey, daer Claudius,</l>
+						<l>Mijn vader zelf: daer schreeuwt mijn moeder,</l>
+						<l>En gemalin. daer komt mijn broeder,</l>
+						<l>d' Onschuldige Britannicus.</l>
+						<l>Heb ick u helsch vergif geschoncken?</l>
+						<l>Daer kust het dootshooft van Paulijn</l>
+						<l>Mijn' meester, in bedruckten schijn.</l>
+						<l>Of is hy 't niet? of ben ick droncken?</l>
+						<l>Het regent lijcken, uit de lucht.</l>
+						<l>Een veltgeschrey klinckt van Britanje.</l>
+						<l>Daer worpt zich Galba, op, in Spanje.</l>
+						<l>Daer ziet men, hoe d' Armener vlught;</l>
+						<l>Met alle mijn keurbendelingen,</l>
+						<l>Voor den verbolgen Persiaen.</l>
+						<l>Orestes, tast u zelven aen:</l>
+						<l>De burgers komen u bespringen.</l>
+						<l>Dat's Thrasea. ick zie den Raet,</l>
+						<l>De ridders, 't volck, en vrye, en slaven.</l>
+						<l>Ick hoor de kleppers herwaert draven,</l>
+						<l>Met al wat moederslagers haet.</l>
+						<l>Zy komen my uit Argos jagen.</l>
+						<l>Zijn 't Galileeschen? ja gewis:</l>
+						<l>Of zeit men dat dit Castor is,</l>
+						<l>En Pollux, van den wint gedragen?</l>
+						<l>Ghy Goden, die gelauweriert,</l>
+						<l>In witte zyde, om laegh komt zacken,</l>
+						<l>En, hant aen hant, met pallemtacken</l>
+						<l>Aldus gesceptert, nederzwiert;</l>
+						<l>Wien zoeckt ghy in dees aertsche hoecken?</l>
+					</sp>
+					<sp who="#agrippa">
+						<speaker>Agrippa</speaker>
+						<l>Nu, dunckt my, is het sprekens tijdt;</l>
+						<l>Nadien zijn droom geen steurnis lijdt,</l>
+						<l>Zal ick hem best aldus verkloecken.</l>
+						<l>Die twee gebroeders zoecken u.</l>
+						<l>Ghy moet op zee, naer 't Noorden, dwalen,</l>
+						<l>En 't kerckbeelt van Diane halen.</l>
+						<l>Wat beeft ghy voor uw ooms, zoo schuw?</l>
+						<l>Ghy moet dat beelt aen Vesta brengen.</l>
+						<l>Zoo luit uw zuiverofferles.</l>
+						<l>Ick ben uw leitsman Pylades.</l>
+						<l>Geef my de hant.</l>
+					</sp>
+					<sp who="#domitius-nero">
+						<speaker>Nero</speaker>
+						<l>Ick zal 't gehengen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>LINUS. PETRONEL.</stage>
+					<sp who="#linus">
+						<speaker>Linus</speaker>
+						<l>Godtvruchte Dochter, wel wat tijding brengt ghy nu?</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Och, Vader Linus, och, Godt hoede en zegene u.</l>
+						<l>Nu wey met 's voorzaets staf dees nagebleve schapen,</l>
+						<l>Gelijck zijn' nazaet past; d' Aertsherder is ontslapen:</l>
+						<l>Het lichaem rust aen 't hout, de ziel in Jesus schoot.</l>
+					</sp>
+					<sp who="#linus">
+						<speaker>Linus</speaker>
+						<l>Zy leeft by Godt. hy storf een kostelijcke doot.</l>
+						<l>Zaegt ghy hem, onder 't juck van 't kruis, zijn schouders buigen?</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Geduldighlijck: ick kan hier levend van getuigen,</l>
+						<l>Als een die onder 't kruis in 't alleruiterst stont.</l>
+					</sp>
+					<sp who="#linus">
+						<speaker>Linus</speaker>
+						<l>Wy haecken om 't verslagh te scheppen uit uw' mont.</l>
+					</sp>
+
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>De krijghsliên brengen hem, door 't volck, met Pauwels, buiten</l>
+						<l>De poort van Ostie, gebonden, en besluiten</l>
+						<l>'t Verwezen paer van een te scheiden, op het lest;</l>
+						<l>En een' in 't Jootsche, en een' in 't Christensche gewest,</l>
+						<l>Tot aenwas van meer smaets, te helpen om het leven.</l>
+						<l>Toen zagh men mont aen mont, en borst aen boezem, kleven:</l>
+						<l>Toen klapte kus op kus; als 't op een scheiden ging,</l>
+						<l>Daer elck aen 's anders hart, gelijck geketent, hing.</l>
+						<l>De blyde Pauwels sprack tot Peter: u zy vrede,</l>
+						<l>O grontsteen van de Kerck, o wachter in Godts stede,</l>
+						<l>O mont der herdren van 't verstroide Christendom:</l>
+						<l>En Peter tegens hem blygeestigh wederom:</l>
+						<l>O licht der Heidenen, o leitstar aller vromen,</l>
+						<l>Nu ga in vre, daer Godts verstroiden t' zamenkomen.</l>
+						<l>Een oogenblick gedult; wy zien malkandren weêr.</l>
+						<l>Zoo worstelt men in 't stof, om onverwelckende eer.</l>
+						<l>Hier op trat Pauwels voort recht uit, getroost, en blyde;</l>
+						<l>En Peter welgemoedt te rugh, naer d' overzijde</l>
+						<l>Des Tibers, en den bergh van Janus; daer de Joôn</l>
+						<l>Hem grimden te gemoet, en nepen met dien hoon,</l>
+						<l>Waer meê hun ouders eer zijn levend voorbeelt nepen,</l>
+						<l>'t Welck, afgemat van pijn, zy 't moorthout zagen slepen.</l>
+						<l>Hier wert d' Apostel, als naer een tooneel, gebraght;</l>
+						<l>Op dat d' erfvyantschap van 't menschelijck geslacht</l>
+						<l>(Zoo taistren Heidens toch besneên, en kruisgetuigen)</l>
+						<l>D' Een, uit des anders bloet en gal, moght honigh zuigen.</l>
+						<l>De stramme Vader klom den heuvel op, om hoogh;</l>
+						<l>Gelijck een Avontstar, wanneerze, naer den boogh</l>
+						<l>Des hemels, uit der zee, haer zoonen aen komt leiden;</l>
+						<l>Terwijl de kimmen licht en schemeringen scheiden.</l>
+						<l>Hy schoot hier, op den top des berghs, zijn kleedren uit.</l>
+						<l>Noch twiste de soldaet, om zulck een slechten buit.</l>
+						<l>Men knoopte om 't middellijf een decksel, grof van draden.</l>
+						<l>Toen viel hy, om zijn' wensch ten volle te verzaden,</l>
+						<l>Met hart en mont op 't kruis, en gaf het kus op kus,</l>
+						<l>En vatte 't in den arm, en sprack verheught aldus:</l>
+					</sp>
+					<sp who="#linus">
+						<speaker>Linus</speaker>
+						<l>Wat sprack 't Orakel, op den drempel van zijn lyden?</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Zijt wellekom, mijn kruis, belooft, van lange tyden,</l>
+						<l>Door d' onbesmette tong, aen my; die wel beken,</l>
+						<l>Dat ick meer straf, en niet dees glori waerdigh ben,</l>
+						<l>Van mijn' verzworen heer, in 't sterven, te gelijcken,</l>
+						<l>Noch, met het hooft om laegh, den hemel aen te kijcken.</l>
+						<l>Zijt wellekom, mijn kruis. aenvaert dit snoode pack</l>
+						<l>Van 't sterfelijcke lijf; waer in veel jaren stack</l>
+						<l>Een ziel, die haere schult niet met haer bloet kan boeten:</l>
+						<l>Ontfang het niet te min, met doorgeslage voeten;</l>
+						<l>En streck een zoenaltaer, van waer ick Godt behaegh,</l>
+						<l>Door Jesus oogen, die my straften hier om laegh.</l>
+						<l>Zoo welkomt hy zijn doot, en, keerende ten leste</l>
+						<l>Zich om, geeft zynen rugh het lange hout ten beste,</l>
+						<l>En yeder arm een endt van 't dwarshout. de soldaet</l>
+						<l>Klinckt d' ysre spijckers door de handen heen, en slaet</l>
+						<l>De voeten plat op een. dat kloppen kraecken knarssen</l>
+						<l>Door zenuwen en been, gingk t' elckens door mijn harssen,</l>
+						<l>Ja door mijn schrillend hart, en moorde het gemoedt:</l>
+						<l>Terwijl het dorstigh gras vast slorpte 't roockend bloet,</l>
+						<l>Dat uit de wonden scheen het zant te willen laven.</l>
+						<l>Zoo ras de schup het loch in d' aerde had gegraven,</l>
+						<l>Teegh 't krijghsvolck met gewelt aen 't rechten van den stam,</l>
+						<l>Doch avrechts, als zijn pack: dit hing alree: dat quam</l>
+						<l>Op aêr en zenuw aen, en opende drie sluizen</l>
+						<l>Van vleesch, waer uit meer bloets, al schuimende, quam bruizen.</l>
+						<l>De Kruishelt zagh van bloet besprengkelt en bespat:</l>
+						<l>Noch kreet hy niet van pijn, maer steende slechts, en badt.</l>
+						<l>Men zagh in 't aenschijn (och een stichtelijck aenschouwen)</l>
+						<l>Yet pijnelijx, omstraelt van blyschap, en betrouwen.</l>
+						<l>De stam kreegh steun. de Heldt goot, met een heesch geluit,</l>
+						<l>En hijgende van dorst, dit jongste orakel uit:</l>
+					</sp>
+					<sp who="#linus">
+						<speaker>Linus</speaker>
+						<l>Ick luister naer den mont van Christus Stedehouder.</l>
+					</sp>
+					<sp who="#petronel">
+						<speaker>Petronel</speaker>
+						<l>Mijn broeder Andries, neem gewilligh op uw schouder</l>
+						<l>Het kruis, u toegeleit van boven, gelijck my.</l>
+						<l>Ick volgh mijn bedtgenoot, my voorgetreên: en ghy,</l>
+						<l>Mijn dochter Petronel (de Vader sloegh zijn oogen</l>
+						<l>Te mywaert, die hy zagh bedruckt de kaken droogen)</l>
+						<l>Zult, ter gewenschter uur, den rijcksten bruidegom</l>
+						<l>In d'armen vallen, als een ongerepte blom.</l>
+						<l>Noch vijfmael vijftigh jaer wil 't reegnen marteldroppen,</l>
+						<l>Tot dat het snoer van driemael negen Bisschopskoppen</l>
+						<l>Volregen, Godt beweegh, die, door een hemelsch post,</l>
+						<l>Den grooten heldt verweckt, die mijnen stoel verlost</l>
+						<l>Van 't bloedigh Heidensch juck, dat duizenden beschreidden.</l>
+						<l>Dees tempels zullen dan, gesloten voor den Heiden,</l>
+						<l>Gansch onverhindert, voor den Christen, open staen;</l>
+						<l>Wien deze goude tijdt en weelde dier wil staen,</l>
+						<l>'t En zy men bidde en waecke; eer klaeuwen, onder 't wrijten,</l>
+						<l>Den nadeloozen rock verwoet in flarden rijten,</l>
+						<l>Godsjammerlijck gesleurt van beeren, uit het sneeuw</l>
+						<l>Opstuivende; en ten buit van Agars yzere eeuw.</l>
+						<l>Och Jesus, hael ons t' huis, eer wy dien storm beleven.</l>
+						<l>Zoo biddende wort hem een' dolck in 't hart gedreven,</l>
+						<l>Van een Romains soldaet, die wacht hielt, neffens 't hout.</l>
+						<l>Ick viel een poos in zwijm, en lagh'er, doot en kout,</l>
+						<l>Voor 't kruislijck uitgestreckt; en weet naeu, van wat magen</l>
+						<l>Of vrienden ick, voor doot, ten bergh af ben gedragen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>PLAUTIL. LINUS.</stage>
+					<sp who="#plautil">
+						<speaker>Plautil</speaker>
+						<l>O sluier, versch besprengt van 't uitverkoren vat,</l>
+						<l>En zijn welrieckend bloet. o doeck!</l>
+					</sp>
+					<sp who="#linus">
+						<speaker>Linus</speaker>
+						<l>Wat doeck is dat?</l>
+					</sp>
+					<sp who="#plautil">
+						<speaker>Plautil</speaker>
+						<l>Die 't Licht der Heidenen voor d' oogen wert gebonden.</l>
+					</sp>
+					<sp who="#linus">
+						<speaker>Linus</speaker>
+						<l>O kussenswaerde doeck! waer hebt ghy dien gevonden?</l>
+						<l>Geef hier dat pant der strax van 't lijf ontkleede ziel,</l>
+						<l>En melt ons, eedle vrouw, hoe deze ceder viel.</l>
+					</sp>
+					<sp who="#plautil">
+						<speaker>Plautil</speaker>
+						<l>'k Ontmoete, ontrent de poort, den heengeleiden Vader;</l>
+						<l>Die, myne tranen ziende, en tredende wat nader,</l>
+						<l>Een' doeck (om zijn gezicht te blinden, en dien hy</l>
+						<l>Terstont herlevren zou) noch vorderde van my,</l>
+						<l>Zoo willigh, als bedruckt. de Stat liep leegh van menschen,</l>
+						<l>Nieuwsgierigh naer zijn doot. ick volghde hem met wenschen,</l>
+						<l>En strax te rosbaer na, den Tiber langs in 't veldt,</l>
+						<l>Om 't heerlijck eindt te zien van Godts manhaftsten Heldt;</l>
+						<l>Die onder 't henegaen vermurwde drie soldaten,</l>
+						<l>Longyn, Acest, Megist, gereet den hals te laten,</l>
+						<l/>
+						<l>Voor hem, die 't graf zijn aes, den Doot zijn' schicht benam.</l>
+						<l>Zoo dra men nu te Gutte, aen 't Salvisch water, quam,</l>
+						<l>Sprack Vader, in den ringk des krijghsvolx: hier is 't ende</l>
+						<l>Der loopbaen, na veel drux, en doorgesolde ellende.</l>
+						<l>Hy vouwt, vol moedts, en heft de handen naer de lucht,</l>
+						<l>Met een tot Jesus 't hart, en roept hem aen, en zucht:</l>
+						<l>Hier sta ick, om den slagh der sabel te verbeiden,</l>
+						<l>Die strax het hooft van 't lijf, en lijf en ziel zal scheiden.</l>
+						<l>O Jesus, laet mijn bloet afwasschen d'oude vlack</l>
+						<l>Van wreetheit, met wiens spits ick Godt naer d' oogen stack,</l>
+						<l>U zelf naer 't hart, door 't hardt verdrucken uwer leden.</l>
+						<l>Hebt ghy in 't uiterst noch Godts vyanden verbeden;</l>
+						<l>Verbidt oock my, niet waert te storten, t'uwer eer,</l>
+						<l>Mijn Christenslaghtigh bloet; het welck ghy nimmermeer</l>
+						<l>Moet eischen van de hant, die snackt om dat te drincken.</l>
+						<l>Zoo badt de Heldt. my docht, men zagh een' Engel blincken</l>
+						<l>Uit zijn gezicht; my docht, men hoorde een Engels stem.</l>
+						<l>Wat aertsch wat menschlijck was verdween alreede in hem.</l>
+						<l>Hy nu, uit vleesch en bloet, bykans in geest herschapen,</l>
+						<l>Verbont zijn gryze hooft, en knielde. wy vergapen</l>
+						<l>Vergeten ons, hy roept: Godt reickt my d'armen toe.</l>
+						<l>De weerelt is mijn kruis: ick ben de weerelt moe.</l>
+						<l>De Wreetheit, op dat woort, met schitterende zwaerde,</l>
+						<l>Trof toe, en onvoorziens lagh 't hooft geploft ter aerde,</l>
+						<l>En sprongk noch driemael op. men hoorde een fijn gepiep;</l>
+						<l>Als of de mont, vol lofs, noch driewerf Jesus riep.</l>
+						<l>My docht ick merkte om 't hooft een' glans van gloende tongen;</l>
+						<l>En uit den zantgront sprongk een ader, met drie sprongen,</l>
+						<l>Daer 't hooft gehuppelt had: en wonder was 't, dat elck,</l>
+						<l>Uit dien onthoofden hals, zijn bloet, als versche melck,</l>
+						<l>Zagh stralen in de lucht. och och, hy leit getroffen.</l>
+						<l>My dunckt ick voel het hooft noch op mijn boezem ploffen,</l>
+						<l>Noch bonzen op mijn hart. daer leit de kerckpylaer,</l>
+						<l>Die zulck een' zwaren last droegh vijfmael zeven jaer.</l>
+						<l>Neen neen, hy leit noch niet, maer staet, gelijck voorhenen.</l>
+						<l>In 't ryden naar de stat is my zijn geest verschenen,</l>
+						<l>Veel grooter dan men hem in 't leven had gekent.</l>
+						<l>Hy braght my dezen doeck, een' troost in mijn ellent.</l>
+						<l>Och jongelingen, mans, och weeuwen, maeghden, vrouwen,</l>
+						<l>Och schreit: ghy zult voortaen zijn aenschijn niet aenschouwen,</l>
+						<l>Noch hooren Godts trompet. nu is het schreiens tijdt.</l>
+						<l>Och weezen, weent met my: wy zijn ons Vaders quyt.</l>
+						<l>Och och och och och och och och och och och och.</l>
+						<l>Och och och och och och.</l>
+					</sp>
+					<sp who="#linus">
+						<speaker>Linus</speaker>
+						<l>Der weezen Vader leeft, die zal u niet vergeten,</l>
+						<l>Daer, in een' ringk van licht en Serafijns gezeten,</l>
+						<l>Hy in kristal vergaert uw tranen, versch geschreit.</l>
+						<l>Triomfen worden daer Godts Helden toegeleit;</l>
+						<l>Wier zielen, in den schoot des heils, van daegh herboren,</l>
+						<l>Gansch onbenevelt zien, gansch onbekommert hooren,</l>
+						<l>In dien gedurigen zielkittelenden lach,</l>
+						<l>'t Geen onbegrepen, oor noch oogh noit hoorde, of zagh;</l>
+						<l>Dat is 't volmaeckte Schoon, waer van al 't schoon komt stralen.</l>
+						<l>Wy zullen, hier beneên, zijn Heiligen betalen</l>
+						<l>Onze allerleste schult. ga, Titus, Lukas, ga,</l>
+						<l>En volght naer Ostie Lucijn, de Raetsvrouw, na.</l>
+						<l>Beveelt Sint Pauwels romp den kelder van haer hoeve,</l>
+						<l>Zoo eerlijck als ghy mooght; en troost en zalft dees droeve.</l>
+						<l>Ghy blakende Marcel, tast den Gekruisten aen,</l>
+						<l>En balssem, en begraef het lijck, op Vaticaen;</l>
+						<l>Daer 's Vorsten renbaen roockt, zijn lustprieelen bloeien.</l>
+						<l>Ick zie Godts zwarmen, van vier winden, t' zamenvloeien,</l>
+						<l>Te Rome, aen wederzy des Tibers; daer 't gebeent</l>
+						<l>Der Martelaren slaept, begiftight, en beweent,</l>
+						<l>En jaerlijx, met een vlaegh van tranen, overgoten:</l>
+						<l>Terwijl de lastermont, gestopt en toegesloten,</l>
+						<l>Verbaest staet en versuft, voor menigh wonderwerck;</l>
+						<l>En Vaticaen de lucht te moet vaert, met zijn kerck,</l>
+						<l>Vol wierroox, vol gezangs van opgetoge zielen,</l>
+						<l>Om 't grafaltaer; waer voor gekroonde koppen knielen;</l>
+						<l>Godtvruchtighlijck vertreên ryxappel, zwaert, en kroon;</l>
+						<l>En spreien 't purper aen den voet van 's Visschers troon:</l>
+						<l>Wanneer (Hierusalem in roock en stof vervaren)</l>
+						<l>Des weerelts Hooftstat steunt op by dees hooftpylaren</l>
+						<l>Der Kercke; en ziet, hoe 't al, wat haer die kroon benijt,</l>
+						<l>Zijn hart knaegt, en vergeefs op diamantsteen bijt.</l>
+					</sp>
+					<p>Gloria in excelsis Deo.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,3396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000018" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Maria Stuart</title>
+				<title type="sub">of Gemartelde Majesteit</title>
+				<author>
+					<persName>
+						<forename>Joost</forename>
+						<nameLink>van den</nameLink>
+						<surname>Vondel</surname>
+					</persName>
+					<idno type="wikidata">Q312673</idno>
+					<idno type="pnd">118627848</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL"
+						>https://www.dbnl.org/tekst/vond001dewe05_01/vond001dewe05_01_0020.php</idno>
+					<title>J.F.M. Sterck, H.W.E. Moller, C.G.N. de Vooys, C.R. de Klerk, B.H.
+						Molkenboer, J. Prinsen J.Lzn., L. Simons, C.C. van de Graft, L.C. Michels en
+						A.A. Verdenius (eds), De werken van Vondel. Vijfde deel 1645-1656. De
+						Maatschappij voor goede en goedkoope lectuur, Amsterdam 1931</title>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Joost van den Vondel: Maria Stuart of Gemartelde Majesteit. Cologne: In
+						d'oude druckerye [= Amsterdam: Abraham de Wees], 1646.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person xml:id="biechtvader" sex="MALE">
+						<persName>BIECHTVADER</persName>
+					</person>
+					<person xml:id="melvin" sex="MALE">
+						<persName>MELVIN</persName>
+					</person>
+					<person xml:id="burgon" sex="MALE">
+						<persName>BURGON</persName>
+					</person>
+					<person xml:id="rey-van-staetjofferen" sex="FEMALE">
+						<persName>REY van STAETJOFFEREN</persName>
+					</person>
+					<person xml:id="maria-stuart" sex="FEMALE">
+						<persName>MARIA STUART</persName>
+					</person>
+					<person xml:id="kenede" sex="FEMALE">
+						<persName>KENEDE</persName>
+					</person>
+					<person xml:id="de-graven" sex="MALE">
+						<persName>DE GRAVEN</persName>
+					</person>
+					<person xml:id="paulet" sex="MALE">
+						<persName>PAULET</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-02">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1646">
+				<desc/>
+			</event>
+			<event type="premiere" when="">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart>Maria Stuart of Gemartelde Majesteit.</titlePart>
+
+				<titlePart>Te Kevlen</titlePart>
+				<titlePart>In d'oude druckerye.</titlePart>
+				<titlePart>MDCXLVI.</titlePart>
+				<titlePart><figure/></titlePart>
+
+			</docTitle>
+
+			<div type="dedication">
+				<head>Den doorluchtighsten Vorst en Heere Eduart <lb/> door Godts genade Palts-Grave
+					by den Ryn, Hertoge van Bajere.</head>
+				<p>Ick brenge, ô doorluchtighste Vorst, uwe Grootmoeder, waerlijck een groote
+					Moeder, Dochter, Gemalin, Moeder en Weduwe der Koningen, en, dat het
+					allergrootste is, een Koningklijcke Kruisheldin en gekroonde Martelares op ons
+					Nederduitsch Toneel; niet gelijckze in Schotlant gezalft, nochte te Parijs
+					getrout, gekroont, en op den troon gezet, maer in Engelant, haer grootvaders en
+					naer Rechte haer eigen erfrijck, op een schavot, na een langdurige gevangenis,
+					van de naeste bloetvriendinne gemartelt wert, alleen om haere erfwettigheit tot
+					de zelve kroon, en stantvastigheit in het Katholijck Geloof, heur waerdiger dan
+					vier scepters en kroonen, ja haer eigen leven. Weinigen streecken hier die kroon
+					van (Gode en zijn eere ten dienst) een zichtbare kroon en dit leven te
+					versmaden. In de heilige boecken wort Moses en Kristus alleen die lof
+					toegeschreven. Moses weigerde, geloofs halve, een zoon van Faroos dochter
+					genoemt te worden (en zoo Iosephus getuigt, de kroon zoo vroegh van zijn hooft
+					ruckende, tradtze met voeten) en schatte Kristus rijckdom en zijn volcks
+					versmaetheit hooger dan de schatten van Egypten. Kristus, het eenige voorbeelt
+					der volkomenheit, versmade beyde de kroon en dit leven, om Godt, zijnen vader,
+					met de doornekroon te eeren. In d'oude Martelschriften vint men de Koningen en
+					Koninginnen, om den godtsdienst gemartelt, dun gezait, gelijck trouwen gekroonde
+					hoofden zelfs dun gezaeit zijn. In deze leste, zoo veel koeler in yver dan
+					d'eerste, tijden, komt een eenige MARIA STUART op, als een nieuwe star. Zy
+					versmaet haren grijzen stam, het edelste geslacht van geheel Kristenrijck. Zy
+					vergeet over de hondert voorzaten en voorvaders, alle Monarchen van haren
+					bloede, wiens oirsprong het einde van Alexander de Grootes tijt bereickt. Zy
+					buight haer vrye schouders gewilligh, geduldigh onder het kruis, ten spiegel van
+					alle Kriste Vorsten. Hierom blincktze nu met recht onder de zalige Martelstarren
+					in Godts hemelsche klaerheit, aen de voeten van Maria, wiens naem zy zoo
+					waerdigh gedragen heeft, als zy haer, onder het twintighjarige kruis, en met zoo
+					vele zwaerden van wederwaerdigheit doorregen, nader dan zoo vele Koninginnen
+					stont. De tooneelwetten lijden by Aristoteles naulicks, datmen een personaedje,
+					in alle deelen zoo onnozel, zoo volmaeckt, de treurrol laet spelen; maer liever
+					zulck eene, die, tusschen deughdelijck en gebreckelijck, den middelwegh houde,
+					en met eenige schuit en gebreken behangen, of door een hevigen hartstogt tot iet
+					gruwzaems vervoert wert: waerom wy, om dit mangel te boeten, Stuarts onnozelheit
+					en de rechtvaerdigheit van haere zaeck met den mist der opspraecke en lasteringe
+					en boosheit van dien tijdt benevelden, op dat haer Kristelijcke en Koningklijcke
+					deugden, hier en daer wat verdonckert, te schooner moghten uitschijnen. Zoo
+					steeckt gouden en purperen glans op nevels en wolcken, en licht op bruine
+					schaduwen af. Het docht my al t'onbillick, dat de Nederduitschen hier in andere
+					volcken en tongen, die haer tooneelen met dit kostelijcke bloet purperden iet
+					zouden toegeven: en het lagh al eenige jaren geleden by my, als een belofte,
+					haere Majesteits godtvruchtige faem, die zoo hoogh gestegen, mijne nochte
+					iemants pen behoeft, van verre in haer schaduwe naer te streven; en noch te
+					vieriger, dewijl ick, des onwaerdigh, mijn boortejaer by Mariaes moortjaer
+					(marteljaer most men zeggen) of liever geboortejaer gedencke. De Heilige Kerck
+					is van outs gewoon de geboorte der Martelaren naer de geboorte der ziele, en
+					niet naer de lichamelijcke, te vieren; aengezien de ziel ten marteldage, van den
+					lichame ontbonden, in den hemel, en het licht der onsterflijckheit, ten eeuwigen
+					leven geboren wort. Ick nam de vrymoedigheit dit treurspel uwe Vorstelijcke
+					Doorluchtigheit op te dragen, die d'eerste van uwe Grootmoeders nakomelingen
+					haer heilige asschen en geest verquickt met den Katholijcken Roomschen
+					Godtsdienst t'omhelzen, en haer godtvruchtige voetstappen na te volgen; een
+					zaeck, die zy in het uiterste haren eenigen zoon Iakob, uwen Grootvader, namaels
+					Monarch van Groot Britanje, zoo hartelijck beval, als zy die groothartigh met
+					haer Kristelijck bloet bezegelde: en zeker boven uw Grootmoeders voorbeelt
+					vermaent u daer toe u eigen naem, zoo loflijck by de Katholijcke Koningen van
+					Engelant, uwe voorvaders, gedragen, en waer onder men twee Eduarden telt, eenen
+					met den tijtel van Martelaer, den anderen met dien van Heiligh gekroont. Oock
+					ontbrack het van outs den Hertogen van Bajere, waer uit uw Keizerlijck en
+					Keurvorstelijck stamhuis zijnen oirsprong nam, noit aen voorbeelden van
+					Heiligheit en godtvruchtigheit, die u nu op deze hemelsche heirbaen welkomen,
+					zegenen, en met hun voorbede stercken, terwijl ick het gewijde tooneel openzet,
+					daer uwe Grootmoeder weder te voorschijn komende, den aenschouweren te gelijck
+					schrick aenjaeght, en tranen van medoogen ten oogen uitperst.</p>
+			</div>
+
+			<div type="preface">
+				<head>Inhout.</head>
+				<p>Koningin MARIA STUART, eenige erfdochter van Jakob den vijfden, Koning van
+					Schotlant, en nicht van Henrick den zevenden, Koning van Engelant, wert om hare
+					stantvastigheit in den Katholijcken Godtsdienst, na het uitstaen van valsche
+					lasteringen, gewelt, lagen en gevangenis, genootzaeckt ten rijcke uit te
+					vlughten, voor de wreetheit van den staetzuchtigen tyran Mouray, haren
+					bastertbroeder, en de godtvergetenheit en meineedigheit der Puriteinsche
+					Schotten, aengeschonden door hare nicht Elizabeth, die deze onnozele en oprechte
+					ziel onverzoenelijck haette, dewijlze noch jong in Vranckrijck aen den Dolfijn
+					getrouwt, niet uit eige staetzucht, maer ontijdige drift van Guize en
+					Lothringen, haere oomen, en Koning Henrick, den tweeden, haren schoonvader, en
+					Francois den tweeden, haren gemael, voor Koningin van Engelant en Yrlant
+					uitgeroepen wiert; waer van men, hoewel zy in der daet wettiger dan Elizabeth
+					was, nochtans vredes halve, eerlang afstont, behoudende evenwel het erfrecht van
+					de naeste na Elizabeth, indien deze zonder oir overleedt, tot de kroon
+					gewettight te zijn. De vervolghde Koningin nam dan in noot haren toevlught in
+					Engelant, listigh derwaert getroont van Elizabeth, die op woort nochte beloften
+					passende, en het heiligh gastrecht schendende, de vervolghde en in haer recht
+					verdruckte bloetvriendin, in plaetse van Kristelijck en Koningklijck onthael, en
+					beloofde noothulp, over de achtien jaren zoo vast gekerckert hielt, dat
+					vriendelijcke bede nochte verzoeck, nochte tusschenspraeck, nochte aengewende
+					middelen, of aenslagen de gevange niet alleen aen geenen vrydom holpen, maer
+					heur ellende t'elckenmale meer bezwaerden, tot dat men endelijck, (aengezien zy
+					noit om eenige beloften den Roomschen Godtsdienst wou verloochenen) haer, op een
+					daer toe met voordacht gesmede wet, en onder schijn, datze Elizabeth naer het
+					hart en de kroon gesteecken had, valschelijck en gruwelijck, tegens alle
+					goddelijck en menschelijck Recht, ter bijle verwees. Het tooneel vertoont het
+					kasteel van Fodringaye. De Rey bestaet uit Staetjofferen der Koninginne.</p>
+			</div>
+
+			<div type="preface">
+				<head>Incomparabilis Heroïnae Anagramma. <lb/> Maria Stuarta erat Matura
+					arista.</head>
+				<p>EPITAPHIUM.</p>
+				<p>Vivificante Fide MATURA resurget ARISTA.</p>
+				<p>Secta odio, JESU lecta, STUARTA, manu.</p>
+			</div>
+			<div type="preface">
+				<head>Byschrift Op d'afbeeldinge van Koningin Maria Stuart.</head>
+				<lg>
+					<l>Zoo bloeide STUARTs jeught, eer haet heur hooft zagh rollen;</l>
+					<l>Eerze, op 't verwoet schavot, van hartewee gezwollen,</l>
+					<l>Onnozel storf, onthalst naer die gesmede Wet.</l>
+					<l>Zoo wert MARIE omhelst van nicht ELIZABETH.</l>
+					<l>Twee punten hebben haer de bijl door 't vleesch gedreven,</l>
+					<l>Haer erfrecht tot de Kroon, en haer Katholisch leven.</l>
+				</lg>
+			</div>
+
+
+			<castList>
+				<head>Personaedjen.</head>
+				<castItem corresp="#biechtvader">
+					<role>BIECHTVADER.</role>
+				</castItem>
+				<castItem corresp="#melvin">
+					<role>MELVIN. Hofmeester.</role>
+				</castItem>
+				<castItem corresp="#burgon">
+					<role>BURGON. Lijfarts.</role>
+				</castItem>
+				<castItem corresp="#rey-van-staetjofferen">
+					<role>REY van STAETJOFFEREN.</role>
+				</castItem>
+				<castItem corresp="#maria-stuart">
+					<role>MARIA STUART. Monarche van Groot Britanje.</role>
+				</castItem>
+				<castItem corresp="#kenede">
+					<role>KENEDE. Kamenier.</role>
+				</castItem>
+				<castItem corresp="#de-graven">
+					<role>DE GRAVEN. Halsrechters.</role>
+				</castItem>
+				<castItem corresp="#paulet">
+					<role>PAULET. Slotvooght.</role>
+				</castItem>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<head>Maria Stuart. </head>
+				<head>Het eerste bedryf.</head>
+				<head>Treurspel.</head>
+				<div type="scene" n="1">
+					<stage>BIECHTVADER, MELVIN.</stage>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Hofmeester, die mijn hart door uw beproefde trouwe</l>
+						<l>Verknocht, en voor de deur van ons gevange Vrouwe</l>
+						<l>Vast wandelt hene en weêr, in 't oogh der kamerwacht;</l>
+						<l>Heer Melvin, zegh my toch, wat onraet heeft te nacht</l>
+						<l>Drurei, Paulet, en al die dit kasteel bezetten</l>
+						<l>Geweckt met trommelen en steecken van trompetten,</l>
+						<l>Noch schichtiger dan oit in leger wert gehoort;</l>
+						<l>Ja anders niet dan of de Spanjaert brugh en poort,</l>
+						<l>Door kracht van buspoêr en petarden opgesprongen,</l>
+						<l>Bemaghtight had, en quam gewapent ingedrongen?</l>
+						<l>Was 't vyand, die u joegh, of ingebeelde schroom?</l>
+						<l>Ick lagh in mijn gebedt, en schoot als uit den droom.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>O Vader, was het vreemt, dat zoo veel harten krompen?</l>
+						<l>Paulet hoorde in zijn' slaep een steen in 't water plompen,</l>
+						<l>Aen d'oostzy van de graft, en angstigh of men hier</l>
+						<l>Den muur al stil beklom, stack op, gelijck een vier,</l>
+						<l>En flucks ten bedde uit, riep in 't hemde: wapen wapen;</l>
+						<l>En schoon men niets vernam, noch kost zijn geest niet slapen,</l>
+						<l>Voor datmen om 't kasteel en Fodringaje zagh</l>
+						<l>Of ergens volck of laegh in 't velt verborgen lagh.</l>
+						<l>Men mompelt over al door vlecken, steên en dorpen,</l>
+						<l>Van op de brugh, by dage, een' wagen om te worpen;</l>
+						<l>Of' s nachts een' lossen steen te lichten uit den muur;</l>
+						<l>Of door verstant op 't slot een geestigh avontuur</l>
+						<l>Te waegen, en Mevrouw in mans gewaet te redden.</l>
+						<l>Zoo menigh aenslagh steurt de Heeren op hun bedden,</l>
+						<l>Bezwaert met dit juweel, den kercker toebetrouwt:</l>
+						<l>Want noot zoeckt troost aen list, en acht geen stuck te stout.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Zoo houdt de vrees de wacht, de wacht Mevrouw gevangen:</l>
+						<l>Zoo prangt de mensch zijn hart, om 's anders hart te prangen.</l>
+						<l>Een achterdocht, uit angst voor staet gesproten, acht</l>
+						<l>Zich nimmermeer genoegh verzekert op haer wacht:</l>
+						<l>Die hofplaegh raemt geen maet, noch kent geen zekre palen,</l>
+						<l>Maer jaeght haer schim, en 't geen zy niet kan achterhalen:</l>
+						<l>Mistrouwen blijft haer borgh en trouwste toeverlaet:</l>
+						<l>Dit boeit Marie hier, ten steun van 's nabuurs staet.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>De Faem, die nimmer rust, verbiedt dit lant te rusten.</l>
+						<l>Men wacht een Spaensche vloot, te Milfort op de kusten:</l>
+						<l>Men ducht of 't Schotsche heir bestoockte 't Engelsen Rijck;</l>
+						<l>Of Essex Guises maght moght dienen tot een wijck:</l>
+						<l>Marie is 't reede ontslipt, en vint al heul aen 't Noorden:</l>
+						<l>Men dreight Elizabeth met lagen en met moorden,</l>
+						<l>En Londen met een brant te delven in zijn asch.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Hier loopt de schrick mede om, en list, of wat het was,</l>
+						<l>Dat dees geruchten voedde, en breeder uit ging recken,</l>
+						<l>Waer uit de Grooten dienst en nut en voordeel trecken.</l>
+						<l>Hoe velen treken hoeft het weereltlijck bezit,</l>
+						<l>Op dat het entlijck treff' het langbeooghde wit!</l>
+					</sp>
+
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>'t Verraet van Babington en zijn aenhangelingen,</l>
+						<l>Verbonden naer den hals der Koningin te dingen,</l>
+						<l>(Ten minste zoo men roept) en meester van haer kroon,</l>
+						<l>Den rechten erfgenaem te zalven op den troon,</l>
+						<l>En over 't bloedigh lijck der bloetvriendin te stappen,</l>
+						<l>Om met gewelt de nicht te heffen langs die trappen</l>
+						<l>In 't wettigh erfgebiedt, zoo gruwelijck belaeght;</l>
+						<l>Dit is een stuck, waer van al 't eilant dreunt en waeght:</l>
+						<l>Dit schouwspel bloet noch versch, en brugh en poorten hangen</l>
+						<l>Verciert met zulck een wilt, op zulck een jaght gevangan.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>O lasternacht! vertreck voor 't licht der Schotsche zon.</l>
+						<l>Geen pen van Kurle of Nau, geen brief van Babington,</l>
+						<l>Of iet, hun uit den hals door pijn of schrick getogen,</l>
+						<l>Vont vatten aen haer eer, tot voorstant van de logen;</l>
+						<l>Ja niet de minste stip der Koningklijcke hant</l>
+						<l>Gaf schijn van deze schuit. O Rechters! is 't geen schant,</l>
+						<l>Dat ghy den lastermont, die Stuart durf betijgen,</l>
+						<l>Niet hoorde in haer gezicht, ja toesloot en hiet zwijgen</l>
+						<l>Voor eeuwigh, om met glimp d'onnoosle Majesteit</l>
+						<l>Te smetten, door een vlack haer valsch te last geleit?</l>
+						<l>Ghy durft den levenden door pijn den mont opbreken,</l>
+						<l>Dan sluiten, om uw' wil door 's dooden mont te spreken.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Wat zachter: matigh u: de schiltwacht staet niet wijt:</l>
+						<l>Zy let op ons gebaer: bedenck eens waer ghy zijt.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Men vaerdight hier op af gemaghtighten van Londen,</l>
+						<l>Die vallen plotseling, als losgelate honden,</l>
+						<l>Dien afgejaeghden roof, by vijftigen, op 't lijf.</l>
+						<l>Men ruckt, en pluckt, en bijt, een ieder even stijf:</l>
+						<l>De minste omstandigheit heet blijck van scepterschennis:</l>
+						<l>Geen onschult grijpt hier plaets: erfvyantschap draeght kennis</l>
+						<l>Van 't geen zy liefst gelooft, by 't hair treckt, en misduit.</l>
+						<l>Zoo velt men vonnis, op een ongegront besluit.</l>
+						<l>Z'ontfing die bo des doots al over zes paer weken:</l>
+						<l>'T is Godt bekent, waerom dit hapert en blijft steken.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>De bulle en aenhang van den Pauselijcken stoel</l>
+						<l>Verbitterden den wrock. De Pausen nimmer koel</l>
+						<l>In yver, Portugael, de Franschman, Yr en Spanje</l>
+						<l>Verzochten reis op reis in d'onrust van Britanje</l>
+						<l>Te visschen, door verbont en heimelijck verstant,</l>
+						<l>Met ingezetenen, ontslagen van den bant</l>
+						<l>Des eedts, Elizabeth, het hooft des Rijcks, gezworen;</l>
+						<l>Een aenslagh Norfolck zelf ten zwaren val beschoren,</l>
+						<l>Die vlammende op de kroon, en bruit, hem vast belooft,</l>
+						<l>Opofferde aen de bijl zijn wederspannigh hooft.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Gansch Kristenrijck gevoelt de ketens van dees vrome.</l>
+						<l>De Pausen yverden voor 't Recht des stoels van Rome,</l>
+						<l>Den Tyber, van den Teems, eenstemmigh toegestaen;</l>
+						<l>Naerdien Elizabeth zich noit als onderdaen</l>
+						<l>Wou dragen onder hem, en 't leen verheergewaden,</l>
+						<l>Maer volghde 's vaders voet en averechtse paden,</l>
+						<l>Onthielt de Kerck haer Recht, verdruckte 't Roomsch altaer,</l>
+						<l>En steef het Ketterdom, zoo stout als openbaer.</l>
+						<l>Men vondt geraên den arm der Vorsten te gebruicken,</l>
+						<l>Om dit hardtneckigh zaedt de vleugels kort te fnuicken;</l>
+						<l>Te blusschen zulck een pest, eer 't een en eenigh bedt</l>
+						<l>Al 't huis, en 't eene lidt al 't lichaem voort besmett'.</l>
+					</sp>
+
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Dat ooghmerck bleeck wel klaer, toen d'opgehitste Graven</l>
+						<l>Met dien verliefden Vorst zich vlack in 't velt begaven,</l>
+						<l>En kap en kelck en kruis stont om soudy verzet:</l>
+						<l>Had Albaes afgunst zelf dien zeetoght niet belet,</l>
+						<l>Het scheelde een etmael tijdts Vitel waer ingevallen,</l>
+						<l>En met een Vlaemsche vloot al meester van stadts wallen,</l>
+						<l>Elizabeth geschupt, Marie alree gekroont:</l>
+						<l>Noch heeftze veertien jaer haer sedert 't lijf verschoont.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Marie droegh geen schult, noch waeghde oit zulcke kanssen.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Zy was nochtans de Bruit, om wie de Roomschen danssen,</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Een yeder heeft zijn wit: verlossing was haer wit.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Die gun ick haer, en d'andre een ongesteurt bezit.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Wie steurnis haet vermijde een anders rust te steuren.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Wat rust moght Engelant of Schotlant oit gebeuren?</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>In Schotlandts onrust heeft gansch Engelant gevischt,</l>
+						<l>En door den bastertbroêr Mouray dien burgertwist</l>
+						<l>Gekoestert: hier uit sproot de steurnis van het huwelijck</l>
+						<l>Der vrome Koningin, besproken al te gruwelijck</l>
+						<l>Van ongebondenheit, toen Riccio zijn ziel,</l>
+						<l>Daer hy voor 't reine altaer van hare voeten viel,</l>
+						<l>Opofferde in zijn bloet, dat zelf 't gewaet besmette</l>
+						<l>Der zwangere, op wiens borst de moort het zinckroer zette,</l>
+						<l>Om t'effens met een' schrick en snick en zelven zucht</l>
+						<l>Te smooren op het hof de moeder met haer vrucht.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>De Koning gaf te licht geloof aen 's basterts treken.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Zoo wert het bussekruit moordadigh aengesteken,</l>
+						<l>Het Koningklijcke bedt geslingert in de lucht,</l>
+						<l>D'onnoosle Gemalin van manslaght valsch berucht,</l>
+						<l>En echter schalck in 't net van Botwels echt getrocken;</l>
+						<l>Waer op d'aertskettery, noit afgemat van wrocken,</l>
+						<l>Als op een lecker aes vast aenbeet te gelijck,</l>
+						<l>En stack banieren op, waer in het oir van 't Rijck,</l>
+						<l>Voor 's vaders dooden romp en uitgestreckte beenen,</l>
+						<l>Den hemel weckte om wraeck, met jammeren en steenen.</l>
+						<l>De moeder, na veel smaets, gekerckert in een' poel,</l>
+						<l>En midden in 't morasch getrapt van s'vaders boel,</l>
+						<l>Moet scheiden van den staf, en goddeloos verlastert,</l>
+						<l>Haer eenig kint, haer' troost, betrouwen aen dien bastert.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Men zoeck' niet aen den Teems de springkaer van al 't quaet,</l>
+						<l>Maer aen de Seine, als zy, door Guises blinden raet</l>
+						<l>Voor Koningin verklaert, bestont naer 't Rijck te gapen,</l>
+						<l>En mengde Schotsch en Yrsch en Fransch en Engelsch wapen</l>
+						<l>In 't velt van haren schilt; braveerde met dit merck,</l>
+						<l>Gewrocht in hoftapijt, gebootst in zilverwerck:</l>
+						<l>De Wapenrocken zelfs der Stuartsche Herouten,</l>
+						<l>Haer gevelprael, waerop de Franschen zich verstoutten,</l>
+						<l>Onaengesien 't beklagh des Londenschen Gezants,</l>
+						<l>Bestelden d'eerste stof tot zoo veel misverstants,</l>
+						<l>Hier entloos uit gebroeit, en lijdigh zwaer te smooren.</l>
+						<l>Zou 't bloet van Henrick d'Achtste, een vrouw ten troon geboren,</l>
+						<l>Verduwen, zich te zien gehoont, by groot en klein,</l>
+						<l>Voor een onwettigh zaet, een bloetschant van Boulain;</l>
+						<l>Terwijl uw Myters zelfs naer heuren val verlangen,</l>
+						<l>En aen dit lasterstuck gewijde zegels hangen?</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Berooft de vader zelf het kint zijn wettigheit,</l>
+						<l>Waer toe Sint Peters stoel dit stuck te last geleit?</l>
+						<l>Zoo self de staet des Rijcks haer dorst van 't Rijck versteken,</l>
+						<l>Wat heeft Elizabeth op Paus of bul te spreken?</l>
+						<l>Zoo Guize zoo Valois oit holden zonder toom,</l>
+						<l>Wat wijt men dees de schult van schoonvaêr, man en oom?</l>
+						<l>Die, schoon men haer met recht dien tijtel wel moght geven,</l>
+						<l>Nochtans dit tijtelrecht afstonden by hun leven;</l>
+						<l>Gelijck des Konings weeuw, noch treurende op het lijck,</l>
+						<l>Den kus van vrede boodt aen dit gequetste Rijck;</l>
+						<l>Behoudens datze noit zich 't erfrecht liet ontrucken,</l>
+						<l>Hoe fel men sedert zocht haer erfrecht t'onderdrucken:</l>
+						<l>Want al d'Onroomscheit zagh niet ongedootverft in,</l>
+						<l>Hoe na de kinderlooze Onroomsche Koningin</l>
+						<l>Een Roomsche volgen moght, en Romes hope alreede</l>
+						<l>Te Kercke en Koore gingk, naer d'oude en eerste zede.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Het heughde een ieder, hoe de godtsdienst nam zijn' keer,</l>
+						<l>En t'elckens ommesloegh by wisseling van Heer.</l>
+						<l>Wie heden boven drijft is morgen de verachtste:</l>
+						<l>Dat leerde ons 't wanckel radt,'t welck onder Henrick d'Achtste</l>
+						<l>Zoo haestigh ommedraeide, en weêr in twijfel hing,</l>
+						<l>Eer Eduwart den groet des onderdaens ontfing:</l>
+						<l>Het weifelde noch eens op 't wencken van Marye;</l>
+						<l>Noch eens op 's nazaets staf, haer zusters heerschappye.</l>
+						<l>Zoo menighmael het hof Sint Pauwels wintveêr draeit,</l>
+						<l>De weerhaen van de kerk dan Roomsch, dan Onroomsch kraeit.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>O Henrick, wat al leets hebt ghy de Kerck gebrouwen!</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Dat kleet is uit zijn ploy: wie kan het weder vouwen?</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>De hant, die 't al vermagh, en 't onrecht effen vlijt.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Vrouw Stuart wort gesolt van een verwarde tijt.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>In zulck een barning zat de moeder oock benepen.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Ick ducht de rechtbijl wort voor 's dochters hals geslepen.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Indien ghy moortbijl zeit, dat was de rechte naem.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Zy draeght den naem van Recht.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Een Recht dat ick my schaem.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Men zagh weleer Boulain ten block en bijl verdoemen.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Die wil ick met Mevrouw op eenen dagh niet noemen.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Ick ga: de deure kraeckt.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Gewis hier komt Burgon,</l>
+						<l>De Lijfarts van Mevrouw, een ondergaende zon.</l>
+					</sp>
+
+				</div>
+				<div type="scene" n="2">
+					<stage>BIECHTVADER. BURGON.</stage>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Hoe vaert de Koningin, van mijnen dienst versteken?</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Vry beter dan het scheen geschapen voor vijf weken,</l>
+						<l>Toen al dit hartewee, het welck oneindigh is,</l>
+						<l>Eens uit te bersten quam op een missteltenis</l>
+						<l>Van 't gantsche lijf; en zoo wy 't onheil noemen zouden</l>
+						<l>Met zijnen naem; het wort gemeenelijck gehouden</l>
+						<l>De wisse voorbo van een bolle waterzucht,</l>
+						<l>Uit eene trage koorts gesproten, als haer vrucht;</l>
+						<l>Een koorts, die haer een maent in 't bedde heeft bereden,</l>
+						<l>En blies dees bollicheit door al haer ziecke leden.</l>
+						<l>Dat onweêr is bedaert, en entlijck neergeleit,</l>
+						<l>Doch zy behoudt, helaes! die bleecke bollicheit,</l>
+						<l>Waer uit men anders niet dan waterzucht kan spellen,</l>
+						<l>En dat het lichaem moght allengs van water zwellen:</l>
+						<l>Want milt en lever (dees de winckel van het bloet,</l>
+						<l>En die het vuylnisvat des lijfs, te lang misvoedt)</l>
+						<l>Zijn beide schier verslenst, bedorven, overstreden</l>
+						<l>Door overvloet van raeuwe en koude vochtigheden,</l>
+						<l>Die (d'oirsprongk van dit quaet) met vuilen damp op damp</l>
+						<l>Bezwalcken 't edel brein; benevelen de lamp</l>
+						<l>Van 't kloeck vernuft, ja zelf door 't beckeneel geslagen,</l>
+						<l>'T gezalfde hair met sneeuw bedecken voor zijn dagen:</l>
+						<l>En wie verwondert zich, die op haer jammer ziet?</l>
+						<l>Des kerckers eeuwigheit, en 't nypende verdriet,</l>
+						<l>Verdruckten de natuur, die al te noode aen 't wijcken,</l>
+						<l>Ten leste eens onder 't pack der rampen most bezwijcken.</l>
+						<l>Zy houdt nochtans den moedt, en in verwezen staet,</l>
+						<l>Schijnt kloecker dan ick 't hart gestelt vinde in der daet.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Een edelmoedige aert kan qualijck zich verbergen:</l>
+						<l>Hy schiet zijn stralen uit, en breeckt door al dat tergen,</l>
+						<l>Door zoo veel onrecht, hoon en wederwaerdigheit,</l>
+						<l>Aen alle kanten door met grooter majesteit.</l>
+						<l>Doch 't aertsche deel lijt last, door stadigh tegenwoelen</l>
+						<l>Der geesten, die wel scherp hun ongelijck gevoelen:</l>
+						<l>Want schoon de mensch van mensch te wonderlijck verscheelt;</l>
+						<l>Men schudt den mensch niet uit: oock schiet het vrouwebeelt</l>
+						<l>Door tederheit te kort: en of 't zijn leet wil schuwen,</l>
+						<l>Het kan al d'ingekropte ellende niet verduwen.</l>
+						<l>Zoo sleepte een stroom van ramp haer wijze moeder me.</l>
+						<l>Kon Kalis, het verlies van zulck een kleine ste,</l>
+						<l>Marie, hare nicht, door waterzucht verslijten;</l>
+						<l>Hoe zou Mevrouw bestaen, die uitstont al dit wrijten</l>
+						<l>Van twintigh jaren wrocks en staetzuchts, hoogh in top?</l>
+						<l>Het yzer wijckt den vijl, jae steen den waterdrop.</l>
+						<l>Wat raet? Hoe zoeckt men best 't gevreesde voor te komen?</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>'t Gebreck zit diep, en heeft alreede toegenomen,</l>
+						<l>Zoo datmen langkzaem baet verwacht van artseny:</l>
+						<l>Doch aengeperst van zorgh en eere, zullen wy</l>
+						<l>Met puick van heilzaem kruit, gepluckt in winterweiden,</l>
+						<l>Het zwacke lichaem eerst een luttel toebereiden,</l>
+						<l>Tot dat de zomerzon ons beter hope geef,</l>
+						<l>Een keur van weeligh groen in beemt en heide leef.</l>
+						<l>Wy gaen in 't velt, om kruit met krijghsvolck uitgezonden.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Ick bidde u luister scherp naer tijdingen van Londen,</l>
+						<l>En kunt ghy, troost Mevrouw, tot lichting van haer smert:</l>
+						<l>Een blijde nieuwmaer zet de zwaricheit van 't hart.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>REY VAN STAETJOFFEREN.</stage>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Zangk</speaker>
+						<l>MARIE, uit Jesses stam geboren,</l>
+						<l>En tot een rijcker kroon gekoren</l>
+						<l>Dan David droegh in 't Jootsche Rijck:</l>
+						<l>Marie in ootmoet hoogh verheven,</l>
+						<l>Van vreugt en blyschap aengedreven,</l>
+						<l>Bezoeckt haer nicht in Arons wijck.</l>
+						<l>ELIZABETH, tot Godt genegen,</l>
+						<l>Schiet op, en vlieght Marie tegen,</l>
+						<l>Omhelst en kust die groote Nicht.</l>
+						<l>Aenschouw dit hartelijck verlangen,</l>
+						<l>Hoeze in elckanders armen hangen:</l>
+						<l>Hoe liefde bloet aen bloet verplicht.</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Tegenzangk</speaker>
+						<l>MARIE, uit Stuarts stam geboren,</l>
+						<l>En tot een rijcker Kroon gekoren</l>
+						<l>Dan Henrick droegh in 't Engelsch Rijck:</l>
+						<l>Marie, in rampspoet hoogh verheven,</l>
+						<l>In druck en ballingschap gedreven,</l>
+						<l>Neemt tot haer Nicht in noot de wijck:</l>
+						<l>ELIZABETH tot wraeck genegen,</l>
+						<l>Blijft pratten, zent heur wachters tegen,</l>
+						<l>En vangt en spant die groote Nicht.</l>
+						<l>Zy laetze twintigh jaer verlangen,</l>
+						<l>En tusschen hoop en dootschrick hangen:</l>
+						<l>Want Staetzucht past op bloet noch plicht.</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Toezangk</speaker>
+						<l>Hoe stemden dees twee leste t'zamen,</l>
+						<l>Indien de daden met de namen</l>
+						<l>Te gader stemden juist en net,</l>
+						<l>Als 't eerste paer; maer nu beschamen</l>
+						<l>De wreetheên van ELIZABETH</l>
+						<l>Haer' naem, vol geurs, en 't heiligh voorbeelt;</l>
+						<l>Naerdienze op haer gesmede wet</l>
+						<l>MARIE tegens Recht veroordeelt.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<head>Het tweede bedryf.</head>
+				<div type="scene" n="1">
+					<stage>MARIE. REY.</stage>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Aertsbisschop Hamilton, hoe dick, hoe menighwerf</l>
+						<l>Beroude 't my, dat ick (noch op mijn Vaders erf,</l>
+						<l>Gelijck een simple duif ontslipt, en onbenepen</l>
+						<l>Van 's oproers klaeuw, en reede om over zee te schepen)</l>
+						<l>Niet hoorde uw gryze les, uw' Vaderlijcken raet;</l>
+						<l>En schuwende den muil van ingekropten haet,</l>
+						<l>Het aenzette op de Vlaemsche of Fransche Koningskusten;</l>
+						<l>Daer ick, schier afgesolt, moght zacht en veiligh rusten,</l>
+						<l>In dien gerusten schoot; daer mijn gemael Francois,</l>
+						<l>Mijn eerste bruidegom, die telge van Valois,</l>
+						<l>Zoo lieflijck slaept en rust by 't Vaderlijck gebeente,</l>
+						<l>Beklaeght van my, zijn weeuw, en alle zijn gemeente.</l>
+						<l>O had my toen 't verstant niet averechts gestaen,</l>
+						<l>Tot straffe van het gene ick geensins heb misdaen</l>
+						<l>Mijn lieve bloetvriendin, maer zelf den Heer van allen;</l>
+						<l>Ick waer aen deze kust noit blindeling vervallen,</l>
+						<l>Tot schipbreuck van mijn' staet gezontheit goet en bloet;</l>
+						<l>Een dwaesheit, die ick hier zoo dier bezuren moet;</l>
+						<l>Daer alles zackt, om zich tot mijn bederf te neigen,</l>
+						<l>En Zusters byl begint alle oogenblick te dreigen</l>
+						<l>Mijn' afgematten hals, gesleten onder 't juck</l>
+						<l>Des kerckers, zonder endt, en nimmer zonder druck:</l>
+						<l>Doch ick verdiende aen Godt, helaes! noch harder slagen:</l>
+						<l>Hy stercke my, om 't kruis geduldiger te dragen.</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Rey</speaker>
+						<l>Mevrouw, ick bidde u, breeck dit treurigh steenen af:</l>
+						<l>Ghy steent u weder kranck, en voor den tijt in 't graf.</l>
+						<l>Ghy storte korts van rouw en hartewee te bedde,</l>
+						<l>En elck met u begaen, eer d'artseny u redde,</l>
+						<l>Niet zonder hulp en gunst van 's hemels medecijn,</l>
+						<l>Was kranck, terwijl ghy laeght in dien bedroefden schijn,</l>
+						<l>Op d'oevers van de doot. Wat denckt ghy aen 't voorleden!</l>
+						<l>'T zy weelde, 't zy verdriet, dat is voorby gegleden:</l>
+						<l>Het tegenwoordigh geeft ons zwarigheits genoegh:</l>
+						<l>Wy zetten 't grijze hair en rimpels noch te vroegh.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Hoe kan ick aen dien dagh gedencken zonder weenen,</l>
+						<l>Die my te scheep zagh gaen, aen 't water te Dundrenen?</l>
+						<l>Toen Hamilton zich voor mijn voeten nederboogh,</l>
+						<l>Zijn beide handen vouwde, en met de traen in 't oogh,</l>
+						<l>My toonde baeck op baeck in ons historiboecken,</l>
+						<l>Afradende de kust der Engelschen te zoecken;</l>
+						<l>Daer grootvaêr Jakob, d'eerste, eilaes! zoo deerlijck voer;</l>
+						<l>Malkolm, der Schotten Vorst, en Willemheer, zijn broêr,</l>
+						<l>Van Henrick bleef geprest in dienst op Fransche toghten;</l>
+						<l>Daer oock 't Albaensche hooft en anderen bezochten</l>
+						<l>Hun wreetheit en verraet; een eigenschap, die dit</l>
+						<l>Geslacht tot in het been en mergh gekropen zit.</l>
+						<l>d'Aertsbisschop ruste niet van bidden en bezweeren,</l>
+						<l>Toen hy den zeeman 't schip aen 't water zagh ontmeeren</l>
+						<l>Hy woude onschuldigh zijn, en eischte schrift en bladt,</l>
+						<l>Tot tuigen hoe hy zich aen my gequeten hadt.</l>
+						<l>O Vader! 'k houde u vry, en soo veel trouwe vrienden:</l>
+						<l>Mijn schulden hadden schult, die zulck een straf verdienden.</l>
+						<l>Men waerschuwt al vergeefs: wien Godt zijn hoede ontzeit,</l>
+						<l>Bemerckt den valstrick niet, die voor zijn voeten leit:</l>
+						<l>Men wort door rampen wijs, en ondervint te spade,</l>
+						<l>Hoe los men henedrijve op 's nagebuurs genade.</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Rey</speaker>
+						<l>Ghy meet een anders hart naer 't uwe, nimmer valsch,</l>
+						<l>En voelde eerst met den slagh dien slagh op uwen hals.</l>
+						<l>De scepters gaen te traegh met billijckheit te rade:</l>
+						<l>Zy achten deucht en eere, indienze koom' te stade.</l>
+						<l>Het wrocken tusschen Schot en Engelander staet</l>
+						<l>Van weerzijde op veel bloets en oorlooghs, zonder maet.</l>
+						<l>Mevrouw, als op een rots geketent tusschen beide,</l>
+						<l>Verstreckt hun borreghtoght, tot dat de tijt dit scheide.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Wy staken af in zee, en zagen vast de schaer,</l>
+						<l>Die op den oever kermde, en badt met groot misbaer,</l>
+						<l>Beschreien deze vlught, te treurigh en verlaten,</l>
+						<l>En voor haer' boezem slaen. Zoo hoort men lammers blaten,</l>
+						<l>Wanneer de herderin, geperst van watersnoot,</l>
+						<l>Of strooper, zonder naem, oock door haer eigen doot</l>
+						<l>Geen kudde bergen kan; terwijl hy aen komt streven,</l>
+						<l>En hongerigh naer buit, te woest en overgeven</l>
+						<l>Den herder jaeght voorheen, die deerlijck ommekijckt,</l>
+						<l>Bekommert met zijn koy, die op den zeekant wijckt.</l>
+						<l>Aldus belandden wy te Wirkinton in 't ende,</l>
+						<l>En wisselden van gront, maer geensins van ellende.</l>
+						<l>Ick zende aen zuster 't hart, haer diamanten pant,</l>
+						<l>Maer och! haer eigen hart verkeert in diamant,</l>
+						<l>Vermorwt door be noch klaght. Zy houdtme zitten quijnen;</l>
+						<l>Zy boeitme in eenzaemheit en duistere woestijnen,</l>
+						<l>Vervoert van slot op slot. Zy geeft party geloof,</l>
+						<l>En och! voor my alleen zijn ieders ooren doof.</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Rey</speaker>
+						<l>Zoo vlught de nachtegael het vogelvangers garen,</l>
+						<l>En valt in 's arents klaeuw, op vrybuit lang ervaren.</l>
+						<l>Zoo schuwt het weerloos lam den wreeden wollefstant,</l>
+						<l>En wort van een leeuwin of luipert aengerant.</l>
+						<l>De roozen gloejen schoon, maer wacht u voor haer doren.</l>
+						<l>Het roozebladt bedeckt een adder bits van toren.</l>
+						<l>Het diamanten hart, u toegezonden, spelt</l>
+						<l>Te vore hoe haer hart van binnen is gestelt:</l>
+						<l>Noch kan het bockenbloet op diamantsteen winnen,</l>
+						<l>Maer Koninginnebloet verzacht geen Koninginnen.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Mijn broeder speelt terwijl den Koningk op mijn' troon,</l>
+						<l>Misbruickt d'onmondigheit en kintsheit van mijn' zoon,</l>
+						<l>Een onderdruckte wees, van 's moeders raet verstooten.</l>
+						<l>Hy plondert en verwoest kasteelen, huizen, sloten,</l>
+						<l>En laeuw, maer niet verzaet van 't Koningklijcke bloet,</l>
+						<l>Vint smaeck en slaet zijn' klaeuw in 't onverbeurde goet,</l>
+						<l>Ziet Godt noch menschen aen, om 't ketterdom te stercken,</l>
+						<l>Te stichten op het puin van kloosteren en kercken,</l>
+						<l>Berooft van tiende en schat en offer en altaer,</l>
+						<l>En geestelijcken staet, gedoken in gevaer.</l>
+						<l>Soo veel baldadigheits geleên, by t'zamenrotten</l>
+						<l>Der wederspannigen, verdriet mijn vroomste Schotten,</l>
+						<l>Die duizenden in 't velt het harnas schieten aen,</l>
+						<l>Getroost het Recht van Godt en Koningk voor te staen.</l>
+						<l>Ick laetme niet te min op toezegh noch gezeggen,</l>
+						<l>En hopende op verdragh, de wapens nederleggen.</l>
+						<l>Mijn klaght en onschult wort in 't Parlement gehoort,</l>
+						<l>Ick vry gekent: Maer och! men houtme trouw noch woort:</l>
+						<l>Geen voorslagh baet: ick vindt my reis op reis bedrogen:</l>
+						<l>Wat zich beweeght of niet, mijn ramp staet onbewogen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>KENEDE. MARIE.</stage>
+					<sp who="#kenede">
+						<speaker>Kenede</speaker>
+						<l>Geluck, Mevrouw, geluck en zegen sla hier toe.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Getrouwe Kamenier, wat wil dit zeggen? hoe?</l>
+					</sp>
+					<sp who="#kenede">
+						<speaker>Kenede</speaker>
+						<l>Nu wensch uw Kenede dat haer geluck bejegen'.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Dat quam in twintigh jaer uw Koningin noit tegen.</l>
+					</sp>
+					<sp who="#kenede">
+						<speaker>Kenede</speaker>
+						<l>Ick zie ons morgen vroegh ter goeder tijdt verlost.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Ghy stuurt, naer uw gewoonte, uw hoop vooruit te post.</l>
+					</sp>
+
+					<sp who="#kenede">
+						<speaker>Kenede</speaker>
+						<l>Ick hoop u morgen vroegh, als eertijts, na te springen.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Gelijck te Lochlevijn? belachelijcke dingen.</l>
+					</sp>
+					<sp who="#kenede">
+						<speaker>Kenede</speaker>
+						<l>Waerom belachelijck? 't is errenst, en geen spel.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Hier leit geen Douglas t'huis, geen jonge Daniël.</l>
+					</sp>
+					<sp who="#kenede">
+						<speaker>Kenede</speaker>
+						<l>En of mijn aenslagh eens in 't endt met Godt geluckte?</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Uw brein verziert wat nieuws: zoo troost men de bedruckte.</l>
+					</sp>
+					<sp who="#kenede">
+						<speaker>Kenede</speaker>
+						<l>Mevrouw ontslipte toen in mannelijck gewaet.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Vergeefs. Nu rep my niet van oproer of verraet.</l>
+					</sp>
+					<sp who="#kenede">
+						<speaker>Kenede</speaker>
+						<l>Het geen natuur ons raet: ons staet een kans te waegen.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Dat waegen stont voorhene op bloet en nederlagen.</l>
+					</sp>
+					<sp who="#kenede">
+						<speaker>Kenede</speaker>
+						<l>Men heeft, hoe dick en sterck dit slot oock schijn' bemuurt,</l>
+						<l>Van langer hant een hol van onder uitgeschuurt,</l>
+						<l>Waer door men aen de graft gemackelijck kan kruipen,</l>
+						<l>En langs een biesbrugh stil by donckre maene ontsluipen,</l>
+						<l>Daer een gezadelt paert u, zonder lantgerucht,</l>
+						<l>In luttele uren tijdts, zal bergen met der vlucht,</l>
+						<l>En voeren strandewaert, bestuwt met brave Ridderen,</l>
+						<l>Om in een visschers pinck....</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Och! zwijg: mijn leden sidderen.</l>
+						<l>Wat heeft het edel huis van Hawart niet geleên!</l>
+						<l/>
+						<l>Wat heeft het niet bezuurt! hoe is het plat getreên!</l>
+						<l>Mijn vrydom kan, hoe kloeck een aenslagh zy begrepen,</l>
+						<l>Niet anders dan 't bederf van velen met zich slepen.</l>
+						<l>'k Onslipte Lochlevijn geluckighlijck, en won</l>
+						<l>Het velt met zulck een hoop van haest te Dombreton</l>
+						<l>De klaeuwen van Mouray en zijn griffoens te schuwen:</l>
+						<l>Maer zoo veel Heeren als hun Koningin bestuwen</l>
+						<l>Vervielen jammerlijck te Langsid in zijn laegh;</l>
+						<l>Een jammer daer ick noch in 't harte rouw om draegh:</l>
+						<l>Men waeghde een schoone kans, van weerzijde afgeronnen,</l>
+						<l>Wat wert 'er bloets gestort! Getrouwe Hamiltonnen,</l>
+						<l>Dat Godt uw trouw bekroone in 't eeuwighduurzaem Rijck.</l>
+						<l>O Koningklijck geslacht! ghy hoopte lijck op lijck</l>
+						<l>Wel sestigh in getal. Wie ons had aengehangen</l>
+						<l>Geraeckte hier ten val, verslagen of gevangen,</l>
+						<l>En ick, verlost van 't Schotsche, in 't Engelsche gewelt.</l>
+					</sp>
+					<sp who="#kenede">
+						<speaker>Kenede</speaker>
+						<l>Daer klopt Burgon: hy brengt u kruiden uit het velt.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>BURGON. MARIE. KENEDE.</stage>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Of kruiden, of wat nieuws, gezonder dan mijn kruiden.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Wat brengt ghy nieuws, Burgon? dit moet wat vreemts beduiden.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Ick hoop wat goets, Mevrouw, en beter dan ghy waent.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Zegh op, ghy hebt alree genoegh den wegh gebaent.</l>
+						<l>Ontveins my niet 't geen streck' tot korting van mijn lijden.</l>
+						<l>Behaegh het Godt, hy geve ons moedigh door te strijden.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Wy lazen hier en daer het heilzaem kruit by een,</l>
+						<l>Wanneer een Ridder quam van Petersburgh gereên,</l>
+						<l>Gevolleght in 't verschiet van paerden en karrossen.</l>
+					</sp>
+					<sp who="#kenede">
+						<speaker>Kenede</speaker>
+						<l>Ter goeder ure: ick hoop zy komen u verlossen.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Ick spreeck hem aan, en vraegh naer tijding uit het hof.</l>
+						<l>Hy kende my, en sprack: mijn Heer, nu hebt ghy stof</l>
+						<l>Om uitkomst van verdriet voor uw Princes te hopen:</l>
+						<l>Misleit de roep my niet, ick zie den Kercker open.</l>
+						<l>Zoo dra het vonnis was door Londen getrompet,</l>
+						<l>Heeft ieder, die haer droegh, dien zwaren slagh belet.</l>
+						<l>Men dreight Elizabeth met wraeck aen alle kanten:</l>
+						<l>Men houdt door brieven aen, vertoogen en Gezanten,</l>
+						<l>En al wat achterdocht en omzicht baert en zorgh.</l>
+						<l>Hier dreight en smeeckt Parijs, daer 't hooft van Edenborgh,</l>
+						<l>Haer zoon, Bourbon, en d'ooms, zoo Lotheringe als Guisen,</l>
+						<l>En al wie by haer bloet aen Majesteit verliezen.</l>
+						<l>Bellievre boven al verbloemt vrouw Stuarts schult,</l>
+						<l>En stuit ons Koningin, gedwongen met gedult</l>
+						<l>Ter liefde van Valois het Recht zoo lang te schorten,</l>
+						<l>Oock met gevaer van Kroon en leven te verkorten.</l>
+						<l>Het Keizerlijcke hof, gansch Duitschlant, ja Euroop</l>
+						<l>Gaen zwanger van dit pleit. De Roomschen scheppen hoop</l>
+						<l>Dat onze Koningin uw Koningin zal sparen.</l>
+						<l>Ick hoop dit onweêr zal ten leste nu bedaren.</l>
+						<l>Het Rijck is vol geruchts, dat alle dagen wast.</l>
+						<l>Dees Heeren komen nu ontvouwen hunnen last.</l>
+						<l>Verquick uw Koningin het hart met deze maeren.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>De zee leit op haer luim, om met noch feller baren</l>
+						<l>'t In slaep gewieghde roer te wecken met een' slagh,</l>
+						<l>Daer 't reddelooze schip niet langer tegen magh.</l>
+						<l>Betrouw een zeegedroght: betrouw uw lijf de winden</l>
+						<l>En wateren des volcks, genegen tot verslinden.</l>
+						<l>Men peilt geen gront van 't hof: zijn afgront leit te diep.</l>
+					</sp>
+					<sp who="#kenede">
+						<speaker>Kenede</speaker>
+						<l>'t Is noch geen hallef jaer dat zy haer woort herriep,</l>
+						<l>En onder 't lezen zelf den mont des Rechters snoerde,</l>
+						<l>Eer Amias door last u op dit huis vervoerde:</l>
+						<l>Ja menigh jaer geleên verwees u 't Parlement,</l>
+						<l>Doch zonder nadruck: al dat dreigen quam in 't endt</l>
+						<l>Op dezen kercker uit: dit zijn de zelve vlagen.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Het gae zoo 't Godt belief: zijn wil zy mijn behagen.</l>
+						<l>Daer kloppenze: my dunckt dat ick de Graven hoor.</l>
+						<l>Burgon, doe op: vertreck: de Heeren zijn daer voor.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<stage>DE GRAVEN. MARIE.</stage>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Mevrouw, vergeef het ons, zoo wy uw' geest beroeren,</l>
+						<l>En komen met den last van 't vonnis uit te voeren,</l>
+						<l>Door wil der Koninginne en 't volle Parlement</l>
+						<l>Gestreken tegens u; op dat men eens in 't endt,</l>
+						<l>Bykans aen lager wal, tot schipbreuck toe, gedreven,</l>
+						<l>Den staet des Rijcks zijn rust, de Koningin haer leven</l>
+						<l>Verzekere, eer de storm van zoo veel ongevals</l>
+						<l>Door reuckeloos verzuim hun t'effens op den hals</l>
+						<l>Koom' storten, en met een den Godtsdienst te verpletten,</l>
+						<l>Waer aen ons Godt verbint, geweten, eedt en wetten:</l>
+						<l>Getroost dan morgen vroegh u zelve hier bereit</l>
+						<l>Te buigen onder 't Recht, u wettigh opgeleit;</l>
+						<l>En wijt ons niet, dat wy 't gevelde vonnis uiten,</l>
+						<l>Als dienaers van 't Gerecht, door gunst noch haet te stuiten.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Zoo lagh het niet by my, dat uwe Koningin,</l>
+						<l>Mijn zuster, die ick meer dan zusterlijck bemin,</l>
+						<l>Mijn doot bezeeglen zou, en dus dien twist beslechten;</l>
+						<l>Dewijl ick geensins ben gehouden aen uw Rechten:</l>
+						<l>Edoch behaeght het haer te zoenen dit geschil</l>
+						<l>Met storten van mijn bloet; ick stem in haren wil,</l>
+						<l>En ga die schoone doot gemoeten met verlangen:</l>
+						<l>Oock is de ziel niet waert om hoogh de kroon t'ontfangen,</l>
+						<l>Indien hier 't lichaem schroom' voor d'opgeheve bijl,</l>
+						<l>En schrick' voor eenen slagh. Ick heb my al een wijl</l>
+						<l>Bereit, en wissel bly den kercker van dit leven,</l>
+						<l>Om mijnen bruidegom en Heer de hant te geven,</l>
+						<l>In 't onbenevelt licht, daer haet noch afgunst bast;</l>
+						<l>Daer Godt de tranen zelf van oogh en aenschijn wascht.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Verschoont ons Koningin, en reinigh uw geweten</l>
+						<l>Van 't lasterlijck vergrijp en bloedige vermeten,</l>
+						<l>Te kenbaer aen het volck, dat haer om d'ooren loopt.</l>
+						<l>Men heeft verradery en list op list gehoopt,</l>
+						<l>Gedongen naer ons kroon, en Roomschen, die u noemen</l>
+						<l>Hun rechte Koningin, baldadigh hooren roemen</l>
+						<l>Op Stuarts wettigheit, en stoffen, woest en wilt,</l>
+						<l>Op uwe luiperden en aengenomen schilt.</l>
+						<l>De kroon (dit weet Mevrouw) verdraeght geen stoelgenooten.</l>
+						<l>De Londensche gemeent, de kleenen en de Grooten,</l>
+						<l>Een ieder roept om 't luitst: verzeker uwen Staet:</l>
+						<l>Maer 't gene dees gekroonde op 't hooghst ter harte gaet</l>
+						<l>Is d'eere des geloofs, gezuivert door 't hervormen,</l>
+						<l>Het welck in dezen nacht van dagelijcksche stormen</l>
+						<l>Geen veiligheit kan zien (wy tuigen 't zonder ergh)</l>
+						<l>Ten zy het door uw doot ter noot zijn leven bergh'.</l>
+						<l>De doot van 't een geloof is 't leven van het ander.</l>
+						<l>Zoo scheit men Belial en Kristus van malkander:</l>
+						<l>Zoo puurt men ons gheloof van schuim en valschen schijn;</l>
+						<l>Dies neem ghedult: het magh, het kan niet anders zijn.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Gelooft zy Godt, nu zelfs de vyanden betrouwen</l>
+						<l>Dat mijn ghezagh alleen waer maghtigh op te bouwen</l>
+						<l/>
+						<l>Den overouden dienst van 't omgewroete altaer;</l>
+						<l>Een roem zoo goddelijck, dat ickze met gevaer</l>
+						<l>Van Stuarts kroon en bloet, den oppersten ter eere,</l>
+						<l>Ter eere zijner Kercke, op 't vierighste begeere.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Volhardt vry even stijf, en hou den zelven toon:</l>
+						<l>Maer och! zy staet vergeefs naer d'eer der martelkroon</l>
+						<l>En naem van Heiligh, die naer 's anders hart durf steecken,</l>
+						<l>Met eenen naer heur kroon, een stuck te klaer gebleken.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Dat waer vermetenheit, en anders dan my voeght.</l>
+						<l>Zy hoeft geen dubbele eer, wie d'eenige eer vernoeght.</l>
+						<l>Ghy hebt aen 't lichaem maght door Godts gehengenisse,</l>
+						<l>Geensins door Recht; dat vraeght uw overtuight gewisse,</l>
+						<l>Zoo wel bewust, dat ick, die een Gezalfde ben,</l>
+						<l>Een vrije Koningin, naest Godt geen hooger ken:</l>
+						<l>Noch stelt ghy mijne ziel door dreigement geen wetten,</l>
+						<l>En kuntze niet de hoop op die gena beletten,</l>
+						<l>Waer door ick hem mijn bloet opoffer, die my sterck',</l>
+						<l>Dat mijn vermindring streck' tot wasdom van zijn Kerck;</l>
+						<l>Waer buiten mij niet lust de werelt te regeeren,</l>
+						<l>En om 't vergangkelijck 't bestendigh Rijck t'ontbeeren,</l>
+						<l>Veel min tot zusterslagh te geven raet of daet.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Hoe lochent ghy 't geen blijckt by Babingtons verraet.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Ick legh mijn hant op 't boeck, gelijck een vrouw van eere,</l>
+						<l>Ia kriste Koningin, ten troon gezalft, en zweere</l>
+						<l>Op 't noit vervalschte Woort, dit heiligh perckement,</l>
+						<l>Dat my noch zustermoort noch opzet is bekent,</l>
+						<l>Die naer heur' ondergangk of nadeel hebb' geroken.</l>
+						<l>De voorspoet van heur staet (hoe snoot ick zit besproken)</l>
+						<l>Was t'allen tijde my ten hooghste waert en lief.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Ghy zweert by Roomschen text, maer kunt den cijferbrief</l>
+						<l>En Naus getuighenis en Kurle niet verstommen.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Hoe zit d'onbillijckheit zoo hoogh in top geklommen?</l>
+						<l>En bezight men nu knecht en huurling, luttel trouw,</l>
+						<l>En vlammende op genot, ten laste van hun vrouw?</l>
+						<l>De waerheit schijnt te sterck in 't aenzicht van de logen.</l>
+						<l>Men brengze eens (heeft men 't hart) ons levende onder d'oogen.</l>
+						<l>Wy kennen Walsingam, en wat hy broet in 't hart:</l>
+						<l>Zijn schalckheit weet, hoe zy zich diende van Balart,</l>
+						<l>Meineedigheit gebruickte, en spreecken kost door monden</l>
+						<l>En pennen, aen geen' plicht of eere en eedt gebonden.</l>
+						<l>Ick zie de Majesteit der Kroone in slijck getreen,</l>
+						<l>Indienze, in zulck een zaeck, moet hangen aen het geen</l>
+						<l>Geheimeschrijvers, dier verplicht voor haer te buigen,</l>
+						<l>Gevalle om jemants zucht lichtvaerdigh te getuigen.</l>
+						<l>Ghy weet wie hen misschept: ick heb hun trouw beproeft</l>
+						<l>In billijckheit, die geen getuighenis behoeft.</l>
+						<l>Het blijckt hoe Saul noch dus, tegens zijn geweten,</l>
+						<l>Al t'onrecht David pooght aen muur en want te speeten:</l>
+						<l>Hy sprong te venster uit, en ick, die anders niet</l>
+						<l>Dan mijn verlossing zoeck, het geen Natuur gebiet</l>
+						<l>Den vogel in zijn kouw; 't geen zelfs de wetten raden,</l>
+						<l>Zit hierom met een' moort en zusterslagh beladen.</l>
+						<l>Een krancke weduw, die gekerckert zucht en smeeckt,</l>
+						<l>Misdoet, terwijlze bidt dat Godt haer boeien breeckt;</l>
+						<l>Misdoet, terwijlze schreit, dat hier of daer een stercker</l>
+						<l>Op hare klaghte ontwaecke en opene dien kercker</l>
+						<l>Der entlooze eeuwigheit, alle oogenblick bespiet;</l>
+						<l>Terwijlze smilt als sneeuw, en smoort in dit verdriet.</l>
+						<l>Noch zochtze Flippes noit haer erfrecht op te dragen,</l>
+						<l>Om niet (al belght hy 't zich) de zuster te mishagen,</l>
+						<l>En diende zich veel eer van Hesters zoeten aert,</l>
+						<l>En lieflijck smeecken, dan van Judiths bloedigh zwaert.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Mevrouw, ghy hoort den last betrouwt aen onze zorgen,</l>
+						<l>Die u geen uitstel geeft dan tot den dagh van morgen.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Welaen, ick heb voorhene uw aenklaght wederleit,</l>
+						<l>En wil, als een wie Recht en reden wort ontzeit,</l>
+						<l>My zelve op 't hoogh gerecht der opperheerschappye,</l>
+						<l>Waer voor Elizabeth gelijck staet met Marye,</l>
+						<l>Beroepen. Ghy verstaet, u allen is bewust,</l>
+						<l>(Want geen bewimpeling 't geweten dempt of bluscht)</l>
+						<l>Dat mijn geboorte alleen en Godtsdienst my bezwaren:</l>
+						<l>Doch 't is in niemants maght zich zelf te wederbaren,</l>
+						<l>Te lochenen zijn bloet, t'ontkennen 't heiligh merck</l>
+						<l>Der vonte, die de ziel dit indruckte in de kerck.</l>
+						<l>Men noem' het zoo men wil, dit zijn de lasterstucken,</l>
+						<l>Waer op ick my getroost voor uw gewelt te bucken.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Wy hebben ons gemoedt gezuivert, zoo 't behoort:</l>
+						<l>Beroep u vry op Godt: wy varen echter voort.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Dewijl men in dit Rijck my nauwelix zal kunnen</l>
+						<l>Een uitvaert, naer den eisch van mijn geloof, vergunnen</l>
+						<l>En Koningklijcken staet; gelijck 't aelout geslacht</l>
+						<l>Der Koningen van outs ter aerde wert gebraght;</l>
+						<l>En aengezien de wrock der nu veraerde Schotten</l>
+						<l>Ons Vaderlijck gebeent verboodt in 't graf te rotten,</l>
+						<l>En stroide d'asch en stof der Vorsten in den wint;</l>
+						<l>Zoo bidde ick, als de haet der menschen, dol en blint,</l>
+						<l>Verzaet zy met mijn bloet onnozelijck te plengen,</l>
+						<l>Dat dan mijn hofgezin en dienaers 't lichaem brengen</l>
+						<l>In eenigh heiligh lant, of naer de Fransche kust,</l>
+						<l>Daer mijn Vrouw Moeders lijck begraven, lieflijck rust;</l>
+						<l>Zoo magh dit zwacke lijf, waer in de ziel ging treuren,</l>
+						<l>Gescheiden van de ziel, in 't einde eens rust gebeuren;</l>
+						<l>Terwijl 't onsterflijck deel door offers en gebeên</l>
+						<l>Gedient, met meer cieraets zijn hoop te moet ga treên.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Dat staet uw dienaers eerst de Koningin te vragen,</l>
+						<l>Behaeght haer dit verzoeck, wy laten 't ons behagen.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>'k Verzoeck mijn Biechtvaers dienst, om, volgens ons manier,</l>
+						<l>Het hart te zuiveren, en voor mijn afscheit hier</l>
+						<l>Te nuttigen ons Manne en Kristgeheimenisse.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Vervloeckte afgodery! het strijt met ons ghewisse.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Magh nu mijn zielzorgh, my geheele jaren langk</l>
+						<l>Geweigert, al te straf, niet stutten een, die kranck</l>
+						<l>Naer geest en lichaem, zich godtvruchtigh zoeckt te troosten?</l>
+						<l>Men weigert zulck een bede oock niet den allerboosten</l>
+						<l>En godtvergetensten, in 's levens uiterste uur.</l>
+						<l>Hoe wrijft men deze loogh noch in mijn hartquetsuur?</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Men heeft u toegeschickt een' Bisschop met den Deken.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Geen Onroomsch yveraer verstout' zich my te spreken.</l>
+						<l>Gelooft zy Godt dat ick al onderwezen ben,</l>
+						<l>En zonder hun zijn Kerck, en mijne misdaet ken,</l>
+						<l>Gelijck het kromme spoor en dwaellicht der verkeerden.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Naerdien ghy dan den raet der wijze Godtgeleerden</l>
+						<l>Verlastert en verworpt, bekennende veel min</l>
+						<l>Hoe ghy u tegens ons gekroonde Koningin,</l>
+						<l>Uw wettigh overhooft, zoo schendigh hebt vergrepen;</l>
+						<l>Zoo voel haer gramschap nu rechtvaerdighlijck geslepen</l>
+						<l>Door uw hardtneckigheit, gewapent tegens Godt.</l>
+						<l>Paulet, vaer voort: ghy weet haer Majesteits gebodt.</l>
+						<l>Men handelze voortaen gelijck een statelooze,</l>
+						<l>Berooft van waerdigheit, ten spiegel voor de booze.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<stage>PAULET. MARIE. REI VAN STAETJOFFEREN.</stage>
+					<sp who="#paulet">
+						<speaker>Paulet</speaker>
+						<l>Mevrouw, nu regel u naer 's tijts gelegentheit,</l>
+						<l>Ontzeggende dat een, wie 't leven wort ontzeit,</l>
+						<l>En buiten staet en eere en ampteloos gerekent,</l>
+						<l>Noch eenigh teken voer', 't welck Majesteit betekent:</l>
+						<l>Beveel dan dat men voort dit pauweljoen om hoogh</l>
+						<l>Van zwart fluweel, en voort al wat hier hange in 't oogh</l>
+						<l>Gewilligh wechneeme, en het zeil der hoogheit mindere,</l>
+						<l>In 't onweêr des gerechts, en dus alle opspraeck hindere:</l>
+						<l>Doch wijt het my zoo zeer, noch deze Heeren niet,</l>
+						<l>Als onze Koningin alleen, die dit gebiet.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Ick ly het met gedult: dat zy haer' haet verzade.</l>
+						<l>De hemel zalfde my, en riep door zijn genade</l>
+						<l>Marie tot dien troon, als met zijn eige stem.</l>
+						<l>'k Bezit rechtvaerdighlijck, en houde alleen van hem</l>
+						<l>Mijn' troon en kroon te leen, en wilze met mijn leven</l>
+						<l>En bloet oock hem alleen gehoorzaem wedergeven.</l>
+						<l>Hy heeft Elizabeth niet boven my gestelt.</l>
+						<l>Laet Parlement en Raet en Ketterdom gewelt</l>
+						<l>Te wercke stellen, als geweldenaers en stroopers,</l>
+						<l>Die in een moortspelonck, gesterckt met overloopers,</l>
+						<l>Den allervroomsten Vorst vast knevelen met kracht;</l>
+						<l>'k Gedoogh het tegens recht: 't is buiten hunne macht,</l>
+						<l>Dat ick geen Koningin (zy doen hun beste) sterve;</l>
+						<l>Hoewel mijn staet wat glimps in 't oogh der menschen derve.</l>
+					</sp>
+					<sp who="#paulet">
+						<speaker>Paulet</speaker>
+						<l>De bloem der Majesteit gaet open, en vergaet.</l>
+						<l>Ghy zijt niet die ghy plaght, maer in verwezen staet.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Noch houdt het Koningsdom zijn' luister onbedorven.</l>
+						<l>De Koningen des Rijcks zijn meer dan eens gestorven</l>
+						<l>Een doot, zoo eerelijck voor 't Koningklijck geslacht,</l>
+						<l>Als schandelijck voor 't volck, dat in die boosheit lacht:</l>
+						<l>Wat wonder is het dan, zoo weder een verwoede</l>
+						<l>'t Getal der Koningen van Engelantschen bloede</l>
+						<l>Vermeere met mijn lijck? 't is Engelants manier:</l>
+						<l>Dat schatte noit het bloet der Koningen zoo dier,</l>
+						<l>Of plengde 't milt, en maeide, als met een dolle zeissen,</l>
+						<l>De telgen van den stam, die recht hadde iet te eischen,</l>
+						<l>Te vorderen, uit kracht van tijtel, op dees kroon.</l>
+						<l>De Koning Rijckaert wert met zulck een' haet en hoon</l>
+						<l>Bejegent, en getrapt, om hem zijn recht t'ontwringen.</l>
+					</sp>
+					<sp who="#paulet">
+						<speaker>Paulet</speaker>
+						<l>Ghy spreeckt als had ghy maght om anderen te dwingen.</l>
+						<l>Regeert de Moeder nu in Schotlant, of de zoon?</l>
+						<l>Ontwijde Koningin, berooft van Rijck en troon,</l>
+						<l>Wat moedight u? wat staet u echter meer te hopen?</l>
+						<l>Bedenck, 't is tijt, hoe verre uw zaecken zijn verloopen.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Noch zoo niet, dat mijn moedt bezwijcke voor dien last,</l>
+						<l>En ick bestemme 't geen mijn grootheit nimmer past.</l>
+						<l>Men pooght vergeefs het merck der zalvinge uit te wissen:</l>
+						<l>Oock kan de wettigheit onze afkomst geensins missen;</l>
+						<l>Beneemze al wat u lust, ghy neemtze nimmer af</l>
+						<l>Het voorrecht van haer' stam, geheilight tot den staf.</l>
+					</sp>
+					<sp who="#paulet">
+						<speaker>Paulet</speaker>
+						<l>Ghy mooght dan zonder scha dees ydle pracht ontbeeren,</l>
+						<l>Die u geen voordeel geeft, en onze zaeck kan deeren.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Ontheilight men in ons der Vorsten Majesteit?</l>
+					</sp>
+					<sp who="#paulet">
+						<speaker>Paulet</speaker>
+						<l>Ghy hebt door hoogh verraet die stralen afgeleit,</l>
+						<l>En zijt van stam en bloet veraert door snoode wercken.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Beroof ons't overschot der Heerelijcke mercken,</l>
+						<l>Wanneer 't genoemde Recht zich paeie met ons hooft.</l>
+					</sp>
+					<sp who="#paulet">
+						<speaker>Paulet</speaker>
+						<l>Zoo zult ghy levend zien uw glanssen uitgedooft.</l>
+						<l>Ghy Joffers, helpt dien troon zoo daetlijck uit onze oogen.</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Rey</speaker>
+						<l>Is alle ontzagh zoo schoon en t'effens uitgetogen,</l>
+						<l>Dat ghy de Majesteit, die altijt stip op 't punt</l>
+						<l>Van eere stont, voor 't lest zoo luttel luisters gunt?</l>
+						<l>Een schijn van eere plaght de Grooten in het sterven</l>
+						<l>Te volgen, en magh dees zoo weinigh niet verwerven?</l>
+					</sp>
+					<sp who="#paulet">
+						<speaker>Paulet</speaker>
+						<l>'t Gebeurt wel dat men straf en schijn van eere paert:</l>
+						<l>Maer zulck eene acht men oock geen schijn van eere waert.</l>
+						<l>Zy zie noch levend dus haer lijck ter aerde dragen,</l>
+						<l>En hoore u, eerze sterf, haer dooden romp beklagen.</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Rey</speaker>
+						<l>Helaes! verdient Mevrouw geen deernis in dien staet</l>
+						<l>Van sterven? hoopt men noch met vruchteloozen smaet</l>
+						<l>Zo fel en dartel op den stapel der ellende</l>
+						<l>En jammeren, een nacht voor haer rampzaligh ende?</l>
+						<l>Dees kamer huilt u toe, terwijlze in tranen smelt.</l>
+						<l>Het schenden van dien troon door openbaer gewelt</l>
+						<l>Kan 't halsrecht wettigheit noch schijn van 't wettigh geven.</l>
+						<l>Zy schelt van alle hoop op 't weereltsche uit dit leven</l>
+						<l>En slaet haer' oogen reede op een geruster Rijck.</l>
+					</sp>
+					<sp who="#paulet">
+						<speaker>Paulet</speaker>
+						<l>Het is dan tijt dat zy beneên de vlagge strijck',</l>
+						<l>En eenmael leer' versmaên al 's weerelts ydelheden.</l>
+						<l>Zy heersche vry om hoogh, een ander hier beneden.</l>
+						<l>Wie hier zijn oogen sluit, en naer den hemel ziet,</l>
+						<l>Bekreunt zich met dit aertsch en aertsche hofprael niet.</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Rey</speaker>
+						<l>Men plagh 't verwezen hart door heuscheit te verquicken,</l>
+						<l>Beleeft te handelen, te stercken voor de schricken</l>
+						<l>En 't grimmen van de doot: maer niemant luistert hier</l>
+						<l>Naer reden, of bescheit. Barbarische manier!</l>
+						<l>Waer zijn wy? in een woudt? wie nestelen hier binnen?</l>
+					</sp>
+					<sp who="#paulet">
+						<speaker>Paulet</speaker>
+						<l>Dewijl ick met gemack noch heuscheit niet kan winnen,</l>
+						<l>Zoo staet my boven al te passen op mijn eer.</l>
+						<l>Trauwanten, haest u, ruckt en smijt die pracht om veer.</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Rey</speaker>
+						<l>Heer Melvin, kunt ghy ons niet helpen noch beschermen?</l>
+					</sp>
+					<sp who="#paulet">
+						<speaker>Paulet</speaker>
+						<l>Trawanten, rept u, voort, en keert u aen geen kermen.</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Rey</speaker>
+						<l>O Godt, verdraeght ghy dit? O wee! O wraeck! O smert!</l>
+						<l>Tyrannen, stoot haer eerst den moortpriem in het hart,</l>
+						<l>Op datze niet, haer eere en tytels overlevende,</l>
+						<l>Gevoele hoe de nicht van Henderick den zevende</l>
+						<l>(Dewijlze in errefrecht en godtsdienst niemant zwicht)</l>
+						<l>Tyrannigh wort tot stof gemalen van haer nicht.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Marie</speaker>
+						<l>Mijn dochters, houdt gemack: beveel de wraeck een stercker,</l>
+						<l>Die in de duisternisse en damp van dezen kercker</l>
+						<l>Ons ongelijck aenschouwt van zijnen hoogen stoel.</l>
+						<l>Hy streckt zijn armen uit, om ons uit dezen poel,</l>
+						<l>Een' rechten jammerpoel, door zoo veel smaet en lijden</l>
+						<l>En wederwaerdigheit op zijnen troon te wijden.</l>
+						<l>Ick zie al wat hier blinckt voor stof en vuilnis aen:</l>
+						<l>Ik zie een' rijker troon daer boven open gaen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<stage>REY VAN STAETJOFFEREN.</stage>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Zangk</speaker>
+						<l>O eerstelingen van dit eilant,</l>
+						<l>Donalt en Lucius, die eerst</l>
+						<l>Uw kroonen neerbooght voor den Heilant,</l>
+						<l>Van wien de weerelt wort beheerscht,</l>
+						<l>En lochende uw besmette altaren</l>
+						<l>Voor 't zuiver outer van het Kruis,</l>
+						<l>Dat, als een baeck, ons Noortsche baren</l>
+						<l>Verlichte, en broght den zeeman t'huis,</l>
+						<l>Die, nat van 't ongestuimigh weder,</l>
+						<l>Geen Glaukus danckte, na dien druck,</l>
+						<l>Maer stortende voor 't kruisbeelt neder,</l>
+						<l>Messias toeschreef zijn geluck;</l>
+						<l>Bewees zich danckbaer dien Behoeder,</l>
+						<l>Betemmer van de wilde zee,</l>
+						<l>En zong den lof der Maeght en Moeder,</l>
+						<l>Die, als een Noortstar, hem de ree</l>
+						<l>En haven met haer' vinger toonde;</l>
+						<l>O Koningen, gelijck van zin,</l>
+						<l>Ziet neder, hoe uw erfgekroonde</l>
+						<l>Ontwijt zit van uw nazaetin,</l>
+						<l>Die afgevallen, zoo verbolgen</l>
+						<l>Den ouden godtsdienst durf vervolgen.</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Tegenzangk</speaker>
+						<l>In 't schuim der Kaledonsche baren,</l>
+						<l>Om Orkades noch Yrlant vont</l>
+						<l>De visscher, grijs en afgevaren,</l>
+						<l>Geen zeegedroght, zoo wreet van mont</l>
+						<l>Dan dit, zoo spits en scherp van vinnen,</l>
+						<l>Zoo schalck, zoo loos en boos van aert.</l>
+						<l>Laet schepesloopen en verslinnen</l>
+						<l>Wat wil, met balgh en slingerstaert;</l>
+						<l>Een' staert, die 't water om kan roeren</l>
+						<l>Van onder op, en met een' klinck</l>
+						<l>De kielen, die zoo veiligh voeren</l>
+						<l>Zoo treffen, dat de vloot verzinck':</l>
+						<l>Dit lantgedroght beschaemtze altzamen</l>
+						<l>In wreetheit, onrust en gewelt,</l>
+						<l>Die oit gestrant te voorschijn quamen,</l>
+						<l>Wanneer hun voorspoock plagen spelt:</l>
+						<l>Het laet geen nageburen slapen:</l>
+						<l>Het rooft op 's buurmans kust en grens.</l>
+						<l>Het wil den aerdtkloot overgapen:</l>
+						<l>'t Vermomt zich met de grijns van mensch:</l>
+						<l>Het Engelsch hof hier van bezeten,</l>
+						<l>Magh dit met recht Nayver heeten.</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Toezangk</speaker>
+						<l>Helaes! wat baet het dat Natuur</l>
+						<l>Britanje van de weerelt scheide?</l>
+						<l>Wat baet het dat Seveer dien muur</l>
+						<l>In 't midden van twee volcken leide,</l>
+						<l>Om Albion voor Kaledon</l>
+						<l>En zijnen intoght te bevryen?</l>
+						<l>Nu dit gedroght niet rusten kon,</l>
+						<l>En over muur en graft quam glyen,</l>
+						<l>En voede in 't Kaledonsche Rijck</l>
+						<l>Die booze lucht van burgertwisten,</l>
+						<l>Om hier ons Koninginnelijck</l>
+						<l>Op 't hart te trappen, en te kisten</l>
+						<l>Al levendigh, na zoo veel smaets.</l>
+						<l>Wat baert een dor ghedroght al quaets!</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="3">
+				<head>Het derde bedryf</head>
+				<div type="scene" n="1">
+					<stage>PAULET. DE GRAVEN.</stage>
+					<sp who="#paulet">
+						<speaker>Paulet</speaker>
+						<l>Belieft den Heeren my iet anders te bevelen?</l>
+						<l>Ick heb den hoogen last gevolght in alle deelen,</l>
+						<l>Beval twee Edeliên de kamer van Mevrouw,</l>
+						<l>Verzekerde het huis zorghvuldigh en getrouw</l>
+						<l>Met stercker wacht dan oit, om onraet uit te sluiten.</l>
+						<l>Nu vreest men met den dagh alree den drang van buiten,</l>
+						<l>Eer ons 't nieuwsgierigh volck, en meer dan 't enge perck</l>
+						<l>Der zale bergen kan, met dringen vall' te sterck.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Men houde het kasteel en zijne poort gesloten,</l>
+						<l>En opene ons klincket by tijts voor luttel Grooten</l>
+						<l>Van Adelijck geslacht, of Ridderlijcken staet;</l>
+						<l>Doch met eerbiedigheit, bescheidenheit en maet.</l>
+						<l>Het sta den Ridder vry twee dienaers in te brengen,</l>
+						<l>Den Edelman slechts een'. Dat zich geen andren mengen</l>
+						<l>In dien benauden drang dan wacht en slotgezin.</l>
+						<l>Men neem' van buiten slechts tweehondert koppen in.</l>
+					</sp>
+					<sp who="#paulet">
+						<speaker>Paulet</speaker>
+						<l>Al wat ghy meer beveelt dat laet ick my behagen.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Hoe heeft die droeve zich na uw vertreck gedragen?</l>
+					</sp>
+					<sp who="#paulet">
+						<speaker>Paulet</speaker>
+						<l>Bedaert, en min noch meer dan een die ergens reist,</l>
+						<l>En eerst bezorght het geen de henevaert vereischt.</l>
+						<l>Zy laet het avontmael wat tijdiger bereiden,</l>
+						<l>Om voort het noodigh werck te spoeden, voor het scheiden,</l>
+						<l>En neemt met matigheit haer' nootdruft, zoo gerust,</l>
+						<l>Gelijckze plagh, en als van geen verdriet bewust.</l>
+						<l>De tafel luistert vast naer heur gezoute woorden;</l>
+						<l>Een troost en hemelval voor d'ooren, die dit hoorden.</l>
+						<l>Zy vraeght Burgon of hy, als zy, oock nam in acht</l>
+						<l>Hoe sterck de waerheit is, en met hoe groot een kracht</l>
+						<l>De Waerheit Logentael den mont weet op te breken,</l>
+						<l>Om door die vyandin 't gelochende uit te spreken.</l>
+						<l>Het vonnis, zeitze, 't welck my scherp ter straffe daeght,</l>
+						<l>Verwijstme, als eene die Elizabeth belaeght,</l>
+						<l>En nietemin wil Kent dat ick het licht zal derven,</l>
+						<l>En sterven, eer door my zijn Godtsdienst koom' te sterven;</l>
+						<l>Getuighenis, die dus gehouwen op mijn graf,</l>
+						<l>My eer ten roem gedijt dan tot schandael en straf.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Zy ga hier op getroost den slagh des doots verbeiden.</l>
+					</sp>
+					<sp who="#paulet">
+						<speaker>Paulet</speaker>
+						<l>Zy drinckt, na'et avontmael, en voor het jongste scheiden,</l>
+						<l>Zoo rustigh als bedaert, haer' stoet den scheidranck toe,</l>
+						<l>En wil dat hooft voor hooft haer hier bescheit op doe:</l>
+						<l>Die wachten 't op hun knien, nu Godt het wil gehengen:</l>
+						<l>Daer ziet men elck den wijn met zoo veel tranen mengen</l>
+						<l>En nocken en misbaer, dat zelf een Edelman,</l>
+						<l>Die 't my verhaelt, zich niet van tranen spenen kan.</l>
+						<l>Een jeder bidt gena voor 't geen 'er zy misdreven.</l>
+						<l>Zy zelve smeeckt, men wil haer' misslagh oock vergeven,</l>
+						<l>Vertroostze, als eene die den kercker vol verdriet</l>
+						<l>Geopent, en in 't licht van 's hemels blijschap ziet:</l>
+						<l>Zy wil een jegelijck in haer gebedt gedencken,</l>
+						<l>By Godt en d'Engelen, die haer van boven wencken.</l>
+						<l>Aldus geneestze 't hart, ter doot bedroeft en kranck.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Het hofgezin verliest by haren ondergangk.</l>
+					</sp>
+					<sp who="#paulet">
+						<speaker>Paulet</speaker>
+						<l>Zy neemt de pen, en schrijft op 't spoedighste drie brieven,</l>
+						<l>Te leveren (hoewel alleen op uw believen)</l>
+						<l>Den Koningk te Parijs, en Guize, en eenen hier,</l>
+						<l>Bevelende haer ziel den Biechtvaêr, hoogh en dier.</l>
+						<l>Zy leest haer' jongsten wil, en staet van lijfcieraden,</l>
+						<l>Juweelen en gesteente, en giften en gewaden;</l>
+						<l>En deelt den reetsten schat aen haer getrouwen uit,</l>
+						<l>Waer na zy zich terstont in haer gebecel sluit,</l>
+						<l>En d'uren nu besteedt tot bidden en tot waecken.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>'T gaet wel: 't gestarrent daelt. Wie durf ons hier genaken?</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>MELVIN. DE GRAVEN.</stage>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Dat uw Genade zich mijn aenspraeck toch niet belgh.</l>
+						<l>Een druck te groot, en dien ick levend' naeuw verzwelgh,</l>
+						<l>Verruckt my, om by nacht de Heeren noch te spreken;</l>
+						<l>Hoewel ick ducht vergeefs: het streck' ten minste een teken</l>
+						<l>Van 't eerlijck hart, verknocht aen zijne Koningin.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Hofmeester, hou uw rust: wat komt u in den zin?</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Is 't vruchteloos, 't gedy tot rust van mijn geweten,</l>
+						<l>Indien ick eenighzins my zelven hebb' gequeten.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Indien ghy met uw tong dit schellemstuck vergult?</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Ick onderwint my niet te weten van haer schult,</l>
+						<l>Of onschult aen dit stuck, waer van de menschen spreken:</l>
+						<l>De Rechters weten best wat hier van zy gebleken</l>
+						<l>Of niet: 'k geloof alleen [indien ickze anders ken</l>
+						<l>Uit haren ommegangk, als die haer dienaer ben,</l>
+						<l>En gansch onzijdigh, best getuighenis kan geven]</l>
+						<l>Dat zy de zuster noit gedongen hebb' naer 't leven,</l>
+						<l>En hier op is getroost t'ontfangen dezen slagh,</l>
+						<l>Waer op het hoogh gerecht en d'allerjongste dagh</l>
+						<l>Zal volgen, t'zijner tijt, om al die vonnis vellen</l>
+						<l>Voor 't al doordringende oogh van Godt te Recht te stellen.</l>
+					</sp>
+
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Zy hou zich dan getroost, en klaegh' niet over 't lot</l>
+						<l>Van 't Recht, het welck ons staet te wettigen voor Godt.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Zy kende schult noch Recht in dit geschil, en echter</l>
+						<l>Beveelt men tegens Recht haer Majesteit den Rechter.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Het heiligh Recht is blint, en kent geen Majesteit.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>De Majesteit geen mensch, maer Godts almogentheit.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Geen Hoogheit was het Recht der wetten oit ontwassen.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>De hemel straftze zelf, die op geen wetten passen.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Zoo most het Recht te lang op d'aerde stille staen.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Men onderscheide hier den Vorst van onderdaen.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Zoo doenze, die hier op rechtvaerdigh vonnis strijcken.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>De mindre vonnist hier dan over 't hooft der Rijcken?</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Marie buighe 't hooft voor Vrouw Elizabeth.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Zy staen gelijck van Godt op 's weerelts troon gezet.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Hier heerscht Elizabeth alleen, en geen Marye.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Dat haere heerschappy tot heil des volcks gedye.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Het heil des volcks eischt straf van zijne vyandin.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Een heilige, een gezalfde, een vrye Koningin?</l>
+					</sp>
+
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Een tijtelkoningin, een Koningins gevangen.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Gevloden in haer schoot, doch luttel heusch ontfangen.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Verstooten van haer volck en Rijck, en aengeklaeght.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Onwettigh tegens Recht en reden uitgejaeght.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Wy willen dat geschil hier slechten, noch bepleiten.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Ten minste draeght ontzagh den glans der Majesteiten.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Aen die geen Majesteit oit quetsten door verraet.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Wat stroit men niet al uit door vyantschap en haet?</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Wy laten ons door haet noch vyantschap vervoeren.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Het godtlijck Recht verbiet Gezalfden aen te roeren.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Dit Recht gebiet, dat zy den moort ten spiegel dien'.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>De Koningk David zelf heeft Saul wel ontzien.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>En Davids zoon ontzagh niet eens zijn' outsten broeder.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Die stack hem naer de kroon, door voorbe van de moeder.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>En deze heeft zich lang aen 's anders kroon vertast.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Onschuldigh wortze met haer schoonvaers schult belast.</l>
+					</sp>
+
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Zy heeft het me bestemt, dies wort het haer geweten.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Die wonde is lang gezalft.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>De nasmert niet vergeten.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Men zie hier stam en bloet en eigen maeghschap aen.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Hier gelt geen bloet, al zou die gansche stam vergaen.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Zult ghy uw handen dan zoo woest aen 't gastrecht schenden?</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Aen een, die voester was van endelooze ellenden.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Gevoedt door 't ongelijck, dus lang haer aengedaen.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Men heeft gewapent trots naer 's Rijcks bederf gestaen.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Naer vryheit, om dees duif uit 's kerckers klaeu te slaecken.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Zich meester van de staet en 't Koningkrijck te maecken.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Zoo jagen achterdocht en vrees haer eige schim.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Men denckt zoo erregh niet, of 't valt noch ruim zoo slim.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Een krijghsgevangen zelf verschoont men naer de wetten.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Gevangens, die zich niet door lantverraet besmetten.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Gevangens, die met kracht zich redden uyt dien noot.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Gevange Koningen zijn menighmael gedoot.</l>
+					</sp>
+
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Men breng' geen voorbeelt by dan met gelijcke reden.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Aldus heeft Konradijn verdiende straf geleden.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Een onverdiende straf, van duizenden vervloeckt.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Zijn misdaet blijckt te klaer, in dien menze onderzoeckt.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Hy dong in 't harrenas naer Karels kroon, en leven.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Hoe kan 't Elizabeth Marie dan vergeven?</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Die quam hier wapenloos en smeeckende in haer hof.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>En sedert hier gehooft, verliepze zich zoo grof.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>De Koning Konradyn versteurt de rust der Kercke.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>En deze niet zoo stil, dat ieder het niet mercke.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Onschuldigh draeghtze al 't geen men aenschrijft op haer' naem.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Zoo schendigh, datmen zich der blijcken billijck schaem'.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Ontslaetze, en al het Rijck met eenen van die zorgen.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Ontsla ons Rijck van zorgh.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>verzekert het door borgen.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Wat borgen hielden oit een Koningin in toom?</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Verbint den zoon by eede, en Guize haren oom.</l>
+					</sp>
+
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Geen borge kan den staet des Rijcks gerustheit geven.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Haer leven streckt een schilt, en berght heur nabuurs leven.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Noch beter door haer doot, die velle al 't oproer neêr.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Dat slaet dan licht zijn oogh op een' uitheemschen Heer.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Op Spanje? die is wijt van 't Britsche strant gezeten.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Kan Vranckrijck zijn gekroonde en zuster wel vergeten?</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Wy zijn de wraeck getroost, indienze ons oorloogh verght.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Genade baerde oit gunst, daer straf den wrevel terght.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Genade stijft, de straf verschrickt den lantverrader.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Het maegschap grenst te na.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Het vaderlant noch nader.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Bewaert uw Koningins kronijck voor zulck een vleck.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Indien rechtvaerdigh Recht tot schande of laster streck'.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Ziet toe, ghy zult het recht der volcken overtreden.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Geensins 't byzonder recht, het heil van volck en steden.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>'t Vergaet hem zelden wel, die 't recht der volcken schent.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Wie recht doet naer den eisch, ontziet geen dreigement.</l>
+					</sp>
+
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>'t Natuurrecht lijt dit niet, en spreeckt het vonnis tegen.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Dat lijt geen zusterslagh, noch houdt die kromme wegen.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Men kan de vangenis verzwaren tegens list.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Zoo doet men, met een zerck te rollen op de kist.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Het gansche Kristenrijck zal 't vonnis overwegen.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Wy overwoegent eerst: nu staet ons Recht te plegen.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Te vellen zulck een hooft met een verwate bijl?</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>De rechtbijl houw' slechts toe: 't is Engelanders stijl.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Een Engelsch oir gedoemt van Engelsche onderzaten?</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Van 't volle Parlement, en driederhande staten.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>O Hendericken, voelt ghy dit niet in uw graf!</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Zy voelen dat 'er heersche een nazaet van hun' staf.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Besprengkelt met dit bloet uit hunnen stam gesproten?</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Geen bloet uit dartelheit, maer hooge noot vergoten.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Gevolght van naberouw en tranen, doch te spa.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Van juichen en triomf en blijschap, zonder ga.</l>
+					</sp>
+
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Triomfen op het lijck van zulck een hooghgeboren?</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Noch liever haer dan Vrouw Elizabeth verloren.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Noch liever geen van beide, en bloet met bloet vereent.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Zoo paey men bloet met bloet.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Daer gansch Europe om weent?</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Een korte wijl, tot dat het lichaem leit begraven.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Een Koningin, van Godt verrijckt met zoo veel gaven?</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Met gaven, lang misbruickt, ten val van menigh Heer.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Bekommert met haer kruis en leven staet en eer.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Wat is 'er bloets gestort, om haer in staet te houden!</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Dat treffe op 't hooft van hun, die haer die moeiten brouwden.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>De rust van Engelant en Schotlant hangt aen haer.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Die t'elkens vrede zocht en kocht, op heur gevaer?</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Die noit zich naer des tijts gelegenheit wou vlyen.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Gewilligh, en zoo veel haer errefrecht kon lyen.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Wie 't heerschen luste, leer' zich zelf te buiten gaen.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Zoo verre dit met haer geweten kan bestaen.</l>
+					</sp>
+
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Zoo verre zullen wy haer misdaet oock verschoonen.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Ghy zult dien grooten zoon in zijne moeder hoonen.</l>
+						<l>Hoe wil die jonge Vorst, hoe wil dat ziedend bloet</l>
+						<l>Opbobbelen van toorne, en met verbolgen moet</l>
+						<l>Te paerde in 't harrenas met zijn gehoonde Schotten,</l>
+						<l>Gesterckt van over zee, op dit barbarisch knotten</l>
+						<l>Des overouden stams van zulck een brave spruit,</l>
+						<l>Het moederslaghtigh volck bestoken, niet om buit,</l>
+						<l>Of roof en snoot gewin, maer door het eerlijck vechten</l>
+						<l>Zijn moeders ongelijck met bus en degen rechten.</l>
+						<l>Geen kans stont oit zoo schoon of 't keerde op 't ongezienst.</l>
+						<l>Ick bid verschoon Mevrouw, uw eige kroon ten dienst.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Dat staet geensins aen ons, aen last en tijt gebonden.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Door uitstel wort het Recht, zoo 't Recht zy, niet geschonden.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Wy kunnen niet een uur verlengen haren tijt.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Men schelt haer niet den hals, maer luttel dagen quijt.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Wat nut kan uitstel haer, die lang gedoemt zat, geven?</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>'k Verzeker u, men pleit tot berging van haer leven.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>'t Is al vergeefs gezweet, geronnen, en gepleit.</l>
+						<l>Dit schrift is d'eige hant van hare Majesteit.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>De wraecklust heeft misschien de pen dit afgedrongen.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Monarchen tekenen door niemants maght gedwongen.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Zy kan veranderen van opzet en beraet.</l>
+					</sp>
+
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>En trof 'er midlerwijl een onheil onzen staet?</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Men komt noch tijts genoeg om zulk een bloet te storten.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Wy willen onzen last verlengen noch verkorten.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Hy eert den zoon op 't hooghst, wie zijne moeder eert.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Den zoon, die t'Edenburgh, te Londen niet regeert?</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Hy moet Elizabeth door 't Recht der kroone volgen.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Die hope paeit zijn wraeck, hoe grimmigh, hoe verbolgen.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Een Vorst ontveinst zijn leedt, en wreeckt dan d'euveldaet</l>
+						<l>Der ouderen in 't eindt met woecker aen hun zaet.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Rechtschapen Engelschman liet noit zich zoo verbluffen,</l>
+						<l>Dat hy in zijnen plicht, hem opgeleit, zou suffen</l>
+						<l>Om jemants dreigement. Wie Stuarden ontziet,</l>
+						<l>Verdient geen eere, daer Elizabeth gebiet.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Men leest van Rechters, die gevangens 't lijf verschoonden,</l>
+						<l>Het welck de meesters hun, gelijck een weldaet, loonden;</l>
+						<l>Dewijl het vonnis lagh uit hevigheit gevelt.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Dit is met rijpen raet te langkzaem ingestelt,</l>
+						<l>Om nu zoo reuckeloos en schichtigh in te trecken,</l>
+						<l>Dat onder 't morrend volck slechts oproer zou verwecken;</l>
+						<l>Dewijl 't verkondight wert by stekende trompet.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>d'Oploopende gemeent wort lichtlijck neergezet,</l>
+						<l>Indien de predickstoel zich wacht dien haet te voeden.</l>
+					</sp>
+
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Het is der herdren ampt hun kudden zoo te hoeden.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Zy hebben naer dit bloet nu menigh jaer gedorst.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Uit yver tot de Kerck gesproken uit de borst.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Hoe yverde Mevrouw om d'eendraght van Britanje!</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Om 't eilant onderdaen te leveren aen Spanje.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Noit quetste ick, zeitze, 't Recht van Engelschman of Schot:</l>
+						<l>'t Geweten wroeght my niet: 'k beroep my zelf op Godt,</l>
+						<l>Die weet hoe vreedzaem ick de tweedraght zocht te schuwen;</l>
+						<l>Hoe ick mijn Zuster kende, oock zellef in 't herhuwen,</l>
+						<l>Veel lager dan mijn staet; na dat men 't huwelijck</l>
+						<l>Met Zweden, met de kroon van Spanje en Oostenrijck</l>
+						<l>Erghlistigh had gestuit. Hoe heeft men my gedolven</l>
+						<l>In eenen poel van bloet, gedompelt in de golven</l>
+						<l>Van wederspannigheit en laster en verdriet!</l>
+						<l>Hoe heeft men my gelockt, getroont in dit gebiet,</l>
+						<l>Met zulck een' schoonen schijn van trouweloos beloven!</l>
+						<l>En van haer' staet ontzet, van vrydom gaen beroven</l>
+						<l>Een vrouw, ter heerschappy geschapen al te fier,</l>
+						<l>Gedwongen ter gena van schiltwacht en cippier,</l>
+						<l>En reis op reis gesleurt van d'eene op d'andre sloten.</l>
+						<l>Hoe zuiver schouwden my de besten, en de Grooten,</l>
+						<l>Gestelt tot onderzoeck, oock zelf in Norfolcks zaeck!</l>
+						<l>Hoe stont ick oit mijn woort, en noit naer wederwraeck!</l>
+						<l>En entlijck, nu men hier dit lichaem, aen de keten</l>
+						<l>Van twintigh jaren wrocks en kerckers, ziet gesleten,</l>
+						<l>Verwijst men 't hooft ter bijle, op een gesmede wet.</l>
+						<l>Indien Marie dus haer nicht Elizabeth,</l>
+						<l>(Wiens stoel de hemel noch op Stuarts wensch wil zegenen)</l>
+						<l>Met reden en bescheit in 't aenschijn moght bejegenen;</l>
+						<l>Hoe waer het mogelijck, dat zy zou treden tot</l>
+						<l>Dit schouwspel, en dit hooft zien gapen op 't schavot?</l>
+						<l>Ghy Heeren, kan het zijn, verstreckt nu middelaren,</l>
+						<l>En eigent u dien roem van 't oir des Rijcks te sparen,</l>
+						<l>Ten minste naer uw maght: voor zulck een weldaet zy</l>
+						<l>En blijf de Hooghste uw loon. Helaes! vergeeft het my,</l>
+						<l>Indien ick wat te brusk een weduwe verweere,</l>
+						<l>Gedreight met zulck een' val, dien d'allerhooghste keere.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Vertreck terstont van hier, en breeck dees woorden af.</l>
+						<l>Dit is maer tijt verquist: geen voorspraeck schut dees straf.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>BURGON. MELVIN.</stage>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Ghy hebt u zelven dan voor 't uiterste gequeten?</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Gequeten, en vergeefs wat moeite en tijt versleten.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Zy luisterden ten minste een weinigh naer uw beê?</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Gelijck een harde rots naer 't ruischen van de zee.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Wat raet dan om dit hooft die blinde bijl t'ontrucken?</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Geen raet, geen hoop altoos: Mevrouw zal moeten bucken.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Men draeght dan Koningsbloet nu langer geen ontzagh?</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Noch min dan ander bloet, en van gemeenen slagh.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Zoo reuckeloos 't geheim des Koningsdoms ontdecken?</l>
+					</sp>
+
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Men ziet op geen gevolgh, hoe breet men dit kan recken.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>De nazaet zal dit stuck vervloecken als een pest.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Men dient zich nu hier van: de nazaet vloeck' zijn best.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Rechtschapen voorzaet plagh op 's nazaets heil te letten,</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Men zoeckt, om 's nazaets heil, den godtsdienst vast te setten.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>In 't moederlijcke bloet, het terghsel van de wraeck?</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Beneem veraerden Schot en Engelsman dien smaeck.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Ja wel veraert van deught, en woester dan Barbaren.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Zy hopen door dit bloet zal 't onweêr stracks bedaren.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Zoo worpt men 't oir des Rijcks dien afgront in den mont?</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Uit vreeze dat de Staet niet strande, en ga te gront.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>En wat verzekert hen na Stuarts doot voor stranden?</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>'t Verpletten van dit hooft der Roomscheit onzer landen.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Na 's moeders doot versterft dit Recht op haren zoon.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Met zuiver zogh gevoet, en beter zogh gewoon.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Maer bijster ongewoon te zwelgen zulck een' beker.</l>
+					</sp>
+
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Hy kieze, uit hope op 't erf, het zeker voor 't onzeker.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>En koos hy 't hachelycke, en zong zijn moeders zangk?</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Zoo gingen zy met hem zijn moeders eigen gangk.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Hy breidele by tijts de Puriteinsche listen.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Dat volck stelt eere in trots met Koningen te twisten.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>De scepter is te slecht met dit gebroet bewaert.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>De Koning zwaei' den staf: zy loeren op zijn zwaert.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>De staf heeft sonder 't zwaert geen kracht, noch iet te zeggen.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>En hierom zoecken zy hun Heeren 't zwaert t'ontleggen.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Wat is een Heer, berooft van 't opperste gezagh?</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Een slaef des Puriteins, verrijckt door dit bejagh.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Zoo drijft de heerschappy op 's volcks geschrey en vuisten.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Dat warenze, die stout den grootsten Koning kruisten.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Nu kruissenze Mevrouw, en schreeuwen hemelhoogh.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Haer Katholijckheit schijnt te sterck in ieders oogh.</l>
+					</sp>
+
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Zy schijne vry, en kroone in 't eint haer heiligh leven.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Men pooght haer doot een verf van zustermoort te geven.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>En tusschen moordenaers hing Kristus aen het hout.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Haer leste dagh komt op: ick schrick: mijn hart wort kout.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>O schantvleck, van geen tijt noch eeuwen uit te wissen!</l>
+						<l>Wat sal de kroon hier door aen glans en luister missen?</l>
+						<l>Ick zie Britanje noch in 't uiterste gevaer;</l>
+						<l>De stale vuist des Schots verwart in 't Engelsch hair;</l>
+						<l>De rechtbijl scherp gewet op 's Konings Stedehouders,</l>
+						<l>En 's Kantelbergers hals; het graeuw op zyne schouders</l>
+						<l>Des Ouderlings gezagh verheffen op de straet;</l>
+						<l>En Londen hoofdeloos verscheuren zijn gewaet.</l>
+						<l>O schantvleck, van geen tijt noch eeuwen uit te vagen!</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Met wat gelaet zal ik den zoon de tijding dragen?</l>
+						<l>Hoe durf ick zijnen troon genaecken met dees maer?</l>
+						<l>My jammert zulck een spruit van vierentwintigh jaer.</l>
+						<l>Wat reden zet hem neêr? wie zal die bloetwel stoppen?</l>
+						<l>Hoe kan die helt zijn leet verteeren of verkroppen?</l>
+						<l>My dunckt ick zie, hoe hy ontzint zijn purper scheurt,</l>
+						<l>De Kroon ter aerde smijt, en raest, en quijnt, en treurt,</l>
+						<l>En vloeckt Elizabeth, en Engelschen, en Schotten;</l>
+						<l>Terwijl het schuim des volcks, deze uitgepuurde rotten</l>
+						<l>Vast lachen in hun vuist, op kruiswegh en op straet;</l>
+						<l>Als of men eere trock uit zoo een euveldaet,</l>
+						<l>Waer over duizenden van vromen zich bedroeven.</l>
+						<l>Maer gaenwe: 't is geen tijt hier langer te vertoeven.</l>
+					</sp>
+
+				</div>
+				<div type="scene" n="4">
+					<stage> </stage>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Zangk</speaker>
+						<l>Geluckigh Engelant,</l>
+						<l>Bekende ghy 't gheluck,</l>
+						<l>U toegeleit van boven,</l>
+						<l>Die trots de zeekroon spant,</l>
+						<l>En hebt het uitheemsch juck</l>
+						<l>Der slaverny geschoven</l>
+						<l>Van uwen blancken neck;</l>
+						<l>'t Zy Cezar, 't zy de Noor</l>
+						<l>U eischte vee en vruchten;</l>
+						<l>Ghy sluit noch koy, noch heck,</l>
+						<l>Uit angst voor wolvespoor,</l>
+						<l>Noch hoeft geen slang te duchten;</l>
+						<l>Uw heiningh geeft een geur</l>
+						<l>Van roosmarijn; geen klip</l>
+						<l>Verbiet uw strant te naecken;</l>
+						<l>Geen bancken schieten veur</l>
+						<l>Uw havens; dies geen schip</l>
+						<l>Zijn vaert behoeft te staecken.</l>
+						<l>O Eilant, waert benijt,</l>
+						<l>Ghy weet niet wat ghy zijt.</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Tegenzangk</speaker>
+						<l>Ellendigh Engelant,</l>
+						<l>Misbruickt ghy zoo 't geluck</l>
+						<l>U toegeleit van boven?</l>
+						<l>Dat ghy de bloetkroon spant,</l>
+						<l>En hebt dat schendigh juck</l>
+						<l>Op Stuarts hals geschoven;</l>
+						<l>Ja durft, zoo wreet en valsch,</l>
+						<l>Noch woester dan de Noor,</l>
+						<l>Die bijlen schaert op dennen,</l>
+						<l>Doorhouwen zulck een' hals.</l>
+						<l>Helaes! wie schiet 'er voor?</l>
+						<l>Nu moet ghy zelf bekennen</l>
+						<l>Dat hier oock slangen zijn,</l>
+						<l>En wolven, wreet van tant,</l>
+						<l>Daer d'Eilandin gezeten,</l>
+						<l>Betovert met venijn</l>
+						<l>Geen lichaem, maer 't verstant,</l>
+						<l>En leit het aen de keten</l>
+						<l>Van staet, gelijck een dier,</l>
+						<l>Och och! wie troonde ons hier?</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Toezangk</speaker>
+						<l>O alleropperste Behoeder,</l>
+						<l>O allerzegenrijckste Moeder,</l>
+						<l>Wy gaen ons lieve moeder quijt:</l>
+						<l>Wat staet de Weezen dan te hopen?</l>
+						<l>Wat haven houdt zijn' boezem open,</l>
+						<l>Om ons te bergen, daer de tijt</l>
+						<l>Het rouwkleet, niet den rouw verslijt?</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="4">
+				<head>Het vierde bedryf</head>
+				<div type="scene" n="1">
+					<stage>MARIA. REY.</stage>
+					<sp who="#maria-stuart">
+						<speaker>Maria</speaker>
+						<l>Myn ziel, eens afgesolt op d'ongestuime baren</l>
+						<l>Der weerelt, na verloop van vijfmael negen jaren,</l>
+						<l>Verlangt, als 't moede schip, naer een gewenschte kust</l>
+						<l>Van veiligheit, en loopt de haven van de rust</l>
+						<l>Met volle zeilen in, op 't rijzen van de stralen</l>
+						<l>Der zonne, vroeger op om mijn geluck t'onthalen</l>
+						<l>Met levendiger vier en glanssen danze plagh.</l>
+						<l>'k Begin door 's weerelts damp en nevels nu den dagh</l>
+						<l>Der zaligen te zien, en vrydom te genieten,</l>
+						<l>In 't onbenijde licht, na kerckers en verdrieten</l>
+						<l>En ketens zonder endt. Het juichende gemoedt</l>
+						<l>Begeert naer zulck een prijs te rennen door het bloedt</l>
+						<l>Der adren, en om hoogh t'aenschouwen, vol genoegen,</l>
+						<l>Hoe hier de vyanden, geknaeght en bleeck van 't wroegen,</l>
+						<l>En onverzaet van wraeck, geen vatten vinden aen</l>
+						<l>'t Onsterflijck deel, de ziel, nu 't lichaem moet vergaen.</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Rey</speaker>
+						<l>Och! och! ghy Koningen van Engelschen en Schotten,</l>
+						<l>Hoe stappen nu helaes! uw dochters de schavotten</l>
+						<l>In ste van troonen op. Wat is ons bang te moe'!</l>
+						<l>Men vloeckt uw afkomst zelf den scherreprechter toe.</l>
+						<l>Waer toe vervalt de stam der Koningen, eilaci!</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Maria</speaker>
+						<l>Gelooftme, dat de dagh van mijne bruiloftstaetsi,</l>
+						<l>Die my, door zulck een' drang van 't juichende Parijs,</l>
+						<l>Te kercke en koore leide, in 't bruiloftsparadijs,</l>
+						<l>Daer 't eenigh oir des Rijcks Francois op 't heerlijckst praelde,</l>
+						<l>En in de bloem der jeught zijn lieve Bruit onthaelde,</l>
+						<l>Noit blijder scheen dan nu in mijn ontloken hart.</l>
+						<l>Schept moedt, ick zie het honck van mijn gelede smart.</l>
+						<l>De weerelt is maer rook met al haer ydelheden,</l>
+						<l>Een oogenblick, een niet. De mensch, die hier beneden</l>
+						<l>Iet zekers zoeckt, is blint. Wat baet een hantvol tijt?</l>
+						<l>Terwijl men grijpt naer 't aertsch zoo wort men 't hemelsch quijt.</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Rey</speaker>
+						<l>Waer vinden wy een' schilt om dezen slagh te schutten?</l>
+						<l>Wie zal ons nu met troost en voorspraeck onderstutten?</l>
+						<l>Och, och! wy gaen Mevrouw, ons aller noothulp, quijt.</l>
+						<l>O zware nederlaegh, na zulck een' zwaren strijt!</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Maria</speaker>
+						<l>Betrouwt op Godt, die kan uw schade licht vergoeden:</l>
+						<l>Die groote Koningk zal zijn kinders wel behoeden.</l>
+						<l>'k Beval u aen de kroon van Vranckrijck door mijn pen.</l>
+						<l>Indien ick het gemoedt van Koningk Henrick ken,</l>
+						<l>Hy zal om mijnent wil u alle gunst betoonen,</l>
+						<l>Met zoo veel gunstigen als aen de Seine woonen;</l>
+						<l>Daer ick, zoo veel mijn woort by mijnen Heer vermoght,</l>
+						<l>Een ieder heb verplicht, en aen mijn trouw verknocht.</l>
+						<l>Genoeght u met het geen ick ieder heb besproken:</l>
+						<l>Het heeft my niet aen wil, maer aen de maght ontbroken.</l>
+						<l>De tijdt verloopt: men wacht ons komste daer beneên;</l>
+						<l>Dies knielt, en onderstut mijn uiterste gebeên.</l>
+						<l>Myn Hartekenner, die daer boven</l>
+						<l>Uw' stoel met Cherubijnen schraeght,</l>
+						<l>En aller sceptren scepter draeght,</l>
+						<l>Daer d'Engelen u eeuwigh loven,</l>
+						<l>En Eendraght en Rechtvaerdigheit</l>
+						<l>En liefde en Trouw met blyschap kroonen,</l>
+						<l>Op nimmer wanckelende troonen;</l>
+						<l>Aenbiddelijcke Majesteit,</l>
+						<l>Ontfarm u mijner: sla uw oogen,</l>
+						<l>Uw alziende oogen, uit gena</l>
+						<l>Op my, uw dienstmaeght, die nu ga</l>
+						<l>Veroordeelt, zonder mededoogen,</l>
+						<l>Gelijck een Offerhande, daer</l>
+						<l>Ick, na veel smaets, mijn bloet ten leste</l>
+						<l>En al mijn aders geef ten beste,</l>
+						<l>Ter eere van het Roomsche altaer,</l>
+						<l>En uwen grooten naem ter eere.</l>
+						<l>Ontfarm u myner, die mijn Rijck</l>
+						<l>En staf en purper acht als slijck,</l>
+						<l>En voor uw kroon mijn kroon verneêre.</l>
+						<l>Versterckme tegens dezen slagh,</l>
+						<l>Den slagh, die lijf en ziel zal scheiden:</l>
+						<l>Dat my uw Engelen geleiden,</l>
+						<l>Daer ick uw' naem betuigen magh:</l>
+						<l>Gelijck ick, vroom en zonder smette,</l>
+						<l>Betuighde uw Waerheit in den nacht</l>
+						<l>Der ketteryen, schoon haer maght</l>
+						<l>My hierom uit den erftroon zette.</l>
+						<l>Alwetende, aldoorstralend Licht,</l>
+						<l>Ghy kent al wie van 't licht verbastert,</l>
+						<l>Verblint door staetzucht, brult en lastert,</l>
+						<l>En mijn onnozel bloet betight.</l>
+						<l>Indien ick uwen naem belye,</l>
+						<l>En eere Vader, Zoon en Geest;</l>
+						<l>Is immermeer my waert geweest</l>
+						<l>De Naem van JESUS en MARYE;</l>
+						<l>Zoo reken niemants ziel tot schult</l>
+						<l>Haer onrechtvaerdigheit en boosheit.</l>
+						<l>Vergeef, vergeef het 's menschen broosheit:</l>
+						<l>Versterck mijn zwackheit met gedult:</l>
+						<l>En magh ick mijnen wensch verwerven,</l>
+						<l>De Godsdienst leve door mijn sterven.</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Rey</speaker>
+						<l>Zy kloppen voor de deur: een voorbo van de doot.</l>
+						<l>Waer bergen wy Mevrouw, in 't nijpen van den noot?</l>
+						<l>Men komt ons onzen troost en toeverlaet ontrucken.</l>
+						<l>Wat raet? wat gaet ons aen? Mevrouw zal moeten bucken.</l>
+						<l>Marie, bidt voor ons: Marie, bergh Mevrouw.</l>
+						<l>Och! berght de Koningin: waer blijven wy van rouw!</l>
+					</sp>
+
+					<sp who="#maria-stuart">
+						<speaker>Maria</speaker>
+						<l>Mijn dochters, zijt getroost: ghy kunt met al dit kermen</l>
+						<l>En jammeren ons niet beschutten, noch beschermen:</l>
+						<l>De tranen baten niet, en zijn een kranck geweer.</l>
+						<l>Vergeefs omhelst ghy ons: uw armen zijn te teêr,</l>
+						<l>De vyanden te sterck, en zonder mededoogen.</l>
+						<l>Genoeght u aen Godts wil: hy roept my uit den hoogen:</l>
+						<l>My dunckt ick hoor zijn stem. Nu sus, mijn kinders, sus:</l>
+						<l>Ontfangt den lesten groet, Maries lesten kus.</l>
+						<l>Mijn kinders, matight u: ghy zult in droefheit sticken:</l>
+						<l>'t Is wijsheit zich naer tijts gelegenheit te schicken,</l>
+						<l>Te kunnen sterven, als men immers sterven moet.</l>
+						<l>Volhardt in 't out geloof, het welck ick met mijn bloet</l>
+						<l>Bezegel, en zoo wijdt gehoorzaemt d'overheden.</l>
+						<l>Schept moedt: gedenckt mijn ziel voor Godt in uw gebeden.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>DE GRAVEN. MARIA. MELVIN.</stage>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Mevrouw, op hope dat ghy heden zijt bereit</l>
+						<l>Den last der Koninginne, u gistren aengezeit,</l>
+						<l>Te volgen, komen wy ('t behage u) dien vertoogen.</l>
+						<l>Daer ziet ghy d'eige hant, bezegelt voor uw oogen.</l>
+						<l>Ontschuldigh ons: het is de wil der Majesteit.</l>
+						<l>De hemel, zoo het schijnt, heeft u dit opgeleit.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Maria</speaker>
+						<l>Ick heb my onder Godt en zijnen wil gegeven,</l>
+						<l>En vindt meer zoetigheits in sterven dan in leven.</l>
+						<l>Ick ben gereet de doot, oock zonder ongedult,</l>
+						<l>t'Ontmoeten op het spoor, daer ghy my leiden zult.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Bedruckte Koningin, ô steun der vrome zielen,</l>
+						<l>Ghy ziet op 't uiterst hier onwaerdigh voor u knielen</l>
+						<l>Een' dienaer, wien het druckt u heden in dien schijn</l>
+						<l>t'Aenschouwen, en verplicht door uw gena te zijn</l>
+						<l>De tijding van uw eindt naer Edenburgh te brengen.</l>
+						<l>Helaes, wat moeten wy, nu Godt dit lijdt, gehengen!</l>
+						<l>Hoe durven wy, helaes! bewust van uwen noot,</l>
+						<l>Ververschen by den zoon zijn moeders droeve doot.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Maria</speaker>
+						<l>Mijn waerde Melvin, ô mijn willige en getrouwe,</l>
+						<l>Wat weent ghy te vergeefs, en mat u af van rouwe?</l>
+						<l>'t Is ydel dat ghy om Marie tranen schreit:</l>
+						<l>Ghy zult haer heden zien van alle zwaericheit</l>
+						<l>En jammeren geslaeckt, van hartewee ontslagen.</l>
+						<l>'k Bezweer u heen te gaen, mijn' zoon de tijding dragen,</l>
+						<l>Hoe ick stantvastigh leefde, en sterve wel gerust</l>
+						<l>In 't Katholijck Geloof, van geen verraet bewust.</l>
+						<l>'k Vermaen hem, over wien my 't hart zoo heeft gehangen,</l>
+						<l>Het zelve Roomsch Geloof, van hant tot hant ontfangen,</l>
+						<l>Uit zijner vadren mont, t'omhelzen, voor te staen,</l>
+						<l>En in gerechtigheit en pais den onderdaen</l>
+						<l>Te stieren, zonder zich in 't minst te stellen tegen</l>
+						<l>Elizabeth, waer op hem d'allerhooghste zegen'.</l>
+						<l>Ick heb ons errefrecht bewaert in zijnen glans,</l>
+						<l>En trouw aen 't Schotsche Rijck, getrouw volhart by 't Fransch.</l>
+						<l>O Godt! vergeef het hun, die my het licht misgonnen,</l>
+						<l>En hijgen naer mijn bloet, als 't hart naer versche bronnen.</l>
+						<l>Mijn Hartekenner, die de zon der waerheit zijt,</l>
+						<l>En ziet my door en door, en meet een ieders tijt,</l>
+						<l>Ghy weet het, kan het niet by al mijn daden blijcken,</l>
+						<l>Hoe zeer ick d'eendraght zocht der beide Koningkrijcken;</l>
+						<l>Hoe garen ick het vier van tweedraght zagh gedooft,</l>
+						<l>En 't lichaem van dit lant verknocht aen 't eenigh hooft.</l>
+						<l>Mijn moedt loopt over: kan ick, zonder traen te laten,</l>
+						<l>Verkroppen al 't verdriet, by d'oprechtste onderzaten</l>
+						<l>Voor Godts altaer en eere en Kristus zaeck geleên,</l>
+						<l>En mijn onnozelheit, door rampen afgestreên.</l>
+					</sp>
+					<sp who="#melvin">
+						<speaker>Melvin</speaker>
+						<l>Doorluchtighste Princes, hy haele uw' geest in vrede,</l>
+						<l>Die alle harten kent. Ick wil uw afscheitrede</l>
+						<l>En uiterste oorlof trouw verhalen uwen zoon.</l>
+						<l>De hemel roept uw ziel tot een volmaeckter kroon</l>
+						<l>Dan deze, kort van duur, en zorgelijckst te heffen,</l>
+						<l>Daer 's weerelts buien eerst gekroonde hoofden treffen.</l>
+						<l>Ick kus eerbiedighlijck (als 't wezen moet) dees hant,</l>
+						<l>Den scepter toegewijt, en neem door zulck een pant</l>
+						<l>Van onverdiende gunst verlof, ter droevige ure,</l>
+						<l>En wensch, dat d'allersterckste uw gangen stercke en sture.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Maria</speaker>
+						<l>Ghy Heeren, magh het zijn, bezorght dat mijnen stoet</l>
+						<l>En arrem hofgezin niet anders werde ontmoet</l>
+						<l>Dan eerlijck en beleeft; en zy, voor veel verdrieten,</l>
+						<l>Geproeft in mijnen dienst, de slechte vrucht genieten,</l>
+						<l>Uit Stuarts armoe noch hun nootdruft toegeleit.</l>
+						<l>Vergunt my, daer ick sterf, hun tegenwoordigheit,</l>
+						<l>En mijnen Biechtvaer mede, om my ten steun te strecken.</l>
+						<l>Verguntze, na mijn doot, in vryheit te vertrecken,</l>
+						<l>Ter plaetse, daer de noot hen voere, op Godts geley.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Men staet u 't eerste toe: maer 't leste moght geschrey</l>
+						<l>En kermen en misbaer en bygeloof verwecken.</l>
+						<l>Onnutte sleep kan slechts d'ellende langer recken,</l>
+						<l>Ontstichten al de zael, en stooren het Gerecht.</l>
+					</sp>
+					<sp who="#maria-stuart">
+						<speaker>Maria</speaker>
+						<l>Ontzeit men ons, helaes! een be zoo kleen en slecht?</l>
+						<l>Dat zou Elizabeth de Zuster niet ontzeggen.</l>
+						<l>Wat hoeft men veel bewijs, om dit te wederleggen?</l>
+						<l>Dees droeve Joffers, dit rampzaligh hofgezin</l>
+						<l>Verzoecken slechts verlof van hare Koningin</l>
+						<l>Te nemen: oock vereischt de staet en eer der vrouwen</l>
+						<l>Dat kamenieren noch haer vrouw gezelschap houwen.</l>
+						<l>'k Verbinde my, beloof en stel my in voor haer,</l>
+						<l>Dat geen van allen u zal stooren door misbaer</l>
+						<l>In 't uiterste. Ick bezweer u by dien eeuwigh levenden,</l>
+						<l>Ontzeght toch nu de nicht van Henderick den Zevenden,</l>
+						<l>Elizabeths verwante en maeghschap voor altoos,</l>
+						<l>Een boedelhoudtster van gansch Vranckrijck en Valois,</l>
+						<l>En dit gezalfde hooft der Schotten niet een bede,</l>
+						<l>Een nootbe, van geen Turck, noch Tarter, woest van zede,</l>
+						<l>Oit Kristensch mensche ontzeit: of gelt hier stam noch bloet;</l>
+						<l>Zoo laet de tederheit van 't vrouwelijck gemoedt,</l>
+						<l>Van een verweze weeuw zoo veel by u vermogen:</l>
+						<l>Geen steenrots is zoo hardt, of wort noch wel bewogen.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Mevrouw, verkies dan zelf hier zes of zeven uit.</l>
+						<l>Belieft het u, wy gaen u voor op dit besluit.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage> </stage>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Zangk</speaker>
+						<l>Ontfangt dees bron der marteladren,</l>
+						<l>Ghy Engelen, nu treet</l>
+						<l>Haer tegen: zy vergeet</l>
+						<l>Haer volck en vaders huis,</l>
+						<l>Gesproten uit Ferguis,</l>
+						<l>Dien ouden stam, en hondert vadren;</l>
+						<l>Al Koningen, van Godt geschapen</l>
+						<l>Ten scepter, ingewijt</l>
+						<l>In 't aenzicht van den Nijt;</l>
+						<l>Gezalft van eeuw tot eeuw.</l>
+						<l>O roode Koningsleeuw</l>
+						<l>In 't gouden velt van 't Schotsche wapen,</l>
+						<l>Hoe durvenze uw Leeuwin benaeuwen!</l>
+						<l>Hoe ziet men haer zoo tam</l>
+						<l>Verandren in een lam,</l>
+						<l>Sneeuwit van vacht en vlock,</l>
+						<l>Verscheuren door den wrock</l>
+						<l>Der Luipaerdinne, scherp van klaeuwen!</l>
+					</sp>
+
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Tegenzangk</speaker>
+						<l>Men kon den gront der Ketterdommen</l>
+						<l>Niet leggen dan verwoet</l>
+						<l>In dier tieras van 't bloet</l>
+						<l>En vleesch der STUARDIN,</l>
+						<l>Die Fenixkoningin,</l>
+						<l>In top van glori opgeklommen;</l>
+						<l>Gesteigert na twee duizent jaren</l>
+						<l>Door d'ongesteurde ry</l>
+						<l>Van d'opperheerschappy,</l>
+						<l>Wiens ongedwongen staf</l>
+						<l>Noit Cezars schatting gaf,</l>
+						<l>En eeuwigh flickerde op de baren.</l>
+						<l>Waer toe vervallen de geslachten,</l>
+						<l>Die d'eerste van Euroop</l>
+						<l>Hun hoofden in den Doop</l>
+						<l>Begaven onder dit,</l>
+						<l>Dat Kristus plaets bezit,</l>
+						<l>En Rome gout en wieroock braghten!</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Toezangk</speaker>
+						<l>Wat baet het dat Palladius,</l>
+						<l>Van Celestijn gezonden,</l>
+						<l>Pelagiaensche voncken blusch',</l>
+						<l>En zalve Kristus wonden?</l>
+						<l>Indien, na duizent jaren rust,</l>
+						<l>Dit uitgepuurt gebroetsel</l>
+						<l>Een pest van boosheit langs dees kust,</l>
+						<l>Een Hydra helpe aen voetsel,</l>
+						<l>Dat STUART, twintigh jaer bemuurt,</l>
+						<l>Te deerlijck met den hals bezuurt.</l>
+						<l>Dit treurspel aen te zien moght geen van ons gebeuren:</l>
+						<l>Ten minste laet ons gaen het warme lijck betreuren,</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="5">
+				<head>Het vyfde bedryf</head>
+				<div type="scene" n="1">
+					<stage>BURGON. BIECHTVADER</stage>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>O Vader, neem gedult: waer toe vergeefs geschreit?</l>
+						<l>Marie, nu ontlast van 't pack der sterflijckheit,</l>
+						<l>Is t'effens met een' sprongk twee kerckers hier ontsprongen,</l>
+						<l>En leeft by Godt, om hoogh, om laegh, op alle tongen.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Ick voel in 't harte een' strijt van vrolijckheit en druck,</l>
+						<l>Gemengelt onder een. Verhael my stuck voor stuck</l>
+						<l>Dien uitgangh, aengezien de wreetheit, zoo verbolgen</l>
+						<l>En bits, verboodt haer jongste en bloedigh padt te volgen,</l>
+						<l>Toen zy, gelijck een lam, van noit verzade Wraeck</l>
+						<l>Ter vleeschbanck wert geleit, om Godts gerechte zaeck.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Na datze eens afscheit had van 't hofgezin genomen,</l>
+						<l>En reede stont om braef in 't martelperck te komen,</l>
+						<l>Zoo traden d'Edelen en bey de Graven voor,</l>
+						<l>De Burghgraef desgelijcks: zy wert op 't leste spoor</l>
+						<l>Gevolght van luttel stoets, ten hooghste zes of zeven,</l>
+						<l>Getuigen van haer doot en afgepijnight leven.</l>
+						<l>Heer Melvin droegh heur na het slepende gewaet.</l>
+						<l>Zoo quamze, in zulck een' schijn, als 't licht, dat onder gaet,</l>
+						<l>Niet zonder gout en glans, waer voor de nevels breken,</l>
+						<l>Vol majesteits, gerust ter dootzale ingestreken,</l>
+						<l>Verwondert en bedroeft om zulck een' avontstont</l>
+						<l>Der schoonheit, die de wreetste en wiltste tijgers wont.</l>
+						<l>Het zwart fluweele kleet bedeckt de kuische leden,</l>
+						<l>Een doeck 't gezalfde hooft, van waer een doeck beneden</l>
+						<l>Ja tot op d'aerde toe heel statigh nederhangt.</l>
+						<l>Zy draeght den Bruidegom, naer wien de ziel verlangt,</l>
+						<l>Van gout om haren hals, zoo schoon van Godt geschapen.</l>
+						<l>Zy draeght den Bruidegom, aen 't heiligh Kruis ontslapen,</l>
+						<l>En onze Lieve Vrouws getyboeck in de hant.</l>
+						<l>Men ziet aen haren riem, van gout en diamant,</l>
+						<l>Den Roozenhoet gehecht, tot een gebedeteken,</l>
+						<l>Van hare zachte hant gesleten en gestreken.</l>
+						<l>Dus volght Marie vast den Heilant op Kalvaer,</l>
+						<l>En torst met hem zijn kruis, heur opgeleit zoo zwaer.</l>
+						<l>Zoo drijft de bleecke maen den nacht voor, zonder hoornen:</l>
+						<l>Zoo bloeit de leli blanckst in distelen en doornen.</l>
+						<l>Zy trouwde in andren schijn den scepter te Parijs;</l>
+						<l>Nu traptze op d'aertsche kroon, om die van 't Paradijs.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Hoe klopt mijn hart! ick ben om 't uiterste verlegen.</l>
+						<l>Getrouwe Kristheldin, dat u de hemel zegen.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Aen 't hoogh eindt van de zael, rontom in rouw gekleet</l>
+						<l>En laken, stont alree het moortschavot gereet,</l>
+						<l>Twee voeten hoogh, en juist in 't vierkant zes paer voeten,</l>
+						<l>Bespreit met zwart: het schrickt d'onnoosle te gemoeten.</l>
+						<l>Men ziet 'er eenen stoel, een kussen en een' block;</l>
+						<l>Het outer van den haet en onverzoenbren wrock,</l>
+						<l>Gewapent met de bijl, om Koningklijcke struicken</l>
+						<l>Te vellen, zooze niet naer Puriteinscheit ruicken.</l>
+						<l>Zy nadert onbeschroomt dit naere treurtooneel,</l>
+						<l>Van waerze steigren zal in 't hemelsch lustprieel;</l>
+						<l>Gelijck een nachtegael, die in de kou besloten.</l>
+						<l>Zoo menigh jaer geen lucht noch vrijdom heeft genoten,</l>
+						<l>En haeckende vergeefs naer zon en ademtoght,</l>
+						<l>Nu eerst een open ziet, en vint het geen hy zocht.</l>
+						<l>Hier komtze, en tart de doot en nijt, die leelijck grimmen.</l>
+						<l>Zy maent Paulet, dat hy voor 't lest haer helpe klimmen,</l>
+						<l>En opgeklommen, zet bedaert en even koel,</l>
+						<l>Niet zonder Majesteit, zich neder in den stoel,</l>
+						<l>En hoort aendachtiger dan oit, als onverwezen,</l>
+						<l>Beal den wreeden last der bloetvriendinne lezen.</l>
+						<l>De Joden leerden zoo zich spieglen aen 't gedult</l>
+						<l>Van Kristus, stil en stom verwezen, zonder schult;</l>
+						<l>Geprickelt met een kroon van stekelige doornen,</l>
+						<l>Omringt van menigh stier, gedreight van ossehoornen,</l>
+						<l>O Engelander! preeckt ghy den gekruisten Godt,</l>
+						<l>En steeckt ghy met uw tong een' Engel naer den strot?</l>
+						<l>Vaer voort met Henricks bloet en Stuarts te verneêren:</l>
+						<l>Zy zal van dezen troon beginnen te regeeren,</l>
+						<l>In 't zaligh Engelsch Rijck, daar haet noch oproer woont,</l>
+						<l>En d'onderdruckte deught met eere wort gekroont,</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Och, of ick in dien staet heur hart verquicken konde!</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Haer oogen weidden vast door al de zael, in 't ronde,</l>
+						<l>Begeerigh, in 't gezicht van allerhande liên,</l>
+						<l>Vergiffenis by Godt, op haer geboge knien,</l>
+						<l>Te vorderen van u, gelijckze u had geschreven;</l>
+						<l>Dan och! zy zocht vergeefs: en Kristus wil 't vergeven</l>
+						<l>De boosheit, die te helsch u uit de bloetzael hielt,</l>
+						<l>En naer heur maght de ziel en t'effens 't lijf vernielt.</l>
+						<l>Een kamenier met kracht door 't volck gedrongen, binnen</l>
+						<l>Het perck, stack op en kreet, als ging 't haer aen de zinnen,</l>
+						<l>Dat zy Mevrouw, helaes! op dien benaeuden dagh,</l>
+						<l>In 't midden tusschen twee schavottrauwanten zagh.</l>
+						<l>De Koningin vernamze in 't midden van de koppen,</l>
+						<l>En wees vast, het was tijt om op den mont te kloppen,</l>
+						<l>Te zwijgen, naar den eisch des tijts haer opgeleit,</l>
+						<l>Ten waerze derven wou haer tegenwoordigheit.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Ick luister en verlang wat Fletcher wilde prevelen.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Die Deken teegh terstont aen 't ratelen en revelen,</l>
+						<l>En scheen met errenst noch verlegen om de ziel;</l>
+						<l>Doch zy verstiet dien troost des huichelaers, en viel</l>
+						<l>Hem t' elckens in zijn woort, dat hy met schrift verbloemde,</l>
+						<l>Naer 's afgronts stijl, die valsch op zijnen Bybel roemde.</l>
+						<l>Die rechte schijndeught dorst wel eischen, dat Mevrouw</l>
+						<l>Haer jongste zegel noch aen 't bloetrecht steken zou,</l>
+						<l>Op dat hy, die het lijf slechts ophoudt by verdraeien,</l>
+						<l>Zijn glossen op dien teckst ten preeckstoel uit moght kraeien,</l>
+						<l>En azen Petersburgh, zoo zuiver, zoo gezont,</l>
+						<l>Gelijck hy 't had herkaeuwt uit Stuarts eigen mont.</l>
+						<l>Zy zeit: men magh dien troost, een' kranken troost, wel derven.</l>
+						<l>Ick leefde Katholijck, en ben getroost te sterven</l>
+						<l>In 't Katholijck geloof: zoo wert ick opgevoet:</l>
+						<l>Zoo offre ick 't Roomsche altaer mijn kroonen en mijn bloet.</l>
+						<l>De Graven bieden haer te stutten met gebeden.</l>
+						<l>Zy dancktze voor die gunst: maer in gebedt te treden</l>
+						<l>Met Onroomsch yveraer, versmaetze met bescheit.</l>
+						<l>De Kentenaer beschimpt, als bygeloovigheit,</l>
+						<l>Het Kruisbeelt in haer hant, den afgodt, die hem smarte,</l>
+						<l>En wenscht haer Kristus zelf te dragen in het harte.</l>
+						<l>Zy antwoort: het betaemt den Kristen 't liefste pant</l>
+						<l>Te dragen in het harte, en t'effens in de hant,</l>
+						<l>Om d'oogen door het beelt te slaen met vast betrouwen</l>
+						<l>Op 't afgebeelde heil, by d'Engelen t'aenschouwen.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Stantvastige, sta vast, ghelijck een kerckpilaer.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Zoo keertze 't aengezicht naer d'opgetoge schaer,</l>
+						<l>Driehondert vyanden, verlegen met heur lijden.</l>
+						<l>Dit schouwspel, zeitze, is nieuw, in deze ondanckbre tijden,</l>
+						<l>Te zien op een schavot een vrye Koningin</l>
+						<l>Haer Koningklijck cieraet, voor zulck een hofgezin,</l>
+						<l>Voor scherreprechter, en gemeente, nederleggen;</l>
+						<l>Doch Godes wil geschiede, oock zonder tegenzeggen.</l>
+						<l>Hy blijf mijn tuige: ick zweer u voor zijn aengezicht,</l>
+						<l>Dat ick mijn leven noit het leven van mijn nicht</l>
+						<l>Noch heuren staet belaeghde, of boosheit hebb' bedreven,</l>
+						<l>Die waerdigh zy om dus onwaerdighlijck te sneven;</l>
+						<l>Ten waer men 't oudt Geloof my opleide, als een vleck;</l>
+						<l>Waer voor ick gaerne sterf, en offre dezen neck</l>
+						<l>En lesten druppel bloets. Mijn eenigh welbehagen</l>
+						<l>Omhelst in 't beelt mijn' Heer, mijn' Godt, aen 't kruis geslagen:</l>
+						<l>Hy sterck' mijn hoop: ick hoop door deze korte doot,</l>
+						<l>Bezuurt te zijner eere, in dien gerusten schoot</l>
+						<l>Der endtlooze eeuwigheit onsterfelijck te leven,</l>
+						<l>By zoo veele Engelen en zielen, als 'er zweven,</l>
+						<l>En wachten om mijn bloet, het welck mijn vlecken spoel',</l>
+						<l>Gelijck een offerhant, te brengen voor Godts stoel.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Ick zie hoe d'Engelen haer plaets om hoogh bereien.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Men zagh hier op terstont zeshondert oogen schreien,</l>
+						<l>En onder al dien hoop, die Stuart vloeckt, en haet,</l>
+						<l>Is naulijcks een zoo boos, die niet zijn tranen laet.</l>
+						<l>Nu knielenze, en men stort gebeên van wederzijden.</l>
+						<l>Zy, met de haren, leest ons Lieve Vrouws getijden</l>
+						<l>Godtvruchtigh in Latijn, roept Godt en Kristus aen,</l>
+						<l>Zijn Moeder, d'Engelen, en al die om hem staen,</l>
+						<l>Gezalight en gereet de ziele te bejegenen.</l>
+						<l>Zy bidt dat Godt de Kerck, haer Rijck en Zoon wil zegenen,</l>
+						<l>De Seine, en oock den Teems, ja zelf de Koningin</l>
+						<l>Elizabeth, haer bloet, en errefvyandin.</l>
+						<l>Zy bidt voor schijngerecht, en scherreprechter mede,</l>
+						<l>En wenscht haer vyanden en vloecken rust en vrede.</l>
+						<l>Aldus beveeltze Gode, en Kristus haren geest,</l>
+						<l>Herkust het Kruisbeelt vast, om hem, die 't hart geneest,</l>
+						<l>En spreekt: O JESUS, wil u mijner toch ontfarmen:</l>
+						<l>En even eens ghelijck ghy hingt met opene armen</l>
+						<l>Aen 't bloedigh Kruis gehecht, zoo neem my, nu ick ga</l>
+						<l>Ten offer, in den schoot en arm van uw gena.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Gekruiste, eilaes! verhoor haer zuchten, en gebeden.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Hier op begintze zich voor 't allerlest t' ontkleeden.</l>
+						<l>De scherreprechter knielt, en bidt vergiffenis,</l>
+						<l>Hem gaerne toegestaen, die al te vaerdigh is</l>
+						<l>Om heiloos met zijn hant haer feestgewaet t'ontwijden;</l>
+						<l>Een snootheit, die te snoot, haer geensins staet te lijden.</l>
+						<l>z'Ontzeit dien snooden dienst uit edelmoedigheit.</l>
+						<l>De Joffers helpen dan vol drucks de Majesteit,</l>
+						<l>En Eruit, gereet om Godt in 't zaligh licht te kussen.</l>
+						<l>Zy kustze, en kruistze in 't einde, en zeit, om haer te sussen:</l>
+						<l>Misgun mijn ziel geen rust van al 't geleên verdriet.</l>
+						<l>Zy zegent blijdelijck haer dienaers, en gebiet</l>
+						<l>En wijst de schreiende te scheiden, te vertrecken,</l>
+						<l>Die met 't gewijde doeck haer vrolijcke oogen decken,</l>
+						<l>Ja zonder datze in 't minst, voor 't grimmen van de doot,</l>
+						<l>Haer levendige verf in 't aenschijn eens verschoot.</l>
+						<l>Zoo knieltze voor het block, en roept uit deze ellende:</l>
+						<l>O Heer! ick hoopte op u: bezwijck my niet in 't ende:</l>
+						<l>Ontfang, ontfang mijn' geest. Zoo buightze haren hals,</l>
+						<l>Noch trotser dan een zwaen, na zoo veel ongevals,</l>
+						<l>Op 't Puriteinsch altaer. Hoe kan het Godt verdragen!</l>
+						<l>Zoo scheit de moortbijl hooft en lichaem met drie slagen.</l>
+						<l>Elizabeth, nu drinck uit deze oprechte borst</l>
+						<l>Mariaes bloet, en lesch dien ongeleschten dorst.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Dat Godt haer vyandin dit tot geen bloetschult reken.</l>
+						<l>Triomfe: lof zy Godt, zy heeft den palm gestreken.</l>
+						<l>Ick kniel uit danckbaerheit: zy heeft dien strijt volstreên.</l>
+						<l>MARIE, eilaes gedenck uw dienaers hier beneên.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>De scherreprechter grijpt het hooft op by de vlechten,</l>
+						<l>Dat hooft, door geen berouw aen 't levend lijf te hechten,</l>
+						<l>Dat bloedigh hooft der ree gekroonde Kristheldin,</l>
+						<l>En roepende overluit: Godt hoede ons Koningin;</l>
+						<l>Wordt vrolijck toegejuicht van Graef en Deken t'zamen:</l>
+						<l>Zoo moetenze vergaen. De Kentenaer spreeckt: Amen;</l>
+						<l>Terwijl een jeder weent van rouw en hartewee,</l>
+						<l>Dat scherper dan de bijl zoo menigh hart doorsnee.</l>
+						<l>Noch speelt en leeft de ziel in bey de diamanten</l>
+						<l>Der oogen met haer vier, en blinckt aen alle kanten.</l>
+						<l>Het laeuwe en roockend bloet in zilvre beckens stremt.</l>
+						<l>Ick weet naeu wat ick zegh, zoo wort mijn hart beklemt.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Dit Martelbloet roept wraeck, en houdt niet op van tergen.</l>
+						<l>Dat zich Herodias uit schaemte ga verbergen,</l>
+						<l>Versteken in het hof: zy heeft dien wrock gebluscht,</l>
+						<l>Al veinstze zich bedroeft, gesteurt en onbewust.</l>
+						<l>Zy koelde haren moedt: maer 's overledens assen</l>
+						<l>En geest zal haer op 't bed des midnachts noch verrassen;</l>
+						<l>Des middaghs aen den disch vervolgen, dootsch en bleeck;</l>
+						<l>Verandren haer bancket en wijn in gal en eeck;</l>
+						<l>Den slaep en zachte rust in gruwelijcke spoocken.</l>
+						<l>Het knagend hart wil haer ten brein, ten kop uitroocken,</l>
+						<l>Bezwalcken al het hair met bang en bloedigh zweet.</l>
+						<l>Zy zal by naere nacht verbaest, met kreet op kreet</l>
+						<l>Verschricken hofgezin en hof en kamenieren,</l>
+						<l>En, als een Razerny, door zael en kamer zwieren;</l>
+						<l>Tot dat haer struick verdorre, en elck Maries zoon,</l>
+						<l>Geheel Britanje door, geluck wensche op den troon.</l>
+					</sp>
+					<sp who="#burgon">
+						<speaker>Burgon</speaker>
+						<l>Wat zien wy? och! het lijck, door d'opene gordijnen,</l>
+						<l>En Joffers daer rontom, die by de lijcktorts quijnen,</l>
+					</sp>
+
+				</div>
+				<div type="scene" n="2">
+					<stage>REY VAN STAETJOFFEREN. BIECHTVADER.</stage>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Rey</speaker>
+						<l>Ontfang ons klaghte en lijckgebeden,</l>
+						<l>O Roomsche Roos, noch versch gesneden</l>
+						<l>Van uwen steel; hoe knap</l>
+						<l>Verliest ghy geur en sap!</l>
+						<l>Hoe ras verwelcken en verslenssen</l>
+						<l>Uw bladers! Sterfelijcke menschen,</l>
+						<l>Het schoonste, dat ghy ziet,</l>
+						<l>Wat is het schoonste? niet.</l>
+						<l>Een oogenblick, een blick gaet strijcken</l>
+						<l>Met d'eere en 't licht der Koningkrijcken.</l>
+						<l>Een buy ontkleet die bloem</l>
+						<l>Van al haer pracht en roem.</l>
+						<l>Een nevel, och! voor ons te duister,</l>
+						<l>Berooft die zon van al haer' luister,</l>
+						<l>Benijt ons droef gezicht</l>
+						<l>Dat hartverquickend licht.</l>
+						<l>Die flonckrende oogen zijn geloken,</l>
+						<l>'t Aenminnige gezicht gebroken,</l>
+						<l>Die scherpe stralen stomp,</l>
+						<l>Het lichaem slechts een romp;</l>
+						<l>Dat lichaem, 't welck Valois verwarmde,</l>
+						<l>Dat den Dolfijn Francois omarmde</l>
+						<l>Met zulck een' gloet en zwier,</l>
+						<l>Is kout, en zonder vier.</l>
+						<l>Zoo veele op een gehoopte gaven</l>
+						<l>Zijn t'effens onder 't kleet begraven.</l>
+						<l>Schenkaedien van Natuur,</l>
+						<l>Wat zijt ghy kort van duur!</l>
+						<l>Het purper ziet zijn' glans versterven:</l>
+						<l>Hier moet de kroon haer' luister derven.</l>
+						<l>O gaven van 't geluck,</l>
+						<l>Hoe smelt ghy wech in druck!</l>
+						<l>'t Is al vergeefs wat wy vermanen,</l>
+						<l>Vergeefs gestort een' dauw van tranen;</l>
+						<l>De lentetijt komt weêr,</l>
+						<l>Dees telge nimmermeer.</l>
+					</sp>
+
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Gedult, ô klaghtgenoten!</l>
+						<l>De kleenen en de grooten</l>
+						<l>Zijn onderworpen 't lot</l>
+						<l>Der sterflijckheit, van Godt</l>
+						<l>Hun opgeleit op d'aerde;</l>
+						<l>Toen d'eerste misdaet baerde</l>
+						<l>De bleeke en bange doot,</l>
+						<l>Daer Eve, uw moeder, vloodt</l>
+						<l>(Van d'oude slang bedrogen)</l>
+						<l>Voor d'aldoordringende oogen.</l>
+						<l>Of treurt ghy om de wijs</l>
+						<l>Van sterven? Dees heeft prijs</l>
+						<l>En eer by Godt hier boven;</l>
+						<l>Daer d'Engelen haer loven,</l>
+						<l>Die by MARIE zit,</l>
+						<l>In 't onbesmette wit,</l>
+						<l>Gekroont met martelstralen;</l>
+						<l>Daer hemelsche koralen</l>
+						<l>Verheffen Stuarts deught,</l>
+						<l>In 't licht van 's hemels vreught,</l>
+						<l>Door dicke droeve dampen</l>
+						<l>Van tranen bloet en rampen,</l>
+						<l>Gestegen by Sint Jan,</l>
+						<l>Den ongeveinsden man,</l>
+						<l>Wiens heiligh hooft verzade</l>
+						<l>De dertele ongenade</l>
+						<l>Der booze Tirannin,</l>
+						<l>Die, als een looze spin,</l>
+						<l>Hem ving in 's kerckers netten,</l>
+						<l>Om namaels haer bancketten</l>
+						<l>Te kroonen met dien kop,</l>
+						<l>Gestooft in 't bloedigh sop</l>
+						<l>Van zijn godtvruchtige aderen.</l>
+						<l>De Martelaers vergaderen,</l>
+						<l>Na veel verstroitheits, daer,</l>
+						<l>By deze ontelbre schaer:</l>
+						<l>Triomfe volght het lijden</l>
+						<l>Van hun, die WETTIGH strijden.</l>
+						<l>Men wisselt wijsselijck</l>
+						<l>Het aertsche om 't eeuwigh Rijck.</l>
+					</sp>
+					<sp who="#rey-van-staetjofferen">
+						<speaker>Rey</speaker>
+						<l>Geluckigh zijnze, die de schatten</l>
+						<l>Des rijcken hemels hier omvatten</l>
+						<l>Met d'overleên, die trots,</l>
+						<l>Gelijck een vaste rots,</l>
+						<l>Van 't Puriteinsche schuim bedolven,</l>
+						<l>Ontzagh noch storm noch watergolven</l>
+						<l>Van Babels razerny,</l>
+						<l>En dolle kettery,</l>
+						<l>Uit Wyklefs helsche borst ontsprongen;</l>
+						<l>Ontzagh geen zee vol lastertongen</l>
+						<l>En adderen vergift,</l>
+						<l>Gezogen uit de Schrift;</l>
+						<l>Maer stack het hooft uit gloende baren</l>
+						<l>Van kercken en verwoeste altaren,</l>
+						<l>Beschimpt door 't nieuw geloof,</l>
+						<l>Verhit op outheits roof.</l>
+						<l>VOLSTANDIGE, verhoor ons smeken.</l>
+						<l>Vertroost uw weezen, die noch steken</l>
+						<l>In dezen paddepoel,</l>
+						<l>En offer voor Godts stoel</l>
+						<l>Ons tranen, die uw lijck besprengen,</l>
+						<l>Waer onder wy het zuchten mengen</l>
+						<l>In ons benaude lucht.</l>
+						<l>Het schreien, het gezucht</l>
+						<l>Verlicht het knijpen van de smerte.</l>
+						<l>Het schreien zet den druck van 't harte:</l>
+						<l>Het doet Maryen wel,</l>
+						<l>Daer zy Emanuël</l>
+						<l>Met tranen op zijn graf beschreien,</l>
+						<l>Met liefdetekenen geleien,</l>
+						<l>Als wy, een klein getal,</l>
+						<l>Maries lijck. Waer zal</l>
+						<l>d'Onzatte Wraeck het rust vergunnen?</l>
+						<l>Wy doen, helaes! al wat wy kunnen.</l>
+						<l>Al wat ons overschiet</l>
+						<l>Zijn tranen, anders niet.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Verbijt uw droefheit wat: ick zie de Graven komen,</l>
+						<l>En tronien, van schrick en boosheit ingenomen.</l>
+						<l>Zy sidderen uit angst, en schijnen onversaeght.</l>
+						<l>My dunckt ick voel wat worm hun boos geweten knaeght.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>DE GRAVEN. BIECHTVADER.</stage>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Die last is uitgevoert, al 't Rijck aen ons verbonden.</l>
+						<l>Heer Talbot, voort te post, te paerde hene, om Londen,</l>
+						<l>Van hoope en vrees beknelt, te zeegnen met dees maer,</l>
+						<l>Waer op het heeft met smart gevlamt zoo menigh jaer.</l>
+						<l>Wat opspraeck hier op vall' by Koningen en Heeren,</l>
+						<l>Dat staet niet ons, die slechts bedienaers zijn, te keeren;</l>
+						<l>Maer zelf de Koningin, en 't gansche Parlement.</l>
+						<l>Oock is het hoogh verraet de weerelt door bekent.</l>
+						<l>Laet vry den Roomschen Draeck met zeven hoofden lastren,</l>
+						<l>En die, van Godt veraert, den puren teckst verbasteren;</l>
+						<l>Rechtschapen Engelsman weet beter, en beseft</l>
+						<l>Den noot en 't Rijcksgevaer, eer 't ongeval hem treft.</l>
+						<l>Hy weet hoe noode wy ons dierverplichte necken</l>
+						<l>Begaven onder 't juck van 't nootrecht te voltrecken.</l>
+						<l>Ja zelf tot belgens toe der wijste Majesteit,</l>
+						<l>Die met haer eige hant ons dit heeft opgeleit.</l>
+						<l>Hy ziet op perckement, getuigen, blijcken, zegels,</l>
+						<l>Op nootwet, erfgewoonte en welgegronde regels,</l>
+						<l>By oude ervarenheit beslepen, vast gestelt,</l>
+						<l>Tot nootweer tegens moort en lagen en gewelt,</l>
+						<l>En wat men wijders brouwe, om listigh in te sluipen,</l>
+						<l>Het Recht van Godts gemeente en staten t' onderkruipen.</l>
+						<l>Heer Amias, bezorgh dat al het overschot</l>
+						<l>Van toestel, bijl en block, en kussen en schavot,</l>
+						<l>Behangsels, beckens, bloet, en wat de scherreprechter</l>
+						<l>Van kleedren of cieraet genoten hebbe, of echter</l>
+						<l>Verwacht, gezuivert werde, en gansch tot asch verbrant,</l>
+						<l>Op dat afgodery en haet en misverstant</l>
+						<l>Geen stof tot kerckschandael of weerwraeck hier uit vissche;</l>
+						<l>En dit begraven blijf met haer gedachtenisse.</l>
+						<l>Hoe nu, wie breeckt ons 't hooft met huilen en gezucht?</l>
+						<l>Dit jancken is onnut, dit ydele gerucht:</l>
+						<l>Men staecke al dit gesteen: Mevrouw verlost van pijne</l>
+						<l>Is doof voor uw gekerm. Men schuive de gordijne,</l>
+						<l>En drijfze van het lijck. De ziel vooruitgetreên,</l>
+						<l>Bevint geen baet of troost by Babels lijckgebeên.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Ghy Heeren, matight toch en toomt wat uwen toren:</l>
+						<l>Wy zijn in dat geloof gewonnen en geboren,</l>
+						<l>En droncken 't met de melk van moeders borsten in.</l>
+						<l>De Joffers, doot van rouw, om haere Koningin,</l>
+						<l>Ontlasten het gemoedt, en zijnze 't zielrecht schuldigh.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Zy heeft haer schult betaelt: wat raest ghy ongeduldigh</l>
+						<l>En steurt de rust van 't huis! dit kermen komt te spa.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>Ons bloode hoope drijft voortaen op die gena,</l>
+						<l>Dat ons 't gebalsemt lijf, wiens ziel met Gode ruste,</l>
+						<l>Naer 's overleêns verzoeck, magh vrijstaen van dees kuste</l>
+						<l>Te voeren in den schoot der moeder, of het graf,</l>
+						<l>Daer heur gemael Francois zijn kroonen met den staf</l>
+						<l>Zoo vroegh heeft afgeleit, en wacht zijn wedergade.</l>
+						<l>'t Verzoeck is kleen: gedenckt of hy en zy 't u bade.</l>
+					</sp>
+					<sp who="#de-graven">
+						<speaker>De Graven</speaker>
+						<l>Wat grafstede, of wat graf, wat staetsi 't lijck verbeit,</l>
+						<l>Dat staet het minste aen ons, maer aen haer Majesteit,</l>
+						<l>En eischt beraet en tijdt: men magh u eer niet slaecken:</l>
+						<l>Terwijle blijf de kist, van niemant te genaecken,</l>
+						<l>Besloten in de zael, bewaeckt met wacht en slot,</l>
+						<l>En wachte t'zijner tijt het hoffelijck gebodt:</l>
+						<l>Doch magh ons gissing nu een wijl voorhene draven;</l>
+						<l>Wy zien de doode haest te Petersburgh begraven</l>
+						<l>Met overdaet van pracht, by Koningin Katrijn,</l>
+						<l>En dezen sleep, in rouw en jammerlijcken schijn,</l>
+						<l>Haer volgen achteraen; daer drang van menschen leere,</l>
+						<l>Hoe licht het wanckel radt der hoven ommekeere.</l>
+					</sp>
+					<sp who="#biechtvader">
+						<speaker>Biechtvader</speaker>
+						<l>O zalige Katrijn! ô bloem van Arragon!</l>
+						<l>Die nu zoo lieflijck slaept, men zagh u, als een zon,</l>
+						<l>In tranen ondergaen, terwijl uw deughden bloncken;</l>
+						<l>En zal uw wederga, Marie, neergezoncken</l>
+						<l>Beneffens uwe kist, en onder eenen zerck,</l>
+						<l>Verzellen uw gebeente, in Godts ontwijde kerck;</l>
+						<l>Zoo troost malkandre noch. Hoe past ghy twee te gader,</l>
+						<l>In leven en in doot! De moeder en de Vader</l>
+						<l>Verdruckten u te hardt, ja buiten schijn van schult;</l>
+						<l>De dochter leerde dees de lessen van gedult:</l>
+						<l>Het strecke u beide om hoogh tot rijcker martelzegen;</l>
+						<l>Terwijl wy hier benaeut, gekerckert, en verlegen,</l>
+						<l>Ons spieglen aen uw kruis, der vromen eigen lot.</l>
+						<l>Zoo groeie en bloei de Kerck: zoo ga men recht naer Godt.</l>
+					</sp>
+					<p>EINDE.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,3045 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000013" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Maeghden</title>
+				<title type="sub"/>
+				<author>
+					<persName>
+						<forename>Joost</forename>
+						<nameLink>van den</nameLink>
+						<surname>Vondel</surname>
+					</persName>
+					<idno type="wikidata">Q312673</idno>
+					<idno type="pnd">118627848</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL"
+						>https://www.dbnl.org/tekst/vond001dewe03_01/vond001dewe03_01_0141.php</idno>
+					<title>J.F.M. Sterck, H.W.E. Moller, C.G.N. de Vooys, C.R. de Klerk, B.H.
+						Molkenboer, J. Prinsen J.Lzn. en L. Simons (eds), De werken van Vondel.
+						Derde deel 1627-1640. De Maatschappij voor goede en goedkoope lectuur,
+						Amsterdam 1929</title>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person xml:id="aquilin" sex="MALE">
+						<persName>Aquilin</persName>
+					</person>
+					<person xml:id="burgemeesters" sex="MALE">
+						<persName>Burgemeesters</persName>
+					</person>
+					<person xml:id="bode" sex="MALE">
+						<persName>Bode</persName>
+					</person>
+					<person xml:id="attila" sex="MALE">
+						<persName>Attila</persName>
+					</person>
+					<person xml:id="juliaen" sex="MALE">
+						<persName>Juliaen</persName>
+					</person>
+					<person xml:id="ursul" sex="FEMALE">
+						<persName>Ursul</persName>
+					</person>
+					<person xml:id="rey" sex="UNKNOWN">
+						<persName>Rey</persName>
+					</person>
+					<person xml:id="beremond" sex="MALE">
+						<persName>Beremond</persName>
+					</person>
+					<person xml:id="sinte-ursuls-geest" sex="FEMALE">
+						<persName>Sinte Ursuls Geest</persName>
+					</person>
+					<person xml:id="sint-aethereus-geest" sex="MALE">
+						<persName>Sint AEthereus Geest</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-02">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1639">
+				<desc/>
+			</event>
+			<event type="premiere" when="1650">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart>J.V. Vondels <lb/> Maeghden. Trevrspel.</titlePart>
+				<titlePart>‘Υμᾶς τ᾽ ὀνήσω, τούς δέ τε βλάψω θανών.</titlePart>
+				<titlePart>Mediisque in millibus ardet.</titlePart>
+
+				<titlePart>t' Amsterdam,</titlePart>
+				<titlePart>Voor Abraham de Wees , Boeckverkooper op den Vygen-Dam, in 't Nieuwe
+					Testament. In den Jaere 1639.</titlePart>
+				<titlePart><figure/></titlePart>
+			</docTitle>
+			<div type="dedication">
+				<head>Opdraght aen Agrippine.</head>
+				<lg>
+					<l>O AGRIPPIN, gemytert met Drie Kroonen,</l>
+					<l>Die zittende als op eenen regenboogh,</l>
+					<l>Kunt teeckenen van Roomsche aeloudheid toonen,</l>
+					<l>En rekenen uw herkomst van zoo hoogh;</l>
+					<l>Ghy roem des Rijns, vergeef ons datwe naderen</l>
+					<l>Vw Bisschops stoel en Raedhuis, groot van faem,</l>
+					<l>En wyden u ons Maeghdelijcke bladeren,</l>
+					<l>Beslagen met Sinte Ursuls gouden naem;</l>
+					<l>Beschreven met den Koningklijcken bloede</l>
+					<l>Van haer, en van haer Ellefduizental,</l>
+					<l>Gemartelt, en geslagen met Gods Roede,</l>
+					<l>In 't aengezicht van uwen ouden wal.</l>
+					<l>D'inboorling is in zijne wiegh gehouden,</l>
+					<l>En bakermat. hoe kan ick die voorby?</l>
+					<l>Al word de melck der Moeder niet vergouden</l>
+					<l>Van 't kind; dit streck ten allerminste dy</l>
+					<l>Een klein bewijs van mijn genegentheden,</l>
+					<l>En groote zucht tot mijn geboorteplaets;</l>
+					<l>Daer ick, nu stijf een halleve eeuw geleden,</l>
+					<l>Eerst ryzen zagh den glans des dageraeds.</l>
+					<l>Wy volgen dus de leidstar der aelouden,</l>
+					<l>Wy volgen in hun schaduw, slechs van veer,</l>
+					<l>De Griecken, die hun boortesteden bouden</l>
+					<l>Zoo lang voor ons met onnavolghbaere eer.</l>
+					<l>Euripides, die wyze, 't wyze Athenen</l>
+					<l>Deed schreien, om het moederlijck geschrey</l>
+					<l>Der Biddenden, die om haer zoonen steenen,</l>
+					<l>Op dat men hen een uitvaert toeberey.</l>
+					<l>'t Hooghdraevend dicht van Sophokles geleide</l>
+					<l>Het levend lijck van Oedipus naer 't graf,</l>
+					<l>Te Kolon, daer die blinde balling scheide</l>
+					<l>Van Antigoon, heur vaders oogh, en staf.</l>
+					<l>Wy zingen hier van Sphinxen, noch Oedippen,</l>
+					<l>Noch heimlijck graf, waer van Koloner yst;</l>
+					<l>Maer tuigen klaer, met stomme Maeghdelippen,</l>
+					<l>Van Vrsuls asch, daer Kolens roem uit rijst.</l>
+					<l>Dees stof kan ruim 't gebreck van geest vergoeden.</l>
+					<l>Hier stort niet een Makaria ter neêr,</l>
+					<l>Maer Duizenden, al zalige gemoeden,</l>
+					<l>De dood getroost, alleen tot Christus eer.</l>
+					<l>Hier tarten geen gewapende Scythinnen</l>
+					<l>Achilles, daer Penthesilea streeft;</l>
+					<l>Maer wapenlooze en strijdende Heldinnen</l>
+					<l>Dien wreeden Hun, voor wien al 't aerdrijck beeft.</l>
+					<l>Geen Amazoon is met die hoop gebleven,</l>
+					<l>Voor Trojes vest, als mijne Koningin;</l>
+					<l>Die, na heur dood, gekroont in 't eeuwigh leven,</l>
+					<l>Nu heerscht met God, alle eeuwen uit en in.</l>
+					<l>Geen Hengstebron magh haelen by de beecken</l>
+					<l>Van 't eedle bloed der Ioffren hier gevelt,</l>
+					<l>Dit bloed, waer mee ghy hebt uw' Schild bestreecken,</l>
+					<l>Vw Schild, die noch van 't Elleftal vermelt.</l>
+					<l>Driekoningsstad, ontfang mijn Maeghdenoffer,</l>
+					<l>Al breng ick dien in geen Driekonings koffer.</l>
+					<l> </l>
+					<l>J.V. Vondel.</l>
+				</lg>
+			</div>
+			<div type="preface">
+
+				<head>Inhoud.</head>
+				<p>De Koning van Britanje, nu Engeland, verzocht ernstigh door Gezanten, voor zynen
+					eenigen Zoon Konaen, na den doop AEthereus genaemt, ten huwelijck Ursul, eenige
+					Dochter van Maurus, of Deonot, Koning van Kalidonien, nu Schotland: maer het
+					verzoeck werd t'elckens beleefdelijck afgeslagen; eensdeels, om d'ongelijckheid
+					van den Godsdienst; d'een Christensch, en d'ander noch Heidensch zijnde;
+					anderdeels, om dat de Kalidoonsche Princes voorgenomen hadde alleen haeren
+					hemelschen en geenen aerdschen Bruidegom, te behagen. D'aenzoeckers van 't
+					huwelijck zich het afslaen belgende, en voor onverdraegelijcken hoon
+					inkroppende, dreighden endelijck Deonot, met alle maght gewapent, op te komen,
+					en de geweigerde Maeghd met den zwaerde te haelen: waerom de Vader der Princesse
+					verlegen, te raede ging met zyne Dochter, die van boven verlicht, door
+					zonderlinge openbaeringen, hem ried het huwelijck te sluiten, op voorwaerde, dat
+					de Vorst van Britanje de bruiloft drie jaeren lang zoude uitstellen, om zich
+					middelertijd tot het Christen geloof te bekeeren, en de Bruid met eenen stoet
+					van tien, en haer zelve, en elck van de tien met noch duisend, maeckende te
+					zaemen het getal van ellef duizend Maeghden of Staetjofferen te verzien, om met
+					dat gezelschap Rome te bezoecken; op hope dat middelerwijl de liefde des vryers
+					zoude verkoelen, of God door andere middelen zijn voornemen met haer uitvoeren.
+					Met dit beding werd het huwelijck, en zedert de bevaert of reis, den Rijnstroom
+					op, aengegaen. Na dat mevrouw Ursul te Rome alles, niet zonder merckelijcke
+					vruchten, verricht hadde, keerdeze weder, vergezelschapt met Paus Cyriacus, die,
+					niet zonder openbaeringe, zijn ampt verliet, en met meer andere geestelijcke en
+					wereldlijcke personagien; ontmoetende op den wegh den Bruidegom AEthereus, met
+					haere moeder, en zijn jongste zuster; alle mede van het toekomende lot bewust,
+					en eendraghtigh, gelijck alle anderen, gezint met de Koningklijcke Maeghd naer
+					de martelkroon te staen en te streven. Met dit opzet dreef men den Rijn af in
+					der Hunnen laege, haer van den tyran Attila (toen Agrippine hard belegert
+					hebbende) geleit, door 't ophitsen, en de waerschuwingen der Heidensche
+					Burgemeesteren, en Oversten, Juliaens bloedvrienden, te Rome; op Ursul, en haer
+					gezelschap niet weinigh verbittert. D'aertsbisschop Aquilin, en Burgemeesters
+					van Keulen, tyding van Koningin Ursuls gevangenis krygende, lieten in Stad niet
+					na, met gebeden, raedslaegen, en alle mogelijcke middelen, der Maeghden
+					behoudenis te behartigen. Zoo dra Attila de Koningin in 't legerzagh, werd hy,
+					door haere schoonheid en bevallickheid, van raezende minne ontsteecken, en
+					arbeide door zynen Aerts Offervinder en Legerwichelaer Beremond, om haer van
+					Christus af te trecken, en door 't aenbieden van zijn Kroon en huwelijck te
+					bekooren, doch al vergeefs. Juliaen, zijn Maerschalck, en Beremond, hem
+					voorstellende, wat gevaer het leger liep, met alle deze bekoorlijcke Joffrouwen,
+					konden den Veldheer zwaerlijck brengen tot het bewilligen van't ombrengen der
+					Maeghden, en allerzwaerlijckst om de Kalidoonsche Vorstin, op wie hy verslingert
+					was, van kant te helpen: maer ten leste van hun aengeprickelt, en den hoogen
+					nood gedreven, leide hy, al schoorvoetende, de koningklijcke Maeghd op eenen
+					heuvel, van Oversten en Kornellen omringt, van waer Ursul alle haere Maeghden,
+					en Kruisgenooten, in regementen gedeelt, als in slaghorden staen, en van het
+					gewapende krijgsvolck omcingelt zagh. Na datze den Tyran eenigen van
+					d'uitsteeckenste personagien, dicht voor haer gebroght, hadde getoont, en
+					kundigh gemaeckt, onweldighde hy haer de Kruisbanier, en trapteze met voeten: de
+					Koningin hem hierom bestraffende, en zijn moordadigheid verwytende, werd met
+					eenen schicht doorsteecken, Het voet en paerdevolck ziende den Veldheer den
+					blooten degen zwaeien, het welck de moordleus, en 't gezette teecken was, viel
+					onder deze weerlooze schaepen, als wilde woeste dieren, en holp haer jammerlijck
+					om 't leven. Des avonds, na den moord, werden de vesten, nu vol schrick door dit
+					gezicht, d'elfste mael, van 't gansche leger t'effens, aen alle kanten, zoo
+					vreesselijck bestormt, en besprongen, dat de Stad in gevaer stond van
+					overweldight te worden, ten waere de Geesten der Martelaeren en Martelaeressen
+					verschynende, de vyanden gestuit, ten deel in 'tleger gejaeght, en ten deel op
+					de vlught geholpen hadden. De Keulsche Ridderschap daer op uitvallende, en
+					bespiedende, hoe reuckeloos Sinte Ursuls lijck bewaert werd en het krijghsvolck
+					vast verliep, overviel het overschot der versmoorde, verdroncke, en slaeperige
+					Katten in 't leger, en voerde de doode geluckighlijck in Stad; daer
+					d'Aertsbisschop, en Burgermeesters het lichaem der Heilige Martelaeresse,
+					openbaerlijck ten toon zetten, voor de gansche gemeente, die bykans moedeloos en
+					afgemat, door een algemeen gebed des Aertsbisschops, troost en ontzet verzocht
+					van boven, van waer daetelijck de Geest der zalige Maeghd, omringt van al haer
+					gezelschap, met eenen hemelschen glans verscheen, en bekent maeckte, hoe de
+					Hunnen van haer en haer gezelschap, eerst op de vesten gekeert, ten deel aen 't
+					verloopen gebroght, en daer na in 't leger verbaest gemaeckt zijnde, voort
+					opgebroken waren: met eenen voorzeggende den dood des Tyrans, en tot welck een
+					grootheid, geluck, en glori de Stad Agrippine, door allerhande rampen, namaels
+					zoude steigeren: waer op d'Aertsbisschop God den Verlosser danckte, en, by wijze
+					van voorspellinge, Sinte Ursuls lijck heerlijck ten grave geleide, en alle
+					behoorlijcke eere en diensten toewijde. </p>
+				<p>Het treurspel begint met den dagh, en endight in den avond. Het tooneel is
+					t'Agrippine. De Rey bestaet uit Agrippiners.</p>
+			</div>
+
+			<castList>
+				<head>Personagien</head>
+				<castItem corresp="#aquilin">
+					<role>Aquilin, Aertsbisschop van Keulen.</role>
+				</castItem>
+				<castItem corresp="#burgemeesters">
+					<role>Burgemeesters.</role>
+				</castItem>
+				<castItem corresp="#bode">
+					<role>Bode.</role>
+				</castItem>
+				<castItem corresp="#attila">
+					<role>Attila, Koning der Hunnen.</role>
+				</castItem>
+				<castItem corresp="#juliaen">
+					<role>Juliaen, Veldmaerschalck.</role>
+				</castItem>
+				<castItem corresp="#ursul">
+					<role>Ursul, Koningin van Britanje.</role>
+				</castItem>
+				<castItem corresp="#rey">
+					<role>Rey van Agrippiners.</role>
+				</castItem>
+				<castItem corresp="#beremond">
+					<role>Beremond, Aertsoffervinder, en Legerwichelaer.</role>
+				</castItem>
+				<castItem corresp="#sinte-ursuls-geest">
+					<role>Sinte Ursuls Geest.</role>
+				</castItem>
+				<castItem corresp="#sint-aethereus-geest">
+					<role>Sint AEthereus Geest.</role>
+				</castItem>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+
+					<head>I.V. Vondels Maeghden.</head>
+					<head>Het eerste bedryf.</head>
+				
+					<stage>AERTSBISSCHOP. BURGEMEESTERS.</stage>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>O Constantin, die nu, by God, een waerder kroon,</l>
+						<l>Een' eedler scepter draeght, bezit een' hooger troon,</l>
+						<l>En heerelijcker Rijck, dan eertijds hier op d'aerde,</l>
+						<l>Toen ghy 't verwezen bloed verloste met den zwaerde,</l>
+						<l>Gezegent zelf van God in uw manhafte vuist;</l>
+						<l>Op dat zijn heiligh zaed voortaen niet meer gekruist</l>
+						<l>Zou werden, als het vlood verzierde en valsche Goden,</l>
+						<l>By 't goddelijcke Recht, zoo hard, zoo scherp, verboden:</l>
+						<l>Ghy Held, die 't aerdsch paleis om 't hemelsch hebt geruimt;</l>
+						<l>Wat baet het toch, dat ghy den ganschen Rijnstroom schuimt</l>
+						<l>Van woeste vyanden, en Heidensche tyrannen,</l>
+						<l>Eendraghtigh tegens God, en Christus ingespannen?</l>
+						<l>Nadien die felle Scijth, en Noordvorst opgeweckt,</l>
+						<l>Germanje niet alleen, maer, 't aerdrijck overtreckt,</l>
+						<l>En, passende op geberght, noch duinen, nochte stranden,</l>
+						<l>Gaet overweldigen, en schenden alle landen,</l>
+						<l>Die Gode, en zijnen zoon oit waren onderdaen.</l>
+						<l>Onnoodigh was 't Maxent, en Maximin te slaen;</l>
+						<l>Dewyl de Noorman, ruim zoo wreed, en moordbaldaedigh,</l>
+						<l>De Christe Kerck vervolght, de Neroos maeckt genadigh,</l>
+						<l>Al d'oude gruwlen weêr op heilooze outers zet;</l>
+						<l>De ziel, in 't klaerste bad gewasschen, weêr besmet</l>
+						<l>Met ongeloof, verdruckt 't geloof der eerste Vaderen,</l>
+						<l>Ons dreight met vier en strop, en opent Iesus aderen;</l>
+						<l>Als of te luttel bloeds gestort werd, toen de dwang,</l>
+						<l>En dolle tyrannij drie eeuwen ging in zwang.</l>
+						<l>De vierige Matern, een leerling van Sint Peter,</l>
+						<l>Wees deze Stad vergeefs tot God, en op een beter;</l>
+						<l>Zoo Got, of Hun Gods disch, in rood tiras, en bloed</l>
+						<l>Des Martelaers gesticht, magh trapplen met den voet,</l>
+						<l>En op het smoockend puin gaen huppelen, en draeven,</l>
+						<l>Waer onder uw gemeent leit levendigh begraeven.</l>
+						<l>De Vindster van het Kruis, dat zoo veel harten treckt,</l>
+						<l>Uw Moeder, heeft vergeefs met louter goud gedeckt</l>
+						<l>De kerck van Gereoen, en 's Gulden Martlers drempel;</l>
+						<l>Indien een roovers klaeuw dien Godgewijden tempel</l>
+						<l>Zal plondren, en 't rood goud, en schitterend gesteent,</l>
+						<l>En stroien in den wind der Heiligen gebeent,</l>
+						<l>En asch, met zorgh bewaert. waar toe de marmerzercken?</l>
+						<l>De toetsteen? het albast? zoo veel vermaerde wercken?</l>
+						<l>Gevaerten, trots gebouwt met schatten en vernuft?</l>
+						<l>d'Autaeren zijn onnut, waer voor zelf d'afgrond suft,</l>
+						<l>En ziddert. waer toe lamp, en kandelaer ontsteecken?</l>
+						<l>Op dat het den soldaet niet zou aen licht ontbreecken,</l>
+						<l>Na'et overrompelen van poort en wal, by nacht?</l>
+						<l>Wanneer hy, tempelen oploopende met kracht,</l>
+						<l>Kappel, en koor ontbloot van dierbre Heilighdommen.</l>
+						<l>Hoe snellijck velt men 't hoogh, zoo langsaem opgeklommen!</l>
+						<l>Waer berght mijn schaepskoy zich, in 't uiterste gevaer?</l>
+						<l>De myter valt voortaen mijn' ouderdom te zwaer.</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Eerwaerdste Vader, hoe? my dunckt aen al dit klaegen,</l>
+						<l>Ghy beeld u zelven in ons droeve nederlaegen,</l>
+						<l>En spelt alree den val der Stad, 't welck God verhoe.</l>
+						<l>Ghy waert, in al 't belegh, noch noit zoo bang te moe,</l>
+						<l>Noch zwichte, schoon of al de klocken onraed klepten;</l>
+						<l>Dies Raed, en Burgery, in 't vechten, hope schepten,</l>
+						<l>En moed uit uw gelaet, en voorhoofd even bly:</l>
+						<l>Ja nergens leed men last, d'Aertsbisschop quam 'er by,</l>
+						<l>En steef met raed en daed de mannen, op de muuren;</l>
+						<l>Dat waer hy slechs verscheen, daer moght geen vyand duuren,</l>
+						<l>Maer stoof, gelijck het stof, te rugh voor zijn gezicht.</l>
+						<l>Waer hy zijn oogen sloegh, scheen yeder blick een schicht,</l>
+						<l>Die 't grimmigh harte trof, en 't leger broght aen 't wijcken.</l>
+						<l>Eerwaerdste Vader, hoe? zoud ghy ons nu bezwijcken?</l>
+						<l>Wy hebben mannelijck tien stormen uitgestaen,</l>
+						<l>Geen elfste zal 't ons doen: hy koom vry echter aen.</l>
+						<l>'t Ontbreeckt aen volck noch trouw. 't ontbreeckt aen hart noch
+							handen.</l>
+						<l>Men heeft voor dezen oock Agripstad aen zien randen:</l>
+						<l>Maer hoe 't Vitel bequam, getuight ons Houtvaertfeest,</l>
+						<l>Het welck men jaerlix viert; wanneer Marsil zijn geest</l>
+						<l>Noch om zijn tombe danst; terwijlwe met ons allen</l>
+						<l>God loven in triomf, en, juichende om de wallen,</l>
+						<l>Gedencken aen dien Held, die Ridderlijcke ziel;</l>
+						<l>Hoe hy, gelijck een leeuw, die brult, ter poorte uit viel,</l>
+						<l>De voorste was, in streng beleggers voor te jagen,</l>
+						<l>En keerde gelauriert, gezeten op den wagen,</l>
+						<l>Van paerden, wit als sneeuw, getrocken t'zyner eer,</l>
+						<l>Die ons tot erfgoed liet zijn hart, en oud geweer.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>De Burgemeester kan mijn' geest niet zeer vermaecken</l>
+						<l>Met een gelijckenis van ongelijcke zaecken.</l>
+						<l>Het leger van Vitel valt veel te licht en dun,</l>
+						<l>Gewogen tegens heir, en heirkracht van den Hun;</l>
+						<l>'t Geweld, daer geen geweld schijnt tegens opgewassen.</l>
+						<l>Het vruchtbaerste gewest van menschen (best zou 't passen</l>
+						<l>Dat ick hen dieren noemde, in menschelijcken schijn)</l>
+						<l>Door 't welck de Tanais loopt, waar meê d'Europers zijn</l>
+						<l>Van hunnen nagebuur, den Asiaen, gescheien,</l>
+						<l>Zend krijghsvolck uit, als mut, en sterckt zich met livreien</l>
+						<l>Des Konings Valamir, en 't heir van Harderick,</l>
+						<l>Vermaert ten ooreloogh, en veeler landen schrick.</l>
+						<l>Hier onder mengen zich de Duringers, en Zwaven,</l>
+						<l>En Marckmans, met al die zich onder Scythen gaven,</l>
+						<l>En vleiden de Fortuin van Attila, wiens maght</l>
+						<l>Tot zijn gehoorzaemheid de forsse Gotten braght,</l>
+						<l>De Rijcken reegh aen een, en zegenrijck ten lesten,</l>
+						<l>Zich meester maeckend, streeck de sluierkroon van 't Westen.</l>
+						<l>Stoot die zijn' staelen kop voor deze glaze Stad?</l>
+						<l>Neen Aquileia, 'twelck de zee te baete had,</l>
+						<l>Ja onverwinbaer scheen, en drie jaer uit kon harden,</l>
+						<l>Verscheurde hy, als ragh, en spinneweb, in flarden,</l>
+						<l>Met zijn bloeddroncke kling, 't gelogen zwaerd des Gods:</l>
+						<l>Ick rep geen zwacker steên, op veer na niet zoo trots.</l>
+						<l>O landstad, droogh van graft! ick zie uw' grontvest spatten.</l>
+						<l>'T geduurigh stormen moet de beste Burgers matten.</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Wy zijn dien Dwingeland noch voor een wijl getroost.</l>
+						<l>Wie weet hoe 't midlertijd wil daegen uit het Oost?</l>
+						<l>De zon zou Martiaen den Keizer eer verdrieten,</l>
+						<l>Dan tegens 't godloos Hoofd het harnas aen te schieten.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>O Rijn, een krancke troost, in 't bitterst van uw smart.</l>
+						<l>De Bosphorus zit zelf beneepen en benart</l>
+						<l>Van overal, en heeft te vyand de vier winden.</l>
+						<l>Hy bid, en smeeckt om hulp al zijn gelijckgezinden.</l>
+						<l>De Persiaen van 't Oost, de Visigot van 't West,</l>
+						<l>In 't Zuiden de Vandael, in 't Noord dees Hunsche pest</l>
+						<l>Hem dreigen, elck om 't felst. wie zou 't verduuren kunnen?</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Hy sluit bestant met drie, en demp dan eerst dees Hunnen.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Wat hoor ick voor gerucht daar buiten, op de straet?</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Hier koomt een drommel volx. hier komt een Bo.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Men laet</l>
+						<l>Hem daedlijck binnen staen. Wat wil ons wedervaren?</l>
+						<l>Mijn geest voorzeit niet goeds. ick vrees voor quade maeren.</l>
+					</sp>
+				<div type="scene" n="2">
+					<stage>BODE. AERTSBISSCHOP. BURGEMEESTERS.</stage>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Gelooft zy God, dat ick dien klaeuw des doods ontsprong.</l>
+						<l>Noch liever oud en grijs gestorven, dan zo jong.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Wat tyding? wat 's er gaens?</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Wat tyding brengtghe? Bode.</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Ick zweet van al 't gedrang. qua tyding maecktme bloode.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Zegh op. wie lijdt'er last? waer lijd mijn Bisdom nood?</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Vrouw Ursul is in 't net met haer geheele vloot.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Die zwaerigheid heeft my, als lood, op 't hart gelegen.</l>
+						<l>Noit tygers, op hun jaght, onnoosler kudde kregen.</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Och Ursul, komtghe zoo den ouden Maurus t'huis?</l>
+						<l>Hoe laedghe op uwen hals dit zwaer en lastigh kruis?</l>
+					</sp>
+
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Verhael ons 't gansche stuck.</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Hef aen, om tyd te winnen.</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Ick sal vrouw Ursuls toght van deze kaey beginnen,</l>
+						<l>En leien haer te Rome, in 't Pauselijck paleis,</l>
+						<l>Van Rome weder hier; nadien ick al de reis</l>
+						<l>Het Ioffrenleger volghde, uit lust tot zien en hooren.</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Begin, wy luistren toe.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Al is 't met droevige ooren.</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Van Keulen quam de vloot, voor wind, en onvermoeit,</l>
+						<l>Te Bazel aen, waer door dit blonde water vloeit,</l>
+						<l>En snijd de stad in twee doch ongelijcke deelen.</l>
+						<l>De Bisschop Panthalus ontfing dees Reisgespelen</l>
+						<l>En Koningklijcke Maeghd met een beleeft gemoed.</l>
+						<l>Men liet de schepen hier, en gaf zich voort te voet</l>
+						<l>Naer Rome, 'sweerelds hoofd, tot dat men ons kon wijzen</l>
+						<l>Die sloten hoogh gebouwt, daer zeven heuvels rijzen,</l>
+						<l>Ontrent den Tibervliet. Maer nauwelix vernam</l>
+						<l>Ons komst Cyriacus, haer landsman, of hy quam,</l>
+						<l>In Goddelijck gestalt, met alle Kardinaelen,</l>
+						<l>En Kerckelijcke pracht, dees Koningin onthaelen.</l>
+						<l>Hy opende het hof, en offerde al zijn' schat,</l>
+						<l>En ley 'tverwelkomt heir in 't beste van Gods Stad.</l>
+						<l>Om kortheid rep ick niet, hoe veel verlichte Maeghden,</l>
+						<l>Besprengkelt van zijn hand, het eeuwigh licht behaeghden:</l>
+						<l>Wat Ioffers, aen Gods Stoel verbonden door haer bloed,</l>
+						<l>Dien band verdubbelden door een verzet gemoed.</l>
+						<l>Na datze Vatikaen, d'Apostolijcke graven,</l>
+						<l>De kercken rijck gebouwt, en opgepronckt met gaven,</l>
+						<l>Der Heilgen overschot bezichtight, en bezocht,</l>
+						<l>De bevaert, God belooft, ten vollen had volbroght,</l>
+						<l>Met vasten, en gebeên, met waecken, en met traenen;</l>
+						<l>Begonze 't kuysch geslacht met errenst op te maenen,</l>
+						<l>Te staen op haer vertreck. wy groeien in getal</l>
+						<l>Van beiderleie </l>
+						<l>Ontfangt het al, en keert den neck geen' laegh geboren,</l>
+						<l>Noch draeght op hoogheid moed. zy heeft het bey verkoren.</l>
+						<l>Cyriacus, op 't licht dat hem de hemel gaf,</l>
+						<l>Steegh van Sint Peters stoel, en hooge trappen af,</l>
+						<l>En werd haer kruisgenoot. men dencke of 't nijd verweckte,</l>
+						<l>By 't Heidendom, daer zy een heldre leidstar streckte,</l>
+						<l>Voor menigh dwalend hart. Nu bid ick, luistert toch,</l>
+						<l>Wat ons gebrouwen word van 't Heidensche bedrogh.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Wy luistren toe met zorgh, dat hier geen ramp uit kome.</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>De Burgemeesters zelfs, en Oversten te Rome</l>
+						<l>(Maximaen heet d'een, en d'ander Africaen)</l>
+						<l>Om 't eenigh Konings Kind behendigh te verraên,</l>
+						<l>Te blusschen 't zuiver licht, beginnen t'ondervraegen,</l>
+						<l>Wat wegh zy veilighst acht, en leggen looze laegen,</l>
+						<l>Met valschen schijn; gelijck weleer Jerusalem</l>
+						<l>Zijn kroon vernedren wou voor 't kind van Bethlehem,</l>
+						<l>En ondertusschen zwoer den Heiland te vernielen,</l>
+						<l>Al waer het oock door 't bloed van veel onnoosle zielen.</l>
+						<l>Men reisde in 't end. op wegh ontmoet de Bruid van pas</l>
+						<l>Den Bruidegom, die van haer lot verzekert was,</l>
+						<l>En om de martelkroon zyn goude kroon wou geven.</l>
+						<l>Zyn Vader, oock besprengt met water, had dit leven</l>
+						<l>Verlaten, wel vernoegt. zyn Moeder, oock verlicht,</l>
+						<l>Met al haer Dochteren, behartighde haer' plicht.</l>
+						<l>Hy broght Daria meê, zijn Schoonmoêr, nu geruster</l>
+						<l>By Ursul, 't eenigh pand, en oock zijn jongste Zuster.</l>
+						<l>Zoo keerden wy gezond te Bazel voor de stad:</l>
+						<l>Daer d'Aertsheldin op 't hoofd van eenen heuvel trad,</l>
+						<l>Omvlochten met een' krans van ellefduizend Maeghden,</l>
+						<l>En mannelijcken stoet; dien 't wonderlijck behaeghden</l>
+						<l>Heur aenschijn aen te zien. zy wenckte. elck zweegh terstond.</l>
+						<l>Toen sprack een God, of geest door heur' begaefden mond:</l>
+						<l>Getrouwe, die mijn vaen gevolght zijt van Britanje;</l>
+						<l>Toen onlangs t'Agrippijn, het hoofd van laegh Germanje,</l>
+						<l>De zoete en zachte slaep mijn harssenen beving,</l>
+						<l>Verscheen my in den droom een rustigh Jongeling.</l>
+						<l>'K verschoot in 't eerst, en deê myn oogen slaepende open.</l>
+						<l>Zijn vleugels, bont van pluim, van mann' en nektar dropen.</l>
+						<l>'t Gekrulde en gouden hair by locken nederhing.</l>
+						<l>En 't hagelwit gewaed, met goud gezoomt, ontfing</l>
+						<l>Door 't slingeren een' zwier van boven tot beneden,</l>
+						<l>Niet minder aengenaem dan zyn volmaackte leden.</l>
+						<l>Hy sprack: o Maeghd, die lust in 't hemelsch leven schept,</l>
+						<l>Het onvergangklijck goed voor 't aerdsch verkoren hebt,</l>
+						<l>En streeft naer eeuwige eer, ghy zult dees reis voltrecken,</l>
+						<l>Maer op uw wederkomst dit veld hier by bedecken,</l>
+						<l>Met uw gewijde schaer, en steigren zoo naer God,</l>
+						<l>Die u beschoren heeft een onwaerdeerbaer lot.</l>
+						<l>Zoo sprack hy, en verdween. Wie nu door oorloghsmaren</l>
+						<l>Zich vind bezwaert met my den Rijnstroom af te varen,</l>
+						<l>Die kies een veiligh pad, na dat het heur behaegh.</l>
+						<l>Mijn wensch is met dees vaen, die ick onwaerdigh draegh,</l>
+						<l>Dees Kruisvaen in de hand te scheiden uit dit leven.</l>
+						<l>Toen riep al 't heir: niet een van ons zal u begeven.</l>
+						<l>Wy wenschen om die dood, wy treên in Jesus eed.</l>
+						<l>Zoo maeckte een yeder zich, als tot een hooghtijd, reed.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>O mannelijck geloof, in maegdelijcke scharen!</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>'t Was ymmers wijd verspreit dat wy belegert waren,</l>
+						<l>En Attila den stroom met brugh en palen sloot.</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Al wie naer boven voer, die waerschuwde Ursuls vloot,</l>
+						<l>En spelde 't onweer al, het welck men op zagh komen,</l>
+						<l>Maer bluschte 't vier niet uit. het opzet was genomen.</l>
+						<l>Men voer met voordacht recht den vyand in de mond,</l>
+						<l>Die op dees Joffers vlamde, en krijghsvolck opwaert zond,</l>
+						<l>Op den verwittighbrief van Afrikaen geschreven,</l>
+						<l>En van Maximiaen, ophitsers van hun neven.</l>
+						<l>Men rande ons aen. men dreef al stil langs d'overzy</l>
+						<l>Des Rijns, langs Duitsch, de Stad, voor zonneschijn voorby,</l>
+						<l>Eer 't yemant werd gewaer. Toen stack men endlijck over,</l>
+						<l>Naer 't Hoofd van 't leger toe, en ick ontsloop dien roover,</l>
+						<l>Met dezen Hunschen rock verkleed, en onbekent.</l>
+						<l>De Dwingeland verwacht mevrouw nu in zijn tent.</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Wat raed om den Tyran dien vetten roof t'ontrucken?</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Men vang van Jesus aen, misschien of 't wou gelucken.</l>
+						<l>Dat alle de gemeent, gescheiden uit haer werck,</l>
+						<l>Het Raedhuis uit zijn ampt, 't gemoed met vasten sterck,</l>
+						<l>En vierige gebeên. Dat kercken, en kappellen,</l>
+						<l>En kloosters 's volcx gebeên godvruchtighlijck verzellen;</l>
+						<l>En, offrende op 't autaer, God klagen heuren nood,</l>
+						<l>Tot redding, of tot troost der aengevochte vloot.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>ATTILLA. JULIAEN.</stage>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Ghy hebt die lichte vracht van Ioffren dan gegreepen?</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Al Nijmfen, elck om 't schoonste, en Venus met haer schepen.</l>
+						<l>God Mars verleende u noit een' vriendelijcker buit.</l>
+						<l>Zoo 't krijghsvolck moght begaen, elck zocht zijn gading uit.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attilla</speaker>
+						<l>Waer raecktenze in uw net zoo reuckloos met haer allen?</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Ontrent daer in den Ryn de Moezel koomt gevallen.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Zijn 't mans, en vrouwen bei?</l>
+					</sp>
+
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>'tZijn Joffers blanck en schoon,</l>
+						<l>De mans meest wapenloos.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>U werd noch spits geboôn?</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Daer werd noch zwaerd noch pijl getrocken noch geschoten.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Men hoorde een veldgeschrey?</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Een' zang van speelgenooten,</l>
+						<l>Gelijck of eene Bruid van Koningklijcken stam</l>
+						<l>Haer' lieven Bruidegom met vreughd in d'armen quam.</l>
+						<l>Hier onder mengde zich de wedergalm der klippen,</l>
+						<l>Langs d'oevers van den stroom. op 't roeren van de lippen</l>
+						<l>Dreef 't water langsaem af, en luisterde naer 't lied,</l>
+						<l>Waermeê de Maeghderey Gods Roede welkoom hiet,</l>
+						<l>Daer Christenrijck om schreit. zy scheenen niet gevangen,</l>
+						<l>Maer, nu in vryer staet, om 't sterven te verlangen.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>'t Is van 't hardneckigh slagh, dat naer zijn oudren aerd,</l>
+						<l>En liever met de borst en boezem loopt in 't zwaerd,</l>
+						<l>En 't spits voor haer gevelt, dan ongequetst daer neffens.</l>
+						<l>Hoe droegh zich 't Hoofd der vloote, als ghy die vloot al t'effens</l>
+						<l>Beknelde in uwe fuick, en leit van land aen boord?</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Vergeefme dit vergrijp. 'k beken 't, ick werd bekoort,</l>
+						<l>Zoo dra ick Ursul zagh van verre zich vertoogen.</l>
+						<l>Men vraegh niet, hoe 't my ging, toen ick haer onder oogen</l>
+						<l>En nader quam. zy stond (wat was 't een trotse stand!)</l>
+						<l>Op 't voorste schip, en hiel de Kruisvaen in de hand;</l>
+						<l>Gekroont met diamant, en met robijne roozen;</l>
+						<l>Maer schooner bloncken dees', die op heur kaecken bloozen,</l>
+						<l>En blaecken allerschoonst, wanneer een eerbre schaemt</l>
+						<l>Het edelste van 't bloed op elcke wang verzaemt.</l>
+						<l>Op haren boezem straelde en speelde met zijn vieren</l>
+						<l>Een goude Kruis, verzet met blaeuwe puicksaffieren.</l>
+						<l>Een weeligh luchje speelde, en vloogh vast af en aen,</l>
+						<l>En vulde nu het zeil, en krulde dan de vaen,</l>
+						<l>Gehecht aen 't Standerdkruis, daer zy haer' troost in stelde.</l>
+						<l>Dit was al 't wapentuigh, de speeren dieze velde.</l>
+						<l>Maer 't oogh, een scherper speer, doorpriemde my mijn hart.</l>
+						<l>Het purpren kleed, gevoêrt met witte armijnen, werd</l>
+						<l>Van dertle windekens by wijlen opgeheven.</l>
+						<l>De leli, en de roos, van goud in 't kleed geweven,</l>
+						<l>Ontstaecken t'elckens dan haer' luister aen de zon,</l>
+						<l>Die onder ging van spijt, en niet verdragen kon</l>
+						<l>Den weerglans van dit licht, 't welck opging uit den Zuien,</l>
+						<l>En brack door nevels heen, en oorloogs regenbuien.</l>
+						<l>Waer 't eere als schande, ick had den oorlogh uyt den zin</l>
+						<l>Gezet, om zoo een puick, en schoone vyandin.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Ghy spreeckt'er af met smaeck, en schijnt bykans t'ontvonken.</l>
+						<l>Zy waer met vloot met al veel nutter strax verzoncken,</l>
+						<l>Dan herwaert aengevoert; veel nutter strax versmoort.</l>
+						<l>Waerom hebt ghy dit schip niet in den grond geboort?</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Dat was my niet geboôn. mijn last broght dat niet mede.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Men breng haer hier voor my.</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Zy komt, en maeckt zich reede.</l>
+						<l>Ick trad vooruit, en hoop dat u mijn dienst behaeght.</l>
+						<l>Daer komen mijn Kornels, en offren u de Maeghd.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<stage>JULIAEN. URSUL. ATTILA.</stage>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Nu staetghe voor mijn' Heer, die last gaf u te vangen.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Noit bleef een vry gemoed in yemants stricken hangen.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Die vryheid moght u licht ten beste niet vergaen.</l>
+					</sp>
+
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Indien ick qualijck spreeck, men wijs mijn feilen aen.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Men kan hier d'eerste reis met feilen 't lijf verbeuren.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Wie zich onschuldigh kent zal om geen sterven treuren.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Ghy stoft te jong. zie toe, en sterf niet al te dra.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Zoo 't slibbren van mijn tong uw rechtbijl quam te na,</l>
+						<l>Of quetste, ick ben 't bereit met dezen hals te boeten,</l>
+						<l>Is 't anders, stelme weêr in staet op vrije voeten.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Wie zijtghe? van wat land? hoe jong? wat jaeght u hier?</l>
+						<l>Met dezen langen sleep, door water en door vier,</l>
+						<l>En midden door 't gevaer van 't omgewroet Germanje?</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Monarch, ghy ziet hier 't oir van 't Kalidoonsch Britanje,</l>
+						<l>Het land van myn geboorte, indien ick zonder roem</l>
+						<l>Van my, of yemants eer te mindren, my dus noem,</l>
+						<l>Die liever Ursul heet. mijn oude, veertien jaeren,</l>
+						<l>Gevalle Gode alleen. ick quam niet hier gevaeren,</l>
+						<l>Noch liet myn Vaderland, en Vader over zee,</l>
+						<l>Noch voerde een' grooten sleep van eedle Maeghden meê,</l>
+						<l>Uit reuckeloozen lust, gelijck 't u vreemd magh geven.</l>
+						<l>Een hooger oirzaeck heeft my tot dees reis gedreven.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Wat oirzaeck dryft u toch zoo verre, en zoo uitheemsch?</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Een Prins, een eenigh Zoon des Konings van den Teems,</l>
+						<l>Noch Heidensch en vervreemt van 't zaligh merreckteecken,</l>
+						<l>Al raezende van minne, en 't minnevier ontsteecken,</l>
+						<l>Hiel by mijn' Vader lang door zijn gezanten aen,</l>
+						<l>En boodme t'elckens trouw. men bad hem af te staen,</l>
+						<l>Nadien ick voor had, God te dienen al mijn dagen,</l>
+						<l>En geensins d'ydelheid der oogen te behagen;</l>
+						<l>Maer 't weigren was vergeefs. hy dreighde sterck en stijf</l>
+						<l>Ons endlijck met zijn heir te vallen op het lijf,</l>
+						<l>Door 't pricklen van dien hoon. mijn Vader viel verlegen,</l>
+						<l>En ging 't gewightigh stuck met zinnen overwegen.</l>
+						<l>Ick ried het huwelijck op voorwaerde aen te gaen,</l>
+						<l>Nam uitstel drie jaer lang. de Prins zou zich beraên</l>
+						<l>Met Iesus priesteren; zou 't Heidendom verwerpen;</l>
+						<l>Al 'tgeen myn Godsdienst eischt zich laeten innescherpen.</l>
+						<l>De Bruigom zou de Bruid met een getal van tien,</l>
+						<l>Van oude, en zede als zy, verzorgen, en verzien;</l>
+						<l>Dan elck van 't elleftal met duizend tot haer Reien,</l>
+						<l>Om 't oir van Deonot naer Rome te geleien.</l>
+						<l>Zoo werd ick met beding verbonden en verknocht.</l>
+						<l>Zoo won ick tijd, of tijd zijn' zin verzetten moght,</l>
+						<l>En smoorde in tyds dien krijgh, eer 't oorloogh werd geboren.</l>
+						<l>Dit dreefme naer den Ryn. dit gaf myn' toght de sporen.</l>
+						<l>Ick heb aldus verkoelt des Jonglings eerste vlam.</l>
+						<l>Hy trockme te gemoet, en keert waer langs ick quam.</l>
+						<l>Veel Maeghden, op de reis besprengkelt op haer hoofden,</l>
+						<l>Gehoorzaemheid aen God, en zijn autaer beloofden;</l>
+						<l>Gelijck dees braeve Prins, nu eens gezint als wy,</l>
+						<l>Om Christus wil verzwoer zijn blinde afgodery.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Zoo roemtghe noch van volck en Vorsten te bekeeren?</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Ick roem alleen in God, dat hem de menschen eeren.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Ghy voert van land tot land een doodelycke smet.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Een Christelijcke lucht, gezond voor 't quijnend bed.</l>
+					</sp>
+
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Wy weeten, hoe ghy u te Rome hebt gedraegen.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Wy weeten, wie u schryft, en aenhitst tot dees laegen.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Ghy styft d'oproerigheid met dien ontelbren hoop.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Ick stuit het oproer zelf, in 't hardste van zijn' loop,</l>
+						<l>En voe geen leeringen dan die naer vrede smaecken.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Ghy pooght het slechte volck uw lastren diets te maecken.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Zoo 't lastren is, al 't geen men avrechts lastren noemt.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Met schijn van Godsdienst word uw yd'le drift verbloemt.</l>
+						<l>Men magh uw' aenhang noch gelooven, noch vertrouwen.</l>
+						<l>Men zorght, men vreest.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Voor wie? voor wapenlooze vrouwen?</l>
+						<l>Voor Maeghden zonder maght? voor mans, berooft van zwaerd?</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Wat vrouwen konnen doen, bleeck eertijds aen dien aerd</l>
+						<l>Der Amazonen wel, die met geweld van schaeren,</l>
+						<l>Europe, en Asien zoo verre meester waren,</l>
+						<l>Bekrijghden elck met meer dan mannelijcken stijl,</l>
+						<l>De borsten zetten af, en beeten met de bijl</l>
+						<l>Den stroom Thermodoön, en onzen Tanais open,</l>
+						<l>In 't hartje van den vorst; bedorven 't al met stroopen,</l>
+						<l>Verstickten 't manbre zaed, eer 't naeuw geboren was;</l>
+						<l>Dat ick van Lemnos zwijgh; daer zulck een groote plas</l>
+						<l>Van bloed vergoten werd, door dochter, en door moeder,</l>
+						<l>Verschoonende noch man, noch kind, noch vaêr, noch broeder.</l>
+						<l>Quam Cyrus, Hercules, en Jason voor den dagh,</l>
+						<l>Zy tuighden levendigh wat vrouwvolck al vermagh.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>d'Oprechtste Godsdienst leert geen menschen te verkorten,</l>
+						<l>Aen middelen noch eer, veel min hun bloed te storten;</l>
+						<l>Die leert ons d'Overheid, al waer 't een dwingeland,</l>
+						<l>Te dienen, in al 't geen zich tegens God niet kant.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Heeft niet uw Kruisbanier beoorlooght onze Goden,</l>
+						<l>En Rome zelf verdruckt?</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Een Vorst dien 't werd geboden,</l>
+						<l>Als 't glinsterende Kruis hem in de lucht verscheen.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Gehoorzaeme aerd, wanneer 't u aen gelegentheen</l>
+						<l>Noch mangelt; maer zoo ras het tijd is, om te spreecken,</l>
+						<l>Dan krijghtghe last van God, om d'ooren op te steecken;</l>
+						<l>Dan houdghe woord noch trouw, en zet uw' zetel vast.</l>
+						<l>De weereld overlaên, en van uw juck vermast,</l>
+						<l>Heeft onder u gesteent, en deerlijck moeten zuchten.</l>
+						<l>Hoe dick zagh d'Isterstroom ons grijze Wichlaers vlughten,</l>
+						<l>En d'Offervinders zelfs, bestorven als de dood,</l>
+						<l>Met Heilighdom en Goôn geladen in den schoot,</l>
+						<l>Gevangen en vermoort, na'et plondren en berooven:</l>
+						<l>Dat leerde ons nimmermeer uw' aenhang te gelooven.</l>
+						<l>Trawanten, leit haer wegh. grijpt toe, en doet haer spoên.</l>
+						<l>'K zal letten wat my staet met dit geslacht te doen.</l>
+						<l>Onsterflijck aengezicht, ick moet my toornigh veinzen,</l>
+						<l>Maer Venus uyt haer' troon ziet Attilaes gepeinzen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<stage>REY VAN AGRIPPINERS.</stage>
+					<sp who="#rey">
+						<speaker>Zang</speaker>
+						<l>Aertspriester, eertijds opgevaren</l>
+						<l>In 't hemelsch koor, daer maght van Engelen</l>
+						<l>Haer keelen, onder fluit en snaren,</l>
+						<l>Met kittelende galmen mengelen;</l>
+						<l>Daer ghy den Vader stelt te vrede,</l>
+						<l>Met d'allerheilighste offerhande,</l>
+						<l>En aldoordringenden gebede,</l>
+						<l>En zet u bloed voor elck te pande;</l>
+						<l>Verlosser, ga om hoogh te raede.</l>
+						<l>Verlos dees Maeghden uit genade.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Tegenzang</speaker>
+						<l>Ghy weet hoe u die hitte rooste,</l>
+						<l>Toen d'Engel, van Gods troon gezonden,</l>
+						<l>U, aen de Cederbeeck, vertrooste,</l>
+						<l>En balssem goot in zoo veel wonden,</l>
+						<l>Waer van ghy ree de voorsmart voelde,</l>
+						<l>Toen doodzweet vast in bloed verkeerde,</l>
+						<l>Het bloed, dat 's Afgronds gloed verkoelde,</l>
+						<l>Na dat ghy u aen 't Kruis verneêrde.</l>
+						<l>Verlosser, ga om hoogh te raede.</l>
+						<l>Verlos dees Maeghden uit genade.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Toezang</speaker>
+						<l>'t Getal der Martelaren</l>
+						<l>Na zoo veel marteljaeren</l>
+						<l>Is mooghlijck nog niet vol.</l>
+						<l>Vergaen dees Maeghden t'zaemen,</l>
+						<l>Zoo staen met rood heur naemen</l>
+						<l>In Jesus martelrol.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<head>Het tweede bedryf.</head>
+				<div type="scene" n="1">
+					<stage>ATTILA. BEREMOND.</stage>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Zoo Venus, 't hemelsch moe, uit lust om aengebeden</l>
+						<l>Te werden hier beneên, met menschelijcke leden</l>
+						<l>Haer Godheid noit bedeckte; of eenigh sterflijck volck</l>
+						<l>Verscheen; gelijck de Zon, met eene dunne wolck</l>
+						<l>Betrocken, zomtijds zich vertoont voor 's menschen oogen,</l>
+						<l>Op datze haeren glans, en schijn verdraegen mogen;</l>
+						<l>Zoo doet zy 't nu, en heeft vermomt het aerdrijck in,</l>
+						<l>En koomt voor my, in schijn der schoone Vyandin;</l>
+						<l>Een licht zoo schoon, als oit op d'aerde blonck van boven,</l>
+						<l>Om al wat naer de kroon der schoonheid steeckt te dooven.</l>
+						<l>O aengebede Zon, hoe helder ging de dagh</l>
+						<l>In mijnen boezem op, zoo dra als ick u zagh!</l>
+						<l>Hoe smolt erfvyandschap, en onverzoenbre veede;</l>
+						<l>Die ons verplicht, met onherroepelijcken eede,</l>
+						<l>Te vloecken 't Christen bloed, en nimmer, openbaer</l>
+						<l>Noch heimlijck, in verbond te treên met hun autaer.</l>
+						<l>Dit hart, dat gistren noch verbittert deze wallen</l>
+						<l>Bestormde, is my met zwaerd, en beuckelaer ontvallen,</l>
+						<l>Voor 't hemelsch aengezicht der Goddelijcke Maeghd;</l>
+						<l>Om wie my liever vre dan ooreloogh behaeght:</l>
+						<l>Gelijck God Mars, dien wy met menschenoffer eeren,</l>
+						<l>Weleer, om zijn Godin, zich zomtijds niet wou keeren</l>
+						<l>Aen veldslagh, noch belegh, maer smeet de wapens neêr,</l>
+						<l>En maeckte zijn vriendin vooghdes van zijn geweer.</l>
+						<l>Nu ga ick langer niet met oorelooghsgedachten</l>
+						<l>Meer zwanger, noch legh toe op 't vullen van stads grachten,</l>
+						<l>Op 't rammen van den muur, of torens dick gemetst,</l>
+						<l>Noch quets geen vyands borst; maer voel mijn borst gequetst,</l>
+						<l>En doodelijck gewond van d'aengename bogen,</l>
+						<l>Waer mede dees Diaen de zielen door haer oogen</l>
+						<l>Zoo treft, dat kunst noch kruid die wonden heelen kan.</l>
+						<l>Wat suf ick voor dees Stad! men vlie, men treck'er van.</l>
+						<l>Het Maeghdenleger houd het mannenheir belegen.</l>
+						<l>Al wat ick zie, de krijgh, en 't krijghsvolck, staetme tegen.</l>
+						<l>Mijn quijnende gemoed, verwonnen van de Min,</l>
+						<l>Geeft zich gewilligh op aen deze Koningin.</l>
+						<l>Zy bindme met een snoer, gevlochten van haer vlechten,</l>
+						<l>En voerme zoo in Stad. ick geef het zonder vechten.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Hoe nu? gelijckt die stem naer Nimroths grooten neef,</l>
+						<l>Gods Roede, die den schrick in alle Vorsten dreef,</l>
+						<l>En om Europe niet alleene koomt krackeelen,</l>
+						<l>Maer eischt de weereld noch twee overige deelen,</l>
+						<l>Door 't heiligh oorloghsrecht van Mars bebloede kling,</l>
+						<l>Die hy van Mavors zelf tot dit gebruick ontfing.</l>
+						<l>Wat schutter schiet een' pijl, 'ten zy uit uwe kokers?</l>
+						<l>Is d'aerde uw aenbeeld, zijn uw vuisten niet de mokers,</l>
+						<l>Die 't al vermorselen, en brijzelen, als glas?</l>
+						<l>Wat meeren overstaptghe niet, gelijck een' plas?</l>
+						<l>Men hoorde Illyricum verwonnen deerlijck schreien,</l>
+						<l>De Thrax, en Macedoon, en Mysie, en Achaien.</l>
+						<l>Al wat aen deze zy van d'Alpes ackers bouwt,</l>
+						<l>In dal, of op geberght, zijn eige kracht mistrouwt.</l>
+						<l>Ghy hebt Hesperien, en Gallien doen roocken;</l>
+						<l>Den Donau, en den Rijn de horens knap gebroken,</l>
+						<l>En maeide met uw zein, met eenen slagh, om veer,</l>
+						<l>Al wat'er't hoofd opsteeckt, aen 't Adriatisch meer,</l>
+						<l>Zou zulck een God zich aen een wasse pop vergaepen,</l>
+						<l>En reuckloos zijn fortuin in haeren schoot verslaepen?</l>
+						<l>De Goden hoeden ons voor zulck een lasterstuck.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Alcides zelf droegh wel het zachte minnejuck,</l>
+						<l>Ley leeuwshuid af en knods, voor lieve goelijckheden,</l>
+						<l>En stond naer joffrengunst met vleiende gebeden.</l>
+						<l>De boogh wil in den krygh niet staegh gespannen staen.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Het minnen is in 't end hem jammerlijck vergaen;</l>
+						<l>Toen hy van Dianier onweetend werd vergeven,</l>
+						<l>Door 't offerhemd, met gift van Nessus bloed bewreven.</l>
+						<l>De wellust heeft gevaer, en duizend zorgen in.</l>
+						<l>Het zwaerd des Krijghs verroest by 't wapentuigh van Min.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Och Beremond, mijn oogh zou al te deerlijck doolen,</l>
+						<l>Indien 't meer schoonheid zagh in Keulens gloende kolen,</l>
+						<l>Dan in de kolen, die in Ursuls aenschijn staen.</l>
+						<l>Indien het zwymen van dees Stad, dees halve Maen,</l>
+						<l>Besprengkelt van den Rijn, meer lofs werd toegeschreven</l>
+						<l>Van my, dan 't geen men ziet in Ursuls aenschijn leven.</l>
+						<l>Zy mengt eerbiedigheid met een vrypostigheid.</l>
+						<l>Het vriendelijck gelaet verzelt de majesteit.</l>
+						<l>Al dooldeze onbekent, noch zou men zien en hooren,</l>
+						<l>Dat dees van Konings bloed, en stam most zijn geboren.</l>
+						<l>Men wensch die vrouw geluck, die haer ter weereld braght,</l>
+						<l>En 't schip dat herwaert dreef met zoo een' schat bevracht.</l>
+						<l>z'Ontschuldighde zich zelf, toen d'oogen my bekoorden,</l>
+						<l>Of zy mijn Majesteit onweetende met woorden</l>
+						<l>Gewond had, ja voorwaer wel doodelijck gewond,</l>
+						<l>Met die begaefde tong, met dien koraelen mond.</l>
+						<l>Die Meeremin wou juist dees oevers niet vermyen,</l>
+						<l>Om my, op 't vaste land, dees schipbreuck te doen lyen.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Ick moet, o Vorst, met u bekennen, dat die geen,</l>
+						<l>Die Ursul zonder min aenschouwt, eer marmersteen,</l>
+						<l>Of harde rots gelijckt, uit Kaukasus gehouwen,</l>
+						<l>Dan eenigh mensch, dien wy rechtschapenheid vertrouwen.</l>
+						<l>Waer vind men in al 't heir zoo stout een' oorlooghsman,</l>
+						<l>Die koel en liefdeloos dat aenschijn aenzien kan?</l>
+						<l>Hoewelze, door den drang der kryghsliên, ingetogen,</l>
+						<l>En schaemrood heenen treed, met neêrgeslagen oogen;</l>
+						<l>Den dartlen straf ontmoet, den zedigen beleeft,</l>
+						<l>En niemants vlam, noch vier het minste voedsel geeft.</l>
+						<l>Maer evenwel een' held ten scepter opgewassen,</l>
+						<l>En 's weerelds heerschappy, zou 't al te qualick passen</l>
+						<l>Te slibbren in het veld, en buiten 's oorlooghs baen,</l>
+						<l>Tot argernis des volcx, dien onwegh in te slaen.</l>
+						<l>Ghy zijt in 't Scytisch heir van kindsbeen opgetogen,</l>
+						<l>Hebt uit uw voesters borst dien strijdbren aerd gezogen.</l>
+						<l>Een beucklaer was uw wiegh, de kille stroom uw bad,</l>
+						<l>Geweer uw poppetuigh, en eerste kinderschat;</l>
+						<l>Voortaen het ridderspel, een weeligh paerd te temmen,</l>
+						<l>Den Donau op zijn smalst, dan wyder overzwemmen,</l>
+						<l>En leeren hitte en kou verduuren zonder pijn.</l>
+						<l>Uw zwangre Moeder zagh, hoe yemant, in den schijn</l>
+						<l>Van Mars, haer vrucht het zwaerd quam binden op de zyde,</l>
+						<l>En u tot zijn autaer, van uw geboorte af, wijdde.</l>
+						<l>O onverwinbre Vorst, bedenck eens wie ghy zijt,</l>
+						<l>Wat ampt ghy nu bekleed. noch laet ons dit verwijt</l>
+						<l>Niet snyden in het hart, dat Attila aen 't suffen,</l>
+						<l>Zich van een Christe non in 't bedde laet verbluffen.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Och Offervinder, 't oor is voor die rede doof.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Bega geen legerschand, noch brandmerck 't Hunsch geloof.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>'t Geloof moet in een' Vorst wat dulden en gehengen.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Hy magh zich in geen echt met heiloos bloed vermengen.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Zy zal door hooger hoop zich voegen naer ons wet.</l>
+					</sp>
+
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Hardneckige aerd volhard in d'aengebore smet.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Ick wacht haer vast. misschien laet zy heur dwaeling vaeren.</l>
+						<l>Daer komtze. quijt uw ziel, of ghy heur kunt herbaeren,</l>
+						<l>Terwijl ick spreecken ga mijn' Maerschalck Juliaen.</l>
+						<l>De Goden laeten dit naer mynen wensch vergaen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>BEREMOND. URSUL.</stage>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Doorluchtighste Vorstin, de Vorst heeft my geboden</l>
+						<l>U ten autaer van Mars, uit zijnen naem, te nooden,</l>
+						<l>Door deernis met uw vloot, en Maeghdelijcken stoet.</l>
+						<l>Nu kuntghe, wiltghe noch, het Koningklijck gemoed</l>
+						<l>Verzachtende, zoo veel geboeide zielen slaecken,</l>
+						<l>Door eens het outerbeeld met wieroock te genaecken.</l>
+						<l>Bera u kort, dewijl de krygh geen uitstel lijd.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Het zy ghy Wichelaer, of Offervinder zijt,</l>
+						<l>Wat verghtghe my, 'tgeen strijd met ons gewoone zede?</l>
+						<l>Ick heb my al beraên, en ben in God te vrede.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Te vrede? Weetghe niet wiens Goden ghy bestrijd?</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Uw Afgoôn, ick beken 't.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Zoo gaetghe 't leven quijt,</l>
+						<l>'t En zy ghy Christus naem verzweert voortaen te noemen,</l>
+						<l>En eert die rechte Goôn, waer op wy Hunnen roemen.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Wy roemen eenen God, die alles heeft gebouwt.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Dien blooden dooden God, gehecht aen 't schendigh hout?</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Dien oock, die alle maght door 't sterven heeft verworven.</l>
+					</sp>
+
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Der Scythen Goôn zijn noit begraeven noch gestorven.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>'t En waer misschien Jupijn, wiens grafste Kreten eert.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Iupijn met Mars om hoogh alle andre Goôn regeert.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Neen Christus heerscht om hoogh met zijnen lieven Vader.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Wiens eenige afkomst werd verkocht door dien verraeder?</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Een Vader, die ons vrijt door dit verkochte goed.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Door 't storten van zijn Kinds onnozel hartebloed?</l>
+						<l>Hoe kan een Vaders hart zijn afkomst zoo vergeten?</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Hoe kan Saturnus zelf zijn eige vruchten eeten?</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Wie droegh 't begraeven kind herlevende in Gods schoot?</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Wie voerde uw' Herkules ten hemel, na zijn dood?</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Uw rot verslind, en snijd het menschevleesch aen deelen.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Neen ghy, na'et moorden, stroopt uw vyands beckeneelen,</l>
+						<l>De huid al warm van 't been, vergult die tot een' kop,</l>
+						<l>Verzwelght het laeuwe bloed: verkropt uw' helschen krop</l>
+						<l>Met vrouweborsten, zoet van smaeck, met mannespieren;</l>
+						<l>Min redelijck dan zelfs de wilde woeste dieren,</l>
+						<l>En 't al verslindend woud, dat noit at zijns gelijck.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Wy Scythen offren Mars slechs vyanden van 't Ryck,</l>
+						<l>Die zich aen onze Goôn, en Koningen vertasten.</l>
+					</sp>
+
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Uw Tauren offeren Diaen d'uitheemsche gasten,</l>
+						<l>En paeien de Godin met lillende ingewand,</l>
+						<l>Van menschen zonder schuld, een gruwzaeme offerhand.</l>
+						<l>Ick zwijgh van kindervier; van die, om scheel van Goden</l>
+						<l>Vol haets, den nagebuur ter offermaeltijd nooden,</l>
+						<l>Op kruiswegh, en by kerck, vol galms van pijp en zang,</l>
+						<l>En harden 't, nacht en dagh, wel zeven etmael lang.</l>
+						<l>Met nuchtren zinnen dan, na'et huppelen en danssen,</l>
+						<l>Malkandren onderling, by tafelen en kranssen,</l>
+						<l>Gezeten in den baerd: een yeder vuist een klaeuw,</l>
+						<l>Vol oogen, en vol bloeds; en, na dien moord, al raeuw</l>
+						<l>Den doode nagebuur half levende opgegeten.</l>
+						<l>Quansuis de Godheid smaeckt die kostelijcke beeten.</l>
+						<l>Zoo voed het Heidendom een eewigh moordkrackeel.</l>
+						<l>Zoo maeckt het van de kerk een schricklijck moordtooneel.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Uw Priesters paeien God noch daeghlix op d'autaeren</l>
+						<l>Met been, en brein, en bloed, waer in de zielen waeren;</l>
+						<l>Een leckre spijs, een dranck, die boven nektar smaeckt.</l>
+						<l>Wie 't Hunsch geslaght dan scheld, en menscheneeters maeckt,</l>
+						<l>Gelyck 't gerucht nu loopt, die maeckt hen noch wat beters</l>
+						<l>Dan 't Christen volck, met recht gescholden Christeneeters.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Ons Priesters luisteren naer geen' verzierden vond,</l>
+						<l>Maer naer d'onfeilbre stem, 't Orakel van Gods mond,</l>
+						<l>Naer Jesus, 's hemels tolck, d'almaghtige, en alwijze,</l>
+						<l>Die, onder schijn van weite, en wijndruif, tot een spijze,</l>
+						<l>En dranck, zijn lijf en bloed, des nachts, gaf, aen den disch,</l>
+						<l>Zijn jongren. Heidensch brein, dat Gods geheimenis</l>
+						<l>Noch mond gelooft, durf bits ons Christeneeters noemen,</l>
+						<l>Om met die lastering zijn' moordlust te verbloemen:</l>
+						<l>Maer zoo door ons autaer des Hooghsten eer verkort,</l>
+						<l>Of eenigh mensch, aen lijf of lidt, beledight word,</l>
+						<l>Zoo ruim ick 't veld van zelf, en geef u dit gewonnen.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>By u verheft men hoogh de zuiverheid der Nonnen,</l>
+						<l>En echteloozen staet, met hoop van dubbel heil;</l>
+						<l>Daer midlerwijl de faem geen ander volck zoo geil,</l>
+						<l>Noch hitsigh scheld dan dit, 't welck, op de vont geteeckent,</l>
+						<l>Zelf overspel geen schand, noch bloedschand schennis rekent;</l>
+						<l>'t Welck, onder schijn, dat elck de Godheid offer brengt,</l>
+						<l>De lampen dompt, terstond in 't honderd zich vermengt,</l>
+						<l>En acht geoorelooft een blinde en donkre schennis.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Een maeghd aen God verlooft, als ick, heeft gansch geen kennis</l>
+						<l>Aen zulck een vreemde tael, die ghyliên best verstaet.</l>
+						<l>Dit weet ick, waer een Hun of Got zijn klaeuwen slaet,</l>
+						<l>Al roockende van moord, daer blijft niets ongeschonden.</l>
+						<l>Hun dartle moedwil staet aen kerck noch koor gebonden.</l>
+						<l>De wyde weereld waeght van 't jofferengeschreeuw.</l>
+						<l>En wat mijn heir belangt; des winters viel noit sneeuw</l>
+						<l>Zoo zuiver, uit de lucht, op uw Rifeesche bergen,</l>
+						<l>Als Ursuls Maeghden zijn, die sneeuw en hagel tergen.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Beleefde Maeghd, ghy streckt u zelve een lastigh juck.</l>
+						<l>Geluckigh stond uw staet, begreept ghy uw geluck.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Ontdeckme mijn geluck, waer in het zy gelegen.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>In 't hart van Attila, tot Ursuls hart genegen.</l>
+						<l>Val Mars terstond te voet, uw' dooden ongod af.</l>
+						<l>Verbid dees bange Stad van haer gedreighde straf.</l>
+						<l>Bescherm uw eigen lijf, met eenen d'andre troepen.</l>
+						<l>Aenvaerd des weerelds kroon: ghy wordt'er toe geroepen.</l>
+						<l>Britanje waer te kleen voor zulck een groote ziel,</l>
+						<l>Op wie het keurigh oogh des grootsten Konings viel.</l>
+						<l>Al 't leger offert u zijn beuckelaers, en speeren,</l>
+						<l>Ghy kunt dit oorloghsspel in bruyloftsspel verkeeren.</l>
+						<l>Hoe beurt uw Eiland dan ten hemel zynen kop!</l>
+						<l>Hoe haelt dit huwelijck uw' stam zoo hoogh in top!</l>
+						<l>Nu ghy op 's Vorsten troon zoo trots te prijck gaet zitten,</l>
+						<l>En paert de wapenen der Hunnen met uw Britten.</l>
+						<l>De heerelijckste kroon bestraelt alree uw hoofd.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Uw aenzoeck koomt te spa, by een aen God verlooft.</l>
+						<l>Ick heb een' Bruidegom, een eenigh' Zoon, verkoren,</l>
+						<l>Den schoonsten, die noch oit van vrouwen werd geboren;</l>
+						<l>Den maghtighsten, die oit een Konings troon bezat;</l>
+						<l>Den rijcksten, die oit roemde op onuitputbren schat;</l>
+						<l>Den goedertierensten, die yemant viel genadigh;</l>
+						<l>Getrouw in zijn belofte, in liefde, en min gestadigh;</l>
+						<l>Dat's Jesus, dien ick min, en voor wiens kroon ick stry.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Hier koomt al weer een vlaegh, de zelve raezery.</l>
+						<l>Ontstelde harssens, och! hoe zal ick u genezen?</l>
+						<l>Versmaed ghy Attila? wie kan toch grooter wezen?</l>
+						<l>'t Gestarrent suizebolt, het aerdrijck beeft voor hem.</l>
+						<l>De baeren van de zee gaen glippen voor zijn stem.</l>
+						<l>Zijn scepters reicken, van Maeotische moerasschen,</l>
+						<l>Tot aan de golven toe, die Atlas voeten wasschen.</l>
+						<l>In't Noorden hy den kop des Ysbeers stucken slaet.</l>
+						<l>In't Oosten deist voor hem de schuimenden Eufraet.</l>
+						<l>In't Zuiden zweeten Nijl en strand der Africaenen.</l>
+						<l>Versmaedghe 't godlijck hoofd van zoo veel onderdaenen?</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>'k Versma dat gruwlijck hoofd, dien borsteligen baerd,</l>
+						<l>Dien platten neus, 't gezicht, dat ongediert vervaert,</l>
+						<l>Dien muil, die Jesus bloed verzwolgh met droncke togen.</l>
+						<l>De tyranny ziet hem ten norsse en dwaelende oogen</l>
+						<l>En aenzicht uit. 'k versma dat zwijnshair van dien Scyth,</l>
+						<l>Daer d'aerdboôm niet alleen, maer God om hoogh van lijd.</l>
+						<l>'t Onnozel zoghlam zal met wreede wolven paeren,</l>
+						<l>De bloode tortelduif in 't arendsnest vergaeren,</l>
+						<l>Het kiecken, en de vos gaen treên in een gespan,</l>
+						<l>Eer ick Gods trouw verzaeck, om zulck een aertstyran.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Zoo u de Veldheer niet gedreight had, heet van tooren,</l>
+						<l>Toen ghy hem flus begroete, en eer beweest, mijn ooren</l>
+						<l>Die zouden ongebelght niet hooren zulck een' smaed,</l>
+						<l>Dien Grootvorst aengedaen, die naer uw huwlijck staet.</l>
+						<l>Vorstinnen weeten, hoe men Koningen bejegent,</l>
+						<l>En wat heur past, die min met kroonen zijn gezegent:</l>
+						<l>Dies bid ick, toom uw moed, gesteurde Koningin.</l>
+						<l>Aenvaerd dit wieroockvat, het pand van 's Konings min.</l>
+						<l>Vergun my toch dees eer, dat ick uw ziele redde,</l>
+						<l>Uw lijf met een, en ley zoo schoon een Bruid te bedde.</l>
+						<l>Vat aen dit wierroockvat, en nader den autaer,</l>
+						<l>Een toevlught, en een wijck, in 't uiterste gevaer.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Vergeef het my, o God, heb ick dees reine handen</l>
+						<l>Besmet door wieroockreuck voor afgod Mars te branden.</l>
+						<l>Ben ick van Wichelaers verraeden, en verrascht:</l>
+						<l>Heb ick my schandelijck bezoedelt en vertast.</l>
+						<l>Daer leit het godloos vat, gebryzelt en gebroken.</l>
+						<l>Genade, o God, indien ick 't offer heb geroken.</l>
+						<l>Mijn Bruigom, heb ick oock, op dit afgodisch feest,</l>
+						<l>Door 't wierroockvat verzaeckt den trouwring van uw' Geest?</l>
+						<l>Wat Rijn, wat stroom, wat meer, wat grondelooze plassen</l>
+						<l>Vermogen lijf en ziel van deze vleck te wasschen?</l>
+						<l>Messias, slaeptghe nu? en vaertghe niet beneên?</l>
+						<l>Ghy hebt weleer de slang den neck en kop vertreên.</l>
+						<l>Vertre dit loos serpent, dat door vervloeckte wetten</l>
+						<l>Uw kuische zielen durf bezoedlen en besmetten.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>O Vader Mars, Jupijn, Merkuur, en Herkles, ziet,</l>
+						<l>Wat durf dit heiloos zaed, wat gruwlen doet het niet?</l>
+						<l>Verdaedight, het is tijd, uw heilige offerdissen,</l>
+						<l>Uw beelden, tempelen, uw zielgeheimenissen,</l>
+						<l>En d'offervaten, uw' autaeren toegewijd.</l>
+						<l>O Goden, toont dat ghy geen blinde Goden zijt;</l>
+						<l>Gelijck d'erfvyanden, die uwen dienst verzwoeren,</l>
+						<l>Dit daeghlix in den mond, en op de tonge voeren.</l>
+						<l>Gequetste Goden, toont, dat ghy uw haeters haet,</l>
+						<l>En die uw Godheid schend niet ongeschonden laet.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>ATTILA. BEREMOND. JULIAEN.</stage>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Hoe roeptghe zoo verbaest? begintze niet te wijcken?</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Daer vlught dat helsch gedroght: dat heenen gaetze strijcken.</l>
+						<l>Men volgh heur na. men straf dit lasterlijck bedrijf.</l>
+						<l>Moet ons godvruchtigheid dit lyden van een wijf?</l>
+						<l>Van een die achter land de landen gaet beroeren,</l>
+						<l>En op haer zyde treckt al wat zy aen kan snoeren?</l>
+						<l>Dit wieroockvat getuight van haeren overmoed.</l>
+						<l>Daer leit het neergesmackt, getrappelt met den voet,</l>
+						<l>Geborsten, en geblutst, in ste van aengebeden;</l>
+						<l>Gods wieroock hier en daer in slyck en stanck vertreden,</l>
+						<l>In 't aengezicht van 't beeld, van onzen Vader Mars.</l>
+						<l>Ghy ziet dit beeld gekeert. de God ziet overdwars.</l>
+						<l>Hy heeft het gruwelstuck alree den neck geboden.</l>
+						<l>Rechtvaerdighste, waeck op. verdaedigh 't Recht der Goden.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Hebt ghy haer niet verzet, en gafze niet wat bots?</l>
+					</sp>
+
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Zy luisterde naer my, gelijck een doove rots</l>
+						<l>Naar 't ruisschen van de zee. wie zagh oit yet verkeerders?</l>
+						<l>Zy luisterde, gelijck, naer 't prevlen des bezweerders,</l>
+						<l>De slang, die met den staert zorghvuldigh d'ooren stopt.</l>
+						<l>z'Is, tot de keel toe, dicht van Christus lucht gepropt,</l>
+						<l>In dwaeling opgegroeit. zy schuwt gezonde spijzen,</l>
+						<l>Als doodelijck vergif, en spreeckt 'er van met ijzen.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Een jong scholier hoeft tijd, en klimt van trap tot trap.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>De kruick houd allerlangst den reuck van 't eerste sap.</l>
+						<l>De puimsteen bryzelt eer den diamant tot mortel,</l>
+						<l>Dan ghy dit steeckligh zaed, dit onkruid, met den wortel</l>
+						<l>Geheel en al verdelght. de boosheid hecht te vast,</l>
+						<l>Die in gebeente, en mergh van jongs op groeit en wast.</l>
+						<l>Dit wulpsche brein durf stout dien gryzen baerd bedillen.</l>
+						<l>Die haer verzetten wil, zal tijd en arbeid spillen.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attilla</speaker>
+						<l>Mijn Venus, mijn Godes, benydghe Adoon uw min?</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Misschien tot uw geluck. wie zijn doodvyandin</l>
+						<l>Het bed vertrouwt, behoeft gewisse en vaste borge,</l>
+						<l>Dat zy, als Belus zaed, hem prieme noch verworge,</l>
+						<l>Die, droncken van den most, in haeren arrem slaept.</l>
+						<l>'t Autaerboeck van dit rot verhaelt een stuck dat gaept,</l>
+						<l>En slaet op deze zaeck; men magh het overwegen.</l>
+						<l>'t Assyrisch leger hiel een Joodsche stadt belegen.</l>
+						<l>Een uitgemaeckte Weeuw komt listigh uit in 't end</l>
+						<l>Naer 't leger, en bekoort den Veldheer in zijn tent,</l>
+						<l>Die luttel docht, dat zich 't Hebreeusche volck wou wreecken.</l>
+						<l>Zy munt in schoonheid uit. z' is prachtigh uitgestreecken,</l>
+						<l>Met perlen en gesteent. een aengenaeme geur</l>
+						<l>Van myrrhe rieckt het hair en alle leden deur.</l>
+						<l>Hy moe gedanst, en heet, verwacht zijn lief in 't bedde.</l>
+						<l>Die schalcke, op datze zich en hare burgers redde,</l>
+						<l>Na 'et samlen, grypt in 't end, zoo schelmsch, als onvervaert,</l>
+						<l>Daer Holofernes ronckt, met d'eene hand het zwaerd,</l>
+						<l>Dat aen de bedsteê hangt, met d'ander hand de locken,</l>
+						<l>En houwt hem 't hoofd van 't lijf, en zoo naer stadt getrocken,</l>
+						<l>Met dezen vetten roof; die 's morgens, als het daeght,</l>
+						<l>Ter muren af, den schrick in 't gantsche leger jaeght,</l>
+						<l>En 't heir verstroit. geloof, dit zijn van haer gezellen.</l>
+						<l>Zy vlammen op de muis, en vaele muizevellen:</l>
+						<l>Zoo schelden zy den Hun, om zyn gewoone draght.</l>
+						<l>Wie weet wat deze vloot u brouwen wil by nacht?</l>
+						<l>In wat verstand zy staen met dees beneepe wallen?</l>
+						<l>Hoe 't zy, dit Maeghdenheir my geensins kan gevallen.</l>
+						<l>Trock vrouwvolck oit met mans zoo sterck op legers aen?</l>
+						<l>Dees Ursul speltme krygh, met haer gekruiste vaen.</l>
+						<l>Waeck op, eer zy u tent gewapent overrompelen.</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>'t Is overwegens waerd. de Hopliên mogen mompelen,</l>
+						<l>Dat Attila niet meer in 's oorlooghs renbaen loopt,</l>
+						<l>Noch 't brieschend paerd van Mars met scharpe sporen noopt.</l>
+						<l>De laffe soudenier, getreên in 's meesters stappen,</l>
+						<l>Zal, sluimrende op de wacht, van dagh tot dagh verslappen;</l>
+						<l>De Keulsche Burgery herscheppen aêm en moed.</l>
+						<l>De Koningh zie wel toe, en raem een' vasten voet.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Mijn hart gevoelt de Liefde en Oirbaer t' zamen stryen.</l>
+						<l>Besluit ghy met u beide. ick laet u twee betyen.</l>
+						<l>Beraemtghe, dat men geen van 't Maeghdenleger spaer,</l>
+						<l>Zoo wil ick dat men noch de Koningin bewaer.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<stage>REY VAN AGRIPPINERS.</stage>
+					<sp who="#rey">
+						<speaker>Zang</speaker>
+						<l>O Agrippine, 't hoofd der Belgen,</l>
+						<l>En alleroudste Stad na Trier,</l>
+						<l>Daer Ubien met Roomsche telgen</l>
+						<l>Gevlochten werden, toenze hier</l>
+						<l>Gejaeght, den Rijnstroom overvoeren,</l>
+						<l>Om woest geweld te wederstaen,</l>
+						<l>En, voor Vipsaen, uw' Vader, zwoeren</l>
+						<l>August, zijn' Schoonvaêr, onderdaen</l>
+						<l>Te blyven, als zy Caesar deeden:</l>
+						<l>Ghy Rijnstad zijt, gelijck een klip,</l>
+						<l>Veel stormen moedigh doorgestreden,</l>
+						<l>Van ouds, en lang eer Mark Agrip</l>
+						<l>(Spijt Maes en Moezel, uw gebuuren)</l>
+						<l>Ley d'eersten grondsteen van uw muuren.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Tegenzang</speaker>
+						<l>Ghy werd naemhaftiger door zyne</l>
+						<l>Doorluchtigheid, en danckt hem noch.</l>
+						<l>Ghy baerde uw Voester, Agripyne,</l>
+						<l>Gekoestert met uw druivezogh;</l>
+						<l>Gewieght op 't ruisschen uwer Beecke;</l>
+						<l>Dies zy u heuren naem vereert,</l>
+						<l>En, trots al d'omgelege streecke,</l>
+						<l>Met eenen bouwtroep u vermeert.</l>
+						<l>Toen scheen, door 't steigren uwer wallen,</l>
+						<l>Al wat den Rijn, uw' stroom, bevocht,</l>
+						<l>Een nieuwe schrick op 't hart te vallen.</l>
+						<l>Ghy werd begroet en aengezocht.</l>
+						<l>Al die naer 's Tibers vriendschap stonden</l>
+						<l>Gezanten aen uw Vaders zonden.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Zang</speaker>
+						<l>Ghy waert van aenvang Rome in zeden,</l>
+						<l>En straeten, en gebouw gelijck.</l>
+						<l>Ghy had uw Capitool, betreden</l>
+						<l>Van Raed en Ridder, streckte een wijck</l>
+						<l>Den bangen balling met uw grachten.</l>
+						<l>Trajaen ontfing hier kroon en staf,</l>
+						<l>En ghy uw driemael vijf geslachten,</l>
+						<l>Die hy u met veel vrydoms gaf;</l>
+						<l>Om op het burgerlijck te passen,</l>
+						<l>En raed en oorloogh te bekleên.</l>
+						<l>Dees Adel, zedert aengewassen,</l>
+						<l>Gaet moedigh op zijn schilden treên,</l>
+						<l>Verdient door prijs, in krijgh gestreecken,</l>
+						<l>Of steeckspel, daerze niemant weecken.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Tegenzang</speaker>
+						<l>Maer uwe glori ging veel verder,</l>
+						<l>Dan d'eer van 't Keizerlijck verbond,</l>
+						<l>Toen d'eerste Apostel, en Aertsharder</l>
+						<l>U zijn' Scholier Materren zond;</l>
+						<l>En uwe Burgers, tam als schaepen,</l>
+						<l>Gebogen voor 's Aertsbisschops staf,</l>
+						<l>Hem offerden geweer en wapen,</l>
+						<l>En, zweerende Teutates af,</l>
+						<l>Oock Hesus gruwelijcke autaeren,</l>
+						<l>Gekristent werden op hun hoofd,</l>
+						<l>En stonden zedert, als pylaeren,</l>
+						<l>Van kerck of Godsdienst noit berooft,</l>
+						<l>Gelijck veel omgelege landen,</l>
+						<l>Hersmet door bloedige offerhanden.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Zang</speaker>
+						<l>Ghy volght der wyze Vadren regel.</l>
+						<l>De sleuteldrager, Gods poortier,</l>
+						<l>Bewaeckt uw poort, bewaert uw zegel,</l>
+						<l>Aen parckement, of op pappier;</l>
+						<l>Ghy zelf der Heiligen gebeenten,</l>
+						<l>En 't overschot des Martelaers,</l>
+						<l>In goud, en zilver, en gesteenten,</l>
+						<l>Verlicht van lamp, en wassekaers.</l>
+						<l>Ghy eert de Mauren, en Thebaenen,</l>
+						<l>Die 't veld bebloedden, om de Stad,</l>
+						<l>En streên met omgekeerde vaenen,</l>
+						<l>In 't perck, daer Jesus voor hen trad.</l>
+						<l>Kappellen, cellen, kloosters, kercken</l>
+						<l>U meer dan muur of torens stercken.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Tegenzang</speaker>
+						<l>Benijde Stad, waer toe geboorte</l>
+						<l>En aenwas van uw' ouden wal</l>
+						<l>Geroemt? nadien men, voor uw poorte,</l>
+						<l>Vast dreight dit Ellefduizendtal,</l>
+						<l>En u met facklen, zwaerden, koorden;</l>
+						<l>Nu 's oorlooghs onweêr ijslijck raest,</l>
+						<l>En schricklijck buldert, uit den Noorden,</l>
+						<l>En in den brand der huizen blaest.</l>
+						<l>Wat baeten u de gryze hairen?</l>
+						<l>Wat baet der mannen arrebeid?</l>
+						<l>Wat kercken, kloosters, of autaeren?</l>
+						<l>Indien een Hun, Gods vyand, zeit,</l>
+						<l>Als 't licht uw smoockend puin beschyne:</l>
+						<l>Op deze plaets stond Agrippyne.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="3">
+				<head>Het derde bedryf.</head>
+				<div type="scene" n="1">
+					<stage>BURGEMEESTERS. AERTSBISSCHOP. REY VAN AGRIPPINERS.</stage>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeeester</speaker>
+						<l>Klim zacht, vermoeide Vorst, geef my uw rechte hand.</l>
+						<l>Nu zet u hier. dees trans heeft over 't platte land</l>
+						<l>Zijn uitzicht. ick verneem alree des Konings tenten.</l>
+						<l>Ick zie het Maeghdenheir, verdeelt aen regementen,</l>
+						<l>Als in slaghorden staen.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>O Jesus, troost uw volck.</l>
+						<l>Waer staenze?</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Naer den Ryn.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Beneên die heldre wolck?</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Al recht.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Getrouwe God, hoe kuntghe dit verdraegen?</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>De vyand heeft een zeissenwagenburgh geslaegen</l>
+						<l>Naer Stad toe, als een wal, die stoot haer voor de borst.</l>
+						<l>Het voetvolck van weerzy, gelijck een ysre korst,</l>
+						<l>Bedeckt de lendenen. de ruiter, op de hielen</l>
+						<l>Van achter, kleed den rugh van dees gedoemde zielen.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Zoo ziet men voor de banck een stomme kudde staen,</l>
+						<l>Terwijl de slaeger zich gereed maeckt, om te slaen,</l>
+						<l>En mes en reedschap slijpt.</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Wat middel om beschermen?</l>
+						<l>Wat raed? men hoort de Stad, en alle dochters kermen,</l>
+						<l>Van torens, muur, en poort. het grimmelt 'er van liên.</l>
+						<l>De daecken zitten zwart, om 't schouwspel aen te zien,</l>
+						<l>Zoo verre d'ooghstrael reickt door eenen nevel traenen.</l>
+						<l>Hoe stillen wy 't gekrijt van zoo veel onderdaenen?</l>
+						<l>Men wringt de handen vast met jammerlijck misbaer.</l>
+						<l>Men krabt den boezem op. de handen gaen in 't hair.</l>
+						<l>Men kan het volck van wal, noch steile torens weeren.</l>
+						<l>Dit kermen moght ten leste in oproer wel verkeeren.</l>
+						<l>d'Oploopende gemeent vervloeckt de hoofden vast.</l>
+						<l>'t En zy men middel raem, ick zie de Stad in last.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Toen dit verwaten Hoofd gereed stond met zijn schaeren,</l>
+						<l>Om daetelijck, daer Paeuw, en Mincius vergaeren,</l>
+						<l>Te zetten over stroom, recht toe naer Vatikaen,</l>
+						<l>En 't heiligh Capitool, zat elck om 't zeerst belaên.</l>
+						<l>Geheel Italien, verlaeten, en verlegen,</l>
+						<l>Zagh deerlijck uit om troost: maer alle harten zeegen,</l>
+						<l>Behalven 't leeuwenhart van Leo, die den Stock</l>
+						<l>En Vlegel van Gods Stoel groothartigh tegens trock,</l>
+						<l>Met zyn' gekruisten staf; gehult met myterstraelen;</l>
+						<l>Gevolght van Bisschoppen, en pracht van Kardinaelen,</l>
+						<l>En schutte op zijnen staf dien vreesselijcken slagh,</l>
+						<l>Ja broght den schrick in 't hart, dat God noch mensch ontzagh.</l>
+						<l>'k Voel Leoos yver brand in mijn gemoed verwecken.</l>
+						<l>Men laetme slechs begaen. ick wil hem tegenstrecken,</l>
+						<l>Zoo daetelijck. 't is tijd. men laetme slechs begaen.</l>
+						<l>Ick wil met mijn gezicht dien Bazilisk verslaen.</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>De kudde geeft zoo licht den Harder niet ten besten.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Quam Aniaen niet weêr behouden in zijn vesten? </l>
+						<l>Schold hy dien Heremijt dat dreygement niet quijt?</l>
+						<l/>
+						<l>Heeft Lupus zoo zijn stad, zijn schaepskoy, niet bevrijt?</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Verlaet de Harder ons, de kudde zal verstroien.</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Die bloedmuil zwoer met tack, en wortel uit te roien,</l>
+						<l>En met zijn winterbijl te slechten, vlack als slijck,</l>
+						<l>Dit doornen bosch, het welck den Roomschen tot een wijck,</l>
+						<l>En oorlooghszetel streckt. hy scheld een bosch van doornen</l>
+						<l>Dees Stad, om datze draeght een kroon van spitse toornen,</l>
+						<l>Op haer gezalfde kruin. zy dreigenze algelijck,</l>
+						<l>Om haer getrouwigheid aen Rome, en 't Roomsche Rijck,</l>
+						<l>Welx maght de Noorman zwoer te kneuzen, en verdelgen.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Ick kan 't in eeuwigheid verduwen noch verzwelgen,</l>
+						<l>Zoo koel, zoo schandelijck, en zonder weer te bien,</l>
+						<l>Met goeden oogen dus, dit treurspel aen te zien.</l>
+						<l>Een yeder volgh zijn' zin: ick wil my zelven quijten.</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Men zalme nimmermeer flaeuwhartigheid verwijten.</l>
+						<l>Zoo wil ick liever zelf ('t is tijd om werck te spoên)</l>
+						<l>Met al ons Ridderschap, een' stercken uitval doen,</l>
+						<l>En midden in den drang met al dees Maeghden sterven;</l>
+						<l>Zoo blijckt het noch, dat wy noch hart noch yver derven.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Zoo waer de Burgery een lichaem zonder hoofd.</l>
+						<l>Wy zijn noch niet geheel van ons verstand berooft.</l>
+						<l>De Burgers zullen u dat nimmermeer vergunnen.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Wy moeten gaen, en doen altzaemen watwe kunnen.</l>
+						<l>Dit schichtich stuck vereischt een kort en snel beraed.</l>
+						<l>Stijght af met my, ick hoor al weêr gerucht op straet.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>JULIAEN. ATTILA. BEREMOND.</stage>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Ick heb, om vader Mars met heiloos bloed te zoenen,</l>
+						<l>De maeghdevloot gedeelt in ellef Legioenen,</l>
+						<l>Omringt met ruitery, en voetvolck, in 't gezicht</l>
+						<l>Der Stad, die vol geschreis genade zingt, en zwicht.</l>
+						<l>Men wacht op uw bevel, om strax dien roof te slaghten.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Men dient, om Ursuls wil, een dagh of twee te wachten.</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>De nood verbied het u. het krijghsvolck staet en vlamt</l>
+						<l>Op dit bekoorlijck slagh. het krijghsvolck raest, vergramt</l>
+						<l>Dat 's Konings oogen vast naer Ursuls oogen draeien,</l>
+						<l>En zy van 's oorlooghs oeghst geen minnevruchten maeien.</l>
+						<l>Indienghe 't Recht vertreckt, dit heir van wachten moe,</l>
+						<l>Van geilheid aengeport, tast lichtlijck daedlijck toe.</l>
+						<l>Ghy zult de dapperheid de zenuwen afsnyen,</l>
+						<l>En langer niet met Mars, maer onder Venus stryen,</l>
+						<l>Met eenen laffen hoop. der Joffren vleiery</l>
+						<l>Zal 't leger om doen slaen, en trecken op haer zy.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Och Juliaen, de Min verbied dit bloed te storten.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Ghy zult der Goden, oock uw eigen eer verkorten.</l>
+						<l>Waer suft nu Attila, die, met gelaersden voet</l>
+						<l>Eens stampende, van schrick den aerdboôm davren doet?</l>
+						<l>Zijt ghy 't niet in wiens deughd wy Scythen zijn gehouden?</l>
+						<l>Die 's grooten Caesars stoel zyn' moedwil hebt vergouden?</l>
+						<l>En doen bekennen, dat al 't Noorden roemen magh,</l>
+						<l>Hoe Rome niet meer zy onwinbaer, als het plagh?</l>
+						<l>Ick wou den Koning wel ['t belief hem op te mercken]</l>
+						<l>Met een niet veer gezocht en levend voorbeeld stercken.</l>
+						<l>Uw' voorzaet zelf, die zege op 't godloos bloed bevocht,</l>
+						<l>Werd uit den Ioffrenroof, de bloem daer uit gezocht,</l>
+						<l>Een schoone maeghd vereert. Die krijghsheld, zoet op 't minnen,</l>
+						<l>Docht langer om geen kroon, maer slechs om 't hart te winnen</l>
+						<l>Van 't allergoelijckst beeld, dat in zijn harte lagh.</l>
+						<l>Een Vorst, die 't al gebood, een boel naer d'oogen zagh,</l>
+						<l>Werd slaef van zijn slaevin. zy bond het zwaerd in scheede,</l>
+						<l>Met vlechten van heur hair, en oorelooghde in vrede;</l>
+						<l>Waerom het heir geterght, in 't ende aen 't morren viel:</l>
+						<l>Dat hy verwijft, niet meer de rechte heirbaen hiel;</l>
+						<l>Het Rijck veel afbreuck leed, ja schendigh most vervallen,</l>
+						<l>Ten waerm'er in verzagh. zy stonden met hun allen</l>
+						<l>Gereed, om tot de keur van een rechtschapen hoofd</l>
+						<l>Te gaen, 't en waer de Vorst der Wyzen raed gelooft,</l>
+						<l>En 't oproer daedelijck gestuit had, en bejegent</l>
+						<l>Met Venus wederga, met schoonheid rijck gezegent;</l>
+						<l>Betoonende, dat zy, met recht beminnens waerd,</l>
+						<l>Noch niet verbasterd had zijn' eersten heldenaerd;</l>
+						<l>En leggende eene hand op 't hoofd, de Schoone onthoofde</l>
+						<l>Met d'ander, en dit vier in 't bloed der boelschap doofde.</l>
+						<l>Dat voorbeeld streck een baeck, en ghy den onderdaen</l>
+						<l>Een spoor. men vang van u dien Maeghdenoffer aen,</l>
+						<l>Dan Ursuls doode lijf aen eenen pael geslaegen,</l>
+						<l>Om door 't gezicht de Stad verbaestheid aen te jaegen;</l>
+						<l>En als de zonne zinckt voor d'opgereze maen,</l>
+						<l>De gansche maght van 't heir gedreven stewaert aen,</l>
+						<l>Om met een' avondstorm dees zidderende wallen,</l>
+						<l>Vol schrix, door zoo veel moords, al t'effens t'overvallen.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Ick zweer het by mijn hoofd, 'k en zal niet minder zijn,</l>
+						<l>Dan eenigh voorzaet was, al waer het slechs in schijn.</l>
+						<l>Als ick dien degen zwaey, zoo pas mijn spoor te volgen.</l>
+						<l>De Min woed allerfelst, wanneerze word verbolgen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>REY VAN AGRIPPINERS.</stage>
+					<sp who="#rey">
+						<speaker>Zang</speaker>
+						<l>De wijnpers van Gods grimmigheid</l>
+						<l>Zal witte en purpre druiven parssen,</l>
+						<l>En met een' rooden dauw vervarsschen</l>
+						<l>Dit veld, dat om vervarssing schreit.</l>
+						<l>Gods snoeimes strecken zwaerd, en spiessen;</l>
+						<l>Zijn wijnbergh 't Ellefduizendtal,</l>
+						<l>De druiven, die hy parssen zal,</l>
+						<l>En aen den wijnstock Jesus wiessen.</l>
+						<l>De paerdevoet dreight in dees druif</l>
+						<l>Te trapplen met bloeddroncke hoeven</l>
+						<l>(Helaes hoe dracken ons dees schroeven!)</l>
+						<l>Dat hen het sap om d'ooren stuif.</l>
+						<l>Die most wil ons te bitter smaecken,</l>
+						<l>Maer alle Hunnen droncken maecken.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Tegenzang</speaker>
+						<l>'t Is Wijnmaend, 't is de rechte tijd.</l>
+						<l>Laet dien Wijngaerdenier betyen,</l>
+						<l>Die maet kan stellen yeders lyen.</l>
+						<l>Hy zet den merckpael van den strijd.</l>
+						<l>Hy geeft by beurte zon en regen,</l>
+						<l>Dan zonneschijn, dan regenvlaegh.</l>
+						<l>De zonne schijnt niet alle daegh,</l>
+						<l>Noch juist wanneer 't ons valt gelegen.</l>
+						<l>Het water leit niet eeuwigh vlack.</l>
+						<l>Het onweêr weet zijn tijd, en stonden.</l>
+						<l>'t Staet al aen tijd, en maet gebonden,</l>
+						<l>Wat voorvalt onder 't hemelsch dack.</l>
+						<l>Gods roeden, die het lichaem plaegen,</l>
+						<l>Zijn bezems, om de ziel te vaegen.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Toezang</speaker>
+						<l>Ghy zalige Englen altemael,</l>
+						<l>Ten dienst der vromen, uitgelezen,</l>
+						<l>Daelt neder, yeder met een schael.</l>
+						<l>Koomt, schept het sap der zuivre bezen,</l>
+						<l>En mengelt dit, dat bidden wy,</l>
+						<l>Met bittre traenen, die wy schreien.</l>
+						<l>Daelt neêr, onsterffelijcke Reien.</l>
+						<l>Verkeert dees gal in leckerny.</l>
+						<l>Verquickt ons, midden in doods pijnen,</l>
+						<l>En parst uit alssem puick van wijnen.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="4">
+				<head>Het vierde bedryf.</head>
+				<div type="scene" n="1">
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>'k Belaste mijn Kornels de Koningin te brengen;</l>
+						<l>Hoe zeer de Liefde raed heur leven te verlengen.</l>
+						<l>Was nu mijn borst kristal, men zagh hoe 't waer gestelt,</l>
+						<l>In 't hart van Attila, dat kleene en enge veld</l>
+						<l>Voor Liefde, en Eer, die daer met maght te velde komen,</l>
+						<l>Uit bittre vyandschap, en punt, noch snede schroomen.</l>
+						<l>O hand, zoud ghy dien dolck wel durven domplen in</l>
+						<l>Dien boezem, en die borst der lieve Vyandin?</l>
+						<l>Zoud ghy dat witte sneeuw met purper durven mengen?</l>
+						<l>Kan Min die wreedheid zien? of ymmermeer gehengen,</l>
+						<l>Dat zy haer oogen luick? twee zonnen, daer de zon,</l>
+						<l>Op 't klaerste van den dagh, niet tegens opzien kon.</l>
+						<l>Kan Min gedoogen, dat de kille Dood ontdoie</l>
+						<l>Dit sneeuw van 't aengezicht? dat die met rijp bestroie</l>
+						<l>Die roozen op de wang, en sluit dien rooden mond,</l>
+						<l>Vol geurs? gelijck een hof, wanneer de morgenstond</l>
+						<l>Met aengenamen dauw de bloemen, en de kruien</l>
+						<l>Bevochtight, en verquickt, en ademt uit den zuien.</l>
+						<l>Neen, Attila uw minne is zoo noch niet verkoelt,</l>
+						<l>Dat ghy heur harte wond, en zelf geen wonde voelt.</l>
+						<l>Ghy zoud, in Ursuls borst, uw eigen hart doorsteecken.</l>
+						<l>Hoe kon uw vyandin zich mackelijcker wreecken,</l>
+						<l>Dan door uw eige vuist beslechten dit krackeel?</l>
+						<l>Dees heuvel, die hier rijst, zal die een moordtooneel</l>
+						<l>Verstrecken, in den ring van hopliên en kornellen?</l>
+						<l>Zal die het bloembed zijn, daer ick my schrap moet stellen,</l>
+						<l>En houwen Venus roos van haeren teeren struick?</l>
+						<l>Op dat de lent beschrey het kostelijckste puick,</l>
+						<l>'t Welck in den roozegaerd eens Konings werd geboren?</l>
+						<l>Zal Venus voet nu bloên van dezen ysren doren?</l>
+						<l>Ick zelf een doren zijn in haer' gequetsten voet?</l>
+						<l>Op dat der bloemen zon, uit zulck een edel bloed,</l>
+						<l>Verryze, tot vermaeck, en nut, en dienst der menschen.</l>
+						<l>Mijn oogen zullen die dees leli zien verslenssen,</l>
+						<l>En sterven, op het bed van deze groene zoôn?</l>
+						<l>Zal ick die blonde pruick haer goude Koningskroon</l>
+						<l>Ontluistren, en dit hoofd, wel waerd mijn kroon te voeren,</l>
+						<l>Na 'et sneuvlen oock aen 't snoer van Nimroths zege snoeren,</l>
+						<l>By d'andre Koningen, en koppen, dien mijn kling,</l>
+						<l>Gelijck een staele wind, door neck en strotten ging?</l>
+						<l>Neen Attila, ghy mooght dit hemelsch zaed niet smooren;</l>
+						<l>Ghy moet nochtans, en hebt autaer, en Goôn gezworen,</l>
+						<l>En met gestaefden eed uw trouw aen 't Rijck verplicht.</l>
+						<l>Zult ghy nu eer en eed vergeetende, zoo licht</l>
+						<l>Verwaereloozen d'eer, door dapperheid verworven?</l>
+						<l>Is d'eerste vromigheid in u gemoed gestorven,</l>
+						<l>Dat ghy, die noit voor stroom, noch bergen stilstaen bleeft,</l>
+						<l>Niet, blanck in 't harnas, voort stads graften overstreeft,</l>
+						<l>Noch draeght de storremleer de voorste aen 's vyands wallen,</l>
+						<l>En klimt, en wenckt uw volck, om moedigh aen te vallen?</l>
+						<l>Zult ghy, in 't hart geprickt van Cypris geilen strael,</l>
+						<l>Uw triomfeerend heir verstrecken een schandael,</l>
+						<l>Dat over bergen klinckt, en grondelooze plassen?</l>
+						<l>Zult ghy in 't aengezicht der Stad ontharrenassen</l>
+						<l>Dit braef gewapent volck, dat in zijn volle krits</l>
+						<l>Gereed staet, om'er in te vliegen met zijn spits?</l>
+						<l>Maer hoe? ick raes, ick raes, en ben niet wel by zinnen.</l>
+						<l>Rechtschapen krijghsman kan geen eer aen vrouwen winnen,</l>
+						<l>Inzonderheid wanneer zy weerloos staen, en bloot.</l>
+						<l>De Liefde, aen d'eene zy, aen d'andre zy, de Nood</l>
+						<l>My trecken, elck om 't stijfst; gelijck de herrefstbuien</l>
+						<l>Bestoocken, reis op reis, van 't Noorden en van 't Zuien,</l>
+						<l>Een hoogh gewassen eick, die over bosschen ziet,</l>
+						<l>En diep in Taurus rugh zijn taeie wortels schiet.</l>
+						<l>Hy kraeckt vast, en bestroit den grond met blad en lover,</l>
+						<l>En helt ter slincke hand, dan weêr ter rechter over.</l>
+						<l>Zoo word mijn vlotte geest gedreven heen en weêr.</l>
+						<l>Maer hier koomt Beremond. hy loopt vast op en neêr.</l>
+					</sp>
+
+				</div>
+				<div type="scene" n="2">
+					<stage>BEREMOND. ATTILA.</stage>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Schep moed, doorluchtste Held. doe nu voor yeder blijcken,</l>
+						<l>Dat ghy alleen niet zijt een Koning van veel Rijcken,</l>
+						<l>Maer oock van uw gemoed; dat liefde tot uw' Staet</l>
+						<l>En glori vrouweliefde al veer te boven gaet.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Aertsoffervinder, och! ick legh te diep verzoncken.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Grijp moed, een oogenblick, en daer mede is 't gekloncken.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>O zuuren oogenblick, hoe streef ick u voorby?</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Sta vast een' korten stoot. zet liefde aen d'eene zy,</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>En of ick in dien strijd ten middewegh bleef steecken?</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Ghy zorght vergeefs. ick zal u hart, en moet inspreecken.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>De liefde staet en dreight, en maeckt mijn hart vervaert.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>'t Is ingebeelde waen, en geen bedenckens waerd.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>De Geest zal, na haer dood nòch waerende, zich wreecken.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Zoo Mars zijn wierroockschuld niet eerst met Ursul reken.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>De minne na liefs dood brand feller in 't gemoed.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Men dooft die in haer asch: men bluscht die in haer bloed.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>De traenen zullen my gestadigh staen in d'oogen.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Ghy zultze aen 't heiloos lijck, en aen heur kleedren droogen.</l>
+					</sp>
+
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Hoe scheid een minnend hart zoo noode van een vrouw!</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Die u zoo schendigh schold, om d'aengebode trouw?</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>De liefde is doof, en blind, en kan het al verdraegen.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>De liefde tot uw eer geneeze u van dees plaegen.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Men sla yet eerlix voor, dat Staet noch eere kost.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Men waerschuwt u van Rome, en schrijft u post op post.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Is nu de Staet zoo veel aen eene Maeghd gelegen?</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Zy won in 't eerst uw hart, nu grijptze naer dien degen.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Dien draegh ick op de zy, gelijck een vroom soldaet.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Zijt ghy'er meester af, gebruick dien niet te laet,</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>'k En wil met Ursuls bloed het zwaerd van Mars niet smetten.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Zy smet 't autaer van Mars, zyn' godsdienst, en zijn wetten.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>'t Besmette zwaerd zou staegh noch bloên voor mijn gezicht.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Verschoontghe 't heiligh zwaerd, zoo priem haer met een' schicht.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Mijn schicht, zal die het bloed der overschoone lecken?</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Grijp moed. ick zal 'er een' uit uwen koker trecken.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Ja treck'er een', die my dit bange hart afsteeckt.</l>
+					</sp>
+
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Aenvaerd dien schicht, noch noit in yemants bloed geweeckt.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>'k Aenvaerd hem blindeling. 'k gevoel mijn onvermogen.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Zy komt met uw Kornels. stoot toe, en sluit uw oogen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>URSUL. ATTILA. BEREMOND.</stage>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Ontzichbre Vorst, 'k verschijn al weêr, op uw ontbod,</l>
+						<l>En wacht van uwer hand mijn toegeleide lot.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Men telt uw mannelijcke en Maeghdelijcke troepen.</l>
+						<l>'k Heb zommigen voor my gedaghvaert, en doen roepen.</l>
+						<l>Men kan het gansche heir, van dezen heuveltop,</l>
+						<l>Met zinnen overzien, en tellen kop voor kop.</l>
+						<l>Klim op. 't is tijd. men moet my d'uitgepickte wyzen.</l>
+						<l>Ghy zult hen voor dees kruin al t' effens zien verryzen.</l>
+						<l>Daer staet uw leger nu in zynen vollen krits,</l>
+						<l>Omcingelt van mijn heir, gewapent met het spits.</l>
+						<l>Mijn krijghsliên zouden eer verlieft dan toornigh worden,</l>
+						<l>Op zoo veel aenzichten, al vierkant in slaghorden,</l>
+						<l>Zoo schoon en braef, als oit Scythin te velde broght.</l>
+						<l>Vier regementen voor, en vier tot achtertoght,</l>
+						<l>In 't midden drie, dat 's elf, die elck een Kruis opsteecken,</l>
+						<l>Behalven 't middelpunt; daer schijnt alleen t'ontbreecken</l>
+						<l>Uw trotse Kruisbanier, die past'er wonder by.</l>
+						<l>Het mannevolck verstreckt de vleugels van weerzy.</l>
+						<l>De rechte vleugel draeght al geestelijcke kleeren.</l>
+						<l>De slincke wieck bestaet uit weereldlijcke Heeren.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>O Ellefduizendtal, den hemel toegewijd,</l>
+						<l>Heldinnen, die voor d'eer van 't Rijck der Englen strijd,</l>
+						<l>Ghy Hoofden van Gods heir, verlicht van 's hemels straelen;</l>
+						<l>'t Zy amptelooze Paus, Aertsvaders, Kardinaelen,</l>
+						<l>Aertsbisschoppen, met al dees Kerckelijcke pracht</l>
+						<l>En prael; 't zy Koningklijck, of Vorstelijck geslacht,</l>
+						<l>Baroen, of Edelman, altzaemen Jesus knechten,</l>
+						<l>Gevoert in 't martelveld, om zege te bevechten:</l>
+						<l>Ick groet u duizendmael, in 't loflijck worstelperck.</l>
+						<l>Vecht nu voor Christus naem: ghy draeght zijn heiligh merck.</l>
+						<l>Uw zielen zullen, na dien veldslagh, breed gaen weien,</l>
+						<l>En vaeren God te moet met roode lievereien.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Nu dien my op mijn vraegh, met kort en klaer bescheed.</l>
+						<l>Hoe komt dit reisbaer volck zoo kostelijck gekleed?</l>
+						<l>Hier vloeit al 's weerelds schat by een van allen kanten.</l>
+						<l>Hier flickert Indien met al zijn diamanten.</l>
+						<l>'t Is al schaerlakenrood, al purper, dat'er blaeckt,</l>
+						<l>Al fijn en louter goud, al zilver, dat'er kraeckt.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Ghy ziet verzaemt een volck van tweederleie standen,</l>
+						<l>'t Welck op den hoogen dagh, en 't hooghtijd nu voorhanden,</l>
+						<l>Ter eere van het onbegrypelijck DrieEen,</l>
+						<l>En dat almaghtigh Hoofd, ten hemel ingestreên,</l>
+						<l>Op 't allerheerlijckst dus voor u koomt uitgestreecken.</l>
+						<l>Want schoon zy amptloos zijn, noch leenen zy het teecken</l>
+						<l>Van hun verlaeten ampt, op dat die zichtbre prael</l>
+						<l>Gods vyanden, door 't oogh, tot in het hart toe strael,</l>
+						<l>En krachtigh overtuigh 't hardneckige geweten.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Ghy Christenen weet ruim uw stucken uit te meeten.</l>
+						<l>Wie voert de Maerschalck hier zoo dicht voor my ten toon?</l>
+						<l>Wie is die grijze kop, die met een sluierkroon</l>
+						<l>Zijn' myter driemael kroont, van steenen overladen,</l>
+						<l>En van karbonkelen; vermast van zijn gewaeden,</l>
+						<l>En schitterenden staf, die driemael is gekruist,</l>
+						<l>En goude sleutels draeght in zyne slincke vuist?</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Dat is Cyriacus, het Hoofd der Christe bende.</l>
+					</sp>
+
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Een hoofd vol majesteit. my docht dat ick het kende.</l>
+						<l>Hoe zweemt hy naer dien God, die, by den Eridaen,</l>
+						<l>My onder oogen trad, en schielijck af deed staen</l>
+						<l>Van d'opgezetten toght; toen met den blooten zwaerde</l>
+						<l>Een Godheid boven hem, voor bey mijn oogen, waerde,</l>
+						<l>En blixemde. hoe is hy Leo zoo gelijck!</l>
+						<l>Hy schijnt geboren, niet gekoren, tot zijn Rijck,</l>
+						<l>En Opperpriesterdom. maer meld my dees twee andren,</l>
+						<l>Die, stemmigh achter hem, gepaert staen by malkandren,</l>
+						<l>Wier borststroock met een trits van Kruissen hangt gelaen.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Men kent d'Aertsvaders dus, en d'een heet Kassiaen,</l>
+						<l>Dien ick te Rome vond, en, met zijn wyze Griecken,</l>
+						<l>My volgende, verstreckt een slaghveer aen mijn wiecken;</l>
+						<l>Een, dien geleertheid noch godvruchtigheid ontbreeckt;</l>
+						<l>Een helder licht, daer elck zijn harssens aen ontsteeckt.</l>
+						<l>Hy heeft de nevelen van menigh oogh geschoven,</l>
+						<l>En toonde 't onderscheid van 't vatten, en gelooven.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Daer staet een Jongeling, recht achter hen, in 't wit,</l>
+						<l>Vry schotigh, schoon van leest, twee oogen, zwart als git,</l>
+						<l>De baerd breeckt effen uit. een ruighte schijnt de kaecken</l>
+						<l>Te kleên met goude wol. de heldre steenen blaecken,</l>
+						<l>Als starren, in de kroon, die hy zoo treflijck spant,</l>
+						<l>En d'eedle scepter past te voeglijck in zijn hand.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Ghy hebt den Bruidegom geschildert naer het leven.</l>
+						<l>Dat is AEthereus, die, met my afgedreven,</l>
+						<l>Niet meer naer my, maar naer een rijcker huwlijck staet.</l>
+						<l>Hy heeft, dus jongh van jeughd, gewraeckt het wulpsch gelaet.</l>
+						<l>Zoo stroopt de schrandre slang haer huid in scherpe heggen.</l>
+						<l>Hoe wenscht hy, om Gods Rijck, dien rijcxstaf neêr te leggen.</l>
+						<l>Hy groetme noch van veer, voor d'allerleste reis,</l>
+						<l>Tot wederziens by God, in 't hemelsche paleis.</l>
+						<l>Schep moed, mijn troost, schep moed. wy zullen haest vergaeren,</l>
+						<l>En 't sterflijck hier beneên, om hoogh 't onsterflijck paeren.</l>
+						<l>Zy groeten elck om 't zeerst, en worden my gewaer.</l>
+						<l>Mijn Kruisgenooten, zet u schrap op 't hoogh autaer.</l>
+						<l>Al d'Englen geven u den zegen, en 't geleide.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Twee Vrouwen vatten daer een jongsken tusschen beide,</l>
+						<l>Als of't Gezusters zijn, indien ick recht bevroey,</l>
+						<l>Bedaeght van oude.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Al recht, mijn Moeder, en mijn Moey,</l>
+						<l>Met haren kleenen zoon, na mynen Bruigom volgen.</l>
+						<l>Mijn Moey heet Gerasijn, die, over den verbolgen</l>
+						<l>En woesten pekelplas, my aen den Teems bezocht,</l>
+						<l>En AEtna liet, door brand tot dezen Maeghdentoght.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Wie proncken achter haer met ongevlochte tuiten?</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Vier Deughden in den aerd, alreede huwbre spruiten,</l>
+						<l>Haer Dochters alle vier, die dus ter bruiloft gaen.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Men ziet dit Elleftal, als met een halve maen</l>
+						<l>Van ellef Maeghdekens, van achter braef gesloten.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Die strecken voor Kornels van 't heir der Kruisgenooten.</l>
+						<l>Zij treden dus vooruit, en voeren 't leger aen.</l>
+					</sp>
+
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Monarch, ontruck haer toch die schandelijcke vaen.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Legh af't schandael, waermeê ghy achter land loopt zwerven.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Rechtschapen vaendrigh moet en wil by 't vaendel sterven.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Ontzeghtghe my dees vaen, die 't leger schande aendoet?</l>
+						<l>Daer leit de vaen, en 't Kruis. ick trap het met den voet.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>'t Gaet wel. verzet haer zoo die onverzetbre zinnen.</l>
+					</sp>
+					<sp who="#ursul">
+						<speaker>Ursul</speaker>
+						<l>Ghy broedermoorder, most dien Maeghdemoord beginnen</l>
+						<l>Met zoo een schendigh stuck, als 't schenden van het Kruis.</l>
+						<l>Zoo komen u met recht Gods plagen t' effens t' huis.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Word een Monarch nu dus van zijn slaevin versproken?</l>
+						<l>Stop toe dien lastermond.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Ick heb mijn leedt gewroken.</l>
+						<l>Zy leit 'er toe. zy zwijmt. zy sterft. zy geeft den geest.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Ghy quijt u als een Held. zoo viert men Mavors feest.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Nu krijghsliên, valt'er aen, ghy ziet mijn sabel zwaeien.</l>
+						<l>Zoo moet men Vader Mars met Maeghdenoffer paeien.</l>
+						<l>Daer briescht de dertle hengst op trommel en trompet.</l>
+						<l>Daer gaet hy in een zee van brein en bloed te wed.</l>
+					</sp>
+					<sp who="#beremond">
+						<speaker>Beremond</speaker>
+						<l>Ghy kunt de feest van Mars niet koningklijcker vieren.</l>
+						<l>Een ander paeit Jupijn met honderd witte stieren;</l>
+						<l>Ghy Mars met vyanden van 't menschelijck geslacht,</l>
+						<l>By duizenden. 't gaet wel. het offer is volbraght.</l>
+						<l>De Veldheer, die verslapt van minne werd geoordeelt,</l>
+						<l>Beneemt alle achterdocht door zoo een levend voorbeeld.</l>
+					</sp>
+
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Kornels, men recht dit lijck, voor 't ondergaen van 't licht,</l>
+						<l>Terstond aen eenen pael gebonden, in 't gezicht</l>
+						<l>Des muurs, om door dien schrick 't hardneckigh volck te dwingen,</l>
+						<l>En yeder hou zich reed, men zal de Stad bespringen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<stage>REY VAN AGRIPPINERS.</stage>
+					<sp who="#rey">
+						<speaker>Zang</speaker>
+						<l>Waer zijn de maeghden? waer de vrouwen,</l>
+						<l>Die zich van schreien nu onthouwen?</l>
+						<l>En niet met ons heur hart uitklaegen,</l>
+						<l>Om dees bedroefde nederlaegen?</l>
+						<l>Men hoorde, eer noch trompetten gingen,</l>
+						<l>En trommel sloegh, dees Maeghden zingen;</l>
+						<l>Terwijlwe smolten in ons traenen.</l>
+						<l>Men zeit dat zich de veege zwaenen</l>
+						<l>Noch met een' lofzang dus vermaecken,</l>
+						<l>Wanneerze zien de Dood genaecken.</l>
+						<l>Na'et zingen gaenze, zonder kermen,</l>
+						<l>Malkandren kussen, en omarmen.</l>
+						<l>Hier scheiden tweederleie staeten,</l>
+						<l>Die zich op eenen God verlaeten.</l>
+						<l>Hier ziet men Vorsten, en Vorstinnen,</l>
+						<l>En Koningen, en Koninginnen,</l>
+						<l>Ja Paus, Aertsvaders, Kardinalen,</l>
+						<l>Aertsbisschoppen, en Priesters praelen</l>
+						<l>Met 's werelds allergrootste schande;</l>
+						<l>Verwezen tot een offerhande,</l>
+						<l>In 't aenzicht van zoo veel tyrannen.</l>
+						<l>Hier groeten maeghden, vrouwen, mannen,</l>
+						<l>En jongelingen vast malkandren,</l>
+						<l>En 't aenschijn weet van geen verandren:</l>
+						<l>Niet eene heeft haer verf verschoten.</l>
+						<l>Verwanten, vrienden, speelgenooten,</l>
+						<l>Een yegelijck voor ander vlugge</l>
+						<l>Bied's werelds ydelheid den rugge.</l>
+						<l>De Hunnen staen van spijt en zwellen,</l>
+						<l>Als zy zich in geleden stellen,</l>
+						<l>En in slaghorden, om door lyden</l>
+						<l>De maght der wereld te bestryden.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Tegenzang</speaker>
+						<l>De Hun zijn' blancken degen zwaeide,</l>
+						<l>Toen Ursuls vaen niet langer waeide:</l>
+						<l>Dit was de moordleus, en het teecken.</l>
+						<l>De trommels slaen, trompetten steecken.</l>
+						<l>Het krijghsvolck, op trompet en trommel,</l>
+						<l>Komt t' effens ploffen in den drommel</l>
+						<l>Der Maeghden, bloot en zonder wapen:</l>
+						<l>Gelijck in eene kudde schaepen</l>
+						<l>De hongerige wolven vaeren,</l>
+						<l>En geene met hun tanden spaeren.</l>
+						<l>Den ruiter komt van achter ryden.</l>
+						<l>Het voetvolck parst heur van weerzyden.</l>
+						<l>De Maeghden staen als Gods gebonden.</l>
+						<l>Zy sneuvlen moedigh, daerze stonden.</l>
+						<l>Zy kussen noch de paerdevoeten,</l>
+						<l>Die lijf en ingewand doorwroeten.</l>
+						<l>Zy kussen dees geverfde klingen,</l>
+						<l>Die door den rugh en d'armen gingen;</l>
+						<l>Dees pylen, die den boezem wonden.</l>
+						<l>De zom verscheiden mond aen monden,</l>
+						<l>En, zonder kryten, zonder karmen,</l>
+						<l>Al lachende in malkanders armen;</l>
+						<l>Dat zelfs der kryghsliên harten krompen.</l>
+						<l>Hier rollen hoofden, ginder rompen.</l>
+						<l>Daer dryven afgesnede borsten,</l>
+						<l>Hier brein en bloed, die haer bemorsten.</l>
+						<l>Hier ziet men armen, beenen slingren,</l>
+						<l>Daer handen, voeten, teenen, vingren.</l>
+						<l>De Hun, als hy dees dooden plondert,</l>
+						<l>Zich om heur eerbaerheid verwondert;</l>
+						<l>Vermits die kuische en eedle zielen</l>
+						<l>Met mond en borst op d'aerde vielen.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Toezang</speaker>
+						<l>Zoo gaet het Christus uitverkoornen.</l>
+						<l>Zoo groeit de leli onder doornen;</l>
+						<l>De roos op scharpe doornehaegen.</l>
+						<l>Zoo treckt men zegen uit de plaegen.</l>
+						<l>Geen ackers worden zoo gezegent</l>
+						<l>Als Ursuls Veld, van bloed beregent.</l>
+						<l>In deze zee gaen d'Englen baden.</l>
+						<l>Dit zijn de purpere gewaeden,</l>
+						<l>Daer Jezus bruiden zich meê kleeden,</l>
+						<l>Wanneerze naer heur staci treden.</l>
+						<l>Dees roode druppels zijn robynen,</l>
+						<l>Die boven licht, hier doncker schijnen.</l>
+						<l>Men drinckt by God uit goude koppen,</l>
+						<l>Verzet met dees gestremde droppen.</l>
+						<l>Dit zijn de rechte lievereien,</l>
+						<l>Om d'allervroomsten t' onderscheien.</l>
+						<l>Zoo triomfeert men overwonnen.</l>
+						<l>Men vind geen kostelijcker bronnen,</l>
+						<l>Dan die uit 's Martlers adren springen.</l>
+						<l>Dees sluiers passen hovelingen,</l>
+						<l>Die tot het hemelsch hof behooren.</l>
+						<l>Zoo strecken 's vyands punten spooren,</l>
+						<l>Om 't Christelijck gemoed te noopen,</l>
+						<l>Veel spoediger naer honck te loopen,</l>
+						<l>De renbaen aller Martelaeren.</l>
+						<l>Dies staeckt dit treuren, droeve schaeren.</l>
+						<l>Geleit met vierige gebeden</l>
+						<l>Het Maeghdenheir, nu doorgestreden,</l>
+						<l>Daer zy het al ten hemel wencken.</l>
+						<l>Noch dood noch vyand kan u krencken.</l>
+						<l>Ghy siet de zon in 't water daelen,</l>
+						<l>Om op te staen met blyder straelen.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="5">
+				<head>Het vyfde bedryf.</head>
+				<div type="scene" n="1">
+					<stage>BURGEMEESTERS. BODE.</stage>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Hoe 't quam, dat Attila het hoofd zoo plotsling stiet,</l>
+						<l>Met dezen elfsten storm, begrijpt mijn brein noch niet;</l>
+						<l>Terwijl ick, by 't klincket, verwacht, ontrent de wallen,</l>
+						<l>Ons Ridderschap, om 't lijck van Ursul uitgevallen.</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>Zy komen, met dien buit geladen, naer de Stadt.</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>'K geloof het nauwelix. O Jesus, loon hen dat.</l>
+						<l>Wie durf 't verbeten Lam, met bloênden muil gedragen</l>
+						<l>In 't hongerige nest, dien wreeden wolf ontjaegen?</l>
+					</sp>
+					<sp who="#bode">
+						<speaker>Bode</speaker>
+						<l>De spie verkondschapte ons, hoe 't lijck in Manfrits tent</l>
+						<l>Te zorgloos werd bewaert door 't Kattenregement;</l>
+						<l>Dat van den storm vermoeit, en dapper aen 't verloopen,</l>
+						<l>Geen legerpoorte sloot, maer lagh naer Stadt toe open.</l>
+						<l>Dit gaf de Borsten moed. wy nadren altemet.</l>
+						<l>Verneemen man noch paerd op schildwacht uitgezet.</l>
+						<l>Wy zien vast hier en daer de herrefstvieren roocken.</l>
+						<l>D'een leit op stroo, en ronckt, met oogen toegeloken,</l>
+						<l>Verdroncken in den wijn. een ander drinckt, en druipt</l>
+						<l>Van most, en voelt niet eens dat hem de slaep bekruipt.</l>
+						<l>De zommigen den buit verdobblen, en verspeelen.</l>
+						<l>Een ander hallef naeckt zijn wonden zoeckt te heelen.</l>
+						<l>De wagens staen'er by, zom heel, zom half gelaên.</l>
+						<l>Hier leunt een speer, daer hangt een schild of rusting aen.</l>
+						<l>De vlammen schittren vast in helmen, en standaerden.</l>
+						<l>De ruiters altemael, gestegen van hun paerden,</l>
+						<l>Verzuimen hunnen plicht, gelijck de voetknecht doet.</l>
+						<l>Toen Liskerck dit vernam, ontstack zijn edel bloed,</l>
+						<l>Veel hitsiger dan oit op Keulens trotse muuren,</l>
+						<l>Noch t' avond van sijn bloed, en druipende quetsuuren</l>
+						<l>Geverft, daer hy den Hun manhaftigh wederstond,</l>
+						<l>En, hoe vermoeit, het zwaerd niet eenmael af en bond.</l>
+						<l>O telgen, voortgeteelt van Roomsche en Duitsche struicken,</l>
+						<l>Die niet om pracht, sprack hy, maer eerlijck te gebruicken,</l>
+						<l>Het harnas gespte aen 't lijf, en degens gorde op zy;</l>
+						<l>Hier is gelegentheid. een yeder volge my,</l>
+						<l>Om onze erfvyanden, dees Katten, die, als slaeven,</l>
+						<l>Zich onder 't Hunsche juck zoo schandelijck begaeven,</l>
+						<l>Betaelt te zetten 't leed, van ouds her aengedaen</l>
+						<l>Den Ubien; toen, na veel jammers, uitgestaen</l>
+						<l>Van woest geweld, zy heul aen Caesars scepter vonden.</l>
+						<l>Dit 's Manfrits regement. ghy ziet den hengst gebonden</l>
+						<l>Vast graezen by zijn tent, waer in hy stormens moe,</l>
+						<l>Houd schildwacht op tapijt, met bey zijn blicken toe.</l>
+						<l>Wie zagh oit schooner kans in al 't belegh geboren?</l>
+						<l>Mijn mackers, dat 's u voor. met gaf hy 't ros de sporen.</l>
+						<l>Al d'andren op dat spoor hem rennen achter aen,</l>
+						<l>Het open leger in. wat kon 'er tegens staen?</l>
+						<l>Wy ploften onverziens in 't honderd, in den drommel,</l>
+						<l>Voor 't steecken van trompet, voor 't roeren van de trommel</l>
+						<l>Des ronckenden soldaets. eer 't yemant hoorde of zagh</l>
+						<l>Gevoeldenze onze Jeughd niet eerder dan den slagh,</l>
+						<l>En 't yzer op den hals. dat was het zeker teecken.</l>
+						<l>En daer meê wapen, moord, en klocken opgesteecken,</l>
+						<l>Zoo overvalt op zee een onverwachte vlaegh</l>
+						<l>Den zeeman, daer hy slaept, en verre leit te laegh,</l>
+						<l>Als, onzacht opgeweckt, hy 't zeil begeert te strijcken,</l>
+						<l>En bulderende wind, en golven niet bezwijcken,</l>
+						<l>Voor dat het schip gesloopt te gronde gaet, en zinckt.</l>
+						<l>Hier wordt 'er een verrascht, terwyl hy zit en drinckt,</l>
+						<l>En braeckt den wijn, en 't bloed, en mengtze met malkanderen.</l>
+						<l>Een ander wil zijn spel te spa in ernst veranderen,</l>
+						<l>En word, terwyl hy speelt, het spel en 't leven quyt.</l>
+						<l>Een ander, vast in slaep, van 't waecken word bevrijt.</l>
+						<l>Een ander grijpt zyn zwaerd, of zet zich in geleden;</l>
+						<l>Maer word van 't punt geraeckt, of van den hoef vertreden.</l>
+						<l>Een ander, die zyn quael verbond, met luttel harts,</l>
+						<l>Van 't schichtigh zwaerd geheelt vond noit gezwinder arts.</l>
+						<l>Op 't roepen midlerwijl, op dit erbarmlijck schreien,</l>
+						<l>Terwyl Agrippaes jeughd, zoo stout, zoo breed, gaet weien,</l>
+						<l>Komt Manfrit uit zijn tent gesprongen, half gekleed,</l>
+						<l>Met eene hellebaerd, en schuimbeckt byster wreed,</l>
+						<l>En schreeuwt: wy zyn noch niet verbasterd van onze ouderen.</l>
+						<l>Hy brengt een' slagh, maer 't hoofd dat hangt op beide schoudren</l>
+						<l>Gekloven midden door van Liskercks gladde kling,</l>
+						<l>Die hem te snel ontmoete, en rustigh tegensging,</l>
+						<l>En zonder samlen sprong uit zynen hoogen zadel,</l>
+						<l>De tent van Manfrit in, bestuwt van Keulschen Adel,</l>
+						<l>En haelde'r Ursuls lijck, en smeet het op zijn paerd.</l>
+						<l>Toen daetlijck 't leger uit, en zoo weêr stedewaert</l>
+						<l>Door dick door dun gejaeght, van bloed, en zweet bedropen.</l>
+						<l>Bezet de poort, en wal, en zet de poort wyd open.</l>
+						<l>Zy komen met het lijck. al 't leger raeckt in roer,</l>
+						<l>En was ten deel gevloôn. ick boodschap u hoe 't voer.</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Manhafte Jongeling, die, zonder eens te flaeuwen,</l>
+						<l>Dien kostelijcken roof hebt uit die staele klaeuwen</l>
+						<l>Des Noordschen Beers geruckt; uw Ridderlijcke daed</l>
+						<l>Blijft in geheughenis, zoo lang de dageraed</l>
+						<l>De duisternis verdryft, zoo lang de starren daelen,</l>
+						<l>En duicken, voor den glans van levendiger straelen.</l>
+						<l>Sinte Ursul zal u niet vergeeten in Gods Rijck,</l>
+						<l>Daer zy, Gods blyde Bruid, voor d'Englen zit te prijck.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>JULIAEN. ATTILA. GEEST VAN SINTE URSUL, GEEST VAN ST. AETHEREUS.</stage>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Hoe heeft de Noordzy zich zoo schandelijck gedraegen?</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Hoe liet de Zuidzy zich zoo schandelijck verjaegen?</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Trompet noch trommel werd gesteecken noch geroert,</l>
+						<l>Voor dat men 't stormgevaert had stewaert aengevoert,</l>
+						<l>En wat tot storremtuigh en reedschap kon verstrecken.</l>
+						<l>Al 't voetvolck quam vooraen, de ruiter achtertrecken,</l>
+						<l>En noopte met zijn paert oock 't hart des soudeniers,</l>
+						<l>Om den belegen muur t'ontginnen met meer viers.</l>
+						<l>De nieuwe maen ging op, dat was 't gezette teecken,</l>
+						<l>Om met een veldgeschrey altzaemen op te steecken.</l>
+						<l>Zoo ging het stormen aen, hardneckiger dan oit.</l>
+						<l>Het hagelde geweer. het veld werd dicht bestroit</l>
+						<l>Met pylen, die de lucht verduisterden, en vlogen,</l>
+						<l>En snorden van de pees der afgeschote bogen.</l>
+						<l>Men broght den storrembock met eene schildpad aen,</l>
+						<l>Geweld daer muur noch poort, noch toren voor kan staen.</l>
+						<l>Al 't vrouwvolck in de weer zich weert met traen en vlammen,</l>
+						<l>Met peckreep, ziedend kalck, en steenen, om het rammen</l>
+						<l>Te hindren. heet gevecht maeckt heete harssens dol.</l>
+						<l>De mannen sneuvelen. de graften raecken vol.</l>
+						<l>Men strijd eer reuckeloos als met verstand en orden,</l>
+						<l>Uit bitterheid, van wie zy aengedreven worden.</l>
+						<l>Gewight van steenen rolt, en tuimelt van den wal,</l>
+						<l>Op 't schildendack, dat sloopt, door eenen zwaeren val;</l>
+						<l>Dat kraeckt, en knarst, en huilt. noch zietmen niemant suffen.</l>
+						<l>Men laet zich door veel moords in 't rammen niet verbluffen.</l>
+						<l>De levendige treed terstond in 's dooden plaets.</l>
+						<l>In 't end bezwijckt de muur, door 't aenstaen des soldaets,</l>
+						<l>En stort met roock, en puin, en groot gedruis ter aerde;</l>
+						<l>Die davert van dien slagh, als ofze Reuzen baerde,</l>
+						<l>En weer in arbeid ging. het puin vervult de gracht,</l>
+						<l>En baent den wegh in Stad: die schijnt in 's legers maght</l>
+						<l>Te staen, daer over ons de vesten vreeslijck gaepen.</l>
+						<l>'k Zag d'Agrippiners blanck op straet, in volle wapen,</l>
+						<l>Getroost het Hunsch gewelt t'ontfangen sterck en stijf,</l>
+						<l>Als my, gelijck een koorts, een grilling reed door 't lijf.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Wat grilling quam u aen? hoe is u 't hart ontzoncken?</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>My docht, dat in die breuck des muurs dees Mannen bloncken,</l>
+						<l>Die flus verslagen, nu verscheenen wederom</l>
+						<l>Tot wraecke van dien moord. 'k Zagh Ursuls Bruidegom,</l>
+						<l>Dien wackren Jongeling, den wyden mond der muuren</l>
+						<l>Bezetten, met die zelve en vloeiende quetsuuren,</l>
+						<l>Ontfangen van mijn hand, toen ick, versteurt van moed,</l>
+						<l>Hem aengreep by zijn kleed, en slibbren deed in 't bloed</l>
+						<l>Van 't grijs en Pauslijck hoofd, het welleck, voor zijn oogen,</l>
+						<l>Doorsteecken van mijn zwaerd, zich mede quam vertoogen,</l>
+						<l>Tot wraeck van 't ongelijck, met eene heesche stem;</l>
+						<l>Gelijck die dubble wolck van Mannen achter hem,</l>
+						<l>De moede Burgery quam bystaen, en verpoozen.</l>
+						<l>Men zagh'er zom gebaerd. men zagh'er baerdeloozen,</l>
+						<l>En jong, en oud. elck had zijn eigen handgebaer,</l>
+						<l>Een kruis, of staf, of torts, of zwaerd. 'tgespoock stond naer,</l>
+						<l>En vreesselijck by nacht. de krijghsman aen het dutten,</l>
+						<l>Wijckt af, verloopt, en ick zoeck hen vergeefs te stutten.</l>
+					</sp>
+
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Nu merck ick, 't is geen droom, noch harssenschildery.</l>
+						<l>Het heeft niet weiniger gespoockt aen onze zy.</l>
+						<l>Ick, om geweer en moed van 't oorlooghsvolck te slypen,</l>
+						<l>Hadde opgezet eens zelf de torens aen te grypen,</l>
+						<l>En greep, in 't bits gevecht, na zoo veel tegenstand,</l>
+						<l>Den standerddrager zelf den standerd uit de hand</l>
+						<l>Met d'een, met d'ander hand de lange storremladder.</l>
+						<l>En riep: men volgh mijn spoor. wie eerst van allen radder</l>
+						<l>Kan steigren, achter my, en schrap in 't heetste staen,</l>
+						<l>Dien magh onsterflijcke eer, noch muurkroon niet ontgaen.</l>
+						<l>Hier rijst het Capitool. hier is de wedergade</l>
+						<l>Van Rome. schats genoegh, tot boete van uw schade,</l>
+						<l>Geleden in 't belegh. val aen, ick wijs u 't spoor,</l>
+						<l>Mijn Arend met de kroon, mijn Astur vlieght u voor.</l>
+						<l>Het vier ontstack. men zagh hoe aller oogen glommen.</l>
+						<l>Ick recht de ladder zelf, en daedlijck opgeklommen:</l>
+						<l>Mijn regement my na, en zoo de zege ontgost.</l>
+						<l>Een yegelijck soldaet hiel stand, gelijck een post.</l>
+						<l>Ick zwaey den degen vast. ick schreeuw vast, moord, en wapen,</l>
+						<l>Vrybuit en brand. val aen, nu wreeck u eens rechtschapen.</l>
+						<l>De Burgery verflaeuwde, in tegenweer te bien.</l>
+						<l>De wal en Stad was ons; wanneer ick op zijn knien</l>
+						<l>Een oud eerwaerdighst Man zagh vallen, in hef midden</l>
+						<l>Der Priesteren, en met gevouwe handen bidden.</l>
+						<l>Op dat gebed, helaes! verscheenme strax mijn Min,</l>
+						<l>Met haer doorschote borst. die schoone Koningin</l>
+						<l>Verscheen met dees quetzuur, die versch noch deerlijck bloede.</l>
+						<l>Hoe werd mijn hart zoo bang, dat strax zoo grimmigh woede!</l>
+						<l>De standerd zeegh, en viel, met eenen viel de moed.</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Verscheenze slechs alleen?</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Met een' ontelbren stoet</l>
+						<l>Van duizenden bestuwt, en met die zelve Zielen</l>
+						<l>Die, van den hoef getrapt, door zwaerd en speeren vielen.</l>
+						<l>Zy trad my in 't gezicht, en dochtme ruim zoo schoon,</l>
+						<l>En ruim zoo groot als flus. haer diamante kroon</l>
+						<l>Verlichte straet en wal, door 't schitteren der steenen,</l>
+						<l>En 't kroonegoud, gelickt en goddelijck bescheenen</l>
+						<l>Van eenigh godlijck licht, dat met een' ronden kring</l>
+						<l>Van tongen, rood als vier, om 't heiligh hulsel ging.</l>
+						<l>My docht ick zagh dien schicht noch in haer harte steecken,</l>
+						<l>Daer 't laeuwe bloed langs scheen op d'aerde neêr te leken.</l>
+						<l>Ick stondt'er stijf en stom. al 't krijghsvolck zagh op my.</l>
+						<l>De Liefde en Schrick van d'een, de Schoone aen d'andre zy.</l>
+						<l>Noch drong ick stewaert in met zidderenden degen.</l>
+						<l>Maer waer ick quam, alom vloogh Ursuls Geest my tegen</l>
+						<l>Met haere standerd vaen. haer Maeghden overkuisch</l>
+						<l>Bejegenden mijn volck met dadeltack, of kruis,</l>
+						<l>Of maeghdewasse kaers, voor wie de krijghslien vielen,</l>
+						<l>En vloden hier en daer. zy zat my op de hielen,</l>
+						<l>Of stond voor mijn gezicht. veel troepen vloôn verbaest;</l>
+						<l>Dies ick den aftoght blies, want d'aftoght was ons 't naest.</l>
+					</sp>
+					<sp who="#sinte-ursuls-geest">
+						<speaker>Ursul</speaker>
+						<l>Nu treffen den Tyran al 's hemels dreigementen.</l>
+					</sp>
+					<sp who="#sint-aethereus-geest">
+						<speaker>AEthereus</speaker>
+						<l>Nu Juliaen vervolght in d'aengesteecke tenten.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Och Juliaen, wat raed? hier koomt het zelve spoock.</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Hou stand, 't is ydelheid, en wind, en stof, en roock,</l>
+						<l>Of een ontsteecken damp, die schichtigh zal verdwijnen.</l>
+					</sp>
+					<sp who="#sinte-ursuls-geest">
+						<speaker>Ursul</speaker>
+						<l>De zonne zal voortaen uw hutten niet beschynen.</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Hou stand, 't is ydelheid, die eer verstuift dan stof.</l>
+					</sp>
+					<sp who="#sinte-ursuls-geest">
+						<speaker>Ursul</speaker>
+						<l>Des legers kreits verstreck den Hun een kerreckhof.</l>
+					</sp>
+
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Wie zijtghe, die by nacht ons quellen komt, en plaegen?</l>
+					</sp>
+					<sp who="#sint-aethereus-geest">
+						<speaker>AEthereus</speaker>
+						<l>Slechs wind, en roock, en damp, en stof, om uit te vaegen.</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Indienghe niet ontvlught, ick stel mijn zwaerd te werck.</l>
+						<l>Wat of de veldheer doet?</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Ick schrijf met kool een perck,</l>
+						<l>Tot mijn verzekering, en zal 't met vloecken wyen.</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Daer komt het yslijck spoock, en durf het overschryen.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Is 't wonder dat mijn hair hier door te berge rijs?</l>
+					</sp>
+					<sp who="#sinte-ursuls-geest">
+						<speaker>Ursul</speaker>
+						<l>Bevriest uw hart noch niet zoo stijf en kil als ijs?</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Och Ursul, laetme gaen. och spaer den Koning 't leven.</l>
+					</sp>
+					<sp who="#sinte-ursuls-geest">
+						<speaker>Ursul</speaker>
+						<l>Tyran, uw vuist heeft my dien schicht in 't hart gedreven.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Och Ursul, laetme gaen, vergeefme toch dien moord.</l>
+					</sp>
+					<sp who="#sinte-ursuls-geest">
+						<speaker>Ursul</speaker>
+						<l>Wy Geesten eisschen wraeck. de hemel is verstoort.</l>
+					</sp>
+					<sp who="#sint-aethereus-geest">
+						<speaker>AEthereus</speaker>
+						<l>Durft ghy, aertsmoordenaer, u langer hier vertrouwen?</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Wijck af, ick zal u 't hoofd van buick en schoudren houwen.</l>
+					</sp>
+					<sp who="#sint-aethereus-geest">
+						<speaker>AEthereus</speaker>
+						<l>Heeft wind, en roock, en damp, en stof nu buick en hoofd?</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Daer leit de Geest. ick heb hem 't beckeneel geklooft.</l>
+					</sp>
+					<sp who="#sint-aethereus-geest">
+						<speaker>AEthereus</speaker>
+						<l>Noch leeft de Geest. uw zwaerd is veel te plomp van snede.</l>
+					</sp>
+					<sp who="#juliaen">
+						<speaker>Juliaen</speaker>
+						<l>Och goede Geest, vertreck, laet Juliaen met vrede.</l>
+					</sp>
+
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Och Iuliaen, wat raed? nu weet ick geen verblijf.</l>
+					</sp>
+					<sp who="#sinte-ursuls-geest">
+						<speaker>Ursul</speaker>
+						<l>Gods straffe volght Gods Roe, gelijck de schaduw 't lijf.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Het zweet breeckt uit. wie moet voor dit gezicht niet yzen?</l>
+						<l>Princes, ick zal my nu genadiger bewyzen.</l>
+					</sp>
+					<sp who="#sinte-ursuls-geest">
+						<speaker>Ursul</speaker>
+						<l>Gelijckghe zijt gewoon, die 't al verwoest, en stroopt,</l>
+						<l>En Christenrijck in 't bloed der Martelaeren doopt.</l>
+						<l>Verbeeld u niet, dat God uw' moedwil wil verschoonen.</l>
+						<l>Ick zal u 't halve hoofd van uwen Manfrit toonen.</l>
+						<l>Daer ziet ghy't van het lijf gesneden, en noch nat.</l>
+						<l>De Ridderschap valt uit, met al de gansche Stad.</l>
+						<l>De tenten staen in brand. uw volck verloopt te spade.</l>
+						<l>'t Vergoten bloed roept wraeck. 't is uit met Gods genade.</l>
+						<l>De gansche Stad valt uit. al 't leger staet in vier.</l>
+					</sp>
+					<sp who="#attila">
+						<speaker>Attila</speaker>
+						<l>Wat zienwe, Iuliaen? wat aenzicht zienwe hier?</l>
+						<l>'t Is Manfrits eigen hoofd. verwacht geen ander teecken.</l>
+						<l>Och Iuliaen, 't is tijd als d'andren op te breecken.</l>
+						<l>Och Iuliaen, breeck op, met d'overige maght.</l>
+						<l>'t Is veiliger gevloôn, dan 't uiterste verwacht.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>AERTSBISSCHOP. BURGEMEESTERS. REY VAN AGRIPPINERS.</stage>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Getrouwe Ridderschap, zet hier de doodbaer neêr,</l>
+						<l>En 't Heiligh Lijck. 't word spa, oock valt de wegh te veer.</l>
+						<l>Voor eerst genoegh, tot dat men 't lichaem voort geleide,</l>
+						<l>En op het staetelijckste een uitvaert toebereide,</l>
+						<l>Gelijck de heiligheid van zoo een Heiligh voeght.</l>
+						<l>Maer dit toeschietend volck bleef al den nacht misnoeght,</l>
+						<l>Indien hun oogen zelfs de doode niet eerst zagen.</l>
+						<l>Men schuif de doodkist op. daer leitze nu verslagen,</l>
+						<l>Die vrome Kruisheldin, en stut van 't eeuwigh Rijck.</l>
+						<l>Ghy Vaders van de Stad, ghy Burgers algelijck,</l>
+						<l>Om Gods wil, ziet toch eens, ghy maeghdekens, en vrouwen,</l>
+						<l>Koom leeck, en priester, koom de Koningin aenschouwen.</l>
+						<l>Zij schijnt niet dood, noch oock den slapenden gelijck,</l>
+						<l>Maer levend lachtze u toe. hier leit een Bruid te prijck;</l>
+						<l>Wiens ziel in 't hemelsch koor, voor d'Engelen, ging trouwen</l>
+						<l>Den schoonsten Bruidegom. waer zagh men oit gehouwen</l>
+						<l>Uit marmer eenigh beeld, of lijck dat witter was.</l>
+						<l>Zoo leeft d'albaste pop in d'ebbenhoute kas.</l>
+						<l>Noch schijnt de purpre mond gebeên tot God te morren.</l>
+						<l>De roos, op elcke wang, weet noch van geen verdorren.</l>
+						<l>Het hair behoud zijn' geur, ja krachtiger dan oit.</l>
+						<l>Zoo hadze zich voor 't leste om Jesus opgetoit.</l>
+						<l>Zy heeft dien mond niet eens vertrocken, om de smarte</l>
+						<l>Des doods, toen haer de Dood de tanden zette in 't harte,</l>
+						<l>Met dien verwoeden schicht. geweerhaeckt hangt hy noch</l>
+						<l>In haer gequetste borst, zoo wit, als melck en zogh;</l>
+						<l>Gemarmert van het bloed, dat uit de wonde vloeide,</l>
+						<l>En maeckte een' rooden vliet, waer in de ziele roeide</l>
+						<l>En zeilde, en vloogh voor wind, voor stroom, recht hemelwaert,</l>
+						<l>Der zielen haven in, beschut voor 't Hunsche zwaerd.</l>
+						<l>O wreede schicht, te wreed op zoo een teere spruite!</l>
+						<l>'T was wonder dat uw punt niet weder af en stuite,</l>
+						<l>Of stomp werd, op 't gezielt en levendigh albast</l>
+						<l>Der Kalidoonsche Maeghd, en hechtghe noch zoo vast,</l>
+						<l>In 't middelpunt van 't hart? maer waerom 't hart geschoten,</l>
+						<l>Och edel hart! en niet een ander deel doorstooten?</l>
+						<l>Neen, billijck is 't, dat zy, aen 't Paradijs verlooft,</l>
+						<l>Oock werde in 't hart gemerckt; gelijck 't gemartelt Hoofd,</l>
+						<l>Haer Heiland, dien de speer in 't hart ging, door de zijde.</l>
+						<l>Onwetende eerde u dus, die u dees eer benyde.</l>
+						<l>O allerzalighst lijck, ons allen voorgetreên,</l>
+						<l>En in het bloedigh perck met Jesus doorgestreên.</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Zy triomfeert by God, met wien zy zich vereende,</l>
+						<l>Met al haer Duizenden, die, op de starren treênde,</l>
+						<l>Nu omgaen met den kloot, aen 's hemels gouden boogh,</l>
+						<l>En, boven zon en maen, braveeren daer om hoogh</l>
+						<l>Gods vyanden, die niet onsterfelijcke zielen.</l>
+						<l>Maer slechs het sterflijck lijf des Martelaers vernielen.</l>
+						<l>Het veld, dat door dien moord verwildert leit, en woest,</l>
+						<l>Gemest met bloed, en mergh, teelt nu een' rijcken oegst,</l>
+						<l>Daer God de vrucht af maeit, en vult zijn ruime schuuren</l>
+						<l>Met garven zonder tal.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Wy tellen daeghlix d'uuren,</l>
+						<l>Ja elcken oogenblick, in 't uiterste gevaer,</l>
+						<l>Dat Iesus ons verlos. 't verlangen valt ons zwaer.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>O waerde Burgery, de hemel wil u stercken.</l>
+						<l>Gedenck, ghy strijd ter nood voor huizen, en Gods kercken;</l>
+						<l>Ghy strijd voor lijf en ziel, voor Gods gerechte zaeck,</l>
+						<l>Voor 't algemeen geloof. schep moed. beveel de wraeck</l>
+						<l>Den allerhooghsten troon: hy bleef noit Dwingland schuldigh</l>
+						<l>De lang gedreighde straf. volhard, beveel geduldigh</l>
+						<l>Hem d'uitkomst van 't gevecht. de hemel weet zyn' tijd.</l>
+						<l>Men triomfeerde noit dan na den bangen strijd.</l>
+						<l>Nu dorscht Gods straffe hand den droeven ingezeten.</l>
+						<l>De vlegel breeckt niet eer voor dat die is versleeten.</l>
+						<l>Gods oordeel scheid aldus het koren van het kaf;</l>
+						<l>Al dreunt'er 't gansche Sticht, gelijck een dorschvloer, af.</l>
+						<l>Wy zitten noch beschermt, en met beslote muuren.</l>
+					</sp>
+					<sp who="#rey">
+						<speaker>Rey</speaker>
+						<l>Argentoraet, en Trier, en Tongren, ons gebuuren,</l>
+						<l>Zijn al in d'asch geleit, en in den grond vergaen.</l>
+						<l>Indien een stercker valt, hoe kan een zwacker staen?</l>
+						<l>De blixem met geweld gedreven op de toppen</l>
+						<l>Van toornen, en van kerck, het bloed, by roode droppen,</l>
+						<l>Geregent hier en daer; de tortsen in de lucht;</l>
+						<l>De wolcken vol geschreis, en oorelooghsgerucht;</l>
+						<l>Het hemelsche gezang, het loeien uit de kooren,</l>
+						<l>Gaen zwanger van al 't leed, dat daeghlix wordt geboren.</l>
+						<l>Ons vesten gaepen vast, en waren flus vermant.</l>
+						<l>Wy hoorden dien Tyran vast brullen moord en brand.</l>
+						<l>De maght der Burgery begon al uit te spatten.</l>
+						<l>De Hun zal strax den storm met meer gewelds hervatten,</l>
+						<l>En booren door de breuck in Stad, die open leit.</l>
+						<l>Ick zie, hoe 't grimmigh zwaerd langs marckt en straeten weit,</l>
+						<l>En neervelt, wat het vind. ick hoor ons vrouwen krijten.</l>
+						<l>'k Zie dochters aengezicht en bloote borsten rijten.</l>
+						<l>Met hangende perruick geschonden en gesleurt.</l>
+						<l>Ick zie dees Stad in brand, en als een kleed gescheurt.</l>
+						<l>Nu zal ons Beeck van 't bloed der menschen overloopen.</l>
+						<l>Men sluit de poort vergeefs, de muuren leggen open.</l>
+					</sp>
+					<sp who="#burgemeesters">
+						<speaker>Burgemeester</speaker>
+						<l>Godvruchtigh Licht, verlicht het volck met uw gebed.</l>
+						<l>Wy knielen al met u, en hopen op ontzet.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Aendachtige gemeent, hou op, hou op van schreien.</l>
+						<l>Ick zie, om 't hoofd van 't lijck, een vlam van tongen weien,</l>
+						<l>En lecken Ursuls kroon. ay zie, hoe schoon het speelt.</l>
+						<l>Ick zie noch meer, een wolck, die zich daer boven deelt,</l>
+						<l>En zwanger van Gods glans vast arbeid door te breecken.</l>
+						<l>Schep moed, mijn volck, schep moed. dit is geen ydel teecken.</l>
+						<l>Wy zijn alree verhoort. nu langer niet geschroomt.</l>
+						<l>De wolck gaet op. wat Zon of hier te voorschijn koomt?</l>
+						<l>Wat starren of dit zijn, die voor en achter krielen?</l>
+						<l>Gewis 't is Ursuls geest, bestuwt met Martelzielen,</l>
+						<l>Met zoo veel duizenden, als flus gesneuvelt zijn.</l>
+						<l>Ick ken die Kruisbanier. 'tis spoock, noch droom, noch schijn.</l>
+						<l>Wy weckten haeren geest met ons eendraghtigh smeecken.</l>
+						<l>Zy wenckt ons. luister toe. daer vangt zy aen te spreecken.</l>
+					</sp>
+					<sp who="#sinte-ursuls-geest">
+						<speaker>Sinte Ursul</speaker>
+						<l>Ghy Agrippiners, staeckt dit jammerlijck gesteen.</l>
+						<l>Ick hebbe op uwen muur met al mijn heir gestreên,</l>
+						<l>En ging dien Dwingeland in zyne tent bestoocken.</l>
+						<l>Al 't leger vlught met hem, en is voort opgebroken.</l>
+						<l>De blixemstrael, die brand in alle hutten sticht,</l>
+						<l>Vergunt den Hun geen' tijd, dat hy zijn hielen licht.</l>
+						<l>Gansch Keulen, met den dagh in 't leger uitgevallen,</l>
+						<l>Sleept eenen grooten roof in zijn verloste wallen.</l>
+						<l>Die woedende Tyran, zoo wijd en zijd gevreest,</l>
+						<l>Zal's nachts, in 't bruilofsbed, op 't vrolijckst van zijn feest,</l>
+						<l>Smoordroncken van den wijn en 't bloed, allengs gedroncken,</l>
+						<l>Daer zijn bestorve bruid hem reutlen hoort, na' et roncken,</l>
+						<l>Haest braecken 't godloos hart, en smooren in zijn bloed,</l>
+						<l>Dat tegens Christus Kerck, en Gods autaeren woed.</l>
+						<l>Laet u 't geleden leed noch jammer niet bedroeven.</l>
+						<l>God wou uw hart door 't vier des oorlooghs dus beproeven.</l>
+						<l>Bestelt ons lichaemen ter aarde, zoo 't behoort.</l>
+						<l>De hemel sal uw' Dom, uw Raedhuis, en uw poort,</l>
+						<l>Van hier, in tijd van ramp, en tegenspoed, vertroosten.</l>
+						<l>Verwacht in uwen schoot het Drietal, dat van 't Oosten</l>
+						<l>Zich boogh voor d'arme kribbe, en offerde zoo mild;</l>
+						<l>Drie Kroonen dan gevoert in eenen rooden schild:</l>
+						<l>Drie Kroonen zullen braef op onze Armijnen passen.</l>
+						<l>Ick zie der muuren kreits hoe langer wyder wassen,</l>
+						<l>Door allerhande ramp; d'Aertsbisschop, in den top</l>
+						<l>Van 't Keizerrijck te keur, om een' gekroonden kop;</l>
+						<l>En 't Heiligh Agrippijn, door tegenspoed verzochter,</l>
+						<l>Volharden, als een echte oprechte Roomsche Dochter.</l>
+					</sp>
+					<sp who="#aquilin">
+						<speaker>Aertsbisschop</speaker>
+						<l>Verlosser, zijt gelooft, die d'eer behoud in 't veld,</l>
+						<l>En Englen zonder tal, en Martelgeesten stelt</l>
+						<l>Tot wachters van de Stad. wy buigen ons, wy groeten</l>
+						<l>SINTE URSUL en heur heir. wy offren aen heur voeten</l>
+						<l>Geen wieroockvat vol reuck, maer 't hart vol danckbaerheid.</l>
+						<l>My dunckt ick zie alree ons vesten uitgeleit,</l>
+						<l>Sinte Ursuls Veld daer in getrocken, en begrepen,</l>
+						<l>De Keulsche Maeghden maght van steenen t'zaemen sleepen,</l>
+						<l>En bouwen haer een kerck, zoo yverigh als oit.</l>
+						<l>Gezegent zy Klemaet, die Gods gebouw voltoit.</l>
+						<l>Drie zilvre tomben, rijck van Indiaensch gesteente,</l>
+						<l>Begraeven in 't autaer, beveelt men haer gebeente,</l>
+						<l>'t Lijck van Cyriacus, en 't lichaem van Konaen;</l>
+						<l>Waer op men, onder spel en koorgezang, voortaen</l>
+						<l>Den hemel eeuwigh danckt, met heilige offerhanden,</l>
+						<l>Daer gulde kandelaers, daer gulde lampen branden.</l>
+						<l>Noch feest noch ommegang ontsta dees Maeghdekerck;</l>
+						<l>Daer elck haer rustbed hebbe, en haer' gewyden zerck.</l>
+						<l>Men bergh al 't overschot in eene goude kamer;</l>
+						<l>En haer gedachtenis zy Keulen aengenamer</l>
+						<l>Dan endelooze schat: maer d'asch, en Maeghdestof</l>
+						<l>Zich spreiende, vereischt een grooter kerreckhof</l>
+						<l>Dan d'aldergrootste Stad. men grabbelt om dees bloemen.</l>
+						<l>De Teems zal zelf een stad naer een der Maeghden noemen.</l>
+						<l>Zoo leven, na de dood, die 't leven hier versmaên.</l>
+						<l>Zoo koomt de glori t' huis, die naer Gods glori staen.</l>
+					</sp>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
