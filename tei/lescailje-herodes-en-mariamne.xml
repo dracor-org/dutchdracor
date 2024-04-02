@@ -1,0 +1,3660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000200" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Herodes en Mariamne</title>
+				<title type="sub"/>	
+				<author>
+					<persName>
+						<forename>François Tristan</forename>
+						<surname>l'Hermite</surname>
+					</persName>
+					<idno type="wikidata">Q1451213</idno>
+					<idno type="pnd">pnd identifier (optional)</idno>
+				</author>				
+				<author>
+					<persName>
+						<forename>Katharyne</forename>
+						<surname>Lescailje</surname>
+					</persName>
+					<idno type="wikidata">Q609786</idno>
+					<idno type="pnd">134083881</idno>
+				</author>	
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL"
+						>https://www.dbnl.org/tekst/lesc002toon02_01/lesc002toon02_01_0014.php</idno>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Katharina Lescaille, Tooneelpoëzy. Amsterdam: erfg. J. Lescailje / D.
+						Rank, 1731.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="FEMALE" xml:id="alexandra">
+						<persName>Alexandra</persName>
+					</person>
+					<person sex="MALE" xml:id="benjamin">
+						<persName>Benjamin</persName>
+					</person>
+					<person sex="MALE" xml:id="sipier">
+						<persName>Sipier</persName>
+					</person>
+					<person sex="FEMALE" xml:id="dina">
+						<persName>Dina</persName>
+					</person>
+					<person sex="MALE" xml:id="twee-raadsheeren">
+						<persName>Twee Raadsheeren</persName>
+					</person>
+					<person sex="MALE" xml:id="herodes">
+						<persName>Herodes</persName>
+					</person>
+					<person sex="MALE" xml:id="jozef">
+						<persName>Jozef</persName>
+					</person>
+					<person sex="MALE" xml:id="judas">
+						<persName>Judas</persName>
+					</person>
+					<person sex="FEMALE" xml:id="mariamne">
+						<persName>Mariamne</persName>
+					</person>
+					<person sex="MALE" xml:id="narbal">
+						<persName>Narbal</persName>
+					</person>
+					<person sex="MALE" xml:id="nicanor">
+						<persName>Nicanor</persName>
+					</person>
+					<person sex="MALE" xml:id="pheroras">
+						<persName>Pheroras</persName>
+					</person>
+					<person sex="FEMALE" xml:id="salomé">
+						<persName>Salomé</persName>
+					</person>
+					<person sex="MALE" xml:id="sohemus">
+						<persName>Sohemus</persName>
+					</person>
+					<person sex="FEMALE" xml:id="thamar">
+						<persName>Thamar</persName>
+					</person>
+					<person sex="MALE" xml:id="thares">
+						<persName>Thares</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2023-06-28">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1685">
+				<desc/>
+			</event>
+			<event type="premiere" when="1685">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+
+			<docTitle>
+				<titlePart>Herodes en Mariamne treurspel.</titlePart>
+				<titlePart>uit het fransch van den heere F. TRISTAN L'HERMITE,</titlePart>
+				<titlePart>door KATHARYNE LESCAILJE.</titlePart>
+			</docTitle>
+
+			<div type="dedication">
+
+				<head>Op Herodes en Mariamne, <lb/>het treurspel van juffr. Katharyne
+					Lescailje.</head>
+
+				<lg>
+					<l>De traanen hangen aan den Diademe. 'T bloed</l>
+					<l>Ligt nergens liever als op koninglyk scharlaken.</l>
+					<l>De rouw set gaaren in een gulden laars haar voet,</l>
+					<l>En soekt den wedergalm in hoogverwulfte daken.</l>
+					<l> </l>
+					<l>Dit toonde Katharyn, op treurstoffe afgerecht,</l>
+					<l>In Agamemnon; die, terwyl hem tot Mycenen,</l>
+					<l>Den staatzytabbaard aan de schouders wierd gehecht,</l>
+					<l>Syn ingebeelde vreugd sag, op een wenk, verdweenen.</l>
+					<l> </l>
+					<l>Dit tuigde sy met den ontroerden Genserik;</l>
+					<l>Die, voor een korte poos gelukkig, 's minnaars laagen,</l>
+					<l>En 's muiters driften moest verswelgen, en, met schrik,</l>
+					<l>Twee moorden sien in 't hof van 't weelige Karthage.</l>
+					<l> </l>
+					<l>Eerlang bevestigd sy dit met den Poolschen vorst,</l>
+					<l>Met Wenseslaus; die verliest syn beide zoonen,</l>
+					<l>Jaagt hy de sachtheid van een vader uit de borst,</l>
+					<l>Om 's regters hardheid, in de broedermoord, te toonen.</l>
+					<l> </l>
+					<l>Maar nimmer schreef sy dit met kostelyker int</l>
+					<l>Als Mariamnes bloed, op ons Toneelpilaaren:</l>
+					<l>Terwyl se den tieran, verbolgen,en ontsind,</l>
+					<l>En raasend, door berouw brengt weder aan 't bedaaren.</l>
+					<l> </l>
+					<l>Het suiver bloed spreekt hem met purp're woorden, aan:</l>
+					<l>So teder dat ook self de aanschouwer word bewoogen</l>
+					<l>Om Mariamne, met syn traanen, by te staan:</l>
+					<l>Hy sit en krimpt van schrik, en steend van mededoogen.</l>
+					<l> </l>
+					<l>Wie siet dan, Katharyn, uw hersenschildery,</l>
+					<l>En roept (hoe seer de nyd daar tegen tragt te kryten)</l>
+					<l>Niet vol verwondering, gulhartig uit met my:</l>
+					<l>Wat letterbeeld! dien moet noch vuur noch water slyten!</l>
+					<l> </l>
+					<l>Ja, daar de Tyd het beeld beet van 't vermolmd panneel,</l>
+					<l>Het geen Apelles op de blyde tong deê leeven</l>
+					<l>Van die de kracht kon van een vast en stout pinseel;</l>
+					<l>Herodes sy voor een gantsche eeuwigheid geschreeven!</l>
+					<l> </l>
+					<l>Dit letterbeeld zal, in der Musen tempel staan,</l>
+					<l>Als verf en doek al zyn versleeten en vergaan.</l>
+				</lg>
+				<p>Lud: Smids, M.D.</p>
+			</div>
+
+
+			<castList>
+				<head>Vertooners.</head>
+				<castItem corresp="#herodes">
+					<role>Herodes.</role>
+				</castItem>
+				<castItem corresp="#mariamne">
+					<role>Mariamne, Gemaalinne } van Herodes.</role>
+				</castItem>
+				<castItem corresp="#salomé">
+					<role>Salomé, Zuster } van Herodes.</role>
+				</castItem>
+				<castItem corresp="#alexandra">
+					<role>Alexandra, Moeder van Mariamne.</role>
+				</castItem>
+				<castItem corresp="#pheroras">
+					<role>Pheroras, Broeder } van Herodes.</role>
+				</castItem>
+				<castItem corresp="#sohemus">
+					<role>Sohemus, Hofbestierder } van Herodes.</role>
+				</castItem>
+				<castItem corresp="#judas">
+					<role>Judas, Schenker van Herodes.</role>
+				</castItem>
+				<castItem corresp="#dina">
+					<role>Dina, Staatjuffer van Mariamne.</role>
+				</castItem>
+				<castItem corresp="#thamar">
+					<role>Thamar, Vertrouwde van Salomé.</role>
+				</castItem>
+				<castItem corresp="#thares">
+					<role>Thares, Hoofdman der Lyfwacht.</role>
+				</castItem>
+				<castItem corresp="#nicanor">
+					<role>Nicanor, Kamerdienaar van Mariamne.</role>
+				</castItem>
+				<castItem corresp="#benjamin">
+					<role>Benjamin, Edelman van staat van Alexandra.</role>
+				</castItem>
+				<castItem corresp="#narbal">
+					<role>Narbal.</role>
+				</castItem>
+				<castItem corresp="#jozef">
+					<role>Jozef.</role>
+				</castItem>
+				<castItem corresp="#sipier">
+					<role>Sipier.</role>
+				</castItem>
+				<castItem corresp="#twee-raadsheeren">
+					<role>Twee Raadsheeren.</role>
+				</castItem>
+
+				<p>Het TOONEEL is te Jeruzalem,</p>
+				<p>in 't Hof van Herodes.</p>
+			</castList>
+		</front>
+		<body>
+			<div n="1" type="act">
+
+				<head>Herodes en Mariamne, treurspel. </head>
+				<head>Eerste bedryf.</head>
+				<div n="1" type="scene">
+					<head>Eerste tooneel.</head>
+					<sp who="#herodes">
+						<speaker>Herodes, schielyk ontwaakende.</speaker>
+						<l>O Moeijelyk Gespook, dat al myn rust durft stooren!</l>
+						<l>Vernieuw uw wreede reên nooit weder aan myne ooren:</l>
+						<l>Ga daar 't is eeuwig nacht; nacht vol van nyd en haat:</l>
+						<l>Laat af te vloeken op myn leeven, kroon en staat,</l>
+						<l>'k Weet, zonder u, de kunst van volken te regeeren,</l>
+						<l>En laat myn ryksgezagh bepaalen, noch braveeren.</l>
+						<l>'t Geluk heeft aan myn troon te vast een grond gelegt,</l>
+						<l>Om 't leed te vreezen dat uwe afgunst my voorzegt.</l>
+						<l>'k Zal met dees arm myn kroon beschermen op myn hairen:</l>
+						<l>En 't krygsgeluk my voor alle overval bewaaren.</l>
+						<l>Maar hoe! ik zweet van angst: myn kracht is afgemat.</l>
+						<l>O welk een stryd heb ik in deezen slaap gehad,</l>
+						<l>Om uit den doolweg van zo naar een droom te koomen,</l>
+						<l>Waar door ik ben van schrik en gramschap ingenomen!</l>
+						<l>Myn Lyfwacht!</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>Tweede tooneel.</head>
+					<stage>Herodes, Thares Hoofdman der Lyfwacht.</stage>
+					<sp who="#thares">
+						<speaker>Thares.</speaker>
+						<l>Wat 's uw wil, myn Heer?</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Ga daadlyk heen . . .</l>
+						<l>Maar 'k zie Pheroras en Sohemus herwaards treên.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>Darde tooneel.</head>
+					<stage>Herodes, Pheroras, Sohemus, Thares.</stage>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Helaas!</l>
+					</sp>
+					<sp who="#sohemus">
+						<speaker>Sohemus.</speaker>
+						<l>Wat smart, ô Vorst! wat schrik ontroert uw zinnen?</l>
+						<l>Wie kan uw wakk'ren moed vervaaren? wie verwinnen?</l>
+						<l>Welk een zwaarmoedigheid speelt in uw aangezicht?</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>De droeve duisterheid wykt pas voor 't blyde licht:</l>
+						<l>Dat groet al 't aardryk met een aangenaamen morgen,</l>
+						<l>En ik zie reeds uw ziel ontrust van angst en zorgen,</l>
+						<l>Daar gy in vreê bezit een onbepaald gebied.</l>
+						<l>Wat schielyke oorsprong schiep uw onverwacht verdriet?</l>
+						<l>Men zie dat gy noch rustte, als ge in het hof liet hooren</l>
+						<l>Een naar geroep.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>'k Beken, ik kon myn schirk niet smooren.</l>
+						<l>'k Ben schielyk en ontroerd zo daadelyk ontwaakt,</l>
+						<l>Door zulk een naar gezicht, dat my bekommerd maakt,</l>
+						<l>En myn verbaasden geest veel rampspoed komt voorspelden.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>De bangste droomen, die men denken kan of melden,</l>
+
+						<l>Behoorden nooit uw hart met angsten te overlaân;</l>
+						<l>Dat heldenhart, dat elk dwingt door zyn oorlogsdaân,</l>
+						<l>En nimmer vreest, maar tart de grootste lyfsgevaaren.</l>
+						<l>Dit zyn gezichten, die voor eeuwen lang al waren</l>
+						<l>Bedriegeryën vol van ingebeelden schrik.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Die droom benauwt myn hart. Op yder oogenblik</l>
+						<l>Schynt myn verbeelding hem voor myn gezicht te maalen,</l>
+						<l>Met al de afgryslykheên en het gevolg der kwaalen.</l>
+						<l>Wat wacht ik ramp op ramp uit deeze ontsteltenis!</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Wie weet iets zekers van 't geen noch toekoomende is?</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Als onze Broeder, die getrouwe, ging verlooren,</l>
+						<l>Door 't ongelukkig lot, zyn 's leevens eind beschooren,</l>
+						<l>Wierd ik gewaarschuwt van zyn ongeval en nood,</l>
+						<l>En op een zelve wys verwittigt van zyn dood.</l>
+						<l>Ik zag op d' oever des Jordaanstrooms de yslykheden,</l>
+						<l>Die my voor af't verhaal dier droeve tyding deeden.</l>
+						<l>De gantsche waereld word reeds voor myn hart te bang,</l>
+						<l>Daar ik gedreigd word met een droeven ondergang.</l>
+					</sp>
+					<sp who="#sohemus">
+						<speaker>Sohemus.</speaker>
+						<l>Hoe! zal uw dapp're ziel, uw oorlogsyver beeven,</l>
+						<l>En schrikken voor een droom? gy, die, zo hoog verheven,</l>
+						<l>Kunt de onwaardeerb're vrucht van uw onsterf'lyke eer</l>
+						<l>Gerust genieten, daar 't geluk u volgt, myn Heer.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Ik zal met deezen droom. 't leed dat ons schynt beschooren,</l>
+						<l>En d'oorsprong van myn schrik en vrees u laaten hooren. . . .</l>
+						<l>Maar Salomé komt hier van pas: zy zal misschien</l>
+						<l>Met haaren schrand'ren geest 't verborgen kunnen zien</l>
+						<l>Van dit gezicht, dat stout myn staat dreigde en myn leeven.</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>Vierde tooneel.</head>
+					<stage>Herodes, Salome, Pheroras, /Sohemus, Thares.</stage>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>'k Hoorde uw verbaastheid, die my herwaarts heeft gedreeven;</l>
+						<l>En wensch de omstandigheên van 't nachtspook te verstaan,</l>
+						<l>Schoon 't vaak bevonden wierd een yd'len wind en waan,</l>
+						<l>Waar van men eindelyk zich zelven vind bedroogen,</l>
+						<l>Wanneer de reden trekt den nevel van onze oogen.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Hoor dan, maar stoor my niet in 't droevige verhaal.</l>
+						<l>Wanneer het daglicht liet zyn glans van 's hemelszaal</l>
+						<l>Op 't kwynende aardryk zien, de zon langs de oosterkimmen</l>
+						<l>Uit zee verryzende, de dampen op deed klimmen</l>
+						<l>Naar onze zinnen, als de droomen met meer licht,</l>
+						<l>En minder duisterheid voorkoomen ons gezicht;</l>
+						<l>Vond ik my zelf, na veel verwarringen en wegen,</l>
+						<l>In 't akelykste bosch ter zyde 't spoor geleegen,</l>
+						<l>Het welk een woonplaats van de vrees en droefheid scheen,</l>
+						<l>Waar in een heesche stem brak door de schaduw heen,</l>
+						<l>Die Mariamne riep met doodelyke zuchten.</l>
+						<l>'k Vloog, daar ik d' oorsprong dacht te zien van die geruchten,</l>
+						<l>Op 't spoor der Liefde, die myn blaakende yver bood</l>
+						<l>Haar vleugelen te leen in deezen bangen nood,</l>
+						<l>Om haastiger te zien dat Pronkbeeld aller Vrouwen.</l>
+						<l>'k Wierd aan een poel gebragt, afschuw'lyk in 't aanschouwen;</l>
+						<l>Wiens bleeke water was gantsch rood geverfd met bloed.</l>
+						<l>Een felle donderslag, zo schrikk'lyk als verwoed,</l>
+						<l>Viel uit den hemel, van den bliksem voortgedreeven.</l>
+						<l>Al 't aardryk loeide, en scheen te scheuren onder 't beeven.</l>
+						<l>Aan deezen poel, omringd van wanhoop, angst en schrik,</l>
+
+						<l>(Noch ryst my 't hair te berg op yder oogenblik)</l>
+						<l>Is Aristobulus voor myn gezicht verscheenen.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Op dit verhaal is myn kloekmoedigheid verdweenen.</l>
+						<l>Dit 's geen gemeene droom. ô neen! ik leefde niet,</l>
+						<l>Zo die verschyning my waar in uw plaats geschied.</l>
+					</sp>
+					<sp who="#sohemus">
+						<speaker>Sohemus.</speaker>
+						<l>Het is, en blyft een droom.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>De droomen, die vervaaren. . . . .</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Ach! hoor het overige, en wil u dan verklaaren.</l>
+						<l>Ik zag zyn hoofd hier niet met 's Konings hoed versierd,</l>
+						<l>Noch met die pracht, gelyk hy 't hoogfeest heeft geviert,</l>
+						<l>Wanneer hy 't Joodendom kon met zyn glans behaagen,</l>
+						<l>'t Geen hem toejuichte dat hy waardig was te draagen,</l>
+						<l>Om zyne heerlykheid, den myter en de kroon.</l>
+						<l>Ik zag in hem niet meer dat jeugdelyke schoon.</l>
+						<l>Zyn stem deed eindelyk my kennis van hem krygen.</l>
+						<l>'t Was of hy eerst scheen uit het water op te stygen,</l>
+						<l>Zyn ligchaam was heel dik van 't ingezwollen nat,</l>
+						<l>En 't hair hing om zyn hoofd verward en vuil beklad.</l>
+						<l>Zyne oogen, welkers vuur gebluscht was van de stroomen,</l>
+						<l>Waar uit de dood had zo veel vriend'lykheid genoomen,</l>
+						<l>Beschouden noch, zo 't scheen, het ongenaakbaar licht.</l>
+						<l>'t Geronnen, 't vuile bloed lag op 't schoone aangezicht.</l>
+						<l>Zyn mond, hoe doodsch geklemd, heeft echter zich ontslooten,</l>
+						<l>En op myn hoofd een vloed van last'ren uitgegooten.</l>
+						<l>Met welk een wreed verwyt vermengt hy, bits en naar,</l>
+						<l>Een stroom van bloedige scheldwoorden door elkaâr,</l>
+						<l>En dorst myn hart met veel vervloekingen bestryden,</l>
+						<l>My geevende de schuld van zyn, en 's Vaders lyden,</l>
+
+						<l>En 't kwaad van d'oorelog, by ons gevoed voorheen!</l>
+						<l>In 't einde is hy zo ver van 't spoor des pligts getreên,</l>
+						<l>Dat hy, om my te slaan, zyn arm heeft uitgesteeken.</l>
+						<l>Maar, als ik met myn hand docht deeze spyt te wreeken,</l>
+						<l>Vond ik, in plaats van hem, niets als een yd'le lucht:</l>
+						<l>En dus, vermoeid van vrees en schrik'lyke ongenucht,</l>
+						<l>Kwam ik al schreeuwende uit myn bangen slaap te ontwaaken.</l>
+						<l>Helaas! wat dunkt u van deeze ongehoorde zaaken?</l>
+						<l>Wat zegt nu Salomé?</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Ik ben'er van ontsteld.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Myn hart voelt, van uw vrees, zich zelf in zorg bekneld.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Dit 's een waarschuwing van den Hemel u gezonden.</l>
+					</sp>
+					<sp who="#sohemus">
+						<speaker>Sohemus.</speaker>
+						<l>De Hemel hield zyn magt nooit aan een droom verbonden.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Die houd nochtans myn geest bekommerd en verward.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Uw staat word licht gedreigt met nieuwigheid of smart.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>'t Geen 's Hemels voorbeschik bestemt, kan niemand weeren.</l>
+						<l>Een onvertsaagde ziel, die geen gevaar kan deeren,</l>
+						<l>Volgt altyd blindelings 't geen de Oppermagt besloot.</l>
+						<l>Men kan zich nimmermeer bevryden in den nood</l>
+						<l>Van 't onvermyd'lyk lot, dat alles kan gebieden.</l>
+						<l>Men loopt'er vaak naar toe wanneer men 't wil ontvlieden.</l>
+						<l>Een Held die van 't geluk ten toppunt word gevoert,</l>
+						<l>Is als een schip, dat, van het onweêr lang beroerd,</l>
+						<l>Zyn schade ontworsteld zynde in allerlei gevaaren,</l>
+						<l>Noch buigen moet voor 't lot, zo los gelyk de baaren,</l>
+
+						<l>Terwyl 't vergaat, daar 't voor den nood behouden scheen.</l>
+						<l>Maar hoe! zal dan myn hart meê vreezen? Neen, ô neen!</l>
+						<l>'k Sta al te zeker, en ik ben te hoog verheeven.</l>
+						<l>Daar 's niets het geen myn staat kan krenken noch myn leeven</l>
+						<l>Ten zy de Hemel valle, en my verplette; ik zal,</l>
+						<l>Ik kan niet eêr vergaan, dan door een ongeval</l>
+						<l>Dat eerst de waereld zal het onderste opwaarts keeren.</l>
+						<l>Al de Asmooneêrs zyn dood: wat kan ik meer begeeren?</l>
+						<l>'k Bezit als Oppervorst myn nieuwverkreegen troon,</l>
+						<l>En onder myn lauwrier behoude ik hoofd en kroon,</l>
+						<l>In welker schaduwen en onverwelkb're bladen</l>
+						<l>My nimmer staatsörkaan, of bliksemvuur kan schaaden.</l>
+						<l>Augustus zelf heeft my zyn bystand toegezeid.</l>
+						<l>Ik vind in hem, tot my, zo veel geneegenheid,</l>
+						<l>Dat ik myn lasteraars daar veilig kan verwinnen.</l>
+						<l>En kun, die meesters zyn van 's Vorsten gunst en zinnen,</l>
+						<l>Zyn myn geschenken als myn deugd zo aangenaam.</l>
+						<l>Ik heb geheimen, waard aan myn doorluchte faam,</l>
+						<l>Waar door de vryheid der Jordaan, alom gepreezen,</l>
+						<l>Den Tyber niet meer vreest, noch hoeft verslaaft te wezen.</l>
+						<l>'k Ben overal, om 't lot te tarten met myn magt,</l>
+						<l>Genoeg voorzien met eer, met dapperheid en kracht.</l>
+						<l>Myn eed'le ziel staat pal, en weet van geen bezwyken.</l>
+						<l>'k Braveer de magtige en onwinb're Koningryken.</l>
+						<l>Dat vry Armenië, dat Parth en Arabier</l>
+						<l>Myn grenzen dreigen door 't verwoestende oorlogsvier;</l>
+						<l>Ik zal hen zelf met myn geduchte magt ontmoeten:</l>
+						<l>Zy zullen schandelyk hun wreede aanslaagen boeten,</l>
+						<l>Daar ik ze in een benaauwde en jammerlyken stand</l>
+						<l>Te rug zal dryven, en vervolgen in hun land;</l>
+						<l>Dier vorsten hoogmoed gantsch verneed'ren en verpletten,</l>
+						<l>Tot zy zelf koomen om te ontfangen myne wetten.</l>
+
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Zy kennen al te wel uw moed en kloek beleid.</l>
+						<l>Uw jeugd gaf hun al proef van uwe dapperheid.</l>
+						<l>Zy zullen tot hun schaâ noit tarten uw vermoogen,</l>
+						<l>En hunne staatzucht zal wel elders oorelogen.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Ik gespte 't harnas aan, eêr ik was twintig jaar;</l>
+						<l>En, tartende de dood in 't midden van 't gevaar,</l>
+						<l>Heb ik, op honderden van bloedige oorlogstogten,</l>
+						<l>De volkeren zo licht verwonnen, als bevochten.</l>
+						<l>Wat heb ik slag op slag in 't bloedig veld van Mars</l>
+						<l>Zeeghaftig uitgevoert, en onder 't staalgeknars</l>
+						<l>Al sterkten, muuren, steên, en landen overvallen,</l>
+						<l>Begraaven onder 't puin van hun gesloopte wallen!</l>
+						<l>Gelyk op 't akkerveld van Ceres, overlaân</l>
+						<l>Met zegen, dicht begroeid de vruchtb're halmen staan,</l>
+						<l>Zag ik de spiessen, vaak op my geveld, voor oogen,</l>
+						<l>Daar duizend splinteren rondom my heenen vloogen,</l>
+						<l>In 't schriklyk krygsgeschreeuw, die 'k zelf heb afgemaait,</l>
+						<l>En 't omgewroete veld met dooden dicht bezaait.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Waar vind men wond'ren, die opweegen uwe daaden?</l>
+						<l>De groote Cezar, hoe versierd met lauwerblaaden,</l>
+						<l>En aangebeden als Verwinnaar van 't Heeläl,</l>
+						<l>Bedreef veel minder daân, als gy, door 't krygsgeval.</l>
+						<l>Wat zytge al moeite, nyd, en tegenstand te boven!</l>
+						<l>Uw gantsche leeven is vol wond'ren, waard te looven.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>'k Beken 't: maar myn geluk waar grooter, zo myn hart</l>
+						<l>Niet wierd gepynigt van een wreede minnesmart,</l>
+						<l>Van angsten, die myn geest steeds onmeêdoogend prangen,</l>
+						<l>Daar ik geduurig schyn verwonnen en gevangen:</l>
+
+						<l>Of zo 'k een wreede kon bekroonen, welker zin,</l>
+						<l>Helaas! al myn geluk weêrstreeft, en myne min.</l>
+						<l>O onvolmaakt geluk! ô strenge afkeerigheden!</l>
+						<l>De liefde, en 't goed geval verzellen myne schreeden:</l>
+						<l>Maar de eene drukt myn ziel, daar de ander my verheugt.</l>
+						<l>De een geeft dat alles buigt voor myne heldendeugd,</l>
+						<l>En de and're onthoud me een hart, welk ik steeds zal begeeren;</l>
+						<l>Een hart, onmoog'lyk met myn magten te overheeren,</l>
+						<l>Welks ligchaam my behoort, waar in ik voel hoe 't zwoegt.</l>
+						<l>O blinde Min! zie dat gy beter zaamen voegt</l>
+						<l>De harten, wilt gy dat men zal uw outers sieren:</l>
+						<l>Geef meerder roozen, en wat minder lauwerieren:</l>
+						<l>Maak dat, met meer geluk ik minder ben vermaard,</l>
+						<l>En meerder werd bemint, en min gevreest op aard'.</l>
+						<l>Ach! myn zwaarmoedigheid heeft de allergrootste reden,</l>
+						<l>Al myn vermoogen en myn majesteit is heden,</l>
+						<l>Gelyk de schaduwen en droomen. Nu myn magt</l>
+						<l>Door al de waereld word geroemt, gevreest, geächt,</l>
+						<l>Brande ik van zulk een vuur, dat my noch zal verteeren.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Na dat men in uw hof voor Koningin zag eeren</l>
+						<l>De fiere Mariamne, onwaardig uwe min,</l>
+						<l>En aangebeên van u, gelyk een Afgodin,</l>
+						<l>Zyn daar geduurig niet dan rustelooze plaagen.</l>
+						<l>Men ziet niets van u beide als schreijen, zuchten, klaagen.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Myn klagten hebben meer rechtvaardigheid en reên</l>
+						<l>Dan haare traanen, die zo zwaare moeilykheên</l>
+						<l>Verwekken in myn ziel. Waarom of zy haar straalen,</l>
+						<l>O Hemel! voor myn oog met zo veel glans laat daalen?</l>
+						<l>Moet dan haar hart myn min steeds haaten, gantsch versteend?</l>
+						<l>En twee gepaarden zyn van zinnen onverëend,</l>
+
+						<l>Ja, van verschillend' aart, elkaâr geduurig vreezen?</l>
+						<l>Moet zy gevoeleloos, en ik gevoelig wezen?</l>
+						<l>Zy zyn als ys zo koud, en ik zo heet als vier?</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Na datge in d'oorelog verkreegt den lauwerier,</l>
+						<l>Zo zwigtge in vrede voor d'onzichtb'ren stryd en slaagen</l>
+						<l>Der Liefde, daar al de aarde u deernis toe moet draagen.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>De sterksten hadden lang voor my zo zwak een stryd,</l>
+						<l>'t Zy in voorleedene eeuw, of't zy in onzen tyd:</l>
+						<l>De Min is eigen aan de Helden: voor haar schichten</l>
+						<l>Moet zelf de dapperheid, door dwang des noodlots, zwichten.</l>
+						<l>De Held, wiens groote kracht in 't golvend hair bestond,</l>
+						<l>Boog voor dit lokaas, 't welk hem in haar strikken bond.</l>
+						<l>De kleine Harder, tot een magtig Vorst verheven,</l>
+						<l>Was meer verliefd dan ik, op 't einde van zyn leeven.</l>
+						<l>Anthonius boog zich gewillig in dit juk.</l>
+						<l>Door minder glans verblind, verliet hy zyn geluk,</l>
+						<l>En volgde Cleopatre in al haar spoorloosheden,</l>
+						<l>Waar door hy schipbreuk in zyn glory heeft geleden.</l>
+						<l>Myn liefde is vry van vlek, van misdaad, schade en schand'.</l>
+						<l>'t Vuur dat myn boezem blaakt, is een gewyde brand.</l>
+						<l>'k Bemin met reden, maar het geen ik moet beminnen.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Indien de Koningin gevoelde in haare zinnen</l>
+						<l>Zo groot een min tot u, gelyk gy tot haar doet,</l>
+						<l>Elk een weêrsprak niet, maar rechtvaardigde uwen gloed.</l>
+						<l>'t Is onvoorzichtig in uw boezem op te kweeken</l>
+						<l>Een slang, een Vyandin, die u naar 't hart zal steeken,</l>
+						<l>Welke al uw zoet onthaal zo bitter reeds vergeld,</l>
+						<l>Dat zy geduurig op uw daaden mort en scheld.</l>
+
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Ach! hoe berispelyk, myn Heer, is zulk een blaaken!</l>
+						<l>Hoe kunt ge in 't streelen van een rots u zelf vermaaken?</l>
+						<l>Wiens springaâr dag en nacht een vloed van traanen geeft,</l>
+						<l>En geen gevoelen van uw teed're liefde heeft.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Zo 't god'lyk Beeld, dat my gevoelig 't hart doorgriefde,</l>
+						<l>Een rots geächt word tot verkleining van myn liefde,</l>
+						<l>'t Is een albaste rots; een klip, waar in natuur</l>
+						<l>Vormde alle schoonheid t'zaam, door haar vermoogend vuur,</l>
+						<l>Om door zo eed'len glans en gloed myn borst te ontvonken.</l>
+						<l>De diamantstraal zwicht voor haar vergoode lonken,</l>
+						<l>En geen robynen zyn zo rood als haare mond.</l>
+						<l>De zon pronkt nooit zo schoon in vroeger morgenstond,</l>
+						<l>Als de edele sieraân van lelyën en roozen</l>
+						<l>Volmaakt in d' omtrek van dat lieflyk aanschyn bloozen.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Men moet een Schoone, hoe beminlyk van gelaat,</l>
+						<l>Hoe aangenaam voor 't oog in 's leevens dageraad,</l>
+						<l>Versmaân, wanneer zy niet zo schoon van ziel en zinnen</l>
+						<l>Als ligchaam is: men moet de deugd het meest beminnen.</l>
+						<l>Hoe schoon een trotse ook zy, ze geeft noch vreugd, noch goed.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>De wreedheid, die zy heeft spruit van haar kuisch gemoed,</l>
+						<l>En met haar fierheid heeftze ook goedheid en veel deugden.</l>
+						<l>Toen de Oorlogsheiren van de Parthen zich verheugden,</l>
+						<l>Als zy Hyrcanus en Phazelus, spyt hun magt,</l>
+						<l>Gevangen namen, waar ik zelf ten val gebragt,</l>
+						<l>Zo zy niet, door haar trouw, my had behouden 't leeven:</l>
+						<l>'k Was reeds myn kroon kwyt, en Antigonus verheeven.</l>
+						<l>Ja, deeze weldaad nam myn hart heel teder in.</l>
+						<l>Hier door verschoon ik licht den haat der Koningin.</l>
+
+						<l>Haar trotsheid is my by haar schoonheid vaak gebleeken.</l>
+						<l>Doch waar zyn roozen daar de doorenen niet steeken?</l>
+						<l>En 't is rechtvaardig, ('t geen ik billyk zeggen mag)</l>
+						<l>Dat zy houd onder u haar luister en gezagh.</l>
+						<l>Zy spoot uit Koningen en duizend dapp're Helden,</l>
+						<l>Ja van die Vorsten welke aan ons de wetten stelden.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Die neemt zy wel in acht, terwyl dat zy hen wreekt,</l>
+						<l>En van ons zo veracht, als van haar slaaven, spreekt.</l>
+						<l>Wy zouden ons geenszins om deeze smaad verstooren,</l>
+						<l>Ten zy men zulke reên kwam brengen aan onze ooren,</l>
+						<l>Waar uit men licht begrypt hoe dat ondankbaar hart</l>
+						<l>Uw ongeval verhaast, en uw vermoogen tart.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Wy kunnen zelden veel geloof van waarheid geeven</l>
+						<l>Aan 't overdraagen van de geen die dienstbaar leeven:</l>
+						<l>Gelyk 't belang hen eerst tot laffe vleijers maakt,</l>
+						<l>Zo maakt ook 's Vorsten oor, dat steeds mistrouwend waakt</l>
+						<l>Voor zyn behoudenis, hen weêr tot loogenaaren.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Zy, die my het geheim der Koningin verklaaren,</l>
+						<l>Zyn zonder hart of geest om loogenen te smeên.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Maak ons dan iets van haar verraadery gemeen.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Zy spreekt zo smaadelyk van u, en al uw zaaken,</l>
+						<l>Dat ik het zonder schroom u niet bekend kan maaken,</l>
+						<l>En zonder misdaad u 't niet laaten onbekend.</l>
+						<l>Zy noemt u de oorzaak van haar klaagen en elend',</l>
+						<l>Een Rykstyran, die wreed haar Vrienden dorst vermoorden;</l>
+						<l>En met een groot getal van smaadelyke woorden</l>
+						<l>Hitst zy haar gramschap op, om door een fellen haat</l>
+
+						<l>'t Gemeen te noopen tot een oproer in uw staat.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Geheel Judea moet voor myn vermoogen schroomen,</l>
+						<l>En 't vind geluk in myn geboden naar te koomen.</l>
+						<l>Men kan 't niet lichtelyk afleiden van zyn pligt;</l>
+						<l>En 't geen gy van haar zegt geloove ik niet zo licht.</l>
+						<l>Ik kenne Mariamne, en weet dat haar gedachen</l>
+						<l>Te oprecht zyn en te wys om naar dit kwaad te trachten.</l>
+						<l>O neen! zy voerde nooit zo spoorelooze reên.</l>
+						<l>Ik stoor my hier niet aan, 't zyn onwaarschynlykheên.</l>
+						<l>Indien de Vorsten steeds 't aanbrengen van hun vrinden</l>
+						<l>Geloofden, het bedrog zoude altoos ingang vinden,</l>
+						<l>En landen, hof, en volk in 't vuur van twist vergaan.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>In dit geval, om zich voorzichtig te beraân,</l>
+						<l>Zo moet men alles niet verachten noch gelooven.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Die fiere, welker glans streeft allen glans te boven,</l>
+						<l>Zal ik haast zien; en zo ze al schuldig was aan 't kwaad,</l>
+						<l>Vergaf ik om een kus haar de onbedachte daad.</l>
+						<l>Schoon zy dit had gezegt, het zou my niet verstooren.</l>
+						<stage>Tegen Sohemus.</stage>
+						<l>Ga heen, Sohemus, laat myn Mariamne hooren,</l>
+						<l>Dat ik haar wensch te zien, en in 't aanloklyk licht</l>
+						<l>Van haar schoone oogen te verheugen myn gezicht.</l>
+						<l>Zeg dat myn ziel, genoopt van 't minnelyk verlangen,</l>
+						<l>Telt de oogenblikken om haar in myn arm te ontfangen.</l>
+						<l>Ga, let wel op haar reên, voor al op haar gelaat.</l>
+						<l>'k Verneem haar antwoord als ik weêrkom uit den Raad.</l>
+					</sp>
+					<sp who="#sohemus">
+						<speaker>Sohemus.</speaker>
+						<l>'k Zal haar uw liefde, en last getrouw bekend gaan maaken.</l>
+					</sp>
+				</div>
+				<div n="5" type="scene">
+					<head>Vyfde tooneel.</head>
+					<stage>Salome, Pheroras.</stage>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>O Hemel, welk een liefde!</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Ach! welk een spoorloos blaaken?</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Hy schynt betoverd en vergiftigd, ons ten spyt.</l>
+						<l>Maar 't is noodzaakelyk, met zorg, met kunst en vlyt,</l>
+						<l>Die toveryën op het spoedigst te verjaagen.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Mevrouw, zo groot een liefde is een der zwaarste plaagen.</l>
+						<l>Om die te heelen is het best naar tyd gewacht;</l>
+						<l>Want alle moeite is nu vergeefs en zonder magt,</l>
+						<l>Dewyl dit snood vergif vermeestert al zyn reden.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Laat, daar de magt ontbreekt, de list in arbeid treden.</l>
+						<l>'k Haat Mariamne met een doodelyken haat,</l>
+						<l>Die geenszins eêr, dan met haar leeven, my verlaat.</l>
+						<l>De hoon die ons geslacht moet van haar trotsheid draagen,</l>
+						<l>Roept wraak, en dreigt haar hoofd met onweêrstaanb're slaagen.</l>
+						<l>Kom, laaten wy ons zelf hier nader op beraân.</l>
+						<l>Ik zal haar ondergang verhaasten, of vergaan.</l>
+					</sp>
+					<p>Einde van het Eerste Bedryf.</p>
+				</div>
+			</div>
+			<div n="2" type="act">
+
+				<head>Tweede bedryf.</head>
+				<div n="1" type="scene">
+					<head>Eerste tooneel.</head>
+					<stage>Mariamne, Dina.</stage>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Ik volgde uw raad, zo zy was reed'lyk aan myn zinnen.</l>
+						<l>Hoe! wilt gy dat ik zal een wreed Gedrocht beminnen,</l>
+						<l>Noch van 't ombrengen van de mynen heel bebloed?</l>
+					</sp>
+					<sp who="#dina">
+						<speaker>Dina.</speaker>
+						<l>Zo gy hem niet bemint, veins slechts dat gy het doet.</l>
+						<l>In die gelegenheid behoort ge u in te toomen.</l>
+						<l>Het veinzen is een deugd, wanneer men is gekoomen</l>
+						<l>Aan 't eind der hoop, om niet met openhartigheid</l>
+						<l>Te kunnen gaan waar heen dat ons de reden leid.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Hoe! zoude ik veinzen, daar ik ben zo hoog gebooren,</l>
+						<l>Zo vry, dat niemand my berispen kan noch stooren,</l>
+						<l>En, zonder dat ik ooit misbruik zo groot een magt,</l>
+						<l>Myn wil alleen wat recht en eerlyk is betracht?</l>
+						<l>Zou dan myn hart zich zelf verraaden, en verzaaken?</l>
+						<l>Verdiensten zoeken, om my aangenaam te maaken</l>
+						<l>Aan 't onmeêdogende gezicht van dien Barbaar,</l>
+						<l>Alom gevloekt, gehaat, een wreeden Moordenaar</l>
+						<l>Van myn beroemd geslacht?</l>
+					</sp>
+					<sp who="#dina">
+						<speaker>Dina.</speaker>
+						<l>Wil toch zo luid niet klaagen.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>O neen! schoon 't ligchaam moet de slaaverny verdraagen,</l>
+						<l>De ziel is vry; die leeft gerust en buiten pyn.</l>
+						<l>Men dwing 't gemoed van hun, die eeuwig dienstbaar zyn.</l>
+						<l>'k Ontfing te heerlyk uit doorluchte Vorsten 't leeven,</l>
+
+						<l>Dan dat myn hart ooit zou voor Dwingelanden beeven,</l>
+						<l>En zich aan hun belang verslaaven, zo gehaat;</l>
+						<l>En anders zyn van hart en zinnen, dan gelaat.</l>
+						<l>Hy plaag my met zyn haat, of min; 'k wil alles derven,</l>
+						<l>Om als een Koningin te leeven, en te sterven.</l>
+					</sp>
+					<sp who="#dina">
+						<speaker>Dina.</speaker>
+						<l>Mevrouw, het hof is vol verspieders: dag en nacht</l>
+						<l>Slaan zy met list op uw bedryf en woorden acht:</l>
+						<l>Zy slaapen nimmer, maar men ziet hen naarstig waaken,</l>
+						<l>Daar 't u, of uw geslacht maar eenigzins mag raaken.</l>
+						<l>De ontrouwe Salomé hield tot die boosheid aan</l>
+						<l>Staatdochteren en knechts, die onöphoud'lyk staan</l>
+						<l>Bedekt voor uw vertrek, belaagende al uw daaden,</l>
+						<l>Waar door ze u, en uw deugd steeds by den Vorst verraaden.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Men stoor'zich hier niet aan. Dat zy me altyd bespiên,</l>
+						<l>Zy zullen nooit van my iets hooren, noit iets zien</l>
+						<l>'t Geen hun behaagen zal.</l>
+					</sp>
+					<sp who="#dina">
+						<speaker>Dina.</speaker>
+						<l>Hebt gy weêr nieuwe plaagen</l>
+						<l>Ontfangen door zyn last, die zo uw zin mishaagen,</l>
+						<l>Dat ze in u baaren zulk een troostloos harteleed?</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Meent gy dat ik zo licht myn droeven staat vergeet,</l>
+						<l>En 't gruwzaam treurspel van myn onderdrukte maagen?</l>
+						<l>Ik hoor Hyrcanus, en myn Broeder, wreed verslaagen,</l>
+						<l>'t Zy dat ik waak of slaap, geduurig nacht en dag,</l>
+						<l>Myne ooren pynigen met een benaauwd geklag:</l>
+						<l>Zy koomen my, bebloed, geteisterd, en geschonden,</l>
+						<l>Hun ramp verhaalen in 't vertoonen van hun wonden;</l>
+						<l>En zy verwyten my, (waar vinde ik troost of heul?)</l>
+						<l>Dat ik slaap yder nacht by hun vervloekten beul,</l>
+
+						<l>Die zelf eerlang in my zal wreeken deeze schanden.</l>
+						<l>'t Vuur zyner trouwloosheid en staatzucht, steeds aan't branden,</l>
+						<l>En nooit gelescht, woed fel op myn verdrukt geslacht.</l>
+						<l>Was 't niet genoeg dat hy zo wreed had omgebragt</l>
+						<l>D'eerwaarden Godgewyde, op 't eind reeds van zyn leeven,</l>
+						<l>Waar voor de moord zelf scheen te schrikken en te beeven,</l>
+						<l>Dien Hoogepriester, die hem afstond zyn gebied,</l>
+						<l>En zich op 't vorstlyk woord, en zyne deugd, verliet?</l>
+						<l>Moest dan zyn bloeddorst, die de wreedheid streeft te boven,</l>
+						<l>Van 't lieve leeven zyn Schoonbroeder noch berooven,</l>
+						<l>Den glans versmooren van zo schoon een Jongeling,</l>
+						<l>Welke alle heerlykheid van 's Hemels gunst ontfing,</l>
+						<l>Dien Aristobulus, in 't bloeijen van zyn jaaren,</l>
+						<l>Myn Broeder? Hemel! ach! hoe ryzen my de hairen</l>
+						<l>Te berg! Myn tong word styf, als ik 't herdenk. Die smart</l>
+						<l>Vervoert, helaas! 't geduld van myn standvastig hart:</l>
+						<l>'t Is zo beklemd, dat ik naauw spreeken kan, of zuchten;</l>
+						<l>En myn bedroefde ziel wil uit het ligchaam vluchten.</l>
+						<l>Hy had noch naauwelyks bereikt in 's leevens jeugd</l>
+						<l>Den top van twintig jaar, wanneer men zag zyn deugd,</l>
+						<l>En zyn doorluchten geest als wond'ren aangebeden.</l>
+						<l>Zyn schoonheid, majesteit en aangenaame zeden,</l>
+						<l>Zyn welgeschappen leest, zyn glans en god'lyk licht</l>
+						<l>Bekoorden elk alom: hy had myn aangezicht</l>
+						<l>En hair: ik scheen in hem, en hy in my te zweeven;</l>
+						<l>Zulk een gelykenis had ons natuur gegeeven.</l>
+						<l>Ook stemden, met het schoon van 't ligchaam, over een</l>
+						<l>Het schoon der ziel, begaafd met alle heerlykheên;</l>
+						<l>En de eer van ons geslacht, vertreên, in 't stofbegraaven,</l>
+						<l>Herleefden eind'lyk weêr door zyn beroemde gaaven.</l>
+						<l>Die onze afbeeldingen heeft naar den Nyl gevoert,</l>
+						<l>Bekende, van zo veel bekoorlykheid ontroerd,</l>
+
+						<l>Dat Palestine zag een mensch zo schoon gebooren,</l>
+						<l>Die waardig was dat hy, welke alles kon bekooren,</l>
+						<l>Wierd onder 't Godendom van Romen aangebeên.</l>
+						<l>'t Volk, door zyn glans verrukt, die in den tempel scheen,</l>
+						<l>Kwam hem, in 't zegenen, al juichende te ontmoeten,</l>
+						<l>Om hem in d'opgang van zyn priesterschap te groeten.</l>
+						<l>Herodes, die hier door ontvlamde in nyd en haat,</l>
+						<l>Liet straks afsnyden zulk een schoone leevensdraad:</l>
+						<l>En deeze opgaande zon, met zo veel ryke straalen,</l>
+						<l>Ging voor den avond schuil, en in het water daalen,</l>
+						<l>Gelyk een morgenstar, en rees niet weêr voor 't licht,</l>
+						<l>Dan met de tekenen des doods in 't aangezicht.</l>
+						<l>En zoude ik noch, na zo veel ongelyk en plaagen,</l>
+						<l>Den Beul, den Moorder van myn Vrienden, liefde draagen?</l>
+						<l>Dat my eer't vuur verslinde; of't water, ruim zo wreed,</l>
+						<l>My geef myn Broeders lot, en 't eind van al myn leed.</l>
+					</sp>
+					<sp who="#dina">
+						<speaker>Dina.</speaker>
+						<l>Die rampen hoorden lang te zyn uit uw gedachten.</l>
+						<l>Moet dan 't herdenken aan geleeden smart, uw klagten</l>
+						<l>Met zo veel treurigheid vernieuwen, dat ge uw tyd,</l>
+						<l>En lieve leevenslente in druk en traanen slyt?</l>
+						<l>Ja uw halfdooden geest laat om de graaven waaren?</l>
+						<l>Ach! hou toch eenmaal op van schreijen: wil bedaaren.</l>
+						<l>Uw schoonheid, van wiens glans al 't aardryk spreekt en roemt,</l>
+						<l>Vermindert; en uw verf, van 't keurelykst gebloemt</l>
+						<l>Zo sierlyk geschaakeerd, (gelyk de rooden roozen,</l>
+						<l>En wiite lelyën, die meng'lend geestig bloozen</l>
+						<l>In 't lieflyk lenteweêr,) gevoelt te lang den douw</l>
+						<l>Van uwe traanen, die, door overmaat van rouw,</l>
+						<l>Geduurig vloeijen uit den hemel van uw oogen.</l>
+						<l>Heb voor u zelf, als ik, als yder, mededoogen:</l>
+						<l>Natuur, de tyd, uw pligt, ja alles dwingt uw hart.</l>
+
+						<l>Dat het zich zelf ontlast van zwaarigheid en smart.</l>
+						<l>'k Beken, men gaf u reên tot klaagen, zuchten, schreijen:</l>
+						<l>Maar 'k zie, men tracht uw zin met zoetheid weêr te vleijen,</l>
+						<l>En uw bedroefde ziel te troosten dag op dag.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Waar meê?</l>
+					</sp>
+					<sp who="#dina">
+						<speaker>Dina.</speaker>
+						<l>De Vorst mint u.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>De Vorst bemint my! ach!</l>
+						<l>O welk een wreede min!</l>
+					</sp>
+					<sp who="#dina">
+						<speaker>Dina.</speaker>
+						<l>Wanneer gy uwe straalen</l>
+						<l>Voor hem verbergt, kan hy zyn zuchten pas bepaalen.</l>
+						<l>Bemint hy u dan niet?</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Ik dacht dat gy wel wist</l>
+						<l>Dat nooit zo snood een ziel 't ontbreekt aan snoode list.</l>
+						<l>Als hy zyn staat, zich zelf ziet in gevaar gekoomen,</l>
+						<l>Zo word 't besluit ook van myn ondergang genoomen,</l>
+						<l>En hy geeft last van my te dooden na zyn dood.</l>
+						<l>Dit is de vrucht welke ik van zyne min genoot;</l>
+						<l>Dit is dat, op zyn wil, Sohemus hem moest zweeren,</l>
+						<l>Als hy naar Rhodes zich ging voor 't gericht verweeren;</l>
+						<l>Daar 't wroegende gemoed, zo trouweloos als laf,</l>
+						<l>Gewis te vinden dacht zyn vonnis en zyn graf.</l>
+					</sp>
+					<sp who="#dina">
+						<speaker>Dina.</speaker>
+						<l>O welke onmenschlykheid! nu zal ik niet meer vraagen,</l>
+						<l>Wat reden dat gy hebt tot kwynen en tot klaagen.</l>
+						<l>Ja, dit vervloekt bevel, waar voor ik schrik en gruw,</l>
+						<l>Geeft blyk dat hy zich zelf veel liever heeft dan u.</l>
+						<l>Maar nu ge, in dit gevaar, behouden hebt uw leeven,</l>
+
+						<l>Veins meê, als of zyn liefde u kon vernoeging geeven.</l>
+						<l>Zo gy zyn wreed gezicht, door deezen waan, verblind,</l>
+						<l>Zult gy uw waardig Kroost, gantsch teêr van u bemind,</l>
+						<l>Eerlang met 's Konings hoed op 't hoofd zien triomfeeren,</l>
+						<l>Indien uw kwaad beleid niet schielyk om doet keeren</l>
+						<l>De hoop van hun geluk. Ik bid, verzuim toch niet</l>
+						<l>De zorg, die hen, en u behoed voor meer verdriet.</l>
+						<l>Terwyl de Vorst u wacht, zo blyf in geen gebreeken</l>
+						<l>Van hem te zien. Ei! ga, Mevrouw, om hem te spreeken.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Wel aan, ik ga, ik ga dan heen: doch 't zal maar zyn,</l>
+						<l>Om hem te toonen tot verlichtenis van pyn,</l>
+						<l>Dat hy een Dwing'land, en Verraader is gebooren,</l>
+						<l>Een Vadermoordernaar, die elk in 't bloed laat smooren;</l>
+						<l>Dat ik geen pligten, noch geen reden ken, noch wet,</l>
+						<l>Die my dwingt hem te zien: dit heb ik vast gezet.</l>
+					</sp>
+					<sp who="#dina">
+						<speaker>Dina.</speaker>
+						<l>Helaas! ik beef.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Waarom?</l>
+					</sp>
+					<sp who="#dina">
+						<speaker>Dina.</speaker>
+						<l>Wy zyn gebragt in lyden,</l>
+						<l>En valsch van Salomé beluisterd van ter zyden.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>Tweede tooneel..</head>
+					<stage>Mariamne, Salome, Dina, Thamar.</stage>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Kom nader, zo kunt gy myn reden best verstaan.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Ik dacht gy had belet, en meende weg te gaan.</l>
+						<l>Uw geest, is overlaân, zo 't schynt, met moeilykheden.</l>
+
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Myn eed'le gramschap maakt my moeilyk door veel reden.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Dit is een hartstocht, die men altoos in u ziet.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Ik draag ook altoos een onlydelyk verdriet.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>'t Zyn rampen die gy niet verdient, noch hoort te draagen.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>'k Weet dat men niets kan in myn ommegang belaagen,</l>
+						<l>Het geen verdient heeft zulk een wreed onthaal, en smaad.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Gy zyt beklaagens waard, Mevrouw, in deezen staat.</l>
+						<l>De schoonheid, schynt wel, is niet vry van ongenuchten.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Maar de uwe heeft geen reên tot klaagen, noch tot zuchten.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Gy voelt uw kwellingen, en ik gevoel myn druk.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Neen, uw verheven hart klaagt over zyn geluk.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>'t Gelaat heelt vaak de smaad, daar 't hart van word doorsteeken.</l>
+						<l>Maar als ik hier kwam scheent ge iets van den Vorst te spreeken.</l>
+						<l>Wat was de stof, Mevrouw!</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Is 't spreeken my niet vry?</l>
+						<l>Ik klaag maar over hem, als hy doet over my.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>'k Weet niet te raân wat u tot klaagen heeft bewoogen.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Om dat ik zien moet die Verspieders voor myne oogen,</l>
+						<l>Welke, in myn rampspoed, steeds bevorderen myn val.</l>
+
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>De onnoozelheid gedoogt getuigen over al.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Indien men my niet zo veel spyt en hoon deed lyden,</l>
+						<l>Myn hart kreeg eind'lyk rust, na zo veel tegenstryden.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Laat aan den Koning zien hoe zeer dat u die smart.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>En gy, laat aan hem zien de zwakheid van zyn hart.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Indien hy, als gy zegt, liet zo veel zwakheid blyken,</l>
+						<l>Men zag die immers in 't bestieren van zyn ryken.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>'t Beklaaglyk leed, waar meê 'k my zie verdrukt, vertreên,</l>
+						<l>Geeft blyk van zyn beleid en onrechtvaardigheên.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Zyn onvolmaaktheid was wat minder in uw zinnen,</l>
+						<l>Zo ge uw afkeerigheid wat meerder kost verwinnen.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>'k Heb geen afkeerigheid, dan voor zyn wreede daân;</l>
+						<l>En al wie deugd bemint ziet die met afkeer aan.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Zy moeten 't dan, is 't waar, wel stil te kennen geeven.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Zy vreezen voor de dood, en ik veracht het leeven.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Dit treed te ver van 't spoor. Gy hoort wat meerder eer</l>
+						<l>Te toonen aan den band, die u verëent zo teêr.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Ik weet myn pligt tot hem: my komt niet nieuws te vooren.</l>
+						<l>Maar 'k weet ook meê uit welk een stam gy zyt gebooren.</l>
+
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>En ik weet niet van waar u komt zo groot een haat.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>'t Verschilt u immers niet of ik ben goed, of kwaad.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Zo gy verschil had, zoude ik echter, met behaagen,</l>
+						<l>Aan u myn dienst, in alle ootmoedigheid, opdraagen.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Gy liet my, dag op dag, genoeg uw diensten zien.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Gy zyt noch meerder waard dan ik u aan durf biên.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>De Hemel zal eens voor die liefde u 't loon toevoegen.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>De eer van u dienst te doen kan my op 't hoogst vernoegen.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne, beweeging maakende om weg te gaan.</speaker>
+						<l>Elk van ons beide weet hoe 't in het harte staat.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Gaat gy den Koning zien?</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Ja, 'k ga, om hem myn smaad,</l>
+						<l>En zyne gruweldaân in 't aangezicht te ontdekken.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Gy kunt niets doen, dat zyn misnoegen zal verwekken.</l>
+						<l>Hy mint in u alleen al wat men denken kan,</l>
+						<l>Ja zelfs uw vyandschap.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>En ik, door dien Tyran,</l>
+						<l>Gepynigd en gehoond, met allerleyë smarte,</l>
+						<l>Vloek alles in hem, zelfs de vrienschap van zyn harte.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>Darde tooneel.</head>
+					<stage>Salome, Thares.</stage>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Hovaardige, uit wiens reên en oogen dagklaar blykt,</l>
+						<l>Dat ge onverzettelyk niet van uw hoogmoed wykt;</l>
+						<l>Beeld u nooit in, dat ik zal ongevoelig lyden</l>
+						<l>Zo groot een smaad, en dit verbitterd tegenstryden.</l>
+						<l>Ik was, ik was nooit van die lafheid, om, gesard,</l>
+						<l>Zo veel verachtingen te lyden zonder smart;</l>
+						<l>Ik, die noch smaad noch spyt ontfing van al myn leeven,</l>
+						<l>Welke ik niet dubbeld heb met woeker weêr gegeeven.</l>
+						<l>'k Weet hoe men ymand moet verpligten, en met een</l>
+						<l>De kunst van veinzen, en van wreeken. Neen, ô neen!</l>
+						<l>Zy zal niet langer my met haare trotsheid plaagen.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar.</speaker>
+						<l>Gy hebt die al te veel ontworstelt, en verdraagen.</l>
+						<l>Trap, trap die trotse op 't hart, eêr zy, met voordeel, treed</l>
+						<l>Op 't uwe, en uw geluk, in allen ramp en leed,</l>
+						<l>Laat smooren. Neen, gy moet, is 't moog'lyk, haar bederven.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Ja, 'k zal my wreeken, of haast ongewrooken sterven.</l>
+						<l>Ik ly niet dat zy meer my, en myn stam braveert.</l>
+						<l>Myn Thamar, 'k zal den Vorst, van liefde slaafsch verheerd,</l>
+						<l>Een toomlooze achterdocht diep in zyn boezem drukken,</l>
+						<l>Die haar vernielen zal.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar.</speaker>
+						<l>Ach! mogt u dit gelukken!</l>
+						<l>Ontsloegt gy van dien last het koninglyke hof,</l>
+						<l>U zelf van deeze pest, wat zoude uw naam al lof</l>
+						<l>Verdienen! uw gezagh, uw staat en glory groeijen!</l>
+
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Schep moed, schep moed: myn hoop is met geluk aan 't groeijen.</l>
+						<l>'k Won reeds den Schenker van de Vorst, wiens stout gelaat</l>
+						<l>En moed bekwaam is in een toeleg van verraad,</l>
+						<l>Die zal op haar een schicht, het maaksel van myn handen,</l>
+						<l>Uitwerpen; zulk een schicht die daadlyk zal doen branden</l>
+						<l>Zyn hart in minnenyd, en op een oogenblik</l>
+						<l>In hem verwekken spyt, en woede, wraak en schrik,</l>
+						<l>Ja al zyn teed're liefde in fellen haat verkeeren:</l>
+						<l>Hy staat reeds vaardig op myn wenken en begeeren,</l>
+						<l>Zich zelf opöfferende aan 't vuur van myne wraak</l>
+						<l>Maar 'k moet my haasten, met de uitwerking van de zaak;</l>
+						<l>Uit vrees, dat hy 't geheim, 't geen hem licht zal bezwaaren,</l>
+						<l>Mogt aan een ander, die het uitbragt, openbaaren,</l>
+						<l>Of door veel overleg verflaauwen in 't bestaan.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar.</speaker>
+						<l>Mevrouw, daar komt hy, met zwaarmoedigheid belaân.</l>
+						<l>'t Schynt, dat deeze aanslag hem tot droefheid kan verwekken.</l>
+						<l>En 't aangezicht de vrees van zyne ziel ontdekken.</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>Vierde tooneel.</head>
+<stage>Salome, Judas, Thamar.</stage>
+					<sp who="#judas">
+						<speaker>Judas.</speaker>
+						<l>'k Verzoek, dat gy, voor 't laatst, my noch een spreeken hoort,</l>
+						<l>Eer ik, met uw bevel, Mevrouw, vaar verder voort.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Ik zal u hooren: spreek vrymoedig zonder vreezen.</l>
+					</sp>
+					<sp who="#judas">
+						<speaker>Judas.</speaker>
+						<l>'k Veracht voor u 't gevaar, hoe groot het ook mag wezen:</l>
+						<l>Ik stel my zelf, en al het myne in bangen nood,</l>
+						<l>Op zulk een wank'lend spoor, daar ik de wreedste dood,</l>
+
+						<l>En de uitgezochtste straf onmoog'lyk kan vermyden,</l>
+						<l>Zo, door een slinkse treê, myn voet komt uit te glyden.</l>
+						<l>De Vorst kan lichtlyk weêr ontvlammen, door een vonk.</l>
+						<l>'t Herdenkan van zyn min, één kus, één zucht, of lonk,</l>
+						<l>Een kwynend aangezicht, een hart gedwee en teder,</l>
+						<l>De minste ontroering zelf, werpt al myn arbeid neder.</l>
+						<l>'k Zie duizend dooden my aangrynzen, bang en naar:</l>
+						<l>Maar myn gehoorzaamheid tart allerlei gevaar;</l>
+						<l>Te meerder, nu gy my verzeekering kunt geeven,</l>
+						<l>Dat ik, door deeze daad, alleen maar waag myn leeven</l>
+						<l>Voor u, en voor het heil van 't lieve vaderland.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Indien gy niets ontziet, my biedende uwe hand</l>
+						<l>En hulp, zal ik uw trouw ook rykelyk beloonen.</l>
+						<l>Wat zal men u al eer en dankbaarheid betoonen!</l>
+						<l>Gy vordert uw geluk, en wint u zelf een naam,</l>
+						<l>Een heldenglory en onsterfelyke faam.</l>
+						<l>De gantsche waereld zal uw naam alom trompetten.</l>
+						<l>Ja, gy behoud den Vorst, en 't Ryk by de oude wetten.</l>
+						<l>Ik toone, in dit bestaan, u klaar den weg en wys,</l>
+						<l>En de arbeid is heel licht, maar 't loon van grooten prys.</l>
+						<l>Gy zult door myn bevel u zelf hier meê belaaden,</l>
+						<l>En waagt niets, of ik blyve uw borg voor alle schaden.</l>
+						<l>Ik maak den aanslag, en gy keurt die nut engoed.</l>
+						<l>Ik trede u voor; gy volgt alleen myn spoor en moed.</l>
+						<l>Gy weet dat ik het hart des Vorsts kan kunstig vleijen,</l>
+						<l>En hem, die licht gelooft, naar myn begeerte leijen;</l>
+						<l>Dat hy gewoon is om het argste te vermoên:</l>
+						<l>Dies zult gy licht zyn geest, die haastig slaat aan 't woên,</l>
+						<l>Beroeren naar uw wensch; zyn ongestuime Zinnen,</l>
+						<l>Als gy uw pligt betracht, verstrikken en verwinnen.</l>
+						<l>'t Scharpzinnig lokaas, hem zo listig voorgezet,</l>
+
+						<l>Brengt, zonder tegenweêr, hem in 't gespannen net.</l>
+						<l>Ja, 'k zeg u, om noch meer uw hart en moed te sterken,</l>
+						<l>Dat Mariamne zelf, met ons, dit uit zal werken:</l>
+						<l>Haar reeds vergiftigd hart, met nieuwen haat belaân,</l>
+						<l>Spant, met ons, tegen al haar rust en welstand aan.</l>
+						<l>Terstond ontdekte zy, van gramschap fel aan 't blaaken,</l>
+						<l>Dat zy den Vorst ging zien, om hem verwoed te maaken.</l>
+						<l>Gy weet op welk een wys hy zulk een trotsheid lyd.</l>
+						<l>Bedien u wel hier van, verzuim noch zorg, noch tyd;</l>
+						<l>Want alles lagcht ons toe, en is tot ons genegen.</l>
+						<l>Omhels, omhels 't geluk, terwyl 't u zelf komt tegen.</l>
+					</sp>
+					<sp who="#judas">
+						<speaker>Judas.</speaker>
+						<l>Door zulke redenen, vol van gewigt en kracht,</l>
+						<l>Wierd de allerblooste tot de stoutste daad gebragt.</l>
+						<l>Nu gy, en hooger magt, door my, dit wilt verrichten,</l>
+						<l>Zo heb ik moeds genoeg: 'k zal voor de dood niet zwichten,</l>
+						<l>Alleen weêrhoud my dit, dat ik verschynen zal</l>
+						<l>Voor zulk een Koning, dien men aanbid overal;</l>
+						<l>Een koning, die zich zelf noch nooit liet ongewrooken,</l>
+						<l>En elks gedachten weet, eêr dat men heeft gesprooken;</l>
+						<l>Die 't veinzen licht ontdekt, en 't wezen van den schyn.</l>
+						<l>Maar eindelyk, Mevrouw, leer my doch, kan het zyn,</l>
+						<l>Op welk een wys ik best en veilig smeê de logen,</l>
+						<l>Waar meê zyn schrand're geest misleid werd en bedroogen.</l>
+						<l>Voeg by uw last ook onderrichting, in dit stuk,</l>
+						<l>Op dat onze aanslag vind een uitslag vol geluk.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Die moet gy met verstand, en zeer voorzichtig waagen.</l>
+						<l>U eerst bedriegen, eêr ge een ander kunt belaagen.</l>
+						<l>Verbeeld de logen, tot verraaden uitgekeurd,</l>
+						<l>U zelf zo leevendig, als ofze waar gebeurd.</l>
+						<l>Wil dat de stoutheid met een trek van ernst vermengen.</l>
+
+						<l>Laat uw gezicht, en tong al 't ander dan volbrengen.</l>
+						<l>Ik wist noit beter raad, die my zo zeker scheen.</l>
+						<l>Maar zeg de zelfde zaak ook met de zelfde reên.</l>
+						<l>Geloof uw logen zelf, wilt gy u doen gelooven,</l>
+						<l>En als gy spreekt, laat uw geheugen niet verdooven</l>
+						<l>De kragt van uwe reên. Zeg dan op deezen min:</l>
+						<l>Heer Koning, dag op dag, spreekt uwe Koningin</l>
+						<l>My van een minnedrank, dien ik aan u zou schenken;</l>
+						<l>Waar door gy met meer zucht zoud op haar liefde denken;</l>
+						<l>Doch, kennende genoeg de grootheid van uw vlam,</l>
+						<l>Hield ik den minnedrank, wanneer ik die bekwam,</l>
+						<l>Verdacht, wiens kwaade reuk my voor gevaar deed vreezen;</l>
+						<l>Te meer, om datze ontsteld, bedeesd, verbleekt van wezen,</l>
+						<l>Geduurig voor my staat, als zy my daar van zeid:</l>
+						<l>Dies kom ik dan, genoopt door myn getrouwigheid,</l>
+						<l>En yver tot uw dienst, dit spoedig u ontdekken,</l>
+						<l>Uit vrees dat deeze vond uw onheil mogt verwekken,</l>
+						<l>Wanneer een ander u, zo onbedacht als laf,</l>
+						<l>'t Vervloekte mengsel van vergif te drinken gaf.</l>
+					</sp>
+					<sp who="#judas">
+						<speaker>Judas.</speaker>
+						<l>Men kan op deeze wys hem allerbest verstrikken.</l>
+						<l>Dit zal zyn geest terstond verrassen en verschrikken.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>De Koningin is nu in haar vertrek: ei! gaat</l>
+						<l>Doch spoedig heen, volvoer het alles, naar myn raad.</l>
+						<l>'k Zal u straks volgen. Zult gy 't hem dan zo verhaalen?</l>
+					</sp>
+					<sp who="#judas">
+						<speaker>Judas.</speaker>
+						<l>O ja, Mevrouw, al zoude ik 't met de dood betaalen.</l>
+					</sp>
+				</div>
+				<div n="5" type="scene">
+					<head>Vyfde tooneel.</head>
+<stage>Herodes, Mariamne.</stage>
+					<sp who="#herodes">
+						<speaker>Herodes, Mariamne uit zyn vertrek jaagende.</speaker>
+						<l>Ga, ga, gy zult haast zien de vrucht van 't geen ik zeg.</l>
+						<l>Ga voort uit myn vertrek; ja, ga voor eeuwig weg.</l>
+						<l>Durft gy, als ik u smeek, myn bede en liefde hoonen,</l>
+						<l>Zo durve ik ook aan u myn haat, en wraak betoonen.</l>
+						<l>De pylen, daar de Min myn borst meê heeft doorwond,</l>
+						<l>In liefde blaakende, zyn reed op deezen stond,</l>
+						<l>Door uwen haat, gescherpt, om u naar 't hart te steeken,</l>
+						<l>En my van 't ongelyk, dat ik gevoel, te wreeken.</l>
+						<l>Ik hits myn gramschap op: 't is alles reeds verdacht</l>
+						<l>Wat my van uw bedryf is immer aangebragt.</l>
+						<l>Ik zal noch goedheid, noch ontzagh u meer bewyzen,</l>
+						<l>En zo uw trotsheid, die al 't aardryk moet mispryzen,</l>
+						<l>Schiet lasterpylen, tot verkleining van myn staat,</l>
+						<l>Zult gy ze wederom zien koomen, met een daad,</l>
+						<l>Die yder leeren zal Gemaal en Koning eeren.</l>
+					</sp>
+				</div>
+				<div n="6" type="scene">
+					<head>Zesde tooneel.</head>
+<stage>Herodes, Salome, Thamar.</stage>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Door welke reên kan u de gramschap zo verheeren?</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Om dat men dag op dag my hoont in myn gezicht.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>De Koningin, myn Heer, heeft met haar fierheid licht</l>
+						<l>Uw goedheid weêr getergt.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Gy kent haar booze daaden;</l>
+						<l>Maar 't is voor 't laatst, dat zy myn gunsten zal versmaaden.</l>
+
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Dit hebt gy meer gezegt, myn Heer.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>'k Beken, 't is waar:</l>
+						<l>Doch haare afkeerigheid, en zinneloos gebaar,</l>
+						<l>Verwekt mynv yandschap. 'k Zal, als de pest, haar schuwen.</l>
+						<l>Zy is een helsche plaag, waar voor myne oogen gruwen,</l>
+						<l>Die my de Hemel gaf alleen tot myn verdriet.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Mag ik niet weeten wat'er daadlyk is geschied,</l>
+						<l>En wat u dus ontroert?</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>O ja, 'k zal 't u verhaalen.</l>
+						<l>Als Mariamne, alleen al de oorzaak van myn kwaalen,</l>
+						<l>Om my te zien, zich zelf in 't eind gedwongen vond,</l>
+						<l>Heeft zy, ontëerende haar pligt, en trouwverbond,</l>
+						<l>Met veel verwoede smaad, en toomelooze reden,</l>
+						<l>Na dat ik haar vergeefs gevleid had en gebeden,</l>
+						<l>Gelyk een Minnaar zyn Meestresse dier verbind,</l>
+						<l>My wrevelig getoont hoe dat zy was gezind.</l>
+						<l>Myn min deed niet als haare onheusheid grooter maaken.</l>
+						<l>Ik was van liefde, en zy van fellen haat aan 't blaaken,</l>
+						<l>En in die gramschap, vol van onrechtvaardigheên,</l>
+						<l>Gaf zy my duizenden scheldwoorden achter een.</l>
+						<l>Ik, die niet langer kon dit lasteren gedoogen,</l>
+						<l>Heb haar baldaadigheid gestraft, en van myne oogen</l>
+						<l>Die trotse weggejaagt, geterd door haar geweld.</l>
+						<l>Dit is het geen my spyt, en myn gemoed ontstelt.</l>
+						<l>Kom, overweeg haar woede, en laat my rustig hooren</l>
+						<l>Of ik heb ongelyk in myn vervoerde tooren.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Ja, gy hebt ongelyk, en haar ondankbaar hart</l>
+
+						<l>Hoort u te straffen met noch grooter ramp en smart,</l>
+						<l>Om dat gy, zonder vrees voor haare booze zinnen,</l>
+						<l>Haar steeds vergramt, met haar trouwhartig te beminnen.</l>
+						<l>'t Is een ontmenschte, die vervloekt, en trouwloos leeft,</l>
+						<l>Aan wie uw goedheid al te groot een vryheid geeft;</l>
+						<l>En zo des Hemels gunst niet afwend haare slaagen,</l>
+						<l>Zal zy met grooter leed, dan deeze, u eeuwig plaagen.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Nu dat ik heb ontdekt haar snoô kwaadaardigheid,</l>
+						<l>Zal ik my wachten voor de laagen die zy leid.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Hier vrees ik voor, met reên bekommerd voor uw leeven.</l>
+						<l>Het vrouwelyk geslacht, door boosheid aangedreeven,</l>
+						<l>Is gantsch wraakzuchtig, en, in haar verraadery,</l>
+						<l>Zeer listig, loerende op haar voordeel, van ter zy.</l>
+						<l>Een tygeresse, die haar jongen is ontnomen,</l>
+						<l>Was nooit zo zeer, als een vergramde Vrouw, te schroomen.</l>
+						<l>Myn yver, die alleen naar uwen welstand tracht,</l>
+						<l>Onteert my zelf in al het vrouwelyk geslacht.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Neen, 'k zal voortaan zo wel doen letten op haar daaden,</l>
+						<l>Dat zy onmoog'lyk my verderven kan, of schaaden,</l>
+						<l>Of dat ik word terstond gewaarschouwt. 't Is haar goed</l>
+						<l>Dat zy voor eeuwig zwyge, en dwing haar boos gemoed:</l>
+						<l>Of anders zal. . . .</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Myn Heer, men tracht om u te spreeken.</l>
+						<stage>Ter zyde.</stage>
+						<l>Nu naakt het vrolyk uur, waar in ik my zal wreeken.</l>
+					</sp>
+				</div>
+				<div n="7" type="scene">
+					<head>Zevende tooneel.</head>
+<stage>Herodes, Salome, Thamar, Judas, Joseph.</stage>
+					<sp who="#jozef">
+						<speaker>Joseph.</speaker>
+						<l>Uw Schenker tracht verbaasd, met onderdaanigheid,</l>
+						<l>Een zaak van groot gewigt aan zyne majesteit</l>
+						<l>Met haast te ontdekken: hy schynt voor gevaar te vreezen.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Een zaak van groot gewigt! Hy koom! Wat mag dit wezen?</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome, ter zyde.</speaker>
+						<l>O Hemel! geef hem moed.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Hy is ontroerd! Wat reên?</l>
+						<l>Wat zaak van zwaar gewigt dreef u toch herwaarts heen?</l>
+					</sp>
+					<sp who="#judas">
+						<speaker>Judas.</speaker>
+						<l>Helaas! men wil aan u een boos verraad voltrekken.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Kom, en wil my alleen daar van den grond ontdekken.</l>
+					</sp>
+				</div>
+				<div n="8" type="scene">
+					<head>Achtste tooneel.</head>
+<stage>Salome, Thamar.</stage>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Indien het einde is zo gelukkig, als 't begin,</l>
+						<l>Zo is de zege aan ons, en 't gaat naar onzen min.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar.</speaker>
+						<l>Zy kan onmoogelyk zo zwaar een slag ontwyken.</l>
+						<l>Haar hoogmoed zal in 't eind, voor uwe list, bezwyken.</l>
+						<l>'t Gaat wel: ik zie alreeds hoe dat zyn yver woed,</l>
+						<l>Wraakgierig dorstende naar Mariamnes bloed;</l>
+
+						<l>Haar vallen, u, met vreugd, gerust uw adem haalen;</l>
+						<l>Uw zon verryzen, en de haare nederdaalen;</l>
+						<l>De kroon, eeuw in eeuw uit, aan uwen stam gebragt,</l>
+						<l>Ten top van eer gevoerd, tot schand' van haar geslacht.</l>
+						<l>Verban vry alle vrees, nu gy moogt alles hoopen.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Nu ziet ge ons beide om stryd in deeze renbaan loopen,</l>
+						<l>En dingen om den prys, elk even trots en fier.</l>
+					</sp>
+					<sp who="#thamar">
+						<speaker>Thamar.</speaker>
+						<l>Haar hoofd krygt haast cypres, en 't uwe lauwerier.</l>
+					</sp>
+				</div>
+				<div n="9" type="scene">
+					<head>Negende tooneel.</head>
+<stage>Herodes, Salome, Thamar, Thares, Judas.</stage>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>O gruw'lyke ontrouw! ô wat onverdraagb're schanden,</l>
+						<l>En onverzoenb're spyt! Vervloekte huw'lyksbanden!</l>
+						<l>Verdoemelyke Vrouw! zy heeft dan in haar zin</l>
+						<l>Om my te dooden? my! daar ik uit treed're min,</l>
+						<l>Om haare gunst alleen, wel alles wou verachten!</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Gy moet u straks van haar verzeek'ren, of verwachten</l>
+						<l>Een schrikkelyke dood. Voorkom, voorkom 't verraad,</l>
+						<l>Eêr 't u, en ons verderv'.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes, tegen Thares.</speaker>
+						<l>'k Wil, Thares, dat gy gaat</l>
+						<l>Straks naar de Koningin, om haar bekend te maaken,</l>
+						<l>Zo stil als 't mooglyk is, dat in myn Ryksraad zaaken</l>
+						<l>Van zonderling belang zo daadlyk zyn gebragt,</l>
+						<l>Daar ik haar byzyn op het hoogste noodig acht:</l>
+						<l>En zeg haar dat zy zelf moet zonder toeven koomen.</l>
+						<l>Dat dit bevel toch werd zorgvuldig waargenoomen.</l>
+
+					</sp>
+					<sp who="#thares">
+						<speaker>Thares.</speaker>
+						<l>Gy zult in my steeds zien een ongeveinsde trouw.</l>
+					</sp>
+				</div>
+				<div n="10" type="scene">
+					<head>Tiende tooneel.</head>
+<stage>Herodes, Salome, Pheroras, Thamar, Judas.</stage>
+					<sp who="#pheroras">
+						<speaker>Pheroras, tegen Salome.</speaker>
+						<l>Wat deert den Vorst, dat hy dus schynt verbaasd, Mevrouw?</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Licht dat hy 't u verklaart.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Ach! was ik nooit gebooren!</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Daar komt hy naar ons toe, verbaasd, vervoerd van tooren.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>De Koningin heeft op myn leeven toegelegt:</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Dit hebben wy u lang gewaarschuwt, en voorzegt;</l>
+						<l>Doch 't kon uw geest altoos verstooren en mishaagen.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>'k Beken, 't is waarheid; maar die 'k eeuwig zal beklaagen.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Gy weet haar boosheid nu, en 't dreigende ongeval.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Maar ook met een de straf, die haar verderven zal,</l>
+						<l>En u vernoegen. Ja, 't besluit is reeds genoomen.</l>
+						<l>'t Is best, haar boosheid met myn strafheid voorgekoomen.</l>
+						<l>Volg my, om af te doen het eind van deeze zaak.</l>
+						<stage>Tegen Judas.</stage>
+						<l>En gy, blyf hier omtrent, tot dienst van myne wraak.</l>
+					</sp>
+					<p>Einde van het Tweede Bedryf.</p>
+				</div>
+			</div>
+			<div n="3" type="act">
+
+				<head>Darde bedryf.</head>
+				<div n="1" type="scene">
+					<head>Eerste tooneel.</head>
+<stage>Herodes, Salome, Pheroras, Raadsheeren.</stage>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Laat ons met ryp beraad de doodwond overwegen,</l>
+						<l>Die vol gevaar de Staat heeft onverwacht gekreegen.</l>
+						<l>'t Is best 't verdorven lid met oordeel afgezet,</l>
+						<l>Eêr 't gantsche ligchaam werd ontsteeken en besmet.</l>
+						<l>'t Is wyslyk het vergif, door tegengif, te keeren,</l>
+						<l>En 't ryksverraad, met een gestrenge straf, te weeren.</l>
+						<l>Is myn Misdaadige dan noch niet hier? Men doet</l>
+						<l>Haar tegentreên, met last dat zy zich haasten moet.</l>
+						<l>'k Wil hier bewyzen dat zy toeleid op myn leeven,</l>
+						<l>En aan het oordeel van myn Raad haar overgeeven.</l>
+						<l>Maar 'k zie zy komt, zo stout van wezen, als of ik</l>
+						<l>Haar om vergiffenis moest, op dit ogenblik,</l>
+						<l>Ootmoedig smeeken. Niets kan noch haar hoogmoed deeren,</l>
+						<l>Zy schynt de dood, en my, in 't aanschyn te braveeren.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>Tweede tooneel.</head>
+<stage>Herodes, Mariamne, Salome, Pheroras, Judas, Thares, Raadsheeren.</stage>
+					<sp who="#herodes">
+						<speaker>Herodes, tegen Mariamne.</speaker>
+						<l>Kom hier, Rampzalige, en verdoemenswaarde Vrouw,</l>
+						<l>Die ik myn halve ziel schonk, met myn liefde en trouw,</l>
+						<l>Welke ik, door 't echtverbond, genoopt van 't minlyk blaaken,</l>
+						<l>Liet tot Meestresse van myn eer en grootsheid maaken.</l>
+						<l>Zie uw verraad, in zyn geboorte, snel vergaan.</l>
+
+						<l>Uw valstrik is ontdekt, en gy zyt zelf verraân.</l>
+						<l>Ja, uw gegraaven Myn, door veel bedekte wegen,</l>
+						<l>Heeft, tot uw ondergang, een open lucht gekreegen.</l>
+						<l>Ik, 't voorwerp van uw wraak, zie, door een god'lyk recht,</l>
+						<l>De pylen, die gy op myn borst had toegelegt,</l>
+						<l>Gekeerd, om u wel scherp in 't booze hart te steeken.</l>
+						<l>Nu 's waarheids licht komt door de mist van logens breeken.</l>
+						<l>Kunt gy uw schuld met schyn van onschuld wel bekleên?</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>'k Versta die rede niet: zy is vol duisterheên,</l>
+						<l>Gelykende naar 't bloed waar uit gy zyt gebooren.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes</speaker>
+						<l>Trouwlooze, laat gy my noch zulk een trotsheid hooren?</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Durft gy myn onschuld met zo zwaar een schuld belaân?</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Gy dorst wel uw Gemaal en Koning stout verraân.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>'t Is een verraad, gelyk gy zyt gewoon te smeeden,</l>
+						<l>Om, onder schyn van recht, de Onnoos'len te vertreeden.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Uw schriklyke aanslag, en dit spooreloos verwyt,</l>
+						<l>Waar van myn rykskroon beeft, 't geen my de ziel doorsnyd,</l>
+						<l>Zal, door de dood, haast zyn beroofd van alle krachten.</l>
+						<stage>Tegen den Raad.</stage>
+						<l>In plaats dat zy haar schuld met zoetheid zou verzachten,</l>
+						<l>Zo spreekt zy niet één woord, of 't is vol bitterheid;</l>
+						<l>Noch 't alderminst', dat voor haar schuld, of onschuld pleit.</l>
+						<stage>Tegen Mariamne.</stage>
+						<l>Verweer, verweer u zelf, boosäardigste aller Vrouwen,</l>
+						<l>Van 't geen uw hand heeft tot myn ondergang gebrouwen.</l>
+
+						<stage>Tegen den Raad.</stage>
+						<l>Men moet, op dat zy overtuigd werd van de daad,</l>
+						<l>Haar hooren, en met een d' aanklaager van 't verraad.</l>
+						<l>Nu zy dit merkt word zy beschaamt, en zeer verleegen.</l>
+						<stage>Tegen Judas.</stage>
+						<l>Kom, zeg hier voor den Raad, hoe gy, tot my genegen,</l>
+						<l>Het kwaad ontdekte, 't geen bedacht was tot myn dood.</l>
+						<l>Maar dat de waarheid zich vertoone oprecht en bloot.</l>
+						<l>Gy zult de misdaad niet verkleinen, noch vergrooten.</l>
+					</sp>
+					<sp who="#judas">
+						<speaker>Judas.</speaker>
+						<l>De donder plet my! 'k moet voor eeuwig zyn verstooten,</l>
+						<l>Indien het zo niet is, als ik 't ontdekte, uit pligt.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Kom, overtuig haar, hou het staande in haar gezicht.</l>
+						<l>Spreek.</l>
+					</sp>
+					<sp who="#judas">
+						<speaker>Judas, tegen Mariamne.</speaker>
+						<l>Zo 'k niet alles was verschuldigd te openbaaren,</l>
+						<l>Gy hoorde nimmer my dit tegen u verklaaren.</l>
+						<l>Doch 's Konings groot gevaar, myn pligt, myn deugd en trouw,</l>
+						<l>Ja alles dwingt my, dat ik 't melden moet, Mevrouw.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Wat, Booswicht?</l>
+					</sp>
+					<sp who="#judas">
+						<speaker>Judas.</speaker>
+						<l>Hoe ik steeds van u ben aagedreeven,</l>
+						<l>Dat ik den Koning zoude in zynen drank vergeeven.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Gedrocht, dat uit de hel gesprooten is, alleen,</l>
+						<l>Om hier de Onschuldige voor schuldig te vertreên!</l>
+						<l>Durft gy wel, zonder schaamt', herhaalen deeze loogen?</l>
+						<l>Ik zoude uw vuile daad straks straffen voor elks oogen,</l>
+						<l>Zo gy niet wierd gesterkt van hun, die, dol van haat,</l>
+						<l>U onderweezen, daar zy zelf verzierden 't kwaad.</l>
+
+						<l>Ja, gy behoort de dood om 't vuil bedrog te lyden.</l>
+						<l>Maar neen, men zal u wel van alle straf bevryden.</l>
+						<l>Uw Medestander is myn Rechter, welk een druk!</l>
+						<l>Doch ik vergeeve aan u dit godloos lasterstuk.</l>
+						<l>Gy dient, om uw belang alleen, vervloekter zielen</l>
+						<l>Dan gy zyt, om de deugd boosaardig te vernielen.</l>
+						<l>Gy wierd hier toe gekocht, geperst van hun, die wreed</l>
+						<l>De Onnooz'len zyn gewoon te smooren in hun leed.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>'t Waar nutter dat gy trachtte u zelve, op myn begeeren,</l>
+						<l>Van 't Kwaad, waar meê men u beschuldigt, te verweeren.</l>
+						<l>Gy zult bekennen; of, ontkent gy deeze daad,</l>
+						<l>Hier overtuigen de Getuigen van 't verraad.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Door list, of door geweld, zal 't u onmoog'lyk wezen</l>
+						<l>Myn ziel te dwingen, die niets hoopen kan noch vreezen,</l>
+						<l>Tot het bekennen van een zaak, die 'k nimmer dacht.</l>
+						<l>Neen, 'k waar den roem niet waard van 't heerelyk geslacht,</l>
+						<l>Daar 'k uit gespooten ben, zo ik het dorst besmetten</l>
+						<l>Met daaden, die het zoude in eeuwige onëer zetten.</l>
+						<l>Myn hart, door 't noodlot steeds met rampen overlaân,</l>
+						<l>Lyd met geduld 't verraat, maar kan het nooit begaan:</l>
+						<l>Schoon 't wierd getergt, genoopt door overvloed van reden,</l>
+						<l>En 't vry stond 't spoor van uw snoô daaden naar te treeden.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Wat snoode daaden zyn u toch van my bekend?</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Uw wreed geweld, bedrog, en plaagen vol elend',</l>
+						<l>De moord eens Grootvaârs, en de doodslag van myn Broeder.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Zy maakt myn gramschap noch hoe langer hoe verwoeder,</l>
+						<l>Ik kan die naauw'lyks hier bedwingen voor den Raad.</l>
+
+						<l>O helsche Plaag, en Pest, zo schand'lyk aan myn Staat!</l>
+						<l>Gy kunt, om my te doôn, 't venyn wel zaamen mengen,</l>
+						<l>Maar uw vergifte mond zal zonder voordeel brengen</l>
+						<l>Haar dood'lyke akonyt op myn verkreegene eer:</l>
+						<l>Die blinkt zoo heerelyk, dat gy ze nimmermeer</l>
+						<l>Besmetten kunt. O neen! ik lagche om al uw woeden,</l>
+						<l>En last'ren; want gy kunt u zelven niet behoeden.</l>
+						<l>Gy meent dat gy my kwetst, terwyl ge u dood'lyk wond.</l>
+						<l>Ontrouw, dit verwyt is valsch, en zonder grond:</l>
+						<l>'t Kan klaar uw boosheid, en verraadery ontdekken,</l>
+						<l>En 't is genoeg om tot uw ondergang te strekken.</l>
+						<l>Herodes, tegen den Raad, na dat hy een teken aan Thares heeft gegeeven,
+							om Mariamne wat ter zyde te leiden.</l>
+						<l>Gy, Heeren, geeft terstond een uitspraak naar de wet,</l>
+						<l>Die op de moordenaars der Vorsten is gezet.</l>
+						<l>De misdaad eischt het zelf dat gy my recht moet geeven:</l>
+						<l>'k Begeer het ook van u.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>'t Kwaad is zo stout bedreeven,</l>
+						<l>Als onvergeevelyk, mijn Heer.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>En tot haar straf</l>
+						<l>Is ééne dood alleen te weinig, en te laf.</l>
+					</sp>
+					<sp who="#twee-raadsheeren">
+						<speaker>Eerste Raadsheer.</speaker>
+						<l>Indien de Vorst haar geen genade laat verwerven,</l>
+						<l>De misdaad, en het recht gebiên dat zy moet sterven.</l>
+					</sp>
+					<sp who="#twee-raadsheeren">
+						<speaker>Tweede Raadsheer.</speaker>
+						<l>Ten minsten, dat zy werd in boeijens strikt bewaart,</l>
+						<l>Zo lang 't vergif niet klaar de misdaad openbaart.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Hoe! haar Beschuldiger was altyd onbesprooken;</l>
+						<l>Een amptman, aan wiens trouw noch nooit iets heeft ontbrooken,</l>
+
+						<l>Die my al overlang ter tafel heeft gedient.</l>
+						<l>Zou zy tot zulk een dienst wel ooit bekwaamer vriend</l>
+						<l>Gevonden hebben? Neen, die slag was niet te ontwyken.</l>
+						<l>Doch zo de waarheid moet door meer getuigen blyken,</l>
+						<l>Zy heeft'er duizenden in 't overtuigde hart,</l>
+						<l>Die haar beschuldigen met wroeging en smart;</l>
+						<l>Dat hart, het geen haar zelf veroordeelt om te lyden</l>
+						<l>Een straffe dood, waar van haar niemand kan bevryden.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Vaar voort, vaar voort, Barbaar: blyf zonder deerenis.</l>
+						<l>Gy doet me een dienst, die my op 't hoogst gevallig is.</l>
+						<l>Uw haat, die toeleid op myn leeven, door veel plaagen,</l>
+						<l>Kan my veel meerder, dan uw liefde ooit deed, behaagen.</l>
+						<l>Uw woên stemt overëen met myne afkeerigheid.</l>
+						<l>Als gy myn leeven dreigt, dan word myn hoop gevleid.</l>
+						<l>Uw ongenade kan my voor genaâ verstrekken:</l>
+						<l>'k Behoorde uw wreedheên, welk een leed ze aan my verwekken,</l>
+						<l>Met vreugd te zegenen: want ik ga, door de dood,</l>
+						<l>Daar 'k eeuwig leeven zal, bevryd van allen nood.</l>
+						<l>Myn hoofd zal van den slag, dien gy 't zult doen ontfangen,</l>
+						<l>Ten Hemel vliegen, om een schooner kroon te erlangen,</l>
+						<l>Dan deeze is, welker glans braveert den diamant,</l>
+						<l>Bevryd voor 't woeden van een laffen Dwingeland.</l>
+						<l>En zo 'k, in deeze vreugd, noch werd ontroerd tot klaagen,</l>
+						<l>Het is om dat ik voel het Moeders hart doorknaagen</l>
+						<l>Van alle tedere gevoelens. Ach! ik laat</l>
+						<l>Myn lieve Kinders in den jammerlyksten staat.</l>
+						<l>Hun naakende onheil maakt my droevig lot veel kwaader.</l>
+						<l>Helaas! die Zoonen van d' onmenschelyksten Vader,</l>
+						<l>Zyn eed'le spruiten, uit een stam wiens heerlykheid</l>
+						<l>Langs aarde, en zee, zyn roem en glans heeft uitgespreid.</l>
+						<l>Die kleine Weezen, ach! wel haast van allen zegen,</l>
+
+						<l>En yders hulp ontbloot, (wat ziel zou 't niet beweegen?)</l>
+						<l>Zyn al 't meêdoogen waard, en myn bedroefd geklagh.</l>
+						<l>Natuur bestormt het hart eens Moeders. Hemel! ach!</l>
+						<l>My dunkt ik zie hen al, door de onbarmhartigheden</l>
+						<l>Eens Stiefmoêrs wreed verdrukt, mishandeld en vertreeden.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Op deezen stond, wanneer ik onverbid'lyk scheen,</l>
+						<l>Word my het hart ontroert van haar bedroef geween.</l>
+						<l>'t Schynt dat de Liefde, die haar zyde heeft gekooren,</l>
+						<l>Den band verbreekt van myn gerechte wraak en tooren;</l>
+						<l>Alleen om dat ik haar vergiff'nis geeven zou,</l>
+						<l>Die haar myn min opdraagt, als ik haar glans aanschouw.</l>
+						<l>Ja, 't medelyden heeft zyn kracht in my begonnen.</l>
+						<l>Gy eischt voor haar genade, ô Liefde! ik ben verwonnen:</l>
+						<l>Ik sta ze u toe. Maar wil ook maaken dat haar hart</l>
+						<l>Heeft mededoogen met myn vlam en minnesmart.</l>
+						<l>Geef, geef, kan 't zyn, dat haar de misdaad mag berouwen:</l>
+						<l>Dwing haar gezicht om my wat gunstiger te aanschouwen:</l>
+						<l>Laat ze myn goedheid toch erkennen, met meer reên,</l>
+						<l>Met minder fierheid al myn zuchten en gebeên:</l>
+						<l>Geef dat zy voor myn min geen meerder haat mag draagen:</l>
+						<l>Laat ik haar hart, als zy het myne, toch behaagen:</l>
+						<l>Ja, doe haar zien hoe teêr dat ik haar heb bezint,</l>
+						<l>En kan het zyn, ô Min! maak dat zy my bemint.</l>
+						<stage>Tegen den Raad.</stage>
+						<l>De liefde ontvonkt myn vlam, die 'k niet meer kan weêrstreeven.</l>
+						<l>'k Vergeef de Koningin al 't geen zy heeft misdreeven.</l>
+						<l>Laat ons alleen, op dat myn vriendschap haar gemoed</l>
+						<l>Mag overtuigen van haar haat, die op my woed.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>Darde tooneel.</head>
+<stage>Herodes, Mariamne.</stage>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Bekoorlyk voorwerp, droog de traanen van uwe oogen.</l>
+						<l>De magt eens Konings zwicht voor 't minlyk mededoogen</l>
+						<l>Eens Minnaars. Ik beken dat myn rechtvaardigheid</l>
+						<l>U kon verneed'ren voor het recht der majesteit:</l>
+						<l>Maar hier streeft myn genade, en myne liefde tegen.</l>
+						<l>'k Voel, om uw minste smart, myn ziel op 't meest verlegen,</l>
+						<l>En dat myn bloed zich met uw dierb're traanen mengt.</l>
+						<l>Zie hoe uw troostloos hart, het myne in wanhoop brengt.</l>
+						<l>'k Verbreek de straf, die u myn gramschap heeft gezwooren.</l>
+						<l>Met uw doodvonnis zoude ik ook het myne hooren.</l>
+						<l>En zo 'k niet haastig u verloste van uw pyn,</l>
+						<l>De weêrsmart in myn ziel zou ongenees'lyk zyn.</l>
+						<l>Uw dood waar ook myn dood: één straf zou ons verderven,</l>
+						<l>En doen d' aanklaager, als uw medestander, sterven.</l>
+						<l>Zie nu op welk een wys myn lot aan 't uwe staat.</l>
+						<l>Zo gy myn min, in plaats van weêrmin, loont met haat,</l>
+						<l>En, noch kwaadaardig, u wilt op myn goedheid wreeken,</l>
+						<l>Gebruik nooit meer vergif. Om my naar 't hart te steeken</l>
+						<l>Hoeft gy geen wapens: neen, ô neen! als ge aan my toont,</l>
+						<l>Dat gy met vyandschap myn zuiv're vriendschap loont,</l>
+						<l>Zal ik, door zulk een leed, uw wreedheid haast vernoegen.</l>
+						<l>Toon liever dat gy u weêr tot uw pligt wilt voegen,</l>
+						<l>En, door 't belyden van uw schuld, aan 't hart geraakt</l>
+						<l>Van naberouw, met schrik, de misdaad vloekt en wraakt.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Men hoort wel aan de wys van dit geveinsde vleijen,</l>
+						<l>Dat ge in 't verraaden, en het listige verleijen</l>
+
+						<l>Zyt uitgeleerd. Maar deeze uw moeite is al te groot:</l>
+						<l>Om u van my te ontslaan, tot vord'ring van myn dood,</l>
+						<l>Is uw bedrog genoeg.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Hoe! kunt gy noch vermoeden,</l>
+						<l>Dat ik zou valsch op 't recht van een onnooz'le woeden?</l>
+						<l>O Hemel . . . . Maar ik zie dat uw hardnekkigheid</l>
+						<l>Spruit uit uw wanhoop, die u zelf genade ontzeid.</l>
+						<l>Neen, vrees niet meer voor uw vergiffenis, noch leeven.</l>
+						<l>'k Heb aan de Liefde reeds hier toe myn woord gegeeven,</l>
+						<l>En zal 't ook houden: maar hou gy ook op, dit hart</l>
+						<l>Noch meer te kwellen met uw harteleed en smart.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Doe liefst ophouden, met myn smarten, druk en lyden,</l>
+						<l>Myn leeven: want de dood kan my alleen bevryden.</l>
+						<l>Myn maagen traaden my hier in kloekmoedig voor:</l>
+						<l>'k Brand van verlangen, om te volgen op hun spoor.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Wilt gy dan sterven, om my 't leeven te beletten?</l>
+						<l>En, tegens reden, pligt, natuur, en alle wetten,</l>
+						<l>Helaas! ten tweedemaal op 't waardig leeven woên</l>
+						<l>Van uw Gemaal en Vorst, het geen gy moest behoên?</l>
+						<l>Schoon dat gy wierd van ys, en ik van vuur bevonden,</l>
+						<l>De Hemel heeft myn ziel zo vast aan u verbonden,</l>
+						<l>Dat men uw leevensdraad niet kan verlooren, neen,</l>
+						<l>Ten zy de myne werd op één tyd afgesneên.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>'t Gaat vast, ten minsten, als uw leeven is verloopen,</l>
+						<l>Dat ik van 't myne geen verzekering kan hoopen,</l>
+						<l>En deeze voorzorg van uw min, zo wreed als snood,</l>
+						<l>Zal op uw sterfdag ook bevorderen myn dood.</l>
+						<l>Dit is, dit is 't bewys van uw volmaakt beminnen.</l>
+
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Die reên zyn duister te begrypen voor myn zinnen.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>'t Zyn duist're reên, daar gy inwendig 't licht van ziet.</l>
+						<l>De zaak is al te klaar.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Ik weet die waarlyk niet.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Toen gy, Lafhartige, van vrees waart ingenomen,</l>
+						<l>Gedagvaard zynde om voor Augustus recht te koomen,</l>
+						<l>Zo was myn dood bestemd, die gy rechtvaardig vind.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Hoe! voor Augustus? Ach! dit woord alleen verwint</l>
+						<l>My alle duisterheid. Nu ben ik onderweezen</l>
+						<l>Van 't geen u aanhitst, en van 't geene ik heb te vreezen.</l>
+						<l>'k Weet nu de reed'nen, die vermeerd'ren uwen haat,</l>
+						<l>En hoe myn ontrouw volk ondankbaar my verraad.</l>
+						<l>Ik merk, Sohemus heeft u heimlyk onderhouwen</l>
+						<l>Van deeze zaak, Mevrouw.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Hoe! zoud gy hem mistrouwen?</l>
+						<l>Hem, buiten wien ik al uw wreede daaden weet?</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Wat brouwt zyn trouwloosheid my schriklyk harteleed!</l>
+						<l>Myn Lyfwacht!</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>Vierde tooneel.</head>
+<stage>Herodes, Mariamne, Thares.</stage>
+					<sp who="#herodes">
+						<speaker>Herodes, tegen Thares.</speaker>
+						<l>Ach! ik ben beklaagelyk verraaden,</l>
+						<l>En vind my zelf alom met rampen overlaaden.</l>
+
+						<l>'k Wil dat Sohemus, die naar myn vermoogen tracht,</l>
+						<l>Hier straks gebonden voor myn voeten werd gebragt,</l>
+						<l>Om voor zyn snood verraad een wreede straf te ontfangen.</l>
+						<l>Men neem Nicanor ook op d' eigen stond gevangen.</l>
+						<l>Hem is 't verraad bewust: hy hielp de boosheid smeên.</l>
+						<l>Volvoer getrouwelyk myn last. Ga vaardig heen,</l>
+						<l>En laat de beulen al haar wreedheid zaamen mengen.</l>
+					</sp>
+					<sp who="#thares">
+						<speaker>Thares.</speaker>
+						<l>Ik zal, heer Koning, uw bevel terstond volbrengen.</l>
+						<stage>Hy gaat binnen.</stage>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Ach! wat of hier, in myn afwezen, is geschied!</l>
+						<l>O bitter noodlot! ô rampzalig huisverdriet!</l>
+						<l>Vloekwaarde daad! moest my 't geval dan hier toe spaaren?</l>
+						<l>Waarom of ik niet ben in 't duister graf gevaaren</l>
+						<l>In 't allertederste van myne onnooz'le jeugd!</l>
+						<l>Of is 't om dat my zulk een gruwzaame ongeneugt'</l>
+						<l>En ramp verdrukken zou? Helaas! ik voel myn zinnen,</l>
+						<l>Van gramschap, schrik, en wraak, rechtvaardig overwinnen.</l>
+						<l>Ik ben aan 't woeden. Dit rampzalig lot, ô spyt!</l>
+						<l>Voert myn geduld van 't spoor, myn geest in minnenyd.</l>
+						<stage>Tegen Mariamne.</stage>
+						<l>Sohemus heeft u, ik beken 't, niet voorgeloogen,</l>
+						<l>'t Is waarheid, 'k gaf dien last: maar wat kon hy beöogen?</l>
+						<l>Met welk een gunst hebt gy zyn trouwloosheid voldaan?</l>
+						<l>Want hy heeft immers niet dit schandig stuk bestaan,</l>
+						<l>Dan op de hoop van iets te winnen. Deez' ontzinden</l>
+						<l>Kost gy 't gezicht niet, door den glans van 't goud, verblinden:</l>
+						<l>Dat had hy aan myn hof, met eer en heerlykheid.</l>
+						<l>Gy hebt dan, door uw glans, hem van zyn pligt geleid.</l>
+						<l>Ja uwe schoonheid kon zyn trouw aan u verslaaven.</l>
+						<l>Hy, van bewaarder, wierd bezitter deeze gaaven.</l>
+
+						<l>Zo dra als dit geheim hem van zyn lippen schoot,</l>
+						<l>Waart gy, gy zelve, niet het loon dat hy genoot?</l>
+						<l>Sla uw gezicht niet naar den Hemel, op myn vraagen.</l>
+						<l>Heeft hy wel and'ren prys, dan deezen, weggedraagen?</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Geloof al wat ge wilt: en wat gy denkt of zegt.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Ja, ik geloof het wel: dies moet ik u met recht</l>
+						<l>Een straf bereiden, die myn schande zal verdooven.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Gy kunt van 't licht, maar van de deugd my niet berooven.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Hoe! daar uw ondeugd, en uw schuld zo dagklaar blykt?</l>
+						<l>Doch gy zult my, van u zo zwaar verongelykt,</l>
+						<l>Niet meer gelagchen: neen, de vlek, myn aangevreeven,</l>
+						<l>Word door uw bloed alleen gezuivert: ja uw leeven</l>
+						<l>Moet myn vertreedene eer herstellen, en myn wraak</l>
+						<l>Alom verstrekken voor een spiegelende baak.</l>
+						<l>De dood is reeds gereed om u naar 't graf te zenden.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>De dood is al myn hoop, en troost in myne elenden.</l>
+						<l>Hoe vroeg die koomen zal, zy komt noch veel te laat</l>
+						<l>Voor myn begeerte: en nu die in myn droeven staat</l>
+						<l>Het eind' moet maaken van myn rampen, druk, en pynen,</l>
+						<l>Vreeze ik dat hy noch zal te traag voor my verschynen.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Men zal in 't naad'ren van uw doodstraf klaarder zien,</l>
+						<l>Of gy dus onvertzaagd haar 't hoofd zult durven biên.</l>
+						<l>Maar zie, uw minnaar komt, al beevende, ons genaaken.</l>
+						<l>'k Gevoel op dit gezicht myn wraak op nieuw aan 't blaaken.</l>
+						<stage>Tegen Thares, die met Sohemus intreed.</stage>
+						<l>Dat zy, in haar vertrek, gevangen werd gebragt,</l>
+						<l>En hier Nicanor.</l>
+					</sp>
+				</div>
+				<div n="5" type="scene">
+					<head>Vyfde tooneel.</head>
+<stage>Herodes, Sohemus, Lyfwachten.</stage>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Schelm, die eer en pligt veracht,</l>
+						<l>Hoe dorst gy het geheim, u toevertrouwd, ontdekken?</l>
+						<l>Wat reden konden in uw laffe ziel verwekken</l>
+						<l>Zo groot een stoutheid, tot verachting van de dood,</l>
+						<l>Om te openbaaren, zo verdoemelyk en snood,</l>
+						<l>Een zaak waar aan gy wist dat al myn rust moet hangen?</l>
+						<l>Spreek, Booswicht, spreek: gy weet wat smarten dat my prangen.</l>
+					</sp>
+					<sp who="#sohemus">
+						<speaker>Sohemus.</speaker>
+						<l>Ach! 'k heb my onbedacht in dit verdriet beknelt,</l>
+						<l>En uit onnoozelheid 't geheim te vroeg gemeld.</l>
+						<l>'k Misdeed: maar 't naberouw, dat ik zal eeuwig toonen,</l>
+						<l>Behoorde deeze daad genadig te verschoonen.</l>
+						<l>O Vorst, in wiens gemoed zo groot een goedheid zweeft</l>
+						<l>Als dapperheid, ik bid, dat gy myn schuld vergeeft.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>De boosheid blykt te klaar van uw vervloekte daaden.</l>
+						<l>Gy hebt, met voordacht, en met opzet my verraaden;</l>
+						<l>Gy, die door ontrouw en verdoemelyke list,</l>
+						<l>In myn paleis zaait zulk een doodelyke twist,</l>
+						<l>Waar door gy weet een Vrouw zo ver van 't spoor te brengen,</l>
+						<l>Dat ze een vergiften drank voor haar Gemaal durft mengen.</l>
+						<l>Zy had dit snood besluit, waar 't niet belet, vervult.</l>
+						<l>En gy durft, voor myn oor, noch zulk een zwaare schuld</l>
+						<l>Zo stout verschoonen? Ja, Trouwlooze! ja, Verraader!</l>
+						<l>Al uw verdeediging bewyst uw misdaad nader.</l>
+					</sp>
+					<sp who="#sohemus">
+						<speaker>Sohemus.</speaker>
+						<l>Heer Koning, 'k heb te veel, te groot een kwaad bestaan,</l>
+
+						<l>Om my te ontschuldigen: ik heb genoeg misdaân,</l>
+						<l>Dewyl ik tot myn leed uw zinnen kon mishaagen.</l>
+						<l>'k Zal nooit, met reden, van uw gramschap my beklaagen.</l>
+						<l>En in 't gevaar, dat ik my zelven heb bereid,</l>
+						<l>Hoop ik, met vrees, alleen op uw barmhartigheid.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>'k Heb door een middel, van een wonderlyk vermoogen,</l>
+						<l>Zo klaar, als of ik 't zelf gezien had voor myne oogen,</l>
+						<l>Geweeten al 't geheim van uw ontrouwe daad.</l>
+						<l>Beken vry dat de min was de oorsprong van al 't kwaad.</l>
+						<l>Men weet hoe hoog de roem en schoonheid is gesteegen</l>
+						<l>Van Mariamne, die zo ryk'lyk heeft gekreegen</l>
+						<l>'t Volmaakste, van al 't geen Natuur ooit bragt in 't licht.</l>
+						<l>Die luister kwetste u 't hart, verblindende u 't gezicht.</l>
+						<l>Gy kost onmoogelyk weêrstaan de schoone straalen,</l>
+						<l>Die zy uit haar gezicht zielroerende liet dwaalen:</l>
+						<l>Hier door hebt gy 't verraad gekregen in uw zin,</l>
+						<l>En de oorzaak van uw schuld sproot uit de Koningin.</l>
+						<l>Maar, zo gy wenscht dat ik het kwaad, zo stout bedreeven,</l>
+						<l>In plaats van straffen, u genadig zal vergeeven,</l>
+						<l>Zo laat me oprecht verstaan, door uw bekentenis,</l>
+						<l>Hoe deeze liefde in haar begin gebooren is.</l>
+						<l>Bevond ge in haar gemoed en ongetrouwe zinnen</l>
+						<l>Noch al wat tegenstand, eêr gy haar kost verwinnen?</l>
+						<l>Wat most ge al doen, toen gy wierd meester van haar eer?</l>
+					</sp>
+					<sp who="#sohemus">
+						<speaker>Sohemus.</speaker>
+						<l>Zo vreemd een voorslag maakt my zo verbaast, myn Heer,</l>
+						<l>Dat al myn spraak en myn gevoelen schynt verlooren.</l>
+						<l>'k Zou u myn antwoord, naar myn pligt, wel laaten hooren,</l>
+						<l>Maar 't is me onmoogelyk. Waar wil dit heenen? ach!</l>
+						<l>O Hemel!</l>
+
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Ja, ik weet dat zulk een zwaaren slag</l>
+						<l>Valt voor een Minnaar hard, die trouw, en vol ontfermen,</l>
+						<l>Tracht zyn Meestresse voor alle onheil te beschermen.</l>
+						<l>Herzaam uw geesten: meld my de oorzaak van dit vuur.</l>
+					</sp>
+					<sp who="#sohemus">
+						<speaker>Sohemus.</speaker>
+						<l>Wie kan gelooven dat dit proefstuk der Natuur,</l>
+						<l>Een Wonder van onze eeuw, wiens deugd elk kan bekooren,</l>
+						<l>Zo schoon van ziel als zy van ligchaam is gebooren;</l>
+						<l>Wel iets zou denken daar zy zelf door wierd ontëert?</l>
+						<l>En dat een Koning, die zo wysselyk regeert,</l>
+						<l>Ten koste van zyn rust, zyn oordeel zou verzaaken,</l>
+						<l>Om zelf de onmooglykheid als moogelyk te maaken.</l>
+						<l>'t Geen my word opgedicht stelt my in droeven staat.</l>
+						<l>Kan ik my zelven wel met dit vervloekt verraad</l>
+						<l>Beschuldigen, en my met eenen doen gelooven?</l>
+						<l>Hoe! zou Sohemus dan zich zelf van eer berooven,</l>
+						<l>En denken zulk een daad, zo haatlyk, zo vol schand',</l>
+						<l>Ten zy hy was beroofd van deugd, en van verstand?</l>
+						<l>En, schoon ze plaats in myn gedachten had genomen,</l>
+						<l>Wie kan gelooven dat een laffe Slaaf zou koomen</l>
+						<l>Tot zulk een stoutheid, om te ontdekken zyne min</l>
+						<l>Aan de ooren van zo groot, zo fier een Koningin,</l>
+						<l>Waar van de straf hem moest afschrikken, en doen beeven?</l>
+						<l>En noch een Koningin, zo wys, zo kuisch van leeven,</l>
+						<l>Dat zy een held're baak verstrekt voor yder een,</l>
+						<l>Om zulk een voorbeeld, vry van vlekken, naar te treên?</l>
+						<l>Haar deugd verdiende nooit zo groot een misvertrouwen.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>'t Verdriet myne oogen om u langer aan te schouwen,</l>
+						<l>De lessen die gy geeft verveelen myn gehoor.</l>
+						<l>Verraader, meent gy u te ontschuldigen, met voor</l>
+
+						<l>Uw medestandsters deugd te pleiten? ja, met liegen</l>
+						<l>En sierlykspreeken, 't recht zo listig te bedriegen?</l>
+					</sp>
+					<sp who="#sohemus">
+						<speaker>Sohemus.</speaker>
+						<l>Men straff' my, als een schelm, indien myn reên zyn valsch.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Men laat dien Redenaar zyn woorden, met zyn hals</l>
+						<l>Afsnyden, tot zyn loon.</l>
+					</sp>
+					<sp who="#sohemus">
+						<speaker>Sohemus.</speaker>
+						<l>Myn bloed zal steeds hier boven</l>
+						<l>Wraak roepen.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Ga hem van het leeven straks berooven.</l>
+					</sp>
+<stage>Eenigen der Lyfwachten met Sohemus binnen.</stage>
+				</div>
+				<div n="6" type="scene">
+					<head>Zesde tooneel.</head>
+<stage>Herodes, Lyfwachten.</stage>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Maar, 'k zie Nicanor komt. Wel aan, 't is tyd: ik moet</l>
+						<l>'t Vuur van myn woede en wraak uitblusschen in zyn bloed.</l>
+						<l>Dit Menschemonster, dat voor man, noch vrouw kan strekken,</l>
+						<l>Is schuldig, om dat hy die gruw'len dorst bedekken.</l>
+					</sp>
+				</div>
+				<div n="7" type="scene">
+					<head>Zevende tooneel.</head>
+<stage>Herodes, Nicanor, Thares, Lyfwachten.</stage>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Schrik der Natuur, veracht van Hemel, en van Aard',</l>
+						<l>Afgryselyk Gedrocht, dat al myn rampen baart,</l>
+						<l>Vervloekt en schaadlyk mensch! ik stelde in uw bewaaren</l>
+						<l>Een schat, die ik met reên voor my alleen mogt spaaren:</l>
+
+						<l>En midd'lerwyl hebt gy een Rover bygestaan,</l>
+						<l>Die aan zo schoon een buit zyn stoute hand dorst slaan.</l>
+						<l>Gy diende d'oorsprong van myn allerwreedste smarte,</l>
+						<l>En waart Vertrouw'ling van des Overspeelsters harte.</l>
+						<l>Gy wist zo vuig een daad, maar hield die voor my stil.</l>
+						<l>Als op myn ledekant Sohemus, naar zyn wil,</l>
+						<l>Zyn geile lusten met vernoegen heeft genooten,</l>
+						<l>Hebt gy met uwe hand 't gordyn zelfs toegeslooten,</l>
+						<l>En waakte daar omtrent: ja, dit hebt gy verricht,</l>
+						<l>Als ik naar Rhodes was. Dus schont ge uw trouw en pligt.</l>
+					</sp>
+					<sp who="#nicanor">
+						<speaker>Nicanor.</speaker>
+						<l>De Hemel, welke aanschouwt al myne onnozelheden,</l>
+						<l>Weet dat ik nimmermeer den pligt heb overtreeden,</l>
+						<l>Dien ik verschuldigd was aan zyne Majesteit,</l>
+						<l>En hoe 'k u diende met getrouwe oprechtigheid.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Getrouw! ô Booswicht! Dat men hem straks weg doe sleepen,</l>
+						<l>Op dat de waarheid hem ten hals werde uitgeneepen,</l>
+						<l>Door alle wreede pyn; die word ontdekt, zo hy</l>
+						<l>Niet is bezwooren door de kracht van tovery.</l>
+					</sp>
+					<p>Einde van het Darde Bedryf.</p>
+				</div>
+			</div>
+			<div n="4" type="act">
+
+				<head>Vierde bedryf.</head>
+				<div n="1" type="scene">
+					<head>Eerste tooneel.</head>
+<stage>Herodes, Salome, Pheroras.</stage>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Een Engel, die met zyn alombespiegelende oogen,</l>
+						<l>Geduurig nacht en dag, door goddelyk vermogen,</l>
+						<l>My gunstig aanziet, waakt voor myn behoudenis,</l>
+						<l>Ja wend steeds van my af al wat my schaad'lyk is.</l>
+						<l>Die hemelsche Afgezant blaast my in myn gedachten</l>
+						<l>'t Heil dat ik voor myn Ryk en leeven moet betrachten;</l>
+						<l>En als ik ben van magt, van hulp en hoop beroofd,</l>
+						<l>Beschermt zyn hand myn kroon, en ondersteunt myn hoofd.</l>
+						<l>In 't midden van 't gevecht dekt hy my met zyn vleug'len,</l>
+						<l>Als ik myn arm niet kan in 't krygsgevaar beteug'len.</l>
+						<l>Hy doet noodlottig my zyn bystand onverwacht,</l>
+						<l>En zegepraalen, als men my verwonnen acht.</l>
+						<l>Ja, zonder dien getrouwe en waardigen Behoeder,</l>
+						<l>Had ik geen leeven meer, en gy noch Vorst, noch Broeder.</l>
+						<l>Indien ik niet door zyn waarschuwing was ontwaakt;</l>
+						<l>Ik lag reeds in het graf dat voor my is gemaakt.</l>
+						<l>'k Zag niet, door min verblind, die my kon overheeren,</l>
+						<l>'t Onkuische vuur, dat my tot assche zout verteeren.</l>
+						<l>Deeze eerelooze Vrouw had, om myn dood verheugd,</l>
+						<l>Vertreedende onbeschaamd pligt, glory, eer en deugd,</l>
+						<l>Haar Overspeelder, in myn plaats, tot Vorst verkooren.</l>
+						<l>Herodes had alreeds zyn hoofd en kroon verlooren,</l>
+						<l>Zo zyn Beschermer hem 't niet alles had gemeld.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>De valstrik was tot zulk een boosheid opgesteld.</l>
+
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Uw Mariamne had haar gruwelen bedreeven,</l>
+						<l>Zo deeze ontdekking waar noch langer weggebleeven.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>'k Ben zeer verbitterd, door zo fel een spyt en hoon.</l>
+						<l>Gelyk de schande my op 't voorhoofd staat ten toon,</l>
+						<l>Zo staan ook in myn hart de wreedste razernyën.</l>
+						<l>Maar, welk een straf zy om haar misdaad ook zal lyën,</l>
+						<l>'k Blyve echter onvoldaan in myn ontroerd gemoed;</l>
+						<l>Terwyl het vuur van wraak, ontvonkende myn bloed,</l>
+						<l>My in een nieuw gevaar zal onvermyd'lyk stellen.</l>
+						<l>Helaas! ik kwel my zelf, als ik haar tracht te kwellen.</l>
+						<l>Ach! myn verderf hangt van het haare alleenig af.</l>
+						<l>'k Verzeker my, terwyl myn geest schrikt voor haar straf,</l>
+						<l>Als ik van 't aardryk laat dit god'lyk beeld verdwynen,</l>
+						<l>Dat voor myn oog nooit iets beminlyks zal verschynen.</l>
+						<l>Ik zou haar doodstraf steeds gevoelen in myn hart:</l>
+						<l>Uwe, en alle and're troost waar vruchtloos voor myn smart:</l>
+						<l>Een wreede wroeging sloeg myn ziel, met diepe wonden:</l>
+						<l>Myn borst wierd eeuwig van een fellen gier beschonden.</l>
+						<l>Waarom, ô Hemel! krygt myn min haar haat ten loon?</l>
+						<l>Ach! maak haar meer getrouw, of maak haar minder schoon.</l>
+						<l>Haar eed'le luister moest myne oogen nooit behaagen,</l>
+						<l>Of haar afkeerigheid my niet zo troostloos plaagen.</l>
+						<l>Myn zinnen zyn verdeeld: zy voeren met elkaâr</l>
+						<l>Een schrik'lyke oorlog, en my in doodsgevaar.</l>
+						<l>Nu komt de wraakzucht, dan de liefde my bestryden,</l>
+						<l>En voeren tegens een de straf, en 't medelyden.</l>
+						<l>Ik wensch, helaas! vervoerd van wanhoop en elend',</l>
+						<l>Dat noch myn naam langs de aard' mogt wezen onbekend;</l>
+						<l>Dat ik my zelf niet tot een Koning zag verheeven,</l>
+						<l>Maar in een stand om eerst kloekmoedig op te streeven</l>
+
+						<l>De heirbaan van de deugd en roem; en noch te staan</l>
+						<l>Naar 't eerste krygsgebied, en de eerste lauwerblaân.</l>
+						<l>'k Wensch me in een staat te zien waar in ik ben gebooren,</l>
+						<l>Of dat ik nimmer haar had moogen zien, of hooren.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Dit teêr gevoelen van uw ongeveinsde min</l>
+						<l>Bezwaart de misdaad van de trotse Koningin;</l>
+						<l>En haar ondankbaarheid is met meer reên te wraaken,</l>
+						<l>Dan doodslag, of 't misdryf van 't ongeöorlofd blaaken.</l>
+						<l>De gantsche waereld, die haar ontrouw klaarder ziet,</l>
+						<l>Vervloekt haar en beklaagt uw lot en groot verdriet.</l>
+						<l>Zy moet gestraft zyn, en het zal u nooit brouwen,</l>
+						<l>Wanneer gy, na haar dood, haar schyndeugd zult aanschouwen,</l>
+						<l>Die buitenspoorig stout u zocht op 't hart te treên.</l>
+						<l>De tyd en reden zal die slaafsche moeilykheên</l>
+						<l>Van u verdryven, tot verlichting van uw oogen.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>'t Rechtvaardig Recht heeft my tot haare straf bewoogen.</l>
+						<l>Maar hoe! haar straffen, die ik heb zo teêr bemint?</l>
+						<l>Zoude ik wel kunnen zyn zo god'loos en ontzind,</l>
+						<l>Dat ik een tempel, met zo veel vergoode gaaven,</l>
+						<l>Zou schenden, en in 't puin van haar bederf begraaven?</l>
+						<l>Myn geest verschrikt hier voor met groote ontsteltenis.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Eert gy een tempel, die zo vaak ontheiligd is?</l>
+						<l>Haar moordlust, overspel, en zo veel snoode zeden,</l>
+						<l>Behoorden u te ontslaan van deeze eerbiedigheden.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Het overspel staat voor de waarheid noch niet bloot,</l>
+						<l>Sohemus heeft zich zelf ontschuldigt voor zyn dood.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Hy heeft gehoopt, met dit te ontkennen en te zwygen,</l>
+
+						<l>Van uwe goedheid noch genade te verkrygen.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Zult gy haar ontrouw steeds ontdekken, nimmer zien,</l>
+						<l>Dan om uw liefde en uw genaâ haar aan te bien?</l>
+						<l>Wilt gy dan dat zy u noch eind'lyk zal verderven,</l>
+						<l>Haar boosheid uitvoere, u, en uw geslacht, doe sterven?</l>
+						<l>Wel aan, volg vry uw zin: wy zien 't geduldig aan,</l>
+						<l>En zyn gereed met u zelfs in den dood te gaan.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Wat tovery heeft dus uw zinnen ingenomen,</l>
+						<l>Om, in uw nadeel, tot dit laf besluit te koomen?</l>
+						<l>Welk een verkeerde drift heeft uw verstand verwart,</l>
+						<l>Dat gy, met opzet, loopt in uw verderf en smart?</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Geenzins: de middelweg, dien 'k vond om haar te plaagen,</l>
+						<l>Behoud haar, om dat zy noch zwaarder straf zou draagen.</l>
+						<l>Ze ontfing, met haare dood, een eind van alle pyn.</l>
+						<l>Een wreê gevangenis zal haar veel zwaarder zyn,</l>
+						<l>Waar in de spyt, de schand', het naberouw, en 't lyden,</l>
+						<l>Haar ziel, door duizend doôn, met knaagen zal kastyden,</l>
+						<l>'t Zy dat ze waake, of slaap', geduurig dag en nacht.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>'k Zie, door uw medely, haar oogmerk reeds volbragt.</l>
+						<l>Gy tergt des Hemels gunst, myn Heer. Kunt gy gelooven,</l>
+						<l>Dat ge, als men toeleid om u 't leeven te berooven,</l>
+						<l>Geduurig vry zult zyn van nood en ongeval,</l>
+						<l>En dat de Hemel dit gestaâg beletten zal?</l>
+						<l>Wanneer men dien in zyn waarschuwing durft verachten,</l>
+						<l>En vieren reukeloos den toom van zyn gedachten,</l>
+						<l>Verlaat het wankelend geluk veeltyds die geen,</l>
+						<l>Voor wier behoudenis 't welëer zo vaardig scheen.</l>
+
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Terwyl ge u zelf zo ver laat buiten 't spoor verrukken,</l>
+						<l>En teder d'oorsprong mint van alle uwe ongelukken,</l>
+						<l>Waar 't nutter dat gy nooit ontdekt had het verraad.</l>
+						<l>Zy zal boosaardiger verharden in het kwaad.</l>
+						<l>Een geest, die, zacht gevleid, u nimmer wou beminnen,</l>
+						<l>Wat zal die niet, na zulk een groote spyt, beginnen?</l>
+						<l>Ge ontvlamt hier door te meer het vuur van haat en twist.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Als gy uw vyand wilt verderven, die met list</l>
+						<l>Geduurig toeleid om het alles in te zwelgen,</l>
+						<l>Moet gy niet denken hem ten halven te verdelgen:</l>
+						<l>Want een ontydige toegeeving in die zaak,</l>
+						<l>Stelt zelf uw leeven aan den loop der dulle wraak.</l>
+						<l>Als gy de misdaad, op den stond als ze is bedreeven,</l>
+						<l>Niet kwytscheld, word de haat noch ruimer veld gegeeven;</l>
+						<l>En met wat eeden dat ge u ook bevreedigd ziet,</l>
+						<l>De hoon blyft in het hart, en gy vergeet dien niet.</l>
+						<l>De trouw'loosheid van vorst Hyrcanus kan 't u leeren;</l>
+						<l>Een weêrlooze oude, die onmoog'lyk kon regeeren,</l>
+						<l>De laatste schandvlek van dat wrokkende geslacht,</l>
+						<l>Die, zwervende aan d' Eufraat, gebannen en veracht,</l>
+						<l>Door uwe goedheid en godvruchtige mededoogen,</l>
+						<l>Kwam weder aan uw hof in aanzien en vermoogen,</l>
+						<l>Daar gy hem aanbood al wat aan zyn zin geviel:</l>
+						<l>Doch kon uw goedheid wel verdryven uit zyn ziel,</l>
+						<l>Den wil die hy bezat om zyn geslacht te wreeken?</l>
+						<l>En zo 't verraad u niet was door zyn volk gebleeken,</l>
+						<l>Dat u waarschuwde van het trouw'loos vloekverbond,</l>
+						<l>Daar hy met Malichus, tot uw verderf, in stond;</l>
+						<l>Had gy niet moeten, door zyn heimelyke laagen,</l>
+						<l>Voor 't loon van zo veel goed, het grootste kwaad verdraagen?</l>
+
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Zoud gy wel, zonder vrees van eigen ondergang,</l>
+						<l>Bewaaren kunnen zulk een doodelyke slang?</l>
+						<l>Die kwaâ zuurdeessem van zo veele oproerigheden,</l>
+						<l>Wiens tong uw glans onteert en lastert buiten reden,</l>
+						<l>Wiens hart afgrys'lyk brand vvan een vervloekten haat,</l>
+						<l>Om u verdelgd te zien? Ja, zo 't in zulk een staat</l>
+						<l>Gebeurde, dat men zag den groote Augustus sneeven,</l>
+						<l>Waar door men licht het volk tot muiten zag gedreeven,</l>
+						<l>Zou zy 't voorwendsel van de oproering niet zyn?</l>
+						<l>Men rukte ze uit u magt. In dien gevreesden schyn,</l>
+						<l>Zou zy, gelyk de wraak, om u op 't wreedst te hoonen,</l>
+						<l>Voor al de muiters met een fakkel zich vertoonen,</l>
+						<l>En zetten uw paleis en schatten in den brand.</l>
+						<l>Zy hielp u wis in 't graf, en licht met eige hand.</l>
+						<l>En als die helsche plaag, tot uw verderf geneegen,</l>
+						<l>Den Raad had tegen u, in haar belang gekreegen</l>
+						<l>Dan zoud gy wenschen, maar te laat, met druk en pyn,</l>
+						<l>Dat gy haar aanslag zelf mogt voorgekoomen zyn.</l>
+						<l>Gy zult den misslag, welke u zeker zal verderven,</l>
+						<l>Beklaagen al te laat.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Wel aan, 'k zal haar doen sterven,</l>
+						<l>En straks een Afgezant naar Romen laaten gaan,</l>
+						<l>Door wien de Vorst dit zelf zal, uit myn naam, verstaan;</l>
+						<l>Uit vrees dat de afgunst, die noch waakt op myn bedryven,</l>
+						<l>My by den Keizer mogt een kwaade vlek aanwryven;</l>
+						<l>Waar door hy denken mogt, onkundig van de daad,</l>
+						<l>Dat zy verweezen was uit staatsbelang, of haat.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>Tweede tooneel.</head>
+<stage>Mariamne, in haar gevangenis.</stage>
+					<sp who="#mariamne">
+						<speaker>Mariamne</speaker>
+						<l>Om my, met smart op smart, benaauwd te prangen,</l>
+						<l>En eindelyk op te off'ren aan de dood,</l>
+						<l>Is 't ligchaam hier gestreng geboeid, gevangen,</l>
+						<l>Maar niet de ziel: die streeft door allen nood;</l>
+						<l>Die zal zich zelf gewillig overgeeven</l>
+						<l>In 's Hemels hand, wiens almagt my ze eerst gaf,</l>
+						<l>Bepaalende de lengte van myn leeven.</l>
+						<l>'k Zie dat de nyd reeds heeft gemaakt myn graf;</l>
+						<l>En dat de Schrik en Moorder van myn Maagen,</l>
+						<l>De trouwelooste en lafste Dwingeland,</l>
+						<l>Die my verdrukt met onverdraagb're plaagen,</l>
+						<l>Myn zuiver hart tracht, in zo bang een stand,</l>
+						<l>Door schyn van reên, met misdaân te bezwaaren.</l>
+						<l>Om dat hy zelf weêr nieuwe zou begaan.</l>
+						<l>Vaar voort, vaar voort, ô wreedste der Barbaaren!</l>
+						<l>'k Ben reed, Tyran, om, zonder zucht of traan,</l>
+						<l>U met myn hoofd onschuldig te betaalen</l>
+						<l>D' ontrouwen eisch van uw bloeddorstig hart:</l>
+						<l>En met wat angst men ook den dood mag maalen,</l>
+						<l>Hy koom, en maak het einde van myn smart.</l>
+						<l>De dood kan my, hoe schrikk'lyk! niet vervaaren.</l>
+						<l>'k Verlang, ik wensch, dat hy haast scheid' van een</l>
+						<l>Twee, die men zag op 't aardryk zaamen paaren,</l>
+						<l>Schoon onverëend in hun genegenhêen.</l>
+						<l>Wanneer de deugd, verdrukt door vuile dampen</l>
+						<l>Van de ondeugd, noch haar adem haalen moet,</l>
+						<l>Lyd zy zo zwaare en onverdraagb're rampen,</l>
+						<l>Gelyk als een die zyne doodschuld boet,</l>
+						<l>En leevendig is mond aan mond gebonden</l>
+
+						<l>Op een gesturven mensch, die reeds verrot.</l>
+						<l>De Hemel, die my steeds heeft toegezonden,</l>
+						<l>Van myn geboortuur af, een lydig lot,</l>
+						<l>Dat my steeds reên tot klaagen bragt en schreijen,</l>
+						<l>Maakt nu dat zich myn geest, met vreugde, geeft</l>
+						<l>In zyne magt, die my zal gunstig leijen</l>
+						<l>Waar dat men, vry van rampen, eeuwig leeft:</l>
+						<l>Hy zal my door de smerten heen doen breeken,</l>
+						<l>Ja laaten my haast zegepraalend gaan</l>
+						<l>Op roozen, daar de distelen niet steeken.</l>
+						<l>'k Zal haast verlost, en hoog verheerlykt staan.</l>
+						<l> </l>
+						<l>Maar zachtlik hoor gerucht: doch wat het ook mag wezen,</l>
+						<l>Daar 's niets waar voor myn ziel verschrikken zal of vreezen.</l>
+						<l>Met deezen laatsten troost versterkte ik myn gemoed,</l>
+						<l>Na dat ik sleet myn tyd, vervallen van al 't zoet,</l>
+						<l>Dat ik moest wachten van myn 's leevens lentedagen,</l>
+						<l>In zulk een echt, die my verwekt heeft alle plaagen.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>Darde tooneel.</head>
+<stage>Mariamne, De Sipier.</stage>
+					<sp who="#sipier">
+						<speaker>De Sipier.</speaker>
+						<l>Mevrouw, men wacht u straks beneden in de zaal,</l>
+						<l>Uit last des Konings.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Welk een aangenaame taal,</l>
+						<l>En tyding, die 'k al lang gewenscht heb met verlangen.</l>
+						<l>Van waar komt u dees angst, welke u zo schynt te prangen.</l>
+					</sp>
+					<sp who="#sipier">
+						<speaker>De Sipier.</speaker>
+						<l>Om dat ik heb gezien, op 't buitenhof, Mevrouw,</l>
+						<l>Uw trouwe burgery, afbeeldende in hun rouw,</l>
+						<l>Door leevendige smart, en dood'lyke ongenuchten,</l>
+
+						<l>Door droevige schreijen, bang geklag en naare zuchten,</l>
+						<l>'t Rechtvaardig medely voor uwe majesteit.</l>
+						<l>'t Meld uw rampzalig lot.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>'t Is ydel, dat men schreit</l>
+						<l>Om zulk een lot, dat ik zal, tot myn heil, genieten. . . . .</l>
+						<l>Maar 't wachten mogt hen hier benenden licht verdrieten.</l>
+						<l>Ga, zeg, dat hun geduld een weinig noch vertoeft.</l>
+						<l>'k Zal, eêr ik kom, aan myn Staatjuffers, die bedroefd</l>
+						<l>Myn ramp beklaagen, op het einde van myn leeven,</l>
+						<l>Omdeelen 't geen my hier noch over is gebleeven.</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>Vierde tooneel.</head>
+<stage>Alexandra, Benjamin</stage>
+					<sp who="#alexandra">
+						<speaker>Alexandra.</speaker>
+						<l>Men wacht dan Mariamne op 't bloedige schavot?</l>
+					</sp>
+					<sp who="#benjamin">
+						<speaker>Benjamin.</speaker>
+						<l>Ja, en al 't aardryk treurt om haar beklaaglyk lot.</l>
+						<l>De Hemel zelf schynt met de Onschuldige bewoogen,</l>
+						<l>En heeft zyn klaarheid met een lamferkleed omtoogen,</l>
+						<l>Om 't wreede treurspel, door een flaauwe schaduw heen,</l>
+						<l>Te aanschouwen. Al 't misbaar, het kermen, en gesteen</l>
+						<l>Zou zelf aan 't hardste hart een weg tot deernis baanen.</l>
+						<l>Elk treed haar tegen, met het offer van zyn traanen.</l>
+					</sp>
+					<sp who="#alexandra">
+						<speaker>Alexandra.</speaker>
+						<l>Zo gaat zy dan ter dood, als een onnoozel lam!</l>
+						<l>Sproot zy hier toe uit zulk een heerelyke stam?</l>
+						<l>O godloos vonnis! moest de nyd, door helsche treken,</l>
+						<l>Het vuur van haat zo fel in 't hart des Dwing'lands kweeken?</l>
+						<l>Dien spoor'looze Arabier, zo laf van moed als zin,</l>
+						<l>Aanhitzen tot den moord van zyne Gemaalin?</l>
+
+						<l>Zal dan de Hemel, die de deugd ziet overheeren,</l>
+						<l>Hem met zyn bliksemvuur noch niet tot asch verteeren?</l>
+						<l>Ja, zyn rechtvaardigheid, die 't onrecht nooit geviel,</l>
+						<l>Zal deeze onschuldige haast wreeken op zyn ziel:</l>
+						<l>Hy laat zich liefelyk, maar ook weêr vrees'lyk hooren.</l>
+						<l>Voor zyn's gelyken is het wee en ach beschooren.</l>
+						<l>O Hemel! geef dat uw genade, in deezen staat,</l>
+						<l>De onnooz'le Dochter help', de Moeder niet verlaat'.</l>
+					</sp>
+					<sp who="#benjamin">
+						<speaker>Benjamin.</speaker>
+						<l>De Hemel zal noch licht de Onschuldige bevryden.</l>
+					</sp>
+					<sp who="#alexandra">
+						<speaker>Alexandra.</speaker>
+						<l>Die schynt gantsch doof voor my, en zonder medelyden.</l>
+					</sp>
+					<sp who="#benjamin">
+						<speaker>Benjamin.</speaker>
+						<l>Wat word gy, in een zee van onrust, overal</l>
+						<l>Geslinger heen en weêr!</l>
+					</sp>
+					<sp who="#alexandra">
+						<speaker>Alexandra.</speaker>
+						<l>Waar of men landen zal?</l>
+						<l>In welk een haven word men eens verlicht van pynen?</l>
+					</sp>
+					<sp who="#benjamin">
+						<speaker>Benjamin.</speaker>
+						<l>Mevrouw, berei u toch: zy zal wel haast verschynen.</l>
+						<l>Hier is de weg, waar langs dat Voorbeeld van geduld</l>
+						<l>Ter slagtbank gaan moet, om te sterven zonder schuld.</l>
+					</sp>
+					<sp who="#alexandra">
+						<speaker>Alexandra.</speaker>
+						<l>Kan ik wel met zo wreed een opzet voor haar koomen?</l>
+						<l>Ja, ja, ik zal, ik moet. Myn ziel, ontveins uw schroomen:</l>
+						<l>Hou op van zuchten, als gy 't droeve Voorwerp ziet.</l>
+						<l>Myn klagten mogten licht my strekken tot verdriet.</l>
+						<l>Verzaaken wy ons zelf: laat ons haar tegentreeden</l>
+						<l>Met zulk een fier gelaat dat al de moeilykheden</l>
+						<l>Bedekt van ons gemoed. Om deeze slag te ontgaan</l>
+						<l>Moet ik, Natuur ten trots, het Moeders hart verraân.</l>
+
+					</sp>
+					<sp who="#benjamin">
+						<speaker>Benjamin.</speaker>
+						<l>Ik vrees dat haar gezicht u dood'lyk zal bedroeven.</l>
+						<l>Laat ons, al schreijende, ter zyden wat vertoeven</l>
+						<l>Naar dat onnoozele Slagtöffer. Hemel! ach!</l>
+					</sp>
+					<sp who="#alexandra">
+						<speaker>Alexandra.</speaker>
+						<l>Hoe! meent gy dat ik noch kan schreijen, als ik plag?</l>
+						<l>Myn hart, door druk versteend, belet myne oogen 't weenen.</l>
+						<l>Kom, lei, daar ik moet staan, myn sidderende beenen,</l>
+						<l>Daar ik, mistroostig, bang en angstig van gemoed,</l>
+						<l>Voor 't laatst, verwachten zal het waardigst van myn bloed.</l>
+					</sp>
+				</div>
+				<div n="5" type="scene">
+					<head>Vyfde tooneel.</head>
+<stage>Mariamne, Dina, Thares, Alexandra, Benjamin.</stage>
+					<sp who="#thares">
+						<speaker>Thares.</speaker>
+						<l>In weêrwil van my zelf, moet ik aan u verrichten</l>
+						<l>Zo moeijelyk een dienst: myn ampt, myn trouw en pligten</l>
+						<l>Verëischen dat, als een noodzaaklykheid, van my.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Hoe kwaalyk past ge op my, myn Vriend, uw medely!</l>
+						<l>'k Omhels de dood, met vreugd, vrywillig, ongedwongen.</l>
+						<l>Lei, zonder droefheid, my, daer 'k ruim en ongedrongen,</l>
+						<l>Ontlast van zorg, gerust de dood tart', wel te vreên.</l>
+						<l>Herodes wil 't; en ik, ik ga hem tegentreên.</l>
+						<l>Doch zo noch iets op aard' myn blydschap kan vermind'ren,</l>
+						<l>Het is de droeve zorg voor myn twee lieve Kind'ren,</l>
+						<l>Die 'k nalaat, welk een leed! Dit ongelukkig Kroost,</l>
+						<l>Zal, om de Moeder, by den Vader hulp noch troost</l>
+						<l>Genieten, maar altoos onwaardig zyn verstooten.</l>
+						<l>'k Hoop dat de Hemel, die zyn gusnt nooit houd geslooten,</l>
+						<l>De onnoos'le Weezen zal verstrekken, na myn dood,</l>
+
+						<l>Voor Vader, en met een voor Moeder, in den nood.</l>
+						<l>De zuiv're deugd verlicht' hun harten en hunne oogen,</l>
+						<l>Door heilige indruk van een goddelyk vermoogen;</l>
+						<l>Op dat ze in 't groot gevaar van deezen boozen tyd</l>
+						<l>Geen schipbreuk lyden; maar, de wreede haat ten spyt,</l>
+						<l>Gezind zyn om veel eêr te sterven duizend dooden,</l>
+						<l>Dan iets te doen het geen de Hemel heeft verboden.</l>
+						<l>Dat nimmer overvloed van droefheid, of van vreugd,</l>
+						<l>Van voor- of tegenspoed hen aftrekk' van de deugd!</l>
+						<l>En zo de zon van hun geluk eens door mogt breeken;</l>
+						<l>Dat zy niet denken om hun Moeders dood te wreeken,</l>
+						<l>Maar, om onstraffelyk te leeven, zonder schuld,</l>
+						<l>Als ik te sterven, vry van vrees en ongeduld!</l>
+						<l>En gy, bloedgierig Mensch, ontaarde Ziel vol schanden,</l>
+						<l>Wiens lust men naar 't verderf ziet van de onnoos'len branden;</l>
+						<l>Dewyl gy nooit verzacht uw wreed gemoed noch zin,</l>
+						<l>Ga ik kloekmoedig, zo als 't past een Koningin,</l>
+						<l>Voor u uitstorten daar ge u zelf meê kunt verblyden:</l>
+						<l>Tot lessing van uw dorst, en 't einde van myn lyden,</l>
+						<l>Schenk ik u al het bloed dat in myn aad'ren is.</l>
+						<l>Drink, drink, Boosaardige, drink zonder deerenis;</l>
+						<l>Doch denk niet dat gy, met de vlek my aangevreeven,</l>
+						<l>Myn eer gelyk'lyk zult vernielen met myn leeven:</l>
+						<l>O neen! myn zuiv're naam, uit haat, besmet, vertreên,</l>
+						<l>Zal echter straalen door de mist van laster heen;</l>
+						<l>De naneef nimmermeer iets tot myn schand' gelooven.</l>
+						<l>Men kan de waarheid met geen logenen verdooven.</l>
+						<l>De tyd zal haar eerlang vertoonen aan het licht,</l>
+						<l>En myn verdrukte deugd doen zien aan elks gezicht;</l>
+						<l>Ja, het verhaasten van myn doodstraf klaar bewyzen</l>
+						<l>Uw onrechtvaardigheid, die yder met afgryzen</l>
+						<l>Vervloekt. Uw wreêdheid, welke alom zich openbaart,</l>
+
+						<l>Vernietigt in my niets dan een verderf'lyke aard':</l>
+						<l>Maar 't onverderf'lyk deel, de ziel, versierd met straalen,</l>
+						<l>Van myne deugd, ontlast van rampen, druk, en kwaalen,</l>
+						<l>Zal eindelyk, ten trots van alle nyd en haat,</l>
+						<l>Voor eeuwig blinken in een luister zonder maat.</l>
+						<l>Maar 'k zie myn Moeder my op deeze plaats verwachten.</l>
+						<l>Zy zal myn lyden, met haar laatsten troost, verzachten;</l>
+						<l>Troost, die my nimmer weêr op aard' gebeuren zal.</l>
+						<l>'k Wench dat haar hart, om myn rampzaalig ongeval,</l>
+						<l>Wat meerder rust had, en wat minder was bewoogen.</l>
+						<l>Wil, heusche Thares! op myn bede, toch gedoogen,</l>
+						<l>Dat ik haar zeg vaar wel, en voor het allerlaast</l>
+						<l>Omhelze, en kussen mag.</l>
+					</sp>
+					<sp who="#thares">
+						<speaker>Thares.</speaker>
+						<l>Maar dat gy u dan haast.</l>
+						<l>Mevrouw, ik zou de schuld van dit vertoeven draagen.</l>
+						<l>Myn last moet zyn gevolgd, ik durf geen uitstel waagen.</l>
+						<l>De Vorst . . . .</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Deeze aanspraak is in weinig tyds gedaan.</l>
+						<l>Mevrouw, men dwingt my naar een and're plaats te gaan.</l>
+						<l>'k Zal de aardsche wooning, om een hemelsche, verruilen,</l>
+						<l>Daar 't buld'ren van de nyd, uit diepe en naare kuilen,</l>
+						<l>De harten, noch de lucht met haare gruw'len pynt,</l>
+						<l>En daar de Onschuldige verheerelykt verschynt:</l>
+						<l>Daar een Tyran de deugd uit haat nooit kan vertreeden:</l>
+						<l>Daar de eed'le ziel, tot loon van haar standvastigheden,</l>
+						<l>In vreede smaaken zal het onwaardeerlyk zoet,</l>
+						<l>En, zegepraalende, de vreugde van 't gemoed.</l>
+						<l>Zo wreed een lot brengt my naar 't wit van myn verlangen.</l>
+						<l>Ik ga vrywillig, om de dood met vreugd te ontfangen.</l>
+						<l>Troost u hier meê. 'k Omarm u voor myn laasten pligt.</l>
+
+						<l>Vaar wel, Mevrouw! vaar wel. 'k Verlaat uw aangezicht.</l>
+					</sp>
+					<sp who="#alexandra">
+						<speaker>Alexandra.</speaker>
+						<l>Volëind uw leeven: ga, Rampzalige, ga heenen.</l>
+						<l>Hoe! meent gy, dat ik noch zal uwe straf beweenen?</l>
+						<l>Neen, 'k ban, gedwongen, al de deernis uit myn hart;</l>
+						<l>Dat hart, waar onder ik u droeg met zo veel smart.</l>
+						<l>Is 't moog'lyk? moest ik dan u op het aardryk baaren?</l>
+						<l>U kweeken, koesteren, met zorg en angst bewaaren?</l>
+						<l>Uw leeven leiden in den morgenstond der jeugd,</l>
+						<l>Op dat ge u zelve zoud verwyd'ren van de deugd,</l>
+						<l>Om u Gemaal, de Vorst zyn ondergang te brouwen?</l>
+						<l>Uw schuld. . . . . Maar ga, ik kan u langer niet aanschouwen.</l>
+						<l>Verduur de straf, die u van 't noodlot is bereid.</l>
+						<l>Het Moeders hart heeft lang vergeefs voor u gepleit;</l>
+						<l>'t Verzaakt u: ja, gy zyt van my ook niet gekoomen.</l>
+						<l>'t Verraad heeft nimmer plaats in deeze borst genomen.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Behou uw leeven: ik zal sterven wel te vreên.</l>
+					</sp>
+					<sp who="#thares">
+						<speaker>Thares.</speaker>
+						<l>Gaan wy, Mevrouw, gaan wy.</l>
+					</sp>
+					<sp who="#mariamne">
+						<speaker>Mariamne.</speaker>
+						<l>Langs welk een weg?</l>
+					</sp>
+					<sp who="#thares">
+						<speaker>Thares.</speaker>
+						<l>Dit heen.</l>
+					</sp>
+					<sp who="#dina">
+						<speaker>Dina.</speaker>
+						<l>O welk een wreedheid!</l>
+					</sp>
+					<sp who="#benjamin">
+						<speaker>Benjamin.</speaker>
+						<l>Ach! welk een geduld, en lyden!</l>
+					</sp>
+				</div>
+				<div n="6" type="scene">
+					<head>Zesde tooneel.</head>
+<stage>Alexandra, Benjamin.</stage>
+					<sp who="#alexandra">
+						<speaker>Alexandra.</speaker>
+						<l>Moest ik, door zulk een daad, zo wreed haar 't hart doorsnyden?</l>
+						<l>Helaas!</l>
+					</sp>
+					<sp who="#benjamin">
+						<speaker>Benjamin.</speaker>
+						<l>Zal 't noodlot niet ophouden uw geslacht</l>
+						<l>Te plaagen, voor het gantsch is deerlyk omgebragt?</l>
+						<l>O al te wreed een straf!</l>
+					</sp>
+					<sp who="#alexandra">
+						<speaker>Alexandra.</speaker>
+						<l>O al te fel een smarte!</l>
+						<l>Wat moord die laffe list, door naberouw, my 't harte!</l>
+						<l>Ik mogt veel eerder met haar sterven door één lot.</l>
+						<l>Moest ik dan, om de dood te ontgaan, op 't moordschavot,</l>
+						<l>Met dit bedrog, myn pligt, myn bloed, en kind verzaaken?</l>
+						<l>Myn ziel, die tevens alle elenden voelt genaaken,</l>
+						<l>Geeft, geeft zich over aan de droefheid al te straf.</l>
+						<l>Gelei my naar het bed, of liever naar het graf.</l>
+					</sp>
+					<p>Einde van het Vierde Bedryf.</p>
+				</div>
+			</div>
+			<div n="5" type="act">
+
+				<head>Vyfde bedryf.</head>
+				<div n="1" type="scene">
+					<head>Eerste tooneel.</head>
+<stage>Herodes, en Gevolg.</stage>
+					<sp who="#herodes">
+						<speaker>Herodes, en Gevolg</speaker>
+						<l>O wreede Jaloezy, bedekt met schoone verven!</l>
+						<l>Gevaarelyke slang, welk alles kan verderven!</l>
+						<l>En dochter van de min, die zelf haar moeder moord!</l>
+						<l>Draak, die geduurig waakt, en eeuwig ziet en hoort,</l>
+						<l>Door honderd oogen, en door honderd listige ooren!</l>
+						<l>Die alles neemt verkeerd, en alles acht verlooren!</l>
+						<l>Hebt gy niet lang genoeg my dag en nacht geplaagt?</l>
+						<l>O onverzaadb're gier, die onophoud'lyk knaagt!</l>
+						<l>Vlieg, vlieg voor eeuwig weg uit myn gemoed en oogen,</l>
+						<l>Verkeerde uitlegster, en verspiedster vol van loogen,</l>
+						<l>Die al myn zinnen houd betoverd, en my doet</l>
+						<l>Verdrukte Onnozelheid versmooren in het bloed!</l>
+						<l>Kon dan Sohemus dood uw wraak noch niet verkoelen?</l>
+						<l>Moet Mariamne zelfs den schrik des doods gevoelen?</l>
+						<l>Maar hoe! den schrik des doods gevoelen? Weet gy niet,</l>
+						<l>Dat ge in haar nadeel een doodvonnis hooren liet?</l>
+						<l>Als een misdaadige, en gedoemde, is zy op heden</l>
+						<l>Ter dood gebragt, helaas! zy is niet meer beneden</l>
+						<l>Op 't aardryk; of ik ben verraân, zo zy noch leeft,</l>
+						<l>Of ongelukkig, zo men my gehoorzaamt heeft.</l>
+						<l>Myn leeven loopt gevaar, leeft zy; en 'k moet haar volgen</l>
+						<l>Indien de Schoone is dood. Wreed noodlot! ô verbolgen,</l>
+						<l>En felle smarten! ô afgrys'lyk gruwelstuk!</l>
+						<l>Ik vind my zelf alom verward in diepen druk,</l>
+						<l>En op wat weg zich myn gedachen laaten voeren,</l>
+						<l>'k Ontmoet'er droefheid, vrees, en schrik, die my beroeren.</l>
+						<l>Gaan we den loop zien van haar noodlot. Hemel! ach!</l>
+
+						<l>Zo zy noch 't licht aanschouwt, zal ik op deezen dag,</l>
+						<l>Door de edelmoedigste genade en gunst, verkeeren</l>
+						<l>De droeve lykpraal in een vrolyk triomfeeren.</l>
+						<l>Maar Narbal nadert my: ik lees, helaas! heel licht</l>
+						<l>Myn droevig ongeluk, in zyn beschreid gezicht:</l>
+						<l>Hy beeld het troostloos af.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>Tweede tooneel.</head>
+<stage>Herodes, Narbal.</stage>
+					<sp who="#narbal">
+						<speaker>Narbal, ter zyde.</speaker>
+						<l>O welke zwaare plaagen!</l>
+						<l>Eén slag heeft alle deugd gelyk ter neêr geslaagen.</l>
+						<l>De eer en standvastigheid, godvruchtigheid en trouw</l>
+						<l>Zyn met die Schoone reeds het leeven kwyt.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Wat rouw</l>
+						<l>Verdrukt zo wreed uw ziel?</l>
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>Helaas! de grootste reden.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Is Mariamne dood?</l>
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>Ach! ja, ze is overleeden.</l>
+						<l>Men sloeg dat waardig hoofd van 't zuiver ligchaam af. . . . .</l>
+						<stage>Ter zyde.</stage>
+						<l>'t Uitvoeren van den last, en vonnis dat hy gaf,</l>
+						<l>Bestormt met smart zyn ziel: haar dood zal hem doen sterven.</l>
+						<l>'k Voorzag wel dat hy nooit de Koningin kon derven,</l>
+						<l>Als met zo groot een leed: hy steent, hy zucht en schreit.</l>
+						<stage>Tegen Herodes.</stage>
+						<l>Keer weder tot u zelf, en uw kloekmoedigheid.</l>
+
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Is Mariamne dood? is zy niet meer in wezen?</l>
+						<l>Zy, die myn zon was, en zo blinkende opgereezen,</l>
+						<l>Is maar een schaduw, en die morgenstar, ô smart!</l>
+						<l>Verliest haar glans in het bestraalen van myn hart.</l>
+						<l>Moest dan dit heerlyk licht verdooven en verdwynen?</l>
+						<l>Is 't waar? en kan de zon noch op het aardryk schynen?</l>
+						<l>Men heeft welëer die zien afwyken van haar pad,</l>
+						<l>Alleen uit schrik dien zy voor 't dood'lyk moordmaal had:</l>
+						<l>Is zy van dit gezicht niet schuw noch bleek besturven,</l>
+						<l>Nu zulk een glans die haar gelyk was, is bedurven?</l>
+						<l>O wreede zon! die geen gevoelen hebt noch reên,</l>
+						<l>Gy draagt slechts blindelings 't vergoode licht te leen.</l>
+						<l>Indien de Onsterf'lykheid, welke u, uit vuur en vonken,</l>
+						<l>Een ligchaam schiep, u meê had met een ziel beschonken,</l>
+						<l>Gy zoud gevoeliger zien zulk een treurspel aan,</l>
+						<l>En droevig onder gaan, om nooit weêr op te staan:</l>
+						<l>Dan zou al de aard', met my, dit zwaar verlies beklaagen,</l>
+						<l>En, van uw licht ontbloot, voor eeuwig 't rouwkleed draagen,</l>
+						<l>In zulk een naaren nacht van jamm'ren, daar Natuur</l>
+						<l>Zelf moest verkwynen op het missen van uw vuur,</l>
+						<l>Alom gevoelende myn smarten, druk, en schroomen.</l>
+						<l>De dood heeft Mariamne in zyn geweld genomen;</l>
+						<l>Neen, neen, hy heeft geen magt, daar haare glans gebied. . .</l>
+						<l>Maar, 'k weet zy leeft niet meer: zyn woeste wreedheid ziet</l>
+						<l>Noch jeugd, noch schoonheid aan. Ach! kan 't wel moog'lyk weezen</l>
+						<l>Dat hy reeds heeft vernielt een tempel, waard gepreezen?</l>
+						<l>Een tempel, zo volmaakt als ooit de deugd bezat?</l>
+						<l>Hoe! zou men fluiten zulk een onwaardeerb'ren schat</l>
+						<l>In 't midden van de diepe en akelige graaven?</l>
+						<l>Schat, die de woonplaats is van allerleyë gaaven,</l>
+						<l>Waar in de liefde, en al wat ooit bevallig scheen,</l>
+
+						<l>Zich op het sierelykst' vermengen onder een?</l>
+						<l>Hoe! zyn de starren dan verduisterd van haare oogen?</l>
+						<l>'t Aanminnig aangezicht de glans der verf onttoogen?</l>
+						<l>De lely en de roos gedoodverfd, die zo schoon</l>
+						<l>In 't aanschyn stonden van dat hemelsch beeld ten toon?</l>
+						<l>Is dan de schoone ziel van 't schoone lyf ontbonden,</l>
+						<l>En al de wond'ren der natuur verstrooid, geschonden?</l>
+						<l>Hoe! zou voor eeuwig dan die minnelyke mond</l>
+						<l>Geslooten zyn, waar in ik niets dan godspraak vond?</l>
+						<l>En, 't geen myn eigen zelf noch onlangs heeft gescheenen,</l>
+						<l>Zou dit nu niets zyn, en in dunne lucht verdweenen?</l>
+						<l>O neen! dit is een zaak die waarheid heeft noch schyn,</l>
+						<l>En niet geloof'lyk is, noch moogelyk kan zyn.</l>
+						<stage>Tegen Narbal.</stage>
+						<l>Wat zegt gy? Heeft men dan vernietigt op der aarde</l>
+						<l>Dit proefstuk der Natuur, zo schoon als ze immer baarde!</l>
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>Ja, 'k zag dien wreeden slag, in wanhoop, buiten raad.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Verhaal me omstandig deeze erbarmelyke daad.</l>
+						<l>Ik kan niet twyfelen, en echter 't niet gelooven.</l>
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>Wanneer men haar, wiens deugd streeft alle deugd te boven,</l>
+						<l>Het vonnis voordroeg, 't geen haar parste om straks te gaan</l>
+						<l>Uit haar gevangenis, kon elk van schrik pas staan.</l>
+						<l>Behalven haar geduld, dat wist van geen beweegen.</l>
+						<l>Zy, die grootmoedig trad den dood met blydschap tegen,</l>
+						<l>Trotseerende haar lot, betoonde in deezen staat,</l>
+						<l>De minste vrees niet met haar woorden, of gelaat.</l>
+						<l>De aanbiddelyke glans van haar bekoorlyke oogen</l>
+						<l>Bleef even schoon, en wekte in yder mededoogen.</l>
+						<l>De aanminnigheid en vreugd, die 't aangezicht behiel,</l>
+
+						<l>Bewees haar onschuld, en gerustheid van haar ziel.</l>
+						<l>Na dat zy dan vernoegd, op d' oever van het leeven,</l>
+						<l>Aan haar vertrouwden haar juweelen had gegeeven,</l>
+						<l>En in 't omhelzen haar, als voor des Hemels troon,</l>
+						<l>Het droevig schreijen, en het volgen had verboôn,</l>
+						<l>Ging zy, kloekmoedig, met een vriend'lyk welbehaagen,</l>
+						<l>Naar het schavot, 't geen zelfs om haar scheen rouw te draagen.</l>
+						<l>Nooit praalde een Koningin der Amazoonen meer,</l>
+						<l>Na haare dapp're daân, in zegepraalende eer,</l>
+						<l>Als zy, beklaag'lyk tot een schandig lot beschooren.</l>
+						<l>Al wie haar volgde, scheen in traanen te versmooren,</l>
+						<l>Ze aanschouwden haar geduld, met ongeduld en smart.</l>
+						<l>Een gantsche meenigte, in dien drang door een verward,</l>
+						<l>Vervloekte 't vonnis, 't geen haar doemde buiten reden.</l>
+						<l>Zy riepen dat haar deugd, versierd met eed'le zeden,</l>
+						<l>Nooit had zo spooreloos, zo vuig een daad begaan:</l>
+						<l>Dat yder druppel bloed eerlang u zelf zou staan</l>
+						<l>Op duizend traanen, en op duizend wreede pynen,</l>
+						<l>Wanneer ze, om wraak, steeds voor uwe oogen zal verschynen.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Ik voel, ik voel alreeds de kwelling, die zy</l>
+						<l>Met recht voorspeld heeft.</l>
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>Elk kreeg meerder medely',</l>
+						<l>Wanneer haar Moeder, die de vrees van 't spoor deed wyken,</l>
+						<l>Haar waare droefheid veinsde, en valsche vreugd liet blyken.</l>
+						<l>Haar vlugge geest, zo vol staatzuchtigheid als list,</l>
+						<l>Om zich te ontschuldigen dat zy van 't kwaad niet wist,</l>
+						<l>Verbergt onmenschelyk dat tedere beweegen,</l>
+						<l>Het welke een Moeders hart heeft van Natuur gekreegen,</l>
+						<l>En toont zich vergenoed in 's Dochters ongeluk.</l>
+						<l>Doch haar standvastigheid, braveerende haar druk,</l>
+
+						<l>En 's Moeders kunst, die haar gevoelig kwam ontëeren,</l>
+						<l>Scheen de opgeleide blaam, in 't weggaan, te verweeren</l>
+						<l>Met een genegen lagch, en nederigen groet.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>O welk een medely doorprikkelt myn gemoed!</l>
+						<l>Ik voel myn hart op dit verhaal aan stukken ryten.</l>
+						<l>Hoe! zal een Moeder 't kind, in zulk een stand, verwyten</l>
+						<l>Een misdaad, daar de deugd zelfs voor haar onschuld pleit?</l>
+						<l>Volëind al 't overig'.</l>
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>Toen heeft men haar geleid</l>
+						<l>Op 't schandige schavot, daar zy haar zuiv're handen</l>
+						<l>Aandachtig zaamen sloeg, door heilig vuur aan 't branden,</l>
+						<l>En de oogen naar om hoog, met yverende kracht,</l>
+						<l>Beweeg'lyk smeekende de Hemelsche Oppermagt,</l>
+						<l>Om haar onnoozelheid de waereld te openbaaren,</l>
+						<l>Op dat die nimmer mogt haar kroost met schand' bezwaaren,</l>
+						<l>En hen verwyten, 't geen zy nimmer had gedaan.</l>
+						<l>Zy zwoer wel dier, dat zy arglistig was verraân,</l>
+						<l>En door vervloekten nyd beklaagelyk vertreeden;</l>
+						<l>Ja dat zy, tegen recht en buiten alle reden,</l>
+						<l>Was valsch beschuldigt met een daad, die in haar ziel</l>
+						<l>Nooit had gehuisvest, of in haar gedachten viel.</l>
+						<l>Zy riep den Hemel voor haar onschuld, tot getuigen;</l>
+						<l>Geloovende dat die uw zinnen noch zou buigen,</l>
+						<l>Beweegen om te zien haare onschuld, deugd en trouw,</l>
+						<l>Wanneer haar dood uw hart zou doôn, door naberouw.</l>
+						<l>Voor 't laatst wenscht zy dat gy beschermen mogt de Weezen</l>
+						<l>Van een Prinses, wiens hart men nimmermeer zag vreezen</l>
+						<l>Voor 't wreede noodlot; die standvastig lyden kon;</l>
+						<l>Die zonder opspraak leefde, en kloek den dood verwon.</l>
+						<l>Als zy, met yver, dus zichzelf had laaten hooren,</l>
+
+						<l>Scheen haar verlangen door de wolken heen te booren;</l>
+						<l>Dies zy aan 's Hemels zorg gaf haare ziel met vreugd,</l>
+						<l>Die vaardig stond om op de vleugels van haar deugd,</l>
+						<l>Te vliegen naar 't gestarnt'. Dus zuiver van gebreeken</l>
+						<l>Stak zy haar hals uit, en hield op van meer te spreeken.</l>
+						<l>Toen sloeg de wreede beul, met zyn bloedgierig zwaard,</l>
+						<l>Het hoofd van 't ligchaam, dat een beter lot was waard;</l>
+						<l>'t Geen al de omstanders bragt wanhoopende aan het weenen.</l>
+						<l>Haar ligchaam wierd straks van een hemelstraal omscheenen.</l>
+						<l>Elks traanen vloeiden onder 't vloeijen van haar bloed.</l>
+						<l>Elk schreeuwde dat het klonk in droeven overmoed,</l>
+						<l>Waar van al 't aardryk, door de weêrgalm, scheen te beeven,</l>
+						<l>Als of 't meê voelde 't groot verlies van zulk een leeven.</l>
+						<l>Zo was het eind van uw doorluchte en kuische Vrouw,</l>
+						<l>Met wie schier yder sturf van medely, en rouw.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Ach! waar dit niet geschied, of waar ik nooit gebooren!</l>
+						<l>Hoe kon men 't leevenslicht van 't schoonste Schepsel smooren?</l>
+						<l>O nooitgehoord bedryf, zelfs in 't barbaarste land!</l>
+						<l>Ja, een ontmenscht Sarmaat deed nimmer zulk een schand',</l>
+						<l>Die de allerwreedste niet kan denken zonder schroomen,</l>
+						<l>Wie kan zo vuil een vlek afwasschen? welke stroomen,</l>
+						<l>Wat zee heeft nats genoeg? Waar zal ik heenen vliên?</l>
+						<l>In welk een duister hol, daar nooit word licht gezien?</l>
+						<l>Naar welk een hoog gebergt'? wat zal myn schuilplaats strekken,</l>
+						<l>Daar ik myn godloosheid, en gruw'len kan bedekken?</l>
+						<l>Waar zal ik veilig zyn? Kan ik in 't diepst der aard',</l>
+						<l>Om dit misdryf, wel voor den donder zyn bewaard?</l>
+						<l>Waar zoude ik gaan, daar ik van schrik bleeve onbeneepen,</l>
+						<l>En daar ik niet myn hel geduurig meê zou sleepen?</l>
+						<l>Maar ach! verwacht ik dan noch hulp in deezen nood?</l>
+						<l>Hoe! leeve ik noch? kan 't zyn, nu Mariamne is dood?</l>
+
+						<l>En volg ik niet, daar my de Schoone is voorgetreeden?</l>
+						<l>'k Weet immers op wat weg ik zetten moet myn schreeden,</l>
+						<l>Om naar den dood te gaan. Dit staal zal my het hart</l>
+						<l>Doorsteeken, en myn ziel verlichten van myn smart.</l>
+						<stage>Tegen Narbal, die hem weêrhoud.</stage>
+						<l>Laat af, laat af: ik zal, ik moet terstond beginnen</l>
+						<l>'t Rechtvaardige besluit van myn verwoede zinnen.</l>
+						<l>Of stoot het liever zelf door myn benaauwde borst.</l>
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>Ach! keer toch weder van uw wanhoop, groote Vorst.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>'k Wil in my zelf nu recht aan 't bloed, dat wraak roept, geeven.</l>
+						<stage>Hy tast naar den degen van Narbal.</stage>
+						<l>Belet myn arm niet, door de wroeging aangedreeven.</l>
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>Myn Heer!</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>'k Ben zulk een rouw, en pynlyk knaagen moê.</l>
+						<l>Maak dat zy weder leeve, of sta my 't sterven toe;</l>
+						<l>My, die 't moorddaadig zwaard gaf zelf den beul in handen.</l>
+						<l>Myn mond, gedienstig aan myn woede, tot myn schanden,</l>
+						<l>Sloot, door een enkel woord, haar mond voor eeuwig, ach!</l>
+						<l>Bloeddorste mond, zo wreed als ooit de waereld zag!</l>
+						<l>Ik overtuig u, door 't berouw van myne daaden,</l>
+						<l>Dat gy voorbaarig hebt myn hart en zin verraaden.</l>
+						<l>O Gy, vertreeden Volk, aanschouwers van myn schand',</l>
+						<l>En misdaad, die zo groot een zucht draagt tot uw land,</l>
+						<l>En rechte Koningen! wil uwe drift betoonen</l>
+						<l>Tot straf van deezen moord, dien niemand kan verschoonen:</l>
+						<l>Kom, kom, en wreek, op 't hart van een Tyran, met vreugd</l>
+						<l>'t Volmaaktste Schepsel, en het Voorbeeld van de deugd,</l>
+						<l>Van kuisheid, van geduld, van schoonheid, trouw en reden.</l>
+
+						<l>Straf, straf die strenge daad, vol onrechtvaardigheden:</l>
+						<l>Stoot al uw dolken in myn hart: maak een begin.</l>
+						<l>Bevreedig, door myn bloed, 't bloed van uw Koningin,</l>
+						<l>Die ik, door wreeden haat, barbaarisch liet vernielen.</l>
+						<l>Maar gy durft dit niet doen, ô bloode, en laffe zielen!</l>
+						<l>Gy hebt geen lust, om, door getrouwe en dapp're daân,</l>
+						<l>In 's lands gedenkboek tot een eeuwige eer te staan.</l>
+						<l>'t Zoude u mishaagen, dat de volgende eeuw uw leeven,</l>
+						<l>Met onuitwisbaare inkt, vond tot uw lof beschreeven:</l>
+						<l>'t Bewyst haar vrees, en myn geweld op éénen tyd.</l>
+						<l>O Hemel, die aanschouwt hoe dat de Onnoos'le lyd!</l>
+						<l>Wil aan dit snood gewest alle ongeluk verschaffen:</l>
+						<l>Straf dit ondankbaar volk, het welk my niet durft straffen.</l>
+						<l>Geef, geef het over aan het wôen van 't krygsgeweld.</l>
+						<l>Doe tegens hen met kracht optrekken in het veld</l>
+						<l>De grootste en wreedste der Tyrannen, en Barbaaren,</l>
+						<l>Vyanden, die in 't wôen, niets op hun bede spaaren.</l>
+						<l>Zy smooren zonder schrik hun menigten in 't bloed,</l>
+						<l>Hun steden, huizen, en sieraaden in een gloed,</l>
+						<l>Die alles breng' tot asch! Men koome, en sleepe in banden</l>
+						<l>Hun liefste kinders weg! Of dat barbaarsche handen,</l>
+						<l>Die tegens muur en rots verplett'ren, of van een</l>
+						<l>Verscheuren, onder 't bang en hoopeloos geween</l>
+						<l>Der Moeders; daar men ziet de Vrouwen wreed verkrachten</l>
+						<l>In 't oog der Mannen, die tot troost de dood verwachten!</l>
+						<l>Dat pest, en hongersnood uitmergel' al hun kracht!</l>
+						<l>Dat ze onder 't oproer zien hun tempelen, vol pragt</l>
+						<l>Tot aan de grondvest toe vernield, en omgeworpen!</l>
+						<l>En als de wraak noch iets in 't hevige woeden spaart,</l>
+						<l>Uit dit geslacht, welëer zo heerlyk, en zo waard,</l>
+						<l>Laat het dan zyn alleen verachtlyke onderaanen,</l>
+
+						<l>Steeds opgeofferd aan hun rampen, smaad, en traanen,</l>
+						<l>Verlaaten van 't geluk, vervolgd van 't ongeluk,</l>
+						<l>Daar zy geduurig, in benaauwdheid, smart, en druk,</l>
+						<l>Nasleepen, buiten hulp, in wanhoop, 't moeilyk leeven;</l>
+						<l>Als slaaven, ballingen der waereld omgedreeven,</l>
+						<l>Vervloekt, verjaagd, vervolgd, daar elk hen overal</l>
+						<l>Gelyk beöoreloge in allerlei geval!</l>
+						<l>Laat op hen regenen pek, zwavel, vuur, en vonken,</l>
+						<l>Op dat hun beemden, in een zee van vuur verdronken,</l>
+						<l>Van vruchtbaarheid beroofd, staan mede uw wraak ten doel!</l>
+						<l>Maak van Jeruzalem een droeven jammerpoel,</l>
+						<l>Een helschen poel vol stank, en die alle oogenblikken,</l>
+						<l>Met haar verachten naam, de waereld kan verschrikken!</l>
+						<l>Myn Mariamne is dood! zy wierd me ontroofd, wat slag!</l>
+						<l>En tot myn wanhoop laat men my het leeven, ach!</l>
+						<l>'k Smeek u om medely, ô Dood, die 'k plagt te schroomen!</l>
+						<l>Kom, neem 't geheel, daar gy de helft van hebt genomen.</l>
+						<l>Helaas! waar berg ik my?</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>Darde tooneel.</head>
+<stage>Herodes, Salome, Pheroras, Narbal.</stage>
+					<sp who="#salomé">
+						<speaker>Salome, tegen Narbal.</speaker>
+						<l>Wat deert den Vorst?</l>
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>Mevrouw,</l>
+						<l>Hy kwelt zich zelf in zulk een overmaat van rouw,</l>
+						<l>Dat hy zal schielyk zyn ten einde van zyn daagen,</l>
+						<l>Indien uw raad niet stuit den loop van zyne plaagen.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Liet hem Augustus ook iets weeten, 't geen zyn smart</l>
+						<l>Door spyt verwekt?</l>
+
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>O neen!</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Wat ramp drukt dan zyn hart?</l>
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>De dood der Koningin, die hy niet kan aanschouwen.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>'k Heb wel voorzien, dat hem haar vonnis zou berouwen.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Hoe is het moogelyk? Schept hy dan ongeneugt'</l>
+						<l>Uit zulk een zaak, die hem moest baaren alle vreugd?</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Laat ons met ryp beraad voorzichtig by hem koomen.</l>
+						<l>Zyn gramschap, in dit stuk, moet wel zyn waargenomen.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Zyn geest wil liever zyn vermeesterd met geweld.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Hy komt weêr naar ons toe, vermoeid, benaauwd, ontsteld:</l>
+						<l>De droefheid heeft hy tot gezelschap, en zyne oogen</l>
+						<l>Staan wild: zyn aanschyn is met bleekheid overtoogen:</l>
+						<l>Zyn gang is spoor'loos, hy verbystert meer en meer.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Gy zyt zwaarmoedig, en gy schynt bedroefd, myn Heer.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Die komt uit staatszorg, die den geest licht kan verdrieten.</l>
+						<l>Maar 'k wil van deezen dag een weinig rust genieten.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Dat waar noodzaaklyk, tot herstelling van uw geest.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Om niet te veinzen, al myn smart en druk is meest</l>
+						<l>Ontstaan om dat ik niet, sints gist'ren, heb gesprooken</l>
+						<l>De Koningin: dit heeft myn rust en vreugd gebrooken.</l>
+
+						<l>Laat zeggen; uit myn naam, dat ik haar hier verwacht.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Zyn oordeel en verstand schynt buiten 't spoor gebragt.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Ei! wil toch, op myn beê haar spoedig laaten haalen.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Door welk een middel?</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Ach! help my in deeze kwaalen.</l>
+						<l>Ik wil haar spreeken. Ga, laat haar myn last verstaan.</l>
+						<l>Is dit zo zwaar een zaak? Of wil men dan niet gaan?</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Hoe kan ze u hooren, en hoe kunt gy met haar spreeken?</l>
+						<l>Zy heeft geen geest: die is van 't ligchaam reeds geweeken,</l>
+						<l>t Geen niets is.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Hemel! hoe! is Mariamne dood?</l>
+						<l>Wreedaardig noodlot! gy, gy zaagt in deezen nood,</l>
+						<l>Haar bukken voor den slag, en gy hebt dien geleeden,</l>
+						<l>Ja zonder dat uw magt, om zulke afgryslykheden,</l>
+						<l>Den rouw oplegt aan al wat aan Natuur behoort?</l>
+						<l>Is deeze schoonheid, en haar glans in 't bloed gesmoord'?</l>
+						<l>Het ligchaam, koud en klam, in 't graf, met al haar gaaven?</l>
+						<l>En is 't heeläl noch niet in puin en asch begraaven?</l>
+						<l>'t Blyft onvernield, ô spyt! In dit verlies alleen,</l>
+						<l>Het geen alle anderen te boven streeft met reên,</l>
+						<l>Behoorde zelfs 't verlies der waereld in te steeken:</l>
+						<l>'t Moest d' aardkloot lichten uit zyn assen, en verbreeken,</l>
+						<l>Al de elementen, aarde, en water, lucht en vuur</l>
+						<l>In een verwarren, en versmelten de Natuur,</l>
+						<l>En doen het alles in zyn eerste baijerd keeren.</l>
+						<l>De dood dorst Mariamne, ô gruwel! overheeren!</l>
+
+						<l>De schaduw van het graf bewaart het overschot</l>
+						<l>Van 't schoonste Schepsel, dat verdiende een beter lot.</l>
+						<l>Laat uwe smarten gaan in arbeid om te baaren,</l>
+						<l>Stel uwe handen tot haar pligt: laat zy uw hairen</l>
+						<l>Uitrukken met geweld: verscheur uw aangezicht.</l>
+						<l>Smeek vriend en vyand dat hy u beroov' van 't licht,</l>
+						<l>Of sterf liefst van berouw, om dat gy niet kunt sterven.</l>
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras.</speaker>
+						<l>Vergeet liefst dit verlies, het geen gy toch moet derven.</l>
+						<l>Wie kan 't veranderen? En zo gy 't wel bedacht,</l>
+						<l>Gy zoud het zelf niet weêr, indien 't stond aan uw magt,</l>
+						<l>Veranderen.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>O ja! gy zult eerlang bevinden,</l>
+						<l>Dat zulk een heerlyk werk, voor u, en voor u vrinden,</l>
+						<l>En voor uw gantschen staat was een noodzaaklykheid.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>De wroeging heeft myn ziel reeds allen troost ontzeid.</l>
+						<l>Maar, wat wil Thares, dus verwonderd, ons verklaaren?</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>Vierde tooneel.</head>
+<stage>Herodes, Salome, Pheroras, Thares, Narbal.</stage>
+					<sp who="#thares">
+						<speaker>Thares.</speaker>
+						<l>O Vorst, myn pligt noopt my, om aan u te openbaaren</l>
+						<l>Hoe dat uw Schenker, in een jammerlyken stand,</l>
+						<l>Zich zelf heeft omgebragt met zyn verwoede hand.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Wat of zyn geest tot zulk een wanhoop kon verrukken?</l>
+					</sp>
+					<sp who="#thares">
+						<speaker>Thares.</speaker>
+						<l>Na dat hy de Vorstin had voor het zwaard zien bukken,</l>
+						<l>Vliegt hy, terwyl hy gantsch verbaasd zyn kleed'ren scheurt,</l>
+						<l>Daar al uw hofgezin het koude lyk betreurt,</l>
+						<l>Met heete traanen, om 't, waar 't moog'lyk, te verwarmen.</l>
+
+						<l>De zaalen van uw hof weêrgalmen op zyn karmen.</l>
+						<l>In 't einde roept hy: 'k Heb de Koningin verraân,</l>
+						<l>En op myn schuldig hoofd den helschen vloek gelaân.</l>
+						<l>Hoor, hoor, de Hemel brult: zyn wraak wil my verdelgen.</l>
+						<l>Daar scheurt het aardryk, dat my leevend in zal zwelgen,</l>
+						<l>Met myn aanhitzers. Ach! ik zie een zee van bloed</l>
+						<l>Waar ik my wende of keer. De beul van myn gemoed</l>
+						<l>Komt my de ziel, ô wee! met duizend doôn vervolgen.</l>
+						<l>De Hemel is op my, niet zonder reên, verbolgen.</l>
+						<l>De Onschuldige is, alleen door myn bedrog, gedood.</l>
+						<l>'t Vergift was valsch bedacht. Ik zal, in deezen nood,</l>
+						<l>My zelf verlossen, door myn arm, van zo veel kwaalen,</l>
+						<l>En 't aardryk van een mensch, niet waard dat hy de straalen</l>
+						<l>Der zon aanschouw'. Hier meê, eêr 't iemand word gewaar,</l>
+						<l>Stoot hy zich zelf in 't hart; en, met een woest gebaar,</l>
+						<l>Braakt hy de ziel en 't bloed al tevens.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Welke daaden!</l>
+						<l>Ach! Judas heeft dan my, en myn Vorstin, verraaden!</l>
+						<l>Zy is onschuldig in het mengen van 't vergift!</l>
+						<l>Ik voel my zelf, helaas!, in een verwoede drift.</l>
+						<l>Ik wil, ik zal, ik moet my, en haar sterven, wreeken.</l>
+						<stage>Tegen Pheroras, en Salome.</stage>
+						<l>Gy Monsters van myn hof! gy hielpt dit kwaad besteeken,</l>
+						<l>En hebt in myn paleis gezaait het zaad van twist;</l>
+						<l>Myn hart, en zekerlyk den Schenker aangehitst</l>
+						<l>Tot zulk een wreed bestaan. Gy hebt my ingeblaazen</l>
+						<l>Den minnenyd, die my hielp buiten 't spoor aan 't raazen.</l>
+						<l>De Onnoozele is door u gesmoord van gemoed</l>
+						<l>Als wreed van zinnen zyt! beeft, schrikt voor myne tooren.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome, ter zyde.</speaker>
+						<l>Het is met ons gedaan.</l>
+
+					</sp>
+					<sp who="#pheroras">
+						<speaker>Pheroras, ter zyde.</speaker>
+						<l>Wy zyn gewis verlooren.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Myn Heer. . . . .</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Ik zie uw schuld uit uw verbaasd gezicht.</l>
+					</sp>
+					<sp who="#salomé">
+						<speaker>Salome.</speaker>
+						<l>Gedoog. . . . .</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>'k Misdeed door u; want gy hebt haar beticht.</l>
+						<l>Wilt nimmer naar genaâ van uwe boosheid trachten,</l>
+						<l>Maar van myn wraak, uw lang verdiende straf verwachten.</l>
+						<l>Vertrekt terstond.</l>
+					</sp>
+				</div>
+				<div n="5" type="scene">
+					<head>Vyfde tooneel.</head>
+<stage>Herodes, Narbal, Thares.</stage>
+					<sp who="#herodes">
+						<speaker>Herodes, tegen Narbal en Thares.</speaker>
+						<l>Maar gy, ô myn Getrouwen! gy,</l>
+						<l>Die geen verraaders, noch geen vleijens zyt als zy:</l>
+						<l>Komt, laat ons onder een vermengen onze zuchten</l>
+						<l>En traanen zonder einde, in troostlooze ongenuchten;</l>
+						<l>De dood beklaagen van dat beeld, zo god'lyk schoon. . . . .</l>
+						<l>Maar ze is niet dood: ze ontfing voor de aardsche een hemelkroon</l>
+						<l>In 't koningryk om hoog: ze is in 't getal der Goden</l>
+						<l>Geplaatst om haare deugd. Doch 't is voor al van nooden</l>
+						<l>Dat haare godheid hier een tempel werd gesticht,</l>
+						<l>Die haar waardy eeuw uit eeuw in, vertoone aan 't licht;</l>
+						<l>En daar haar beeldtenis, zo vol bevalligheden,</l>
+						<l>Op een altaar gesteld, werd plechtig aangebeden.</l>
+						<l>Ja, 'k wil dat deeze plaats zy naar haar naam genoemd,</l>
+						<l>Haar deugd op 't hooge koor gezongen en geroemd.</l>
+						<l>Men viere, om 't aardryk al haar wond'ren te openbaaren,</l>
+						<l>Met yv'rig kerkgebaar, haar feestdag alle jaaren.</l>
+
+						<l>Dat elk dien eere; of dat ik sterve.</l>
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>O welk een druk,</l>
+						<l>En wanhoop! Ach!, wat raad? Dit droevig ongeluk</l>
+						<l>Schynt, door de ontsteltenis, zyn oordeel te overwinnen.</l>
+					</sp>
+					<sp who="#thares">
+						<speaker>Thares.</speaker>
+						<l>Men merkt wel aan zyn treên 't verlies van zyne zinnen.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Ik kan niet langer van haar afgescheiden zyn.</l>
+						<l>En dit vertoeven brengt me in onverdraagb're pyn.</l>
+						<l>Ga, zeg haar, uit myn naam, dat zy straks hier moet koomen.</l>
+						<l>Haar byzyn kan alleen verdryven al myn schroomen,</l>
+						<l>En baaren vreugd op vreugd, 'k Vergeef haar 't kwaad, indien</l>
+						<l>Ik haar bekoorlykheên mag met myne oogen zien.</l>
+						<l>'k Zal aan Nicanor straks zyn vryheid wedergeeven,</l>
+						<l>Als ik haar wil verstaa.</l>
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>Waar word hy heen gedreeven?</l>
+						<l>Ach! zyn inbeeldingen vermeed'ren door zyn smart.</l>
+					</sp>
+					<sp who="#thares">
+						<speaker>Thares.</speaker>
+						<l>De raazerny maakt al zyn redenen verward.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Als ik gebied, men kan myn woorden niet meer hooren.</l>
+						<l>Hoe! zou de onheusche wind die met myn zuchten smooren?</l>
+						<l>'k Word niet gehoorzaamt. Of kan niemand my verstaan?</l>
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>Wat wil zyn Majesteit?</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Dat gy zult spoedig gaan,</l>
+						<l>Om Mariamne hier te leiden, 'k Wil haar spreeken.</l>
+						<l>Ik voel den band van myn langmoedigheid verbreeken.</l>
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>Helaas! heer Koning, gy begeert de Koningin;</l>
+						<l>Maar. . . .</l>
+
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Waarom niet? spreek op.</l>
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>Verander toch van zin.</l>
+						<l>Van haar is niets, dan haar beroemde naam, in wezen.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Haar naam alleen! zou zy wel dood zyn? moet ik vreezen,</l>
+						<l>Of hoopen?</l>
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>'k Heb terstond de waarheid u gemelt.</l>
+					</sp>
+					<sp who="#herodes">
+						<speaker>Herodes.</speaker>
+						<l>Ach! Narbal, 'k denk nu weêr op 't voorwerp dat my kwelt;</l>
+						<l>En myn geheugden, 't geen in spyt van al myn klagten,</l>
+						<l>Haar beeld vernieuwt in myn rampzalige gedachten,</l>
+						<l>Komt my ontydig hulp, tot myn verdriet, te biên.</l>
+						<l>Ze is al te vaardig, om myn zinnen te doen zien</l>
+						<l>Het geen zy niet laat zien dan om my fel te plaagen.</l>
+						<l>O dwaaling, die myn hart scheurt door een pynlyk knaagen!</l>
+						<l>Ach! gy vertoont te klaar, aan myn ontsteld gemoed,</l>
+						<l>In 't kwaad dat ik bedreef, 't verlies van zo veel goed.</l>
+						<l>Maar 'k zie de Koningin, met haar vergoode straalen,</l>
+						<l>In 't licht der wolken op het heerlykst zegepraalen.</l>
+						<l>Een kring van bloedkoraal is om haar hals gespreid,</l>
+						<l>En zy verheft haar geest om hoog vol majesteit.</l>
+						<l>Haar roem, en schoonheid is vermeerderd; 'k zie de zielen</l>
+						<l>Der zaligen rondom haar glans eerbiedig knielen.</l>
+						<l>Een rei van Engelen ontmoeten haar met vreugd,</l>
+						<l>En kroonen met olyf en palmen haare deugd.</l>
+						<l>Zy slaat haare oogen naar beneên, om aan te schouwen</l>
+						<l>De pyn die 'k voel van een verschriklyk naberouwen.</l>
+						<l>O schoone Mariamne! aanhoor myn reden, hoort!</l>
+						<l>Erbarm u over my, eêr my de wraak vermoord'.</l>
+						<l>Genaâ, genaâ, Vorstin! ei! wil my toch vergeeven</l>
+
+						<l>'t Kwaad dat ik reuk'loos heb tot uw bederf bedreeven.</l>
+						<l>Myn hart moest boven al u hebben aangebeên,</l>
+						<l>Zich opgeöffert aan uw schoonheid, om alleen</l>
+						<l>Te leeven door den glans van uw bekoorlyke oogen:</l>
+						<l>En nochtans heb ik u, vervreemd van mededoogen,</l>
+						<l>Mishandelt. Maar, 'k beken myn schuld, hoe zwaar en groot,</l>
+						<l>En leg die voor 't gezicht van al de waereld bloot.</l>
+						<l>Zie, zie de elend' welke ik hier over moet gevoelen.</l>
+						<l>Zy hoorde uw gramschap, en uw heete wraak te koelen.</l>
+						<l>Indien myn schuld is zwaar, myn misdaad gruwzaam wreed;</l>
+						<l>'t Rechtvaardig Recht straft my ook met een dood'lyk leed.</l>
+						<l>O Wonder der Natuur, van onbevlekte zeden,</l>
+						<l>Van edelmoedigheid, en alle heerlykheden!</l>
+						<l>O zuiv're ziel, die zo volmaakt aan 's hemels trans,</l>
+						<l>'t Gestarnte, zon, en maan, verdooft met uwen glans!</l>
+						<l>Die, opgevaaren, hebt van 't aardryk meêgedraagen</l>
+						<l>Al myn vernoegen, vreugd, en eenigst welbehaagen!</l>
+						<l>Ach! denk niet dat myn smart bestaat in valschen schyn,</l>
+						<l>Om blyk te geeven van myn naberouw en pyn;</l>
+						<l>Zo poogt myn ziel, geheel wanhoopende, te baanen</l>
+						<l>Een weg, om vry te zyn van 't ligchaam, door myn traanen;</l>
+						<l>Om u te volgen, in het bangste van myn nood,</l>
+						<l>Op een afgrys'lyk spoor van de allerwreedste dood.</l>
+					</sp>
+					<sp who="#thares">
+						<speaker>Thares.</speaker>
+						<l>Zyn kracht begeeft hem, en men ziet zyn verf verbleeken.</l>
+						<l>Hy 's flaauw: zyn adem schynt reeds uit zyn borst geweeken.</l>
+					</sp>
+					<sp who="#narbal">
+						<speaker>Narbal.</speaker>
+						<l>Kom, draagen wy hem straks te rust naar 't ledekant,</l>
+						<l>Op dat hy wederkryg' zyn krachten en verstand.</l>
+					</sp>
+					<p>Einde van het Vyfde en Laatste Bedryf.</p>
+					<p>MDCLXXXV.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

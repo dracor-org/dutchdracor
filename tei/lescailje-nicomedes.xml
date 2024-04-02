@@ -1,0 +1,3546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000203" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Nicomédes</title>
+				<title type="sub"/>
+				<author>
+					<persName>
+						<forename>Pierre</forename>
+						<surname>Corneille</surname>
+					</persName>
+					<idno type="wikidata">Q747</idno>
+					<idno type="pnd"></idno>
+				</author>				
+				<author>
+					<persName>
+						<forename>Katharyne</forename>
+						<surname>Lescailje</surname>
+					</persName>
+					<idno type="wikidata">Q609786</idno>
+					<idno type="pnd">134083881</idno>
+				</author>	
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL"
+						>https://www.dbnl.org/tekst/lesc002toon02_01/lesc002toon02_01_0035.php</idno>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Katharina Lescaille, Tooneelpoëzy. Amsterdam: erfg. J. Lescailje / D.
+						Rank, 1731.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="MALE" xml:id="araspes">
+						<persName>Araspes</persName>
+					</person>
+					<person sex="FEMALE" xml:id="arsinoë">
+						<persName>Arsinoë</persName>
+					</person>
+					<person sex="MALE" xml:id="attalus">
+						<persName>Attalus</persName>
+					</person>
+					<person sex="FEMALE" xml:id="cleone">
+						<persName>Cleone</persName>
+					</person>
+					<person sex="MALE" xml:id="flaminius">
+						<persName>Flaminius</persName>
+					</person>
+					<person sex="FEMALE" xml:id="laodise">
+						<persName>Laodise</persName>
+					</person>
+					<person sex="MALE" xml:id="nicomedes">
+						<persName>Nicomedes</persName>
+					</person>
+					<person sex="MALE" xml:id="prusias">
+						<persName>Prusias</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-02">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1692">
+				<desc/>
+			</event>
+			<event type="premiere" when="1692">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+
+			<docTitle>
+				<titlePart>Nicomédes, treurspel.</titlePart>
+				<titlePart>uit het fransch van den heere P. CORNEILLE</titlePart>
+				<titlePart>door KATHARYNE LESCAILJE.</titlePart>
+			</docTitle>
+
+
+			<castList>
+				<head>Vertooners.</head>
+				<castItem corresp="#prusias">
+					<role>Prusias, Koning van Bithinië.</role>
+				</castItem>
+				<castItem corresp="#flaminius">
+					<role>Flaminius, Roomsch Afgezant.</role>
+				</castItem>
+				<castItem corresp="#arsinoë">
+					<role>Arsinoë, tweede Gemaalin van Prusias.</role>
+				</castItem>
+				<castItem corresp="#laodise">
+					<role>Laodise, Koningin van Armenië.</role>
+				</castItem>
+				<castItem corresp="#nicomedes">
+					<role>Nicomedes, Voorzoon van Prusias.</role>
+				</castItem>
+				<castItem corresp="#attalus">
+					<role>Attalus, Zoon van Prusias en Arsinoë.</role>
+				</castItem>
+				<castItem corresp="#araspes">
+					<role>Araspes, Hopman der lyfwacht van Prusias.</role>
+				</castItem>
+				<castItem corresp="#cleone">
+					<role>Cleone, Vertrouwde van Arsinoë.</role>
+				</castItem>
+				<p>Het TOONEEL is te Nicomedië,</p>
+				<p>in het Hof van Prusias.</p>
+			</castList>
+		</front>
+
+		<body>
+			<div n="1" type="act">
+				<head>Nicomédes, treurspel.</head>
+				<head>Eerste bedryf.</head>
+				<div n="1" type="scene">
+					<head>Eerste tooneel.</head>
+					<stage>Nicomedes, Laodise.</stage>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Ja, Nicomedes, het behaagt my, dat myne oogen</l>
+						<l>In uw grootmoedig hart noch zegepraalen moogen,</l>
+						<l>En daar regeeren met een onbepaalde magt;</l>
+						<l>Dat ik, na dat gy wierd alom gevreesd, geächt,</l>
+						<l>Met veel doorluchtige triomfen overlaaden,</l>
+						<l>In de eed'le schaduw van uw schoone lauwerbladen,</l>
+						<l>Hier d' Overwinnaar zie als myn' Verwonneling,</l>
+						<l>Om de eer, die hy, met zo veel lyfsgevaar, ontfing,</l>
+						<l>Aan myn geringe waarde al tevens op te dragen,</l>
+						<l>Als 't grootste Voorwerp van zyn weêrkomst en behaagen.</l>
+						<l>Doch, welk een goed dat my daar meê de Hemel geeft,</l>
+						<l>'k Voel dat myn vreezend hart die blydschap wederstreeft.</l>
+						<l>'k Aanschouw u tot myn leed, dewyl dat myn gedachten</l>
+						<l>Uw weêrkomst en verblyf aan 't Hof gevaarlyk achten,</l>
+						<l>Daar uw Stiefmoeder heerscht, de Vorst uw Vader ziet</l>
+						<l>Alleen door haar gezicht, haar wil, in 't Ryksgebied,</l>
+						<l>Hem voor een wet verstrekt. Gy moet haar list ontwyken.</l>
+						<l>De felle haat, die zy steeds tegen u liet blyken,</l>
+						<l>Vernieuwt zy noch om my. Uw Broeder, en haar Zoon,</l>
+						<l>Die onlangs wederkwam, heeft sedert 't weinig schoon. . . .</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>'k Weet reeds dat hy u mint, en herwaarts is gezonden</l>
+						<l>Van Romen, daar hy was als Gyzelaar verbonden,</l>
+						<l>Uit ander inzicht; want met hem heeft de Afgezant</l>
+						<l>Flaminius getracht, door 's Moeders list en hand,</l>
+						<l>Den grooten Hannibal, die, voor 't geweld van Romen,</l>
+						<l>Aan 't Hof van Prusias zyn toevlucht had genomen,</l>
+						<l>Te krygen in zyn magt, en reeds ook had, zo hy</l>
+						<l>Zich niet van Romen, en de Roomsche slaaverny,</l>
+						<l>Bevryd had door vergif; veryd'lende al haar poogen</l>
+						<l>(Van hem geketend in triomf, voor yders oogen,</l>
+						<l>Aan 's Veldheers zegekoets te sleepen) door zyn dood.</l>
+						<l>'k Had, door myn laatsten stryd, zo bloedig en zo groot,</l>
+						<l>Gantsch Kappadocië aan Bithinië verbonden</l>
+						<l>Als my de maar' wierd van myn Meesters dood gezonden;</l>
+						<l>En, vreezende voor myn Meestres, en meer geweld,</l>
+						<l>Heb ik Theagenes myn Heir ter hand gestelt,</l>
+						<l>En kom tot bystand van myn Koningin gevloogen.</l>
+						<l>Ik weet hoe noodig dat u hier is myn vermoogen;</l>
+						<l>Dewyl de Vorst steeds word van d' Afgezant verzelt.</l>
+						<l>Zo die, om Hannibal alleen in zyn geweld</l>
+						<l>Te krygen, herwaarts kwam, waar toe strekt dan zyn blyven,</l>
+						<l>Nu hy is dood? Of tracht hy mooglyk door te dryven</l>
+						<l>Myn Broeders huwelyk, met u, door list en dwang?</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>'t Gaat vast, Flaminius neemt deel in het belang</l>
+						<l>Der Koningin: hy zal haar zaak de zyne maaken.</l>
+						<l>Want nu zy Hannibal, om tot haar wensch te raaken,</l>
+						<l>Hem, tot een offerhand', slachtte op 't altaar van staat,</l>
+						<l>Is hy hier toe verpligt, doch ik niet buiten raad</l>
+						<l>'k Heb noch geen reden om van hem misnoegd te wezen.</l>
+						<l>Maar, wat hy mogt bestaan, waar voor hebt gy te vreezen?</l>
+						<l>Myn eer en liefde had op my wel kleine magt,</l>
+						<l>Moest die versterkt zyn door uw byzyn en uw kracht,</l>
+						<l>Zo 'k tot die zwakheid my zo spoorloos liet verrukken,</l>
+						<l>Dat ik stelde Attalus voor 't Hoofd der Krygsgelukken;</l>
+						<l>Voor d'Overwinnaar van gantsch Asië in myn gemoed;</l>
+						<l>Dien Attalus, zo lang te Romen opgevoed,</l>
+						<l>Als Gyzelaar of Slaaf, daar hy van al zyn leeven</l>
+						<l>Niets heeft geleert dan voor een Arendstandaard beeven,</l>
+						<l>Die minder Amptliên zelfs ontziende.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Ik stierf, Mevrouw</l>
+						<l>Veel liever, dan dat ik uw min verdenken zou.</l>
+						<l>'t Geweld, helaas! en niet uw zwakheid doet my schroomen.</l>
+						<l>Indien 't Romeinsch Gebied heeft tegens ons genomen. . . .</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>'k Ben Koningin, myn Heer. Gantsch Romen dreige ons vry.</l>
+						<l>Dat, noch uw Vader, heeft op my geen heerschappy;</l>
+						<l>En wierd hy over my, in myne mind're jaaren,</l>
+						<l>Als Voogd gestelt, het was om aan my te openbaaren</l>
+						<l>Myns Vaders laatsten wil, die u, en anders geen,</l>
+						<l>My gaf tot Bruidegom: en 't staat aan my alleen</l>
+						<l>Of ik my des ontslaan, of hier aan wil gedraagen.</l>
+						<l>Doch 't is het vaderlyk, en 't is ook myn behaagen,</l>
+						<l>Dat de Erfvorstinne van Armenië haar hand</l>
+						<l>Aan d' oudsten Prins van 't Ryk Bithinië verpand'.</l>
+						<l>Gy zult myn fier gemoed zo zwak noch laf aanschouwen,</l>
+						<l>Dat ik een Onderdaan zal voor een Koning trouwen.</l>
+						<l>Stel u gerust.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Is my dit moog'lyk? daar ik u</l>
+						<l>Ten doel zie van een Vrouw, voor welkers woede ik gruw?</l>
+						<l>Die alles hier vermag, en alles zal begeeren,</l>
+						<l>Als of 't haar vry stond, tot zy ziet haar Zoon regeeren:</l>
+						<l>Daar 's niets zo heilig dat ze ontziet. Die Hannibal</l>
+						<l>Verried, kan 't ook wel zyn dat zy u schoomen zal</l>
+						<l>Geweld te doen, die noch op eer past noch op eeden,</l>
+						<l>En 't heilig gastvryrecht zo trouwloos heeft vertreeden?</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Heeft dan 't recht der Natuur het voordeel en geluk</l>
+						<l>Om u voor haar te hoên, na zulk een gruwelstuk?</l>
+						<l>Uw wederkomst, in plaats van dat zy zou verbreeken</l>
+						<l>Haar toeleg, stelt u bloot voor haar ontmenschte treeken,</l>
+						<l>En my met u, myn Heer. 't Zal voor een misdaad gaan,</l>
+						<l>Dat gy kwaamt, zonder last, hier uit het Leger aan.</l>
+						<l>De Moeder en de Zoon die zullen u eerst trachten</l>
+						<l>Voor een staatöfferhand' van haar belang te slachten,</l>
+						<l>En neemen my, tot myn verderf, zo groot een stut.</l>
+						<l>Maar zo gy zyt aan my zo noodig en zo nut,</l>
+						<l>Om vry en veilig voor haar dwinglandy te wezen,</l>
+						<l>Zo moet gy maaken dat zy allen voor u vreezen.</l>
+						<l>Ga weêr naar 't Heir, wilt gy my helpen in dit leed;</l>
+						<l>Toon honderd duizenden van armen, die gereed</l>
+						<l>Tot myn bescherming zyn. Spreek als gy uit haare oogen</l>
+						<l>En dwang zyt, en geenszins ten hoof in haar vermoogen.</l>
+						<l>Zy vreezen niets, indien gy hier blyft. 'k Bidde u, vleid</l>
+						<l>Uw hart niet, noch verlaat u op uw dapperheid,</l>
+						<l>Noch glory van uw Naam, die heerlyk schiet zyn straalen,</l>
+						<l>En uitgeschreeuwd is, reis op reis, in 't zegepraalen,</l>
+						<l>Voor Overwinnaar. Prins, gy waagt u al te stout;</l>
+						<l>Uw eed'le moed heeft hier, hoe ge u daar op vertrouwt,</l>
+						<l>Maar één paar armen, van uw' vrienden hulp verlaaten.</l>
+						<l>Schoon gy de liefde en schrik van de Aard' zyt, wat kan 't baaten?</l>
+						<l>Die zo ten hoof komt, brengt den Koning zelf zyn hoofd.</l>
+						<l>'k Raade u noch eens: Keer weêr, indien gy my gelooft.</l>
+						<l>Laat hen van verre alleen uw dapp're daân aanschouwen.</l>
+						<l>Behou u zelven toch, zo gy my wilt behouwen.</l>
+						<l>Maak dat men voor u vreez', zo vreeze ik noch myn min.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Zal ik weêr gaan naar 't heir, waar in de Koningin</l>
+						<l>Heeft Moordenaars, om myn onschuldig bloed te plengen?</l>
+						<l>Twee zyn'er van ontdekt, die ik liet herwaarts brengen,</l>
+						<l>Om te overtuigen haar gemoed van deeze daad,</l>
+						<l>En aan den Koning te doen zien haar snood verraad.</l>
+						<l>Schoon hy is haar Gemaal, verpligt door 't huwlyksblaaken,</l>
+						<l>Hy 's ook myn Vader: en of hy me al wou verzaaken,</l>
+						<l>En dwingen zelfs Natuur tot zwygen, door zyn magt</l>
+						<l>Drie Scepters, door myn arm, aan zyne kroon gebragt,</l>
+						<l>Die zullen spreeken in zyn plaats, en geenszins zwygen.</l>
+						<l>Doch zo ons Lot, dat schynt tot ons verderft te nygen,</l>
+						<l>Myn val zo wel in 't hof als in het heir bereid,</l>
+						<l>Waarom toch, daar me alom werd alle rust ontzeid,</l>
+						<l>Wilt gy, Vorstin, beroofd van moed en mededoogen,</l>
+						<l>My noch benyden dat ik sterve voor uwe oogen?</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Neen, 'k zeg u nooit meer dat ik ben bevreesd. Wel aan,</l>
+						<l>Indien 't besluit is van de Goôn dat wy vergaan,</l>
+						<l>Wy zullen zaamen dan vergaan, en laaten 't leeven.</l>
+						<l>Kom, waap'nen we ons met moed, zo zullen wy doen beeven</l>
+						<l>Al wat zo boos en laf ons te onderdrukken zoekt.</l>
+						<l>'t Gemeen bemint u, daar 't die eereloozen vloekt;</l>
+						<l>En 't is geen klein geluk voor u, dat ge in de harten</l>
+						<l>Der Onderdanen heerscht, die yder vreest te tarten.</l>
+						<l>Maar, 'k zie Prins Attalus uw Broeder: wat verdriet!</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Hy zag my nooit voorheen; Mevrouw, ontdekt my niet.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>Tweede tooneel.</head>
+					<stage>Laodise, Nicomedes, Attalus.</stage>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Hoe! zult ge altoos zo stuursch van wezen en van zinnen,</l>
+						<l>Mevrouw, my aanzien? en zal ik nooit van u winnen</l>
+						<l>Zulk een geliefde lonk en vriendelyk gezicht,</l>
+						<l>Waar meê gy harten wint, en tot uw dienst verpligt?</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Is myn gezicht te stuursch om aan uw hart te raaken,</l>
+						<l>Ik zal, wanneer 't my lust daar toeleg op te maaken,</l>
+						<l>Een opslag geeven, die het lichtlyk meer bekoort.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Dat waar vergeefs, daar u myn hart reeds toebehoort.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>'t Is dan onnoodig om myn stuursheid op te klaaren.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>'k Bid, nu gy 't hebt, dat gy het gunstig wilt bewaaren.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>'k Verkreeg het te onrecht; dies stel ik 't weêr in uw magt.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Gy houd het niet, om dat gy 't al te weinig acht.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>'k Acht u te veel om u de waarheid niet te zeggen.</l>
+						<l>De plaats, Prins, is vervuld daar ik uw hart moest leggen.</l>
+						<l>Ik heb 't u meer gezegt, en ook verzocht dat gy</l>
+						<l>Hier van doch nimmer weêr zoud reppen jegens my.</l>
+						<l>'t Is wel voor eens, maar dit vervolgen staat my tegen.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Hy is gelukkig die dit voordeel heeft verkreegen.</l>
+						<l>Maar welk een vreugd waar 't, zo 'k hierom met hem vol moed</l>
+						<l>Mogt slaan, en van de plaats verwinnaar wierd gegroet.</l>
+
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Die plaats te winnen zou licht meenig dood'lyk wezen.</l>
+						<l>Deeze Overwinnaar, dien gy nimmer zaagt voor deezen,</l>
+						<l>Bewaart het zyn' te wel; en nooit wist iemand, dat</l>
+						<l>Zyn vyand plaats herwon die hy genoomen had.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Men kon op deeze plaats wel zulk een aanval maaken,</l>
+						<l>Dat hy die ruimen moest, en zyn verweering staaken.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Misschien bedroogt ge u zelf.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Maar zo 't de Vorst begeert?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>De Vorst, die wys'lyk, en rechtvaardiglyk regeert,</l>
+						<l>Zal niet begeeren 't geen zyn magt niet kan voltrekken.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Hoe! waar toe kan de magt der Majesteit niet strekken?</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Spreek niet zo stout, myn Heer, met zulk een fieren zin.</l>
+						<l>Zo hy een Koning is, ik ben een Koningin.</l>
+						<l>Zyn magt kan niets op my, dan dat ik wil, begeeren,</l>
+						<l>En zyn gezagh me alleen verzoeken, niet regeeren.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Maar dus te spreeken is vaak al te veel, te vry</l>
+						<l>Voor Koninginnen, die zyn buiten heerschappy,</l>
+						<l>En zonder magt aan 't hof van and'ren. Doch zo 't smeeken</l>
+						<l>Des Konings niet vermag, zal Romen voor my spreeken.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Hoe! Romen, Heer?</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Ja, Romen: twyfelt gy?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Met recht.</l>
+
+						<l>Want op wat grondslag dat ge ook uw vertrouwen legt,</l>
+						<l>Zal Romen nimmer naar uw voorslag willen hooren.</l>
+						<l>Zo dra als 't Voorwerp daar ge om blaakt haar komt te vooren,</l>
+						<l>Zal ze in de plaats der hulp, die gy van haar verwacht,</l>
+						<l>Gebelgd zyn, om de schand', haar eerzucht toegebragt,</l>
+						<l>Door een die afhangt van haar grootsch Gezagh en Staaten;</l>
+						<l>Beneemende u, als ge u zult zien van elk verlaaten,</l>
+						<l>Dat heerlyk voordeel van het Roomsche Burgerrecht.</l>
+						<l>Heeft der Romeinen gunst deeze eer u toegelegt,</l>
+						<l>Om dat gy, hen ten trots, een Koningin zoud trouwen?</l>
+						<l>Weet gy dan niet dat zy de grootste Vorsten houwen</l>
+						<l>Veel kleinder dan de minste uit hunne Burgery?</l>
+						<l>Terwyl gy zo lang by hen leefde, om hun waardy</l>
+						<l>Te leeren kennen, zo hebt gy de schrand're vonden</l>
+						<l>Van hun staatlessen haast vergeeten en geschonden.</l>
+						<l>Herneem een hoovaardy, die u en Romen voegt.</l>
+						<l>Tracht dat ge een naam, die elk doet beeven, vergenoegt.</l>
+						<l>Verneder u niet, om uw liefde aan 't welbehaagen</l>
+						<l>Der Koninginne van Armenië op te draagen.</l>
+						<l>Dat huw'lyk was voor uw verdiensten al te onwaard.</l>
+						<l>Gy dient, wanneer gy wilt met glory zyn gepaard,</l>
+						<l>En de achting, die gy by uw Meesters hebt, behouwen,</l>
+						<l>Op 't minst de Dochter van een Roomschen Schout te trouwen.</l>
+						<l>'t Is Romen dat u geeft een recht, zo waard en groot,</l>
+						<l>Daar uw geboorte u had voor eeuwig van ontbloot.</l>
+						<l>Blusch, blusch uw liefde dan, en laat de Koninginnen,</l>
+						<l>By een Romein verächt, van Koningen beminnen,</l>
+						<l>Op dat gy dus de gunst, die gy verwacht, verkrygt.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Staat deeze aan uw bevel? Gebiê dan dat hy zwygt,</l>
+						<l>Mevrouw: weêrhou hem in zo veel baldaadigheden.</l>
+						<l>'k Heb, om te zien hoe ver hy buiten 't spoor zou treeden,</l>
+						<l>Myn gramschap ingetoomt, en leed zo groot een smaad.</l>
+
+						<l>Maar 'k vrees myn ongeduld, indien hy verder gaat.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Zo 'k recht heb, wat kan 't u, wie dat ik ben, toch baaten?</l>
+						<l>Of smet de Koningin den luister van haar Staaten,</l>
+						<l>Als zy door my spreekt? Zo ge uw min ter zyden stelt,</l>
+						<l>Laat ik u toe dat gy daar 't vonnis zelf van velt.</l>
+						<l>De naam van een Romein, die alles streeft te boven,</l>
+						<l>Is al te waard, dan dat ge u zoud daar van berooven.</l>
+						<l>Zy stond den Koning en de Koningin te duur,</l>
+						<l>Die u, pas vier jaar oud, (verkrachtende natuur,</l>
+						<l>In zich te onthouden van de opvoeding van uw leeven,</l>
+						<l>Een teed're trek, die elk is tot zyn kroost gegeeven,)</l>
+						<l>Naar Romen zonden. Spreek, en oordeel. Is 't geschied,</l>
+						<l>Op dat ze u zouden, tot uw schande en hun verdriet,</l>
+						<l>Die heerlyke eernaam zien verwerpen en verzaaken?</l>
+						<l>En u versteeken, door uw ongeöorloofd blaaken</l>
+						<l>Om een Vorstin, van 't recht der Roomsche heerlykheid?</l>
+						<l>Een schat, die hen, die u naar hooger eertroon leid,</l>
+						<l>Zal yder nydig u. . . . .</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Noch eens. Verlicht myne oogen,</l>
+						<l>Mevrouw: staat deeze aan uw beveelen en vermoogen?</l>
+						<l>Vermaakt hy u zo zeer, dat gy onmooglyk dan</l>
+						<l>Hem 't zwygen kunt gebiên?</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Nu 't u mishaagen kan</l>
+						<l>Dat hy u acht voor een Romein, 'k zal zyn gebreeken</l>
+						<l>Verbeet'ren, en met u als Zoon eens Konings spreeken.</l>
+						<l>U zy bewust dan, dat uw Broeder, welke de eer</l>
+						<l>Heeft van 't Geboorterecht, moet zyn uw Opperheer;</l>
+						<l>Dat gy moet schroomen om hem immer te mishaagen:</l>
+						<l>En 't is uw pligt voor hem eerbiedigheid te draagen.</l>
+						<l>'t Bloed eischt van u dat gy aan hem den voorrang geeft,</l>
+						<l>En in de plaats dat ge in zyn afzyn, onbeleefd. . . .</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Indien hy tot dien top van eer is opgereezen,</l>
+						<l>Dat hy is de uwe, zo zult gy de myne wezen,</l>
+						<l>Wanneer ge een woord slechts uit uw schoonen mond laat gaan,</l>
+						<l>Heeft zyn geboorterecht my tot zyn onderdaan</l>
+						<l>Gemaakt, uw wil alleen kan de ongerechtigheden</l>
+						<l>Verbeet'ren van het Lot, dat my haat buiten reden.</l>
+						<l>Maar ben ik dan aan hem verplicht zo veel ontzagh,</l>
+						<l>Als Zoon een's Konings, gun dat ik eens spreeken mag</l>
+						<l>Als een Romein, en zo grootmoedig my doen hooren:</l>
+						<l>Hy is van hen niet, die de Hemel heeft beschooren</l>
+						<l>Om Vorsten te gebiên, en van elk hoog geloofd,</l>
+						<l>Te leeven, buiten dwang, en zonder Opperhoofd.</l>
+						<l>De liefde, die myn ziel u toedraagt, kan vertrekken</l>
+						<l>Een edel voorwerp, om my zyn gebied te onttrekken.</l>
+						<l>Weet . . . . .</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Ik weet zekerlyk, dat u myn kroon en staat</l>
+						<l>Meer kan behaagen dan ik zelf en myn gelaat.</l>
+						<l>Maar myne kroon, myn staat, en ik, myn Heer, behooren</l>
+						<l>Aan hem, die over u tot Koning is gebooren;</l>
+						<l>En was hy hier, zo zou uw hoovaardy misschien</l>
+						<l>Hem niet beleedingen, maar vreezen en ontzien.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Waarom mag ik hem niet aanschouwen, nu myn krachten</l>
+						<l>Gemoedigd door myn min . . . . .</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Myn Heer, wil liever trachten</l>
+						<l>Naar iets 't geen minder u kon schade doen: en licht,</l>
+						<l>Waar 't hem bewust, stond hy hier zelf voor uw gezicht,</l>
+						<l>Zich wreekende, om dat gy durft zyn Meestres vervolgen.</l>
+
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Baldaadige, durft gy, zo schendig als verbolgen,</l>
+						<l>Verkrachtende uwen pligt, en myn getergd geduld. . . . .</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>'k Weet niet wie van ons twee hier heeft de meeste schuld.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Spreekt gy, my kennende, zo stout en zonder beeven?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>ja, 'k weet tot wien ik spreek; en 't kan my voordeel geeven,</l>
+						<l>Dat, ik zynde onbekend aan uw gezicht, geenszins</l>
+						<l>Aan u noch is bewust, wie van ons beide, ô Prins!</l>
+						<l>Aan d'ander eerbied is verschuldigd.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Welke schanden!</l>
+						<l>Verschoon, Mevrouw, dat myn getergd geduld aan 't branden,</l>
+						<l>Tot wraak, voor uw gezicht. . . . .</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Myn Heer, wil u beraân,</l>
+						<l>Daar komt de Koningin uw Moeder herwaarts aan.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>Darde tooneel.</head>
+					<stage>Asrinoë, Laodise, Nicomedes, Attalus, Cleone.</stage>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>'k Verzoek dat gy den Prins, uw Zoon, wilt beter leeren,</l>
+						<l>Mevrouw: geef hem bericht wien hy in my moet eeren.</l>
+						<l>Want, my niet kennende, treed hy geheel misnoegd</l>
+						<l>Vervoerd van 't spoor af, dat zo groot een ziel niet voegt.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Gy zyt dan hier, Prins?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Ja, Mevrouw, 'k ben hier gekomen,</l>
+						<l>En Methrobates meê.</l>
+
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Is 't waarheid? of zyn 't droomen?</l>
+						<l>Hoe! Methrobates, die verraader?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Maar 'k verstond</l>
+						<l>Geenszins iets, dat u kan verwond'ren, uit zyn mond.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Wat mag doch de oorzaak van uw schielyke aankomst wezen?</l>
+						<l>En 't oorlogsleger?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Dat is veilig, buiten vreezen.</l>
+						<l>'k Gaf d' Onderveldheer daar zo lang van 't krygsgebied.</l>
+						<l>En wat myn komst belangt, toen ik van 't Hof trok, liet</l>
+						<l>Ik hier myn Meester en Meestres noch vry van laagen:</l>
+						<l>Maar, 'k moet de dood van d' een beschreijen en beklaagen,</l>
+						<l>Veroorzaakt of door uw of der Romeinen haat,</l>
+						<l>En de ander koome ik voor alle overlast en kwaad,</l>
+						<l>Waar meê zy word van hen en u gedreigt, behoeden.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Dit 's dan de reden, die uw komst ten hoof deê spoeden?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>O ja, Mevrouw; de hoop dat gy, in deezen stand,</l>
+						<l>My by den Koning zult aanbiên uw hulp en hand.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Verwacht die naar uw hoop.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>'k Verzeker my, met reden,</l>
+						<l>Van uw genegenheid.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Ik zal u die noch heden</l>
+						<l>Doen zien, zo maar de Vorst is met my eens van zin.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Gy zult die gunst doen aan ons beide, Koningin?</l>
+
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Stel u gerust; ik zal aanspannen al myn krachten.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Ik ken uw goeden wil: dit moogt ge ook van my wachten.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Is dit myn Broeder?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Ja, ik ben 't, en koom alleen</l>
+						<l>Hier zien, of ik voor u moet wyken, tegen reên?</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Verschoon my, Heer, zo ik, door onkunde aangedreeven,</l>
+						<l>Uw achting. . . .</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Prins, wil my een Medevryër geeven</l>
+						<l>Met meer verdiensten; en zyt ge om die plaats bereid</l>
+						<l>Te twisten, staak geenszins deeze edelmoedigheid.</l>
+						<l>Maar, nu ik hier tot haar bescherming ben gekomen,</l>
+						<l>Bedreig haar nooit weêr met den Koning, noch met Romen.</l>
+						<l>Ik zal haar, zonder hulp verdeedigen; doe gy</l>
+						<l>Dit ook, met al 't ontzagh haar schuldig, van uw zy.</l>
+						<l>'k Wil met het recht, dat my natuur gaf, en haar wetten,</l>
+						<l>De magt, die 'k over u verkreeg, ter zyde zetten;</l>
+						<l>Om eens te zien wie ons volmaakter heeft geleert,</l>
+						<l>Hoe dat men moedig van zyn vyand triomfeert,</l>
+						<l>De groote Hannibal, in 't oorlogsschool ervaaren,</l>
+						<l>Of Romen, daar gy hebt versleeten uwe jaaren.</l>
+						<l>Vaar wel; en denk daar op: ik geeven u hier toe tyd.</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>Vierde tooneel.</head>
+					<stage>Arsinoë, Attalus, Cleone.</stage>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Hoe! gy ontschuldigde u by hem? ô welk een spyt!</l>
+
+						<l>Daar hy u dorst zo trots in 't aangezicht braveeren!</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Zo snel een overval kon schielyk my verheeren.</l>
+						<l>'k Schrik van zyn komst: die breekt uw toeleg onverdacht.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Neen, Attalus, Ô neen! hy stelt zich in myn magt.</l>
+						<l>Vlieg, uit myn naam, (de tyd kan 't wachten niet gehengen)</l>
+						<l>By d' Afgevaardigde van Romen. Wil hem brengen</l>
+						<l>Alleen en onverzeld in myn vertrek, en laat</l>
+						<l>Aan my bevoolen het geluk van uwen staat.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Maar zo men moet, Mevrouw. . . .</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Ga, gy hoeft niets te vreezen.</l>
+						<l>Men spaar' het oov'rige, om voorspoediger te wezen.</l>
+					</sp>
+				</div>
+				<div n="5" type="scene">
+					<head>Vyfde tooneel.</head>
+					<stage>Arsinoë, Cleone.</stage>
+					<sp who="#cleone">
+						<speaker>Cleone.</speaker>
+						<l>Gy zwygt een zaak, Mevrouw, die hem het meeste raakt.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Ik vrees dat hy, zo hem die wierd bekent gemaakt,</l>
+						<l>Mogt d' aanslag schuwen, en door zyn Romeinsche zeden</l>
+						<l>En deugd verydelen, de vrucht, die ik op heden</l>
+						<l>Hoop van myn toeleg; en dat hy niet weeten zal,</l>
+						<l>Hoe alle gruw'len zyn gewettigd over al,</l>
+						<l>Wanneer 't een Kroon betreft.</l>
+					</sp>
+					<sp who="#cleone">
+						<speaker>Cleone.</speaker>
+						<l>Ik was steeds van gedacchten,</l>
+						<l>Dat der Romeinen aart was de ondeugd te verachten;</l>
+						<l>Maar sints dat Hannibal, door hen, het leeven liet,</l>
+						<l>Had ik dat denkbeeld van hun eed'le grootsheid niet.</l>
+
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Wil aan hen allen niet de schuld dier schennis geeven,</l>
+						<l>Maar een Romein, die dit heeft, door myn hulp, bedreeven.</l>
+						<l>Zy hadden nimmer op zyn leeven toegelegt,</l>
+						<l>Noch hun grootmoedigheid geschonden 't gastvryrecht.</l>
+						<l>Maar, schoon zy konden, tot hun nadeel, zyn vermoogen,</l>
+						<l>En hem by niemand, die hun vyand was, gedoogen;</l>
+						<l>Waar door dat hem, uit een voorzichtig staatsbeleid,</l>
+						<l>Het Hof wierd van den Vorst Antiochus ontzeid;</l>
+						<l>Zy hadden echter, vry van vrees, gerust verdraagen,</l>
+						<l>Dat hy sleet by een Vorst, hun Bondgenoot, zyn dagen.</l>
+						<l>Alleen Flaminius, door 's vaders dood en val</l>
+						<l>Te diep aan 't hart geraakt, nam wraak aan Hannibal.</l>
+						<l>'t Zal u bewust zyn, hoe dat de Adelaaren zaagen,</l>
+						<l>Aan 't Trasimeensche Meir, hun oorlogsheir verslaagen;</l>
+						<l>Wanneer de vader van Flaminius 't gebied</l>
+						<l>Als Veldheer voerde, toen hem 't krygsgeluk verliet,</l>
+						<l>En door de dapp're hand van Hannibal, het leeven:</l>
+						<l>En deezen Zoon, door zyn verwoede wraak gedreeven,</l>
+						<l>Verpligtte ik licht aan myn belang in deezen stand.</l>
+						<l>De hoop om 't voorwerp van zyn wraakzucht in zyn hand</l>
+						<l>Te krygen, heeft myn Zoon aan my weêrom doen schenken.</l>
+						<l>'k Bragt de Romeinen, door zyn hulp, tot achterdenken,</l>
+						<l>Om de overwinning die Prins Nicomedes heeft</l>
+						<l>In Asia behaalt, daar niets hem tegenstreeft;</l>
+						<l>En deê hen zien, dat zo zy 't huwelyk toelaaten</l>
+						<l>Van hem en Laodise, ook zeker haare Staaten</l>
+						<l>Aan die van Prusias vervallen. Dies met reên</l>
+						<l>De Raad beducht wierd van dit magtig Ryk alleen</l>
+						<l>Te zien in handen van zo groot een Prins, wiens leeven</l>
+						<l>Heeft zulke blyken reeds van dapperheid gegeeven;</l>
+						<l>Zo wierp Flaminius zich op tot Afgezant,</l>
+
+						<l>Om Nicomedes magt en deezen huw'lyksband,</l>
+						<l>Zo zeer van hen gevreesd, te breeken. Hier heeft Romen</l>
+						<l>Alleen belang in.</l>
+					</sp>
+					<sp who="#cleone">
+						<speaker>Cleone.</speaker>
+						<l>Hoe! zoekt Attalus te koomen,</l>
+						<l>Door zulk een weg tot dit groot huw'lyk? Maar waarom</l>
+						<l>Of Romen niet, eêr dat die groote Bruidegom</l>
+						<l>Hier kwam, om zyne min met zo veel kracht te sterken,</l>
+						<l>Getracht heeft veiliger dit opzet uit te werken?</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Een' zegepraalenden Veldöverste aan het hoofd</l>
+						<l>Eens Legers, dat van hem zich alle heil belooft,</l>
+						<l>En zonder tegenspraak, al wat hy 't ook mogt vergen,</l>
+						<l>Gereed staat om te doen, zou dwaasheid zyn te tergen.</l>
+						<l>'t Was wel zo raadzaam, en een veiliger bestaan,</l>
+						<l>Dat hy gelokt wierd, uit zyn voordeel, herwaarts aan.</l>
+						<l>Dit is myn list gelukt. 'k Liet Methrobates trekken</l>
+						<l>Naar 't Leger, en door hem in zyn gemoed verwekken</l>
+						<l>Een ingebeelden schroom zich veinzende als of hy,</l>
+						<l>Om hem te moorden, lang was omgekocht van my,</l>
+						<l>En my verried met hem myn toeleg te openbaaren.</l>
+						<l>Dank zy de Goden die hier in my gunstig waren!</l>
+						<l>Hy is hier, en met een in zyn verderf gebragt,</l>
+						<l>Daar hy den Koning recht zal vord'ren met zyn klagt.</l>
+						<l>Doch deeze komst, die klagt zal hem licht dood'lyk wezen;</l>
+						<l>Ja, zonder dat ik daar voor 't minst behoef te vreezen,</l>
+						<l>Of my te ontschuldigen, zo word ik zelfs daar door</l>
+						<l>Gewaapent, om met een te klaagen op zyn spoor.</l>
+						<l>Ik veinsde als of zyn komst my schrik kwam aan te jaagen,</l>
+						<l>Ik scheen verwonderd, en veranderde by vlaagen</l>
+						<l>Van verw: hy dacht dat ik verrascht wierd: maar, ô neen!</l>
+						<l>Zyn wederkomst geschied door myn bedryf alleen.</l>
+
+						<l>Maar, schoon dat Romen neemt belang in al uw zaaken,</l>
+						<l>En dat Prins Attalus gevoelt zyn boezem blaaken,</l>
+						<l>Waar meê verwint ge in 't eind dan Laodises zin?</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Ik wikkel Attalus geenszins in deeze min,</l>
+						<l>Als met een oogwit om tot myn besluit te komen,</l>
+						<l>Hier meê misleidende den Koning, 't Hof, en Romen.</l>
+						<l>Ik zoek Armenië geenszins. ô Neen! ik tracht</l>
+						<l>Bithinië, kan 't zyn, te krygen in myn magt.</l>
+						<l>En zo 't geluk wil dat hem mag die Kroon gebeuren,</l>
+						<l>Laat Laodise dan vry zelf een Bruigom keuren.</l>
+						<l>Myn poogen is alleen dat ik, in dit geval,</l>
+						<l>Haar hart weêrspannig, door myn tergen, maaken zal;</l>
+						<l>Dat van haar Minnaar fel verbitt'ren en verstooren.</l>
+						<l>De Vorst, die steeds leent aan Flaminius zyne ooren,</l>
+						<l>Zal, aangepord uit een staatkundige achterdocht</l>
+						<l>En schroom of't zich 't gezagh van Romen belgen mogt,</l>
+						<l>Aan Nicomedes zyn misnoegen hevig toonen;</l>
+						<l>De Zoon, hier door gehoond, den Vader niet verschoonen,</l>
+						<l>En, toornig wordende, hem tergen in 't gezicht.</l>
+						<l>Is hy oploopende, de Vorst is 't al zo licht:</l>
+						<l>En nu 'k met al myn kracht aanhitzen zal zyn zinnen,</l>
+						<l>Moet ik 't, hoe weinig dat de Prins ook uitvaar', winnen.</l>
+						<l>Zyn val is zeker: 'k heb myn wensch noch deezen dag.</l>
+						<l>Daar hebt ge al 't geen dat in myn hart verborgen lag.</l>
+						<l>Maar ik moet gaan daar myn Flaminius zal wachten.</l>
+						<l>Bewaar toch heilig het geheim van myn gedachten.</l>
+					</sp>
+					<sp who="#cleone">
+						<speaker>Cleone.</speaker>
+						<l>Ik ben van u te lang, te wel bekend, Mevrouw,</l>
+						<l>Om ongerust te zyn van myn beproefde trouw.</l>
+					</sp>
+					<p>Einde van het Eerste Bedryf.</p>
+				</div>
+			</div>
+			<div n="2" type="act">
+
+				<head>Tweede bedryf.</head>
+				<div n="1" type="scene">
+					<head>Eerste tooneel.</head>
+					<stage>Prusias, Araspes.</stage>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Hoe! zonder myn bevel zo stout ten hoof te koomen?</l>
+					</sp>
+					<sp who="#araspes">
+						<speaker>Araspes.</speaker>
+						<l>Myn Heer, alle achterdocht word lichtlyk u benoomen,</l>
+						<l>Door Nicomedes deugd, alom zo hoog geächt.</l>
+						<l>Men hield elk, buiten hem, hierom met recht verdacht.</l>
+						<l>Zyn onverwachte komst verbreekt de eerbiedigheden</l>
+						<l>Die hy u schuldigh is, 'k beken het; en geeft reden</l>
+						<l>Om te onderzoeken, waar uit de oorzaak mag ontstaan</l>
+						<l>Van de onverduldigheid, die hem dreef herwaarts aan.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>'k Weet die maar al te wel, en moet hem misvertrouwen,</l>
+						<l>En zyn verwaandheid voor een onderneeming houwen,</l>
+						<l>Die tegen myn gezagh zich aankant, 't welk hy schend,</l>
+						<l>En door zyn krygsgeluk niets boven zich erkent.</l>
+						<l>Hy strekt zich zelf een wet, en waant zyn eer te hoonen,</l>
+						<l>Zo zulk een Held als hy gehoorzaamheid zou toonen.</l>
+					</sp>
+					<sp who="#araspes">
+						<speaker>Araspes.</speaker>
+						<l>Dit was altoos 't gebruik der Helden, hem gelyk,</l>
+						<l>Die, volgende hun drift, vertraaden in het slyk</l>
+						<l>Den luister van hun roem; op hunne braave daaden</l>
+						<l>Hoovaardig, zynde met triomfen overlaaden.</l>
+						<l>En Opperhoofden van een Leger (dat gewoon</l>
+						<l>Gereeds is, op hun wenk, te volgen hun geboôn)</l>
+						<l>Zyn 't heerschen zo gewend, dat zy niet meerder weeten</l>
+						<l>Van onderdaanigheid, en meest hun pligt vergeeten.</l>
+
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Araspes, zeg noch meer: ja, zeg vry dat de naam</l>
+						<l>Van Onderdaan besmet de glory van hun faam;</l>
+						<l>Dat, schoon 't geboortelot de Kroon hen toe zal voegen,</l>
+						<l>Het wachten in hen baart een duld'loos ongenoegen,</l>
+						<l>Waar door zy meenen dat een Vader hunne Staat</l>
+						<l>Bezit, en buiten hun bestier te gronde gaat;</l>
+						<l>Dat hier uit duizenden van laagen zyn gesprooten,</l>
+						<l>Zo wel by het gemeen als eigen huisgenooten:</l>
+						<l>En gaan die niet zo ver, dat een verhaaste dood</l>
+						<l>Van 't leeven en gebied, dat hen zo lang verdroot,</l>
+						<l>Den Vader rooft, zal een geveinsd ontzagh hem laaten</l>
+						<l>Alleen den schyn van het regeeren zyner Staaten,</l>
+						<l>Steeds ondermynende de magt der Majesteit.</l>
+					</sp>
+					<sp who="#araspes">
+						<speaker>Araspes.</speaker>
+						<l>'t Waar in alle and'ren nut, met veel voorzichtigheid,</l>
+						<l>Dit kwaad te stuiten, en in zyn begin te smooren.</l>
+						<l>Maar 't waar vergeefs dat gy hierom uw rust zoud stooren.</l>
+						<l>De Prins heeft deugd: gy zyt zyn Vader.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Indien ik</l>
+						<l>Geen gunstig Vader was, hy zou dit oogenblik</l>
+						<l>De magt der Majesteit gevoelen tot zyn schade.</l>
+						<l>De vaderlyke liefde alleen geeft hem genade,</l>
+						<l>Die hem verschoont, of wel die my bedriegt, en spaart</l>
+						<l>Tot een slagtöfferhand' der staatzucht. Hoe vermaard,</l>
+						<l>Hoe groot zyn deugd ook zy, 'k heb eindelyk te duchten,</l>
+						<l>Dat die eerlang zal voor zyn heerszucht moeten vluchten,</l>
+						<l>En, zonder vrees, natuur en kinderpligt verraân</l>
+						<l>Een dien 't verveelt dat hy zyn Vorst ten dienst moet staan,</l>
+						<l>Zal ook zyn Vader licht verveelen en ontëeren.</l>
+						<l>Een reeks van bloedige voorbeelden kunnen leeren,</l>
+
+						<l>Wanneer de heerszucht in 't gemoed neemt de overhand,</l>
+						<l>Niets sterker is dan zy, spyt allen tegenstand:</l>
+						<l>Zy maakt de deugd verstomd; natuur verblint zy de oogen.</l>
+						<l>Durf ik 't u zeggen, hy heeft my in de oorelogen</l>
+						<l>Te wel gedient, en in 't vergrooten van myn Staat</l>
+						<l>Verkleint myn roem, daar hy aan my niets overlaat.</l>
+						<l>Hy is myn onderdaan niet meer dan hy wil wezen;</l>
+						<l>En die my heerschen doet, moet ik als Meester vreezen.</l>
+						<l>Hy 's al te groot voor my in 't aanzien: het gezicht</l>
+						<l>Aanschouwt met tegenheid een' wien men is verpligt.</l>
+						<l>Zyn daaden spreeken zelf: al was hy ingetoogen</l>
+						<l>En stom, zyn byzyn stelt myn schuld my klaar voor oogen.</l>
+						<l>'t Is of hy zeggen wil, 'k heb driemaal u gekroont,</l>
+						<l>Waar voor ik nimmermeer door u kan zyn beloond.</l>
+						<l>Want zo ik hem een kroon zal koomen na te laaten,</l>
+						<l>Zyn krygsdeugd heeft'er drie verknocht aan myne Staaten.</l>
+						<l>Ik beef en ben beschaamd, als ik dien grooten Zoon,</l>
+						<l>Met zyn verdiensten, en myn pligt, aan my vertoon;</l>
+						<l>Bevreesd dat hy, die my zo moedig heeft gegeeven</l>
+						<l>Drie Kroonen, licht'er één zal neemen, met myn leeven.</l>
+						<l>Wanneer hy tracht 't geen in zyn magt is te bestaan,</l>
+						<l>Zeg eens, Araspes, zeg, is 't niet met my gedaan?</l>
+					</sp>
+					<sp who="#araspes">
+						<speaker>Araspes.</speaker>
+						<l>Indien 't de Prins niet was, en meerder te mistrouwen,</l>
+						<l>'k Had deeze grondles der Staatkunde u voorgehouwen,</l>
+						<l>Dat, als een Onderdaan te groot word voor den Staat,</l>
+						<l>Hy zonder schuld verdient des Vorsten toorn en haat.</l>
+						<l>Men wacht' niet tot hy 't volk kan op zyn zyde trekken:</l>
+						<l>De magt te hebben moet voor misdaad hem verstrekken;</l>
+						<l>En een voorzichtig Vorst voorkomt hier meê, dat hy</l>
+						<l>Eerlang geen zwaarder straf verdien', door muitery;</l>
+						<l>Hier door verhindrende, tot voordeel van hun beide,</l>
+
+						<l>'t Kwaas dat hem treffen zou, en 't kwaad dat hy bereidde.</l>
+						<l>Maar 'k heb u reeds, dat dit den Prins niet raakt, gezegt.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Wilt gy wel instaan dat hy nooit, door schyn van recht,</l>
+						<l>Zyn Broeder naar het hart, my naar de Kroon zal steeken,</l>
+						<l>Noch trachten om de dood van Hannibal te wreeken?</l>
+						<l>Gelooft gy dan, dat hy gerust aanschouwen zal</l>
+						<l>'t Verlies van zyn Meestres, en 's Meesters dood en val?</l>
+						<l>Neen, laaten wy ons zelf niet vleijen: hy zal poogen</l>
+						<l>Zyn wraak te neemen, en hy heeft hier toe 't vermoogen.</l>
+						<l>Hy 's een opgaande Zon, van de Eed'len aangebeên,</l>
+						<l>Bemind van 't Krygsvolk, en 't behaagen van 't Gemeen;</l>
+						<l>Die, met de hulp gesterkt van 't Leger, komt voltrekken</l>
+						<l>Zyn toeleg, en 't Gemeen tot muitery verwekken,</l>
+						<l>Om te overvallen hen, die aan hun Opperhoofd</l>
+						<l>Noch trouw zyn. Maar hoe zwak men dat getal gelooft,</l>
+						<l>Zy zyn licht sterk genoeg om mynen troon te schraagen.</l>
+						<l>'k Wil echter trachten hem een weinig te behaagen,</l>
+						<l>Voorzichtig mengen met het vorstelyk gezagh</l>
+						<l>Een vaderlyke gunst; en, hem noch deezen dag</l>
+						<l>Na 't heir doen keeren, met een glory, die zyne ooren</l>
+						<l>Zal streelen, en zyn hart, hoe zeer gebelgd, bekooren;</l>
+						<l>En, onder 't roemen van zyn zege en heldendaân,</l>
+						<l>Hem zyn misdryf, en myn misnoegen doen verstaan.</l>
+						<l>Doch, zo hy zich beklaagt, en durft myn last vertreeden,</l>
+						<l>Zoude ik, wat heil dat ik ook van zyn dapperheden</l>
+						<l>En deugd ontfing, en noch mogt krygen, wel myn Kroon</l>
+						<l>En Staaten waagen aan 't vermoogen. . . . .</l>
+					</sp>
+					<sp who="#araspes">
+						<speaker>Araspes.</speaker>
+						<l>Daar 's uw Zoon.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>Tweede tooneel.</head>
+					<stage>Prusias, Nicomedes, Araspes.</stage>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Gy zyt dan hier Prins! Maar wiens last heeft u doen koomen?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Myn eerzucht, Vorst, heeft die vrymoedigheid genoomen,</l>
+						<l>Om noch een Kroon u zelf op te off'ren; en, na de eer</l>
+						<l>Van uw omhelzingen, die 'k boven al waardeer,</l>
+						<l>Uw vreugd te aanschouwen in zo groot een oorlogszegen.</l>
+						<l>'k Bragt aan Bithinië en aan Pontus, door myn degen,</l>
+						<l>Gantsch Kappadocië, na winst van slag op slag:</l>
+						<l>Dies ik myn Vader en myn Koning, met ontzagh,</l>
+						<l>Kom danken voor die gunst, dat hy zich van myn handen</l>
+						<l>Bedienen wilde in het veroov'ren van die Landen,</l>
+						<l>En de eer gaf dat ik wierd, door zyn geluk, vermaart.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>'t Waar nutter, dat gy die omhelzing had gespaart.</l>
+						<l>Kost gy die dankbaarheid van ver my niet ontdekken?</l>
+						<l>Moest gy dien schoonen glans van uw triomf bevlekken</l>
+						<l>Met zulk een misdaad, die na myne Rykskroon tast?</l>
+						<l>'t Verlaaten van myn heir en krygsmagt, zonder last,</l>
+						<l>Dat is een schuld, die elk zou, buiten u, betaalen</l>
+						<l>En boeten met zyn hoofd, spyt al zyn zegepraalen.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Ik heb gemist, 'k beken 't? Myn onvoorzichtig hart,</l>
+						<l>In al te driftige genegenheid verward,</l>
+						<l>Vervoerde my van 't spoor, en niets kon my weêrhouwen.</l>
+						<l>De liefde, die ik tot u had, om u te aanschouwen,</l>
+						<l>Bedreef de misdaad, en zy heeft myn pligt verkracht.</l>
+						<l>Zo 'k de eer van u te zien niet had zo veel geächt,</l>
+						<l>Had ik dan minder schuld? Neen, wat ik heb misdreeven,</l>
+
+						<l>Ik mis veel liever, in den loopbaan van myn leeven,</l>
+						<l>Iets van myn achting, dan den glans van uw gezicht.</l>
+						<l>Indien dit groot geluk, my spieg'lende in dat licht,</l>
+						<l>My strafbaar maakt voor u, 'k zal echter geenszins vreezen</l>
+						<l>Voor de al te strenge wet, zo gy moogt Rechter wezen,</l>
+						<l>En dat de vaderliefde in u een vonnis geeft</l>
+						<l>Van 't geen de kinderliefde in my bedreeven heeft.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>De minste ontschuldiging eens Zoons, voor 's Vaders oogen,</l>
+						<l>Verkleint de schuld, en noopt het hart tot mededoogen.</l>
+						<l>Zie hoe 'k in u den roem van myn Gebied erken.</l>
+						<l>Ontfang dan de eer, myn Zoon, die ik u schuldig ben.</l>
+						<l>Terwyl Flaminius, om groot gewigt van reden,</l>
+						<l>Van my gehoor verzoekt, zult gy, op dat ik heden</l>
+						<l>Hem toon' dat gy de hoop zyt van myn heerschappy,</l>
+						<l>Zyn voorstel hooren, en antwoorden hem voor my.</l>
+						<l>'k Behouw alleen den schyn van Vorst, gy zyt het wezen;</l>
+						<l>Gelyk een morgenzon, eerst prachtig opgereezen:</l>
+						<l>Daar ik, aan 't daalen, in myns leevens avondtyd,</l>
+						<l>Alleen maar d' eernaam heb, terwyl gy Koning zyt;</l>
+						<l>En licht mis ik dien na 't verloop van weinig dagen:</l>
+						<l>Dies moet de Staat alleen u trachten te behaagen.</l>
+						<l>Ik geeve u heden hier 't bewys van. Maar vergeet</l>
+						<l>Ook niet uw misdaad: doch terwyl die, tot myn leed,</l>
+						<l>Kwetst de eer der Majesteit, kunt gy ze, op myn begeeren,</l>
+						<l>Verbeet'ren, en naar 't heir op 't spoedigst wederkeeren.</l>
+						<l>Wisch, door gehoorzaamheid, die smet van de Oppermagt.</l>
+						<l>Maak dat gy ze ongeschend, als ik ze ontfing, verwacht.</l>
+						<l>Geeft geen boos voorbeeld aan uw Nazaat, die, licht kwaader</l>
+						<l>Dan gy, mogt volgen op het voorbeeld van zyn Vader,</l>
+						<l>En 't kroonrecht schenden: ja al de Adel en 't Gemeen</l>
+						<l>Zoude, op uw spoor, als gy, 's Ryks wetten overtreên.</l>
+
+						<l>Leer hen, hoe dat de grootste en waardigste Onderdaanen</l>
+						<l>Het meest gehoorzaam zyn.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Ik zal dien weg hen baanen,</l>
+						<l>En volgen het bevel van uwe Majesteit.</l>
+						<l>Maar ik verzoek een loon van myn gehoorzaamheid.</l>
+						<l>Men is verschuldigt aan Armenië te geeven</l>
+						<l>Haar Koningin, op dat zy werd' ten troon verheeven:</l>
+						<l>Myn overwinning baant den weg daar toe; 't is tyd,</l>
+						<l>Dat deeze Zon, hier toe van 't Godendom gewyd,</l>
+						<l>Blink' aan den hemel van dat Koningryk. Gun heden,</l>
+						<l>Dat ik haar derwaarts brenge, en op haar troon doe treden.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Dit staat aan u; want hier toe word vereischt, myn Zoon,</l>
+						<l>Een Vorst, of een' die heeft het erfrecht tot myn kroon;</l>
+						<l>Maar ook een plegtigheid en pracht naar haare Staaten.</l>
+						<l>Terwyl ik alles zal hier toe bereiden laaten,</l>
+						<l>Zo keer naar 't leger, en verwacht haar.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Ze is bereid</l>
+						<l>Om derwaarts, zonder pracht of staat, te zyn geleid.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Neen, dit verkleinde haar waardy, zo groot gebooren.</l>
+						<l>Maar daar komt de Afgezant; 't is noodig hem te hooren?</l>
+						<l>Wy zullen ons terstond hier nader op beraân.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>Darde tooneel.</head>
+					<stage>Prusias, Nicomedes, Flaminius, Araspes.</stage>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Reisvaardig wezende, doet my de Raad verstaan,</l>
+						<l>Dat ik aan u noch een verzoek heb voor te draagen.</l>
+
+						<l>Gy zult op 't hoogst, door uw toestemming, ons behaagen.</l>
+						<l>'t Is Romen, die den Zoon van uw doorluchtig Bloed</l>
+						<l>Heeft twintig jaaren lang zorgvuldig opgevoed.</l>
+						<l>Gy kunt de vruchten van dien arbeid klaar ontdekken</l>
+						<l>In zyne deugden, en uw Stam uit de eed'le trekken</l>
+						<l>Van zyn gelaat: hy 's ook in staatkunde uitgeleerd.</l>
+						<l>Indien u dit behaagt, zo maak dat hy regeert.</l>
+						<l>Dit 's Romens bede: en wat misnoegen zou 't haar geeben,</l>
+						<l>Wanneer gy hem, gelyk een Onderdaan, liet leeven!</l>
+						<l>Maak dat ik heden hem mag zeggen, in wat Staat</l>
+						<l>Dat hy zal Koning zyn.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>De zorgen, die de Raad,</l>
+						<l>En 't volk van Romen voor zyn eer en welstand stelden,</l>
+						<l>Zal 't Vaders hart nooit met ondankbaarheid vergelden.</l>
+						<l>'k Geloof, hy is bekwaam tot heerschen, en daar aan</l>
+						<l>Sla ik geen twyfel, na dat gy 't my deed verstaan.</l>
+						<l>Maar gy ziet hier, myn Heer, den Prins zyn' ouder Broeder,</l>
+						<l>Wiens dappere arm myn Staat verstrekt voor een' behoeder,</l>
+						<l>Daar hy my driemaal kroonde: en heden legt hy weêr</l>
+						<l>Een nieuwe zegekroon voor myne voeten neêr.</l>
+						<l>'k Ben eenige eer aan hem verpligt. Wil dan gedoogen,</l>
+						<l>Dat hy 't geluk geniet om u, voor my, te moogen</l>
+						<l>Antwoorden op uw eisch.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Het staat aan u een Kroon</l>
+						<l>Te geeven, als 't u lust, aan Attalus uw Zoon.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Deeze eisch raakt uw belang.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>En 't uwe zal my heden</l>
+						<l>Alleen doen spreeken. Op wat grond en schyn van reden</l>
+
+						<l>Moeit Romen zich, daar gy noch leeft, met uw Gebied?</l>
+						<l>Regeer zo lang als gy 't geliefde licht geniet.</l>
+						<l>Laat Romen, en Natuur dan twisten, na uw leeven.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Zo groote Vrienden moet men geen misnoegen geeven.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Die uwe Staaten poogt te deelen, wenscht uw dood,</l>
+						<l>En, volgens Staatsbelang, is zulk een Bondgenoot. . . . .</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Wil u met meer ontzagh voor Romen laaten hooren,</l>
+						<l>En niet de vriendschap van ons Bondgenootschap stooren.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Ik kan geen Koningen, dan met ontsteltenis,</l>
+						<l>Voor hen vernederd zien; en hoe de Zoon ook is,</l>
+						<l>Die Romen aan u gaf, 'k zou, zonder achterdenken,</l>
+						<l>Deeze eed'le gift aan haar, met blydschap, wederschenken.</l>
+						<l>Zo zyn gezicht zo zeer in staatkunde is verklaard,</l>
+						<l>Waarom zo schoon een schat niet voor haar zelf, bewaard,</l>
+						<l>Om, door die kostelyke opvoeding, hem te geeven</l>
+						<l>Het Burgermeesterschap?</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius, tegen Prusias.</speaker>
+						<l>Hoe meer ge ons hoort weêrstreeven,</l>
+						<l>En hoonen, hoe men meer den aart van Hannibal,</l>
+						<l>Die touw'loos Romen haatte, in hem ontdekken zal,</l>
+						<l>En wat hy van hem leerde.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>O neen! 'k ben onderweezen,</l>
+						<l>Van hem, dat ik uw Staat moest achten, maar niet vreezen.</l>
+						<l>'t Strekt my tot eer dat ik zyn Leerling heeten mag.</l>
+						<l>En als Flaminius, met zulk een klein ontzagh,</l>
+						<l>Des grooten Hannibals verdiensten aan durft randen,</l>
+						<l>Kon 't wel eens zyn dat ik afëischte van zyn handen</l>
+
+						<l>Myn Meesters leeven, die, vervolgd van zyn geweld,</l>
+						<l>Zyn uiterste uitvlucht heeft in het vergif gestelt.</l>
+						<l>Hy kan ook wederom herroepen in zyn zinnen,</l>
+						<l>Hoe deeze Held, juist met zyn Vader te overwinnen,</l>
+						<l>Heeft over Romen met geluk getriomfeert.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Die hoon is al te groot. . . .</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Waar meê ge een Doode ontëert.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Verwek geen twist, maar spreek op 't geen my komt te vooren.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Wel aan, ik laat my op een and're wys dan hooren.</l>
+						<l>Ja, Attalus behoort te heerschen: Romen acht</l>
+						<l>Dit nodig; en terwyl het heeft al de oppermagt,</l>
+						<l>Zo voegt het Koningen, wanneer zy zulks begeeren,</l>
+						<l>'t Gehoorzaam zyn, en haar beveelen te waardeeren.</l>
+						<l>De Prins is dapper en grootmoedig, ja, hy blaakt</l>
+						<l>In deugd en Majesteit, die een groot Koning maakt;</l>
+						<l>Maar wie kan een Romein straks op zyn woord betrouwen?</l>
+						<l>Laat ons de waarheid dan hier zelf eerst van beschouwen:</l>
+						<l>Laat hem uw Heir gebiên, op dat dit blyken mag,</l>
+						<l>En voor zich zelf doen, dat ik deê voor uw gezagh.</l>
+						<l>Dat hy dan, over zyn gewonnen Koningryken,</l>
+						<l>Met lof regeere, en zyn verdiensten elk doe blyken.</l>
+						<l>Hy kroone zelf zyn hoofd door dapp're heldendaân:</l>
+						<l>'k Leen hem hier toe myn arm, om onder hem te staan,</l>
+						<l>Als Veldheer, zo hy my deeze eer zal waardig keuren.</l>
+						<l>Men zag voorheen dit in den Roomschen Staat gebeuren.</l>
+						<l>'t Was Scipio, die voor zyn Broeder trok te veld:</l>
+						<l>En, als Antiochus was door dees Oorlogsheld,</l>
+						<l>Gebliksemd van zyn troon, heeft hy, van elk gepreezen,</l>
+
+						<l>Zyn' jonger Broeder zelfs gehoorzaamheid beweezen.</l>
+						<l>De ryke Egeesche zee, het Hellespontsche strand,</l>
+						<l>En 't overige, dat van Asië aan ons Land</l>
+						<l>Noch grenst, kan een ruim veld aan zyne staatzucht geeven.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Al wat in Azië noch over is gebleeven,</l>
+						<l>Heeft Romen onder zyn bescherming; en gy zult,</l>
+						<l>Zo ge uw triomfen meer uitbreiden wilt, de schuld</l>
+						<l>Van een verwoede orkaan des oorlogs op u trekken.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>'k Weet hier op u den zin des Koninings niet te ontdekken,</l>
+						<l>Maar wel, indien 't gebeurt dat niets myn wil weêrstreeft,</l>
+						<l>Men dan zal zien wat kracht deeze uw bedreiging heeft.</l>
+						<l>Doch midd'lerwyl kunt gy die plaatsen doen versterken,</l>
+						<l>En my verhind'ren in myn opzet uit te werken.</l>
+						<l>Ruk uw Hulpbenden zaam: verzuim uw voordeel niet.</l>
+						<l>En zo Flaminius, als Veldheer, het gebied</l>
+						<l>Daar over voert, zo waar heel licht voor hem gevonden</l>
+						<l>Een Trasimeener Meir.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Gy hebt te haast geschonden</l>
+						<l>Myn gunst en goedheid, Prins. 't Recht van een afgezant</l>
+						<l>Eischt meer eerbiedigheid. 't Gezagh, in uwe hand</l>
+						<l>Gegeeven. . . . . . .</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Laat my toe, myn Heer, dat ik mag spreeken;</l>
+						<l>Of laat my zwygen. Hoe! kan ik de magt zien breeken</l>
+						<l>Eens Konings? en voor hem, en de eer der Majesteit</l>
+						<l>Antwoorden, anders dan naar eisch van 't onbescheid?</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Gy hoont my zelf, door zulk een spreeken. Wil betoomen</l>
+						<l>De drift, die u vervoert.</l>
+
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Hoe! is 't zo ver gekoomen,</l>
+						<l>Dat ik uw Staat moet zien bepaalen, en de hoop</l>
+						<l>Van myn verwinningen in 't midden van haar loop?</l>
+						<l>Dat gy word stout gedreigt? En zoude ik dan niet moogen</l>
+						<l>Met wederdreigen dit vergelden, voor uwe oogen?</l>
+						<l>Of moet ik hem dan noch bedanken, om dat hy</l>
+						<l>Zo openhartige verklaaring doet aan my,</l>
+						<l>Dat ik niet ongestraft myn zege zal vervolgen?</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias, tegen Flaminius.</speaker>
+						<l>Myn Heer, verschoon de drift der jeugd, te licht verbolgen.</l>
+						<l>De reden brengt hem door den tyd haast tot zyn pligt.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>'k Voel, door de reden, reeds geöpend myn gezicht,</l>
+						<l>En 't zal, door ouderdom en tyd, noch meer verklaaren.</l>
+						<l>Zo ik in ledigheid versleeten had myn jaaren,</l>
+						<l>Gelyk myn Broeder, en geen and'ren heldenmoed,</l>
+						<l>Noch deugd, noch eer, dan die de inbeelding in ons voed,</l>
+						<l>Of een verwond'ring van de Roomsche heldendaaden,</l>
+						<l>Voor zyn gezicht gekroond met lof en lauwerbladen,</l>
+						<l>Zo had dan Romen licht uw Kroon my toegelegt,</l>
+						<l>Zo onverdeeld, als die aan myn geboorterecht</l>
+						<l>Behoort: men zou in haar zo groot een zorg niet speuren,</l>
+						<l>Om Attalus, voor my, ten rykstroon op te beuren,</l>
+						<l>Indien myn krygstriomf niet waar zo groot geweest;</l>
+						<l>Terwyl dat Romen is bekommerd en bevreesd,</l>
+						<l>Nu 'k aan Bithinië noch bragt drie Koningryken,</l>
+						<l>Dat zo veel magt, by een, de haare mogt doen wyken:</l>
+						<l>Die stracht zy die van een te scheiden. Dit 's de reên</l>
+						<l>Waarom dat Attalus moet heerschen; en, alleen,</l>
+						<l>Zo groot een deugd heeft, die ze in top van waarde haalen;</l>
+						<l>Ja, hem verheffen, kan het slechts my eer doen daalen,</l>
+
+						<l>By Alexander: dies behoorde ik af te staan</l>
+						<l>Myn erfrecht, of het loon van myn beroemde daân,</l>
+						<l>Op dat hy, in myn plaats, tot Koning wierd verheven.</l>
+						<l>Maar, 'k dank de Goden, die zo groot een lot my geeven,</l>
+						<l>Dat de onderneeming van myn moed, en heerschappy</l>
+						<l>Die 'k wacht, het voorwerp is der Roomsche jaloezy.</l>
+						<l>Gy kunt, Heer, als gy wilt, hen licht hier van geneezen;</l>
+						<l>Maar, denk niet, dat het zal met toestemming wezen.</l>
+						<l>Ik leerde nooit zo groot een lafheid. Die myn jeugd</l>
+						<l>Bestierde, wees my 't spoor der waare heldendeugd.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Gy hebt, naar 'k merk, Prins, voor uw eigen waardigheden,</l>
+						<l>Belang en baatzucht, meer dan voor uw deugd, gestreeden;</l>
+						<l>En 't allerpryslykst van uw wapens uitgerecht,</l>
+						<l>Is, dat ge op 't hoofd van een verouden Vader legt</l>
+						<l>Den last dier zege, en als bewaarder in zyn handen</l>
+						<l>Stelt uw verwinningen; dewyl dat gy de Landen,</l>
+						<l>Die ge aan zyn Kroon bragt, u alleen hebt toegeleid.</l>
+						<l>Neen, 'k waande dat uw deugd en edelmoedigheid</l>
+						<l>Meer naar de daaden der Romeiene zou gelyken,</l>
+						<l>Die nooit henzelf van hun verwinningen verryken.</l>
+						<l>De groote Scipio, dien gy zo hoog waardeert,</l>
+						<l>Heeft van Karthage, dat hy won, niets meer begeert</l>
+						<l>Dan de eer, en bynaam, ter gedachtenis dier zegen,</l>
+						<l>Van Africanus, schoon 't hem alles vloeide tegen.</l>
+						<l>Doch die voorbeelden zyn alleen in 't Roomsch Gebied</l>
+						<l>Te vinden; 't oov'rig deel des Aardryks kent die niet:</l>
+						<l>En wat uw Staatkunde aanbelangt, die u gedachten</l>
+						<l>Te geeven schynt, als of wy vreesden voor de magten</l>
+						<l>Van zo veel kroonen, die ge in één smelt; laat u raân</l>
+						<l>Van hen, die in den grond het staatgeheim verstaan.</l>
+						<l>Zy zullen uw verstand geneezen van gebreeken,</l>
+
+						<l>En zulk een valsche waan. 'k Zal daar niet meer van spreeken,</l>
+						<l>Uit een ontzagh, dat ik den Koning draag. Neem tyd</l>
+						<l>Tot uw bedenking; en, zo gy te raaden zyt,</l>
+						<l>Moet gy uw oorlogsvuur voortaan niet meer bekleeden</l>
+						<l>Met rook en nevels van zo veel laatdunkendheden.</l>
+						<l>Zo zult gy eindelyk uw oogen zien verklaard.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>De tyd geeft d' uitslag, die eerlang ons openbaart,</l>
+						<l>Of 't geen ik zeg gegrond op weeten is, of waanen.</l>
+						<l>Indien. . . . . .</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Indien gy zyt geneigd den weg te baanen,</l>
+						<l>Met uwe wapenen, tot de uiterste oorlogsëer,</l>
+						<l>Wy zullen nimmer u bepaalen. Maar, myn Heer,</l>
+						<l>'t Is elk geoorloofd voor zyn Vrienden zorg te draagen;</l>
+						<l>Hen voor te staan, ten trots van die 't ook mogt mishaagen:</l>
+						<l>En, zo gy dit noch niet verstaan kunt, 'k ben bereid</l>
+						<l>Om 't u te leeren wat hier in verborgen leid,</l>
+						<l>Op dat u dit zo vreemd niet zou ter ooren koomen.</l>
+						<l>Voor uw rechtvaardig deel behoeft gy niet te schroomen:</l>
+						<l>Het Ryk van Pontus, en Galatië moogt gy,</l>
+						<l>Met Kappadocië, en Bithinië, uit de ry</l>
+						<l>Van uw Voorvaderen gedaald, alleen regeeren.</l>
+						<l>O neen! men komt geenszins voor Attalus begeeren</l>
+						<l>'t Loon van uw zweet en bloed. Doch nu 't een misdaad strekt,</l>
+						<l>Dat Romen omtrent u slechts in bedenking trekt,</l>
+						<l>Om hem hier eenig deel in 't ryksgebied te geeven,</l>
+						<l>Zo zal ze uw wil, myn Heer, hier in niet tegenstreeven,</l>
+						<l>Noch in uw recht misdoen. Hy zal als Vorst gebiên,</l>
+						<l>En zonder dat gy zult uw Staat verminderd zien.</l>
+						<stage>Tegen Prusias.</stage>
+						<l>De Koninginne van Armenië moet heden,</l>
+
+						<l>Met eenen Bruidegom, op's Vaders rykstroon treeden.</l>
+						<l>Neem die gelegenheid, zo schoon voor hem, in acht,</l>
+						<l>Terwyl gy over haar 't gezagh hebt en de magt.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Zie daar 't geheim, waar door hy kan een Kroon bekoomen,</l>
+						<l>En zonder dat 'er iets van 't myne word genoomen.</l>
+						<l>Die vond is teder; maar zo loos niet, of, verlicht</l>
+						<l>Door zulk een omweg, noch veel klaarder myn gezicht.</l>
+						<l>'k Zal my hier op, zo kort als 't moog'lyk is, verklaaren:</l>
+						<l>Gy zult in die Prinses het heilig recht bewaaren</l>
+						<l>Eens Koningins, gelyk zy is; of 'k zal 't met moed</l>
+						<l>Handhaaven, schoon 't ook waar' ten kosten van myn bloed.</l>
+						<l>Ik waarschouw u, dat gy haar recht laat ongeschonden,</l>
+						<l>En zeg, dat nimmermeer de Koningen gebonden</l>
+						<l>Aan wetten zyn, schoon dat zy leeven in uw Staat:</l>
+						<l>Dat gy haar dan haar keur alleen behouden laat.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Hebt gy niets anders, Prins, met d' Afgezant te spreeken?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Neen, of de Koningin moest myn geduld verbreeken.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Hoe! stelt ge u tegen haar? ô Welk een stout bestaan!</l>
+						<l>Hoe ver zal eind'lyk uw baldaadigheid noch gaan?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Niet verder als om my te zwygen te verplighten,</l>
+						<l>Of myn stilzwygen af te breeken: 'k zal nooit zwichten.</l>
+						<l>Ik waarschouw u noch eens, dat Laodise zy</l>
+						<l>Als Koningin geächt, van alle wetten vry.</l>
+						<l>Ik ben't, die dit verzoek.</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>Vierde tooneel.</head>
+					<stage>Prusias, Flaminius, Araspes.</stage>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Hoe! zal hy, altoos reden</l>
+						<l>Van argwaan zoeken, en geduurig zyn te onvreden?</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Wat wonder is 't dat hy hier misnoegen vind,</l>
+						<l>Als Minnaar zoekende, terwyl hy teder mint,</l>
+						<l>En opgeblaazen door zyn zege is, dus verbolgen</l>
+						<l>Zyn vlam te ontveinzen? Maar elk moet zyn noodlot volgen.</l>
+						<l>De min der Koningen knoopt nooit hun huwlyksband.</l>
+						<l>De redenen van staat behouden de overhand,</l>
+						<l>En blusschen 't minnevuur.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Maar nu 't grootmoedig harte</l>
+						<l>Van Laodise voelt de zelfde minnesmarte,</l>
+						<l>Zal ze onverzet'lyk zyn.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Neen, neen, 'k staat voor haar in,</l>
+						<l>Myn Heer; ze is ons geheel, maar ook een Koningin:</l>
+						<l>Die staat schynt eenige beleefdheid te begeeren,</l>
+						<l>En, schoon ik over haar volkoomen mag regeeren,</l>
+						<l>Ik wil met zachtheid myn gestrenge magt bekleên,</l>
+						<l>En liever myn geboôn bedekken met gebeên.</l>
+						<l>Kom, gaan we om haar te zien; en stel haar dan voor oogen,</l>
+						<l>Als Afgezant, dees echt: ik zal, met myn vermoogen,</l>
+						<l>Uw voorstel schraagen, en geleiden u, myn Heer,</l>
+						<l>Op dat zy weet' met welk een ernst ik dit begeer.</l>
+					</sp>
+					<p>Einde van het Tweede Bedryf.</p>
+				</div>
+			</div>
+			<div n="3" type="act">
+
+				<head>Darde bedryf.</head>
+				<div n="1" type="scene">
+					<head>Eerste tooneel.</head>
+					<stage>Prusias, Flaminius, Laodise.</stage>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Kan u zo zeer de naam van Koningin behaagen,</l>
+						<l>Zo moest ge ook meerder zorg om dien te houden draagen.</l>
+						<l>Geen Koningryk, te streng beheerscht, kan lang bestaan.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Wanneer ik myne hand aan 't roer van staat zal slaan,</l>
+						<l>Zult gy my, op myn beurt, die staatles zien waardeeren.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Gy zyt niet op den weg, welke u leid tot regeeren.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Ben ik verdwaald, men wyz' my 't rechte spoor, myn Heer.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Gy acht hier Romen toe te klein; en gy hoort meer</l>
+						<l>Ontzagh te toonen, en uw fierheid te bedekkken</l>
+						<l>Voor my, die u in plaats van Vader moet verstrekken.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Ik toonde u beiden wat ik schulig was, indien</l>
+						<l>Dit naar den eisch van het betaamen kon geschiên.</l>
+						<l>Hier met een Afgezant, als Koningin, te spreeken,</l>
+						<l>Ware of men u naar 't hart, en naar uw Kroon wou steeken.</l>
+						<l>Ik weiger dan die gunst; 'k begeer geen staatsgezagh,</l>
+						<l>Dan in Armenie, daar 'k vry gebieden mag.</l>
+						<l>'k Zal daar, wanneer ik op myn Rykstroon ben gekoomen,</l>
+						<l>Met meerder Majesteit, den Afgezant van Romen</l>
+						<l>Gelyk een Koningin antwoorden, naar den staat</l>
+						<l>Van zyne waardigheid, en die van Romens Raad.</l>
+
+						<l>'k Begryp niet op wat wys dat ik hem hier zou hooren:</l>
+						<l>'k Heb geen gebied, dan in het Ryk my aangebooren;</l>
+						<l>En, buiten dat, zo strekt de godgewyde magt</l>
+						<l>Van Koningin, zo groot, zo waard alom geächt,</l>
+						<l>Niet wyder, dan dat ik by niemand, wie 't mag wezen,</l>
+						<l>Wat Koning, welk een Staat, hoe hoog in top gereezen,</l>
+						<l>Ontzagh verschuldigd ben. 'k Erken op uw geboôn</l>
+						<l>Geen Magten, dan my zelf, de Reden, en de Goôn.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Die Goôn, en ook de Vorst, waar van gy kreegt het leeven,</l>
+						<l>Die hebben, over u, aan my 't gebied gegeeven:</l>
+						<l>En, zonder dat de Goôn u helpen, word gy licht</l>
+						<l>Eerlang gewaar, die zo verwaand voor niemand zwicht,</l>
+						<l>Wat dat de Koningen, door hunne magt, vermoogen.</l>
+						<l>En, om daar van een proef te neemen voor uwe oogen,</l>
+						<l>'k Wil in Armenië u gaan brengen, maar met al</l>
+						<l>Myn Krygsheir, dat u op dien togt verzellen zal.</l>
+						<l>Kom, gaan we op morgen. Maar, berei u, om te aanschouwen</l>
+						<l>'t Verwoesten van uw Land, van tempels en gebouwen;</l>
+						<l>In de omgewroete Steên, een zee van menschenbloed,</l>
+						<l>By bergen vol van doôn, en euv'len overmoed</l>
+						<l>Van roof, geweld, en moord, als niets hen kan bepaalen;</l>
+						<l>Ja, al wat schriklykst is in d'oorlog af te maalen.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>'k Verlies myn Staaten, maar geenszins myn Majesteit.</l>
+						<l>En deeze ramp, dien 'k ly door myn grootmoedigheid,</l>
+						<l>Zal me uw Slaavin wel, maar uw Onderdaan niet maaken.</l>
+						<l>Myn ziel zal eeuwig in deeze eed'le fierheid blaaken</l>
+						<l>Myn leeven staat wel, maar myn moed niet, in uw hand:</l>
+						<l>Die triomfeert, en houd in tegenspoeden stand.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Wy weeten raad om dees ontemb'ren moed te toomen;</l>
+
+						<l>En als gy eind'lyk zyt tot naberouw gekoomen,</l>
+						<l>Wars wezende van al de elenden aan te zien,</l>
+						<l>En Attalus zal op uws Vaders troon gebiên,</l>
+						<l>Dan zult gy licht vergeefs hem smeeken, en begeeren</l>
+						<l>Zyn hand, om u daar op te leiden tot regeeren.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Ik zal dan wel, zo dit komt door uw krygsgeweld,</l>
+						<l>Van zin veranderd zyn; doch, 't kon wel wezen, Held,</l>
+						<l>Dat gy zo ver nooit kwaamt, en voor myn nut de Goden</l>
+						<l>In arbeid gingen, als ik heb hun hulp van nooden,</l>
+						<l>Die moog'lyk u van zin verand'ren, of wel licht</l>
+						<l>Een Held verwekken, die voor u, noch Romen zwicht.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Gy steunt op een Vermeet'le en Trotsen, die zich zelven,</l>
+						<l>En u zal in een graf van allen ramp bedelven.</l>
+						<l>Bedenk u wel; bedrieg u zelf niet met den schyn.</l>
+						<l>Kies of gy Laodise, of Koningin wilt zyn:</l>
+						<l>En dit 's myn laatste raad voor u, en myn begeeren,</l>
+						<l>Dat gy Prins Attalus, indien gy wilt regeeren,</l>
+						<l>Tot Koning maakt. Vaar wel.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>Tweede tooneel.</head>
+					<stage>Flaminius, Laodise.</stage>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Mevrouw, de deugd verpligt . . .</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Volg gy den Koning: uw Gezantschap is verricht.</l>
+						<l>'k Zeg u noch eens, dat ik hier nimmer u wil hooren.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Ik spreek, aanschouwende de elenden u beschooren,</l>
+						<l>Met u niet, als Gezant, maar een, die in zyn hart</l>
+						<l>Bewoogen, poogt den loop der rampen, die gy tart,</l>
+
+						<l>Te stuiten; en ik durf, als Vriend, aan u verklaaren,</l>
+						<l>Dat vaak de deugd zich met voorzichtigheid moet paaren,</l>
+						<l>En veilig volgen daar haar 't noodlot trekt en leid;</l>
+						<l>En, zonder deeze deugd, is de grootmoedigheid,</l>
+						<l>In 't hart der Koningen, een valsche deugd; wiens straalen</l>
+						<l>U, onder schyn van eer, van 't rechte spoor doen dwaalen,</l>
+						<l>Aanbiedende u, dat gy behoorde te versmaân.</l>
+						<l>Haar eer en luister zal wel duur u naamaals staan.</l>
+						<l>En eind'lyk gy, tot ons, uitroepen, in uw lyden:</l>
+						<l>'k Had recht tot heerschen, maar 'k liet my dat recht ontglyden,</l>
+						<l>Gy tergt een Vorst (wiens heir zo groot is, en den lof</l>
+						<l>Van onverwinlyk heeft,) zelfs in zyn eigen Hof.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>'k Weet niet of de eer iets valschs kan worden aangewreeben,</l>
+						<l>Maar 'k wil u mede, als een Vriendin, te kennen geeven,</l>
+						<l>Dat myn voorzichtigheid noch niet is uitgeblust;</l>
+						<l>En, zonder dat my hier eens te onderzoeken lust,</l>
+						<l>Schoon de achterdocht my hier toe noopt, hoe uw gedachten</l>
+						<l>Grootmoedigheid en deugd zo klein, zo weinig achten,</l>
+						<l>En plaatsen in uw hart; wil ik u rechter, Heer,</l>
+						<l>Doen zien, dat de eed'le moed van myne ziel zo zeer</l>
+						<l>Niet, als gy waant, steunt op een valsche deugd. Met reden</l>
+						<l>Leert zy my, zo 'k heb recht om op den Troon te treeden,</l>
+						<l>Dat ik dat voorstaa; en zy zal ook, door haar magt,</l>
+						<l>Hem wel verwinnen die my dat te ontrooven tracht.</l>
+						<l>'k Zie ook, gelyk gy poogt te drukken in myn zinnen,</l>
+						<l>Een magtig Krysheir, dat gewoon is te overwinnen:</l>
+						<l>Maar onder wiens beleid? wat Veldheer? welke een Held?</l>
+						<l>Licht zou 't de Koning zich, wanneer hy trok te veld</l>
+						<l>Beklaagen kunnen; en, wil hy myn Ryk regeeren,</l>
+						<l>Zo raade ik hem, dat hy, om 't alles te overheeren,</l>
+						<l>Zich van een ander Heir verzeker'. Doch schoon ik</l>
+
+						<l>Ben in zyn hof, daar 's niets waar voor ik vrees of schrik.</l>
+						<l>De deugd vind, in zyn Ryk, en buiten myne Staaten,</l>
+						<l>Alom bescherming voor 't geweld van die haar haaten.</l>
+						<l>Al 't volk heeft oogen om te kunnen zien waar heen</l>
+						<l>Het hof wil, tegen het welvaaren van 't Gemeen;</l>
+						<l>'t Kent Nicomedes deugd, en ook de valsche treeken</l>
+						<l>Van zyn Stiefmoeder, die diep in haar hart heeft steeken</l>
+						<l>Een felle haar; ja, weet tot wat slaafsachtigheid,</l>
+						<l>Door valsche Vrienden, dat de Koning word geleid.</l>
+						<l>Doch, in de plaats dat ik zoude Attalus verachten,</l>
+						<l>Waar door gy my stelt, naar den waan van uw gedachten,</l>
+						<l>In groot gevaar; hoede ik zyn eer voor smaad en schand',</l>
+						<l>Die hem de Kroon gaf, zo hy die kreeg van myn hand.</l>
+						<l>Hy kwam my zelf steeds als een laffe ziel te vooren,</l>
+						<l>En als een man niet tot die waardigheid gebooren,</l>
+						<l>Die eer myn onderdaan scheen dan myn bedgenoot.</l>
+						<l>Ja, zelfs ons huw'lyk kon, hoe waardig, en hoe groot</l>
+						<l>Gy hem waardeert en acht, met my nooit evenaaren:</l>
+						<l>'k Zou, door myn voorbeeld, in myn Onderdaanen baaren</l>
+						<l>Een klein ontzagh tot hem: en dit ware in zyn hart,</l>
+						<l>Zo edelmoedig, een onlydelyke smart.</l>
+						<l>Dies strekt myn weig'ring hem alleenig tot genaden,</l>
+						<l>Voorkoomende een verdriet, dat eeuwig hem zou schaaden.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Gy zyt, zo 't waar is 't geen gy zegt, hier Koningin,</l>
+						<l>Bestierende het hof, en 't Heir naar uwen zin,</l>
+						<l>De Koning slechts een beeld, dat kracht heeft noch vermoogen,</l>
+						<l>Dan 't geen gy aan hem laat, door medely bewoogen:</l>
+						<l>Ja, zelfs geeft gy genaâ. Gedoog na deeze alleen,</l>
+						<l>Verschooning zoekende van myn vrymoedigheên,</l>
+						<l>Dat Romen, door myn mond, u spreek' van uw belangen,</l>
+						<l>Het komt u toe, dat ge een Gezantschap moogt ontfangen,</l>
+
+						<l>En zo gy 't niet, dan in Armenië, begeert,</l>
+						<l>Zo laat my eind'lyk zyn met deeze gunst verëerd,</l>
+						<l>Om als een ampteloos Romein u voor te draagen,</l>
+						<l>Dat hy, die Romen, heeft tot Bondgenoot, geen laagen</l>
+						<l>Van and'ren vreest; ja dat dit 't eenig middel is</l>
+						<l>Waar door hy heerschen kan; en, zonder stoorenis,</l>
+						<l>Houd zyn Gebuuren in bedwang, zyn Onderzaaten</l>
+						<l>In rust, zyn Vyanden in vrees voor hunne Staaten.</l>
+						<l>Een Vorst zit dan eerst vast op zynen troon, wanneer</l>
+						<l>Hy Romen heeft te vriend. En onder zulk een eer</l>
+						<l>Zal Attalus, veel meer, dan al de Vorsten zaamen,</l>
+						<l>Een Koning zyn, van wien ge u nimmer hoeft te schaamen.</l>
+						<l>En eind'lyk. . . . .</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>'t Is genoeg. 'k Begryp u al te klaar:</l>
+						<l>De Koningen die zyn geen Koningen, dan daar</l>
+						<l>Het u alleen behaagt. Maar, is het zo dat Romen</l>
+						<l>Heeft van den Vorsten magt alleen 't gezagh bekoomen,</l>
+						<l>'t Doet dan voor Attalus wel weinig; 't moest, nu zy</l>
+						<l>Zo veel kan geeven, om te erkennen zyn waardy,</l>
+						<l>Voor hem niet beed'len zo hardnekkig en verlegen:</l>
+						<l>En, daar gy zyt zo zeer dien braaven Prins genegen,</l>
+						<l>Ben ik verwonderd dat gy zulk een omweg gaat.</l>
+						<l>Waarom of gy hem niet een koninglyken Staat</l>
+						<l>Eerst geeft, en komt voor hem dan van een huw'lyk spreeken?</l>
+						<l>Neen, 't is myn koninglyk ontzagh te veel verbreeken,</l>
+						<l>En, voor een Onderdaan, aan my geverd. Ja, 'k zou</l>
+						<l>Een Koning zelfs, zo hy, door u, zyn liefde en trouw</l>
+						<l>My aanbood, en zyn kroon wou met de schand' belaaden</l>
+						<l>Van uwen bondgenoot te worden, trots versmaaden.</l>
+						<l>Dit 's myn gevoelen, dat ik nimmer loogch'nen kan;</l>
+						<l>Ik wil, in eeuwigheid, geen Echtgenoot, die van</l>
+
+						<l>Den Roomschen Staat afhangt, en dient voor Slaaf moet strekken,</l>
+						<l>En, nu ik ongeveinsd u kwam myn hart te ontdekken,</l>
+						<l>Zo spil geen meerder tyd met dreigen, of gebeên.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Mag ik u niet doen zien, dat gy zyt afgetreên</l>
+						<l>Van 't rechte spoor, Mevrouw? Laat ik u nochmaals raaden,</l>
+						<l>En oordeel beter van de Roomsche Deugd en daaden.</l>
+						<l>Bedenk en overleg wel ryp'lyk uwen staat.</l>
+						<l>Zo gy u zelve mint, vrees der Romeinen haat,</l>
+						<l>En tracht niet langer hen zo wreev'lig te mishaagen.</l>
+						<l>Karthage is omgekeerd, Antiochus verslaagen,</l>
+						<l>En niets meer overig, dat onzen wil weêrstreeft:</l>
+						<l>Daar alles voor ons buigt, de Zee en 't Aardryk beeft,</l>
+						<l>En schud wanneer 't ons lust. Ja, Romen is op heden,</l>
+						<l>Meestresse van 't Heeläl, van oorlog en van vreden.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Meestresse van 't Heeläl? Gy bragt dit oogenblik,</l>
+						<l>Door deeze bliksems van bedreiging, schroom en schrik</l>
+						<l>In myn gemoed, en 't zou niet weing my vervaaren,</l>
+						<l>Wanneer Armenië, en myn hart, daar onder waren;</l>
+						<l>Zo Hannibal had geen Navolger van zyn moed</l>
+						<l>Aan Nicomedes, in zyn krygsschool opgevoed,</l>
+						<l>En ik niet wist dat hy in zyne dapp're handen</l>
+						<l>Gelaaten had 't geheim, om der Romeinen landen</l>
+						<l>En magt te dwingen. Een zo schrander Leereling</l>
+						<l>Zal de oorlogslessen, die hy uit zyn mond ontfing,</l>
+						<l>Wanneer 't de nood vereischt, de waereld laaten blyken,</l>
+						<l>En op zyn beurt meê met de Roomsche grootsheid pryken.</l>
+						<l>Gantsche Asië, 't welk beeft voor zyne dapperheid,</l>
+						<l>Verstrekt een proefstuk van zyn moedig krygsbeleid;</l>
+						<l>Ja, zulk een proefstuk, daar hy Romen meê kan toonen,</l>
+						<l>Hoe fier hy overwon drie koninglyke Kroonen;</l>
+
+						<l>Waarom het Kapitool licht vreest van haast te zien</l>
+						<l>Zo groot een meesterstuk, waar door dat hy misschien. . . .</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Misschien is twyfelend; en wat kan Romen deeren?</l>
+						<l>Maar gy zult, als het eens te pas zal komen, leeren</l>
+						<l>Die Goden kennen, en hun bliksemen, gewoon</l>
+						<l>Hoovaardigen, als u, te bonzen van den troon.</l>
+						<l>Ja, 't was uw Hannibal, wiens hart kon, na de slaagen,</l>
+						<l>Die hy by Trebia en Kannes won, vertsaagen;</l>
+						<l>En, voor zyn schim verschrikt . . . Maar zie, daar komt uw Held,</l>
+						<l>Dien ge onverwinlyk voor de Roomsche wapens stelt.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>Darde tooneel.</head>
+					<stage>Nicomedes, Laodise, Flaminius.</stage>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>De Roomsche Raad moet wel aan hun Gezanten geeven</l>
+						<l>Een groot gezagh, of gy uw last te buiten streeven.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Ik weet myn last, en ben aan and'ren daar van de eer,</l>
+						<l>En redenen verpligt.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Ga, geef hen die, myn Heer.</l>
+						<l>Laat my ook, op myn beurt, Mevrouw wat onderhouwen.</l>
+						<l>Gy hebt de zege rees op haar gemoed behouwen.</l>
+						<l>Uw redenen zyn van zo groot een kracht geweest,</l>
+						<l>Dat ons zal moeilyk zyn te wisschen uit haar geest,</l>
+						<l>'t Geen uw welspreekendheid daar diep wist in te drukken.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Bewoogen zynde van de elende en ongelukken,</l>
+						<l>Waar in Mevrouw zich stort, gaf ik alleen aan haar,</l>
+						<l>Om haar te redden uit een vriendschap vol gevaar,</l>
+						<l>Een trouwen raad, myn Heer, van deernis aangedreeven.</l>
+
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Haar zulk een raad, die zo vol deernis is, te geeven!</l>
+						<l>Wat 's dit een teder en barmhertig Afgezant!</l>
+						<l>Mevrouw, wat laffe raad gaf hy u tot uw schand'?</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Gy hoont my noch, en blaakt van gramschap, tegen reden.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Blaak ik van gramschap?</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Denk dat nooit de waardigheden</l>
+						<l>Van een Gezant. . . .</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Steun daar niet op. ô Neen! gy zyt,</l>
+						<l>Zo dra ge u Raadsheer maakt, die waardigheden kwyt.</l>
+						<l>Mevrouw, heeft hy van u zyn antwoord reeds bekoomen?</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Ja, Heer.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Zo weet dat ik u hier, in spyt van Romen,</l>
+						<l>Neem voor Flaminius, en voor een Hofgezant</l>
+						<l>Van Attalus; ja, tot uw ontuitwisb're schand',</l>
+						<l>Voor een Vergiftiger van Hannibal, myn waarden</l>
+						<l>Leermeester, die men nooit zag van zyn deugd ontäarden.</l>
+						<l>Zie daar al de eer, die ik u toedraag. Zo ge u acht</l>
+						<l>Daar door beleedigd, ga, en doe den Vorst uw klagt.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Ik zal by hem om recht, schoon 't is uw Vader, trachten;</l>
+						<l>Of weigert hy my dat, ik zal 't van Romen wachten.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Ga, val hem beiden dan te voet.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Gy zult de daad</l>
+						<l>Hier op zien volgen. Prins, bedenk wat gy bestaat.</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>Vierde tooneel.</head>
+					<stage>Nicomedes, Laodise.</stage>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Hy mag de Koningin met deezen raad verpligten.</l>
+						<l>Myn edelmoedigheid moest eindelyk noch zwichten</l>
+						<l>Voor zynen haat. Ik heb hem lang genoeg gespaart,</l>
+						<l>Met niet te ontdekken 't kwaad, dat hy, van deugd ontäard,</l>
+						<l>Zo listig ondernam, door zyne moordenaaren.</l>
+						<l>Maar 'k word gedwongen om elk de oogen op te klaaren.</l>
+						<l>De Koning hoorde, door myn toedoen, dit terstond.</l>
+						<l>Uit Methrobates, en verraader Zenoos mond.</l>
+						<l>Hy, ziende dat de zaak is waardig te vervloeken,</l>
+						<l>Neemt zelfs de moeite om die naaukeurig te onderzoeken.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>'k Weet niet van wat gevolg dit eindelyk wezen zal,</l>
+						<l>En ik begryp geenszins 't beleid van dit geval,</l>
+						<l>Noch ook waarom dat u de Koningin durft tergen,</l>
+						<l>Om te openbaaren 't geen zy hoorde te verbergen.</l>
+						<l>Hoe meer ze u vreezen moest, hoe minder dat ze u vreest;</l>
+						<l>En hoe gy, met meer kracht, de boosheid van haar geest</l>
+						<l>Klaar te overtuigen weet, hoe meer ze u durft belaagen,</l>
+						<l>Als uw doodvyandin.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Zy komt my voor met klaagen,</l>
+						<l>En tracht de reden, die ik daar toe heb, met list,</l>
+						<l>Den naam te geeven van een onderlinge twist</l>
+						<l>En haat, die 'k op haar heb: doch onder deeze streeken,</l>
+						<l>Bedekt zy haare vrees, en blyft in zorge steeken,</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>De hofgeheimen zyn zo duister, dat het licht</l>
+
+						<l>Van 't alderhelderste verstand daar vaak voor zwicht.</l>
+						<l>Eêr gy hier waart om voor 't geweld my te bevryden,</l>
+						<l>Had ik met Romen, noch met Attalus te stryden:</l>
+						<l>Maar, Heer, zo dra als gy ten hoof gekoomen zyt,</l>
+						<l>Eischt my Flaminius, in uw gezicht, ô spyt!</l>
+						<l>Ten huw'lyk voor den Prins uw Broeder. Myn gedachten</l>
+						<l>Begrypen niet, waarom hy niet zo lang kan wachten</l>
+						<l>Tot gy vertrekt; terwyl ge, op 't koninglyk verlof,</l>
+						<l>Eén dag, en langer niet, verblyven meugt aan 't hof,</l>
+						<l>De duistre wolken, die ik reeds zie opgekoomen,</l>
+						<l>Beneev'len myn gezicht, en doen my alles schroomen.</l>
+						<l>De vorst vleit en bemint, verslaaft de Koningin,</l>
+						<l>En vreest voor Romen. Doch, ofschoon zyn hart en zin</l>
+						<l>Uw daân al niet benydde, is hy zo teêr een Vader</l>
+						<l>Geenszins, als Echtgenoot, en niets betreft hem nader</l>
+						<l>Dan zyne Gemaalin . . . . Maar zie hoe onverwacht</l>
+						<l>Hier Attalus verschynt. Wat of hem herwaarts bragt?</l>
+						<l>Indien 't om my is, vind hy zeker zich bedroogen.</l>
+						<l>'k Verlaat u, Prins.</l>
+					</sp>
+				</div>
+				<div n="5" type="scene">
+					<head>Vyfde tooneel.</head>
+					<stage> Attalus, Laodise, Nicomedes.</stage>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Mevrouw, waar heen zo snel gevloogen?</l>
+						<l>Dit lieflyk onderhoud mist zyn bekoorlykheên,</l>
+						<l>Na 't schynt, zo dra als ik hier in 't vertrek kom treên.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Met die vrypostigheid hebt gy slechts voort te vaaren</l>
+						<l>By hem, myn eigen zelf: hy zal myn zin verklaaren,</l>
+						<l>En u, gelyk hy voor den Koning heeft gedaan</l>
+						<l>By uw Flaminius, voor my ten antwoord staan.</l>
+					</sp>
+				</div>
+				<div n="6" type="scene">
+					<head>Zesde tooneel.</head>
+					<stage>Nicomedes, Attalus.</stage>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Myn Heer, ik zal, terwyl dat zy wil gaan, vertrekken.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Neen, neen, Prins, blyf hier vry: ik heb u iets te ontdekken.</l>
+						<l>'k Had, met de Kroon, daar 'k toe geschikt was, 't wettig recht</l>
+						<l>Van eerstgeboor'nen, in uw voordeel, afgelegt;</l>
+						<l>En, trachtende maar myn Meestresse te bevryden,</l>
+						<l>Bad ik u dat gy zoud haar hart alleen bestryden;</l>
+						<l>En geenszins Romen, noch de koninglyke magt</l>
+						<l>Hier toe gebruiken. Maar gy slaat heel weinig acht</l>
+						<l>Op 't geen uw pligt is; of 't geheugen doet u missen.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Gy dwingt my zelf dat ik hier in my moet vergissen,</l>
+						<l>Zo gy my niet geheel met u stelt in één staat.</l>
+						<l>'k Zie wel dat ge iets van 't recht der eerstgeboorte afgaat,</l>
+						<l>Maar houd gy 't hart niet der Vorstin in uw vermoogen?</l>
+						<l>Uw krygsdeugd, die u maakt beminlyk in elks oogen,</l>
+						<l>Uw eed'le Majesteit, welke alle harten trekt;</l>
+						<l>Drie Scepters, die gy wint, en 't heldenhoofd, bedekt</l>
+						<l>Met eeuwige lauwrier; de zege, die gy heden</l>
+						<l>Van zes Veldslaagen kreegt, en meer als honderd Steden,</l>
+						<l>Versterkt uw zyde, en maakt dat niets weerstreeft uw zin.</l>
+						<l>Stel u, en my, dan eerst gelyk by de Vorstin:</l>
+						<l>Laat haar de eerteekenen, waar meê gy zyt belaaden,</l>
+						<l>Niet zien: wisch uit haar hart uw deugd en heldendaaden.</l>
+						<l>Of laat my toe dat ik dan, tegen uw gezagh,</l>
+						<l>Uw dapperheid en haare min, opweegen mag</l>
+						<l>Den Vorst en Romen. Gy hebt lichtlyk kunnen merken,</l>
+
+						<l>Aan 't klein gewigt, waar meê dat zy myn zyde sterken,</l>
+						<l>Dat gy 't moet winnen, in die weegschaal, tot myn leed.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Gy hebt te Romen niet vergeefs uw tyd besteed,</l>
+						<l>Dus kunstig leerende u verdeedigen, en spreeken.</l>
+						<l>Hebt gy geen hart, ten minste is uw verstand gebleeken.</l>
+					</sp>
+				</div>
+				<div n="7" type="scene">
+					<head>Zevende tooneel.</head>
+					<stage>Arsinoë, Nicomedes, Attalus, Araspes.</stage>
+					<sp who="#araspes">
+						<speaker>Araspes.</speaker>
+						<l>De Vorst ontbied u, Prins.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Wie? my?</l>
+					</sp>
+					<sp who="#araspes">
+						<speaker>Araspes</speaker>
+						<l>Ja, u, myn Heer.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Prins, de achterklap zwicht haast op 't minste tegenweêr.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>'k Weet niet waarom dat gy my dit bericht komt geeven,</l>
+						<l>Aan my, die nooit dit sloeg in twyfel van myn leeven.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Zo gy hier nooit had aan getwyfelt, waart gy nu</l>
+						<l>Met Metrobates, noch met Zeno hier.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Ik gruw</l>
+						<l>Aan hen te denken. 'k Had hardnekkig voorgenoomen</l>
+						<l>Te zwygen, en dit nooit in 't licht te laaten koomen;</l>
+						<l>Maar gy, gy dwingt my zelf dat ik hen spreeken laat'.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>De waarheid, dwingt hem meer, in weêrwil van den haat,</l>
+						<l>Dan al uw giften doen. Dit volk, zo laag gebooren,</l>
+						<l>Past op beloften noch op woord, hoe dier gezwooren.</l>
+
+						<l>Zy klappen beide meer dan hen is voorgeleerd.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Het moeit me om u; maar gy hebt zelf dit zo begeert.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>'k Begeer dit toch, en 't moeit my niet, dan om de vlekken,</l>
+						<l>Waar meê ge uw glans bezwalkt; wyl ze u een naam verwekken,</l>
+						<l>By al de eertytelen, die gy voerde onbenyd,</l>
+						<l>Dat ge een Omkooper van twee valsche Schelmen zyt,</l>
+						<l>Gelyk de pest gehaat.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Gy schynt te willen toonen,</l>
+						<l>Als of ik hen had omgekocht, om u te hoonen.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Gy hebt hier van de schande, en ik de moeite alleen.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Gy tracht hen slechts hier meê verdacht te maaken.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Neen,</l>
+						<l>Ik hou me aan 't geen dat zy den Koning overdroegen.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Wat hebben zy gezegt, dat u zo kan vernoegen,</l>
+						<l>En gy gelooven wil?</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Twee waare woorden, Heer,</l>
+						<l>Welke u opvoeren tot den grootsten trap van eer.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Gy dient my het geheim dier woorden uit te leggen.</l>
+					</sp>
+					<sp who="#araspes">
+						<speaker>Araspes.</speaker>
+						<l>Maar, Heer, de Koning wacht naar u.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Die zal 't u zeggen;</l>
+						<l>Hy wacht te lang.</l>
+
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>'k Begin u te verstaan: Zyn hart,</l>
+						<l>In slaafsche liefde tot zyn Gemaalin verward,</l>
+						<l>Zal die van zynen Zoon versmooren en verzaaken;</l>
+						<l>My straffenswaardig, u geheel onnoozel maaken.</l>
+						<l>Maar . . . .</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Maar volëind, wat meent gy met dit maar?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Mevrouw,</l>
+						<l>Twee waare woorden, die my sterken in myn trouw.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Gy moet my het geheim dier woorden laaten hooren?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>De Koning zal die haast ontdekken aan uwe ooren.</l>
+						<l>Ik wacht te lang.</l>
+					</sp>
+				</div>
+				<div n="8" type="scene">
+					<head>Achtste tooneel.</head>
+					<stage>Arsinoë, Attalus.</stage>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>De zege is ons geheel, myn Zoon,</l>
+						<l>En Nicomedes krygt zyn welverdienden loon</l>
+						<l>In d'uitslag van het kwaad, tot myn bederf gebrouwen.</l>
+						<l>De Aanklaagers, die hy dorst deeze euveldaad betrouwen,</l>
+						<l>Waar door hy voorgeeft, als of ik hen omgekocht</l>
+						<l>Zou hebben tot zyn moord, doch zelf heeft aangezocht,</l>
+						<l>Met giften, om my met dien gruwel te betichten,</l>
+						<l>Zag ik, door knaaging, voor de waarheid eindlyk zwichten.</l>
+						<l>Zy hebben beide my beschuldigt; beide weêr</l>
+						<l>Bekent dat zy hier toe, tot kwetsing van myne eer,</l>
+						<l>Verleid zyn van die Prins. Hoe haast staat ook de loogen</l>
+						<l>Verbaast, de waarheid met een edeler vermoogen</l>
+
+						<l>Te voorschyn koomende, daar 't licht der Majesteit</l>
+						<l>Hen beide ontdekt, en van elkander onderscheid!</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>'k Zie deeze lasterbui, met vreugd, van u verdwynen,</l>
+						<l>En, door die wolken heen, uw luister schooner schynen.</l>
+						<l>Maar om dit met meer vrucht te aanschouwen, indien gy</l>
+						<l>Van onverschillendheid ontslaagen zyt en vry,</l>
+						<l>Zo kunt gy geen geloof aan die twee Schelmen geeven,</l>
+						<l>Welke eerst bekennen, dat gy hen hebt aangedreeven</l>
+						<l>Tot 's Prinsen moord; dan weêr, dat zy zyn omgekocht</l>
+						<l>Van hem, als of hy u hier meê te last'ren zocht.</l>
+						<l>Kunt gy gelooven, dat zo veel beroemde daaden,</l>
+						<l>Zo veel verwinningen en schoone lauwerblaaden</l>
+						<l>Wel konnen zyn besmet door hen, zo boos van aart?</l>
+						<l>Een die bekent dat hy verraad en loogens baart,</l>
+						<l>Heeft nooit geloof.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Ik zie uw edelmoedigheden,</l>
+						<l>Voor 's Medeminnaars eer, zelfs in het strydperk treeden.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Mevrouw, indien ik al zyn medeminaar ben,</l>
+						<l>'k Ben ook zyn Broeder, die een bloed met hem erken;</l>
+						<l>Waarom ik hem niet als een last'raar kan aanschouwen.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Kunt gy my eêr dan oor een Moordenaarster houwen,</l>
+						<l>Die, door 't betichten, liep veel meer gevaar dan hy?</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Indien ik hem hou van dien snooden laster vry,</l>
+						<l>Ik zal 'noch minder, als men u beticht, gelooven:</l>
+						<l>Uw deugd, Mevrouw, streeft alle misdaad ver te boven.</l>
+						<l>Gun my dan, dat ik heb wat achting voor zyn daân.</l>
+						<l>Men ziet zyn deugd aan 't hof met nydige oogen aan,</l>
+
+						<l>Die om zo eed'le ziel in het verderf te brengen,</l>
+						<l>Zo stout zelfs zyn van uw gezagh daar in te mengen.</l>
+						<l>Dien vuilen laster heeft alleen de Nyd gebaart,</l>
+						<l>Om zyne glory, die zo zuiver is van aart,</l>
+						<l>Te smetten: maar zo ik hem mag, naar myn gedachten,</l>
+						<l>Oordeelen, moet ik hem van myn gevoelen achten.</l>
+						<l>'k Gebruik, op zulk een groot en edelmoedig Held,</l>
+						<l>Myn Medeminnaar, niets dan openbaar geweld:</l>
+						<l>Ja, zonder dat ik tracht hem, of zyn roem, te deeren,</l>
+						<l>Zoek ik wel hulp, maar geen' waar door 'k my zoude ontëeren;</l>
+						<l>Vertrouwende, dat hy een hart, als 't myne heeft,</l>
+						<l>Dat geenszins minder met my edelmoedig leeft,</l>
+						<l>En niets, 't geen hem zyn eer kan kwetsen, zal beginnen,</l>
+						<l>Om my alleen, met zyn verdiensten, te overwinnen.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Gy kent de waereld, noch den grond van 't Hof geenszins.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Hoe! moet men anders zyn een Minnaar dan 't een' Prins</l>
+						<l>Betaamt?</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Gy mint, myn Zoon, 't is waar: doch 'k hoor u spreeken,</l>
+						<l>Gelyk een Jong'ling.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Wat myn jaaren mag ontbreeken,</l>
+						<l>Ik heb te Romen niets zien oeff'nen, dan de deugd.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>De tyd, door 't oeffenen van ampten, leere uw jeugd</l>
+						<l>De deugden van het Hof. Doch is de Prins uw Broeder,</l>
+						<l>Zo denk, zo denk, myn Zoon, dat ik ook ben uw Moeder.</l>
+						<l>Laat ons, in weêrwil van uw achterdenken, gaan</l>
+						<l>Den Koning vinden, om zyn meening te verstaan.</l>
+					</sp>
+					<p>Einde van het Darde Bedryf.</p>
+				</div>
+			</div>
+			<div n="4" type="act">
+
+				<head>Vierde bedryf.</head>
+				<div n="1" type="scene">
+					<head>Eerste tooneel.</head>
+					<stage>Prusias, Arsinoë, Araspes.</stage>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Lei Nicomedes hier. Mevrouw, betoom uw lyden,</l>
+						<l>Helaas! uw zuchten zyn 't die my de ziel doorsnyden.</l>
+						<l>Waarom myn hart met zo veel droefheid overheerd,</l>
+						<l>'t Welk, zonder dat gy schreit, u geeft wat gy begeert?</l>
+						<l>Waarom my dus bestormd, met traanen en met smeeken?</l>
+						<l>My is zyn schuld, en uw onnoozelheid gebleeken.</l>
+						<l>Ziet gy niet hoe myn hart, van 't geen hy heeft gezeid,</l>
+						<l>Geen indruk voelt, noch word door valschen waan misleid.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Ach! is 't wel moog'lyk om den laster te verdryven,</l>
+						<l>Die 't snood bedrog zo loos de onnooz'len aan kan wryven?</l>
+						<l>Men zag de loogen, van de waarheid, nooit zo zeer</l>
+						<l>Ontdekt, dat zy de deugd herstelde in voorige eer.</l>
+						<l>Hoe veel aanhangers van den Prins, en lasteraaren</l>
+						<l>Zyn aan uw hof, die, als zy hooren my bezwaaren</l>
+						<l>Met loogens, zullen straks gelooven, dat uw min.</l>
+						<l>Alleen rechtvaardige een strafwaarde Gemaalin!</l>
+						<l>En zo myn naam maar zal de minste vlek behouwen,</l>
+						<l>'t Gemeen myn eer en deugd blyft eenigzins mistrouwen,</l>
+						<l>Kan ik u dan wel zyn zo aangenaam? ô Neen!</l>
+						<l>Dunkt u dan dat die vrees niet waard is dat ik ween?</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Ach! gy vreest al te licht, in uw ontroerde zinnen,</l>
+						<l>Voor een Gemaal, die u bemint, en moet beminnen.</l>
+						<l>De deugd blinkt, door den damp van laster, met meer glans;</l>
+
+						<l>Gelyk het daglicht, na den nacht, aan 's hemels trans.</l>
+						<l>'k Zie Nicomedes daar verschynen. 'k Wil op heden . . . .</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>Tweede tooneel.</head>
+					<stage>Prusias, Arsinoë, Nicomedes, Araspes, Lyfwacht.</stage>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Genade, ô Vorst! ach! geef genade, op myn gebeden,</l>
+						<l>Aan dees ons eenigsten Beschermer: geef genaâ</l>
+						<l>Aan dien doorluchtingen Verwinnaar: slaa, ei! slaa</l>
+						<l>Op hem, op hem, myn Heer, uw medelydende oogen.</l>
+						<l>Genaâ!</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Waar toe? Om dat ik won, door myn vermoogen,</l>
+						<l>Drie Scepters, die my, voor den nyd van uwen Zoon,</l>
+						<l>Gevaar doen loopen? Of zal die my zyn tot loon,</l>
+						<l>Om dat ik Asië deê voor uw wapens vreezen,</l>
+						<l>Waar door een schroom zelfs in uw Romen is gereezen,</l>
+						<l>Gebelgd, om dat myn arm handhaaft de Majesteit</l>
+						<l>Der Koningen? Of is 't om dat myn dapperheid</l>
+						<l>Uw hof vervult heeft met de glory van myn daaden,</l>
+						<l>En my van Hannibals grondregels laaten raaden?</l>
+						<l>Doch, zo 'k genade moet verzoeken, 'k bid u, trekt</l>
+						<l>Hier uit myn schuld: 'k heb al myn misdaân u ontdekt,</l>
+						<l>En voegt gy noch hier by, dat ik te licht myn zinnen</l>
+						<l>Liet van twee Schelmen, daar toe omgekocht verwinnen;</l>
+						<l>Dat sproot uit de eed'le deugd van openhartigheid,</l>
+						<l>Die al te oprecht was, om te zien hoe 'k wierd misleid.</l>
+						<l>Dit kan my niet tot schand', maar eer, zyn aangewreeven,</l>
+						<l>Gewoon in 't leger, en ver van uw hof te leeven;</l>
+						<l>My, die alleen my op myn eigen deugd verlaat,</l>
+						<l>Geen knaaging hebbende, noch vrees voor 't boos verraad.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>'k Herroep, myn Heer, al 't geen dat ik u kwam te ontdekken.</l>
+
+						<l>Hy 's niet strafschuldig, zo hy zocht myn eer te vlekken:</l>
+						<l>Hy volgde blindeling, den haat, die in 't gemeen</l>
+						<l>Het hart van zyns gelyk ophitste, tegen reên,</l>
+						<l>Om een Stiefmoeder te verdelgen: ingenoomen</l>
+						<l>Met zulk een afkeer, wil hy op myn hoofd doen koomen</l>
+						<l>De straf van zyn misdryf. Indien dat Hannibal,</l>
+						<l>Op een gewaande vrees, bevordert zelf zyn val,</l>
+						<l>Zich liever willende aan zyn wanhoop overgeeven,</l>
+						<l>Dan op ons gastvryrecht betrouwen; en zyn leeven</l>
+						<l>Verwoed verkort, is door myn toedoen dit geschied.</l>
+						<l>Wat schoonheid dat hy zelf in Laodise ziet,</l>
+						<l>Ik ben 't, die Attalus haar ook zo schoon deed vinden,</l>
+						<l>En die gantsch Romen tot zyn bystand kan verbinden:</l>
+						<l>Myn hand doet alles. Doch, indien hy hier door tracht</l>
+						<l>Te wreeken 's Meesters dood, en zyn Meestres met kracht</l>
+						<l>Voor hem te houden, van zyn minnenyd bewoogen,</l>
+						<l>Verschoont men 't licht; te meer, wyl my zyn driftig poogen</l>
+						<l>In 't minst niet deert, en dat myn schuld alleen hier in</l>
+						<l>Bestaat, dat ik ben uw geliefde Gemaalin.</l>
+						<l>Die naam maakt dat hy my vervolgt met zo veel laagen:</l>
+						<l>'k Weet, buiten dit niets, daar hy zich van kan beklaagen.</l>
+						<l>Heb ik niet in die vyf paar jaaren, dat hy heeft</l>
+						<l>Als Opperveldheer 't heir bestiert, alleen geleeft,</l>
+						<l>Om zyn doorluchten naam alom te laaten hooren?</l>
+						<l>En als hy, en zyn eer, scheen zekerlyk verlooren,</l>
+						<l>Door het vertoeven van de hulp, hem toegezeid,</l>
+						<l>Wie was aan 't Hof, die meer met yver en beleid,</l>
+						<l>Dan ik, u preste, om geld en krygsvolk hem te zenden?</l>
+						<l>Gy weet het; en, tot loon dat ik, in zyn elenden,</l>
+						<l>Hem diende zo getrouw, kwetste hy my in myne eer.</l>
+						<l>Maar men verschoont heel licht dit in een Minnaar, Heer,</l>
+						<l>Gelyk ik meermaals u voor oogen kwam te leggen.</l>
+
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Ondankb're, spreek: hebt gy hier tegen iets te zeggen?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Ja, dat de goedheid en de gunst der Koningin</l>
+						<l>My maakt verwonderd en verbaast van hart en zin.</l>
+						<l>'k Zwyg van de hulp, daar zy van spreekt, aan my gegeeven,</l>
+						<l>Waar door dat ik behield my vryheid, eer en leeven:</l>
+						<l>En 't geen zy zet zo hoog in top, heeft anders geen</l>
+						<l>Belang gehad, dan slechts om, door myn arm, alleen</l>
+						<l>Haar zoon, Prins Attalus, in top van staat te trekken.</l>
+						<l>Men kan heel licht hier uit, wat zy beöogde, ontdekken,</l>
+						<l>En van wat geest dat zy beheerscht word, tot myn leed.</l>
+						<l>Ik laat den Hemel, welke al haar gedachten weet,</l>
+						<l>Hier van oordeelen, die de wenschen en gebeden,</l>
+						<l>Waar meê dat zy voor myn belangen heeft gestreeden,</l>
+						<l>Best kent: Hy zal aan haar ook recht doen, en wil licht</l>
+						<l>Ons beide, en oop'nen uw benevelde gezicht.</l>
+						<l>Doch, nu de Koningin uw gunst voor my komt smeeken,</l>
+						<l>Zo dien ik, op myn beurt, ook wel voor haar te spreeken,</l>
+						<l>En u te erinneren dat gy, tot haare smaad,</l>
+						<l>Twee Schelmen ongestraft te lang in 't leeven laat.</l>
+						<l>Men breng' die beiden straks ter dood. Deeze offerhande</l>
+						<l>Verwacht haar eer van u, tot zuiv'ring van haar schande.</l>
+						<l>Zy hebben beiden haar beticht, en zo zy 't weêr</l>
+						<l>Herroepen hebben, tot haar onschuld, 't was de eer</l>
+						<l>Te kwetsten van uw Zoon. Maar niets kan hen bevryden:</l>
+						<l>Zy zullen hunnen dood niet onrechtvaardig lyden.</l>
+						<l>De smaad en hoon, die de eer van ons gelyken voelt,</l>
+						<l>Eischt bloed, waar in men 't vuur van eed'le gramschap koelt.</l>
+						<l>Het helpt hen niet dat zy 't bedrog ten halze inhaalen:</l>
+						<l>Een zwaare dood moet hun verraadery betaalen,</l>
+						<l>Of 't Vorstelyk Geslacht word steeds ten doel gestelt</l>
+						<l>Van zulke Schelmen, en hun openbaar geweld;</l>
+
+						<l>En onze leevens in de waagschaal van hun loogen,</l>
+						<l>Zo gy die Lasteraars wilt ongestraft gedoogen.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Myn Heer, wat 's dit? Hoe! hen te straffen, om dat zy</l>
+						<l>Me ontschuldigen, en u de snoô verraadery,</l>
+						<l>Die Nicomedes op myn eer had en myn leeven,</l>
+						<l>Ontdekken, en aan u een Gemaalin weêr geeven,</l>
+						<l>My hoedende in 't gevaar, en u van dat gy niet</l>
+						<l>Een vonnis velde tegen my, tot uw verdriet?</l>
+
+						<l>Is niet zo listig om te ontveinzen uw gedachten.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias, tegen Nicomedes.</speaker>
+						<l>Laat Metrobates hier onäangeroerd, en zoek</l>
+						<l>Uw naam te zuiv'ren van die schandvlek, waard elks vloek.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Vorst, zoude ik hier myn naam van zuiv'ren? Heeft dit reden?</l>
+						<l>Gy weet, als iemand, van myn staat, heeft overtreeden,</l>
+						<l>Dat hy veel trotser word, en aan een gruw'lyk kwaad</l>
+						<l>Zich schuldig kennen moet, zo hy zich hier in laat</l>
+						<l>Geleiden tot dien pligt, of tracht zyn staat en leeven</l>
+						<l>In de armen van 't gezagh te bergen. 't Volk te geeven</l>
+						<l>Verlichting, 't heir tot hulp te voeren der Vorstin,</l>
+						<l>Die van u word verdrukt; en haar, ten spyt der min</l>
+						<l>Van Attalus, 't geweld der Roomsche dwingelanden,</l>
+						<l>En uwe moogendheid, te rukken uit uw handen;</l>
+						<l>Met kracht van wapens te veröveren uw Staat,</l>
+						<l>En al 't Romeinsch geweld, daar gy u op verlaat;</l>
+						<l>Ja, u, alleen niet met uw heir, maar met de benden</l>
+						<l>Van gantsch Armenië te vallen in de lenden,</l>
+						<l>Kon zulk een man, gelyk als ik ben, licht bestaan,</l>
+						<l>Zo hy wou trouw'loos eer en pligt te buiten gaan.</l>
+						<l>Neen, neen, deeze euveldaân zyn anders niet gebooren</l>
+						<l>Dan in lafhartigen, welke alle schaamt' verlooren;</l>
+
+						<l>Meest vallende ten deel aan 't vrouwelyk geslacht.</l>
+						<l>Straf Metrobates dan en Zeno, door uw magt,</l>
+						<l>Om uwe Gemaalin, of my. 't Gemoed, verbeeten</l>
+						<l>Van naberouw snik des leevens. Als men staat</l>
+						<l>Om reek'ning aan de Goôn te geeven van het kwaad,</l>
+						<l>Dan zal men voor 't gezagh der menschen niet meer schroomen:</l>
+						<l>Want deze Schelmen, als zy zien haar eind' gekoomen,</l>
+						<l>Herroepen licht noch eens 't getuigde.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Maar, myn Heer. . . .</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Spreek, spreek, Mevrouw; en zeg, wat reden vond gy weêr,</l>
+						<l>Om hen van straf, die zy verdienden, te verschoonen?</l>
+						<l>Of laat ten minsten toe dat we uw gedachten toonen.</l>
+						<l>Gy zyt bevreesd of zy, in 't nypen van den nood,</l>
+						<l>Door wroeging, mogten iets ontdekken, voor hun dood,</l>
+						<l>Dat u beschaamen zou.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Nu ziet gy, voor uwe oogen,</l>
+						<l>Hoe fel de haat is, die zyn hart heeft ingezoogen.</l>
+						<l>Als ik hem tracht by u te ontschuldigen, zo maakt</l>
+						<l>Hy my misdaadig, daar zyn drift zyn pligt verzaakt.</l>
+						<l>Licht dat myn byzyn hem verbittert, en zyn zinnen,</l>
+						<l>In myn afwezen, door de rust, op nieuw herwinnen</l>
+						<l>De reden, die hem voor een tweede schuld bevry'.</l>
+						<l>Ik eisch geenszins van u dat gy me, uit medely,</l>
+						<l>Een Kroon geeft, om die aan een ander op te draagen,</l>
+						<l>Noch dat ge, om Attalus te hoeden voor zyn laagen,</l>
+						<l>Uw Staaten onder hen verdeelt. ô Neen! indien</l>
+						<l>Dat Romen liet hier voor te grooten yver zien,</l>
+						<l>'t Is alles buiten my geschied: 'k heb niets van nooden.</l>
+						<l>Ik kan geen grooter straf ontfangen van de Goden,</l>
+
+						<l>Dan dat ik u niet zou navolgen in de dood,</l>
+						<l>Zo dra u in myn arm de laatste snik ontschoot.</l>
+						<l>Neen, de eerste zuchten op uw grafzerk zullen baanen</l>
+						<l>Een weg, waar langs ik stort myn bloed met myne traanen.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Helaas, Mevrouw!</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Ja, Heer, dat droevig oogenblik,</l>
+						<l>Waar op gy, aan myn mond, geeft d'allerlaatsten snik,</l>
+						<l>Zal ook met een myn lot besluiten, zonder vreezen.</l>
+						<l>En, weetende dat hy myn Koning niet zal wezen,</l>
+						<l>Wat heb ik hem dan ook te schroomen? Wat voor kwaad,</l>
+						<l>Wat schade kan hy my dan doen, in deezen staat?</l>
+						<l>En al de gunst, die ik hier voor tacht weg te draagen,</l>
+						<l>Is dat gy onzen Zoon, die hem reeds kan mishaagen,</l>
+						<l>Te Romen, daar gy hebt de opvoeding van zyn jeugd</l>
+						<l>Vertrouwt, laat eindigen zyn tyd: dat daar zyn deugd</l>
+						<l>Zy veilig, slytende zyn leeven zonder Staaten.</l>
+						<l>Deeze eed'le Held, die nooit zyn krygsdeugd zal verlaaten,</l>
+						<l>Dient u, myn Heer, en zal 't noch meer doen, als hy ziet</l>
+						<l>Dat niets hem staat in 't licht naar 't opperste gebied;</l>
+						<l>Als hy niet meerder der Romeinen hoeft te schroomen:</l>
+						<l>En zo die eenmaal hem, uit wraak, op mogten koomen,</l>
+						<l>Hy 's dubbeld tegens hen gewapend, weetende al</l>
+						<l>De krygslist van den groote en dapp'ren Hannibal,</l>
+						<l>Die 't Romen heeft gemaakt zo bang, met oorelogen,</l>
+						<l>Dat Afrika noch ziet, met Azië, voor oogen,</l>
+						<l>'t Nut dat Antiochus,en gantsch Karthaage won</l>
+						<l>Van zyn beleid en moed, die 't al verwond'ren kon.</l>
+						<l>'k Vertrek dan, laatende u in vryheid, op dat heden</l>
+						<l>Natuur, die al te lang heeft met uw hart gestreeden,</l>
+						<l>Uw gunst opwekke. Ik wil niet langer dat myn eer</l>
+						<l>Werd van een Prins, dien ik op 't alderhoogst waardeer,</l>
+
+						<l>Gehoont in uw gezicht; noch reden zyn gegeeven,</l>
+						<l>Om uwe gramschap op te wekken tegen 't leeven</l>
+						<l>Van zulk een waarden Zoon.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>Darde tooneel.</head>
+					<stage>Prusias, Nicomedes, Araspes, Lyfwacht.</stage>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Prins, 'k zeg dat my mishaagt</l>
+						<l>Al die verwarring, daar alreeds myn Hof van waagt.</l>
+						<l>Maar, wat ge ook moogt bestaan, gy zult nooit lafheid toonen;</l>
+						<l>Doch laat ons Romen wat meer vleijen, minder hoonen,</l>
+						<l>En stellen 't harte der Vorstin, het welk u vreest,</l>
+						<l>Gerust. Ik voel voor u, en haar, in mynen geest,</l>
+						<l>Een tederheid: ik kan uw haat niet meer gedoogen,</l>
+						<l>Die my doet kwynen, en noch zwaarder stelt voor oogen.</l>
+						<l>'k Wil weêr bevredigen de liefde met natuur,</l>
+						<l>Ja, Vader en Gemaal gelyk zyn, op dit uur.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Gy moet, wilt ge u op my betrouwen, buiten vreezen,</l>
+						<l>Het een, noch 't ander zyn.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Hoe! wat moet ik dan wezen?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Een Koning, Heer. Neem, neem dees eed'len eernaam weêr.</l>
+						<l>Ja, een recht Koning is Gemaal noch Vader meer;</l>
+						<l>Hy neemt zyn troon alleen in acht. Regeer, en Romen</l>
+						<l>Zal voor uw magt veel meer, dan gy voor haare schroomen.</l>
+						<l>Gy ziet, ten trots van der Romeinen magt en haat,</l>
+						<l>Hoe zy my vreezen; dat ze, in heerschzucht nooit verzaad,</l>
+						<l>Op hoop van voordeel, slechts myn ondergang begeeren?</l>
+						<l>Want zy voorzien dat ik zal weeten te regeeren.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>'k Regeer dan naar uw wil, Vermeetele, op myn beurt.</l>
+
+						<l>'k Wil dat gy Laodise, of myn vier Kroonen keurt.</l>
+						<l>Uw Koning heeft het dus verdeelt, naar zyn behaagen,</l>
+						<l>Voor u en Attalus, waar naar ge u hebt te draagen.</l>
+						<l>'k Ben niet meer Vader, maar uw Koning: toon uw pligt.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Zo gy meê Koning waart van Laodise, licht</l>
+						<l>Verzocht ik tyd, om op die keur my te beraaden.</l>
+						<l>Maar om uw gunst, en niet uw toorn, op my te laaden,</l>
+						<l>Zal ik myn pligt, op uw bevel, voldoen; indien</l>
+						<l>Juist naar uw woorden niet, het zal nochtans geschiên</l>
+						<l>Naar 't doelwit van uw hart: 'k Zal aan myn Broeder laaten</l>
+						<l>Al 't ongeschonden recht, dat ik heb op uw Staaten.</l>
+						<l>Laat Laodise zelf verkiezen, hem, of my.</l>
+						<l>Dit is myn keur.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>O schand'! wat drift, wat raazerny</l>
+						<l>Verblind zo spooreloos uw zinnen en gedachten,</l>
+						<l>Dat ge, om een Vrouw, zult uw Voorvaders troon verachten,</l>
+						<l>Die zelfs de prys is van uw daân, alom vermaard?</l>
+						<l>Zyt gy, na zulk een keur, het leeven wel meer waard,</l>
+						<l>Lafhartige?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Is het kwaad uw voorbeeld na te streeven?</l>
+						<l>Stelt gy een vrouw niet voor uw Zoon, dien gy wel 't leeven,</l>
+						<l>Maar hy aan uwen Staat drie ryke Kroonen gaf?</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Staa ik om haar wel van myn Kroon en Staaten af?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Staa ik om Laodise ook 't recht af van regeeren;</l>
+						<l>Wat geeve ik over, dat zo hoog is te waardeeren,</l>
+						<l>Als ik myn Broeder 't recht tot uw Kroon opdraag?</l>
+						<l>Kan ik dit poogen voor uw sterven? Vorst, 't mishaag'</l>
+						<l>U niet, dit droevig woord! 't Ontstelt my; doch de smarte</l>
+
+						<l>Des doods, die elk bestormt, treft ook een Konings harte.</l>
+						<l>Zo dan uw volk heeft, na uw dood, een Vorst van noôn,</l>
+						<l>'t Zal, tusschen Attalus en my, dan 't recht der Kroon</l>
+						<l>Betwisten kunnen: en, myn Heer, wy evenaaren</l>
+						<l>Elkaâr zo zeer niet, dat dit zou verdeeldheid baaren,</l>
+						<l>Noch licht verëischen, om te zien ons onderscheid:</l>
+						<l>En 't eerst-geboorterecht heeft een rechtvaardigheid,</l>
+						<l>'t Welk zelfs een Balling roept om op den troon te treeden.</l>
+						<l>En zo het Volk hier in niet eens was, tegen reden,</l>
+						<l>Geen nood: 'k dwong and'ren wel te buigen, en ik zal</l>
+						<l>Schoon uw Romeinen my noch meer, in dit geval,</l>
+						<l>Hun haat betoonden, voor my zelf doen, dat ik waagen</l>
+						<l>En dorst voor u bestaan.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Ik zal daar zorg voor draagen.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Dat vry de Roomsche list u maak' zo zeer verwoed,</l>
+						<l>Tot dat ge opöffert, aan haar wraak, uw eigen bloed:</l>
+						<l>Of anders, zo ge opdraagt aan Attalus uw Landen,</l>
+						<l>'k Laat hem den scepter, tot uw dood alleen, in handen.</l>
+						<l>Ik hou dit niet geheim: neen, 'k maak 't u zelf bewust,</l>
+						<l>Op dat zyn hart hier in zich stellen mag gerust.</l>
+						<l>Daar is hy, en hy heeft myn rede kunnen hooren.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>'t Is wel, Vermeetele, 'k zal, zonder in myn tooren</l>
+						<l>Myn bloed op te off'ren, hem wel op den troon doen treên.</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>Vierde tooneel.</head>
+					<stage>Prusias, Nicomedes, Attalus, Flaminius, Araspes, Lyfwacht.</stage>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Myn Heer, indien ge om my hebt deeze moeilykheên</l>
+
+						<l>'k Stoor my niet aan den hoon, dien 'k heb van hem gekreegen:</l>
+						<l>En zo de Raad al zyn bedryf mogt zwaarder weegen,</l>
+						<l>'k Heb vrienden daar, die 't licht verschoonen.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>'k Zal den Raad</l>
+						<l>Voldoening geeven, en op morgen vroeg myn Staat</l>
+						<l>En Kroon aan Attalus: hy zal in 't purper blaaken,</l>
+						<l>Ja, zien zich Koning van 't beroemde Pontus maaken,</l>
+						<l>En d' eenigst' Erfgenaam van al wat ik bezit.</l>
+						<l>Wat deezen Trotse aangaat, in zyn misdryf verhit,</l>
+						<l>'k Laat Romen, tusschen u en hem, het vonnis stryken,</l>
+						<l>Na dat de hoon, die hy u aandeê, haar zal blyken.</l>
+						<l>Hy zal, voor Attalus, met u, als Gys'laar, gaan.</l>
+						<l>En, op dat hy myn wil niet meer zal tegenstaan,</l>
+						<l>Stelle ik hem in uw magt, die gy hem moogt betoonen,</l>
+						<l>Als hy, ten trots van hem, zyn Broeder heeft zien kroonen.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Hoe! my naar Romen toe te zenden?</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Daar zult ge eêr</l>
+						<l>Recht krygen. Ga, eisch daar uw Laodise weêr.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>'t Is wel, ik zal daar heen, nu gy 't begeert, vertrekken:</l>
+						<l>Maar myn gebied zal daar ver boven 't uwe strekken.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Gantsch Romen kent uw deugd, en bid u aan.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Maar wacht,</l>
+						<l>Flaminius, ik ben noch derwaarts niet gebragt:</l>
+						<l>'t Spoor is onzeker; en, om 't niet al op te haalen,</l>
+						<l>Die my daar heene zou geleiden mogt licht dwaalen.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Araspes, breng hem weg: versterkt zyn wacht.</l>
+
+						<stage>Tegen Attalus.</stage>
+						<l>En gy,</l>
+						<l>Betoon u dankbaar aan de Roomsche heerschappy.</l>
+						<l>Uw magt en glory word alleen uit haar gebooren,</l>
+						<l>En, zonder deeze hulp, waart gy geheel verlooren.</l>
+						<stage>Tegen Flaminius.</stage>
+						<l>Myn Heer, verschoon me, indien gy uit myne oogen leest</l>
+						<l>Een droefheid: 'k voel my om de Koningin bevreesd,</l>
+						<l>Door de ongenucht die haar ontstelt: 'k ga die verdryven</l>
+						<l>Uit haar benaausd gemoed, en laat hem by u blyven.</l>
+						<stage>Tegen Attalus.</stage>
+						<l>Noch eens, Prins, 'k wil dat ge uw Beschermer dankt.</l>
+					</sp>
+				</div>
+				<div n="5" type="scene">
+					<head>Vyfde tooneel.</head>
+					<stage>Flaminius, Attalus.</stage>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Myn Heer,</l>
+						<l>Wat zeg ik? ziende my in zulk een top van eer,</l>
+						<l>Die zelfs de hoop streeft van de dappersten te boven,</l>
+						<l>Meer gunst genietende als ge aan my ooit dorst belooven,</l>
+						<l>En ik u eischte. Maar 'k voel echter, wie 't ook wraakt,</l>
+						<l>Dat my myn Vaders troon geenszins gelukkig maakt:</l>
+						<l>En 't geen myn zinnen streelt, en 't hart tot vreugd kan noopen,</l>
+						<l>Is dat ik veilig mag op Laodise hoopen.</l>
+						<l>De koninglyke staat maakt my haar gaaven waard.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Haar hart is moog'lyk met uw wenschen niet gepaard.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Gelyke staat verbind de harten dikwils nader:</l>
+						<l>Ook is dit het bevel van haaren veegen Vader;</l>
+						<l>En, naar zy zelf verklaart, zo moet de Koningin</l>
+						<l>Van 't ryk Armenië, door 't lot, zyn Gemaalin</l>
+						<l>Van hem, op welkers hoofd myn Vaders kroon moet koomen.</l>
+
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Die wet behoeft van haar niet waar te zyn genomen.</l>
+						<l>Zy is een Koningin, en doet dat haar behaagt.</l>
+						<l>Hoe! zal ze u minnen, om een Rykskroon die gy draagt,</l>
+						<l>Ten koste van een Prins, die diep staat in haar harte?</l>
+						<l>U, die haar deezen Held ontrukt, en van zyn smarte</l>
+						<l>Zyt de eenigste oorzaak?</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Maar, wat magt behoud haar wil</l>
+						<l>Na 't weggaan van dien Prins? Wie zal, in haar geschil,</l>
+						<l>Zich mengen tegen ons, en Romen? 'k Mag my vleijen</l>
+						<l>Met uwen bystand.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Daar kost ge u wel in misleijen.</l>
+						<l>De dingen kunnen licht verand'ren: 'k wil 't u niet</l>
+						<l>Verzeek'ren.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Hoe! wat schand', wat schaamte, wat verdriet</l>
+						<l>Waar dit voor my? Ik zou veel meer zyn te beklaagen,</l>
+						<l>Als Koning, zo 'k de kroon met uwen haat moest draagen.</l>
+						<l>Maar, neen, 'k vrees al te licht, 'k weet Romen is geenszins</l>
+						<l>Zo wankelbaar. Hebt gy geen last?</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Ja, voor den Prins,</l>
+						<l>Die van zyn eerste jeugd is opgevoed te Romen,</l>
+						<l>Maar voor den Vorst, die 't Ryk van Pontus heeft bekoomen,</l>
+						<l>Verwacht ik nieuwen last.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Verwacht gy nieuwen last?</l>
+						<l>Kan 't moog'lyk zyn? Is dit, is dit dat Romen past?</l>
+						<l>Hun trouwen Voedsterzoon zo licht met nydige oogen</l>
+						<l>Te aanschouwen, daar 't eerst ziet opgroeijen zyn vermoogen?</l>
+
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Maar wat vermoed gy door de drift die u misleid?</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Gy leert my zelf hoe ik de wispeltuurigheid</l>
+						<l>Van de Romeinen moet verstaan, om hen te vreezen.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Ik zal ze u doen verstaan, en wil u wel geneezen</l>
+						<l>Van deeze dwaaling, daar gy schynt in voort te gaan.</l>
+						<l>Prins, Romen heeft voor u al wat het kon gedaan</l>
+						<l>By Laodise; en zo 't haar troon u deed bekleeden,</l>
+						<l>'t Verrichtte een euveldaad vol onrechtvaardigheden,</l>
+						<l>Zyn oorsprong neemende uit de gunst die 't u betoont.</l>
+						<l>Maar nu 't aanschouwt uw hoofd door eed'ler weg gekroond,</l>
+						<l>Bewaart het zynen roem, zo hoog in top gesteegen,</l>
+						<l>Zich zelf ontslaande van geweld hier in te pleegen.</l>
+						<l>Laat dan de Koningin haar vryheid; keer uw zin</l>
+						<l>Dan elders. Romen kiez' voor u een Gemaalin.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Maar zo 'k haar eind'lyk kon tot wedermin verpligten?</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Men zou den Roomschen Raad hier echter meê betichten,</l>
+						<l>Als of dit door zyn list geschied ware of geweld:</l>
+						<l>Dit Huw'lyk krenkte de eer van Romen. Beter stelt</l>
+						<l>Gy 't uit uw zin, indien gy mynen raad wilt achten;</l>
+						<l>Of heeft die op uw hart geen kracht, zo moogt gy wachten</l>
+						<l>'t Goeddunken van den Raad.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Wanneer dat myn gezicht</l>
+						<l>Ziet uw genegenheid tot my verkoeld zo licht,</l>
+						<l>Ontdekt ik al te klaar, dat my de Roomsche Staaten</l>
+						<l>Geenszins beminnen, maar Prins Nicomedes haaten:</l>
+						<l>En als ik wierd gevleid, 't was niet om my (ô neen!)</l>
+						<l>In top te heffen, maar myn Broeder te vertreên.</l>
+
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Om u niet al te bits een antwoord straks te geeven,</l>
+						<l>Op de eerste proef van uw ondankbaar tegenstreeven,</l>
+						<l>Zo volg uw zin: verstoor uw Vrienden: 't staat u vry</l>
+						<l>Als Koning. Maar dewyl ik had gedacht dat gy</l>
+						<l>Nu 't meest erkennen zoud, dat gy alleen door Romen</l>
+						<l>Zyt tot de kroon, en zo veel waardigheid, gekoomen,</l>
+						<l>Die zonder ons niet kan bestaan, hoort gy voor al</l>
+						<l>Te denken op 't bevel uws Vaders, en 't geval.</l>
+					</sp>
+				</div>
+				<div n="6" type="scene">
+					<head>Zesde tooneel.</head>
+					<stage>Attalus.</stage>
+					<sp who="#attalus">
+						<speaker>attalus</speaker>
+						<l>Hoe! Attalus, is 't dus dat uw Voorvaders handen</l>
+						<l>Den scepter zwaaiden? en zult gy nu, tot uw schanden,</l>
+						<l>Den naam van Koning voor u zoeken, daar gy vind</l>
+						<l>Zo veele Meesters die bepaalen uw bewind?</l>
+						<l>Deeze eernaam; tot dien prys, verveelt me, en kan my hoonen.</l>
+						<l>Doch is 't myn lot dat ik aan iemand moet betoonen</l>
+						<l>Gehoorzaamheid, wel aan, 't zy dan aan éénen Heer,</l>
+						<l>Dien my de Hemel gaf; welke, achtende zyne eer,</l>
+						<l>Al te grootmoedig is, te hoog in top gereezen,</l>
+						<l>Om een slagtöffer van den Roomschen haat te wezen.</l>
+						<l>Laat ons hen toonen, dat wy zien tot ons geluk,</l>
+						<l>En 't Ryk verlossen van hun onverdraag'lyk juk;</l>
+						<l>Dewyl ze alleen door hun belangen zyn gedreeven,</l>
+						<l>En uit staatkunde ons een geveinsde vriendschap geeven.</l>
+						<l>Laat ons, op onze beurt, mistrouwen hunnen magt,</l>
+						<l>Voorkoomende hun list en nyd, alom verdacht.</l>
+					</sp>
+					<p>Einde van het Vierde Bedryf.</p>
+				</div>
+			</div>
+			<div n="5" type="act">
+
+				<head>Vyfde bedryf.</head>
+				<div n="1" type="scene">
+					<head>Eerste tooneel.</head>
+					<stage>Arsinoë, Attalus.</stage>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>'k Voorzag dit oproer lang, maar 't kan my niet doen schroomen.</l>
+						<l>Neen, 't zal zo schielyk weêr vergaan als 't is gekoomen;</l>
+						<l>En schoon de nacht het maakt gevaarlyk, 't herlder licht</l>
+						<l>Trekt haast dien nevel op, en yder tot zyn pligt.</l>
+						<l>Maar 't muiten van 't Gemeen kan my zo zeer niet raaken,</l>
+						<l>Als dat ik u moet zien volharden in uw blaaken;</l>
+						<l>Dat ge, al te laf van hart, een min voed, die ik haat,</l>
+						<l>En haar niet kunt versmaân, die u zo trots versmaad.</l>
+						<l>Verlaat de Ondankb're dan, nu dat gy haar vermoogen</l>
+						<l>En staat te boven streeft. Haar troon, en niet haare oogen,</l>
+						<l>Bekoorde uw ziel. Veracht die Trotse, en laat uw hart</l>
+						<l>Met zachter ketens zyn geboeid, en minder smart.</l>
+						<l>Men vind in Asië wel and're Koninginnen.</l>
+						<l>En nu gy Koning zyt, zal yder u beminnen,</l>
+						<l>En licht'lyk u van zelf aanzoeken.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Maar, Mevrouw . . .</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Stel vry dat Laodise al neigde tot uw trouw,</l>
+						<l>Voorziet gy 't kwaad wel dat u hier door zal genaaken?</l>
+						<l>Als ze u heeft Koning van Armenië doen maaken,</l>
+						<l>Zo zal ze u mengen in den haat, dien zy my toont,</l>
+						<l>Maar, ach! ô Goôn! zal zy haar wraak, die niets verschoont,</l>
+						<l>Bepaalen kunnen? gy haar bed wel veilig achten?</l>
+						<l>Zal zy, herhaalende 't voorleed'ne in haar gedachten,</l>
+
+						<l>De moordpook of 't vergif wel spaaren, om met lust</l>
+						<l>Te wreeken 's Minnaars leed, dat stooren zal haar rust?</l>
+						<l>Wat durft een Vrouw toch in haar woede niet voltrekken?</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Dit zyn schynreden, om de rechte te bedekken.</l>
+						<l>'k Weet Romen heeft, wyl 't nooit een magtig Koning lyd,</l>
+						<l>In Nicomedes dien gevreest, en 't vreest, vol nyd,</l>
+						<l>My ook hier in. Ik moet geen Koninginne trouwen,</l>
+						<l>Zo ik de teed're gunst, en vriendschap wil behouwen</l>
+						<l>Dier groote Heerscheres van 't Aardryk. Maar nu 'k weet,</l>
+						<l>Dat ik my zelf, met haar te stooren, brenge in leed,</l>
+						<l>Is 't beter, om bevryd van haar geweld te wezen,</l>
+						<l>Dat ik gehoorzaam, en haar moogendheid leer' vreezen.</l>
+						<l>'k Weet door wat listen zy, met de opperheerschappy</l>
+						<l>Der heele Waereld, zoekt der Vorsten slaaverny.</l>
+						<l>Wat Staat, wat Ryk, te hoog in top van eer gereezen,</l>
+						<l>Kan ooit haar argwaan als met zyne val geneezen?</l>
+						<l>En wat verongelykt nu de Romeinen niet?</l>
+						<l>Een, welke op de eer en roem van zyne wapens ziet,</l>
+						<l>Uitbreidende zyn staat en magt door zegepraalen,</l>
+						<l>Zal onvermydelyk hunne afgunst op zich haalen;</l>
+						<l>Terwyl dit by hen is een misbedryf van staat.</l>
+						<l>Hun heerschappy, die elk alom te boven gaat,</l>
+						<l>Wil dat we ons eigendom van hen te leen waardeeren,</l>
+						<l>En al de Koningen van 't Aardryk overheeren,</l>
+						<l>Die, onder hun gezagh, gebieden slechtes in schyn,</l>
+						<l>Op dat hun magt alleen zou onafhanglyk zyn.</l>
+						<l>Ik ken haar wel, Mevrouw: my komt niets nieuws te vooren.</l>
+						<l>Ja, door hunne argwaan ging Antiochus verlooren,</l>
+						<l>En gantsch Karthage is, met zyn Tempels, omgewroet.</l>
+						<l>'k Wil dan, uit vrees van neêr te storten, wel myn moed</l>
+						<l>Doen buigen voor de rede, en hen niet wederstreeven;</l>
+
+						<l>Te meer, om dat de Prins myn vyand, hen gegeeven</l>
+						<l>Tot Guyzelaar, voor myn getrouwheid in zal staan.</l>
+						<l>Hy is een Leeuw, dien zy, hem schennende op my aan,</l>
+						<l>Gebruiken kunnen om my steeds naar 't hart te steeken.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Dit is 't waar van ik u als een gehiem wou spreeken.</l>
+						<l>Maar 'k ben verwonderd dat gy zoo voorzichtig zyt.</l>
+						<l>Maak u de argwaanende Romeinen, wyl de tyd</l>
+						<l>Verand'ren kan, en gy hen noodig hebt, geneegen.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>Tweede tooneel.</head>
+					<stage>Flaminius, Arsinoë, Attalus.</stage>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Myn Heer, ik heb de zege op 's Minnaars hart gekreegen;</l>
+						<l>Ik bragt hem tot zyn pligt, de reden won het veld.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Mevrouw, zie of zy ook bekwaam is om 't geweld</l>
+						<l>Van 't volk tot redenen te brengen, en te stuiten.</l>
+						<l>Denk niet dat gy hen noch moogt langer laaten muiten.</l>
+						<l>'t Is meer dan tyd, dat ge u hier van gevoelig toont.</l>
+						<l>Welëer was Romen niet van dit geval verschoont;</l>
+						<l>Doch 't hield een ander spoor. Als 't muitziek graauw verwaaten</l>
+						<l>Aan 't spoorloos hollen sloeg, in dolheid uitgelaaten,</l>
+						<l>Zo spaarde nooit de Raad beloften, noch gebeên;</l>
+						<l>Noch dreigen, tot het weêr gestild was en te vreên:</l>
+						<l>'t Zy dat ze op d' Aventyn moedwillig zaamenspanden,</l>
+						<l>Of Quirinaalschen berg, waar van 't vaak, alle banden</l>
+						<l>Van pligt verbreekende, met een vervloekt geweld,</l>
+						<l>Was voortgerukt, waar' 't niet by tyds ter neêr gesteld.</l>
+						<l>Maar gy tart dit gevaar, zo 't schynt uit uwe daaden.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Neen, 't is onnoodig om ons langer te beraaden.</l>
+
+						<l>Wy treeden veiliger den Roomschen Raad op 't spoor.</l>
+						<l>De Koning. . . . . Maar hy komt.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>Darde tooneel.</head>
+					<stage>Prusias, Arsinoë, Flaminius, Attalus.</stage>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>'t Is my bewust waar door</l>
+						<l>'t Kwaad, dat dus uitbarst, zyn beginsel heeft bekoomen:</l>
+						<l>De muiters hebben, tot hun hoofden, aangenoomen</l>
+						<l>Al 't volk van Laodise.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Ik vreesde 't lang.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Beloont</l>
+						<l>Zy dus de teed're zorg, die gy haar hebt betoont?</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Myn Heer, men moet iets doen: en wilt gy naar my hooren,</l>
+						<l>Zo eischt de nood . . . . .</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>Vierde tooneel.</head>
+					<stage>Pursias, Arsinoë, Flaminius, Attalus, Cleone.</stage>
+					<sp who="#cleone">
+						<speaker>Cleone.</speaker>
+						<l>Mevrouw, ach! alles is verlooren,</l>
+						<l>Indien men aan de drift van 't volk geen paalen stelt.</l>
+						<l>'t Eischt Nicomedes weer, met yselyk geweld:</l>
+						<l>'t Recht reeds zich zelven, daar het Zeno scheurt in stukken,</l>
+						<l>En Methrobates, hun verwoedheid niet te ontrukken.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Men vreez' dan 't volk niet meer: 't heeft hier meê uitgewoelt,</l>
+						<l>En in dat bloed reeds zyn verhitte wraak gekoelt.</l>
+
+						<l>'t Zal Nicomedes, met deeze offerhand te slagten</l>
+						<l>Aan zyn gewaanden hoon, genoeg gewrooken achten.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Zo 't oproer zonder hoofd en reden had begin,</l>
+						<l>Ik vreesde 't ook niet, en wierd eens met u van zin;</l>
+						<l>'t Was door de dood dier twee tot stilstand licht te leiden;</l>
+						<l>Maar 't zaamgerotte graauw is niet zo licht te scheiden,</l>
+						<l>Daar 't neemt de wapens, met beleid en toeleg, aan:</l>
+						<l>'t Leid die niet neêr voor dat hun oogwit is voldaan.</l>
+						<l>Neen, 't eerst geplengde bloed, hen spattende in hunne oogen,</l>
+						<l>Noopt hun verwoedheid, bluscht hun vrees en mededoogen.</l>
+					</sp>
+				</div>
+				<div n="5" type="scene">
+					<head>Vyfde tooneel.</head>
+					<stage>Prusias, Flaminius, Arsinoë, Attalus, Cleone, Araspes.</stage>
+					<sp who="#araspes">
+						<speaker>Araspes.</speaker>
+						<l>Myn Heer, 't volk rot nu meer, dan 't immer deê voorheen,</l>
+						<l>Van alle plaatsen zaam. Uw Lyfwacht zelf, te onvreên,</l>
+						<l>Verloopt van tyd tot tyd, en alles doet my vreezen,</l>
+						<l>Dat Nicomedes in myn magt niet lang zal wezen,</l>
+						<l>Ik kan niet langer voor hem instaan.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Laat ons dan</l>
+						<l>Dit Voorwerp van 's volks gunst, zo dra men immer kan,</l>
+						<l>Hen geeven. Laaten wy dit volk vol trouwloosheden</l>
+						<l>Gehoorzaam zyn, daar zy, hun Konings magt vertreeden,</l>
+						<l>Een ander kiezende; laat ons voldoen hun eisch,</l>
+						<l>En, uit de vensters van ons koninglyk Paleis,</l>
+						<l>Vorst Nicomedes hoofd zyn waardige onderdaanen</l>
+						<l>Toewerpen, om een weg tot stilstand hen te baanen.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Helaas! myn Heer . . . .</l>
+
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Zo komt hy weêr voor hun gezicht.</l>
+						<l>'k Ben dit aan 't volk, dat hem zo eischt, op 't minst verpligt.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Helaas! myn Heer, hier meê zult gy ons aller leeven,</l>
+						<l>Dat u getrouw is, aan 's volks dolheid overgeeven,</l>
+						<l>En gy loopt zelf gevaar van hunne spoorloosheên.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Men moet dan volgen straks 't begeeren van 't Gemeen,</l>
+						<l>En Nicomedes, met myn kroon, hen zelf opdraagen.</l>
+						<l>'k Heb dan geen and're keur, als die van hun behaagen;</l>
+						<l>En, blyft het meester, in myn leeven in 't geweld</l>
+						<l>Van die hen ophitst.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Schoon uw opzet waar verzeld</l>
+						<l>Van 't recht, staat 's Prinsen lot, myn Heer, aan uw behaagen?</l>
+						<l>Hy is, als Gyzelaar, aan Romen opgedraagen,</l>
+						<l>Uw Zoon niet meer: en als zyn Vader dit vergeet,</l>
+						<l>Moet ik 't onthouden, en verklaaren, al het leed,</l>
+						<l>Dat hem mogt treffen, zal my zelf ook overkoomen:</l>
+						<l>'k Moet voor hem instaan by den Raad en 't Volk van Romen.</l>
+						<l>Zo gy hem kwyt wilt zyn, daar 's een geheime poort</l>
+						<l>Aan uw Paleis, waar door men hem licht ongestoord</l>
+						<l>Brengt aan de Haven, daar myn Zeegalei gelegen</l>
+						<l>Reisvaardig wacht. Indien gy hier toe zyt genegen,</l>
+						<l>Zo staa my toe dat ik vertrekke, op dat elk ziet</l>
+						<l>Dat Romen, niet zo wreed, een zachter wet geniet.</l>
+						<l>Bestaa niet, tot haar hoon, beroofd van mededoogen</l>
+						<l>En pligt, haar Gyzelaar te dooden voor myne oogen.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Zult gy my hooren, u verlaatende op myn trouw?</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Al wat van u komt, dat behaagt my; spreek, Mevrouw.</l>
+
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>De Hemel stort my, door zyn gunst, iets in gedachten,</l>
+						<l>'t Geen gy noch Romen, als mishaaglyk, kunt verachten.</l>
+						<l>Zo de Afgezant reeds tot vertrekken vaardig is,</l>
+						<l>Hy voer' zyn Gyzelaar meê zonder hindernis.</l>
+						<l>Die heimelyk weg zal ons veel voordeel geeven;</l>
+						<l>En, op dat niemand mogt uw aanslag tegenstreeven,</l>
+						<l>Vertoon u aan het volk, en vlei het met gebeên;</l>
+						<l>En, onder schyn van in verdragh daar meê te treên,</l>
+						<l>Zo hou het listig op, tot dat men buiten vreezen</l>
+						<l>Uw schip met hem, 's volks hoop, verzekerd denkt te wezen.</l>
+						<l>Indien 't dan dringt in uw Paleis, en hem niet vind,</l>
+						<l>Toon u verwonderd, en gelyk als zy gezind:</l>
+						<l>Geef Romen dan de schuld, hen hoop van die te wreeken.</l>
+						<l>Wanneer het daglicht aan den hemel door komt breeken,</l>
+						<l>Zo laat de vluchtende najaagen: toon uw vlyt,</l>
+						<l>Als of hy achterhaald zou zyn in weinig tyd;</l>
+						<l>Terwyl gy duizenden beletsels kunt verwekken,</l>
+						<l>Om uwe staatslist voor elks oogen te bedekken.</l>
+						<l>'t Zal midd'lerwyl, zo lang 't met zorgen is belaân</l>
+						<l>Voor Nicomedes heil, niets durven onderstaan:</l>
+						<l>Maar blyft hy hier aan 't hof, zo is voor ons te duchten,</l>
+						<l>Dat, hy vry wordende, wy zullen moeten vluchten:</l>
+						<l>Want zo 't Gemeen den Prins tot hoofd krygt, zal 't de Kroon</l>
+						<l>Hem zeker geeven, straks hem zetten op uw troon.</l>
+						<l>Ik stel dit aan u zelf.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Ach! 'k merk in onze kwaalen,</l>
+						<l>Dat van de Goden in uw hart die raad komt daalen.</l>
+						<l>Myn Heer, wie vind voor ons een nutter?</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>Deeze raad</l>
+						<l>Behouwt uw leeven, en uw vryheid, eer, en Staat,</l>
+
+						<l>En Laodise is, als voorheen, in uw vermoogen,</l>
+						<l>Maar al ons voordeel, zo gy langer toeft, vervloogen.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Maak straks begin.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Laat toch Araspes maar alleen,</l>
+						<l>Met drie soldaaten, u verzellen derwaarts heen,</l>
+						<l>Uit vrees dat onder meer mogt schuilen een verraader.</l>
+						<l>'k Ga my verzekeren van Laodise, en nader</l>
+						<l>Haar gaâslaan. Attalus, wat gaat gy doen?</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Terstond</l>
+						<l>'t Gemeen misleiden; by de listen, die gy vond,</l>
+						<l>Noch and're voegen.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Stel geduurig u voor oogen</l>
+						<l>Hoe dat myn lot is 't uwe, uw welstand al myn poogen,</l>
+						<l>Dat ik, om uw belang, ontzie gevaar, noch dood.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Ik zelf zal sterven, of u redden uit den nood.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Ga dan, myn Zoon, ga heen. 'k Zie Laodise koomen.</l>
+					</sp>
+				</div>
+				<div n="6" type="scene">
+					<head>Zesde tooneel.</head>
+					<stage>Arsinoë., Laodise, Cleone.</stage>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Kan dan de Muiter, daar dit kwaad uit voort komt stroomen,</l>
+						<l>Wel ongestraft zyn?</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Neen, voor 't weinig dat uw zin</l>
+						<l>Staatzuchtig is, zo sta ik voor de straf zelf in.</l>
+
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Gy, die zyn misdaad weet, wil ook zyn vonnis spreeken.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>'t Is voor een Koningin genoeg, die ziet verbreeken</l>
+						<l>Haar strafb'ren aanslag, dat ze alleen belyd haar schuld.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Zeg dat men hem, tot straf van 't spoorloos ongeduld,</l>
+						<l>De kroon behoorde van het muitziek hoofd te haalen.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Neen, de edelmoedigen vergeeven licht het dwaalen:</l>
+						<l>'t Is hen genoeg, wanneer zy hebben de overhand,</l>
+						<l>Hun vyand overtuigd te aanschouwen tot zyn schand'.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Men zou u lichtelyk tot vrede dan beweegen.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>'k Heb van de Goôn een hart, vry van geweld, gekreegen.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Hoe! de onderdaanen op hun wettig Vorst met list</l>
+						<l>Vervloekt te schennen, en een doodelyke twist</l>
+						<l>Te zaaijen; 't vuur en staal de dolle muitelingen</l>
+						<l>Te geeven, om daar meê hun wettig Vorst te dwingen,</l>
+						<l>Wat is dat anders dan geweld?</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Ik merk dat wy</l>
+						<l>Elkander niet verstaan, terwyl gy duid op my</l>
+						<l>Al 't geen ik heb gezegt op u. 'k Ben buiten schroomen</l>
+						<l>Voor my, en slechts, om u te zoeken, hier gekoomen,</l>
+						<l>Om u te hoeden, en in u de Majesteit</l>
+						<l>Voor het vergramde volk, dat, zonder onderscheid,</l>
+						<l>Ontzagh of breidel holt. Men laat' den Koning keeren,</l>
+						<l>Roepe Attalus te rug, om 't kwaad van hen te weeren,</l>
+						<l>En op dat ik den glans en 't heilige sieraad</l>
+
+						<l>Der Koningen in hen bescherm, eêr 't werd te laat.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Waar kan ooit hoogmoed, zo vervloekt als de uwe, wezen?</l>
+						<l>Gy, om wiens wil dat al dit oproer is gereezen,</l>
+						<l>Gy, die als myn Slaavin hier magt'loos leeven moet,</l>
+						<l>Gy, die my in zult staan, ten koste van uw bloed,</l>
+						<l>Voor alles dat my treft; gy durft zo stout noch spreeken,</l>
+						<l>Als of ik u moest om genade en vryheid smeeken?</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Hardnekkig blyven, en te spreeken zulke reên,</l>
+						<l>Zo vol verwytingen, en groote spoorloosheên,</l>
+						<l>Is twyf'len aan de magt, die 'k hier heb tot regeeren.</l>
+						<l>Maar, zo 't my lustte, zou het straks, op myn begeeren,</l>
+						<l>Met u gedaan zyn. Leg my nooit te last, Mevrouw,</l>
+						<l>Dit oproer van uw volk. Zy schenden pligt en trouw:</l>
+						<l>En 't muitend vuur is waard om in al de Onderdaanen</l>
+						<l>Gestraft en uitgebluscht te zyn in bloed en traanen.</l>
+						<l>Maar voor myn deel, als zynde een Koningin, is 't my</l>
+						<l>Geöorlooft wat ik wil: 'k heb deeze muitery,</l>
+						<l>In ons verschil, om van uw list te zegepraalen,</l>
+						<l>Gemaakt. Het oorlogsrecht, dat nooit zich laat bepaalen,</l>
+						<l>Staat yder toe, in wat gelegenheid, alom</l>
+						<l>Zyn vyand schaâ te doen. Sints gy myn Bruidegom</l>
+						<l>My hebt ontrooft, zyt gy myn vyandin geworden.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>'k Ben dan uw vyandin. Wie ons ook hier toe porden,</l>
+						<l>En hoe het uivall'; zo het volk, door stout bestaan,</l>
+						<l>De hofpoort inbreekt, is het ook met u gedaan:</l>
+						<l>Dat zweer ik u.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Gy zult dit nimmermeer volbrengen,</l>
+						<l>Of op myn graf, tot een zoenöfferhand', zien plengen.</l>
+
+						<l>'t Bloed van al de uwen. Maar hebt gy, in deezen stand,</l>
+						<l>Meer Metrobatessen en Zenoos op uw hand?</l>
+						<l>Hoe! vreest gy niet dat, door myn heimelyk vermoogen,</l>
+						<l>Uw gantsche hofstoet draaft op 't wenken van myne oogen?</l>
+						<l>Weet gy wel ymand, die zich zelf zo zou verraân,</l>
+						<l>En 't licht zo moede is, om uw list ten dienst te staan?</l>
+						<l>Ik wil geenszins in uw Bithinië regeeren.</l>
+						<l>Men wyz'me een weg om naar Armenië te keeren:</l>
+						<l>En, tracht ge uw ramp te ontgaan, zo geef myn Bruidegom,</l>
+						<l>Die gy toch vruchteloos geboeid houd, wederom.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Gy moet hem op den weg naar Romen wederhaalen:</l>
+						<l>Flaminius leid hem daar heen, en kan uw kwaalen</l>
+						<l>Verlichten; hem aan weêrgeeven. Doe met vlyt</l>
+						<l>Hem straks naroeijen. Hy 's in zee reeds: spil geen tyd.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Ach! kan dit zyn?</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Ja, 't is de waarheid.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Wil dan beeven</l>
+						<l>Voor al de woede daar myn ziel toe word gedreeven.</l>
+						<l>'k Heb, na deeze euveldaad en doodelyken slag,</l>
+						<l>Geen edelmoedigheid, noch deernis, noch ontzagh:</l>
+						<l>Gy zult my borg staan voor zyn leeven, tot myn handen</l>
+						<l>Hem hebben vry gemaakt. 'k Zal zyn vervloekte banden</l>
+						<l>Tot binnen Romen gaan vermorzelen, met al</l>
+						<l>Uw volk, en 't myne: want de groote Hannibal</l>
+						<l>Nam 't voor onmoog'lyk, en een spoorloosheid der zinnen,</l>
+						<l>Om Romen elders meer te willen overwinnen</l>
+						<l>Dan in Italiën. Elk zal my zien, in 't hart</l>
+						<l>Van haaren staat, myn woede uitvoeren tot haar smart,</l>
+
+						<l>Met duizend, duizenden van helden haar bestryën,</l>
+						<l>En, onder myne wraak, haar vuige dwinglandyën. . . .</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Gy wilt dan eind'lyk in Bithinië gebiên;</l>
+						<l>En, wezende zo dol, als wy u heden zien,</l>
+						<l>Zal u de Koning wel voor hem gebieden laaten.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Ja, 't zal gebiên, en doen geen onrecht aan zyn Staaten:</l>
+						<l>Want Koning zynde in schyn, heeft hy geen onderscheid,</l>
+						<l>Of ik, of Romen, voor hem heersch'. Maar 't lot geleid</l>
+						<l>Een tweeden Gyzelaar gelukkig in myn handen.</l>
+					</sp>
+				</div>
+				<div n="7" type="scene">
+					<head>Zevende tooneel.</head>
+					<stage>Arsinoë, Attalus, Laodise, Cleone.</stage>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Prins, hebt gy hun vertrek gezien van deeze stranden?</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Ach!</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Spreek.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>De Hemel stort ons noch in dieper druk!</l>
+						<l>Prins Nicomedes is 't ontvlucht, tot zyn geluk.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Mevrouw, vrees nu niet meer voor myn gerechten tooren:</l>
+						<l>'k Voel de edelmoedigheid weêr in myn ziel herbooren.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Schept gy vermaak in my te ontstellen?</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Neen, Mevrouw;</l>
+						<l>Vlei u hier meê niet dat ik zelfs dit denken zou.</l>
+						<l>Araspes was met hem tot aan de deur gekoomen,</l>
+
+						<l>Waar uit Flaminius zyn weg reeds had genoomen,</l>
+						<l>Als d'ongelukkigen wierd, van een sterke hand,</l>
+						<l>Een pook in 't hart gedrukt: hy valt, in deezen stand,</l>
+						<l>Al schreeuwende en verbaasd, voor Nicomedes voeten;</l>
+						<l>En zyn gevolg, bevreesd van 't zelfde lot te ontmoeten,</l>
+						<l>Nam straks de vlucht.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Wie of aan deeze deur den moord</l>
+						<l>Heeft kunnen doen, waar door onze aanslag is verstoord?</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Een weinig krygsliên, die hem scheenen te bewaaren,</l>
+						<l>En 's Prinsen . . . .</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Ach! men vind alom veel moordenaaren,</l>
+						<l>Verraader, schelmen, die hun koningen verraân,</l>
+						<l>En weinigen die hen getrouw ten dienste staan.</l>
+						<l>Wie zeide u deeze maar'?</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Araspes voor zyn sterven.</l>
+						<l>Maar daar's noch meer waar door men alle hoop moet derven.</l>
+						<l>'k Liep naar myn Vader, om hem tegen het geweld</l>
+						<l>Te hoeden; doch te laat: de Vorst, van vrees bekneld,</l>
+						<l>Was in een boot gestapt, ontvluchtende zyn kwaalen,</l>
+						<l>Om noch Flaminius, waar 't moog'lyk, te achterhaalen,</l>
+						<l>Die licht geen minder schroom, noch smarten hebben zal.</l>
+					</sp>
+				</div>
+				<div n="8" type="scene">
+					<head>Achtste tooneel.</head>
+					<stage>Prusias, Flaminius, Arsinoë, Laodise, Attalus, Cleone.</stage>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Neen, neen, hier ziet ge ons beide, om, in dit ongeval,</l>
+						<l>U te beschermen, of te sterven voor uwe oogen.</l>
+
+						<l>Neen, laat ons sterven: laat ons sterven, onbewoogen;</l>
+						<l>Ons leeven eindelyk onttrekken, 's vyands wraak,</l>
+						<l>Aan hem belettende de glory en 't vermaak,</l>
+						<l>Dat hy aan ons niet zyn geweld kan laaten blyken.</l>
+					</sp>
+					<sp who="#laodise">
+						<speaker>Laodise.</speaker>
+						<l>Die wanhoop kan den Prins veel meer verongelyken,</l>
+						<l>Dan of gy hem noch eens naar Romen zond. Mevrouw,</l>
+						<l>Gy moest hem kennen, en, terwyl hy heeft myn trouw,</l>
+						<l>U zelf verzekeren dat hy myn deugd is waardig.</l>
+						<l>'k Verachtte hem, indien zyn hart niet zo rechtvaardig</l>
+						<l>Als edelmoedig was, en aan het myne niet</l>
+						<l>Voldeed alle achting, die hy voor my blyken liet,</l>
+						<l>Zich altoos toonende gelyk van ziel en zeden.</l>
+						<l>Maar 'k zie den Held voor u verschynen: gy kunt heden</l>
+						<l>Oordeelen, of ik ken zyn deugd, en hy zyn pligt.</l>
+					</sp>
+				</div>
+				<div n="9" type="scene">
+					<head>Negende tooneel.</head>
+					<stage>Prusias, Nicomedes, Arsinoë, Laodise, Flaminius, Attalus, Cleone.</stage>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>'t Is alles stil, myn Heer: een wenk van myn gezicht</l>
+						<l>Kon, op een oogenblik, het volk in rust doen keeren.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Hoe! komt gy in myn hof my noch zo trots braveeren,</l>
+						<l>Gy, Muitemaaker?</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Dit 's een naam, dien 'k niet verdien.</l>
+						<l>'k Verschyn hier niet om u een Slaaf te laaten zien,</l>
+						<l>Die ongehoorzaam heeft verbrooken zyne banden,</l>
+						<l>Maar zulk een Onderdaan, die trouw, in uwe handen,</l>
+
+						<l>Uw ryksgezagh op nieuw herstelt in rust en vreê,</l>
+						<l>Dat ander staatsbelang, als 't myne, wag'len deê.</l>
+						<l>Niet dat ik Romen hier een misdaad aan wil wryven:</l>
+						<l>Neen, 't volgt haar spoor op van staatkundige bedryven;</l>
+						<l>En haar Gezant voldoet zyn pligt en trouw, als hy</l>
+						<l>Tracht onder ons verdeeld te zien uw heerschappy.</l>
+						<l>Doch laat u nimmer hier toe dwingen. Wil my geeven</l>
+						<l>Uw gunst, en Romen zal voor uw vermoogen beeven.</l>
+						<l>Vergeef ook d'yver van uw volk: 't verviel alleen</l>
+						<l>Uit deernis met myn ramp tot deeze spoorloosheên.</l>
+						<l>Vergeef een schuld, die zo noodzaakelyk moest wezen,</l>
+						<l>Waar door uw heil eerlang zal zyn in top gereezen.</l>
+						<stage>Tegen Arsinoë.</stage>
+						<l>Geef gy my ook uw gunst, genade in plaats van straf;</l>
+						<l>Gedoog dat ik u mag aanbidden tot myn graf.</l>
+						<l>Ik weet door welk een drift dat gy my dus waart tegen:</l>
+						<l>De moederlyke zucht, tot 's Broeders roem genegen,</l>
+						<l>Wenscht hem tot Koning; en ik zweer u, dat ik zal</l>
+						<l>Daar zelf toe helpen, zo ge alleen, in dit geval,</l>
+						<l>Gedoogen kunt, dat hy die werd door myn vermoogen.</l>
+						<l>Ja, 't weet in Asië, door duizend zegeboogen,</l>
+						<l>Noch Ryken, met dees arm, te winnen, om daar meê</l>
+						<l>Zyn hoofd te kroonen. Kies, Mevrouw, myn hand is reê;</l>
+						<l>Kies van wat Ryk gy wilt dat hy zal zegepraalen:</l>
+						<l>Gebiê my, en ik zal u daar de kroon van haalen.</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l>Wilt gy uw zegen dan zien onbepaald, myn Heer,</l>
+						<l>En, hebbende in uw magt myn leeven en myn eer,</l>
+						<l>Met uw grootmoedigheid, die 't al kan overwinnen,</l>
+						<l>Noch triomfeeren van myn hart en van myn zinnen?</l>
+						<l>Dit hart is, tegen zo veel deugd, ontbloot van kracht:</l>
+						<l>'t Verlangt om zich van zelf te geeven in uw magt.</l>
+
+						<l>Voeg by drie Scepters, die gy wint, ook deeze zegen,</l>
+						<l>En 'k zal gelooven dat ik heb in u verkreegen</l>
+						<l>Een tweeden Zoon.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Mevrouw, 'k geef me, in 't gezicht der Goôn,</l>
+						<l>Meê over, en geloof dat deeze groote Zoon</l>
+						<l>Myn grootste glory is. Prins, laat ons heden hooren,</l>
+						<l>In deeze vreugde, van den Hemel ons beschooren,</l>
+						<l>Aan wien wy zyn verpligt dat gy 't ontkoomen zyt.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Die Held hield zich voor my verborgen op dien tyd,</l>
+						<l>Maar eischte van my af, na 't redden van myn leeven,</l>
+						<l>Myn zegelring, die hy me op morgen weêr moet geeven.</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Laat toe dat ik u met myn hand dien aan mag biên.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes.</speaker>
+						<l>Ach! dat myn Broeder, die my liet dit proefstuk zien,</l>
+						<l>Steeds vorstlyk is, om nooit die eerzucht te verkleinen!</l>
+						<l>Neen, Attalus is nu geen Slaaf meer der Romeinen,</l>
+						<l>Maar een grootmoedige Verlosser van zyn bloed.</l>
+						<l>Gy hebt, myn Broeder, door uw eed'len helden moed,</l>
+						<l>Met my, den Koning en de Koningin ontslaagen</l>
+						<l>Van boeijens, u en haar van eeuwig die te draagen.</l>
+						<l>Maar waarom u bedekt in 't redden van den Staat?</l>
+					</sp>
+					<sp who="#attalus">
+						<speaker>Attalus.</speaker>
+						<l>Om, zonder my, uw deugd volmaakt te zien den haat,</l>
+						<l>En de onrechtvaardigheid verwinnen onbezweeken;</l>
+						<l>Ja, om, waar' dit mislukt, u en my zelf te wreeken.</l>
+						<l>Maar 'k bid, Mevrouw . . . . .</l>
+					</sp>
+					<sp who="#arsinoë">
+						<speaker>Arsinoë.</speaker>
+						<l> </l>
+						<l>Het is genoeg; 'k zie nu de list</l>
+						<l>Volbragt, die gy voor my zo te verbergen wist.</l>
+
+						<stage>Tegen Nicomedes.</stage>
+						<l>En nu myn Zoon het kwaad, dat ik u toe wou voegen,</l>
+						<l>Belet, schep ik hier in een dubbel vergenoegen.</l>
+					</sp>
+					<sp who="#nicomedes">
+						<speaker>Nicomedes, tegen Flaminius.</speaker>
+						<l>Daar is geen eed'le ziel die niet op 't hoogst begeert</l>
+						<l>De eer van uw vriendschap, en als een geluk waardeert;</l>
+						<l>Maar wy verfoeijen die met zulk een last te draagen,</l>
+						<l>Daar de Romeinen steeds de Koningen meê plaagen:</l>
+						<l>Wy eischen die, doch vry van uw geweld en magt;</l>
+						<l>Of uwe vyandschap, die ik zo wreed niet acht.</l>
+					</sp>
+					<sp who="#flaminius">
+						<speaker>Flaminius.</speaker>
+						<l>De Raad moet hier meê naar zyn welgevallen leeven;</l>
+						<l>Doch ik durf midd'lerwyl u wel verzeek'ring geeven,</l>
+						<l>Dat gy zyt de achting der Romeinen dubbel waard,</l>
+						<l>En dat zy zullen, ziende uw edelmoedig' aart,</l>
+						<l>Gelooven, dat ze in u een dapper Vyand vinden,</l>
+						<l>Zo ze u aan zich niet, als een trouwen Vriend, verbinden.</l>
+					</sp>
+					<sp who="#prusias">
+						<speaker>Prusias.</speaker>
+						<l>Laat ons, nu dat wy weêr verëenigd zyn, myn Zoon,</l>
+						<l>Danköfferhanden gaan bereiden voor de Goôn,</l>
+						<l>En smeeken hen dat wy, by dit geluk, bekoomen</l>
+						<l>De vriendschap en de gunst des Raads en volks van Romen.</l>
+					</sp>
+					<p>Einde van het Vyfde en Laatste Bedryf.</p>
+					<p>MDCXCII.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
