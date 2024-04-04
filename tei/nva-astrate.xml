@@ -1,0 +1,3100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000162" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Astrate, koning van Tyrus</title>
+				<title type="sub"/>				
+				<author>
+					<persName>
+						<forename>Philippe</forename>
+						<surname>Quinault</surname>
+					</persName>
+					<idno type="wikidata">Q379947</idno>
+					<idno type="pnd"></idno>
+				</author>
+				<author>
+					<persName>
+						<surname>Nil Volentibus Arduum</surname>
+					</persName>
+					<idno type="wikidata">Q2351891</idno>
+					<idno type="pnd"></idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL">https://www.dbnl.org/tekst/buys001astr01_01/index.php</idno>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Nil Volentibus Arduum: Astrate, koning van Tyrus. Amsterdam: Johannes van
+						den Bergh, 1670.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="MALE" xml:id="agenor">
+						<persName>AGENOR</persName>
+					</person>
+					<person sex="MALE" xml:id="astrate">
+						<persName>ASTRATE</persName>
+					</person>
+					<person sex="MALE" xml:id="nerbal">
+						<persName>NERBAL</persName>
+					</person>
+					<person sex="MALE" xml:id="sicheus">
+						<persName>SICHEUS</persName>
+					</person>
+					<person sex="MALE" xml:id="bazore">
+						<persName>BAZORE</persName>
+					</person>
+					<person sex="FEMALE" xml:id="elize">
+						<persName>ELIZE</persName>
+					</person>
+					<person sex="UNKNOWN" xml:id="orakel">
+						<persName>ORAKEL</persName>
+					</person>
+					<person sex="FEMALE" xml:id="corisbe">
+						<persName>CORISBE</persName>
+					</person>
+					<person sex="MALE" xml:id="belus">
+						<persName>BELUS</persName>
+					</person>
+					<person sex="MALE" xml:id="geraste">
+						<persName>GERASTE</persName>
+					</person>
+					<person sex="MALE" xml:id="nicogenes">
+						<persName>NICOGENES</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-02">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1670">
+				<desc/>
+			</event>
+			<event type="premiere" when="1670">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+
+			<docTitle>
+				<titlePart>ASTRATE, Koning van Tyrus;</titlePart>
+				<titlePart>TREURSPEL.</titlePart>
+				<titlePart><figure/></titlePart>
+				<titlePart>t'AMSTERDAM,</titlePart>
+				<titlePart>By Johannes van den Bergh, Boekverkooper bezijden 't Stadthuis.
+					1670.</titlePart>
+			</docTitle>
+
+
+			<div type="dedication">
+				<figure/>
+				<head>Aen zijn Doorluchtige hoogheidt Welhem Henrik, Prins van Orange,
+					&amp;c.</head>
+				<head>Doorluchtigste, Hooghgebooren Prins, Genadige Heer.</head>
+				<p>'TIs niet zonder rechtvaerdige beschroomdheidt, dat ik U tot Beschermheer heb
+					durven kiezen van een Tooneelstuk, het welk zijn hoogste glans verschuldight is
+					aen d'eer, die het gehadt heeft, van voor Uw Hoogheidt in het Fransch te
+					verschijnen. En in der daedt zou het te duchten staen, dat het in onze Tael
+					(want ik kan geensins loochenen, dat het maer een overzetting is) lichtelijk zo
+					gelukkig niet zou zijn, als het op het Fransche Tooneel geweest is, dewijl het
+					sedert vry veel van zijn aengebooren sieraedt verlooren heeft; maer om een
+					quaeden uitslag, die zo onvermydelijk scheen, voor te komen, heb ik het middel
+					gevonden, om dit eigen stuk oneyndig heerlijker te maeken, als het oit was, met
+					het zelve toe te wyen aen de Doorluchtigste Persoon van onze teegenwoordig
+					bekende Weerelt. Noodeloos zou het zijn, na deeze eertytel U te willen doen
+					begrijpen, dat ik van uw Hoogheidt spreek. Want, Doorluchtigste Prins, de
+					uitsteekendheidt van geboorte, en de grootte van eedelmoedigheidt, hoewel die
+					doorgaens de menschen aenzienelijk maeken, zijn 't alleen niet, die uw
+					gloryrijke naem zijn waerde geeven: 't geluk, dat gy hebt afkomstig te weezen
+					van Voorouders, ten uitersten vermaerdt, om hunne zo meenig vuldige gewonnene
+					Veldt slagen, en zo veel voorspoediglijk ten einde gebragte Beleegeringen,
+					reekent gy niet eens onder uwe eigene voordeelen: ja zelfs de dapperheidt, die
+					gy als waerachtig Erfgenaem van zo veel Keyzerlijke, Koninglijke, en Vorstelijke
+					Helden, voor t'eenemael in eigendom bezit, volmaekt uwe zo zeer verwonderens
+					waerdige Hoogheidt ten deele maer. De kracht van uw verstandt, en de
+					hoogzweevendheidt van uwe doorluchtige ziel leggen daer de laetste handt aen.
+					Dat weeten zy, die door de eer van uwen omgang zeekerlijk, hoewel niet zonder
+					verbaestheidt, de verdiensten daer van leeren kennen. 't Getal van uwe jaeren,
+					dat zulks aen alle andere weigert, geeft aen de volmaekte bevalligheidt van uwe
+					jeugdt, zoo gezondt en doordringend een oordeel, en by gevolg zo schoon een
+					reeks van aengenaeme deugden, dat ik my tot het verhael der zelve geensins
+					bestaen durf in te wikkelen, uit vrees dat ik, zoekende uwe volkomene glory
+					openbaer te maeken, my teegens uwe zeedigheidt misgaen mogte. Ook is Orange geen
+					naem, die men op een gewoone manier verhandelen mag; om die haer verdiende
+					plaets te geeven, behoorde men die veel eêr voor het Hooft van een aenzienlijk
+					Heir als voor het Hooft van een boek te konnen stellen. De geheele weereldt
+					twijfelt geensins of zy zou daer wonderen veroorzaeken, en uwe eerste
+					proefstukken voor gewisse en waerdige blijken van het Doorluchtig bloedt, dat u
+					bezielt, doen doorgaen. Indien het wenschen kracht had; ik zou hoopen durven,
+					dat ik zo lang noch in de weereldt niet geweest was, of ik kost de waerheidt
+					daer van beleeven. Nu moet ik my aen het lot gedraegen, en my ver-noegen, met
+					ondertusschen zeer ootmoediglijk te bidden, dat uwe Prinsselijke goedheidt my
+					niet gelieve te misgunnen de eer, die ik verzoek, van aen onze nakomelingen te
+					laeten blijken, dat ik met een ongemeene yver, en de diepste eerbiedenis des
+					weereldts ben,</p>
+
+				<p>Doorluchtigste, Hooghgebooren Prins,</p>
+				<p>Genadige Heer,</p>
+
+				<p>Uwe HOOGHEIDTS</p>
+
+				<p>Onderdaenigste Getrouwe Dienaer,</p>
+
+				<p>D. Buysero.</p>
+			</div>
+
+
+			<castList>
+				<head>Vertooners.</head>
+				<castItem corresp="#elize">
+					<role>ELIZE, Koningin van Tyrus door dwinglandy.</role>
+				</castItem>
+				<castItem corresp="#corisbe">
+					<role>CORISBE, Vertrouwde van ELIZE.</role>
+				</castItem>
+				<castItem corresp="#agenor">
+					<role>AGENOR, Neef van ELIZE, en aen haer belooft.</role>
+				</castItem>
+				<castItem corresp="#nerbal">
+					<role>NERBAL, Vertrouweling van AGENOR.</role>
+				</castItem>
+				<castItem corresp="#astrate">
+					<role>ASTRATE, Rechte Koning van Tyrus, gemeende Zoon van SICHEÜS.</role>
+				</castItem>
+				<castItem corresp="#belus">
+					<role>BELUS, Vriendt van ASTRATE.</role>
+				</castItem>
+				<castItem corresp="#sicheus">
+					<role>SICHEUS, Tyrisch Heer, gemeende Vader van ASTRATE.</role>
+				</castItem>
+				<castItem corresp="#bazore">
+					<role>BAZORE, } 't Zaemengezwoorene teegen ELIZE, en Vrienden van
+						SICHEÜS.</role>
+				</castItem>
+				<castItem corresp="#nicogenes">
+					<role>NICOGENES, } 't Zaemengezwoorene teegen ELIZE, en Vrienden van
+						SICHEÜS.</role>
+				</castItem>
+				<castItem corresp="#geraste">
+					<role>GERASTE, Kapitein van de Lijfwacht.</role>
+				</castItem>
+				<castItem corresp="#soldaeten">
+					<role>SOLDAETEN.</role>
+				</castItem>
+				<p>Het Tooneel is te Tyrus, in't Hof, voor 't vertrek der Koninginne.</p>
+			</castList>
+
+		</front>
+		<body>
+			<div n="1" type="act">
+
+				<head>Astrate, Koning van Tyrus.</head>
+				<head>I. Bedryf.</head>
+				<div n="1" type="scene">
+					<head>Eerste Tooneel.</head>
+					<stage>Agenor, Astrate, Nerbal, Belus.</stage>
+					<sp who="#agenor">
+						<speaker>Agenor,</speaker>
+						<stage>uit d'eene hoek van het Tooneel komende, en ziende uit d'andere
+							Astrate komen, die wêer te rug wil gaen, zo als hy hem ziet.</stage>
+						<l>HOe, schuwtge my Astrate, en mag men niet verstaen</l>
+						<l>Ten minste wat het is, dat u zo weg doet gaen?</l>
+						<l>Waerom mijn komst gemijdt? waer kon ik u mishaegen?</l>
+						<l>Spreek, gaf ik u oit stof om over my te klaegen?</l>
+						<l>Wat ik u schuldig ben, heb ik 't niet wel erkent,</l>
+						<l>En wat gy voor Elize en my hebt aengewent?</l>
+						<l>Dit Rijk, waer uit door wel gelukte afgrijss'likheeden</l>
+						<l>Ons vaders stieten haer gerechtige Overheeden,</l>
+						<l>Zou tegen onzen dank, en zonder uwe daên,</l>
+						<l>Nu onder het gebiedt van onzen vyandt staen.</l>
+						<l>En hadt gy niet gelicht het jok van onze schouders,</l>
+						<l>Zo waeren wy gestraft om 't schelmstuk van onze Ouders.</l>
+						<l>Ik zelf gevangen, en niet hopende als de doodt,</l>
+						<l>Zag hoege in spijt van 't lot mijn ketenen ontsloot;</l>
+						<l>Hoe 't droevig overschot door u den vyandt velde;</l>
+						<l>En gy Elize op 't lest in Troon en Eer herstelde.</l>
+						<l>De Koningin, noch ik, schoon uit Tyrannen bloedt</l>
+						<l>Gedaelt, en groot gemaekt op 't spoor van zulk een voet,</l>
+						<l>Bevonden noit ons hert in quaedt doen zo bedreeven,</l>
+						<l>Om zonder gruwel in ondankbaerheidt te leeven.</l>
+						<l>Wat heeft de Koningin met weeldes overvloedt</l>
+						<l>U niet begunstigt; zo het dankbaere gemoedt</l>
+						<l>Door achting en door gunst zich uitdrukt, zo kan heeden</l>
+						<l>Mijne achting, die ik heb voor uw hoedaenigheeden,</l>
+						<l>En vriendschap, die altijdt gebleeken is in my,</l>
+						<l>Bewijzen, dat ik u beloon naer uw waerdy.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>'t Is lang genoeg, mijn Heer, onwaerdige eer genooten;</l>
+						<l>'k Ben waerdt te zijn uit uw geneegenheit gestooten.</l>
+						<l>Leert beeter kennen 't hert, dat gy zo groot'liks acht,</l>
+						<l>Zo moedig in de schijn, zo teeder in zijn kracht;</l>
+						<l>Dit hert veel schuldiger, als gy het niet zoud denken,</l>
+						<l>Verloochent in zich zelfs al d'eer, die gy 't quaemt schenken;</l>
+						<l>Ly, dat ik schuldig zijnde uw goedertieren aert</l>
+						<l>Ontvluchten mooge, die ik gantslijk niet ben waerdt.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Hoe groot de misdaedt zy, die van u is bedreeven,</l>
+						<l>Uw daeden dwingen my die nochtans te vergeeven.</l>
+						<l>Die 't Rijck weêr opheft, als verreezen uit het graf,</l>
+						<l>Vermag voor 't minst wel eens te dwaelen zonder straf.</l>
+						<l>Wie dat gy ook misdeedt, hy zal zijn tijdt verliezen.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>'t Vergrijp raekt u, mijn Heer, en Koningin Elize.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Hoe, raekt het haer, en my? dit pijnt my; maer de tijdt,</l>
+						<l>Dat ik het konnen zal quijtschelden, is niet wijdt.</l>
+						<l>Gy weet, dat heeden is den dag, dat ik zal trouwen</l>
+						<l>De Koninginne, die 't zo lang heeft opgehouwen,</l>
+						<l>En dat ik, na de wet van 't Koninklik gebodt,</l>
+						<l>De handt der Koninginne en Kroon krijg tot mijn lot;</l>
+						<l>En morgen zal die fiere en minn'lijke Prinsesse</l>
+						<l>Met haer aenlokk'likheên mijn heete minnebresse....</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ach Prins, geslingert door de wanhoop heen en weêr,</l>
+						<l>Vreeze ik (helaes!) te veel te spreeken, zo ik meêr</l>
+						<l>Moet zeggen; dies laet toe, dat ik u mag verlaeten.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor,</speaker>
+						<stage>Astrate ophoudende.</stage>
+						<l>Gy mint de Koninginne: al blijks genoeg, Astrate.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Wijl voor uw oog mijn brandt zijn vonken heeft verspreidt,</l>
+						<l>Ik min, ja, ik beken 't, 'k min met vermeetelheidt;</l>
+						<l>Ik minne teegens dank van 't lot, wiens blinde wetten</l>
+						<l>'t Beliefde tusschen ons zo groot verschil te zetten:</l>
+						<l>Ik min in spijt der trouw, wiens onverbreekbre bandt</l>
+						<l>U morgen binden moet door's Priesters heil'ge handt;</l>
+						<l>Ik min, schoon dat ik schrik te derven, 't geen ik minne;</l>
+						<l>Om meêr te zeggen, 'k min in wêerwil van mijn zinnen:</l>
+						<l>Maer, ondanks uwe trouw, mijn noodtlot, mijn verdriet,</l>
+						<l>En mijn vergeefs geweldt, 'k min doch te minder niet.</l>
+						<l>Verwijt my vry, mijn Heer, deeze onrechtvaerdigheeden.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Het was een noodeloos verwijt, zo ik 't u deede.</l>
+						<l>Het is genoeg, dat gy uw eigen misdaedt proeft.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Om dat te doen, Heer, heb ik niet zeer lang getoeft.</l>
+						<l>'k Heb duizentmaelen, om dees min te weederstreeven,</l>
+						<l>Mijn zelven zoeken aan de reeden t'overgeeven;</l>
+						<l>Al 't geen men trachten kan, deede ik tot deezen dag;</l>
+						<l>Voor 't minst mijn zwakke ziel geloofde 't zeeker, ach!</l>
+						<l>Maer endlijk teegen 't quaedt, 't geen ons zo kan vermaeken,</l>
+						<l>En doet men altijdt niet, het geen men meent te maeken,</l>
+						<l>En om een misdaedt te verdoemen, die men mint,</l>
+						<l>Het weinig, dat men doet, schijnt van een groot bewindt.</l>
+						<l>Ach! toon my reedenen, die mijne moedt wêer boven</l>
+						<l>Doen komen, geef my raadt.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Hoe, zoudt gy my gelooven?</l>
+						<l>Neen, neen; want deeze zucht ontdekt my wat gy dacht:</l>
+						<l>Men volgt geen raedt, wanneer de Raedts man is verdacht;</l>
+						<l>En als men blindt is in zijn eigene gedachten,</l>
+						<l>Een meedeminnaers raedt is van geringe krachten.</l>
+						<l>Indien de Koningin u trof, zy trof my mêe,</l>
+						<l>Het voegt niet, dat ik doeme een lijden, dat ik lêe:</l>
+						<l>'k Hadt onrecht, zo ik dwong die schoone minnestraelen,</l>
+						<l>En haere macht op my alleenlijk wou bepaelen;</l>
+						<l>Een minnaer hou te goede een meedeminnaers brandt.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Daer is niet lichter voor die 't luk heeft op zijn handt;</l>
+						<l>Men lijdt gemakkelik, en zonder eens te zuchten,</l>
+						<l>Een meedevryer, daer men niet hoeft voor te duchten:</l>
+						<l>Maer wat afgrijs'lik quaedt (helaes!) verdraeght hy niet,</l>
+						<l>Die in 't gewenscht bezit zijn meedeminnaer ziet!</l>
+						<l>En dit geluk is u zo wettighlik gegeeven,</l>
+						<l>Dat zonder dootschuldt ik daer niet kan tegenstreeven:</l>
+						<l>Helaes! het geen my heeft betovert, dat moet gy</l>
+						<l>Genieten, zonder dat ik minnenijdig zy;</l>
+						<l>En zonder dat ik durf het wreede lot beklaegen,</l>
+						<l>'t Ontzag, de rêen, en plicht, gebiên 't my te verdraegen:</l>
+						<l>Maer min, en boven al een hoopelooze min,</l>
+						<l>Laet die ontzach, of reên, in een verliefde zin?</l>
+						<l>Straf mijn ondankbaerheit, mijn stoutheit, zonder beiden:</l>
+						<l>Het stuk is u bekent, wilt voorts de straf bereiden,</l>
+						<l>Ik gaze wachten, en uw oog verlossen van</l>
+						<l>Het voorwerp, dat u niet als haet'lik weezen kan.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>II. Tooneel.</head>
+					<stage>Agenor, Nerbal.</stage>
+					<sp who="#nerbal">
+						<speaker>Nerbal.</speaker>
+						<l>Mijn Vorst, lijdt uw gedult zulk een vermeetel spreeken?</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>De tijdt en is noch niet geboren zulks te wreeken.</l>
+					</sp>
+					<sp who="#nerbal">
+						<speaker>Nerbal.</speaker>
+						<l>Hoe, laet gy ongestraft zo onbedacht een zin?</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Wat straf is grooter, als een hoopelooze min?</l>
+						<l>Kan ik zijn ongeluk wel eenigsins vermeêren?</l>
+						<l>Verkrijgen 't geen hy mint, met vreugde triomfeeren,</l>
+						<l>Zelf voor zijne oogen, die gevaerelik, noch gram,</l>
+						<l>De vlagge strijken voor mijn openbaere vlam?</l>
+						<l>En macht-en hoopeloos van wraek noch gramschap blaeken,</l>
+						<l>Ja hem beklaegen, dunkt u dat een kleine zaeke?</l>
+						<l>Doch onder ons, die stoute en reedelooze min</l>
+						<l>Neemt my in 't heim'lik 't hert met spijt en gramschap in:</l>
+						<l>Maer zich bedwingen, en daer niets van blijken laeten,</l>
+						<l>Is hoog noodtzaek'lijk voor die staet na hooge staeten.</l>
+						<l>'k Behoor te weeten, en ik meen ook dat ik 't weet,</l>
+						<l>Een stille Vyandt dreigt ons hooft met straf en leet:</l>
+						<l>En Tyrus hoort ons toe alleen door gruwelstukken,</l>
+						<l>Met hen, dien 't toequam, van hun Erftroon af te rukken.</l>
+						<l>Maer daer is noch een Zoon, een spruit van 't wettig bloedt,</l>
+						<l>Die tot onze ondergang bedekt is opgevoedt:</l>
+						<l>Hoe onbekent hy is, hy doet 'er veele schroomen;</l>
+						<l>En dan Astrate....</l>
+					</sp>
+					<sp who="#nerbal">
+						<speaker>Nerbal.</speaker>
+						<l>Ik zie zijn Vader ginder komen.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>III. Tooneel.</head>
+					<stage>Agenor, Nerbal, Sicheus.</stage>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>DE Koningin heeft my bevolen, braave Vorst....</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>My te verzeek'ren daer mijn ziele zo na dorst?</l>
+						<l>My op een nieuw weêrom in blijdschap uit doen breeken?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Neen, van het teegendeel, heb ik met u te spreeken.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Hoe, zou zy wel de trouw, daer ik met recht op hoop....</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Zy meent ten minsten uit te stellen d'Echte knoop.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Hoe, zou een Huwelik, zelf van de Koninginne</l>
+						<l>Besloten, nut voor 't 't Rijk, en na haers Vaders zinnen,</l>
+						<l>Op zijn gebodt zo lang verwacht, zo lang gespelt,</l>
+						<l>En deezen dag bestemt, noch worden uitgestelt?</l>
+						<l>Met wat voor schijnrêen kan zy deeze uitstelling doopen,</l>
+						<l>Hoe, wacht zy te voldoen mijn eenigst heil en hoopen?</l>
+						<l>Zeit zy de reeden van 't ontijdig weig'ren niet?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Dat dit haer wil is, en dat zy het zo gebiedt.</l>
+						<l>Met u de reed'nen van haer weig'ring voor te draegen,</l>
+						<l>Gelooft zy haere staet en groots heit te verlaegen.</l>
+						<l>Zy wil, dat overal het Koninklik gebodt</l>
+						<l>De plaets van reeden hou, schoon buiten rêen, of slot.</l>
+						<l>'k Ben u te zeer verplicht, om niet met u te voelen,</l>
+						<l>O Vorst, de hoon, daer haer verachtingen op doelen.</l>
+						<l>Toen door uw maegen, in 't gezicht van yder een,</l>
+						<l>De rechte Koning wierdt geschopt, het recht vertrêen,</l>
+						<l>En hy in hechtenis van zijnen Troon gesmeeten,</l>
+						<l>Kan ik de weldaedt van uw Vader niet vergeeten;</l>
+						<l>'k Was, als een onderdaen vol trouwheidt, ook gestraft,</l>
+						<l>Hadt zijn meêlijden mijn vergiff'nis niet verschaft.</l>
+						<l>En seedert dat Elize in onrecht heerscht, en schande,</l>
+						<l>En 't Koninklijke bloedt zich slacht ten offerhande,</l>
+						<l>Indien ik 't mijne noch vry van haer gramschap ken,</l>
+						<l>Weet ik mêer als te wel, dat ik 't u schuldig ben.</l>
+						<l>Hoe vaek ontstalt gyme aen 't vermoeden van Elize?</l>
+						<l>Des weet ik wel, mijn Vorst, wat zy my staet te kiezen,</l>
+						<l>Indien een eedle spijt, om 't geene gy verloort,</l>
+						<l>U port te naesten 't goedt, het welk u toebehoort.</l>
+						<l>Het lacht u alles toe; Elize, na het leeven</l>
+						<l>Haers Vaders, is alleen in 't bloot bezit gebleeven:</l>
+						<l>'t Hof wil een Heer, en volgt zijns ondanks haere wet;</l>
+						<l>'t Gemeen is heel verstoort, dat zy, met bloedt besmet,</l>
+						<l>Op 't graf der Koningen durft haeren Rijkstroon bouwen;</l>
+						<l>Kortom, de Scepter past een Vorst meêr, als een Vrouwe;</l>
+						<l>Hoe zoet is 't, datge u zelf, 't zy 't haer behaegt of spijt,</l>
+						<l>Kunt kroonen, en de staf haer geensins schuldig zijt.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Ach! durft mijn hert iets doen tot spijt der Koninginne?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Zeg eêr, durft iemant wel iets teegen u beginnen?</l>
+						<l>'t Is al voor u, het Hof, en 't Leeger, zo gy ziet:</l>
+						<l>Niet is voor haer.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Helaes! is dan de liefde niet?</l>
+						<l>Mijn wensch doelt op haer hert, zo wel als op de krooning;</l>
+						<l>Dat goet, verdeelt, is geen vernoegende belooning;</l>
+						<l>Zo dat ik 't liever af wil wachten noch zo lang,</l>
+						<l>En krijgen 't bêi door gunst, als een van bêi door dwang.</l>
+						<l>Ga heen, Sichëus, ga, en zeg de Koninginne,</l>
+						<l>Dat zy my na haer lust laet quijnen in de minne;</l>
+						<l>Dat het haer Rijk niet is, daer ik mijn heil in vind',</l>
+						<l>En dat men alles lijdt, wanneer men recht bemint.</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>IV. Tooneel.</head>
+					<stage>Sicheus, Bazore, Nicogenes.</stage>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>'k VErwachte van de Prins een hert min neêrgeboogen:</l>
+						<l>'k Dacht, dat de kroon hem meêr verleit hadde, als haer oogen;</l>
+						<l>En deeze uitstelling voedde een hoop in mijnen zin,</l>
+						<l>Dat ik van deezen dag zou zien de Koningin</l>
+						<l>Gescheiden met de Prins.</l>
+					</sp>
+					<sp who="#bazore">
+						<speaker>Bazore.</speaker>
+						<l>Men zal uw daeden kroonen,</l>
+						<l>Indien 't geluk u maer de minste hulp wil toonen:</l>
+						<l>Uw aenslag is wel goedt, uw onderstaen vol lof;</l>
+						<l>Maer, Heer, men moet vooreerst der dwingelanden Hof</l>
+						<l>Verwarren; anders is niets zeekers te beginnen.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Spreek zacht, wy zijn hier in 't Paleys der Koninginne;</l>
+						<l>Mistrouwen wy van all's; maer 'k zie haer zelve, en meen,</l>
+						<l>Dat zy my spreeken wil.</l>
+					</sp>
+				</div>
+				<div n="5" type="scene">
+					<head>V. Tooneel.</head>
+					<stage>Elize, Sicheus, Geraste, Corisbe, Nicogenes, Bazore, Gevolgh.</stage>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>MEn laet ons beide alleen.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>De Prins weet uwe wil; en schoon zy hem ontstelde,</l>
+						<l>Ik zagh niet dat hy zich in 't minst daer teegen stelde.</l>
+						<l>Hem biedende mijn dienst, heb ick vergeefs gezocht,</l>
+						<l>In 't peylen van zijn hert, te weeten wat hy docht;</l>
+						<l>Doch 't zy hy wantrouwt, of verwaereloost mijn raeden,</l>
+						<l>'k Heb niet in hem bespeurt, als ootmoedt zonder gade:</l>
+						<l>Maer zulk een diep ontzach, zo 'k oordeel uit den schijn,</l>
+						<l>Is al te zeer gemaekt, om niet verdacht te zijn.</l>
+						<l>Die zo gerust schijnt, als men al zijn heil komt krenken,</l>
+						<l>In plaets van wech te doen, geeft meerder achterdenken;</l>
+						<l>Als d'ingekropte spijt eens uitbarst, woedt zy 't meest.</l>
+						<l>Hoe stilte grooter is, hoe meer men 't onweer vreest.</l>
+						<l>De Prins heeft macht genoeg, en aenzien, om vermeetel</l>
+						<l>Te weezen; eene trap dunkt hem slechts van den zetel</l>
+						<l>Te scheiden, die men licht betreet met eene stap.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Zo veel de Troon betreft, is 't veel die eene trap;</l>
+						<l>Wat aenslag dat hy smeede, eer die volbracht zal weezen,</l>
+						<l>Is zy doch ver genoeg, om noch den val te vreezen.</l>
+						<l>Die zich vaek inbeelt, dat hy op het hoogste blinkt,</l>
+						<l>Is licht'lik allernaest aen zijnen val, en zinkt:</l>
+						<l>'k Beken, Sichëus, wijl ik maeken moet een Koning,</l>
+						<l>Dat ik 'er een begeer, die waerdig zy der krooning,</l>
+						<l>Die 't Koninklik gezag beschutte voor zijn val,</l>
+						<l>En die den Troon bescherm, daer ik hem plaetsen zal.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Ik dank den heemel, die uws Majesteyts gedachten</l>
+						<l>Zo vormt, dat zy alleen het nut des Rijks betrachten,</l>
+						<l>Op welk naburig Prins uw keur ook vallen moght....</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize</speaker>
+						<l>'k Maek Koning, dien ik wil; waerom zo ver gezocht?</l>
+						<l>'k Begeer een Koning, naer mijn eigen zin, en oordeel,</l>
+						<l>'k Wil dat hy van mijn handt alleen heb zulk een voordeel,</l>
+						<l>Dat hy alleen aen my verschuldigt zy de kroon;</l>
+						<l>Kortom, dees groote keur betreft alleen uw Zoon.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Mijn Zoon, Mevrouw?</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Hoe, zijt ge ontroert? wat hebt ge 'er teegen?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Dit al te groot geluk maekt my geheel verleegen,</l>
+						<l>Mevrouw, en 't scheelt niet veel, of 't Vaderlik gemoedt</l>
+						<l>Zou schuldig toestaen het genot van zulk een goedt,</l>
+						<l>Zou licht vergeeten, met al t'onbedachte zinnen,</l>
+						<l>Ter gunst van mijnen Zoon, 't belang der Koninginne:</l>
+						<l>Ten waer mijn plicht my dwong, dat ik haer Majesteit</l>
+						<l>Vertoon het groot gevaer, daer haer haer keur in leidt.</l>
+						<l>Hoe? meentge, dat de Prins het kroonrecht zou verlaeten,</l>
+						<l>Ten zyge een Koning stelt uit Koninklijken staete,</l>
+						<l>Die onder uwen voet brengt alle muitery,</l>
+						<l>En boven uwe hoop stelle uwe heerschappy?</l>
+						<l>De Prins vlamt op den Troon, met al te groot een reeden,</l>
+						<l>Om goets moedrs aen te zien, te lijden, dat zijn steede</l>
+						<l>Werde ingenomen van een ander; ja de stem</l>
+						<l>En keur uws Vaders doelde, en viel alleen op hem;</l>
+						<l>Het gantsche Hof, dat om den Prins zwiert, alle dagen</l>
+						<l>Hem navolgt, zal het lijf met yver voor hem waegen,</l>
+						<l>En zijn bevestigt Recht handthaven tot de kroon.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Men loopt na zijn fortuin, en niet na zijn persoon:</l>
+						<l>Hem volgen, die hem haer toekomend Koning achten,</l>
+						<l>Zo 't mist, zo zal men hem verlaeten, en verachten;</l>
+						<l>Indien de Prins oit recht op my hadt, dat's gedaen,</l>
+						<l>Want hy verloor dat in het leste van ons slaen;</l>
+						<l>Wanneer dat hy my dwong, verliezende twee slagen,</l>
+						<l>Zelfs binnen deeze wal het stormen te verdraegen.</l>
+						<l>'t Geweldt der Siriers veroverde de kroon,</l>
+						<l>Die Vader aen de Prins hadt toegezeit, als zoon;</l>
+						<l>De Prins verbonden om de zelve te verweeren,</l>
+						<l>Most haer oprechten, zo hy haer niet wilde ontbeeren.</l>
+						<l>Een ander kost het doen, en heeft het zelve Recht;</l>
+						<l>En endelijk mijn Troon is niet, gelijkze pleght:</l>
+						<l>Het is geen Troon meêr, die men d'Erfvorst quam t'ontrukken,</l>
+						<l>Gemetselt in zijn bloedt, gegrondt op gruwelstukken;</l>
+						<l>'t Is een gewonnen Troon, daer uw doorluchtig zaedt</l>
+						<l>My heeft gezet, in spijt van die het spijt, en haet.</l>
+						<l>Een Troon gezuivert door het vuur der Oorelogen,</l>
+						<l>En door een heldenhandt uit zijnen val getoogen,</l>
+						<l>Gemaekt van 't overschot eens Rijks, ter neêr geleit;</l>
+						<l>En die ik schuldig ben aen zijne dapperheidt.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Hy was gelukkig, maer 't geluk kan zich verwennen;</l>
+						<l>En alhoewel mijn zoon my waerdt is, 'k moet hem kennen:</l>
+						<l>Gy denkt niet, datge u zelf op 't hoogst hier in misdoet,</l>
+						<l>Wijl hy met u zo ver verscheelt in staet en bloedt.</l>
+						<l>Hy heeft een moedig hert, dat niemandt hoeft te wijken;</l>
+						<l>Doch is geen Prins van 't bloedt, noch heerscht geen Koninkrijken.</l>
+						<l>Hy heeft niet staets genoech tot zulk een grooten eer.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Maer hy heeft deugdts genoech, en die gebreekt my zeer.</l>
+						<l>Door schellemstukken quam de Kroon in ons geslachte,</l>
+						<l>Die ik, zo ikze ontfing, zo te bewaeren trachte:</l>
+						<l>Ja, Vaders ongelijk hadt by het mijne niet:</l>
+						<l>Met 's rechten Konings doodt begon mijn Rijksgebiet:</l>
+						<l>Het wettig hooft van 't Rijk, al vijftien jaer gevangen,</l>
+						<l>Geen hoop meêr hebbende, de vryheidt weêr t'erlangen;</l>
+						<l>Zo kreeg ik zijn party, door mijn Heer vaders doodt</l>
+						<l>Nu weeder opgewekt, met schrikkelik en groot</l>
+						<l>Geweldt op mijnen hals: des moest ik in dit woeden,</l>
+						<l>De bron verdelgen, om geen quaedt gevolg te voeden.</l>
+						<l>'k Belette dus dien loop; En dees rampzaelge Vorst</l>
+						<l>Liet ik met bêi zijn zoons het stael gaen door de borst.</l>
+						<l>De derde, die men heeft van kindtsbeen af versteeken,</l>
+						<l>Verborgen in mijn Rijk, leit toe om zich te wreeken:</l>
+						<l>Ik heb'er tijding af, en na ik kan verstaen,</l>
+						<l>Is teegen my het volk voor hem al opgestaen.</l>
+						<l>De Prins my trouwende, ver van my te behoeden,</l>
+						<l>Vermeêrderde daer door het vreesselike woeden</l>
+						<l>Van 't muitendt volk veel eêr, indien alleen de stam</l>
+						<l>Der dwingelanden in 't bezit der Kroone quam.</l>
+						<l>My is een Bruidegom van nooden, die grootmoedig</l>
+						<l>My aen zijn deugden trouwe, en afwasch van mijn bloedig</l>
+						<l>En goddeloos bestaen, mijn Rijk voor muitery</l>
+						<l>Bewaere, en van den toorn der Goden my bevry.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Uw gunst doet u te veel van mijne zoon gelooven,</l>
+						<l>Mevrouw, uw achting gaet zijn oorlogsdeugdt te boven;</l>
+						<l>Agenor wordt te zeer verstooten en gehoont,</l>
+						<l>En veel met hem, indien Astrate werdt gekroont.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Wanneer het my niet scheelt, wat kan het u doch schaden?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>'k Dacht mijne plicht te zijn haer Majesteit te raeden,</l>
+						<l>Als onderdaen.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Ik bidde u, datge in deeze tijdt</l>
+						<l>Wat minder onderdaen, wat meerder vader zijt.</l>
+						<l>Wilt nu uw blijdschap met Astrates glory mengen.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Hy's u te veel verplicht, 'k ga hem de tijding brengen.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Neen, ik wil zelve zijn geluk hem doen verstaen,</l>
+						<l>En speuren, hoe hem dit zal aen het herte gaen.</l>
+						<l>Wilt onderwijl, zo veel gy kunt, voorzichtig weezen,</l>
+						<l>Om mijnen vyandt op te zoeken, dien wy vreezen.</l>
+						<l>'t Orakel van Jupijn om raedt gevraegt, zal licht</l>
+						<l>In deeze duisternis verklaeren ons gezicht:</l>
+						<l>'k Verwacht het antwoordt, dat ik hoop alle oogenblikken;</l>
+						<l>Het sammelt, en 't gevaêr doet my gestadig schrikken.</l>
+						<l>Mijn vyandt staet misschien al vaerdig tot mijn straf:</l>
+						<l>Maer stieren wy hem, eêr hy 't ons doe, na het graf.</l>
+						<l>Het eene schelmstuk moet het wit van 't ander breeken;</l>
+						<l>Ik heb te veel gedaen, om 't zo te laeten steeken;</l>
+						<l>Een halve misdaedt is gevaerlik, ik begeer</l>
+						<l>Niet steets te vreezen, om een misdaedt min of meêr.</l>
+						<l>'k Bevind' my in een staet, daer ik my moet verweeren</l>
+						<l>Voor yder een, die my daer uit zou willen keeren:</l>
+						<l>Adraste, en bêi zijn Zoons, die konnen my de kroon</l>
+						<l>Ontrukken, des was 't my noodtzaeklik haer te dôon.</l>
+						<l>'k Had garen 't Vorst'lik bloedt gespaert, maer 't kon niet weezen.</l>
+						<l>Bloedtstorting in zich zelf doet ons gemeenlik vreezen;</l>
+						<l>Ook kantte zich mijn deugdt wel teegen haere doodt:</l>
+						<l>Maer stondt mijn doodt niet vast, zo 'k haere niet besloot?</l>
+						<l>Het inzicht van mijn staet, doet me om my vast te stellen,</l>
+						<l>Voor schadelijke deugdt, na noodige ondeugdt hellen.</l>
+						<l>Dat zellefde inzicht van den staet begeert van my,</l>
+						<l>Naer al 't vermoordt geslacht, den lesten zoon daer by.</l>
+						<l>Dat inzicht wil, dat ik alleene moet betrachten,</l>
+						<l>My te beschermen met deez' offerhandt te slachten.</l>
+						<l>Het noodtlot van mijn stam, hoewel 't de deugdt niet past,</l>
+						<l>Rukt my van 't weldoen af, bindt my aen 't quaedt doen vast,</l>
+						<l>En doet my klaerlik zien, dat niet altijdt de menschen,</l>
+						<l>(Zo wonder is 't geval) al 't goedt doen, dat zy wenschen.</l>
+						<l>Des paer u aen mijn lot, als ik me aen uwen zoon,</l>
+						<l>En hou de handt aen 't quaedt, waer van hy trekt het loon.</l>
+						<l>Kom, zoek den Vyandt, die ons beide staet te vreezen,</l>
+						<l>Dewijl mijn ondergang u doodelik zou weezen:</l>
+						<l>Want zonder uwe schâ kan my geen leedt geschiên.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Ik weet mijn plicht te wel, om 't werk niet in te zien.</l>
+					</sp>
+					<stage>Einde van 't I. Bedrijf.</stage>
+				</div>
+			</div>
+			<div n="2" type="act">
+
+				<head>II. Bedryf.</head>
+				<div n="1" type="scene">
+					<head>Eerste Tooneel.</head>
+					<stage>Elize, Corisbe.</stage>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Mijn zorg is tot haer wit ten lesten doorgebroken;</l>
+						<l>Mijn offer heeft behaegt, en Hammon heeft gesproken;</l>
+						<l>Wel traeg, maer door mijn schuldt: dewijl ik voorbedacht</l>
+						<l>'t Geheim aen my alleen wou hebben toegebracht,</l>
+						<l>Om des te veiliger te mogen eerst besluiten,</l>
+						<l>Of my dat dienstiger te zwijgen was, of t'uiten:</l>
+						<l>Maer gy, voor wien de grondt mijns boezems open leit,</l>
+						<l>Corisbe, kom vry zien wat ons 't Orakel zeit:</l>
+						<l>Of 't zich in mijne gunst geneigt zal laeten vinden,</l>
+						<l>Of in de gunst van hem, die zich durft onderwinden</l>
+						<l>Mijn heimelik verderf. 't Geluk, als opgevoedt</l>
+						<l>Met my van kints been af, belooft my niet als goedt.</l>
+					</sp>
+					<sp who="#orakel">
+						<speaker>Orakel.</speaker>
+						<l>Uw Hof kan u alleen gewisse tijding geeven</l>
+						<l>Van hem, dien 't hoog besluit gespaert heeft tot uw val.</l>
+						<l>'t Noodtlottig uur, waer in hy zich ontdekken zal,</l>
+						<l>Genaekt vast, met het endt van uw gebiedt en leeven.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Helaes, wat antwoordt, wat besluit is dit, Mevrouw!</l>
+						<l>Hoe, het geluk voorheen u altijdt gunstig, zou</l>
+						<l>'t Nu van u wijken, en uw trotze moedt verlaeten?</l>
+						<l>Dat waer te slinks een keer voor uw gevleide staeten.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Geensins, Corisbe; 't lot heeft my voorheen gevleit;</l>
+						<l>Indien het my nu dreigt met weederwaerdigheidt,</l>
+						<l>Het doet daer in niet nieuws; dat zijn zijn oude streeken.</l>
+						<l>Het most noodtzaekelik, met eens te wiss'len, breeken</l>
+						<l>Zijn lang genooten gunst: of looch'nen zijnen aert,</l>
+						<l>Die met de wisselzucht onscheid'lik is gepaert.</l>
+						<l>Ik ben die niet, die my zal van het lot beklaegen,</l>
+						<l>Die lafheidt kan misschien een zwakke ziel behaegen;</l>
+						<l>Maer een verheeven ziel blijft vry, en onvertsaegdt,</l>
+						<l>En tart veel eer het lot, als dat z'er over klaegt.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Zo zou een manlik hert, als ons de Goden dreigen,</l>
+						<l>Tot geenerhande blijk van vrees zich moogen neigen?</l>
+						<l>Zou dat een schande zijn? maer hoort gy 't noodtbeschik</l>
+						<l>Van uwen zeek'ren val wel zelve zonder schrik,</l>
+						<l>En zonder beeven aen?</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Waerom toch zou ik beeven?</l>
+						<l>Want zo mijn zeek're val daer boven is beschreeven,</l>
+						<l>Mijn vrees zal my geensins bevryden voor den slag.</l>
+						<l>Of meent gy, dat men door een laffe zorg vermag</l>
+						<l>'t Onwisselbaer besluit der Goden te verzetten?</l>
+						<l>O Neen! die laffe zorg zou ons veel eêr beletten</l>
+						<l>Na midd'len om te zien, waer van zo 't mooglik waer</l>
+						<l>Men zich noch dienen kost in een verwacht gevaer.</l>
+						<l>Zo iemandts ongeluk hem op een steilte plaeste,</l>
+						<l>Met vreeze voor den val, de vrees zou die verhaesten.</l>
+						<l>'t Orakel heeft zijn loop al meêr als eens geweest</l>
+						<l>Verschuldigt aen 't verzuim van die het heeft gevreest:</l>
+						<l>Daer in het teegendeel, indien 't geen vrees gemaekt hadt,</l>
+						<l>Of aen zijn uitslag noit, of al te laet geraekt hadt.</l>
+						<l>Doch als men zijn bederf ziet onver my delijk,</l>
+						<l>Van een standtvaste ziel te geeven eeuwig blijk,</l>
+						<l>'t Lot in te volgen, en geen Goôn te weederstreeven,</l>
+						<l>Is 't zeekerste beleidt van een doorluchtig leeven.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Die eedele gedachte, en wonderlijke moedt,</l>
+						<l>Verdienden wel in u wat minder teegenspoedt,</l>
+						<l>En in de Goden, die zo lang haer macht besteeden</l>
+						<l>Aen uw geluk, wat meêr standt vastigheidt en reeden,</l>
+						<l>Gy hebt baldadig noit haer gramschap, of haer haet</l>
+						<l>Gevordert. Heeft de zorg voor u en uwen staet,</l>
+						<l>Uws ondanks, u getoont strafvaerdig en verbolgen,</l>
+						<l>'t Was noodtdwang; die is elk genoodt zaekt in te volgen.</l>
+						<l>Maer buiten die kan zich geen mensch in 't Koninkrijk</l>
+						<l>Beklaegen, dat gy hem deedt eenig ongelijk.</l>
+						<l>Alleen Agenor heeft, gelijk gy zelf kunt gissen,</l>
+						<l>Recht stof tot klaegen, nu gy hem zo lang doet missen</l>
+						<l>'t Bezit van uw persoon, door 't uitstel van uw trouw;</l>
+						<l>Gy weet, zijn klachte is niet onreedelik, Mevrouw.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>'k Beken, Corisbe, dat mijn hert aen niemandt nader</l>
+						<l>Behoort, als hem, door wil en order van mijn vader;</l>
+						<l>En dat het noodtlot, om ons maegschap, en ons bloedt,</l>
+						<l>Goedtwilliglik voorheen zijn vlammen heeft gevoedt:</l>
+						<l>Maer nu hy my door dwang moet zoeken te behaegen,</l>
+						<l>En ik hem door bevel gedwongen liefde draegen,</l>
+						<l>Nu draeg ik hem geen liefde, en hy behaegt my niet.</l>
+						<l>Een fiere ziel erkent geen ander mans gebiedt,</l>
+						<l>Wanneer zy minnen wil. Een liefde, pas te vooren</l>
+						<l>Door eigen vryheidt aengekoestert, zal zich smooren,</l>
+						<l>Wanneer zy door den dwang moet worden vast gestelt.</l>
+						<l>De Liefde luistert nôo na toomen van geweldt;</l>
+						<l>z'Is in haer zelven vry, voor alles op de Troonen,</l>
+						<l>Daer kan de zinlikheit haer eigen maeksel kroonen,</l>
+						<l>Daer keurt zy alles, wat zy minnens waerdig vindt.</l>
+						<l>Het hert mint zelden, daer de dwang ons toe verbindt.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>'k Beklaeg nochtans den Prins, hy mint.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Dat kan wel weezen,</l>
+						<l>Maer kunt gy in den staet, waer toe ik ben gereezen,</l>
+						<l>Wel zeggen, of hy my of mijne kroon bemint?</l>
+						<l>Hier komt hy; hooren wy, hoe hy zich thans bevindt.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>II. Tooneel.</head>
+					<stage>Agenor, Elize, Corisbe.</stage>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>ZO in den droeven standt, waer in ik door uw orden</l>
+						<l>Verstrikt leg, my de hoop van noch gehoort te worden</l>
+						<l>Niet mêe benomen is....</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Eêr dat gy verder gaet,</l>
+						<l>Wil ik, dat gy my mijn belang eerst zeggen laet.</l>
+						<l>Ik gun zeer gaerne 't oor aen al mijn onderzaeten:</l>
+						<l>Die gunsten kan geen Vorst met reeden achterlaeten;</l>
+						<l>Maer dien het werdt vergunt, dient ook wel toe te zien,</l>
+						<l>Dat hy het niet misbruik, gelijk gy zoudt misschien.</l>
+						<l>Gy zijt vergramdt zo 't schijnt, en zo gy meent, met reeden.</l>
+						<l>Een drift dus aengestookt kon licht'lik overtreeden</l>
+						<l>De paelen van uw plicht: en 'k heb van mijne zy</l>
+						<l>Te zorgen voor 't gezach van mijne Heerschappy.</l>
+						<l>Niets kan een Koning, als met zijne smaedt, verdraegen,</l>
+						<l>Zijn recht is teer, en 't quetst, al wat hem kan mishaegen.</l>
+						<l>Ik wilde, dat gy zoudt vooraf zijn onderrecht</l>
+						<l>In deeze staetles: spreek nu vry; ik heb gezeght.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Een breideloos geweldt komt mijne ziel bestormen,</l>
+						<l>'t Vermoordt my, ik beken 't, en komt my heel hervormen;</l>
+						<l>Maer denk niet, dat het quetse in 't minst uw fiere zin,</l>
+						<l>Het is de gramschap niet, Mevrouw, het is de min.</l>
+						<l>'k Merk altewel waer 't u belieft op toe te leggen,</l>
+						<l>En wat het staêg verleng van onze trouw wil zeggen.</l>
+						<l>Ik weet wel, dat de trouw niet aengenaem kan zijn</l>
+						<l>Met iemandt, die mishaeght. Ik zie wel, dat al mijn</l>
+						<l>Gedult, en liefde, en trouw u noit het hert zal neigen,</l>
+						<l>En acht het daerom tijdt, dat ik my, om mijn eigen</l>
+						<l>Onwaerdiheydt alleen, uw gunst onwaerdig ken;</l>
+						<l>De wijl 't uw schuldt niet is, dat ik onwaerdigh ben.</l>
+						<l>Hoewel uws Vaders wil mijn hoop zou konnen voeden,</l>
+						<l>Zo heb doch van mijn liefde in 't minste geen vermoeden,</l>
+						<l>Dat zy zich dienen zal van dwingende gebôon,</l>
+						<l>Zy is al t'êel, en zoekt uw hert meêr, als uw Kroon.</l>
+						<l>Men doet geen overdraght van herten by geschrifte</l>
+						<l>De gifte van een hert dat is een vrye gifte.</l>
+						<l>En schijnt u lichtelik uw Vaders wil te straf,</l>
+						<l>Stel my alleen niet uit, maer sla my gantschlik af.</l>
+						<l>Ik ga mijn recht af, om al 't recht aen u te geeven.</l>
+						<l>Kies hem, dien 't lukken zal in uwe gunst te leeven,</l>
+						<l>Voor opperheer. U past geen onbegunstigt man.</l>
+						<l>Hem komt de Kroon alleen, die u behaegen kan.</l>
+						<l>Ontrek my gunst en Kroon, en doe het zonder vreezen,</l>
+						<l>'k Zal, spijt uw ongenâ, u niet weêrspannig weezen;</l>
+						<l>U, wiens aenbidd'lik schoon, en wettelik gezag,</l>
+						<l>Al, wat gy wilt op my, uw dubb'len slaef, vermag.</l>
+						<l>Hoe lastig my mijn hoop verbeeldt de slavernye,</l>
+						<l>Gewoonte en liefde zal my die met vreugdt doen lyen.</l>
+						<l>Het heerschen was mijn hoop, gehoorzaam zijn mijn plicht,</l>
+						<l>Mijn liefde ontzeit my 't een, en maekt my 't ander licht;</l>
+						<l>En noit is iemant in zijn plicht te kort gebleeven,</l>
+						<l>Die daer toe, zo als ik, door liefde wierdt gedreeven.</l>
+						<l>Kies dan vry onbeschroomt een Koning na uw zin:</l>
+						<l>Alleen, zo 't mooglik is, denk, dat ik u bemin;</l>
+						<l>En dat, indien men iets verdienen kan met minnen,</l>
+						<l>Ik immers niet verdien daer mêe uw haet te winnen.</l>
+						<l>Meêr zeg ik niet, en om een volle vryigheidt</l>
+						<l>Te geeven aen de keur, die u op 't herte leit,</l>
+						<l>Zo ga ik met verlof; en zal niet weederkeeren,</l>
+						<l>Voor dat my is bekent het slot van uw begeeren.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>III. Tooneel.</head>
+					<stage>Corisbe, Elize.</stage>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Nu hebt gy 't na uw wensch, nu zijt gy immers vry,</l>
+						<l>En aen de Prins niet meêr verplicht.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Wat tiranny,</l>
+						<l>Wat onrechtvaerdigheidt zou my zo ver beleezen,</l>
+						<l>Dat ik gelooven zou niet meêr verplicht te weezen</l>
+						<l>Aen hem, die alles doet voor my wat doenlik is?</l>
+						<l>Acht gy mijn ziel zo vreemdt van eed'le ontsteltenis,</l>
+						<l>Dat haer geen braeve daedt beweege? en zoudt gy meenen,</l>
+						<l>Dat op mijn fier gemoedt, en op mijn Kroon met eenen,</l>
+						<l>'t Geweldt der liefde van zo groot een onderdaen</l>
+						<l>Geen grooter recht heeft, als hy my heeft afgestaen?</l>
+						<l>Corisbe, mijne ziel is zeer gevoelig van de</l>
+						<l>Grootmoedigheidt: zy acht het d'allergrootste schande</l>
+						<l>Die niet t'erkennen; maer, hoe ik my dit verbeeld',</l>
+						<l>Ik vrees, dat hier bedrog en staetzucht onder speelt.</l>
+						<l>Agenor was zo groot van deugdt noit, daerenboven</l>
+						<l>Is waere liefde slecht, zy kent noch kunst van hooven,</l>
+						<l>Noch van welspreekendheidt, als dieze zich ontleent.</l>
+						<l>'t Was al te wel gezeidt, om wel te zijn gemeent.</l>
+						<l>En immers, om voor u mijn hert recht uit te spreeken,</l>
+						<l>Al was 't al wel gemeent, zijn kans is nu verkeeken.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Gy hebt Sichëus zelf, ter gunste van zijn Zoon,</l>
+						<l>Al meenigmael gevleit met hoop van uwen Troon;</l>
+						<l>En met groot recht: zy zijn aenzienlik in uw staeten,</l>
+						<l>De Vader by uw Volk, de Zoon by uw Soldaeten.</l>
+						<l>Gy hebt haer bêi van doen, zo gy de laegen zoudt</l>
+						<l>Ontwijken, die u ons bedekte Vyandt brouwt.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Ik haet dien Vyandt wel, zo veel ik hem kan haeten,</l>
+						<l>'k Vrees hem niet minder; maer het geen my aen Astrate</l>
+						<l>Verplicht, is vry wat meêr.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Misschien zijn dapperheidt,</l>
+						<l>Die u de Kroon behieldt, verdiende uw dankbaerheidt?</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>'t Is dwang, geen dankbaerheidt.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Mevrouw? gy doetme vreezen,</l>
+						<l>Zou 't liefde zijn?</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Waerom zou 't geene liefde weezen?</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Heeft dan het streng gebiedt van uwe fierheidt uit,</l>
+						<l>En is 'er iets bequaem te buigen uw besluit?</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Men moet om fier te zijn niet ongevoelig weezen;</l>
+						<l>Geen opzet is zo vast, dat door een uitgeleezen</l>
+						<l>Verdienste niet en wordt ten lesten omgezet.</l>
+						<l>Weet, dat een fier gemoedt, dat tot de liefde met</l>
+						<l>Veel moeite wordt gebraght, te heeviger zal minnen.</l>
+						<l>Alwaer de liefde met geweldt moet overwinnen,</l>
+						<l>Daer werdt zy sterk, na min of meerder teegenstandt:</l>
+						<l>En dit 's dat het geluk des Prinsen teegenkant;</l>
+						<l>Dit is het dat Astrate in keur by my doet voorgaen.</l>
+						<l>Corisbe, laet het u niet al te wonder voorstaen,</l>
+						<l>Dat ik u dit geheim niet vroeger heb ontdekt:</l>
+						<l>Ik heb het voor my zelve een lange wijl bedekt.</l>
+						<l>Mijn hoogmoedt had zich zelf verraeden, door 't vermeeten,</l>
+						<l>Dat zich de liefde aen my noit durven zou vergeeten:</l>
+						<l>Ik vreesde voor geen liefde, en die onachtzaemheidt</l>
+						<l>Die braght haer, onder schijn van plicht en dankbaerheidt,</l>
+						<l>Maer allebêi verzelt met ongeruste zinnen,</l>
+						<l>Eêr ik haer kennen kost, in mijne ziel, hier binnen;</l>
+						<l>En zelve wist ik niet, hoe ver ik was vergist;</l>
+						<l>Of drong my zelven op, dat ik het niet en wist.</l>
+						<l>De liefde midlerwijl, hoewel van klein vermoogen</l>
+						<l>En zwak in haer begin, groeide onder dit bedroogen</l>
+						<l>En avrechts oordeel op in groote en kracht, tot dat</l>
+						<l>Zy 't allergrootste deel van mijne ziel bezat:</l>
+						<l>En quam, verzeekert van geheel te triomfeeren,</l>
+						<l>Mijn fiere grootsheit in het openbaer braveeren.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>De tijding van die liefde is my wel onverwacht;</l>
+						<l>Ik dacht de staetzucht hadt alleen u in haer macht.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Twee tochten tot mijn hart gelijk'lik ingelaeten,</l>
+						<l>Van dat ik kennis kreeg, de staetzucht en Astrate</l>
+						<l>Beheersten mijne ziel bêi zonder onderscheidt,</l>
+						<l>Van krachten eeven groot, maer niet van duurzaemheidt.</l>
+						<l>De staetzucht bleef bepaeldt, de liefde daerenteegen</l>
+						<l>Wies aen van uur tot uur; zo dat zy my de wegen,</l>
+						<l>Zelf door de ramp van zo veel Koninklike dôon,</l>
+						<l>Alleen gebaent heeft voor Astrate, tot de Kroon.</l>
+						<l>Die Heldt scheen met een Kroon zo wel te zullen paeren,</l>
+						<l>Dat ik na 's Konings doodt zijn kind'ren niet wou spaeren,</l>
+						<l>Om tot zijn liefde vast in mijn besluit te gaen;</l>
+						<l>'k Heb 't alles om Astrate, en niets om my gedaen,</l>
+						<l>En al het Staetsbelang, dat my hier in geriefde,</l>
+						<l>Was in der daedt niet, als een misdaedt van de liefde.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>'k Weet, dat Astrate u mêe ten uitersten bemint.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Ik weet het ook, hoewel hy noit zo onbezindt</l>
+						<l>Geweest is, van het my by monde t'openbaeren.</l>
+						<l>Hy heeft altoos gezocht die achting te bewaeren,</l>
+						<l>Die hy my schuldig was, en al zijn hoop gevleit</l>
+						<l>Met eeuwig te vergaen in zijn stilzwijgendheidt.</l>
+						<l>Maer aen een minnendt hert geen tolken oit ontbreeken,</l>
+						<l>En schoon de tonge zwijgt, zo konnen d'oogen spreeken.</l>
+						<l>Een minnaer, die zijn tong tot stom te zijn verkracht,</l>
+						<l>Zeit meêr, als al te veel, aen iemandt, die wel acht</l>
+						<l>Op zijn gebaeren slaat: men wil vergeefs bedelven</l>
+						<l>'t Geen openbarst alom, al waar 't door 't zwijgen zelve.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Maer zeg toch, had Astrate u met wat min ontzag</l>
+						<l>Bejeegent, en zijn min doen komen aen den dag;</l>
+						<l>Zo hy door min geperst wat minder had gezweegen,</l>
+						<l>Had hy hier door, Mevrouw, uw bittren haet verkreegen?</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Hy had het wel behoort; of groff'lik zich vertast:</l>
+						<l>Hem komt geen spreeken toe, daer 't eerste woordt my past.</l>
+						<l>Ik weet, hoe wel het voegt aen 't vrouwelik geslachte,</l>
+						<l>Dat uit des Minnaers mondt men 't eerste woordt verwachte,</l>
+						<l>En dat een vrouw, hoe sterk verlieft, en hoe gewis</l>
+						<l>Van wêermin, noch haer brandt bedek, zo 't mooglik is,</l>
+						<l>En 't jawoordt niet, als na het uiterst poogen, geeve:</l>
+						<l>Maar ik ben boven 't lot van ons geslacht verheeven;</l>
+						<l>Ik heersch, en niet als vrouw, maer wel als Koningin;</l>
+						<l>'k Heb my een eigen wet gemaekt, waer na ik min.</l>
+						<l>Geen Koninginnen, die een Rijk gebiên, behooren</l>
+						<l>Zich aen een ydle vrees van vrouwcschaemt te stooren.</l>
+						<l>Astrate is mijn Vassaal, en d'opperheerschappy</l>
+						<l>Verbindt hem aen de wet, maer zy ontschuldigt my.</l>
+						<l>Wat hertstoght hem beweeg', hy moetze zien te toomen,</l>
+						<l>My komt het toe, 't past my, hem hier in voor te komen,</l>
+						<l>En zelve 't groote woordt te geeven in den mondt.</l>
+						<l>Zijn liefde maek zo lang met zijne plicht verbondt;</l>
+						<l>Hy minne met ontzag, tot ik dat zelve slaeken,</l>
+						<l>En zijn geneegenheidt tot spreeken stout zal maeken.</l>
+						<l>Hy berge zijne vlam zorgvuldig, want om die</l>
+						<l>In 't licht te brengen, moet hy wachten, tot hy zie,</l>
+						<l>Dat ik hem minne. 'k Ga dit werk dan zo beleggen.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Heeft dan Agenors min niet meêr by u te zeggen?</l>
+						<l>Wert hy dus onverwacht bedrayt in 't ongeluk,</l>
+						<l>En ziet hy uyt de min gereezen al zijn druk?</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>'k Vergat hem reets, ei breng hem weeder in mijn zinnen;</l>
+						<l>Hy heeft te veel gedaen voor my, dat ik zijn minne</l>
+						<l>Niet zou begunstigen, en hem zo licht verliet.</l>
+						<l>Maer....</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Wat houdt u terug!</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Ziet gy Astrate niet?</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>IV. Tooneel.</head>
+					<stage>Astrate, Elize, Corisbe.</stage>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>VRees langer niet, Mevrouw, de heimelijke laegen</l>
+						<l>Van uwe sluikparty; 'k hoop hem in weinig daegen</l>
+						<l>Te leev'ren in uw handt: het gunstige geval</l>
+						<l>Wil, dat u deeze gunst door my geschieden zal.</l>
+						<l>Twee van mijn Dienaers zijn, hoewel zy 't schelmstuk haeten,</l>
+						<l>In schijn verleidt, en tot de kennis ingelaeten</l>
+						<l>Van 't vloekverwantschap: maer die beide hebben my</l>
+						<l>Dat daedelik bericht, en voorts belooft, dat zy</l>
+						<l>Tot uwe en mijne dienst zich ontrouw zullen draegen,</l>
+						<l>Tot dat zy 't godd'loos hooft ontdekken van die laegen.</l>
+						<l>'k Was beezig om hen raedt, en moedt te geeven, toen</l>
+						<l>Men my quam zeggen, dat mijn Vader my van doen</l>
+						<l>Hadde, en my zocht alom, daer hy my dacht te vinden:</l>
+						<l>'k Geloof voorzeeker, dat hy ook iets door zijn vrinden</l>
+						<l>Ondekt zal hebben van de samenzweering, en</l>
+						<l>Dewijl hy weet, hoe zeer dat ik uw dienaer ben,</l>
+						<l>Dat hy my quam 't geheim zijns boezems open leggen.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Ik zal u ruim zoo veel, als u uw Vader, zeggen;</l>
+						<l>En acht het alzo goedt voor u, dat mijne stem</l>
+						<l>U mijne toestandt zegge, als dat gy 't weet door hem.</l>
+						<l>Astrate, veinst hier niet, men wil my doen gelooven,</l>
+						<l>Dat gy, geheel uw plicht vergeetende, overstooven</l>
+						<l>Van ydle waen, en op uw groote voorspoedt stout,</l>
+						<l>U zelven, kost het zijn, aen my vergeeten zoudt...</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Dat ik my zou aen u vergeeten, kost het weezen!</l>
+						<l>Mevrouw, breng my ter proeve; ik heb geensins tevreezen</l>
+						<l>My te verdeedigen, is't anders noodig.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Ja 't.</l>
+						<l>'t Is noodig, maer voor al dat gy my wel verstaet.</l>
+						<l>Eêr gy my antwoordt geeft, zo ga vooraf de hoeken</l>
+						<l>Van uw hoogmoedig hert te deege eens onderzoeken;</l>
+						<l>Ziet of gy daer niets vindt, dat u betichten kan;</l>
+						<l>Of uw vermeetelheidt niet ver den yver van</l>
+						<l>Een need'rig onderdaen heeft durven overtreeden,</l>
+						<l>En uw gedachten tot aen my toe, buiten reeden....</l>
+						<l>My dunkt, Astrate, dat u deeze vraeg verstelt;</l>
+						<l>Wel, nu gy my verstaet, laet hooren, watge ons meldt.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ik zie wel, dat gy weet, hoe ik my heb vergeeten;</l>
+						<l>d'Ontsteltheidt van mijn hert heeft u mijn oog doen weeten.</l>
+						<l>Ik loochen 't niet, maer ben zo ver van slaefsch berouw,</l>
+						<l>Dat ik, schoon of het my mijn leeven kosten zou,</l>
+						<l>Niet wenschen zou, Mevrouw, dat gy die kennis miste;</l>
+						<l>Ik heb al lang bespeurt, hoe zich mijn moedt vergiste,</l>
+						<l>Wanneer ik voor altoos te dempen ondernam</l>
+						<l>Aen uw omzichtigheidt de woede van mijn vlam.</l>
+						<l>Maer tot hoe groot een ramp zich d'uitslag ook wil keeren,</l>
+						<l>My zal geduurig aen noch grooter vlam beheeren:</l>
+						<l>Mijn hert bemint zijn schuldt, en zoekt, als onverzaedt,</l>
+						<l>Noch schuldiger te zijn aen zulk een minzaem quaedt;</l>
+						<l>Ja, zo mijn tong in dit geval eens stout mogt weezen,</l>
+						<l>Ik zou meêr mijn berouw, als uwe gramschap vreezen.</l>
+						<l>Wanneer men door een drift, die na geen reeden hoort,</l>
+						<l>Lichtvaerdig iet bestaet, zo moet men daer mêe voort:</l>
+						<l>En 't is om niet gezocht ontschuldiging te winnen</l>
+						<l>Voor losse liefde, als door uitspoorigheit van minnen.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Mag ik van uwe min wel eisschen eenig blijk?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Indien mijn doodt....</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Ik wensch u noch zo vroeg geen lijk,</l>
+						<l>Ik wilde van de keur eens Bruigoms met u spreeken.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Hoe? is het moog'lik d'eens gedaene keur te breeken?</l>
+						<l>De Prins staet immers vast....</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Wel by mijn Vaders keur.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Zou hy aen d'uwe dan noch twijff'len konnen?</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Deur</l>
+						<l>Wat oorzaak zou ik u daer anders over spreeken?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Gy zult altoos uw stam niet van haer recht versteeken,</l>
+						<l>Maer zoeken uws gelijk?</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Al d'ongelijkheidt endt,</l>
+						<l>Wanneer men recht bemint. En, wat verschil men kent</l>
+						<l>In herten, die verlieft, maer ongelijk van stammen</l>
+						<l>En machten zijn, de bandt van haer gelijke vlammen</l>
+						<l>Maekt die genoeg gelijk, wanneer zy die vereent;</l>
+						<l>Mijn keur die heeft het op een onderdaen gemeent:</l>
+						<l>Maer zulk een onderdaen, die groote Koninginnen</l>
+						<l>Door zijne deugdt alleen kan dwingen hem te minnen;</l>
+						<l>Een onderdaen zo groot van eedle moedt gekeurt....</l>
+						<l>Maer 'k heb te veel gedurft, durf mêe wat op uw beurt,</l>
+						<l>En oordeel zelf, of gy kunt raeden, wie 't mag weezen.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Is 't my geoorloft my t'erkennen, zonder vreezen</l>
+						<l>Voor ongenade, en zult gy weig'ren, Koningin,</l>
+						<l>My aen te nemen, voor het oogwit van uw min?</l>
+						<l>Gy zwijgt, heb ik te veel gedurft.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>'k Zou dan niet zwijgen.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>O! dat hoogzalig woordt zou mijne hoop doen stijgen</l>
+						<l>Tot op den hoogsten trap van 't uiterste geluk,</l>
+						<l>Was 't niet met vrees gemengt van een aenstaenden druk.</l>
+						<l>Maer 'k vrees voor d'overdraght van u en uwe Rijken,</l>
+						<l>En dat voor's Prinsen recht mijn liefde heeft te wijken.</l>
+						<l>Ach! 't is met my gedaen, als hy zich zelven ziet</l>
+						<l>Verheeven tot de Kroon, en u....</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Noch is hy 't niet.</l>
+						<l>Maer wilt gy 't hoog verhael van zijne deugdt verwachten,</l>
+						<l>Zo zult gy hem misschien zulks niet onwaerdig achten.</l>
+						<l>Hy heeft my t'eenemael ontslagen van de wet,</l>
+						<l>Die my mijn Vader gaf, dat maekt mijn moedt verzet,</l>
+						<l>En doet my twijff'len wat te doen staet en te laeten.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Indien gy d'eer bemindt, gy zult....</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>En wat Astrate.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Mevrouw!</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Neen, uwe liefde is 't, die ik Rechter maek</l>
+						<l>Van dit verschil, spreek uit.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>In zo een teere zaek</l>
+						<l>Mijn liefde Rechter, ach! Mevrouw, zy is te heilig</l>
+						<l>In alles, wat uw eer betreft, en 't is t'onveilig</l>
+						<l>Voor u belang, indien ik tot haer voordeel iet</l>
+						<l>Zou raeden buiten 't geen u plicht en eer gebiedt.</l>
+						<l>Neem liever zelf mijn plaets, of doe my die genade,</l>
+						<l>Dat gy, wanneer ik zal mijn eigen hoop verraeden,</l>
+						<l>Gelijk ik zeeker zal, my geen geloof en geeft.</l>
+						<l>Zie hier dan wat my dunkt. Indien Agenor heeft</l>
+						<l>Uit eedelmoedigheidt alleen, en liefde zonder</l>
+						<l>Geveinstheidt, u zijn recht geoffert, en zich onder</l>
+						<l>Uw wil geboogen, daer hy zelf het Rijk aenvaerdt</l>
+						<l>Kost hebben, zo is hy uw hert en Kroon wel waerdt.</l>
+						<l>Ja zelf, schoon dat hy veinsde, om u in slaep te wiegen,</l>
+						<l>En namaels op zijn tijdt uw slof heit te bedriegen;</l>
+						<l>Zo dient hy niet getergt met wanhoop: hy heeft macht;</l>
+						<l>En 't kan wel zijn, dat uw bedekte vyandt wacht</l>
+						<l>Op zo een schoone kans van tweedracht tusschen vrienden:</l>
+						<l>Want die is 't, die 't verraedt altijdt tot voordeel diende.</l>
+						<l>Denk eens by u, in zo gevaerelik een tijdt,</l>
+						<l>Hoe veel, in zulk een hooft des Koninkrijks, de spijt</l>
+						<l>Van zich veracht te zien, uw staet zou konnen krenken.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Maer moet Astrate my daer aen juyst doen gedenken?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>'t Is 't rechte teeken van oprechte min, geen schijn.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>'t Misstaet de liefde al wat zo reedelik te zijn.</l>
+						<l>Maer eevenwel uw raedt is goedt, uw reed'nen klemmen,</l>
+						<l>En 't past my goede raedt en reed'nen toe te stemmen,</l>
+						<l>Zo blijft gy tot uw loon geen raedtsman zonder vrucht.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Zoudt gy dat konnen doen, Mevrouw?</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Helaes!</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Gy zucht.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Ik zucht, maer teegen dank: ga heen, ik gun uw oordeel</l>
+						<l>De vryheidt, deeze zucht te duiden tot uw voordeel.</l>
+					</sp>
+					<stage>Einde van het Tweede Bedrijf.</stage>
+				</div>
+			</div>
+			<div n="3" type="act">
+
+				<head>III. Bedryf.</head>
+				<div n="1" type="scene">
+					<head>Eerste Tooneel.</head>
+					<stage>Belus, Astrate.</stage>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Mijn Heer, ik bidde u, draeg wat zorge voor uw leeven;</l>
+						<l>Wilt u in aller yl uit dit Paleis begeeven:</l>
+						<l>Daer gaet iets groots in zwang; al 't volk is op de been;</l>
+						<l>'t Is overal bezet; men mompelt onder een;</l>
+						<l>Het ziet 'er uit, als of men vol van misvertrouwen</l>
+						<l>Een man van staet wilde in zijn huis gevangen houwen;</l>
+						<l>Gy maekt veel nijdigen; gy zijt ontzien aen 't Hof,</l>
+						<l>En by het volk. Al dit geeft uwe vrienden stof</l>
+						<l>Voor u te vreezen; des verlaet straks deeze wallen,</l>
+						<l>Vooral 't Paleis, alleen uw vrienden te gevalle.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ik moet mijn dienst biên aen de Koninginne, en ga;</l>
+						<l>Zy heeft my heeden zo begunstigt met genâ....</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Vertrouwt gy op de gunst van 't Hof? de Koninginne</l>
+						<l>Heeft licht haer gunst gebruikt, om uw geloof te winnen.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Het zy dan hoe het wil, ik moet en zal haer zien.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>II. Tooneel.</head>
+					<stage>Corisbe, Astrate.</stage>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>VErgeef my, dat ik u den toegang moet verbiên.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ik bid, belet my niet mijn boodschap te verrichten,</l>
+						<l>Zy raekt de Koningin, en is van groot gewichte;</l>
+						<l>Belet my niet, dewijl dees zaek geen uitstel lijdt.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Wilt my gelooven, neem wat beeter uwen tijdt.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Neen, neen, ik moet iets aen de Koningin ontdekken,</l>
+						<l>Dat tot behouding van haer Rijk en rust zal strekken;</l>
+						<l>'k Moet haer een muitery ontdekken, laet my gaen.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Geef my geloof, zeg ik noch eens, Heer, en blijf staen;</l>
+						<l>De Koningin begeert niet, dat haer iemandt spreeke.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Die last eischt ons ontzag, ik blijve in geen gebreeke.</l>
+						<l>Maer kost gy maeken, dat ik eens mogt tot haer trêen.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Recht uit gezeit, mijn Heer, 't verbodt raekt u alleen.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Hoe my?</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Ik weet noch meêr, dat uwe vreugdt zou breeken;</l>
+						<l>Maer licht'lik is het best u daer niet van te spreeken:</l>
+						<l>Daerom vertrek; men hoort altijt te vroeg zijn leedt,</l>
+						<l>En 't is een kleinder quaet, wanneer men het niet weet.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Bestorm my liever met een buy van ongenuchten,</l>
+						<l>Als in onzeekerheidt my dus te laeten zuchten;</l>
+						<l>Spreek, door uw twijffeling houdt gy my tusschen tween,</l>
+						<l>Gy doet my lijden meer als duyzendt quâen, met een</l>
+						<l>Te zwijgen.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Wijl gy 't wilt, zo weet dan, dat zo eeven,</l>
+						<l>Als gy vol hoope hadt de Koningin begeeven,</l>
+						<l>Zy zelf, in aller yl, met groote beezigheidt,</l>
+						<l>De Prins Agenor in haer kamer heeft geleidt;</l>
+						<l>En zelfs, wanneer zy wist, dat gy om groote reeden</l>
+						<l>Haer gaerne spreeken woudt, en in haer kamer trecden,</l>
+						<l>Zo heeft zy my belast, dat ik u zeggen zou,</l>
+						<l>Dat zy was by de Prins, en u niet spreeken wou.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Zy weigert my gehoor, en ziet de Prins. Wat plaegen!</l>
+						<l>O Heemel! waer wil 't heen?</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Gy zijt te vroeg verslaegen.</l>
+						<l>Het geen gy hooren zult dreigt vry een and're smert.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Wel aen, vaer voort, vaer voort, en boor my door het hert.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Al dat men doen kan, om een minnaer te beloonen,</l>
+						<l>En alle dankbaerheidt, die iemandt is te toonen,</l>
+						<l>Tot troost en lichtenis van een verliefde borst,</l>
+						<l>Bewijst de Koningin op heeden aen de Vorst.</l>
+						<l>Hy zelfstondt heel verzet, op d'onverwachte blijken,</l>
+						<l>Die in 't gemeen ontfangt d'aenstaende Vorst van 't Rijke.</l>
+						<l>De Koninklijke Ring, den Prins ter handt gestelt,</l>
+						<l>Bewijst genoeg, naer wien haer keur en neiging helt.</l>
+						<l>Als ik nu denk, hoe u weleer de Koninginne</l>
+						<l>Begunstigde, kan ik die wiss'ling niet bezinnen.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>'t Bedrieg'lik zoet, daer my haer gunst mêe heeft gevleit,</l>
+						<l>Strekt my een grooter straf, als al haer straffigheidt.</l>
+						<l>'k Heb hoop gehadt van aen haer oogen te gevallen,</l>
+						<l>En ach! die hoop treft my het schrikkelikst van allen;</l>
+						<l>Want zonder deeze hoop, zo ras ter nêer geleidt,</l>
+						<l>Hadt ik ten minste my tot zulk een slag bereidt.</l>
+						<l>'k Ly zo veel meêr, hoe meêr ik 't hert meende op te haelen;</l>
+						<l>Al 't geen my heeft gevleit verdubbelt mijne quaelen:</l>
+						<l>En in dees harde neep, die my zo vinnig vat,</l>
+						<l>Mijn grootste wanhoop is de hoop, die 'k heb gehadt.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Dat gy met zo veel leedts en wanhoops zijt belaeden,</l>
+						<l>Mijn Heer, dat is de vrucht van uw te trouw'lik raeden.</l>
+						<l>De Koninginne heeft gevolligt uwen raedt.</l>
+						<l>'k Beken, gy hebt gedaen een overbraeve daedt,</l>
+						<l>En door dit Heldenstuk een eeuwig lof verkreegen;</l>
+						<l>Maer daer is juist altijdt de min niet aen geleegen.</l>
+						<l>Het goedt verliezen, daer men al zijn heil in vindt,</l>
+						<l>Is meêr een heldendeugdt, als 't werk van een die mint.</l>
+						<l>Gy most uw vonnis zelfs niet hebben uit geweezen.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Een minnaer, die zich vleit van niet gehaet te weezen,</l>
+						<l>En meent zijn hoop is hem ten vollen toegestaen,</l>
+						<l>Hoe kan die vreezen, dat hem die voor 't hooft zal slaen?</l>
+						<l>Ik heb doen blijken, dat een hert van min betovert</l>
+						<l>Moet alles offeren aen die het heeft verovert:</l>
+						<l>Maer 'k heb daer by gedacht, dat zy in zulk een staet</l>
+						<l>Mijn voorbeeldt volgen zou, en geensins mijnen raedt;</l>
+						<l>En ondertusschen heeft zy mijn bederf geleeden.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Mijn Heer, daer komt de Prins.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Een schrik gaet door mijn leeden.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Dwing uw verbolgenheidt, sla gade, dat gy niet....</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Helaes! ben ik in staet om acht te slaen op iet?</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>III. Tooneel.</head>
+					<stage>Astrate, Agenor, Nerbal.</stage>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>KOm zie mijn ongenâ, mijn Heer, met vrolike oogen,</l>
+						<l>En d'ysselike straf van mijn vermeeten poogen;</l>
+						<l>Smaek 't gadeloos vermaek, dat iemant, die bemindt,</l>
+						<l>Stàeg in de wanhoop van een meedeminnaer vindt.</l>
+						<l>Gy hebt voortaen, mijn Heer, geen oorzaek meêr te vreezen.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Wat aengaet Vrouw Elize, ik zou ondankbaer weezen,</l>
+						<l>Zo ik my over haer beklaegde; zie, dit pandt</l>
+						<l>Verzeekert mijn geluk, door zulk een waerde handt.</l>
+						<l>Maer gy hebt ook geen reên om over haer te klaegen;</l>
+						<l>Zo hoog als my 't geluk, zo hoog zal d'eer u draegen,</l>
+						<l>Ook 't vergenoegen, daer een minnaer zich in vindt,</l>
+						<l>Die oprecht liefde draegt. Gy mint, en wordt bemindt.</l>
+						<l>Wat wilt gy meêr?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ja, lacht vry met mijn ongelukken,</l>
+						<l>Corisbe heeft gezeit, waer zy my heenen rukken.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Maer luister eens, hoe dat het verder is gegaen.</l>
+						<l>Na dat Elize my dees Ring hadde aengedaen,</l>
+						<l>En hoog geroemt, dat ik haer hadde weêr gegeeven</l>
+						<l>Mijn recht, ontviel haer dat gy 't wit waerdt van haer leeven,</l>
+						<l>Beroepende zich op de Liefde, welkers wet</l>
+						<l>Altijdt juist aen een hert geen vrye keuren zet;</l>
+						<l>Maer om mijn braeve daedt niet avrechts te beloonen,</l>
+						<l>En my zo groot een dank, als moog'lik was, te toonen,</l>
+						<l>Gaf zy haer weigering een eerelijken schijn,</l>
+						<l>En wilde, dat gy zoud door my gelukkig zijn.</l>
+						<l>Zy twijfelde geensins, of d'eer van dit verzoeken</l>
+						<l>Zou mijn grootmoedig hert zich zo ver doen verkloeken,</l>
+						<l>En uw geluk een plaets zou gunnen boven 't mijn.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ach Prinse! zoud gy wel dus eedelmoedig zijn?</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Iet loffelijkers wierdt mijn hert noit aengeboden.</l>
+						<l>De glorie schijnt my tot dit Heldenstuk te nooden.</l>
+						<l>Mijn eedelmoedigheidt verlokt my 'k weet niet hoe;</l>
+						<l>Maer liefde is krachtiger, en laet het my niet toe.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Helaes! mijn Heer, is dit die groote kracht der minne,</l>
+						<l>Die sterk genoeg was, om zich zelve t'overwinnen?</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Is 't overwinnen van zich zelve zoet Astraet,</l>
+						<l>Gelukkig zijn is 't ook; een rechte minnaer slaet</l>
+						<l>Vaek andre weegen in, en mist met groote reeden.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Gy hadt my niet belooft dien omweg in te treeden.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>De min houdt geen beloft, men geeft een ander man</l>
+						<l>Noit zijn geluk, wanneer men 't zelfs genieten kan.</l>
+						<l>Men mag om zulk een loon met onrecht overwinnen.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Gy mint, mijn Heer? gy mint? ach! moet men zo beminnen?</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Wat wilt gy, yder heeft in 't minnen zijn manier,</l>
+						<l>En na het hem gevalt, volgt yder een zijn zwier;</l>
+						<l>Gy mint gelijk een Heldt, en 'k moet rondt uit bekennen,</l>
+						<l>Dat ik my deeze deugdt niet wel kan aengewennen;</l>
+						<l>Ik heb mijn zwakheidt; maer ik bloos'er niet eens van.</l>
+						<l>Wat zwakheidt is'er, die de min beschaemen kan?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Uw zwakheidt schijnt na recht noch reeden te gelijken.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>De Koninginne heeft het teegendeel doen blijken.</l>
+						<l>'k Beken het, haere spijt scheen in den aen vang groot;</l>
+						<l>Mijn weig'ren haer in 't eerst zo wel als u verschoot;</l>
+						<l>Maer 'k dêe mijn onschuldt, of mijn liefde boven maeten</l>
+						<l>Sprak deeze misslag vry, aen minnaers toegelaeten.</l>
+						<l>'k Trouw met de Koningin, en 't is my boven dien</l>
+						<l>Geen klein vermaek, Astrate, u wat jaloers te zien.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Wilt nu vry uw geluk ter hoogster top verheffen,</l>
+						<l>'t Mijn, wijl ik ben bemint, zal 't uw ver overtreffen;</l>
+						<l>Denk vry, nu gy alleen zijt bruidegom in schijn,</l>
+						<l>Dat ik geen reeden heb om meest jaloers te zijn.</l>
+						<l>'k Heb meêr geluk als gy, wijl zelf de Koninginne</l>
+						<l>Met eigen monde aen u gezeit heeft my te minnen;</l>
+						<l>En dat de liefde, in spijt des Huwliks, in haer hert</l>
+						<l>Verdeeling maekt, van 't geen u opgeoffert werdt.</l>
+						<l>Dit goedt, dat u ontslipt, dat u mijn min komt rooven,</l>
+						<l>Wreekt my van uw geluk, en troost my daer en boven.</l>
+						<l>Dit goedt alleenig is des minnaers liefste zoet;</l>
+						<l>'k Beroove u door haer min veel meêr, als gy my doet.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Laet my de zoetheidt, die men my belooft te geeven,</l>
+						<l>Ik laet u in 't vermaak van uw inbeelding leeven;</l>
+						<l>Terwijl dat na mijn wensch een zeegenrijke bandt</l>
+						<l>De schoone Koningin my stellen zal ter handt:</l>
+						<l>En zonder in het minste iets noodeloos te poogen,</l>
+						<l>Zal ik gerust'lik haer bezitten voor uw oogen,</l>
+						<l>En gaen my zelf geheel verzeekeren met een,</l>
+						<l>Dat ik gelukkig ben op mijn geloof alleen.</l>
+						<l>Tot uw vertroosting kunt gy onderwijl gelooven,</l>
+						<l>Dat zy u teegen dank haer zelve quam t'ontrooven.</l>
+						<l>Smaek dit bedrieg'lik zoet, en hou vry voor gewis,</l>
+						<l>Dat by uw lot het mijn niet vergelijk'lik is.</l>
+						<l>Vley uwe smert vry met inbeeldingen en dampen,</l>
+						<l>Stel daer uw vreugdt in, tot vermind'ring van uw rampen,</l>
+						<l>Ik ben daer mêe te vrêen, ons vriendschap wil van my,</l>
+						<l>Dat ik u ongeluk met meedelijden ly:</l>
+						<l>En van 't waerachtig goet verzeekert, en mijn staeten,</l>
+						<l>Kan ik u lichtelik het ingebeelde laeten.</l>
+						<l>Zo zal dan elk van ons te vrêen zijn met zijn staet,</l>
+						<l>Astrate in zijn geloof, Agenor in der daedt.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Wat baet het, Heer, dat wy ons ongeluk verbloemen?</l>
+						<l>Geen van ons beide kan men recht gelukkig noemen;</l>
+						<l>Ik kan 't niet weezen, schoon ik weet bemindt te zijn,</l>
+						<l>Want ik moet lyden, dat gy my berooft van 't mijn;</l>
+						<l>En zonder haere min zo is'er niets in 't leeven,</l>
+						<l>Dat machtig is, om u een waer geluk te geeven.</l>
+						<l>Daerom zo was het niet onbillik, dat'er een</l>
+						<l>Van beide kreeg 't geen 't lot verdeelt heeft tusschen tween,</l>
+						<l>En, zo gy d'eer bemint, 'k zal u het middel toonen.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Dit is vol duisterheidt; of, om u te verschoonen,</l>
+						<l>Wil ik 't zo duiden; want die zijnde die ik ben,</l>
+						<l>Dat ik 't niet wil verstaen is alles, dat ik ken.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ik bid, verdiende ik oit verschooning van mijn leeven,</l>
+						<l>Zulk eene niet te doen; maer my gehoor te geeven,</l>
+						<l>t' Antwoorden op den raedt, dien gy niet wilt verstaen.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>'k Versta u. Nerbal, wilt straks na mijn Lijfwacht gaen.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<stage>Nerbal binnen.</stage>
+						<l>Hoe, my verzeek'ren?</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Ik sta't toe met teegenstreeven.</l>
+						<l>Het Koninklik gezag, my deezen dag gegeeven,</l>
+						<l>Dwingt my te komen tot dees nuttelijke daedt;</l>
+						<l>Doch zo veel niet om my, als om uw eigen baet.</l>
+						<l>'t Is noodig, uwe moedt wat in den toom te houwen,</l>
+						<l>Of haer verbolgenheidt mogt meerder onheil brouwen;</l>
+						<l>Ik acht u veel Astrate, en wil het naberouw</l>
+						<l>Voorkomen, dat ik in uw straf gevoelen zou,</l>
+						<l>'k Zal u beschermen, en ik zou ondankbaer weezen....</l>
+						<l>Maer 'k zie mijn Lijfwacht.</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>IV. Tooneel.</head>
+					<stage>Agenor, Astrate, Geraste, Lijfwacht.</stage>
+					<sp who="#agenor">
+						<speaker>Agenor</speaker>
+						<stage>teegen Geraste.</stage>
+						<l>KOm, verzeekert u van deesen.</l>
+					</sp>
+					<sp who="#geraste">
+						<speaker>Geraste.</speaker>
+						<l>Mijn Heer....</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Vertoef niet, maer volvoer mijn last, en ken</l>
+						<l>Aen deeze Ring, wat ik vermag, en wie ik ben.</l>
+					</sp>
+					<sp who="#geraste">
+						<speaker>Geraste.</speaker>
+						<stage>teegen Agenor.</stage>
+						<l>Ik zie tot welk een trap 't geluk u schijnt te nooden;</l>
+						<l>Maer dat ik my van u verzeek're is my gebooden.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Van my? bedriegt Mevrouw dan mijne hoop zo licht?</l>
+					</sp>
+					<sp who="#geraste">
+						<speaker>Geraste.</speaker>
+						<l>'k Beklaeg u; maer ik bid, mijn Heer, verschoon mijn plicht,</l>
+						<l>Dat ik uw deegen eisch.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Ik moet u die wel geeven:</l>
+						<l>'k Ben in geen staet van u te konnen weederstreeven.</l>
+					</sp>
+					<sp who="#geraste">
+						<speaker>Geraste.</speaker>
+						<l>Met leedt, Prins....</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Al uw leedt helpt weinig tot mijn lot.</l>
+						<l>Kom gaen wy voort.</l>
+					</sp>
+					<sp who="#geraste">
+						<speaker>Geraste.</speaker>
+						<l>Ik moet u brengen op het slot.</l>
+						<l>Maer, eer dat dit geschiedt, begeert de Koninginne</l>
+						<l>'t Merkteeken van 't gebiedt weêrom.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>Wat endt zal 't winnen?</l>
+						<l>Daer, breng het haer.</l>
+					</sp>
+					<sp who="#geraste">
+						<speaker>Geraste</speaker>
+						<stage>teegen Agenor.</stage>
+						<l>Het zal niet noodig zijn, mijn Heer.</l>
+						<l>Wijl hier Astrate is, dat men weeder der waerts keer.</l>
+						<stage>Spreekende teegen Astrate.</stage>
+						<l>'t Is in uw handt, mijn Heer, dat my de Koninginne</l>
+						<l>Geboodt te stellen 't Pandt van 't Rijk, en van haer minne.</l>
+						<l>Nu moogt gy hoopen op de hoogste trap van staet.</l>
+					</sp>
+					<sp who="#agenor">
+						<speaker>Agenor.</speaker>
+						<l>'t Geluk verkeert: ik val, en 't is uw beurt Astraet.</l>
+						<l>Kom gaen wy heen, want mijn vertrek zal my bevryen,</l>
+						<l>Van langer 't byzijn eens gelukkigen te lyen.</l>
+						<l>Ik voel zijn blijdschap, in mijn ongelukkig hert,</l>
+						<l>Veel min verdraegelijk, als zelf mijn eigen smert.</l>
+						<l>Hy hoeft zijn blijdschap met mijn droef heidt niet te kroonen.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ik ga de Koningin mijn dankbaerheidt betoonen;</l>
+						<l>Want, schoon ik triomfeer, het was groot onbescheidt</l>
+						<l>Mijn blijdschap t'uiten in uw teegenwoord gheidt.</l>
+					</sp>
+				</div>
+				<div n="5" type="scene">
+					<head>V. Tooneel.</head>
+					<stage>Sicheus, Astrate.</stage>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>WAer loopt gy heen, mijn Zoon?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Na mijn geluk, mijn Vader.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>'k Sprak zo de Koningin, en weet het al te gader.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Indien gy weet, hoe ver voor my haer goedheidt gaet,</l>
+						<l>Hou my niet langer op. Een dankbaer minnaer staet...</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Ik heb u van een zaek....</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Gy zult eerst lijden moeten,</l>
+						<l>Dat ik my werpe voor de Koningin haer voeten.</l>
+						<l>Dit moet ik doen, 't en zy ik mijne plicht vergeet.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Neen, neen, Astrate, uw plicht is minder, als gy weet.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>De Prins is vast gezet; wat heb ik meêr te vreezen?</l>
+						<l>Hoe, zou haer gunst voor my ook vol geveinstheidt weezen,</l>
+						<l>En ik in mijne hoop voorzien de minste zorg,</l>
+						<l>Nu ik dit pandt, en zelf haer liefde heb tot borg?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>O ja, dat pandt kan u met alle hoope vleyen;</l>
+						<l>Agenor liet zich zelf te veel hier door verleyen.</l>
+						<l>De Koningin zocht hem door dit bedrieg'lijk zoet</l>
+						<l>Maer te verblinden, en te toetsen zijn gemoedt;</l>
+						<l>Zy zocht schijn-reedenen, om over hem te klaegen.</l>
+						<l>In 't kort, indien gy wilt, gy hebt na niets te vraegen,</l>
+						<l>Wilt gy haer Bruigom zijn?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Of ik 't zou willen, ach!</l>
+						<l>Wat minnaer maekt zich niet gelukkig, als hy mag?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>'k Acht u genoeg, Astrate, om niet te willen denken,</l>
+						<l>Dat een verwijfde min uw glorie zoude krenken.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Neen, in dit zoete vier, daer 'k in verteeren wil,</l>
+						<l>Heeft mijne glorie met mijn liefde geen verschil.</l>
+						<l>Wat is 'er braever, als een Koningin te trouwen?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Een Koningin, daer al de werreldt af moet grouwen,</l>
+						<l>Wiens eerste proef vergoot al 't Koninklijke bloedt,</l>
+						<l>In gruwelen geteeldt, in misdaên opgevoedt.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Kan ik de Koningin in 't minst' wel schuldig noemen?</l>
+						<l>En, zo zy in uw zin noch meêr was te verdoemen,</l>
+						<l>Zoud gy niet oordeelen met meêr barmhertigheidt,</l>
+						<l>Indien gy waert verstrikt in haer bevalligheidt?</l>
+						<l>'k Beminde Elize al voor haer ongerechtigheeden,</l>
+						<l>Ik heb met weêrzin al haer tiranny geleeden,</l>
+						<l>En heimelik gedoemt: maer zeg my toch, wie vindt</l>
+						<l>Iets, dat verwerp'lik is, in haer, die hy bemint?</l>
+						<l>Twee schooner oogen glans betovert uit der maeten;</l>
+						<l>Voor 't oog van een, die mint, schijnt alles toegelaeten.</l>
+						<l>'t Verstandt is altijdt aen de zy van 't minnend hert,</l>
+						<l>Daer liefde nimmer meer gestrenge Rechter werdt.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Zo deeze gruweldâen u niet te rugge houwen,</l>
+						<l>Zo vrees d'aenstaende storm, die u veel quaedts zal brouwen;</l>
+						<l>Denk op uw hals te lâen, door dees gehaete Kroon,</l>
+						<l>De razerny van 't Volk, en gramschap van de Goôn.</l>
+						<l>De rechte Koning zal eerlang hier meester weezen.</l>
+						<l>Elize waggelt. Gy hebt niet als quaedt te vreezen.</l>
+						<l>Verhaest u niet te zeer, in weêrwil van 't geval,</l>
+						<l>Te streeven na de Troon, die haest verzinken zal.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>'k Versta u wel, mijn Heer; natuur doet u dus beeven,</l>
+						<l>Door 't vreezen voor 't gevaer der trouw, die my doet leeven;</l>
+						<l>Maer 'k zal u lichtelik verlossen van die vrees,</l>
+						<l>Die tot mijn voordeel in mijns Vaders herte rees.</l>
+						<l>'t Gevaer is uit, dat my scheen in onze echt beschooren,</l>
+						<l>Ik heb 't verraedt ondekt, ik ken de t'zaemgezwooren'.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Gy kentze?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>O ja, mijn Heer, ik ken'er vijf of zes.</l>
+						<l>Pigmalion, Bazore, en zelf Nicogenes</l>
+						<l>Zijn daer handtdaedig aen.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Dees drie zijn onze vrienden,</l>
+						<l>Die ons met hert en ziel in allen voorval dienden.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Waer is'er vriendschap, die de Min kan teegenstaen,</l>
+						<l>Als min en vriendschap dus malkander teegengaen?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>'k Zie, 't is hoog tijdt, ik kan my langer niet verschoonen,</l>
+						<l>Ik moet u end'lik 't hooft van 't eedt genootschap toonen,</l>
+						<l>Hem, dien bekent is, waer de rechte Vorst zich houdt,</l>
+						<l>En die de Koningin al deeze laegen brouwt.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ei Vader, toon hem my, opdat ik door dees kennis</l>
+						<l>De Koningin bevry voor alle ramp en schennis.</l>
+						<l>Met dien wêerspannigen te straffen is men vry.....</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Wel, ken hem dan te deeg, mijn Zoon, zie hem in my.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Zijt gy 't, mijn Vader?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Ja, ik ben 't, wiens deugd'lijke yver</l>
+						<l>Zich inspant voor het bloedt der Kroon, hoe langs hoe stijver.</l>
+						<l>Ik ben het, die bestormt der aertstirannen stam,</l>
+						<l>En Hof en volk op hen te schennen ondernam.</l>
+						<l>Ik ben het, die de Prins kan leev'ren in uw handen;</l>
+						<l>Die hem verloste van 't geweldt der dwingelanden.</l>
+						<l>Ik zelf heb hem bewaerdt, en heim'lik opgevoedt,</l>
+						<l>Tot hun verdiende straffe, en wraeke van zijn bloedt.</l>
+						<l>Door dees bekent'nis zal mijn ondergang beginnen,</l>
+						<l>Mijn doodt alleen is het behoudt der Koninginne,</l>
+						<l>En gy verraedt my met een woordt te spreeken.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ach!</l>
+						<l>'k Verrâ de Koningin, zo ik niet spreeken mag.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Gaet u haer val mêer, als uws Vaders, aen de zinnen?</l>
+						<l>Ik weet wat liefde is, en ik ken de kracht van 't minnen.</l>
+						<l>Ik wil ook d'eerste toght wel toestaen, daer het hert,</l>
+						<l>Door toomelooze min, meest toegedreeven werdt.</l>
+						<l>Maer 'k wil niet twijff'len, of na d'eerste zwakkigheeden</l>
+						<l>Zal zich uw hert weêrom begeeven tot de reeden.</l>
+						<l>Of schoon de liefde in 't eerst iets won op uw gemoedt,</l>
+						<l>Voor al dat flaeu geweldt verzeekert my het bloedt.</l>
+						<l>Mijn zoon, 'k vertrouw my in 't geheel op uwe deugden,</l>
+						<l>Die 't Vaderlike hert tot noch toe zo verheugden;</l>
+						<l>Op d'allerheiligste, en op d'allereerste plicht....</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ach! teegens liefde miste u dit vertrouwen licht.</l>
+						<l>Natuur, ja zelf de deugdt diende u verdacht te weezen.</l>
+						<l>Denk, dat u alles van een Minnaer staet te vreezen,</l>
+						<l>Die vreest voor 't geen hy mint. Daerom, mijn Vader, laet</l>
+						<l>De weederspannigen aen 't lot van hun verraedt,</l>
+						<l>Bidt om genâ; gy wordt zeer licht door my verbeeden,</l>
+						<l>Kom maer de Koningin de gansche zaek ontleeden.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Ik mijnen Vorst verraên, mijn vrienden, en mijn eedt?</l>
+						<l>Verrâ my, hebt gy 't hert, veel eerder zelve, en weet</l>
+						<l>Dat noit de staet zucht, schoonze u liefde schijnt te vleyen,</l>
+						<l>My van den rechten weg der deugden af zal leyen.</l>
+						<l>Ken beeter mijne trouw, en leer, dat ik zo licht,</l>
+						<l>Ja lichter zou mijn zoon vergeeten, dan mijn plicht.</l>
+						<l>'k Deed eens een eedt, dat ik mijn wettig Vorst zou wreeken;</l>
+						<l>Der dwingelanden stam van Kroon en Troon versteeken;</l>
+						<l>Mijn landt van 't haetelik geweldt bevryen, of</l>
+						<l>Grootmoedig sneuvelen, gelijk een heldt, vol lof.</l>
+						<l>Dat voorneem heb ik, en ik ben niet om te zetten;</l>
+						<l>De Koningin moet my, of ik moet haer verpletten.</l>
+						<l>Gy zult haer dagen, of de mijne, zien aen 't endt;</l>
+						<l>Des zie op welk een zy zich uw verkiezing wendt.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ik wil noch d'eene zy, noch d'andere verkiezen;</l>
+						<l>Maer, om mijn Vader, noch Beminde te verliezen,</l>
+						<l>Is 't noodig, dat ik d'een voor d'andere bewaer,</l>
+						<l>En voegme eerst aen de zy, die 't naest is aen 't gevaer.</l>
+						<l>Maer wijl 't nu allernaest is aen de Koninginne,</l>
+						<l>Ga ik haer helpen.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Hoe, kan 't bloedt niets op u winnen?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Gy hebt mijn bystandt noch niet noodig in den noodt;</l>
+						<l>Maer wijl de Koningin zo na is aen haer doodt,</l>
+						<l>Zo zal 't my passen, als een minnaer, vol van trouwe,</l>
+						<l>Met haer te sneuvlen, of haer 't leeven te behouwen.</l>
+						<l>Als ik haer heb verlost, van 't geen gy haer bereidt,</l>
+						<l>Verzeeker ik u haer vergiff'nis van uw feit,</l>
+						<l>'k Wil in dees tijdt, die nu te kort valt, in mijn zinnen</l>
+						<l>Niet overleggen, wat van tween behoort te winnen,</l>
+						<l>Natuur of liefde; maer opdat mijn keur niet mis,</l>
+						<l>'k Zie op 't gevaerelikste, en vlieg daer 't nodigst is.</l>
+					</sp>
+					<stage>Einde van het Derde Bedrijf.</stage>
+				</div>
+			</div>
+			<div n="4" type="act">
+
+				<head>IV. Bedryf.</head>
+				<div n="1" type="scene">
+					<head>Eerste Tooneel.</head>
+					<stage>Bazore, Sicheus, Nicogenes.</stage>
+					<sp who="#bazore">
+						<speaker>Bazore.</speaker>
+						<l>'t IS zeeker, dat de liefde Astrate heeft doen spreeken;</l>
+						<l>Onze aenslag is ontdekt, hoe loos zy was besteeken:</l>
+						<l>Men diende met dit stuk op 't spoedigst voort te gaen;</l>
+						<l>Want stellen wy het uit, zo is 't met ons gedaen.</l>
+						<l>Nu is de macht verdeelt van 't huis der dwingelanden,</l>
+						<l>Dies geevenze ons van zelf de zeege in onze handen.</l>
+						<l>De tweedracht is by haer, de Prins in hechtenis;</l>
+						<l>En, trachtende na 't geen by ons beslooten is,</l>
+						<l>Zal al zijn aenhang, op de Koningin gebeeten,</l>
+						<l>Uitspouwen haere spijt, van razerny bezeeten:</l>
+						<l>Agenors Lijfwacht is gewonnen, en met een</l>
+						<l>Ons vrienden zijn gereedt, men wacht na ons alleen.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Gaet heen, en voert haer aen om 't wettig bloedt te wreeken,</l>
+						<l>Ik zal straks by u zijn; maer moet mijn zoon eerst spreeken.</l>
+						<l>Hy heeft hier veel gezag; zijn naem alleen heeft kracht;</l>
+						<l>Om hem te winnen, ga 'k gebruiken al mijn macht.</l>
+						<l>Maer wijl de vrienden, om onze aenslag te betrachten,</l>
+						<l>Al vaerdig zijn, begin vast zonder my te wachten;</l>
+						<l>Ons welvaert maent ons hier gezwindt mêe voort te gaen,</l>
+						<l>Om niet verrast te zijn.</l>
+					</sp>
+					<sp who="#bazore">
+						<speaker>Bazore.</speaker>
+						<l>Wy vangen alles aen,</l>
+						<l>En dat zo daedelijk: gy hebt ons maer te toonen</l>
+						<l>Hem, die wy heeden door onze aenslag moeten kroonen;</l>
+						<l>Verberg den Vorst niet meêr, en helpt ons uit de pijn;</l>
+						<l>Laet ons den Koning zien, wy zullen stouter zijn.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Gy zult hem hebben tot getuige van uw werken,</l>
+						<l>Ik hoop in 't kort met hem uw benden te versterken;</l>
+						<l>Opdat hy neevens u zijn zaeke gade sla....</l>
+						<l>Maer 'k zie daer mijnen zoon, ik volg u daed'lik na.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>II. Tooneel.</head>
+					<stage>Astrate. Sicheus.</stage>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>BEklaeg u nergens van, wilt wel gemoedigt weezen,</l>
+						<l>Gy hebt voor u, noch voor uw vrienden niets te vreezen.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Hebt gy ons niet ondekt, zo kan men niets vermoên.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>'k Heb 't al ontdekt, maer 'k heb 't weêr al vergeeven doen.</l>
+						<l>De Koningin heeft zelf uw stoutheidt vry gegeeven,</l>
+						<l>En u, en al die daer aen schuldig zijn, het leeven;</l>
+						<l>Maer al haer strengigheidt bepaeldt zich met de doodt</l>
+						<l>Van hem, die oorzaek is, waerom gy dit besloot.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Hoe, zou zy noch voldoen deeze onrechte offerhande?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Laet dees, zo 't zijn kan, noch de Koningin in handen;</l>
+						<l>Het zal de laetste zijn; de rust van deezen staet</l>
+						<l>Hangt zelf daer aen, die nu met oproer zwanger gaet.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Hoe, zou ik om mijn lijf mijn Koning overgeeven?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Neen, wijst hem maer, ik zelf, ik zelf zal hem het leeven</l>
+						<l>Beneemen; wacht van my niet schandeliks; dees handt,</l>
+						<l>Mijn Heer, zal voor de vuist hem helpen aen een kant.</l>
+						<l>Ik zal niet doen, als hy, die bloode, die zich 't vergen</l>
+						<l>Van uwe hulp niet schaemt, terwijl hy zich gaet bergen.</l>
+						<l>Hy koom slechts voor den dag, en laet zijn eigen kracht</l>
+						<l>Ophouden teegen my, het recht van zijn geslacht.</l>
+						<l>Hy vindt in 't wreeken, en ik in het minnen wetten;</l>
+						<l>Hy komt mijn liefde, en ik kom zijne wraek beletten.</l>
+						<l>Hy raekt noit aen zijn wraek, 't en zy zijn arm my straf;</l>
+						<l>En zonder zijn verderf leidt mijne min in 't graf.</l>
+						<l>Verdraeg dan weêr, dat wy, verscheidentlik verbolgen,</l>
+						<l>Dees strijdt gaen effenen, en onze tochten volgen;</l>
+						<l>Dat een van beiden aen den andren roof den dag,</l>
+						<l>En toon wie meest van tweên de liefde of wraek vermag.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Wel, nu gy van de deugdt zo weinig toch wilt houwen,</l>
+						<l>En met de Koningin, ook haere misdaên trouwen;</l>
+						<l>En 's Konings overschot doen daelen in het graf,</l>
+						<l>'k Zal uw nieusgierigheidt voldoen, maer tot uw straf.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Die vyandt, Heer, is die zo schrikkelik te vreezen?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Ja, ik verzeeker u, hoe dapper gy moogt weezen,</l>
+						<l>Hoe zeer gy de Bazuin vermoeidt hebt van de Faem,</l>
+						<l>Dat gy zult sidderen op 't hooren van zijn naem.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Dit dreigen dient maer om my meerder lust te geeven.</l>
+						<l>Ei! noem hem slechts, mijn Heer, al koste 't my het leeven.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Zie, wat de Koning, eêr Elize hem liet doôn,</l>
+						<l>My naliet weegens 't lot van zijnen jongsten zoon;</l>
+						<l>En ken den vyandt, die gedwongen is te geeven</l>
+						<l>Het bloedt der Koninginne aen die hem gaf het leeven.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<stage>leest in een Tafelboekje, dat Sichëus hem geeft.</stage>
+						<l>De jongste van mijn drie beminde Zoonen</l>
+						<l>Is voor den vandt vry, die my zo schelmsch dorst hoonen;</l>
+						<l>En zo de tijdt van zijne ontdekking eens genaekt,</l>
+						<l>Dat hy mijn sterven wreekt, of mijne banden slaekt,</l>
+						<l>Sichëus heb ik hem ten vader nagelaeten,</l>
+						<l>Slechts in den schijn; maer 't is mijn zoon, Astrate.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<stage>spreekt voort, het Tafelboekje wegwerpende,</stage>
+						<l>Ach! deeze slag voert my op d'oever van de doodt!</l>
+						<l>Zou ik van 't bloedt zijn, dat de Koningin vergoot?</l>
+						<l>En moet ik zelf, verplicht door al te strenge wetten,</l>
+						<l>Op zulk een lieven borst mijn wreede deegen zetten?</l>
+						<l>Moet ik haer vyandt, tot mijn herte leedt en pijn,</l>
+						<l>In weêrwil van my zelf, en mijne liefde zijn.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>'t Is meêr, als al te waer, gy hebt het zelf geleezen.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Kan ik 't gelooven, schoon het noch zo waer mag weezen?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>'k Bewijst u met het geen des Konings handt verklaert,</l>
+						<l>En dit is meêr als al te wel geloovens waerdt.</l>
+						<l>Wanneer de Vader van Elize, zonder reeden,</l>
+						<l>Uw Vader kluist'ren deede, en in zijn plaets quam treeden,</l>
+						<l>Verloor ik juist mijn zoon, wiens doodt ik tot behoudt</l>
+						<l>Uws leevens dienen dêe; want gy zijnde eeven oudt</l>
+						<l>Als hy, Heer, kon ik 't licht uitwerken na behoorte,</l>
+						<l>En onder zijnen naem verbergen uw geboorte.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Waerom 't geheim niet voor altijdt verborgen? Goôn!</l>
+						<l>Moest gy dan, wreede, indien ik ben des Konings zoon,</l>
+						<l>Zo lang met dees gehaete en doodtsche boodschap wachte,</l>
+						<l>Tot dat my d'arm beviel, die mijnen Vader slachte?</l>
+						<l>En moest gy tot behoudt mijn leevens (bittre spijt!)</l>
+						<l>Niet eerder oop'ning doen, of zwijgen voor altijdt?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Mijn Heer, eêr dat ik u dien hoon dorst kenbaer maeken,</l>
+						<l>Moest ik u, dacht my, eerst verzeek'ren van de wraeke;</l>
+						<l>En 'k heb niet kunnen uw rampzael'ge min voorzien,</l>
+						<l>Die my tot heeden was onmoog'lik te verspiên.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Maer, zo ik dael van 't bloedt door haer bevel vergooten,</l>
+						<l>Hoe kost gy lijden, toen haer sterfdag was beslooten</l>
+						<l>Door 't Sirisch volk, dat ik aen haere zijde was,</l>
+						<l>Zelfs teegens die voor my zich stelde in 't harrenas?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>De haet der Sirïers, ons eeuwen lang gebleeken,</l>
+						<l>Zocht in het minste niet uw's Vaders bloedt te wreeken;</l>
+						<l>Der dwingelanden doodt, en straf daer toe bereidt,</l>
+						<l>Was maer een schoone glimp voor haer staetzuchtigheidt:</l>
+						<l>Zy vlamden op het rijk, het welk gy moet regeeren;</l>
+						<l>En zo gy teegens haer het niet hadt kunnen weeren,</l>
+						<l>Zo hadden wy gerukt de staf, met minder kans,</l>
+						<l>Uit hunne handt, als uit de vuist des dwingelands.</l>
+						<l>De wraek uws Vaders was hem door zijn zoon beschooren.</l>
+						<l>'k Heb die voor u bewaert: en d'uur is nu gebooren;</l>
+						<l>En schoon 't bemindt ontwerp uw hert verflaeuwen doe,</l>
+						<l>Hef uwen arm om hoog, en sluit uw oogen toe;</l>
+						<l>Vlieg zonder om te zien, daer eer en plicht u wenken.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>O Gôon! ô wreede plicht! kan ik daer aen gedenken,</l>
+						<l>'t En zy ik trille en beeve. Ik weet niet waer ik ben.</l>
+						<l>Maer is' er niets, dat my hier van verlossen ken?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Hoe maekt gy zo veel werks te brengen om het leeven,</l>
+						<l>Die met uws Vaders bloedt u zelf heeft voorgeschreeven</l>
+						<l>De lessen van uw plicht, en deed uw broeders dôon?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Sichëus, welk een ramp! ach, was ik noch uw zoon!</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Gy zijt des Konings zoon, ik heb 't u klaer beweezen.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Om aller Gôon wil, blijf mijn vader, als voor deezen.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Te heerlik is uw lot.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ik schrik voor zulk een eer,</l>
+						<l>En hou noch duizendtmael van mijne dwaling meêr.</l>
+						<l>Laet my my zelve die gevaerlike eer berooven,</l>
+						<l>Laet, zo het weezen kan, my niets daer van gelooven,</l>
+						<l>De klaerheidt bannen, die voor my afgrijss'lik is,</l>
+						<l>En houden van mijn lot de lieve duisternis.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Neen, toon u heldenmoedt, mijn Prins, om t' overwinnen</l>
+						<l>Het schadelik geweldt van ongeoorloft minnen.</l>
+						<l>Dees liefde, die u noopt tot alle onreedlikheidt,</l>
+						<l>Uw deugdt verbastert, en met een uw plicht verleidt;</l>
+						<l>Dees liefde, die u doet uw eigen zelfs verraeden,</l>
+						<l>En die u dwingt de handt te minnen, die zich baedde</l>
+						<l>In 's Konings bloedt, moet zelf zijn d'eerste dwingelandt,</l>
+						<l>Die gy tot 's vaders zoen moet helpen aen een kant.</l>
+						<l>Herstel uw glorie, Vorst, en vlieg, daer u komt roepen</l>
+						<l>Het brandende ongedult van uw getrouwe troepen;</l>
+						<l>Volg van uw noodtlot d'onherroepelike wet;</l>
+						<l>Toon u een waerdig kindt van 't Koninklike bedt.</l>
+						<l>Zou 't onbehoorlik vuur der liefde u doen verlaeten...</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ach, 'k zie de Koningin.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Denk, wie gy zijt, Astrate.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Helaes! wie dat ik ben; door dit bemindt gezicht</l>
+						<l>Kan ik niet anders zijn, als Minnaer; en mijn plicht</l>
+						<l>Vergeet ik door het zien van al mijn welbehaegen.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>'k Ga dan, uws ondanks, zorg voor uwe welvaert draegen.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>III. Tooneel.</head>
+					<stage>Elize, Astrate, Corisbe.</stage>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>WEl, is mijn vyandt u bekendt; en is 'er niet,</l>
+						<l>Het geen my troosten kan in mijn bedrukt verdriet?</l>
+						<l>Zal hy mijn Scepter, en mijn leeven....</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ach, Mevrouwe!</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Ik vinde u gansch onstelt; wie maekt u deeze rouwe?</l>
+						<l>Is al uw zorg vergeefs, die gy hebt aengewendt?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Uw vyandt is my niet, als al te wel bekendt.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Astrate, 't kan my in dees staet licht weinig baeten,</l>
+						<l>Of ik hem ken of niet: het volk is uitgelaeten;</l>
+						<l>Zy rotten vast te zaem ten dienste van de Vorst;</l>
+						<l>Een drommel yz're liên voegt hunne staele borst</l>
+						<l>By 't opgerokkent graeuw, dat blindelings gedreeven,</l>
+						<l>Tot zoen van 't wettig bloedt, staet na mijn kroon en leeven.</l>
+						<l>Ik zag in deezen storm mijn vrienden zelf gevat</l>
+						<l>Van schrik en angst, daer op ik 't meest te hoopen hadt.</l>
+						<l>'t Schijnt me alles doodelik, elk een heeft my verlaeten;</l>
+						<l>Of hoop ik noch op iet, dat is op u, Astrate;</l>
+						<l>Mijn vyandt, zonder u, verstoot my van den Troon.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Mevrouw, vrees gy niet, hy moet vreezen; dank de Goôn.</l>
+						<l>De staet, daer in mijn min hem heeft gebraght voor deezen,</l>
+						<l>Laet hem voortaen niet toe u schaedelik te weezen.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Astrate, kunt gy my beschutten voor zijn kracht?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ik kan noch meêr, ik kan hem leev'ren in uw macht.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>My leev'ren, goede Goôn! kan 't zijn, dat mijn verlangen</l>
+						<l>Zou van zo lief een handt zo lief een gift ontfangen?</l>
+						<l>En zal ik end'lik in mijn macht zien, en geweldt,</l>
+						<l>Mijn grootste vyandt, door mijn grootste vriendt gestelt?</l>
+						<l>Ay haast u, hou 't geheim niet langer opgeslooten,</l>
+						<l>En noem 't gevaerlik bloedt, dat noch moet zijn vergooten.</l>
+						<l>Men neem het leeven, die 't ons anders neemen zou.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Wel aen, wel aen, 'k zal u gehoorzaem zijn, Mevrouw,</l>
+						<l>En u van 't bloedt, het geen zo doodlik u komt hoonen</l>
+						<l>'t Ellendig overschot zo daedelik vertoonen.</l>
+						<l>De jongste zoon des Vorsts, die gy benaemt het licht;</l>
+						<l>Die zoon, door schuldigheidt tot uw verderf verplicht;</l>
+						<l>Dit offer, dat u strekt een nieuwe leevensader;</l>
+						<l>Die arme wreeker van een deerelijken Vader,</l>
+						<l>Van een verdelgde stang, en ingenomen staet;</l>
+						<l>Kortom, die Vyandt zo gevreest, en zo gehaet,</l>
+						<l>Die gy met alle kracht zo zocht in 't graf te delven,</l>
+						<l>(Wie hadt het oit gedacht?) Mevrouw, die ben ik zelve.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Gy, gy Astrate? ô Goôn!</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ik heb vergeefs gedacht</l>
+						<l>My zelfs te vleyen, en te twijffelen getracht;</l>
+						<l>Toen my Sichëus zey wie 'k ben, hoewel met vreezen,</l>
+						<l>Had hy mijn hert gelooft, hy had my in mijn weezen</l>
+						<l>Gelaeten, en my van mijn lot noit onderricht;</l>
+						<l>Nu heeft hy teegens dank my al te veel verplicht.</l>
+						<l>Dees slag komt uwe ziel, zo wel als mijne, plaegen.</l>
+						<l>Gy zijt niet meêr als ik gehardt, noch onverslaegen.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Ik had my zelve meer gehardt te zijn vertrouwt;</l>
+						<l>Maer 'k dacht niet dat gy 't hooft der muit'ren weezen zoudt.</l>
+						<l>Ik stofte t'onrecht op mijn onverwinbre krachten,</l>
+						<l>En dat ik onbeschroomdt kon alle ramp verwachten.</l>
+						<l>Ik was niet op mijn hoede, als 't my den doodtsteek braght;</l>
+						<l>Mijn hert was wel genoeg verzien met heldekracht,</l>
+						<l>Zelfs teegen het gevaer, het geen stondt na mijn leeven,</l>
+						<l>En teegen 't muitendt graeuw, zo schrikk'lik overgeeven;</l>
+						<l>'t Was sterk genoeg om zelf de Goôn te weederstaen;</l>
+						<l>Maer 't schoot noit teegens u, noch liefde 't harnas aen.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Voor my, noch voor de min behoeft gy niet te vreezen,</l>
+						<l>Uw eigen Vyandt moet u onderdaenig weezen:</l>
+						<l>Gy woudt hem kennen, en ik heb hem u getoont;</l>
+						<l>Gy zocht zijn doodt, ik bid, dat gy hem niet verschoont.</l>
+						<l>Spaer my het leeven niet, dat u wordt aengebooden;</l>
+						<l>Het is my lastig, en gy hebt mijn bloedt van nooden.</l>
+						<l>'t Zal vloeijen zonder pijn, als 't uit mijn aders raekt;</l>
+						<l>'t Is schuldig, nu het my uw vyandt heeft gemaekt.</l>
+						<l>Welk een geluk, indien 't u laet, als Koninginne....</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Astrate, wijt my niet, dat ik de Kroon beminne;</l>
+						<l>Zo zy my heeft gekost veel onrecht, en veel zorg,</l>
+						<l>Het was voor uwe kruin, de Min verstrekt mijn borg:</l>
+						<l>En ondertusschen heb ik niet, als u verraeden.</l>
+						<l>De Heemel teegen my wendt mijne snoode daeden.</l>
+						<l>Al wat ik immer deê voor u, tot mijn verwijt,</l>
+						<l>Helaas! vereent ons niet, maer scheidt ons voor altijdt.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ik heb dan, hoor ik, om dat ik u kon behaegen,</l>
+						<l>U mijnen Vader my ten offer op doen draegen;</l>
+						<l>En al zijn bloedt gestort, die 't my gegeeven hadt;</l>
+						<l>'k Was Vaderbeul, om dat ik uwe ziel bezat.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Wel aen, rechtvaerdig u, Astrate, en neem my 't leeven;</l>
+						<l>Gy zult onschuldig zijn, als gy my hebt gegeeven</l>
+						<l>Mijn straffe; wreek uw bloedt; haet my tot 's Vaders zoen.</l>
+						<l>Uw lot gebiedt het u.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Zou ik het kunnen doen?</l>
+						<l>Op zulk een lieven borst te wetten mijnen deegen?</l>
+						<l>En kunt gy met uw raedt mijn hert daer toe beweegen?</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>'k Beken 't, ik vind my door mijn zwakheidt zo verleidt,</l>
+						<l>Dat ik met moeite stem tot dees gehoorzaemheidt.</l>
+						<l>Volg dan niet meêr, als half, het geene gy zijt schuldig;</l>
+						<l>Bewaer my maer de helft, Astrate, ik ben geduldig.</l>
+						<l>Ga wreek u, 't zal my toorn aenbrengen, noch verdriet.</l>
+						<l>Maer zo het weezen kan, Astrate, haet my niet.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ach! 'k deê te veel, indien ik't allerminste deede.</l>
+						<l>Heeft oit 't geminde van de Minnaer straf geleeden?</l>
+						<l>Neen, neen, de Heemel drijft uw straf met geen geweldt;</l>
+						<l>De wijl dat hy u zulk een zachten Rechter stelt.</l>
+						<l>'t Is tot behoudenis van die ik wil bevrijden,</l>
+						<l>Dat hyme een wet stelt, die ik volgen kan, noch lijden:</l>
+						<l>En zo gy door de wil des Heemels sneuv'len zoudt,</l>
+						<l>Hy had die straf niet aen een Minnaers arm vertrouwt.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>De Goden willen my nochtans door u bederven;</l>
+						<l>'t Orakel zeit, dat ik om uwent wil moet sterven;</l>
+						<l>De Goôn verzeekeren 't; daer is geen twijffel aen.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Neen, Min alleenig is de Godt, die my moet raên;</l>
+						<l>Zijn stem en mijn gemoedt spreekt al de Goden teegen;</l>
+						<l>Die stem moet meêr by my, als uw orakel weegen;</l>
+						<l>Hy is de Godt, die my meest aengaet en verstaet;</l>
+						<l>'k Vertrouw'my meêr op hem, als aller Goden haet;</l>
+						<l>Zy zijn verdwaelt, zo zy door my uw Kroon en leeven</l>
+						<l>t' Ontrukken dreigen, want ik durf'er teegen streeven.</l>
+						<l>'k Zal u behouden gaen, in spijt van 't wreev'lig lot.</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>IV. Tooneel.</head>
+					<stage>Geraste, Elize, Astrate, Corisbe.</stage>
+					<sp who="#geraste">
+						<speaker>Geraste.</speaker>
+						<l>MEvrouw, 't wijkt alles voor het opgeruiderot,</l>
+						<l>De vyandt, door 't beschik tot uw verderf beschooren,</l>
+						<l>Staet vaerdig, om u in uw wanhoop te versmooren.</l>
+						<l>Niets hebtge, als alles quaedts te wachten van hun haet;</l>
+						<l>Hun graege wraeklust, die in vollen arbeidt gaet,</l>
+						<l>En teegen al uw bloedt van woede is ingenomen,</l>
+						<l>Heeft in Agenors doodt zijn eerste wraek bekomen!</l>
+						<l>Maer, 't geen het wonderste is, men heeft door listigheidt</l>
+						<l>Op u de misdaedt van dit wreede stuk geleidt;</l>
+						<l>Al 't graeuw is op de been, zijn vrienden daerenboven,</l>
+						<l>Die komen na 't Paleis op 't heevigste aengestooven.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize</speaker>
+						<stage>teegen Astrate.</stage>
+						<l>Gy ziet, de dulle wrok van d'onverzoenbre Goôn</l>
+						<l>Begeert, Astrate, datge, uws ondanks, my zult doôn.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ik zal u eevenwel verweeren voor hunne oogen,</l>
+						<l>En zien of zy zich dan, of ik my heb bedroogen.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Neen, luister na uw bloedt.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Dat schreeuwt vergeefs, ik hoor</l>
+						<l>Na niemandt als na Min, en volgh alleen zijn spoor.</l>
+					</sp>
+					<stage>Einde van't Vierde Bedrijf.</stage>
+				</div>
+			</div>
+			<div n="5" type="act">
+
+				<head>V. Bedryf.</head>
+				<div n="1" type="scene">
+					<head>Eerste Tooneel.</head>
+					<stage>Elise, Corisbe.</stage>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>'t IS tijdt voor uw gezicht mijn hert tot vreugdt te zetten,</l>
+						<l>Schoon my de Heemel wil verdelgen, en verpletten.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Hoe? meintge, dat Astrate uw dolle vyandt still',</l>
+						<l>Die u, zijns ondanks, dus bestormt om zijnent wil;</l>
+						<l>En dat Astrate u voor de tweedemael bevrijde</l>
+						<l>Van 's Heemels straf, daer gy zo na zijt aen u lijden?</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Ik heb Astrate zien betrachten met geweldt,</l>
+						<l>Al 't geen men hoopen kan van een verliefden heldt;</l>
+						<l>'k Zag van de galery hoe dapper hy verweerde</l>
+						<l>De Poort, daer 't oproer vast hoe langs hoe meêr vermeerde.</l>
+						<l>Na dat hy, doch vergeefs, getracht had meenigmael</l>
+						<l>De dolheidt van het volk te stillen door zijn tael.</l>
+						<l>Maer ziende dat men hem gansch geen gehoor wou geeven,</l>
+						<l>Heeft hy zijn dierbaer bloedt voor mijn ellendig leeven</l>
+						<l>Gewaegt. Hy heeft voor my, zelf teegen zich, gewaekt,</l>
+						<l>En volk, en vrienden tot zijn vyanden gemaekt.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Mevrouw, wat kan Astrate in deezen standt bedrijven,</l>
+						<l>Met zo een handt vol volk, die op uw zijde blijven?</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>'t Betoonen, dat hy my mint in mijn ongeluk,</l>
+						<l>Kan my vermaek en vreugdt doen scheppen in mijn druk.</l>
+						<l>Wanneer men wel bemint, en by het welbeminde,</l>
+						<l>Hoe groot de ramp ook zy, weet heul en troost te vinden,</l>
+						<l>Dat 's een genoegen, 't welk de ziel zo zeer vermaekt,</l>
+						<l>Dat ons een groot verlies van buyten niet eens raekt.</l>
+						<l>Mijn lieven vyandt zelf my 't lijf te zien verweeren;</l>
+						<l>In plaets van teegen my zijn wapenen te keeren,</l>
+						<l>Te zien hoe hy zijn bloedt verzaekte, en in zijn hert</l>
+						<l>Deê zwijgen 's vaders schim, vast morrende vol smert;</l>
+						<l>In plaets van mijn bederf te haesten, dat te weeren;</l>
+						<l>De Godtspraek, kon het zijn, in loogens te verkeeren;</l>
+						<l>Zijn plicht vergeeten, en meêr minnaer zijn als kindt;</l>
+						<l>Braveeren 't Noodtlot, tot mijn ondergang gezindt,</l>
+						<l>En met zijn handt, geschikt tot mijn verderf, my 't leeven</l>
+						<l>Behouden; teegen 't lot aenworst'len, en weêrstreeven,</l>
+						<l>Alleen om mijnent wil, is my zo groot een vreugdt,</l>
+						<l>Dat my het sterven geen verdriet is, maer verheugt.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Ik zie niet, wat u zo tot sterven port.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Astrate</l>
+						<l>Is in gevaer, wilt gy, dat ik hem daer in laete?</l>
+						<l>Neen, haestenwe onze doodt; laet ons dien braeven heldt</l>
+						<l>Verlossen van de wraeke, op my slechts aengestelt.</l>
+						<l>Ik min Astrate meêr, Corisbe, als Kroon en leeven;</l>
+						<l>Alleen 't gevaer, dat hem gedreigt wordt, doet my beeven.</l>
+						<l>Mijn snelle doodt kan hem bevrijden door mijn handt,</l>
+						<l>Dat hy zich niet vergeefs met ondaên smette, en schandt.</l>
+						<l>Ik moet mijn misdaên, die hem zo gevaerlik waeren,</l>
+						<l>Meêsleepen, om dien heldt weêr aen de deugdt te paeren.</l>
+						<l>Na 't geen Astrates min op heeden deê voor my,</l>
+						<l>Moet ik op mijne beurt niet minder doen, als hy.</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Hoe? wachtge niet, tot dat uw noodtlot....</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Zou ik draelen,</l>
+						<l>Tot dat men my de wraek doe met geweldt betaelen?</l>
+						<l>De doodt, in 't uiterst' steekt veel heereliker uit,</l>
+						<l>Die uit een vrye keur, dan die uit noodtdwang spruit.</l>
+						<l>Kom schikken wy 't besluit des heemels voor te komen,</l>
+						<l>En laeten we onderwijl elk twijffelen en droomen,</l>
+						<l>Wat slag van straffen my het lot beschooren hadt,</l>
+						<l>Zo ik het zelve niet hadt by de handt gevat.</l>
+						<l>Wy moogen hoopen, maer wat kan die hoop my baeten.</l>
+						<l>Daer komt mijn vyandt aen, ô Goôn! waer blijft Astrate?</l>
+						<l>Dat hy niet meê verschijnt, en niet verwonnen heeft,</l>
+						<l>Beduidt zijn doodt. Helaes! ik heb te lang geleeft.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>II. Tooneel.</head>
+					<stage>Sicheus, Nicogenes, Bazore, Nerbal, Elize, Corisbe, Soldaeten.</stage>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>DAer is de Koningin, het sterven dubbel waerdig;</l>
+						<l>Maer eeren wy den Troon, al drukt zyze onrechtvaerdig.</l>
+						<l>Belet het Krijgsvolk toch van verder voort te gaen,</l>
+						<l>En laet op my de wraek van onze Vorsten staen.</l>
+						<stage>Teegen de Koninginne.</stage>
+						<stage>Nicogenes en Nerbal binnen.</stage>
+						<l>Hoewel ik door een plicht, die geensins is te breeken,</l>
+						<l>Het Noodtlot dien, dat u schijnt na het hert te steeken,</l>
+						<l>'t Ontzag, het geen ik draeg aen 't Koninklik gebiedt...</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Wat deedt gy met Astrate? Ach! zeg waer gy hem liet?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Gy vleit u zelfs vergeefs, dat hy u zal verweeren;</l>
+						<l>Hy is niet meêr in staet, om iemandt af te keeren.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Hoe, is mijn heldt dan doodt? en hadt het volk geen meêr....</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Hy is in 't leeven, maer berooft van zijn geweer.</l>
+						<l>Zijn liefde quam vergeefs ons trouwe plicht bestooken;</l>
+						<l>Zijn deegen, in zijn handt tot aen 't gevest gebroken,</l>
+						<l>Heeft hem in deezen staet gelaeten, zonder maght</l>
+						<l>Van meêr geweldt tedoen tot hoon van zijn geslacht.</l>
+						<l>In deezen val, daer u de Goden meê bezwaeren,</l>
+						<l>Heb ik de smert van 't zien u weêrzijdts willen spaeren,</l>
+						<l>En alle bêy ontslaen van noodeloos berouw,</l>
+						<l>Hy wordt bewaert.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Op dat ik hem niet spreeken zou?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Beklaegtge u van die zorg?</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Al wat'er wordt bedreeven,</l>
+						<l>'k Beklaegme nergens van, mag slechts Astrate leeven;</l>
+						<l>Behoudt men hem alleen, die 'k min het meest van al,</l>
+						<l>Hoe groot mijn rampen zijn, 'k vergeef die aen 't geval.</l>
+						<l>Maer zou ik voor mijn doodt wel iets verzoeken durven?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>'t Is al in deeze staet u met een woordt verwurven...</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Gy ziet wel, wijl ik ben zo na aen mijnen val,</l>
+						<l>Dat ik niet licht'lik iets voor my verzoeken zal;</l>
+						<l>Ik ken Astrates min, en oordeel uit my zelven</l>
+						<l>Hoe zoet de doodt is, als men in het graf ziet delven</l>
+						<l>Het geen men mint; des weet ik, dat Astrate zal</l>
+						<l>Het daglicht schuwen, op 't gerucht van mijnen val.</l>
+						<l>Daerom is dit mijn beê: draeg zorge, dat hy leeve;</l>
+						<l>Belet hem toch, dat hy zich niet tot wanhoop geeve.</l>
+						<l>Alleen zijn leeven, daer bestaet mijn wellust in;</l>
+						<l>Doch met het mijne, doet daer meê na uwen zin.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Mevrouw, 'k ontzie de plaets, die gy hebt ingenomen,</l>
+						<l>Maer 'k hoor het woedend volk, bezwaerlik in te toomen.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<stage>Daer wordt achter het Tooneel een gerucht gemaekt.</stage>
+						<l>Men laete my in rust, 'k weet wat my staet te doen</l>
+						<l>Tot mijne, tot des Rijks, en tot der Goden zoen.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus</speaker>
+						<stage>teegen Bazore.</stage>
+						<stage>Zy gaet in haer vertrek.</stage>
+						<l>De liefde maekt, dat zy zo nô scheidt uit het leeven,</l>
+						<l>Let op haer doen mijn vriendt; en wilt haer niet begeeven.</l>
+						<l>'k Zal ondertusschen zien wat dit gerucht bediedt.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>III. Tooneel.</head>
+					<stage>Astrate, Sicheus, Soldaeten.</stage>
+					<sp who="#astrate">
+						<speaker>Astrate</speaker>
+						<stage>zich rukkende uit de handen der Soldaeten.</stage>
+						<l>NEemt my het leeven, of weêrhoudt my langer niet.</l>
+						<l>Zult gy uw Heer en Vorst dus handelen, ô wreeden...</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Neemt niet ten quaedsten op mijns zoons krankzinnigheeden;</l>
+						<l>Maer om zijn geest weêrom te leiden zo 't behoort,</l>
+						<l>Laet ons alleen; ick zal hem stillen met een woordt.</l>
+						<stage>Teegen Astrate.</stage>
+						<stage>Soldaeten binnen.</stage>
+						<l>Gy zult in korten (geef doch rust aen uwe zinnen)</l>
+						<l>Uws Vaders troon bekleên.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Waer is de Koninginne?</l>
+						<l>Indien ik denken dorst, dat in dit laetst geweldt,</l>
+						<l>Maer 't allerminste was tot haere doodt bestelt....</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>De Koninginne leeft, maer 't is tot haer bederven;</l>
+						<l>En hy bemint haer niet, die haer belet te sterven:</l>
+						<l>'t Volk is te zeer op haer gebeeten en verwoedt;</l>
+						<l>Zo dat een traege doodt haer schuldt verlengt, en voedt.</l>
+						<l>Wilt gy haer laeten aen den moedtwil der Soldaeten,</l>
+						<l>Of aen 't oproerig graeuw, in dolheidt uitgelaeten,</l>
+						<l>Die alle zijn bereidt, om haer ten offer van</l>
+						<l>Uw bloedt te slachten, en die 'k niet weêrhouden kan?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ik zie wel, wat mijn lot zo droevig doet verand'ren.</l>
+						<l>Verzeeker my van u; 'k verzeeker u van d'and'ren;</l>
+						<l>Bely slechts wie ik ben, op dat ik meester zy.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Dat dult mijn plicht niet, Vorst, dat ik 't zo dra bely.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Hoe lang zult gy my dan noch van den Troon versteeken?</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Tot dat ik heb gezien 't bloedt uwer Maegen wreeken..</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Maer weet gy wel, wat loon van my ontfangen zou</l>
+						<l>d'Onmenschelike zorg van zulk een grooten trouw?</l>
+						<l>Zo uit wraekzuchtigheidt, in wêerwil mijner zinnen,</l>
+						<l>Uw al te wreede plicht my afrukt 't geen ik minne,</l>
+						<l>Zal ik de straf van dees te groot een yverbrandt</l>
+						<l>U streng' gevoelen doen, zelf door mijn eigen handt.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Ik weet, hoe dikwils voor een ondienst wierdt gehouwen,</l>
+						<l>De deugd'like yver van een onbevlekte trouwe;</l>
+						<l>Maer niets ter weereldt trekt my van uw diensten af;</l>
+						<l>Ik zal mijn plicht voldoen, al dreigt gy my de straf.</l>
+						<l>Om u te kroonen, kan ik niet beweeg'lik weezen,</l>
+						<l>Zo lang ik oorzaek heb om voor uw eer te vreezen;</l>
+						<l>Maer 'k zal het zonder vrees toestemmen, als het my</l>
+						<l>Alleen betreffen zal; ja zelf verheugde en bly</l>
+						<l>Uw bitt'ren haet op my afwachten en verdraegen,</l>
+						<l>Zo ik u dienst kan doen, voor 't endt van mijne daegen.</l>
+						<l>Mijn zeek're doodt, wanneerze uit mijn getrouwheidt spruit,</l>
+						<l>Is 't minst, dat my verschrikt, of teegen 't herte stuit.</l>
+						<l>Mijn Vorst, wanneer ik my heb na den eisch gequeeten,</l>
+						<l>De volle wraek aen 't bloedt uws vaders toegemeeten,</l>
+						<l>Uw eer verzeekert, en beweezen mijne plicht,</l>
+						<l>Dan heb ik lang genoeg genooten 's leevens licht.</l>
+						<l>Ja, zo de driften van mijn yver u mijn leeven,</l>
+						<l>Zelf teegen uwen dank, slechts mogten overgeeven,</l>
+						<l>Ik sturf gerust: te mêer, mag uw verstoorde zin</l>
+						<l>Op my de dolle wraek volvoeren van uw min.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Wijl 't ydel is, dat ik, met allerleye reeden,</l>
+						<l>Uw onverbidd'lik hert tot zachtheidt zoek te kneeden;</l>
+						<l>Uw hert, dat onbeweegt, gelijk een rots, blijft staen;</l>
+						<l>Laet ons uw wreedheidt dan, tot walgens toe, verzaên.</l>
+						<l>Ik wil, dat gy verkrijgt meêr, als gy hadt beslooten,</l>
+						<l>Dat met zo waerdt een bloedt ook 't mijne werdt vergooten.</l>
+						<l>Geef hier.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus</speaker>
+						<stage>belettende Astrate zijn deegen te neemen.</stage>
+						<l>Mijn Heer!</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Wel hoe, wat vreest gy voor mijn bloedt,</l>
+						<l>Gy die my 't hert ontrukt met zulk een overmoedt?</l>
+						<l>Waerom behoudt gy niet daer ik het meest in leeve?</l>
+						<l>'t Is in Elize alleen, daer my de doodt doet beeven;</l>
+						<l>De liefde boeit my aen haer vast, in dit gevaer;</l>
+						<l>Mijn leeven, en mijn doodt is t'eenemaal in haer.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Ik ben zo niet ontaerdt, mijn Heer, noch hardt van herte,</l>
+						<l>Dat dit uw ongeval my ook niet zoude smerten;</l>
+						<l>'k Beklaeg u, datge uw min niet beeter hebt geleidt:</l>
+						<l>Maer denk wiens zoon gy zijt; ik heb het u gezeidt.</l>
+						<l>Voelt gy uw bloedt in u niet sidderen, en woelen?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>'k Gevoel al 't geen ik moet, al 't geen ik kan gevoelen,</l>
+						<l>'k Gevoel 't vergieten wel van 't vaderlike bloedt;</l>
+						<l>Maer 'k min, en dat gevoel ik meest in mijn gemoedt.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Dat snoodt gevoelen! houdt gy 't wettig? ach! ik vreeze....</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Laet haer behoudenis by u een misdaedt weezen;</l>
+						<l>Schuif gyze alleen, alwaer die noch zo groot, op my:</l>
+						<l>Ik sta u daer voor in, en spreek u daer van vry.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Dat ik zo blindeling met mijne plicht zou speelen,</l>
+						<l>En dienen zo mijn Heer?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ik ben 't die 't u beveele.</l>
+						<l>My beeter dienst doen, is mijn ondergang gezocht;</l>
+						<l>My niet verraên, is mijn verderf en doodt gewrocht.</l>
+						<l>Zo gy mijn leeven mint, hou op van zo verbolgen</l>
+						<l>Dat leeven, daer het mijne aen vast is, te vervolgen.</l>
+						<l>De teikenen van uw getrouwheidt gaen te veer.</l>
+						<l>Dien my als Minnaer, dien my niet als Opperheer.</l>
+						<l>Ach! stel mijn bloedt voor 't bloedt, daer uit ik ben gesprooten,</l>
+						<l>Om uwes zoons wil, in wiens naem ik heb genooten</l>
+						<l>Uw liefde, en op wiens naem ik minde zonder smet,</l>
+						<l>Om alles daer gy meest uw hert en zin op zet.</l>
+						<l>Mag ik iets goedts uit deeze ontsteltenis besluiten,</l>
+						<l>En durf ik hoopen......</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>IV. Tooneel.</head>
+					<stage>Nicogenes; Nerbal, Sicheus, Astrate, Soldaeten.</stage>
+					<sp who="#nicogenes">
+						<speaker>Nicogenes</speaker>
+						<stage>teegen Sichëus.</stage>
+						<l>Heer, al 't volk is aen het muiten.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Is 't om de Koningin, en wil men haere doodt?</l>
+					</sp>
+					<sp who="#nicogenes">
+						<speaker>Nicogenes.</speaker>
+						<l>Het volk, wat dit belangt, niets zeekerliks besloot;</l>
+						<l>Het stelt haer sterfuur uit, om naer een weinig wachten</l>
+						<l>Dit waerdig offer aen hun wettig Heer te slachten.</l>
+						<l>Maer 't wil zijn Koning zien, en 't mort, om dat men mart</l>
+						<l>Den Vorst te toonen, dien 't bemint uit al zijn hert.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Wat wachtge? vergenoeg het volk met mijn vertooning;</l>
+						<l>Ondek het hunnen Heer, en wetteliken Koning:</l>
+						<l>En wijl ik 't zelve ben, zo laet van nu voortaen</l>
+						<l>My 't voordeel van mijn stam, dat my zo dier zal staen.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Op Vorst en volk kan al mijn teegenstandt niets winnen.</l>
+						<l>Gaen wy 't ontdekken.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Gaen we eerst na de Koninginne.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus</speaker>
+						<stage>teegen Nerbal.</stage>
+						<l>Men zie eerst, ofmen haer kan spreeken; want zy sloot</l>
+						<l>Zich op in haer vertrek.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ach! dat beduidt haer doodt.</l>
+						<l>Te laet is 't, veel te laet, te bidden om haer leeven;</l>
+						<l>De wijl gy 't my vergunt, heeft zy het weg gegeeven:</l>
+						<l>En uw onmenschlik hert hadt my niets toegestaen,</l>
+						<l>Zo 't niet gedachr hadt, dat het met haer was gedaen.</l>
+						<l>Gy zelfs hebt licht'lik....</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Ik?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Ach! alles doet my schroomen;</l>
+						<l>Rechtvaerdig u, en doetze in 't leeven voor my komen,</l>
+						<l>Dewijl ik geen geloof, als in mijn oogen, vindt.</l>
+						<l>Daer is zy zelf; verschoon de vrees van een, die mint.</l>
+					</sp>
+				</div>
+				<div n="5" type="scene">
+					<head>Laetste Tooneel.</head>
+					<stage>Elize, Corisbe, Basore, Nerbal, Astrate, Sicheus, Nicogenes,
+						Soldaeten.</stage>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>IN 't endt, Mevrouw, in 't endt, wijkt alles voor mijn lusten;</l>
+						<l>Niets is'er, dat u meêr in 't leeven kan ontrusten;</l>
+						<l>Ik zeegeprael, gy leeft, door mijn getrouwe brandt,</l>
+						<l>In weêrwil van het lot, zo teegen ons gekant.</l>
+						<l>Mijn liefde, in't endt, heeft dees te trouw een knecht bewoogen;</l>
+						<l>Mijn heete drift verleidt; en zelf zijn plicht geboogen;</l>
+						<l>Ik zie geen vrees meêr voor gevaer van ongeval.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Meint gy, dat uwe liefde ook my verleyen zal?</l>
+						<l>Neen, neen, als liefde oprecht geprent staet in de zinnen,</l>
+						<l>Kanze alles buiten liefde omzetten, en verwinnen.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Dreigt gy my zelf met vrees voor uw behoudenis?</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Mijn ondergang, die u zo hoog noodtzaek'lik is,</l>
+						<l>Verstrekt een kleine zoen, en zuiv'ring van mijn schande.</l>
+						<l>Uw bloedt, uw bloedt verzoekt van u deeze offerhande:</l>
+						<l>En zo de liefde u die vergeeten doet, voor my,</l>
+						<l>Gy maekt, dat ik te meêr daer aen gedachtig zy.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Corisbe laet ons doch beletten, dat zy 't leeven....</l>
+					</sp>
+					<sp who="#corisbe">
+						<speaker>Corisbe.</speaker>
+						<l>Mijn Heer, het is te laet; zy heeft zich zelf vergeeven.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Mevrouw!</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Ik heb uw bloedt te wreeken zelf bestaen,</l>
+						<l>Opdat uw ziel de zorg der straffe zou ontgaen.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Men help de Koningin.</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Die hoop zou ydel weezen;</l>
+						<l>'t Vergif is veel te sterk, ik ben niet te geneezen.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate</speaker>
+						<stage>teegen Sichëus.</stage>
+						<l>Zijt gy 't ontmenschte, die dees wreede daedt besloot?</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Neen, gy zijt my alleen verplicht voor mijne doodt.</l>
+						<l>Ik dacht, dat, om de schim van uw vermoorden Vader</l>
+						<l>Te paeyen, my de wraek best paste, en niemandt nader;</l>
+						<l>Opdat ik, buiten hoon van liefde en van het bloedt,</l>
+						<l>U zonder misdaedt mogt behaegen in 't gemoedt.</l>
+						<l>Ook laet my d'onspoedt, daer my 't Noodtlot meê wil plaegen,</l>
+						<l>Niets in de weereldt, datme in 't leeven kan behaegen.</l>
+						<l>Al 't goedt, daer ik op hoopte, (eilaes!) verlaetme nu;</l>
+						<l>Ik hiel veel van de Kroon, maer meerder noch van u.</l>
+						<l>Het licht, en gy alleen kont my vernoeging geeven;</l>
+						<l>Maer zonder Kroon, en u, wat geef ik om het leeven?</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>'t Is noodig, datge eerst op uw redding denkt, en ziet</l>
+						<l>Of gy 't vergif....</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>Astrate, ei, terg mijn liefde niet;</l>
+						<l>Maer gun my stervende d'ontlastinge der pijnen,</l>
+						<l>Van my de doodt te laet zo haetlik te doen schijnen.</l>
+						<l>Ei, roep toch te vergeefs mijn leeven niet weêrom.</l>
+						<l>Ik sterf.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Helaes.....</l>
+					</sp>
+					<sp who="#elize">
+						<speaker>Elize.</speaker>
+						<l>De liefde en 't hertzeer maekt u stom,</l>
+						<l>Dit zwijgen zeit my meêr, als d'allerluitste klachte;</l>
+						<l>Voor welbespraektheidt moet men zulk een stomheidt achten.</l>
+						<l>Vaer wel: Want u te zien, en sterven kan ik niet;</l>
+						<l>Dat stelt uw wraek slechts uit, en meerdert mijn verdriet.</l>
+						<l>'k Voel in mijn stervend hert, dat uw bekoorlike oogen</l>
+						<l>Ontsteeken 't geen 't vergift vast uitblust. Het vermogen</l>
+						<l>Van die betoov'ring is in mijn gemoedt zo groot,</l>
+						<l>Dat gy mijn ziel weêrhoudt, en opschort mijne doodt.</l>
+						<l>Men breng my weg.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate</speaker>
+						<l>O Goôn!</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Gy zijt ten troon verheeven.</l>
+						<l>Regeert.</l>
+					</sp>
+					<sp who="#astrate">
+						<speaker>Astrate.</speaker>
+						<l>Durft gy.... Maer ach! zy heeft de geest gegeeven.</l>
+					</sp>
+					<sp who="#sicheus">
+						<speaker>Sicheus.</speaker>
+						<l>Hy valt, en 't schijnt hy sterft, door deeze doodt te zien;</l>
+						<l>Maer 't is ons wettig Heer, laet ons hem bystandt biên.</l>
+					</sp>
+					<stage>Astrate wordt binnen gebraght.</stage>
+					<p>EINDE.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

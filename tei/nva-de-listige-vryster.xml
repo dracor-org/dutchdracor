@@ -1,0 +1,3359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000159" xml:lang="dut">
+
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">De listige vryster</title>
+				<title type="sub">óf De verschalkte voogd</title>
+				<author>
+					<persName>
+						<forename>Jean Baptiste</forename>
+						<surname>Molière</surname>
+					</persName>
+					<idno type="wikidata">Q687</idno>
+					<idno type="pnd"></idno>
+				</author>				
+				<author>
+					<persName>
+						<surname>Nil Volentibus Arduum</surname>
+					</persName>
+					<idno type="wikidata">Q2351891</idno>
+					<idno type="pnd"></idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>Ceneton</name>
+					<idno type="URL"
+						>https://www.let.leidenuniv.nl/Dutch/Ceneton/NVAListigeVryster1730a.html</idno>
+					<editor>A.J.E. Harmsen</editor>
+					<ref>Ceneton090840</ref>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Nil Volentibus Arduum: De listige vryster. Amsterdam: David Ruarus,
+						1730.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person xml:id="steiloor" sex="MALE">
+						<persName>STEILOOR</persName>
+					</person>
+					<person xml:id="goedaard" sex="MALE">
+						<persName>GOEDAARD</persName>
+					</person>
+					<person xml:id="willegond" sex="FEMALE">
+						<persName>WILLEGOND</persName>
+					</person>
+					<person xml:id="katryn" sex="FEMALE">
+						<persName>KATRYN</persName>
+					</person>
+					<person xml:id="ruffina" sex="FEMALE">
+						<persName>RUFFINA</persName>
+					</person>
+					<person xml:id="lekker" sex="MALE">
+						<persName>LEKKER</persName>
+					</person>
+					<person xml:id="heerman" sex="MALE">
+						<persName>HEERMAN</persName>
+					</person>
+					<person xml:id="slik-op" sex="MALE">
+						<persName>SLIK-OP</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Comedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-04">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1690">
+				<desc/>
+			</event>
+			<event type="premiere" when="1690">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	
+	<text>
+		<front>
+			<docTitle>
+
+				<titlePart>DE LISTIGE VRYSTER, óf de VERSCHALKTE VOOGD; BLYSPÉL.</titlePart>
+
+				<titlePart>In Vaerzen aan byzondere maat, nóch rym gebonden.</titlePart>
+				<titlePart>[Vignet: Nil Volentibus Arduum]</titlePart>
+				<titlePart>T’ AMSTELDAM,</titlePart>
+
+				<titlePart>Gedrukt voor het KUNSTGENOOTSCHAP, én te bekomen by DAVID
+					RUARUS,</titlePart>
+				<titlePart>Met Privilegie 1730.</titlePart>
+			</docTitle>
+
+			<div type="appendix">
+				<head>COPYE van de PRIVILEGIE.</head>
+				<p>DE Staaten van Holland ende Westvriesland, Doen te weeten, Alzo ons vertoont is
+					by die van het Kunstgenootschap NIL VOLENTIBUS ARDUUM, t’Amsterdam, hoe dat zy
+					Supplianten op het voorbeelt van Italiaansche, Engelsche en Fransche Academien,
+					voor veel Jaaren niet zonder zorg, moeite en ongemeene kosten, hun
+					Kunstgenootschap hadden opgeregt, tot opbouwing ende voortsetting van de
+					Nederlandsche Taal- en Digtkunst, en dat ten zelven einde de Supplianten ende
+					hunne Kunstgenootschap, Ook by continuatie van hun voorig Privilegie en Octroy,
+					op den 14. Maart, 1707. door ons op nieuw was begunstigt, om geduurende den tyd
+					van nog vyftien Jaren alleen, en met uytsluiting van allen anderen, te mogen
+					drukken, herdrukken, uytgeeven en verkoopen, in zodanigen Formaat en Taale als
+					het de Supplianten geraden zoude mogen vinden, alle de Werken van het
+					voorgenoemde Kunstgenootschap, als toen reeds gedrukt, en in gevolg van tyd
+					verder te maaken, te drukken, te herdrukken, uyt te geeven ofte te Verkopen,
+					onder het voorsz. Opschrift van, NIL VOLENTIBUS ARDUUM, met verbod van alle
+					contraventie, onder wat pretext zulks ook zoude mogen zyn; en dat op zodanige
+					poene of straffe, als breeder by het zelve Octroy by Copie authenticq aan ons
+					geexhibeert stont uytgedrukt. Ende dewyle het zelve Octroy op den 14. Maart,
+					dezes Jaars 1722. stond te expireeren, en dat zy Supplianten, ofte wel die
+					geene, die hunnent weege, het drukken en herdrukken van hunne Werken, hadden
+					bekostigt gehad, nog met de zelve grootelyks waaren en bleeven beswaart, en
+					zonderling door de onderkruiping van die géne, die niet tegenstaande, en in
+					verachting van ons voorsz. Octroy hadden durven bestaan, de voorsz. Werken meede
+					na te Drukken en te Verkoopen, hoewel zeer gebrekkelyk, en tot oneere van het
+					Kunstgenootschap, en tot verachtering van de Nederlandsche Taal- en Dichtkunst;
+					behalven dat ’er ook verscheide Stukjes en Werken thans op nieuws stonden uyt te
+					komen, ende de voorige met Titul, Kunst-platen, Muziek en anderzints voorzien en
+					verbeetert, op Nieuw stonden uyt te koomen, zo vinden zy Supplianten, bedugt
+					zynde, dat zy door baatzugtige menschen tot merkelyke schade van de
+					Geintresseerdens, al verder stonden Getraverseert en onderkroopen te werden, met
+					en door het Nadrukken, ende anderzins; zig genootzaakt tot voorkoming van dien
+					haar te keeren tot Ons, versoekende dat het Onze goede geliefte mogte zyn, het
+					voorsz. Privilegie ende Octroy voor nog vyftien jaaren naar desselfs expiratie,
+					zullende wezen den 24. Maart, dezes loopenden Jaars, weder te verlengen en te
+					continueeren, op poene en straffe tegens de contraventeurs, daar by te
+					statueeren; ZOO IS ’T, dat wy de saake ende ’t voorsz. Versoek over gemerkt
+					hebbende, ende geneegen wezende ter beede van de Supplianten, uyt onze regte
+					wetenschap, Souveraine Magt ende Authoriteyt, de zelve Supplianten
+					Geconsenteert, Geaccordeert, en Geoctroyeert hebben, Consenteeren, Accordeeren
+					en Octroyeeren haar by deezen, dat zy geduurende den tyd van vyftien eerst
+					achtereenvolgen- de Jaren, zullende ingaan met den 24. Maart dezes loopenden
+					Jaars, alle de voorsz. Werken, by continuatie binnen den voorsz. onzen Landen,
+					alleen zullen mogen Drukken, doen Drukken, Uytgeeven en Verkoopen, verbiedende
+					daar omme allen ende eenen iegelyken alle de voorsz. Werken in ’t geheel ofte
+					ten deel te Drukken, naar te Drukken, te doen Naardrukken, te Verhandelen, ofte
+					Verkoopen, ofte elders Naargedrukt, binnen den zelven Onze Landen te brengen,
+					uyt te Geeven ofte te Verhandelen en Verkoopen, op Verbeurte van alle de
+					Naargedrukte, Ingebragte, Verhandelde, ofte Verkogte Exemplaaren, ende een Boete
+					van drie Duizend Guldens daarenboven te verbeuren; te appliceeren een derde part
+					voor den Officier, die de Calange doen zal, een derde part voor den Armen der
+					plaatze daar het Casus voorvallen zal, ende het resteerende derdepart voor de
+					Supplianten, ende dit t’elkens zoo meenigmaal, als dezelve zullen werden
+					agterhaalt, alles in dien verstande, dat Wy de Supplianten met dezen onzen
+					Octroye alleen willende Gratificeeren, tot verhoedinge van hunne Schade door het
+					Nadrucken van de voorsz. Werken, daar door in geenigen deele verstaan, den
+					innehouden van dien te Autoriseeren ofte te Advouëren, ende veel min dezelve
+					onder onze protexie, ende bescherminge, eenig meerder Credit, aanzien ofte
+					reputatie te geeven, nemaar de Supplianten in cas, daar inne iets onbehoorlyks
+					zoude influëren, alle het zelve tot haren Lasten zullen gehouden weezen te
+					Verantwoorden, tot dien eynde wel Expresselyk begeerende, dat by aldien zy dezen
+					Onzen Octroye voor dezelve Werken zullen willen stellen, daar van geene
+					geäbbrevieerde ofte gecontraheerde mentie zullen mogen maken, nemaar gehouden
+					wezen, het zelve Octroy in ’t geheel, en zonder eenige Omissie daar voor te
+					drucken, of te doen drukken, ende dat zy gehouden zullen zyn, een Exemplaar van
+					de voorsz. werken, Gebonden ende Welgeconditioneert te brengen in de Bibliotheek
+					van onze Universiteyt tot Leyden, ende daar van behoorlyk te doen blyken, alles
+					op poene van het effect van dezen te verliezen, Ende ten eynde de Supplianten
+					dezen Onzen Consente, ende Octroye mogen genieten, als naar behooren, Lasten wy
+					allen ende eenen ygelijken, dien het aangaan mag, dat zy de Supplianten van den
+					inhouden van dezen doen, Laten, ende gedogen, Rustelyk, Vredelyk, ende
+					Volkomentlyk genieten ende gebruyken Cesserende alle belet ter Contrarie.
+					Gegeven in den Hage, onder onzen Groten zegele hier aan doen hangen op de
+					zevenentwintigste January, in ’t Jaar onzes Heere ende Zaligmakers duysend
+					zevenhondert en twee-en-twintig.</p>
+
+				<p>W. v. Wassenaar.</p>
+
+				<p>Ter Ordonnantie van de Staaten,</p>
+
+				<p>SIMON van BEAUMONT.</p>
+			</div>
+
+			<div type="preface">
+				<head>VOORREDE.</head>
+				<p>DE stóf van dit Blyspél is getrókken uit l’Ecole de Maris; óf, Schoole der
+					Mannen, van den Heer Moliere. Het had deezen naam mogen behouden ten aanzien van
+					ménschen, die zich meer aan den schyn dan aan ’t weezentlyke vergaapen. Dóch ik
+					heb groote réden gehad, om, niet alleen den naam, maar ook de schikkinge van dit
+					wérk te veranderen, én aldus de waarschynlykheit te betrachten die ons verplicht
+					geene zaaken buitens huis te vertoonen, die binnen ’s huis voorvallen; en met
+					één de karakters der personaadjen waar te neemen; én andere omstandighéden die
+					hier voorkoomen, naar den trant van onze tyden én zéden te schikken: een
+					hoofdpunt dat van veelen verzuimt wordt, die ter naauwer noodt, sléchts eene
+					vertaalinge, naar den ruuwen letterlyken zin, aan den dag bréngende, zig luttel
+					hier méde bekommeren, zynde ook veeltyds niet magtig dit in acht te neemen. De
+					Fransche Dichter heeft zich in dit Blyspél bediend van de Adelphi, óf
+					Gebroeders, van Terentius, gelyk deeze de stóffe voor zyn Tooneelstuk ook
+					genomen heeft uit den Griekschen Poëet Menander.</p>
+				<p>Gelyk nu Moliere, den ganschen draad van dit Blyspél heeft gepast op de Fransche
+					zéden van zynen tyd, hebben wy het onze, gelyk het de wélvoegelykheid vereischt,
+					geschikt naar onzen tyd, om alle wanschikkelykheid wég te neemen. Dit Spél, waar
+					in geene zédelessen ontbreeken, wordt voor één der béste stukken van Moliere
+					gereekend, én gestéld névens zyn Mizantrope, l’Imposteur óf Tartuffe, én Les
+					Femmes Scavantes, die hunnen Dichter groote eere én voordeel hebben
+					toegebragt.</p>
+			</div>
+
+			<castList>
+				<head>VERTOONERS.</head>
+				<castItem corresp="#steiloor">
+					<role>STEILOOR, Oudste, Gebroeders; Voogden van { Ruffina, én Willegond.</role>
+				</castItem>
+				<castItem corresp="#goedaard">
+					<role>GOEDAARD, Jongste, } Gebroeders; Voogden van { Ruffina, én
+						Willegond.</role>
+				</castItem>
+				<castItem corresp="#willegond">
+					<role>WILLEGOND, Zuster van Ruffina.</role>
+				</castItem>
+				<castItem corresp="#katryn">
+					<role>KATRYN, Meid } van Willegond.</role>
+				</castItem>
+				<castItem corresp="#ruffina">
+					<role>RUFFINA, Zuster } van Willegond.</role>
+				</castItem>
+				<castItem corresp="#lekker">
+					<role>LEKKER, Knécht van Heerman.</role>
+				</castItem>
+				<castItem corresp="#heerman">
+					<role>HEERMAN, Vryer van Ruffina.</role>
+				</castItem>
+				<castItem corresp="#slik-op">
+					<role>SLIK-OP, Notaris.</role>
+				</castItem>
+				<p>Het Tooneel verbeeld, in het Eerste Bedryf, een kamer in het huis van Steiloor.
+					In het Twé- de, de huizen én de buurt van Steiloor, Heer- man, én Slik-op. En in
+					het Dérde én laatste Be- dryf, een bovenkamer in Heermans huis.</p>
+
+				<p>De Geschiedenis van het Blyspél begint ’s namid- dags, én eindigt voor
+					middernacht.</p>
+
+			</castList>
+			<castList>
+				<head>Zwygende.</head>
+				<castItem corresp="#klerken">
+					<role>Twé Notaris Klérken</role>
+				</castItem>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<head>DE LISTIGE VRYSTER, óf de VERSCHALKTE VOOGD. BLYSPÉL.</head>
+				<head>EERSTE BEDRYF.</head>
+				<div type="scene" n="1">
+					<head>EERSTE TOONEEL.</head>
+					<stage>In een kamer van Steiloors huis.</stage>
+					<stage>STEILOOR, GOEDAARD, beide zittende.</stage>
+					<sp who="#steiloor">
+						<speaker>STEILOOR, opstaande.</speaker>
+						<l>Hoor Broêr al dat gelél, dat talmen aan myne ooren,</l>
+						<l>Is lang genoeg, ik wil zo leeven, als ik wil;</l>
+						<l>Leef jy naar jou zin, én zwyg stil:</l>
+						<l>Want zie, ik wil, nóch zel die taal niet langer hooren.</l>
+						<l>Kyk Broer, al benje een jaar óf tien naa my gebooren,</l>
+						<l>Zo benje, vatje ’t wel, naar alle schyn</l>
+						<l>Vry oud genoeg om wys te zyn.</l>
+						<l>Ergo, daarom, zel ik jou in twé woorden zeggen,</l>
+						<l>Hoe dat de zaaken by my leggen:</l>
+						<l>Ik heb jou raad nóch jouw vermaaning niet van doen.</l>
+						<l>Ik volg myn eigen raad, én leef op myn fatsoen.</l>
+						<l>Je meugt jouw raad aan and’re geeven;</l>
+						<l>Ik vind my wonder wel by myn manier van leeven.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Maar élk belacht u, Freer.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Dat is my onbekénd;</l>
+						<l>Of die het doen, dat zyn maar gekken als jy bent.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>’k Bedank u Freer, én, ’k moet bekennen</l>
+						<l>Gy spreekt beleefd.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Als ’t is; maar zég eens wat my scheelt?</l>
+						<l>Of moet ik my naar jouw bedillers zéden wennen!</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Uw straffen aart die fraaije liên verveelt,</l>
+						<l>Uwe ommegang vol vieze grillen,</l>
+						<l>Uw staadig knorren, én uw eindeloos bedillen,</l>
+						<l>Ja zelfs uw kleed, én vreemd fatsoen van dragt</l>
+						<l>Maakt* u heel woest, én by elk een verächt.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ik zég je hebt gelyk, jouw réden zyn vol kracht!</l>
+						<l>Ik moest, vólgde ik de zottighéden</l>
+						<l>Der waereld, my als jy, dus naar de mode kleeden,</l>
+						<l>Niet waer? je wout wel, naar dat ik jouw reên bezéf,</l>
+						<l>Dat ik een kante das droeg, én geen linnen béf:</l>
+						<l>Een hoedje, gebórduurd, nét op drie haertjes,</l>
+						<l>Dat lósjes op een groote blonde pruik,</l>
+						<l>Een aape troonitje doet zien ter sluik:</l>
+						<l>In plaats van knévels, kattebaertjes.</l>
+						<l>Een béf van Point, die, tót der menschen spót,</l>
+						<l>Schynt door gevreeten van de mót.</l>
+						<l>Een kamezool, própvol van gouwe én zilv’re bloemen.</l>
+						<l>Een rók met plooijen, die men wel een jak mag noemen;</l>
+						<l>En mouwen, die de mouwen van een smous</l>
+						<l>Beschaamen, als ze eens in de saus</l>
+						<l>Gedoopt, een half pont vét verslinden.</l>
+						<l>Al dit komt ons van dat verduivelt Fransch fatsoen.</l>
+						<l>Een broek die als men ze aan zal doen,</l>
+						<l>Door naauwte scheurt, én in de plaats van binden</l>
+						<l>Wordt op de knie geróld, én élken schoen</l>
+						<l>Of veel te kort, óf eens zo lang, als ’t hoeft te weezen.</l>
+						<l>Vólgde ik al die vervloekte hovaardy,</l>
+						<l>Dan was ik van uitlachen vry,</l>
+						<l>Niet waar, Broêr? is ’t niet zo?</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Voor my,</l>
+						<l>Ik kleed my naar ’t gebruik, én ’k zou voor opspraak vreezen,</l>
+						<l>Zo ik de ról van een Pedant</l>
+						<l>Wou speelen tot myn schaade, én schand:</l>
+						<l>Want zie, my dunkt men moet zich altoos myën</l>
+						<l>Van eigenzinnigheid; myn’ meening is daarom</l>
+						<l>Juist niet van straks zo lós de nieuwe pronkeryën</l>
+						<l>En malle modens na te vólgen, neen, ik kom</l>
+						<l>Zo vér niet, dat ik alle weeken</l>
+						<l>Myn kleed verwérp en my staag in een nieuw zou steeken,</l>
+						<l>Of nydig zyn zo ik op straat</l>
+						<l>Zie dat het kleed een ander mooijer staat;</l>
+						<l>Neen; maar men moet zich naar gewoonte én réden voegen,</l>
+						<l>Om and’ren, én ons zélv’ te vergenoegen.</l>
+						<l>Geloof my, Broêr, het doet sléchts kwaad</l>
+						<l>Aan hem, die koppig, steeds een vreemde wég in slaat.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Dus praaten al die wulpsche en jongen gekken,</l>
+						<l>Die al hun buitenspoorigheên</l>
+						<l>In kleeding, ommegang, én zo voort, in ’t gemeen,</l>
+						<l>Alleenlyk met: Het is de Mode thans, bedekken.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Monfreer, ’k geloof dat gy myn vrolyke aard benydt;</l>
+						<l>Dewyl gy stadig op myn’ kleeding schróllend zyt,</l>
+						<l>En met verachting steeds myn jonkheid my verwyt?</l>
+						<l>Als óf, myn jeugd gedoemd om alle lust te derven,</l>
+						<l>Ik moest door spyt verkniest, al gaande én staande sterven.</l>
+						<l>Verwaarloost, slordig, én zo moei’lyk als een draak,</l>
+						<l>My zelv’ ontrooven een geoorelofd vermaak.</l>
+						<l>Maar gy, met uw verlóf, die tégen het betaamen,</l>
+						<l>Een hooge spitse hoed, gelyk een huich’laar draagt,</l>
+						<l>Gy zélf behoorde u wat te schaamen</l>
+						<l>Dat gy op al myn doen staag schimpt dus ongevraagd.</l>
+						<l>Gy die hartnekkig tégens réden,</l>
+						<l>Bespottende alle burgerlyke zéden,</l>
+						<l>Gekleed gaat als....</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Of jy ’t veracht,</l>
+						<l>Ik wil my houwen by de dragt</l>
+						<l>Zo als myn Grootvaâr, ja myn Grootvaârs Vaâr hem kleedden,</l>
+						<l>Ja spyt de waereld, draag ik zulk een hooge hoed,</l>
+						<l>Uit enk’le nédrigheid van een sinseer gemoed:</l>
+						<l>Want aan ’t vergank’lyk is my ’t minste niet gelégen.</l>
+						<l>Een wambus dat my sluit om ’t lyf,</l>
+						<l>Is voor de warmte van de maag een groot geryf:</l>
+						<l>Een ruime broek heeft zyn gemak, én voor de régen</l>
+						<l>Kan ik ’t wel stellen met een mantel zonder dégen.</l>
+						<l>Ook hou ik veel van schoenen die niet styf</l>
+						<l>De voeten knellen, óf door pynlykheid doen klaagen.</l>
+						<l>Kortom, de nédrigheid is myn behaagen;</l>
+						<l>En hy die zulks niet gaerne ziet,</l>
+						<l>Die sluit’ zyne oogen, ’t raakt hem niet.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>TWÉDE TOONEEL.</head>
+					<stage>WILLEGOND, STEILOOR, KATRYN, RUFFINA, GOEDAARD.</stage>
+					<sp who="#willegond">
+						<speaker>WILLEGOND, tégens Ruffina.</speaker>
+						<l>IK neem dien last op my, ik zal ’t uw Voogd wel vraagen.</l>
+						<l>STEILOOR tégens Goedaard.</l>
+						<l>Maar zacht!</l>
+					</sp>
+					<sp who="#katryn">
+						<speaker>KATRYN tégens Ruffina.</speaker>
+						<l>Wel hoe! meug jy geen menschen zien?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR tégens Goedaard.</speaker>
+						<l>Kom dit wat heen!</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>O neen.</l>
+					</sp>
+					<sp who="#willegond">
+						<speaker>WILLEGOND.</speaker>
+						<l>Gy hebt wel sléchte dagen,</l>
+						<l>Maseur.</l>
+					</sp>
+					<sp who="#katryn">
+						<speaker>KATRYN.</speaker>
+						<l>Wel Jufvrouw! ’t is ien ongemien</l>
+						<l>Geluk veur jou, dat jy by Goedaard, niet by deezen</l>
+						<l>Bedilal zyt geraakt!</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>’t Is wonder dat hy my</l>
+						<l>Van daag niet opsluit, naar gewoonte.</l>
+					</sp>
+					<sp who="#katryn">
+						<speaker>KATRYN.</speaker>
+						<l>Sluiten? hy</l>
+						<l>Jou sluiten? wel hy mogt....</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR tégens Ruffina.</speaker>
+						<l>Waar heen? wat zel dit weezen?</l>
+						<l>Waar ga jy?</l>
+					</sp>
+					<sp who="#katryn">
+						<speaker>KATRYN.</speaker>
+						<l>Wel dat weet zy niet.</l>
+					</sp>
+					<sp who="#willegond">
+						<speaker>WILLEGOND.</speaker>
+						<l>Ik vroeg myn Zuster óf zy héden</l>
+						<l>Zich met me, in dit mooi weêr, wat wou vertreeden,</l>
+						<l>En zy....</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Staat onder myn’ gebied.</l>
+						<l>Ga jy vry daar ’t je lust, ik zel ’t je niet beletten,</l>
+						<l>Maar jy, zo ’t jou belieft, blyf t’huis.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Ei laat haar gaan</l>
+						<l>Daar ’t haar gevalt, Freer; Wil u daar niet tégen zetten.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ik ben jouw dienaar, Broêr.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Kunt gy dan niet verstaan</l>
+						<l>Dat me aan de jonkheid....</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Die is zót, én onervaaren,</l>
+						<l>En ként de waereld niet.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Is zy by Willegond</l>
+						<l>Dan kwalyk?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Dat zel ik wel zwygen; maar om rond</l>
+						<l>Te gaan, zy is hier wel.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Maar....</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Maar! hoor, al dat maaren,</l>
+						<l>Dat helpt niet: kyk, zy staat hier onder myn voogdy,</l>
+						<l>En zel naar myne wetten leeven.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>My is die zélve magt op Willegond gegeeven.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>’t Is zo; maar hoor eens Broêr, wat jy</l>
+						<l>Beoogt, met haar dus wild te laaten loopen,</l>
+						<l>Dat is my onbekénd; haar Ouders die zyn dood,</l>
+						<l>En dat haar Vader ons geboodt</l>
+						<l>Naauw toezigt op haar doen te neemen, wil ik hoopen</l>
+						<l>Dat jou nóch niet vergeeten is.</l>
+						<l>En jy geeft hier groote érgernis,</l>
+						<l>Dat jy jouw Willegond dus wulps laat leeven,</l>
+						<l>Daar ze aan haar Zuster een goed voorbeeld hoort te geeven.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Maar, Freer, my dunkt...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Daar ’s luttel aan bedreeven.</l>
+						<l>Wat dat jou dunkt; maar my dunkt, dat</l>
+						<l>Indien ik iets te wénschen had,</l>
+						<l>Dat ik jou onder duizend ménschen</l>
+						<l>Niet gekker als je bént zou willen wénschen:</l>
+						<l>Want, zie eens, wat een onbescheid,</l>
+						<l>Dat jy staag Willegond met zo veel vryigheid</l>
+						<l>By allerhande soort van maatjes laat verkeeren!</l>
+						<l>Jy pronkt haar daag’lyks op met kóstelyke kleeren</l>
+						<l>Naar dat de mode is. Wel, heel goed!</l>
+						<l>Jy bent haar Voogd; maar kyk, ik moet</l>
+						<l>En zal bezórgen dat Ruffina anders doet;</l>
+						<l>Zy zal niet als op heil’ge dagen,</l>
+						<l>En Sundags in het zwart gekleed</l>
+						<l>Te voorschyn komen, én daar buiten, datje ’t weet,</l>
+						<l>Een huislyk wérksaam kleedje draagen,</l>
+						<l>En blyven t’huis, gestaag tót iets te doen gereed.</l>
+						<l>Dus zal ik, zo ik d’ééne of d’aare tyd wou trouwen,</l>
+						<l>Haar tót een huis, én tót geen loopvrouw houwen.</l>
+						<l>Dit is het dat een maagd, die trouwen wil, behoort</l>
+						<l>Te doen: als op het huis te passen, styven, naaijen,</l>
+						<l>Haar koussen stóppen, én by leeg tyd koussen braaijen,</l>
+						<l>Voor al, haar wachten niet een woord</l>
+						<l>Met andre Vryers ooit te paaten,</l>
+						<l>En zonder myn verlóf nooit slént’ren langs de straaten,</l>
+						<l>O! ’t vrouwvolk, ’t vrouwvolk is zo zwak!</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Maar Freer, het schynt schier aan uw réden,</l>
+						<l>Of ’t aan u stond, om met Ruffine in de echt te treeden</l>
+						<l>Zo gy maar woudt?</l>
+					</sp>
+					<sp who="#willegond">
+						<speaker>WILLEGOND.</speaker>
+						<l>Ja met gemak!</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wel waarom niet? al woud ik strak.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Waarom? waarom? om dat de wetten</l>
+						<l>Zulks aan de Voogden in ons land beletten;</l>
+						<l>Ten zy een maagd, juist mondig zynde, haar</l>
+						<l>Verkiezing, ’s Voogds verkiezing waar.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ik weet daar weinig van; maar in vertrouwen,</l>
+						<l>Ik lach ereis met al die beuz’lery;</l>
+						<l>Is ’t hier verboôn, het staatme t’Uitrecht vry;</l>
+						<l>En voor de rest weet ik haar wel in huis te houwen.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Gy hebt myns weetens heel geen réden...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Zwyg jou pry;</l>
+						<l>Ik zél jou leeren uit te loopen, zonder my.</l>
+					</sp>
+					<sp who="#willegond">
+						<speaker>WILLEGOND.</speaker>
+						<l>Maar zéker Heer...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Maar waar mag jy jou smoel in steeken?</l>
+						<l>Kyk, jy bent al te wys, dat ik met jou zou spreeken.</l>
+					</sp>
+					<sp who="#willegond">
+						<speaker>WILLEGOND.</speaker>
+						<l>Ik ben, zo ’t schynt, by u verdacht</l>
+						<l>Van onbehoorelyke streeken,</l>
+						<l>En moet u, zo ’k Maseur eens zien wil, daarom smeeken.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Geensins, heel niet; maar hoor, neem op myn réden acht,</l>
+						<l>Ik zal klaar spreeken: jouw bezoek doet haar ontstichten,</l>
+						<l>En daarom zo je jou voor altyd wacht</l>
+						<l>Om hier te komen, zal je my op ’t hoogst verplichten.</l>
+					</sp>
+					<sp who="#willegond">
+						<speaker>WILLEGOND.</speaker>
+						<l>Wél, luister, ’k Zal u ook myn’ meening kort én klaar</l>
+						<l>Doen hooren: ik heb haar nooit willen vraagen</l>
+						<l>Of uw manier van doen haar kan behaagen;</l>
+						<l>Maar ik verscheel zeer veel van haar,</l>
+						<l>Om zulk een dwang, om zulk mistrouwen te verdraagen:</l>
+						<l>En zeker ze is myn’ Zuster niet,</l>
+						<l>Zo ze al die strafheid met geen haat’lyke oogen ziet.</l>
+					</sp>
+					<sp who="#katryn">
+						<speaker>KATRYN.</speaker>
+						<l>Wél foei! ’t is schande, én ’t past an Turken én Barbaaren,</l>
+						<l>Die in heur land het vrouwvólk dus bewaaren.</l>
+						<l>Foei! op te sluiten? ’t is het wérk van een tieran!</l>
+						<l>Wat beeld jy je in myn goeije man?</l>
+						<l>Daar ’s niemand die een vrouw haar eer bewaaren kan:</l>
+						<l>Zo zy oneerlyk is, vergeefs is al het sluiten</l>
+						<l>Met wacht van binnen én van buiten.</l>
+						<l>Geloof me vry, wanneer een vrouw</l>
+						<l>Haar man wil weezen ongetrouw,</l>
+						<l>De Drommel nóch zen moêr zel heur daar niet in stuiten.</l>
+						<l>Het allerzékerste is, in deze staat,</l>
+						<l>Dat zich een man op de eer van zyne vrouw verlaat.</l>
+						<l>Kyk, de eer is boven alle dingen,</l>
+						<l>Van zulk een vreemde én kwintige aard,</l>
+						<l>Dat zy alleenig van ons zélf wil zyn bewaard.</l>
+						<l>Was ik getrouwd, met een die me opsloot of wou dwingen,</l>
+						<l>Gantsch bloed! hoe zou ik hem de Koekoeks zang doen zingen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wel nou, Leermeester, zyn deez’ lessen niet heel goed?</l>
+						<l>Dit hoorje met een stil én ongesteurd gemoed!</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Maar gy, Monfreer, kunt gy het scherssen niet gedoogen?</l>
+						<l>Is ’t alles, wat zy heeft gezeid, niet waar;</l>
+						<l>Het is ook alles niet geloogen,</l>
+						<l>De ménsch bemint de vryheid; maar</l>
+						<l>Door strafheid wordt een ziel nooit tot zyn plicht geboogen:</l>
+						<l>’t Mistrouwen, zórg, én wat de jaloezy verdicht,</l>
+						<l>De grendels, tralie, slót, én diergelyke zaaken,</l>
+						<l>Die zullen nooit een vrouw, of dóchter deugdsaam maaken;</l>
+						<l>De eer, de eer alleen, houdt haar in heure pligt.</l>
+						<l>Ik zouw wel hart’lyk voor de trouwheid vreezen</l>
+						<l>Van eene vrouw die sléchts door dwang...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Jou predikatie duurd vry lang.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Genoodzaakt, eerelyk most weezen.</l>
+						<l>Ik zou zég ik...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Heb jy haast uit?</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>En blyft by dit besluit,</l>
+						<l>Dat een die wys is, ’t hart moet van een Dóchter winnen:</l>
+						<l>Want heeft ze een afkeer in haar zinnen,</l>
+						<l>En wordt ze ons een gedwonge Bruid,</l>
+						<l>Ze zal ons sléchts in schyn, in ’t hart een ander minnen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Al sprookjes van ’t Roodkousje.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Ik weet</l>
+						<l>Hoe dat de jeugd, heel zacht, al speelend onderweezen</l>
+						<l>Moet worden, dat men zich ook nimmer straf nóch wreed</l>
+						<l>Moet toonen als men haar berispt: want zie dit deed</l>
+						<l>Van ouds de jonkheid voor het woord van deugd steeds vreezen,</l>
+						<l>En afschrik krygen, daar, in tégendeel, de jeugd</l>
+						<l>Door zachtheid wordt gebragt tot eer én deugd.</l>
+						<l>Myn zórg voor Willegond heeft staag dit spoor gehouwen,</l>
+						<l>En vér van dat ik ooit, in zulk een téd’re ziel,</l>
+						<l>De minste misslag voor een misdaad hiel,</l>
+						<l>Durfde ik haar jonkheid wel wat vryigheids vertrouwen.</l>
+						<l>Zy ga na ’t Bal, of na de Schouwburg, daar ze ’er tyd</l>
+						<l>In eerelyk vermaak met nut verslyt.</l>
+						<l>’t Gevalt my dat ze ’er kleed naar haare staat én jaaren.</l>
+						<l>En ’k laat in haare keur, met wie zy wil, te paaren,</l>
+						<l>Niet tégenstaande ’t récht van myn Voogdy:</l>
+						<l>Want anders is de trouw een dwaaze slaaverny.</l>
+						<l>Dóch zo myn staat én ook myn liefde haar behaagen,</l>
+						<l>Kan zy my trouwen, óf haar keur vry élders draagen,</l>
+						<l>Indien ’t haar lust.</l>
+						<l>Op deeze wyz’ leeft de één én de ander heel gerust,</l>
+						<l>En geen van ons vindt stóf, nóch réden om te klaagen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Jouw woordjes zyn fluweel, én suiker zoet!</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Dit ’s myn verstand, my dunkt dat élk zo leeven moet,</l>
+						<l>’k Verwerp het straf bestier van zulke ménschen</l>
+						<l>Die vaak de kinders na hun’ Ouders dood doet wénschen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Maar hoor; de vrye toom die me aan de jonkheid geeft,</l>
+						<l>Valt moeilyk om daar naa weêr in te trekken;</l>
+						<l>En zy zal licht’lyk met jou gekken</l>
+						<l>Zo die verand’ring in haar hart geen ingang heeft.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Waarom veranderen?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Waarom?</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Wel ja.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>’t Lykt scheeren!</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Vindt ge iets in haar dat de eer, óf goede naam kan deeren?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Hoe! zo je ’er trouwt, zou jy haar, zonder jou verdriet,</l>
+						<l>Die zélve vryheid in de kleeren</l>
+						<l>Behouden laaten?</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Waarom niet?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>En laaten haar dan nóch by ’t jonge vólk verkeeren?</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Voorzéker.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Die zy dan ook somtyds weêr op de Thé</l>
+						<l>Of Koffi nooden zal?</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Dat beurt wel.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Op een Kaartje?</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Dat is ’t gebruik.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>En dan een glaasje wyn?</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Al meê.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>En somtyds wat bankét, pastei, óf mangeltaartje?</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Gy hebt gelyk.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>En als de maag</l>
+						<l>Vol water is?</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Dan heeft men graag</l>
+						<l>Een kélkje Frontinjak.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>En dan aan ’t danssen?</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>’t Is als gy zégt.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Dus leert men de ondeugd niet der Franssen</l>
+						<l>Alleenlyk; maar, récht uit gezeid,</l>
+						<l>Ons Holland overtréft der Fransen dolligheid:</l>
+						<l>Want op een chaise, óf in een sleetje.</l>
+						<l>Of op ’t bezoek sléchts van een Teetje,</l>
+						<l>Gebeurd ’er somtyds wel een beetje,</l>
+						<l>In ’t afzyn van een vader, óf een man,</l>
+						<l>Dat ieder juist niet raaden kan;</l>
+						<l>Maar deuze lés zel jou niet baaten:</l>
+						<l>Want jy zult Willegond haar vryheid laaten,</l>
+						<l>Schoon dat een ieder jou bespót.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Het is zo.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR tégens Goedaard.</speaker>
+						<l>Je bent gek; loop heen jou groote zót.</l>
+						<l>Ga jy na binnen toe, én hoor niet na dit praaten.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>DÉRDE TOONEEL.</head>
+					<stage>GOEDAARD, STEILOOR, WILLEGOND, KATRYN.</stage>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>’k Heb ’t u gezeid, ik zal my blind’lings op de trouw</l>
+						<l>Verlaaten van myn’ vrouw;</l>
+						<l>Dit ’s myn begrip, dus zal ik leeven.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Gants bloed! wat zou ’k ’er wel om geeven,</l>
+						<l>Wat waar het goed, wat waar het goed,</l>
+						<l>Wierd hy een Koekernoet!</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Ik ben onkundig wélk een lót my is beschooren.</l>
+						<l>Maar zékerlyk het schort</l>
+						<l>Aan u niet, zo gy ’t niet en wordt:</l>
+						<l>Want naar uw wys van doen, zyt gy ’er toe gebooren.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Och arme spóttert, ik moet lachchen om die praat!</l>
+						<l>Zie jy maar toe, het is wel jonger wédervaaren.</l>
+					</sp>
+					<sp who="#willegond">
+						<speaker>WILLEGOND.</speaker>
+						<l>Hoor: zo ’t gebeurt, dat ik met Goedaard kom te paaren,</l>
+						<l>Behoeft hy niet te vreezen voor dat kwaad;</l>
+						<l>Maar zo ’k met u als vrouw moest leeven,</l>
+						<l>Zou ’k zorglyk u daar van verzeek’ring durven geeven.</l>
+					</sp>
+					<sp who="#katryn">
+						<speaker>KATRYN.</speaker>
+						<l>Het waar conscientie werk zo zy ’t hem deed;</l>
+						<l>Maar zulk ien ouwe Gryn daar is het aan besteed.</l>
+						<l>Katryn gaat met Willegond haastig wég.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Verbruste Vuilbek, jy meugt vreezen!</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Hoor, Freer, je moet zo kwaad niet weezen.</l>
+						<l>Heeft zy licht wat te stout gesmaald,</l>
+						<l>Je hebt het op je hals gehaald.</l>
+						<l>Verander van humeur, geloofme, laat u raaden;</l>
+						<l>Een vrouw óf dóchter op te sluiten kan sléchts schaaden.</l>
+						<l>Ik ben uw Dienaar, Freer.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>VIERDE TOONEEL.</head>
+					<sp who="#steiloor">
+						<speaker>STEILOOR alleen.</speaker>
+						<l>Je mogt de Drommel zyn!</l>
+						<l>Myn Dienaar? Dit ’s één Vólk! de één heel beroofd van zinnen,</l>
+						<l>Durft zulk een ydeltuit beminnen,</l>
+						<l>En deeze is al zo gék als hy. * O myn, o myn,</l>
+						<l>Ik lach me slap! Hoe kan ’t geschieden?</l>
+						<l>Zyn dienstboôn zullen nóch in ’t end die gek gebieden,</l>
+						<l>En myn Ruffyntje... maar, ik ga met heur op ’t land,</l>
+						<l>Daar zel zy veilig wezen: want</l>
+						<l>Haar Zus zou haar beploegd verstand,</l>
+						<l>De lessen die zy door myn’ voorzórg heeft genooten</l>
+						<l>Wel haast uit heur geheugen stooten.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>VYFDE TOONEEL.</head>
+					<stage>LEKKER, STEILOOR, HEERMAN.</stage>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Hy ’s in deez’ kamer die Ruffina houdt beslooten.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR, by zich zélf spreekende.</speaker>
+						<l>Is ’t niet beklagens waerd, hoe lang hoe meêr te zien,</l>
+						<l>’t Verdérf der zéden, zelf ook in bejaarde liên?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>,, Ik spreek hem aan.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>In plaats, dat in voorgaande tyën</l>
+						<l>De oprechte trouw, de zédigheid</l>
+						<l>Gepreezen wierd, wordt lédigheid,</l>
+						<l>Verkwisting, grootsheid, zotternyën....</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>,, Hy ziet my niet.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>En meer ondeugden niet te lyën....</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>,, Ik loof hy ziet niet wel uit ’t linker oog, myn Heer;</l>
+						<l>,, Groet hem van de andere zy.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Dit werk dat deugd niet meer!</l>
+						<l>Na ’t land, na ’t land!</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Is hy stikziende?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Neen, neen, het is zo hoog als ’t diende,</l>
+						<l>’t Gezélschap in de stad verleidt.</l>
+						<l>Maar wat is dit? myne ooren tuiten!</l>
+						<l>Of is hier iemand die wat zeid?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Myn Heer...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Op morgen wis na buiten;</l>
+						<l>Op dat... de Droes!... wat ’s dit? hoe komt dit volk toch hier?</l>
+						<l>De plaag noch toe!... ai, zie die hoed!... noch meer gezwier?</l>
+						<l>Is ’t wel op my gemunt?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Myn Heer, gy schynt verslagen</l>
+						<l>Dat ik zo inkom, én u geen verlof deê vraagen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR met een’ wreevelige stuursheid.</speaker>
+						<l>Dat ’s waar.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Dit onverwacht bezoek vindt gy licht vreemd?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Dat kon wel zyn.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Maar ’t is naar dat men ’t neemt.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ik sta het toe.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Gy zult my lichtelyk verschoonen....</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Dat ’s hachchelyk.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Dat ik u kom myn’ dienst betoonen,</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Dat scheelt my niet.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Dewyl ik onlangs in deez’ buurt</l>
+						<l>Een wooning heb gehuurd....</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Dat staat jou vry.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Vind ik my door de réden,</l>
+						<l>En door de kennis die ’k voor deez’, in Willemstad,</l>
+						<l>Heb met myn Heer uw’ Broêr gehad,</l>
+						<l>Verpligt, om u myn’ dienstbaarhéden</l>
+						<l>Op te óffren, als een trouw gebuur.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Het zy dan zo; ter goeder uur.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>’k Zag hem zo daat’lyk uit uw’ wooning treeden.</l>
+						<l>En ’t is op zyn verzékering</l>
+						<l>Van uw beleefdheid, dat ik récht na binnen ging.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Zo veel te sléchter.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Hy weet heuschelyk te leeven,</l>
+						<l>En hen, van wien hy eer’ ontfing,</l>
+						<l>Ook, op zyn beurt, behoorlyke eer te geeven.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Hy ’s oud genoeg, én meester van zyn doen.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>’t Is zo, myn Heer, ’k heb daar niet tégen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Elk zoent zyn wyf op zyn fatsoen;</l>
+						<l>My ’s aan een ander niet gelégen.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Gy hebt gelyk, myn Heer, ik prys</l>
+						<l>Uwe ingetoogenheit; maar hebt gy wel vernomen</l>
+						<l>De goede tyding die ’er flusjes is gekomen?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Een die voorzichtig is, én wys,</l>
+						<l>Bemoeit zich niet met loogentaal, én droomen.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Ik sta het toe; maar voor ons land,</l>
+						<l>Dit nieuws....</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Voor liên van ons verstand,</l>
+						<l>Is geen ding nieuw.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Dit nieuws behélst gewénschte zaaken,</l>
+						<l>En word bevéstigd uit den Haag van hooger hand.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>ZÉSDE TOONEEL.</head>
+					<stage>STEILOOR, RUFFINA, HEERMAN</stage>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Heerman groet Ruffina, voor dat Steiloor haar ziet.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Dat weet ik niet; maar zou ik wel aan ’t dutten raaken?</l>
+						<l>Of schémert my ’t gezicht? Hoe zel ’t hier gaan?</l>
+						<l>Ben ik betooverd; óf verraân?</l>
+						<l>Zyn hoed zwierd heen én weêr; ’t gezicht geeft geen goed téken!</l>
+						<l>Waarop heeft hy ’t gemunt, met al die zótte streeken?</l>
+						<l>Wie geldt dat nou? wat ’s dit?</l>
+						<l>Hoe kom jy daar te staan?</l>
+						<l>Loop straks na binnen aan jou wérk....</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Ik moet u spreeken.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Na binnen. Och, wat ’s dit!</l>
+						<l>Ik kom zo aanstonds weêr.</l>
+						<l>Of loop maar heen, zo ik niet daatlyk keer.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Ik zal wel wachten, haast u niet om my, myn Heer.</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>ZÉVENDE TOONEEL.</head>
+					<stage>HEERMAN, LEKKER.</stage>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Wat dunkt je van die gek?</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Myn Heer, ik zel je zeggen:</l>
+						<l>Hy ’s vinnig, bits, én zal u hinderpaalen leggen.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Ik raas van spyt!</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Waarom?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Die Argus zal myn min</l>
+						<l>Verydelen, en haar opsluitende, zyn zin</l>
+						<l>Doen volgen door bedwang.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Ai, wil niet eensjes vreezen.</l>
+						<l>Vermits dat deez’ jaloersche gék,</l>
+						<l>Heel mak’lyk zal te doeken weezen,</l>
+						<l>Deur de ééne óf de andere slimme trék:</l>
+						<l>Want dit ópsluiten, tégens réden,</l>
+						<l>Geeft u meer hoop, dat gy haar krygen zult tot vrouw.</l>
+						<l>En zo gy....</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Maar, het is vier maanden reeds geléden,</l>
+						<l>Dat ik haar schoonheid heb gevierd, én aangebéden,</l>
+						<l>En nooit gelégenheid gevonden, om myn trouw</l>
+						<l>Haar aan te bieden, én myn hart haar op te draagen.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Maar heeft zy nooit gemerkt dat gy haar mint?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Voorzéker.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Dat ’s genoeg een kans daar na te waagen:</l>
+						<l>De liefde is listig, én je bent geen kind.</l>
+						<l>Had ik als jy geweest....</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Jy spreekt als onbedreeven;</l>
+						<l>Zo ’k haar niet spreek, hoe kan ik haar verzék’ring geeven</l>
+						<l>Van myn min?</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Het goud, Heer, maakt een kóppelaar.</l>
+						<l>Geef aan de meid wat géld, zy hélpt u licht by haar.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Daar is geen meid, óf knécht, in huis, het is verlooren.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Zwyg stil, daar komt hy weêr, hy mogt ons hooren.</l>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>ACHTSTE TOONEEL.</head>
+					<stage>HEERMAN, STEILOOR, LEKKER.</stage>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Myn Heer, gy woont hier in een mak’lyk huis.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>’t Is waar.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Is ’t niet wat éénzaam?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Hé, wat blief je?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Ik vraag het maar.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>En ik, ik zég het maar, dat al dat vraagen,</l>
+						<l>Een man als my, niet kan behaagen.</l>
+						<l>Dit dunkt me, is jou genoeg gezeid,</l>
+						<l>O vraager in der eeuwigheid!</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Vergeef het my: zo ’t u niet mogt verveelen,</l>
+						<l>Wenschte ik tót mynent somtyds de eer</l>
+						<l>Te hebben, om met u, myn Heer,</l>
+						<l>Een roemsteekje, of pikét, te speelen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ik dobbel niet.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Het is alleen om tydverdryf.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Dat zei Markolfus ook, én sloeg zyn wyf.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Ik zal u ook somtyds wel de vryheid neemen,</l>
+						<l>U te bezoeken, als myn vriend,</l>
+						<l>En buurman.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>’k Ben daar heel niet meê gediend.</l>
+						<l>Laat ons met vreên, loop élders teemen;</l>
+						<l>Ik ben al moe hier dus te staan,</l>
+						<l>En ’k raad jou straks na huis te gaan.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Uw heusheid, Heer, zal myn vrypóstigheid verschoonen:</l>
+						<l>Want uw beleeftheid...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Zal jou toonen</l>
+						<l>Waar dat de deur is, én dat wy tót onzent woonen,</l>
+						<l>Kom jy hier óoit eens weêr.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>,, O, die verbruide gék!</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wat zég je?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Ik blyf uw dienaar Heer.</l>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>NEGENDE TOONEEL.</head>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Loop veur den Drommel! jy zult met die hoofsche zwieren</l>
+						<l>My zo niet loeren! die manieren,</l>
+						<l>En dat bezoek, gevalt my niet.</l>
+						<l>Al was ’t schoon dat myn Broêr ’t hem riedt,</l>
+						<l>Het geeft my achterdocht, én groot mishaagen.</l>
+						<l>Ik moet Ruffina eens gaan vraagen,</l>
+						<l>Of zy ook weet, op wélk een grond, dit zaakje leit;</l>
+						<l>Ze is niet geveinst, licht dat ze ’t zeit.</l>
+					</sp>
+					<p>Einde van het Eerste Bedryf.</p>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<head>TWÉDE BEDRYF.</head>
+				<div type="scene" n="1">
+					<head>EERSTE TOONEEL.</head>
+					<stage>Op de straat voor de huizen van Steiloor én Heerman.</stage>
+					<stage>STEILOOR, RUFFINA.</stage>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wees jy gerust, ik weet dit heel wel uit te wérken.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>,, O liefde! wil my voorts met uwen raad verstérken!</l>
+						<l>,, Op dat deez’ list volvoer’ het oogmérk van myn’ min.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Hoe hiet hy?</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Heerman.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ja, ik weet, hy is hier in</l>
+						<l>Deez’ buurt, nou onlangs komen woonen;</l>
+						<l>Het is die lósból die nóg straks</l>
+						<l>Zo stout was, dat hy zich tót mynent dorst vertoonen:</l>
+						<l>Ja tóch, dat was ’t bezoek askaks!</l>
+						<l>Neen, Olfert is te leep, ’k zél daar een schót veur schieten</l>
+						<l>Eer ik na ’t land ga, schuim van alle deugenieten!</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>’k Bekén dat ik iets stout besta;</l>
+						<l>Maar wie zou zulk een straf onthaalen, niet verdrieten?</l>
+						<l>Men dwingt me ’er toe.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>’t Is een verleijer, dat blykt klaar:</l>
+						<l>Ja, een verleijer is ’t, ’t is waar.</l>
+						<l>Myn troosje, ik ga, treê jy in huis, én wacht me daar.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>TWÉDE TOONEEL.</head>
+					<sp who="#steiloor">
+						<speaker>STEILOOR alleen.</speaker>
+						<l>Verliezen we geen tyd, om hem zyn lés te leezen.</l>
+						<l>’k Verwonder my niet meêr, naar ’t geen ze my daar zeit,</l>
+						<l>Van zyn beleeftheên, én zyn vriend’lykheid;</l>
+						<l>Maar wacht, ik zal hem van die zotte min geneezen.</l>
+						<l>Dit dunkt me is ’t huis daar ik moet weezen.</l>
+						<l>Laat ons eens zien wat óf hy zeggen zal.</l>
+						<l>De Duivel haal die stoep! ô die verbruste val!</l>
+						<l>Wat hoeft die drumpel zo vér uit te steeken?</l>
+						<l>Een ménsch zou zo de nék wel breeken.</l>
+						<l>’k Wou dat hy ze op zyn béd had.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>DÉRDE TOONEEL.</head>
+					<stage>HEERMAN, na huis gaande, STEILOOR, LEKKER. HEERMAN.</stage>
+					<sp who="#heerman">
+						<l>Heer, het is my leed,</l>
+						<l>Dat gy gevallen zyt.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>My ook. ’k Wou jou wat zeggen.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>My, Heer?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ja jou, hoor toe, ik zel ’t jou uit gaan leggen.</l>
+						<l>Lekker sluit de deur op.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Myn Heer, als ’t u belieft, ’k bid dat gy binnen treedt.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wy kunnen ’t hier wel doen.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Heer, hoe zou dat geschieden?</l>
+						<l>Nu gy my het geluk komt aan te bieden</l>
+						<l>Van uw bezoek...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ik moet je spreeken; maar met haast,</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Maar zéker, my?....</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ja jou. Hoe! maaktje dat verbaasd?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Ik ben verblyd, én voel myn ziel als opgenomen</l>
+						<l>Door de eer die gy...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Laat de eer daarze is; ik ben gekomen...</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Myn Heer, treê in.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Neen, ik zel daar niet toe verstaan.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Maar Heer...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Maar Heer, maar Heer; ik zel niet verder gaan.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Myn Heer, zo ’t is om u te vergenoegen....</l>
+						<l>Maar zéker, Heer, het zal niet voegen</l>
+						<l>Op straat te spreeken, ’k bid treê binnen toch, myn Heer.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Men hoofd doet van die komplementen zeer.</l>
+						<l>Met die liflaffery mag ik men kóp niet breeken;</l>
+						<l>Ik wil hier voor de deur, én staande, met je spreeken.</l>
+						<l>Zel jy me dwingen? dat is wel impertinént!</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Maar ’t is...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>’t Is onbeleefd, je maakt me moeilyk,</l>
+						<l>My dwingen?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Maar...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Jy bent een kwélgeest! Sellement...</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Bloed! hoe zel dit nóg gaan in ’t énd?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ja, ’t is onménsch’lyk, ’t is verfoeilyk!</l>
+						<l>My weig’ren...</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Heer, zo ik het deê...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>My weig’ren hier een woord óf twee</l>
+						<l>Te hooren?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Maar myn Heer, het vólk zou met my spotten.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Al wie zich aan het vólk steurt, zyn maar zotten.</l>
+						<l>Hoor luister...</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Maar myn Heer, ’t is geen welleevendheid...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Dat ’s Duivels! nóch al? is het niet genoeg gezeid?</l>
+						<l>Kom hier eens, hoor! laat al die wisje wasjes vaaren,</l>
+						<l>En luister na het geen dat ik je zel verklaaren.</l>
+						<l>Zég, weet je wel, dat ik de Voogd, én meester bén</l>
+						<l>Van een jong meisje, spreek?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>O ja, myn Heer, ik kén</l>
+						<l>Haar ook van aanzien.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wel, van haar, sprak ik je gaaren.</l>
+						<l>En wyl je ’t weet dat ik haar Voogd ben, weet je dan</l>
+						<l>Ook wel, dat zy alleen myne oogen kan behaagen,</l>
+						<l>En dat ik in het kort haar man</l>
+						<l>Zal worden? dat ze my genégenheid moet draagen,</l>
+						<l>En dat zy niemand aârs bemint als my alleen?</l>
+						<l>Zég weet je dat? zég op.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>O neen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wel weet je ’t niet, ik zég het jou, dat jy, naa deezen,</l>
+						<l>Haar ongekwéld laat, of je meugt wel vreezen.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Wie, ik, myn Heer?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ja jy, jy, jy!</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Wie zeit u dat ik haar ooit lastig viel?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Zy, zy;</l>
+						<l>Die zulks niet liegen zal; dies laat het veinzen vaaren.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Wie zégt gy, Heer?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Zy zélf, Ruffina, die, gelyk ’t</l>
+						<l>Een eerb’re dochter voegt, my sints haar jonge jaaren</l>
+						<l>Bemind heeft, dat hier wel aan blykt,</l>
+						<l>Om dat ze my durft in vertrouwen openbaaren,</l>
+						<l>Dat ze al jouw pooging, én gelonk acht als de wind:</l>
+						<l>Dit doet ze u zeggen, en dat je ’er vergeefs bemint.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Hoe, Heer, moest zy my dit door u juist laaten weeten?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ja, én zy raadt jou, zoete knécht,</l>
+						<l>Dat jy jou zinnetjes, vry op een ander légt:</l>
+						<l>Geen ménsch heeft ooit haar hart, als ik alleen, bezéten.</l>
+						<l>Ik ga, onthouw ’t geen ik jou heb gezégd.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Wat dunkje, Lekker, moet ik uit dit voorval spellen?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>,, Hoe kykt hy nou!</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Gy hebt geen reên u meer te kwellen</l>
+						<l>Myn Heer, deez Jufvrouw heeft meer als gemeen verstand:</l>
+						<l>Zy mint u zéker, én die norsse dwingeland...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>,, Wat zeit, wat zeit hy?</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Parst haar tót deez’ listighéden.</l>
+						<l>De pots is fyn; maar zacht, hy ziet ons aan,</l>
+						<l>En ’t geen wy spreeken, zou hy lichtelyk verstaan.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Kom, volg my, laat ons binnen treeden.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>,, Ja, trék maar heen.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Ik lach me slap om zulk een Haan!</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>VIERDE TOONEEL.</head>
+					<sp who="#steiloor">
+						<speaker>STEILOOR alleen.</speaker>
+						<l>Hy is verstéld, én.... maar daar is myne uitgeleezen!</l>
+						<l>Dat Troetelpoppetje, hoe zédig staat heur weezen!</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>VYFDE TOONEEL.</head>
+					<stage>RUFFINA, STEILOOR.</stage>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>,, Ik vrees dat Heereman myn’ list niet heeft gemérkt.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wat zégje békjelief?</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Of ge iets hebt uitgewérkt?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Myn troosje, ik kom met vreugd verstérkt,</l>
+						<l>Weêrom, én wist door reên jouw kweller te overwinnen;</l>
+						<l>Hy loochende in het eerst jou te beminnen;</l>
+						<l>Maar ik ontdékte in ’t énd de grond van zyne zinnen:</l>
+						<l>Want na dat ik ’et hem had uit jouw naam gezeid,</l>
+						<l>Heeft hy het niet meêr wéderleid;</l>
+						<l>Hy heeft beloofd van zich te onthouwen,</l>
+						<l>Jou na deez dag weêr aan te schouwen.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Durft gy u op zyn woord vertrouwen?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wel ja.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Ik niet.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Waarom? wat is ’er dat je lét?</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Gy had uw voeten van de drémpel naauw gezét,</l>
+						<l>Wanneer ik achter uit myn vénster lag te kyken,</l>
+						<l>Of ’k zag terstond van verre een man,</l>
+						<l>Zeer wel gekleed, beleefd, met buigen, én met stryken...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wat zégje? hoe! sprak hy jou an?</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Ja, én uit Heermans naam, gy kunt eens denken,</l>
+						<l>Hoe ik ontstéld was!</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Zou je niet</l>
+						<l>Ontstéld zyn liefstentje? zou ’t niet jou zinnen krénken,</l>
+						<l>Wanneer je zulk bedróg van zulke guiten ziet.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Terwyl dat hy zyn’ dienst my aan kwam bieden,</l>
+						<l>Gooit hy deez’ gouwe doos in myne schoot,</l>
+						<l>Waar in ik mérkte, dat een brief was.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Kan ’t geschieden,</l>
+						<l>Dat zulke Schrobbers!... maar hoe snood</l>
+						<l>Wordt nou de waereld!</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>En toen ging hy aanstonds schuiven.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Hier blykt zyn valsheid! Bloed, kryg ik hem in myn’ kluiven!</l>
+						<l>Myn békje, jy bent waerd dat ieder jou beklaagt,</l>
+						<l>Om zulke parten als jy van dien schurk verdraagt.</l>
+						<l>Dit zyn die kunsjes die die vagebonds gebruiken,</l>
+						<l>Om ’t visje, op die manier, te krygen in de fuiken.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Nu dwingt my de eerbaarheid, dat ik</l>
+						<l>Hem ’t doosje met den brief, weêrom beschik.</l>
+						<l>Durfde ik ’t u vérgen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>O! daar is niet aan bedreeven,</l>
+						<l>Kom, geef jy ’t maar, ik zal ’t hem straks weêrom gaan geeven.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Daar is ’t zo ik ’t ontfing. Ik ben ’er van ontstéld!</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>’t Is goed; maar laaten wy de brief eens saamen leezen.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Och! deed gy dat, myn Heer, zo leê myne eer gewéld.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Hoe, zou jouw eer daar deur verminderd weezen?</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Zo gy de brief laast, wierd ik zékerlyk verdacht:</l>
+						<l>Want élk zou denken dat ik hem beminde.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Zacht!</l>
+						<l>Dan is het béter dat wy die niet open maaken.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Een Dóchter, zo ze niet in opspraak wil geraaken,</l>
+						<l>Die moet voor alle zaaken,</l>
+						<l>Geen minnebriefjes leezen, Heer!</l>
+						<l>En las ik deez’, hy zou my nóch veel meer</l>
+						<l>Met brieven kwellen; nu zénd ik hem alles weêr,</l>
+						<l>Verzégeld als het was.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Dat heb je klaar doen blyken.</l>
+						<l>O Deugd! waar vindt men heurs gelyken!</l>
+						<l>Ik ga zo na hem toe, myn troost, myn waardste pand!</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>De brief, myn Heer, is in uw hand,</l>
+						<l>Gy kunt die échter, zo gy wilt, vry open breeken.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>O neen! ô neen, ik zal dat veurneem laaten steeken;</l>
+						<l>Jou réden zyn gegrond, ’t is my gebleeken:</l>
+						<l>Ik prys jouw overgroot verstand.</l>
+						<l>Ik ga hem, en daar na de boekverkooper spreeken,</l>
+						<l>Om ’t boekje van de Huuw’lyksband:</l>
+						<l>Ga in, dat zullen wy dan leezen op het land.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>ZÉSDE TOONEEL.</head>
+					<sp who="#steiloor">
+						<speaker>STEILOOR alleen.</speaker>
+						<l>Zo, dat gaat wel! Myn hart dat springt van vreugden!</l>
+						<l>Dat ’s eerst een voorbeeld van weêrgâlooze eerbaarheid!</l>
+						<l>Zy breekt de brief niet op! Dat zyn de zuiv’re deugden</l>
+						<l>Die maagden passen! O! zy vólgt myn lés, al zeit,</l>
+						<l>En schélt myn Broer, op myn’ manieren, ’k leef geruster.</l>
+						<l>Zy scheelt geen kleintje van haar Zuster!</l>
+						<l>De opvoeding, ô! de opvoeding doet</l>
+						<l>Een wond’re wérking op ’t gemoed,</l>
+						<l>En maakt de meisjes, óf tot goede, óf kwaade* wyven!</l>
+						<l>Hy klópt aan ’t huis van Heerman.</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>ZÉVENDE TOONEEL.</head>
+					<stage>LEKKER, STEILOOR.</stage>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Wat is ’er van uw dienst, myn Heer?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Geef dit jou meester, aanstonds weêr,</l>
+						<l>En zég hem, dat hy voortaan ’t schryven</l>
+						<l>En giften zénden, vry laat blyven:</l>
+						<l>Dat myn Ruffina niets om zyn schénkaadje geeft,</l>
+						<l>Dat haare gramschap hier door is geraakt aan ’t kooken.</l>
+						<l>Dat zy deez’ gouwe doos, nóg brief, heeft opgebrooken:</l>
+						<l>En doet hy ’t nóg eens, ’k weet wat hy te wachten heeft.</l>
+						<l>Ga, zég hem dat.</l>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>ACHTSTE TOONEEL.</head>
+					<stage>HEERMAN, LEKKER.</stage>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Wat heeft die Gek nu weêr bedreeven?</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Hy gaf me dit, myn Heer, én zei, dat al uw doen</l>
+						<l>Vergeefs was, én dat zy u ook nooit gehoor zou geeven.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>De Juffer?</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Ja.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Geef hier, dit doet me iets goeds vermoên.</l>
+						<l>Deez’ brief zal onverwacht in uwe handen komen;</l>
+						<l>Maar, hoe ook myn bestaan, by u word opgenomen,</l>
+						<l>Ik vind me in zulk een droeven stand,</l>
+						<l>Dat ik genoodzaakt ben te springen uit de band.</l>
+						<l>De schrik die ’k heb, dat ik, in weinig dagen,</l>
+						<l>Zal moeten in een haat’lyk huuw’lyk treên,</l>
+						<l>Doet my, als wat ik kan, tot myn’ verlóssing waagen.</l>
+						<l>Bemint ge my, zo réd me uit deeze zwaarigheên:</l>
+						<l>’k Verwacht uw antwoord; wil geen tyd verliezen.</l>
+						<l>Op dat gy weeten moogt wat wég ik zal verkiezen:</l>
+						<l>Verliefde harten, met élkanders leed begaan,</l>
+						<l>Die kunnen zich, door een half woord, verstaan.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Wat dunkje, Heer, van deze réden?</l>
+						<l>Voor zo een meisje dat by niemand heeft verkeerd,</l>
+						<l>Schynt ze in galantery te zyn gepromoveert.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Ach! ’k vind haar zo volmaakt van geest én léden,</l>
+						<l>Dat zy verdient, én waard is, aan te zyn gebéden!</l>
+						<l>En deeze trék van haar verstand,</l>
+						<l>Waar door ze ’er liefde my betoont, met achting,</l>
+						<l>Verdubbeld myne kuische brand,</l>
+						<l>En overtréft vér myn’ verwachting.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Al zafjes! zwyg wat stil, myn Heer:</l>
+						<l>Want zie, daar komt die gék al weêr.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Maar wat wil dat papier?</l>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>NÉGENDE TOONEEL.</head>
+					<stage>STEILOOR, HEERMAN, LEKKER.</stage>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Zo, zo, de Heere Staaten</l>
+						<l>Verbieden door plakkaaten</l>
+						<l>De Fransche waaren in te brengen! ô! dat ’s braaf!</l>
+						<l>Wel ja, men wierd aârs van de Fransman wel een slaaf.</l>
+						<l>’k Heb dit plakkaat, ô ja! op ’t boekje toe bedongen.</l>
+						<l>Het zal Ruffina ook verstrekken tót een leer.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>,,Is ’t anders niet?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR, terwyl Heerman de brief overleest.</speaker>
+						<l>Ja wel! ja wel, dit bólt me neer!</l>
+						<l>De Rótzak maakte ons al te hooge sprongen,</l>
+						<l>En wou dat wy altyd naar zyne pypen zongen</l>
+						<l>En jy Monsieurtje, die my naar de mode groet,</l>
+						<l>Jy zelt deur giften, nóch deur brieven, armen bloed,</l>
+						<l>Niet opdoen; neen, je zult niet trekken;</l>
+						<l>Het meisje is al te wys, ze zou maar met jóu gekken,</l>
+						<l>Zy het my lief, je ziet hoe dat ze met jou lacht.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>’t Is waar, ’k heb reeds bespeurd, én érnstig overdacht,</l>
+						<l>Dat niemand immermeer Ruffina zal beleezen,</l>
+						<l>Dan hy, die haar is van het noodlót toegeweezen;</l>
+						<l>Dies is het zótheid dat men gunst van haar verwacht.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wat? zótheid? dolheid! ’k durf het zweeren</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Dierhalven heb ik afgeleid,</l>
+						<l>De hoop, tót het bezit, van haar bekoorlykheid.</l>
+						<l>Een Médevryer als gy zyt...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wil me ekskuzeeren...</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Neen; ’t waar al lang geschied, indien ik had verstaan,</l>
+						<l>Dat gy de Juffer zélf wou trouwen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ik wil ’t gelooven.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>En ik zal voortaan,</l>
+						<l>Uw’ liefde heel goedsmoeds aanschouwen,</l>
+						<l>En my, in rust, én vreeden houwen,</l>
+						<l>Nu ’k weet dat zy u mint.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Dat ’s wysselyk gedaan.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Uw deugden zyn zo groot, dat gy haar moet behaagen.</l>
+						<l>Ja, ’k deê onreed’lyk, in dit kas,</l>
+						<l>Zo ’k van eene and’re meening was.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Dat ’s een geweeze wég.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Maar zo ’k u iets dorst vraagen?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wel wat?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Een énk’le gunst, tót mind’ring van myn’ pyn.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Laat hooren, ’t mag ’er ligt na zyn.</l>
+						<l>Wat is de beê? zég op, zég op vry, zonder schroomen.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Dat gy aan haar, die my myn’ vryheid heeft benomen,</l>
+						<l>Betuigt, dat myne min, gansch onbevlékt...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Hy ’s mal!</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Nooit heeft getracht, met hart óf zinnen,</l>
+						<l>Haare eer te kwétsen, maar haar wét’lyk te beminnen.</l>
+						<l>Zo ’t my niet wierd belét.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>,, Hy ’s zót! Ik zal, ik zal,</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>En dat myn’ zuiv’re keur, gegrondvést op de réden,</l>
+						<l>Niets wénscht, als met haar wil, in de écht te treeden.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ik zal.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Ja zég, zég vry, dat haare aantréklykhéden</l>
+						<l>Zo diep staan in myn ziel geprént,</l>
+						<l>Dat ik haar’ schoonheid, tot het énd</l>
+						<l>Myn ’s leevens, zal in achting houwen.</l>
+						<l>En zo ik niet met haar kan trouwen,</l>
+						<l>Dat zy u zulks verschuldigd is.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wél, dat is zéker, én gewis.</l>
+						<l>Vertroost jou in jouw druk, ik zal ’t haar kénbaar maaken.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Men Heer, daar zal een dronk op smaaken!</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Dien arme bloed, dien, arme bloed!</l>
+						<l>Wat óf hy tóch uit vryen doet!</l>
+					</sp>
+				</div>
+				<div type="scene" n="10">
+					<head>TIENDE TOONEEL.</head>
+					<stage>RUFFINA, STEILOOR.</stage>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Zyt gy daar weêr?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ik voel zyn leed my ’t harte raaken.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Hoe dat?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Hoe dat? hy ziet zyn hoop vergaan,</l>
+						<l>Om dat jy nóch de doos, nóch brief, hebt opgedaan;</l>
+						<l>Maar hy verzócht my zeer, dat ik jou zou verklaaren,</l>
+						<l>Dat hy nooit dacht met jou, als wettelyk te paaren.</l>
+						<l>Waarachtig, ’t is een eerlyk man!</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>,, Ik ben daar wel verzékerd van.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wat zég je!</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Dat ik hem moet haaten.</l>
+						<l>Zo gy me récht bemind, zult gy ’t hier niet by laaten.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Neen, ’t is nou wel.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Nou wel? daar hy sints heeft béstéld</l>
+						<l>My tégens dank, deez’ nacht te schaaken met gewéld?</l>
+						<l>Is dat zo wel?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Neen dat is kwaad!</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Wil my vergeeven?</l>
+						<l>Het is een eerlyk man, die my nooit van zyn leeven...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Neen, neen, dat gaat te vér: maar vrees niet; want in ’t kort</l>
+						<l>Zel jy je zien van hem ontslagen.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Zo ik dit langer moet verdraagen,</l>
+						<l>Of zo ’k in ’t minst van hem beleedigd word,</l>
+						<l>Zal ik ’t u wyten. Zou ik zulke dingen lyen?</l>
+						<l>O! hy bedriegt u, door zyn’ list, én veinzeryen.</l>
+						<l>Wat ben ik ongelukkig, dat</l>
+						<l>Gy immer liefde voor my hebt gehad!</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Nou, nou, myn suikerdoos, je moet je wat bedwingen.</l>
+						<l>Ik ga voort heen, én ’k zal hem fyner leeren zingen.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Zég, dat ’t ontkennen tóch geen ingang by my vindt,</l>
+						<l>Dat ik zyn voorneem wist, eer hy ’t durfde openbaaren;</l>
+						<l>Of zo hy échter meent van my te zyn bemind,</l>
+						<l>Dat hy zyn aanslag sléchts begint,</l>
+						<l>En juist niet wacht, dat ik ’t hem twémaal doe verklaaren.</l>
+						<l>Hy zal dan zien hoe hy zal vaaren.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wat! wat, ’t is kind’re wérk, ’t raakt kant, nóch wal,</l>
+						<l>Weréntig, ’k loof de vént is mal.</l>
+						<l>Laat my begaan.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Maar gy moet boven al,</l>
+						<l>U toonen héftig kwaad te weezen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ja, Schaapje, jy hoeft daar niet veur te vreezen,</l>
+						<l>Ga jy maar in.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Wel, ik verwacht u daatlyk...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ja.</l>
+						<l>Ik kom straks weêr.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>’k Verlang ’er na!</l>
+					</sp>
+				</div>
+				<div type="scene" n="11">
+					<head>ÉLFDE TOONEEL.</head>
+					<sp who="#steiloor">
+						<speaker>STEILOOR alleen.</speaker>
+						<l>Dat ’s een juweeltje van de Vrouwen!</l>
+						<l>Men mag op haare deugd, met récht, wel kérken bouwen.</l>
+						<l>Ja wel, wat ben ik ook gelukkig! Maar, holla!</l>
+						<l>Hy klópt aan ’t huis van Heerman.</l>
+					</sp>
+				</div>
+				<div type="scene" n="12">
+					<head>TWAALFDE TOONEEL.</head>
+					<stage>STEILOOR, HEERMAN, LEKKER.</stage>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Loop, roep jouw Meester hier, loop dra.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Myn Heer, wat jaagt u hier?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Hoe, durf je dat nóch vraagen?</l>
+						<l>Jou zotte parten, daar jy ons meê plaagt.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>U plaagen?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ja, én zo ’t meer gebeurt, zel ik ’t de Schout gaan klaagen.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Stél u te vréden, Heer, ik zal...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Stél u te vreên?</l>
+						<l>Met die pispraatjes stuur jy my graag weêr heên.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Maar Heer...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Maar Heer, is dat fatsoen dat jy jouw zaaken</l>
+						<l>Zo schélms durft schikken, om van deeze nacht te schaaken</l>
+						<l>Een eerlyk meisje, dat met hart én ziel my mint?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Wie zeit dat?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Zy, én dat jy je aanslach sléchts begint.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Is ’t waar? maakt zy me zulks bekénd?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Myn’ lieve vrind,</l>
+						<l>Hoe, twyffel jy? kom, kom, ik zal haar hier doen komen,</l>
+						<l>Dan heb jy ’t uit haar mond, én uit myn’ mond, vernomen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="13">
+					<head>DERTIENDE TOONEEL.</head>
+					<stage>HEERMAN, LEKKER.</stage>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Ik sta verbaasd, door ’t geen hy my verhaalt.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Myn Heer, die gék word schoon betaald</l>
+						<l>Door haare list. Maar zacht...</l>
+					</sp>
+				</div>
+				<div type="scene" n="14">
+					<head>VEERTIENDE TOONEEL.</head>
+					<stage>RUFFINA, STEILOOR, HEERMAN, LEKKER.</stage>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Wat heeft u tóch bewoogen</l>
+						<l>Dat gy my leid, daar ik zyn byzyn moet gedoogen?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Kyk, hy verächt Monkeur (had jy dat wel gedócht?)</l>
+						<l>De last die ik hem flus heb uit jou naam gebrógt:</l>
+						<l>Hy meent dat ik ’t heb uit myn duim gezoogen,</l>
+						<l>Daarom is zyn verzoek alleen,</l>
+						<l>Dat jy ’t hem zélf zégt, zie dat weet hy ’t van ons tweên.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA tégens Heerman.</speaker>
+						<l>Kon ik u myn gemoed, niet klaar genoeg ontdekken,</l>
+						<l>En kunt ge myne min wel meer in twyffel trekken?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Mejuffer, ’t geen dien Heer, my van u heeft gezeid,</l>
+						<l>Maakt my verwonderd, én vol van verlégenheid?</l>
+						<l>Ik twyffelde eerst; maar ’k heb nu een besluit genomen,</l>
+						<l>Al uw begeerens naa te komen</l>
+						<l>Dit vonnis dat ik met onzékerheid verstond,</l>
+						<l>Wénschte ik al beevend ook te ontvangen uit uw’ mond.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Neen Heer, gy moet u van dit vonnis niet beklaagen,</l>
+						<l>’k Dêe door myn Voogd, u flus myn’ meening overdraagen,</l>
+						<l>Myn wil is dat ge uwe pligt betracht,</l>
+						<l>Daarom neem op myn woorden acht:</l>
+						<l>Ik zie tweé mannen voor myn oogen,</l>
+						<l>De één heeft op myne ziel een groot vermoogen:</l>
+						<l>Want myn genégenheid wil dat ik hem verkies</l>
+						<l>Tót Bruidegom, én zonder tyd verlies.</l>
+						<l>Hier toe voelt zich myn’ ziel geneegen;</l>
+						<l>En de ander heeft, voor al zyn’ valsche schyn van deugd,</l>
+						<l>Nóch nooit als haat van my verkreegen.</l>
+						<l>Ik ben in ’t byzyn van den éénen, heel verheugd,</l>
+						<l>Hy kan alleenlyk my bekooren:</l>
+						<l>Door hem te zien wordt myne vreugd hérbooren:</l>
+						<l>Indien ik leeven moest met de ander, ’k stierf van rouw.</l>
+						<l>Dit is genoeg betoond, wie dat my kan behaagen.</l>
+						<l>Hy, wien ik eeuwig min zal draagen,</l>
+						<l>Maak’ alles vaardig tót de trouw,</l>
+						<l>Op dat ik eind’lyk word uit deeze dwang ontslagen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Je zelt, in ’t kort, in ’t kort jou wénschen zien vervuld,</l>
+						<l>Myn lammetje, neem sléchts een weinig tyds geduld.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Ik spreek wat vry; maar ’t is zo vér gekomen</l>
+						<l>Dat my zulks niet op ’t kwaadst dient afgenoomen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Heel niet.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Want ik verklaar de grond van myn gemoed,</l>
+						<l>Aan hem, dien ik bemin; ’k ontdék zulks zonder schroomen.</l>
+						<l>’k Weet dat hy zich vermaakt in zulk een zoet:</l>
+						<l>O ja, ik kan myn’ vreugd’, myn’ liefde niet betoomen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Myn zoete Tortelduif!</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Ik word van blydschap stom,</l>
+						<l>Nu dat ik vry aanschouw, myn’ lieve Bruidegom!</l>
+						<l>Mishaagt u dit ook?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Och! hoe zel ik ’t jou beloonen!</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Dat hy dan zórge draag zyn’ liefde my te toonen;</l>
+						<l>Opdat ik, in het kort,</l>
+						<l>Van zulk een haat’lyk ménsch ontslagen word.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Daar békje, kus myn’ hand.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>En dat voor al zyn’ zuchten,</l>
+						<l>Jy myne trouw, * te deezer stond</l>
+						<l>Ontfange: want voor eenig trouwverbond</l>
+						<l>Met anderen, behoeft zy niet te duchten.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Nou, nou myn neusje, nou myn suikerpeertje, nou,</l>
+						<l>’k Beloof ’et jou, met bei men handen,</l>
+						<l>Je zelt niet heel lang watertanden.</l>
+						<l>Kyk, zie je ’t wel, hoe trouw</l>
+						<l>Dat zy me lief heeft? Kyk, ik doe het haar niet zeggen.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Ik zie ’t. Men hoeft het my niet klaarder uit te leggen.</l>
+						<l>Ik heb Mejuffers zin verstaan.</l>
+						<l>Ik zal in ’t kort, haar van dat haat’lyk mensch ontslaan.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Ja, die vervólging kan ik langer niet gedoogen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR, tégens Heerman.</speaker>
+						<l>Nou zie je ’t zélver veur jou oogen.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>’k Zal haar gehoorzaam zyn, naar myn vermogen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Och armen bloed!</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Ontstél u daarom niet, myn Heer.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Gansch niet, maar ik moet hem beklaagen.</l>
+						<l>Dat kruis valt hem heel zwaar te draagen.</l>
+						<l>Jou haat is al te groot.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Beklaag hem niet te zeer.</l>
+						<l>Ik heb, om hem aldus te onthaalen, dubb’le réden.</l>
+						<l>Ik heb verdriets genoeg om hem geléden.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>’k Beklaag my niet van zulk een haat,</l>
+						<l>Myn’ wénsch is, u te zien in een geruster staat.</l>
+						<l>Hier toe zal ik myn zórg én vlyt, besteeden.</l>
+						<l>Vaar wel.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Het deert me dat het jou zo kwalyk gaat.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Mejufvrouw doet ons récht, myn hart is wel te vréden.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>De Duivel die bedacht nooit zulke listighéden!</l>
+					</sp>
+				</div>
+				<div type="scene" n="15">
+					<head>VYFTIENDE TOONEEL.</head>
+					<stage>STEILOOR, RUFFINA.</stage>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Myn Zoetert, schoon de tyd, dat ik je tót myn’ vrouw,</l>
+						<l>Gelyk ’t gezeid was neemen zouw,</l>
+						<l>Gesteld was, over veertien dagen,</l>
+						<l>Laat zulks op morgen zyn, is ’t jouw behaagen.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Op mórgen?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Zacht, ik weet wat jou dus doet verstaan,</l>
+						<l>Je wénscht, je wénschte wél, dat zulks reeds was gedaan.</l>
+						<l>Jou schélmpje, wees jy maar te vreên, het zal wel gaan.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Maar...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Laat ons binnen treên, én t’saamen</l>
+						<l>De kortste dag van onze trouw beraamen;</l>
+						<l>’k Moet nóg eens uitgaan, én ’t wordt laat.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>,, O liefde! ô liefde, geef me raad,</l>
+						<l>,, En uitkomst, in deez’ droeven staat!.</l>
+					</sp>
+					<p>Einde van het Twéde Bedryf.</p>
+				</div>
+			</div>
+			<div type="act" n="3">
+				<head>DÉRDE BEDRYF.</head>
+				<div type="scene" n="1">
+					<head>EERSTE TOONEEL.</head>
+					<stage>In een kamer van Heermans huis.</stage>
+					<stage>HEERMAN zynen dégen aandoende, én twé Pistooltjes in zynen zak steekende,
+						LEKKER slaapende</stage>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Hou Lekker! het wordt tyd dat wy onze aanslag waagen.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER, zich uitrekkende.</speaker>
+						<l>Och, hei! Wat aanslag, Heer?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>O luyaard! is dat vraagen</l>
+						<l>Is ’t jou vergeeten hoe de zaaken zyn gestéld?</l>
+						<l>Ik zal Ruffina, ja, het géldt ook, wat het géldt,</l>
+						<l>Deez’ nacht verlossen uit haar droeven kérker:</l>
+						<l>Want hoe dat Steiloor haar wil dwingen door gewéld,</l>
+						<l>Myn’ liefde is tót haar hulp nóg stérker.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Fiat, ’t is goed; kom, laat ons die jaloerse Vent</l>
+						<l>Bedriegen.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Maar ik vrees...</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Heer, laat dat yd’le vreezen.</l>
+						<l>Waar vrees je voor?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>’k Vrees datze reeds in slaap zal weezen:</l>
+						<l>Wat middel om haar dan te spreeken?</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Ik bekén ’t,</l>
+						<l>Je bent afgryslyk gaauw, dat je al die zwaarighéden,</l>
+						<l>Voor af bedénkt; maar weet je niet,</l>
+						<l>Dat een’ verliefde ziel, niet slaapen kan?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Met réden:</l>
+						<l>Want dat bevind ik aan my zélve nu.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Ei ziet</l>
+						<l>Dit wérk eens aan! zou zy dan lichter slaapen</l>
+						<l>Als jy, myn Heer? zy is réchtschapen</l>
+						<l>Verlieft, en, vat je ’t? een verliefde Dóchter, ken</l>
+						<l>Haar zélf niet troosten.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Lustig, ben</l>
+						<l>Je nóch niet reed? maar zacht! wie komt hier binnen loopen?</l>
+						<l>Hoe? stond de deur in ’t voorhuis open?</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Ik weet het niet.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Wie is daar?</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>TWÉDE TOONEEL.</head>
+					<stage>RUFFINA gemastert met een Sluyer om het hoofd, HEERMAN, LEKKER.</stage>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Ik,</l>
+						<l>Myn Heer.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Hoe gy? hoe gy, Mejufvrouw? Ach! de schrik</l>
+						<l>Heeft my zo veel niet, als de vreugd, de spraak benómen.</l>
+						<l>Zyt gy uw wreede Voogd, zyn’ boeijens dan ontkomen,</l>
+						<l>Myn’ Engel? Mag my het geluk</l>
+						<l>Gebeuren dat ik u, ô, pronkbeeld aller vrouwen!</l>
+						<l>Om wien myn’ ziel zo lang in druk</l>
+						<l>Geleefd heeft, eindelyk in vryheid mag aanschouwen?</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Ik ben verzékerd, dat myne eer</l>
+						<l>Hier veilig is, én op ’t vertrouwen,</l>
+						<l>Dat gy myn’ liefde in waard’ zult houwen,</l>
+						<l>Kom ik hier vlugten; ’k geef me in uw bescherming, Heer.</l>
+					</sp>
+						<stage>Zy gaat in eene leuning stoel zitten.</stage>					
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>’t Geluk kon nimmer my met meerder gunst bestraalen.</l>
+						<l>Wat vreugd kon by deeze eer, die gy me toont, ooit haalen,</l>
+						<l>O schoone! nu uw’ komst my van de dood bevryd!</l>
+						<l>Ik leefde alleen om u, én ach! wie durfde ’t denken</l>
+						<l>Dat my de min, dus onverwacht, zou schénken</l>
+						<l>Een schat die my wierdt door uw straffe Voogd benyd.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Ik zou de dood veel minder vreezen,</l>
+						<l>Als vrouw van Steiloor moeten weezen:</l>
+						<l>Dóch zo ik door myn stout bestaan,</l>
+						<l>Van zélver hier by u te komen, aan</l>
+						<l>Kwaâ spreekers stóf gaf, om...</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Ei, laat ons daar van zwygen,</l>
+						<l>’t Geen ik uit liefde deê, hebt gy uit nood gedaan;</l>
+						<l>Dit spyt me, én doet me schaamte in ’t aanzicht krygen.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Ik moest me van zyn’ dwang ontslaan,</l>
+						<l>De dag van mórgen deed me beeven.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Gy moogt op myne trouw, gerust én zéker gaan...</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER hem tilletjes by de mouw trekkende.</speaker>
+						<l>,, Je vreesde dat ze sliep daar éven!</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>En duizendmaal zou ik het leeven</l>
+						<l>Verliezen, eerder als u te begeeven:</l>
+						<l>Maar, ik bid u, zég my hoe dat gy ’t ontkome zyt,</l>
+						<l>En hier in huis kwamt?</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>’k Zal ’t u zeggen op zyn tyd.</l>
+						<l>Dóch, zo gy wilt dat ik gerust by u mag blyven,</l>
+						<l>Bezórg voor eerst dat een Notaris, hier</l>
+						<l>Ons wéderzydsche Trouwverbintenis kom schryven.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>,, Dit vryen gaat heel naar de zwier,</l>
+						<l>,, Dit Blyspél hoeft geen vyf bedryven!</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Loop Lekker, loop eens met ’er haast</l>
+						<l>By Monsieur... Monsieur... die hier naast</l>
+						<l>De deur woont.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Wie? by Dókter Nukken?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Wat Dókter? Rékel, hoe zal ’t lukken?</l>
+						<l>By Monsieur...</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Wie!</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Notaris...</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Ja,</l>
+						<l>Ik weet, Notaris Slik-op.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Ga.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Maar Heer, hy heeft het podegra.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>De tyd verloopt met praaten:</l>
+						<l>Je zult hem met gemak van acht’ren binnen laaten;</l>
+						<l>Dóch zórg voor alle dingen, dat</l>
+						<l>De voordeur aanstonds in het nachtslót word geslooten.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Ik heb jouw meening wel gevat.</l>
+						<l>,, Het Muisje is in de val! O Poesje lik jouw pooten!</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>DÉRDE TOONEEL.</head>
+					<stage>RUFFINA, HEERMAN.</stage>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Myn Heer, indien myn’ Voogd, de stoutheid had</l>
+						<l>My hier te zoeken?</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Ik zou hem veel eêr doorstooten,</l>
+						<l>Dan u ontbeeren.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Dus zal myne min vergrooten</l>
+						<l>Door uwe min, waarom ik zyne dwinglandy</l>
+						<l>Ontvlugt ben.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Ach! myn lust, myn ziel, myn welbehaagen!</l>
+						<l>Ik bid u, zég me in ’t eind, hoe kwaamtge vry?</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Dat heeft zich zéldsaam toegedraagen;</l>
+						<l>En ’k dénk vast, óf ik niet te veel heb durven waagen.</l>
+						<l>Terwyl dat Steiloor uit was, om</l>
+						<l>Al* wat ’er tot de reis en ’t huuw’lyk was van nooden,</l>
+						<l>Gereed te maaken, ben ik met een stille trom,</l>
+						<l>Myn’ kérker, én met één, myn’ slaverny ontvlooden;</l>
+						<l>Maar naauw’lyks was ik, uit myn druk,</l>
+						<l>Op straat geraakt, óf, tót myn ongeluk,</l>
+						<l>Ontmoette ik hem: ik stond verlégen,</l>
+						<l>Als iemand die by schoon weêr, onderwégen,</l>
+						<l>In ’t oope véld, verrast wordt, van een harde régen:</l>
+						<l>Tót dat de Liefde in dien benaauden staat</l>
+						<l>My by kwam springen, met deez’ raad:</l>
+						<l>Hy gaf my in, dat ik myn’ Dwing’land diets zou maaken,</l>
+						<l>Dat Willegond, myn zuster, nu</l>
+						<l>Niet lang verlêen, verliefd geworden was op u;</l>
+						<l>Dat zy, om zéker tot haar oogwit te geraaken,</l>
+						<l>Uw’ liefde toetsen wou, op mynen naam,</l>
+						<l>Waar toe zy deeze nacht, myn’ kamer had verkooren,</l>
+						<l>Als zynde daar toe bést bekwaam.</l>
+						<l>Dit klonk myn Voogd, als óf het waar was, vreemd in de ooren,</l>
+						<l>Hy gaf me een straf bevél, dat ik van stonden aan</l>
+						<l>Myn Zuster uit myn’ kamer zou doen gaan:</l>
+						<l>’k Beloof ’t hem; dóch met voorbedingen</l>
+						<l>Dat hy, om mynent wil, in dit geval,</l>
+						<l>Haar niet bestraffen, zien, veel min toespreeken zal.</l>
+						<l>Dus kom ik, in haar’ schyn, dien dans te ontspringen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>VIERDE TOONEEL.</head>
+					<stage>LEKKER, HEERMAN, RUFFINA.</stage>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Myn Heer, daar kwam ik nét van pas.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Wel, spreek, waar blyft dan de Notaris?</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Hy ’s reed binnen,</l>
+						<l>’t Was goed dat hy juist met zyn zwaager beezig was</l>
+						<l>Met kwater trooi. Ik moest een glaasje met hem ninnen.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Je maakt jou wat gemeen.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Zyn klérk dat is myn vriend;</l>
+						<l>O! ’k heb Sieur Slik-op wel zo meenigmaal gediend,</l>
+						<l>Met myn eerwaarden naam te tékenen, in zaaken</l>
+						<l>Daar and’ren zwaarigheid in zouden maaken;</l>
+						<l>Maar kyk, hy stélt de lui weêr rykelyk te vreên.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Vraag óf het hem belieft in dit vertrék te treên.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Na ’t zeggen van de klérk, is Slik-op ook gebeên</l>
+						<l>Van Steil-oor...</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Maar wie mag daar kloppen?</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>O, Sint Félten!</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Och! ’t is myn Voogd...</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Hier ryd de Droes op stélten!</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Die my gemist heeft! ’t is zyn klóp, myn Heer; het hart</l>
+						<l>Dat heeft me!</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Ei, houw sléchts moed, ’k zie ’t eind’ van onze smart,</l>
+						<l>Indien wy eéns gezind, onz’ zaaken wel beleggen.</l>
+						<l>Loop, Lekker, doe maar op, én is het Steiloor, laat</l>
+						<l>Hem hier wat wachten.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Wel ezaad.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>VYFDE TOONEEL.</head>
+					<stage>RUFFINA, HEERMAN.</stage>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Kom, gaan we, dat hy my niet ziet, ’k moet u iets zeggen,</l>
+						<l>’t Geheele wérk staat aan Notaris...</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>’t Is myn Vriend,</l>
+						<l>Hy zal doen, én heeft me in zwaarder zaak gediend.</l>
+						<l>Maar, ’k hoor gerucht!</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>ZÉSDE TOONEEL.</head>
+					<sp who="#lekker">
+						<speaker>LEKKER, tégens Goedaard.</speaker>
+						<l>Ai Heer, ik bid u, kom maar binnen,</l>
+						<l>Myn Heer zal aanstonds by u komen, wacht</l>
+						<l>Een weinig, zo het u belieft.</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>ZÉVENDE TOONEEL.</head>
+					<stage>GOEDAARD, STEILOOR.</stage>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Dus in den nacht</l>
+						<l>My op te kloppen, Freer! Wel wat meugt gy beginnen?</l>
+						<l>Zou Willegond hier zyn? Ei, ei, ’k geloof het niet.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Maar hoe onnoozel zel je kyken, als je ’et ziet!</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Hoe kan het moog’lyk zyn, daar ik haar van myn leeven,</l>
+						<l>Geen woord, nóch réden, tót misnoeging heb gegeeven;</l>
+						<l>Maar zélf in haare keur gestéld, om naar haar’ zin,</l>
+						<l>En haar humeur, een man te mogen kiezen?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ja, ja, dat is het zaakje, én zy heeft stip hier in</l>
+						<l>Jouw raad gevolgd, ook zonder tyd verliezen.</l>
+						<l>O! al die strafheid die is kwaad!</l>
+						<l>Dit zeidje, ben ik niet bedroogen:</l>
+						<l>Door strafheid wordt een vrouw nooit tót heur plicht geboogen.</l>
+						<l>’t Mistrouwen, zórg, én wat de jaloezy verdicht,</l>
+						<l>De gréndels, traalie, slót, én diergelyke zaaken,</l>
+						<l>Die zullen nooit een’ vrouw, of dóchter, deugdsaam maaken.</l>
+						<l>De eer, de eer alleen, houdt haar in heuren pligt.</l>
+						<l>Vergeefs is al het sluiten</l>
+						<l>Met wachters binnen, én van buiten;</l>
+						<l>Het allérzékerste is, in deezen staat,</l>
+						<l>Dat zich een man op de eer van zyne vrouw verlaat:</l>
+						<l>Myn zórg voor Willegond wist op deez’ grond te bouwen.</l>
+						<l>Zy ga na ’t Bal, óf na den Schouwburg, daar ze ’er tyd</l>
+						<l>In eerelyk vermaak, met vreugd verslyt.</l>
+						<l>Maar mogt ik jou nou eens afvraagen in vertrouwen,</l>
+						<l>Wat voor een slach van Bal dat zy hier saamen houwen?</l>
+						<l>Zou jy niet lichtelyk gelooven dat ze, op ’t Fransch,</l>
+						<l>Daar met hem danst de wolvedans?</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Monfreer, ik bid u laat dat spreeuwen, én dat smaalen,</l>
+						<l>En wil my met éénvoudigheid,</l>
+						<l>Zo als het wérk gelégen leit,</l>
+						<l>Met twé drie woorden, sléchts verhaalen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Heb ik jou daatlyk niet gezeid</l>
+						<l>Hoe dat jouw Willegond, op Heerman, lang verléden,</l>
+						<l>Verliefd was? én dat ze in den schyn</l>
+						<l>Van myn Ruffina, die hem héden</l>
+						<l>De zak gaf, met hem in gesprék wou treeden</l>
+						<l>Tót mynent?</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Maar, Monfreer, hoe kan ze hier dan zyn?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ik joeg haar wég. Hoe fraai heeft ze u daar uitgestreeken!</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Maar Freer...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Maar, Freer, ik zag dat zy hier binnen trad,</l>
+						<l>En dat ze een faalie om het hoofd geslaagen had;</l>
+						<l>Geloofje ’t niet, zo kus men... knie.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Spraakt gy met haar?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wel neen.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Zo is ’t nóch niet gebleeken</l>
+						<l>Dat zy het is.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Je zult het zien. Maar, luister toe,</l>
+						<l>En lét eens hoe dat ik geen ding ten halven doe.</l>
+						<l>Zo haast ik zag dat zy hier binnen was geloopen,</l>
+						<l>(Want; zie, zy vondt, als óf ’t zo was bestéld,</l>
+						<l>De veur deur open.)</l>
+						<l>Ben ik ten eersten, stil, én zonder veel gewéld</l>
+						<l>Te maaken, na den Schout geloopen;</l>
+						<l>En ’k heb met eenen de Notaris hier... verzocht,</l>
+						<l>Dat hy zich by der hand zou houwen,</l>
+						<l>Om, zo de linker niet met Willegond wouw trouwen,</l>
+						<l>Dat hy dan aanstonds na de boeijen wierd gebrógt.</l>
+						<l>Zie, al dit wérk doe ik ter liefde van heur zuster,</l>
+						<l>Die my zal trouwen; ’t jou intrést ook dit maar</l>
+						<l>Te helpen vórderen, dan leeven wy geruster,</l>
+						<l>En buiten opspraak: want ik loof niet dat gy haar</l>
+						<l>Nóch dénkt te trouwen, Broêrtje, daar</l>
+						<l>Ze een ander mint? dat waar te dwaas een onderwinden.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Neen, die lafhartigheid zult gy nooit in my vinden;</l>
+						<l>Vermits myn meening was, haar sléchts met haare wil</l>
+						<l>Te trouwen, zal ik daar in ’t minst niet over klaagen,</l>
+						<l>Zo haar een ander kan behaagen</l>
+						<l>Meer als ik doe; maar dat ze my...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Sus, sus, zwyg stil!</l>
+						<l>’k Hoor iemand.</l>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>ACHTSTE TOONEEL.</head>
+					<stage>NOTARIS* SLIK-OP, én Klérken, STEILOOR, GOEDAARD, LEKKER.</stage>
+					<sp who="#slik-op">
+						<speaker>NOTARIS.</speaker>
+						<l>O! myn toon! ik ben uw’ dienaar, Heeren.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ho, Sinjeur Slik-op! schort ’er ietwes aan het been?</l>
+					</sp>
+					<sp who="#slik-op">
+						<speaker>NOTARIS.</speaker>
+						<l>Ja Sinjeur Steiloor, was ’t sléchts aan de toon alleen;</l>
+						<l>Maar dan is ’t in de knie, én dan...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Je moet het smeeren.</l>
+						<l>Ik viel hier flusjes op de stoep een blaauwe scheen,</l>
+						<l>Maar ’k voel nóch weinig pyn.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER binnen gaande, tégens den Notaris.</speaker>
+						<l>Myn Heer, hier zyn wel stoelen.</l>
+					</sp>
+					<sp who="#slik-op">
+						<speaker>NOTARIS.</speaker>
+						<l>Eer ’t mórgen wordt zel jy je blaauwtje béter voelen.</l>
+						<l>O my! men knie!</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Hoor hier, daar is voor ’t Flerecyn,</l>
+						<l>Geen béter raad, als Rynsche wyn.</l>
+					</sp>
+					<sp who="#slik-op">
+						<speaker>NOTARIS.</speaker>
+						<l>Ik dankje.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Maar hoe staan de zaaken?</l>
+						<l>Dewyl jy hier...</l>
+					</sp>
+					<sp who="#slik-op">
+						<speaker>NOTARIS.</speaker>
+						<l>Oei, oei!</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Voor ons gekomen zyt.</l>
+						<l>Hoe meent het de Galant, met ’t Juffertje te maaken,</l>
+						<l>Dat hy, met haare wil, zo fyntjes wist te schaaken?</l>
+					</sp>
+					<sp who="#slik-op">
+						<speaker>NOTARIS.</speaker>
+						<l>Ik dien myn’ vrienden, met geneegenheid, én vlyt;</l>
+						<l>En ’t wérk... Oei, oei, men voet! én ’t wérk is zo gelégen,</l>
+						<l>Dat, zo gy ’t huuw’lyk dezireert,</l>
+						<l>Behoeft men geen geweld, nóch dwang te pleegen:</l>
+						<l>Want de één en de ander is hier toe genégen.</l>
+						<l>Ik heb om uwent wil dit zo geménageert,</l>
+						<l>Dat Heerman dit kontract bereids heeft onderschreeven.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Maar is de Juffer?...</l>
+					</sp>
+					<sp who="#slik-op">
+						<speaker>NOTARIS.</speaker>
+						<l>Die heeft ook haar woord gegeeven.</l>
+						<l>En wil niet uit de kamer gaan,</l>
+						<l>Daar zy haar zélf heeft opgeslooten,</l>
+						<l>Voor dat gy beiden dit zult hebben toegestaan,</l>
+						<l>En onderteekend.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Broer, hoe zel jouw kiel nou stooten!</l>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>NÉGENDE TOONEEL.</head>
+					<stage>HEERMAN, STEILOOR, GOEDAARD, NOTARIS SLIK-OP, én Klérken.</stage>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Ja Heeren, niemand zal haar uit</l>
+						<l>Myn’ handen krygen, voor dat ik van dit besluit</l>
+						<l>Verzékerd ben. Gy ként me, én vólgens uw verwagting</l>
+						<l>Ziet gy dat ik myn pligt, uit vrye wil, én achting</l>
+						<l>Voor uw geslacht, voldoe. Keurt gy dit trouw verbond</l>
+						<l>Voor goed, zo moet gy dit kontrakt, terstond,</l>
+						<l>Tót myn gerustheid, ondertékenen,</l>
+						<l>Of anders moogt gy reekenen</l>
+						<l>Dat ik, hoe dat het ga, in dit geval,</l>
+						<l>My eer, van lid tót lid, zal laaten kérven,</l>
+						<l>Als dat ik haar, die ik bemin, verlaaten, zal.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR, tégens Heerman.</speaker>
+						<l>Neen, neen, wy willen heur bezit jou niet doen dérven.</l>
+						<stage>tégens Goedaard.</stage>
+						<l>De onnoz’le bloed! Je ziet dat hy niet béter weet</l>
+						<l>Of ’t is Ruffina. Dat is wel aan hem besteed!</l>
+						<l>Ha, ha!</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD, tégens Heerman.</speaker>
+						<l>Is ’t Willegond?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Een vyg; ’t is niet een beet</l>
+						<l>Broêr; kaalje booke!</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Maar...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Maar, kunje dan niet zwygen?</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>’k Wil weeten óf...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Zwyg stil; ’k zal hem wel binnen krygen.</l>
+						<l>De Droelikater, zwyg!</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Het zy dan wie het zy,</l>
+						<l>Ruffina heeft myn trouw, ik heb de haare ontfangen,</l>
+						<l>En ’k vind geen réden aan uw kant, nóch tégens my,</l>
+						<l>Dat gy dit weigert, of my hier toe hoeft te prangen.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Het geen myn Heer daar zeit, Monfreer...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR, tégens Goedaard.</speaker>
+						<l>Zwyg stil, noch eens, praat sléchts niet meer.</l>
+						<l>’k Zel jou ’t geheim daar naa ontdekken.</l>
+						<l>Laat ons dit huuw’lyk sléchts voltrekken.</l>
+						<stage>tégens Heerman.</stage>
+						<l>Hoor, wy staan ’t beide toe, dat jy zult trouwen, met</l>
+						<l>De Juffer, die hier in jou wooning</l>
+						<l>Verborgen is.</l>
+					</sp>
+					<sp who="#slik-op">
+						<speaker>NOTARIS.</speaker>
+						<l>O ja, dat lydt ook geen verschooning:</l>
+						<l>Die klauze is nét in dit kontrakt gezét;</l>
+						<l>Haar’ naam alleenlyk is daar open in gebleeven,</l>
+						<l>Om dat ik haar niet heb gezien;</l>
+						<l>Maar als gy lieden dit zult hebben onderschreeven,</l>
+						<l>Zo kan ze u allen, zélf, hier van ’t uitsluitsel geeven.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Ik sta het toe, dat zulks maar daat’lyk mag geschiên.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ik ook. O bloed! hoe wil ik straks aan ’t lachchen tyën!</l>
+						<l>Kom teiken Broertje, kom.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Die eer komt my niet toe:</l>
+						<l>O, gy zyt de oudste!</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>O, wég met al die sarmenyen!</l>
+						<l>Kom, teiken, teiken maar. Wat! ben je slécht?</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Maar hoe?</l>
+						<l>Gy spreekt van Willegond, én hy spreekt van Ruffyntje.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wat Drommel scheelt het jou, of ’t Geertruy is, of Tryntje.</l>
+						<l>Maar of ’t Ruffyntje was? ben jy niet wel te vrêen</l>
+						<l>Dat hy ze trouwt?</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>O ja.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Wel teiken dan sléchts heen,</l>
+						<l>’k Zal dan ook teikenen.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Ik kan dit niet bevroeden!</l>
+						<l>Daar is ’t.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Nu gy, myn Heer.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Dat ’s juist niet noodig.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Neen,</l>
+						<l>Gy moet ook teekenen.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>O jou onnooz’le bloeden!</l>
+						<l>Zie daar, zie daar, daar is ’t. Ik lach me stom!</l>
+					</sp>
+					<sp who="#slik-op">
+						<speaker>NOTARIS.</speaker>
+						<l>Wy komen illico weêrom.</l>
+						<l>Oei, oei, men toon!</l>
+					</sp>
+				</div>
+				<div type="scene" n="10">
+					<head>TIENDE TOONEEL.</head>
+					<stage>GOEDAARD, STEILOOR.</stage>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Monfreer, hoe zal ik dit begrypen?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Hoor, jy hoeft jouw verstand daar over niet te slypen.</l>
+						<l>Ik zég ’t is Willegond, in myn Ruffyntjes schyn,</l>
+						<l>’k Verzékertje, het kan geen ander zyn.*</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Wel hoé! zou Heerman zulks niet weeten?</l>
+						<l>Dat waar te dom; nooit wierdt hy dus van my versleeten.</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Hoor, dom, óf niet dom, ’t is gewis;</l>
+						<l>Maar zie, daar komt ze met ’er meid, zie of ze ’t is.</l>
+					</sp>
+				</div>
+				<div type="scene" n="11">
+					<head>ÉLFDE TOONEEL.</head>
+					<stage>WILLEGOND, GOEDAARD, STEILOOR, KATRYN.</stage>
+					<sp who="#willegond">
+						<speaker>WILLEGOND.</speaker>
+						<l>Myn Heer, ’k heb t’huis gehoord...</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Moest gy my dus beloonen,</l>
+						<l>O Willegond! én op deez’ wyze uw afgunst toonen?</l>
+						<l>Heb ik, zo lang als gy by my gewoond hebt, uw</l>
+						<l>Geneegendheid getracht te dwingen, dat ge nu</l>
+						<l>Myn goedheid dus veracht? Heb ik niet honderd maalen</l>
+						<l>Betuigd, dat ik u in de trouw</l>
+						<l>Meestresse van uw keur, én vryheid laaten zou?</l>
+						<l>En moest gy my met zulk een’ munt betaalen?</l>
+						<l>Dit had ik nooit van u gedacht.</l>
+						<l>’t Berouwt my niet dat ’k u zo zacht</l>
+						<l>Gehandelt heb; maar ik verdiende, naar myn oordeel,</l>
+						<l>Dit loon niet, voor myn’ liefde én zórgen tot uw voordeel.</l>
+					</sp>
+					<sp who="#willegond">
+						<speaker>WILLEGOND.</speaker>
+						<l>Hoe! wat is dit, myn Heer? ik kwam</l>
+						<l>Hier, om dat ik in huis vernam</l>
+						<l>Dat my uw Broeder...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ja, jouw Boeder...</l>
+					</sp>
+					<sp who="#willegond">
+						<speaker>WILLEGOND.</speaker>
+						<l>Gy moet weeten,</l>
+						<l>Dat ik, nóch nu, nóch ooit, uw goed doen zal vergeeten.</l>
+						<l>Ja, niemand zal my ooit beletten u tót man</l>
+						<l>Te neemen; tót bewys hier van,</l>
+						<l>Op mórgen kunnen we, is ’t uw wil, ons huw’lyk sluiten.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Wel, Freer, hoe komt dit met uw woorden over één?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ei, laat my eens begaan. Kom jy nou eerst, van buiten,</l>
+						<l>Hier in dit huis?</l>
+					</sp>
+					<sp who="#willegond">
+						<speaker>WILLEGOND.</speaker>
+						<l>Wel ja,</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Ja, zég je? én ik zég neen.</l>
+					</sp>
+					<sp who="#willegond">
+						<speaker>WILLEGOND.</speaker>
+						<l>Ik kom hier, wyl my kwam ter ooren</l>
+						<l>Dat gy na Heermans waart, én my van wanbehooren</l>
+						<l>Beschuldigde. Ei, wie heeft die laster u verhaald?</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR.</speaker>
+						<l>Je hebt op ’t Bal geweest met Heerman? wat je ’er saamen</l>
+						<l>Gedanst hebt, is wel licht te raamen.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Is dit zo fraai,* Monfreer, dat gy dus smaalt</l>
+						<l>En schémpt op Willegond haar leeven?</l>
+					</sp>
+				</div>
+				<div type="scene" n="12">
+					<head>TWAALFDE én laatste TOONEEL.</head>
+					<stage>NOTARIS SLIK-OP, én Klérken, RUFFINA, HEERMAN. LEKKER, KATRYN, WILLEGOND,
+						GOEDAARD, STEILOOR, Die, zo haast als hy Ruffina ziet komen, én ként,
+						onbeweeg’lyk, zonder spreeken, blyft staan.</stage>
+					<sp who="#slik-op">
+						<speaker>NOTARIS.</speaker>
+						<l>Hier is de Juffer, die ’t kontrakt heeft onderschreeven.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Myn Zuster, wil het my vergeeven.</l>
+						<l>Zo ik my van uw’ naam gediend heb. Ach! gy weet</l>
+						<l>Hoe ik gepérst wierd, door myn leed</l>
+						<l>En onvermydelyke plaagen.</l>
+						<l>Myn’ groote drift wordt licht veroordeeld door uw’ deugd,</l>
+						<l>Wiens spoor ik vólg met groot behaagen;</l>
+						<l>Maar ’t Lót onthaalt my met verdriet, én u met vreugd:</l>
+						<l>Dies drong de nood my, om deez’ list te waagen.</l>
+						<l>tégens Steiloor.</l>
+						<l>Wat u belangt, myn Heer, ik zal</l>
+						<l>My niet ontschuldigen: want met my op te sluiten,</l>
+						<l>En straf te dwingen, geeft gy me oorzaak dat ik buiten</l>
+						<l>Uw toestaan, u bevry voor grooter ongeval.</l>
+						<l>Het scheen wy waaren voor malkand’ren niet gebooren.</l>
+						<l>Ook ben ik zulk een man niet waard.</l>
+						<l>De Hémel heeft me ’er een verkooren</l>
+						<l>Die my in weêrliefde, én in jaaren évenaart.</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Voor my, myn Heer, al myn verlangen</l>
+						<l>Is dat ik haar mag van uw hand ontfangen;</l>
+						<l>’k Zal u verplicht zyn voor die gunst.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Katryn, die trék is uit de kunst!</l>
+					</sp>
+					<sp who="#katryn">
+						<speaker>KATRYN.</speaker>
+						<l>Veel béter kon men zulk ien Steiloor niet betaalen.</l>
+					</sp>
+					<sp who="#willegond">
+						<speaker>WILLEGOND.</speaker>
+						<l>Ik weet niet, óf die trék veel pryzens kan behaalen;</l>
+						<l>Maar de al te hooge nood spreekt haar van laster vry.</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Monfreer, gy staat verstéld; maar als ik zie hoe gy</l>
+						<l>U zélf hebt in dit wérk gewikkeld,</l>
+						<l>Indien het einde uw ziel met wroeging prikkelt,</l>
+						<l>Dénk, dat hy die een misslag doet,</l>
+						<l>De straf ook zélf geduldig draagen moet.</l>
+						<l>Het slimste is...</l>
+					</sp>
+					<sp who="#steiloor">
+						<speaker>STEILOOR, na eenigen tyd gemymerd te hebben.</speaker>
+						<l>Neen, ’t verstand is my benomen!</l>
+						<l>’k Word dol! Is ’t waar? óf zyn ’t ook droomen?</l>
+						<l>Neen, ’t kan in myn begrip niet komen!</l>
+						<l>Hoe! zulk een ontrouw, zulk een schand!</l>
+						<l>Zulk een bedrog, als deez’, deez’ feeks daar heeft bedreeven,</l>
+						<l>Wierdt met geen pennen ooit beschreeven</l>
+						<l>In eenig land!</l>
+						<l>Die Toverhéks! ik had voor haar myn leeven</l>
+						<l>Wel opgezét; ja ’k had deez’ hand,</l>
+						<l>Voor haar, eer dat ik stierf, wel in het vuur verbrand!</l>
+						<l>Eléndig zyn ze die haar op een vrouw verlaaten!</l>
+						<l>Ze zyn schynheilig, vol fenyn,</l>
+						<l>Geen Nikker in de Hél kan zo boosaardig zyn!</l>
+						<l>De béste is waerdig als de pest te haaten,</l>
+						<l>Als zynde een geessel van den man.</l>
+						<l>Ik haat, ’k verlaat, ’k vervloek haar dan,</l>
+						<l>En ’k wénsch dat ze alle veur den Duiker mogen vaaren!</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Heel goed!</l>
+					</sp>
+					<sp who="#goedaard">
+						<speaker>GOEDAARD.</speaker>
+						<l>Hy zal wel haast bedaaren;</l>
+						<l>De tyd bréngt alle ding ten bésten.</l>
+					</sp>
+					<sp who="#slik-op">
+						<speaker>NOTARIS.</speaker>
+						<l>Ik ga heên,</l>
+						<l>En blyf uw Dienaar. O, myn been!</l>
+					</sp>
+					<sp who="#heerman">
+						<speaker>HEERMAN.</speaker>
+						<l>Geen vreugde op aard’ die myn geluk kan évenaaren!</l>
+						<l>Myn Engel gunme uw hand, én gaanwe t’saam beneên.</l>
+					</sp>
+					<sp who="#ruffina">
+						<speaker>RUFFINA.</speaker>
+						<l>Myn’ hand alleen niet, maar myn liefde én trouw met één.</l>
+					</sp>
+					<sp who="#lekker">
+						<speaker>LEKKER.</speaker>
+						<l>Dit ’s ’t loon voor die met dwang de vrysters kwellen.</l>
+						<l>En ’t middel om ’t verstand dier zotten te hérstellen.</l>
+						<l>Want hoe men géld, óf liefde sluit,</l>
+						<l>Het een én ’t ander moet ’er uit.</l>
+					</sp>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

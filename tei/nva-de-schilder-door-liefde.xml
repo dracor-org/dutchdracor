@@ -1,0 +1,3686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000165" xml:lang="dut">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">De schilder door liefde</title>
+                <title type="sub"/>
+                <author>
+                    <persName>
+                        <forename>Jean-Baptiste</forename>
+                        <surname>Molière</surname>
+                    </persName>
+                    <idno type="wikidata">Q687</idno>
+                    <idno type="pnd"></idno>
+                </author>                
+                <author>
+                    <persName>
+                        <surname>Nil Volentibus Arduum</surname>
+                    </persName>
+                    <idno type="wikidata">Q2351891</idno>
+                    <idno type="pnd"></idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+                            >Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>Ceneton</name>
+                    <idno type="URL"
+                        >https://www.let.leidenuniv.nl/Dutch/Ceneton/NVASchilder1682.html</idno>
+                    <editor>G.C. van Uitert and A.J.E. Harmsen</editor>
+                    <ref>Ceneton072600</ref>
+                    <availability status="free">
+                        <p>In the public domain.</p>
+                    </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <title>Nil Volentibus Arduum: De schilder door liefde. Amsterdam: drs. G.C. van
+                        Uitert, 1682.</title>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person sex="FEMALE" xml:id="styntje">
+                        <persName>STYNTJE</persName>
+                    </person>
+                    <person sex="MALE" xml:id="jasje">
+                        <persName>JASJE</persName>
+                    </person>
+                    <person sex="MALE" xml:id="eduard">
+                        <persName>EDUARD</persName>
+                    </person>
+                    <person sex="FEMALE" xml:id="m-laura">
+                        <persName>MADONNA LAURA</persName>
+                    </person>
+                    <person sex="MALE" xml:id="knecht-1">
+                        <persName>1. KNECHTS</persName>
+                    </person>
+                    <person sex="MALE" xml:id="knecht-2">
+                        <persName>2. KNECHTS</persName>
+                    </person>
+                    <person sex="MALE" xml:id="pédro">
+                        <persName>PÉDRO</persName>
+                    </person>
+                    <person sex="FEMALE" xml:id="léonoor">
+                        <persName>LÉONOOR</persName>
+                    </person>
+                    <person sex="MALE" xml:id="jongen">
+                        <persName>SCHILDERS JONGEN</persName>
+                    </person>
+                    <person sex="FEMALE" xml:id="fransyntje">
+                        <persName>FRANSYNTJE</persName>
+                    </person>
+                    <person sex="MALE" xml:id="présidént">
+                        <persName>PRÉSIDÉNT</persName>
+                    </person>
+                    <person sex="MALE" xml:id="snyer">
+                        <persName>SNYER</persName>
+                    </person>
+                    <person sex="MALE" xml:id="violist">
+                        <persName>VIOLIST</persName>
+                    </person>
+                    <person sex="UNKNOWN" xml:id="de-kinders">
+                        <persName>Verscheyde Dóchters en Zoonen van MADONNA LAURA</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Comedy</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2024-04-04">(Lucas van der Deijl) convert from source</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <standOff>
+        <listEvent>
+            <event type="print" when="1682">
+                <desc/>
+            </event>
+            <event type="premiere" when="1682">
+                <desc/>
+            </event>
+            <event type="written" when="">
+                <desc/>
+            </event>
+        </listEvent>
+        <listRelation>
+            <relation active="https://dracor.org/entity/" name="wikidata"
+                passive="http://www.wikidata.org/entity/"/>
+        </listRelation>
+    </standOff>
+    <text>
+        <front>
+
+
+            <docTitle>
+
+                <titlePart>DE SCHILDER DOOR LIEFDE,</titlePart>
+
+                <titlePart>BLYSPÉL.</titlePart>
+                <titlePart>[Vignet: Nil Volentibus Arduum]</titlePart>
+                <titlePart>Te AMSTERDAM, By ALBERT MAGNUS, op de Nieuwen Dyk, in den Atlas, by den
+                    Dam. 1682.</titlePart>
+                <titlePart>Mét Privilegie.</titlePart>
+            </docTitle>
+            <div type="dedication">
+                <head>Den Edelen Achtbaaren Heere, DEN HEERE EN MR. JERONIMUS DE HAAZE DE GEORGIO,
+                    SCHÉPEN DER STAD AMSTERDAM.</head>
+                <head>EDELE ACHTBAARE HEER,</head>
+                <p>De Heer én Mr. Andries Péls zaalr. heeft my kort voor zyn dood ter hand ge- [fol.
+                    *2v] stélt, én in eigendom overgegeeven, dit Blyspél, genaamt DE SCHILDER DOOR
+                    LIEFDE, uit de Italiaansche in de Fransche, én uit de Fransche in de
+                    Néderduitsche taale gebragt; dóch het laatste door den Heer Péls; maar zo
+                    verhanselt, én verschikt naar de hédendaagsche tooneelwétten, dat het niet
+                    alleen niet vermindert, maar in tégendeel mérkelyk verbétert is; én alzo ik
+                    meene dat men de waereld daer van niet behoorde te versteeken, héb ik niet
+                    nutters gevonden, als het zélve onder Uw’ Ed. Achtbaarheits beschérming in ’t
+                    licht te geeven; mét die hoop, dat het Uw’ Ed. Achtbaarheid niet zal mishaagen,
+                    te meer om dat den maaker een man is geweest, wiens geest genoeg heeft doen
+                    blyken hoe vérre hy in die konst was gevórdert; daar het my niet voegen zou veel
+                    van te zéggen, terwyl het maar water in zé zou gedraagen zyn. Dit alleen is het
+                    boek eers genoeg, dat het naar [fol. *3r] de dood van den maaker mag onder het
+                    opzigt zyn van een Heer, wiens doorzichtig oordeel de deugd der dingen kan
+                    waardeeren: én my zal nóch grooter eer geschieden, zo ik van Uw’ Ed. Achtb.
+                    mooge geként worden te zyn</p>
+
+                <p>Ed. Achtbaare Heer,</p>
+                <p>Uw’ Ed. Achtbaarheids</p>
+                <p>Alder ootmoedigste én onderdanigste Dienaar</p>
+                <p>PIETER LANKEUR.</p>
+            </div>
+            <div type="appendix">
+                <head>COPYE Van de PRIVILEGIE.</head>
+                <p>DE Staten van Holland ende West-Vrieslandt doen te weten. Alsoo Ons vertoont is
+                    by eenige Liefhebbers van de Nederduytsche Tael en Poëzy, hoe dat sy al voor
+                    eenige Jaren, na het voorbeeld van de Italiaensche en Fransche Academien,
+                    t’Amsterdam opgerecht hadden, een Konstgenoodtschap onder de Prent en Sinspreuke
+                    van NIL VOLENTIBUS ARDUUM, waar in dagelijks gearbeyt was, en noch wiert, tot
+                    voortsettinge van onse Taal en Dichtkunst, gelijk ook al eenige werkjens, nu en
+                    dan daar van in ’t licht gekomen, en door den druk gemeen gemaakt waren; en
+                    dewyl van tyt tot tyt uytgegeven souden worden grootere werken, die by dat
+                    Konstgenootschap, sommige reets gemaakt, sommige noch onderhanden waren, waar
+                    toe het selve boven haar tyt en arbeyd, noch groote kosten tot den druk, en wat
+                    daar meer toebehoort, soude moeten doen, en vermits ook niet sonder groote reden
+                    gevreest wierd, dat al het gene van eenigh belangh zynde, by het selve
+                    Konstgenootschap uytgegeven soude worden, aanstonts door andere soude mogen
+                    werden naargedrukt, en sonder eenige opmerkingh, veel min naauwkeurigheydt der
+                    Spelling oft nettigheydt der Tale, aan al de wereldt gemeen gemaakt, waar door
+                    het goede Insigt tot opbouwingh der Nederduytsche Tale, ende voortsettinge van
+                    de welsprekentheydt in de selve verhindert, en de lust om daar in voort te gaan
+                    aan het voorseyde Konstgenootschap soude benomen worden; soo hadde sich het
+                    selve Konstgenootschap genootsaakt gevonden, om sich te keeren tot Ons,
+                    ootmoedelyk versoekende, dat het Ons gelieven mogte haar te begunstigen alle de
+                    werken, die uyt het selve Konstgenootschap in ’t licht gebraght souden worden,
+                    met Ons Octroy voor 20 jaren langh, en onder soodanige straffe tegen de gene,
+                    die de selve soude nadrukken, verkoopen, oft elders naargedrukt, in dese Onse
+                    Provintie voeren om te verkoopen, als het Ons soude gelieven goet te vinden. SOO
+                    IS ’t, dat Wy, de Sake en ’t Versoek voorsz. overgemerkt hebbende ende genegen
+                    wesende ter bede van de Supplianten, uyt Onse rechte wetenschap, Souveraine
+                    macht ende authoriteyt de selve Supplianten geconsenteert, geaccordeert, en
+                    geoctroyeert hebben, consenteren, accorderen, ende Octroyeren mits desen, dat sy
+                    gedurende den tyt van vyftien eerstkomende Jaren, de Werken by het voornoemde
+                    Konstgenootschap onder den Tytul van NIL VOLENTIBUS ARDUUM gemaakt werdende oft
+                    alrede zynde, binnen den voornoemden Onsen Lande alleen sullen mogen drukken,
+                    uytgeven ende verkoopen, verbiedende daarom allen ende eenen iegelyken, de selve
+                    werken na te drukken, ofte elders naargedrukt binnen onsen Lande te brengen, uyt
+                    te geven ofte te verkoopen, op verbeurte van alle de naargedrukte, ingebraghte
+                    ofte verkofte Exemplaren, ende een boete van drie hondert guldens daarenboven te
+                    verbeuren, te appliceren een derde part voor den Offi- [fol. *4r] cier die de
+                    calange doen sal, een derde part voor den Armen der plaatsen daar het casus
+                    voorvallen sal, ende het resterende derde part voor de Supplianten. Alles in
+                    dien verstande, dat Wy de Supplianten, met dezen Onsen Octroye alleen willende
+                    gratificeren tot verhoedinge van hare schade door het nadrukken van de voorsz.
+                    Werken, daar door in geenigen deele verstaan, den Inhoude van dien te
+                    authoriseren ofte te advouëren, ende veel min het selve onder Onse protectie
+                    ende bescherminge eenig meerder credit, aansien ofte reputatie te geven; Nemaar
+                    den Supplianten in cas daar in iett onbehoorlyks soude mogen influeren, alle het
+                    selve tot haren lasten sullen gehouden wesen te verantwoorden, tot dien eynde
+                    wel expresselyk begerende, dat by aldien sy desen Onsen Octroye voor de selve
+                    Werken sullen willen stellen, daar van geene geabbrevieerde ofte gecontraheerde
+                    mentie sullen mogen maken; Nemaar gehouden sullen wesen, het selve Octroy in ’t
+                    geheel, en sonder eenige Omissie daar voor te drukken, op pene van het effect
+                    van dien te verliesen. Ende ten eynde de Supplianten desen Onsen consente en
+                    Octroye mogen genieten naar behooren, lasten wy allen ende eenen iegelyken, dat
+                    sy de Supplianten van den inhoudt van desen doen laten ende gedoogen, rustelyk,
+                    vredelyk, ende volkomentlyk genieten ende gebruyken, cesserende alle belegh ende
+                    wederleggen ter contrarie. Gedaan in den Hage onder Onsen grooten Zegele hier
+                    aan doen hangen, den XV Maart, in ’t Jaar onses Heeren, en Saligmakers duysent
+                    ses hondert seven en seventigh.</p>
+
+                <p>A. Br. d’ASPEREN, 1677.</p>
+
+                <p>Ter Ordonnantie van de Staten</p>
+
+                <p>HERBERT van BEAUMONT, 1677.</p>
+
+                <p>Het KONSTGENOOTSCHAP heeft het Récht van de bovenstaande PRIVILEGIE aangaande De
+                    SCHILDER DOOR LIEFDE, vergund aan ALBERT MAGNUS, Boekverkooper tót
+                    Amsterdam.</p>
+
+                <p>In Amsterdam, den 30 Maart, 1682.</p>
+            </div>
+            
+            <castList>
+                <head>VERTOONERS.</head>
+                <castItem corresp="#jasje">
+                    <role>JASJE.</role>
+                </castItem>
+                <castItem corresp="#styntje">
+                    <role>STYNTJE.</role>
+                </castItem>
+                <castItem corresp="#eduard">
+                    <role>EDUARD.</role>
+                </castItem>
+                <castItem corresp="#m-laura">
+                    <role>MADONNA LAURA.</role>
+                </castItem>
+                <castItem corresp="#pédro">
+                    <role>PÉDRO.</role>
+                </castItem>
+                <castItem corresp="#léonoor">
+                    <role>LÉONOOR.</role>
+                </castItem>
+                <castItem corresp="#fransyntje">
+                    <role>FRANSYNTJE.</role>
+                </castItem>
+                <castItem corresp="#présidént">
+                    <role>PRÉSIDÉNT.</role>
+                </castItem>
+                <castItem corresp="#snyer">
+                    <role>SNYER.</role>
+                </castItem>
+                <castItem corresp="#violist">
+                    <role>VIOLIST.</role>
+                </castItem>
+                <castItem corresp="#jongen">
+                    <role>SCHILDERS JONGEN.</role>
+                </castItem>
+                <castItem corresp="#de-kinders">
+                    <role>Verscheyde Dóchters en Zoonen van MADONNA LAURA.</role>
+                </castItem>
+                <castItem corresp="#knecht-1">
+                    <role>1. KNÉCHTS</role>
+                </castItem>
+                <castItem corresp="#knecht-2">
+                    <role>2. KNÉCHTS.</role>
+                </castItem>
+            </castList>
+        </front>
+        
+        <body>
+            <head> DE SCHILDER DOOR LIEFDE,</head>
+            <head>BLYSPÉL. </head>
+            <div n="1" type="act">
+                <head>EERSTE BEDRYF.</head>
+
+                <div n="1" type="scene">
+                    <head>EERSTE TOONEEL.</head>
+                    <sp who="#jasje">
+                        <speaker>JASJE, Vergezélschapt mét een hoop Muzikanten,</speaker>
+                        <l>én een spat op zy.</l>
+                        <l>BLyf daar, niet nader, ’k zal jou daatelyk wél roepen</l>
+                        <l>Wanneer het tyd is. Waar vind ik het réchte huis?</l>
+                        <l>Hier is het; neen ik héb abuis:</l>
+                        <l>Wat droes ’t scheelt nóch wél drie vier stoepen.</l>
+                        <l>Foey, ’t is zo donker als een hél. Was ik Poëet</l>
+                        <l>’k Zou zéggen, dat Diaan haar oogen</l>
+                        <l>Had met een lamfer overtoogen,</l>
+                        <l>Of dat de hémel in de rouw ging om zyn peet.</l>
+                        <l>’k Zie niet een star zyn kóp ten vénsteren uitsteeken,</l>
+                        <l>Een ménsch zou hier wél hals én beenen breeken.</l>
+                        <l>Wat zyn wy Minnaars ook eléndig! ik zég wy,</l>
+                        <l>Wy arme Minnaars; wyl dat and’re dichte by</l>
+                        <l>Een vuurtje mét een pypje zitten</l>
+                        <l>En in de kroeg een nachtje over kitten,</l>
+                        <l>Of ronken dat de kamer dreunt;</l>
+                        <l>Zo loopt myn heer, én ik langs straat in wind, én régen,</l>
+                        <l>Om ’t allereelste lief, dan vrolyk, dan verlégen,</l>
+                        <l>Die zich om ons misschien niet ééns bekreunt,</l>
+                        <l>Of mét ons rénnen én rinkinken boert, én deunt.</l>
+                        <l>Myn heer, én ik zyn ondertusschen</l>
+                        <l>Twee gékken, die mét goede hoop,</l>
+                        <l>Als hém óf my het hoofd raakt op de loop,</l>
+                        <l>Malkanders minne pynen sussen,</l>
+                        <l>En dus in plaats van troost malkander lydig brussen.</l>
+                        <l>Nou ’k weet wél, zo het langer duurt,</l>
+                        <l>Wie van ons beije dénkt zyn gat daar uit te draayen.</l>
+                        <l>Hoe bén ik hier niet in de réchte buurt?</l>
+                        <l>Ja, ja, hier is het huis; ja, ja, ik mag eens kraayen;</l>
+                        <l>Dit is de leus die ik my Styntje geeven moet;</l>
+                        <l>Waar blyftze? Ik krâay noch ééns, ho ho, ik hoor ze al; goed,</l>
+                        <l>Wy haanen moeten onze hénnen,</l>
+                        <l>By tyds naar ons gekraay gewénnen.</l>
+                    </sp>
+                </div>
+                <div n="2" type="scene">
+                    <head>TWEEDE TOONEEL.</head>
+
+                    <stage>STYNTJE, JASJE.</stage>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>WÉl Jasje, bénje daar?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Wél neen ik Styntje maat;</l>
+                        <l>Och! was ik daar, ’k sta hier gelykje ziet op straat.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Jou Gékje.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Jou mallootje.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Ay nou geen malle praat,</l>
+                        <l>De tyd is kóstelyk. Hoe staan jou Jonkers zaaken?</l>
+                        <l>Heeft hy al wat bedócht tót Léonoors ontzét?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>De zaaken staan heel wél. Hy heeft na dat portrét</l>
+                        <l>Dat gy me eergist’ren gaaft, zo nét</l>
+                        <l>Een Konterfeitzel groot als ’t leeven laaten maaken,</l>
+                        <l>Dat tusschen de gelykenis</l>
+                        <l>Van beide gansch geen onderscheid en is.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Wél waar toe dat tóch;</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>O! ’t zal wond’re kuuren wérken;</l>
+                        <l>Pas jy maar om de kaats te mérken</l>
+                        <l>Wanneer je een schilder komen ziet.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Ik dénk je meent die schilder niet</l>
+                        <l>Daar ons Batist van zey, én die zo word gepreezen.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Ja, ja, die zélve zal het weezen</l>
+                        <l>Of wél een ander, hoor Batist</l>
+                        <l>Is om gezét door géld én list,</l>
+                        <l>Om jonker Eduard by Léonoor te krygen.</l>
+                        <l>Maar séldremént, jy moet het zwygen!</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Kyk hier een rys, had jy jouw bék</l>
+                        <l>Gehouwen. ’k zou ’t wél zwygen gék...</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>IASJE.</speaker>
+                        <l>’t Is goed ik zalje dan men leeven niet meer zéggen.</l>
+                        <l>Maar hoor aan jonker Eduard</l>
+                        <l>Leid juffrouw Léonoor gewéldig zwaar op ’t hart.</l>
+                        <l>Maar hy is bang óf zo de zaaken léggen</l>
+                        <l>Gelyk gy my vertélt hébt, anders zou</l>
+                        <l>Hy haar nooit neemen tót zyn vrouw,</l>
+                        <l>En óf hy haar verliet na ’t schaaken,</l>
+                        <l>Daar zouw hy weinig wérk van maaken.</l>
+                        <l>Daarom kind wouw hy wél, eer hy zich dieper stak</l>
+                        <l>In ’t wérk dat hy eerst mét Madonna Laura sprak,</l>
+                        <l>Om uit haar mond van juffrouw Léonoore</l>
+                        <l>Gelégenheid wat meer byzonderheên te hooren.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Waar is jou Heer?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Hy zal hier daatlijk zyn; het schort</l>
+                        <l>Hem aan een muzikant, zie die komt hy te kort,</l>
+                        <l>Indien de aubade zou gelukken,</l>
+                        <l>Om dat hy heeft veel Italiaansche stukken</l>
+                        <l>Van de Opera te Weenen én Parys;</l>
+                        <l>Maar ô de Gék die is zo wys;</l>
+                        <l>Men moet hem vleijen, bidden, smeeken,</l>
+                        <l>Eer dat hy érgens gaan wil, ja</l>
+                        <l>Somtyds eer hy een ménsch wil spreeken.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>En krygt hy nóch géld toe?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Ha! ha!</l>
+                        <l>Géld toe? men hoort de man niet praaten</l>
+                        <l>Als van Louizen en Dukaaten,</l>
+                        <l>En hy krygt alles wat hy wil.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Ja licht om dat het nu is de eerste van April.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Neen, Styntje lief, neen hy Apriltze</l>
+                        <l>Het heel jaar door, hy scheertze én viltze.</l>
+                        <l>Nou ik héb over hém niet veel te klaagen; want</l>
+                        <l>Hy zal ’t zo mét de aubade stéllen,</l>
+                        <l>Dat als men van myn Jonkers brand</l>
+                        <l>Gezongen heeft, én hoe de min hem weet te kwéllen,</l>
+                        <l>Daar op zal vólgen, hoe om jou myn ingewand</l>
+                        <l>Gelyk een padde raakt aan ’t zwéllen:</l>
+                        <l>Wat dunktje Styntje?</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Wél bedócht,</l>
+                        <l>Ik wéd jy hébt hem omgekócht;</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Waarméê? mét zonder gélt? neen zéker ’t is alleenlyk Faveur.</l>
+                        <l>Maar Donna Laura kan die hier</l>
+                        <l>Niet op ’t Balkon een reisje komen?</l>
+                        <l>Men Jonker die bedoet hem schier</l>
+                        <l>Van wanhoop, mét gestaag te mymeren én droomen</l>
+                        <l>Op Léonoor, zo lang hy anders geen bescheid,</l>
+                        <l>Als ’t uw’ én ’t myn heeft, hy begeert meer zékerheid.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Wél als ’t zo nodig is, ja trouwen</l>
+                        <l>Ik zal wél wat verzinnen, Jas,</l>
+                        <l>En haar doen opstaan, ’k zal me houwen</l>
+                        <l>Of ik heel ziek óf kwalyk was.</l>
+                        <l>Maak dan dat Eduard te dégen op haar past.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Zeer wél, konje ook een middel vinden,</l>
+                        <l>Dat hy eens spreeken kon mét Juffrouw Léonoor?</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Dat durf ik my niet onderwinden.</l>
+                        <l>Sr. Pedro mét zyn réchter oor</l>
+                        <l>Ligt naast haar bédde, mét een wagenschót gescheiden</l>
+                        <l>Van ’t zyne, én anders niet als dat is tusschen beiden.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>O ’t zou voor Jonker Eduard</l>
+                        <l>Zo troostlyk zyn mogt hy haar eerst eens spreeken,</l>
+                        <l>En zéggen hoe ’t hem ligt op ’t hart.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Aan Léonoor niet min mogt zy hem hooren smeeken</l>
+                        <l>En klaagen van zyn minnesmart.</l>
+                        <l>Daarom was immers voorgenomen</l>
+                        <l>Eer hy haar maakte tót zyn vrouw,</l>
+                        <l>Als dat hy eerst tót haarent komen</l>
+                        <l>En in een and’re schyn eens mét haar spreeken zou.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Dat zal wel gaan, stél Juffrouw maar te vréden.</l>
+                        <l>Maar zo ’t nou kon geschieden Styn?</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Dat kan onmoogelyk niet zyn,</l>
+                        <l>Hier hélpen zuchten noch gebéden;</l>
+                        <l>Maar Jasje hoor, jy bént een snaak,</l>
+                        <l>En ik niet op myn bék gevallen,</l>
+                        <l>Al vult men hem de kap, was dat zo groot een zaak?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Wél neen, dat brust me niet mét allen,</l>
+                        <l>Maar zo hy ’t mérkte! Styntje, jy,</l>
+                        <l>Hoe ’t afliep, raakte lichtlyk vry,</l>
+                        <l>En ik te lydig in de ly.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Hoe, als ’t om béters wil geschiedde?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Neen geen vreezen,</l>
+                        <l>Zo is ’t om beters wil? wél fiat, wat zou ’t weezen?</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Jou Heer ként die de stem van Léonoor wél?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Neen.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Dat ik me dan eens in haar kleeren ging verkleên,</l>
+                        <l>En praatte mét jou Jonker</l>
+                        <l>In haare schyn, in’t donker.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Maar by de aubade zyn flambeeuwen.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>’k Zal myn muil</l>
+                        <l>Mét vyf zés kapers zo wel wat toemoff’len, uil,</l>
+                        <l>Dat hy niet zien zal als myn kleeren.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Dan doe je lyk een Meid mét eeren;</l>
+                        <l>Want ziet, wie weet óf hy op jouw,</l>
+                        <l>Licht anders niet verlieven zouw:</l>
+                        <l>De meeste Vryers, óch, zo zy heur Juffers zagen</l>
+                        <l>Gesteeken in een dienstmeids pak,</l>
+                        <l>Of zagen zy een Meid haar Juffers kleeren draagen,</l>
+                        <l>’k Verzékerje, zy ruilden strak.</l>
+                        <l>De Gékken zyn meer op de diamanten,</l>
+                        <l>De paarlen, strikken, het borduurzel én de kanten</l>
+                        <l>Van ’t Juffertuig, als op de Juffrouw gescharmeert,</l>
+                        <l>Ik min heel anders, ’k steur my aan geen wisje wasje.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Maar daar komt Licht, ik zie jou Jonker, Jasje,</l>
+                        <l>Spreek, zal ik Iuffrouw zyn? ik doe’t zo gy’t begeert.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Wees Iuffrouw, én doe hier Madonna Laura komen.</l>
+                    </sp>
+                </div>
+                <div n="3" type="scene">
+                    <head>DERDE* TOONEEL.</head>
+
+                    <stage>JASJE, EDUARD, mét twee knéchts, die flambeeuwen</stage>
+                    <stage>draagen, gevólgt van Muzikanten.</stage>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>WÉl hébt ge iets tót myn troost vernomen?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Wél ja, maar laat het licht zo lang</l>
+                        <l>Wégblyven, strak zult gy Madonna Laura spreeken</l>
+                        <l>Hier op ’t Balkon, ze is, na ik réken,</l>
+                        <l>Voor ’t kwaad vermoen van haar jaloerschen bang,</l>
+                        <l>En wil van élk niet zyn bekeeken.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD, tégens de knechts, &amp;c.</speaker>
+                        <l>Doof uit de toortsen, én blyf ginder in die stoep</l>
+                        <l>Zo lang, tót ik u roep.</l>
+                        <l>Maar zal my Léonoor in myn verdrietig lyden</l>
+                        <l>Niet mét een woord óf twee verblyden?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Voort na de aubade zal zy komen op ’t balkon.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Ik wou dan dat men straks begon.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>’k Dénk dat je een toot wilt aan Madonna Laura stéllen.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Het was me ontschooten, ik bemin,</l>
+                        <l>En dan verhuizen al de zinnen in één zin;</l>
+                        <l>Zo u de liefde als my kwam kwéllen!</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Nou Jonker, jy kunt zoet vertéllen;</l>
+                        <l>Jy zoud verliefder zyn als ik?</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Och! daar is niet een ogenblik,</l>
+                        <l>Dat ik niet om haar dénk.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Daar zyn geen ogenblikken,</l>
+                        <l>Dat ik niet in de liefde dénk te stikken;</l>
+                        <l>Maar ’k word daar op ’t balkon wat stommeling gewaar.</l>
+
+
+                    </sp>
+                </div>
+                <div n="4" type="scene">
+                    <head>VIERDE* TOONEEL.</head>
+
+                    <stage>MADONNA LAURA, JASJE, EDUARD.</stage>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>MAdonna Laura zyt gy daar?</l>
+                    </sp>
+                    <sp who="#m-laura">
+                        <speaker>M. LAURA.</speaker>
+                        <l>Ja ikze bénze zélf, filjol. Waar jou Signore?</l>
+                        <l>Ik zal ze zeike van de ding van Léonoore.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Madonna Laura, ’k bén nieusgierig om haar staat</l>
+                        <l>Te weeten, én hoe ’t mét haar is geleegen;</l>
+                        <l>Of zy ook is tot my genégen;</l>
+                        <l>Voornaamlyk óf zy in der daad</l>
+                        <l>Een Dóchter is van wélgebooren vrinden,</l>
+                        <l>En hoe zy die hier meent te vinden.</l>
+                    </sp>
+                    <sp who="#m-laura">
+                        <speaker>M. LAURA.</speaker>
+                        <l>Ik zal jou zeik zo veul ik kan.</l>
+                        <l>Hum fad’re was de tréflykst man</l>
+                        <l>Die kan gefinde zyn. Hy kwamze mét fier knéchten.</l>
+                        <l>De froutje die de moed’re was,</l>
+                        <l>En twee jong meisjes die moet op de moed’re pas,</l>
+                        <l>Trék na Venétyen, daar zouze niet uitréchten;</l>
+                        <l>Ze moet na Smirne vérder gaan,</l>
+                        <l>En weezen Konsul van de Olland’re.</l>
+                        <l>Ze huur my; geef my géld én paspoort, die twee and’re</l>
+                        <l>Jongmeisjes, die op land blyf staan.</l>
+                        <l>Wy vaaren in de Schip; de schip die komt te slaan,</l>
+                        <l>Mét twee heel grande Turksche schippen:</l>
+                        <l>Zy was te stérk; wy kunze niet ontslippen;</l>
+                        <l>Wy fochten; de fad’re én de moed’re raakten dood;</l>
+                        <l>Maar eerze dood waar gaf de fad’re my de kindje.</l>
+                        <l>Ik én myn froutje kyk zo spreek zy, die bemintje;</l>
+                        <l>Of wy te blyven kom, zy bid dat je in de nood</l>
+                        <l>De kind bewaart, als jou; jy kan jou ransoeneeren</l>
+                        <l>Als jy wilt zwyg, én mét de kindje wéderkeeren</l>
+                        <l>In Holland, in de Haag; toon maar die gouwe ring,</l>
+                        <l>Mét déze briefje, als jy een eerlyk man kan vinden;</l>
+                        <l>Die kan haar dan te récht bréng by haar vrinden.</l>
+                        <l>Maar óch een eerlyk man, ik mérk is een raar ding!</l>
+                        <l>Ik hébze niemand durf betrouwen,</l>
+                        <l>En aktien jaar de schrif én ring by my gehouwen.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Laat my de brief eens zien.</l>
+                    </sp>
+                    <sp who="#m-laura">
+                        <speaker>M. LAURA.</speaker>
+                        <l>Ik héb zo waar ik leef</l>
+                        <l>Gezweerd ik zal de brief niet geef,</l>
+                        <l>Of laate zien als aan de Heeren;</l>
+                        <l>Die zallen motten van de zaaken judiceeren;</l>
+                        <l>En daarom bid ik, ô Carissimo Signoor,</l>
+                        <l>Dat tóch pér Gratia, ’t favoor</l>
+                        <l>Aan vóstra Schrava, én Signora Léonoor;</l>
+                        <l>Dat aan de récht’re mag bekénd de zaake weezen.</l>
+                        <l>Dan zal jy ook de briefje leezen.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Dat zal wél gaan; maar zég hoe oud</l>
+                        <l>Was Léonoor toen ze u wierd toevertrouwd?</l>
+                    </sp>
+                    <sp who="#m-laura">
+                        <speaker>M. LAURA.</speaker>
+                        <l>Nóch niet twé jaar; zy is nóch niet de twintig jaaren.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Maar waarom hébt gy achtien jaar gewacht,</l>
+                        <l>Eer gy de zaak hébt uitgebragt?</l>
+                    </sp>
+                    <sp who="#m-laura">
+                        <speaker>M. LAURA.</speaker>
+                        <l>’k Héb niet gedurven als wy in Turkyen waaren;</l>
+                        <l>Sr. Pedro heeftze my én Léonoor gekócht.</l>
+                        <l>Ik zék ik was de motje, Pédro dócht</l>
+                        <l>Zy was de nichje, ze is liefhébb’re van de vrouwen;</l>
+                        <l>Hy hébze my én heur wél achtien jaar</l>
+                        <l>Om dat hy slaap by, én ik ze maak hém vaar</l>
+                        <l>Van vyftien kin’re als Pauzinnen onderhouwen:</l>
+                        <l>En alteméts belooft te trouwen.</l>
+                        <l>Als ik was jong, ik was zoo fraay!</l>
+                        <l>’k Héb hém doen brand’ als een salmand’re;</l>
+                        <l>Maar nou héb hy van my den draay.</l>
+                        <l>Hy wil my veur de jong verand’re;</l>
+                        <l>Hy lél Signora Léonoor,</l>
+                        <l>Foey ’k moet my schaamen, als de béngeltjen aan de oor;</l>
+                        <l>Maar ik durf hier niet langer wachten;</l>
+                        <l>Ik zal meer zék op andre nachten,</l>
+                        <l>Of als wy kom zal voor de Récht’re óf voor de Schout.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Maar vindze goed dat ik my maak zoo stout,</l>
+                        <l>En doe haar een aubade speelen?</l>
+                    </sp>
+                    <sp who="#m-laura">
+                        <speaker>M. LAURA.</speaker>
+                        <l>U lieden doene wél, de meisje is zéker ziek</l>
+                        <l>Van droefheit, én melankoliek.</l>
+                        <l>Maak jy maar in de huis te komen,</l>
+                        <l>En dat de meisje méê word uit de huis genomen.</l>
+                        <l>Hy hébze lief, zo lief, zo lief, ik weet niet hoe!</l>
+                        <l>Ia schier zo lief als ik Sr. Pédro doe.</l>
+                        <l>’k Hébze ook wél lief, maar ’k bénze moe.</l>
+                        <l>Maar ik niet durve hier staan praaten;</l>
+                        <l>Iy maar de aubade speulen laaten,</l>
+                        <l>Ik zalze zéggen Léonoor,</l>
+                        <l>Dat jyze bént, én datze jou moet hoor.</l>
+                        <l>Ik kan niet blyf, adio Sjoor.</l>
+                    </sp>
+                </div>
+                <div n="5" type="scene">
+                    <head>VIJFDE* TOONEEL.*</head>
+
+                    <stage>EDUARD, JASJE, 2 Knéchts mét flambeeuwen én Musikanten.</stage>
+                    <sp who="#eduard">
+                        <speaker>&gt;EDUARD.</speaker>
+                        <l>KOmt Iongens hier mét uw flambeeuwen,</l>
+                        <l>Gaauw steek die aan; waar zyn de violons</l>
+                        <l>En stémmen?</l>
+                    </sp>
+                    <sp who="#knecht-1">
+                        <speaker>1. KNÉCHT.</speaker>
+                        <l>Heer zy vólgen ons.</l>
+                    </sp>
+                    <sp who="#knecht-2">
+                        <speaker>2. KNÉCHT.</speaker>
+                        <l>Daar zynze.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Mannen strykt nou wakker op als leeuwen,</l>
+                        <l>En zingt daar onder; ’k spreek van zingen, niet van schreeuwen.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Ja zingt iets fraays dat op myn min slaat, én verdriet.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Vergeet voor al myn minnestuipen niet.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Hét is zo wél, de dag schynt aan te breeken,</l>
+                        <l>Gaat nu maar heen, ’k zal u daar na wél spreeken.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Vergeet gy Heer dat gy verwacht wordt op ’t balkon?</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Neen ’k wilde hén eerst doen vertrékken.</l>
+
+                    </sp>
+                </div>
+                <div n="6" type="scene">
+                    <head>ZESDE* TOONEEL.</head>
+
+                    <stage>EDUARD, STYNTJE in haar Juffrouws gewaad, JASJE.</stage>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>ZYt gy daar Léonoor?</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>O ja ’k bén ’t zélf myn zon.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD, tegen Jasje.</speaker>
+                        <l>Wat vrémder antwoord! hoe? Zy schynt mét my te gékken,</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Is ’t malligheid myn Heer, geensins.</l>
+                        <l>Ga voort maar.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Ik kom u myn minne smarten klaagen,</l>
+                        <l>Die ’k zonder u bezit, niet langer kan verdraagen.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>En ik héb jou zo lief schier als de Prins.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD, tegen Jasje.</speaker>
+                        <l>’k Versta ’t me niet.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Ga voort.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>’t Zal dan in u geen tooren</l>
+                        <l>Verwekken, dat ik u van myne liefde spreek.</l>
+                        <l>En om u wéderliefde smeek.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>O neen, dat mag ik gaarne hooren,</l>
+                        <l>Niets isser daar ik meer na haak.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Lyd gy, dat ik die vond, die ik héb voorgenoomen,</l>
+                        <l>Voltrekken mooge én onbekénd tót uwent komen?</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Zeer gaaren.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Wiltge wél dat ik u schaak.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Nóch liever.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Ik kan my van blydschap niet bedwingen,</l>
+                        <l>Zo ’k by u vliegen kon, ’k zou u mét ziel én zin</l>
+                        <l>Myn dankbaarheid betuigen én myn min.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Ik zou wél van ’t balkon afspringen,</l>
+                        <l>Maar zie de sprong is wat te valsch,</l>
+                        <l>Ik vrees dat ik een been mogt breeken, óf den hals.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Zy gékt mét my, óf ik verstaa ’t niet.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Malle dingen;</l>
+                        <l>Zie zy maakt geen geheimenis</l>
+                        <l>Van haare liefde, én spreekt gelyk het waarlyk is:</l>
+                        <l>Niet als de Juffers in den Haag, die haar gepeinzen</l>
+                        <l>Voor heur Galands altyd ontveinzen;</l>
+                        <l>Myn lieve Jonker Eduard,</l>
+                        <l>Zoo zy goed rond, goed zeeuws, als Léonoor heur hart</l>
+                        <l>Uitspraaken, veul Galandjes zouwen</l>
+                        <l>Zoo lang niet hoeven aan te houwen:</l>
+                        <l>Ja, wie weet wat ze wél deeden voor het trouwen;</l>
+                        <l>Dat Léonoor zo nét haar mening zeit, dat doed</l>
+                        <l>Dat zy niet in den Haag is opgevoed.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Wat praatje daar benéden t’saamen,</l>
+                        <l>Myn Heer, ik dócht dat wy hier om te vryen kwamen,</l>
+                        <l>Dat vryen gaat wél droog én slecht.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>’k Beveel alleen iets aan myn knécht.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Maar hoor Heer, als gy myn zult schaaken,</l>
+                        <l>Zoo dienje myn veur alle zaaken</l>
+                        <l>Een ring te geeven óf een goud orloge op trouw,</l>
+                        <l>’k Word anders nimmermeer jou vrouw.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Ik steek, uit vrees voor kwaa rescontres voor myn leeven,</l>
+                        <l>Niets kóstlyks by me, als ik aubades dénk te geeven.</l>
+                        <stage>Tégens JASJE.</stage>
+                        <l>Wat drommel Jasje, heeft ze een gons,</l>
+                        <l>Of loert zy op myn beurs, die kronje, én fópt zy ons?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Hoor Jonker,</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Zwyg....</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Hébt gy dan geen dukaten,</l>
+                        <l>Of ander goud?</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>’k Héb maar een hand vol dukatons,</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Lang myn’er vyf óf zés.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>’k Wil ’t vryen steeken laaten.</l>
+                        <l>’k Zie ’t is een hoer, én de oude vrouw</l>
+                        <l>Een kóppelaarster, ’k héb berouw.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Hoe knorje zo, me dunkt dat wy dat wél verdienen,</l>
+                        <l>Al pasten we een Galand maar op tót ’s nachts ten tienen?</l>
+                        <l>En ’t is hier ochtent.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>’t Is een hoer, ik schey ’er uit.</l>
+                        <l>En gy jou onbeschaamde guit,</l>
+                        <l>Die ’t wérk zo hébt gedraaid, kom hier, ik zal je leeren,</l>
+                        <l>Op and’re tyden mét uw Heer de gék te scheeren:</l>
+                        <l>Daar Schélm.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Myn Heer, ik héb je om béste wil verleid,</l>
+                        <l>En in de Juffrouws plaats doen spreeken aan de Meid.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Jou fielt.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Kyk gék, had jy gezweegen,</l>
+                        <l>Jy had de hélft van ’t géld gekreegen.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Ah, ’k val veur je op myn kniejen neer,</l>
+                        <l>Ik bid je; slaa me tóch niet Heer.</l>
+                        <l>Maar hoor my eens met zinnen spreeken,</l>
+                        <l>Zo ik verbeurt héb, wilt me maar terstondt deursteeken.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Wat wilje zéggen?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Dat de nood</l>
+                        <l>Aan Styntje én my die vond om béstewil gebood;</l>
+                        <l>Uit méély mét jou minnepynen.</l>
+                        <l>Om dat we jou van liefde zagen kwynen,</l>
+                        <l>En dóchten dat jy wél zoud weezen in jou schik,</l>
+                        <l>Als je ondertusschen had één vrolyke ogenblik.</l>
+                        <l>’t Is ommers évenveel, óf iemand door de réden</l>
+                        <l>Of door schynréden is te vréden.</l>
+                        <l>De juffrouw kon onmooglyk niet</l>
+                        <l>Te voorschyn komen, én ik kénde ’t zielverdriet,</l>
+                        <l>Dat jou om haarent wil zou raaken;</l>
+                        <l>Ja dat jy licht de aubade had doen staaken,</l>
+                        <l>Waarom ik Styntje had de hiele nacht doen waaken.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Dat kan wél zyn.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Nou heeft de Juffrouw ’t ook gehoord.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Is ’t waar hébt gy my anders niet bedroogen,</l>
+                        <l>En al wat gy me wys gemaakt hébt, is ’t geen loogen?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Neen zéker.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Mag ik dan vertrouwen op uw woord?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Ja; zo ik lieg’, ’k verzoek mét traanen in myn oogen</l>
+                        <l>Heel vrindlyk datje my vermoordt.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Myn meening was maar daar een vétje uit te haalen.</l>
+                        <l>Ik moet een schort én jak betaalen,</l>
+                        <l>En had het géld niet.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Daar Zóttin,</l>
+                        <l>Daar’s al myn géld wees my maar gunstig in myn min,</l>
+                        <l>Daar, vang. Maar dénkt gy me een van beide in slaap te wiegen,</l>
+                        <l>Gy zult uw zélf, niet my bedriegen.</l>
+                        <l>’k Word eer twee uuren zyn verstreeken, wél gewaar</l>
+                        <l>Of ik gefópt bén; maar wat zie ik wie komt daar?</l>
+                    </sp>
+                </div>
+                <div n="7" type="scene">
+                    <head>ZEVENDE* TOONEEL.</head>
+
+                    <stage>PÉDRO en STYNTJE op ’t balkon, EDUARD, JASJE.</stage>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>WAt droes is hier te doen? ’t balkon én ’t venster open!</l>
+                        <l>Wie daar, wie daar, wie daar?</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Sinjoor!</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Nóch ééns wie daar? zyt gy daar Léonoor?</l>
+                        <l>Ik zweer, ik zal ’t je doen bekoopen;</l>
+                        <l>Hoe bénje zulk een schoon fatzoen!</l>
+                        <l>’s Nachts ’t béd uit, om Galants te hooren zingen!</l>
+                        <l>En speelen, schaamje, wat manier is dat van doen?</l>
+                        <l>Foey, schaamje, foey, wél watte dingen!</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>’k Bén Léonoor niet, ik bén Styntje, ik benje meid.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wat doeje in Léonoraas kleeren?</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Ik moest de gék wat met de aubadegévers scheeren.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>’k Verstaaje niet, spreek klaar, geef meer bescheid.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Zie, al dat spél geschied om jou luy mit je beijen.</l>
+                        <l>Om Léonoor, én jou van één te scheijen,</l>
+                        <l>En ’t zoete meisje te verleijen:</l>
+                        <l>En ik héb die verleijer gunst verleent.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Waar méê?</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>’k Héb hem de kap ter dégen</l>
+                        <l>Gevuld in Léonoor haar schyn,</l>
+                        <l>En al die Dukatons gekreegen,</l>
+                        <l>Hy dócht my Leonoor te zyn.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Maar hébt gy hem daar voor niet moeten iets belooven?</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Ja dat hy by my slaapen zou,</l>
+                        <l>En ik hem hélpen zou hier boven,</l>
+                        <l>Mits dat hy mét hem bragt een leer óf laddertouw</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wanneer?</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>De aanstaande nacht.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Dat zal ik wél belétten.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Wat zwarigheid, ay rust je hoofd,</l>
+                        <l>Ik zal ’t niet houwen, wat ik hem ook héb beloofd.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>’k Vertrouw dat wél, maar om myn hart gerust te zétten,</l>
+                        <l>Mag ik een poos na binnen gaan</l>
+                        <l>Mét Léonore, die ik straks zal op doen staan;</l>
+                        <l>Ja wél, ja wél, hoe wél héb ik gedaan,</l>
+                        <l>Dat ik die mooye plaats daar buiten</l>
+                        <l>Gehuurd héb, om ons op te sluiten</l>
+                        <l>Voor ’t eeuwig loeren én oppassen van die guiten.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Ay jonker, mag ik mét die gék</l>
+                        <l>Eens praaten?</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Doe uw zin.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Wél vagebond, wél vrék.</l>
+                        <l>Nurk, schóft, jaloerschen bok, durft ge ons voor guiten schélden.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ik zég jou fielen flux van hier,</l>
+                        <l>Nóch ééns van hier, óf’t zal je gélden.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Wat al geraas, wat al getier;</l>
+                        <l>Vrind héb je wat te zéggen, kom benéden,</l>
+                        <l>Spreek meer bezadigt, spreek als ik doe, spreek mét réden.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO, een pistool afschietende.</speaker>
+                        <l>Ik zal mét réden spreeken, daar.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Dat’s mis.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wilt gy nóch niet vertrékken?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Neen ’k wil niet, neen ik kurkevaar,</l>
+                        <l>Uilskuiken, neen ik, gék der gékken.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO, Wéder schietende.</speaker>
+                        <l>Hou daar, noch ééns.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Wél nou, wat is’t?</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Ho Jasje! dat’s geluk! ’t is ieder reis gemist.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Wél lieve Jonker zou ’t niet missen,</l>
+                        <l>Héb gy de scheut wél hooren sissen?</l>
+                        <l>’t Is mét geen scharp gelaân, ’t is maar los kruid.</l>
+                        <l>O ’t is een blooden nar!</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Nóch blooder,</l>
+                        <l>Als gy?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>O ja, maar ik bén snooder.</l>
+                        <l>Jy zult het zien. Jou lomp, jou guit,</l>
+                        <l>Jou galgbrok, straks schiet ik jou op je huid.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wacht, wacht, tót ik wéêr héb gelaaden.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Daar wacht dat eerst.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Hélp! hélp! sta by! óch! óch!</l>
+                        <l>Ik word vermoord, ik word verraaden?</l>
+                        <l>Al wat kan hélpen, hélp my tóch.</l>
+                        <l>Jan, Piétro, Castro, Marc Antonio, Jannétto,</l>
+                        <l>Rafaëllino, Bénedétto.</l>
+                        <l>Hélp, hélp, sta by, men schiet me dood.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Wees op uw hoede Jasje, én durft ge hier niet wachten,</l>
+                        <l>Tót al dat vólk komt, ga, ik zal myn pligt betrachten</l>
+                        <l>Gelyk een eerlyk man.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Myn Heer, het heeft geen nood.</l>
+                        <l>Gy kunt uw vrees zo wél als ik myn schrik verbannen,</l>
+                        <l>Niet één man is’er, ik laat staan, dat zo veul mannen</l>
+                        <l>In’t huis van dien jaloersche; ey ’t zyn de naamen van</l>
+                        <l>Zyn kinders, die hy roept, ’k had anders lang geloopen,</l>
+                        <l>En vólgens myn gewoonte deurgedroopen,</l>
+                        <l>Om niet te raaken in de pan.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Och, ’k bén gewond, ik bén geschooten.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Waar is’t Sr. Pédro, door jou lyf, jou hoofd, jou pooten?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Daar is het.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Niet, ik bén een pry</l>
+                        <l>Zoo ’t deur is.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE spattende.</speaker>
+                        <l>Daar, nóch ééns.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Och! Och! ze moorden my.</l>
+                        <l>Daar kryg ik nóch een scheut.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Wél hoe, ik hoor geen schieten.</l>
+                        <l>Och ’t is een windroer daar hy méê geschooten heeft.</l>
+                        <l>Voel, Styntje, is daar geen bloed?</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Wél hy.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Myn hart dat beeft,</l>
+                        <l>Wat voel je daar en daar.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Twee groote nieten.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Daar hébje nóch een kogel na je gat,</l>
+                        <l>Niet uit een windroer, dat je ’t vat,</l>
+                        <l>Neen kwiebus neen, maar uit men spat.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Zy fóppen jou.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Hoe my? al kóste ’t honderd kóppen</l>
+                        <l>En duizend guldens, ’k zweer dat ik me wreeken zal.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Men zal je nóch wél anders fóppen,</l>
+                        <l>Myn jonker is na Léonoor als mal,</l>
+                        <l>En dénkt haar zyn genégenheid te toonen;</l>
+                        <l>Wil zy die mét wat wéderliefde loonen,</l>
+                        <l>Hy zal haar trouwen, spyt jou Spanjers Bakkes.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Goed.</l>
+                        <l>Don Pédro word zo lichtlyk niet bedroogen.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Hy zal haar vryen voor jou oogen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ja tóch ik héb ze voor hem opgevoed.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Jy zult ze zélf hem geeven.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>’k Wéd het loogen</l>
+                        <l>Zal weezen.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Neen gy zult.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ik wil niet.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Ja gy moet.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Waarom?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Waarom? ik héb ’t mét eeden</l>
+                        <l>Gezwooren.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Watte malle réden!</l>
+                        <l>Wat raakt dat my?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>De zaak is zo gerezólveerd.</l>
+                        <l>’t Zal onze huisvrouw zyn, ik zweer’t</l>
+                        <l>Nóch ééns, óf gy ’t begeert óf niet begeert,</l>
+                        <l>’k Waarschuwje, ik wilje niet verleijen,</l>
+                        <l>Wy gaan ons tót het wérk bereijen,</l>
+                        <l>Ik én myn Jonker mét ons beijen.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Ga doe je bést, maar als gy ons</l>
+                        <l>Weer by komt, ay vergeet geen hand vol Dukatons.</l>
+
+
+                    </sp>
+                </div>
+                <div n="8" type="scene">
+                    <head>ACHTSTE* TOONEEL</head>
+
+                    <stage>PÉDRO, STYNTJE.</stage>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>GOed, Styntje, maar hoe wil hy vloeken!</l>
+                        <l>Wanneer hy haar te nacht zal meenen te bezoeken,</l>
+                        <l>En weezen al zyn Dukatons kwyt, kom</l>
+                        <l>Ga heen; wék Léonoor op, om</l>
+                        <l>Zoo daadelyk voor vyf, zés weeken</l>
+                        <l>Na myne plaats op’t Land te gaan:</l>
+                        <l>Het is hoog tyd om op te staan,</l>
+                        <l>’t Wordt dag, de nacht is meest verstreeken.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Ik zal zo doen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>O vryery!</l>
+                        <l>O vryery, hoe plaag je my!</l>
+                    </sp>
+                    <stage>Eind van’t eerste Bedryf.</stage>
+
+                </div>
+            </div>
+            <div n="2" type="act">
+                <head>TWEEDE BEDRYF.</head>
+
+                <div n="1" type="scene">
+                    <head>EERSTE TOONEEL.</head>
+
+                    <stage>LÉONOOR. PÉDRO.</stage>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>WAt réden is’er dat gy my zo vroeg doet wékken?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Kleed jou maar voorts heel an, ’k wil mét je straks vertrékken.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Zo vroeg? waar heen? hébt gy my gist’ren niet gezégd,</l>
+                        <l>Dat gy me héden zoud doen schilderen?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Al récht.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Wél zéker, dat staat my dan slécht,</l>
+                        <l>’k Weet niet, wat u mag lusten,</l>
+                        <l>My dunkt, dan diende ik uit te rusten,</l>
+                        <l>Myn kleur zou frisser zyn;</l>
+                        <l>Myn oog voorzien mét aangenaamer schyn.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Neen, neen, ’k moet daadlyk uit.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Wil ik u dat belétten?</l>
+                        <l>Of kan ’t niet zonder my geschiên?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ik héb vermaak in u steeds aan myn zy te zien.</l>
+                        <l>Men loert op u, én ik wil hem die pas verzétten,</l>
+                        <l>Die op u loert; noch déze nacht</l>
+                        <l>Heeft u een linker aan uw vénster opgewacht,</l>
+                        <l>Ja heeft daar speelen doen én zingen.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>’t Muzyk was schoon.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Hébt gy ’t gehoord?</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>En wél verstaan van woord tót woord.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>’t Geschiede om uwent wil.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Dat wil ik wél vertrouwen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ként gy hem die het gaf?</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>O neen;</l>
+                        <l>Maar wie het zyn mooge, ik bén zeer in hem gehouwen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Gehouwen?</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Ja mét groote réên;</l>
+                        <l>Want buiten twyffel heeft hy willen my vermaaken.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Is dat zo wél?</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Is ’t niet?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>’t Schynt u aan ’t hart te raaken</l>
+                        <l>Dat gy bemind word?</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Zou het niet?</l>
+                        <l>Dat strékte ons nimmer tót verdriet.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Gy moogt hén dan wél lyden die u minnen?</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Voorzéker; nérgens is myn gunst meer door te winnen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Gy zégt uw meining kort én nét.</l>
+                        <l>En zonder lang daar op te peinzen.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Sr. Pedro, waarom zou men veinzen?</l>
+                        <l>Hoe eene Juffrouw zich ook aanstéld, ze is altyd</l>
+                        <l>Wél in haar schik te zyn gevleid, gevierd, gevryd;</l>
+                        <l>Die diensten die ons wérden opgedraagen,</l>
+                        <l>Daar hoort ge ons nimmer over klaagen:</l>
+                        <l>Want niemand doet die, op dat hy ons zou mishaagen,</l>
+                        <l>Gelooft me, een Juffrouw stélt daar al haar glory in,</l>
+                        <l>Datze iemands hart kan neigen tót haar min.</l>
+                        <l>De moeite die wy doen van ons met strikken,</l>
+                        <l>Bont, óf Juweelen op te schikken,</l>
+                        <l>Word nérgens anders om gedaan,</l>
+                        <l>Als om de Vryers aan te staan.</l>
+                        <l>Ja niet een vrouw, hoe fier zy schynt te weezen,</l>
+                        <l>Of ’t is haar uit het oog te leezen</l>
+                        <l>Dat zy zeer gaaren word gepreezen,</l>
+                        <l>En blyd is in haar hart, dat zy een eerlyk man</l>
+                        <l>Door ’t oog zich onderwérpen kan.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Maar gy, zo ge u vermaakt in and’re te gevallen,</l>
+                        <l>Weet gy wel dat myn hart daar geen vermaak in neemt?</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Och daar van weet ik niet mét allen,</l>
+                        <l>Sr. Pedro, én het geeft me vreemd:</l>
+                        <l>My dunkt, als ik een Ménsch bezinde,</l>
+                        <l>Ik had op aard’ geen grooter vreugd,</l>
+                        <l>Als dat een ieder haar beminde;</l>
+                        <l>’t Zou ’t récht bewys zyn, dat ook and’re schoonheid, deugd,</l>
+                        <l>Of and’re gaaven in haar vonden,</l>
+                        <l>En dat ik had myn min gelégt op goede gronden.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wél élk bemind op zyn manier;</l>
+                        <l>Maar dit’s de myne niet, ’t zal my zeer wél behaagen,</l>
+                        <l>Dat niemand zin krygt in uw zwier</l>
+                        <l>Van doen, óf schoonheid; kyk, ik kan dat niet verdragen,</l>
+                        <l>En jy verpligt my zeer, wanneer jy schoon wilt zyn</l>
+                        <l>In niemands oog, als in het myn.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Sr. Pedro, hoe? Jaloersch om zulke beuzelingen?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO</speaker>
+                        <l>Ja, jaloersch gelyk een Tyger: Ja Jaloersch,</l>
+                        <l>Gelyk een duivel, ’t schynt wat boersch;</l>
+                        <l>Het ruikt na’t Hóf niet, daar zyn’t ongehoorde dingen:</l>
+                        <l>Maar Léonoor, ’k wil mét één woord,</l>
+                        <l>Dat gy geheel én al, alleen my toebehoort.</l>
+                        <l>’k Versteur my, als men u het minste lachchen</l>
+                        <l>Of vrind’lyk oog weet af te prachchen.</l>
+                        <l>Ik neem geen zórg, als hoe ik bést belét,</l>
+                        <l>Dat geen Galand zyn voet in huis en zét;</l>
+                        <l>’k Ly tégenspreeken, woorden, vitten,</l>
+                        <l>Nóch zin verdraayen; ’k wil alleen uw hart bezitten,</l>
+                        <l>En dat men ’t allerminste deel</l>
+                        <l>Daar van, my niet ontsteel.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Gy weet my méde nét uw meening uit te léggen.</l>
+                        <l>Laat my’er eens de myne tégen zéggen:</l>
+                        <l>Sr. Pedro, zyt verzékerd, gy</l>
+                        <l>Verkiest een heel verkeerde zy;</l>
+                        <l>Men kan zeer weinig op’t bezit eens harten bouwen,</l>
+                        <l>Wanneer men dat door dwang moet houwen:</l>
+                        <l>Altyd voor my, als ik verliefd was, én Galand</l>
+                        <l>Van iemand die wierd opgeslooten, myn verstand</l>
+                        <l>Zou wérken, om hem dol te maaken</l>
+                        <l>Die haar bewaarde, én doen hem nacht én dag bewaaken,</l>
+                        <l>De Schoone, in wélker goede gunst</l>
+                        <l>Ik my wou dringen; ’k weet geen kunst</l>
+                        <l>Verwonderlyker, om zyn oogwit te beschieten.*</l>
+                        <l>Eens minnaars ongeluk, als dienstbaarheid én dwang,</l>
+                        <l>Begint een Juffrouw te verdrieten,</l>
+                        <l>Sr. Pédro, duurt dan niet zeer lang.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wél, die u dan zo wat aan ’t oor ging léllen,</l>
+                        <l>En zo wat sprookjes van’t rood kousje ging vertéllen,</l>
+                        <l>Want die liflaffery van al de jonge maats,</l>
+                        <l>Acht ik maar sprookjes; zoud gy die zo daatlyk plaats</l>
+                        <l>Inruimen, én uw hart die béngels overgeeven.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Dat zég ik niet; maar vrouwen achten ’t pyn</l>
+                        <l>Gestaag in dwang te leeven;</l>
+                        <l>En als zy opgeslooten zyn</l>
+                        <l>Is ’t zeer gevaarlyk, zo ze eens kunnen</l>
+                        <l>Verlóst zyn, wat zy heur verlóssers niet vergunnen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>’k Zie dat je weinig weet, wat je me schuldig bént;</l>
+                        <l>Hoe jy me veur slavin te Tunis wierd gevént,</l>
+                        <l>Hoe ik jou kócht, hoe braaf ik jou héb onderhouwen</l>
+                        <l>Van kindsbeen af, dat ik jou wéêr bréng in jou land.</l>
+                        <l>Dat ik jou acht, gelyk een Sant,</l>
+                        <l>En dat ik meen mét jou te trouwen.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>’k Héb u niet veel te danken, dat gy my</l>
+                        <l>Verlóst hébt uit myn eerste slaverny.</l>
+                        <l>Wyl gy my ’t leeven in een slimmer doet verslyten.</l>
+                        <l>Gy gunt me gantsch geen vryheid, ’k word bewaakt,</l>
+                        <l>Dat my het leeven moê, én u myn vyand maakt.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>De grootheid van myn liefde is dat alleen te wyten.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Bemind ge op die manier, ’k bid dat ge my dan haat.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>’t Hoofd staat je nou niet wél, ik hoor het aan je praat,</l>
+                        <l>Maar ik vergeeft ’t je, ik hébje wat te vroeg doen wékken,</l>
+                        <l>Nu maakje réê, om straks na buiten te vertrékken.</l>
+                    </sp>
+                </div>
+                <div n="2" type="scene">
+                    <head>TWEEDE* TOONEEL.</head>
+
+                    <stage>STYNTJE, PÉDRO, LÉONOOR.</stage>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>SIgnoor, daar is een Heer die na u vraagt,</l>
+                        <l>Wiens jongen vérf, én plétdoek, én pénseelen draagt.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Goed, Styntje laat hém binnen komen.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.*</speaker>
+                        <l>Die man past vlytig op.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Niet waar? wie zou dat droomen?</l>
+                    </sp>
+                </div>
+                <div n="3" type="scene">
+                    <head>DERDE* TOONEEL.</head>
+
+                    <stage>EDUARD, PÉDRO, LÉONOOR, STYNTJE.</stage>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>WEet gy niet óf men Sr. Don Pédro spreeken kan?</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Is dat de schilder? ’t hart ontzinkme!</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ik bén de man.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Gelief dan déze brief te leezen.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Wat is hy wél gemaakt, hoe hóffelyk van weezen!</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO leest de brief.</speaker>
+                        <l>De brénger dézes is die groote Kunstenaar.</l>
+                        <l>Sr. Pédro die’k belooft héb u te stuuren.</l>
+                        <l>In één uur doet hy meer als and’re in vyf zés uuren.</l>
+                        <l>En alles wat hy doet gelukt uitsteekend; maar</l>
+                        <l>Gy moet u wachten van hém iets te willen geeven.</l>
+                        <l>Voor ’t Schildery; hy nam hét niet om ’t leeven,</l>
+                        <l>En zou gebélgt zyn; als hy schildert dat geschied</l>
+                        <l>Om eer sléchts, om vergélding niet.</l>
+                        <l>Geteekent Jan Babtista, fur civilis,</l>
+                        <l>Geschreeven op den eersten van Aprilis.</l>
+                        <l>Myn Heer Batist verpligt my zeer,</l>
+                        <l>En gy doet my te groot een eer</l>
+                        <l>Mét uw beleefde aanbieding, Heer.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Myn grootst’ geluk bestaat in eerelyke lieden,</l>
+                        <l>Myn kunst én diensten aan te bieden.</l>
+                        <l>Waar is de Juffrouw die ik schild’ren zal?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Alhier.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Mét uw verlof....</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Holla! malkander niet te brussen,</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Myn heer ’t is na de haagsche zwier,</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Is ’t na de Haagsche, ’t is heel tégen myn manier.</l>
+                        <l>Hy mag tót zynent én ik mag tót mynent kussen.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>’k Ontfang mét groot vermaak de eer die ge my bewyst.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wat ’s dit? dat ik veracht me dunkt dat zy dat pryst.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Ja ’k bén geheel verzét, nooit was ’t geluk my milder</l>
+                        <l>Als nu wyl ’t my voorziet van zo doorlucht een schilder.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Wat ménsch die op der aarde leeft,</l>
+                        <l>Zou niet gelukkig zyn te hébben onderhanden</l>
+                        <l>Zo schoon een wérk als my Sr. Pédro geeft:</l>
+                        <l>Ik bén niet zeer bekwaam; maar ’k zal te myner schanden</l>
+                        <l>Daar niet uit scheiden; ’k hoop na zulk een principaal</l>
+                        <l>Te maaken een kopy, dat ieder my zal noemen</l>
+                        <l>Een meester schilder als ik eene Juffrouw maal.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Op ’t Principaal valt niet zeer hoog te roemen,</l>
+                        <l>Maar ’s braaven meesters hand zal licht</l>
+                        <l>De fouten dékken die hy vind in ’t aangezicht.</l>
+                        <l>De schilder ziet ’er geen, én al wat hy kan wénschen</l>
+                        <l>Is dat hy voor het oog van alle ménschen</l>
+                        <l>Uw schoonheid schild’ren kon, gelyk die waarlyk is.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Zo uw Pénseel gelyk uw tong kan vleijen,</l>
+                        <l>Zo zal’er geen gelykenis</l>
+                        <l>In ’t schildery zyn, én gy zult sléchts ’t oog verleijen.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>De hémel heeft het principaal gemaakt,</l>
+                        <l>Zo kunstig datmen’t glans nóch luister by kan zétten!</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>De hémel alsmen op het Principaal zal létten...</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>De hémel, zon, én maan én starren. Wél wat raakt</l>
+                        <l>De hémel ons nu? laat die kompleménten vaaren</l>
+                        <l>Mét al die viezevazery,</l>
+                        <l>En dénkenwe om het schildery.</l>
+                        <l>De tyd verloopt; ’k moet uit, gy moet het haastig klaaren.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Kom jongen, geef my dan pénseelen, doek én plét.</l>
+                    </sp>
+                    <sp who="#jongen">
+                        <speaker>JONGEN.</speaker>
+                        <l>Daar is ’t Heer, én de vérf die is’er opgezét.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Waar wiltge dat ik my zal plaatzen?</l>
+                        <l>Na myn oordeel,</l>
+                        <l>Geeft aan uw schoonheid wél dat licht het meeste voordeel.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Is ’t wél zo?</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Ja; maar ey, verzét u eens heel goed;</l>
+                        <l>Nóch wat aan de een zy, het lichchaam weinig meerder</l>
+                        <l>Gedraait; wat van my af; niet veerder:</l>
+                        <l>Ay! licht uw hoofd eens op; het doed</l>
+                        <l>De schoonheid van uw króp én boezem béter blyken:</l>
+                        <l>Uw hals wat blooter, nóch wat blooter; nóch wat meer;</l>
+                        <l>Zo, zo, nóch wat, het zal u wonder wél gelyken.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Gy geeft veel moeiten aan myn Heer,</l>
+                        <l>Kunt gy niet zitten zo ’t behoort?</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Wél dat is aardig!</l>
+                        <l>Dit schild’ren is wat nieuws voor haar.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>’k Bén immers vaardig</l>
+                        <l>Te zitten zo myn Heer my zét;</l>
+                        <l>Al wat hy doet acht ik me een wét.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Zo zit gy tréflyk wél, zo nóch wat; zo uwe oogen</l>
+                        <l>Geduurig speelende op de myn’,</l>
+                        <l>Ik zég stark gevéstigt op de myne; ’t moet zo zyn.*</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Ik bid flatteer my niet.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>’t Is buiten myn vermoogen:</l>
+                        <l>Dat ik uw schooner uit zou schild’ren als gy zyt.</l>
+                        <l>De trékken die gy hébt in ’t weezen,</l>
+                        <l>Zyn zo volmaakt én uitgeleezen,</l>
+                        <l>Dat ik nooit uws gelyk zag in myn lévens tyd;</l>
+                        <l>Hoe aangenaam, ach! hoe bekoorlyk zyn de straalen</l>
+                        <l>Van uw gezigt, men loopt gevaar</l>
+                        <l>In die behoorlyk af te maalen.</l>
+                        <l>’k Héb eens geleezen, ’k weet niet waar,</l>
+                        <l>(Maar als ik het vertél, verander</l>
+                        <l>Ik heel van binnen) dat de Koning Alexander</l>
+                        <l>Een schilder had genaamt Apélles, die hem eens</l>
+                        <l>Zyn liefste schild’ren zou (hoor, ’t is wat ongemeens)</l>
+                        <l>En zo verliefd wierd, dat hy was op ’t punt van stérven,</l>
+                        <l>Indien hy haare gunst*[vs. 677 gunst er staat: guust] moest dérven;*</l>
+                        <l>Dés Alexander vol van édelmoedigheid*</l>
+                        <l>Haar afstond, én haar heeft den Schilder toegeleid.</l>
+                        <l>Myn Heer, zo ’t my ging als ’t Apélles ging voor dézen,</l>
+                        <l>Zoud gy wél zo beleefd als Alexander weezen?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Hum!</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>By de Hagenaars is zo ik héb gehoord,</l>
+                        <l>Altyd het een óf ’t ander woord</l>
+                        <l>Geméngt mét geestigheên én slaagen,</l>
+                        <l>Daar zy de juffers meê behaagen.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Het is onmooglyk dat men in beleefdheid miss’,</l>
+                        <l>Wanneer men in uw lief gezélschap is.</l>
+                        <l>En hébt gy sléchts wat acht genomen</l>
+                        <l>Op myne woorden, ach! gy weet van waar zy komen.</l>
+                        <l>Ja dat hier Alexander was,</l>
+                        <l>En dat hy u beminde, ik zou niet kunnen laaten</l>
+                        <l>Te zéggen dat ik u zo schoon vind....</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Al dat praaten</l>
+                        <l>Heer schilder komt nu niet te pas:</l>
+                        <l>’t Verlét u maar.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>In geenen deelen;</l>
+                        <l>’t Is myn gewoonte, myn manier</l>
+                        <l>Al schilderend te praaten; ’t kan verveelen</l>
+                        <l>Nóch walgen, én het geeft een zwier</l>
+                        <l>Aan iemands weezen die geschilderd word.</l>
+                    </sp>
+                </div>
+                <div n="4" type="scene">
+                    <head>VIERDE* TOONEEL</head>
+
+                    <stage>JASJE, PÉDRO, EDUARD, LÉONOOR, JONGEN, STYNTJE.</stage>
+                    <sp who="#jasje">
+                        <speaker>JASJE; Verkleet als een Spanjert.</speaker>
+                        <l>HAns donder.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wat wil die kaerel?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Heer ik kom hier stoutlyk in,</l>
+                        <l>Het zy niet tégens uwe zin;</l>
+                        <l>Gy ként me lichtlyk wél, want ik alom bezonder</l>
+                        <l>Bekénd bén.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Neen niet, dat ik weet.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Dat is voor u zo veel te slimmer.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>’t Is me leed.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>’k Heet Gillis d’Avalos, Don Diego was myn Peet;</l>
+                        <l>Maar leest gy wél geschiedenissen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Zo, zo.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Lees dan de Spaansche, ik zég het mét wat schaamt,</l>
+                        <l>Maar ’k bén daar wyd en zyd befaamt,</l>
+                        <l>En daar kunt gy myn naam niet missen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ik wil ’t gelooven.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Daar is zéker point van eer,</l>
+                        <l>Daar ik in uwe raad myn Heer</l>
+                        <l>Van doen héb; want gy hébt verkeert in veele Landen</l>
+                        <l>En oordeelt anders van de schanden</l>
+                        <l>Als hier de Uilen van de Néderlanders doen;</l>
+                        <l>Gy staat als ik op uw fatsoen.</l>
+                        <l>’k Weet dat ’er in den Haag geen man is uit te vinden,</l>
+                        <l>Die ’t punt van eer zo wél verstaat,</l>
+                        <l>Als gy; gy zultme zeer verbinden,</l>
+                        <l>Zo gy mét my wat aen een zyde gaat.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Hier zyn wy vér genoeg.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Wat lieve aanminnige oogen.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>’k Héb flus op ’t midden van myn linker kaak zeer nét,</l>
+                        <l>Mét eene platte hand ontfangen een soefflét,</l>
+                        <l>’t Wélk zonder wraak te doen geen Donnen lyden mogen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Soefflétten geeven gaat wat gróf,</l>
+                        <l>Maar schold gy hém ook uit voor schélm, óf koekkoek, óf</l>
+                        <l>Zeid gy ook dat hy had geloogen.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Gansch niet.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Ach Léonoor! ach! ach! kan’t mooglyk zyn!</l>
+                        <l>Hébt ge in uw hart, voelt gy meelyden mét myn pyn.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Meer dan te veel.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Soeflét, soeflét, mét korte woorden,</l>
+                        <l>Zo ’t myn zaak was, ik zou de schélm vermoorden,</l>
+                        <l>Wél wat affront! maar zég me hoe</l>
+                        <l>Het bykwam, ay, hoe ging dat toe?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Dat’s licht te doen, daar kwam flus onderweegen</l>
+                        <l>Een duivel van een vént my tégen,</l>
+                        <l>Die my wis voor een ander nam én sprak,</l>
+                        <l>Vind ik jou in den Haag? kom, kom, wil gy me strak</l>
+                        <l>Nu die Juweelen wél betaalen,</l>
+                        <l>Die gy me te Madrid hébt listig af doen haalen?</l>
+                        <l>Myn Heer, zeid ik, ik bid dat gy het my vergeeft,</l>
+                        <l>Gelieft te weeten, dat uw mond een misslag heeft.</l>
+                        <l>’k Stont juist als gy, récht bloot, mét een van bey myn wangen;</l>
+                        <l>Wél uw mond zégt hy, zal geen misslag dan ontfangen,</l>
+                        <l>En mét geeft hy me zo een klap.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>De duivel vént,</l>
+                        <l>Wat doeje? zie waar je bént,</l>
+                        <l>My in myn Huis te slaan?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>’t Is wat te hart, ’k bekén ’t,</l>
+                        <l>’t Geschied niet, Heer, om u te hoonen,</l>
+                        <l>Maar om u klaarelyk te toonen,</l>
+                        <l>Hoe ’t by gekomen is. Hébt gy me niet verzócht,</l>
+                        <l>Dat ik ’t u toonen zou? ’t ontfangen van soeflétten,</l>
+                        <l>Was nooit affront naar alle wétten</l>
+                        <l>Der eere, als die het déê, daar door geen moeite zócht:</l>
+                        <l>’t Is wél wat harder aangekomen, als ik dócht,</l>
+                        <l>Maar ’k bidje, spreeken wy wat zacht.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Zoud gy niet kunnen</l>
+                        <l>’t Uitvoeren van myn opzét my vergunnen?</l>
+                        <l>En zou men die gelégenheid</l>
+                        <l>Verzuimen: ’t werk is al te wél bereid.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Mê-Juffrouw, spreek, ay spreek.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Ach! mógt ik hém vertrouwen!</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Gy hébt gelyk myn Heer, ja geefme, ’k bid ’er om,</l>
+                        <l>Vry tien soeflétten wederom;</l>
+                        <l>Ik zal het u ten goeden houwen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Al mét der tyd, maar hoe ging ’t voort,</l>
+                        <l>Was dat zo wél, én spraakt ge niet een woord?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Ik vloekte en duivelde als bezéten.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>En hébt ge u anders niet gekweeten?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Ja tóch; ay sta eens op een zy.</l>
+                        <l>Hoe zeid ik, my zo affronteeren? my?</l>
+                        <l>Die u niet kén, die gy nooit kénde,</l>
+                        <l>Schélm, Rékél, Fielt, Schavuit, Schurk, Vlégel, Hondsklink énde</l>
+                        <l>Ik gaf hem, als hy ’t minst in zyn gedachten had,</l>
+                        <l>Op déze wys een voet in’t gat.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wat heidenscher gebruy is dat.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>O ik vergis me al wéêr, vergeeft me.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Fraaije dingen!</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Myn Heer, ik kan zomtyds my niet bedwingen,</l>
+                        <l>Als ik zo iets vertél; dat my gaat aan het hart</l>
+                        <l>Of ik zal dikwils in het midden</l>
+                        <l>Van myn vertélling my te buiten gaan; het smart</l>
+                        <l>My zéker meer als u, laat u verbidden,</l>
+                        <l>Het was zo niet gemeend; ’k bén immers in uw magt,</l>
+                        <l>’k Verdiende ’t, schoon gy my om ’t leeven bragt.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Daar zal nóch tyd zyn om malkanderen te spreeken.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Maar moet ik ’t wérk zo laaten steeken?</l>
+                        <l>Ik bid u geef me uw raad; want ik bén méê beleefd,</l>
+                        <l>En zal u als men u ook eens soeflétten geeft,</l>
+                        <l>Wéêr raaden naar het bést begrip van myne zinnen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Dan dienje nou al te beginnen.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>’k Meen als ’t gebeurde uit kwaadheid.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Maar uw man,</l>
+                        <l>Waar bleef hy?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Och, daar weet ik gantsch niet van.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Waar woont hy?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Nóch veel minder.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>’t Lykt wél scheeren.</l>
+                        <l>Weet gy niet waar hy is, nóch waar hy woont?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Ach, neen ik als een man met eeren,</l>
+                        <l>Maar ’k weet wél dat hy my zeer schandlyk heeft gehoond.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Hoe, is’t een wédspul, óf een gékspul?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Geen van beiden.</l>
+                        <l>’t Geschied geensins, Heer, om u om den tuin te leiden.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wél nu, wat is uw zéggen.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Hoor.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Héb ik verlof, spreek Léonoor?</l>
+                        <l>Kan u uw ongeluk én myne liefde raaken,</l>
+                        <l>Héb ik verlof? mag ik u schaaken?*</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>’k Bén overwonnen; stél de zaaken</l>
+                        <l>Naar ’t u gevalt.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Maar mag het daadlyk wél geschiên.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Die op de zaak niet ziet, zal op de tyd niet zien.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Goed. Maar Heer Schilder, moet gy op der aarde léggen</l>
+                        <l>Als ge iemand schildert.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Ia, ’k zal u de réden zéggen,</l>
+                        <l>’k Zag na die putjes, die Me-Juffrouw aan de een zy</l>
+                        <l>Van haare wangen heeft; ’k wist niet óf ’t vlékjes waaren</l>
+                        <l>Of gaatjes: zie zo kwam dat by:</l>
+                        <l>O! daar is in een schildery</l>
+                        <l>Veel aan geleegen.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Jas nu moet gy ’t alles klaaren</l>
+                        <l>Gelyk ’t bestémd is.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Heer ik wénsch u wél te vaaren</l>
+                        <l>En zal uw raad, zo ’k myn soefléttengeever vind,</l>
+                        <l>Als van uw goede raadsman, blind</l>
+                        <l>Navolgen, én den schélm doorsteeken,</l>
+                        <l>Of wél den hals aan stucken breeken.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Zeer wél gedaan, maar dat’s nóch niet genoeg, gy dient</l>
+                        <l>Hém te affronteeren, eer dat gy hem matste, vriend.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Goed, wist ik hoe ik ’t aan moest vangen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Hy gaf u een soeflét op één van beide uw wangen;</l>
+                        <l>Gy hem een voet in ’t gat niet waar?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Ja tóch, wat nu?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ik zal ’t u zéggen hoort’er naar,</l>
+                        <l>Maar keer u om én laat zo beide uw handen hangen.</l>
+                        <l>Zie geef hem op die wys twee voeten in zyn gat,</l>
+                        <l>En twe soeflétten, vatje dat?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>By honderd duizend....</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Voort, jou vagebond, jou rékel.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>O ga, je bleeft wis in de pékel.</l>
+                    </sp>
+                </div>
+                <div n="5" type="scene">
+                    <head>VYFDE* TOONEEL.</head>
+
+                    <stage>PÉDRO, EDUARD, LÉONOOR, STYNTJE.</stage>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Sr. Pédro, hoe gevalt u ’t konterfeitzel?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wél,</l>
+                        <l>Maar is ’t niet wat te bruin van vél?</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Myn Heer, ’k zal nóch wél eenmaal komen,</l>
+                        <l>En overschilderen ’t. Mê-Juffrou, nu is meest</l>
+                        <l>Daar aan gelégen, dat gy vrolyk zyt van geest,</l>
+                        <l>Om uit te voeren ’t wérk, dat ik héb veurgenomen</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Ik houw me door uw gunst te hoog vereert,</l>
+                        <l>Als dat ik u in’t geen gy heusch van myn begeert,</l>
+                        <l>Zou tégenspreeken óf betaalen.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Ik ga dan én beveel my nédrig in uw gunst.</l>
+
+
+                    </sp>
+                </div>
+                <div n="6" type="scene">
+                    <head>ZESDE* TOONEEL.</head>
+
+                    <stage>PÉDRO, LÉONOOR, STYNTJE.</stage>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>SIgnoor, wat dunkt u van zyn kunst?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ze is wonderlyk, een ménsch zo kunstig af te maalen!</l>
+                        <l>En in zo kort een tyd?</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Niet waar, het is wat raars.</l>
+                        <l>’k Wéd dat geen Schilder in den Haag by hem mag haalen.</l>
+                        <l>En wat is hy beleefd!</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Voorwaar de Haagenaars</l>
+                        <l>Doen zien, dat zy alle and’re in heusheid overtréffen,</l>
+                        <l>In kleeding zynze zeer galand, in woorden éffen</l>
+                        <l>En sierlyk.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ia, maar ’t slimst van al</l>
+                        <l>Is, dat zy ’t maaken al te mal.</l>
+                        <l>Mét ieder te flatteeren én te pryzen.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Sr. Pédro, dat zyn dienst-bewyzen,</l>
+                        <l>Waar doorze, al is’t maar in de schyn,</l>
+                        <l>De Juffers weeten lief én aangenaam te zyn.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Maar zo zy daar de Juffers door behaagen,</l>
+                        <l>Weet, dat de mannen dat mét tégenzin verdraagen.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>Ja, ’k héb’er wél van hooren klaagen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Voorzéker, want voor my, ’k bén ganschlyk niet vernoegt</l>
+                        <l>En ik zég, dat het niet en voegt,</l>
+                        <l>Dat zy de liefstens én de vrouwen,</l>
+                        <l>Dus onbeschaamd, in’t by zyn van heur man,</l>
+                        <l>Met kwakjes én pispraatjes onderhouwen.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l> Sr. Pédro, dat heeft immers niet om 't lyf.</l>
+                        <l>’t Is maar uit kortswyl; óch ’t is maar uit tydtverdryf.</l>
+                    </sp>
+                </div>
+                <div n="7" type="scene">
+                    <head>ZEVENDE* TOONEEL.</head>
+
+                    <stage>JASJE, verkleet als een Vrouw mét een lange Faly.</stage>
+                    <stage>PÉDRO, LÉONOOR, STYNTJE.</stage>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>MYn Heer, óch! óch! héb medelyden!</l>
+                        <l>Behoed me voor de gramschap van</l>
+                        <l>Myn schrikkelyk Jaloersche Man,</l>
+                        <l>Die my vermoorden wil, óf neus én oor afsnyden,</l>
+                        <l>Om dat ik tégen zyn geboden én myn pligt,</l>
+                        <l>Een weinig, zégt hy, héb ontdékt myn aangezigt:</l>
+                        <l>Hy vólgt me mét een bloote dégen,</l>
+                        <l>En jaagtme hier tót uwent in;</l>
+                        <l>Beschérm my tóch, óch! óch! ’k bén zo verleegen:</l>
+                        <l>Daar komt hy, bérg my Heer ’k weet niet wat ik begin!</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Kom Léonoor, ga mét haar binnen;</l>
+                        <l>Om hém te stillen zal ik zo wél iets verzinnen.</l>
+                    </sp>
+                </div>
+                <div n="8" type="scene">
+                    <head>ACHTSTE* TOONEEL.</head>
+
+                    <stage>PÉDRO, EDUARD.</stage>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>WÉl, wel, Heer Schilder gy jaloersch zyn! én gy zyt</l>
+                        <l>Een Haagenaar die zo wél weet te leeven?</l>
+                        <l>Ik dacht dat ons alleen die fout wierd nagegeeven,</l>
+                        <l>Die onze meeste leevens tyd</l>
+                        <l>In heete landen overbréngen,</l>
+                        <l>En ons aan ’t vuur van die gewoonten zéngen.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Sinjoor Don Pédro; ik bely,</l>
+                        <l>Dat gy jaloersch zyt van natuuren,</l>
+                        <l>En dat de jalouzy blyft eeuwig by u duuren.</l>
+                        <l>’k Weet ook dat daar en tégen wy</l>
+                        <l>Jaloers zyn sléchts voor weinig uuren;</l>
+                        <l>Maar als wy ’t zyn, zyn wy veel héviger als gy.</l>
+                        <l>’k Zie dat myn vrouw by u een schuilplaats dénkt te vinden,</l>
+                        <l>Maar ’k weet, óch zy bedriegt zich zeer!</l>
+                        <l>Gy zyt al te eerelyk een Heer,</l>
+                        <l>En wy te goede vrinden;</l>
+                        <l>Als dat gy my belétten zoud</l>
+                        <l>Dat zy behoorlyk na waardy wierd afgetouwt.</l>
+                        <l>Gy wilt u immers, na ik réken</l>
+                        <l>Niet in de dingen van eens anders huisvrouw steeken?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Maar is dat zulk een groote hoon?</l>
+                        <l>Ay ze is te kleen voor zulk een tooren,</l>
+                        <l>’k Bén immers ook jaloersch; maar ik gaf niet een boon</l>
+                        <l>Om zulk één beus’ling; wilt me hooren.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Zo heeft ze u dan de réden al gezégd?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Dat zy haar aangezigt een weinig sléchts ondékte;</l>
+                        <l>En dat zulks al uw toorn verwékte;</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Liet zy het u ook zien? ay biegtme tóch oprécht;</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>O neen! weréntig niet.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Dat maakt de zaak niet slimmer;</l>
+                        <l>Gy ként haar, nóch gy zaagt haar nimmer?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>O neen..</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Wél hoor dan toe. In ’t feit</l>
+                        <l>Bestaat somtyds veel min, als in de omstandigheid,</l>
+                        <l>De hoon die ons geschied; dus heeft het zyn bescheid</l>
+                        <l>Dat ik my acht gehoond, om dat zy buiten réden</l>
+                        <l>Myn fórs gebód heeft overtreeden;</l>
+                        <l>’t Wélk was, dat zy nooit zoude ontdékken haar gezigt.</l>
+                        <l>Een zaak die andersins vergeeflyk is én licht,</l>
+                        <l>Wordt door die réden tót een zaak van groot gewicht.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>’t Was zonder opzét, ay vereent u mét malkander.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Wilt gy nóch voor haar staan?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Gy neemtme voor een ander.</l>
+                        <l>Myn Heer ’k wil voor de réden staan.</l>
+                        <l>Ay laat uw tooren overgaan,</l>
+                        <l>En my dat goede wérk verrichten</l>
+                        <l>Dat ik u saam vereen, gy zult me zeer verpligten:</l>
+                        <l>Ik bid u weiger my dat niet.</l>
+                        <l>Ik zal ’t ontfangen als een eer die my geschiedt,</l>
+                        <l>En tót een téken dat we als vrinden</l>
+                        <l>Ons vaster willen aan malkanderen verbinden.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Wat durf ik weig’ren aan een Heer die my zo eert;</l>
+                        <l>’k Zal alles doen wat gy begeert.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Kom hier, Mejuffrouw kom, uw man is nu te vréden.</l>
+
+
+                    </sp>
+                </div>
+                <div n="9" type="scene">
+                    <head>NEGENDE* TOONEEL.</head>
+
+                    <stage>PÉDRO, EDUARD, LÉONOOR, in de vermomde kléderen van JASJE.</stage>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>AY geef my beide uw hand, én voeg u na de réden.</l>
+                        <l>Dewyl myn Heer aan my gestéld heeft uw geschil;</l>
+                        <l>Ik bid wilt alle ding vergeeten én vergeeven:</l>
+                        <l>En wilt als man én vrouw, hier na gerust én stil</l>
+                        <l>In vriendschap mét malkand’ren leeven.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>’k* Beloof myn Heer om uwent wil</l>
+                        <l>Zal ik mét haar zo lief een leeven leiden,</l>
+                        <l>Dat ons de dood alleen zal scheiden;</l>
+                        <l>En niemand haat óf twist zal rók’nen tusschen beiden.</l>
+                        <l>Ik dank u voor uw gunst én groote moeiten, Heer,</l>
+                        <l>En ga mét uw verlóf.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ga, gy verplichtme zeer.</l>
+                    </sp>
+                </div>
+                <div n="10" type="scene">
+                    <head>TIENDE* TOONEEL.</head>
+
+                    <stage>PÉDRO, JASJE wèder als een Spanjer gekleed.</stage>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>HÉm Léonoor! wat droes, hoe zyt gy hier gekomen?</l>
+                        <l>Hém Léonoor.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>De schilder heeft</l>
+                        <l>Mêjuffrouw Léonoor zeer minlyk én beleefd</l>
+                        <l>Mét uw verlóf na huis genomen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wat wil dat zéggen?</l>
+                        <l>Dat wil zéggen, oude gryn,</l>
+                        <l>Dat jy jaloerschen niet genoeg gebruit kunt zyn.</l>
+                        <l>Dat slooten, gréndels, donk’re gaten,</l>
+                        <l>Nóch tralijen, nóch honderd wakers baaten,</l>
+                        <l>En dat men nooit een vrouw zo sluit,</l>
+                        <l>Of éndlyk raakt ze ’er door de vond eens minnaars uit.</l>
+                        <l>Dat die de harten van de vrouwen</l>
+                        <l>Dénkt onder zyn bedwang te houwen,</l>
+                        <l>Mét aan de hand te gaan uit liefde, én dienstbaarheid</l>
+                        <l>Zulks doen moet, niet mét onbescheid.</l>
+                        <l>Gelyk het aan myn Jonker is gebleeken;</l>
+                        <l>Dat zy hem op zyn lieflyk smeeken</l>
+                        <l>Gevólgt heeft, zonder tégenspreeken.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Hoe! is de schilder dan uw meester? gy zyn knécht,</l>
+                        <l>Die héden mórgen my zo sarde én uitschold?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Récht.</l>
+                        <l>Héb ik ’t gewonnen óf verlooren?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Hélp, hélp, sta by, waar is myn vólk?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Dat heeft geen ooren.</l>
+                        <l>Zy weeten dat men op den eersten van April,</l>
+                        <l>De gékken scheert wanneer men wil;</l>
+                        <l>En dat men heeft de gék mét u geschooren,</l>
+                        <l>Gelyk gy hébt verdient.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ik zal</l>
+                        <l>Zo aan de Prézidént gaan klaagen.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Dan hoefje maar na ons te vraagen.</l>
+                        <l>Daar loopje nétjes in je val.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Zie daar, ’k zal dat affront niet dulden,</l>
+                        <l>Al kósten ’t honderd duizend gulden.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Zeer wél gedaan, want in den Haag</l>
+                        <l>Daar ziet men zulke lieden graag.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ik zal uw Heer doen gees’len, u doen hangen.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Ja doe dat zonder ons te vangen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>’k Zég, schélm ga uit myn huis.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Strak, strak,</l>
+                        <l>Ik meen hier niet te blyven woonen,</l>
+                        <l>’k Zal gaan, maar alles mét gemak;</l>
+                        <l>Vér van u in uw huis te hoonen:</l>
+                        <l>Wil ik sléchts eer ik ga u myn beleeftheid toonen.</l>
+                        <l>Ik wénsch u goeden dag myn Heer,</l>
+                        <l>Myn Jonker die bedankt uw zeer,</l>
+                        <l>Zo doet de dienaar ook voor alle ontfangen eer.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Bruts voor den droes en kom jou leeven hier niet wéêr.</l>
+                    </sp>
+                    <stage>Einde van hét Tweede Bedryf.</stage>
+                </div>
+            </div>
+            <div n="3" type="act">
+                <head>DERDE BEDRYF.</head>
+
+                <div n="1" type="scene">
+                    <head>EERSTE TOONEEL.</head>
+
+                    <stage>FRANCYNTJE, JASJE. in ’t zwart.</stage>
+                    <sp who="#fransyntje">
+                        <l>AY Heer, treed hier zo lang maar binnen</l>
+                        <l>ln ’t groot Salét, myn Heer de Prézident</l>
+                        <l>Komt daadlyk. Hoe bén jy me niet bekénd?</l>
+                        <l>Me dunkt schier datje Jasje bént;</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>My ook.</l>
+                    </sp>
+                    <sp who="#fransyntje">
+                        <speaker>FRANCYNTJE.</speaker>
+                        <l>Zo nét in ’t bruin? dat kén ik niet verzinnen,</l>
+                        <l>Of bénje bruigom? veul geluks!</l>
+                        <l>Wat vryster onder zo veul stuks</l>
+                        <l>Als je opgepast hébt, heeft tòch kunnen jou bekooren?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Jy altyt niet!</l>
+                    </sp>
+                    <sp who="#fransyntje">
+                        <speaker>FRANCYNTJE.</speaker>
+                        <l>Ik bén ook veur geen hak, én kruk:</l>
+                        <l>Neen dénk niet dat ik om een kleintje buk,</l>
+                        <l>Ik dien een Prézidént.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Ja zo ’k héb zéggen hooren,</l>
+                        <l>By dag en nacht. Een hak en kruk als myn</l>
+                        <l>Zou dat niet passen.</l>
+                    </sp>
+                    <sp who="#fransyntje">
+                        <speaker>FRANCYNTJE.</speaker>
+                        <l>Goet, hou jy het mét jou Styn.</l>
+                        <l>Maar bénjer bruigom?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Neen Francyn.</l>
+                    </sp>
+                    <sp who="#fransyntje">
+                        <speaker>FRANCYNTJE.</speaker>
+                        <l>Hoe graauwje? heet me tòch Francyntje.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Wél hiet men Liefste dan ook Styntje.</l>
+                        <l>Nou fiat Styntje. Is zy jou bruid?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Nóch niet Fransyntje.</l>
+                    </sp>
+                    <sp who="#fransyntje">
+                        <speaker>FRANSYNTJE.</speaker>
+                        <l>Ja dat jókje.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Neen zéker, maar zoo ’t niet ras aan gaat, schey ’k er uit;</l>
+                        <l>Nou alle gékken op een stókje.</l>
+                    </sp>
+                    <sp who="#fransyntje">
+                        <speaker>FRANSYNTJE.</speaker>
+                        <l>En gy op ’t hoogste, maar hoe dus staatig in het zwart?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>’t Geschied ten dienst van jonker Eduard.</l>
+                        <l>Ként gy die Spanjer wél, die hier is komen woonen</l>
+                        <l>Een huis twee dry van daan?</l>
+                    </sp>
+                    <sp who="#fransyntje">
+                        <speaker>FRANSYNTJE.</speaker>
+                        <l>Ja ’k héb hem ééns gezien.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Die wil de Prézidént van weegen eenig hoonen,</l>
+                        <l>Dat hy van Eduard hem inbeeld te geschiên</l>
+                        <l>Aanspreeken, én myn last is hem hier op te houwen;</l>
+                        <l>En zo veel wérk ik kan te brouwen,</l>
+                        <l>Eer dat myn Jonker komt. Zo ik dan in ’t livrey</l>
+                        <l>Gekleed was als Lakey,</l>
+                        <l>Ik zou myn* ról niet voeglyk speelen konnen.</l>
+                        <l>Maar lyk ik nou niet wél een Prokereur,</l>
+                        <l>Notaris, óf Sólliciteur?</l>
+                    </sp>
+                    <sp who="#fransyntje">
+                        <speaker>FRANSYNTJE.</speaker>
+                        <l>Ja, én ’t is wonder wél verzonnen.</l>
+                        <l>Maar waar is Eduard?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Die maakt zich vast gereed,</l>
+                        <l>Om tégens zyn party zich zélve te verstérken;</l>
+                        <l>En zo ik kan bemérken</l>
+                        <l>Iets vreemds, iets wonders uit te wérken,</l>
+                        <l>Daar hy niet wil dat ik de grond van weet.</l>
+                        <l>Fransyntje, én als je dan Sr. Pédro in zult laaten,</l>
+                        <l>’k Bid dat je ’em daadlyk by me zéndt;</l>
+                        <l>’k Zal, tót myn Jonker komt, zo lang wat mét hem praaten</l>
+                        <l>En gékken.</l>
+                    </sp>
+                    <sp who="#fransyntje">
+                        <speaker>FRANSYNTJE.</speaker>
+                        <l>Ik geloof niet dat het lukken zal</l>
+                        <l>Dat hy myn Heer zeer lang zal kunnen onderhouwen.</l>
+                        <l>Wyl hy van avond een ballét geeft, én een bal,</l>
+                        <l>Daar hy veel Heeren en Mêvrouwen</l>
+                        <l>Op heeft genood; hy heeft geen tyd, de danssers zouwen</l>
+                        <l>Hier daadelyk hun dans in ’t nét</l>
+                        <l>Voor ’t laast probeeren in ’t salét.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Wy meenen het mét onze zaaken</l>
+                        <l>Zo wy de Prézidént eerst spreeken, kort te maaken.</l>
+                        <l>Maar ’k hoor daar word gebéld, daar zal Sr. Pédro zyn.</l>
+                        <l>Ay is hy ’t, zénd hem hier Fransyntje. én niet Fransyn.</l>
+                        <l>Ja, ja hy is ’t; ik zie ’t deur ’t glaasje. Kyk, waar blyfje</l>
+                        <l>Nou Jonker, én wat droes bedryfje?</l>
+                        <l>’t End van een goed prosés, hangt aan een goed begin.</l>
+                    </sp>
+                </div>
+                <div n="2" type="scene">
+                    <head>TWEEDE TOONEEL,</head>
+
+                    <stage>FRANSYNTJE, JASJE, PÉDRO.</stage>
+                    <sp who="#fransyntje">
+                        <speaker>FRANSYNTJE.</speaker>
+                        <l>MYn Heer treed hier zo lang maar in.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Sr. Pédro wéllekom.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Myn Heer weet my te noemen;</l>
+                        <l>Ként my myn Heer?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Ik héb u hooglyk hooren roemen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Myn Heer my wordt gedaan ’t grootst ongelyk dat ooit.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Myn Heer de Prézidént, myn Heer, za1 t’avond geeven</l>
+                        <l>Een schoon ballét; gy zaagt uw leeven</l>
+                        <l>Geen schooner, én daar word gy ook genooid.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Een zéker Hagenaar, heel weidsch, én als de Franschen</l>
+                        <l>Gekleed...</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Daar zullen wél vier wildemans in danssen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Die heeft een Juffertje uit myn eigen huis geschaakt...</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>De voisjes zyn meest van Pikard gemaakt.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>En ’t is geen wys van procedeeren...</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Gy zult’er zien de kostelykste kleeren</l>
+                        <l>Die ge ooit gezien hébt.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ik word zeer verongelykt...</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Myn Heer verzoekt dat gy ’t als buurman méê bekykt.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>’k Verzoek daarom dat my myn Heer de hand wil bieden.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Myn Heer, gy zult méê dansen zo ’t u lust.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Myn Heer ’k wénsch dat de zaak waar aan myn Heer bewust.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Myn Heer stél maar zyn hart gerust.</l>
+                        <l>Myn Heer gy zult’er zien de tréffelykste lieden</l>
+                        <l>Van in, én om den Haag; myn Heer mag op zyn Spaansch</l>
+                        <l>Méê dansen, op zyn Turks, óf op zyn Itaaljaansch.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Myn Heer ik bidje waar van spreekje?</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Myn Heer van een ballét.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Myn Heer ik van myn zaak!</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Wy dénken héden om niets anders als vermaak,</l>
+                        <l>Jy bént een gék, zo je ons mét zulke leuren,</l>
+                        <l>Ophouden wilt, het noodigste gaat voor.</l>
+                        <l>Dus wacht u wél myn Heer te léllen aan het oor.</l>
+                        <l>En in zyn bézigheên te steuren.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wat drommel ben je voor een vént;</l>
+                        <l>Was hier myn Heer de Prézidént,</l>
+                        <l>Ik weet, hy zou wél anders spreeken.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Hoe is ’t? me dunkt dat gy me niet meer ként.</l>
+                        <l>Jy hébt me licht niet wél bekeeken.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ik kénje nóch niet.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Kén je hém wél, die te Nacht</l>
+                        <l>Mét zang én spél hield voor jou huis de wacht;</l>
+                        <l>Hem, die je mét lós kruid in ’t zin had dood te schieten?</l>
+                        <l>Hem, die je woudt doen bloed vergieten,</l>
+                        <l>Om die Souflét van óchtend vroeg?</l>
+                        <l>Hem, die in Juffers schyn, u ’t Juffertjen ontjoeg?</l>
+                        <l>Hem, uit wien gy eerst heel duidlyk hébt vernomen,</l>
+                        <l>Al ’t kwaad dat jou zou overkomen;</l>
+                        <l>Hem, die jou tégenwoordig zeidt,</l>
+                        <l>Dat al wat je aanvangt, af zal loopen,</l>
+                        <l>Récht tégen al jou hoopen,</l>
+                        <l>Om dat het mét krankzinnigheid,</l>
+                        <l>Geméngt is, én groot onbescheid.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ia ’t is die Schélm; ’k word wéêr bedroogen én verraaden,</l>
+                        <l>Hélp, hélp! wat doe ik? ik word dol; waar bén ik hier?</l>
+                        <l>Jou deugniet, mogt ik eens myn moed aan jou verzaaden,</l>
+                        <l>Ja wél, zie daar, ’k verdoeme schier.</l>
+                    </sp>
+                    <sp who="#fransyntje">
+                        <speaker>FRANSYNTJE.</speaker>
+                        <l>Daar komt de Prézidént, ik gaa.</l>
+                    </sp>
+                </div>
+                <div n="3" type="scene">
+                    <head>DERDE TOONEEL.</head>
+                    <stage>DE PRÉSIDÉNT, PÉDRO, JASJE.</stage>
+                    <sp who="#présidént">
+                        <speaker>PRÉSIDÉNT.</speaker>
+                        <l>WAt zót getier</l>
+                        <l>Komt my ter ooren? wat wil dat geraas beduyen?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Heer Prézidént, die Schélm...</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉSIDÉNT.</speaker>
+                        <l>Wy hooren zulk een taal</l>
+                        <l>Niet gaaren, zo gy iets te zéggen hébt, verhaal</l>
+                        <l>Uw zaak bezadigt.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Och, myn Heer, die man heeft buyen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ik zal bewyzen, dat hy is de grootste guit,</l>
+                        <l>En de oolykste bedrieger.....</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Zie hoe vinnig</l>
+                        <l>Staat zyn gezigt, de man is geem’lyk en krankzinnig.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉSIDÉNT.</speaker>
+                        <l>’k Zég spreek bedaart, óf schey’er uit,</l>
+                        <l>Ik héb geen tyd, moet ik u hooren,</l>
+                        <l>Zo zég uw zaaken, klaar en kórt,</l>
+                        <l>En zonder schélden.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Hy moest ons dan ook niet stooren.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Ik zal, mits dat my toegelaaten word,</l>
+                        <l>Voor af te zéggen, dat het smousje</l>
+                        <l>U sléchs verhaalen zal, wat sprookjes van’t rood kousje.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉSIDÉNT.</speaker>
+                        <l>Nu zwyg. Spreek gy.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Myn Heer, ik bén een Kristen ménsch,</l>
+                        <l>Hoewél ik dartig Jaar gewoont héb in Turkyen,</l>
+                        <l>En daar een pénninkje gewonnen héb na wénsch,</l>
+                        <l>En daar ik my méê kan belyen.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉSIDÉNT.</speaker>
+                        <l>Wat raaken my die beuzelingen. Maak</l>
+                        <l>Het kort, en spreek me van uw zaak.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Ik zwyg altyd, én spreek geen woorden,</l>
+                        <l>Niet één, al zou hy my vermoorden.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉSIDÉNT.</speaker>
+                        <l>Nu kort.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>’k Héb een slaavin, die ik te Tunis kócht,</l>
+                        <l>Méê over in dit Land gebrógt,</l>
+                        <l>Die ik wél achtien Jaar héb tréflyk onderhouwen,</l>
+                        <l>En die ik meende hier te trouwen;</l>
+                        <l>Maar deze guit heeft mét zyn Jonker haar geschaakt.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Myn Heer, hy schéldt; ik spreek, uw wordt wat wysgemaakt.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉSIDÉNT.</speaker>
+                        <l>Laat gy uw schélden, gy uw spreeken.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ay hoor eens, hoe het was besteeken:</l>
+                        <l>Zyn Jonker een deurtrapte fiel,</l>
+                        <l>En die zich als een Schilder hiel....</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉSIDÉNT.</speaker>
+                        <l>Wie is zyn Jonker?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Och, dat héb ik nooit geweeten.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉSIDÉNT.</speaker>
+                        <l>Weet gy niet waar hy woont, nóch hoe hy is geheeten?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Neen.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉSIDÉNT.</speaker>
+                        <l>Wien beklaagt ge dan? op wien verzoekt ge récht?</l>
+                        <l>Gy zyt krankzinnig, die persoon heeft wél gezégd.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Een schoon persoon. Die Schélm is de and’re Schélm zyn knécht.</l>
+                        <l>Hy weet wel, waar zy zyn gevlooden.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Ik zou wel spreeken, was my ’t spreeken niet verbooden.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉSIDÉNT.</speaker>
+                        <l>Neen, spreek wie is uw Heer? nu is uw spraak van nooden.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>’t Is Jonker Eduard.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉSIDÉNT.</speaker>
+                        <l>Hoe de eerelykste man,</l>
+                        <l>Die in gansch Hólland weezen kan,</l>
+                        <l>Spreekt gy daar zo verachtlyk van.</l>
+                        <l>Hoe, schéld gy zulke liên voor guiten.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Hy is krankzinnig, ay, men moet hem op doen sluiten.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Waar ik my wénd óf keer, ’t is alles guitery.</l>
+                        <l>’k Bén niet krankzinnig, maar zo zou men ’t my wél maaken,</l>
+                        <l>Je zoud aks kaks myn réchter zyn, en jy</l>
+                        <l>Bént, dunkt me in één kaproen met myn party.</l>
+                        <l>Hoe drommel is hier uit te raaken!</l>
+                    </sp>
+                </div>
+                <div n="4" type="scene">
+                    <head>VIERDE TONEEL.</head>
+
+                    <stage>EDUARD, FRANSYNTJE, PRÉSIDÉNT, PÉDRO, JASJE, LÉONOOR in mans
+                        kleeren.</stage>
+                    <sp who="#fransyntje">
+                        <speaker>FRANSYNTJE.</speaker>
+                        <l>MYn Heer, daar is Heer Eduard</l>
+                        <l>Mét nóch één.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉSIDÉNT.</speaker>
+                        <l>Hy komt récht van pas. Ik bid myn Heeren</l>
+                        <l>Treed binnen, komt ge mét uw byzyn ’t bal vereeren.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Ja Heer, daar néffens kom ik hier een zaak verweeren.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>O seldremént, ’k zal hém vermoorden.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Had jy ’t hart.</l>
+                        <l>Zie hoe hy omspringt na zyn start.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Ik zie daar myn party ik hoef hém niet te vraagen</l>
+                        <l>Of hy hier komt om over my te klaagen?</l>
+                        <l>Licht heeft hy ’t al gedaan.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉZIDÉNT*</speaker>
+                        <l>O ja! maar zeer verward.</l>
+                        <l>Weet gy ’er van Heer, zyt gy schuldig aan de zaaken,</l>
+                        <l>Daar hy u méê beticht; hy spreekt van schaaken.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>’t Is waar ’k héb op ’t verzoek van déze jonge Heer,</l>
+                        <l>Een zeer zoet Juffertje verlóst uit haare banden;</l>
+                        <l>En lichtlyk dus bewaart haar eer,</l>
+                        <l>Die groot gevaar liep, voor zyn geile onkuische handen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Daar héb je zyn bekéntenis</l>
+                        <l>Heer Prézidént, ay doet hem grypen.</l>
+                        <l>Hy zal wél zéggen, als de nood begint te nypen</l>
+                        <l>Hoe ’t mét de rést geleegen is.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉZIDÉNT</speaker>
+                        <l>Wy zullen wél te weeten krygen</l>
+                        <l>Het geen wy willen. Gaa maar voort</l>
+                        <l>Heer Eduard: gy, maak te zwygen,</l>
+                        <l>En val dien Heer niet in zyn woord.</l>
+                        <l>Waar bragt gy haar?</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>In eene kamer</l>
+                        <l>Als déze is, by een Heer, als u,</l>
+                        <l>Die haar beschérmen zal zo’k hoop, daar wachtze nu,</l>
+                        <l>Niet vér van hier op dat ze al zo bekwaamer</l>
+                        <l>Hier om zich te verweeren was,</l>
+                        <l>Of licht haar byzyn kwam te pas;</l>
+                        <l>Want vér van voor ’t gerécht te vlieden,</l>
+                        <l>Myn Heer, maakt zy geen zwarigheid</l>
+                        <l>Zich zélf te toonen voor alle eerelyke lieden.</l>
+                        <l>En déze jonge Heer kan ’t overig bescheid</l>
+                        <l>Van zyne tieranny, én haar éléndig leeven</l>
+                        <l>Met alle omstandigheeden geeven.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wat weet die jonge Heer daar van?</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Ik weet van Léonoor zo veel, zy zélve kan</l>
+                        <l>Van uw vervólging en van haar beschérming weeten.</l>
+                        <l>’k Héb in haar byzyn, al myn leevens tyd versleeten.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Dat kan onmoogelyk niet zyn;</l>
+                        <l>Want ik héb al wat leek na mannen,</l>
+                        <l>Sint vyf zés jaar uit haar gezigt verbannen.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Ik was altyd by haar in vrouwe schyn.</l>
+                        <l>En héb haar dikwils hooren zuchten;</l>
+                        <l>Om dat ze uw vuile driften niet</l>
+                        <l>Invólgen wou, nóch kon ontvluchten.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Al praatjes voor de vaak. ’t Mag weezen zo als ’t wil;</l>
+                        <l>Wat raakt het jou, kreeg ik somwylen ééns een gril</l>
+                        <l>Van liefde?</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>’t Raakt me: want de Juffer raaktme nader,</l>
+                        <l>Als kinders doen haar moeder óf haar vader.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wat óf gy ons wys maken woudt!</l>
+                        <l>Of zyt ge mét haar in hét hymlyk ondertrouwt?</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Dat raakt u niet; maar laatme spreeken, ’k zal u zaaken</l>
+                        <l>Vertéllen die u nader raaken.</l>
+                        <l>’t Waar lydelyk geweest voor Léonoor,</l>
+                        <l>Dat haar een eerlyk man bezinde</l>
+                        <l>En voor alle andere uitverkoor.</l>
+                        <l>Voornaamlyk gy, Heer, die ze in eer én deugd beminde.</l>
+                        <l>Maar zy, die édelmoedig was,</l>
+                        <l>Kon niet verdraagen dat zy éveneens zou vaaren</l>
+                        <l>Als Donna Laura, die nu achtien volle jaaren</l>
+                        <l>Zyn byzit...</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wat komt Donna Laura hier te pas?</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Dat zy zeer wél te pas zal komen,</l>
+                        <l>Zal blyken, als myn Heer de Prézidént</l>
+                        <l>De moeite neemt én iemand om haar zéndt.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Die moeite is bést door my genoomen.</l>
+                        <l>Ik weet de wég, én kén de spraak.</l>
+                        <l>Indien het mogt myn Heer de Prézidént gevallen,</l>
+                        <l>Hét zou my zyn een groot vermaak,</l>
+                        <l>Sr. Pédro déze dienst te doen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Hoe kan hy kallen!</l>
+                        <l>’k Begeer geen dienst van u.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉZIDÉNT</speaker>
+                        <l>Ga heen, maak datze kom;</l>
+                        <l>Maar keer hier, wyl myn tyd zeer kort is, straks weerom.</l>
+                    </sp>
+                </div>
+                <div n="5" type="scene">
+                    <head>VYFDE TOONEEL.</head>
+
+                    <stage>FRANSYNTJE, SNYER, VIOLIST, PRÉZIDÉNT, EDUARD, PÉDRO.</stage>
+                    <sp who="#fransyntje">
+                        <speaker>FRANSYNTJE.</speaker>
+                        <l>MYn Heer één van de Violisten én de Snyer</l>
+                        <l>Mét wél tien twaalf ménschen by’er,</l>
+                        <l>Moet u zeer noodig spreeken.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉZIDÉNT</speaker>
+                        <l>Wél</l>
+                        <l>Komt binnen; zyn de kleeren vaardig?</l>
+                    </sp>
+                    <sp who="#snyer">
+                        <speaker>SNYER.</speaker>
+                        <l>Geheel myn Heer, én wonder aardig</l>
+                        <l>Gemaakt; wy wachten maar alleen op uw bevél,</l>
+                        <l>Om ze aan te passen.</l>
+                    </sp>
+                    <sp who="#violist">
+                        <speaker>VIOLIST.</speaker>
+                        <l>Wy om ’t danssen te probeeren.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉSIDÉNT.</speaker>
+                        <l>Gaat mét de danssers én de kleeren</l>
+                        <l>In ’t andere Salét daar over, ik</l>
+                        <l>Bén by u in een oogenblik.</l>
+                        <l>Gy kunt terwyl het noodige bereiden.</l>
+                        <l>Om réê te wézen, als wy scheiden,</l>
+                        <l>Fransyntje zal u derwaards leiden.</l>
+                        <l>Ga stél de veelen, pas de kleeren, ik zal hier</l>
+                        <l>Niet blyven boven een kwartier.</l>
+                    </sp>
+                </div>
+                <div n="6" type="scene">
+                    <head>ZESDE TOONEEL.</head>
+
+                    <stage>LÉONOOR, PRÉSIDÉNT, EDUARD, PÉDRO.</stage>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>NU Donna Laura, die hém onder trouw belófte,</l>
+                        <l>Wél vyftien kinders....</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>’k Wil van Donna Laura niet</l>
+                        <l>Meer hooren, ’t is een kronje een pést een huis verdriet,</l>
+                        <l>Licht heeft ze u op gemaakt.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉZIDÉNT</speaker>
+                        <l>Zwyg stil gy onbeschóften</l>
+                        <l>En laat myn Heer voort vaaren, óf</l>
+                        <l>’k Beloof u, maakt gy ’t hier te gróf...</l>
+                        <l>Hébt ge iets te zéggen, spreek bezadigd?</l>
+                        <l>Ik ly dat ge uwe zaak verdadigt</l>
+                        <l>Maar zonder schélden.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Mét verlóf.</l>
+                        <l>Wat raakt ons hier, dat ik gedaan héb in Turkyen?</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Sr. Pédro, weet dat geenig eerlyk man</l>
+                        <l>Zo hy de zélve niet op alle plaats én tyen</l>
+                        <l>Bevonden word récht eerlyk weezen kan.</l>
+                        <l>Aan Donna Laura hébt ge uw trouw beloofd mét eeden.</l>
+                        <l>Ik weet het.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>O! dat ’s lang geleeden;</l>
+                        <l>En ’t was maar zéggen, ook zo was zy myn slaavin.</l>
+                        <l>’k Doe mét haar wat ik wil.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Ja niet in déze landen.</l>
+                        <l>En gy hébt vyftien lieve panden</l>
+                        <l>Van haare liefde: zy gelyken op ende op</l>
+                        <l>Haar Vaderlief, gelyk een pop.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ja maar die liefde is uit.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Goed Léonoores vreezen</l>
+                        <l>Is, dat licht tusschen haar én u,</l>
+                        <l>De zaaken éven ééns als nu,</l>
+                        <l>Mét Donna Laura zullen weezen.</l>
+                        <l>En dat speelt haar geduurig in het hoofd.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Maar ik zal Léonoore trouwen.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>’t Was Donna Laura méê beloofd.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Neen ’k hou myn woord.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Dat moogt ge aan Donna Laura houwen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wat Donna Laura? Heeft zy my niet afgestaan,</l>
+                        <l>En heeft my Léonoor mét bidden, vleijen, schreijen</l>
+                        <l>Niet vast beloofd, dat zy myn min niet af zou slaan,</l>
+                        <l>Zo ik met heur na Hólland wilde gaan:</l>
+                        <l>Zy hebben ’t wél twé Jaar gebéden mét heur beijen.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>’t Is waar, ik was ’er dikwils by</l>
+                        <l>Dat Léonoor zich zélf in honderd vormen</l>
+                        <l>Moest gieten als uw drift haar kwam bestórmen,</l>
+                        <l>En u beloofde, al wat gy eischte, om eenmaal vry</l>
+                        <l>Te weezen, uit haar slaverny.</l>
+                        <l>’k Weet ook dat ze om haar woord te breeken</l>
+                        <l>Mét Donna Laura heeft besteeken,</l>
+                        <l>Dat gy hen beide sléchs in Hólland bréngen zoudt,</l>
+                        <l>Op dat ze voor hun récht ééns zouden moogen spreeken,</l>
+                        <l>En maaken dat ge wierd getrouwd</l>
+                        <l>Mét Donna Laura, om haar lieve kinders te échten,</l>
+                        <l>Of anders zal ze mét u réchten.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Zy réchten! ze is zo kaal gelyk een neet,</l>
+                        <l>En die pro Déo récht die vordert niet een beet.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Zy heeft meer middelen én vrinden als gy weet.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Waar zyn die tóch?</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Zy zyn hier in den Haag te vinden,</l>
+                        <l>By Léonooraas vrinden.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ho! heeft ze al vrinden, loopt ze al licht,</l>
+                        <l>Madonna Laura leid het wél aan mét haar Nicht.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Ze is Lauraas Nicht niet, maar hier in den Haag geboren.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>O kiekes kaakes! ’k héb daar van</l>
+                        <l>Haar ’t minste woord nooit zéggen hooren,</l>
+                        <l>Wél waar méê, dénk ik, of zy dat bewyzen kan.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Met zéker schrift, dat toen zy wierd op zé genoomen,</l>
+                        <l>Haar van een Heer wierd toevertrouwdt,</l>
+                        <l>Mét eenige Juweeltjes, én wat goud;</l>
+                        <l>Op datze in Holland uit haar slaaverny mogt komen.</l>
+                        <l>Maar gy, door dien ge u had te Tunis neêr gezét,</l>
+                        <l>Daar zy uw diende én eerde,</l>
+                        <l>Daar gy haar debausjeerde,</l>
+                        <l>En tegens dank schóffeerde,</l>
+                        <l>Hébt dat voorneemen én haar vryheid steeds belét,</l>
+                        <l>En zy heeft u het schrift, nóch ’t goud ooit willen toonen;</l>
+                        <l>Om dat gy Léonoor licht op een groot ransoen</l>
+                        <l>Gezét had, vólgens uw gewoone wys van doen,</l>
+                        <l>En in Turkyen blyven woonen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wél heeft zy zoo veel blyks, én vrinden als gy zégt,</l>
+                        <l>Waarom spreekt zy me, óf hy, óf gy, niet aan mét récht?</l>
+                        <l>Wat hoeft ze om Léonoor te schaaken,</l>
+                        <l>Een Haagsche lichtmis op te maaken?</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Gy onverlaat, ’t en waar ’t ontzag</l>
+                        <l>Dés Heeren Présidénts, ik zoude.....</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉZIDÉNT.</speaker>
+                        <l>Is u vergeeten</l>
+                        <l>’t Geen u zo dikwils is geheeten?</l>
+                        <l>Zwyg stil, so lang men spreekt.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Wy wisten hoe het lag</l>
+                        <l>By u geschaapen, en dat ge eerder na Turkyen</l>
+                        <l>Wéêrom zoud’ vlugten, als te lyen</l>
+                        <l>Dat gy beroofd wierd van het oogwit uwer min;</l>
+                        <l>En geen van beide wou wéêr weezen uw slavin.</l>
+                        <l>Dus maakten wy mét schaaken een begin,</l>
+                        <l>Zo hoefden wy uw vlugten niet te vreezen,</l>
+                        <l>En konden van de buit verzékert weezen,</l>
+                        <l>Die niet versteeken wordt; maar steeds en over al,</l>
+                        <l>Waar ’t noodig is, verschynen zal.</l>
+                        <l>Maar waar ’t niet béter, dat gy uw vervólg liet vaaren,</l>
+                        <l>En maakte twee vernoegde paaren;</l>
+                        <l>Want Donna Laura, ’k weet, bemint u in haar hart</l>
+                        <l>Zo zeer, als Léonoor mint Jonker Eduard.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Zy zou een and’re als my beminnen;</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>’k Verzékert u, mét ziel én zinnen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>En my?</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>In ’t allerminste niet,</l>
+                        <l>Geen ménsch ter waereld, dieze als Minnaar nooder ziet,</l>
+                        <l>Door dien zy u houdt voor haar Vader.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Dat liegt gy als een Schélm, verrader.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PREZIDÉNT</speaker>
+                        <l>Gy schéldt wéêr, is u myn gebód</l>
+                        <l>Vergeeten? óf word ik bespót?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Vergeef ’t my Heer.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Als ik u mét uw eigen ooren</l>
+                        <l>De waarheid uit haar mond laat hooren,</l>
+                        <l>Dat zy u nimmermeer bemind heeft, dan in schyn,</l>
+                        <l>Noch ooit zal minnen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>’t Kan niet zyn.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Maar, als ’t zo was, zoudt gy haar dan niet meerder plagen?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Ik zou my na de tyd én na de réden draagen,</l>
+                        <l>Als ik ’t zo duidelyk verstond,</l>
+                        <l>En klaar uit haare als uwe mond.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Sr. Pédro is ’er niet meer hinders,</l>
+                        <l>Zo is ’t hoog tyd, dat zy....</l>
+                    </sp>
+                </div>
+                <div n="7" type="scene">
+                    <head>ZEVENDE TOONEEL.</head>
+
+                    <stage>FRANCYNTJE, JASJE, MADONNA LAURA, mét verscheide Dóchters én Zoonen,
+                        PRÉZIDÉNT, EDUARD, LÉONOOR, PÉDRO, STYNTJE.</stage>
+                    <sp who="#fransyntje">
+                        <speaker>FRANCYNTJE.</speaker>
+                        <l>DAar komt de knécht wéêrom,</l>
+                        <l>Myn Heer, mét vrouw, én meid, én acht óf négen kinders.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉZIDÉNT</speaker>
+                        <l>Dat hy mét vrouw, én meid, én kinders binnen kom.</l>
+                    </sp>
+                    <sp who="#m-laura">
+                        <speaker>M. LAURA.</speaker>
+                        <l>Baciate réveréntaménte</l>
+                        <l>Le mani al Signore Prézidénte.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉZIDÉNT</speaker>
+                        <l>Zyn dit uw kinders, én zynze al die leeven hier?</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Myn Heer, ’k héb ze opgetrokken voor de myne.</l>
+                    </sp>
+                    <sp who="#m-laura">
+                        <speaker>M. LAURA.</speaker>
+                        <l>Cértissimo, zy bén de zyne,</l>
+                        <l>Zy bén hier al, behalf de vier</l>
+                        <l>Fray, fris, gezond, galante zoonen,</l>
+                        <l>Die nóch te Algiers én Tunis woonen;</l>
+                        <l>Maar ik ze bid jou, zo jy Récht’re bén, goed récht</l>
+                        <l>Ze maak mit hum én myn, dat hyze moet myn houwen</l>
+                        <l>De woord, die hy my héb gegeef van trouwen.</l>
+                        <l>Ik zal jou zek...</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉZIDÉNT</speaker>
+                        <l>My is al wat u raakt gezégd:</l>
+                        <l>En u zal récht geschiên. ’k Verlang alleen te weeten</l>
+                        <l>Wie juffrouw Léonoora is.</l>
+                        <l>Hoe dat haar vrinden, of haar ouders zyn geheeten;</l>
+                        <l>En gy weet die geheimenis,</l>
+                        <l>Na ’t zéggen van myn heer te ondékken.</l>
+                    </sp>
+                    <sp who="#m-laura">
+                        <speaker>M. LAURA.</speaker>
+                        <l>’k Zal uit de koffertje de goud én briefje trékken:</l>
+                        <l>Kyk nou, en lees.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉZIDÉNT</speaker>
+                        <l>’k Verschrik, dit is de zégelring</l>
+                        <l>Myns vaders, zyne hand, én onderteikening.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Gelief tóch voorts de brief te leezen.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉZIDÉNT</speaker>
+                        <l>Och Eduard hét zal myn zuster weezen.</l>
+                        <l>Want die heeft Léonoor geheeten en ging méê.</l>
+                        <l>Mét bey myne ouders van Venétie over zé</l>
+                        <l>Na Smirne toe, wyl ik te Leiden bleef studeeren.</l>
+                    </sp>
+                    <sp who="#m-laura">
+                        <speaker>M. LAURA.</speaker>
+                        <l>Ja ’k bénze op zé mét haar genoomen, ’k wilze zweeren.</l>
+                        <l>Hum fad’re moet na Smirne gaan,</l>
+                        <l>Maar word geschiet mét moed’re in ’t béste van de slaan.</l>
+                        <l>Zy had my geef dit goud, én briefje om aan de heeren</l>
+                        <l>Hum vriende in Hólland mét de kind te présenteeren.</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Ay lees tóch de inhoud.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>DE PRÉZIDÉNT leest.</speaker>
+                        <l>Die aan myn vrienden toont</l>
+                        <l>Dit briefken, én een kind, dat aan hét linker handje</l>
+                        <l>Een maaltje heeft gelyk een vierkant Diamantje,</l>
+                        <l>Die wénschte ik wél dat ryklyk wierd geloont.</l>
+                        <l>’t Kind is myn dóchter, die ik (óf we in ’t véchten bleeven)</l>
+                        <l>Héb in bewaaring aan een vreemde maagd gegeeven.</l>
+
+                        <l>Ja ’t is myn zuster, óch waar is ze? als ik haar vind,</l>
+                        <l>’k Meen haar te houden als myn kind,</l>
+                        <l>Te slyten ongetrouwd myn leeven,</l>
+                        <l>En haar aan u tén écht mét ryklyk goed te geeven.</l>
+                        <l>Waar is ze? dat zy straks verschynt; mén haal haar voor.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Myn Heer men zal haar niet behoeven</l>
+                        <l>Te haalen, want zy kan geen ogenblik vertoeven,</l>
+                        <l>Zo sléchts Sr. Pédro houdt zyn woord,</l>
+                        <l>Dat hy haar in haar rust zal laaten,</l>
+                        <l>Als zy mét eigen mond zal zéggen hém te haaten.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉZIDÉNT.</speaker>
+                        <l>Hém zal het toestaan, óf het afstaan weinig baaten;</l>
+                        <l>Zy is myn zuster, én zy zal</l>
+                        <l>Diens vrouw zyn die haar oog hét meest behaagd van al.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Indien Sr. Pédro haar wilde afstaan onbedwongen,</l>
+                        <l>Ik weet hét zoude uw zuster liever zyn,</l>
+                        <l>Als dat het hém wierd opgedrongen.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wél, maak dan dat zy hier verschyn,</l>
+                        <l>’k Zal afstaan als ik haar hoor zéggen</l>
+                        <l>Dat zo, gelyk gy zégt, de zaaken léggen.</l>
+                    </sp>
+                    <sp who="#léonoor">
+                        <speaker>LÉONOOR.</speaker>
+                        <l>Zy heeft het u zo straks gezeit,</l>
+                        <l>En zeit het nóch. Ik minde u nooit, dat ’s klaar bescheid.</l>
+                        <l>En zal u nooit als mynen minnaar minnen.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PRÉZIDÉNT</speaker>
+                        <l>Hoe zuster! zyt gy ’t zélf? weest wéllekom.</l>
+                        <l>Mét wélk een vreugd zie ik u wéderom,</l>
+                        <l>En dat zo onverwacht! maar treeden wy naar binnen,</l>
+                        <l>Op dat men u verkleede in voegelyk gewaad,</l>
+                        <l>En dat gy méde op ’t bal verschynt naar uwen staat.</l>
+                        <l>Sr. Pédro, leen gy aan de réden ook uwe ooren,</l>
+                        <l>Nu gy myn zuster hébt verlooren</l>
+                        <l>Is ’t bést dat gy uw kinders écht,</l>
+                        <l>En niet mét Donna Laura récht.</l>
+                    </sp>
+                    <sp who="#pédro">
+                        <speaker>PÉDRO.</speaker>
+                        <l>Wél fiat, nu ik tóch u zuster niet kan krygen,</l>
+                        <l>Die zwygt die konsenteert, myn Heer, zo zal ik zwygen.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PREZIDENT.</speaker>
+                        <l>Kom ieder kus daar op haar bruidegom én bruid.</l>
+                    </sp>
+                    <sp who="#de-kinders">
+                        <speaker>DE KINDERS.</speaker>
+                        <l>Papa, Sr. Padre, Vadre, un baccio.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>Séldreweeken!</l>
+                        <l>Ik héb de heele kaart verkeeken,</l>
+                        <l>Zy winnen ’t spul, zy trékken al de buit;</l>
+                        <l>En ik óch arm! trék niet één duit.</l>
+                    </sp>
+                    <sp who="#présidént">
+                        <speaker>PREZIDENT.</speaker>
+                        <l>Ik zalje een fray officie geeven,</l>
+                        <l>Daar je eerlyk van zult kunnen leeven.</l>
+                        <l>Kom gaan we.</l>
+                    </sp>
+                    <sp who="#styntje">
+                        <speaker>STYNTJE.</speaker>
+                        <l>En zal ’er niet voor my ten bésten zyn?</l>
+                    </sp>
+                    <sp who="#eduard">
+                        <speaker>EDUARD.</speaker>
+                        <l>Hét zakje dukatons staat vast.</l>
+                    </sp>
+                    <sp who="#jasje">
+                        <speaker>JASJE.</speaker>
+                        <l>’t Zal wélkom weezen</l>
+                        <l>Als ’t komt; want liefste lief gepreezen,</l>
+                        <l>Zoo jy ’t niet krygt, ’k begin te vreezen</l>
+                        <l>Dat jy myn vrou nooit wordt. Nou goeden dag, Franzyn,</l>
+                        <l>Dat gaat je neus voorby.</l>
+                    </sp>
+                    <sp who="#fransyntje">
+                        <speaker>FRANZYNTJE.</speaker>
+                        <l>Loop Jas, loop heen mét Styn.</l>
+                    </sp>
+                    <stage>Einde van hét dérde, én laatste Bedryf.</stage>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

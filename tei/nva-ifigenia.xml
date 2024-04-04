@@ -1,0 +1,3275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000147" xml:lang="dut">
+
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Ifigenia</title>
+				<title type="sub"/>
+				<author>
+					<persName>
+						<forename>Jean</forename>
+						<surname>Racine</surname>
+					</persName>
+					<idno type="wikidata">Q742</idno>
+					<idno type="pnd"></idno>
+				</author>				
+				<author>
+					<persName>
+						<surname>Nil Volentibus Arduum</surname>
+					</persName>
+					<idno type="wikidata">Q2351891</idno>
+					<idno type="pnd"></idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>Ceneton</name>
+					<idno type="URL"
+						>https://www.let.leidenuniv.nl/Dutch/Ceneton/NVAIfigenia1683a.html</idno>
+					<editor>A.J.E. Harmsen</editor>
+					<ref>Ceneton05988</ref>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Nil Volentibus Arduum: Ifigenia. Amsterdam: Albert Magnus, 1683.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person xml:id="agamémnon" sex="MALE">
+						<persName>AGAMÉMNON</persName>
+					</person>
+					<person xml:id="achilles" sex="MALE">
+						<persName>ACHILLES</persName>
+					</person>
+					<person xml:id="klytemnéstra" sex="FEMALE">
+						<persName>KLYTEMNÉSTRA</persName>
+					</person>
+					<person xml:id="ifigenia" sex="FEMALE">
+						<persName>IFIGENIA</persName>
+					</person>
+					<person xml:id="ulisses" sex="MALE">
+						<persName>ULISSES</persName>
+					</person>
+					<person xml:id="néstor" sex="MALE">
+						<persName>NÉSTOR</persName>
+					</person>
+					<person xml:id="patroklés" sex="MALE">
+						<persName>PATROKLÉS</persName>
+					</person>
+					<person xml:id="erifilé" sex="FEMALE">
+						<persName>ERIFILÉ</persName>
+					</person>
+					<person xml:id="kalchas" sex="MALE">
+						<persName>KALCHAS</persName>
+					</person>
+					<person xml:id="arkas" sex="MALE">
+						<persName>ARKAS</persName>
+					</person>
+					<person xml:id="euribatés" sex="MALE">
+						<persName>EURIBATÉS</persName>
+					</person>
+					<person xml:id="aegina" sex="FEMALE">
+						<persName>AEGINA</persName>
+					</person>
+					<person xml:id="dóris" sex="FEMALE">
+						<persName>DÓRIS</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-04">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1678">
+				<desc/>
+			</event>
+			<event type="premiere" when="1678">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+
+
+			<docTitle>
+				<titlePart>IFIGENIA.</titlePart>
+
+				<titlePart>TREURSPÉL.</titlePart>
+
+				<titlePart>Uit het Fransch van de Heer RACINE.</titlePart>
+				<titlePart>[Vignet: Nil Volentibus Arduum]</titlePart>
+				<titlePart>Te AMSTERDAM,</titlePart>
+
+				<titlePart>By ALBERT MAGNUS, op de Nieuwen Dyk, in den Atlas, by den Dam.
+					1683.</titlePart>
+				<titlePart>Met Privilegie.</titlePart>
+			</docTitle>
+
+			<div type="dedication">
+				<head>AAN DEN E. HEER PHILIPS DE FLINES.</head>
+
+				<head>Ter Bruilófte van zyn E. Dóchter</head>
+
+				<head>MEJUFFER REBÉKKA DE FLINES,</head>
+
+				<head>Mét de E. Heer én Mr. WILHEM BLAAU WILHEMSZ.</head>
+				<p>Getrouwt den 22. van Zomermaand des Jaars 1683.</p>
+				<lg>
+					<l>DE blydschap, die, mét récht, uw bloedverwantschap toont.</l>
+					<l>Nu een gewénschte trouw uw’ waerde Dóchter kroont,</l>
+					<l>In de uchtend van haar tyd, én ’t jeugdigst haarer Dagen,</l>
+					<l>Dringt ons om, op het spoor van uwe braave maagen,</l>
+					<l>Eêlmoedig Heere, blyk te geeven van de vreugd</l>
+					<l>Die op dit ogenblik ons aller hart verheugd.</l>
+					<l>En, wie kan zonder vreugd, het eenigst uwer looten</l>
+					<l>Verknócht zien aan de roem van zyne tydgenooten,</l>
+					<l>De Wakk’re WILHEM, uit ’t voortréffelyke bloed</l>
+					<l>Der braave BLAAUWEN, alzo édel van gemoedt</l>
+					<l>Als wélgeschapen, die, in zédenkunst érvaaren,</l>
+					<l>Gelyk in ’t heilig récht, streeft boven zyne jaaren;</l>
+					<l>De luister van zyn Stam, vereenigt aan ’t Geslacht</l>
+					<l>Van BAS, VERMEULEN, én VAN LOON, alom gëacht</l>
+					<l>Voor zuilen van de Staat: Stam, die in ’t hévigst woeden</l>
+					<l>Hielp Stad, én vaderland beschérmen én behoeden.</l>
+					<l>Tót hunne onstérff’lyke eer, én eeuwge roem, in spyt</l>
+					<l>Van woedende afgunst, én van onverdiende nyd:</l>
+					<l>Stam, waar aan ’t vaderland alleen niet is verbonden,</l>
+					<l>Voor zo veel wonderen, én heerelyke vonden,</l>
+					<l>Mét arbeid zonder eind, gaâlooze schranderheid,</l>
+					<l>Onvólgb’ren yver, én onmeetelyk beleid</l>
+					<l>In ’t licht gebragt, tot eer van hunne Landsgenooten,</l>
+					<l>Zélf gunstelijk érkent van Kóningen, én grooten,</l>
+					<l>Wiens achting hunne naam mét eeuw’ge luister siert.</l>
+					<l>Wy zien ook hoe die Stam mét réden zeegeviert,</l>
+					<l>En mét een hartelyk, én ongeveinst genoegen,</l>
+					<l>Zich aan uw déftig bloed door zulk eene écht ziet voegen,</l>
+					<l>Wyl uwe schranderheid én kénnis, die geen’ kunst,</l>
+					<l>Nóch braave kunstenaars laat blyven zonder gunst,</l>
+					<l>Reeds van de handelgód door ’t heele rond gedraagen,</l>
+					<l>Wie kunst, óf kénnis mint, van uwe lóf doet waagen.</l>
+					<l>Maar, in zo groot een’ tyd van ongemeene vreugd,</l>
+					<l>Zyn wy het niet alleen die mét u zyn verheugdt;</l>
+					<l>Ons vólgt een’ schoonheid, uyt wiens eêl en minzaam wézen,</l>
+					<l>De tékenen van deugd én liefde zyn te leezen;</l>
+					<l>Ifigenia; die wél eer ook ’s vaders hart</l>
+					<l>In vaderlyke liefde; als ’t uwe, had verwart.</l>
+					<l>Zy komt niet, om de Bruid de dierb’re plaats te ontrooven,</l>
+					<l>Die zy in ’s vaders hart zich eeuwig mag belooven</l>
+					<l>Te houden: schoon de zucht van liefde ’t hart begeeft</l>
+					<l>Van haaren vader, Daar in staatzucht bóven zweeft,</l>
+					<l>Zy stierf veel liever als hém immer te verzaaken.</l>
+					<l>Geen minnenyd behoef de Bruid bezórgt te maaken</l>
+					<l>Voor haare Bruigom; ze is al t’ édel* van gemoed;</l>
+					<l>Ook is de min van haar Achilles haar te zoet,</l>
+					<l>Om haar DE FLINES spruit haar heil te doen benyden:</l>
+					<l>Zy komt ook geensins om verwaand met haar te stryden</l>
+					<l>Om ’t lóf der schoonheid, daar zy haar in évenaart,</l>
+					<l>Of licht wel óvertréft; zy acht REBÉKKA waardt</l>
+					<l>Zo groot een’ zeege, én ’t zoet haar door het lót beschooren</l>
+					<l>’t Mishaag ’t Eêlmoedig hart des Bruigoms niet, te hooren</l>
+					<l>Dat zy haar Héld alleen onstérffelyk bemindt,</l>
+					<l>Wyl hy in zyne Bruid zyn zielsgenoegen vind:</l>
+					<l>Haars minnaars roem, om zyn onwankelbaar beminnen,</l>
+					<l>Verwékke geene nyd in WILHEMS Kloeke zinnen:</l>
+					<l>Ook hindert ’s Grieken lóf de zyne niet, ô neen;</l>
+					<l>Zy komen beide in trouw, én kloekheid óver een;</l>
+					<l>En zich door zyne deugd alleen te doen behaagen,</l>
+					<l>Is ruim zo braaf, als gunst door wapens wég te draagen.</l>
+					<l>Ontzég haar dan uw’ gunst, nóch uw’ beschérming niet;</l>
+					<l>Wyl de eer die haar, én ons, door dat geluk geschied,</l>
+					<l>Haar door uwe achting zal voor lastering bevryden,</l>
+					<l>In spyt van all’ de geen die haar de gunst benyden,</l>
+					<l>Die zy bereids by zo veel Kénnaars heeft behaaldt.</l>
+					<l>Schoon ook de lastermond reeds op onze yver smaalt,</l>
+					<l>En die, als ongegrond, óf roekeloos durf doemen,</l>
+					<l>Wy zullen, nevens haar, in uwe kénnis roemen.</l>
+					<l>Terwyl de dichtlust, die reeds and’ren ’t hart onsteekt,</l>
+					<l>Aan onze zangster meê de lippen openbreekt,</l>
+					<l>Om in het lief gedrang van zo veel zégeningen,</l>
+					<l>Als zulk een wenschelyk paar op déze dag omringen,</l>
+					<l>Tót hén te naderen, én mét een blyde groet,</l>
+					<l>Tót blyk van achting, uit een ongeveinst gemoed,</l>
+					<l>Aan hén geluk én heil in ’t Echts verbond te wénschen;</l>
+					<l>Op dat zy eeuwig zyn de vrólykste aller ménschen,</l>
+					<l>En dat hun leeven een gestaage Bruylóft zy,</l>
+					<l>Tót vreugd van beider Stam, én nieuwe maagschappy.</l>
+				</lg>
+				<p>T. ARENDS.</p>
+
+				<p>Uit de Naam van het Konstgenootschap, NIL VOLENTIBUS ARDUUM.</p>
+			</div>
+
+
+			<div type="preface">
+				<head>AAN DEN LEEZER.</head>
+				<p>DIt Treurspél, na het Fransch van de Heer Racine verduitscht, is, eenige tyd
+					geleeden, door J. Dullard vertaaldt, in ’t licht gegeeven, évenwél is het
+					tégenwoordige, niet zonder zyn kénnis, by ons Konstgenootschap al onderhanden
+					geweest, eer het zyne gedrukt wierd, én lichtelyk eer hy het begonnen hadde over
+					te zétten.</p>
+				<p>Wy hébben de vryheid genomen, hier én daar meer persoonen in ’t Spél te voeren,
+					om het Tooneel te vullen, alzo wy gemérkt hébben dat het zélve doorgaans
+					behaagt, dóch het laatste Bedryf hébben wy, daar en boven, zélf met eenige
+					Tooneelen vergroot; vermits wy oordeelden dat het den aanschouweren meer
+					genoegen zoude geeven, Ifigenia mét haaren Achilles wéderom van het outer tezien
+					keeren, na dat zy (gelyk het de Heer Racine stélt,) het gevaar dés doods
+					ontkomen was, als het zélve aan haar Moeder, in de uiterste benaaudheid om haar
+					Dóchters gevaar zynde, door Ulisses te hooren verhaalen, daar hy, ’t geheele
+					Spél door, zich haar vyand heeft getoont, én alleen heeft toegeleid om Ifigenía
+					te zien dooden; Zo dat men hém, die zonder eenig blyk, óf ander getuigenis als
+					het zyne, haare verlóssinge beként komt maaken, mét réden van logenen verdacht
+					kan houden, én twyffelen, óf het in der daad zo zy; én óf hy haar niet bedriegt.
+					En dewyle zulks in ’t Speelen behaagd heeft, hébben wy niet raadzaam gevonden
+					het zélve in het Drukken te veranderen.</p>
+
+			</div>
+			<div type="appendix">
+				<head>COPYE Van de PRIVILÉGIE.</head>
+				<p>DE Staten van Holland en Westvriesland doen te weten. Alsoo Ons vertoont is by
+					eenige Liefhers van de Nederduytsche Tael en Poëzy, hoe dat sy al voor eenige
+					Jaren, na het voorbeeld van de Italiaensche en Fransche Academien, t’ Amsterdam
+					opgerecht hadden een Konstgenootschap onder de Prenten en Sinspreuke van NIL
+					VOLENTIBUS* ARDUUM, waer in dagelijcks gearbeyt was, en noch wiert tot
+					voortsettinge van onse Taal en Dichtkunst, gelijk ook al eenige werkjens nu en
+					dan daar van in ’t licht gekomen, en door den druk gemeen gemaakt waren; en
+					dewyl van tyt tot tyt uytgegeven souden worden grootere werken, die by dat
+					Konstgenootschap, sommige reets gemaakt sommige noch onderhanden waren, waar toe
+					het selve boven haar tyt en arbeyd, noch groote kosten tot den druk, en wat daar
+					meer toe behoort, soude moeten doen, en vermits ook niet sonder groote reden
+					gevreest wierd, dat al het gene van eenigh belangh zynde, by het selve
+					Konstgenootschap uytgegeven soude worden, aanstonts door andere soude mogen
+					werden naargedrukt, en sonder eenige opmerkingh, veel min naauwkeurigheydt der
+					Spelling oft nettigheydt der Tale, aan al de wereldt gemeen gemaakt, waar door
+					het goede Insigt tot opbouwingh der Nederduytsche Tale, ende voortsettinge van
+					de welsprekentheydt in de selve verhindert, en de lust om daar in voort te gaan
+					aan het voorseyde, Konstgenootschap soude benomen worden; soo hadde sich het
+					selve Konstgenootschap genootsaakt gevonden, om sich te keeren tot Ons,
+					ootmoedelyk versoekende, dat het Ons gelieven mogte haar te te begunstigen alle
+					de werken, die uyt het selve Konstgenootschap in ’t licht gebraght souden
+					worden, met Ons Octroy voor 20 jaren langh, en verder soodanige straffe tegen de
+					gene, die de selve soude nadrukken, verkoopen, oft elders naargedrukt, in dese
+					Onse Provintie voeren om te verkoopen, als het Ons soude gelieven goet te
+					vinden. SOO IS ’t, dat Wy, de Sake en ’t Versoek voorsz. overgemerkt hebbende
+					ende genegen wesende ter bede van de Supplianten, uyt Onse rechte wetenschap,
+					Souveraine macht ende authoriteyt de selve Supplianten geconsenteert,
+					geaccordeert, en geoctroyeert hebben, consenteren, accorderen, ende Octroyeren
+					mits desen, dat sy gedurende den tyt van vyftien eerst komende Jaren, de Werken
+					by het voornoemde Konstgenootschap onder den Tytul van NIL VOLENTIBUS ARDUUM
+					gemaakt werdende oft alrede zynde, binnen den voornoemden Onsen Land alleen
+					sullen mogen drukken, uytgeven ende verkoopen, verbiedende daarom allen ende
+					eenen iegelyken, de selve werken na te drukken, ofte elders naargedrukt binnen
+					onsen Lande te brengen, uyt te geven ofte te verkoopen, op verbeurte van alle de
+					naargedrukte, ingebragte ofte verkofte Exemplaren, ende een boete van drie
+					hondert guldens daarenboven te verbeuren, te appliceren een derde part voor den
+					Officier die de calange doen sal, een derde part voor den Armen der plaatsen
+					daar het casus voorvallen sal, ende het resterende derde part voor de [fol. *4v]
+					Supplianten. Alles in dien verstande, dat Wy de Supplianten, met desen Onsen
+					Octroye alleen willende gratificeren tot verhoedinge van hare schade door het
+					nadrukken van de voorsz. Werken, daar door in geenigen deele verstaan, den
+					Inhoude van dien te authoriseren ofte te advouëren, ende veel min het selve
+					onder Onse protectie ende bescherminge eenig meerder credit, aansien ofte
+					reputatie te geven; Nemaar den Supplianten in cas daar in iets* onbehoorlyks
+					soude mogen influeren, alle het selve tot haren lasten sullen gehouden wesen te
+					verantwoorden, tot dien eynde wel expresselyk begerende, dat by aldien sy desen
+					Onsen Octroye voor de selve Werken sullen willen stellen, daar van geene
+					geabbrevieerde ofte gecontraheerde mentie sullen mogen maken; Nemaar gehouden
+					sullen wesen, het selve Octroy in ’t geheel, en sonder eenige Omissie daar voor
+					te drukken, op pene van het effect van dien te verliesen. Ende ten eynde de
+					Supplianten desen Onsen consente en Octroye mogen genieten naar behooren, lasten
+					wy allen ende eenen iegelyken, dat sy de Supplianten van den inhoudt van desen
+					doen laten ende gedoogen, rustelyk, vredelyk ende volkomentlyk genieten ende
+					gebruyken, cesserende alle belegh ende wederleggen ter contrarie. Gedaan in den
+					Hage onder Onsen grooten Zegele hier aan doen hangen, den XV Maart, in ’t Jaar
+					onses Heeren en Saligmakers duysent ses hondert seven en seventigh.</p>
+				<p>A. Br. d’ASPEREN, 1677.</p>
+				<p>Ter Ordonnantie van de Staten HERBERT van BEAUMONT, 1677.</p>
+
+				<p>Het KONSTGENOOTSCHAP heeft het Récht van de bovenstaande PRIVILEGIE aangaande De
+					Ifigenia vergund aan ALBERT MAGNUS, Boekverkooper tót Amsterdam.</p>
+				<p>In Amsterdam, den 30 Maart 1682.</p>
+			</div>
+
+			<castList>
+				<head>VERTOONERS.</head>
+				<castItem corresp="#agamémnon">
+					<role>AGAMÉMNON. Véldheer der Grieken.</role>
+				</castItem>
+				<castItem corresp="#achilles">
+					<role>ACHILLES. Minnaar van Ifigenia.</role>
+				</castItem>
+				<castItem corresp="#klytemnéstra">
+					<role>KLYTEMNÉSTRA. Moeder van Ifigenia.</role>
+				</castItem>
+				<castItem corresp="#ifigenia">
+					<role>IFIGENIA. Dóchter van Agamémnon.</role>
+				</castItem>
+				<castItem corresp="#ulisses">
+					<role>ULISSES. } Grieksche Vórsten.</role>
+				</castItem>
+				<castItem corresp="#néstor">
+					<role>NÉSTOR, } Grieksche Vórsten.</role>
+				</castItem>
+				<castItem corresp="#patroklés">
+					<role>PATROKLÉS. Vrind van Achilles.</role>
+				</castItem>
+				<castItem corresp="#erifilé">
+					<role>ERIFILÉ. Onbekénde Dóchter van Hélena.</role>
+				</castItem>
+				<castItem corresp="#kalchas">
+					<role>KALCHAS. Aertswichchelaar der Grieken.</role>
+				</castItem>
+				<castItem corresp="#arkas">
+					<role>ARKAS. Dienaar van Agamémnon.</role>
+				</castItem>
+				<castItem corresp="#euribatés">
+					<role>EURIBATÉS. Hooftman zyner lyfwacht.</role>
+				</castItem>
+				<castItem corresp="#aegina">
+					<role>AEGINA. Staatjuffer van Klytemnéstra.</role>
+				</castItem>
+				<castItem corresp="#dóris">
+					<role>DÓRIS. Vertroude van Erifilé.</role>
+				</castItem>
+				<castItem corresp="#lyfwacht">
+					<role>LYFWACHT.</role>
+				</castItem>
+				<p>Het Spél speelt in Aulis, in de Tént van Agamémnon.</p>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+
+				<head>IFIGENIA.</head>
+				<head>TREURSPÉL.</head>
+				<head>EERSTE BEDRYF.</head>
+				<div type="scene" n="1">
+					<head>EERSTE TOONEEL.</head>
+					<stage>AGAMÉMNON, ARKAS.</stage>
+					<sp who="#agamémnon">
+						<speaker>AGAMEMNON.</speaker>
+						<l>Ia, Agamémnon is ’t, uw Vórst, die u komt wékken;</l>
+						<l>Kén my aan myne stém, ik héb u iets te ontdékken.</l>
+					</sp>
+					<sp who="#arkas">
+						<speaker>ARKAS.</speaker>
+						<l>Myn Heer, hoe! zyt gy ’t zelf? wat zaaken van gewigt</l>
+						<l>Doen u hier komen voor het ryzen van het licht?</l>
+						<l>De dageraad begint ons naauwelyks te genaaken,</l>
+						<l>En ik zie niemand, als ons beide, in Aulis waaken.</l>
+						<l>Heeft eenig ruischen in de lucht uw rust gestoord?</l>
+						<l>Of hébben déze nacht de winden ons verhoord?</l>
+						<l>Neen: alles slaapt, de zé, het léger, én de winden.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMEMNON.</speaker>
+						<l>Gelukkig is hy, die vernoeging weet te vinden</l>
+						<l>In zyn gemeen beroep, wien staat, noch ampt verrukt;</l>
+						<l>Bevryd van alle last, die my de schouders drukt.</l>
+					</sp>
+					<sp who="#arkas">
+						<speaker>ARKAS.</speaker>
+						<l>Sint wat tyd spreekt gy zó? hoe komt in uw’ gedachten</l>
+						<l>De heerlykheên, die u omringen, te verachten?</l>
+						<l>Wat hébben u de Goôn gedaan, dat u verdriet</l>
+						<l>Hunn’ gunst, en al ’t geluk dat gy van hen geniet?*</l>
+						<l>Gy schynt hunn’ wéldaân te verachten, ja te haaten,</l>
+						<l>Zyt ge Atrëus Zoon niet? Vórst, én vader? boven maaten</l>
+						<l>Gelukkig door uwe écht? bezitge niet daar by</l>
+						<l>Het béste én rykste deel der Grieksche Heerschappy?</l>
+						<l>Zyt gy niet uit het bloet van Jupiter gesprooten,</l>
+						<l>En door de trouw verknócht aan diergelyke looten?</l>
+						<l>Verzoekt Achilles, die ontzachchelyke Héld,</l>
+						<l>Van wien ’t orakel ons zó veele wond’ren spélt,</l>
+						<l>Ifigenia niet? wil hy, om u te wreeken,</l>
+						<l>Zyn huwlykstoorts niet aan de vlam van Tróje ontsteeken?</l>
+						<l>Wat zeege, wat geluk haalt by die waardigheên,</l>
+						<l>En eerbewyzen, die ge ontfangt van ieder een?</l>
+						<l>Men eert u voor het hoofd van duizend trótze kielen,</l>
+						<l>En twintig vórsten, reed om Tróje te vernielen.</l>
+						<l>’t Is waar, dat déze stilte uw zeege wat verlét:</l>
+						<l>De wind, dry maanden als geboeidt, én vast gezét,</l>
+						<l>Verhindert uwe vloot na Tróje toe te streeven;</l>
+						<l>Maar heeft men ’t alles juist, gelyk men wénscht in ’t léven</l>
+						<l>Gy zyt een ménsch, én ’t lót is weiffelend, het bréngt</l>
+						<l>Zeer zélden voorspoed, mét geen tégenspoed verméngt,</l>
+						<l>Zeer haast... maar, Heer, gy zucht! wat is ’t, dat u doet schreijen?</l>
+						<l>Is ’t kind Oréstes ziek, wil ’t uit het léven scheijen?</l>
+						<l>Weent ge om Ifigenie, óf Klytemnéstre? méldt</l>
+						<l>Die brief u eenig leed, dat u zó zeer ontstéld?</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMEMNON.</speaker>
+						<l>Gy zult niet stérven, neen; ik kan het niet gedoogen.</l>
+					</sp>
+					<sp who="#arkas">
+						<speaker>ARKAS.</speaker>
+						<l>Myn Heer!</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMEMNON.</speaker>
+						<l>Gy ziet me ontroerd; hoor wat my heeft bewoogen;</l>
+						<l>En oordeel, Arkas, óf het tyd is dat ik rust.</l>
+						<l>U is, toen onze vloot vergaderde, bewust;</l>
+						<l>Hoe ’t scheen óf weêr én wind ons riep van déze stranden:</l>
+						<l>Wy maakten zeil, élk sloeg van blydschap in zyn handen,</l>
+						<l>En dreigde Tróje reeds van vér zyne ondergang;</l>
+						<l>Maar, ach! het duurde mét die blydschap niet seer lang.</l>
+						<l>Men zag de winden, die ons eerst zó gunstig scheenen,</l>
+						<l>Strak stil zyn, én die vreugd met onze hoop verdweenen,</l>
+						<l>Nóch in de haven zélf. een zaak zó ongemeen</l>
+						<l>Bevong mét schrik, én met verwond’ring ieder een.</l>
+						<l>Men smeet de riemem uit, maar vrucht’loos; dies we ons keeren</l>
+						<l>Straks na de Gódheid die men hier gewoon is, te eeren,</l>
+						<l>Ulisses, Néstor, ik, én Menelaüs gaan</l>
+						<l>Eerbiedig na ’t altaar der Jagtgódin Diâan,</l>
+						<l>En óffren heimelyk; maar dénk, hoe ’t my ontstélde,</l>
+						<l>Toen Kalchas, na ’t gebéd, my dus myn rampen spélde.</l>
+						<l>Gy wapent tégens Tróje een krachtelooze magt.</l>
+						<l>Dus is het van de Goôn beslooten,</l>
+						<l>Tén zy eens dochters bloed, uit Hélenâas geslacht,</l>
+						<l>Op ’t outer van Diaane word vergooten.</l>
+						<l>Wilt gy der Góden gunst, én goeden wind verwachten,</l>
+						<l>Gy moet Ifigenie slachten.</l>
+					</sp>
+					<sp who="#arkas">
+						<speaker>ARKAS.</speaker>
+						<l>Uw Dochter!</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMEMNON.</speaker>
+						<l>Dénk, hoe my dit antwoord óverviel,</l>
+						<l>Myn bloed bevroos, én ik, verslagen in myn ziel,</l>
+						<l>Bleef zonder stém, én stond gelyk als opgenoomen:</l>
+						<l>Na duizend zuchten kon ik die eerst weêr bekémen.</l>
+						<l>Toen lasterde ik de Goôn, én zwoer voor hun altaar,</l>
+						<l>Hunne eisch nooit toe te staen, ach! Arkas, had ik maar</l>
+						<l>Die éd’le drift gevélgd! ’k wou ’t heir straks op doen bréken.</l>
+						<l>Ulisses, nimmer onvoorzien van slimme streeken,</l>
+						<l>Scheen ’t mé te stémmen, én gaf dus, door zyn beleid</l>
+						<l>In ’t eerst, de volle toom aan myn oploopendheid.</l>
+						<l>Maar haast hérvattende zyn wreede schranderhéden,</l>
+						<l>Vertoonde hy my de eer, het Vaderland, myne eeden,</l>
+						<l>’t Heir, zo veel Kóningen, waar van ik was het Hoofd,</l>
+						<l>Het Aziaansch gebied aan Griekenland beloofd,</l>
+						<l>En hoe ik zonder naam verachtelyk zou leeven</l>
+						<l>Zó ik myn kind niet voor de Staat wilde óvergeeven.</l>
+						<l>’k Bekén, hoe zeer myn ziel daar tégen was gekant,</l>
+						<l>De zucht tot heerschen kreeg op my noch de óverhand,</l>
+						<l>Die trótze naam van Vórst der Vórsten, Hoofd der Grieken,</l>
+						<l>Al ré de waereld door gedraagen op de wieken</l>
+						<l>Der faame, kittelde mijn zwak hoogmoedig hart.</l>
+						<l>De Goôn zélf hébben my tot meerd’ring myner smart,</l>
+						<l>Als naauw een lichte slaap beschooten had myne oogen,</l>
+						<l>Hun récht handhavende, myn avréchts médedoogen</l>
+						<l>Verweeten, nacht op nacht, my dreigende te slaan</l>
+						<l>Mét hunne bliksem, zó ik, doof op hun vermaan,</l>
+						<l>Wilde ongehoorzaam zyn, én langer tégenstreeven.</l>
+						<l>Ach! Arkas: op het laatst moest ik my overgeeven.</l>
+						<l>Beleezen door de schrand’re Ulisses gaf ik last,</l>
+						<l>Al schreijende, om myn kind op te óffren; maar wat was’t!</l>
+						<l>Ik moest zelf zonder schyn van haar’er my te ontfarmen,</l>
+						<l>Myn waerde Ifigenie, eilaas! haar Moeders armen</l>
+						<l>Ontrukken; ’k héb haar door een snoode vond misleid;</l>
+						<l>My van Achilles naam, én zyn genégenheid</l>
+						<l>Gediend, om haar daar door te doen in ’t léger komen;</l>
+						<l>Ik schreef haar, dat die Héld zyn drift niet kon betoomen;</l>
+						<l>Dat hy, gedwongen te vertrékken, eerst mét haar</l>
+						<l>Zich wou verbinden, door het huwlyk, voor ’t altaar.</l>
+					</sp>
+					<sp who="#arkas">
+						<speaker>ARKAS.</speaker>
+						<l>Gy schynt Achilles, nóch ’s Hélds ongeduld te vreezen;</l>
+						<l>Maar meent ge, dat hy stil, én wél te vreên zal weezen?</l>
+						<l>Dat hy, gewaapend door de liefde, én réden, voort</l>
+						<l>Zal toestaan, dat zyn naam misbruikt wérd tót die moort!</l>
+						<l>Zal hy zyn minnaarés zien slagten voor zyne oogen?</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMEMNON.</speaker>
+						<l>Zyn afzyn had me uit nood tot dat besluit bewoogen.</l>
+						<l>Zyn vader, vreezende een buurvyand, had zyn zoon</l>
+						<l>Achilles, als gy weet, t’ huis uit het heir ontboôn.</l>
+						<l>’t Is u heel wél bewust. Na alle schyn van réden</l>
+						<l>Vereischte zulk een kryg vry langer bézighéden.</l>
+						<l>Maar: wie stut eene stroom, die mét een snéllevloed</l>
+						<l>Het alles óverloopt, én vélt wat haar ontmoet?</l>
+						<l>Achilles gaat ten stryde, én véllende onderweege,</l>
+						<l>Al wat hém weêrstand biedt, keert met gewénschte zeege,</l>
+						<l>En vólgende op de voet ’t gerucht van zijne daân,</l>
+						<l>Kwam hy hier gist’ren mét de nacht in ’t léger aan.</l>
+						<l>Maar stérker banden zyn ’t die my mijne armen binden:</l>
+						<l>Myn kind, dat hérwaards* komt, én hier haar dood zal vinden,</l>
+						<l>Schoon zy ze niet verwacht; wiens hart zich willig buigt,</l>
+						<l>Na myne wil, én nu licht om myn goedheid juigt;</l>
+						<l>Myn dochter... ach! die naam, die me aan haar houd verbonden</l>
+						<l>Mét zulk een heilig récht, die naam te zien geschonden!</l>
+						<l>Haar Jonkheid, noch myn bloed beklaag ik niet alleen,</l>
+						<l>Maar duizend deugden, én een zucht zo ongemeen,</l>
+						<l>Die ’k haar altyd aan my haar vader zag betoonen,</l>
+						<l>En die ik had beloofd haar béter te beloonen.</l>
+						<l>O neen! ’k zal nimmermeer gelooven, groote Goôn!</l>
+						<l>Uw wil te weezen; dat men u die maagd zal doon.</l>
+						<l>Neen, gy beproeft me sléchts mét myne ziel te ontroeren,</l>
+						<l>Maar zoudme straffen, durfde ik uwe last volvoeren.</l>
+						<l>’k Héb u tot dit geheim gekooren; Arkas, gy</l>
+						<l>Moet nu uw yver, gy moet uw getrouwheid my</l>
+						<l>Betoonen. Gy hebtze aan de Koningin beweezen</l>
+						<l>Te Sparte, én zyt door haar in hooge staat gereezen.</l>
+						<l>Neem déze brief, ontmoet terstont de Koningin.</l>
+						<l>En slaa de wég, die op Mysénen aanloopt, in.</l>
+						<l>Ga heen; én als gy hébt de Koningin vernoomen,</l>
+						<l>Voldoe terstond uw last, belét haar ’t herwaards komen.</l>
+						<l>Laat iemand, dien de wég bekénd is, mét u gaan,</l>
+						<l>Op dat gy haar niet mist. ’t Is mét myn kind gedaan,</l>
+						<l>Indienze in Aulis komt. ’k Zie Kalchas op haar wachten,</l>
+						<l>Die meerder zal de Goôn, als onze traanen achten.</l>
+						<l>Hy, tégens ons, om myn kleinmoedigheid, verstoord,</l>
+						<l>Zal door het driftige vólk alleen maar zyn gehoord.</l>
+						<l>En zy, die tót hun leed myn hoog gezag gedoogen,</l>
+						<l>En aanzien myn geluk mét warsche en nydige oogen,</l>
+						<l>Zy, wélkers heerschzucht door myn roem verbitterd wordt,</l>
+						<l>Verlangen my te zien verlaagd, én neêr gestort.</l>
+						<l>Ga, wil haar tót een schild voor myne zwakheid strékken;</l>
+						<l>Maar door geen domme drift, noch yver haar ontdékken</l>
+						<l>Het doodelyk geheim, dat ik u héb ontkleed.</l>
+						<l>Maakt datze nimmer van dat gruwlyk opzét weet.</l>
+						<l>Tracht* my ’t verwyten van een moeder voor te kómen,</l>
+						<l>Van dulheid, om een stuk zo schéndigh ingenoomen.</l>
+						<l>Gelyk als ik haar schryf, dient gy te spreeken; want</l>
+						<l>Om Klytémnéstra, én myn dóchter van de hand</l>
+						<l>Te zénden, schryf ik, dat Achilles is van zinnen</l>
+						<l>Veranderd, dat hy schynt te wank’len in het minnen;</l>
+						<l>Dat hy haar huwelyk, in ’t eerst zo zeer begeerd,</l>
+						<l>Uitstéllen wil, tót hy van Tróje wéderkeert.</l>
+						<l>Zég vórder, dat de Jonge Erifilé mét réden</l>
+						<l>De grootste schuld draagt van zyn onstandvastighéden.</l>
+						<l>Zy die in Lésbós door Achilles wierd gespaard;</l>
+						<l>En die nu te Argós by myn dóchter wordt bewaard.</l>
+						<l>Dits haar genoeg gezégd. Het óv’rig moetmen Zwygen,</l>
+						<l>Ik zie de zon begint reeds hooger op te stygen.</l>
+						<l>Ik hoor gerucht. Vertrék, én haast u, Arkas, ga.</l>
+						<l>Góôn! ’t is Achilles, én Ulisses vólgt hém na.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>TWÉDE TOONEEL.</head>
+					<stage>AGAMÉMNON, ACHILLES, ULISSES, NÉSTOR, PATROCLUS.</stage>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>HEeft u ’t geluk, myn heer, zo haast doen zeegepraalen?</l>
+						<l>Is ’t moogelyk dat men u als winnaar mag onthaalen?</l>
+						<l>Zyn dit de proeven van uwe eerst opgaande moed?</l>
+						<l>Wat vólgen u in ’t kort triomfen op die voet!</l>
+						<l>Téssalien alreê bevrédigd, én verwonnen?</l>
+						<l>Ja Lésbós zélf, myn heer? wie zou ’t gelooven konnen?</l>
+						<l>Een ander wierd daar door in Eeuwigheid vermaard?</l>
+						<l>En ’t is maar tyd verdryf voor héld Achilles zwaard?</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Myn heer, zo slecht een winst moet minder zyn gepreezen;</l>
+						<l>Indien de Hémel ons eens gunstig wilde weezen,</l>
+						<l>’k Zag haast een ruimer véld geópend voor myn moed,</l>
+						<l>Ontsteeken door het loon, dat gy my hoopen doet</l>
+						<l>Maar, ’k hoor zich midlerwyl een blyde maar verspreijen,</l>
+						<l>Daar op het onverwachtst myn ziel zich mé mag vleijen.</l>
+						<l>Gunt gy me dan, dat ik myns hartens hoogste wénsch</l>
+						<l>Haast door de trouw verkryg, én zy de blydste ménsch</l>
+						<l>Van alle ménschen? hébtge uw dóchter hier ontbóden</l>
+						<l>Om haar aan my te doen verbinden voor de Góden?</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Myn dóchter! hoe, myn heer, wie heeft u dat gezeid?</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Myn heer, wat maakt uw geest zó vol verlégenheid?</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON. tégens ULISSES.</speaker>
+						<l>Geréchten Hémel! zou hy van myn vond wél weeten?</l>
+					</sp>
+					<sp who="#ulisses">
+						<speaker>ULYSSES.</speaker>
+						<l>Heer; Agamémnon is mét reên van schrik bezeeten.</l>
+						<l>Dénkt gy wel aan ’t gevaar dat ons te zaamen dreigt?</l>
+						<l>En zytge in zulk een tyd tót minnen nóch geneigd?</l>
+						<l>ô Goôn! terwyl de zé voor ons blyft toeslooten,</l>
+						<l>Dat Griekenland beroert; het léger én de vlooten</l>
+						<l>Verzwakt, én dat we, eilaas! tot blussing van de gloed</l>
+						<l>Der gramschap van de Goôn, licht van het édelst bloed,</l>
+						<l>Ja van het waerdigste aan hén zullen moeten geeven,</l>
+						<l>Schynt gy alleen tot liefde, én huwen aangedreeven?</l>
+						<l>Zyt gy ’t alleen, die mét des hémels gramschap spót?</l>
+					</sp>
+					<sp who="#néstor">
+						<speaker>NÉSTOR.</speaker>
+						<l>Hoe, wiltge dat het hoofd der Grieken ’t stuure lót</l>
+						<l>Nóch térge, door de pracht van Huwelyks sieraaden</l>
+						<l>En vreugde feesten, om in wellust zich te baaden?</l>
+						<l>Myn heer, hoe, gaat u ’t leed der algemeene druk</l>
+						<l>Niet meer aan ’t hart? acht gy zo weinig ’t ongeluk</l>
+						<l>Der Grieken? Zult ge dus het Vaderland beminnen?</l>
+						<l>Zyt gy Achilles nóch, myn heer? waar zyn uw zinnen?</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Voor Troje zullen wy doen zien door onze daân,</l>
+						<l>Wie van ons ’t Vaderland meest zal ter harten gaan.</l>
+						<l>Zoo lang vergun ik u uw yver uit te meeten.</l>
+						<l>Ga, bid de Goôn; én om hun raad besluit te weeten,</l>
+						<l>Doet ófferhanden, ga, wroet mét uw eigen hand</l>
+						<l>In ’t bloed der beesten, én doorzoek hun ingewand.</l>
+						<l>Ziet óf ge de oorzaak van het stille staan der winden</l>
+						<l>Daar uit bespeuren kunt, daar in weet uit te vinden,</l>
+						<l>Wyl ik me op Kalchas, wat die zórg belangd, verlaat.</l>
+						<l>Maar gy myn heer, wien myn geluk ter harte gaat.</l>
+						<l>Vergunme dat ik mooge een huwelyk voltrékken,*</l>
+						<l>Dat nimmermeer de Goôn tót gramschap zal verwékken.</l>
+						<l>Myn brandende oorlogs moed, die my nooit laat in rust</l>
+						<l>Zal my eerlang weerom doen zyn aan déze kust.</l>
+						<l>Het waar my eeuwig schand dat iemand op de stranden</l>
+						<l>Der Trojeren, voor my zou ’t eerst bestaan te landen.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Waarom, ô Hémel! sluit gy ’t Frigiaansche véld</l>
+						<l>Door een verborge nyd voor zulk een dapper héld!</l>
+						<l>’k Zag u dat édel vier in hém dan niet verwékken,</l>
+						<l>Als om mét meêr verdriet weêr vruchtloos wég te trékken.</l>
+					</sp>
+					<sp who="#ulisses">
+						<speaker>ULYSSES.</speaker>
+						<l>Wat hoor ik? groote Goôn!</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Wat zégtge, hoe myn heer?</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Dat wy, ô Prinsen! weér na Grieken moeten, eer</l>
+						<l>Wy ’t ons beklaagen: wy in onze hoop bedroogen,</l>
+						<l>Vertoeven hier te lang. De Goôn zijn onbewoogen,</l>
+						<l>En staan voor Troje, uit al de tékens die we zien,</l>
+						<l>Blykt klaarlyk dat zy ons de wég daar heen verbiên.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Myn heer, wat tékens heeft men van der Góden tooren?</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Gedénk, wat u door hén van ’t noodlót is beschooren.</l>
+						<l>Waar toe zich zélf gevleid? men weet hoe Trojens wal</l>
+						<l>Alleen door u gebragt zal worden tót de val.</l>
+						<l>Maar, ach! die lauw’ren, én dat heerlyk zeegepraalen</l>
+						<l>Zult gy met uwe dood, én dierbaar bloed betaalen.</l>
+						<l>Daar zal uws leevens blom, die élders lang zou staan,</l>
+						<l>Haast wérden afgemaaid, én in haar lént vergaan.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Zal een verzaamde magt van zo veel braave heeren</l>
+						<l>Met onuitwisb’re hoon dan weêr te rugge keeren?</l>
+						<l>En Paris, vol van vreugd, na ’t schénden van de trouw,</l>
+						<l>Genieten, zonder schroom, de zuster van uw vrouw?</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Heeft uwe dapperheid, die ons is voorgekomen,</l>
+						<l>Voor Menelaus nóch niet wraaks genoeg genomen!</l>
+						<l>Hoe, hébt ge Lésbós niet veróvert mét gewéld?</l>
+						<l>En heeft die ramp niet heel de égeesche zé ontstéld?</l>
+						<l>Heeft niet het bange Troje aan zyn verbaasde stranden.</l>
+						<l>De dooden, én het puin van Lésbós aan zien landen?</l>
+						<l>Een and’re Hélena beweent het, die gy vond</l>
+						<l>Op Lésbós, én gevaân straks na Mysénen zond.</l>
+						<l>Die jonge schoonheid wil vergeefs haar staat bedekken;</l>
+						<l>Haar fierheid is ’t die haar verraadt door de éd’le trékken</l>
+						<l>Van ’t weezen; ’t zwygen zélfs ontdékt haar édel bloed,</l>
+						<l>En toont ons, dat men haar niet minder achten moet</l>
+						<l>Als een doorluchtige Prinsés.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l> Vergeefs hébtge uitgevonden</l>
+						<l>Die reên, gy wilt te diep ’t geheim der Goôn doorgronden</l>
+						<l>Zou dan dat dreigen my weêrhouden? Zou my de eer</l>
+						<l>Die ik te wachten héb doen vlieden? neen myn heer.</l>
+						<l>’t Is waar toen moeder tót haar bruigom had verkooren</l>
+						<l>Een stérflyk ménsch dat haar gespéld wierd van te vooren</l>
+						<l>Hoe ik kon kiezen, lang te leeven, ongeacht;</l>
+						<l>Of weinig, maar tót roem van my, én myn geslagt.</l>
+						<l>Wél, wyl ik eindlyk tóch in ’t graf moet nédervaaren,</l>
+						<l>Waar toe myn leeven, dat veracht zou zyn te spaaren?</l>
+						<l>En ’t Gódenbloed een wyl sléchs te verschoonen; om</l>
+						<l>Te wachten in myn land een eerlooze ouderdom.</l>
+						<l>Zou ik, om ’t leeven te behouden; eerloos stérven?</l>
+						<l>En hier benéden geen de minste naam verwérven?</l>
+						<l>Zó snoode zwakheên zyn een groote ziel onwaard.</l>
+					</sp>
+					<sp who="#patroklés">
+						<speaker>PATROCLUS.</speaker>
+						<l>De eer spreekt hier, dat ’s genoeg: geen Gódspraak, hoe vermaard,</l>
+						<l>Erkén men meer, als die. ’t Is waar dat onze dagen</l>
+						<l>Staan in der Góden magt én aan hun wélbehaagen;</l>
+						<l>Maar, de eer, myn Heer, die wy behaalen hier beneên,</l>
+						<l>Bestaat in onze handt, én dapperheid alleen.</l>
+						<l>Wat kwéllen wy ons dan met die geheime zaaken:</l>
+						<l>Laat ons ons zelf, gelyk als zy, onsterflyk maaken:</l>
+						<l>En, laatende het lót begaan, heen streeven, daar</l>
+						<l>De dapperheid zó groot een heil ons na ’t gevaar</l>
+						<l>Belooft, gelyk als zy bezitten.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Dat ’s te vinden</l>
+						<l>Voor Tróje; ik zal die tócht my dérwaarts onderwinden.</l>
+						<l>Ja, wat men my voorspélle uit droom, óf wich’lery,</l>
+						<l>’k Bid van de Góden slêchts een goede wind, die my</l>
+						<l>Daar spoedig heene voer; al moest ik ’t magtig Trójen</l>
+						<l>Alleen belégeren, én ’t werk alleen voltoojen;</l>
+						<l>Ik bén, mét Patroclus, gereet tót uwe wraak.</l>
+						<l>Maar, neen, ’t lót lévert het in uwe hand, Ik haak</l>
+						<l>Alleen na de eer om u in de eerbaan na te vólgen,</l>
+						<l>Het is de liefde niet die my dus maakt verbólgen;</l>
+						<l>’k Bid u niet, myn vertrék, én huwlijk toe te staan;</l>
+						<l>Uw roem verpligt me ’t heir kloekmoedig voor te gaan:</l>
+						<l>’k Sta na de zeege zélf ten kóste van myn leeven.</l>
+						<l>Vooral verbiedme uw roem u héden te begeeven;</l>
+						<l>Op dat de laffe raad, die élk volmondig uit</l>
+						<l>Uw hart niet brénge tót een schandelyk besluit:</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>DÉRDE TOONEEL.</head>
+					<stage>AGAMÉMNON. ULISSES.</stage>
+					<sp who="#ulisses">
+						<speaker>ULYSSES.</speaker>
+						<l>GY hoort, hoe hy zyn reis na Tróje voort wil zétten,</l>
+						<l>In spyt der Goôn, schoon ’twind, én wéder hém belétten,</l>
+						<l>Wy vreesden zyne min, én hy geeft, onbedacht,</l>
+						<l>Door zyne liefde aan ons voorneemen klém én kracht</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Hélaas!</l>
+					</sp>
+					<sp who="#ulisses">
+						<speaker>ULYSSES.</speaker>
+						<l>Wat moet ik uit zoo zwaaren zucht besluiten?</l>
+						<l>Begint in u hét bloed zich tégens u te muiten?</l>
+						<l>Hoe, heeft een nacht u zoo verandert van gemoed?</l>
+						<l>Of is ’t uw vaders hart, dat u dus zuchten doet?</l>
+						<l>Bedénk u wél, gy zyt den Griek u Dóchter schuldig;</l>
+						<l>Gy hébtze aan ons beloofd; én yder heeft zorgvuldig;</l>
+						<l>Geluisterd na het geen hén Kalchas heeft voorzégt;</l>
+						<l>Die op uw woord hét vólk ontwyfelbaar berécht,</l>
+						<l>Dat haast na onze wénsch de winden keeren zullen.</l>
+						<l>Zó Agamémnon nu zyn woord niet wil vervullen;</l>
+						<l>En oorzaak is, dat hy bespót word óveral.</l>
+						<l>Meent gy dat Kalchas dan nóch langer zwygen zal?</l>
+						<l>De Goôn doen liegen, én u niet van schuld betichten,</l>
+						<l>Dewyl gy weigert uw belóften te verrichten?</l>
+						<l>Wat weet men, waar het vólk, door hunne woede ontroed,</l>
+						<l>Van hém voor goed gekeurt, niet licht word toevervoerd.</l>
+						<l>Dies wacht u wél, myn Heer, het hóllend graauw te ontstéllen:</l>
+						<l>’t Moet tusschen ’t Gódendom én u geen vonnis véllen.</l>
+						<l>Zyt gy het niet myn Heer, die ons door kracht van reên,</l>
+						<l>Na Xanthus vélden toegeroepen hébt by een?</l>
+						<l>Die zélf van Stad tót Stad aan ons vernieuwde de eeden</l>
+						<l>Die al de minaars van Héleên voor heenen deeden.</l>
+						<l>Toen al de Grieken, élk om ’t zeerst, én yvrigst haar,</l>
+						<l>Naast Menelaus, ook verzóchten van Tyndaar.</l>
+						<l>En wy, wie ook die schoone als bruid ontfing in de armen,</l>
+						<l>Zyn réchten zwoeren, als onze eigen te bescharmen.</l>
+						<l>Ja, zoo moedwillig hém die bruid ooit wierd ontroofd,</l>
+						<l>Wy hém beloofden tót zyn wraak dés schaakers hoofd.</l>
+						<l>Maar, zoumen zonder u, die eed, door liefde ontsteeken</l>
+						<l>Gedaan, wél houden, nu die drift lang is geweeken?</l>
+						<l>Gy, rukkende ons uit de eerst begonnen huwlyks vreugd,</l>
+						<l>Hebt ons verlaaten doen, in ’t blaakenste onzer jeugd,</l>
+						<l>En vrouw, én kinderen; én nu om u te wreeken</l>
+						<l>Die éd’le drift komt uit ons aller oogen breeken,</l>
+						<l>Nu Griekenland u heeft gegeeven d’oppermagt;</l>
+						<l>Nu ieder u voor ’t hoofd van déze krygstócht acht;</l>
+						<l>En al de Vórsten, élk zo groot een aanzien waerdig,</l>
+						<l>Hun’ bloed niet spaaren om u dienst te doen, én vaardig</l>
+						<l>Tot uwe wraak zyn; nu ontbreekt het u aan moed,</l>
+						<l>En gy durft zulk een eer niet koopen voor wat bloed!</l>
+						<l>Ja, laatende uw gemoed van laffe schrik verheeren,</l>
+						<l>Gebiedge ons niet, als om ons wéder te doen keeren.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Het is niet vreemd, myn heer, dat gy de kloeke maakt,</l>
+						<l>Zó lang de gramschap van de Góden u niet raakt.</l>
+						<l>Maar, zaagt gy uwe zoon geboeid mét óffersnoeren,</l>
+						<l>Gelyk een ófferdier na ’t doodlyk autaar voeren;</l>
+						<l>Men zag u, vol van schrik, besturven van gelaat,</l>
+						<l>Min grootsch, èn minder fier in zulk een droeve staat.</l>
+						<l>Gy zoud, gevoelende de pynen die my drukken,</l>
+						<l>Hém, vol médoogen, zélf uit Kalchas handen rukken.</l>
+						<l>Myn heer, ik héb myn woord gegeeven, én verwacht</l>
+						<l>Myn dóchter; komt zy, ik sta toe dat hy haar slagt.</l>
+						<l>Maar, zó het lót de dood myns kinds niet wil gehéngen,</l>
+						<l>En haar belét haar reis na Aulis te volbréngen;</l>
+						<l>Sta toe, dat ik my van dat blyd belétzel dien,</l>
+						<l>En vérg my niet dat ik haar vérder zal gebien.</l>
+						<l>Vergun me een Gód die zórg draagt voor myn dóchters leeven,</l>
+						<l>Zyn hulp te omhélzen, én geenzins te wéderstreeven.</l>
+						<l>Gy weet, myn heer, uw raad verstréktme een wét én lés.</l>
+						<l>’k Word rood.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>VIERDE TOONEEL.</head>
+					<stage>AGAMÉMNON, ULISSES, EURIBATÉS.</stage>
+					<sp who="#euribatés">
+						<speaker>EURIBATÉS.</speaker>
+						<l>MYn heer...</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Helaas! wat bréngt Euribatés?</l>
+					</sp>
+					<sp who="#euribatés">
+						<speaker>EURIBATÉS.</speaker>
+						<l>De Koningin is mét haar dóchter aangekomen.</l>
+						<l>Zy nad’ren hérwaaards, én zy zyn als opgenomen</l>
+						<l>Van vreugd. Een weinig tyds is zy verdwaald geweest</l>
+						<l>In ’t bosch, dat de ingang schynt na ’t heir te sluiten, meest</l>
+						<l>Door duisternis der schaauw verleid; dóch zy verleegen</l>
+						<l>Heeft weêr met moeite in ’t énd de réchte wég gekreegen.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>ô Hémel!</l>
+					</sp>
+					<sp who="#euribatés">
+						<speaker>EURIBATÉS.</speaker>
+						<l>Zy bréngt ook de Jonge Erifilé,</l>
+						<l>Die Lésbós léverde in Achilles handen, mé.</l>
+						<l>En hérwaards komt, om van haar lót, én van haar maagen,</l>
+						<l>Diezy niet ként, nóch weet, hier Kalchas te ondervraagen.</l>
+						<l>De maar van haare komst is reeds alom verspreid:</l>
+						<l>De krygsliên staan verrukt door haar bevalligheid.</l>
+						<l>Ifigenia, die het oog van alle ménschen</l>
+						<l>Bekoort door haare schoonte, ontfangt élks zégewénschen,</l>
+						<l>De een hoop omringt Mevrouw, mét eerbiede én ontzag,</l>
+						<l>En de and’re vraagt my wat haar komst bedieden mag.</l>
+						<l>Bekénnende al te zaam eenpaarig, dat voor dézen</l>
+						<l>Geen Kóning van de Goôn wierd zo veel gunst beweezen.</l>
+						<l>Dat nimmer vader, zó volmaaktelyk bestraalt</l>
+						<l>Van hun verbórge gunst, by uw gelukken haalt.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>’t Is wél, laat ons alleen; ’k zal zien wat voorts de zaaken</l>
+						<l>Vereisschen zullen, wyl het óv’rig my zal raaken,</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>VYFDE TOONEEL.</head>
+					<stage>AGAMÉMNON, ULISSES.</stage>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>’t IS dan vergeefs, ô Goôn! én uw voorzienigheid</l>
+						<l>Verzékert uwe wraak, verydelt myn beleid.</l>
+						<l>Mogt ik ten minsten in myn ongeluk myn klagten</l>
+						<l>Vry uiten; én myn pyn door schreijen wat verzachten?</l>
+						<l>Wreed lót der Kóningen! wy zyn maar slaaven van</l>
+						<l>Het lós geval, én ’t geen de nyd verzinnen kan.</l>
+						<l>Die vaak belét, wyl zy steedts heeft op ons haare oogen,</l>
+						<l>Dat de allerdroevigste het minste weenen moogen.</l>
+					</sp>
+					<sp who="#ulisses">
+						<speaker>ULYSSES.</speaker>
+						<l>Myn Heer, weet dat ik ook een vader bén als gy.</l>
+						<l>Myn hart gevoelt zich zélf niet van uw droefheid vry,</l>
+						<l>Ja, beevend voor de slag die u met récht doet zuchten,</l>
+						<l>Wraak ik uw traanen, nóch onlydelyke ongenuchten.</l>
+						<l>Ik deel in uwe élénde, én schrey mét u; maar heer</l>
+						<l>Uw liefde heeft voortaan geen wéttige onschuld meer.</l>
+						<l>De Góden lév’ren haar hier zélf aan Kalchas; Héden</l>
+						<l>Verwacht hy haar, én zal, vertoefze voort te treeden</l>
+						<l>Haar zélf met luider stém u komen eisschen; maar</l>
+						<l>Wy zyn hier nóch alleen, schrey, schrey, maar haastig, spaar</l>
+						<l>Geen tranen, uitgeparst door zulk een teer belangen.</l>
+						<l>Beween uw bloed vry, ween, ontlast uw hart van ’t prangen:</l>
+						<l>Of liever, zonder te verand’ren van gelaat,</l>
+						<l>Bezéf wat eer dat u hier van te wachten staat.</l>
+						<l>Zie heel de héllespond beslagen met uw’ kielen,</l>
+						<l>En ’t heilloos Tróje door het vuur der wraak vernielen.</l>
+						<l>Haar burgers fél geboeid; Vórst Priamus ter neer</l>
+						<l>Geboogen; Hélena aan Menelaüs weêr</l>
+						<l>Geléverd. Zie uw vloot, bekranst mét lauwerieren,</l>
+						<l>Terwyl van mast, én sténg de zeegewimpels zwieren,</l>
+						<l>Al triomfeerende hier wéderom gekeerd,</l>
+						<l>En als verwinnaar u van ieder een geëerd.</l>
+						<l>De roem, ô Vórst van zulk een heerlyk zeegepraalen,</l>
+						<l>Zal de nakómeling eeuw uit, eeuw in verhaalen.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Ik geef het op, myn Heer, én laat de Góôn begaan</l>
+						<l>In ’t woeden op een maagd, die hén niet heeft misdaan.</l>
+						<l>Verwacht haar. Kalchas zwyg. Hélpme ook, als een vertrouwde,</l>
+						<l>Op dat ik myne Vrouw mét list van ’t outer houde.</l>
+					</sp>
+					<p>Einde van het Eerste bedryf.</p>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<head>TWEEDE BEDRYF.</head>
+				<div type="scene" n="1">
+					<head>EERSTE TOONEEL.</head>
+					<stage>ERIFILÉ DÓRIS.</stage>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>BElétten wy haar niet, neen Dóris, gaanwe, kom;</l>
+						<l>Laat haar in de armen van een waerde bruydegom,</l>
+						<l>En Vader; én terwyl haar liefde zal hérleeven,</l>
+						<l>Laat ons haar vreugde, én myn verdriet eens vryheid geeven.</l>
+					</sp>
+					<sp who="#dóris">
+						<speaker>DÓRIS.</speaker>
+						<l>Mevrouw, hoe, zultge dan in alles wat gy ziet,</l>
+						<l>Gelooven nieuwe stóf te vinden tot verdriet.</l>
+						<l>’t Is buiten twyfel dat het al mishaagt aan de oogen</l>
+						<l>Van een’ gevangene, én dat die nooit vreugd gedoogen.</l>
+						<l>Maar in die tyd wanneer Achilles, óver zé,</l>
+						<l>Van Lésbós keerende, u uws ondanks sleepte mê;</l>
+						<l>Wanneer gy in zyn schip gevangen wierd gehouwen,</l>
+						<l>Dien óverwinnaar voor uwe oogen moest aanschouwen;</l>
+						<l>Mevrouw, toen zag men in uw oog niet eene traan;</l>
+						<l>Toen waert gy minder om uw ongeluk begaan.</l>
+						<l>En tégenwoordig zietge uw heil op nieuws beginnen,</l>
+						<l>Ifigenia, die ge u téder ziet beminnen,</l>
+						<l>Beklaagt u, én is zó tót u genégen, dat</l>
+						<l>Ge in Trojen nooit zulk goed onthaal te hoopen had.</l>
+						<l>Ja ’t luste u Aulis te bezien, daar zy ontboden,</l>
+						<l>Na toe verreisde, én tót de meêreis u kwam nooden.</l>
+						<l>Gy zyt er, maar ik zie élk oogenblik uw smart</l>
+						<l>Vermeerderen; Wat drukt, wat weegt u dus op ’t hart?</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Gelooftge, Dóris, dat Erifilé zou kunnen</l>
+						<l>Haar vreugd aanschouwen, én stilzwygend haar die gunnen.</l>
+						<l>Gelooftge dat ik zou verbannen myne druk</l>
+						<l>Daar ik het minste deel niet héb in haar geluk?</l>
+						<l>’k Zie haar in de armen van haar Vader, én behoeder:</l>
+						<l>Ze is al de hovaárdy van eene trótze moeder:</l>
+						<l>Daar my geduuriglyk het noodlót viel zo straf,</l>
+						<l>Dat ik by vreemde moest, van myne kindsheid af,</l>
+						<l>Omzwérven. Hoe ontfing ik dit rampzalig léven!</l>
+						<l>Nooit hébben ouders my een zoete lonk gegeeven.</l>
+						<l>Ik weet niet wie ik bén; én tót vermeerdring van</l>
+						<l>Myn ramp, ô schrik! zégt my de Gódspraak, dat ik dan</l>
+						<l>Wanneer ik weeten zal van wie ik bén gebooren,</l>
+						<l>Als ik my kénnen zal, voor zéker ga verlooren.</l>
+					</sp>
+					<sp who="#dóris">
+						<speaker>DÓRIS.</speaker>
+						<l>Neen, Neen, gy moet uw lót naauw onderzoéken, dwaal</l>
+						<l>Niet in de Gódspraak, die schépt lust in duist’re taal.</l>
+						<l>Haar dubb’le zin, schynt nu te vleijen, dan te dreigen;</l>
+						<l>Licht zult ge uw valsche naam kwyt raaken voor uwe eigen.</l>
+						<l>Dit is alleen ’t gevaar dat u te wachten staat;</l>
+						<l>Licht is ’t op deze wys dat gy verlooren gaat,</l>
+						<l>Dénk dat gy anders wierd in uwe jeugd geheeten.</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Dit ’s alles wat ik van myn lót héb kunnen weeten:</l>
+						<l>Uw Vader, maar alleen bewust van ’t óvrig, is ’t,</l>
+						<l>Die nooit gewilt heeft, dat ik meerder daar van wist.</l>
+						<l>Ach! in dat Tróje daar men myne komst verwachte,</l>
+						<l>Zoude ik myne eer weêr zien hérstéld, én myn geslachte</l>
+						<l>Récht kénnen; ’k was op wég, én schatte in myn gemoed,</l>
+						<l>Alreeds myne afkomst van der grootste Vórsten bloed,</l>
+						<l>Alreeds begon ik die beroemde stad te ontdékken,</l>
+						<l>Wanneer Achilles kwam in ’t eiland Lésbós trékken.</l>
+						<l>’t Bezweek daar alles voor zyn magt, uw Vader kwam</l>
+						<l>In ’t stryden om, terwyl men my gevangen nam.</l>
+						<l>En, ach! onkundig aan myn zélve, én van myn staaten,</l>
+						<l>Waar van hy my zo zoet een hoop had nagelaaten,</l>
+						<l>Hield ik, slavin des Grieks, niet als de fierheid van</l>
+						<l>Een bloed, dat, tot myn leed, ik niet bewyzen kan.</l>
+					</sp>
+					<sp who="#dóris">
+						<speaker>DÓRIS.</speaker>
+						<l>Helaas! Mêvrouw, wat kwam die hand u wreed te vooren,</l>
+						<l>Waar door gy zulk een trouw getuige hébt verlooren!</l>
+						<l>Maar Kalchas is alhier, die Kalchas, zo vermaard;</l>
+						<l>Wien ’t Gódendom al zyn geheimen ópenbaart.</l>
+						<l>Mét wien de Hémel spreekt; waar van hy onderweezen</l>
+						<l>Weet wat geschieden zal, én is geschiedt voor dézen.</l>
+						<l>Zou hy onkundig zyn, uit wien gy sproot? gy vindt</l>
+						<l>Hier niemand, die niet gaarn zich alles onderwindt</l>
+						<l>Tot uwe dienst. Haast zal Ifigenia trouwen</l>
+						<l>Mét haar Achilles, zy zal haar belóften houwen;</l>
+						<l>En hy op haar verzoek u zyn beschérming biên,</l>
+						<l>Als de eerste proef die zy wil van zyn liefde zien.</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Wat zoud gy zeggen, zo van al myn droeve plaagen,</l>
+						<l>Dit huwelyk alleen my ’t zwaarste valt te draagen?</l>
+					</sp>
+					<sp who="#dóris">
+						<speaker>DÓRIS.</speaker>
+						<l>Mevrouw!</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Gy staat verzét, dat ik zo droef te môe,</l>
+						<l>Na geen vertroosting hoor, maar Dóris, luister toe,</l>
+						<l>Hoe ’t mooglyk is, dat ik nóch leef in myne élénde.</l>
+						<l>Ach! een gevangene te zyn, eene onbekénde,</l>
+						<l>Een vreemde is weinig. Die verwoester onzer wal,</l>
+						<l>Achilles, de oorzaak van ons beider ongeval;</l>
+						<l>Die me als gevangene wég voerde, én my daarbóven</l>
+						<l>Uw vader, myne stam, én al myn hoop kwam rooven,</l>
+						<l>Wiens naam ons niet als stóf tót schrik én afkeer geeft,</l>
+						<l>Behaagt myn oog, het meest van alles wat ’er leeft.</l>
+					</sp>
+					<sp who="#dóris">
+						<speaker>DÓRIS.</speaker>
+						<l>ô Goôn! wat zégt ge?</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Ik héb vergeefs my willen streelen,</l>
+						<l>’k Héb door stilzwygenheid myn zwakheid willen heelen.</l>
+						<l>Dóch ’t hart, te zwaar gedrukt, én ’t wélk geen veinzen lyd,</l>
+						<l>Spreekt nu, maar om daar na te zwygen voor altyd.</l>
+						<l>Vraag niet op wélk een hoop, op wélk een vast betrouwen,</l>
+						<l>Ik héb de grond van zulk een liefde kunnen bouwen.</l>
+						<l>’k Wil niet beschuldigen ’t geveinsd médoogen, daar</l>
+						<l>Achilles me in myn ramp mê zócht te troosten; maar</l>
+						<l>De hémel schépt vermaak in eeuwig my te plaagen,</l>
+						<l>En wil my al ’t gewigt van haare haat doen draagen.</l>
+						<l>Zal ik hérdénken die verschrikkelyke dag,</l>
+						<l>Toen ik ons beide, eilaas! in boejens kluistren zag?</l>
+						<l>Ach! ik lag langen tyd bezweeken in de handen</l>
+						<l>Van myn verwinnaar, die myn vryheid ley aan banden.</l>
+						<l>In ’t eind’ weêrkrygende het licht in dien alarm,</l>
+						<l>Vond ik my rustende in myn vyands bloedige arm.</l>
+						<l>Ik schrikte, Dóris, én begon terstond te vreezen,</l>
+						<l>Dat ik aanschouwen zoude Achilles vreeslyk weezen;</l>
+						<l>’k Trad in zyn schip, vervloek zyn dolheid, én betoon</l>
+						<l>Hém niet als afkeer; Ja, ’k wou hém niet zien. Maar, Goôn!</l>
+						<l>Ik zag hém, én terstond was myne toorn bezweeken.</l>
+						<l>Ik voel, hoe myn verwyt blyft in myn lippen steeken;</l>
+						<l>Ik voel hoe zelf myn hart zich aankant tegen my;</l>
+						<l>’k Vergeet myn gramschap, én doe niet als schreijen; gy,</l>
+						<l>Gy weet, ik vólg de héld dien ik in ’t hart bezinde;</l>
+						<l>En min in Aulis nóch dien ik in Lésbós minde.</l>
+						<l>Ifgenia biedt vergeefs my haare hand,</l>
+						<l>En toegenégenheid; ’k veracht dit onderstand.</l>
+						<l>ô Droeve razerny! wat komt ge in my te werken?</l>
+						<l>’k Aanvaard’ haar hand alleen om myne haat te stérken;</l>
+						<l>Op dat ik zékerder, in déze onstéltenis,</l>
+						<l>Omstoote haar geluk dat my ondraaglyk is.</l>
+					</sp>
+					<sp who="#dóris">
+						<speaker>DÓRIS.</speaker>
+						<l>Wat kan uw haat, wylze onvermogend is, haer deeren?</l>
+						<l>Waar ’t niet veel beter na Myseenen weer te keeren?</l>
+						<l>Ontwyk de smart die u zyn byzyn lyden doet,</l>
+						<l>En doof een vlam die gy tóch steeds verbérgen moet.</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Ik wénschte ’t, maar, wat smart my zou de ziel doorbooren,</l>
+						<l>Als ik Achilles roem alhier zou moeten hooren.</l>
+						<l>’t Lót, dat me voert, waar ’t wil, wou me échter niet ontslaan.</l>
+						<l>Het dwong me inwéndig om na déze plaats te gaan.</l>
+						<l>Het gaf my in, zo ik in Aulis kon geraaken,</l>
+						<l>Ik zou licht myne ramp dén Griek deelachtig maaken;</l>
+						<l>Dat van myn ongeluk wel iets beklyven zou</l>
+						<l>Aan dit gelukkig paar, vereenigd door de trouw.</l>
+						<l>Nu ziet gy dat myn reis niet is uit lust gereezen,</l>
+						<l>Om sléchts te weeten wie myne ouders moogen weezen.</l>
+						<l>Haar trouw zal ’t richtsnoer van myn noodlót weezen; ach!</l>
+						<l>Wordt die volbragt, ik bén verlooren! niets vermag</l>
+						<l>Myn dood te keeren, die zal uit dit huwlyk spruiten,</l>
+						<l>En ik voor eeuwig in het graf myn schand besluiten,</l>
+						<l>Wyl ’t hart geen kundschap van myne ouders meer begeert,</l>
+						<l>Die ik te schandig héb door dwaaze min onteerd.</l>
+					</sp>
+					<sp who="#dóris">
+						<speaker>DÓRIS.</speaker>
+						<l>Ach! hoe beklaag ik u: maar gy moest eerder schroomen.</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>’k Zie Agamémnon mét Ifigenia komen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>TWÉDE TOONEEL.</head>
+					<stage>AGAMÉMNON, IFIGENIA, ERIFILÉ, DÓRIS.</stage>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Myn Heer, waar looptge, ay zég, wat bézigheid verwékt</l>
+						<l>De haast die u aan myne omhélzingen onttrékt?</l>
+						<l>Ik héb myn moeder in haar vreugd niet willen stooren;</l>
+						<l>Mag ik de myne u niet mede op myn’ beurt doen hooren?</l>
+						<l>Aanschouw tóch eens uw kind, myn vader, ay gedoog</l>
+						<l>Dat ook myn vreugde mooge uitschitt’ren voor uw oog.</l>
+						<l>Dat ik u....</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Wél, myn kind, omhéls, omhéls uw vader.</l>
+						<l>Kom dóchter, nimmermeer tróf hém uw liefde nader.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Wat is me uw liefde waard, wat vreugd genieten wy</l>
+						<l>Door u te aanschouwen in uw nieuwe heerschappy.</l>
+						<l>De faam mét uwe magt én grootheid uit de blaazen,</l>
+						<l>Deed ons van vérre alrê verwond’ren, én verbaazen;</l>
+						<l>Maar ziende u van na by, mét glórie overlaân,</l>
+						<l>Vermeerdert myne vreugd, groeit myn verwond’ring aan.</l>
+						<l>Wat heil is ’t Grieken dat het u mag véldheer noemen,</l>
+						<l>Wat vreugde is ’t ons, dat wy op zulk een vader roemen!</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Een veel gelukkiger, zyt gy myn dóchter waard.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Wat schort aan uw geluk? wat is ’t dat u bezwaard?</l>
+						<l>Kan wél een vórst meer heil, óf meer geluk begeeren?</l>
+						<l>’k Dacht nooit de Goôn daar voor genoeg te kunnen eeren.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>ô Hémel! moet ik haar haar lót doen weeten? ach!</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Gy wénd uw aangezigt? gy zucht? wat óf u mag</l>
+						<l>Ontstellen? gy ziet me aan bedroefd? waar wil dit heenen!</l>
+						<l>Zyn wy ook buiten last vertrokken van Mysénen?</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Neen, gy behaagt altyd myne oogen, maar de tyd</l>
+						<l>Is mét de plaats verkeerd; een wreede zórg bestryd</l>
+						<l>Myn zinnen.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>’k Bid, dat gy de zórgen, die u kwéllen</l>
+						<l>Heer vader, tóch zo lang wilt aan een zyde stéllen.</l>
+						<l>’k Voorzie reeds, dat ik lang van u beroofd zal zyn.</l>
+						<l>Schaamt ge u een oogenblik myn vader, (wélk een pyn!)</l>
+						<l>Te weezen? laat tóch die Prinsés uw téderheden</l>
+						<l>Niet wéderhouden, ’k héb haar duizendmaal beleeden</l>
+						<l>De zucht die gy me draagt, én uw genégenheid</l>
+						<l>Haar roemende, héb ik uw gunst haar toe gezeid.</l>
+						<l>Wat zal zy uit uwe onverschillendheid vermoeden,</l>
+						<l>Als dat ik voor had haar mét ydle hoop te voeden.</l>
+						<l>Dryf eens die droeve wolk van uw gezigt myn heer.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Helaas, myn dóchter!</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Ay vervolg.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Ik kan niet meêr.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Dat Tróje de oorzaak van ons leed, én onze kwaalen,</l>
+						<l>Te grond ga.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Haare val, zal ik zo dier betaalen.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>De Góden willen voor u zorgen waar gy gaat.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>De Goôn zyn doof voor my, in myn bedroefde staat.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Men zégt dat Kalchas zal een plégtig óffer slagten.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Ach! kon ik haare toorn eer dat geschiedt, verzachten!</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Zal ’t offer haast geschien?</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Helaas! ons veel te vroeg.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Zal ’t my geoorloft zyn, dat ik myn béden voeg</l>
+						<l>By de uwe, op dat men keer de rampen die wy vreezen.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Helaas!</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Gy zwygt.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Gy zult, myn kind, gy zult er weezen.</l>
+						<l>Vaar wél.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>DERDE TOONEEL.</head>
+					<stage>IFIGENIA, ERIFILÉ, DÓRIS.</stage>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>WAt zal ik van ’t onthaal dat hy my doet</l>
+						<l>Vermoeden? ’k voel een schrik ontroeren myn gemoed.</l>
+						<l>’k Vreez dat me een ongeluk van bóven is beschooren,</l>
+						<l>Gy weet voor wien ik bid, ô Goôn! wilt my verhooren.</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Zyn koelheid, spruitende uit de zorgen die hy neemt,</l>
+						<l>Heeft die uw hart zo zeer ontstéld? ’t is dan niet vreemd,</l>
+						<l>Al zag men my, helaas! niet anders doen als schreijen,</l>
+						<l>Die my voor eeuwig van myne ouders zie gescheijen;</l>
+						<l>Als vreemd omzwérf; én misschien toen ik het licht</l>
+						<l>Ontfangen héb, nooit kreeg van hén een zoet gezigt.</l>
+						<l>Wordt door een vader hier uwe eerbiede afgeslaagen,</l>
+						<l>Gy hébt een moeder, die ge uw hartenleed kunt klaagen,</l>
+						<l>En welk een ongeluk gy ook beschreijen moogt,</l>
+						<l>Wat traanen worden door een minnaar niet gedroogd?</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Ach! schoone Erifilé, ’k wil u niet tégen spreeken.</l>
+						<l>Achilles byzyn zouw wél haast myn droefheid breeken,</l>
+						<l>Zyn liefde, zyne lof, myn Vader, myn ontzag,</l>
+						<l>Vermoogen al te veel op myn gemoed; maar, ach!</l>
+						<l>Wat kan, wat zal, of moet ik van hém zélf vertrouwen?</l>
+						<l>Die minnaar vol van ongeduld om my te aanschouwen,</l>
+						<l>Die niet vertrékken wou van hier, wat dat men deê,</l>
+						<l>Die ik, op vaders last, kom zoeken hier ter stê,</l>
+						<l>Die ik geloofde dat mét smart my zou verwachten?</l>
+						<l>Schynt hy wél na ’t genót van myn gezigt te trachten?</l>
+						<l>’k Héb sints twé dagen dat wy naderden déze oord,</l>
+						<l>En ’t lang gewénscht gezigt, zich aan ons op deed, voort</l>
+						<l>Hém óver al verwacht, én myn vreezachtige oogen</l>
+						<l>Zyn al de wégen van heel Aulis door getoogen.</l>
+						<l>Myn hart vloog snél voor uit om hem te zoeken, daar</l>
+						<l>Ik na Achilles vroeg wie ik ontmoete, maar</l>
+						<l>Ik zie hém niet, waarheen myne oogen zich ook wénden.</l>
+						<l>’k Bén door de drang geraakt van al des légers bénden.</l>
+						<l>Alleen hém zie ik niet; myn Vader staat bedeest,</l>
+						<l>En schynt in ’t noemen van zyn naam voor my bevreest.</l>
+						<l>Wat maakt hy? wie zal my ’t verward geheim ontwinden?</l>
+						<l>Zal ik hém ook zó koel als mynen Vader vinden?</l>
+						<l>Heeft dan de zórg der kryg hun harten my ontroofd?</l>
+						<l>En in een dag de liefde én min in hén gedoofd?</l>
+						<l>Maar neen, ik hoon hém mét myne ongeréchte klagten,</l>
+						<l>Neen Grieken is aan my verpligt voor zyne magten.</l>
+						<l>Hy was te Sparte niet, als minnaar van Héleên,</l>
+						<l>Gelyk als de andere, in het eedgespan getreên:</l>
+						<l>Hy, hy is meester van zyn woord alleen gebleeven,</l>
+						<l>Van al de Grieken. Ik héb hém alleen gedreeven</l>
+						<l>Na Tróje, om my alleen, én nérgens anders om,</l>
+						<l>Begeert hy daar de naam van myne Bruidegom.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>VIERDE TOONEEL.</head>
+					<stage>KLYTEMNÉSTRA, IFIGENIA, ERIFILÉ, DÓRIS.</stage>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>MYn dóchter, laat ons voort vertrékken, zonder beiden,</l>
+						<l>De schande ontwyken die ik ons hier zie bereiden,</l>
+						<l>’k Weet wat uw Vader zó verzét doet staan, myn kind,</l>
+						<l>Wyl hy ons tégen zyn bevél alhier bevindt.</l>
+						<l>Hy, vreezende u te zien door weigering onteeren,</l>
+						<l>Belaste door deez’ brief ons fluks weêrom te keeren;</l>
+						<l>Maar Arkas miste ons, wyl wy door de duisterheid</l>
+						<l>Verdwaalden; ik ontfang die daad’lyk zo, bereid</l>
+						<l>U om te vliên, op dat wy hier geen spót verstrékken.</l>
+						<l>Achilles liefde is uit, wy moeten straks vertrékken.</l>
+						<l>Hy weigert uwe trouw, én wil nu dat men wacht</l>
+						<l>Tot hy van Tróje keere, én ’t oorlog zy volbragt.</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Wat hoor ik!</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>’k Zie gy bloost om dit verongelyken;</l>
+						<l>Maar dat een éd’le toorn uw moedigheid doe blyken,</l>
+						<l>Ik héb de ondankb’re zelf myn dóchter toegestaan,</l>
+						<l>Ik zélf, ik zélf bood hém uw hand in Argós aan.</l>
+						<l>Ik liet my door ’t gerucht van zyne daân verblinden,</l>
+						<l>En dacht, ’k zoude u mét vreugd aan Thétis zoon verbinden:</l>
+						<l>Maar wyl zyn trouweloos én weifelend gemoed</l>
+						<l>Zyn ’t stam verzaaken durft, én looch’nen ’t Gódenbloed,</l>
+						<l>Waar uit hy sproot, myn kind, zó moeté wy hém toonen,</l>
+						<l>Wie dat wy zyn, die hy zó schandig zoekt te hoonen.</l>
+						<l>Vertrék, myn kind, op dat hém ons vertoeven niet</l>
+						<l>Doe waanen dat men wacht na zyn berouw. Ay vlied</l>
+						<l>Uit dit gewest. Laat ons met vreugd dit huwlyk staaken.</l>
+						<l>’k Héb aan uw Vader myn besluit doen kénbaar maaken.</l>
+						<l>’k Verwacht hém om weêr straks te scheiden, én na de eisch</l>
+						<l>Zal ik voorts’t noodige bereiden tot de reis.</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Mêvrouw, u vérg ik niet, dat gy ons zult verzéllen,</l>
+						<l>Neen, ons vertrék zal u in liever handen stéllen;</l>
+						<l>Want uw voorneemen is ontdékt, hoe gy ’t vermomt,</l>
+						<l>En Kalchas is het niet die gy hier zoeken komt.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>VYFDE TOONEEL.</head>
+					<stage>IFIGENIA, ERIFILÉ, DÓRIS.</stage>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>IN wélk een droeve staat, helaas! stélt my die réden?</l>
+						<l>Achilles weigert my te trouwen? breekt zyne eéden?</l>
+						<l>Ik keer beschaamd na huis? ô duldelooze spyt!</l>
+						<l>En Kalchas is ’t niet daar gy om gekoomen zyt?</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Mêvrouw, die woorden zyn voor my vol duisternissen.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Wilt gyze sléchts verstaan, gy zult de zin niet missen.</l>
+						<l>’t Balstuirig lót, rooft my een Bruidegom, Mêvrouw</l>
+						<l>Zult gy my héden ook verlaaten in myn rouw?</l>
+						<l>Gy trokt met my, gy kost myn byzyn niet ontbeeren,</l>
+						<l>Zal ik dan zonder u alleen mét Moeder keeren?</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Ik wilde Kalchas wél voor myn vertrék eens zien.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Waar wacht ge na, Mêvrouw, om hém by u te ontbiên.</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Wilt ge op dit oogenblik naar Argós weer vertrékken?</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Een oogenblik kan vaak veel twyfelens ontdékken.</l>
+						<l>Maar ’k zie Mêvrouw, ik sta te stérk op dit vertrék;</l>
+						<l>’k Had nimmermeer vermoed het geen ik nu ontdék.</l>
+						<l>Achilles... myn verblyf maakt u maar onverduldig.</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>My? hoe acht gy my dan aan zulk een ontrouw schuldig?</l>
+						<l>Ach! die verwinnaar, zo afgryslyk! zo verwoed!</l>
+						<l>Achilles, die noch rookt van myner vrienden bloed!</l>
+						<l>Die Lésbós heeft verwoest, zoude ik die nóch beminnen?</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Ja, ongetrouwe, ja, gy mint hém, én uw zinnen</l>
+						<l>Zyn, schoon gy ’t loochnen wilt door hém alleen bekoord.</l>
+						<l>Zyne armen rood van ’t bloed dier schrikkelyke moord,</l>
+						<l>Die doôn, dat Lésbós, die verwoesting, zyn de schichten</l>
+						<l>Waar door de min het vuur wist in uw borst te stichten.</l>
+						<l>Vér van dat gy om zulk hérdénken fél ontsteekt</l>
+						<l>In toorn, behaagt het u, wanneer gy daar van spreekt.</l>
+						<l>En meer dan eenemaal in uw gedwongen klachten,</l>
+						<l>Waande ik te zien, én zag de grond van uw’ gedachten.</l>
+						<l>Maar myne goedheid schoon, myn oog reeds was verlicht,</l>
+						<l>Deê straks de blinddoek weer voor myn verleid gezigt.</l>
+						<l>Gy mint.... wat dwaaling deed me ontfangen in myne armen</l>
+						<l>Myn mêdeminnares? wat mogt ik haar beschermen?</l>
+						<l>Verleide! ik minde haar, ’k bood haar nóch héden aan</l>
+						<l>Myns ongetrouwen hart, maar, ach! ik ben verraân.</l>
+						<l>’k Zie eind’lyk wat triomf men hier voor my bereide,</l>
+						<l>Dat gy me aan uwe koets in zeegestaatzy leidde.</l>
+						<l>Nu ik vergeef u, dat gy uw belangen neemt</l>
+						<l>Ter harte, als ook ’t verlies eens harten, my ontvreemd:</l>
+						<l>Maar dat gy, weetende wat wérk my was besteeken,</l>
+						<l>My tot in Aulis toe laat reizen zonder spreeken.</l>
+						<l>Die snoode opzoeken, die zyn trouw zo schélmsch verraadt,</l>
+						<l>Ontrouwe, kan ik u vergeeven déze daad.</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Ik sta verzét, dat ik my hoor die naamen geeven;</l>
+						<l>Maar om ze te verstaan bén ik nóch onbedreeven;</l>
+						<l>En ’t Gódendom ’t geen lang my tót zyn straf verkoor,</l>
+						<l>Verburg tót héden noch die naamen aan myn oor.</l>
+						<l>Dóch uwe liefde doet my uwe drift verschoonen:</l>
+						<l>Wat wilt gy dat ik u zou zéggen, óf vertoonen?</l>
+						<l>Hoe? kunt ge vreezen dat voor Agamémnons zaad,</l>
+						<l>Achilles stéllen zou een dóchter zonder staat,</l>
+						<l>Of naam? die maar alleen weet dat zy is gesprooten</l>
+						<l>Van ’t bloed, ’t geen door zyn kling hy wénscht te zien vergooten.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Gy triomfeert dan, wreede én tróst my in myn druk?</l>
+						<l>Ik was noch niet bewust van al myn ongeluk.</l>
+						<l>’k Hoor u uw’ ramp, én myn gelukken niet verhaalen,</l>
+						<l>Als op dat gy van my te meer zoud zeegepraalen.</l>
+						<l>Dóch al te driftig is de min die in u woont.</l>
+						<l>Die Agamémnon die ge in my te hoonen, hoont,</l>
+						<l>Gebiedt de Grieken, is myn Vader, my genégen;</l>
+						<l>Myn ongeluk zal hém meêr dan my zélf beweegen:</l>
+						<l>Myn traanen hébben hém alrêe bewoogen, ik</l>
+						<l>Zag zyn gezucht, hoe zeer bedékt, déze oogenblik.</l>
+						<l>Helaas! ik dorst in zyn onthaal zyn droefheid doemen,</l>
+						<l>Beklaagen my van hém, én koel zyn liefde noemen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>ZÉSDE TOONEEL.</head>
+					<stage>ACHILLES, IFIGENIA, ERIFILÉ, DÓRIS.</stage>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>HEt is dan waar, Mêvrouw, ’k vind u dus onverwacht?</l>
+						<l>Ik hield het gansche heir van misverstand verdacht.</l>
+						<l>Hoe? gy in Aulis? gy? daar Agamémnon héden</l>
+						<l>’t Nóch heeft aan my ontkend? hoe komt g’er? om wat réden?</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Myn Heer, ontstél u niet, myn komst zy u geen pyn.</l>
+						<l>Ifigenia zal niet lang in Aulis zyn.</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>ZÉVENDE TOONEEL.</head>
+					<stage>ACHILLES, ERIFILÉ, DÓRIS.</stage>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>ZE ontvlugt me! waak ik ook? is ’t waarheid, of zyn ’t droomen?</l>
+						<l>Wat zé van rampen komt op nieuw my óverstroomen?</l>
+						<l>Mêvrouw, ik twyfel of Achilles zonder van</l>
+						<l>U fél gehaat te zyn zich hier vertoonen kan?</l>
+						<l>Maar ’k bid, zo gy de béde eens vyands kunt gedoogen,</l>
+						<l>Die eertyds was mét zyn gevangene bewoogen,</l>
+						<l>Gy weet wat réden haar in Aulis voert, gy weet...</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Wél hoe? weet gy zulks niet, myn Heer, gy, die haar deed</l>
+						<l>Haar reis verhaasten, én haar hérwaards hébt doé kómen,</l>
+						<l>Wyl gy op ’t hévigst door haar min waart ingenoomen,</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Mêvrouw, ’k bén sints een maand vertrokken van dit strand,</l>
+						<l>En hier op gisteren eerst wéderom geland.</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Hoe? toen haar Vader na Mysénen heeft geschreeven</l>
+						<l>Heeft uwe liefde hém daar toe niet aan gedreeven?</l>
+						<l>Gy, die de aanminnigheên zyns dóchters aanbid, én...</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>My kwam nooit vreemder zaak te vooren; ik bekén,</l>
+						<l>Mêvrouw, indien dat myn besluit had stand genoomen,</l>
+						<l>’k Was lang Ifigenie in Argós voor gekomen.</l>
+						<l>In tusschen vlied men my; wat héb ik tóch misdaân?</l>
+						<l>Elk ziet me als vyand, zo het schynt, in ’t léger aan.</l>
+						<l>Wat zég ik? is myn liefde op ’t krachtigste noch héden</l>
+						<l>Van Kalchas, Néstor, én Ulisses niet bestreeden?</l>
+						<l>Zy gaven na my dócht te kénnen, zo myn zin</l>
+						<l>Na glorie hélde, moest ik afstaan van myn min.</l>
+						<l>Wat onderwind men zich, wat meent men te voltrékken?</l>
+						<l>Zal ik aan ’t léger dan alleen tót spót verstrékken?</l>
+						<l>’k Moet dit geheim uit hén verstaan; vaar wél, Mêvrouw.</l>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>ACHTSTE TOONEEL.</head>
+					<stage>ERIFILÉ, DÓRIS.</stage>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>GOôn! die myn schande ziet, waar bérg ik my van rouw?</l>
+						<l>ô Trótze! u mint men, én gy mort? gy durft noch klaagen?</l>
+						<l>Ach! moet ik dan uw smaad, én glory téffens draagen!</l>
+						<l>Veel eer... maar Dóris, óf ’k héb my vergeefs gevleid,</l>
+						<l>Of eenig ongeluk is reeds voor hén bereid.</l>
+						<l>Neen, hun geluk is noch niet zéker; ik héb oogen.</l>
+						<l>Ifigenia wordt gewisselyk bedroogen;</l>
+						<l>En zy verbergen ’t aan Achilles. Het gezucht</l>
+						<l>Van Agamémnon geeft myn hoop te ruimer lucht.</l>
+						<l>Ach! wil het noodlót zich by myne haat vervoegen,</l>
+						<l>’k Zal voordeel trékken uit Achilles ongenoegen.</l>
+						<l>’k Zal, hélpt de Hémel my sléchts eenmaal in myn zaak,</l>
+						<l>Alleen niet weenen, én niet stérven zonder wraak.</l>
+					</sp>
+					<p>Einde van het Twéde Bedryf.</p>
+				</div>
+			</div>
+			<div type="act" n="3">
+				<head>DARDE BEDRYF</head>
+				<div type="scene" n="1">
+					<head>EERSTE TOONEEL.</head>
+					<stage>AGAMÉMNON, KLYTEMNÉSTRA.</stage>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>IA, Heer, wy waaren lang vertrokken, én ontsteeken</l>
+						<l>Van toorne waaren wy reeds vér van hier geweeken:</l>
+						<l>Myn dóchter ging haar hoon beweenen te Argós, maar</l>
+						<l>Achilles, óver ons vertrék ontstéld, heeft haar</l>
+						<l>En my, mét smeeken hier gehouden, én verwonnen</l>
+						<l>Door plégtige eeden, daar wy niet aan twyf’len konnen.</l>
+						<l>In plaats van uitstél pérst hy de écht aan mét myn kind:</l>
+						<l>Hy zoekt u, brandende van liefde, én toorn, gezind</l>
+						<l>Om ’t valsch gerucht van zyn verkoude vlam te staaken,</l>
+						<l>En de eerste uitstrooyer van ’t bedróg beschaamd te maaken.</l>
+						<l>Ban dan ’t vermoeden, ’t geen de bruilofts vreugd verstoord.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Mêvrouw, ik bén voldaan, ’k geloof hém op zyn woord;</l>
+						<l>’k Erkén de dwaaling die ons allen had bedroogen,</l>
+						<l>En voel my van uw vreugd, zo veel ik kan bewoogen.</l>
+						<l>Gy wilt dat Kalchas hém vereent aan ons geslacht;</l>
+						<l>Wél, zénd uw dóchter dan na ’t auter, daar ’k haar wacht.</l>
+						<l>Maar eer we ons zelven in dit huwlyk vérder steeken,</l>
+						<l>Kom ik een oogenblik mét u alleenig spreeken.</l>
+						<l>Gy ziet in wélk een oord ge uw dóchter hébt geleid,</l>
+						<l>Daar ’t na geen trouwfeest zweemt, maar daar ’t zich al bereidt</l>
+						<l>Ten oorelog; gy ziet het gansche heir krioelen.</l>
+						<l>De bootsgezéllen, én sóldaaten t’zaamen woelen:</l>
+						<l>Een krygs altaar, versierd mét schicht, én oorlógs speer.</l>
+						<l>Al die vertooningen zyn wél een waerdige eer</l>
+						<l>Voor Héld Achilles, maar de toestél na behooren,</l>
+						<l>Zó niet vervaerdigd, dat ze uwe oogen zou bekooren.</l>
+						<l>De Grieken zouden daar hunn’ Konings éga in</l>
+						<l>Een staat zien, uw’s én myn’s onwaardig, Koningin.</l>
+						<l>Doe dan myn zin, én wil haar geen gezélschap houwen;</l>
+						<l>Geloof me, laat, gevólgd van haare Staatjuffrouwen,</l>
+						<l>Ifigenia* alleen sléchts na het outer gaan;</l>
+						<l>Gy zoud’ er niet dan schand van hébben, laat u raân.</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Wie, ik? zou ik myn kind zó óvergeeven konnen,</l>
+						<l>En niet voleindigen het geen ik héb begonnen?</l>
+						<l>Die haar uit Argós héb gebragt in Aulis, zou</l>
+						<l>Ik na ’t altaar haar niet geleiden op haar trouw?</l>
+						<l>Of moet ik meer als gy voor Kalchas byzyn vlieden?</l>
+						<l>Wien voegt het béter haar den Bruigom aan te bieden?</l>
+						<l>Door wélk eene and’re zal die staatsie zyn bestéld.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Gy zyt hier niet in ’t hóf van Atreus, maar in ’t véld,</l>
+						<l>Gy zyt in ’t léger.</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Daar het al voor u moet beeven;</l>
+						<l>Daar ’t lót van Azie in uw’ handen is gegeeven:</l>
+						<l>Daar ik gansch Griekenland zie onder uw’ geboôn</l>
+						<l>Te véld gaan; daar ik word érként van Thétis zoon</l>
+						<l>Voor moeder. Kan ik wél in trótzer hóf verschynen,</l>
+						<l>Met meerder grootschheid, én meer luister van de mynen?</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Ik bid u, om de wil dier Góden, Kóningin,</l>
+						<l>De stichters onzer stam, dat gy aan myne min</l>
+						<l>Die gonst doet, ’k héb myn reên.</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Heer, om die zélfde Góden,</l>
+						<l>Ontzég my niet een vreugd daar gy my toe moest nooden.</l>
+						<l>Ay, vergenoeg my mét dat zielvermaak, die eer,</l>
+						<l>En schaamt u myner niet in déze staat, myn Heer.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Ik had veel meer gehoopt van uw bescheidenhéden;</l>
+						<l>Maar wyl gy geenigsins wilt luisteren na réden,</l>
+						<l>En dat myn bidden heeft op u zó weinig kracht,</l>
+						<l>Gy hébt verstaan, wat ik verzócht héb, én verwacht;</l>
+						<l>Mevrouw, wy willen ’t zo, weet dat wy ’t u gebieden.</l>
+						<l>Gehoorzaam.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>TWÉDE TOONEEL.</head>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA. alleen.</speaker>
+						<l>DOor wat wreed een voorzórg mag ’t geschieden,</l>
+						<l>Dat Agamémnon, mét zó groot een onbescheid,</l>
+						<l>Het nad’ren van ’t altaar my weigert, én ontzeid?</l>
+						<l>Zou hy tróts op zyn nieuw gezag, my wél verzaaken?</l>
+						<l>Acht hy me onwaardig hém in zyn gevolg te naaken?</l>
+						<l>Hy, al te omzigtig in ’t bezit van ’t krygsgebied,</l>
+						<l>Durft hy de zuster van Heleên in ’t léger niet</l>
+						<l>Vertoonen? om wat reên mag hy hier dus opdringen?</l>
+						<l>Of moet haar schande my nu voor hét voorhoofd springen?</l>
+						<l>Maar vólgen wy zyn wil; dewyl ’t geluk alleen,</l>
+						<l>’T geen gy geniet, myn kind, uw’ moeder stelt te vreên.</l>
+						<l>De Hémel geeft u aan Achilles, ingenómen</l>
+						<l>Van blydschap, zal ik u.... maar ’k zie hém herwaarts kómen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>DÉRDE TOONEEL.</head>
+					<stage>ACHILLES, KLYTEMNÉSTRA</stage>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>MEvrouw, ’t gaat alles na myn wénsch; de Kóning heeft</l>
+						<l>Geen and’re onschuldiging begeert: zyn goedheid geeft</l>
+						<l>Geloof aan myne drift; hy heeftme omhélsd, zeer téder,</l>
+						<l>Als schoonzoon, én al myne oploopendheid ter néder</l>
+						<l>Gezét; maar heeft hy u, vol blydschap, niet geméld,</l>
+						<l>Wat heil én vreugd uw komst gebragt heeft in het véld?</l>
+						<l>Hoe datmen’t Gódendom, vergramd zynde én beleedigt,</l>
+						<l>Na Kalchas zéggen, in een uur zal zien bevrédigt.</l>
+						<l>Dat sléchts de Zégód, én de winden wachten naar</l>
+						<l>Het bloed, dat zyne hand zal óffren op ’t altaar.</l>
+						<l>De scheepen zietmen reeds mét vreugd zich zeilré maaken,</l>
+						<l>En wénden, vol verlangst om Tróje te genaaken.</l>
+						<l>Wat my belangt, hoewel de wind ter gonste van</l>
+						<l>Myn min, noch voor een poos wél achterblyven kan;</l>
+						<l>En schoon ik noô verlaat déze aangenaame stranden,</l>
+						<l>Daar eerst de fakkel van ons huwelyk zou branden,</l>
+						<l>Mevrouw, staat my niet na die tyd te wénschen? moet</l>
+						<l>Ik niet bezégelen myne écht door ’s vyands bloed?</l>
+						<l>En onder Trójes puin bedélven een’ geschonden</l>
+						<l>En schélmsch onteerde naam, aan myne nu verbonden?</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>VIERDE TOONEEL.</head>
+					<stage>ACHILLES. KLYTEMNÉSTRA, IFIGENIA, ERIFILÉ, AEGINA, DÓRIS.</stage>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>AL myn geluk, Prinsés, hangt nu aan u; ay kom</l>
+						<l>Ontfang van vader, voor ’t altaar een bruidegom;</l>
+						<l>Van my een hart waar van gy steeds wordt aangebéden.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Myn Heer, ’t is nóch geen tyd om dérwaards heen te treeden.</l>
+						<l>’k Wil u eerst vérgen, vind de Kóningin het goed,</l>
+						<l>Een pand van uwe min, dat gy my toestaan moet:</l>
+						<l>Ik kom, én biede u aan een’ schoonheid, uit wiens weezen,</l>
+						<l>Men klaarlyk dat zy spruit uit édel bloed kan leezen.</l>
+						<l>Gy ziet haar droefheid, meer als ik ze u zéggen kan;</l>
+						<l>Gy weet haar ongeluk, gy zyt ’er oorzaak van.</l>
+						<l>Ik zélf, (wat blinde toorn kon my zo vér vervoeren,)</l>
+						<l>Durfde onmedoogend haar bedroefd gemoed ontroeren.</l>
+						<l>Ay gun my, dat ik door de hulp die ’k haar verleen,</l>
+						<l>Hérstél de misdaad van myn onbezonnenheên:</l>
+						<l>Ik leen haar myne stém, én kan niets meer haar hélpen,</l>
+						<l>Maar gy alleen, myn Heer, kunt haare droefheid stélpen.</l>
+						<l>Ze is uw’ gevangene, én de boeije die zy draagt,</l>
+						<l>Valt van haar’ handen af, zó haast als ’t u behaagt.</l>
+						<l>Wilt déze groote dag dan door die daad beginnen,</l>
+						<l>Dat zy by ons geluk haar vryheid mooge winnen.</l>
+						<l>Toon, dat ik na ’t altaar een Kóning vólg, een héld,</l>
+						<l>Die in ’t verwoesten al zyn glorie niet en stéldt;</l>
+						<l>Die niet alleen een schrik der menschen tracht te weezen,</l>
+						<l>Maar die zich door zyn’s bruids voorbéde ook laat beleezen;</l>
+						<l>En voor de éléndigen, ontwaapend, in hunn’ nood,</l>
+						<l>In al’s, het voorbeeld vólgt der Góôn waar uit hy sproot.</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Ja, Heer, laat myne smart van u die troost érlangen.</l>
+						<l>Het oorlog maakte my in Lésbós uw’ gevangen’:</l>
+						<l>Maar ’t is uw krygsrécht al te vér gestrékt, daar by</l>
+						<l>Te voegen ’t hartzeer dat ik hier ter plaatse ly.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Hoe, gy Mevrouw.</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Om u niet alles op te haalen,</l>
+						<l>Myn Heer, kunt gy wél meer verzwaaren myne kwaalen,</l>
+						<l>Als datge my mét smart doet aanzien hét geluk</l>
+						<l>Van myn vervólgers, én van de oorsaak myner druk.</l>
+						<l>Ik hoor myn vaderland vast dreigen; ’k zie, mét beeven,</l>
+						<l>Een heirkracht, gansch verwoed, daar tégens aen gedreeven.</l>
+						<l>Ik zie uwe écht, helaas! (wat zwaarer ongeval!)*</l>
+						<l>U górden ’t zwaard op zy ’t geen dat verwoesten zal.</l>
+						<l>Gedoog dat vér van hier ik dit gezigt moog dérven,</l>
+						<l>Steeds onbekénd, én steeds rampzalig om moog zwérven,</l>
+						<l>Een lót verbérgen, wél uw médedoogen waard;</l>
+						<l>Waar van myn klagt u nóch de hélft niet ópenbaart.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Prinsés, houd op, laat af u zélve dus te kwéllen,</l>
+						<l>Ik zal u by de Griek terstond in vryheid stéllen;</l>
+						<l>En wil dat déze tyd van myn gewénscht geluk*</l>
+						<l>Het einde zy van uw’ gevangenis én druk.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>VYFDE* TOONEEL.</head>
+					<stage>ACHILLES, KLYTEMNÉSTRA, IFIGENIA, ERIFILÉ, ARKAS, AEGINA, DÓRIS.</stage>
+					<sp who="#arkas">
+						<speaker>ARKAS.</speaker>
+						<l>MEvrouw, ik kom hier om u dóchter te geleiden</l>
+						<l>Ter plaatze daar mén heeft hét outer doen bereiden</l>
+						<l>Daer Agemémnon haar verwachten zal, óf eer</l>
+						<l>U bidden, dat gy haar beschérmen wilt, myn Heer.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Wat zégt gy Arkas?</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Wil men ’t huwlyk nóch belétten?</l>
+					</sp>
+					<sp who="#arkas">
+						<speaker>ARKAS.</speaker>
+						<l>’K zie niemand magtig, Heer, als u om haer te ontzétten.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Voor wie?</l>
+					</sp>
+					<sp who="#arkas">
+						<speaker>ARKAS.</speaker>
+						<l>Ik noem hém, én beschuldig hém mét smart.</l>
+						<l>’K héb dat geheim geheelt, zó lang ik kon, in ’t hart:</l>
+						<l>Maar, ’t staal is reeds bereid, hét vuur al aangesteeken:</l>
+						<l>Al zou hét op myn kruin neêrstorten, ik moet spreeken.</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Ik beef, ach Arkas! zég ons klaarer ons verdriet.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Wie dat hét zy, spreek op, én vrees hier niemand niet.</l>
+					</sp>
+					<sp who="#arkas">
+						<speaker>ARKAS.</speaker>
+						<l>Gy zyt haar minnaar, gy haar moeder, haare élénden</l>
+						<l>Zyn de uwe, wilt haer tóch niet by haar vader zénden.</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Hoe, waarom vreest men hém?</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Dryft hy de spót mét my?</l>
+					</sp>
+					<sp who="#arkas">
+						<speaker>ARKAS.</speaker>
+						<l>Hy wacht haar aan ’t altaar, om haar op te óffr’en.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Hy!</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Zyn dóchter? groote Góôn!</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Myn vader.</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Wat wy hooren!</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Wat razerny vervoert hém tégens haar in tooren?</l>
+						<l>Wélk hart kan zónder schrik zo wreed een zaak bestaan!</l>
+					</sp>
+					<sp who="#arkas">
+						<speaker>ARKAS.</speaker>
+						<l>Ach! wou de Hémel dat ik ’t kon in twyfel slaan.</l>
+						<l>De Gódspraak door de mond van Kalchas eischt haar léven</l>
+						<l>En wil geen ander als dat óffer zyn gegeeven;</l>
+						<l>En ’t gódendom, ’t geen ’t nóch mét Paris houd, beloofd</l>
+						<l>Ons Trójen, én de wind, tén kóste van haar hoofd.</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>De Góden zouden dan zó wreed een moord beveelen?</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>ô Góôn! verdiende ik in uw’ haat zo diep te deelen!</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Wél, ik verwonder my niet meer waarom hy zo</l>
+						<l>Vergramd, én straf ’t altaar te nad’ren my verboô.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA tégens ACHILLES.</speaker>
+						<l>Dit ’s dan de huwlyks knoop om my aan u te binden?</l>
+					</sp>
+					<sp who="#arkas">
+						<speaker>ARKAS.</speaker>
+						<l>De Kóning heeft uwe écht geveinst, om u te blinden;</l>
+						<l>Al ’t heir is névens u bedrogen in dit stuk.</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Heer, gun, dat ik uw’ kniên omhélze, én voor u buk.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES, haar ophéffende.</speaker>
+						<l>Wél hoe, Mevrouw?</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Zét tóch myn hooge staat ter zyden;</l>
+						<l>Myn lót wil, dat gy myn vernédering moet lyden:</l>
+						<l>Ja, zonder bloozen valt een moeder u te voet;</l>
+						<l>Gelukkig zó haar klagt beweegt uw grootsch gemoed.</l>
+						<l>Het is uw’ bruid, myn Heer, die Kalchas u wil rooven,</l>
+						<l>Die ’k opgevoed héb in de hoop van dat verlooven.</l>
+						<l>Gy waart het, Heer, dien zy met my in Aulis zócht,</l>
+						<l>En uwe naam, helaas! heeft haar ter dood gebrógt.</l>
+						<l>Zy die de Góden aan hun’ outer, dat in ’t midden</l>
+						<l>Van ’t heir, tót haare straf geboud is, aan kwam bidden,</l>
+						<l>Zou zy daar sneuv’len? neen gy zyt, ay keer die hoon,</l>
+						<l>Haar vader, bruidegom, haar toeverlaat, haar Góôn.</l>
+						<l>’k Mérk uit uw oog dat u haar ramp tréft bóven maaten.</l>
+						<l>Myn kind, ik zal u hier by uwe bruigom laaten.</l>
+						<l>Myn Heer, verwacht me straks hier weer; verlaat haar niet;</l>
+						<l>’k Moet Agamémnon eens ontleeden ons verdriet.</l>
+						<l>Hy zal niet wéderstaan de toorn waar in wy branden;</l>
+						<l>De wreede Kalchas zoek’ vry andere ófferhanden:</l>
+						<l>Of zo ik u niet kan ontrukken zyne magt,</l>
+						<l>Myn dóchter, dat hy my mét u te zaamen slagt.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>ZÉSDE TOONEEL.</head>
+					<stage>ACHILLES, IFIGENIA.</stage>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Mevrouw, ik zwyg, én kan my naauwelyks beweegen.</l>
+						<l>Hoe? sprakze my aan? kéntze Achilles wel te deegen?</l>
+						<l>Een moeder meent dat zy voor u my bidden moet?</l>
+						<l>Een Kóningin valt my om uwent wil te voet?</l>
+						<l>Ze onteert my, mét my tot uw’ bystand aan te maanen,</l>
+						<l>En stord, op datze ’t hart my week maak haare traanen.</l>
+						<l>Heeft iemand meer belang daar in, als ik, Mevrouw?</l>
+						<l>Men steun dan veilig, én gerust op myne trouw.</l>
+						<l>My raakt uw’ hoon: én wat zich and’ren onderwinden,</l>
+						<l>’k Beschérm een léven daar ik ’t myne aan zal verbinden.</l>
+						<l>Ja myn geréchte spyt gaat vérder in de zaak:</l>
+						<l>’t Beschérmen is niet veel, ’k zal trachten na de wraak;</l>
+						<l>En straffen te gelyk die wreede én looze vonden,</l>
+						<l>Waar mê ze op myne naam u na het léven stonden.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Ach! blyf myn Heer, ay blyf, én hoor tóch eerst myn réên</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Mevrouw, zal die barbaar my térgen? neen, ô neen.</l>
+						<l>Hy ziet dat ik de hoon zyns zuster met myn troepen</l>
+						<l>Ga wreeken, dat ik hém voor hoofd héb uit doen roepen</l>
+						<l>Van twintig Vórsten, die élk stonden na ’t gezag:</l>
+						<l>Tot dank van myne zórg én moeiten, dag op dag</l>
+						<l>Genómen, én tót loon der zeege, korts verkreegen,</l>
+						<l>Die hém op Tróje wraak belooft door myne dégen,</l>
+						<l>Verzócht ik de eer van u te hébben tót myn bruid;</l>
+						<l>Vernoegd, én moedig op die lang gehoopte buit.</l>
+						<l>En hy acht weinig dat, bloeddorstig, én meineedig,</l>
+						<l>Hy ’t récht der vrindschap, der natuur schénne én beleedig!</l>
+						<l>’t Is weinig dat hy my op ’t wreed altaar uw hart</l>
+						<l>Nóch rookende onder ’t staal wil toonen, maar, ô smart!</l>
+						<l>Hy, die dit óffer wist door ’t huwlyk te bedékken,</l>
+						<l>Wil dat ik zélf, ô Góôn! u in uw’ dood zal trékken,</l>
+						<l>Dat myn verleide hand het més bestieren kom’,</l>
+						<l>En ik uw’ beul verstrékke in plaats van bruidegom.</l>
+						<l>Hoe! had déze écht uw’ bloed voor ’t outer niet doen stroomen,</l>
+						<l>Zó ik maar eene dag hier laater was gekómen?</l>
+						<l>Geléverd waartge nu aan hunne razerny;</l>
+						<l>En sneuv’lende onder ’t més des Priesters, had gy my</l>
+						<l>Vergeefs by ’t bloed altaar gezócht mét stérvende oogen,</l>
+						<l>En my beschuldigd, door wiens naam gy waart bedroogen.</l>
+						<l>Ik moet van uw gevaar, ik moet van zyn verraad</l>
+						<l>Voor ’t gansche Griekse heir hém réden vraagen, laat</l>
+						<l>De drift begaan, Mevrouw, waar van ik wórd geprikkeld:</l>
+						<l>Gy zyt te diep in de eer uw’s bruidegoms gewikkeld.</l>
+						<l>Die wreede, die my zó mishand’len durft, moet zien,</l>
+						<l>En leeren van wiens hand hy valschlyk zich bedien.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Ach! zo Ifigenie u immer kon bekooren,</l>
+						<l>Zo ge u verwaardigde ooit uw’ minnaares te hooren,</l>
+						<l>Nu, nu is ’t noodig, Heer, dat gy hét my betoont;</l>
+						<l>Die wreede die gy gaat trótzeeren, die u hoont,</l>
+						<l>Die onrechtvaardige én bloeddorstige verrader,</l>
+						<l>Dénk, wat hy ook moog doen, ay dénk hy is myn vader,</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Hoe! hy uw’ vader! na zó schrikkelyk een bestaan</l>
+						<l>Zie ik hém anders niet als voor uw’ moorder aan.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>’k Zég ’t u nóch eens, hy is myn vader, die ik téder</l>
+						<l>Bemin, een vader die ik acht, én die my wéder</l>
+						<l>Zó lief heeft, dat hy van ’t begin myns levens af,</l>
+						<l>My niet als tékens van zyn ted’re liefde gaf.</l>
+						<l>Myn hart in dat ontzag van myne kindsche jaaren</l>
+						<l>Gekweekt, voelt door uw’ hoon myn smart in zich verzwaaren.</l>
+						<l>Vér van dat ik in u zou door verandering</l>
+						<l>Goed keuren de yver van uw’ drift in dit geding;</l>
+						<l>Vér dat ik zélve zoude aanhitzen uwe zinnen,</l>
+						<l>Dénk, dénk men moet, gelyk ik u bemin, beminnen:</l>
+						<l>Wanneer men lyden kan dat gy vervoerd door spyt,</l>
+						<l>Hém daadelyk hoonde door uw’ smaadelyk verwyt.</l>
+						<l>Hoe, meent gy dat zyn hart, schoon ’t wreed schynt, niet zal beeven</l>
+						<l>Op ’t aanzien van de slag die Kalchas my zal geeven?</l>
+						<l>Wat vader heeft vermaak zyn kind gedood te zien?</l>
+						<l>Waarom zou hy my niet behouden, kon ’t geschiên?</l>
+						<l>Ik héb hem, twyfel niet, zien weenen op hét noemen</l>
+						<l>Myns naams; én zullen wy hém ongehoord, verdoemen?</l>
+						<l>Zyn hart, door myn gevaar in zó veel leeds gerukt,</l>
+						<l>Moet dat nóch zwaarder door uw’ haatzucht zyn gedrukt?</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Mevrouw, zult ge onder zo veel réden, van te vreezen</l>
+						<l>Voor uw’ gevaar, om ’t zyn nóch in bekom’ring weezen?</l>
+						<l>Die wreede, (hoe noem ik hém anders) die uw’ bloed</l>
+						<l>Wil óffr’en door de hand van Kalchas, zo verwoed;</l>
+						<l>En nu myn téd’re min zyn woên wil wéderstreeven,</l>
+						<l>Wórd gy nóch door de zórg voor zyne rust gedreeven.</l>
+						<l>My doet men zwygen, hém onschuldigt men, men beeft</l>
+						<l>Voor zyn gevaar; ik bén ’t die hy te vreezen heeft.</l>
+						<l>Ach! droevige uitslag van myn poogen! dit’s dan héden</l>
+						<l>De plaats die in uw hart Achilles zou bekleeden!</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Héb ik zó lang gewacht, eer ik u héb ontdékt,</l>
+						<l>ô Wreedaard! myne min, die gy in twyffel trékt?</l>
+						<l>Gy weet mét wélk een onverschillendheid ik hoorde</l>
+						<l>’t Aanzeggen van myn dood. Zaagt gy my schrikken voor de</l>
+						<l>Bedroefde tyding? maar, spreek, naamt gy niet in acht</l>
+						<l>Tót wélke uitspoorigheid my straks de wanhoop bragt,</l>
+						<l>Wanneer men my, nóch naauw hier aangekómen, mélde</l>
+						<l>Uwe ontrouw, die men my mét weinig grond vertélde?</l>
+						<l>Wat onrust? wélk een stroom van woorden, vol vân hoon,</l>
+						<l>Betygde, beurt om beurt, de ménschen én de Goôn?</l>
+						<l>Gy zaagt wél, hoef ik u meer blyk hier van te geeven,</l>
+						<l>Hoe uwe liefde my veel waerder was als ’t léven.</l>
+						<l>Wie weet, wie weet het of de Góôn, vergramt op my,</l>
+						<l>Ook willen, dat ik eens mét u gelukkig zy.</l>
+						<l>Ik kon, helaas! al myn gelukken niet bezéffen,</l>
+						<l>En dacht, uwe écht zou my tot aan ’t gestarnte héffen.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Bén ik u waerd, Prinsés, ik bid u dat gy leeft.</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>ZÉVENDE TOONEEL.</head>
+					<stage>KLYTEMNÉSTRA, IFIGENIA, ACHILLES, AEGINA.</stage>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>WY zyn verlooren, Heer, indien gy ons begeeft;</l>
+						<l>Want Agamémnon, die myn aanzigt vreest te aanschouwen,</l>
+						<l>Vliedt voor my wég, én doet my van het outer houwen.</l>
+						<l>Hy heeft zyn wacht rondom het outer uitgezét,</l>
+						<l>Op dat die dérwaards heen de toegang my belét.</l>
+						<l>Hy vreest dat ik hém mét myn klagten op zal kómen.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Uw’plaats zal dan door my daar worden waargenómen;</l>
+						<l>Hy zal my zien, Mevrouw, ik ga, én spreek hém aan.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Mevrouw, helaas... Helaas! myn Heer, waar wilt gy gaan?</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Wat vérgt ge my door uwe ontydige gebéden?</l>
+						<l>Of zal ik u altyd eerst moeten overreeden?</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Wat wilt gy, dóchter?</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Om der Góden wil, weer houw</l>
+						<l>Een minnaar tóch van toorne én spyt vervoerd; mevrouw,</l>
+						<l>Laat ons die zaamenkomst, zó volgevaar, tóch weeren.</l>
+						<l>Myn Heer, zyn bitsheid zal door uw verwyt vermeeren.</l>
+						<l>Ik weet de toorn is by een minnaar groot van kracht;</l>
+						<l>Ook is myn vader zeer nayv’rig van zyn magt.</l>
+						<l>Men ként meer dan te wél de fierheid der Atryden.</l>
+						<l>Een ander spreek hém, én eerbiedig, hy zal ’t lyden.</l>
+						<l>Verwonderd dat ik nóch niet by ’t altaar verschyn,</l>
+						<l>Zal hy hier daadelyk om my te zoeken zyn.</l>
+						<l>Hy zal een moeder, vol van ongeduld, zien weenen;</l>
+						<l>En wat zal my myn brein niet al tót hulp verleenen;</l>
+						<l>Op dat ik voorkom zo veel leeds, op dat ik stil</l>
+						<l>Uw’ hévigheid, op dat ik léeve om uwent wil.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Gy wilt het zo, ’t is wél, ’k zal u hier in behaagen;</l>
+						<l>Maak hém dan beide uw’ raad op ’t heilzaamst voor te draagen;</l>
+						<l>En dat hy wéder kom tót zyn verstand; voor myn’,</l>
+						<l>En uwe rust, Mevrouw, maar meerder voor de zyn’.</l>
+						<l>De tyd verloopt te veel mét dit onnut beraaden:</l>
+						<l>Geen woorden gélden meer, wy moeten aan de daaden.</l>
+						<l>Tégens Klytemnéstra.</l>
+						<l>Ik ga het alles tot uw’ dienst bereyden; gy</l>
+						<l>Kunt gaan in uw vertrék, én rusten; steun op my</l>
+						<l>Mevrouw, ’k voorzég het u, uw’dóchter zal niet sneeven.</l>
+						<l>De Góden eisschen haar, zó lang als ik zal leeven,</l>
+						<l>Vergeefs; geloof my vry, én houdt het voor gewis,</l>
+						<l>Myn woord is zékerder als Kalchas Gódspraak is.</l>
+					</sp>
+					<p>Eynde van het dérde bedryf.</p>
+				</div>
+			</div>
+			<div type="act" n="4">
+				<head>VIERDE BEDRYF.</head>
+				<div type="scene" n="1">
+					<head>EERSTE TOONEEL.</head>
+					<stage>ERIFILÉ, DÓRIS.</stage>
+					<sp who="#dóris">
+						<speaker>DÓRIS.</speaker>
+						<l>WAt hoor ik Góden! wélk een drift verrukt uw’ zinnen?</l>
+						<l>Benyd ge Ifigenia een lót, waar door men binnen</l>
+						<l>Een uur haar óff’ren zal? zélfs onder schyn van trouw,</l>
+						<l>En hébt gy nooit haar lót haar meer misgund, Mevrouw?</l>
+						<l>Wie zal ’t gelooven, én hoe wreed een hart moog weezen.....</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>’k Héb nooit waarachtiger gesprooken: nooit voor dézen</l>
+						<l>Is myn gemoed geweest in zulk een wreede stryd,</l>
+						<l>Nooit héb ik haar geluk zo zeer als nu benyd.</l>
+						<l>ô Gunstig doods gevaar! ’k bén in myn hoop bedroogen.</l>
+						<l>Wat eer! wat roem! zaagt gy Achilles niet bewoogen?</l>
+						<l>Ik zag ’t, maar bén ontvlugt dat onweerspreeklik blyk.</l>
+						<l>Die Héld, zó tróts, én zó verschriklyk te gelyk,</l>
+						<l>Die nimmer traanen, als die hy deed storten, kénde,</l>
+						<l>En ’t hart zyn tégens die zich van jongs af gewénde,</l>
+						<l>Die, zó ’t gerucht ons niet geloogen heeft, mét bloed</l>
+						<l>Van Leeuw, én Beer is in zyn kindsheid opgevoed,</l>
+						<l>Heeft nu, om haarent wil, ô spyt! eerst leeren vreezen,</l>
+						<l>Zy zag hém weenen, én veranderen van weezen,</l>
+						<l>En gy beklaagt haar nóch? wat rampspoed; wat verdriet,</l>
+						<l>ô Dóris! leed ik om zó waerde traanen niet!</l>
+						<l>Al most ik in één uur hét lieve léven dérven,</l>
+						<l>Gelyk als zy. Maar, neen; dénk niet dat zy zal stérven.</l>
+						<l>Hoe, zoude Achilles, die terstond om haarent wil</l>
+						<l>Van toorne om ’t hoofd besturf, nu slaapen? én haar stil</l>
+						<l>Wég laaten voeren? neen! hy zal die slag wél keeren.</l>
+						<l>’t Is zéker dat de Góôn haar stérven niet begeeren,</l>
+						<l>Als om op eene tyd haar roem, én myne hoon</l>
+						<l>Te doen aanwassen, én om haar, ô wreede Góôn!</l>
+						<l>Voor ’t oog haars bruidegoms te doen veel schoonder schynen;</l>
+						<l>Dit doet me uit wanhoop, én uit minnenyd verkwynen.</l>
+						<l>Bemérk eens, wat men niet al tót haar voordeel doet:</l>
+						<l>Der Góden vonnis wórd vertreeden mét de voet;</l>
+						<l>En schoon zy tót de dood Ifigenia doemen,</l>
+						<l>Men zoekt hét mét verkeerde uitwégen te verbloemen.</l>
+						<l>Schoon gy de Houtmyt, én hét outer vaardig ziet,</l>
+						<l>Hét léger weet de naam nóch van het óffer niet:</l>
+						<l>Aan ’t vólk is ze onbekénd; kunt gy hier uit niet speuren</l>
+						<l>Haars vaders wank’len? én wat zal ’er niet gebeuren,</l>
+						<l>Als hém de moeder, vol verwoedheid, komt aan boord?</l>
+						<l>Als hy de traanen van zyn dóchter ziet? en hoort</l>
+						<l>Het kérmen van zyn vólk, én huisgezin, wiens oogen</l>
+						<l>De wanhoop uitten, die hunn’ hérten heeft bewoogen?</l>
+						<l>’t Bloed, dat in zulk een staat zich licht verwonnen geeft,</l>
+						<l>En dan Achilles, die zyn val gezwooren heéft....</l>
+						<l>ô! Ze is vergeefs gedoemd, zy hoeft geen Góôn te vreezen;</l>
+						<l>Ik bén ’t, ik, ik alleen zal maar rampzalig weezen.</l>
+						<l>Zó ’k doen durfde, als ik dénk!</l>
+					</sp>
+					<sp who="#dóris">
+						<speaker>DÓRIS.</speaker>
+						<l>Wat dénkt ge in uw’ gemoed?</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Wat óf myn ziel belét, dat niet myn gramschap woed?</l>
+						<l>Wat houd me, dat ik niet terstond der Góden tooren,</l>
+						<l>En drygeménten door al ’t léger heen doe hooren?</l>
+						<l>Bekénd ga maaken, hoe men hier zich zélf bereid</l>
+						<l>De Goôn te hoonen, én hén de ófferhande ontzeidt.</l>
+					</sp>
+					<sp who="#dóris">
+						<speaker>DÓRIS.</speaker>
+						<l>Mevrouw, wat neemt ge voor! ô Goôn, wat wilt ge maaken!</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>ô Dóris! wélk een vreugd! hoe zouden de outers blaaken</l>
+						<l>Van ófferhanden, én van wierook, óver al</l>
+						<l>In Trójens témpels, konde ik ’t léger, dat hun val</l>
+						<l>Gezwooren heeft doen door oneenigheid verbreeken;</l>
+						<l>Griek hitzen tégens Griek, én dus myn boeyens wreeken:</l>
+						<l>Konde ik Achilles wrók op Agamémnon voên,</l>
+						<l>Konde ik hén Tróje door die twift vergeeten doen,</l>
+						<l>Konde ik de zwaarden, tot onze ondergang getoogen,</l>
+						<l>Doen woeden op hun zélve! ô Goôn! woud gy gedoogen,</l>
+						<l>Dat zy my hoorden, én ik aan myn vaderland</l>
+						<l>Van al hun vólk mogt doen een waerdige ófferhand!</l>
+					</sp>
+					<sp who="#dóris">
+						<speaker>DÓRIS.</speaker>
+						<l>Ik hoor gerucht, Mevrouw; ’k zie Klytemnéstra kómen,</l>
+						<l>Gy moet haar vlieden, of uw’ hévigheid betoomen.</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Kom gaan we, én stooren wy dit huwelyk, dat my</l>
+						<l>Zo zeer verdriet; ik wil mét myne Razerny</l>
+						<l>Te râ gaan, wyl de Góôn my hunne bystand bieden.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>TWEDE TOONEEL.</head>
+					<stage>KLYTEMNÉSTRA, AEGINA.</stage>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>GY ziet, Aegina, ’k moet van myne dóchter vlieden;</l>
+						<l>Vér van te schreijen, óf de dood te ontzien, doet zy</l>
+						<l>Haars vaders onschuld nóch, verschoont zyn tieranny:</l>
+						<l>Ja wil ook my de hand, die haar zo wreed zal slagten,</l>
+						<l>En ’t hart door stooten, zo, gelyk als zy, doen áchten.</l>
+						<l>ô Kloekheid! ô ontzag! ô liefde! ô téder hart!</l>
+						<l>Nóch klaagt de ontménschde zélf, aan ’t outer, dat zy mart.</l>
+						<l>’K verwacht hém. Hy zal my haaft réden kómen vérgen,</l>
+						<l>En waanen nóch voor my zyn schélmstuk te verbérgen.</l>
+						<l>Hy komt: ’k zal, zonder my te ontstéllen, déze stond</l>
+						<l>Wel zien, óf hy zich nóch houd aan zyn snoode vond.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>DÉRDE TOONEEL.</head>
+					<stage>AGAMÉMNON, KLYTEMNÉSTRA, AEGINA.</stage>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>MEvrouw, wat maakt gy? en wat mag het tóch bedieden,</l>
+						<l>Dat ik myn, dóchter, die ’k door Arkas deed ontbieden;</l>
+						<l>Vergeefs verwacht héb, waar onthoud zy zich, dat zy</l>
+						<l>Niet is gekómen? wat belét haar? óf hébt gy</l>
+						<l>Haar doen vertoeven? wilt gy steeds myn zin weerstreeven?</l>
+						<l>mag zy niet zonder u na ’t outer zich begeeven?</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Myn dóchter is gereed, indien gy haar begeert.</l>
+						<l>Maar, is er niets, myn Heer, dat u weêrhoud, of deert?</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Hoe! my, Mevrouw?</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Is al het noodige reeds vaardig?</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Ja, Kalchas is gereed, Mevrouw, én ’t outer waardig</l>
+						<l>Verfierd; al wat myn pligt vereischt, héb ik bestéld.</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Hoe komt het dat gy my niets van het óffer méldt?</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Wat wilt ge zéggen? én wat zórg kwélt uw’ gedachten?</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>VIERDE TOONEEL.</head>
+					<stage>IFIGENIA, AGAMEMNON, KLYTEMNÉSTRA, AEGINA.</stage>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>KOm dóchter, alles schynt na u alleen te wachten:</l>
+						<l>Bedank uw’ vader dóch voor zyn genégenheên</l>
+						<l>En liefde. Hy wil zélf mét u na ’t outer treên.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Wat zie! wat hoor ik! ach! wat heeft uw hart bewoogen,</l>
+						<l>Dat gy dus weent, myn kind? waarom slaat gy uwe oogen</l>
+						<l>Na de aarde? ’t schreid hier al: ach! Arkas, wat gaat me aan,</l>
+						<l>Heeft my verraaden!</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Neen, hy heeft u niet verraân,</l>
+						<l>Myn vader; zyt gerust, én wil uw’ toorn betoomen.</l>
+						<l>Al wat ge my gebied zult gy me na zien kómen:</l>
+						<l>U hoort myn léven toe; begeert ge ’t wéderom,</l>
+						<l>Waar toe geveinsd, myn Heer? gy had me een bruidegom</l>
+						<l>Beloofd; zó willig als ik was om hém te minnen,</l>
+						<l>Mét zulk een bly gelaat, én zó vernoegde zinnen,</l>
+						<l>Zal ik de dood van u ontfangen, én myn bloed</l>
+						<l>Ten óffer pléngen, als ik immers stérven moet;</l>
+						<l>U wéder geeven ’t geen ik héb van u genooten.</l>
+						<l>Laat vry, laat Kalchas myn onschuldig hart doorstooten,</l>
+						<l>Indien gy ’t hém gebied, hy kóme ik bén bereid.</l>
+						<l>Maer, ach! zó myn ontzag, én myn gehoorzaamheid</l>
+						<l>My doen een béter lót, myn vader, waerdig achten,</l>
+						<l>Zó moeder, schreijende, u beweegt door hare klagten,</l>
+						<l>Verstoute ik my aan u te zéggen, dat ik thans</l>
+						<l>Te zeer verheerlykt bén, myn roem mét zulk een glans</l>
+						<l>Nooit is om scheenen, én myn staat te hoog verheeven,</l>
+						<l>Als dat ik nu na ’t eind zou wénschen van myn léven.</l>
+						<l>Dat nu het noodlót door een onverwachte slag</l>
+						<l>Myn zon zou daalen in ’t opgaan van de dag</l>
+						<l>Myns lévens. ’k Bén uw kind, ’k mag my uw dóchter roemen</l>
+						<l>Te weezen: gy hoorde u door my eerst vader noemen.</l>
+						<l>Ik was dus lang al uw vermaak, daar gy voorheen,</l>
+						<l>De Góôn voor hébt gedankt, de Góôn voor hébt gebeên.</l>
+						<l>Ik bén Ifiginie aan wie gy steeds voor dézen,</l>
+						<l>Zó mild, én vaderlyk uw’ gunsten hébt beweezen.</l>
+						<l>Mét wélk een blydschap hoorde ik dikwils hét verhaal</l>
+						<l>Der landen, die gy gaat bedwingen door uw staal!</l>
+						<l>’k Had in myn hart bereids de zeegezang begonnen</l>
+						<l>Van Ilium, dat ik al schattede, als verwonnen:</l>
+						<l>Maar, dat ik om die zeege eerst storten zou myn bloed,</l>
+						<l>Daar peinsde ik nimmer op, niet dat ik uw gemoed</l>
+						<l>Te ontroeren zoek door myn gebéden, óf myn klagten</l>
+						<l>En de oude liefde weêr hérroép in uw’ gedachten,</l>
+						<l>Om myn gedreigde dood te ontvlieden; neen, myn Heer,</l>
+						<l>Ik acht myn lévensmin, veel minder als uwe eer.</l>
+						<l>’k Zal u geen rédenen van rood te worden geeven</l>
+						<l>Door myn kleinmoedigheid. Betroft ’t alleen myn léven,</l>
+						<l>’k Had u ’t voorléden zoet, niet doen hérdénken, maar</l>
+						<l>Gy ziet een moeder, én een bruigom in gevaar,</l>
+						<l>Die zich geheelyk aan myn lót verbonden houwen.</l>
+						<l>Een Vórst, uws waardig, dacht my héden nóch te trouwen,</l>
+						<l>Te omhélzen als zyn bruid, een die myn hart bezat,</l>
+						<l>Dat gy den héld beloofd, én ik gegeeven had.</l>
+						<l>Hy weet uw opzét reeds; nu oordeel van zyn smarte;</l>
+						<l>Laat u hét schreijen van myn moeder gaan ter harte;</l>
+						<l>Ik bid, vergeef me dat ik u dus moeilyk val,</l>
+						<l>’k Weêrhield de traanen gaarn die ik hén kósten zal.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>’t Is waar, myn dóchter, ik weet niet, waarom de Góden</l>
+						<l>Begeeren dat men hén een maagd tót zoen zal dooden:</l>
+						<l>Maar, ach! gy zyt genoemt: ’t Orakel eischt uw bloed</l>
+						<l>Tót ófferhand. Gy ként myn vaderlyk gemoed.</l>
+						<l>Ach! dénk niet, dat om zulk een dierbaar bloed te spaaren,</l>
+						<l>Myn dóchter, uw’ gebeên én traanen noodig waaren.</l>
+						<l>Ik had nóch déze nacht, licht heeft men ’t u gezeid,</l>
+						<l>Het vónnis van uw’ dood hérroepen: ’k was bereid,</l>
+						<l>Myn staat én léven voor uw’ léven op te zétten,</l>
+						<l>Meer op uw heil, als op der Grieken heil te létten.</l>
+						<l>’K zond Arkas om u myn bevél te doen verstaan,</l>
+						<l>Maar door ’t bestier der Goôn is hy u mis gegaen.</l>
+						<l>Helaas! zy hébben zich niet gunstig willen toonen</l>
+						<l>In u te redden, die ’k zó gaarne zou verschoonen.</l>
+						<l>Vergeefs bescherm ik u. Betrouw niet op myn magt,</l>
+						<l>Die klein is: want, hoe stil ik ’t vólk, als ’t onbedacht</l>
+						<l>Aan ’t hóllen raakt, én tót verwoedheid word gedreeven</l>
+						<l>Door Góden, die tén prooy ons aan hunn’ boosheid geeven,</l>
+						<l>En hén van ’t juk, dat hén steeds lastig valt, ontslaan.</l>
+						<l>Myn kind, helaas! myn kind, hét is mét u gedaan.</l>
+						<l>Dénk aan uw’ staat, én uit wat bloed gy zyt gebooren.</l>
+						<l>’t Móet zyn, myn dóchter, buig u voor der Góden tooren.</l>
+						<l>Ik troost u, én kan naauw myn zélf vertroosten: maar</l>
+						<l>Vertrouw, dat als men u zal tréffen voor ’t altaar,</l>
+						<l>Men dieper door myn hart, als door uw’ borst zal stooten.</l>
+						<l>Toon, stérvende, ieder een uit wien gy zyt gesprooten;</l>
+						<l>Maak zélf de Goôn beschaamd; de Griek érkén myn bloed,</l>
+						<l>Wanneer hy ’t uwe zó wreedaardig stroomen doet.</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Wél, gy verloochent niet uw’ stam, nóch snoode Vaders.</l>
+						<l>En Atreüs heilloos bloed speelt waerdig door uwe aders.</l>
+						<l>Gelyk Thyéstes zyt ge een beul uws kinds. Wat lét</l>
+						<l>Meer aan uw’ wreedheid, als dat gy ’t my voor bankét</l>
+						<l>En wildbraad op discht, die haar moeder bén? ô Góden!</l>
+						<l>Barbaar, is dit het feest daar op gy ons deed nooden!</l>
+						<l>Is dit de trouw die gy uw’ dóchter hébt bereid,</l>
+						<l>Hoe, heeft de schrik, toen gy die last vól gruuwlykheid,</l>
+						<l>Zoud tékenen. uw’ hand niet doen te rugge deinzen?</l>
+						<l>Waar toe een valsche rouw voor myn gezigt te veinzen?</l>
+						<l>Meent ge uw’ genégenheid te toonen door geween?</l>
+						<l>Noem ’t véld eens, daar ge voor uw’ dóchter hébt gestreên.</l>
+						<l>Waar is het bloéd, dat hy gestort hébt? waar de lyken?</l>
+						<l>Wat véldslag, wreede, kan me uw’ dapperheid doen blyken?</l>
+						<l>Door zulke tékens moest gy me overtuigen, dat</l>
+						<l>Gy liefde tót uw’ kind te rédden hébt gehad.</l>
+						<l>’t Orakel eischt haar, maar, is klaar de zin gebleeken?</l>
+						<l>’t Orakel, spreekt hét steeds gelyk hét schynt te spreeken?</l>
+						<l>ô Góden! Góden! die niet onréchtvaardig doet,</l>
+						<l>Zyt gy dan dórstig na onschuldig ménschen bloed?</l>
+						<l>Wil ’t noodlót om Heleên ons huis én vrinden plaagen?</l>
+						<l>Laat, laat Hérmioné, haar kind, de straf dan draagen.</l>
+						<l>Laat Menelaüs door zyne eigen dóchters moord</l>
+						<l>Zyne éga koopen, die zyn ziel zó zeer bekoord.</l>
+						<l>Maar, gy, wat razerny, wat dulle uitzinnighéden</l>
+						<l>Vervoeren u, dat gy in zyne plaats wilt treeden?</l>
+						<l>En ik, waarom zal ik zélf op myn boezem woên?</l>
+						<l>Waarom myn hartebloed zyn dwaaze min voldoen?</l>
+						<l>Wat zeg ik, die Heleên, die Azie én Europe</l>
+						<l>Ontroért door haare min, verdient die dat men koope</l>
+						<l>Haar wéêrkomst mét hét bloed uws aller liefste kinds</l>
+						<l>Mét uw gevaar, én met uw’ Hélden daân? geensins.</l>
+						<l>Hóe vaak heeft zy niet ons, én ons geslagt geschonden,</l>
+						<l>Eer zich uw’ broeder had mét haar in de écht verbonden.</l>
+						<l>Heeft haar niet Thézeüs aan haar vader zélf ontschaakt?</l>
+						<l>Gy weet, want Kalchas heeft het vaak bekénd gemaakt,</l>
+						<l>Dat zy in ’t heimelyk mét belóften saamen trouwden,</l>
+						<l>En dat ze een dóchter van dit huwlyk heeft behouden,</l>
+						<l>Die zy behéndelyk voor ons verbórg, tot nu</l>
+						<l>Maar, nóch uws broeders min, nóch schande doet hét u:</l>
+						<l>Dat is uw’ kleinste zórg; dat raakt u ’t minst van allen.</l>
+						<l>Uw’ heerszucht, om, gelyk als opperhoofd te brallen’</l>
+						<l>Van twintig Vórsten, die u dienen, én ontzien,</l>
+						<l>Uw’ hoovaardy, om dus volkomen te gebién,</l>
+						<l>Dat zyn, ô wroede! alleen de Góôn die gy wilt eeren,</l>
+						<l>Mét zulk een ófferhand; vér van de slag te keeren,</l>
+						<l>Die u gedreigd word, wilt ge, onménschelyk gemoed!</l>
+						<l>’s Volks gunst verdienen door uw waerde dóchters bloed:</l>
+						<l>Gy wilt Ifigenie, uw lieffte kind, doen stérven,</l>
+						<l>Alleen, op dat ge uw’ staat, én aanzien niet zoud dérven.</l>
+						<l>Door zulk een snoode prys schrikt ge alle Vórsten af,</l>
+						<l>Die immer mogten staan na ’t voeren van uw staf.</l>
+						<l>Is dat een vader zyn? Is dat uw kind beminnen!</l>
+						<l>Ik kan die wreedheid niet bevatten mét myn zinnen.</l>
+						<l>Afgryslyk opzét! hoe! zou Kalchas mét zyn dólk,</l>
+						<l>Omringt van een ontzind, én onmédógend vólk,</l>
+						<l>Ifigenie door de zuiv’re boezem booren,</l>
+						<l>Om uit haar hart de wil der Góden na te spooren?</l>
+						<l>’k Héb haar als in triomf, gevierd én aangebeên,</l>
+						<l>Tót hier gebragt; én zoude ik, troosteloos, alleen,</l>
+						<l>Langs ’t pad, dat ik voor haar mét bloemen zag bespreijen,</l>
+						<l>Weêrkeeren, én myn kind niet névens my geleijen?</l>
+						<l>Neen, Klytemnéstra zal nooit lyden, dat men haar,</l>
+						<l>Gelyk een ófferdier, doe bukken voor ’t altaar,</l>
+						<l>Of gy zult névens haar ook my de hals door kérven.</l>
+						<l>Vrees, dreigen, nóch ontzag zal my myn kind doen dérven.</l>
+						<l>Ik, ik zal zélf myn kind beschérmen tót ’er dood.</l>
+						<l>Kom, ruk haar van my af, ontménschde bédgenoot:</l>
+						<l>Kom, wreede vader, die niet weet van u te ontfarmen,</l>
+						<l>Kom, hébt gy ’t hart, kom aan, én ruk haar uit myn armen.</l>
+						<l>Myn dóchter, ga mét my, laat me uw’ gehoorzaamheid</l>
+						<l>Nóch zien voor ’t laatst.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>VYFDE TOONEEL.</head>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON, alleen.</speaker>
+						<l>’k HAd my niet minder toegeleid</l>
+						<l>Van haare woede; dit deê my haar by zyn schroomen,</l>
+						<l>Nóch was ik in de staat, daar in ik bén gekoomen,</l>
+						<l>Gelukkig, zó ik slechts haar toorn te vreezen had,</l>
+						<l>En zó geen meer verdriet myn bange ziel bezat.</l>
+						<l>Waarom laat gy me nóch een vaders hart, ô Góden!</l>
+						<l>Terwyl ge my beveelt myn eigen kind te dooden.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>ZÉSDE TOONEEL.</head>
+					<stage>ACHILLES, AGAMÉMNON.</stage>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>EEn wonder vreemd gerucht is my daar aangebragt,</l>
+						<l>Myn Heer; maar, ’k hébt, als niet geloovelyk, veracht.</l>
+						<l>Men zégt, ik kan het naauw na zéggen zonder beeven,</l>
+						<l>Dat gy myn bruid, uw kind, wilt bréngen om het léven.</l>
+						<l>Dat gy, verbannende uit uw hart de ménschlykheid,</l>
+						<l>Om haar te léveren aan Kalchas, u bereid.</l>
+						<l>En haar hier op myn naam deed kómen, om den Góden</l>
+						<l>Haar te ófferen, én door des Priesters hand te dooden.</l>
+						<l>Dat ik Ifiginie in schyn van Bruidegom</l>
+						<l>Zou heen geleiden na hét droevig outer, om</l>
+						<l>Te aanschouwen dat men haar daar slagte voor myne oogen;</l>
+						<l>Wat zegt ’er van, myn Heer, is ’t waarheid, of is ’t loogen?</l>
+						<l>Staat u te lyden dat men u dus in uwe eer</l>
+						<l>Belédig?</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Van myn doen geef ik geen reên, myn Heer;</l>
+						<l>’k Zal zonder iemands raad myn zaaken wêl bezórgen.</l>
+						<l>’k Héb myn voorneemen aan myn dóchter zélf verbórgen;</l>
+						<l>En als hét noodig is, dat zy ’t moet weeten, zult</l>
+						<l>Gy ’t weeten névens haar, dies neem zó lang geduld.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>ó! ’k Weet wél wélk een lót, dat gy haar op wilt draagen!</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Indien gy ’t weet, myn Heer, waar toe dan ’t my te vraagen?</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Waarom, ik ’t vraage? ô Goôn! zo wreed een tieranny</l>
+						<l>Zich niet te schaamen óf gelooft ge, dat ge my</l>
+						<l>Uw schriklyk opzét ook licht zult voor goed doen keuren?</l>
+						<l>Dat voor myne oogen ik zal laaten haar verscheuren?</l>
+						<l>Meent Agamémnon, dat myn min, myne eer, myn woord,</l>
+						<l>Ooit stémmen zullen tot die gruwelyke moord?</l>
+						<l>Neen! by de Goôn, ik zweer dat ik die hoon zal wreeken.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Vergeet gy, wie ik bén, dat gy zó stout durft spreeken?</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Vergeet gy, dat ik min, én dat ge my misdoet?</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Wie heeft u opgeleid te zórgen voor myn bloed,</l>
+						<l>En huisgezin? Hoe is ’t? mag ik myn eigen zaaken</l>
+						<l>Niet schikken na myn zin, én ’t mét myn dóchter maaken,</l>
+						<l>Zó ’t my gevalt? óf bén ik nu geen vader mêer?</l>
+						<l>Is zy uw’ éga? mag myn dóchter.....</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Neen myn Heer,</l>
+						<l>Ze is niet meer de uwe; gy hébt haar aan my gegeeven.</l>
+						<l>Zó lang een druppel bloed zal door myne aders zweeven,</l>
+						<l>Sta ik myn bruid niet af, die my reeds toebehoord:</l>
+						<l>’k Zal haar beschérmen, én ik hou my aan uw woord.</l>
+						<l>Hébt gy om mynent wil haar hérwaards niet ontbóden?</l>
+						<l>Achilles laat zich niet bedriegen.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Aan de Góden</l>
+						<l>Moet ge u beklagen van haar dood; wyt hén de moord:</l>
+						<l>Vraag hén, waarom zy op myn kind zó zyn verstoord.</l>
+						<l>Laat Menelaüs, én Ulisses, die na ’t léven</l>
+						<l>Van myne dóchter staan, u réden daar van geeven:</l>
+						<l>Beschuldig ’t heele heir van zulk een razerny;</l>
+						<l>Maar u hét meest van al.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Hoe my, myn Heer, hoe my?</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Zyt gy ’t niet, die uit zucht om ’t Oosten te onderbréngen,</l>
+						<l>De Góden staag verwyt, dat zy uw’ reis verléngen?</l>
+						<l>Hébt gy myn vrees niet steeds, als ongegrond, belacht,</l>
+						<l>En door uw’ voorbeeld tot die woede al ’t heir gebragt?</l>
+						<l>Ik had een wég tót haar behoudenis gevonden,</l>
+						<l>Gy dacht aan Tróje alleen, én bouwde òp and’re gronden,</l>
+						<l>Dan ik; want schoon ik u de wég na Tróje sloot,</l>
+						<l>Gy woud’er zyn, vaar voort, vaar voort; myn dóchters dood</l>
+						<l>Zal u een ópen wég na Trójens vésten toonen.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>ô Hémel! kan ik my zó lasterlyk zien hoonen,</l>
+						<l>Na ’t eed verbreeken? wat heeft Tróje my gedaan,</l>
+						<l>Dat ik ten kósten van myn lieve bruid zou staan</l>
+						<l>Na Trójens ondergang: wie, wie heeft my de klagten</l>
+						<l>Van myne moeder, van myn vader doen verachten?</l>
+						<l>toen zy, me al weenende, voorspélden myne val,</l>
+						<l>En dat ik sneuvlen zoude alléén voor Trójens wal.</l>
+						<l>Zyn van ’t gehaate Tróje, of van Scamanders zoomen,</l>
+						<l>Hunn’ schépen in myn land óf havens ooit gekómen?</l>
+						<l>Heeft Paris immer tót zyn vyand my gemaakt?</l>
+						<l>Heeft die verwyfde ooit vrouw óf zuster my ontschaakt?</l>
+						<l>Wat heeft hy my gedaan? Wat heeft hy my ontdraagen?</l>
+						<l>Waar óver héb ik my van Tróje te beklaagen?</l>
+						<l>Is ’t niet om uwent wil, Barbaar, dat ik hier heen</l>
+						<l>Gekómen bén? bén ik, bén ik hét niet alleen,</l>
+						<l>Die u niets ben verplicht? mag ik my niet beroemen,</l>
+						<l>Dat ik u héb het hoofd van ’t Grieksche heir doen noemen?</l>
+						<l>U, die ’k in Lésbós héb gewrooken door myn zwaard,</l>
+						<l>Eer, dat gy Vórsten eens by een vergaderd waard.</l>
+						<l>Spreek, Agamémnon, spreek, wat heeft ons hier doen kómen;</l>
+						<l>Om wiens wil heeft men zulk een oorlog ondernoomen?</l>
+						<l>Wat voegt heel Griekenland te zaamen? is hét niet</l>
+						<l>Om Ménelaüs zyn Héleên’, die hém verliet</l>
+						<l>Weerom te léveren? zou ik daarom gedoogen,</l>
+						<l>Dat my myn waarde bruid ontroofd wierd voor myne oogen?</l>
+						<l>My dunkt uw broeder heeft alleen u récht, zyn vrouw</l>
+						<l>Te wreeken door hét zwaard, én zyn geschonde trouw?</l>
+						<l>Neen, ik min ook uw kind, ik kan haar weêr behaagen,</l>
+						<l>Ik hou my van myn eed, niet als door haar ontslagen.</l>
+						<l>Om haarent wil schoot ik alleen het harnas aan,</l>
+						<l>’k Hébt Menelaüs niet, maar haar ten dienst gedaan.</l>
+						<l>Laat die gehoonde, Tróje om zyn Héleên bevéchten;</l>
+						<l>Al zyn, die wallen door myn dood alleen te sléchten,</l>
+						<l>Ik ken, nóch Priamus, nóch Paris, nóch Héleên;</l>
+						<l>Ik eisch uw’ dochter; én ga zonder haar niet heen.</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Vertrék dan, keer weêrom, van daar gy zyt gekómen;</l>
+						<l>’k Ontsla u van uw’ eed, dies hoeft ge niet te schroomen.</l>
+						<l>’k Zie and’re die verheugd de lauw’ren op hun hoofd</l>
+						<l>Ontfangen zullen, die hét lót u had beloofd;</l>
+						<l>En door hunn’hélden daân, in spyt van’s noodlóds paalen,</l>
+						<l>’t Fier Trójen eind’lyk doen ten gronde néderdaalen,</l>
+						<l>’k Mérk uw’ verachting, én kan uit uw doen wel zien,</l>
+						<l>Hoe hoog gy schat de hulp, die gy ons aan kwaamt bien.</l>
+						<l>Heel Grieken wilt ge alrê doen naar uw wénken leeven,</l>
+						<l>Haar Vórsten hébben my de tytel sléchts gegeeven;</l>
+						<l>Hovaardig op uw’ zeege, én op uw’ dapperheid.</l>
+						<l>Moet alles u ontzien, én gaan na uw beleid.</l>
+						<l>’k Laat van Achilles my niet om zyn bystand hoonen,</l>
+						<l>En hou veel meer van hén, die zich gehoorzaam toonen,</l>
+						<l>Als van een tróts gemoed, dat op zyn krachten ziet.</l>
+						<l>Vertrék; men vreest uw’ toorn nóch magt’loos dreigen niet.</l>
+						<l>Uw inzigt kan men uit die trótsheid licht doorgronden:</l>
+						<l>’k Breek al de banden, die my ooit aan u verbonden.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Dank échter, dank alleen de band, die waarde band</l>
+						<l>Ifigenia dat zy myn getérgde hand</l>
+						<l>Weêrhoud, én u beschérmt, het hoofd van zó veel Heeren,</l>
+						<l>Zou zonder déze naam my licht voor ’t laatst braveeren.</l>
+						<l>Een woord alleen zal ik nóch zéggen; ’t is uw kind,</l>
+						<l>En myn beleedigde eer die zich aan haar verbind;</l>
+						<l>’k Beschérm die beide; ’k zweer, haar bloed zal niet eer stroomen,</l>
+						<l>Voor dat uw’ kling een wég héb door dit hart bekómen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>ZEVENDE TOONEEL.</head>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON, alleen.</speaker>
+						<l>NU is haar dood bestémd, ’k stry langer niet voor haar.</l>
+						<l>Myn kind alleen had meer vermoogen op my, maar</l>
+						<l>Achilles hoogmoed, die my schandig komt onteeren,</l>
+						<l>Verhaast de droeve slag die hy waant af te keeren.</l>
+						<l>’k Berâ my langer niet, maar ’k zal hém eens doen zien</l>
+						<l>Dat ik my nimmer van myn minder laat gebiên.</l>
+						<l>Neen, neen, de hoon die hy my doet, moet óverhéllen;</l>
+						<l>En hoe myn hart ook om myn dóchter zich zal kwéllen,</l>
+						<l>Zy stérf. Verschoonde ik haar ’t zou schynen uit ontzag</l>
+						<l>Of vrees voor hém. Myn wacht.</l>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>ACHSTE TOONEEL.</head>
+					<stage>AGAMÉMNON: EURIBATÉS, wacht.</stage>
+					<sp who="#euribatés">
+						<speaker>EURIBATÉS.</speaker>
+						<l>MYn Heer, wat eischt gy?</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Ach!</l>
+						<l>Wat wil ik doen? durf ik hém myn bevél verklaaren?</l>
+						<l>Dat bloedige besluit myn lyfwacht ópenbaaren?</l>
+						<l>ô Wreedheid! welk een stryd staat my te wachten! Goôn!</l>
+						<l>Wat vyand is het, die myn woede wil doen doôn?</l>
+						<l>Een moeder wacht my, die op ’t hévigste is bewoogen,</l>
+						<l>En zulk een wreedheid nu, nóch nimmer sal gedoogen.</l>
+						<l>Licht zal myn krygsvólk, min onménslyk, én ontzind,</l>
+						<l>Dan ik, in de armen van myn vrouw, ontzien myn kind.</l>
+						<l>’t Is Waar Achilles dreigt me, Achilles komt my hoonen;</l>
+						<l>Maar is ’t myn dóchters schuld? Ik zag haar nimmer toonen,</l>
+						<l>Dat ze ongehoorzaam was. Heeft zy wél eens gezucht?</l>
+						<l>Of voor de dood, die haar bereid word, wég gevlugt?</l>
+						<l>Wat zég ik? wat verrukt myn Gódvergeeten zinnen?</l>
+						<l>Hoe zal ik myn gebeên in ’t ófferen beginnen?</l>
+						<l>Hoe heerlyk eene roem ik immer zie te moed,</l>
+						<l>Wat lauw’ren kunnen my, besprénkeld met haar bloed,</l>
+						<l>Behaagen? ’k Zoek de Góôn te stillen: maar, die Góden,</l>
+						<l>Zyn zy zó wreed, als ik, die zélf myn kind wil dooden?</l>
+						<l>’t Is my niet mooglyk, ik geeft me óver aan myn bloed.</l>
+						<l>Neen, liefde, neen, verwin de schaamte in myn gemoed.</l>
+						<l>Keer wéder, vaderlyk én billyk médedoogen?</l>
+						<l>Zy leef: maar, blykt dan niet myn vrees, óf onvermoogen,</l>
+						<l>Wyl my Achilles zó gehoond heeft, én veracht;</l>
+						<l>Licht dat hy op die voet in ’t einde my belacht;</l>
+						<l>Licht dat hy op die voet zal zó vermeeten weezen;</l>
+						<l>Dat hy gelooven zal, dat hy my heeft doen vreezen?</l>
+						<l>Wat kinderlyker zórg maakt my hét brein bedeest?</l>
+						<l>Kan ik niet, als ik wil, zyn opgeblaazen geest</l>
+						<l>Vernéd’ren? kan ik niet hét voorwérp zyner zinnen,</l>
+						<l>Myn dóchter, hém ter spyt, doen van een ander minnen?</l>
+						<l>Zy leef. maar tót zyn straf. Eurybatés, ga, ga,</l>
+						<l>En roep myn dóchter, mét haar moeder hier.</l>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>NÉGENDE TOONEEL.</head>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>GEnâ,</l>
+						<l>ô Góden! is de dood myns kinds by u beslooten,</l>
+						<l>Wat stérflyk ménsch vermag het noodlót om te stooten?</l>
+						<l>Myn bystand zal misschien haar straf verhaasten; maar,</l>
+						<l>ô Groote Goôn! myn kind verdiend wél dat ik haar</l>
+						<l>Beschérm, én dat ge my, volhardende in uw’ tooren,</l>
+						<l>Uw doodelyk bevél ten twédemaal laat hooren.</l>
+					</sp>
+				</div>
+				<div type="scene" n="10">
+					<head>TIENDE TOONEEL.</head>
+					<stage>AGAMÉMNON, KLYTEMNÉSTRA, IFIGENIA, ERIFILÉ, DÓRIS, EURYBATÉS,
+						wacht.</stage>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>GA heen, draag zórg, bewaar uw’ dóchter; ga Mevrouw;</l>
+						<l>Ik geef ze u wéder; ik beveel ze aan uwe trouw.</l>
+						<l>Gy moet op ’t haastigste uit deez wreede plaats vertrékken.</l>
+						<l>Vlugt. Arkas, mét myn wacht, zal u tot leidsman strékken.</l>
+						<l>’k Vergeef hém, dat hy u myn aanslag heeft ontdékt:</l>
+						<l>’t Hangt alles aan ’t geheim, én dat ge straks vertrékt.</l>
+						<l>Ulisses zal eerlang om haar mét Kalchas kómen;</l>
+						<l>Maar ’t léger heeft nóch niets uit hunne mond vernómen.</l>
+						<l>Vermom uw’ dóchter wél, op dat men meen, dat ik</l>
+						<l>Haar by my houde, én u alleen te rugge schik:</l>
+						<l>Want zo men mérkte, dat ik eindlyk was bewoogen,</l>
+						<l>Het vólk zou uw vertrék tóch nimmermeer gedoogen.</l>
+						<l>Ga heen, dat u de Góôn begunstigen in ’t vliên,</l>
+						<l>En geeven, dat ik haar in lang niet weêr moog zien.</l>
+						<l>Gy, vólg de Kóningin.</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Ik bén als opgenoomen,</l>
+						<l>Myn Heer.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Myn Vader!</l>
+					</sp>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>Gaat, zoek Kalchas voor te kómen,</l>
+						<l>Gy ként zyn stréng gemoed, én zyn oplopendheên;</l>
+						<l>Vlugt, zég ik u nóch eens; ’k zal door verzierde reên,</l>
+						<l>Het óffer staaken; hém, indien ik kan, misleiden;</l>
+						<l>En bidden, dat ze tóch tót mórgen willen beiden.</l>
+					</sp>
+				</div>
+				<div type="scene" n="11">
+					<head>ELFDE TONNEEL.</head>
+					<stage>ERIFILÉ, DÓRIS.</stage>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>KOm, Dóris, dit ’s de wég niet, die men inslaan moet.</l>
+					</sp>
+					<sp who="#dóris">
+						<speaker>DÓRIS.</speaker>
+						<l>Hoé? volgt gy hén niet na.</l>
+					</sp>
+					<sp who="#erifilé">
+						<speaker>ERIFILÉ.</speaker>
+						<l>Ach! Dóris, ’k wórd verwoed.</l>
+						<l>Dit zyn de vruchten van Achilles téderhéden,</l>
+						<l>’t Zal échter zo niet gaan. ’t Is uit mét alle réden.</l>
+						<l>’k moet haar verdérven, óf, wanhoopende, vergaan.</l>
+						<l>Ga mét me, aan Kalchas zal ik alles doen verstaan.</l>
+					</sp>
+					<p>Einde van het vierde Bedryf.</p>
+				</div>
+			</div>
+			<div type="act" n="5">
+				<head>VYFDE BEDRYF</head>
+				<div type="scene" n="1">
+					<head>EERSTE TOONEEL.</head>
+					<stage>IFIGENIA, AEGINA.</stage>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>AEgina, laat tóch af; wil my niet langer kwéllen.</l>
+						<l>Keer na myn moeder. ’k Moet de Góôn te vréden stéllen</l>
+						<l>Mét myn rampzalig bloed. Ach! ziet gy niet, wat nood,</l>
+						<l>Wat ramp het leger dreigt, om ’t weig’ren van myn dood?</l>
+						<l>Ay, zie in wélk een staat zy myne moeder bréngen.</l>
+						<l>Hêt vólk zal myne vlugt tóch nimmermeer gehéngen,</l>
+						<l>Gy zaagt hoe ’t onze wacht, wanneer wy wilden vliên,</l>
+						<l>De punt van zyn geweer durfde oneerbiedig biên.</l>
+						<l>Gy zaagt de Koningin wanhoopende bezwyken;</l>
+						<l>Zy loopt te veel gevaar; ey, laat ik haar ontwyken:</l>
+						<l>Sta toe, dat ik me dien van haar bedroefde staat;</l>
+						<l>Ik moet tóch stérven; al myn hoop, én toeverlaat,</l>
+						<l>Myn vader wil niet dat ik blyven zal in ’t léven.</l>
+						<l>Hy heeft myn dood gestémt, én wil dat ik sal sneeven.</l>
+					</sp>
+					<sp who="#aegina">
+						<speaker>AEGINA.</speaker>
+						<l>Mevrouw, wat is ’er dat de Vórst zo vér vervoerd?</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Achilles heeft hém licht gehoond, zyn hart ontroerd.</l>
+						<l>De Kóning, die hém haat wil my hém ook doen haaten,</l>
+						<l>En dat ik niet alleen Achilles zal verlaaten,</l>
+						<l>Maar nooit meer spreeken. ’k Zal ’t bestérven. Dat bescheid,</l>
+						<l>Heeft Arkas, door zyn last, my éven aangezeid.</l>
+					</sp>
+					<sp who="#aegina">
+						<speaker>AEGINA.</speaker>
+						<l>’t Is ongelooflyk. Heeft uw vader ’t u geboden?</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>ô Wreedheid zonder ga! ô vonnis! groote Góden!</l>
+						<l>Gy zyt min wreed als hy; ge eischt sléchs myn léven. Maar,</l>
+						<l>Ik zal gehoorzaam zyn, en stérven. Ach! Wie daar?</l>
+						<l>Góôn! ’t Is Achilles!</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>TWEDE TOONEEL.</head>
+					<stage>ACHILLES, IFIGENIA, AEGINA.</stage>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l> KOm, Mevrouw, kom; wil my vólgen,</l>
+						<l>Vrees voor geen muitend graauw, hoe zeer ’t zich toont verbólgen,</l>
+						<l>Hét is onmagtig, hoe ’t ook dreigt, én tiert én raast.</l>
+						<l>Vertoon u névens my, gy zult élk een verbaast,</l>
+						<l>Zélf zonder slag of stoot, voor ons de rug zien wénden:</l>
+						<l>Ik wórd van Patroklus, én ’t puik van al myn bénden.</l>
+						<l>Gevólgd; myn óv’rig vólk, vergaderd by myn’ vaan,</l>
+						<l>Bied u de onwinb’re wal van hunn’ geléden aan:</l>
+						<l>Neem daar uw’ toevlugt voor al dat u wil verdrukken.</l>
+						<l>Men kom eens, om u uit Achilles tént te rukken.</l>
+						<l>Maar, gy schynt doof, Mevrouw, voor myn genégenheên.</l>
+						<l>Geeft gy geen antwoord als door zuchten, én geween?</l>
+						<l>Ay, kom, wacht geen ontzét van noodelooze klagten.</l>
+						<l>Uw’ weenen kon zélf niet uw’s vaders hart verzachten.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Ik weet het wél, myn Heer, ’k wacht ook geen troost voor my</l>
+						<l>Als van de droeve slag, die ’k ga ontfangen</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Gy!</l>
+						<l>Gy stérven! ey laat af, Mevrouw, én spaar die réden;</l>
+						<l>Gedénk, hoe ik aan u verbonden bén mét eeden,</l>
+						<l>Dénk, zonder onze tyd in woorden te besteên,</l>
+						<l>Achilles bouwt zyn heil op uw geluk alleén.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>De Hémel, die my zó veel ramp heeft toegezonden,</l>
+						<l>Heeft uw’ geluk, myn Heer, niet aan myn lót verbonden.</l>
+						<l>Uw’ liefde hélpt hier niet, al is die nóch zó groot;</l>
+						<l>Weet, uw’ geluk bestaat alleen in myne dood.</l>
+						<l>Wil aan die vrugtbaare oogst van roem, én zeege dénken,</l>
+						<l>Die de overwinning aan uw’ dapperheid zal schénken.</l>
+						<l>Hét heerlyk véld van eer, waar na ge al t’zaamen haakt,</l>
+						<l>Zal eeuwiglyk, indien ’t myn bloed niet vruchtbaar maakt</l>
+						<l>Onvruchtbaar zyn. Dit is ons van de Góôn beschooren.</l>
+						<l>Vergeefs heeft vader niet na Kalchas willen hooren.</l>
+						<l>Hun eeuwig raads besluit, bekénd aan ’t Grieksche vólk,</l>
+						<l>’t Geen in myn doodstémt, maakt hét tót een zék’re tólk.</l>
+						<l>Ga heen, uw’ liefde is maar ’t belérzel uwer eere,</l>
+						<l>Volvoer ’t besluit der Góôn, dat Grieken triomfeere</l>
+						<l>Door uwe dapperheid, gelyk ons is gespéld.</l>
+						<l>Toon haar de kloeke daán van haar beloofden héld.</l>
+						<l>Wilt uw’ verbólgenheid den vyand doen bezuuren;</l>
+						<l>Alrê beeft Priamus, reeds sidd’ren Trójens muuren</l>
+						<l>Voor ’t flikkeren van de vlam die my verteeren zal.</l>
+						<l>De traanen die ik stort’ voorspéllen haare val.</l>
+						<l>Ay, ga, myn Heer; én als de vrouwen der Trójaanen,</l>
+						<l>Beweenen heure mans, dan zullen heure traanen</l>
+						<l>Waerde ófferhanden zyn aan myn vergooten bloed.</l>
+						<l>Ik stérf, op déze hoop, mét een vernoegd gemoed:</l>
+						<l>En wil my zélf gerust den Góden óvergeeven.</l>
+						<l>Mag ik de zeege van Achilles niet beleeven?</l>
+						<l>’k Hoop als men naderhand zal spreeken van uw’ daân,</l>
+						<l>Die ménschelyke magt zeer vér te bóven gaan:</l>
+						<l>Dat dan myn dood, daar ’t eerst uw’ roem is uitgereezen.</l>
+						<l>Hét schoon beginzél van dat schoon verhaal zal weezen.</l>
+						<l>Vaar wél, ô Prins; én leef, tót straf van Tróje, toon</l>
+						<l>Een ieder, dat gy zyt gesprooten van de Goôn.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Vergeefs, ô wreede! zoekt gy door déze yd’le réden,</l>
+						<l>Ter lust uw’s vaders, u aan myn genégenhéden</l>
+						<l>Te ontrékken. ’t Is vergeefs, dat gy ter dood wilt gaan,</l>
+						<l>En my verpligten ook die wreedheid toe te staan.</l>
+						<l>Die oegst van Lauw’ren dat beloofde zeege praalen;</l>
+						<l>Kan ik, u dienende, hier door myn hand behaalen.</l>
+						<l>Wie óf zich naderhand op my verlaten zou,</l>
+						<l>Indien ik u zélf; niet kon rédden door de trouw?</l>
+						<l>Myn eer, én myne min beveelen u te leeven.</l>
+						<l>Vólg my, Mevrouw, gy moet u aan my óvergeeven,</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Myn Heer, zoude ik de wil myns vaders tégen staan?</l>
+						<l>’k Verdiende aldus mét récht een dood, die ’k zócht te ontgaan.</l>
+						<l>Zou zyn gezag, door my, dus schandig zyn geschonden?</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Gy vólgt een Bruigom, door hém zélfs aan u verbonden,</l>
+						<l>’k Verlaat die lieve naam, noch myne bruid; ô neen,</l>
+						<l>Of doet hy de eeden niet als om die te óvertreên?</l>
+						<l>En gy, die u aan hém dus naauw verpligt wilt houwen,</l>
+						<l>Was ’t niet uw’ vader, die ons t’zaam besloot te trouwen?</l>
+						<l>Vólg dat besluit dan: óf gehoorzaamt gy sléchts, als</l>
+						<l>Hy ’t laat te zyn, én u wil bréngen om den hals!</l>
+						<l>Dit duurt te lang, Mevrouw, én ik begin te vreezen....</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Is uw’ vermételheid, myn Heer, zo hoog gereezen</l>
+						<l>Dat gy me dwingen wild? én zoud’ ge dus myn smart</l>
+						<l>Ter tóp doen ryzen? gaat myn eer u min aan ’t hart,</l>
+						<l>Als u myn léven doet? wil my niet meer verdrukken;</l>
+						<l>Voeg zulk een bitt’re hoon niet by myne ongelukken.</l>
+						<l>Myns vaders wil én wét mag ik niet óvertreên:</l>
+						<l>Ik héb alrê te lang geluistert na uw’ reên.</l>
+						<l>Indien gy vérder gaat, én niet na my wilt hooren,</l>
+						<l>Zal ik met déze hand my zélf het hart doorbooren,</l>
+						<l>Om vry te zyn: ô ja, ik zal my door myn dood,</l>
+						<l>Bevryden van uw’ hulp, my rédden in de nood.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Wél aan dan, wreede, ’k zie myn hulp uw’ toorn verwékken;</l>
+						<l>Gehoorzaam: zoek de dood, kan ze u tót hulp verstrékken,</l>
+						<l>Draag uwen Vader op, een hart, waar in ’t onzag</l>
+						<l>Heerscht min tót hém, als haat tot my. Ontfang de slag:</l>
+						<l>En laat u zélf, ter spyt van myne liefde, dooden.</l>
+						<l>Ga, ga Mevrouw; ik vlieg na ’t outer. Zo de Góden</l>
+						<l>Belust op ménschen bloed én moorden zyn? wel aan,</l>
+						<l>’k Zal hén meer óff’ren als’er immer is gedaan.</l>
+						<l>Gy ziet een éd’le toorn myn grootsch gemoed bewoonen;</l>
+						<l>Myn blinde liefde zal ook niemand niet verschoonen;</l>
+						<l>De Priester, ’t eerst van al verslagen in hét zand,</l>
+						<l>Verstrékke aan myne wraak een waerdige ófferhand.</l>
+						<l>De houtmyt zal in ’t bloed der wreede beulen dryven:</l>
+						<l>En, zo uw vader komt in zulk een stórm te blyven,</l>
+						<l>En word verslagen in dat schrikkelyk gevécht,</l>
+						<l>Zie dan, wat gy door uw ontzag hébt uitgerécht</l>
+						<l>Kén dan, waar toe gy zélf my oorzaak hébt gegeeven.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>ô Wreede! maar hy vlugt.... ô Góôn! maak van myn léven,</l>
+						<l>En van myn ramp een eind. Dat in uw’ grimmighéên</l>
+						<l>Uw’ bliksem néderdaal; maar tréf myn hart alleen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>DÉRDE TOONEEL.</head>
+					<stage>KLYTEMNÉSTRA, IFIGINIA, EURIBATÉS, AEGINA.</stage>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>JA, ’t gantsche heir zal my myn’ dóchter niet ontrukken</l>
+						<l>Verraaders, durft gy dus uw’ Koningin verdrukken?</l>
+					</sp>
+					<sp who="#euribatés">
+						<speaker>EURIBATÉS.</speaker>
+						<l>Mevrouw, wy zullen doen, al watge ons wilt gebiên.</l>
+						<l>Gy zult ons véchtend voor uw’ voeten sneuv’len zien.</l>
+						<l>Maar wat verwacht gy van de zwakheid onzer armen?</l>
+						<l>Dat die haar tégen zo veel vyanden beschérmen?</l>
+						<l>’t Is geen verwarde hoop van vólk, dat licht verswind:</l>
+						<l>’t Is ’t gantsche léger door een dulle drift verblind,</l>
+						<l>En ’t geen van Kalchas, die mêdógenloos dén Góden</l>
+						<l>Dit óffer slagten wil, beheerscht word, én gebooden.</l>
+						<l>De Kóning ziet zich van zyn magt ontbloot, en doet</l>
+						<l>Ons wyken voor de stroom dier opgezwollen vloed.</l>
+						<l>Achilles, tégens wien zich niemand aan durft zétten,</l>
+						<l>Zal zélf mét al zyn moed de voortgang niet belétten.</l>
+						<l>Wat kan men doen, Mevrouw? wat middelen, wat raad</l>
+						<l>De stórm te ontwyken, die ons op te kómen staat?</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Dat zy dan hunne woede op my, én ’t weinig léven</l>
+						<l>Uitvoeren, ’t geen, helaas! my óv’rig is gebleeven</l>
+						<l>De dood alleen, maar vrees, nóch dreigen, nóch allarm,</l>
+						<l>Kan beide ons tréffen, vast gestréngeld arm in arm.</l>
+						<l>Myn lichaam is veel eer van myne ziel te scheuren,</l>
+						<l>Als dat ik immer.... Ach myn dóchter!</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Of wy treuren,</l>
+						<l>Om dat een wreede star, tót straf van ons geslacht,</l>
+						<l>De stond bescheen, toen ik ter waereld wierd gebragt.</l>
+						<l>Wat is hier tóch voor ons, helaas! veel uit te réchten,</l>
+						<l>Die mét de Góden én de ménschen moeten véchten?</l>
+						<l>Ay, stél u by een vólk, vol woede, in geen gevaar,</l>
+						<l>En in een léger, dat niet meer wil hooren naar</l>
+						<l>Uw’ égemaal. Mevrouw, gy zoud vergeefs my trachten</l>
+						<l>Te hélpen! ieder zoude u hoonen, én verachten:</l>
+						<l>En gy zoud licht, tót loon der hulp, die gy my bood,</l>
+						<l>Een schouwspél strékken, my veel wreeder dan de dood.</l>
+						<l>Ay, laat de Griek begaan; én maak myn ziel niet droever.</l>
+						<l>Maar vlied voor eeuwig van déze ongelukkige oever.</l>
+						<l>De vlam des óffers die my wacht, zal voor uw oog</l>
+						<l>Als ’t zo na by is, zyn te schrikk’lyk een vertoog.</l>
+						<l>Voor al laat me op uw’liefde één béde tóch verwérven</l>
+						<l>Ach, moeder! ach! verwyt aan vader nooit myn stérven!</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Wie? hém, die zélf uw hart aan Kalchas bied, én zénd?</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Wat heeft hy niet tot myn verlóssing aangewénd!</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Hoe valsch heeft hy ons niet verleid.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Hy gaf den Góden,</l>
+						<l>Van wien hy my ontfing, my weêr op hun gebóden.</l>
+						<l>Men rooft u wél een lief, maar niet een eenig kind;</l>
+						<l>’k Bén niet alleen de band, die u aan vader bind:</l>
+						<l>Gy kund u troosten mét Oréstes, mynen broeder,</l>
+						<l>Ach! mogt hy wézen min gevaarlyk aan zyn moeder!</l>
+						<l>Gy hoort des dullen vólks onwéderstaanlyke eisch!</l>
+						<l>Omhéls u kind nóch eens, ’t is voor de laaste reis,</l>
+						<l>Mevrouw; én toon, dat gy nooit moediger, nóch stouter....</l>
+						<l>Eurybatés, kom, leid uw óffer na het outer.</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Gy zult alleen niet gaan, myn dóchter; ik ga mé?</l>
+						<l>Maar hoe? weerhoud men my, waar heen ik wénde óf trê.</l>
+						<l>Wél, trouwelooze léscht uw bloed dorst.</l>
+					</sp>
+					<sp who="#aegina">
+						<speaker>AEGINA.</speaker>
+						<l>Dwing uw zinnen,</l>
+						<l>Mevrouw, wat kunt, wat wilt ge uitréchten? wat beginnen?</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Helaas! het is vergeefs al wat ik pooge of doe.</l>
+						<l>Ach! ’k bén verbysterder als ooit voorheen! maar hoe?</l>
+						<l>’k Stérf duizend dooden, én ik blyf nóch in het léven!</l>
+					</sp>
+					<sp who="#aegina">
+						<speaker>AEGINA.</speaker>
+						<l>Weet gy het schélmstuk al, én wie het heeft bedreeven?</l>
+						<l>Kent gy het monster dat Ifigeniaas dood</l>
+						<l>Veroorzaakt, ’t geen zy heeft gekoesterd in haar schoot?</l>
+						<l>De ondanb’re Erifilé, die dulle min doet blaaken,</l>
+						<l>Heeft uwe vlugt het vólk, uit spyt, beként gaan maaken.</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Afgryslyk schrik dier, van Megéra zélf gebaart,</l>
+						<l>Die in onze armen van de hél gewórpen waart,</l>
+						<l>Zult gy niet stérven? én uw schuld, daar alle vloeken...</l>
+						<l>Maar, ach! waar gaat myn rouw eene ófferhande zoeken?</l>
+						<l>ô Zé! had gy geen nieuwe afgronden, om de vloot</l>
+						<l>Van duizend schépen te begraaven, in uw schoot?</l>
+						<l>Zo laat de winden dan, als Aulis uit zyn kaaken</l>
+						<l>De kielen, die het in zyn havens houd, zal braaken,</l>
+						<l>Die winden, zo van ons beschuldigt, u belaan</l>
+						<l>Mét schépen door de stórm verbrooken, én vergaan.</l>
+						<l>En gy, ô zon! én gy, die Atreus zoon, én waaren</l>
+						<l>Nakomeling beschouwt, maak weer te rugg’ te vaaren:</l>
+						<l>Gy die niet durfde uit schrik beschynen ’s vaders feest,</l>
+						<l>Keer, keer, u is de wég van hém geleerd geweest.</l>
+						<l>Maar ondertusschen zal myn dóchter, óverlaaden</l>
+						<l>Mét haatelyke, én ongelukkige sieraaden,</l>
+						<l>ô Wreede Hémel! ô bedroefde moeder! naar</l>
+						<l>Het outer treeden. Góôn! is ’t lydelyk! én daar</l>
+						<l>Door de onverzoenb’re klaauw van Kalchas aangegreepen;</l>
+						<l>Haar hals aan ’t slachtmés, door haar vader zélfs gesleepen</l>
+						<l>Aanbieden! Kalchas zal in haar onschuldig hloed</l>
+						<l>Zich... maar laat af, ontménschde, én zie op wien gy woed.</l>
+						<l>’t Is zuiver bloed eens Góds, wiens fél ontsteeken tooren,</l>
+						<l>Ons laat zyn bliksem zien, ons doet zyn donder hooren.</l>
+						<l>Hy wil zig wreeken; Aarde én Hémel dreunt, en kryt...</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>VIERDE TOONEEL.</head>
+					<stage>KLYTEMNÉSTRA, AEGINA, WACHT, ARKAS.</stage>
+					<sp who="#arkas">
+						<speaker>ARKAS.</speaker>
+						<l>JA, zyt verzékerd ’t is een Gód, die voor u stryd.</l>
+						<l>Achilles opgewékt, Mevrouw, door uw’ gebéden,</l>
+						<l>Heeft reeds de wéderstand des Grieks in ’t stóf vertréden,</l>
+						<l>En is by ’t outer, waar dat Kalchas van ’t gewéld</l>
+						<l>Verzét staat; ’t óffer is tót nóch toe uitgestéld.</l>
+						<l>Men dreigt; de Hémel zucht, men vliegt; het staal dat schittert.</l>
+						<l>Rondom het Outer stélt Achilles gantsch verbittert,</l>
+						<l>Zyn vrinden, al gereed om hém hunn’ hulp te biên.</l>
+						<l>Haar vader, die hém naauw durft onder de oogen zien</l>
+						<l>Om zyne traanen niet te toonen, keert zyne oogen</l>
+						<l>Van déze élende, én heeft hét aanzigt óvertoogen.</l>
+						<l>Kom, wyl hy zwygt, Mevrouw, doe door uw’ woord de hand</l>
+						<l>Van uw’ verdeediger hét noodige onderstand:</l>
+						<l>Dewyl hy, rood van ’t bloed van die hy kwam te vellén,</l>
+						<l>Wil in uwe armen, zyn beminde bruid hérstéllen.</l>
+						<l>’k Moet dérwaarts op zyn last u leiden, ga mét my;</l>
+						<l>Ey vrees niet.</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Arkas, zoude ik vreezen? vliegen wy:</l>
+						<l>Hét schrikkelykst gevaar heeft niets dat my doet schroomen;</l>
+						<l>’k Streef alles door. Maar, Góôn! zie ’k niet Ulisses kómen!</l>
+						<l>Hy is ’t! myn kind is dood. Ach! Arkas, ’t is te laat.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>VYFDE TOONEEL.</head>
+					<stage>ULISSES, KLYTEMNÉSTRA, ARKAS, AEGINA, wachten, NÉSTOR, PATROKLÉS.</stage>
+					<sp who="#ulisses">
+						<speaker>ULYSSES.</speaker>
+						<l>ZY is in ’t léven, én des Hémels toorn verzaad.</l>
+						<l>Mevrouw, hérstél u, wyl de Góôn ze u wéder geeven.</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Zy leeft! én gy bréngt my de tyding van haar léven.</l>
+					</sp>
+					<sp who="#ulisses">
+						<speaker>ULYSSES.</speaker>
+						<l>Ja, ik, die ’s Vorsten hart héb tégen u, én haar</l>
+						<l>Gestérkt, als hy besweek uit liefde, om haar gevaar.</l>
+						<l>Ik, die, wyl ik de reis na Tróje zag vertraagen,</l>
+						<l>Geen acht héb in myn raân op uw geween geslagen.</l>
+						<l>Kom nu, Mevrouw, dewyl de Góden zyn vernoegd</l>
+						<l>Hét kwaad hérstéllen, dat ik u héb toegevoegd.</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Ach Prins! myn dóchter! Góôn! mag ik op u vertrouwen?</l>
+						<l>ô Wonderwérk! wat Gód heeft my myn kind behouwen?</l>
+					</sp>
+					<sp who="#néstor">
+						<speaker>NÉSTOR.</speaker>
+						<l>Elk een gelyk gy ziet is op dit oogenblik.</l>
+						<l>Vervuld mét blydschap, mét verrukking, én mét schrik.</l>
+						<l>Nooit heeft een dag den Griek zo doodelyk gescheenen.</l>
+					</sp>
+					<sp who="#patroklés">
+						<speaker>PATROKLÉS.</speaker>
+						<l>De twédracht streefde alreê door ’t gantsche léger heenen:</l>
+						<l>En hébbende in élks oog haar standaard reeds geplant,</l>
+						<l>Gaf zy hét doodelyk sein der stryd met haare hand.</l>
+						<l>Uw dóchter stond ontroerd, te zien, van alle zyden,</l>
+						<l>Het léger tégen, én Achilles voor haar stryden.</l>
+						<l>Die, schoon alleen, vol toorn, terwyl zy opwaards klom,</l>
+						<l>Het heir verbaast maakte, én verdeelde ’t Gódendom.</l>
+						<l>Men zag alréde een wolk van uitgetoogen schichten,</l>
+						<l>De lucht benévelen, ’t bloed stroomen, niemand zwichten.</l>
+						<l>Wanneer Achilles.... Maar ik zie hy nadert vast.</l>
+						<l>Mét uw gemaal én kind.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>ZÉSDE TOONEEL.</head>
+					<stage>AGAMÉMNON, KLYTEMNÉSTRA, ACHILLES, IFIGE- NIA, KALCHAS, ULISSES, AEGINA,
+						ARKAS, PATRO- KLÉS, wacht, EURIBATÉS.</stage>
+					<sp who="#agamémnon">
+						<speaker>AGAMÉMNON.</speaker>
+						<l>MEvrouw der Góden last</l>
+						<l>Is uitgevoerd; zy zyn bewoogen door uw karmen,</l>
+						<l>En lev’ren, na uw wénsch, uw kind weêr in uwe armen.</l>
+					</sp>
+					<sp who="#ifigenia">
+						<speaker>IFIGENIA.</speaker>
+						<l>Myn moeder!</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Goede Góôn! wat blydschap; ach! myn kind,</l>
+						<l>Geniet uw’ moeder, nu ze u lévend wéder vind.</l>
+						<l>Haar dóchter, die zy reeds dood rékende, én verlooren!</l>
+						<l>Maar, hoe voldoe ik u myn Heer, ach! doe my hooren</l>
+						<l>Hoe gy haar léven hébt geréd uit dit gevaar?</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Mevrouw, ik streefde mét myn vrinden na ’t altaar,</l>
+						<l>Dat ik mét krygsvólk dicht bezét vond, die zich tégen</l>
+						<l>Myn voortgang stélden; ’k zie de Kóning, gantsch verlégen,</l>
+						<l>Zyn ondanks, toestaan, mét een troosteloos gemoed,</l>
+						<l>De Gódspraak die ons eischt Ifiginiaas bloed.</l>
+						<l>Dit wékt ons aller moed, om ’t stryden te verkiezen,</l>
+						<l>Op hoop der zeege, óf om ’er ’t léven te verliezen.</l>
+						<l>Als Kalchas toe treed, die u zélf verhaalen zal,</l>
+						<l>Hoe ’t Gódendom uw kind beschérmt heeft voor haar val.</l>
+					</sp>
+					<sp who="#kalchas">
+						<speaker>KALCHAS.</speaker>
+						<l>Mevrouw, Achilles, die, vol ongeduld, én tooren,</l>
+						<l>Streed voor zyn lieve bruid, scheen niets te willen hooren:</l>
+						<l>Dóch, op myne aankomst bond zig in. Ik mét een oog</l>
+						<l>Vol vuur, hét weezen dof, het hair gerécht om hoog,</l>
+						<l>Verschrik’lyk, vol des Góds, waar van ik was bezéten,</l>
+						<l>Sprak: hoor, Achilles; hoort, gy Grieken, ’k doe u weeten,</l>
+						<l>De Gód, die door myn stém u héden toespreekt, zégt</l>
+						<l>My zyne wil, én heeft my klaar’er onderrecht.</l>
+						<l>Een ander bloed moet hier geslagt zyn, én vergooten,</l>
+						<l>Een and’re Ifigenie uit Hélena gesprooten.</l>
+						<l>Want zy, met Thézeus in het heymelyk gepaart</l>
+						<l>Toen hy haar schaakte, heeft een dóchter hém gebaart,</l>
+						<l>By haar verzweegen om die schande te verbloemen,</l>
+						<l>En heeft die dóchter doen Ifigenia noemen.</l>
+						<l>Ik, ik, die zélf de vrucht gezien héb van déze écht,</l>
+						<l>Héb al van die tyd af ’s kinds ongeluk voorzégt.</l>
+						<l>Haar droevig lót blyft door een valsche naam verbórgen,</l>
+						<l>Zy is alhier gebragt door haar verwoede zórgen.</l>
+						<l>Ze is voor uw aller oog; zy ziet my, én zy hoort</l>
+						<l>Haar vonnis, zy is de eisch der Góden, in een woord.</l>
+						<l>Dus sprak ik, daad’lyk wérpt al ’t léger, opgetoogen,</l>
+						<l>En vol verwond’ring, op Erifilé zyne oogen</l>
+						<l>Zy stond by ’t outer, én wél lichtlyk was haar hart</l>
+						<l>Vol ongeduld, dat mét het óffer wierd gemart;</l>
+						<l>Want zy was daar alleen gekómen om te ontdékken</l>
+						<l>Aan ’t Grieksche vólk, dat gy in stilte woud vertrékken.</l>
+						<l>’t Ontzét zich van haar lót, zo vreemd, én stam, zo groot</l>
+						<l>Maar, wyl men Tróje moet verkrygen door haar dood,</l>
+						<l>Heeft straks het krygs vólk, in een drift op haar ontstóken,</l>
+						<l>Hét vonnis van haar dood eenstémmig uitgesprooken,</l>
+						<l>Daar ik my vaardig tót die slagting had gemaakt.</l>
+						<l>Houd stand, sprak zy, ik wil van niemant zyn geraakt.</l>
+						<l>Hét bloed der hélden, die gy zégt my voor te bréngen,</l>
+						<l>Zal zich wél zonder uw’ Godlooze handen pléngen,</l>
+						<l>Voort vliegt die dulle na ’t altaar, nóch onbemorst,</l>
+						<l>Vat na hét heilig més, én stoot hét in haar borst:</l>
+						<l>Maar naauw’lyks vloeid haar bloed langs de aarde, óf, wélk een
+							wonder!</l>
+						<l>De Góôn doen op ’t altaar neêrvallen hunne donder.</l>
+						<l>De winden, aan het gaan, beroeren straks de lucht.</l>
+						<l>De zé geeft antwoord; ruischt, én maakt een nieuw gerugt.</l>
+						<l>Men, ziet hét strand terstond mét sneeuwit schuim bestreeken,</l>
+						<l>En ’t lyk vuur op ’t altaar van zélve zich ontsteeken.</l>
+						<l>De Hemel weêrlicht, sluit zig op, én zénd in ’t véld</l>
+						<l>Een heilige indruk, die al ’t léger weêr hérstéld.</l>
+						<l>De krygsknécht, gantsch verzét, wil voor gewis verhaalen,</l>
+						<l>Dat hy Diana in een wólk zag néderdaalen:</l>
+						<l>Ja zégt, dat zy om hoog weêr varende in de vlam,</l>
+						<l>Onze ófferhande én bê mét haar ten Hémel nam.</l>
+						<l>Hét zaamgeloopen vólk, trékt juichende weêr heenen;</l>
+						<l>Ifigenia zagme alleen maar ’t lyk beweenen,</l>
+						<l>Van haare vyandin, de doode Erifilé,</l>
+						<l>Tót ons gemeen geluk, gesneuveld daar ter stéê.</l>
+						<l>Ontfang dan van myn hand uw’ dóchter, door der Góden</l>
+						<l>Goedgunstigheid geréd.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>ACHILLES.</speaker>
+						<l>Nu komt myn ziel u nooden,</l>
+						<l>Dewyl de Kóning stémt onze écht, dat gy Mevrouw,</l>
+						<l>Bevéstigt door uw woord die lang gewénschte trouw.</l>
+					</sp>
+					<sp who="#klytemnéstra">
+						<speaker>KLYTEMNÉSTRA.</speaker>
+						<l>Waer mede kan ik héld Achilles ooit beloonen,</l>
+						<l>En u, ô Góôn, genoeg myn dankbaerheid betoonen?</l>
+					</sp>
+					<p>EINDE.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

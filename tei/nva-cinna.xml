@@ -1,0 +1,2880 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000146" xml:lang="dut">
+
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Cinna</title>
+				<title type="sub"/>
+				<author>
+					<persName>
+						<forename>Pierre</forename>
+						<surname>Corneille</surname>
+					</persName>
+					<idno type="wikidata">Q747</idno>
+					<idno type="pnd"></idno>
+				</author>				
+				<author>
+					<persName>
+						<forename/>
+						<surname>Nil Volentibus Arduum</surname>
+					</persName>
+					<idno type="wikidata">Q2351891</idno>
+					<idno type="pnd"></idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>Ceneton</name>
+					<idno type="URL"
+						>https://www.let.leidenuniv.nl/Dutch/Ceneton/NVACinna1683a.html</idno>
+					<editor>A.J.E. Harmsen</editor>
+					<ref>Ceneton030250</ref>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Nil Volentibus Arduum: Cinna. Amsterdam: Albert Magnus, 1683.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person xml:id="oktavius-césar-augustus" sex="MALE">
+						<persName>OKTAVIUS CÉSAR AUGUSTUS</persName>
+					</person>
+					<person xml:id="livia" sex="FEMALE">
+						<persName>LIVIA</persName>
+					</person>
+					<person xml:id="emilia" sex="FEMALE">
+						<persName>EMILIA</persName>
+					</person>
+					<person xml:id="fulvia" sex="FEMALE">
+						<persName>FULVIA</persName>
+					</person>
+					<person xml:id="cinna" sex="MALE">
+						<persName>CINNA</persName>
+					</person>
+					<person xml:id="maximus" sex="MALE">
+						<persName>MAXIMUS</persName>
+					</person>
+					<person xml:id="eufórbus" sex="MALE">
+						<persName>EUFÓRBUS</persName>
+					</person>
+					<person xml:id="polyklétes" sex="MALE">
+						<persName>POLYKLÉTES</persName>
+					</person>
+					<person xml:id="evander" sex="MALE">
+						<persName>EVANDER</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-04">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1683">
+				<desc/>
+			</event>
+			<event type="premiere" when="1680">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+			<docTitle>
+
+				<titlePart>CINNA.</titlePart>
+
+				<titlePart>TREURSPÉL.</titlePart>
+
+				<titlePart>Uit het Fransch van de Heer CORNEILLE. </titlePart>
+
+				<titlePart>[Vignet: Nil Volentibus Arduum]</titlePart>
+
+				<titlePart>Te AMSTERDAM,</titlePart>
+
+				<titlePart>By ALBERT MAGNUS, op de Nieuwen Dyk,</titlePart>
+				<titlePart>in den Atlas. 1683.</titlePart>
+				<titlePart>Mét Privilégie.</titlePart>
+
+			</docTitle>
+
+
+			<div type="appendix">
+				<head>COPYE Van de PRIVILEGIE.</head>
+				<p>De Staten van Holland ende West-Vrieslandt doen te weten. Alsoo Ons vertoont is
+					by eenige Liefbebbers van de Nederduytsche Tael en Poëzy, hoe dat sy al voor
+					eenige Jaren, na het voorbeeld van de Italiaensche en Fransche Academien,
+					t’Amsterdam opgerecht hadden, een Konstgenootschap onder de Prent en Sinspreuke
+					van NIL VOLENTIBUS ARDUUM, waar in dagelijks gearbeyt was, en noch wiert, tot
+					voortsettinge van onse Taal en Dichtkonst, gelijk ook al eenige werkjens, nu en
+					dan daar van in ’t lieht gekomen, en door den druk gemeen gemaakt waren; en de
+					wyl van tyt tot tyt uytgegeven souden worden grootere werken, die by dat
+					Konstgenootschap, sommige reets gemaakt, sommige noch onderhanden waren, waar
+					toe het selve boven haar tyt en arbeyd, noch groote kosten tot den druk, en wat
+					daar meer toebehoort, soude moeten doen, en vermits ook niet sonder groote reden
+					gevreest wierd, dat al het gene van eenigh belangh zynde, by het felve
+					Konstgenootschap uytgegeven soude worden, aanstonts door andere soude mogen
+					werden naargedrukt, en sonder eenige opmerkingh, veel min naauwkeurigheydt der
+					Spelling oft nettigheydt der Tale, aan al de wereldt gemeen gemaakt, waar door
+					het goede Insigt tot opbouwingh der Nederduytsche Tale, ende voortsettinge van
+					de welsprekentheydt in de selve verhindert, en de lust, om daar in voort te gaan
+					aan het voorseyde Konstgenootschap soude benomen worden; soo hadde sich het
+					selve Konstgenootschap genootsaakt gevonden, om sich te keeren tot Ons,
+					ootmoedelyk versoekende, dat het Ons gelieven mogte haar te begunstigen alle de
+					werken, die uyt het selve Konstgenootschap in ’t licht gebraght souden worden,
+					met Ons Octroy voor 20 jaren langh, en onder soodanige straffe tegen de gene,
+					die de selve soude nadrukken., verkoopen, oft elders naargedrukt, in dese Onse
+					Provintie voeren om te verkoopen, a!s het Ons soude gelieven goet te vinden. SOO
+					IS ’t, dat Wy, de Sake en ’t Versoek voorsz. overgemerkt hebbende ende genegen
+					wesende ter bede van de Supplianten, uyt Onse rechte wetenschap, Souveraine
+					macht ende authoriteyt de selve Supplianten geeonsenteert, geaccordeert, en
+					geoctroyeert hebben, consenteren, accorderen, ende Octroyeren mits desen, dat sy
+					gedurende den tyt van vyftien eerstkomende Jaren, de Werken by het voornoemde
+					Konstgenootschap onder denTytul van NIL VOLENTIBUS ARDUUM gemaakt werdende oft
+					alrede zynde, binnen den voornoemden Onsen Lande alleen sullen mogen drukken,
+					uytgeven ende verkoopen, verbiedende daarom allen ende eenen iegelyken, de selve
+					werken na te drukken, ofte elders naargedrukt binnen onsen Lande te brengen, uyt
+					te geven ofte te verkopen, op verbeurte van alle de naargedmkte, ingebraghte
+					ofte verkofte Exemplaren, ende een boete van drie hondert guldens daarenboven te
+					verbeuren, te appliceren een derde part voor den Offi- [fol. *2v] cier* die de
+					calange doen sal, een derde part voor den Armen der plattsen daar het casus
+					voorvallen sal, ende het resterende derde part voor de Supplianten. Alles in
+					dien verstande, dat Wy de Supplianten, met desen Onsen Octroye alleen willende
+					gratificeren tot verhoedinge van hare schade door het nadrukken van de voorsz.
+					Werken, daar door in geenigen deele verstaan, den Inhoude van dien te
+					authoriseren ofte te advouêren, ende veel min het selve onder Onse protectie
+					ende bescherminge eenig meerder credit, aansien ofte reputatie te geven; Nernaar
+					den Supplianten in cas daar in iets onbehoorlyks soude mogen influeren, alle het
+					selve tot haren lasten sullen gehouden wesen te verantwoorden, tot dien eynde
+					wel expresselyk begerende, dat by aldien sy desen Onsen Octroye voor de selve
+					Werken sullen willen stelllen, daar van geene geabbrevieerde ofte gecontraheerde
+					mentie sullen mogen maken; Nernaar gehouden sullen wesen,het selve Octroy ia ’t
+					gehtel, en sonder eenige Omissie daar voor te drukken, op pene van het effect
+					van dien te verliesen. Ende ten eynde de Supplianten desen Onsen consente en
+					Octroye mogen genieten naar behooren, lasten wy allen ende eenen iegelyken, dat
+					sy de Supplianten van den inhoudt van desen doen laten ende gedoogen, rustelyk,
+					vredelyk ende volkomenrlyk genieten ende gebruyken, cesserende alle belegh ende
+					wederleggen ter contrarie. Gedaan in den Hage onder Onsen grooten Zegele hier
+					aan doen hangen, den XV Maart, in ’t Jaar onses Heeren en Saligmakers duysent
+					ses hondert seven en seventigh.</p>
+
+				<p>A. Br. d’ASPEREN, 1677.</p>
+
+				<p>Ter Ordonnantie van de Staten</p>
+
+				<p>HERBERT van BEAUMONT, 1677.</p>
+
+				<p>Het KONSTGENOOTCHAP heeft het Récht van de bovenstaande PRIVILEGIE, aangaande
+					CINNA, vergunt aan ALBERT MAGNUS, Boekverkooper, tót Amsterdam,</p>
+				<p>In Amsterdam, den 20 Mey, 1683.</p>
+			</div>
+
+			<castList>
+				<head>VERTOONERS.</head>
+				<castItem corresp="#oktavius-césar-augustus">
+					<role>OKTAVIUS CÉSAR AUGUSTUS, Keizer van Romen. </role>
+				</castItem>
+				<castItem corresp="#livia">
+					<role>LIVIA, Keizerinne. </role>
+				</castItem>
+				<castItem corresp="#emilia">
+					<role>EMILIA, Dóchter van C: Toranius, Zédemeester, én voogd van Augustus, én
+						door hém in het Drie- manschap ter dood overgegeeven. </role>
+				</castItem>
+				<castItem corresp="#fulvia">
+					<role>FULVIA, vertrouwde van Emilia </role>
+				</castItem>
+				<castItem corresp="#cinna">
+					<role>CINNA, Zoon van eene Dóchter van Pompëus, én Hoofd der t’saamgezwoorene.
+					</role>
+				</castItem>
+				<castItem corresp="#maximus">
+					<role>MAXIMUS, Méde Hoofd der t’zaamenzweeringe. </role>
+				</castItem>
+				<castItem corresp="#eufórbus">
+					<role>EUFÓRBUS, Vrygemaakte van Maximus. </role>
+				</castItem>
+				<castItem corresp="#polyklétes">
+					<role>POLYKLÉTES, Vrygemaakte van Augustus. </role>
+				</castItem>
+				<castItem corresp="#evander">
+					<role>EVANDER, Vrygemaakte van Cinna.</role>
+				</castItem>
+				<p>Het Spél speelt te Romen.</p>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<head>CINNA.</head>
+				<head>TREURSPÉL.</head>
+				<head>EERSTE BEDRYF.</head>
+				<div type="scene" n="1">
+					<head>EERSTE TOONEEL.</head>
+					<stage> EMILIA.</stage>
+					<sp who="#emilia">
+						<speaker>EMILIA</speaker>
+						<l>Ô onverduldige begeertens om te wreeken</l>
+						<l>Myns Vaders dood, die my zo hévig komt ontsteeken!</l>
+						<l>Verbólgen kinders van ’t hérdénken myner smart,</l>
+						<l>Die ’k blindelings omarm mét myn wémoedig hart;</l>
+						<l>Wilt uw gewéld op my tóch maatigen, én lyden,</l>
+						<l>Dat ik my daar van moog voor weinig tyds bevryden;</l>
+						<l>Om te óverweegen in een staat zo droef te môe,</l>
+						<l>Wie ik stél in gevaar, én wie ’k vervólgen doe.</l>
+						<l>Als ik Augustus zie in heerlyckheid gezéten.</l>
+						<l>En dat door u aan myn geheugen word verweeten,</l>
+						<l>Hoe hy myn Vader heeft mét eigen hand geslagt,</l>
+						<l>En zich aldus den wég gebaand tót de oppermagt;</l>
+						<l>Wanneerge in my hérroept die bloedige gedachten</l>
+						<l>Van zyne woede, én voed myn haat mét nieuwe klagten,</l>
+						<l>Zo geeve ik me óver aan uw’ hévigheid, én meen,</l>
+						<l>Dat ik hém duizend doôn verschuldigd bén, voor een.</l>
+						<l>Nóchtans, in ’t midden van een gramschap zo rechtvaerdig,</l>
+						<l>Is Cinna my, hoe ik Augustus haat, meer waerdig;</l>
+						<l>En ’k voel de drift verkoeld van myn ontsteeken bloed,</l>
+						<l>Zo ik in dit vervólg myn’ minnaar waagen moet.</l>
+						<l>Ja, Cinna, ik gaa zélf my tégen my verstooren,</l>
+						<l>Als ik gedénk ’t gevaar aan u door my beschooren;</l>
+						<l>Hoewélge u toont om my te dienen onverzaagd,</l>
+						<l>U te eisschen ’s Keizers bloed, ach! is uw bloed gewaagd.</l>
+						<l>Men dénk’ niet na zo hoog verheeven hoofd te dingen,</l>
+						<l>Of weete eerst dat ons stórm op stórm ook zal bespringen.</l>
+						<l>Hoe ’t uit zal vallen staat in twyffel, én ’t gevaar</l>
+						<l>Is zéker; licht’lyk wordge ontdékt door een verraâr.</l>
+						<l>Het stuk niet wel beleid, geen tyd in acht genomen,</l>
+						<l>Kan al ’t gevaar op ’t hoofd des stichters nêer doen kómen;</l>
+						<l>Zélf mét den slag, dien gy dén dwingland dreigt, u slaan;</l>
+						<l>Ja in zyn ondergang u doen mét hém vergaan.</l>
+						<l>En wat ter gunst van my uw’ min in ’t wérk mogt stéllen,</l>
+						<l>Hy in het vallen zoude u licht ter nédervéllen.</l>
+						<l>Verlaat, helaas! verlaat zo doodelyk een zaak.</l>
+						<l>My wreeken door uw dood, verstrékt aan my geen wraak.</l>
+						<l>Een hart is veel te wreed, indien ’t voor heil kan achten,</l>
+						<l>Een’ zoetigheid vermengt mét eindelooze klagten:</l>
+						<l>Ik acht eens vyands dood te grooten ongeval,</l>
+						<l>Wanneer ik weet dat my die traanen kósten zal.</l>
+						<l>Hoe! traanen? als ons staat een Vaders dood te wreeken?</l>
+						<l>Wat schade kan by zulk een voorspoed zyn geleeken?</l>
+						<l>En als zyn moordenaar door ons geweld vergaat,</l>
+						<l>Bedénkt me dan hoe duir dat zyne dood ons staat?</l>
+						<l>Houd op, ô yd’le vrees! houd op, ô téderheeden,</l>
+						<l>Om zwakhêen, my onwaard, in déze borst te smeeden.</l>
+						<l>En gy, die door uw zórg my bréngt in dit verdriet,</l>
+						<l>O min! verstérk myn pligt, maar wéderstreefze niet.</l>
+						<l>Haar te óverwinnen is uwe eer niet, maar te wyken.</l>
+						<l>Zyt éelmoedig, laat myn pligt de zeege stryken.</l>
+						<l>Hoe gy haar meerder geeft, hoe zy u béter loont;</l>
+						<l>En in haar zeegepraal, zult gy u zien gekroond.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>TWÉDE TOONEEL.</head>
+					<stage>EMILIA, FULVIA.</stage>
+					<sp who="#emilia">
+						<speaker> EMILIA.</speaker>
+						<l>JA, Fulvia, ik zweer, én héb ’t voorheen gezwooren,</l>
+						<l>Hoewél ik Cinna min, en hém héb uitverkooren;</l>
+						<l>Ik will Augustus dood, én voor des dwinglands hoofd,</l>
+						<l>Héb ik hém myne min, héb ik hém my beloofd.</l>
+						<l>Ik geef hém déze wét, my van myn pligt gegeeven.</l>
+					</sp>
+					<sp who="#fulvia">
+						<speaker>FULVIA.</speaker>
+						<l>Te reed’lyk is die wét om u te wéderstreeven.</l>
+						<l>Gy doet aan ieder zien door zulk een grootsch besluit,</l>
+						<l>Dat gy récht waerdig zyt het bloed daar gy uit spruit.</l>
+						<l>Maar, staa my toe, Mevrouw, om u te moogen zéggen,</l>
+						<l>Dat gy behoorde uw’ haat in ’t einde eens néêr te léggen.</l>
+						<l>August’, die u voorziet mét zo veel schat, én goed,</l>
+						<l>Heeft hy daar méde uw leed niet ruim genoeg geboet?</l>
+						<l>Zyn gonst, die is tót u zo hoog in tóp gereezen,</l>
+						<l>Dat gy alleen by hém in achting schynt te weezen,</l>
+						<l>Ja, de gelukigste der hóvelingen, smeekt,</l>
+						<l>Geboogen voor u néêr, op dat gy voor hém spreekt.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Geeft hy me een Vader wéêr door wéldaân, óf berouwen?</l>
+						<l>In wélk een achting, dat men my ook aan moog schouwen.</l>
+						<l>Mét óvervloed van schat, mét magt, geloove, én eer;</l>
+						<l>’K blyf ’t kind van een door hém ter dood gedoemden heer.</l>
+						<l>Een wéldaad kan niet al, wat gy zoud waanen, maaken,</l>
+						<l>Zy hoont ons, zo zy komt van iemand die wy wraaken.</l>
+						<l>Hoe meêr we opófferen aan die ons haat, hoe wy</l>
+						<l>Hém stérker maaken tót onze ondergang; by my</l>
+						<l>Blyft steeds de zélve moed, wat gonst my wérd’ beweezen.</l>
+						<l>Ik bén nóch die ik was, ’k vermag meêr als voor dézen;</l>
+						<l>En mét de schatten van zyn hand ontfangen, maak</l>
+						<l>Ik ’t Roomsche vólk aan my verknócht tot myne wraak.</l>
+						<l>Zo hy my kwam de plaats der Keizerin belooven,</l>
+						<l>’K ontvingze alleen om hém van ’t leeven te berooven.</l>
+						<l>Een die zyn Vader wreekt geen schéllem stukken doet;</l>
+						<l>Maar wie voor wéldaân kreukt, verraed zyn eigen bloed.</l>
+					</sp>
+					<sp who="#fulvia">
+						<speaker>FULVIA.</speaker>
+						<l>Wat is het noodig voor ondankbaar uitgekreeten</l>
+						<l>Te worden? haat hém, maar doe élk uw’ haat niet weeten.</l>
+						<l>Daar zyn nóch and’re meer, dien ’t in ’t geheugen légt</l>
+						<l>Mét wélk een wreedheid hy zyn troon heeft opgerécht.</l>
+						<l>Zo veel doorluchtige Romeinen, opgedraagen</l>
+						<l>Aan zyne staatzucht, door zyn wreed bevél verslagen,</l>
+						<l>Zyn voor haar kind’ren réên genoeg, dat élk verkies,</l>
+						<l>Uw wraak te vord’ren in de zyne, om zyn verlies.</l>
+						<l>Veele onder wonden ’t zich; nóch duizend zullen haaken</l>
+						<l>Na zyne dood. Kan hy ’t, zo zeer gehaat, lang maaken?</l>
+						<l>Stél ’t algemeen belang aan hén, én hélp hén stil</l>
+						<l>Met een geneegen hart, een goeden wénsch, én wil.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Hoe! ’k zou hém haaten, én niet zoeken te vérderven!</l>
+						<l>Af wachten, dat hém een tót eiven wraak doe stérven!</l>
+						<l>En was dat myne pligt voldoen, wanneer ik stil</l>
+						<l>Hulp mét een goede wénsch, én krachtelooze wil?</l>
+						<l>Ik wil zyne ondergang, maar zal zyn’ dood niet achten,</l>
+						<l>Indien ik hém niet tót myns vaders zoen zie slachten.</l>
+						<l>Zyn dood die zou aan my sléchts strékken tót verdriet,</l>
+						<l>Zo hy niet voor myn wraak alléén het keven liet.</l>
+						<l>’t Waar lafheid aan te zien wat and’ren onderwonden,</l>
+						<l>In ’t algemeen belang, aan ons belang verbonden.</l>
+						<l>Laat ons by onze wraak de eer voegen; want die kan</l>
+						<l>Verkreegen worden door de dood van die Tieran.</l>
+						<l>En doen we Italien door uitroepen: ’t stydb’re Romen</l>
+						<l>Heeft door Emilia zyn vryheid wéêr bekémen.</l>
+						<l>Haar ziel vond zich geraakt, haar hart vermand; maar zy</l>
+						<l>Gaf haare min tót loon aan die ons maakte vry.</l>
+					</sp>
+					<sp who="#fulvia">
+						<speaker>FULVIA.</speaker>
+						<l>Hoe, uwe min, Mêvrouw; tót zulk een prys te geeven,</l>
+						<l>Is al te dier; én zal uw’ minnaar kosten ’t leeven.</l>
+						<l>Bedénk, bedénk in wélk gevaer dat gy hém stélt,</l>
+						<l>Hoe meenig zyn er in dien storm ter néêr gevéld:</l>
+						<l>Gy kunt, indien gy wilt zyn wisse dood bezéffen.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Gy kostme op teerder plaats, ô Fulvia! nooit tréffen.</l>
+						<l>Wanneer ik zie, dat hy zich geeft om my in nood,</l>
+						<l>De vrees voor zyn gevaar bréngt my by na ter dood.</l>
+						<l>’k Voel innerlyk myn ziel zich zélve op ’t félst beroeren.</l>
+						<l>’k Bésluyt, én wankel wéêr, Ik laat m’er toe vervoeren,</l>
+						<l>En durf niet; ach! myn pligt, verzét, voel ik, ô smart!</l>
+						<l>Al kwynend zwichten voor myn wéderstreevend hart.</l>
+						<l>Wél aan myn driften, word wat flaawer, laat myn zinnen</l>
+						<l>Niet door het dreigen der gevaaren óverwinnen.</l>
+						<l>Schoon Cinna word gewaagd, nóch kan hy zyn gespaard;</l>
+						<l>Van hoe veel wacht dat ook Augustus word bewaard.</l>
+						<l>Wat zórgen dat men voor des Keizers lyf moog draagen,</l>
+						<l>Hy is’er meester van die de aanslag sléchts durft waagen.</l>
+						<l>En is ’t gevaar zo groot, de vruchten zullen wéêr</l>
+						<l>Te zoeter zyn: de deugd die wékt my op, door de eer.</l>
+						<l>Dat Cinna sneuvele, of Augustus! ’k draag ’t geduldig;</l>
+						<l>En bén déze ófferhand aan Vaders assche schuldig.</l>
+						<l>Ja, Cinna, toen ’k myn trouw hém gaf, beloofde ’t my.</l>
+						<l>Dit moet volbragt zyn eer hy myner waerdig zy.</l>
+						<l>Het is te laat om iets daar tégen nu te zéggen:</l>
+						<l>Het eedgespan is doende om alles te beleggen.</l>
+						<l>Men stémt vast tyd, én plaats, wie de aanslagh zal bestaan,</l>
+						<l>Ten érgsten zullen wy op ’t laast’ mét hém vergaan.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>DARDE TOONEEL.</head>
+					<stage>CINNA, EMILIA, FULVIA.</stage>
+					<sp who="#emilia">
+						<speaker> EMILIA.</speaker>
+						<l>DAar is hy, Cinna, blyft de moed nóch onbesweeken</l>
+						<l>Der saamgezwoór’nen, nu het wérk staat door te breeken?</l>
+						<l>Kunt gy bespeuren aan uw’ vrinden, hoofd voor hoofd,</l>
+						<l>Dat élk u houden zal het geen hy heeft beloofd?</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Nooit wierd er tégen een Tieran iets ondernomen,</l>
+						<l>’t Geen stond geschaapen tot een béter eind te kómen;</l>
+						<l>Nooit zwoer men mét meer érnst de dood eens dwingelands;</l>
+						<l>En nimmer eedgespan, vereend, had schooner kans.</l>
+						<l>Zy toonen in hun hoop zich zélfs zo te verblyden,</l>
+						<l>Dat ieder schynt met my voor zyn meestrés te stryden;</l>
+						<l>En de édle gramschap woelt zo yv’rig in hun bloed,</l>
+						<l>Dat élk, na ’t schynt, mét u een vader wreeken moet.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Tót zulk een grooten wérk kon ik genoeg bespeuren,</l>
+						<l>Dat Cinna weeten zou de moedigste uit te keuren.</l>
+						<l>En dat hy het belang van Romen, én het myn’,</l>
+						<l>Zou stéllen in een staat die ons zou zékerst zyn.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Ik wénschte, dat gy zélf gezien had, én bevonden,</l>
+						<l>Hoe zy zich alle op ’t fierst dien aanslag onderwonden.</l>
+						<l>Alleen op ’t noemen van de naam des Keizers, scheen ’t</l>
+						<l>Dat een verwoede toorn door knaagde hun gebeent’.</l>
+						<l>’k Zag in een zélfde tyd hun aangezigt verbleeken,</l>
+						<l>En door de gramschap wéêr gelyk een vuur ontsteeken.</l>
+						<l>Myn vrinden, zeide ik, dit ’s dien grooten dag, waar in</l>
+						<l>’t Grootmoedige besluit moet neemen een begin.</l>
+						<l>De Hémel laat ons Lót in onze handen kómen.</l>
+						<l>’t Vérdelgen van één ménsch is het behoud van Romen;</l>
+						<l>Indien men hém nóch noemt een ménsch, die zich verwoed,</l>
+						<l>Gelyk een tyger heeft gebaad in ’t Roomsche bloed.</l>
+						<l>Hoe dikmael kwam hy, als ontzind, dat bloed bestooken.</l>
+						<l>Hoe veel verbonden, nu gemaakt, dan wéêr gebrooken.</l>
+						<l>Nu vrind, dan vyand van Antónius. in ’t kort,</l>
+						<l>Een, die ’t gemoed altyd tót woede én wreedheid port.</l>
+						<l>Daar héb ik hén verhaald, in ’t breed, de élendighéden</l>
+						<l>In onze kindsheid door onze ouderen geleeden.</l>
+						<l>’t Erinneren dier smart verdubbelde hun haat,</l>
+						<l>En port hén aan tót wraak van dat geleeden kwaad.</l>
+						<l>Toen beelde ik aan haar af hoe Rome zat te treuren,</l>
+						<l>Wanneer ’t door burgers stryd zich ’t harte zag verscheuren.</l>
+						<l>Hoe de Arend de Arend sloeg, wanneer het Roomsche vólk</l>
+						<l>Op zyne vryheid zélf vast wéttede zyn dólk.</l>
+						<l>Daar de Allerdapperste én Manhaftigste der Hélden</l>
+						<l>Hun eer én grootste roem in slaaf te worden stélden;</l>
+						<l>En om te zékerer steeds slaaf te blyven, zy</l>
+						<l>De waereld wilden zien mét hén in slaverny.</l>
+						<l>Ja, om die eer van aan ’t heel al een heer te* geeven,</l>
+						<l>Ontzagen zy zich niet, zélf eereloos te leeven:</l>
+						<l>De burger tégens zyn méêourger; de Verwant,</l>
+						<l>Bestreed zyn eigen bloed, om eenen dwingeland.</l>
+						<l>Ik laat niet na hier by voor hunner aller oogen,</l>
+						<l>Hun opgerécht verbond op ’t schriklykst te vertoogen,</l>
+						<l>Zo doodlyk aan den Ryke, als aan de gansche raad:</l>
+						<l>En wat van ’t drymanschap haar af te maalen staat:</l>
+						<l>Maar ’k vind geen vérwen, daar ik niet vrees meê te missen,</l>
+						<l>In ’t schild’ren van ’t vervólg dier treurgeschiedenissen.</l>
+						<l>’k Verbeeld de moordenaar in eere, in staat, én goed,</l>
+						<l>En Romen als versmoord in haarer kind’ren bloed.</l>
+						<l>De een zag men voor élks oog door’t wreed beveelen dooden.</l>
+						<l>Een under in ’t gezigt der vaderlyke Góden.</l>
+						<l>De schélmen door ’t genót gemoedigd tot de moord,</l>
+						<l>De man zelf in zyn béd door de eigen’ vrouw versmoord;</l>
+						<l>De vader van zyn zoon te jammerlyk verslagen,</l>
+						<l>Die, toonende het Hoofd, zyn loon daar voor durft vraagen.</l>
+						<l>Maar al die gruwelen en konnen ’t minste deel</l>
+						<l>Van dat vervloekt verbond niet toonen in ’t geheel.</l>
+						<l>Zal ik u zeggen wie ik daar mét droeve trekken</l>
+						<l>Afschilder de in hun’ bloed, om hunne moed te wékken?</l>
+						<l>Wat al verbannen, én wat al halvegóôn,</l>
+						<l>Die ik voor ’t bloed Altaar afmaalde by de doôn?</l>
+						<l>Maar, is ’t wél mooglyk u te zéggen, óf te ontleeden,</l>
+						<l>Tót wélke opmerking, tót wat ongeduldighéden,</l>
+						<l>Dit bloedige taf’reel, hoe kwalyk uytgedrukt,</l>
+						<l>Der saamgezwoor’nen ziel, én zinnen heeft verrukt?</l>
+						<l>’k Verloor geen tyd, toen ik haar gramschap op zag stygen;</l>
+						<l>Wyl niemand vreesde, in staat om alles te verkrygen;</l>
+						<l>Maar, voeg hier by in ’t kort al déze afgryslykheên;</l>
+						<l>’t Verlies van haave, én goed, de vryheid, zo vertreên,</l>
+						<l>De stéên beroofd, het véld mét légers óvertoogen,</l>
+						<l>Al die verbanningen, én burger oorelogen,</l>
+						<l>Dat zyn de trappen die Augustu koos, waar by</l>
+						<l>Hy opgeklommen is tót de Opperheerschappy.</l>
+						<l>Nu word de magt tót een hérvorming ons gegeeven.</l>
+						<l>Van dry tierannen is déze één noch maar in ’t leeven;</l>
+						<l>En zyne magt die is op ’t hoogst verzwakt, ter tyd</l>
+						<l>Toen hy twé schelmen, zoals hy, geraakte kwyt.</l>
+						<l>Wy* hébben naar zyn’ dood voor geene wraak te vreezen,</l>
+						<l>En Rome zultge van zyn kwaalen zien geneezen.</l>
+						<l>Men noemt ons waerdige Romeinen zo ’t gelukt,</l>
+						<l>Dat wy verbreeken ’t Juk dat haar zo lastig drukt.</l>
+						<l>Elk gryp gelégenheid by ’t hair mét zyne handen.</l>
+						<l>Men zal op ’t Capitool op morgen ófferbranden.</l>
+						<l>Dat hy het óffer zy; hy kryge aldaar zyn loon;</l>
+						<l>En ’t gansche vólk zyn récht, in ’t aanzien van de Góôn:</l>
+						<l>Daar vólgt ons eedgespan alleenig maar zyn gangen,</l>
+						<l>Daar zal hy ’t wierook, én de kop van my ontfangen;</l>
+						<l>Dan wil ik, dat myn hand, voor lang tót wraak gesard,</l>
+						<l>In plaats van wierook, hém een dégen dryve in ’t hart.</l>
+						<l>Zyn bloed, door déze slag tot ófferhand vergooten,</l>
+						<l>Zal toonen dat ik van Pompéus bén gesprooten.</l>
+						<l>Elk vólg my dapper, én toon door zyn hélden moed,</l>
+						<l>Dat hy gedachtig zy aan zyn doorluchtig bloed.</l>
+						<l>Ik eindig naauwelyks, óf ieders moed herbooren.</l>
+						<l>Heeft door gestaafden eed hun trouwheid my gezwooren</l>
+						<l>De tyd behaagt hén wél, én élk wil de éer, dat hy</l>
+						<l>Hém toebréng de eerste slag, die ik verkies voor my,</l>
+						<l>Hunne yver laat in ’t eind zich door de réên belétten,</l>
+						<l>En Maximus gaet mét de helft de poort bezétten:</l>
+						<l>Wyl de and’re helft my volgt om hém te omsing’len, al</l>
+						<l>Gereed, op de eerste leus die ik hén geeven zal.</l>
+						<l> Zie, schoone Emilia, hoe vér wy zyn gekómen.</l>
+						<l>Op morgen wacht ik, óf de gunst, óf haat van Rómen.</l>
+						<l>De naam van moorder, óf die van bevryder van</l>
+						<l>Myn land; Augustus, die van Prins, óf van tieran.</l>
+						<l>Aan de uitslag die wy op de dwinglandy bevéchten,</l>
+						<l>Daar zal onze eer of schand volkómen zich aan héchten.</l>
+						<l>En ’t vólk te weiflende in der dwingelanden zaak,</l>
+						<l>Eert hém, in ’t leeven zynde, én dood, roemt hoogde wraak.</l>
+						<l>Voor my, dat my de Góôn hun’ gonst, óf haat bewyzen,</l>
+						<l>My doen verdélgen. óf myn roem op ’t hoogste ryzen;</l>
+						<l>Dat Rome zich verklaart voor my, óf niet, Mêvrouw,</l>
+						<l>Zo ’k stérf in uwe dienst, zo stérf ik zonder rouw.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Vrees niet, dat de uitslag uw gedacht’nis kan bevlékken.</l>
+						<l>Of goed, of kwaad, zy zal uw’ roem tót luister strékken.</l>
+						<l>In zulk een aanslag, schoonze u niet gelukte, daar</l>
+						<l>Stélt gy uw leeven, maar uwe eer niet in gevaar.</l>
+						<l>Kan de onspoed Brutus dan of Cassius ontluist’ ren,</l>
+						<l>En haar beroemde naam, óf dapperheid verduist’ren?</l>
+						<l>Is dan hun’ grootsch bestaan door hunne dood gesmoord?</l>
+						<l>Hébt gy nooit hunne lóf by’t Roomsche vólk gehoord?</l>
+						<l>Ja, haar geheuggenis is hier in tóp gesteegen.</l>
+						<l>Augustus leeven is élk haat’lyk daar en tégen.</l>
+						<l>Want schoon hy hier gebied. élk die hén heeft gekénd,</l>
+						<l>Wénscht hén hier wéder, én beweent hun droevig énd.</l>
+						<l>Ga, de eer die moedigt u hén moedig na te treeden.</l>
+						<l>Maar, wilt toch zórgen voor uw leeven; dénk dat héden</l>
+						<l>De min ons zaamen stélt, én by de Lauwer kroon,</l>
+						<l>Zal u Emilia verstrékken tot een Loon.</l>
+						<l>Uw hart is ’t myne, ’k héb u wéderom gegeeven</l>
+						<l>Myn gonst; aan uw behoud alleenig hangt myn leeven.</l>
+						<l>Maar wélk een voorval jaagt Evander hier aldus?</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>VIERDE TOONEEL.</head>
+					<stage>CINNA, EMILIA, EVANDER, FULVIA.</stage>
+					<sp who="#evander">
+						<speaker> EVANDER.</speaker>
+						<l>DE Keizer, die ontbied myn heer, mét Maximus.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Hoe! my mét Maximus? weet gy het wél, Evander?</l>
+					</sp>
+					<sp who="#evander">
+						<speaker> EVANDER.</speaker>
+						<l>Heer, Poliklétus, die verbeid u mét malkander,</l>
+						<l>Ja, had u hier gezocht; indien ik mét beleid</l>
+						<l>Hém niet geweerd had; dus bréng ik mét naarstigheid</l>
+						<l>Aan u een boodschap, die ’k niet weet wat wil bedieden,</l>
+						<l>Hy is zeer haastig,</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l> Hoe! de Hoofden bei te ontbieden?</l>
+						<l>Helaas! gy zyt ontdékt; u beide? en op één’ tyd!</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Men hoope een beter lót.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l> Ach! Cinna, ’k ben u kwyt.</l>
+						<l>’t Lót wil noch de ondergang des dwinglands niet gehéngen;</l>
+						<l>En heeft bestaan een schélm in ’t eedgespan te méngen.</l>
+						<l>Men twyfele niet meer; Augustus weet gewis</l>
+						<l>Uwe* aanslag. Beide! én nu ’t besluit genomen is!</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>’k Bekén dat zyn ontbod my zélf het brein doet maalen;</l>
+						<l>Maar, hy doet my Mêvrouw, wél meermaals by hém haalen</l>
+						<l>Mét Maximus; op ons vertrouwt hy zich het meest.</l>
+						<l>’k Meen dat wy zonder réên bekommerd zyn van geest.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Zie toe, bedrieg u niet, laat die gedachten vaaren.</l>
+						<l>Ay Cinna, ’k bid u, wilt myn’ kwaalen niet verzwaaren;</l>
+						<l>En wyl gy my voortaan niet wreeken kunt, zo ga</l>
+						<l>Beschut uw hoofd, op dat dit onheil u niet sla.</l>
+						<l>Ontvlie des Keizers toorn; gy zult u zélf verkorten;</l>
+						<l>Laat my om vaders dood alleen, maar traanen storten.</l>
+						<l>Vergroot myn droefheid niet op nieuws, mét wreeder plaag,</l>
+						<l>En draag tóch zórg dat ik myn minnaar niet beklaag.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Hoe, zoude een losse vrees myn moed ter nédervéllen,</l>
+						<l>En ik ’t belang van Rome, én u ter zyde stéllen?</l>
+						<l>Zou myn gemoed, zo laf zich in de nood verslaan?</l>
+						<l>Ik ’t al verlaaten, nu men alles moet bestaan?</l>
+						<l>Wat zullen de onze doen, indien gy zyt bedroogen?</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>En zo gy zyt ontdékt, wat zult gy dan vermoogen?</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Schoon iemand my verried, én afweek van zyn trouw,</l>
+						<l>Voor ’t minst zal myne deugd my niet verrâan, Mêvrouw</l>
+						<l>Die zal op de Oever van de dood ’t gevaar trótzeeren,</l>
+						<l>Mét lóf zich kroonen, én in heerlyckheid vermeeren:</l>
+						<l>Op dat Augustus hém beny, die hy doorstoot,</l>
+						<l>En ’k zal van vrees hém zélf doen sidd’ren in myn dood.</l>
+						<l>Wachte ik nóch langer hier, men kreeg dan licht vermoeden.</l>
+						<l>Vaar wél, herstélt u, laat uw’ ziel geen zwakhéên voeden.</l>
+						<l>En zo ik voor de slag van ’t straffe lót bezwyk,</l>
+						<l>k Zal stérven vol geluk, én ongeluk gelyk,</l>
+						<l>Gelukkig, dat ik in uw dienst verlies myn leeven;</l>
+						<l>Maar ongelukkig dat daar in niets is bedreeven.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Ja, luister niet meer na myn klaagen, ga vry heen.</l>
+						<l>Al myne ontroerenis verdwynt, ’k hérroep myn réên.</l>
+						<l>Vergeef aan myne min myn zwakheid, en myn zuchten.</l>
+						<l>Ja Cinna, ’k sta ’t u toe, ’t waar ydel nu te vlugten.</l>
+						<l>Zo gy ontdékt zyt, heeft Augustus wél voor zien</l>
+						<l>In uwe vryheid, om zyne wreede hand te ontvlien.</l>
+						<l>Toon hém uw’ wakkere onverzaagdheid, toon die vaardig,</l>
+						<l>Zo waardig onze min, als uw’ geboorte waardig</l>
+						<l>Kroon door een braave dood zo heerlyk een besluit,</l>
+						<l>En stérf als een Romein, zo ’t loopt op sterven uit.</l>
+						<l>Vrees niet, na u en zal my niets het leeven spaaren,</l>
+						<l>Uw’ dood zal myne ziel met de uwe heen doen vaaren.</l>
+						<l>Myn hart zal van die hand, die ’t wreede lémmer dreef...</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Ach! ly dat na myn’ dood ik nóch in u hérleef;</l>
+						<l>En dat ik stérvende moog hoopen, datge ontsteeken</l>
+						<l>In moed, bestaan zult myne, en vaders dood te wreeken.</l>
+						<l>Vrees niet, myn vrinden zyn nóch alle onkundig, dat</l>
+						<l>Gy in ’t verbond zyt, wat belófte ik van u had.</l>
+						<l>En als ik noemde aan hén de Roomsche élendigheden,</l>
+						<l>Ging ik hen niets, ’t als geen hun haat verwekte, ontleeden,</l>
+						<l>Uit vrees dat, roerde ik uw’ belang maar éven aan,</l>
+						<l>Myn yver mogr ’t geheim van onze min verraân,</l>
+						<l>Daar déze twé alleen de kénnis maar van draagen.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>’k Ga dan de Keizerin* bezoeken, min verslagen.</l>
+						<l>My zal in u gevaar één middel óvrig zyn,</l>
+						<l>Haar magt voor u in ’t wérk te stellen, én de myn’.</l>
+						<l>Maar, zo ’k op déze wys geen vryheid u kan geeven,</l>
+						<l>Zo dénk niet, dat ik meen in ’t einde u te óverleeven.</l>
+						<l>Ik schik my na uw lót, het val dan zacht, óf straf.</l>
+						<l>’k Verkryg u lévendig, óf vólg u na in ’t graf.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Mêvrouw, ay wilt ter gunst van my, u zélf niet krénken.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Ga, ga, maar wil tóch steeds aan myne min gedénken.</l>
+					</sp>
+					<p>Einde van ’t Eerste Bedryf.</p>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<head>TWÉDE BEDRYF.</head>
+				<div type="scene" n="1">
+					<head>EERSTE TOONEEL.</head>
+					<stage>AUGUSTUS, CINNA, MAXIMUS, Gevólg van Hóvelingen.</stage>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>DAt ieder een vertrék; dóch Cinna blyve alleen</l>
+						<l>Mét Maximus, gy, wilt my beide nader tréên.</l>
+						<l>Dit groot gebied, daar aarde én zé zich van voelt drukken,</l>
+						<l>Déze opperheerschappy daar ’t alles voor moet bukken,</l>
+						<l>Déze onbepaalde magt daar ik bén aangeraakt,</l>
+						<l>En door gevaar van ’t lyf my eigen héb gemaakt,</l>
+						<l>In ’t kort, al wat in my een Hoveling zal pryzen,</l>
+						<l>Mét haatelyk gevly, én achting te bewyzen,</l>
+						<l>Is eene schoonheid sléchts, wier glans ons oog verblind,</l>
+						<l>En als men die récht ként zeer haatelyk bevind.</l>
+						<l>De staatzucht, wén zy is verzaad, zal ons mishaagen,</l>
+						<l>En eene tégenzucht gestadig mét zich draagen;</l>
+						<l>Gelyk als onze geest, die onophoudlyk woelt,</l>
+						<l>En nimmer stil, steeds heeft een oogwit daar ze op doelt.</l>
+						<l>Dóch naauwelyks voldaan, zal ze in zich zélven keeren,</l>
+						<l>En in den troon gezét, dan tracht zy die te ontbeeren.</l>
+						<l>Ik wénschte om ’t Keizerryk, ’k verkreeg het als gy ziet;</l>
+						<l>Maar toen ik daar het meest naar wénschte, kénde ik ’t niet.</l>
+						<l>Ik héb in dat bezit, voor zoetighéên, verkreegen,</l>
+						<l>Onlydelyke zórg, beroering aller wegen;</l>
+						<l>Ontélb’re Haaters, én de dood op ieder stond;</l>
+						<l>Geen ongestoord vermaak, én onlust zonder grond.</l>
+						<l>Déze oppermagt is hier uyt Sylla ’t eerst gesprooten.</l>
+						<l>Myn Vader Cézar heeft naa hém ’t bezit genooten;</l>
+						<l>Maar zo verscheiden is die van hén aangevaard,</l>
+						<l>Dat de een verloor, het geen den ander heeft bewaard.</l>
+						<l>De een wreed, barbarisch, is gerust in staat gesturven,</l>
+						<l>En heeft den naam van een oprécht Romein verwurven.</l>
+						<l>Daar de ander, braaf van aart, in ’t midden van de Raad,</l>
+						<l>Door een verwoeden moord zyn lóft’lyk leeven laat.</l>
+						<l>Voorbeelden; magtig ons te leeren, en verlichten,</l>
+						<l>Indien men’s levens loop zal naar een voorbeeld richten.</l>
+						<l>Vólg ik het één, zo maakt my ’t andere bevreesd.</l>
+						<l>Voorbeelden zyn wel meer bedriegelyk geweest.</l>
+						<l>En ’s noodlóts schikking, daar wy worden van gedreeven,</l>
+						<l>Staat niet altyd in het voorleedene geschreeven.</l>
+						<l>’t Geen de één strékt tót verderf, komt anderen te baat,</l>
+						<l>Dees bergt zig voor den nood, daar d’ander straks vergaat.</l>
+						<l>Zie daar myn’ vrienden, wat my zórgen kan verwekken.</l>
+						<l>Gy, die me Agrippa, én Mecenas moet verstrekken,</l>
+						<l>Raadt my in deeze zaak ten besten; én neemt gy,</l>
+						<l>Die zelfde magt, die ’k hen gegeeven had op my?</l>
+						<l>Gy moet geen acht slaan op myn vergeduchte staaten,</l>
+						<l>Zo zwaar voor my, en daar my Rome om schynt te haaten:</l>
+						<l>Men handel my als vriend, en niet als Keizer: want</l>
+						<l>’k stél Romen, en den Staat, en my in uwe hand.</l>
+						<l>Gy zult drie deelen van de waereld vryheid geeven,</l>
+						<l>Of onder ’t Keizerlyk gebied doen blyven leeven.</l>
+						<l>Uw’ raad zy my een wét, en door dat middel, wil</l>
+						<l>Ik Keizer zyen, of wel een burger, slécht én stil.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Schoon ik verzét staa, en de magt my voel ontbreeken,</l>
+						<l>’k Zal, zonder vleyery, op uw’ bevélen spreeken:</l>
+						<l>En schoon ik weet waar na uw’ meeste neiging hélt;</l>
+						<l>Heb ik, om u te raân, ’t ontzag terzy gestéld.</l>
+						<l>Gedoog het van een’ die uw’ roem met nydige oogen</l>
+						<l>Aanschouwt; dien gy bevlékt, indien gy kunt gedoogen,</l>
+						<l>Dat zulk een indruk grype in uwe zinnen stand,</l>
+						<l>Dat gy veroordeelt ’t geen gy zélf eerst namt ter hand.</l>
+						<l>Men staat geen kroonrécht af, dat wettig wordt geheeten</l>
+						<l>’t Bezit wroegt nooit, wanneer ’t met récht sléchts wordt bezéten.</l>
+						<l>Hoe grooter schat het zy dien we afstaan, hoe hy meer</l>
+						<l>Voor onréchtvaerdig uitgesprooken wordt; myn Heer</l>
+						<l>Ik bid wilt u tóch voor die schande, én oneer wachten.</l>
+						<l>Bevlék de deugden niet, die u ten zétel bragten.</l>
+						<l>Gy zyt hier wettig vórst, en ’t is door geen verraad,</l>
+						<l>Dat gy veranderd hebt ’t bestieren van den Staat.</l>
+						<l>Het recht des oorlógs, dat de waereld naar de wetten</l>
+						<l>Van Rome luist’ren doet, kwam over Rome u zetten.</l>
+						<l>Gy overwont haar; maar het zyn niet altemaal</l>
+						<l>Tirannen, die een ryk verkrygen door het staal.</l>
+						<l>Zo de overwinnaar ’t naar behooren kan regeeren,</l>
+						<l>Doet hy zich wettelyk van de onderdaanen eeren.</l>
+						<l>Uw vader Cézar heeft ook dus gedaan, en gy</l>
+						<l>Moet, zo gy hem niet wilt verdoemen, doen als hy.</l>
+						<l>Maar, zo Augustus ’t hoog bewind acht onrechtvaerdig,</l>
+						<l>Wordt Cézar een Tiran, en was zyn dood wel waerdig.</l>
+						<l>Gy maakt u schuldig reên te geeven aan de Goôn,</l>
+						<l>Van’t bloed, gestort tót wraak van hem, en om den troon</l>
+						<l>Te krygen; gy hoeft voor geen droevig lót te vreezen.</l>
+						<l>Een magtiger schynt voor uw heil bezórgd te weezen.</l>
+						<l>Men heeft tienmaal vergeefs u na het lyf gestaan,</l>
+						<l>En die ’t bestonden, zyn in de aanslag zélf vergaan.</l>
+						<l>Daar zyn wel moorders, maar geen Brutussen in’t leeven.</l>
+						<l>Al wie ’t zich onderwindt, zal ’t zich in’t einde ontgeeven.</l>
+						<l>Dóch, óf u dit al staat te vreezen van ’t geval,</l>
+						<l>’t Is braaf te sterven als een heerscher van’t Heelal.</l>
+						<l>Dit is het gene ik hier in’t kort op heb te zeggen:</l>
+						<l>En ’k meen dat Maximus dit niet zal wederleggen.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>’k Bekén, Augustus mag dit ryk, zyn staat, mét récht</l>
+						<l>Behouden, daar zyn deugd den grond van heeft gelégd.</l>
+						<l>Dat hy rechtvaerdig aan ’t bezit des troons geraakte,</l>
+						<l>Dien hy ten kóste van zyn bloed zich eigen maakte;</l>
+						<l>Maar dat hy van den staf des Keizers, die zyn hand</l>
+						<l>Zo lastig valt, zich niet ontslaan kan dan met schand;</l>
+						<l>Dat hy ’t geheugenis van Cézar dus zou schennen,</l>
+						<l>En toestaan zyne dood, dat zal ik steeds ontkennen.</l>
+						<l>Dit Romen hoort aan u, o Vorst! ’t Ryk komt u toe,</l>
+						<l>Elk een heeft vryheid dat hy met het zyne doe,</l>
+						<l>En dat behoude, óf afstaa, naar zyn eigen oordeel.</l>
+						<l>Zoudt gy niet kunnen? hoe! heeft dan ’t gemeen meer voordeel?</l>
+						<l>’k Geloof niet, dat ge een slaaf geworden zyt der staat,</l>
+						<l>En grootheên, die gy hier bezit in óvermaat.</l>
+						<l>Myn Heer, bezit die, maar word niet van haar bezéten;</l>
+						<l>Verwin haar, én ontwring u zelv’ haar boeye, én kéten;</l>
+						<l>Maak, dat de waereld zie wat zoet ge in staaten vond;</l>
+						<l>Dat ge alles, wat ’er grootsch in zy, verachten kond.</l>
+						<l>Dit Rome gaf u uw’ geboorte, én ’t lieve leeven:</l>
+						<l>Uwe opperheerschappy wilt gy aan Rome geeven;</l>
+						<l>En Cinna rékent het een misdaad, die u hoont,</l>
+						<l>Om dat ge aan ’t Vaderland u zélf mildaadig toont.</l>
+						<l>Een liefde tot zyn land noemt hy een innig knagen.</l>
+						<l>Zo wordt dan door uw’ deugd uw’ roem ter neêr geslagen;</l>
+						<l>En ’t voorwérp was récht waard by ons te zyn veracht,</l>
+						<l>Indien die deugd ons niet dan schande, én oneer bragt.</l>
+						<l>’k Weet, zo ge Rome komt zyn vryheid weêr te geeven,</l>
+						<l>Dat ge in mildaadigheid het vér voorby zult streeven.</l>
+						<l>Maar kan men ’t rekenen een onvergeeff’lyk kwaad,</l>
+						<l>Wanneer de érkéntenis die gift te boven gaat.</l>
+						<l>Vólg, vólg, o Vorst, ’t gene u de Hemel in komt storten.</l>
+						<l>’t Gebied verachten, kan uw’ glorie niet verkorten.</l>
+						<l>Maar by den naaneef zultge onsterff’lyk zyn vermaard,</l>
+						<l>Door ’t afstaan van’t gebied, meer dan door ’t aangevaard</l>
+						<l>Te hebben. Het geluk kan ons ’t gezag opdraagen;</l>
+						<l>Maar dat verachten kan alleen de Deugd behaagen:</l>
+						<l>En weinig zullen door eelmoedigheid ’t gebiên</l>
+						<l>Verwérpen, als zy zich daar toe verheven zien.</l>
+						<l>Bezéf hier névens nóch, dat gy regeert in Romen;</l>
+						<l>En, wélk een naam, dat gy moogt hebben aangenomen,</l>
+						<l>Men haat de eenhoofdige regeering en verwérpt</l>
+						<l>Zo wél des Keizers naam als ’s Konings; ’t vólk geschérpt,</l>
+						<l>Noemt hem tiran die zich maakt heer der heerschappye.</l>
+						<l>Hem dienen, acht men slaafsch, hem minnen schelmerye.</l>
+						<l>Wie hem gedoogt, is heel lafhartig, én te zacht;</l>
+						<l>En om zich des te ontslaan, wordt alles deugd geacht.</l>
+						<l>O Vórst, gy hébt daar van de zékerheid bevonden.</l>
+						<l>Men heeft tienmaal vergeefs uw’ dood zich onderwonden:</l>
+						<l>Licht staat het de élfde maal gereed om uitgevoerd</l>
+						<l>Te worden; én datge u nu innig voelt beroerd,</l>
+						<l>Is ’t wérk der Góden, die gestadig voor u waaken,</l>
+						<l>En ’t op geen and’re wys u konnen kénbaar maaken.</l>
+						<l>Stél u niet meêr ten doel van ’t twyffelend geval.</l>
+						<l>’t Is braaf te stérven, als een heerscher van ’t Heel al;</l>
+						<l>Maar de alderbraafste dood zal onzen naam onteeren,</l>
+						<l>Indien men lévend kon zyn glory meer vermeeren.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Indien de liefde tot het land hier ’t meeste géldt,</l>
+						<l>Zo moet ’s lands wélvaard dan voor alles zyn gestéld:</l>
+						<l>En déze vryheid daar wy alle zo na haaken,</l>
+						<l>Is eene schat, die wy sléchts by inbeelding smaaken,</l>
+						<l>Meer hinderlyk dan nut; én die niet te achten zy,</l>
+						<l>By ’t goed het geen ons geeft een ’s prinssen heerschappy.</l>
+						<l>In ’t ampt vergeeven zal hy zich na réden toonen.</l>
+						<l>Mét onderscheid het kwaad bestraffen, ’t goede loonen.</l>
+						<l>Hy, onbevreesd voor een navolger, zal geensins</l>
+						<l>Zich haasten, maar volvoert het al, als wéttig Prins.</l>
+						<l>Maar daar het vólk regeert, zal ’t oproer ’t al vermannen.</l>
+						<l>De réden word terstond verjaagd, én wég gebannen.</l>
+						<l>Dan worden de Ampten aan staatzuchtigen verkócht.</l>
+						<l>Tot de opperheerschappy de oproerigen opgezócht.</l>
+						<l>Die kleene Vorsten, ziende één jaar hén slecht verheeven,</l>
+						<l>En na die tyd hun magt wéêr aan een ander geeven;</l>
+						<l>Doen door te grooten haast vaak alles kwalyk gaan,</l>
+						<l>Wat zy besluyten, op dat geen navolger aan</l>
+						<l>Hunne eer deel hebbe, én van het goede ’t geen zy zaayen,</l>
+						<l>Niet trekkende, gaanze in ’s lands schatten ryklyk maayen.</l>
+						<l>Gerust, dat ieder een die misdaad licht verschoont,</l>
+						<l>Op dat hy hém daar na die zélve gunst betoont:</l>
+						<l>’t Is de allerérgste staat daar ’t volk de wét mag stéllen.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>’t Is nochtans die, daar Rome alleen schynt na te héllen.</l>
+						<l>’s Vólks haat, vyf eeuwen op het Kóninglyke bloed</l>
+						<l>Gedraagen, en daar in van jongs aan op gevoed,</l>
+						<l>Is veel te diep gevést, om ze uit hun hart te dryven.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Ja, Rome, Heer, wil in zyn kwaad hartnekkig blyven.</l>
+						<l>’t Schépt daar behaagen in, wyl ’t alle hulp ontvlied;</l>
+						<l>Gewoonte alleen bestiert hun wil, de réden niet;</l>
+						<l>En déze dwalinge, die Cinna tracht te doemen,</l>
+						<l>Is heilzaam, ja zo zeer, dat hy ze zélf moet roemen.</l>
+						<l>Door haar heeft Rome ’t al gebragt in haar gewéld.</l>
+						<l>Haar voeten op de Nék der Kóningen gestéld.</l>
+						<l>Haar spaarlust t’ élkens van de buit zien overloopen.</l>
+						<l>Wat staat er béter van de grootste prins te hoopen?</l>
+						<l>Nóch zég ik, heer, dat door de gansche waereld niet</l>
+						<l>Kan dienen eene wys van heerschen, maar men ziet</l>
+						<l>Dat élk die na zyn aard voor zich heeft uitgeleezen,</l>
+						<l>En die verandereng zoude onréchtvaerdig weezen.</l>
+						<l>Dit is ’t bestier der Góôn, dat door hun wys beleyd,</l>
+						<l>By ieder na zyn aard, stélde een verscheidenheid.</l>
+						<l>De Macedóner wil dat hém een hoofd régeerre.</l>
+						<l>Het ovrig Grieken houd de vryheid hoog in eere.</l>
+						<l>Der Part, én Pérsen aart buigt willig onder een;</l>
+						<l>Maar ’t Burgermeesterschap voegt Rome, ô Vórst! alleen.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>’t Is waar, door ’s Hémels zorg is ieder een gegeeven</l>
+						<l>Een onderscheiden drift, myn heer, om na te leeven;</l>
+						<l>Maar ’t is niet minder waar, dat zélf de schikking van</l>
+						<l>De Góden, door de tyd én plaats verand’ren kan.</l>
+						<l>Dit Romen heeft eerst by de Kóningen begonnen;</l>
+						<l>By ’t Burgermeesterschap zyn roem, én magt gewonnen;</l>
+						<l>En nu ontfangt het van uw deugden zo veel goed,</l>
+						<l>Dat ’t al de waereld van zyn heil verwond’ren doet.</l>
+						<l>Door u zien wy de staat in vréde, én rust vergrooten,</l>
+						<l>De Témpeldeuren van Gód Janus toegeslooten;</l>
+						<l>By ’t Burgermeesterschap is dit maar eens geschied:</l>
+						<l>Dóch ook by Numa, twéde in ’t Kóninglyk gebied.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Wanneer de Hémel wérkt tot staats veranderingen,</l>
+						<l>Zo zal zy nooit door bloed die zoeken in te dringen.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>’t Is eene schikking van de Góôn die nimmer faalt,</l>
+						<l>Dat hunne grootste gunst word aller dierst betaalt.</l>
+						<l>Hoe Bloedig streed men toen we ons van Tarquin verlosten;</l>
+						<l>En ’t Burgermeesterschap, wat kwamt ’t ons bloed te kósten.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Bestreed Pompéus, uw grootvader, dan de Góôn,</l>
+						<l>Toen hy de vryheid zócht te stéllen op de troon?</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Was Rome van de Góôn daar méde begenadigd,</l>
+						<l>Zy hadden die wél door Pompéus hand verdadigd;</l>
+						<l>Maar neen, zy wilden dat zyn dood zou dienen, tot</l>
+						<l>Een eeuwig téken van dat groote wissellót;</l>
+						<l>En hadden déze roem ’s mans deugden nóch beschooren,</l>
+						<l>Dat Romens vryheid in dien héld zou gaan verlooren.</l>
+						<l>Die naam van vryheid heeft haar langen tyd verblind,</l>
+						<l>Haar eige grootsheid die belét, dat zyze vind;</l>
+						<l>Na dat zy is meestrés ge worden van haar buuren,</l>
+						<l>Van al de waereld, én dat binnen haare muuren,</l>
+						<l>Eene óvervloed van schat én rykdom is gebragt,</l>
+						<l>Zy Burgers voortbréngt, meer als Kóningen in magt;</l>
+						<l>Sins doen de groote zich door géld in staat verhéffen,</l>
+						<l>Hun meesters dienen hén, én kunnen niet bezéffen,</l>
+						<l>Dat zy door kétenen van goud geboeid, de wét</l>
+						<l>Van zulke ontfangen, die élk meent dat hy ze zét.</l>
+						<l>Zo word de een nydig van den anderen bevonden.</l>
+						<l>Hun staatzucht straks verkeerd in bloedige verbonden.</l>
+						<l>Alzo wierd Syllas magt door Marius benyd;</l>
+						<l>En die van Cézar door Pompéus in zyn tyd.</l>
+						<l>Gy van Antonius; dus kan de vryheid strékken,</l>
+						<l>Alleen om burgert wist, én onheil te verwékken.</l>
+						<l>Wyl door wanorde die sléchts op verdérven oogt,</l>
+						<l>Deez’ zyns gelyk, én die zyn meester niet gedoogd.</l>
+						<l>Myn heer, om Rome van dat onheil te verschoonen,</l>
+						<l>Zo moet het aan één hoofd, gehoorzaamheid betoonen;</l>
+						<l>Bemind gy Rome, én wiltge uw gunst aan haar geheel</l>
+						<l>Doen blyken, zo belét dat zich de staat verdeel.</l>
+						<l>Toen Sylla ’t hoog gezag verliet, stond élk verleegen:</l>
+						<l>Straks schérpten Cézar, én Pompéus hunnen dégen:</l>
+						<l>En zyt verzékerd, dat zulks nimmer was geschied,</l>
+						<l>Had hy in zyn geslacht bevéstigd het gebied.</l>
+						<l>Heeft Cézars dood u niet Antonius gelaaten,</l>
+						<l>Mét Lépidus, die bei fél stonden naar uw staaten?</l>
+						<l>Nooit waar het Roomsche ryk vervult mét moord, én brand,</l>
+						<l>Had Cézar de oppermagt gelaaten in uw’ hand.</l>
+						<l>Zo gy haar nu verlaat, zo heeftze wéêr te schroomen</l>
+						<l>Een kwaad, myn heer, daar van ze naauwlyks is bekomen.</l>
+						<l>En ’t weinig bloed, ’t geen zy nóch in haar and’ren heeft,</l>
+						<l>Word haar op nieuws beroofd, indien gy haar begeeft,</l>
+						<l>Dat liefde tot u land u raak mét médedoogen!</l>
+						<l>Gantsch Rome smeekt u door myn mond, ter aard geboogen.</l>
+						<l>Neem eens, neem eens, wat gy haar kóst, in uw beraad;</l>
+						<l>Niet dat zy waanen zou, dat gy te dier haar staat,</l>
+						<l>Ze is al te wél betaald van haar geleede kwaaden;</l>
+						<l>Maar een gegronde vrees houd haare ziel belaaden;</l>
+						<l>Want nydig haars geluks, én moê der heerschappy,</l>
+						<l>Geeft gy haar ’t geen zy niet bewaaren kan, zo zy</l>
+						<l>Een ander tot die prys daar weder in moet zetten,</l>
+						<l>En gy op uw belang meer wilt als ’t haare létten.</l>
+						<l>Zo zy in wanhoop valt, als haar die gift geschied,</l>
+						<l>Durf ik niet zéggen, wat al ramp myn geest voorziet.</l>
+						<l>Bewaar u zélve tóch in haar een heer te laaten,</l>
+						<l>Waar onder wéêr begint het heil van haare staaten;</l>
+						<l>En tót haar meerdere verzékerheid, noem één,</l>
+						<l>Die na u Keizer zy, én op de troon zal tréên.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Beraaden we ons niet meer, my raakt dat médedoogen,</l>
+						<l>En Rome heeft, schoon ik myn rust min, my bewoogen;</l>
+						<l>Wat grooter ongeluk ik ook voor my bevroê,</l>
+						<l>Ik stém in myn verlies, indien ik haar behoê.</l>
+						<l>’k Moet dan de hoop van rust weer uit myn hart verdryven.</l>
+						<l>Myn Cinna, door uw raad zal’t ryk het myne blyven,</l>
+						<l>Maar ’t myne, om u daar van te maaken deelgenoot.</l>
+						<l>’k Zie dat gy élk voor my u w harts geheim ontbloot,</l>
+						<l>Dat in de raad, die uit uw beide is voorgekomen,</l>
+						<l>Sléchts acht op my, én niet myn staaten is genoomen,</l>
+						<l>Wyl ieder liefde toont voor my, én ’t staats belang,</l>
+						<l>Zo wil ik dat ook élk daar voor zyn loon ontfang.</l>
+						<l>O Maximus! gy zult Sisilien regeeren.</l>
+						<l>Ga, doe dat vruchtbaar Land de Roomsche wétten eeren.</l>
+						<l>Dénk dat ge voor my heerscht; betracht uw eer, én plicht,</l>
+						<l>Dewyl ik bórg zal zyn voor al wat gy verricht.</l>
+						<l>Ik zal Emilia tot bruid u Cinna geeven.</l>
+						<l>Zy is in Julia myn dóchters plaats verheeven.</l>
+						<l>En zo ons ongeluk gewild heeft in de nood,</l>
+						<l>Dat door myn stréng bevél haar vader is gedood,</l>
+						<l>Myn mildheid, t’haaren gonst zo meenigmaal beweezen,</l>
+						<l>Geloof ik, heeft de smart van dat verlies geneezen.</l>
+						<l>Bezoek haar, ga, én zie dat gy haar hart verwint;</l>
+						<l>Gy zyt een man wél waard van haar te zyn bemind;</l>
+						<l>Door ’t óff’ren van uw hart zult ge in het haare raaken:</l>
+						<l>Ik zal de Kaizerin de zaak bekénd gaan maaken.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>TWÉDE TOONEEL.</head>
+					<stage>MAXIMUS, CINNA.</stage>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>WAt’s uw besluit tóch na zo schoon een raad?</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l> Noch al</l>
+						<l>Het zélve ’t geen ik had, én altyd hébben zal.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Een hoofd van ’t eedgespan* styft hier de dwinglandye!</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Een hoofd van ’t eedgespan wil dan de Tierannye</l>
+						<l>Niet straffen!</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l> Ik wil Rome in vryheid zien.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l> My lust</l>
+						<l>Ons vry te maaken, én te wreeken; zal August’</l>
+						<l>Na dat hy heeft verwoed, door hélsche drift gedreeven,</l>
+						<l>Tot aan ’t Altaar geroofd, geófferd bloed, én leeven</l>
+						<l>Der Room’ren; ’t véld mét schrik, de stad mét doôn gevuldt,</l>
+						<l>Door énkel wroegen vry gescholden zyn dier schuld?</l>
+						<l>Ja, nu den Hémel tot zyn straf niets schynt te spaaren,</l>
+						<l>Zou nu een laf berouw zyn hoofd daar voor bewaaren?</l>
+						<l>Het waar aan and’re lust, én moeds genoeg verschaft.</l>
+						<l>Om hém te vólgen bleef Augustus ongestraft.</l>
+						<l>Men wreeke Rome, en doe door schrik te rugge deinzen,</l>
+						<l>Al wie na zyne dood op ’t hoog gezag moog peinzen;</l>
+						<l>Dat nooit het vólk meer zy een dwinglands onderdaan;</l>
+						<l>Zo Sylla waar gestraft. had Cézar min bestaan.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Maar Cézars dood, die ge als réchtvaerdig duit ten goeden,</l>
+						<l>Gaf onder schyn van wraak Augustus stóf tót woeden;</l>
+						<l>En Brutus, willende ons bevryden, is vergaan,</l>
+						<l>Was Cézar nooit gestraft, August had min bestaan.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>De mislag, én de vrees van Cassius, die brachten</l>
+						<l>De staat weer onder ’t juk des dwinglands, maar wy achten</l>
+						<l>Dat ons het Gódendom een grooter heil bereid,</l>
+						<l>Als Romen hoofden volgt van béterer beled.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>’t Is nóch te vroeg om mét die waan ons brein te vullen,</l>
+						<l>Dat wy voorzigtiger het werk bestieren zullen.</l>
+						<l>Intusschen waar ’t geweest van kleen belang, een goed</l>
+						<l>Te aanvaarden, ’t geen men zoekt ten kósten van zyn bloed.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Nóch min voorzichtig is ’t, dat kwaad te willen heelen,</l>
+						<l>Eer ’t récht gezuiverd is in de innerlyke deelen.</l>
+						<l>De zachtheid re oeffenen tot stilling van de pyn,</l>
+						<l>Verstrékt aan de oopen wonde een doodelyk fenyn.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Gy wilt ze bloedig, én zoud lichtlyk die ontbeeren.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Gy zonder moeite, én zoud die schandelyk begeeren.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>’t Is nimmer schande zich zyn kétenen te ontslaan.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>’t Geschied uit lafheid, zo ’t uit deugd niet word gedaan.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>De vryheid blyft altyd beminlyk, én voor Romen</l>
+						<l>Een onwaardeerd’re schat.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l> Niet waard om aangenomen</l>
+						<l>Tezyn, van één die moê haar te onderdrukken is.</l>
+						<l>Haar hert is veel te groot, om zonder droeffenis,</l>
+						<l>Zich zélf te kunnen zien, van dien tieran verschooven,</l>
+						<l>Die haar voot heenen met zo groote drift kwam rooven.</l>
+						<l>Al wie zyn grootste roem stélde in opréchte trouw,</l>
+						<l>Haat hém te veel, dat hy zyn gift aanvaarden zou.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Is u Emilia een voorwérp om te haaten?</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Mét leed zoude ik die schoone ontfaân van dien verwaaten.</l>
+						<l>Maat ’k zal wanneer ik héb gewrooken Romens kwaal,</l>
+						<l>Hém tót in de afgrond zélf trótzeeren; als dit staal</l>
+						<l>My haarer door zyn dood heeft kunnen waerdig maaken.</l>
+						<l>Dan wil ik, van zyn bloed noch warm, tot haar genaaken;</l>
+						<l>Haar trouwen op zyne asch; zo zult gy buiten nood,</l>
+						<l>De gift des dwingelands zien het loon voor zyne dood.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Maar, met wat schyn kunt gy tóch hoopen haar te winnen,</l>
+						<l>In ’t bloed gevérfd van die ze als vader schynt te minnen?</l>
+						<l>Gy wilt haar mét gewéld niet dwingen, én bevlékt.....</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Hier in ’t Paleis, myn vrind, daar wierd men licht ontdékt.</l>
+						<l>Om dan voorzichtig van zo groot een zaak te spreeken,</l>
+						<l>Is ’t beter élders, daar men veilig is, geweeken,</l>
+						<l>Kom gaan we, op dat ik straks met u in zékerheid,</l>
+						<l>Moog zien, hoe op het zachst die zaak dient aangeleid.</l>
+					</sp>
+				</div>
+			</div>
+			<div type="act" n="3">
+				<head>DARDE BEDRYF.</head>
+				<div type="scene" n="1">
+					<head>EERSTE TOONEEL.</head>
+					<stage>MAXIMUS, EUFÓRBUS.</stage>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>JA, hy heeft zélf aan my hun vlam ontdékt, hoe téder</l>
+						<l>Dat hém Emilia bemint, én hy haar wéder;</l>
+						<l>Maar zonder ’s vaders wraak moet zyne hoop vergaan,</l>
+						<l>En daarom is ’t, dat hy ’t verraad ons doet bestaan.</l>
+					</sp>
+					<sp who="#evander">
+						<speaker> EUFÓRBUS.</speaker>
+						<l>’k Verwonder my niet meer, hoe hy door kragt van réden,</l>
+						<l>Augustus heeft belet van zyne troon te treeden.</l>
+						<l>Het eedgespan verbrak, indien hy ’t deed; én gy</l>
+						<l>Zoud al uw vrinden straks zien op des Keizers zy.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Zyd enen, Cinna, mét een yver ingenoomen,</l>
+						<l>Die voor zich zélven wérkt én veint het al voor Romen</l>
+						<l>Te weezen; ik, ach! wie zou zulk een ramp vermoên?</l>
+						<l>Dien myn méêminnaar, én dacht Rome dienst te doen.</l>
+					</sp>
+					<sp who="#evander">
+						<speaker> EUFÓRBUS.</speaker>
+						<l>Uw médeminnaar!</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l> Ja, ’k min zyn meestrés, mét zórgen</l>
+						<l>Hield ik tót héden toe myn minnevlam verborgen.</l>
+						<l>Dat vuur, nóch onbekénd, eer dat het uytborst, wou</l>
+						<l>Zich door een braave daad waerd maaken haarer trouw:</l>
+						<l>Maar door my zélf word zy me ontroofd, ik zal verstrékken</l>
+						<l>Het wérktuig myns verdriets, én zyn besluit voltrékken.</l>
+						<l>Ik vorder zyne zaak tot myn verdérf, én hoon;</l>
+						<l>En ’k leen hém myne hand om my daar mê te doôn.</l>
+						<l>Wat komt de vrindschap my in ongeluk bedélven!</l>
+					</sp>
+					<sp who="#eufórbus">
+						<speaker> EUFÓRBUS.</speaker>
+						<l>’t Gevaar is klein, indien gy zórg draagt voor u zélven.</l>
+						<l>Wilt u van een besluit, dat u vermoord ontslaan.</l>
+						<l>Win een meestrés, én klaag uw médeminnaar aan,</l>
+						<l>Augustus, die gy dus behouden zult het leeven,</l>
+						<l>Zal u nooit weigeren Emilia te geeven.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Zoude ik myn vrind verraân?</l>
+					</sp>
+					<sp who="#eufórbus">
+						<speaker> EUFÓRBUS.</speaker>
+						<l> De min staat alles vry.</l>
+						<l>Een oprécht minnaar ként geen vrinden, voeg daar by,</l>
+						<l>Dat gy réchtvaerdig moogt een snood verraâr verdérven,</l>
+						<l>Die zyne meester wil, om zyn meestrés doen stérven.</l>
+						<l>Vergeet de Vrindschap, zo als hy de weldaân.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l> ’k Dien</l>
+						<l>My van geen voorbeeld, dat ik als een kwaad wil vlieên.</l>
+					</sp>
+					<sp who="#eufórbus">
+						<speaker> EUFÓRBUS.</speaker>
+						<l>Men mag mét récht voor zulk een schélmstuk raad verschaffen:</l>
+						<l>En word nooit schuldig door een schuldige te straffen.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Een daad daar Rome wéêr zyn vryheid door geniet.</l>
+					</sp>
+					<sp who="#eufórbus">
+						<speaker> EUFÓRBUS.</speaker>
+						<l>Vrees alles van een geest, zo schélmsch, die, als gy ziet,</l>
+						<l>Niet heeft alleen ’t belang van ’t vaderland voor oogen.</l>
+						<l>Het zyne, én niet de roem doet hém na vryheid poogen;</l>
+						<l>Hy minde Augustus, was hy nooit verlieft geweest;</l>
+						<l>En is ondankbaar, maar niet van een ed’le geest.</l>
+						<l>Waant gy de grond van zyn gemoed te weeten? onder</l>
+						<l>’t Gemeen belang verburg hy u zyn min, wat wonder,</l>
+						<l>Zo onder déze drift hy door zyn loos beleid,</l>
+						<l>’t Vervloekte vuur verbérgt van zyn heers zuchtigheid.</l>
+						<l>’t Kon zyn, dat na de dood des Keizers, hy zal blaaken,</l>
+						<l>Om Rome in placts van vry tot zyn slavin te maaken,</l>
+						<l>Hy u zyn onderdaan alreeds te zyn vertrouwd,</l>
+						<l>Of dat op uw verderf hy zélf zyn voorwérp boud.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Hoe kan ik, zonder ze al te noemen, hem beklaagen?</l>
+						<l>Dat waar te deerlyk al de t’zaamgezwoornen waagen!</l>
+						<l>Te schélmsch verraden, al wie mét ons saamen spant,</l>
+						<l>Alleen uit liefde, én drift tót heil van ’t Vaderland.</l>
+						<l>Ik kan zo laf een daad niet op myn ziel verwérven.</l>
+						<l>Zo veele onschuldige om een schuldige doen stérven.</l>
+						<l>’k Durf alles tégen hém, maar ’k vrees voor hén ’t wéêr al.</l>
+					</sp>
+					<sp who="#eufórbus">
+						<speaker> EUFÓRBUS.</speaker>
+						<l>Augustus is vermoeid zo wreed te zyn, én zal,</l>
+						<l>(Wyl hy verdrietig is, van steeds zo straf te leeven)</l>
+						<l>Wanneer de Hoofden zyn gestraft, genade geeven</l>
+						<l>Aan de andere, én vreest gy voor hun straf, gy kunt bekwaam</l>
+						<l>De Keizer kundschap doen uit huuner aller naam.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Vergeefs zyn onze réên, én dwaas te willen dénken,</l>
+						<l>Dat my die schoone na zyn dood haar min zal schénken.</l>
+						<l>’t Is ’t réchte middel niet, om te behaagen aan</l>
+						<l>Dat zoet gezigt, haar lief, én minnaar te verraân.</l>
+						<l>Voor my, ’k acht weinig óf August my haar wil geeven:</l>
+						<l>Ik wénsch my door haar keur zo hoog te zien verheeven,</l>
+						<l>En niet uit dwang; Ja ’k stél ’t bezit van haar zeer kleen,</l>
+						<l>Als ik niet deelen moog in haer genégenheên.</l>
+						<l>Kan ik haar waerdig zyn door dry wérf haar te hoonen?</l>
+						<l>’k Verrâ haar minnaar, stoor haar wraak, én doe verschoonen,</l>
+						<l>Die zy uit wraakzucht reeds de doodsteek had bereid.</l>
+						<l>Wat hoop zoude ik nôch voên op haar genégenheid?</l>
+					</sp>
+					<sp who="#eufórbus">
+						<speaker> EUFÓRBUS.</speaker>
+						<l>Dit is het geen, dat my, récht uitgezeid, doet vreezen;</l>
+						<l>Maar hier in zal ’t bedróg u nodig kunnen weezen.</l>
+						<l>Zie dat haar iemaud dan misleide in dat geval,</l>
+						<l>En wacht voor ’t óvrig wat de tyd beschikken zal.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Zo tót zyne onschuld hy zyn médestandster noemde,</l>
+						<l>En dat Augustus haar mét hém ter straffe doemde.</l>
+						<l>Kan ik hém eisschen, tot een loon voor myne daad,</l>
+						<l>Het leeven, van die ons verpligt tót dit verraad?</l>
+					</sp>
+					<sp who="#eufórbus">
+						<speaker> EUFÓRBUS.</speaker>
+						<l>Gy zoud wél spreeken van zo veel er lei gevaaren,</l>
+						<l>Die zonder wonderdaân geheel onmooglyk waaren</l>
+						<l>Te ontkómen; échter ’k hoop, gunt gy me sléchts wat tyd....</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Ga heen, maar maak, dat gy terstond hier wéder zyt.</l>
+						<l>’k Zie Cinna, én ik zoek uit hém nóch iets te trékken,</l>
+						<l>Dat ik u daadlyk zal mét myn besluit ontdékken.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>TWÉDE TOONEEL.</head>
+					<stage>CINNA, MAXIMUS.</stage>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>GY schynt in diep gepeyns?</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l> ’t én is niet zonder reên.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Wilt gy me de oorzaak van uw kwéllingen ontléên?</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Het zyn Emilia, én Cézar die myn pynen</l>
+						<l>Verwekken; de eene komt voor my zo goed verschynen,</l>
+						<l>En de andere zo wreed. Behaagden ’t aan de Góôn,</l>
+						<l>Dat Cézar béter zórg in ’t werk stélde, én tót loon</l>
+						<l>Wat meer bemind wierd, óf my niet zo zeer bezinde:</l>
+						<l>Dat zyne goedheid trof het hart van myn beminde;</l>
+						<l>Haar óver won, gelyk zyn gonst my kracht’loos maakt.</l>
+						<l>Van duizend knagingen voel ik myn’ ziel geraakt,</l>
+						<l>Die voor myn oogen al zyn wéldaân my vertoonen;</l>
+						<l>Die wéldaân, die ik zo ontrouw hém ga beloonen,</l>
+						<l>Mét doodelyk verwyt my ieder oogenblik</l>
+						<l>Vermoorden; Ja ik beeld my in, niet zonder schrik,</l>
+						<l>Hém t’élkens noch te zien in onze handen laaten</l>
+						<l>Het opperste gebied van al de Roomsche staaten.</l>
+						<l>Dat ik hém hoor ons raad af vraagen, én nóch meer,</l>
+						<l>Na veel bedankingen, verzien mét staat, én eer.</l>
+						<l>Ik kén zyn réden niet uit myne zin verdryven.</l>
+						<l>Myn Cinna, door uw’raad zal ’t ryk myne blyven;</l>
+						<l>Maar ’t myne om u daar van te maken deelgenoot.</l>
+						<l>En ’k schérp het staal waar méde ik hém de borst doorstoot.</l>
+						<l>Veel eer... maar, ach! ’k aanbid Emilia; myne eeden</l>
+						<l>Verbinden me aan haar haat, die haat, die zy mét réden</l>
+						<l>Hém toedraagt, maakt hém my ook haatelyk, ik hoon</l>
+						<l>Op de eene, én de and’re wys myne eer, én al de Góôn.</l>
+						<l>’k Word eedverbreeker, óf een’s Vorsten beul geheeten,</l>
+						<l>Van de een, óf de andere word myne ontrouw my verweeten.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Gy had voor heen nooit die bewéging in uw’ geest,</l>
+						<l>Maar zyt standvastiger in uw besluit geweest.</l>
+						<l>Geen knaging, óf verwyt kon u aan ’t harte taaken.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Men voelt zulks niet, dan als de slag begint te naaken;</l>
+						<l>En nimmer ként men récht zo groot een trouwloosheid,</l>
+						<l>Als wén de hand zich tót de daad van ’t wérk bereid.</l>
+						<l>De ziel, zo vér daar van beheerscht, in ’t onderwinden,</l>
+						<l>Zal zich wéêr blind’lings aan zyne eerste inbeelding binden:</l>
+						<l>Maar wélk een geest word dan door onrust niet vertukt?</l>
+						<l>Of eer, wat geest word niet door zulk een last verdruk?</l>
+						<l>En ’k meen, dat Brutus zélf, toen ’t wérk stond door te breeken,</l>
+						<l>Zich meer als eens bedacht, om ’t stuk te laaten steeken;</l>
+						<l>En dat, eer hy die daad, aan hém zo doodlyk, deed,</l>
+						<l>Hy meer in zyne ziel, dan ééne wroeging leed.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Zyn deugd was al te groot om zyne ziel te krénken</l>
+						<l>Mét ongerustheid, én zich zélve te verdénken</l>
+						<l>Van groote ondankbaarheid; hoe hém de dwingeland</l>
+						<l>Meer eerde, én minde, hoe hy zich te meer gekant</l>
+						<l>Vond tégens hém, wilt gy hém vólgen, doe ons blyken,</l>
+						<l>Dat ge in al uwe daân geheel hém wilt gelyken;</l>
+						<l>En vést uw vroeging op een veel geréchter grond,</l>
+						<l>Die laffe raad waar mê gy zulk een heil terstond</l>
+						<l>Wéêrhield, wanneer hy ons in vryheid wilde zétten.</l>
+						<l>Gy, gy kwaamt héden dat alleenig maar belétten;</l>
+						<l>En Brutus had gewis van Cézar die ontfaân;</l>
+						<l>Ja nooit in zyn gemoed gedoogt óftoegestaan,</l>
+						<l>Dat hém een kleen belang van wraak, óf min zouk wéllen,</l>
+						<l>Om zyne vryheid in zo groot gevaar te stéllen.</l>
+						<l>Hoor niet meer na. de stém eens dwinglande, die u mint,</l>
+						<l>En mét u deelen wil het opperryks bewind.</l>
+						<l>Hoor liever, hoe u toegeroepen word van Romen,</l>
+						<l>Kom, Cinna, geef my weer, ’t geen gy my hébt ontnoomen;</l>
+						<l>En stélde gy ’t belang van uw’ meestrés voor ’t myn’,</l>
+						<l>Laat tóch des dwinglands niet gestéld voor ’t myne zyn.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Myn vrind, wilt tóch myn ziel niet mét meer rampen plaagen.</l>
+						<l>Die laf, nóch échter zich wil édelmoedig draagen.</l>
+						<l>’k Weet, wat ik héb misdaân aan Romen, én beloof,</l>
+						<l>Haar wéêr te geeven ’t geen ik haar daar door ontroof.</l>
+						<l>Maar wilt die téd’re zucht van vrindschap my vergeeven,</l>
+						<l>Die zonder het gemoed te raaken, niet verdreeven</l>
+						<l>Kan worden; én laat my terwyl ik hier verwacht</l>
+						<l>Emilia, eens vry uitstorten myne klacht.</l>
+						<l>Myn smart verveelt u reeds, én myn ontroerde zinnen,</l>
+						<l>Vereisschen de eenzaamheid om wéder rust te winnen.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Gy wilt aan ’t voorwérp van uw liefde doen verstaan</l>
+						<l>Augustus gonsten, én uw zwak gemoed; wél aan,</l>
+						<l>Des minnaars onderhoud wil geen getuigen lyden;</l>
+						<l>Vaar wél, ik ga dan om u dienst te doen tert zyden.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>DARDE TOONEEL.</head>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Geef, geef een waerder naam aan ’t édele bewind</l>
+						<l>Der deugd, waar door myn ziel zich thans ontsteeken vind:</l>
+						<l>Wyl de eer zich tégens my daar door heeft willen zetten,</l>
+						<l>En myne ondankbaarheid, én snood besluit belétten.</l>
+						<l>Maer, neen, vaar voort, én noem ’t een zwakheid van gemoed,</l>
+						<l>Wyl ’t zich by myn meestrés zo zwak bevinden doet.</l>
+						<l>Myn liefde een eer aan die ’t voor alles hoort te weeren,</l>
+						<l>Ja zich ontziet daar van mét roem te triomfeeren.</l>
+						<l>Het vreest de zeege, als ’t maar myn min het minst bestryd;</l>
+						<l>Wat zy verkies ik bést? wat dient hier ’t meest gemyd?</l>
+						<l>Wat zal in déze zaak my ’t naaste aan ’t harte raaken?</l>
+						<l>Hoe kwalyk kan een éêl gemoed de deugd verzaaken!</l>
+						<l>Wat vrucht, dat ik hier door verhoop, die van myn min,</l>
+						<l>Of van de wraak, óf wélk een eere dat ik win</l>
+						<l>Door het bevryden van myn Vaderland, ’t is héden</l>
+						<l>Al kracht’loos, om daar door myn zélven te overréden;</l>
+						<l>Indien men dat door een verraad verkrygen moet,</l>
+						<l>En van zoo braven Prins verstorten ’t édel bloed;</l>
+						<l>Die boven myn waardy my acht; die alle dagen</l>
+						<l>Meer schatten, meerdere eer zo mild my op komt draagen;</l>
+						<l>En in ’t bestieren van zyn ryk vólgt myne raad.</l>
+						<l>O snô verradery! ô slag! ô wreede daad!</l>
+						<l>Niet waerdig van een ménsch te worden ondernoomen!</l>
+						<l>Duur! duur in eeuwigheid, ô slaverny van Romen!</l>
+						<l>Verga vry myne min! verga, verga myn hoop,</l>
+						<l>Eer dat myn hard u door zo snood een schélmstuk koop!</l>
+						<l>Hoe! komt hy my niet naar myn wensch gelukkig maaken?</l>
+						<l>En geeft my ’t geen ik hém wil door zyn dood ontschaaken?</l>
+						<l>Moet ik hem moorden op dat ik zyn gift geniet?</l>
+						<l>En rooven hém het geen hy my vrywillig biedt?</l>
+						<l>Maar, ô myne eed! door u strékt myn verbintt’nis nader!</l>
+						<l>O haat van myn Prinslés! geheugen van een vader!</l>
+						<l>Myn trouw, myn haat, myn arm, ’t is al aan u verplicht;</l>
+						<l>Ik kan niets buiten u, naar uw begeeren richt</l>
+						<l>Ik al myn doen. Ay ga, dat bid ik, wel te raade.</l>
+						<l>Emilia, het staat aan u hém zyn genade</l>
+						<l>Te geeven; uwe wil bestiert zyn noodlót; want</l>
+						<l>Die steld zyn leeven, én zyn dood in myne hand.</l>
+						<l>O Goôn! die haar als u aanbidd’lyk maakt, wilt maaken</l>
+						<l>Dat myn gebéden haar, gelyk u móogen raaken;</l>
+						<l>En wyl ik my niet van haar magt ontslaan kan, laat</l>
+						<l>Haar hart zich buigen na mynzin, en myne raad.</l>
+						<l>Daar komt die wreede zo vol luister herwaards treeden.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>VIERDE TOONEEL.</head>
+					<stage>EMILIA, CINNA, FULVIA.</stage>
+					<sp who="#emilia">
+						<speaker> EMILIA.</speaker>
+						<l>DE Góden zyn gedankt, myn vrees was zonder réden;</l>
+						<l>Geen van uw’ vrinden zyn bezweeken in hun’trouw,</l>
+						<l>Des was ’t vergeefs, dat ik daar voor u spreeken wou.</l>
+						<l>De Keizer kwam zyn vrouw de zaak te kénnen geeven;</l>
+						<l>En gaf my, die van vrees bezweek, op nieuws het leeven.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Staat gy my toe de gaaf daar hy my méê vereerdt?</l>
+						<l>Of wilt gy dat myn ziel nóch ’t heil daar van ontbeert?</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Dat is in uwe hand.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l> Maar eer in de uwe, ô Góden!</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Ik bén de zélfde nóch, myn hart u aangebooden,</l>
+						<l>Is onveranderd: en als dat zich óvergeeft,</l>
+						<l>Aan Cinna, geeft het niets, als ’t geen hy reeds al heeft.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Gy kunt nóchtans... ô Góôn! durf ik nóch klaarder spreeken?</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Wet kan ik? én wat vreestge?</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l> Ik beeve! ik zuchte! en réken</l>
+						<l>Zo onze harten maar een oogmerk hadden, dat</l>
+						<l>Gy wél de réden van myn droef heid had gevat;</l>
+						<l>Zo dat ik zékerlyk uwe ongunst zal verkrygen.</l>
+						<l>Maar ’k durf niet spreeken, én, helaas! ik kan niet zwygen.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>preek, dit verveelt my.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l> Wél, ik zal gehoorzaam zyn,</l>
+						<l>’k Ga u mishaagen, gy my haaten, wélk een pyn!</l>
+						<l>Ik min u, ô Prinsés! én dat de Góôn my straffen,</l>
+						<l>Zó déze drift my niet komt alle vreugd verschaffen;</l>
+						<l>SIndien ik niet bemin zo hévig, als ooit van</l>
+						<l>Een grootsch gemoed zo schoon een voorwérp eisschen kan.</l>
+						<l>Maar, ziet tot wélk een prys gy my uw min wilt schenken:</l>
+						<l>Ach! in myn grootst geluk tracht gy myne eer te krenken.</l>
+						<l>Des Keizers gonsten....</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l> ’t Is genoeg, ’k versta de zin.</l>
+						<l>’k Zie uw beklag, én onstandvastighéden in.</l>
+						<l>Ze gnnst des dwing’lands komt my uw’ belófte ontrooven;</l>
+						<l>Uw’ min én eeden zyn voor zyn onthaal verstooven;</l>
+						<l>En uwe geest, te licht geloovig, meent dat hy</l>
+						<l>Het al vermoogende, ook vermoogen heeft om my</l>
+						<l>Aan u te geeven; gy wilt my veel eer ontfangen</l>
+						<l>Van hém, als van my zélf die groote gonst érlangen.</l>
+						<l>Maar dénk niet, dat ik u zo toebehooren zal.</l>
+						<l>Hy kan wél door zyn magt doen sidderen ’t heel al:</l>
+						<l>Een kóning bonzen uit zyn troon; én zyne Ryken</l>
+						<l>Wég geeven; aarde én zé doen voor zyn woên bezwyken;</l>
+						<l>Des waerels schikking zélf verand’ren na zyn zin;</l>
+						<l>Maar hy heeft magt op my, nóch myne wedermin.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Dat is een gift, die ik alleen uw gonst toe réken,</l>
+						<l>Mêvrouw; ’k verzéker u, ik zal myn trouw nooit breeken.</l>
+						<l>Het médelyden dat myn zies gevoelt, maakt niet</l>
+						<l>Dat ik myne eed verbreek; al watge my gebied,</l>
+						<l>Ik zal u dienen, én al myne drift besteeeden</l>
+						<l>Om uw belangen te volvoeren, én myne eeden.</l>
+						<l>Ik kon gelyk gy weet, ook zonder zonde, óf schand,</l>
+						<l>U doen ontbeeren die doorluchtige ófferhand.</l>
+						<l>Augustus de oppermagt, én ’t heerschen zich ontslaande,</l>
+						<l>Nam wég dat oogenblik de réden dien die men waande</l>
+						<l>Te hébben tot zijn’dood, dan waaren straks verspreid</l>
+						<l>De saam gezwoorene, én uwe haat misleid.</l>
+						<l>Uw opzét was mislukt zyn ziele, reeds aan ’t schroomen,</l>
+						<l>Héb ik hérstéld, op dat hy dit niet zoude ontkómen;</l>
+						<l>En ik héb, om hém u te óff’ren, hém gekroondt.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Om hém my te óff’ren, die gy wilt dat word verschoont</l>
+						<l>Door my? verraâr, gy wilt dat ik uw’ hand wéêr houde,</l>
+						<l>Dat hy nóch leeve, én ik hém minne! dat ik zoude</l>
+						<l>De buit zyn voor die hém durft spaaren; én een loon</l>
+						<l>Verstrékken voor uw raad, die hém vést in zyn troon.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Ay, doem my niet, had ik die raad hém niet gegeeven,</l>
+						<l>Zo had gy héden geen vermoogen op zyn leeven;</l>
+						<l>En ondanks zyne gonst zo geeve ik myn bedryf</l>
+						<l>Aan liéfde op, én wil dat hy stérve, of aan u blyf</l>
+						<l>Verpligt voor ’t leeven; ai gedoog dat kleene téken</l>
+						<l>Van myne érkéntenis, door pligt in my ontsteeken.</l>
+						<l>Terwyl ik wénsch, Mevrouw, dat gy uw’ toorn verwint,</l>
+						<l>En hém beminnen moogt, gelyk hy u bemint.</l>
+						<l>Een deugdelyke ziel zal zich naauwkeurig wachten,</l>
+						<l>Dat iemand haar mét récht kan voor ondankbaar achten,</l>
+						<l>Of ontrouw; ja zy haat de schande, schoon zy wéêr</l>
+						<l>Geluk geeft, én wil niets ten kósten van haare eer.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>’k Stél roem in zulk een schande, én acht verraderye</l>
+						<l>Eene éd’le zaak omtrént een snoode dwinglandye;</l>
+						<l>En als men daar door stuit de Bronaar onzer smart,</l>
+						<l>Zo is ’t ondankbaarst het meest édelmoedig hart,</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Gy noemt al deugd, ’t geen u uw’ haat bréngt in den znn.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Ik noem zulks deugden, waerd aan eene Romein inne</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Een waar Romein, mevrouw....</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l> Durft alles om te doôn</l>
+						<l>Een die hém dienstbaar houdt; én zal veel meer de hoon</l>
+						<l>Van slaaf te zyn geacht, als zélf het stérven vreezen.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Slaaf van Augustus is mét eere slaaf te weezen:</l>
+						<l>Wy zien de kóningen, mêvrouw, vaak op een rey</l>
+						<l>Verzoeken hulp én gonst van slaven, zo als wy.</l>
+						<l>Hy doet der kóningen grootachting voor ons zwichten.</l>
+						<l>Hy geeft ons magt, na ons begeeren, haar te richten.</l>
+						<l>Wy van hun schattingen verrykt, zien ons bevryd</l>
+						<l>Van ’t slaafsche juk het geen de grootste kóning lyd.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Onwaarde grootsheid, daar gy my van durft vermaanen</l>
+						<l>Verhévener te zyn als kóning, doet u waanen.</l>
+						<l>Nóch iets te weezen; zég, wat kóning, uit wat ryk</l>
+						<l>Des waerelds, zo verwaand, die zich in magt gelyk</l>
+						<l>Mét een Roomsch burgeracht. Antonius, in minne</l>
+						<l>Zich zelf vergeetende om een vreemde koninginne,</l>
+						<l>Trok daar door waerdig op zyn hals onze aller haat.</l>
+						<l>De kóning Attalus, die van de gansche raad</l>
+						<l>Van Roomen zich mét récht de vrygemaakte noemde,</l>
+						<l>Toen hém heel Azién alléén haar kóning roemde</l>
+						<l>Te zyn, heeft hy zyn kroon meer als die naam gëacht;</l>
+						<l>Gedénk aan de uwe dan, hou haare waerde in kracht;</l>
+						<l>En zynde in éd’le moed een waar Romein gebooren,</l>
+						<l>Weet dat de Hémel hen alléén maar heeft beschooren</l>
+						<l>’t Gebiên der vorsten, én om zonder Heer te zyn.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>De Hémel heeft ons klaar doen blyken, niet in schyn</l>
+						<l>Dat hy de ondankb’re straft, én moorders nooit bezinde,</l>
+						<l>Wat dat men ook volvoere, óf zich des onderwinde.</l>
+						<l>Als hy een troon verhéft zo wreekt hy zyne val;</l>
+						<l>En voegt zich by de geen die hy verhoogd, ja zal</l>
+						<l>Lang mét de straf, die in het einde tréft, hem dreigen;</l>
+						<l>Maar komt hy tot de slag, zo is ’t den bliksem eigen</l>
+						<l>Te straffen die de val troon veroorzaakt heeft.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Zég eer, dat gy u aan de dwingland óvergeeft,</l>
+						<l>Als dat gy stéllen zoud de bliksem om te straffen,</l>
+						<l>Die hier tierannen op der aard hun loon verschafsen.</l>
+						<l>Ik spreek u des niet meer, ga, dien deidwinglandy,</l>
+						<l>En geef u óver aan een lasse slaverny.</l>
+						<l>En op dat gy gerust moogt stéllen uw geweeten,</l>
+						<l>Kuntge uw’ geboorte, én ’t loon voor zyne dood vergeeten.</l>
+						<l>Ik zal myn zélf voldoen, én zonder uwe hand</l>
+						<l>Wél wreeken konnen, én myn vader, én myn land.</l>
+						<l>Ik had alreeds die eer door ’s dwinglands dood verkreegen;</l>
+						<l>Maar liefde kante zich met alle kracht hier tegen,</l>
+						<l>Die deed me uw’ wil alleen involgen, én tót nu</l>
+						<l>My zorgen voor myn lyf, alléén ter gonst van u.</l>
+						<l>In dien ik in het hóf had na zyn lyf gedongen,</l>
+						<l>Ik was gesneuveld, van zyn wacht rondom besprongen;</l>
+						<l>En door myn dood waart gy ook uw’ gevangen kwyt.</l>
+						<l>De liefde hield me, om u, in ’t leeven; én, ô spyt!</l>
+						<l>Ik héb vergeefs gewilt my voor uw’ min be waaren,</l>
+						<l>Op dat ge u myner waard zoud maaken door gevaaren.</l>
+						<l>Vergeef ’t my, groote Goôn! bén ik bedroogen, door</l>
+						<l>Myn waan, toen ik voor my Pompéus neef verkoor;</l>
+						<l>Zo myne geest zich liet door valsche schyn verleiden,</l>
+						<l>En van dat édel bloed geen slaaf kon onderscheiden.</l>
+						<l>Ik min u échter, wie ge ook wezen moogt: indien</l>
+						<l>Ik myne min wil voor des Keizers leeven biên,</l>
+						<l>Daar zullen duizenden my hunne hulp toe leenen,</l>
+						<l>Zo ik na zyne dood my wil mét haar vereenen.</l>
+						<l>Maar dénk niet, dat my ooit een ander zo verwérf.</l>
+						<l>Leef voor uw dwingeland, terwyl ik de uwe stérf.</l>
+						<l>Ik zal myn dagen mét de zyne haast verkorten;</l>
+						<l>Terwyl uw’ lafheid niet, door ’t bloed van hem te storten.</l>
+						<l>Durft myner waerdig zyn. Kom, zie my in zyn bloed</l>
+						<l>En ’t myne baden mét een onverschrokken moed;</l>
+						<l>My stérven van de deugd zerzéld; én stervénd zéggen</l>
+						<l>Tot u, wanneer ik my, vernoegd, zal nederleggen,</l>
+						<l>Beschuldig ’t noodlot niet, gy zyt het die myn dood</l>
+						<l>Veroorzaakt hébt, ik ga tén graave, daar myn groot</l>
+						<l>Gemoed door u toe is gedoemd, én daar na ’t leeven</l>
+						<l>Ik de eer méê draagen zal die ik u dacht te geeven.</l>
+						<l>Ik stérve, én héb myn land bevryd, myn wraak volbragt,</l>
+						<l>Maar leefde de uwe nóch had gy het goed gedacht.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>’t Is wél, gy wilt het, ’k zal het stuk niet laaten steeken;</l>
+						<l>’k Zal Romens slaverny, én uwen vader wreeken.</l>
+						<l>Ik zal Augustus ’t loon voor zyne dwinglandy</l>
+						<l>Beschikken; maar hy is min dwingeland, als gy.</l>
+						<l>Rooft hy ons na zyn wil ons goed, ons lyf, én vrouwen,</l>
+						<l>Hy heeft de ziel nóch vry van zulk een juk gehouwen.</l>
+						<l>Maar de al te wreede magt van uwe schoonheid, dwingt</l>
+						<l>Zélf ziel, én wil dat niets uw slaverny ontspringt.</l>
+						<l>Gy doet my pryzen ’t geen gewis my zal onteeren.</l>
+						<l>Gy doet my haaten mét gewéld myn ziels begeeren;</l>
+						<l>Gy doet, gy doet me een bloed verstorten, daar ik ’t myn’,</l>
+						<l>Wél duizendmaalen aan verschuldigd meen te zyn.</l>
+						<l>Gy wilt het, ik volvoer ’t, myn woord is wég gegeeven;</l>
+						<l>Maar, als het is volbragt, zal déze hand het leeven</l>
+						<l>Uws minnaars óff’ren aan des Keizers éd’le geest,</l>
+						<l>En toonen dat myn kwaad gedwongen is geweest.</l>
+						<l>Ik zal door déze daad, my van uw’ wraak befchooren,</l>
+						<l>Myne eer hérstellen, alzo haast alsze is verlooren.</l>
+						<l>Vaar wél.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>VYFDE TOONEEL.</head>
+					<stage>EMILIA, FULVIA.</stage>
+					<sp who="#fulvia">
+						<speaker> FULVIA.</speaker>
+						<l> GY hébt zyn ziel in wanhoop reeds gebragt.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Dat hy my niet beminne, of zyne pligt betracht.</l>
+					</sp>
+					<sp who="#fulvia">
+						<speaker>FULVIA.</speaker>
+						<l>Hy zal, ten kósten van zyn lyf, gehoorzaam weezen:</l>
+						<l>Gy schreit.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l> Vólg hém terstond; ach! ik begin te vreezen.</l>
+						<l>Ach! Fulvia, hébt gy médoogen met myn smart,</l>
+						<l>Wisch hém tóch dat besluit van stérven uit het hart.</l>
+						<l>Zee hém....</l>
+					</sp>
+					<sp who="#fulvia">
+						<speaker>FULVIA.</speaker>
+						<l> Dat gy ter gonst van hém de vórst laat leeven?</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Die wét was aan myn haat te lastig voorgeschreeven.</l>
+					</sp>
+					<sp who="#fulvia">
+						<speaker>FULVIA.</speaker>
+						<l>Wat dan?</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l> Dat hy de wraak volvoer aan de aardstieran,</l>
+						<l>En my, óf wél de dood daar na verkiezen kan.</l>
+					</sp>
+					<p> Einde van ’t Darde Bedryf.</p>					
+				</div>
+			</div>
+			<div type="act" n="4">
+				<head>VIERDE BEDRYF.</head>
+				<div type="scene" n="1">
+					<head>EERSTE TOONEEL.</head>
+					<stage>AUGUSTUS, EUFÓRBUS, POLIKLÉTUS.</stage>
+					<stage>Gevólg van Lyfwacht.</stage>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>’T is ongeloofelyk, Eufórbus.</l>
+					</sp>
+					<sp who="#eufórbus">
+						<speaker> EUFÓRBUS.</speaker>
+						<l> Zonder beeven,</l>
+						<l>Myn Heer, kan ik ’t verraad u niet te kennen geeven,</l>
+						<l>Wie kan begrypen zulk een aanslag, zo verwoed,</l>
+						<l>Waar van ’t gedénken zélf een ieder schrikken doet.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Hoe! Cinna? Maximus? myn allerwaerdste vrienden;</l>
+						<l>Die twé, die ’k dacht dat myn’ hoog achtinge verdienden?</l>
+						<l>Die ik myn hart ontsloot, én die ik te gelyk</l>
+						<l>Verzag mét de édelste bedieningen van ’t ryk?</l>
+						<l>Na dat ik myne magt, én ’t ryk stélde in hunn’ handen,</l>
+						<l>Besluitenze om myn bloed, myn leeven aan te randen?</l>
+						<l>Dóch Maximus, die ziet zyn kwaad, én geeft getrouw</l>
+						<l>My kundschap, én hy toont in ’t hart een waar berouw.</l>
+						<l>Maar, Cinna?</l>
+					</sp>
+					<sp who="#eufórbus">
+						<speaker> EUFÓRBUS.</speaker>
+						<l> Cinna gaat zich in zy woede styven:</l>
+						<l>Onaangezien uw’ gunst wil hy hartnékkig blyven.</l>
+						<l>Hy, hy bestryd de deugd; waar door het eedgespan,</l>
+						<l>Een wroeging voelt in ’t bloed; zo veel noch als hy kan,</l>
+						<l>En ondanks de affchrik, die ’t berouw in hén komt voeden,</l>
+						<l>Zo styft hy meer én meer hun wankele gemoeden.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Hoe! hy! hy styft hun moed! hy is ’t, die ’t ryk verdeeld?</l>
+						<l>O allersnoodste ménsch die de aarde ooit heeft geteeld!</l>
+						<l>Verraad! dat uit de helle uwe oorsprong hébt genoomen!</l>
+						<l>O! al te wreede slag! die my zoude óverkomen</l>
+						<l> Van zulk een waerde hand. Hoe! Cinna, gy verraad</l>
+						<l>Augustus! groote Góôn! Hoor Poliklétus.</l>
+					</sp>
+					<sp who="#polyklétes">
+						<speaker> PILOKLÉTUS.</speaker>
+						<l> Laat</l>
+						<l>Dit op my staan, myn Heer, ’k zal uw’ gebóôn volbréngen.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Zég dat Erastus, want myn gonst wil zulks gehéngen</l>
+						<l>Hier Maximus terstond ga haalen; op dat hy</l>
+						<l>Vergiffenis ontfang voor zyn bestaan, van my.</l>
+					</sp>
+					<sp who="#eufórbus">
+						<speaker> EUFÓRBUS.</speaker>
+						<l>Hy oordeelde al te groot het kwaad door hém bedreeven,</l>
+						<l>En kon niet hoopen dat gy ’t immer zond vergeeven:</l>
+						<l>Want zo hy van het Hóf weerkeerend, my ontmoet</l>
+						<l>Mét de oogen vliegende; Het weezén heel verwoed,</l>
+						<l>Het hart vol zuchten, én de mond niet doende als klaagen</l>
+						<l>Vervloekte hy dit eedgespan, én zyne dagen;</l>
+						<l>En hy herhaalt my hoe het alles was bestéld,</l>
+						<l>Gelyk ik u, myn Heer, zo éven heb vertéld,</l>
+						<l>Met stréng bevél om dit aan u bekend te maaken;</l>
+						<l>En voegt er by; zég hém, hoe gy my ziet geraaken</l>
+						<l>Aan myne straf; ’k bén niet onweetend van myn schuld,</l>
+						<l>Daar op stort hy zich zélf, geparst van ongeduld,</l>
+						<l>Van bóven néder in de tyber, daar, der stroomen</l>
+						<l>Gez wiudheid, én de nacht my ’t óvrig heeft benoomen</l>
+						<l>Van ’t droevig einde van zyn leeven,</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l> Zyne geest</l>
+						<l>Is door een’ wroeging al te zwaar gedrukt geweest;</l>
+						<l>En heeft zich zélf de smaak van myne gonst doen missen.</l>
+						<l>Wat misdaad, die ’t berouw by my niet uit kan wissen?</l>
+						<l>Maar wyl hy aan zich zélf heeft myne gonst ontzeid,</l>
+						<l>Zo ga, zorg voor ’t gevólg, én stel in zekerheid</l>
+						<l>De trouwe Eufórbus, wylwe op zyne opréchtheid bouwen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>TWÉDE TOONEEL.</head>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Aan wien, ô groote Góôn! zal ik voortaan vertrouwen,</l>
+						<l>’t Geheim myns harten, én de zórge voor myn bloed?</l>
+						<l>Hérneem de magt die gy my hier bezitten doet,</l>
+						<l>Zo ze onderdaanen geeft om vrinden my te ontrooven,</l>
+						<l>En de opperheerschappy; zulks van het lót daar bóven</l>
+						<l>Beschooren is, dat al haar wéldaân niet als haat</l>
+						<l>Ver wékken, én zy door uw’ straf heid tot een staat</l>
+						<l>Gedoemd is, om al hier geen vrinden te verwérven,</l>
+						<l>Als die, door u gehard haar zoeken te bedérven.</l>
+						<l>Niets is hier zéker meer voor haar; die ’t al vermag,</l>
+						<l>Moet alle vreezen in het opperste gezag.</l>
+						<l>Oktavianus keer eens in u zélfs, én ’t maaken</l>
+						<l>Van zulk een rédenloos beklag, wil dat vry staaken.</l>
+						<l>Hoe? wilt gy dat men u zou spaaren, die in ’t woên</l>
+						<l>Niets hébt gespaar? gedék, gedénk eens aan de vloên</l>
+						<l>Van bloed, waar in uwe arm zich wiesch, daar gy de vélden</l>
+						<l>Van Macedonien mê hébt gevérwd; wat Hélden</l>
+						<l>Gesneuveld zyn, én bloed door ’t zwaard gestort, toen gy</l>
+						<l>Antónius versloegt, én de opperheerschappy</l>
+						<l>Daar door verkreegt; als ook toen Séxtus wierd verslagen:</l>
+						<l>Zie eens te rug naar uw’ vyandens néderlagen:</l>
+						<l>Peruzie, mét vólk én al, in bloed versmoord:</l>
+						<l>Verbeeld eens in uw’ geest, na zo veel woede, én moord,</l>
+						<l>Wie gy in ’t driemanschap al hébt beroofd van ’t leeven;</l>
+						<l>Daar gy, beul wordende van de uwe, hébt gedreeven</l>
+						<l>De moordpriem in het hart van uw leermeester; én</l>
+						<l>Wat schéld gy nu het lót voor onrechtvaerdig? wén</l>
+						<l>Gy u we straf ziet door uw eigenv ólk bereiden,</l>
+						<l>Dat vólk dat zich alleen laat door een voorbeeld leiden,</l>
+						<l>’t Wélk gy hén hébt gestéld ’t vólk dat mét alle kracht,</l>
+						<l>De réchten schénd die gy, gy zélf niet hébt gëacht.</l>
+						<l>Ja, hun verraad is récht; de Hémel is u tégen.</l>
+						<l>Verlaat de Scépter, zo als gy die hébt verkreegen</l>
+						<l>Geef aan de ontrouwe wéêr een ongetrouwe geest;</l>
+						<l>En duld de ondankb’re na dat gy het zyt geweest.</l>
+						<l>Maar gaat mijn oordeel my dus in de nood begeeven?</l>
+						<l>Wat dulle razerny is my nóch hy gebleeven,</l>
+						<l>Die my beschuldigd, én, ô Cinna! u uw kwaad</l>
+						<l>Vergeeft? u die door snood, én goddeloos verraad,</l>
+						<l>My de opperheerschappy te houden hébt gedwongen,</l>
+						<l>Schoon daarom door uw’haat word na myn lyfgedongen,</l>
+						<l>Hy wraakt myn misdaad, én maakt my misdaadig. Góôn!</l>
+						<l>Hoe, hy verheft dan een onwéttelyke troon,</l>
+						<l>Maar om die néder tedoen storten? Hy bedékte</l>
+						<l>Zyn aanslag door een drift zo onbeschaamd, én strékte</l>
+						<l>Eeu hinderpaal van ’t heyl der staat, om my mét een</l>
+						<l>Te moorden! én ik zou dat zo vergeeten? neen.</l>
+						<l>Gy zoud dan leeven in gerustheid, na het krénken</l>
+						<l>Van myne rust? neen, neen, ’k verrâ mét dit te dénken</l>
+						<l>My zelve; een die te licht vergeeft, die maakt dat hy</l>
+						<l>Gehoond wordt; ’k wil het hoofd dier snô verradery,</l>
+						<l>En médestanders hun geréehte straf verschaffen.</l>
+						<l>Maar, hoe! gestadig bloed! gestadig nieuwe straffen!</l>
+						<l>Myn wreedheid is vermoeid, én kan niet stil staan; daar</l>
+						<l>’k My dacht te doen ontzien vergram ik ieder maar.</l>
+						<l>Dit Romen kweekt in zich een Hydra, daar door ’t kérven</l>
+						<l>Van een hoofd, duizenden wéêr, om my te bedérven,</l>
+						<l>Aan groeyen; én de dood van zo veel haaters, stélt</l>
+						<l>My min verzékerd, als voor heen voor nieuw gewéld.</l>
+						<l>Oktavinus, dénk geen Brutus aftewachten;</l>
+						<l>Stérf! maar beroof hén de eer dat zy u zouden slagten.</l>
+						<l>Stérf! dénk niet dat gy kunt ontvlieden déze nood,</l>
+						<l>Daar zo veel hélden vast bezweeren uwe dood;</l>
+						<l>Daar zich de braefste jeugd van Romen schynt te stéllen</l>
+						<l>In een gemeen belang om u ter néêr te véllen.</l>
+						<l>Stérf! want dit groote kwaad tóch geen geneezing lyd.</l>
+						<l>Stérf! wy! men stérven moet, of raaken alles kwyt.</l>
+						<l>Het weinig leeven daar gy nóch op hébt te hoopen,</l>
+						<l>Is geensins waerd om dat tót zulk een prys te koopen.</l>
+						<l>Sterf! maar op ’t heerelykst, én blusch, vol roem, en moed,</l>
+						<l>Uw’s leevens fakkel uit in des ondrankb’rens bloed.</l>
+						<l>Salgt Cinna stervende aan u zetf, voldoe des wreeden</l>
+						<l>Ontaatde moordlust; maar straft zyne trouwloosheden.</l>
+						<l>Ja, maak dat dien verraâ, schoon hy u stérven ziet,</l>
+						<l>Niet tot zyn oogmerk kom, nóch ooit zyn wit beschiet.</l>
+						<l>Maar, laat ons uit zyn straf ons voordeel liever haalen:</l>
+						<l>Haat Roome ons laat ons ook van Roomen zeegepraalen.</l>
+						<l>O Romeren! ô wraak! ô opperheerschappy!</l>
+						<l>O félle stryd! die ik zo twyfelmoedig ly,</l>
+						<l>En in al myn besluit my aanstonds maakt verleegen,</l>
+						<l>Help tóch aan rust een prins, op ’t hoogft tót rust geneegen.</l>
+						<l>Wat vólg ik best van beide, óf waar voor zal ik vliên?</l>
+						<l>Of laat my stérver, óf gelyk voorheen gebiên.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>DARDE TOONEEL.</head>
+					<stage>AUGUSTUS, LIVIA.</stage>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Mêvrouw, ik word verraân, én die my wil doen lyden,</l>
+						<l>Komt myn standvastigfteid met hartenleed bestryden.</l>
+						<l>Ach! Cinna! die verraâr....</l>
+					</sp>
+					<sp who="#livia">
+						<speaker>LIVIA.</speaker>
+						<l> Eufórbus heeft me ontdekt,</l>
+						<l>Gelyk aan u dit stuk, en myne vrees verwékt;</l>
+						<l>Maar zoud gy hooren na de raad van eene vrouwe?</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Helaas! wat raad, daar ik my toe bekwaam vertrouwe?</l>
+					</sp>
+					<sp who="#livia">
+						<speaker>LIVIA.</speaker>
+						<l>Myn Heer, uw’ strengheid heeft, dóch zonder groote vrucht,</l>
+						<l>Tot héden toe gemaakt allom een groot gerucht.</l>
+						<l>Door’s and’ren straffe laat zich niemand tóch beweegen.</l>
+						<l>Salvidiamus deed, in stilheid, opstaan tegen</l>
+						<l>Uw grootsheid Lepidus; Maréna is daar naar</l>
+						<l>Gevólgd, toen Cepio; die beide, schoon zy zwaar</l>
+						<l>Gestraft zyn; en daar door verlooren goed én leeven,</l>
+						<l>Geen afschrik hebben aan Ignatius gegeeven;</l>
+						<l>Wiens plaats dat héden wéêr door Cinna word bekleed.</l>
+						<l>En die van laager staat, én naamen zyn gereed</l>
+						<l>Om door zo groote daad hun dapperheid te toonen,</l>
+						<l>Na datge deed vergeefs hun woên mét straf beloonen.</l>
+						<l>Proef eens op Cinna wat genade, én gunst vermag.</l>
+						<l>Straf hem alleen door zyn ontroering aan de dag</l>
+						<l>Te brengen; zoek het nutste in dit geval te wérken;</l>
+						<l>Zyn straf zou licht het volk aanhitzen, én verstérken,</l>
+						<l>Daar zyn vergiffenis zal strékken tot uwe eer.</l>
+						<l>Gy zult hén, die maar door uw’ stréngheid meer én meer</l>
+						<l>Verbitterd worden, door uw’ goedheid licht verminnen.</l>
+						<l>Ik bid, beraâ u wél, in ’t geen gy zult beginnen.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Men óverwin haar dan geheel, verlaaten wy</l>
+						<l>Dit ryk, dat ons by élk maakt haatl’yk; én daar zy</l>
+						<l>Om t’zaamenspannen. ’k Héb te veel my laaten leiden</l>
+						<l>Door uwe raad; spreek des niet meêr, ’k wil my bereiden</l>
+						<l>Tot afstand van een troon, die my steeds maakt beducht.</l>
+						<l>Houd op, ô Roomen! datge om uwe vryheid zucht.</l>
+						<l>Zyt gy door my geboeidt? door my word gy ontslagen;</l>
+						<l>Ik geeve u wéêr ’t gebied dat ik u hadde ontdraagen:</l>
+						<l>Maar veel geruster, én vergroot in magt én staat</l>
+						<l>By dat ik ’t eerst verkreeg; wilt gy my haaten? haat</l>
+						<l>My ópentlyk, én laat het zonder veinzen weezen.</l>
+						<l>Wilt gy my minnen? doe zulks zonder my te vreezen.</l>
+						<l>Ik bén, als Sylla was, vermoeid van de oppermagt.</l>
+						<l>En na zyn voorbeeld is ’t, dat ik na rusten tracht.</l>
+					</sp>
+					<sp who="#livia">
+						<speaker>LIVIA.</speaker>
+						<l>Ei, wilt u zélven door dat voorbeeld niet verkorten,</l>
+						<l>Maar vrees dat op u kom het tégendeel te storten.</l>
+						<l>Dat Gadeloos geluk was geen geluk, indien</l>
+						<l>Men ’t aan een ider zag gelyk aan hém geschiên.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Is dat voor my te groot, kan ik het niet genieten;</l>
+						<l>’k Geef dan myn bloed ten prooye aan die het wil vergieten.</l>
+						<l>Na ’t on weer zoek ik eens een haave voor de nood,</l>
+						<l>En vind’er twé; de rust, óf andersins de dood.</l>
+					</sp>
+					<sp who="#livia">
+						<speaker>LIVIA.</speaker>
+						<l>Hoe! wénscht gy u der vrucht van to veel moeite ontslagen?</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Kan u nóch ’t voorwérp van zo veeler haat behaagen?</l>
+					</sp>
+					<sp who="#livia">
+						<speaker>LIVIA.</speaker>
+						<l>Myn Heer, gy dwaalt te vér, én toont in uw beleid,</l>
+						<l>Veel eer een wanhoop, als een édelmoedigheid.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Gebiên én vleijen een die wérk maakt van te hoonen,</l>
+						<l>Zou sléchts myn zwakheid, én niet myne deugden toonen.</l>
+					</sp>
+					<sp who="#livia">
+						<speaker>LIVIA.</speaker>
+						<l>Dat is u zélf gebiên, én dus zét gy in kracht,</l>
+						<l>Het oeff’nen eener deugd, in Vórsten hoog geacht.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Gy had my wél beloofd gelyk een vrouw te spreeken,</l>
+						<l>Gy houd uw woord, Mêvrouw, het is my klaar gebleeken;</l>
+						<l>Na zo veel vyanden, door my ter néêr ge véldt,</l>
+						<l>Regeerde ik twintig jaar; ’k weet wat men deugden stélt</l>
+						<l>Te zyn, de schikkingen, en van wat aart de pligten</l>
+						<l>Zyn van een Prins om zich in ty den na te richten.</l>
+						<l>Zyne onderdanen zyn gekwétst door zulk verraad,</l>
+						<l>Daar aan te dénken wordt een misdaad aan den staat.</l>
+						<l>Een hoon die aan zyn ryk gedaan word, moet hy wreeken,</l>
+						<l>Of van zyn ryks gebied voor eeuwig zyn versteken.</l>
+					</sp>
+					<sp who="#livia">
+						<speaker>LIVIA.</speaker>
+						<l>Geloof tóch minder aan uw’ driften als gy doet.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Héb minder zwakheid, óf min staat tucht in ’t gemoed.</l>
+					</sp>
+					<sp who="#livia">
+						<speaker>LIVIA.</speaker>
+						<l>Gy hoorde een raad to nut dus niet te wéderstreeven.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>De Hémel zal my raad in ’t geen ik doen moet geeven,</l>
+						<l>Vaar wél, dit ’s tyd verspilt.</l>
+					</sp>
+					<sp who="#livia">
+						<speaker>LIVIA.</speaker>
+						<l>’k Verlaat u niet, myn Heer,</l>
+						<l>Voor dat ge, om myne min, my gunt ’t geen ik begeer.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Uw’ zucht tot grootsheid doet u my zo lastig vallen.</l>
+					</sp>
+					<sp who="#livia">
+						<speaker>LIVIA.</speaker>
+						<l>’k Min uw’ persoon alleen, uw’ staaten niet mét allen.</l>
+						<l>Maar hy ontvlugtme: ik vólg, én zal hem toonen, dat</l>
+						<l>Hy door genâ te doen, verzékertstaat, én stad.</l>
+						<l>Dat zich tot zachtheid én vergeeven te gewénnen,</l>
+						<l>Is ’t schoonsle téken om een waar monarch te kénnen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>VIERDE TOONEEL.</head>
+					<stage>EMILIA, FULVIA.</stage>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Van waar komt my die vreugd’? wat is ’t dat zonder Réên</l>
+						<l>Myn geest myns ondanks, zich zoo stéllen kan te vreên?</l>
+						<l>’t Ontbiên van Cinna by de vórst doet my niets duchten,</l>
+						<l>Myne oogen weenen niet, myn hart is vry van zuchten,</l>
+						<l>Als óf ik by myn zélf verzékerd was, dat dit</l>
+						<l>Uitvallen zou geheel na ons gewénschte wit.</l>
+						<l>Héb ik al wél verstaan ’t bescheid dat gy komt geeven?</l>
+					</sp>
+					<sp who="#fulvia">
+						<speaker>FULVIA.</speaker>
+						<l>’k Bragt hém zo vér, dat hy zou zórgen voor zyn leeven;</l>
+						<l>En trok hém hérwaards aan, veel zachter, meêr bedaard,</l>
+						<l>Om nóch te zien, óf gy niet te óverwinnen waart,</l>
+						<l>’k Verheugde my, wanneer hém Polikleet kwam naaken;</l>
+						<l>Die altyd ’s Keizers wil het vólk bekendt komt maaken;</l>
+						<l>En heeft hem, zonder zyn gevolg, in stilheid in ’t</l>
+						<l>Paleis gebragt, daar zich de Vórst ontsteld bevind.</l>
+						<l>De réden weet men niet, élk is van een verscheiden</l>
+						<l>Gevoelen; dóch men hoort van alle meest verbreiden,</l>
+						<l>Dat Cézar eene zaak van groot gewigt heeft, daar</l>
+						<l>Hy zich mét Cinna op beraaden wilde; maar</l>
+						<l>Het geen my meest ontroerd, was dat in ’t hérwaards wenden,</l>
+						<l>Ik hoorde mompelen, hoe dat twé onbekénden</l>
+						<l>Zich van Evander stil verzékerd hadden, dat</l>
+						<l>Eufórbus op het Hóf is vast gehouden; wat</l>
+						<l>De réden daar van is, dat schynt men niet te weeten;</l>
+						<l>En van zyn heer word zélfs iets wonders uitgekreeten.</l>
+						<l>Men spreekt, als óf hy is van wanhoop aangetast;</l>
+						<l>’k Hoor van de Tyber, van het water, maar waar ’t vast</l>
+						<l>Of ’t recht bescheid is kanmen nóch niet zéker hooren.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Wat vreeze of wanhoop dat ook myne rust komt stooren.</l>
+						<l>Myn moedig hart acht zulks niet waerd, dat het zyn staat</l>
+						<l>Daarom beklaagen zou; ô neen, maar ’s Hémels raad</l>
+						<l>Daar in gestort, smeed steeds een wonderlyk gevoelen</l>
+						<l>Gansch strydig mét het geen, daar ’t op behoort te doelen.</l>
+						<l>Een yd’le schrik ontroerd my somtyts; dóch myn hart</l>
+						<l>Wanneer ha sidd’ren moest gevoelt wéêr geene smart.</l>
+						<l>’k Versta u, groote Goôn, uw’ goedheên, die wy eeren,</l>
+						<l>En willen niet dat wy onze eer in ’t minste deeren;</l>
+						<l>En van my weerende, geklag, geween, gezucht,</l>
+						<l>Verstérkken zy myn hart, in spyt der ongenucht.</l>
+						<l>Gy wild dan dat ik mét die moed myn dood zal vinden,</l>
+						<l>Die my zo heerlyk een daed doet onderwinden;</l>
+						<l>En ik wil sterven zo gy ’t schikken zult, ja stout</l>
+						<l>Vergaan in de aanslag dar gy my in staande houd.</l>
+						<l>O ziel myns vaders! én ô vryheid van dit Roomen?</l>
+						<l>Ik héb van myne zy het alles ondernoomen.</l>
+						<l>’k Héb tégens uw tieran zyn vrinden op doen staan;</l>
+						<l>En meer voor u, als ik eershalven mogt, gedaan.</l>
+						<l>Is my myn wit gemist, myn eer is des niet minder;</l>
+						<l>En strékt dit voorval my in myne wraak tot hinder,</l>
+						<l>Zo zal ik my by u vervoegen; maar van moed</l>
+						<l>En gramschap rookende; ’k zal heerlyk door myn bloed</l>
+						<l>My maken uwer waard; op datge in zulke looten,</l>
+						<l>Erként der Hélden aart, waar uyt wy zyn gesprooten.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>VYFDE TOONEEL.</head>
+					<stage>MAXINUS, EMILIA, FULVIA.</stage>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Maar, Maximus, hoe! zie ik u? zyt gy niet dood?</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Eufórbus heeft de Vórst bedroogen, dóch door nood;</l>
+						<l>Zich vast ziende, en ’t verraad ontdékt, heeft hy myn stérven</l>
+						<l>Verdicht, op dat men my niet méde zou bederven</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Wat word van Cinna al gezegt?</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l> Zyn meeste leed</l>
+						<l>Is dat de Keizer uw’ geheimenissen weet;</l>
+						<l>Hy loogchend het, en wil, vergeefs, hém anders toonen.</l>
+						<l>Evander heeft dit om zyn meester te verschoonen</l>
+						<l>Ootdékt; en door de last des Keizers komt men om</l>
+						<l>U te verzek’ren.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l> Wél. waar wacht men na? Hy kom:</l>
+						<l>Ik vólg hem, én ’t verdriet my laager hier te beiden.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Hy wacht u in myn huys, om u met hém te leiden.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Hy wacht my in uw huis?</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l> Dit overvalt u; maar</l>
+						<l>Lét met wat zórg de Góôn u redden uit ’t gevaar.</l>
+						<l>’t Is een van ’t eedgespan die mét ons wil gaan vlugten.</l>
+						<l>Men neem de tyd in acht eer dat ons staat te duchten</l>
+						<l>Voor hun vervolging. Kom, het Schip waar mê dat wy</l>
+						<l>Vertrékken zullen, légt al zeil rê.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l> Ként ge my?</l>
+						<l>En weet gy wie ik bén?</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l> Ik stél al myn vermoogen</l>
+						<l>Ter gonst van Cinna in het wérk; en door dit poogen</l>
+						<l>Zoek ik te trekken uit deez’ ramp, én droeffenis,</l>
+						<l>De waerdste hélft die ons nóch van hém óv’rig is</l>
+						<l>Prinsés, ei bergen we ons, én vlieden wy uit Romen</l>
+						<l>Om moediger daar na den vyand op te komen</l>
+						<l>En hém te wreeken.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l> Neen, ô neen, ’t is Cinna die</l>
+						<l>Men in zyn ongeluk moet vólgen, én men zie</l>
+						<l>Nóch denk op geene wraak om hém niet te óverleeven;</l>
+						<l>Wie dat na zyn verlies zich zélven voelt gedreeven</l>
+						<l>Om ’t lyf te bergen, is hét leeven niet meêr waard.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Wat blinde wanhoóp maakt, Prinsés, u zo ontaard?</l>
+						<l>O Góôn! is zulk een ziel zo haast ter néêr geslagen!</l>
+						<l>Dat edelmoedig hart kan niet wéêrstaan de vlaagen</l>
+						<l>En eerste stórmen van ’t geval, maar word verheerd.</l>
+						<l>Hérroep, hérroep de deugd voorheen in u geëerd.</l>
+						<l>Kom, ópen uw gezigt, wilt Maximus aanschouwen,</l>
+						<l>En, kennende, hém voor een and’re Cinna houwen.</l>
+						<l>De Góden geeven u in hém die minnaar wéêr.</l>
+						<l>Die gy verliest; en wyl de vrindschap ons wel eêr</l>
+						<l>Maar eene ziel had toegeschikt, zo stél uw’ zinnen</l>
+						<l>Om ’t voorwerp van uw’ vlam in zulk een vrind te minnen.</l>
+						<l>Hy zal mét al zo sterk een min verdienen ’t loon...</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Gy durft my minnen, en niet stérven? groote Góôn!</l>
+						<l>Uw oogmerk vliegt te hoog, maar watge ook moogt begeeren,</l>
+						<l>Maak dat men waerdig u daar mede moog vereeren</l>
+						<l>Hou op, van laf te ontvliên zo heerelyk een dood;</l>
+						<l>Of van my aan te biên een hart, zo zwak in nood.</l>
+						<l>Maak dat ik uwe deugd, en grootscheên moog benyden;</l>
+						<l>En, u niet konnende beminnen, médelyden</l>
+						<l>Mét u moog hébben. toon de dappere yver van</l>
+						<l>Een waar Romein; én maak, indien myn hart niet kan</l>
+						<l>Gelyk ’t behoort, dat gy moogt waardig zyn myn traanen.</l>
+						<l>Hoe! komt de vrindschap, diegy Cinna draagt, u maanen</l>
+						<l>Om moedig in zyn plaats tetreden? én waant gy</l>
+						<l>Dar zulks bestaat in zyn meest’res mét vleyery</l>
+						<l>Tc onthaalen? leer van my wat pligt gy moet betrachten;</l>
+						<l>En geeftme een voorbeeld, óf wil zulks van my ver wachten.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>De droefheyd die gy voelt verzwaart vast méê en méêr</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>En de uwe, ’t uwergonst, bedriegt u al te zeer.</l>
+						<l>Gy spreekt van moediger ’t wérk namaals te beginnen.</l>
+						<l>En in uw’ grootste ramp begintge, ô spyt! te minnen.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Myn liefde in haar geboorte is wonderlyk van zin:</l>
+						<l>Het is uw’ minnaar, En myn vrind, die ’k in u min;</l>
+						<l>En van die zélve vlam, waar van hy overwonnen....</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Gy zégt my al te veel, dat ik nóch niet zou konnen</l>
+						<l>Begrypen uw gepeins; myn ongeval heeft my</l>
+						<l>Wél overvallen, maar nóch niet ontroerd! weet vry</l>
+						<l>Dat myne wanhoop my geensins én zal verblinden.</l>
+						<l>Myn’ deugd zal nimmer iets, dat haar verzétte vinden.</l>
+						<l>En ’k zie, myns ondanks, méêr als ik wél wensch te zien.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Hoe? bén ik u verdacht van ontrouw, door dit vliên</l>
+						<l>U voor te stéllen?</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l> Ja. gy zyt het, wyl uw térgen</l>
+						<l>My deez bekéntenis in ’t einde komt te vérgen.</l>
+						<l>’t Bestéllen onzer vlugt is al te wél beleid</l>
+						<l>Om niet beducht te zyn voor uwe trouwloosheid.</l>
+						<l>De Hémel was wel mild in wond’ren, zo ze ons’t vlieden</l>
+						<l>Had, zonderuw beleid, zo veilig komen bieden.</l>
+						<l>Vli zonder my, uw’ min doet u hier geene vrucht.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Gy zégt my al te veel.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l> ’k Bén voor nóch meer beducht.</l>
+						<l>Vrees échter niet dat ge in my zult uw’ hoonster vinden;</l>
+						<l>Maar hoop ook niet my door uw’valscheid te verblinden:</l>
+						<l>En strékt ha u een hoon dat ik u niet vertrouw,</l>
+						<l>Kom, stérf met my, op dat ik u ontschuldig houw.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Leer, schoone Emilia, én dat uw slaaf verwonnen....</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>’k Zal u gehoor, maar in des Keizers by zyn, gonnen,</l>
+						<l>Kom, gaan wy, Fulvia.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>ZÉSDE TOONEEL.</head>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l> Wanhoopende, verzét,</l>
+						<l>En waerd, zo ik ’t ooit was, dier weig’ridg, én belet,</l>
+						<l>Wat zult gy Maximus? en wélke zyn de straffen,</l>
+						<l>Die uwe deugd zal aan uw snood bedróg verschaffen.</l>
+						<l>Geen yd’le hoop moet u meer streelen. Zy gaat heen</l>
+						<l>Om, stérvende, de vórst de gantsche zaak te ontléên:</l>
+						<l>En haare dood zal op het wreektooneel, voor de oogen</l>
+						<l>Van ieder, haare roem, én uwe schand vertoogen;</l>
+						<l>Ja den nakomeling nalaaten, bitt’re spyt!</l>
+						<l>’t Eerloos geheugen van uwe ontrouw, voor altyd,</l>
+						<l>In ééne dag, hebt gy, van valscheid óverlaaden,</l>
+						<l>Uw Keizer, uwen vrind, en uw’ meestres verraaden:</l>
+						<l>Daar gy van zo veel rechts, geschouden op één dag,</l>
+						<l>En twee verliefdens bloed den dwingland met een’ slag</l>
+						<l>Gëófferd, niets én wint als razerny, én schanden</l>
+						<l>Die eene wroeging in uw grootsch gemoed doen brauden.</l>
+						<l>Eufórbus, dit ’s de vrucht van uwe raad; maar kan</l>
+						<l>Men meer verwachten van zo laag gebooren man?</l>
+						<l>Een vry gemaakte zal steeds slaaf in ’t harte weezen.</l>
+						<l>Verwisselt hy van staat, zyn ziel blyft als voordeezen;</l>
+						<l>En de uw’, nóch dienstbaar, zelfs in zyne vryheid, heeft</l>
+						<l>Niets dat ons tékens van eene édele inborst geeft.</l>
+						<l>Een ongerechte magt hebt gy me in ’t wérk doen stellen:</l>
+						<l>Gy hebt my de eere van myn stam doen nédervellen</l>
+						<l>Myn hart weerstond u, maar gy hebt zo lang gestrêen</l>
+						<l>Tot uwe schélmery myn deugden had vertrêen.</l>
+						<l>Dit kóst my ’t leeven, dit komt my myne eer ontrooven;</l>
+						<l>Eu nóch verdiende ik meer, toen ik u ging gelooven.</l>
+						<l>Maar ’t Gódendom zal my wéêr toestaan, dat, tót loon,</l>
+						<l>Ik u opóffer aan die minnaars, élk ten toon.</l>
+						<l>En ik verzéker my, in spyt van ’t kwaad bedreeven,</l>
+						<l>Dat ik haer zuiver zal myn bloed ten óffer geeven;</l>
+						<l>Indien in ’t uw’, mvn arm, met récht zo fel gestoord,</l>
+						<l>My zuivert van het kwaad, dat ik u héb gehoord.</l>
+					</sp>
+					<p>Einde van het Vierde Bedryf.</p>
+				</div>
+			</div>
+			<div type="act" n="5">
+				<head>VYFDE BEDRYF.</head>
+				<div type="scene" n="1">
+					<head>EERSTE TOONEEL.</head>
+					<stage>AUGUSTUS, CINNA.</stage>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Neem hier uw’ plaats, én wil voor alle ding betrachten,</l>
+						<l>De wét die ik u geef te houden in geslachten.</l>
+						<l>Verstoor my niet, maar leen in stilte uwe ooren aan</l>
+						<l>Het geene dat gy znlt uit myne mond verstaan.</l>
+						<l>Bedwing uw’ tong; en zo dit zwygen in’t ontstéllen</l>
+						<l>U hart mogt vallen, wilt u daarom geensins kwéllen.</l>
+						<l>Gy kunt daar na my wéêr, vernoeg myn hier sléchts in,</l>
+						<l>Op alles, wat hy wilt antwoorden na uw’ zin,</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>’k Zal u gehoorzaam zyn, myn Heer.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l> Gy moogt vertrouwen</l>
+						<l>Zo gy me uw woord houd, dat ik ’t myne u ook zal houwen</l>
+						<l>Gy, Cinna, leeft; maar die u ’t leeven gaven, zyn</l>
+						<l>De vyanden geweest myns vaders, én de my:</l>
+						<l>Gy zyt gebooren zélf in hunne légerwallen;</l>
+						<l>En toen gy na hun dood waard in myn magt gevallen</l>
+						<l>Heeft haare vyandschap, van jongs u in geplant,</l>
+						<l>U tégens my gestéld de wapenen terhand.</l>
+						<l>Gy waard myn vyand al eer gy nóch waard gebooren;</l>
+						<l>Gy kénde my noch pas, óf hébt me uw’ haar gezwooren;</l>
+						<l>En de genégenheyd heeft nooit in u verzaakt</l>
+						<l>Het bloed waar door gy tót myn zyand zyt gemaakt.</l>
+						<l>Zo veel gy kost hébt gy my blyk daar van gegeeven;</l>
+						<l>Maar ’k zócht myn wraak nooit, als in u te laaten leeven.</l>
+						<l>’k Maakte u gevangen; maar was niet, als ieder weet,</l>
+						<l>Myn Hof uw’ kérker, én myn goedheid al uw leed</l>
+						<l>’k hérstélde u in het goed uws vaders; ’k heb, geneegen,</l>
+						<l>U, uyt de roof op Vorst Antonius verkreegen,</l>
+						<l>Verrykt; én was daar na, in wat gelégenheid</l>
+						<l>Het weezen mogt voor u tót weldoen steeds bereid.</l>
+						<l>Wat waardighéden daar gy wénschte méê te pronken,</l>
+						<l>Ik hébze u, zonder moeite, én zorge, straks geschonken</l>
+						<l>’k Heb u gestéld, voor hen wiens vrienden dat voorheen</l>
+						<l>Ik in myn léger zag de grooste staat bekleên.</l>
+						<l>Die my ten kósten van hun bloed dit ryk verwurven,</l>
+						<l>En in ’t beschérmen van myn leeven zyn gesturven.</l>
+						<l>’k Héb eind’lyk zo mét u geleefd, tot deeze tyd,</l>
+						<l>Dat de overwinnaar heeft ’s verwonnens heil benyd.</l>
+						<l>Wanneer de Hémel my ook in myne ongelukken</l>
+						<l>Beprooven wilde, én my Mesénas kwam te ontrukken,</l>
+						<l>Stelde ik u in zyn’ plaats, ’k héb my van u gediend,</l>
+						<l>En maakt u na zyn dood myn trouwste, en waardste vriend;</l>
+						<l>Wanneer nóch déze dag myn ziel zich vond in lyden,</l>
+						<l>En trachte om my, kou ’t zyn, van ’t heerschen te bevryden,</l>
+						<l>Héb ik mét Maximus, én u my des beraân;</l>
+						<l>En uwe raad gevólgd, de zyne laaten staan.</l>
+						<l>’k Héb u Emilia gegeeven, die met réden</l>
+						<l>Is waard aalléén van gantsch Itaalien aangebéden</l>
+						<l>Te worden; ik heb haar voorzien mét zo veel schat,</l>
+						<l>Dat ik, u kroonende, u veel min gegeeven had.</l>
+						<l>Gy weet het, Cinna, zo veel heil, én eer, genooten,</l>
+						<l>Kon nimmer zyn uit uw’ geheugenis verstooten,</l>
+						<l>Maar ’t geen ik niet begryp, is dat gy, wélk een hoon!</l>
+						<l>Dit alles weet, én my, ô Cinna! noch wilt doôn.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Hoe! ik, myn Heer? zou dan myn ziel zich zélf vermeeten</l>
+						<l>Dit schélmstuk uit.....</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l> Hébt ge uw’ beloften reeds vergeeten?</l>
+						<l>Zit neêr, heb ’t noch niet al gezégt; gy moogt daar naar</l>
+						<l>U zélve ontschuldigen, indien gy ’t doen kont; maar</l>
+						<l>Hoor nu nóch eerst, én maakme uw woord niet wéêr te breeken.</l>
+						<l>Gy wiltme morgen op het Kapitool doorsteeken,</l>
+						<l>In ’t oft’ren; uwe haed, tót réken van de moor,</l>
+						<l>Moet my daar voor ’t altaar de slag toebréngen; voort</l>
+						<l>Zal de eene hélft uws vólks de poorten gaan bezetten;</l>
+						<l>Mét de and’re hélft zult gy de ruitery belétten.</l>
+						<l>Zeg, bén ik wel bericht, of is ’t een valsch vermôens?</l>
+						<l>Moet ik de moorders die dit mét u zullen doen</l>
+						<l>U noemen? Prokulus, Pomponius, benéven</l>
+						<l>Marsel, én Lénas, van een zélfde drift gedreeven</l>
+						<l>Met Plautus, Glabrion, Virginianis, en</l>
+						<l>Albinus, Autilus, én Icilus; ik kén</l>
+						<l>Hén alle; Maximus, die ik het meest vertrouwde</l>
+						<l>Naast u, en op wien ik myn staat ten deele bouwde;</l>
+						<l>De rést is my niet waerd de eer dat ik hunne naam</l>
+						<l>Zou noemen; vólk, bekénd door hunne kwaade faam,</l>
+						<l>Van zwaare schulden, én misdaaden óverwonnen,</l>
+						<l>Die ’t stréng gerecht ontzien, en niet zien dat te konnen,</l>
+						<l>’t En zy het Keizerryk word omgekeerd ontgaan;</l>
+						<l>Ja, die niet kunnen, zodat niet haast vólgt, bestaan.</l>
+						<l>Nu ziet ge, en zwygt; meer door ontroerenis bedwongen</l>
+						<l>Als door gehoorzaamheid. Als ik door u besprongen,</l>
+						<l>En in de témpel naar uw’ zin was omgebragt,</l>
+						<l>Wat waart gy dan? wélk is het wit daar gy na tracht?</l>
+						<l>Is tót bevryding van uw land uw staal gesleepen?</l>
+						<l>Na ik noch héden uw’ staat kunde héb begreepen,</l>
+						<l>Zo hangt haar welvaard aan ’t eenhoofdige gezag.</l>
+						<l>Aan een die alles, wat hém nodig dunkt, vermag.</l>
+						<l>Was ’t haare vryheid die u hier toe had bewoogen?</l>
+						<l>Gy had, toen ik haar die wou geeven, dat niet poogen</l>
+						<l>Te weeren; maar die aan geuomen voor de staat,</l>
+						<l>En daar niet na getracht door góddeloos verraad.</l>
+						<l>Wat is uw oogmérk? wiltge in myne plaats regeeren?</l>
+						<l>Ik zie het heil der staat in droeve ramp verkeeren,</l>
+						<l>Indien ge in Romen geen belétzel vind als my</l>
+						<l>Om daar te krygen in uw’ hand de heerichappy;</l>
+						<l>Indien haar noodlót, maar zo vérre is te beklaagen</l>
+						<l>Dat gy alleen na my zyt waerd de staf te draagen,</l>
+						<l>En niemand béter, na myn dood, het Roomsch gebied</l>
+						<l>Bestieren zoude, als gy; zie toe, bedrieg u niet.</l>
+						<l>Leer u récht kennen; wil eens in u zélven keeren</l>
+						<l>In Romen zier gy u beminnen, vieren, eeren:</l>
+						<l>Elk heeft ontzag voor u en óffert u in stilt’</l>
+						<l>Zyn gunst. Uw’ magt is groot, gy kunt al wat gy wilt.</l>
+						<l>Maar gy zoud zelf in die u haaten, médelyden</l>
+						<l>Verwékken, liet ik eens uw’ waerde voor u stryden.</l>
+						<l>Ontkén dit eens, én zie eens wat gy waerd zyt, noem</l>
+						<l>My uwe deugden eens, uw’ werken, uwe roem.</l>
+						<l>Wat dat in u my moet behaagen? wélke daaden</l>
+						<l>U, bóven het gemeen, voorzien men lauwer bladen?</l>
+						<l>Myn gunst is al uw’roem, ze is oorzaak uwer magt;</l>
+						<l>Zy onderschraagt de staat daar in ze u heeft gebragt.</l>
+						<l>Zy word, niet uw perzoon, van ieder aangebéden.</l>
+						<l>Uw’ staat, en grootemagt lag, zonder haar, vertreeden;</l>
+						<l>En ik behoefde om u wéêr in een lager stand</l>
+						<l>Te stéllen, u alleen te onttrékken myne hand;</l>
+						<l>Maar ’k wil my liever aan u we afgunst óvergeeven,</l>
+						<l>Gebie, indien gy kun, ten kóste van myn leeven.</l>
+						<l>Maar durft gy waanen dat Servilius geslacht,</l>
+						<l>De Fabien, én zo veel stammen, hoog geacht,</l>
+						<l>Die door hun groote daân ons dagelyks verklaaren</l>
+						<l>De Hélden van hun bloed zo heerlyk te évenaaren;</l>
+						<l>Dat hunne fierheid zou gedoogen u te zien?</l>
+						<l>En dat ge op Romens troon zoud óver haar gebiên!</l>
+						<l>Spreek, spreek, nu is het tyd.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l> ’K beken verzét te weezen:</l>
+						<l>Niet dat uw’ grarnschap, óf myn dood my kan doen vreezen?</l>
+						<l>Gy ziet my peinzen, want ik zie ik bén vetrâan.</l>
+						<l>Ik zoek, maar vind hém niet die my dir heeft gedaan,</l>
+						<l>Dóch myne ziel houd zich te lang voor u beslooten.</l>
+						<l>’k Ben een Romein, én uit Pompëus bloed gesprooten;</l>
+						<l>De Vader, én twe Zoons, zo trouweloos vermoord,</l>
+						<l>Zyn niet door Cézars dood gewrooken, als ’t behoord.</l>
+						<l>Zie daar, dat ’s de corzaak van zo stout een onderwinden;</l>
+						<l>En wyl myn daad zyn straf moet in uw’wreedheid vinden,</l>
+						<l>Verwacht vaa my geen laf berouw van deeze daad,</l>
+						<l>Geen schandig zuchten, óf weklagen om myn staat.</l>
+						<l>’t Lót is u gunstiger als my, het valt my tégen;</l>
+						<l>’k Weet wat ik héb gedaan, én u staat te overweegen:</l>
+						<l>De volgende eeuwen meet gy leeren door myn straf,</l>
+						<l>En myne dood is nut tot rust van uwe staf.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Hoe, Cinna! durft gy my noch voor myn oog trótzeeren;</l>
+						<l>En kroontge uw’ misdaad, vér van dan ge u zoud verweeren?</l>
+						<l>Zienwe óf gy blyven zult standvastig tót het end.</l>
+						<l>Gy weet uw’ schuld aan my, én wat my is bekénd:</l>
+						<l>Des, wat de straf belangt, ga mét u zélfs te raade.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>TWÉDE TOONEEL.</head>
+					<stage>AUGUSTUS, EMILIA, LIVIA,</stage>
+					<stage>CINNA, FULIVIA.</stage>
+					<sp who="#livia">
+						<speaker>LIVIA.</speaker>
+						<l>MYn Heer, gy kentze nóch niet alle die aan ’t kwaade</l>
+						<l>Deelachtig zyn. Zie hier ook uwe Emilia.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Zy is het zélve, ô Góôn!</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l> Gy ook, myn Dóchter?</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l> Ja,</l>
+						<l>Al wat hy heeft gedaan, was om my te behaagen.</l>
+						<l>Ik bén er de oorzaak van, én ’t loon voor dat belaagen.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Hoe, heeft de liefde dan, die ik eerst héden in</l>
+						<l>Uw’ hart gekweekt héb, reeds zo vér verhard uw’ zin,</l>
+						<l>Dat gy zoud willen door uw’ dood hem ’t leeven bérgen?</l>
+						<l>Dat is van uwe ziel te haast die driften vérgen.</l>
+						<l>Dat is te haast bemind een minnaar die ’k u gaf.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Die liefde, die my hier ten doel stélt aan uw’ straf,</l>
+						<l>En is geen schielyk wérk, myn Heer, noch uw’ geb óden,</l>
+						<l>En waren om die vlam te stichten niet van nooden,</l>
+						<l>Zy heeft voor langer als vier jaaren al geblaakt;</l>
+						<l>Maar hoe ik hém beminde, én hy zich vond geraakt</l>
+						<l>Van liefde, een stérke haat stélde aan ons beide wétten,</l>
+						<l>En kwam voor altyd hém zyn hoop op my belétten.</l>
+						<l>Zo eerst myns vaders wraak niet was volvoerd, ik deed</l>
+						<l>Hém dit bezweeren; hyzóchtvrienden, die gereed,</l>
+						<l>Déze aanslag waagden; maar de Hémel heeft verbrooken</l>
+						<l>De uitvoering, én de hoop van my te zien gewrooken.</l>
+						<l>Nu kom ik u, myn Heer, aanbién eene ófferhand</l>
+						<l>Niet om door myne dood hém ’t lyf te bérgen; want</l>
+						<l>Zyn dood is na ’t bestaan van déze daad réchtvaerdig.</l>
+						<l>Ontschuldiging in zulk een misdaad is niet waerdig</l>
+						<l>Gehoord te zyn; én ’t geen my hier bréngt, is alleen</l>
+						<l>Op dat ik stérvende, in zyn by zyn, na benéên</l>
+						<l>Moog daalen, én aldaar myn vadet tégentreeden</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Tót hoe lang zult gy nóch, ô Góôn! én om wat réden</l>
+						<l>My komen in myn huis bestórmen? Julia</l>
+						<l>Verjoeg ik van my om haare ontucht; ’k héb daar na,</l>
+						<l>Uit liefde, Emilia in haare plaats verhéven;</l>
+						<l>Maar ik vind haar als de eerste onwaard daar in te leeven.</l>
+						<l>De een roofde my myne eer, én de and’re tracht myn bloed.</l>
+						<l>Te storten, éven zeer beide in hun drift verwoed,</l>
+						<l>Daar de eene onkuisch was, wil my de andere vermoorden.</l>
+						<l>Myn’ gunsten, dóchrer die ’k u héb gedaan, behoorden</l>
+						<l>Die niet een béter loon, als dit, van u te ontfaân?</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Myn vader had aan u nóch ruim zo veel gedaan.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Dénk, met wat liefde ik u gezócht héb op te kweeken.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>In uwe opvoeding heeft hy u nooit minder téken</l>
+						<l>Van zyn genegenheid betoont; hy, in die tyd,</l>
+						<l>Was uw leermeester, daar gy beul geworden zyt</l>
+						<l>Van hém; dus hébt gy my de wég tot woên geweezen,</l>
+						<l>Dóch met dit onderscheid, uw’ staatzucht op gereezen</l>
+						<l>Heef mynen vader zich geófferd, daar ik word</l>
+						<l>Door een’ geréchet toorn in myn gemoed gepord</l>
+						<l>Om aan zyn zuiver bloed u wéderom te slagten.</l>
+					</sp>
+					<sp who="#livia">
+						<speaker>LIVIA.</speaker>
+						<l>Houd op, Emilia, Hérroep in uw’ geslachten,</l>
+						<l>Dat hy de wéldaân van uw’ vader al te wél</l>
+						<l>U heef betaald; Zyn’ dood, die door ’t geheugen fél</l>
+						<l>Uw’ toorne ontsteekt moet ge aan Oktavianus wyten,</l>
+						<l>Maar niet den Keîzer; wil daarom u béter kwyten.</l>
+						<l>De Hémel zuyvert ons, als ze ons de Scépter geeft</l>
+						<l>Van alles, wat men, om daar aan te raaken, heeft</l>
+						<l>In ’t wérk gestéld; want als zyn gonst ons komt te zétten</l>
+						<l>In die geduchte staat mag niemand ons belétten.</l>
+						<l>’t Voorgaande word verklaard voor wéttig, én het geen</l>
+						<l>Toekomende is slaat vry: wie immer kan bekleên</l>
+						<l>Die groote heerschappy hoeft voor geen schuld te vreezen.</l>
+						<l>Hy zal onschéudbaar in al zyne daaden weezen.</l>
+						<l>Wat hy ook heeft gedaan, óf doet, wy zyn hem goed</l>
+						<l>En bloed verschuldigd; én nooit hébt gy, hoe verwoed</l>
+						<l>Hy zyn moog, eenig récht op ’s keizers goed of schatten.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>In myne réde, die gy hoorde, én kunt bevatten,</l>
+						<l>Sprak ik sléchs om hém te verbitt’ren, niet om my</l>
+						<l>Voor hém te ontschuldigen van myn verradery.</l>
+						<l>Straf dan de schuldigen, én wil hun moed bedwingen,</l>
+						<l>Die maaken, tót uw spyt, van uwe gunstelingen</l>
+						<l>Doorluchte on dankb’re; sny vry myne dagen af,</l>
+						<l>Op dat gy de uwe tóch te zékerer in ’t graf</l>
+						<l>Moog dragen! want wist ik uw Cinna u te onttrékken,</l>
+						<l>Ik zou wel anderen tót myne wraak verwékken;</l>
+						<l>En ik bén meer te ontzien, gy min verzékerd, moet</l>
+						<l>Ik ook de liefde wraak verzórgen névens ’t bloed.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Hoe! gy onttrokt, my hem? hoe, zal ik dan gedoogen</l>
+						<l>Door myn Prinsses onteerd te zyn voor ieders oogen.</l>
+						<l>Myn Heer, de waarheid moet zich anders drukken uit;</l>
+						<l>Ik had, eer dat ik haat beminde dat besluit:</l>
+						<l>Dóch niet ziende in haar gonst door myne min te raaken,</l>
+						<l>Geloofde ik and’re dienst zou haar gevoelig maaken:</l>
+						<l>’K sprak van haar vader, én van uwe wreedheyd; ’k bood</l>
+						<l>Myn arm haar aan, én kort daar aan myn hart: hoe groot</l>
+						<l>Is ook de wraakzucht in een vrouw! ’k vond haar geneegen.</l>
+						<l>Dus beb ik haare ziel bestórmd, én in gekreegen:</l>
+						<l>Zy heeft myn weinige waardy veracht, maar kon</l>
+						<l>Nóch de arm niet haaten, die haar ’s vaders wraak begon.</l>
+						<l>Ze is maar door myne list in dit verbond getreeden.</l>
+						<l>Ik bén het hoofd van ’t kwaad, zy een der mind’re léden.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Wat zegt gy, Cinna dit my beminnen, daar</l>
+						<l>Gy my myne eer ontroofd in ’t uytterste gevaar?</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Stérf; maar wil stérvende de myne niet verdooven.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Myne eer verwélkt indien u Cézar wil gelooven.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>De myn’ vergaat indien gy tot u trékt, al wat</l>
+						<l>Ik na zo braaf een daad voor my te hoopen had.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Wél, deel’er in, maar wil my in myne eer niet hind’ren;</l>
+						<l>Zy zou vermind’ren, zo men de uwe deed vermind’ren:</l>
+						<l>De Roem, én het vermaak, de schande, schaamte, én pyn.</l>
+						<l>Ja alles moet gemeen by waare minnaars zyn.</l>
+						<l>Ons beider zielen zyn, myn Heer, twé Roomsche zielen.</l>
+						<l>Wy hébben onze haat vereenigd, toen wy vielen</l>
+						<l>Beide op een oogmérk; ’t wreed hérdénken van ’t verslaan</l>
+						<l>Van beyder oud’ren wees ons beide téffens aan</l>
+						<l>Wat onze pligt nóch was, én onze geesten, eerlyk,</l>
+						<l>En édel, maakten een voorneemen, dat zo heerlyk</l>
+						<l>By ònze harten wierd gekeurd, die in één zin</l>
+						<l>Zich vonden, zoekende, vereenigd door de min</l>
+						<l>De eer van een braave dood, die we ons nu zien bereiden:</l>
+						<l>Vereenigde gy ons, wilt ons in ’t laatst’ niet scheiden.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>’k Zal u vereenigen, ondankb’re, ontrouwe, en meer</l>
+						<l>Myn vyanden als vórst Antonius wél eer,</l>
+						<l>Of Lépidus: ’k zal u vereenigen, de liefde</l>
+						<l>En minnebrand voldoen, die beider zielen griefde.</l>
+						<l>Dat al de waereld vry, bekénd zynde uwe daad,</l>
+						<l>Zich van de straf zo wél verwondere, als van ’t kwaad.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>DARDE TOONEEL.</head>
+					<stage>AUGUSTUS, LIVIA, CINNA, MAXIMUS,</stage>
+					<stage>EMILIA, FULVIA.</stage>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>MAar wélk een nieuwe gonst der Góôn, datze u der stroomen</l>
+						<l>Verwoedheid hébben doen tót myn geluk ontkomen.</l>
+						<l>O Maximus! die ik alleen getrouw bevind,</l>
+						<l>Kom, nader eenen Vorst die u zo zeer bemind.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Wilt zo trouwlóos een ziel, myn Heer, tóch minder eeren,</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Laat ons, na uw berouw, ’t geheugen van ons weeren</l>
+						<l>Der misdaad; spreeken wy daar niet meer van, nu gy</l>
+						<l>Alleen my hébt bevryd voor hun verraadery.</l>
+						<l>Ik bén aan u verpligt myn leeven, én myn staàten.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Neen: kén de snoodste vry van alle die u haaten.</l>
+						<l>Indien gy hier gebied, én leeft, myn minnenyd</l>
+						<l>Die is ’t alleen, myn Heer, daar gy ’t aan schuldig zvt.</l>
+						<l>Geen éd’le wroeging heeft myn ziel geraakt: maer ’t hoopen</l>
+						<l>Van myn méêminnaar te verdélgen deed me ontknoopen</l>
+						<l>De strik van ons verraad. Eufórbus veinsde u dat</l>
+						<l>Ik was verdronken, op dat gy geen réden had</l>
+						<l>My te vervólgen; ’k wilde Emilia misleiden,</l>
+						<l>En door vreesachtigheid haar grootsch gemoed bereiden,</l>
+						<l>Om haar te trekken uit Itaalien. én ik dacht</l>
+						<l>Dat zy wél lichtelyk tót dat besluit gebragt</l>
+						<l>Zou worden, onder schyn van namaals wéêr te keeren,</l>
+						<l>En ’s minnaars dood op ’t félst te wreeken; maar wy leeren</l>
+						<l>Dat niet de zaaken na ons ooamerk vallen; want</l>
+						<l>In plaats van hier door haar te winnen op myn hand,</l>
+						<l>Is haar bestreede deugd in dubb’le kracht ontsteeken:</l>
+						<l>Zy zag tot binnen in myn hart myn snoode streeken.</l>
+						<l>Het óv’ rig weetge; én u noch meer te zéggen, is</l>
+						<l>Maar overvloedig; des zietge in myn droeffenis</l>
+						<l>Het kwaad gevólg van myn bedróg, én valsche stukken.</l>
+						<l>Dóeh, zo my eenige genade mogt gelukken</l>
+						<l>Te ontfangen; doe, myn Heer, in’t midden van de pyn</l>
+						<l>Eufórbus stérven, die getrouw sléchts vas in schyn.</l>
+						<l>En wilt dan eindelyk ook myne dood, voor de oogen</l>
+						<l>Van déze minnaars, die ik héb gehoond, gedoogen.</l>
+						<l>Ik héb myn Keizer, myn meestrés, myn vrind verraân-</l>
+						<l>Myn roem, myn vaderland; maar ’k héb het al gedaan</l>
+						<l>Door raad van die ontrouwe, én zal veel vreugds verwérven,</l>
+						<l>Indien ik stérven moog, als ik hém héb zien stérven.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>O Góden! is ’t genoeg? of wil het lót nóch méêr</l>
+						<l>Der myne op wékken tot myne ondergang? wanneer</l>
+						<l>’t Zulks doen wil, laat het al zyn kracht vry t’zaamen voegen</l>
+						<l>By ’s afgronds hulp, ik zal my zelve vergenoegen;</l>
+						<l>’k Bén meester van myn zélf, zo wél als van ’t heel al.</l>
+						<l>Ik ben, én wil het zyn. O eeuwen! dit geval</l>
+						<l>Beveel ik u, én aan ’t geheugen te bewaaren.</l>
+						<l>Wilt aan de naneef niet na laaten te verklaaren</l>
+						<l>Myn laatste zeege, én hoe ik héden zeegepraal</l>
+						<l>Van een geréchte toorn, waar van het récht verhaal</l>
+						<l>Nóch eens ontwyfelbaar zal komen tot uwe ooren.</l>
+						<l>Dat onze vrindschap wéêr, ô Cinna! wérd’ hérbooren.</l>
+						<l>Ik bén die ’t u verzoek; voor heenen gaf ik u</l>
+						<l>Het leeven, schoon dat gy myn vyand waart; én nu</l>
+						<l>Wil ik u, ondaks ’t lot; het geen u schynt te haaten,</l>
+						<l>Als aan myn moordenaar, wéêr ’t leeven geeven laaten.</l>
+						<l>Wy toonen door een stryd, wiens uitval strékt tot lóf,</l>
+						<l>Wie van ons béter zal gegeven hébben, óf</l>
+						<l>Ontfangen. gy verried myn wéldaan; ’k wil die échter</l>
+						<l>Verdubbelen; ik hoopte u daar me op, nu légt’er</l>
+						<l>Myn gonst nóch zo veel by, dat ik u daar mê druk.</l>
+						<l>Ontfang van myne hand die schoone, daar ’t geluk</l>
+						<l>Van uwe ziel tóch in bestaat; ’k wil daar benéven</l>
+						<l>Het Burgermeesterschap voor ’t naaste jaar u geeven.</l>
+						<l>Myn dóchter, min hém in zo heerelyk een staat;</l>
+						<l>Min hém in ’t purp’re kleed, meêr als in een gewaad</l>
+						<l>Bepurperd door myn bloed. Leer, leer u zélf verwinnen,</l>
+						<l>Gelyk ik héb gedaan; én wil eens récht bezinnen,</l>
+						<l>Dat ik een Bruigom u wéêr geevende, ik u meêr</l>
+						<l>Als eene vader geeve.</l>
+					</sp>
+					<sp who="#emilia">
+						<speaker>EMILIA.</speaker>
+						<l>Ik geef my op, myn Heer,</l>
+						<l>Aan al die goedhéên zo mildaadig my beweezen.</l>
+						<l>Ik voel de névels van myn oogen op gereezen.</l>
+						<l>’k erken myn schélmstuk, dat my eerst réchtvaardig scheen,</l>
+						<l>’t Geen nooit de schrik der straf op my vermogt voor heen.</l>
+						<l>Nu voel ik, door een na berouw, myn ziel beklémmen,</l>
+						<l>En dat myn hart dit komt in stilte toe te stémmen.</l>
+						<l>De Hémel heeft voor lang uw’ grootsheid in zyn troon</l>
+						<l>Beslooten, én tot proef begeer ik van de Góôn</l>
+						<l>Geen andere als my zélf; dit durf ik my vermeeten</l>
+						<l>Dat hy de staat myn Heer, daar gy in zyt gezeeten</l>
+						<l>Verand’ren wil, wy hy myn hart veranderd keeft.</l>
+						<l>Myn haat, die ik wel eêr onstérslik dacht, begeeft</l>
+						<l>My nu, én Sérft; ze is dood ik bén niet meêr te weezen,</l>
+						<l>Maar zal de trouwste van uwe onderdaanen weezen;</l>
+						<l>En neemende voortaan een af keer van die haat,</l>
+						<l>Wénsch ik u dienst te doen, én voordeel aan u staat.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Wat zal ik zéggen, Heer, nu dat ons onderwinden,</l>
+						<l>In plaats van straften komt belooningen te vinden?</l>
+						<l>O gadelooze deugd! ô goedheyd! die myn schuld</l>
+						<l>Vergroot, én mét meêr récht u in uw’ zétel huld.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>Doe door vergiffenis ook uwe deugden pryzen;</l>
+						<l>En wilt, mét my, genade aan Maximus bewyzen.</l>
+						<l>Hy heeft ons all’ verraân! maar ’t geen dat hy bestond</l>
+						<l>Geeft onze vrindschap, én uwe onschuld vaster grond.</l>
+						<l>Hérneem de plaats, die gy pleegt eertyds te bekleeden;</l>
+						<l>Wil wéêr in uwe trouw, én oude luister treeden.</l>
+						<l>Eufórbus wachte ook zyn genade, men verschoon</l>
+						<l>Dit stuk dat morgen de écht haar beider min bekroon:</l>
+						<l>Indien gy haar bemind zal dit uw’ straft verstrékken.</l>
+					</sp>
+					<sp who="#maximus">
+						<speaker>MAXIMUS.</speaker>
+						<l>Die wét is al te recht om morren, te verwékken.</l>
+						<l>’k Ben meer verbaast dat gy me op nieuws uw’ gunst belooft.</l>
+						<l>Myn Heer, als nydig dat my word die schat ontroofd.</l>
+					</sp>
+					<sp who="#cinna">
+						<speaker>CINNA.</speaker>
+						<l>Gedoog dat myne deugd, die zich heeft wéér gevonden,</l>
+						<l>U heylige eene trouwe, zo schandelyk geschonden:</l>
+						<l>Maar, zulk een waare, én onverbreekelyke trouw,</l>
+						<l>Dat zélf des hémels val die niet doen wank’len zou.</l>
+						<l>Kon tóch de schikker van het noodlót onze dagen</l>
+						<l>Verkorten om u een lang leeven op te draagen</l>
+						<l>En dat ik honderd maal voor u mogt óft’ren ’t geen</l>
+						<l>Ik van uw’ gunst, myn Heer, ontfangen héb alleen.</l>
+					</sp>
+					<sp who="#livia">
+						<speaker>LIVIA.</speaker>
+						<l>Myn Heer, na deze daad staat u niets meêr te vreezen.</l>
+						<l>De waereld zal mét vreugde u onderdaanig weezen!</l>
+						<l>En Róme dat u schynt te haaten, geeft gy stóf</l>
+						<l>Om, vol van yver, uit te brommen uwe lóf.</l>
+					</sp>
+					<sp who="#oktavius-césar-augustus">
+						<speaker>AUGUSTUS.</speaker>
+						<l>’k Wil dat men morgen zal verdubb’len de ófferhanden</l>
+						<l>Die we in een béter staat dén Góden zullen branden;</l>
+						<l>En dat het eedgespan bekénd zy, hoe August’</l>
+						<l>De straf hén kwyt schéldt, schoon hém alles is bewust.</l>
+					</sp>
+					<p>Einde ven het vijfde, én Laatste Bedrijf.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

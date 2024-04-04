@@ -1,0 +1,2067 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000143" xml:lang="dut">
+
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">De wanhébbelyke liefde</title>
+				<title type="sub"/>
+				<author>
+					<persName>
+						<forename>Philippe</forename>
+						<surname>Quinault</surname>
+					</persName>
+					<idno type="wikidata">Q379947</idno>
+					<idno type="pnd"></idno>
+				</author>				
+				<author>
+					<persName>
+						<surname>Nil Volentibus Arduum</surname>
+					</persName>
+					<idno type="wikidata">Q2351891</idno>
+					<idno type="pnd"></idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>Ceneton</name>
+					<idno type="URL"
+						>https://www.let.leidenuniv.nl/Dutch/Ceneton/NVAWanhebbelykeLiefde1678.html</idno>
+					<editor>A.J.E. Harmsen</editor>
+					<ref>Ceneton064360</ref>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Nil Volentibus Arduum: De wanhébbelyke liefde. Amsterdam: Albert Magnus,
+						1683.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person xml:id="joost" sex="MALE">
+						<persName>JOOST</persName>
+					</person>
+					<person xml:id="geertruij" sex="FEMALE">
+						<persName>GEERTRUIJ</persName>
+					</person>
+					<person xml:id="hendrik" sex="MALE">
+						<persName>HENDRIK</persName>
+					</person>
+					<person xml:id="lucia" sex="FEMALE">
+						<persName>LUCIA</persName>
+					</person>
+					<person xml:id="adriaan" sex="MALE">
+						<persName>ADRIAAN</persName>
+					</person>
+					<person xml:id="agniet" sex="FEMALE">
+						<persName>AGNIET</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Farce</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-04">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1678">
+				<desc/>
+			</event>
+			<event type="premiere" when="1679">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+
+	<text>
+		<front>
+
+			<docTitle>
+				<titlePart>DE WANHÉBBELYKE LIEFDE.</titlePart>
+
+				<titlePart>KLUCHTSPÉL</titlePart>
+
+				<titlePart>[Vignet: Nil Volentibus Arduum]</titlePart>
+
+				<titlePart>Te AMSTERDAM,</titlePart>
+				<titlePart>By ALBERT MAGNUS, op de Nieuwen Dyk,</titlePart>
+				<titlePart>in den Atlas, by Dirk van Hasselts Steeg. 1678.</titlePart>
+				<titlePart>Mét Privilegie.</titlePart>
+			</docTitle>
+
+			<div type="appendix">
+				<head>COPYE Van de PRIVILEGIE.</head>
+				<p>DE Staten van Holland ende West-Vrieslandt doen te weten. Alsoo Ons vertoont is
+					by eenige Liefhebbers van de Nederduytsche Tael en Poëzy, hoe dat sy al voor
+					eenige Jaren, na het voorbeeld van de Italiaensche en Fransche Academien,
+					t’Amsterdam opgerecht hadden, een Konstgenootschap onder de Prent en Sinspreuke
+					van NIL VOLENTIBUS ARDUUM, waar in dagelijks gearbeyt was, en noch wiert, tot
+					voortsettinge van onse Taal en Dichtkunst, gelijk ook al eenige werkjens, nu en
+					dan daar van in ’t licht gekomen, en door den druk gemeen gemaakt waren; en
+					dewyl van tyt tot tyt uitgegeven souden worden grootere werken, die by dat
+					Konstgenootschap, sommige reets gemaakt, sommige noch onderhanden waren, waar
+					toe het selve boven haar tyt en arbeyd, noch groote kosten tot den druk, en wat
+					daar meer toebehoort, soude moeten doen, en vermits ook niet sonder groote reden
+					gevreest wierd, dat al het gene van eenigh belangh zynde, by het selve
+					Konstgenootschap uytgegeven soude worden, aanstonts door andere soude mogen
+					werden naargedrukt, en sonder eenige opmerkingh, veel min naauwkeurigheydt der
+					Spelling oft nettigheydt der Tale, aan al de wereldt gemeen gemaakt, waar door
+					het goede Insigt tot opbouwingh der Nederduytsche Tale, ende voortsettinge van
+					de welsprekentheydt in de selve verhindert, en de lust om daar in voort te gaan
+					aan het voorseyde Konstgenootschap soude benomen worden; soo hadde sich het
+					selve Konstgenootschap genootsaakt gevonden, om sich te keeren tot Ons,
+					ootmoedelyk versoekende, dat het Ons gelieven mogte haar te begunstigen alle de
+					werken, die uyt het selve Konstgenootschap in ’t licht gebraght souden worden,
+					met Ons Octroy voor 20 jaren langh, en onder soodanige straffe tegen de gene,
+					die de selve souden nadrukken, verkoopen, oft elders naargedrukt, in dese Onse
+					Provintie voeren om te verkoopen, als het Ons soude gelieven goet te vinden. SOO
+					IS ’t, dat Wy, de Sake en ’t Versoek voorsz. overgemerkt hebbende ende genegen
+					wesende ter bede van de Supplianten, uyt Onse rechte wetenschap, Souveraine
+					macht ende authoriteyt de selve Supplianten geconsenteert, geaccordeert, en
+					geoctroyeert hebben, consenteren, accorderen, ende Octroyeren mits desen, dat sy
+					gedurende den tyt van vyftien eerstkomende Jaren, de Werken by het voornoemde
+					Konstgenootschap onder den Tytul van NIL VOLENTIBUS ARDUUM gemaakt werdende oft
+					alrede zynde, binnen den voornoemden Onsen Lande alleen sullen mogen drukken,
+					uytgeven ende verkoopen, verbiedende daarom allen ende eenen iegelyken, de selve
+					werken na te drukken, ofte elders naargedrukt binnen onsen Lande te brengen, uyt
+					te geven ofte te verkoopen, op verbeurte van alle de naargedrukte, ingebraghte,
+					ofte verkofte Exemplaren, ende een boete van drie hondert guldens daarenboven te
+					verbeuren, te appliceren een derde part voor den Officier die
+					de calange doen sal, een derde part voor den Armen der plaatsen daar het casus
+					voorvallen sal, ende het resterende derde part voor de Supplianten. Alles in
+					dien verstande, dat Wy de Supplianten, met dezen Onsen Octroye alleen willende
+					gratificeren tot verhoedinge van hare schade door het nadrukken van de voorsz.
+					Werken, daar door in geenigen deele verstaan, den Inhoude van dien te
+					authoriseren ofte te advouëren, ende veel min het selve onder Onse protectie
+					ende bescherminge eenig meerder credit, aansien ofte reputatie te geven; Nemaar
+					den Supplianten in cas daar in iets onbehoorlyks soude mogen influeren, alle het
+					selve tot haren lasten sullen gehouden wesen te verantwoorden, tot dien eynde
+					wel expresselyk begerende, dat by aldien sy desen Onsen Octroye voor de selve
+					Werken sullen willen stellen, daar van geene geabbrevieerde ofte gecontraheerde
+					mentie sullen mogen maken; Nemaar gehouden sullen wesen, het selve Octroy in ’t
+					geheel, en sonder eenige Omissie daar voor te drukken, op pene van het effect
+					van dien te verliesen. Ende ten eynde de Supplianten desen Onsen consente en
+					Octroye mogen genieten naar behooren, lasten wy allen ende eenen iegelyken, dat
+					sy de Supplianten van den inhoudt van desen doen laten ende gedoogen, rustelyk,
+					vredelyk, ende volkomentlyk genieten ende gebruyken, cesserende alle belegh ende
+					wederleggen ter contrarie. Gedaan in den Hage onder Onsen grooten Zegele hier
+					aan doen hangen, den XV Maart, in ’t Jaar onses Heeren en Saligmakers duysent
+					ses hondert seven en seventigh.</p>
+
+				<p>A. Br. d’Asperen, 1677.</p>
+
+				<p>Ter Ordonnantie van de Staten,</p>
+
+				<p>HERBERT van BEAUMONT, 1677.</p>
+
+				<p>Het KONSTGENOOTSCHAP heeft het Récht van de bovenstaande PRIVILEGIE, aangaande De
+					WANHEBBELYKE LIEFDE, vergunt aan ALBERT MAGNUS, Boekverkooper tót Amsterdam.</p>
+
+				<p>In Amsterdam, den I December, 1678.</p>
+			</div>
+
+			<castList>
+				<head>VERTOONERS.</head>
+				<castItem corresp="#joost">
+					<role>JOOST, Weduwnaar.</role>
+				</castItem>
+				<castItem corresp="#geertruij">
+					<role>GEERTRUIJ, Weduw.</role>
+				</castItem>
+				<castItem corresp="#hendrik">
+					<role>HENDRIK, zoon van Joost.</role>
+				</castItem>
+				<castItem corresp="#lucia">
+					<role>LUCIA, dóchter van Geertruij.</role>
+				</castItem>
+				<castItem corresp="#adriaan">
+					<role>ADRIAAN, neef van Joost.</role>
+				</castItem>
+				<castItem corresp="#agniet">
+					<role>AGNIET, nicht van Geertruij.</role>
+				</castItem>
+				<p>Het Tooneel is voor het huis van Geertruij.</p>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<head>DE WANHÉBBELYKE LIEFDE.</head>
+
+				<head>KLUCHTSPÉL.</head>
+				<head>EERSTE BEDRYF,</head>
+				<div type="scene" n="1">
+					<head>EERSTE TOONEEL.</head>
+					<stage>JOOST, HENDRIK.</stage>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>IK zég nóch ééns, ’t zyn grillen al dat verliefd weezen.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>’t Is waar Vader; maar jy waart ook verliefd voor dézen;</l>
+						<l>Want zonder dat hadje jou eigen’ meid niet getrouwd,</l>
+						<l>Daarje my by gewonnen hébt.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> ’t Heeft me genoeg berouwd.</l>
+						<l>Daarom spiegelje aan my, en stél jou hart te vréden.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Zo myn liefde niet gegronder was, dan hadje réden;</l>
+						<l>Maar de dóchter is myns gelyk, zy heeft veel goed;</l>
+						<l>Z’is schoon, zy mag me wel lijen; én ik héb moed,</l>
+						<l>Zoje de moeder ééns over ’t huuwelyk aan wilt spreeken,</l>
+						<l>Al de kwéstie wordt in een ommezien vergeleeken.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Wat kwéstie is ’er, Héndrik?</l>
+					</sp>
+
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Geen andere, vader, als ’t géld,</l>
+						<l>Daar scheidtze niet graâg van, zo ’t schynt, en dat stélt</l>
+						<l>De zaak alleenig uit. Want ziet, waar zouden we van leeven?</l>
+						<l>Ik héb geen styl van doen.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Maar hébj’er al te verstaan gegeeven,</l>
+						<l>Dat ik jou vyf én twintig duizend gulden mêe geven zou?</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Ja, dat weet ze wél, vader; maar ik weet niet, wat de vrouw</l>
+						<l>Schorten mag; z’onthaaltme wél, én ze wil niet toelaaten,</l>
+						<l>Dat ik haar dóchter héb; doch dat ik by heur kom praaten,</l>
+						<l>Daar bidtze my altyd om, én dat mét sulken genegenheid,</l>
+						<l>Dat ik niet bedénken kan, hoe ’t wérk geleegen leit.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>’t Vaders goet kanz’ er dóchter ommers niet onthouwen.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Zo is ’t Vader; maar zo we anders niet hébben zouwen,</l>
+						<l>Zou ’t sober omkomen; want haar man was eerst haar knécht</l>
+						<l>Die ze daar na trouwde.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Is ’t de waarheid, datje me zégt?</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Ja Vader, en in ’t huuwelyks kontrakt wierd beslooten</l>
+						<l>Geen goederen noch winst gemeen, én dat hy voor zyn koten</l>
+						<l>Maar vyf honderd pondt in gebrógt had, niet meêr</l>
+						<l>Is nu haar Vaders goed.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Wél Héndrik, hébje geen eer</l>
+						<l>In je lyf? jy na de dóchter van een knécht te kyken,</l>
+						<l>Een kaale schóft, én licht een knoet, een poep, óf zyns gelyken?</l>
+						<l>Dénkje niet omje vrinden, én jou kóstelyk geslacht?</l>
+						<l>En hébje geen schaamt, dat jy dat zo weinig acht?</l>
+						<l>Een kaalvinks dóchter! een kaalvinks dóchter! ’k stóp myn ooren.</l>
+						<l>Neen, dat ’s óf, dat ’s óf, zwyg, zwyg; ik wil ’er niet na horen.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Laat me tóch nóch een woord spreeken.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Wat wouje zeggen?</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Wat was tóch jou zalige vrouw?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Dat was jou moeder.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Mét réden; maar van waar gekomen?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Wat weet ik het, ’k héb ’er myn leeven niet na vernómen.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Van Wéstfalen, Vader, zo heeft ze me dikwils zélf vertéld.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Wat wouje daar méê zeggen?</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Hadze niet meê veel geld?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Al haar goed was haar eigen.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Maar hoe kwam jy bijer,</l>
+						<l>Om mét haar te trouwen?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Zy was vryster, en ik was vrijer.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Dat is de vraag niet, maar was zy te vooren niet jou meid?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Wél wat óf déze béngel, dénk ik, daar aan geleegen leit?</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>’k Wil zéggen, wy hébben malkander niet te verwyten,</l>
+						<l>Nóch ons geslacht hoog op te haalen, óf heel wég te smyten;</l>
+						<l>Nóch haar dóchter, nóch jou zoon, nóch myn vaar, nóch haar moêr.</l>
+						<l>’t Is loot om oud yzer, huij is karremélks broêr.</l>
+						<l>Men maakt hier zulken staat niet meêr van oude geslachten.</l>
+						<l>’t Is waar, die der van óf komen, willen zich doen achten,</l>
+						<l>Maar wanneer men het te deeg mét een bril beziet,</l>
+						<l>Myn lieve Vader, ’t is ’em dat eijereeten niet,</l>
+						<l>Om zich wéderom met diergelyke stammen te paaren,</l>
+						<l>O neen, maar ’t is om met die kwinkslag schatten te vergâren:</l>
+						<l>Want komt ’er een boerenrékel, én heeft hy goed,</l>
+						<l>Of een dóchter van schoorsteen- óf stillevegers bloed,</l>
+						<l>Zo de vaâr maar goude kluiten nalaat, én dat mét hoopen,</l>
+						<l>Zo kunnen zy zich gemakkelik in een tréffelyk huis verkoopen.</l>
+						<l>Vader, vader, ’t géld is de leus hier te Amsterdam,</l>
+						<l>Die dat heeft, verziertmen haast wapens, én een oude stam.</l>
+						<l>Als by éksempel, haar Vaders naam was Hans Vlégel;</l>
+						<l>Een goude vlégel op een azure véld, mét déze régel,</l>
+						<l>’k Scheij ’t koren van ’t kaf, óf een diergelyke zin,</l>
+						<l>Is straks een goed wapen; én zo raakt ’er de Edelman in.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Maar jy zégt, dat haar de moeder niets van ’t hare wil schénken?</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Als jy haar aanspreekt, Vader, zal zy zich wél bedénken;</l>
+						<l>Zy staat licht op haar reputatie, én begeert misschien</l>
+						<l>Een behoorlyk verzoek, dat jy myn aan komt biên.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Maar zo dat miste, én wierd ik ook eens afgeslagen.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Dan was ’t maar, als ’t nu is.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Ik myn reputasie waagen</l>
+						<l>Aan een kaale knechts dóchter, én bot vangen, heel niet;</l>
+						<l>’k Moest eerst verzékerd weezen, dat ’et gaan zou. daarom ziet,</l>
+						<l>Dat j’et zo vérr’ brengt, dan zal ik me laaten beweegen;</l>
+						<l>Anders zal ’er niet van vallen. En spreek me daar in niet teegen.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Ik héb ’t zo verr’ gebragt, als ik het immer bréngen kan.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Wél zo laat het ’er by steeken, én spreekt ’er geen meer van.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Aij, vader, gaat ’er tóch; kozyn Adriaan zal ’er ook weezen,</l>
+						<l>Met zyn vryster heurluij nicht, om haar daar toe te beleezen,</l>
+						<l>Zy hébben ’t my beloofd. Aij vader, doet ’er tóch ’t uwe toe,</l>
+						<l>En héb médelyden met myn liefde.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Hendrik, maak me ’t hoofd niet moê,</l>
+						<l>’k Zég, dat ik myn rippetasie zo niet in gevaar wil stéllen.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>En jou zoons leeven wél? want het zal me zo kwéllen,</l>
+						<l>Dat ik niet langer begeer te leeven, zo ik af moet staan;</l>
+						<l>Maar ik zal daadlik in den oorlog tégen den Fransman gaan,</l>
+						<l>En een eerelyke dood zoeken, in plaats van een kwynend’ leeven,</l>
+						<l>Want myn liefde, weet ik wél, zal my tóch nooit begeven.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Ia wél, die liefde leit jou béngels altyd wél in ’t hoofd,</l>
+						<l>Nóchtans is ’t een krankzinnigheid, die jou de zinnen berooft.</l>
+						<l>Dat jy je niet inbeeldde, dat je verliefd moest weezen,</l>
+						<l>Ie zoudt van geen liefde weeten, nóch veur geen liefde vreezen,</l>
+						<l>Maar wees verliefd, én blyf verliefd, zo ’t zo wezen moet;</l>
+						<l>Dóch zie na een andere dóchter, én na meêr goed.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Och, z’is te schoon, haar oogen zouden ’t wreedste hart verleijen;</l>
+						<l>En daar is goed genoeg, wou ’er de moeder maar van scheijen.</l>
+						<l>Haar schoonheid...</l>
+					</sp>
+
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Nou schoonheid, straks liefde; ja wél, ja wél!</l>
+						<l>Jy jonge béngels bént zót, ik spring schier uit myn vél.</l>
+						<l>Nou ’k moet dat schoontje eens zien, én ik ga de moêr spreeken.</l>
+						<l>Maar Héndrik jy zélt me daar na ’t hooft niet meêr breeken,</l>
+						<l>Zo ik van de lavuit kryg; dat gaat ’er zo na toe;</l>
+						<l>Hoor je wél, Héndrik, maak me daar na ’t hoofd niet moe</l>
+						<l>Mét al dat liefde én schoonheid, en al zulke zótte grillen,</l>
+						<l>Want jy zult daar na willen moeten, dat ik zal willen.</l>
+						<l>Versta je dat?</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Ia vader, ik zal ’t doen; en ik beloof ’t,</l>
+						<l>Maar doe haar het verzoek tóch mét geen onbezadig hoofd,</l>
+						<l>En geef de moeder geen réden van u af te zétten.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Ia, dat beloof ik je, ’k zal myn bést doen, én op myn woorden létten.</l>
+						<l>Dat ’s gang. kom jy hier over een half uurtje weêrom,</l>
+						<l>En wacht me hier dan zo lang, tót dat ik weêr uit den huize kom.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Aij vader, houd myn liefde tóch geduurig in de zinnen.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Ia, ’k zal. dat liefde... liefde... dat schoonheid... dat beminnen...</l>
+						<l>Die béngels! die lékkers! schoonheid... liefde... wat een dolligheid!</l>
+						<l>Nou ’k mag gaan klóppen, dewyl ’t tóch zo geschapen leit.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>II. TONEEL.</head>
+					<stage>JOOST, LUCIA.</stage>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>GOeden dag, dóchter, kan ik Juffrou Geertruij niet spreeken?</l>
+					</sp>
+
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>Neen, moeder is niet in.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> ,,Héndrik heeft wél uitgekeeken.</l>
+						<l>,,Wat brust me die jongen! Wat zeg je, is moeder niet in.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>Neen, maar zy zal straks weêr t’huis zyn.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Ia wél, na myn zin</l>
+						<l>Is ’er geen mooijer Engeltjen op de waereld geboren.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>Wat praat je by jou zélf, bén je moeijelik, dat je een verlooren</l>
+						<l>Gang gedaan hebt? wacht maar een oogenblik, myn heer.</l>
+						<l>Zy kan niet uitblyven; binnen een kwartier is ze hier weêr.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Dat ’s een middeltje! dat ’s een montje! dat zyn oogen!</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>Wat schort ’er, myn heer?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Och, die dat meisjen eens zou moogen?</l>
+						<l>Ia wél, was ’t myn zoons liefste niet.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l> Wat praat je by jou zélven al?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Ik zég, dat ik wat by jou praaten, én jou moeder wachten zal.</l>
+						<l>Héb jy geen kénnis aan my?</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l> Neen, na myn béste weeten.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Maar myn zoon die kén je wél?</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l> Hoe is die tóch geheeten?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>’t Is Héndrik, die jou vryt, spélt hy me geen leugens op de mouw.</l>
+					</sp>
+
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>’k Hadt niet gedacht, dat ik van daag ’t geluk ontmoeten zou</l>
+						<l>Van zyn vaders byzyn, én blyf hem veel dank daar voor schuldig,</l>
+						<l>Dat hy my die eer doet aandoen.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Hy is zeer onverduldig</l>
+						<l>Om u te bezitten, én heeft my gebéden uit al zyn ziel,</l>
+						<l>Dat ik jou moeder ééns aanspreeken zou, óf ’t haar geviel</l>
+						<l>Een eind van dit vrijen te maaken, én dat kwam ik ’er vraagen.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>Dan is uw boodschap al gedaan, én uw zoon afgeslagen.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Hoe dat zo?</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l> Ik zég, indien ’t aan myn moeder mogt staan,</l>
+						<l>Want zy heeft deze morgen zeer tégen my aangegaan,</l>
+						<l>Hoog gezeid, én gezwooren, zy zou me niet een speld meê geeven</l>
+						<l>Zo ik met Héndrik trouwen wou, ja zy zou ’t haar leeven</l>
+						<l>Niet toelaaten, zo lang als zy het maar belétten kon,</l>
+						<l>En ze gaf geen réden ter waereld, als haar wil; ’k begon</l>
+						<l>Moeijelik te worden, én sei, dat uw zoon my zeer vereerde</l>
+						<l>Met zyn aanzoek, én vraagde, waarom zy ’t niet begeerde?</l>
+						<l>Maar zy gebood me kórt te zwygen, én zwoer met één,</l>
+						<l>Dat zy eêr stérven zou, als my met hém in ’t huuwelik te zien treên.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Maar behaagt hy jou wél?</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l> Zou hy me niet behaagen?</l>
+						<l>Geen braaver jongman, als hém, zag ik van al myn daagen.</l>
+						<l>Wou jy hém maar tien duizend pond meê geeven, myn heer,</l>
+						<l>Dat we met gemak leeven konden, geen geluk begeerde ik meêr,</l>
+						<l>Als dat ik zyn vrouw tégen óf mét moeders wil mogt raaken.</l>
+						<l>’k Bén d’eenigste dóchter, én moeder kan my geen basterd maaken:</l>
+						<l>Maar zy kan nóch lang leeven, al is ze schier séventig jaaren oud,</l>
+						<l>Want zy is ’t leeven gewend. daarom, myn heer, zo gy woud,</l>
+						<l>Gy hébt jou zoon maar tien duizend pond meê ten huuwelik te geeven</l>
+						<l>Voor hém, én voor my, dan konnen we saamen leeven:</l>
+						<l>En ’t goed van myn kant moet éndlik kómen, dat ’s gewis.</l>
+						<l>Zo dat het kontant geld maar de eenige schórting is.</l>
+						<l>Met tien duizend pond heeft hy myn in behouden haven.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Maar dat heet zich zélf by zyn leevendig lyf begraaven.</l>
+						<l>Meest al zyn goed wég te geeven, zo lang men leeft.</l>
+						<l>Hy doet al veel, die vyf én twintig duizend gulden geeft,</l>
+						<l>En maar gemeene middelen heeft; want je moet weeten,</l>
+						<l>Ik heb geen goudmyn, al heet ik ryk, en wél gezeeten.</l>
+						<l>Alle kwae schulden afgerékend; én ’t land, als ’t nu geldt,</l>
+						<l>Zou ’t styf hondert duizend haalen, en hy is al wél gestéld,</l>
+						<l>Die dat zuiver heeft.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l> ’t Kan dan geen tien duizend pond weezen?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Dat weet je wél béter.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l> Ik ben dan ook niet te beleezen,</l>
+						<l>En ik verzoek u, zo wél, myn heer, als uw zoon, noit meer</l>
+						<l>Na my om te kyken, want het is schaadelik aan iemands eer,</l>
+						<l>Zo wél jongman, als juffrou, malkanderen op te houwen</l>
+						<l>Heele jaren lang, sonder hoop van malkander te trouwen;</l>
+						<l>En myn geneegenheid tot hém is alreê al te groot.</l>
+						<l>Verschoon my dan, dat ik hem afsla, ’t geschied uit nood.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Maar wist ik jou een vrijer mét een tonnetje op te speuren,</l>
+						<l>Zou je ’em wél hébben willen?</l>
+					</sp>
+
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l> Dat kon lichtelik gebeuren,</l>
+						<l>Want nu moeder my aan uw zoon Héndrik niet geeven wil,</l>
+						<l>Zal zy my haar leeven niet besteeden; en dat wékt een gril</l>
+						<l>In myn zinnen, dat ik veelen kan, nóch verdraagen.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Maar hy heeft wat jaaren, dat zou jou misschien mishaagen;</l>
+						<l>En dewyl ik hoor, dat jy vreest niet haast getrouwd te zyn,</l>
+						<l>Zou jou een jonge hékspringer béter behaagen, als een ouwe gryn.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>O neen, ik zoek alleen van moeders dwang verlóst te weezen,</l>
+						<l>En hoe oud dat myn man ook was, hy hoefde niet te vreezen</l>
+						<l>Voor ontrouw, óf onéénigheid; want ik zie alleen</l>
+						<l>Op iemand, daar ik eerlyk meê leeven kan, en op anders geen.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Daar héb ik je liever om; maar mag ik je al vertrouwen?</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>Ik bén gewénd te spreeken, als ik ’t meen, én myn woord te houwen.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Och! dorst ik... maar is ’t fatzoen, de liefste van myn zoon?</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>Wat praat je weêr by je zélf.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Ia wél, wat is ze schoon!</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>Wat révelje?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Ik zég, ’t zyn ongeloovfelyke zaaken,</l>
+						<l>Dat zulk’ een jong ménsch zich met een oud man zou vermaaken.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>Och, ik zou heel wél, indien hy geen parten over hem had.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Geef me daar de hand op, zo je ’t meent, én beloof me dat.</l>
+					</sp>
+
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>’k Moest hém ten minsten eerst zien.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Wél, zie my eens in myn oogen.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>Wél wat is ’t nu?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Hy lykt my op, end op.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>Zonder logen?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>In der daad, én hy is van de zélve jaaren, als ik.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>’t Is vry oud, maar dat hy me sléchts één oogenblik</l>
+						<l>In zulke zinnen aantrof, als nu, ’k zou hém ’t jawoord geeven.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Heb jy een ring by jou?</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l> Ia tóch, myn Heer, ’k bén myn leeven</l>
+						<l>Niet zonder ring, en ’k wénste wél, dat ’et myn trouwring was.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Zie daar, uit de naam van die vrijer, komt het jou te pas,</l>
+						<l>Bied ik je déze ring op trouw aan, en wil de jouwe ontfangen.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>Neen, ’k moest de man eerst zien, ’k zal me zo niet verhangen.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Zie my aan; ik bén de man zélf.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l> Gy, myn Heer, en meent gy ’t al?*</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Ja, hou jy me je woord, ’k zweer, dat ik ’t myne ook houwen zal.</l>
+					</sp>
+
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>Maar uw zoon?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Die heeft ommers geen hoop van jou te krygen.</l>
+						<l>Ik wil al myn goed niet wég geeven: én om hém te doen zwygen</l>
+						<l>Weet ik raad, want hy heeft my beloofd óf te staan,</l>
+						<l>Als ik van de lavuit kreeg; en ik héb myn bést gedaan,</l>
+						<l>Als jy weet. Ook is hy geschikt, én wil hy ’t niet weezen,</l>
+						<l>Ik zal ’t hém maaken; want zeit hy wat, hy mag vreezen,</l>
+						<l>Ik zal hem dreigen te ontérven.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l> Maar ’t voegt niet; in der daad.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Wat voegen, neem de ring maar; nou neem an, wat een praat;</l>
+						<l>Is hy vryer, ik bén weêuwenaar; én het trouwen</l>
+						<l>Staat my zo vry, als hém: neem an maar, ’t zalje niet rouwen;</l>
+						<l>Want de som, die ik hém meê ten huuwelik had beloofd,</l>
+						<l>Zal ik jou tót een duwary maaken.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l> Maar...</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Rust jou hoofd,</l>
+						<l>Zég ik nóch ééns. Ik zal jou ook zo fraije juweelen koopen,</l>
+						<l>Dat jy van myn zoon, nóch niemand zoo veel zoudt durven hoopen.</l>
+						<l>Boven dat héb je me je woord gegeeven; andersins</l>
+						<l>Had ik me zo niet geopenbaard. Neem an, bénje kindsch?</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>Geef dan, én neem de myne; maar ik doe ’t, als gedwongen.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Dat dan bezégeld mét een kusje. Liefste, je zult sprongen</l>
+						<l>Van me zien, die je niet vermoed had! ’k ga zo na de barbier.</l>
+						<l>Jy zult zien, wat een man dat ik nóch bén, al lyk ik schier</l>
+						<l>Een bestevaâr. ’k Heb weinig meer als séstig jaaren,</l>
+						<l>En ik vind me zo vreemd gestéld. ’k Zalje dat wérkje wél klaaren.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>Maar stéllen wy een wys op onse zaaken, om Héndrik</l>
+						<l>Te bevrédigen, én myn moeder te doen toestaan, dat ik</l>
+						<l>Jou vrouw met haar wil weezen mag.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> ’k Zal dat wél maaken,</l>
+						<l>Want zy zal bly zyn jou zonder duimkruid kwyt te raaken.</l>
+						<l>Evenwél, om ’t behoorlyk réspékt zal ik myn neef</l>
+						<l>Adriaan bidden, dat hy ’t wérkje te kénnen geef,</l>
+						<l>En ’t huuwelik verzoek.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l> Neen, liefste, ’t zal béter weezen,</l>
+						<l>Dat Adriaan, door Agniet zyn vryster, moeder doe beleezen;</l>
+						<l>’t Is onze Nicht, én die veel op ’t hart van moeder vermag.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Wysselyk geraden, ’k zal ’t hém verzoeken van deezen dag;</l>
+						<l>En met één, dat hy Héndrik zoek te vréden te stéllen,</l>
+						<l>Om dat het een gedaane zaak is, én jy hém tóch vergeefs zou kwéllen.</l>
+						<l>Nou een adieu kus, dat gaat ’er na toe, maar daar komt hy aan,</l>
+						<l>Stél jou gerust, én laat op my alle dingen maar staan.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>III. TOONEEL.</head>
+					<stage>ADRIAAN, JOOST.</stage>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>WEl Kozyn, dat ’s me zeker lief, dat Héndriks dingen</l>
+						<l>Zo wél staan, ’k wéd wél, de knécht zal van vreugd uit zyn vél
+							springen.</l>
+						<l>Om dat jy zyn vryster zo bemindt, dat jy ze kust.</l>
+						<l>Is zyn huuwelik klaar?</l>
+					</sp>
+
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Ha, ha, ha!</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Zo vrolyk?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Ziet me de lust</l>
+						<l>Niet ten oogen uit?</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Ja dóch, héb je ’t mét Geertruij konnen stéllen?</l>
+						<l>Zal ze goed meê geeven?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Neen, ’k moetje heel wat anders vertéllen.</l>
+						<l>Praat een uurtje mét mé, ’k hébje noodig, kozyn Adriaan.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>’k Bén tót uw dienst. Maar ’k moet zo tót Geertruiden gaan,</l>
+						<l>By haar nicht Agniet, myn vryster, die hier moet weezen,</l>
+						<l>Om jou zoons zaaken voort te zétten, én ik zou vreezen</l>
+						<l>Die geleegenheid te verzuimen, want ’k moet mét haar</l>
+						<l>Geertruij zien te perswaderen, zo wordt het huuwlyk klaar.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Geertruij is niet t’huis.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Ja, zy kon daadlik komen.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Gaan we maar een burgwalletjen om; onder de boomen</l>
+						<l>Zal ik ’t je zéggen. Houwen wy haar terwyl in ’t oog,</l>
+						<l>Of ze kwamen. Want dat je ’t weet, daar is myn hoog</l>
+						<l>Aangeleegen, myn zoon...</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Daar komt Agniet uit het straatje</l>
+						<l>Met Geertruij. Adieu Kozyn, ’k zie se houwen een praatje,</l>
+						<l>En ’k zal ’t zo allerbést mét een slingerslag</l>
+						<l>Te pas bréngen.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Je mogt doen, dat ik niet zéggen mag;</l>
+						<l>Ik moet jou eerst wat zéggen, anders zou je ’t heel verknóllen.</l>
+						<l>’k Heb zulke vrémde tydingen, ô ’t zal je zo bóllen!</l>
+						<l>Je zoudt een verkeerde boodschap gedaan hébben, in der daad.</l>
+						<l>Ook mogt j’er steuren, want zy zyn vry drók in haar praat,*</l>
+						<l>En, na ’t lykt, zullen zy zo haast niet uitscheijen.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Wel al wat u belieft Kozyn, ik laat me van u leijen.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Zy zyn ons schier op ’t lyf. Kom Kozyn, déze weg in,</l>
+						<l>Myn zoon Héndriks vryster, én ik hébben in ’t zin...</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>IV. TOONEEL.</head>
+					<stage>AGNIET, GEERTRUIJ.</stage>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>WAarom wilt gy Héndrik dan belétten mét uw kindt te leeven,</l>
+						<l>Als gy geen goede rédenen daar van weet te geeven?</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>Bén ik het gehouwen?</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l> Neen, maar ’t zou wel voegen, nicht.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>Zie, zy zel hém niet hébben, én ’t bénnen zaaken van gewicht,</l>
+						<l>Die ’t me belétten, én die ik kan, nóch mag, nóch wil zéggen.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>Licht dat ’er oude kwéstiejen tusschen Joost, én u léggen?</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>Neen, Joost roert me niet.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l> Schort ’et dan an Hénderik?</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>Ja daer schort ’et me, én die maalt me in ’t hooft élken oogenblik.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>Heeft hy u belédigd?</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> O neen, ’t bénnen hiel andere zaaken.</l>
+					</sp>
+
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>Hébbenz’ ’em licht een kind t’huis gebrogt?</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Wat zou myn dat raaken?</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>Is hy ook érgens verloofd?</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Niet dat ik weet.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>Is ’t een dronkerd?</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Neen, gansch niet.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l> Stinkt hy somers ook na zweet?</l>
+						<l>Heeft hy ook een stinkenden aasem, óf and’re verhoolen kwaalen?</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>Hy stinken! wat meugje tóch al uit jou harssens haalen?</l>
+						<l>Wat ziekte, wat stinken, wat zweet? zyn vél is ekleurd,</l>
+						<l>Zo koel, zo zacht, én van geur als een parzik; ’t is wel ebeurd,</l>
+						<l>Dat hy me ezoend hét; maar ’t is niet uit te spreeken,</l>
+						<l>Zulken lucht als hy over hem hét.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l> Wat mag hem dan gebreeken?</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>Niet een zier gebreekt ’ém, hy is récht als een kaers, hy is lang,</l>
+						<l>Marellen ziet men in zyn oogen, karsen op zyn wang,</l>
+						<l>En parlen op zyn tanden, zyn haer mag men gelyken</l>
+						<l>By gekruld gouddraed. Men zou géld an de knécht verkyken.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>’k Mérk waar ’t schort; jy misgunt hém jou dóchter tot bruid,</l>
+						<l>En bemint hém zelf.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Wat héb ik ezeid? maar ’t is ’er uit.</l>
+						<l>’k Héb me daar lélik verklapt, ik beken ’t; maar zonder logen,</l>
+						<l>Ik was daar al heel buiten myn zélven op etoogen.</l>
+						<l>’t Is waar, ik bémin hém, én kén ’t niet gebéteren ook;</l>
+						<l>Hiele nachten waart hy veur myn oogen, als een spook.</l>
+						<l>Dan dénk ik, dat hy myn hier vatten wil, én daar spreeken;</l>
+						<l>En word ik wakker, dan zie ’k, héb ik lélik mis ekeeken.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>Maar nicht, dénkje wél op ’t geen je zégt, én ’t geenje doet?</l>
+						<l>Dénkje wél om jou ouderdom?</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> O ja, ’k héb nóch zo jongen bloed</l>
+						<l>In myn lyf, als jy, of iemand.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l> Wél nicht, jy maakt me verwonderd.</l>
+						<l>Jy verliefd, én hébt zo veul jaaren?</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Wél, noch geen honderd.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>Hoe veel minder?</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Vierendartig.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l> Ja, zo veel min?</l>
+						<l>Dat ’s zésénséstig. Maar hoe komt u die dolheid in ’t zin?</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>Dat weet ik niet, Agnietje. Maar hy lykt van lyf, én léden</l>
+						<l>Zo nae men man zaliger, die ook zo mooij, én besneeden</l>
+						<l>Van tronie was, dat Héndrik myn altyd an hém dénken doet.</l>
+						<l>Want al was die maar een droogscheerders knécht, én een knoet,</l>
+						<l>Hy had lichchaams, én verstands genoeg om een vrouw te behaagen.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>Maar geloof jy, dat jou die malle liefde wél zal slaagen?</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>Wél ja, toen ik myn man kreeg, was ik vyfénveertig jaar,</l>
+						<l>En hy pas twintig, sint ben ik weinig veranderd.</l>
+					</sp>
+
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l> Maar</l>
+						<l>Dat is nu twintig jaar geleeden, én daarenboven</l>
+						<l>Was die maar je knécht; jy moet van een rykmans zoon gelooven</l>
+						<l>Dat die andere gedachten heeft, én wat jong begeert.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>Maar myn goed is sédert wél de hiele hélft vermeerdt.</l>
+						<l>Laat zien, myn Kapitaal, oferékend de kwae schulden,</l>
+						<l>Is nou wél ruim hondert én séstig duizend gulden.</l>
+						<l>Daar uit ken veur hém vallen, wanneer hy me trouwt,</l>
+						<l>En ik te stérven kom, ten naesten by een Tonnegoud.</l>
+						<l>Want ’k zou hém ’t huuweliks kontrakt nae zyn zin laeten maaken,</l>
+						<l>En in zulken geleegenheid valt ’er wél wat te raaken.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>Ik hoor je aan mét een open’ mond. Jy oude liê gelooft,</l>
+						<l>Dat de jonge luij zyn, als jyluij; én dat haar ’t hoofd</l>
+						<l>Niet hangt, als over schatten te zamelen, én te vergaaren;</l>
+						<l>Maar gy mist; laat hém liever métje dóchter paaren,</l>
+						<l>En geeft haar behoorlik goed meê, indienje hem wél bemint;</l>
+						<l>Want jy maakt kwade gissing, dat hy zo ontzind</l>
+						<l>Weezen zou, én een vrouw van zesénséstig jaaren trouwen.</l>
+						<l>Behalven dat moet jy jou reputasie in achting houwen.</l>
+						<l>Wat zouden de luiden niet zéggen, én al jou geslacht?</l>
+						<l>Hébt wat schaamt, én maak niet, dat élk een mét je lacht.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>Ze moogen lachchen, die willen, ik zal altyd wél belétten,</l>
+						<l>Dat hy myn dóchter niet krygt.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l> Zo zyt gy dan niet om te zétten?</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>Neen nicht, al heel niet, ’t zy jy ’t goed vindt, óf kwaed.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>’k Zou je évenwél raaden...</l>
+					</sp>
+
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Hoor nicht, loop heen mét jou raed,</l>
+						<l>Daer ze die van doen hébben, én daer ze die begeeren.</l>
+						<l>Bén ik niet oud genoeg, dénk ik? óf zou ik van jou moeten leeren,</l>
+						<l>Wat ik doen, óf laeten zel? hoor nicht, ik hébje gezeid,</l>
+						<l>Hoe ik het gaeren had, waer ’t me zit, én waer ’t me leit.</l>
+						<l>Wil je me hélpen, hiel wél; wil je niet, pasjénsie;</l>
+						<l>Maer wil je me tégenstaen, zo houdje vry uit myn prezénsi;</l>
+						<l>Anders bén je me wéllekom; zie, dat ’s daer meê uit.</l>
+						<l>Daer komt jou vrijer an, jy waert ook gaeren de bruid,</l>
+						<l>En ’t staet myn zo vry, als jou. Nou ’k mag van je scheijen,</l>
+						<l>Je weet, wat ik je gezeid héb, lég ’et over mét je beijen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>V. TOONEEL.</head>
+					<stage>ADRIAAN, AGNIET.</stage>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>GOeden dag, myn Engel, wat schort uw nicht, is ze kwaad?</l>
+						<l>Me dunkt schier, datze u mét een boos hoofd verlaat.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>O; ’k moetje zo wat zéggen!</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Maar laat my eerst eens spreeken,</l>
+						<l>Je zult zo ophooren. Daar zal sulken bommel uitbreeken.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>Met myn niet minder, maar daar komt Héndrik gaan,</l>
+						<l>Hy komt wél te pas; ’t gaat hém voor alle and’ren aan.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>VI. TOONEEL.</head>
+					<stage>HENDRIK, ADRIAAN, AGNIET.</stage>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>’k BEn uw dienaar, Juffrouw Agniet. d’Uwe van gelyken</l>
+						<l>Kozyn Adriaan. Hoe sta je me beij zo aan te kyken?</l>
+						<l>Is ’t aan, óf af?</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Slimmer, als af.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Waarom? hoe dat?</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Je hébt jou leeven geen wonderlyker tyding gehad?</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>De myne is ongeloovfelik.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> De myne buiten gedachten.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Jy geeft me duizend doodsteeken. Aij, doet me tóch niet wachten.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>Wél jou liefstes moeder is op jou verliefd.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Die Totebél</l>
+						<l>Op myn verlieft! wat komt my over? óch, ’k dócht het wél,</l>
+						<l>Dat ’er iets schuilen moest, dat ik niet kon begrypen.</l>
+						<l>O hémel, wat raad?</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Myn tyding zal je nóch wel anders nypen.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Kan my grooter ramp overkomen, kozyn Adriaan?</l>
+						<l>Ik weet, dat ze me nu haar dóchter nooit toe zal staan.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Al stond ze jou haar dóchter toe, ’t zou je niet baaten.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Ik verzoék niet meêr; wou ze me dat maar toelaaten,</l>
+						<l>Ze mogt me beminnen, zo lang ze wilde.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Met één woordt,</l>
+						<l>Haar dóchter heeft zich verloofd.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Zwyg Kozyn, óch, jy vermoordt,</l>
+						<l>Jy vermoordt me. Verloofd! maar aan wie doch? doet het me weeten.</l>
+						<l>Kén ik hém?</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Ja, zo wél, als u zélf.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Hoe is hy geheeten?</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Jy noemt hém Vader.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Myn Vader aan Lucia verloofd?</l>
+						<l>Hémel, én hél, staat by.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Sus, sus, Héndrik, stélje hoofd</l>
+						<l>Wat geruster, jy zoudt dol worden; en ’t zyn zaaken</l>
+						<l>Die gedaan zyn, én die men dus niet anders kan maaken.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>’k Weet nóch eenige raad.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Wat raad? z’ is verloofd, zo je zégt,</l>
+						<l>En dat aan myn vader. Och, ik ongelukkige knecht!</l>
+						<l>Was ’t myn vader niet, ’k zou hém hals, én beenen breeken.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>’k Zég, dat ik eenige raad weet, maar laat me met vreên spreeken.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Och, hébje raad, zo geef ze me. ’k Val om vér, uit ontstéltenis.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>Jy moet weeten dat Geertruij zo op jou verslingerd is,</l>
+						<l>Als geen jong ménsch weezen kan, ga jy haar vrijen.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Is dat die goede raad? héb ik niet genoeg aan dat ééne lijen</l>
+						<l>Van myn liefste te missen? zou ik nóch met die heete teef,</l>
+						<l>Dat oude stinkende vél trouwen?</l>
+					</sp>
+
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Neen, Héndrik neef,</l>
+						<l>Ik zie wél, wat myn Engel zéggen wil.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Wat wilze zéggen?</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Zy hoopt daar door jou Vaders huuwelik t’ontléggen.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>Zo is ’t. Want men zal niet toelaaten, dat een vader ’t kind</l>
+						<l>Van zyn zoons vrouw trouwt; men is niet ontzind,</l>
+						<l>Of dol in dit land, om dat te dulden: én veel minder</l>
+						<l>Dat een moeder haar schoonzoons zoon trouwt. Wat hinder</l>
+						<l>Is ’er te vreezen?</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Je hébt gelyk, ’k bedankje voor die raad.</l>
+						<l>Ik kan dat wél vatten. Maar juffrouw Agniet, mag ik staat</l>
+						<l>Maaken op jou woorden, is ’t met Geertruij zo geleegen</l>
+						<l>Als jy me zégt, én zou ik haar haast daar toe konnen beweegen?</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>In een oogenblik Héndrik, gaat ’er maar zo daadlyk by.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Hoe, zo daadlyk op een sprong?</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l> Ja, zég ik, én boodschap vry</l>
+						<l>Uit myn naam, hoe dat zy der my zélf heeft om gebéden</l>
+						<l>Jou daar van aan te spreeken, én was ’t mooglik t’overreeden.</l>
+						<l>Wy zullen jou hier wachten. Loop, maakt ’et maar klaar, wél hoe?</l>
+						<l>Hoe staje nu, ’t is mét een snap beschikt.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Dat gaat ’er dan na toe.</l>
+					</sp>
+
+				</div>
+				<div type="scene" n="7">
+					<head>VII. TOONEEL.</head>
+					<stage>HENDRIK, GEERTRUIJ.</stage>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>GOeden dag, Juffrouw Geertruij.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Goeden dag, Héndrik. Myn aâren</l>
+						<l>Gaen open, als ik je zie. Komje niet in?</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> ’k Zouje garen</l>
+						<l>Een woordje spreeken.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Wilje niet after by jou vryster gaan? zég.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Wat vryster?</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Lucytje, myn dóchter.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Neen, die liefde is al wég;</l>
+						<l>’k Hébje wat anders te zéggen. Lucytje is myn vryster</l>
+						<l>Niet meer. Zy heeft zich aan een ander verloofd.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> ’t Is te byster,</l>
+						<l>Zy haar verloofd! én buiten myn weeten! én niet aan jou!</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Neen, maar aan myn Vader.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Wat doet zy wysselyk! ik zou</l>
+						<l>Dat nooit op ’er vermoed hébben, zo wél te kiezen.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Ik dacht, dat u die tyding uw geduld zou doen verliezen.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>Wél wat praat is dat? zy hét ’er zélf béter besteed</l>
+						<l>Als ik doen ken, zy zel daar warm zitten, lykje weet.</l>
+						<l>Jou vader is ryk, én oud, én wys. Zulke voetstappen</l>
+						<l>Diende jy ook te volgen. Men mag praaten, én klappen,</l>
+						<l>Zo men wil, twee jongeluij dienen malkander niet,*</l>
+						<l>Zo wat getémperd is béter. Myn lieve Héndrik, ziet,</l>
+						<l>Daarom had ik jou te lief, om aan myn dóchter te geeven.</l>
+						<l>Maar heeft jou jou Vader daar jou lés niet fray veur eschreeven?</l>
+						<l>Dat jy ook nae een fraije bejaarde huismoeder zócht,</l>
+						<l>Zou jy alzo kwaelyk doen?</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Neen, ’t was, daar ik om dócht,</l>
+						<l>En daarom kom ik éxprés uit om u te vrijen;</l>
+						<l>Want een jong lóshoofd lang op te passen, is een lijen,</l>
+						<l>Dat my al sedert anderhalf, of twee jaaren verdriet.</l>
+						<l>Behalven dat heeft my zo daadelyk jou nicht Agniet</l>
+						<l>Vertrokken, dat ik in uw grasie stond, én zo ik ’t waagde,</l>
+						<l>Dat ik ’t jawoord krygen zou, door dien ik je behaagde.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>Och ja, zo doeje; én nou te meêr, om dat je wysselyk</l>
+						<l>Na een vrou ziet, die bezadigd is, staatig, én ryk;</l>
+						<l>Daar je meê behouwen kent blyven, én een man met eeren.</l>
+						<l>En behalven dat alles, óch wist je ’t karésseren,</l>
+						<l>Dat een bedaagde vrouw an een jong man doet, óch heer!</l>
+						<l>’k Ben verzékerd, jy wenschten op der aerde niet meêr.</l>
+						<l>Ook zulje alles hébben, watje maar wilt bedingen</l>
+						<l>In ’t huwelyks kontrakt; want jy zult ’er meê omspringen</l>
+						<l>Na jou lust, én zinnelykheid, daarom zie, wat je begeert.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Niet, als dat je déze ring neemt, én my d’uwe vereert,</l>
+						<l>Wél verstaande op trouw; én om ’t kontrakt te doen beschryven.</l>
+						<l>Zal ik dan voort gaan, en pas een ommezien uitblyven.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>Daar is myn ring, geef me de jouwe nou, én een zoentje toe.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Neen, daar, neemze maar zonder die sirkomstantien.</l>
+					</sp>
+
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Wél hoe,</l>
+						<l>Als men malkanderen trouw geeft, zoumen dan niet iens kussen?</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>’t Zal daar nae béter val hébben.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Jy wilt zéggen tusschen</l>
+						<l>De witte lakens. Jy hébt gelyk ook.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Nu Juffrouw, ’k ga</l>
+						<l>’t Kontrakt laaten maaken.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Zég ten minsten liefste.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Ia, ja.</l>
+						<l>Liefste wil ik zéggen.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Nou liefste, laet me tóch niet wachten,</l>
+						<l>Of ik zou van opréchte ongeveinsde liefde versmachten.</l>
+						<l>Wat hangt me al vreugd boven ’t hooft. Myn longen, én ingewand</l>
+						<l>Luiken op, als een roos, én staan in lichte klare brand.</l>
+						<l>Wél Héndrik, ik gae dan in huis, én zel me zo wat opkwikken;</l>
+						<l>[Ik bin al mooijer als ik lijk.]*</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Ik ga myn boodtschap beschikken.</l>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>VIII. TOONEEL.</head>
+					<stage>HENDRIK, ADRIAAN.</stage>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>TOe is de deur. Kozyn, Kozyn, waar is Juffrouw Agniet?</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Door dienze uw vader ginder zag, was ’t, dat ze me zo verliet,</l>
+						<l>Om my by hem alleen te laaten, óf ik hem kost beleezen;</l>
+						<l>Doch zy heeft gezeid, dat zy hier daadlyk weêr zal wezen.</l>
+						<l>Maar Kozyn, hoe staje mét Geertruij?</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Zie Kozyn, déze ring</l>
+						<l>Héb ik op trouw van haar.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Dat behaagt me zonderling.</l>
+						<l>Maar je vader is dichte by. Kom, je moet me verlaaten;</l>
+						<l>’k Zal zien, over wat boeg ik ’t wénd’, om hém te bepraaten.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Vaar wél dan, Kozyn, veur een oogenblik, want ik kom</l>
+						<l>Zo daadlyk weêr, of ’t nood deê, én ga maar een straatjen om.</l>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>IX. TOONEEL.</head>
+					<stage>JOOST, ADRIAAN.</stage>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>GOeden dag, Kozyn Adriaan.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Wél, dus uitgestreeken,</l>
+						<l>Kozyn, jy bént heel verjongd.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Zo doe ik, Kozyn. Eleweeken</l>
+						<l>Ik beloof myn allerliefste zulken dageraad.</l>
+						<l>Maar zég me tóch, hoe dat ’et al met Héndrik staat?</l>
+						<l>Ik zie, hy verlaatje. Gaat hy hem licht voor zyn vader verschuilen,</l>
+						<l>Om zyn kwaad hooft niet te toonen, gaat hy daarom zo heen pruilen?</l>
+						<l>’t Is een groote wysheid van hem.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Och, Kozyn, zou Héndrik</l>
+						<l>Kwaat zyn, neen, gantsch niet, hy is wonderlyk wél in zyn schik.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Is ’t wél moogelyk! dat is me zéker lief te hooren.</l>
+						<l>O, ’t is een vroom kind! nooit heeft hy me gezócht te verstooren.</l>
+						<l>Ia geen vader op de waereld heeft sulk een geschikte zoon.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Ik bekén het. Maar hy wénschte wél, dat jy tot loon</l>
+						<l>Van zyn geschiktheid hém toe woud laaten te trouwen</l>
+						<l>Die hy wilde; want hy is ’er door zyn woord aangehouwen.</l>
+						<l>Hy heeft zich zo straks verloofd, én bad me, dat ik ’t je bidden zou.</l>
+						<l>En daarom ging hy wég.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Verloofd! maar is ’t ook een ryke vrouw?</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Zy heeft wél anderhalve tonnegouds.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Wélk een wysheid</l>
+						<l>In een jonge bloem! ja wél, hy beschaamt myn oude grysheid.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Maar ’t is een wéduw mét een kind.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Wat schaadt dat?</l>
+						<l>’t Géld maakt ’et goed.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Ook is ze al vry bejaard.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Wat, wat,</l>
+						<l>Te meêr weet ze van huishouwen. Ik mérk de kneepen.</l>
+						<l>Ik wist niet, waarom hy* me by zyn liefstes moeder wou sleepen,</l>
+						<l>Hy wou licht aan, óf af wezen, omdat hy op dit verlooven stond,</l>
+						<l>Na ik nu zie. Wél, wat doet hy alles op een goede grond!</l>
+						<l>’k Verblyme zulk een kind te hébben; want ik had geen vreezen,</l>
+						<l>Als dat hy d’eenige sporling in myn huwelyk zou wezen:</l>
+						<l>Maar zo ik het wénsch, én begeer, valt alle dingen uit.</l>
+						<l>Zéker, ’t is een vroom jongman. Maar wie is doch zyn bruid?</l>
+					</sp>
+
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Uw bruids moeder.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Die fielt, wat heeft hy daar begonnen?</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>’t Was straks zulk een vroom jongman.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> ’k Hébme niet wél bezonnen,</l>
+						<l>Want wie zou denken, dat hy zulke dingen aanvangen zou?</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Hy neemt een éksémpel aan uw toekomende vrouw.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Wat éksémpel? neem ik myn vaders toekomende moeder?</l>
+						<l>Wat gelykenis is dat? én bén ik zyn vader niet? jy bént vroeder</l>
+						<l>Als jy praat Kozyn.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> O ja, ’k weet wél, dat ’et gansch niet past.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Wél, dat dénk ik wél.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Maar Kozyn, zie, ’t gaat meê vast,</l>
+						<l>Dat het u niet past na uw zoons liefste te kyken.</l>
+						<l>Daarom zo ’t hém niet past, past het u ook niet van gelyken.</l>
+						<l>Dés zoud’ ik u raden van uw vryster af te staan,</l>
+						<l>Dan was hy met goede rédenen van de zyne ook af te raân.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Goê rédenen, óf kwâ rédenen, ’k zég, ik zal niet lijen,</l>
+						<l>Dat hy me dat affront doen, én myn liefstes moeder zou vrijen.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Wat vrijen, Kozyn? hy heeft ’er al trouwbelóften van.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Heel wél, maar ’k moet zien, óf ik dat niet belétten kan.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Zo jy ’t belétten kunt, zal hy u ook licht konnen belétten</l>
+						<l>Uw vryster te trouwen.</l>
+					</sp>
+
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Zo hy hém daar tégen wil zétten,</l>
+						<l>Zal hy zyn légitime pórsie maar hébben, Kozyn,</l>
+						<l>Of pér denasie intervives (want het myn is het myn)</l>
+						<l>Zal ik ’t aan een kant maaken; én évenwél zal hy me niet weeren</l>
+						<l>Lusij te trouwen.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Dan zal hy ook licht, tégen jou begeeren,</l>
+						<l>Lusys moeder trouwen; én zy heeft wél zoo veel goed,</l>
+						<l>Dat, indien zy dan de zélve wég ingaat, als jy doet,</l>
+						<l>Zo zal hy meêr op u, als gy op hém, konnen winnen.</l>
+						<l>Maar geloof me, bedaarje, én dénk mét bezadigde zinnen,</l>
+						<l>Of ’t niet béter waar, dat gy u alle beide raaden liet,</l>
+						<l>En mét malkander ruilde.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Kozyn, zie daar, dat doe ik niet,</l>
+						<l>Al zou stad, en land, hól over ból, en ’t onderst boven raaken.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Zyt gy dan niet te raaden?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Al te maal vergeefsche zaaken.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Wél Kozyn, hoor dan toe mét wat minder ongeduld.</l>
+						<l>Als men ’t al zéggen zal, uw zoon heeft wél de minste schuld;</l>
+						<l>Dat oude vél heeft hém de poppen in ’t hoofd gesteeken,</l>
+						<l>Want zy heeft hém lang bemind, én dése kans afgekeeken,</l>
+						<l>Door dien dat haar dóchter zich aan u had ondertrouwd.</l>
+						<l>Die oude donderhéks heeft u al deze verwarring gebrouwd.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Kozyn, ik geloof wél, dat het waar is.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Wél te weeten;</l>
+						<l>Want uw zoon is immers niet krankzinnig, óf bezeeten;</l>
+						<l>Zy heeft hém liefdekruid ingegeeven, dat is gewis;</l>
+						<l>Dat die jongman zo op dat verzoorde vél verslingerd is.</l>
+						<l>Daarom zou ik ’er zo voort gaan overhaalen, én doorstryken,</l>
+						<l>Dat zy vreezen zou, én schrikken na jou zoon om te kyken.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Dat had ik ook in ’t zin; zy zal wél afstaan, als ’t naauwt,</l>
+						<l>En ik haar zo aan boord lég.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Wakker dan, eer uw yver verflaauwt.</l>
+					</sp>
+				</div>
+				<div type="scene" n="10">
+					<head>X. TOONEEL.</head>
+					<stage>JOOST, GEERTRUIJ.</stage>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>GOeden dag, myn Heer, wat is jou vraagen?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Myn vraagen,</l>
+						<l>Oude Tovenaarster, dat is, wat voor drommelsche laagen</l>
+						<l>Jy op myn zoon geleid hébt, dat hy krankzinnig, én mal</l>
+						<l>Geworden is?</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Wat zoon?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Héndrik, die jou trouwen zal,</l>
+						<l>Zo ik ’t niet belét; want hy moet dol, én krankzinnig weezen,</l>
+						<l>Dat hy hém van zo een stinkende karonje laat beleezen.</l>
+						<l>Kyk, hoez’ ’er opgehémeld heeft! dat ’s een staaltje! dat ’s een
+							beeld!</l>
+						<l>Foeij, schaamje, dat je zo de vroome luij haar kinderen ontsteelt.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>Zo bén jy dan Joost, de vader van Héndrik, myn vrijer?</l>
+						<l>Wél, jy hébtje meê niet leelyk toeëtakeld, als een snijer,</l>
+						<l>Of kwakzalver. Jy bént een fatzoentje, récht uit ezeid;</l>
+						<l>Al bénje geschraapt, jy lykt ’er wél ien, om een fluksche meid,</l>
+						<l>Als myn dóchter, op te passen. Wie my niet durft schélden!</l>
+						<l>Kom jy noch veur myn oogen, én durf jy jou anmelden?</l>
+						<l>Jy oude Suzannesboef hébt myn ienige dóchter verleid,</l>
+						<l>En verwyt myn, dat jou zoon myn vryt, wél dat ’s een schoon bescheid!</l>
+					</sp>
+				</div>
+				<div type="scene" n="11">
+					<head>XI. TOONEEL.</head>
+					<stage>LUCIA, JOOST, GEERTRUIJ.</stage>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>HY heeft me niet verleid, ik héb hém begeerd, moet gy weeten;</l>
+						<l>Daarom schéld myn bruigom niet, óf ik zou licht vergeeten,</l>
+						<l>Dat ik u dóchter bén; want dat hem raakt, gaat my meê aan,</l>
+						<l>En ik bén min een moeder, als een man, gehouden voor te staan.</l>
+					</sp>
+				</div>
+				<div type="scene" n="12">
+					<head>XII. TOONEEL.</head>
+					<stage>HENDRIK, JOOST, GEERTRUIJ, LUCIA.</stage>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>WEl, zo bén ik ook gehouden myn vrouw voor te spreeken,</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Hou den bék, béngel. Kyk, waar hem déze jongen in wil steeken!</l>
+						<l>Dénk, dat jy myn zoon bént.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Dénk, dat jy de myne haast weezen zult.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>Maar dan zal ik uw moeder weezen.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Wacht je myn geduld</l>
+						<l>Te térgen, kladdegat, of ik zweer, ik zalje doen voelen</l>
+						<l>Met déze vuisten, dat ik jou moêr bin, én myn moet zo koelen</l>
+						<l>Datje weeten zélt gekastyt te weezen, daarom houdje mond.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Begin dat ééns, heete teef.</l>
+					</sp>
+
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Wél lamlénden, schieven hond.</l>
+					</sp>
+				</div>
+				<div type="scene" n="13">
+					<head>XIII. TOONEEL.</head>
+					<stage>ADRIAAN, AGNIET, JOOST, GEERTRUIJ, LUCIA, HENDRIK.</stage>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>FOeij, schaamt u wat, malkander zo op de staat uit te luchten.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>’t Geeft me wonder, dat ’er nóch geen volk vergaârt.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Zulke kluchten</l>
+						<l>Récht me die onverstandige oude rammelaar uit.</l>
+						<l>Hy komt me veur myn deur uitfunsen. Is dat niet een schavuit?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Verdien je ’t niet, mét my myn eenige zoon te onthouwen?</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Jy hébt ongelyk, ik zal haar uit myn eigen vrije wil trouwen.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Déze béngel valt myn altyd in myn woorden.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Wel hoe,</l>
+						<l>Wat beelt gy u in, dénk ik, komt my de eer zo wél niet toe</l>
+						<l>Als u, van eerst te spreeken? zal ik uw vader niet haast heeten?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Dat zal ik wél belétten; én buiten dat moet je weeten,</l>
+						<l>Al had jy myn vrouws moeder; én ik de dóchter van jouw vrouw,</l>
+						<l>Dat ik jou ouder bén, én ’t eerst spreeken my passen zou.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>Wel dan zou ’t myn veur jou allegaâr te zaamen passen.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Maar ik ben een man.</l>
+					</sp>
+
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Dit varken zullen wy jou ook wél wassen.</l>
+						<l>Waer zie jy myn liefste veur an? ’k wed hy zyn vaâr beschaamt</l>
+						<l>Van manheids halven: én dewyl het betaamt,</l>
+						<l>Dat de mannen ’t woord voeren, zo laat ik hém voor myn spreeken.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l>Wel zo aan de jaaren van myn liefste iets mogt ontbreeken,</l>
+						<l>De twintig jaaren, die ik oud bén, voeg ik ’er dan by.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Wel bedócht, die by myn séstig maakt tachtig.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l> En jy</l>
+						<l>Hébt maar zésensestig, dus schiet ’er éffen veertien* over.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Daar heeft myn liefste gelyk in.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Zy kan haar niet gróver</l>
+						<l>Verzinnen, want zo zy haar jaaren by de uwe zét,</l>
+						<l>Zét ik myn vierentwintig by myn liefstens, dat ’s négen bét</l>
+						<l>Als jy mét je beijen.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Daar valt niet tégen te kediezen,</l>
+						<l>Dat ’s uit, wy moeten eerst spreeken. Bekénje ’t te verliezen?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Wel ja, ik bekén ’t. Spreek eerst dan, wat is je wil?</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Met verlóf, vrinden, zwyg allebeij eerst een weinig stil,</l>
+						<l>En zét jou verschil aan ons, wy hoopen het by te léggen.</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Ik bén ’er meê te vréden.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Ik hou my ook aan jou zéggen,</l>
+						<l>Kozyn Adriaan.</l>
+					</sp>
+
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Ik ook Agnietje nicht.</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l> En ik mêe.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Hoort eens vrinden, ik zie in der eeuwigheid geen vrêe</l>
+						<l>Tusschen u lieden, indien één van déze huuwelyken</l>
+						<l>Voortgang nam, want het schynt van de réden te wyken,</l>
+						<l>Dat men u alle vier aan malkander trouwen zou,</l>
+						<l>En dat een zoon zyn vaders schoonvader, óf een dóchter de vrouw</l>
+						<l>Van haar moeders schoonvader zou zyn. ’t Is tégen de wétten:</l>
+						<l>En om u de een tégen des anders huuwelyk te zétten,</l>
+						<l>Hebt gy allebeide éven groote réden. Dés zult gy zien,</l>
+						<l>Dat men u alle vier uw malle huuwelyken zal verbiên.</l>
+						<l>Te meêr, om dat uw kinderen gelyk, als gedwongen</l>
+						<l>Door uwe Wanhébbelyke liefde, die krullen, én sprongen</l>
+						<l>In ’t hoofd kreegen. En dus word gy aan al de waereld tót een spót.</l>
+						<l>Behalven dat is ’t by u-lieden vrinden gewéldig verbród;</l>
+						<l>Ik komze mét Agnietje daar zo daadelyk te spreeken.</l>
+						<l>Wy vertélden haar uw toekomend huuwelyk. Hoe ze opkeeken,</l>
+						<l>Is niet uit te drukken; zy scholden zeer, én zwoeren met één,</l>
+						<l>Dat zy ’t niet lyden zouden, én dreigden met uw tween,</l>
+						<l>Dat zy ’er zich in steeken zouden, én de zaak zo betwisten,</l>
+						<l>Dat jy alle vier steêkind raakte, daar ze gemakkelyk raad toe wisten,</l>
+						<l>Zo zy zeiden; maar ook, wie van u vieren af zou staan,</l>
+						<l>Die zouden ze hélpen, om tégen d’onwillige aan te gaan.</l>
+						<l>Daarom verklaar gy, Héndrik, door dien gy eerst moet spreeken,</l>
+						<l>Na Joostneefs bekéntenis, wilt gy ’t huuwelyk laaten steeken?</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l>Ja, liever, als van myn vrinden steêkind gemaakt te zyn.</l>
+					</sp>
+
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l>Dénk wat je zégt, liefste; kanje myn dat hérteleed, die pyn</l>
+						<l>Aandoen?</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> ’k Doe ’t gedwongen.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> En jy, Lucytje?</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l> Ik van gelyken.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>En jy Joost neef, wat zegt gy?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l> Ik sta vreemd toe te kyken.</l>
+						<l>Maar zoudenze myn steêkind maaken kunnen?</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Dat ’s gewis.</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Wél Kozyn, dan sta ik ook óf, zo dat zo jou meening is.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>En jy, Juffrouw Geertruij.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Moet ik niet wél, al woud ik niet willen?</l>
+						<l>Maar wat raed is ’er nou om die brand te koelen, én te stillen,</l>
+						<l>Die die échte opréchte liefde ontsteeken heeft in myn bloed?</l>
+					</sp>
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>En hoe maak ik het tóch, ik bén ook al vry heet gebroed.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Hoor Juffrou, wyl jy nóch moed hébt zo een jong kwant te behaagen,</l>
+						<l>En Kozyn, gy ’t ook mét een meisje van twintig jaaren durft waagen,</l>
+						<l>Zo zoudt gy malkanderen wél passen, én gy kondt uw vuur van stroo</l>
+						<l>Eens hélder doen op branden. Daarom, vrinden, verstaat gy ’t zo,</l>
+						<l>Trouwt gy luiden malkander, én laat Héndrik mét Lucytje paaren.</l>
+					</sp>
+
+					<sp who="#joost">
+						<speaker>JOOST.</speaker>
+						<l>Wél zie daar, ik bén te vréden, zo ’t Geertruij doen wil.</l>
+					</sp>
+					<sp who="#geertruij">
+						<speaker>GEERTRUIJ.</speaker>
+						<l> Garen;</l>
+						<l>Want ik zie wél, dat ’er veur myn anders niet van vallen zel?</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>En gy Lucytje?</l>
+					</sp>
+					<sp who="#lucia">
+						<speaker>LUCIA.</speaker>
+						<l> ’k Ben te vréden.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l> Hoe gy Héndrik?</l>
+					</sp>
+					<sp who="#hendrik">
+						<speaker>HENDRIK.</speaker>
+						<l> Wonder wél.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l>Wél Adriaan, jy kunt mét huuwelyk maaken omspringen.</l>
+					</sp>
+					<sp who="#adriaan">
+						<speaker>ADRIAAN.</speaker>
+						<l>Dat wy ’t dérde paar maakten, én meê voor de Roôdeur gingen?</l>
+						<l>Wy zouden malkanders getuigen weezen, én ’t zou met een</l>
+						<l>Kósten, én moeiten deurgaan.</l>
+					</sp>
+					<sp who="#agniet">
+						<speaker>AGNIET.</speaker>
+						<l> Daar is myn hand, ik bén ’er meê te vreên.</l>
+					</sp>
+					<p>EINDE.</p>
+				</div>
+
+			</div>
+		</body>
+	</text>
+</TEI>
