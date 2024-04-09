@@ -1,0 +1,3310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000219" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Iphigenia</title>
+				<title type="sub"/>
+				<author>
+					<persName>
+						<forename>Samuel</forename>
+						<surname>Coster</surname>
+					</persName>
+					<idno type="wikidata">Q2371985</idno>
+					<idno type="pnd"/>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL"
+						>https://www.dbnl.org/tekst/cost001rako01_01/cost001rako01_01_0030.php</idno>
+					<title>Samuel Coster, Samuel Coster's werken, R.A. Kollewijn (ed). De Erven F.
+						Bohn, Haarlem 1883</title>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Samuel Coster: Iphigenia. Amsterdam: Nikolaas Biestkens, 1617.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="MALE" xml:id="agamemnon">
+						<persName>Agamemnon</persName>
+					</person>
+					<person sex="MALE" xml:id="achilles">
+						<persName>Achilles</persName>
+					</person>
+					<person sex="MALE" xml:id="calchas">
+						<persName>Calchas</persName>
+					</person>
+					<person sex="FEMALE" xml:id="clitemnestra">
+						<persName>Clitemnestra</persName>
+					</person>
+					<person sex="MALE" xml:id="euripylus">
+						<persName>Euripylus</persName>
+					</person>
+					<person sex="FEMALE" xml:id="iphigenia">
+						<persName>Iphigenia</persName>
+					</person>
+					<person sex="MALE" xml:id="menelaus">
+						<persName>Menelaus</persName>
+					</person>
+					<person sex="MALE" xml:id="nestor">
+						<persName>Nestor</persName>
+					</person>
+					<person sex="MALE" xml:id="palamedes">
+						<persName>Palamedes</persName>
+					</person>
+					<person sex="MALE" xml:id="protesilaus">
+						<persName>Protesilaus</persName>
+					</person>
+					<person sex="MALE" xml:id="rey-der-priesteren">
+						<persName>Rey der Priesteren</persName>
+					</person>
+					<person sex="MALE" xml:id="rey-der-griecken">
+						<persName>Rey der Griecken</persName>
+					</person>
+					<person sex="UNKNOWN" xml:id="rey-van-diana">
+						<persName>Rey van Diana</persName>
+					</person>
+					<person sex="MALE" xml:id="rey-van-grieckse-papen">
+						<persName>Rey van Grieckse papen</persName>
+					</person>
+					<person sex="MALE" xml:id="tersites">
+						<persName>Tersites</persName>
+					</person>
+					<person sex="MALE" xml:id="ulysses">
+						<persName>Ulysses</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-09">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1617">
+				<desc/>
+			</event>
+			<event type="premiere" when="1617">
+				<desc/>
+			</event>
+			<event type="written" when="?">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+			<head>Iphigenia. Treur-spel.</head>
+			<div type="preface">
+				<head>Inhoudt deses treur-spels.</head>
+
+				<p>De Griecksche Vorsten door de ontschakinghe van Helena, en Menelaus aan-raden,
+					vviens Huys-vrouvve zy vvas, de Wapenen aan ghetrocken hebbende, om haar met
+					gevvelt de Troyanen vveder af te dringen, zyn met hare Vloote in Aulis
+					vervallen, vvaarse door tegenspoet van vvint en stroom, lange tijt misnoegende,
+					hebben moeten havenen. Vlysses, dien ick in dese Tragedie als een staat-geerich
+					Prince in-voere, neemt dese gelegentheyt vvaar, en stroyt door hiet Legher, dat
+					het de Goddinne Diana niet en belieft voor-spoet tot desen tocht te verleenen,
+					voor dat Agamemnon, den oppersten Velt-Heer deses Heyrs, haar met zynen bloede,
+					voor de begangene misdaden, in het schieten eender Hinde, versoent soude hebben;
+					hopende dat de Vorst aan alsulcke schult-betalinge niet en soude vvillen, ende
+					dat daar door gelegentheyt gevonden soude mogen vverden, om hem met den name van
+					Godloos te bekladden, ende den volcke, dat door een blinden yver ghedreven
+					vvordt, aan hem te doen misnoeghen, ende also den roep in het Griecksche Legher
+					te brengen, dat onder het beleyt van Agamemnon, de Troyaansche Oorloge
+					nimmermeer en soude gelucken, om also door de gunste des Grieckschen
+					Priesterschaps, die ick stelle dat hy, Vlysses, op syn handt ghehadt heeft, den
+					Myceenschen Koning te bossen, en het opperste gebiet selver te bekomen. Desen
+					aanslach in 't vverck gestelt door driederley maxsels van Menschen, door
+					Baat-suchtige, Staat-suchtige, en oordelose Ghesellen; vvort door op-rechte,
+						vvelgenoegende en rype verstanden belet,
+					die den verongelijckten Vorste daar toe bevveghen, dat hy zijn Dochterken,
+					Iphigenia, den gestoorde Goddinne Diana soude schijnen te slachten, om het
+					volck, dat alsoo licht door Afgoderye te misleyden als door vvare Godsdienste te
+					gheleyden is, te stillen, en 'tschelmstuck dat Vlysses bedocht, ende door
+					Euripylus in 't vverck ghestelt hadde, tot vvelstandt des ghe-meenen zaacks voor
+					te komen. Den gheheelen handel van Troyen is een versiering, ofte ten minsten
+					isser seer vveynich vvaarheyts aan: daarom en salmen 't my niet qualijck
+					af-nemen, dat ick hier mede speele, ghelijck als het my, om mijn voornemen uyt
+					te spreken, gheleghen komt.</p>
+				<p>Voor al is dit de vvaarheyt, datter noyt Diana, ofte diergelijcke Heydensche
+					Afgoden in vvesen ghevveest zyn, niet teghenstaande datse als heylich door der
+					Papen ingeven van blinde yveraren zyn aangebeden gevveest: So moet dan oock
+					volgen dat haar geen Diana, tot verlossinghe van Iphigenia, die voor hares
+					Vaders misdaden op-gheoffert ghevveest soude hebben, vertoont en heeft, maar dat
+					Calchas, die ick Agamemnons zyde doe houden, dit also door een andere Vrouvv'
+					besteldt heeft, om 't volck de ooghen te vervullen, de onschuldige Iphigenia te
+					behouden, den listigen Vlysses in zijn Staat-sucht te smooren, den Godloosen
+					Euripylus aan ghelijck tegen-vergifte te doen barsten, ende den rechtvaardighen
+					Agamemnon in eere te houden. Besluytende, dat de oude Poëten dit niet voor een
+					logen de nakomelingen inde hand stoppen, maar als een schildery aan de vvant
+					hangen, daar in de siende menschen des Werelts loop kunnen af-meten, en
+					bespeuren hoe den Schynheylich, onder den deckmantel van Godsdienst, zyn
+					personagie speelt. Hoe Staat en Baat-sucht in het kleet der oprechticheyt, al
+					soudet alles t'onderste boven raken, haar schelmeryen op-proncken, ende tot haar
+					voordeel int vverck stellen.</p>
+				<p> </p>
+				<p>Anno 1617. September 22.</p>
+			</div>
+
+			<castList>
+				<head>Personen van 't spel.</head>
+				<castItem corresp="#achilles">
+					<role>Achillis.</role>
+				</castItem>
+				<castItem corresp="#agamemnon">
+					<role>Agamemnon.</role>
+				</castItem>
+				<castItem corresp="#calchas">
+					<role>Calchas.</role>
+				</castItem>
+				<castItem corresp="#menelaus">
+					<role>Menelaus.</role>
+				</castItem>
+				<castItem corresp="#protesilaus">
+					<role>Protesilaus.</role>
+				</castItem>
+				<castItem corresp="#tersites">
+					<role>Tersites.</role>
+				</castItem>
+				<castItem corresp="#euripylus">
+					<role>Euripylus.</role>
+				</castItem>
+				<castItem corresp="#palamedes">
+					<role>Palamedes.</role>
+				</castItem>
+				<castItem corresp="#nestor">
+					<role>Nestor.</role>
+				</castItem>
+				<castItem corresp="#rey-der-griecken">
+					<role>Rey der Griecken.</role>
+				</castItem>
+				<castItem corresp="#ulysses">
+					<role>Ulysses.</role>
+				</castItem>
+				<castItem corresp="#iphigenia">
+					<role>Iphigenia.</role>
+				</castItem>
+				<castItem corresp="#clitemnestra">
+					<role>Clytaemnestra.</role>
+				</castItem>
+				<castItem corresp="#diana">
+					<role>Diana.</role>
+				</castItem>
+				<castItem corresp="#rey-der-priesteren">
+					<role>Rey der Priesteren.</role>
+				</castItem>
+				<castItem corresp="#rey-van-staat-dochters">
+					<role>Rey van staat-Dochters stom.</role>
+				</castItem>
+				<castItem corresp="#rey-van-diana">
+					<role>Rey van Diana stom.</role>
+				</castItem>
+			</castList>
+		</front>
+		<body>
+			<div n="1" type="act">
+				<div n="1" type="scene">
+					<head>Eerste bedrijf. Eerste toneel.</head>
+					<stage>Achilles. Agamemnon.</stage>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>De zaack die loopt zo vreemt na dat ick daar van oordeel,</l>
+						<l>Dat ick niet zegghen kan oft scha zou zijn of voordeel.</l>
+						<l>Ziet eens Myceensche Vorst, ghy zyt alree ten hoof,</l>
+						<l>(Inzonder by 't ghemeene volck) in dat gheloof,</l>
+						<l>Dat ghy schier niet ghelooft aan eenighe der Goden,</l>
+						<l>Om dat ghy teghenstreeft de bittere gheboden</l>
+						<l>Van Hecate; en 't volck dat dwingt een Vorst dat hy</l>
+						<l>Ghelooven moet, oft toch hem veynsen moet, als zy.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Dat elck inwendich dus oft so van Godt ghevoele,</l>
+						<l>Dat moet ick lyden, want wild ick daer tegen woelen,</l>
+						<l>Zo stelden ick het aan als God; en Godes macht</l>
+						<l>Ontbreeckt my, om te zien wat elck van Godt bedacht.</l>
+						<l>Dit zie 'k, dit ly ick niet, dat elck van Gode leere,</l>
+						<l>Den mensch int openbaar al 't quaat dat hy begeere:</l>
+						<l>Dat was uytsinnicheyt, en zulck ontzint ghebroet</l>
+						<l>Zoeck ick te dempen met een yverich ghemoedt.</l>
+						<l>En dat my nu een hoop onrustighe ghezellen</l>
+						<l>Zoeckt tot haar Godsdiensts staat een harde wet te stellen,</l>
+						<l>'K en sta 't haar nummer toe: maar ick stel haar ghemeyn</l>
+						<l>Een wet, ghehoorsaamheyt: alzo daar nu in treyn</l>
+						<l>Zo veel Godsdiensten zijn die weynich zoude scheelen</l>
+						<l>'t En deed styfzinnicheyt, die niet zoeckt dan krackeelen.</l>
+						<l>Ziet dan, gheef ick den grootst dan al wat hy begeert,</l>
+						<l>'K maack hem licht al te groot, en dien die me Godt eert</l>
+						<l>Veel te ghering misschien. Zulcx dat ick na myn oordeel</l>
+						<l>'Tschier nodich acht te zijn tot 's Lants en 's Vorsten voordeel,</l>
+						<l>Wanneer hy in zyn Rijck heeft yveraren haat,</l>
+						<l>Dat hy die voed', so sticht hy sich een vaste staat.</l>
+						<l>Daar hy, zoo 'y al te seer op d' eene zyd wil hellen,</l>
+						<l>Zijn wereltlijck gheluck in groot ghevaar sal stellen.</l>
+						<l>De reden is, om dat de blinde yver van</l>
+						<l>'T ghemeene Volck (die toch niet verder en ziet, dan</l>
+						<l>De neus haar lang en is) de gheestelijcke prachten</l>
+						<l>(Die 't haar laat dencken oock) toerekent alle machten,</l>
+						<l>Ja toe-schrijft het ghewelt in Hemel en op Aardt.</l>
+						<l>Zelfs hier daar ghy my tot het heerschen kenden waardt.</l>
+						<l>En 't gheestelijck dat zich dit achten moest onwaardich,</l>
+						<l>En 't volck bestratten dies: wat doet het? maar hovaardich</l>
+						<l>Tracht heb na grootheyt, daar 't noch naulijcx aan genoeght,</l>
+						<l>Hoewel haar alderbest moey'lijcke kleynheyt voeght;</l>
+						<l>Kleynheyt, so zouden zy door rijckdoms dertelheden</l>
+						<l>Den volcke min als nu erg'ren met quade zeden.</l>
+						<l>Dat oock haar kleynheyt zy met moeylijckheyt vermengt</l>
+						<l>Is an belangt: want my nu driemaal al ghedenct,</l>
+						<l>Dat dese, doese niet heel waren overladen</l>
+						<l>Met stage slaverny in haar beroeping, traden</l>
+						<l>Haar parck te buyten, en z'en hielen gansch gheen maat,</l>
+						<l>Haar te bemoeyen met regeringe van staat,</l>
+						<l>Daar in zy zijn zo blint als blint gheboren mollen,</l>
+						<l>En wroetent al om met haar schriftelijcke grollen.</l>
+						<l>Ist dan geen nodich quaat voor 't stadich Griecksche Rijck,</l>
+						<l>Dat ick haar stadich werck berey met haars ghelijck?</l>
+						<l>Want wast dat Mopsus niet met Calchas en verscheelden,</l>
+						<l>En dus belachelijck om raatseltgens krackeelden,</l>
+						<l>En dat zyt waren eens, ick denck zy zouden my</l>
+						<l>Ten strijd ontseggen om de Wereltsche vooghdy.</l>
+						<l>Dies moet ick nodich haar oneenicheden voeden,</l>
+						<l>En geven noloos werck d' onrustige ghemoeden,</l>
+						<l>En doen alleens, ghelijck de Kindren seggen, dat</l>
+						<l>De duyvel-jager doet, als hy een heymlijck schat</l>
+						<l>Door hulp van jckers sich vermeet int licht te brengen,</l>
+						<l>En dat daar een van al dit niet en wil ghehengen,</l>
+						<l>Dien gheeft hy hant-gebaar en daatlijck ander werck,</l>
+						<l>Ghelijckmen dit volck oock moet gheven als ick merck.</l>
+						<l>Wat doet hy? maar hy ken den aardt van die ghezellen.</l>
+						<l>Hy stelt den warraar aan een ton met zandt te tellen,</l>
+						<l>Daar aan hy hem vergheet; dus krijght de tov'raar rust,</l>
+						<l>Die midlertydt al doet wat hem belieft en lust.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Achi.</speaker>
+						<l>Door dees uytvallentheyt zyt quaatste van u mienen,</l>
+						<l>Veynst u, en wilt u God met gangb're Godsdienst dienen.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Al wat naturelijck en redelijcke leeft,</l>
+						<l>Dient eenen God alleens die 't al gheschapen heeft.</l>
+						<l>Wie dat dan die God is, en hoe men hem moet eeren,</l>
+						<l>Sal gheen ghewoonte, maer de goed natuur my leeren,</l>
+						<l>Die zonder dat is, en het ware Godlijck in</l>
+						<l>Den mensch, en wijst den mensch tot God, tot zijn begin:</l>
+						<l>Daar de verkeerde wenst den mensche set gheboden</l>
+						<l>Verscheyde dienst te doen aan veelderley afgoden,</l>
+						<l>En hist so man op man: want elck meent door gewoont</l>
+						<l>Dat hy den waren Godt maar ware dienst betoont.</l>
+						<l>En dees eensyicheyt maackt al de Werelt gaande,</l>
+						<l>En leert hem logens, die de logen oock hout staande,</l>
+						<l>Die so waarschijnlijck is, dat yveraar die niet</l>
+						<l>Voor waarheyt onderscheyt, hoe deun hy die beziet,</l>
+						<l>Ghelijck hy selden doet, door dien hy tot zijn voordeel,</l>
+						<l>Sijn weet van Waarheyt stelt aan 't aldervalste oordeel</l>
+						<l>Van een styfzinn'ge Paap, die dit maar heeft gheleert,</l>
+						<l>Te bootsen 't volck een God als 't meeste volck begeert.</l>
+						<l>Dat is Erypylus, die komt hier om te dooden</l>
+						<l>Iphigeni, door last van veer gheleghen Goden.</l>
+						<l>Hoe komt het booswicht dat ghy 't huys u Goon niet vraagt</l>
+						<l>Of dit u uytstel oock haar heylicheyt behaagt?</l>
+						<l>Wat is dit anders guyt als met u Goden gecken,</l>
+						<l>En 't volck hun Godheyt waard te doen in twijfel trecken?</l>
+						<l>Dan blinde yveraar 'k weet dat ghy 't yv'rich spreeckt,</l>
+						<l>Maar dat Vlysses dit dus looselijck besteeckt.</l>
+						<l>Wat zoeckt Vlysses my te maken tot een bastert</l>
+						<l>Van dese Kroon, door hulp van 't volck dat Gode lastert?</l>
+						<l>Wat moeyten maackt hy my, wat blaast hy 't volc in 't hooft</l>
+						<l>Voor valse Godsdienst, daer hy selfs niet an ghelooft?</l>
+						<l>Vlysses doen wert nergens beter by verleken</l>
+						<l>Als by het weyd-spel en des weyd-mans loose treken,</l>
+						<l>Daar van hy vol is, en lockt listich in zijn net</l>
+						<l>'t Ghevogelt, dat op gheen bedriegery en let.</l>
+						<l>Want als de Vogelaar weet lieflijck na te apen</l>
+						<l>Der vog'len rechte lijm, om 't vogeltgen te drapen,</l>
+						<l>Zo speelt hy met zijn tong, dat zijn ghebootste reen</l>
+						<l>Den volcke lieflijk zijn, al meent hyder niet een.</l>
+						<l>En oft nu zo gheviel dat daar van zo veel hoofden</l>
+						<l>Een looser was, die juyst zyn praat niet al gheloofden,</l>
+						<l>Dien stuurt hy mannen aan van wonderlijcke schyn,</l>
+						<l>Die de stel-vogels van de loose Vog'laar zyn:</l>
+						<l>Als is Eurypylus (met zijn ghesinde trouwen)</l>
+						<l>Dien meest de menschen als haar God op aarden houwen:</l>
+						<l>Als hy wel bet weet, dan de leke-broers al waars,</l>
+						<l>Die dapper groeyen en toe-nemen alle jaars.</l>
+						<l>Door schijn van desen wert een wyse zelfs bedroghen,</l>
+						<l>Want hy ghelooft het geen hy meent te sien met oghen,</l>
+						<l>Te weten datse zijn vol Wijsheyts, als het schijnt,</l>
+						<l>En 't zyn maar molicken ghevult met kaf en wijnt.</l>
+						<l>'K zie Menelaus daar met Calchas herwaarts komen.</l>
+						<l>Vertreckt.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>Eerste bedrijf. Tvveede toneel.</head>
+					<stage>Calchas. Menelaus. Agamemnon.</stage>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Al 't volck heeft dat voor heylich aangenomen,</l>
+						<l>Sulcx dat de Vorst zijn Kroon, door dit te weyg'ren, zal</l>
+						<l>Verliesen, oft zijn Kint Diana ten gheval</l>
+						<l>Onnosel slachten, een van twee sal moeten wesen:</l>
+						<l>Want weygert hy 't te doen, dan staat hier voor te vresen,</l>
+						<l>Dat hy voor goddeloos ghescholden en ghevloeckt</l>
+						<l>Sal worden, en dat ist recht dat Vlysses soeckt.</l>
+						<l>Ick wenschte wel dat wy 't een wijl verhind'ren konden,</l>
+						<l>Dan 't schielke volck is vast aan haar Godsdienst ghebonden.</l>
+					</sp>
+					<sp who="#menelaus">
+						<speaker>Men.</speaker>
+						<l>En is dit Godsdienst dan? 't schijnt my wel onbequaam.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>'t Sy Godsdienst, 't zijt oock niet, het heefter van de naam.</l>
+					</sp>
+					<sp who="#menelaus">
+						<speaker>Men.</speaker>
+						<l>So moet het heylich zijn, al quam 't schoon vanden bosen.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Neen, heylich is het niet, dan 't worter voor verkosen</l>
+						<l>Van 'tmeeste volck, dat haar laat binden aan een stro.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Calchas! </l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>C.</speaker>
+						<l>Hoort daar de Vorst. </l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>A.</speaker>
+						<l>Calchas hoe gatet so?</l>
+						<l>Calchas staat ghy dan toe des last'raars misverstanden?</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>'K soeck Agamemnon niet als voordeel vande Landen.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Ist voordeel dan van 't Landt ghelegen in een moort?</l>
+					</sp>
+					<sp who="#menelaus">
+						<speaker>Men.</speaker>
+						<l>Doet-men der Goden wil, men doet dan zoo 't behoort.</l>
+						<l>Willen zyt quaat, laat ons haar geven datze willen.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>'K gheef dit haar node, neen, ze zijn zo niet te stillen.</l>
+						<l>Maar Menelaus, en ghy Chalchas, 'k wild ick wist</l>
+						<l>Waar uyt het volck en ghy der Goden gramschap gist.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Wel noemt ghy 't gissen Vorst: dit zijnder van de reden,</l>
+						<l>'s Volcx mompeling, want 't schijnt haar veel te lang gheleden</l>
+						<l>Datse hier havenen, zonder te sien wanneer</l>
+						<l>En hoese raken aan verandering van weer,</l>
+						<l>En aan ghewenschte wint, want dit is haar vermoeden,</l>
+						<l>Dat dit verhindert de Godin der Watervloeden,</l>
+						<l>Wiens toren achten zy t'uwerts te syn soo groot,</l>
+						<l>Om dat ghy een van haar ghewyde Hinden schoot,</l>
+						<l>Dies gist het volck dat zy daar al om lyden moeten</l>
+						<l>So lang, tot dat de Vorst haar sal die misdaet boeten.</l>
+						<l>Waar me toch? met een Beer, die 'r voorheen wel gheviel?</l>
+						<l>Neen, haar ghevalt nu maar Iphigeniaes ziel.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>'t Afgodisch volck dat raast, en al de zo ghesinden,</l>
+						<l>Wat deed men eertijts als d' ondwingelijcke winden</l>
+						<l>In noch veel langher tydt, by schoone zomer dach,</l>
+						<l>Niet woeyen? deed men dus? neen men, maar met verdrach</l>
+						<l>Verwachten men den tijt, die 'k oock nu wil verbeyen</l>
+						<l>Met lijdsaamheyt, de wint zal 'tsynder tydt wel weyen.</l>
+					</sp>
+					<sp who="#menelaus">
+						<speaker>Men.</speaker>
+						<l>Neen Agamemnon, 't is nu gansch een ander tijdt,</l>
+						<l>Een tijdt dat dese staat gheen uytstel langer lijdt,</l>
+						<l>Want 't Legher scheuren sal, 't Krijghsvolck sal verlopen,</l>
+						<l>En Agamemnon, wie zoud dat zo zuur bekopen</l>
+						<l>Als ick, die d'oorsaack ben dat ghy dees eer gheniet?</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Zoud 't zo, so waart ghy my mijn oorsaack van verdriet.</l>
+						<l>Hoort Menelaus, wat sal ick u meer verstrecken</l>
+						<l>Als een ghekroonde knecht, daar ghy alleen van trecken</l>
+						<l>Sult voordeel en genot? </l>
+					</sp>
+					<sp who="#menelaus">
+						<speaker>M.</speaker>
+						<l>Ghy d' eer. </l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>A.</speaker>
+						<l>Die my beswaart.</l>
+						<l>Neen. Helena nocht ghy en zyt my dat niet waerd</l>
+						<l>Dat ick mijn dochters bloet so godd'loos zoud' verquisten.</l>
+						<l>Slaapt Menelaus, en dut Calchas die de listen</l>
+						<l>Van veel bedeckt bedrochs pleech kloeck'lijck te voorsien?</l>
+						<l>En ziet ghy niet dat dit gheen Goden en ghebien?</l>
+						<l>Maer dat Vlisses dit heeft door zijn loose treken</l>
+						<l>Door 't yv'rich volck en door de Geest'lijckheyt besteken?</l>
+						<l>Om my, zo 'k 'tweygrigh was, te brenghen inden naem</l>
+						<l>Van Godeloos, en voorts daer over onbequaem</l>
+						<l>Om dit hooft met een Kroon van Heerlijckheyt te decken:</l>
+						<l>En hem door 't Geest'lijck volck (dat veel vermach) verwecken</l>
+						<l>Stemmen by stemmen, om te kryghen voor zijn loon</l>
+						<l>Op zijn Godvruchtich hoofd', zo 'tvolc het noemt, de Kroon</l>
+						<l>Die my by stemmen is der Griecken toe ghevallen.</l>
+					</sp>
+					<sp who="#menelaus">
+						<speaker>Men.</speaker>
+						<l>Wy loven 't dan ghy sult het nummer 'tvolck omtkallen:</l>
+						<l>Om dat de Geest'lijckheyt den volck' int openbaer</l>
+						<l>Dit leert en haer ghezegh hout elck voor Godt en waer.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>De zotten ja. Maar hoort eens 'toordeel vande Wysen.</l>
+					</sp>
+					<sp who="#menelaus">
+						<speaker>Men.</speaker>
+						<l>Zijnze volkomen wijs ze zullen 't hoogh'lijck prijsen;</l>
+						<l>Voorziende 'tquaed dat daer de Landen onverwacht</l>
+						<l>Wt zou bestaen, zo veer men 's Priesters mond niet acht.</l>
+						<l>Der Wijsen hoop is kleen om met dat volck te spotten,</l>
+						<l>Isser een Wijs daer zijn wel hondert duysent zotten.</l>
+						<l>Wacht u dies groote Vorst den Geestelijcken staet</l>
+						<l>Te terreghen; voor my 'k was liever inden haet</l>
+						<l>Van vry een groote Vorst als van een haarder leken:</l>
+						<l>Een Vorst wreeckt hem met stael, en zy met qualijck spreken,</l>
+						<l>En 'tvolck te schenden op haer Heer door vuyl ghesnap.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Waerom verruyl ick dan mijn Kronen aen gheen Cap?</l>
+						<l>'K ly haer vooghdy niet voor mijn ooghen zyn gheloken.</l>
+					</sp>
+					<sp who="#menelaus">
+						<speaker>Men.</speaker>
+						<l>Rust Agamemnon, rust, 't is te ver in ghebroken.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Hoe Menelaus? wien is de vooghdy van God</l>
+						<l>Ghegeven? ons, of haer? zy zijn puur steken zot.</l>
+					</sp>
+					<sp who="#menelaus">
+						<speaker>Men.</speaker>
+						<l>Zy niet, maar wy, die 'r in 't begin de vryheyt gaven,</l>
+						<l>En maackten Heeren van een hoope vreemde Slaven.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>De Vorsten varen uyt, en al 'tghesegh haar past.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Met recht. Zy draghen oock des Werelts sware last.</l>
+						<l>Wie toomt den Vorste doch? wie derf hem teghen spreken?</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Zyn Wetten tomen hem. </l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Die mach hy, wil hy, breken.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Daer teghens setten haer de Grooten van zijn Rijck.</l>
+						<l>Want door de Wet wert hy den Onderdaen ghelijck.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Wat mach de slechte Mensch sich selve dencke laten?</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>De Vorsten weet ick dat haer wedersprekers haten,</l>
+						<l>Die zo zeer nodich zyn, wanneerze zyn ghevest</l>
+						<l>Op waerheyt daer door zy ra'en tot 'tghemeene best.</l>
+						<l>De Vorst most haten die, die 'm sonder meenen vleyen</l>
+						<l>En hem van loghens en ghemaackte waerheyt dreyen.</l>
+						<l>Hoort Agamemnon. Sus, denckt niet dat ick sta toe</l>
+						<l>Dit ziele-moorden. Neen maer ick leg over hoe,</l>
+						<l>En oft oock mooch'lijck is door midlen te beletten,</l>
+						<l>Terwijl de Geest'lijckheyt so vast staat op haar Wetten.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Zo los zegt eerder. Hoe? wat is dan grooter ding,</l>
+						<l>De ghever van den Wet, oft die de Wet ontfing?</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>De ghever, dies wil ick ghewillich voor hem bocken.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Dat most oock hier niet eens in twijfel zijn ghetrocken.</l>
+						<l>Wel Menelaus, hoe? wat is 't dat ghy verzucht?</l>
+						<l>'t Zuchten voecht my. </l>
+					</sp>
+					<sp who="#menelaus">
+						<speaker>Men.</speaker>
+						<l>En my. Ick ben hier in beducht,</l>
+						<l>Ick zie te voren heen veel zwaricheyden komen,</l>
+						<l>Die 'k Agamemnon heb te zwyghen voor ghenomen.</l>
+						<l>En tot Vlisses koomst te nemen in beraad.</l>
+						<l>Ick ga, misschien de zaack daer tusschen beter gaat.</l>
+						<l>De Goden willen ons een goede uytkoomst gheven.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Ja ze, zoo 't volck van u de rugh niet wort ghesteven.</l>
+					</sp>
+					<sp who="#menelaus">
+						<speaker>Men.</speaker>
+						<l>Wat reden zijnder toch dat ghy my dat vertrout?</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Wel dubbelde, want ghy 't met de moetwilgen hout:</l>
+					</sp>
+					<sp who="#menelaus">
+						<speaker>Men.</speaker>
+						<l>'K weet niet met wien ick 't hou. Ick ga, ghy wort te heftich.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Zet hevicheyt ter zy', en spreeckt als Prinsen deftich,</l>
+						<l>Met redelijck bescheyt, dat niet streckt tot verwijt.</l>
+						<l>Want 's Vorsten hevicheyt baart niet dan haat en nyd.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>Eerste bedrijf. Derde toneel.</head>
+					<stage>Calchas. Agamemnon.</stage>
+					<sp who="#agamemnon">
+						<speaker>Ag.</speaker>
+						<l>Wat quaemt ghy Calchas my met Menelaus plaghen?</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Ontmoetende kond ick niet van hem zyn ontslaghen.</l>
+						<l>Dan 't luckt noch wel dat hy zo tydelijck vertreckt,</l>
+						<l>Op dat mijn voorstel ward' den Vorst' in tijts ontdeckt,</l>
+						<l>'K heb vast al 't neen en 't ja, al 't zeggen en weer-zeggen,</l>
+						<l>Dus lang wel rypelijck gaen by my overlegghen,</l>
+						<l>En merck de guytery, als zelfs de Vorst wel weet,</l>
+						<l>Hoe statich dat ze schijnt int Geestelijcke kleed:</l>
+						<l>Dies ick gheen uytkoomst zie om 't volck int slaap te wieghen</l>
+						<l>En te doen stillen, als door loos'lijck te bedrieghen;</l>
+						<l>Ghelijck 't alreed' toch is bedroghen van die kant,</l>
+						<l>Die met Vlisses heeft een heymelijck verstand',</l>
+						<l>Misschien met and're meer, al machment noch niet zeggen.Aga. Eerlijcker
+							ist een Vorst zijn twisten neer te leggen</l>
+						<l>Door macht en door ontzach, en drijf den muyter uyt</l>
+						<l>En jaagh den Onderdaen en schrick aen voor ghemuyt.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Een groote wort wel meer zo veer door noot ghedronghen</l>
+						<l>Dat hy om baat zeyt, Aap wat hebt ghy schoonder Jongen.</l>
+						<l>'K vertrou, ô groote Vorst, dat uwe moghentheyd</l>
+						<l>Groot is in beyd', in macht, en in medoghentheyd:</l>
+						<l>En wil de Vorst zijn macht aen 't volck wercke stellen</l>
+						<l>Hy zal ze dwinghen die 'm dus moeyelijcke quellen,</l>
+						<l>En haer doen komen tot ghehoorzaemheyt na wensch,</l>
+						<l>Dan zonder tranen niet van den onnos'len Mensch.</l>
+						<l>Dus laat medogenheyd veel eer de zaack beslechten,</l>
+						<l>En om der vroomen wil de qua'en ghenadich rechten:</l>
+						<l>Daerom zo raed ick dit dat men de Menschen zot</l>
+						<l>Voor dees tyt blyven laat in dat gheloof van God,</l>
+						<l>En dat men de Princes (zo veer 't niet goet wil weyen)</l>
+						<l>Goodts-dienstich en betreurt na 't bloegh' Outaer zal leyen,</l>
+						<l>Dan heb ick dit beleyt, dat dan een schoone Vrouw,Diana wel ghelijck, die
+							'k al de zaack vertrouw</l>
+						<l>En wel heb onderrecht, zal tot verlossing komen</l>
+						<l>Van de Princes, die voort zal warden wech ghenomen,</l>
+						<l>Van die Diana, die dan roepen zal met een</l>
+						<l>'k Ben wel vernoeght, en met dees offerand te vreen.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>En of het volck dan zach 't bedroch met open ooghen?</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Het volck dat moet en wil met Poppen zijn bedroghen.</l>
+						<l>Oprechte Goods-dienst is van veel te weynich schijns,</l>
+						<l>Daerom vertoont men haer gheen Godtheyt zonder grijns.</l>
+						<l>Oock ken 't volck nummermeer afgodery bekennen</l>
+						<l>Wt Goods-dienst, door dien zy aen 'smoeders borst gewennen</l>
+						<l>Van Kintsch te zuygen in haar smakelooze gift,</l>
+						<l>Dat zich van langher hant int breyn der Mannen grift,</l>
+						<l>Die dan van dromen hun een slechte by-godt poppen,</l>
+						<l>En door verstants ghebreck den ware Godt verschoppen.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>'K houw dat volkomen waer: Maer 't werc zo ver volbrocht,</l>
+						<l>Heeft Calchas dan wel eens om 't achterste ghedocht?</l>
+						<l>Want u Diana daer wel so veel zou bedryven</l>
+						<l>Dat 't moorden na bleef, maer waer zou mijn Dochter blyven?</l>
+						<l>Dien 't volck zou menen dat ten Hemel was ghebracht</l>
+						<l>Niet door ghebootste, maer door ware Godes macht.</l>
+						<l>Dat is de zwaricheyt daer meest voor is te zorghen.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Vervoeren uyt den Land, daer men haer hield verborghen.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Verborgen. En hoe lang zou ze toch blyven daer?</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Tot een bequamer tydt. </l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>En of dat nummer waer?</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Dat hoop ick immers niet, 't zal met der tydt versterven.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>En oft dus eeuwich bleef, zoud ick haer eeuwick derven?</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Die van twee quaden een moet kiesen kiest het kleen,</l>
+						<l>En dit is ver het kleenst. </l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Daertegen zeg ick neen.</l>
+						<l>Ick laet my dencken dat ick 't grootste zou verkiesen,</l>
+						<l>Want 'tvolck ghelieven is ontzach en macht verliesen.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Lijcwel blijft ghy haar hooft. </l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Ag.</speaker>
+						<l>Niet meer als met den naem.</l>
+						<l>Dat denckt my voor een Vorst wel dapper onbequaem,</l>
+						<l>Een ander make zich met zulck een Prinschap vrolijck,</l>
+						<l>Men maack my nummermeer zoo'n zieleloze molijck.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>T'ontsach en derft ghy niet dan voor een korte tijdt.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Die 't in begin verliest, die blyft het eeuwich quijt.</l>
+						<l>Ben ick niet, Calchas, die, die onder zyne wiecken</l>
+						<l>Heeft t' zaam vergadert al de groten van de Griecken?</l>
+						<l>Ben ick niet, Calchas, die, dien zy dan trouw en eer</l>
+						<l>Ghezworen hebben als hun Opper-Vooght en Heer?</l>
+						<l>Ghewisselijck. En meest al de bescheyden Helden</l>
+						<l>Doen my oock d' eer daer in ze my eendrachtich stelden.</l>
+						<l>Dan d' onbescheyden hoop, 't eersuchtige gheboeft,</l>
+						<l>D'eenzyicheyt, die Prins noch Wetten en behoeft,</l>
+						<l>Ghelijck ze waent, tracht my, my zeg ick dus te toomen?</l>
+						<l>En 's daachs te doen, doen, datze 's nachts bestaen te dromen?</l>
+						<l>'K meend' ick in Griecken hadd' 't volkomene ghebied,</l>
+						<l>Dan 't isser ver van daen, 'k hebt boven half noch niet.</l>
+						<l>Zijn 't reden, Calchas, niet daer door men alle Luyden</l>
+						<l>Hoe slecht ze zijn het recht voor 't onrecht ken beduyden?</l>
+						<l>Ja 't immers. Leert haer dan door reden en bescheyt,</l>
+						<l>Dat haer Eurypylus dus lelicke verleyt,</l>
+						<l>Die haer in handen zoeckt afgodery te steken</l>
+						<l>Voor ware Goodts-dienst door zyn daghelijcksche preken.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Onmoochelijck. Ick praat haar dat niet uyt het hoofd.</l>
+						<l>Ghy machticht my te laat, dan hadmen my ghelooft</l>
+						<l>In tijts, 'k had wel verhoedt de lasterlijcke loghen</l>
+						<l>Die 't volck nu smaack'lijck heeft voor waerheyt inghesogen;</l>
+						<l>Ghelijck een min met onghezontheyt zeer besmet</l>
+						<l>Haer zuyg'ling dat ze zoocht, met 'tzelfde quaet bezet</l>
+						<l>Zo grift een dwael-geest van ontsich in 's volcks ghemoeden</l>
+						<l>Zijn dwaling, zo men 't niet in tyts en ken verhoeden:</l>
+						<l>En dat alleen daer meed', dat d' Opper-vooght van 't Land</l>
+						<l>Den dwaler uytroey', voor zyn schaad'lijck misverstand</l>
+						<l>Den volcke, om mompen licht, schijn' heylicheyt te wesen.</l>
+						<l>Want datmen 't volck wil van afgodery ghenesen,</l>
+						<l>Die 't eenmael aennam voor behoude Goodts-dienst claer</l>
+						<l>Is zotheyt, en men stelt s' Lants orbaer in ghevaer.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Wat zal ick Calchas hier dan veylich in beginnen?</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Maer min u zelver als 'tghemeene best beminnen.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Zo raedt ghy zoud' ick dit dan aensien met gheduld.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Mijns oordeels ja. Noch geeft niemant hier van de schuld</l>
+						<l>Als u Voorzaten slap, die 't Geestelijcke zetten</l>
+						<l>Ghemackelijck en vry, uyt dwang van alle Wetten.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Ze waren slap noch straf, maar vroom Regeerders waerd.</l>
+						<l>Maer dit volck heeft misbruyckt haer goedertieren aerd.</l>
+						<l>Wel aen. Ick sal my op u overleg beraden,</l>
+						<l>Dan zal geen afgodts haat met 's Menschen bloet verzaden.</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>Eerste bedrijf. Vierde toneel.</head>
+					<stage>Rey der Griecken.</stage>
+					<sp who="#rey-der-griecken">
+						<speaker>Rey der Griecken</speaker>
+						<l>'t Ken-teken vanden aertschen Heylich is</l>
+						<l>Bescheydenheyt, die niet doet by de gis</l>
+						<l>Maer al met rypen raad</l>
+						<l>Die middel-maat</l>
+						<l>In alle zaken hout:</l>
+						<l>En dat is 'theylich oudt</l>
+						<l>Des rechters, van dit Lant, bescheyden</l>
+						<l>Van vvien vvy heul alleen verbeyden</l>
+						<l>Die rechter stelt 't ghemoet noch maat, noch vvet</l>
+						<l>En midler tydt vvel op 's Lants orbaer let</l>
+						<l>Op deze vryicheyd</l>
+						<l>Een-zyicheyd</l>
+						<l>Der Kercken smaalt aleen</l>
+						<l>Die gaeren anders gheen</l>
+						<l>Had by haer met der vvoon. Godt gheve</l>
+						<l>Dat niemant haer bestier beleve</l>
+						<l>Woelichen hoop, rust onder de voochdy</l>
+						<l>Dyns rechters oudt, dien Godt de Heerschapy</l>
+						<l>Gaf over al 't beleyt</l>
+						<l>Van Wereltscheyt</l>
+						<l>Noch laat u dencken niet</l>
+						<l>Dat ghy ter Werelt yet</l>
+						<l>Zo Goddelijc beschout met ooghen</l>
+						<l>Als 't heylighe gherechts vermoghen</l>
+						<l>'s Volcx Goodts-dienst is aan haren rechter vvaert,</l>
+						<l>Ghehoorsaemheyt en Liefd' hier op der aerdt</l>
+						<l>Die vvy, ó Menschen, staach</l>
+						<l>Hem even graach</l>
+						<l>Mosten met Lijf en ziel</l>
+						<l>Op Off'ren, hoe 't oock viel</l>
+						<l>Al quetsten u gheloof na gissen</l>
+						<l>Gheeft u de schuld, hy ken niet missen</l>
+					</sp>
+				</div>
+			</div>
+			<div n="2" type="act">
+				<div n="1" type="scene">
+					<head>Tvveede bedrijf. Eerste toneel.</head>
+					<stage>Protesilaus. Achilles.</stage>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Noodiche Goods-dienst die zo nut is voor 't ghemeen,</l>
+						<l>Hoe loos misbruyckt een boef die tot zijn baat aleen?</l>
+						<l>Most dan een wijs Man, als hy 't misbruyck zo ziet wercken</l>
+						<l>Niet dapper straffen? of moet hy 't niet wille mercken?</l>
+						<l>Was hy meer vroom als wijs, hy saacht niet over 't hoofd,</l>
+						<l>Maar als hy wyser is als vroom, als dan ghelooft</l>
+						<l>Wart vanden meesten hoop, dan laat hy zoet'lijck sloeren</l>
+						<l>De zaack die 'y ziet dat hy niet uyt zou kennen voeren.</l>
+						<l>Ick zie zo 't misbruyck, en ick swyghe lijckwel stil,</l>
+						<l>Dan heb mijn redenen. Toch uyt gheen quade wil</l>
+						<l>Ghelijck Vlisses, die door staat-zucht wort ghedreven,</l>
+						<l>En wenscht eer oproer als Iphigení om 't leven.</l>
+						<l>Dit hoopt hy, dit 's zyn wit, dat Agamemnon trots</l>
+						<l>Sal teghen staen te doon zijn Kint tot boete Godts,</l>
+						<l>Die (mijns bedenckens oock, oft schoon veel Papen willen)</l>
+						<l>Met het onnosel bloet een's Maacht niet is te stillen.</l>
+						<l>Let op de swaricheyt die daer dan uyt bestaat,</l>
+						<l>Dat 's yv'raers vloeck die 'n guyt sticht om zyn eygen-baat.</l>
+						<l>Dat zulck een guyt, van wien 't volck heeft zo goet ghevoelen</l>
+						<l>Dat zy hem (zo de Vorst daer hart wil teghen woelen)</l>
+						<l>Wel licht'lijck worpen op tot Vooght, en drucken neer</l>
+						<l>Met groot ghevaer van 't Rijck haer Wettelycke Heer.</l>
+						<l>Waer dan de zaack zo staat daar oft volck moet verkiesen</l>
+						<l>Een nieuw geloof, oft daar 'thoofd moet zijn Kroon verliesen,</l>
+						<l>Wat dunckt Achilles daer dan veylichst in gedaen.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Bedencken, zo de tijt gheeft uytstel van beraen.</l>
+						<l>De Vorst lett' wel, eer hy de zaack zich schijnt te kreunen,</l>
+						<l>Wie dat d'oproerge zyn, hoe veel, op wien ze steunen.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>'t Syn ver de minsten, beyd in tal en in waerdy.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>'t Ontsach des Voochts leyt dan 'tverschil haest aen d'een zy.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Ten waar een groot' haer steef de saec was wel te slechten.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Dien groote moetmen zien met reden t'onderrechten.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>'tIs te vergeefs, hy zoeckt verandering van staat.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Gaet ghy daer vast in zo beklaecht hem voor den raed.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>'K vermoedt, en blycken zalt ken 't wijsheyt niet verhoeden.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Men recht hier maar uyt blijck, en uyt gheen los vermoeden.Pro. So rasch
+							zijn aenslach blyckt, dan is hy selver Vooght.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Belettet hem daer hy bederfelijck na pooght.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Daer teghens mosten haer dan all' de groote zetten.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Ze mosten wel, maer wie dwingt haer daer toe met Wetten?</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Daer toe dwingt haer de Liefd tot de ghemeene rust.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Maer denckt dat eyghen Liefd meer zoeckt zyn eygen lust.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Te meerder mosten wy 't beletten zo wy konden.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Dat zou gheschien zo wy elck and're wel verstonden.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>De Vorsten die verstaen elck and're meestendeel.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Zo lang daer een ghebreeckt, maackt een hier al 't krakeel.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>De meesten kennen die gheen eenes moetwil temmen?</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Ja. Maar in Kerck verschil en ghelt gheen overstemmen.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Godt hoedt dan haer ghekijf. Wat 's dat Achilles? Hoe!</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Selfs stont ghy dat int eerst van u regeering toe.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Int kleedt van Goods-dienst ken een schijn-deucht dan wat wercken.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Men moet der voor zijn zo men quaet begint te mercken.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Daer overstemming niet en gelt, wat 's daer voor raed?</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Dwang. So zyn sporling streckt tot quetsing van de staat.</l>
+						<l>Best ist door een 's bederf rust en ontsach verwurven,</l>
+						<l>Als dat 'tgheheel om een herschickt wort en bedurven.</l>
+						<l>Bedurven zeg ick is de staat van 't gansche Landt,</l>
+						<l>So der herschicking ons eens aenkomt van die kant.</l>
+						<l>Ons sal het Heerschen best, 't g'hoorsamen haar best voegen,</l>
+						<l>En laet haar dan noch aen haar deel al wel ghenoegen.</l>
+						<l>Dat haer Vlisses styft, die zie wel toe dat hy</l>
+						<l>Daer door niet op en laed' der grooten Jaloesy,</l>
+						<l>En dat zyn staat dan zo den neck niet word ghebroken.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Heeft dat Achilles tong oft zijn ghemoet ghesproken?</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Ick meent, en spreeck het uyt een onbeveynst ghemoed.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Hoe qualijck heeftmen dat gans anders dan vermoed.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Hoe na word ick by een Vlisses vergheleken?</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Ontsichelijcke Grieck, terwyl wy daer van spreken</l>
+						<l>Sal ick 't u zeggen nu hier by ons twee aleen</l>
+						<l>Watmen van u vermoedt, en wat ick van u meen.</l>
+						<l>Veel meenen oft ghy wel nae 't Houwelijck mocht poghen</l>
+						<l>Met 's Konincks Dochter daer ghy nu me wort beloghen.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Wat Houwelijck, 'k heb noyt om 't Houwelijck ghedocht.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Iphigenia wort nochtans voor u verzocht.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Het is dat niet. Ghelijck de grooten al wel weten.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Neen toch niet, dan terwyl wy hier den tyt versleten</l>
+						<l>In ledicheyt, die toch is d'oorsaack van veel quaats,</l>
+						<l>So staken sommegen, vol staats en eygen-baats,</l>
+						<l>De hoofden t'samen, om by deze tydt te komen</l>
+						<l>Tot 'tgheen ze langh al noch eens hadden voorghenomen,</l>
+						<l>Dat is verandering van staet, en ziet dit werck</l>
+						<l>Besteeckt Vlisses onder decksel vande Kerck,</l>
+						<l>Diez nu op hem zeer los bedrogen yv'raers bouwen.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Dats waer. Maer wat gemeenschap heeft dat met mijn trouwen</l>
+						<l>Met 's Konincx Dochter? die tot mijn leetwesen groot,</l>
+						<l>Vast is verlooft, en zit ghehandt-trout met de dood.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Dit ist Vlisses stroyt dat by meest al de grooten,</l>
+						<l>En dat op u verzoeck, dit Houlijck is beslooten:</l>
+						<l>Met dat bescheyd is hy oock na Mycena toe</l>
+						<l>De Bruyt te groeten, en om wijs te maken, hoe</l>
+						<l>Dat ghy haar Bruydegom haar voor u Bruyt zult Kronen,</l>
+						<l>En zoeckt de Maget zo door logens hier te tronen,</l>
+						<l>Ghebruyckende de naem om 't aenzien, dat veel geld,</l>
+						<l>Van Thetis zoon, de kloecst' en ons strijd-baersten Held,</l>
+						<l>Een hater van 't bedroch, by elck dies in groot achting.</l>
+						<l>Men lette nu waerom Vlisses deze slachting</l>
+						<l>Bedocht heeft, oft het is om eyghen zelfs ghenot,</l>
+						<l>Oft om Achilles, oft om 't volck, oft om zijn God?</l>
+						<l>Godt ken hy niet, en 'tvolck dat acht hy niet met allen.</l>
+						<l>Noch hy hoe loos hy is, zal 't nummermeer zo kallen</l>
+						<l>Dat ick, of red'lijck Mensch, het ummer loven zal</l>
+						<l>Dat hy yet zoude doen Achilles ten gheval.</l>
+						<l>Sich zelfs heeft hy te lief, daer by zo dol van yver,</l>
+						<l>Dat hy naer yders eere gulsich 'tquaad te styver</l>
+						<l>En styver aendrijft, dat gheen Prince wel betaemt:</l>
+						<l>Dan wat betaamt hem niet, die zich geen dinck en schaemt?</l>
+						<l>En Godloos zijnde, zich een yveraer ken veynsen?</l>
+						<l>Daer by zeer liefelijck zijn woortgens weet te kleynsen,</l>
+						<l>Om zo zijn minder, alst daer op zou komen aen,</l>
+						<l>Te vleyen, maer 't komt den ghevleyde dier te staen,</l>
+						<l>Dien hy maar lief-koost om daer voordeel van te trecken.</l>
+						<l>Hier moet een Man een Man, gheen kakelaer verstrecken,</l>
+						<l>Ghelijck als hy is, die uytwendich groote moet</l>
+						<l>Heeft in zijn tong, en is inwendich maer een bloed.</l>
+						<l>Hoe moeloos dat hy is, Achilles, heeft ghebleken</l>
+						<l>Doen hy uyt Vrouwe vrees zich garen had versteken</l>
+						<l>Om niet na Troyen met de Griecksche Princen al</l>
+						<l>Te trecken, veynsden hy zich daer benevens mal,</l>
+						<l>En onbequaem te zijn ten oorelooch te varen,</l>
+						<l>Om hem voor ongheval zo veylich te bewaren.</l>
+						<l>Dan Palamedes, die zo loos wel is als hy,</l>
+						<l>En ruym zo deuchtelijck, liet hem alzo niet vry:</l>
+						<l>Maer om dat hy niet aen die zotterny ghenoechden,</l>
+						<l>Heeft hy tot wisse proef, terwijl Vlisses ploechden,</l>
+						<l>Thelemacus zijn zoon doen legghen inde veur,</l>
+						<l>Daer bleeck doe wat hy was, hy ploechdender niet deur.</l>
+						<l>En daar me was hy van zijn mallicheyt ghenesen,</l>
+						<l>Dien hy bekenden doe maar veynsery te wesen,</l>
+						<l>Wt hope datmen hem so lichtelycke zou</l>
+						<l>Verschonen, en daar om t'huys laten by zijn Vrou.</l>
+						<l>Wat laffer uytvlucht! hoord een Krijchs-man dat ta zeggen?</l>
+						<l>Behoort een Prins niet eer int Veldt op stro te leggen</l>
+						<l>Als t'huys te bedden in 's Princesse warme schoot,</l>
+						<l>Daer hy toch me niet is versekert voor de dood?</l>
+						<l>Dat dat de blootaert docht, hy zou dan oock niet durven</l>
+						<l>Te bed gaen slapen daer meer Menschen zijn ghesturven,</l>
+						<l>Als oyt door storm en windt, of oorlooch zyn vergaen.</l>
+						<l>Doe 't mal niet locken wou, wat heeft hy doe ghedaen?</l>
+						<l>Maer dit heeft hy ghetracht, om al de grote Griecken</l>
+						<l>Met zijn blootherticheyt me lelijck te bekliecken,</l>
+						<l>En gaf door Papen uyt, dat d'eerste die de voet</l>
+						<l>Voor Troyen op het Lant zoud zetten, zoud zijn bloed</l>
+						<l>Den doot op off'ren, om de Griecken te doen vresen</l>
+						<l>En dat der gheen daar om zou d'eerste wille wesen:</l>
+						<l>Maer datse zouden weer t'huys keeren door die schrick.</l>
+						<l>Hy vrese dat die wil, Protesilaus, ick</l>
+						<l>En vrese dat niet eens, neen. Niemant sal my dwingen,</l>
+						<l>Dat ick niet d'eerste, of met d'eerst aen Lant sal springen,</l>
+						<l>Ghelovende nochtans aen Godt, en Godlijckheyd,</l>
+						<l>Maer niet al wat een nauw ghezette Paap ons zeydt.</l>
+						<l>Doen hy niet bracht te weegh met zulcks en dat te preken,</l>
+						<l>Heeft hy ten lesten nu wel Goddeloos besteken,</l>
+						<l>(Dat onder 'tdecksel noch van heylicheyt, en Godt)</l>
+						<l>So gruwelijcken moort, en dwingt door 't volck ons, tot</l>
+						<l>Iphigeniaes dood, om daer door tot zyn mening</l>
+						<l>Te raken, dat is tot een scheuring, oft verklening</l>
+						<l>Van Agamemnons eer, die wel veel beter past</l>
+						<l>Dien zo beminden Vorst, als zulcken bloten gast,</l>
+						<l>Die, nu hy 't hert niet heeft zich manlijck t' openbaren</l>
+						<l>Int Velt, zoeckt hy zich door die middel te bewaren.</l>
+						<l>Dus is de moeloosheyt, die eer vergete pry,</l>
+						<l>De Moeder vant bedroch, van wraack en moordery.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Vw' reden begont ghy Protesilaus deftich,</l>
+						<l>Maer eyndicht die voorwaer mijns oordeels, wat te heftich.</l>
+						<l>En zeyde ghy niet dat een Man van raad en staat</l>
+						<l>En wijs zich niet verziet, om zo een noodich quaad?</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Ja 'k. Maer een vroom man zal der zich al om verzetten.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Ghy zeyde doe daer by, zo 'y 't veylich kon beletten.</l>
+						<l>Dunckt u nu dat ghy ziet de middel, waer door ghy</l>
+						<l>Vlisses aenslach zo kent breken, doet het vry.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Hier me. Waert dat wy maer elck andere eerst spraken</l>
+						<l>En op Vlisses wys de hoofden t'samen staken</l>
+						<l>Wanneerder inde zaack iet noodichs was te doen.</l>
+						<l>Maer neen, wy schromen dat, elck hout hem uyt 'tvermoen,</l>
+						<l>Noch zoud niet garen in der Papen wan-gunst wesen,</l>
+						<l>Daer zy nochtans veel meer reens hebben om te vreesen,</l>
+						<l>Als wy dat volck, dat maar door ons aleen bestaat.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Protesilaus, rust weet ghy gheen ander raad.</l>
+						<l>Dat volck past noch op u, noch op gheen dwang van Heeren.</l>
+						<l>Sy zyn haer eyghen Vooght. Dies onser gheen zal keeren,</l>
+						<l>'Tgheen dat Vlisses wil: begint hy 't maer met haer</l>
+						<l>Hy voert het uyt tot spijt der Griecken alle gaer.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Dat volck van zulcke macht? 't is ver ghenoch ghekomen.</l>
+						<l>Dat volck van zulcke macht, dat niemant haar kan tomen?</l>
+						<l>Dat volck van zulcke macht? Waer is toch nu 'tverstand</l>
+						<l>Der Edelen van dit ons vrye Vaderland?</l>
+						<l>O wel gheboren volck! dat noyt en wierd ghedwongen</l>
+						<l>Van 's Werelts dwingelandt! werdt ghy nu noch gedrongen</l>
+						<l>Te moeten buyghen onder 't moeyelijcke juck</l>
+						<l>Van malle Papery? Snorckt nu vry vant gheluck</l>
+						<l>Daer ghy de Werelt deur u loflijck van beroemden,</l>
+						<l>Zo dat de Buren u de vrye Luyden noemden.</l>
+						<l>Tis slimmer als het was, want zeker meerders last,</l>
+						<l>Was niet zo lastich als nu minders, dies 't niet past.</l>
+						<l>ô Helden! d'oorloch was veel beter niet begonnen,</l>
+						<l>Daer is met vechten meer verloren dan ghewonnen.</l>
+						<l>Nu ziet hoe zot wy zijn ghelijckmen van ons zeyt,</l>
+						<l>Nu blyckt wel wat wy zijn aen onse slecht beleyd,</l>
+						<l>Dat wy de grootheyd in den oorelooch gaan zoecken,</l>
+						<l>Daer die t'huys mack'lijck wort ghevonden inde boecken.</l>
+						<l>Wat ist, Achilles, of u Moeder Thetis was,</l>
+						<l>En Hercules mijn Oom? Wat komt het oock te pas</l>
+						<l>Dat wy ons hebben in den oorelooch begheven</l>
+						<l>Voor 't Vaderlandt, met veel perijckels van ons leven,</l>
+						<l>Wt twederleye lust? Om vyanden te doon</l>
+						<l>En voorts te kryghen waerd eertekens tot een loon:</l>
+						<l>Dan deze gaen met eer en al 'tghebieden strijcken,</l>
+						<l>En wy staen buyten om, en moeten der op kijcken.</l>
+						<l>Dies ick, o trotse Grieck, my wel verwonder zeer</l>
+						<l>Dat iemant noch van al de grooten tracht om eer,</l>
+						<l>Om naem, om aenzien, uyt den oorelooch te halen:</l>
+						<l>En dat de Edellien na de bescherming talen</l>
+						<l>Int bloeyenst van haer jeucht, uyt hoop van door de daad</l>
+						<l>Tot eer te komen, dat zy haer ervaren raad,</l>
+						<l>Des waerdich, mochten in den dienst vant Land besteden,</l>
+						<l>Namaels bejaerd, en oud, en afgheslooft van leden,</l>
+						<l>Daer der van honderd een, of gheen schier over schiet,</l>
+						<l>Die 't luck daer hy na tracht, eerlijck ghenoch gheniet:</l>
+						<l>En als hy 't al gheniet, mach hy noch maar verstrecken</l>
+						<l>Een Meester-knecht van asche-vysters, en van gecken,</l>
+						<l>Van straat maar op gheraapt, en uyt medoghentheyd</l>
+						<l>Kostloos von goede Luy macklijck ter School gheleyt.</l>
+						<l>Daar zy (eer dat ze noch den plack en roe ontwassen)</l>
+						<l>Niet vasters leeren, dan op niemand niet te passen:</l>
+						<l>En zalt zo voort gaen alst begint, zijn zy eer lang</l>
+						<l>Gansch Wetteloos, en wy volcomen in haer dwang.</l>
+						<l>Wat Krigher zal die macht door Wapenen bekomen?</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Zy hebben die macht aen haer zelleven ghenomen.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Zy namen doe dat haer niet voecht, noch niet behoort.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Ten is niet wonder dat haer 't hebben me bekoort.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Dien't toe quam most het haer niet hebben laten volghen.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Dats niet gheschiet, zy hebbent lang al ingheswolghen,</l>
+						<l>En door verteering ist nu vast in haer begroeyt.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Zo vast niet of het worter noch wel uytgheroeyt.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Dat volck wat het eens heeft en laat het niet weer glyen.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Ist uyt te scheuren niet, men moet het der uyt snyen.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Protesilaus, 'k weet met haar noch u gheen raad,</l>
+						<l>Om dat noch zy, noch ghy, en hout de middelmaat,</l>
+						<l>Zo doende zie 'k voor ons haest een elendich leven.</l>
+						<l>Maer zegt my, schijnt het u zo dapper nieuw te gheven</l>
+						<l>Dat dit gheringe volck zo vast staat op haar stick?</l>
+						<l>My en benieut het niet. Denckt eens dat ghy en ick</l>
+						<l>Dat zijn, dat zy zijn, en men wild ons wat ontdreyen</l>
+						<l>Meent ghy dat wyder dan zoo licht of zoude scheyen?</l>
+						<l>Neen wy, al zien wy schoon hoe qualijck 't haer-luy past:</l>
+						<l>Wy weken niet een voet, daer is te veel aen vast,</l>
+						<l>Men scheyt van gheen voochdy, die mach men zo niet breken:</l>
+						<l>By namen zy niet, want ze waren dan versteken</l>
+						<l>Van al haar aenzien, en nu heeft haer elck van doen</l>
+						<l>In ambt, in staat, in raat, men kan oock niet vermoen</l>
+						<l>Of de verzoeker zal wel tot zyn mening komen,</l>
+						<l>Zo 't maar een Man is die van haar wort aengenomen,</l>
+						<l>Dat doen ze niet voor niet, ô neen, ze zyn niet dom,</l>
+						<l>En doen ze wat voor niet, zo weten ze waer om.</l>
+						<l>Schijnt het u vreemt dat zy haar streng dan starrick trecken.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Is dat verdedeging, of is het der me gecken?</l>
+						<l>'K meen mijn ghebulder haer min quetst als u ghespot.</l>
+						<l>Achilles die besluyt hier me dat zy 't ghenot</l>
+						<l>En eyghen voordeel dan voor alle dinghen wenschen.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Protesilaus 't is den aert van alle Menschen.</l>
+						<l>Maer daer ghenoch af. Siet daer Calchas comen aen,</l>
+						<l>En Menelaus zie 'k by Palamedes staen.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>Tvveede bedrijf. Tvveede toneel.</head>
+					<stage>Palamedes. Menelaus. Calchas. Protesilaus. Achilles.</stage>
+					<sp who="#palamedes">
+						<speaker>Pal.</speaker>
+						<l>Benaude tyden, datmen nauwelycks met zwyghen</l>
+						<l>En ken voldoen, wat eynd wy daar van zulle kryghen</l>
+						<l>Voorziet een wijs-man wel, die van te voren heeft</l>
+						<l>Het zelfde spel noch meer van 'tselfde volck beleeft.</l>
+					</sp>
+					<sp who="#menelaus">
+						<speaker>Men.</speaker>
+						<l>Wel stater huyden ons een zuure dach voorhanden.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Doet toch mijn raat 'tsal zyn tot voordeel vande Landen.</l>
+					</sp>
+					<sp who="#palamedes">
+						<speaker>Pal.</speaker>
+						<l>'k Vertrouwt u Calchas toe dat ghy gheeft goede raad,</l>
+						<l>Maar denckt hoe diep 't int hert van Agamemnon gaat</l>
+						<l>Dat hy zijn aenzien van dit volck zo ziet verkrachten,</l>
+						<l>Die, zo zy 't voeren uyt, hem niet meer zullen achten</l>
+						<l>Dan maer een Dienaer, die gheboden zynde, moet</l>
+						<l>Ghehoorsaem voeren uyt al wat zy vinden goed.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Daer teghens mosten wy ons al ghelijck verzetten.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Bescheyde Vorsten, hoort, wilt op de zaack wel letten,</l>
+						<l>En wat ghy doet, doet dat voorzichtich met beleyd,</l>
+						<l>Niet in u toornicheyt, die reden en bescheyd</l>
+						<l>Voert uyt de Mannen wech. Volght niet u korsle sinnen,</l>
+						<l>Dan pooght niet anders als vertreck van tyt te winnen;</l>
+						<l>Aen 't keeren vande wint hangt al Vlysses werck.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Dat's waar. Dan hier staet maer de weer-haan op de kerck,</l>
+						<l>Die luystert niet nae 't weer, dan na Vlysses dreyen.</l>
+						<l>Om datmen niet zou zien hoe dat de winden weyen</l>
+						<l>Heeft hy zeer looselijck by tyds doen nemen of</l>
+						<l>De beste wint-veer, die wel eer stont op het Hof,</l>
+						<l>Waer op de Zee-luy haer wel dorsten t'zee begheven,</l>
+						<l>En niet op dese, daer ze niet op zijn bedreven.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>'T is oock gheen orbaer dat men zich begev' op Zee,</l>
+						<l>Met dit onstuymich weer, van dese luwe ree.</l>
+						<l>Wy mochten lichtlijck op een lager Wal vervallen,</l>
+						<l>Daar wy 't door quade gront af reden gheen van allen,</l>
+						<l>Laet dies ô Vorsten toch 't onweer van u ghemoed</l>
+						<l>Bedaren, zo zult ghy niet anders doen dan goed</l>
+						<l>In dese handeling. Blyft by natuur, en rechten,</l>
+						<l>Dan zult ghy dese zaack noch onder u wel slechten,</l>
+						<l>Want daer is niet zo swaer dat de natuur, en 't recht</l>
+						<l>In den ghestoorden Mensch met reden niet en slecht.</l>
+						<l>Maar zo ghy 't niet en doet, en zoeckt dus eygensinnich</l>
+						<l>Te dryven dat ghy wilt, zo zie 'k u noch zo vinnich</l>
+						<l>En bits te worden, dat de binnelantsche twist</l>
+						<l>Sal moeten worden van uytlanders noch gheslist.</l>
+						<l>Dan wast met ons ghedaan, dan zijn wy zo bedurven</l>
+						<l>Ghelijck een schip dat Mast en Kabel heeft ghekurven</l>
+						<l>Hoop'loos op lager wal, daar 't strandend stucken stoot.</l>
+						<l>Daar om vervalt toch niet in dese groote nood</l>
+						<l>Door tweedracht, die 't bederf is vande grote rijcken,</l>
+						<l>Dan wildt elck ander, in elcks onverstand wat wijcken,</l>
+						<l>Schoon of het voor een Vorst niet groots ghenoch en was:</l>
+						<l>Langmoedicheyd en komt niemand zo wel te pas</l>
+						<l>Als Princen, want ze dick 's volcks moetwil moeten dragen,</l>
+						<l>En zien met zulck een oogh, als of zy 't niet en zaghen.</l>
+						<l>Daer om ghy Vorsten, zoeckt ghy 't voordeel van den staat,</l>
+						<l>Zo gaet met wijsheyd en langmoedicheyd te raad,</l>
+						<l>Dan zult ghy veylichlijck tot u voornemen komen</l>
+						<l>En d'aenslach doden, van Vlysses voorghenomen,</l>
+						<l>Daar in niet sonder reen de Menschen zyn beswaart.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Wy zyn hier, Helden, by den andere vergaart</l>
+						<l>Om heden eens een eynd van al 't ghekijf te maken,</l>
+						<l>Dat ons gheresen is uyt Kerckelijcke zaken.</l>
+						<l>Laat ons dies met den Vorst, die binnen ons vertoeft,</l>
+						<l>Raadslagen op de zaack, die niemand meer bedroeft</l>
+						<l>Als hem, die daar by zou de meeste schade lyen.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Dat moet tot rust van 't Lant, en 's Vorsten eer gedyen.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>Tvveede bedrijf. Derde toneel.</head>
+					<stage>Rey der Griecken.</stage>
+					<sp who="#rey-der-griecken">
+						<speaker>Rey der Griecken</speaker>
+						<l>Elck klaaght dat hy niet onbecommert heeft</l>
+						<l>Vrolijc en vry den gulden tyd beleeft</l>
+						<l>Deez', op dit pas, al zyn vvy vol gheweens</l>
+						<l>Is alsze vvas, maar 't volc is niet aleens</l>
+						<l>Tot nootdruft kleen heeft dat volc haar ghevoeght,</l>
+						<l>Daer nu elc een aen overvloet misnoeght</l>
+						<l>Gheeft dan de schuld den tyd niet maer 'tgemoed,</l>
+						<l>Dat niet vervult en vvert met overvloed</l>
+						<l>Was in den Mensch najuering noch nyd</l>
+						<l>Hy kreeg zyn vvensch als in den gulde tyd</l>
+						<l>Nu leven wy in vol-op noch bedroeft</l>
+						<l>Dan 't komt daar by dat elck te veel behoeft</l>
+						<l>Die dan gherust wil leven onghehaat</l>
+						<l>Die zoeck' zyn lust in een ghemeene staat</l>
+						<l>In 't heerschen niet van volcken te ghebien</l>
+						<l>Om dat men 't siet met ondanck toch gheschien</l>
+						<l>Toch die van 't stof is dat hy garen heerst</l>
+						<l>Dwing' niemant, of bewing' zich selven eerst</l>
+						<l>Want 't sal ghewis niet eerder beter gaen</l>
+						<l>Voor dat elck is zyn eyghen Onderdaen</l>
+						<l>Dan is 'tghemack een Onderdaen te zyn</l>
+						<l>Dan ist gheen pack een overhoofd' te zyn</l>
+						<l>Maar daar vvangunst na 's Vorsten grootheyd poogt</l>
+						<l>Daer is het kunst bemind te blyven Vooghd</l>
+						<l>Zo qualijck gaat het hier in onze Land</l>
+						<l>Daar met verraat, en heymelijck verstand</l>
+						<l>De staat-zucht tracht den Prins te maken by</l>
+						<l>'t Volck heel veracht uyt lust van de Voogdy</l>
+						<l>Naar yver quaat, 'tmismaackste schepsel, dat</l>
+						<l>Oyt eygen-baat, by vvangunst heeft ghehadt</l>
+						<l>Is onbeschaamt, vermomt met God'lijck schyn</l>
+						<l>Ghelijck 't betaamt dat zulck een boef moet zyn</l>
+					</sp>
+				</div>
+			</div>
+			<div n="3" type="act">
+				<div n="1" type="scene">
+					<head>Derde bedrijf. Eerste toneel.</head>
+					<stage>Agamemnon. Protesilaus. Tersites. Palamedes. Eurypylus. Nestor.
+						Calchas.</stage>
+					<sp who="#agamemnon">
+						<l>Zo zaligh als het is voor 't Menschelijck gheslacht,</l>
+						<l>Dat 't Gheestlijck volck haer ambt eenvoudelijck betracht,</l>
+						<l>Zo godloos is het weer, dat dat volck niet ken myen</l>
+						<l>Te leeren haar vernuft, en warge ketteryen.</l>
+						<l>Ervaren Nestor, Vorst, die nu tot driemaals heeft,</l>
+						<l>(En dat met oplet oock) de Werrelt overleeft,</l>
+						<l>Hebt ghy wel oyt ghezien in uw' drie honderd Jaren,</l>
+						<l>Oft hooren zeggen, dat de tyden voorheen waren</l>
+						<l>Zo vol van Kettery als nu, want niemant schroomt</l>
+						<l>Het volc te leeren daaghs dat hy 's nachts heeft gedroomd?</l>
+						<l>Wat zal Eurypylus ten lesten noch al preken?</l>
+						<l>Die 'm wijs maackt als hy spreeckt dat dan de Gode spreken.</l>
+						<l>Dit blaast hy 't volck nu in, dat ick Diana moet</l>
+						<l>Voor een onnoos'le zond verzoenen met mijn bloed,</l>
+						<l>Oft anders zal de vloot hier vrucht'loos blyve leggen.</l>
+						<l>De waar-mond heeft hy dit tot Delphos hoore zeggen,</l>
+						<l>Ghelyck hy zeyt, dan 't is wat anders dat hem schort.</l>
+						<l>Wie wasser Phebus, oft Diana by verkort</l>
+						<l>Doe 'k in de Wildernis (verselschapt met meer groten)</l>
+						<l>Een van haar herten heb onwetende doorschoten?Luna dien heb ick, en
+							Apollo niet verstoordt,</l>
+						<l>Wat staat men hem dan en Diana niet te woord?</l>
+						<l>Of is Diana doof? O neen. Ze ken wel hooren.</l>
+						<l>Wat dan? Of isse stom en sprakeloos gheboren</l>
+						<l>Dat ze gheen antwoord op het gheen haar word gevraaght</l>
+						<l>Zoud kenne gheven als de misdaet haar mishaaght?</l>
+						<l>Oft moet s'haer schuld-eysch heel aan and're Gode blyven?</l>
+						<l>Neen zy. Zy zoud veel eer met goude lett'ren schryven,</l>
+						<l>Die zy van starren t'saam zoud voeghen aende Lucht,</l>
+						<l>En maken yder een zo kundich dit gherucht,</l>
+						<l>Dat ghy de Menschen maar wijsmaackt uyt hoore zegghen.</l>
+						<l>Al swygend zoud s'haar wil zo Goddelijck uytleggen,</l>
+						<l>Als s'al niet spreken woud, op dat elck int ghemeen</l>
+						<l>Haar wil wist, die ghy meent dat ghy maar weet aleen.</l>
+						<l>O ghy laat-dunckende, waerom laat ghy u lippen</l>
+						<l>Sulcke Gods-lastering zo reuckeloos ontslippen?</l>
+						<l>V stout beroemende dat dat u grof verstand</l>
+						<l>'t Verborgen Goods begrijpt? en roemt u Godlijck? want</l>
+						<l>Wat ghy zeght dat zeyd Godt, dat wild ghy moet men loven.</l>
+						<l>Wat is dat anders als God zelfs zyn eer ontroven?</l>
+						<l>Yv'raar, u Goods-dienst slacht de ruwe schildery</l>
+						<l>Die wel toont uyt der hand, en lelick van na by,</l>
+						<l>Laat dies de Luy, die dien voor heylicheyt verkiesen,</l>
+						<l>Niet deun bezien, of ghy zoud veel aenhangs verliesen.</l>
+						<l>Ghy Luyden meent te gaan heel in u zaken vast</l>
+						<l>Daar ghyse blindelings niet voeld dan by der tast.</l>
+						<l>Legt over wie ghy zyt, en dan zult ghy bevinden</l>
+						<l>Dat ghy zo waan-wijs u niet hoort te onderwinden</l>
+						<l>Te spreken van de Goon, daar wy niet zekers van</l>
+						<l>Bedencken kennen, al ghedencken wy daar an.</l>
+						<l>Vw' School-gheleertheyt styft u lijckwel sonderlinghe</l>
+						<l>Zo dat ghy spreeckt van God, en Goddelijcke dinghen</l>
+						<l>Met zulck een zekerheyt, oft ghy den aerdschen Mensch</l>
+						<l>In gheest herscheppen kond, en doen hem dan na wensch</l>
+						<l>Ten Hemel sweven op, na 't raad-huys van de Goden.</l>
+						<l>Sodaenige neus-wysheyt steeckt ghy 't volck voor gheboden</l>
+						<l>Der Goon in handen. Ist niet over-gheven groots</l>
+						<l>Dat ghy de loghen voor verborg entheden Goods</l>
+						<l>Den yveraar vercoopt? Daar by kent ghy niet ruycken</l>
+						<l>Dat een naer-yv'raar u nu weder wil misbruycken</l>
+						<l>Ghelijck als eertyts, doe 'y door u en uw 's ghelijck</l>
+						<l>Sich zocht te maken Vooght van 'toude Griecksche Rijck.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>'t Heught my dat zy 't haar meer als een-maals onderwonden.</l>
+					</sp>
+					<sp who="#tersites">
+						<speaker>Ters.</speaker>
+						<l>Ghy hebt wel meer ghezeyt dat logen is bevonden.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Dat zeght ghy, maar betuyght dat ghy my daar verwyt,</l>
+						<l>Dan zyt ghy vroom; zo niet, dan blijft ghy die ghy zyt.</l>
+						<l>Te schelden inden raad! </l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Ghy onbeschofte kyver,</l>
+						<l>Wt kleyne wetenschap rijst u so groten yver,</l>
+						<l>Dat ghy al blindelings, en gansch met gheen belul</l>
+						<l>Zo uyt-vaart, dat ghy schijnt veel eer de geck van 't spul,</l>
+						<l>Als in dees' hooghe noot een raads-man te verstrecken.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Men heeft somtyts van doen zodaan'ghen slagh van gecken,</l>
+						<l>Om door dat volck zo ongheleerd en onbeschaamd</l>
+						<l>Iet uyt te buld'ren dat een groter niet betaamt.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>'t En is noch plaets, noch tydt, om nu daar van te spreecken.</l>
+						<l>Hoort hier Eurypylus, dit ist: Ghy schijnt te steken</l>
+						<l>Na de Vooghdy, die my den Hemel gunstich gaf,</l>
+						<l>Doen ze my kenden waard de Kroon en Konincks staf</l>
+						<l>Te voeren van dit Heyr, niet om mijn grootheyts wille,</l>
+						<l>Maar om behouw van rust, en om de twist te stillen</l>
+						<l>Door Wetten die 'k gheen een, maar yder-eene schrijf,</l>
+						<l>Den quaden tot een dwang, de goeden tot gherijf:</l>
+						<l>En boven dat gherecht, doet ghy van 't volck u achten,</l>
+						<l>Daar der maar twist is van u Goods-dienst te verwachten.</l>
+						<l>Dan neen, een man van staat acht zulck' u Gods-dienst slecht</l>
+						<l>En vry wat minder als het heylige gherecht:</l>
+						<l>Met re'en. Want 't recht is een onsichelijcke heyligh</l>
+						<l>Daar door elck zyns bewaard, en leeft op aarde veyligh.</l>
+						<l>De rechter dan, die door dat Heylichdom bestiert</l>
+						<l>De Werrelt, wort hy niet van 't volck wel waard geviert?</l>
+						<l>Die rechter wort hy niet Goods-dienstich aenghebeden</l>
+						<l>Als 'tvolck haar Liefd en trouw aen hem na'r plicht besteden?</l>
+						<l>Oft denckt het u te veel, en meent ghy dat ghy zyt</l>
+						<l>Deelachtich aen zijn eer gheworden met der tyd?</l>
+						<l>En beelt u dat niet in: want 'tgheen ghy schijnt te wesen</l>
+						<l>Dat zyt ghy niet, waart ghy 't, dan wierd ghy recht gepresen.</l>
+						<l>Voor Godes gheestlijck Volck daar geeft ghy u voor uyt,</l>
+						<l>En 'tschijnt dat ghy niet weet wat dat die naem beduyt.</l>
+						<l>Gods Volc soeckt liefd en vreed, en ghy soect maar te twisten,</l>
+						<l>En 't Volck te leeren datse beter niet en wisten.</l>
+						<l>Ghy leert den Volcke nu datmen de Goden moet</l>
+						<l>Te vreden stellen met Iphigeniaes bloet.</l>
+						<l>Hy leert recht anders, met naturelijcke reden,</l>
+						<l>Dat wy, zo veer als wy dees offerhande deden,</l>
+						<l>De Godheyt tergen met zo gruwelijcken moort.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>Ick leer niet anders als Dianaas suw're Woort.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Chalchas die zeyt dat oock, wie zalmen nu gheloven?</l>
+					</sp>
+					<sp who="#palamedes">
+						<speaker>Pal.</speaker>
+						<l>Ghy zoeckt elckandre maar met laster te verdoven.</l>
+						<l>Daar ghy dan in u leer en schriften so verscheelt,</l>
+						<l>En beyde geestelijck, om 't geestelijck krackeelt,</l>
+						<l>Hoe zoud een wetent man dan van u toch wat houwen?</l>
+						<l>Heeft hij gheen reden om veel eerder te vertrouwen</l>
+						<l>Sijn welvaart inde handt der Recht'ren die ghemeen</l>
+						<l>De Werelt deur zyn, en vast stemmen over een?</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Voor-zeker jase. Maar hier wroeten alleen tegh en</l>
+						<l>Die vol van yver zijn, en and're die gheneghen</l>
+						<l>Zijn tot het heerschen, meer uyt lust van eyghen baat,</l>
+						<l>Als uyt een ware liefd en welstant van den staat.</l>
+						<l>Dat zijn de schelmen, dat zynse die 't quaat bedryven.</l>
+						<l>Dat zynse die daarom u dus alleen maar styven,</l>
+						<l>Om dat ghy de Ghemeent' zoud helpen op der loop,</l>
+						<l>Om ons, wanneer wy dan zo laghen over hoop,</l>
+						<l>Door Vreemdelinghen en misnoegent Volck te dwinghen.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>Dat sich de Vorst bemoeyt met geestelijcke dinghen,</l>
+						<l>Is buyten zyn beroep, 'tGodlijck swicht voor de Wet</l>
+						<l>Des aartschen Rechters niet, die hy den volcke set.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>'t Eeuwighe gheestelijck dat wy tot heyl behoeven</l>
+						<l>Stel ick gheen Wet, maar wel de gheestelijcke boeven.</l>
+						<l>Vws ist den Volck' in vreed', in suyverheyt, in leer,</l>
+						<l>En in ghehoorsaemheyt te stichten langs so meer:</l>
+						<l>Dat is, dijn Godlijck ampt dat hebdy te beschaffen,</l>
+						<l>Mijns ist, dwaalt ghy daar in, u dwaling te bestraffen.</l>
+						<l>Dat is mijn meening, maar dus meent ghy dat het hoort,</l>
+						<l>De Prins de hooghe plaats, maar u luy 'thooghe woort:</l>
+						<l>Denckt daar niet na, my zal 't best alle beyd betamen.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>Ick ken u qualijck meer als Gode ghehoorsamen,</l>
+						<l>Die my vrymoedich maackt te zegghen zyn begheer.</l>
+					</sp>
+					<sp who="#palamedes">
+						<speaker>Pal.</speaker>
+						<l>Zoo 't u niet meerder schort aan suyverheyt in leer,</l>
+						<l>Als aan vrymoedicheyt, en onbeschaamd'lijck uyten,</l>
+						<l>'t Gheen ghy in kintsheyt hebt in school gheleert van buyten,</l>
+						<l>Dan gaan de saken wel. Dan oordeloose mensch.</l>
+					</sp>
+					<sp who="#tersites">
+						<speaker>Ter.</speaker>
+						<l>Dien naackt de straffe Gods, die meer zijn eyghen wensch</l>
+						<l>Zoeckt te vol-brenghen, alst begheeren vande Goden.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Wie weet Dianaas wil? </l>
+					</sp>
+					<sp who="#tersites">
+						<speaker>T.</speaker>
+						<l>Dese, Gods trouwe boden.</l>
+						<l>Dat dese Priester zeyt steeckt hy niet uyt zyn hooft,</l>
+						<l>Wat meent ghy luyden? 't is ghenoch dat ghy 't ghelooft,</l>
+						<l>Hy weet het wel hoe 't met Diana is gheleghen.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Door wien, wanneer, hebt ghy de nader tijng ghekreghen</l>
+						<l>Van die Godin als ick? wat meent ghy dat ghy zyt?</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>'K ben een ghezante Gods, die plaats, persoon noch tijt</l>
+						<l>Behoeft te vieren, om volmondich het begeeren</l>
+						<l>Der goedertieren Goon den Vollicke te leeren.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Wat goedertieren toch? u God heeft een vermaack</l>
+						<l>In der onnos'len doot; seght dan een God van wraack.</l>
+						<l>Dies stekender veel in dat ongheloof bedoven,</l>
+						<l>Dat 's eer in gheen God als in sulcken God gheloven,</l>
+						<l>Ghelijck als ghy der een na u goetduncken smeet.</l>
+					</sp>
+					<sp who="#tersites">
+						<speaker>Ter.</speaker>
+						<l>Zy loven niet dat ghy de wille Godes weet.</l>
+					</sp>
+					<sp who="#palamedes">
+						<speaker>Pal.</speaker>
+						<l>'T schort aan t' gheloof niet, maer wy konnen 't niet begrijpen</l>
+						<l>Ghelijck als ghy, die 't hooft so scharp hebt laten slypen.</l>
+					</sp>
+					<sp who="#tersites">
+						<speaker>Ter.</speaker>
+						<l>Schort het u aan 't begrip, gheloof het en swijcht stil.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Tersites heeft ghelijck, zouden zy noch Gods wil</l>
+						<l>Niet weten, die zo lang om Gods-wille studeerden?</l>
+						<l>Zo geeftmen haar de naam t'onrecht van God-gheleerden.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>Protesilaus 't schijnt ghy Godes Volck bespot,</l>
+						<l>En die dat Volck bespot, die spot oock zelfs met u God.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Wel zydy waerdich dat de Luyden met u gecken,</l>
+						<l>Om dat ghy (die behoort den Volcke te verstrecken</l>
+						<l>'t Voorbeelt van ned'richeyt) stout en hooghmoedich tracht</l>
+						<l>Tot u te trecken heel de geestelijcke macht,</l>
+						<l>Zonder de Rechters daar (u Goden) in te kennen.</l>
+						<l>Maar zoeckt den Rechter zelfs oock na u handt te wennen.</l>
+					</sp>
+					<sp who="#nestor">
+						<speaker>Nest.</speaker>
+						<l>Aan 't opperste ghebied' heeft d' onderdaan gheen deel;</l>
+						<l>Want niemant komt dat dan den Vorst alleen gheheel,</l>
+						<l>Die 't beste volck van 't Landt te met wel doet verzamen</l>
+						<l>En hoort haar spreken, om na zyn begeert te ramen</l>
+						<l>Wat oorbaar is ghedaan tot welstandt vande staat,</l>
+						<l>Dus dat dat Volc verstrect zyn dwang niet, maar zyn raat,</l>
+						<l>Zo wel in gheestelijck als wereltlijcke zaken.</l>
+						<l>Want zo-men in een lant wil twee vooghdyen maken,</l>
+						<l>Wt tweederleye volck en tweederleye Wet,</l>
+						<l>Dat dit op 't wereltsch', en dat op het geest'lijck let,</l>
+						<l>Dan zal 't niet missen, of de Liefde zal versterven,</l>
+						<l>En beyder wangunst zal 't landt inden gront bederven.</l>
+						<l>Want by ghelijckenis, de werelt is een paart</l>
+						<l>Vol quade stuypen, ruw, gansch stog, en boos van aart,</l>
+						<l>Dat staagh wordt van de hooghe Overheyt beschreden</l>
+						<l>Met dapperheyt en dwang; want zelfs ist sonder reden:</l>
+						<l>Daarom (tot temming van dit onbeteemde beest,</l>
+						<l>Dat meer des Rechters dwang als God of godlijck vreest)</l>
+						<l>Bruyckt die Ritmeester dan twee zeer voorneme dinghen,</l>
+						<l>'t Een is het heyl'ghe Recht, daar hy 'tkort me moet dwingen,</l>
+						<l>Dat is de roede, die' y voert in zyn rechter handt:</l>
+						<l>Godsdienst ist ander, en daar leydt hy 't meed' aan bandt,</l>
+						<l>En die verstreckt hem 't toom, dat hy wel moet bestieren,</l>
+						<l>En met den slincker handt nu korten en dan vieren.</l>
+						<l>Zulcx dat eervarentheyt ons niet doet vinden goet,</l>
+						<l>Datmen den toom en roe, daar mee de Werelt moet</l>
+						<l>Ghedwonghen worden, voorts dus sorghelijck zal laten</l>
+						<l>In de twee handen van de twee verscheyde staten,</l>
+						<l>Maar datmen 't beyd, daar mee de Werelt wort bereen,</l>
+						<l>In beyde handen gheef des Rechters maar alleen.</l>
+						<l>Want zo men op dit paart wilt twee beryders setten,</l>
+						<l>Dat die zal op den toom, dees op den geessel letten,</l>
+						<l>'T salder voor seker dan heel qualijck mee vergaen,</l>
+						<l>Door dien zy nimmermeer malkander wel verstaen,</l>
+						<l>Maar 't moet oft aen den een oft aan den and're schorten,</l>
+						<l>Want d'een die zal die toom of t'ontydt willen korten,</l>
+						<l>Of d'ander zal de roe niet swencken op zyn tyt,</l>
+						<l>So dat door quaat beleyt 'tpaart ('tspoor en dwang heel quijt)</l>
+						<l>Raackt aan het hollen, en de ryders beyd' in lyden,</l>
+						<l>Die 'r zelfs bederven, en de ros de ruggh' in ryden.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eury.</speaker>
+						<l>Na u ghelijckenis verstreckt het aardtsche recht</l>
+						<l>De geessel van dat paart, de Werelt als ghy secht:</l>
+						<l>Dat isset oock, en ghy voert waardich dese roede,</l>
+						<l>Den quaden tot een straf, en tot een troost den goede.</l>
+						<l>Maar dat ghy de Godsdienst, dat heylichdom, by 't toom</l>
+						<l>Wilt verghelijcken, dat is niet meer als een droom:</l>
+						<l>Men kan zo met een toom niet alle paarden dwinghen,</l>
+						<l>Ghelyck men met een roe doet alle paarden springhen,</l>
+						<l>Dies is, ô Nestor! u ghelijckenisse vals.</l>
+					</sp>
+					<sp who="#nestor">
+						<speaker>Nest.</speaker>
+						<l>En teughel hebt ghy, maar wy hebbense van als,</l>
+						<l>En met u eene toom, 'tblijckt, hebt ghy voor ghenomen,</l>
+						<l>Om al de paarden van heel Griecken-lant te tomen.</l>
+						<l>Ghelijck ghy niet en kent, hoewel ghy 't stout bestaat,</l>
+						<l>En daarom acht ghy mijn ghelijckenis voor quaat,</l>
+						<l>Maar zo ghy luyd' de saack so wel als wy verstonden,</l>
+						<l>Ghy zout wel letten op verscheydenheyt van monden,</l>
+						<l>En alle paarden niet beryden met een bit:</l>
+						<l>'k Meen u stijfzinnicheyt. Siet, dit is onse wit,</l>
+						<l>Datmen d'eensyicheyt gheensins behoort te voeden,</l>
+						<l>En queecken op, om streng der volckeren ghemoeden</l>
+						<l>Te dwingen, dat was zot, en oorzaack tot veel quaats,</l>
+						<l>Alst blijckt: dies lieven wy de recklijckheyt in plaats,</l>
+						<l>Die vriend'lijck yder een ken t'allen tyd vernoeghen:</l>
+						<l>So moet een wijs man oock naar alle man zich voeghen</l>
+						<l>In saken van Geloof, en dat in red'lyckheyt.</l>
+						<l>Let eens Eurypylus of ander onderscheyt</l>
+						<l>Is tusschen u en tusschen slechte domme leken,</l>
+						<l>Dan de gheleertheyt, die u stijft in u ghebreken?</l>
+						<l>En de ghemeene man in school niet afgherecht,</l>
+						<l>Ghelijck als ghy, vermoet zich selven recht en slecht,</l>
+						<l>Onwetend', en gheeft licht zyn oordeel om een beter;</l>
+						<l>Daar ghy door leer u waant te zyn een ware weter</l>
+						<l>Van dingen die u van geleerde Meesters zijn</l>
+						<l>Aldus: Wat dat ghy lang van verr' siet, en op zy</l>
+						<l>Dat ghy dat schielijck eens op 't plat saeght, en na by,</l>
+						<l>(Indien ghy 't voor heen noyt gesien had wel-verstaende)</l>
+						<l>Ghy soud met eeden dier stijf-sinnigh houwen staende</l>
+						<l>Dat het wat anders was, om dat u de gewoont</l>
+						<l>Geseyd heeft dat dat ding sich altijd so vertoond.</l>
+						<l>Soud 't niet een mis-slagh sijn, oft ghy schoon veele jaren</l>
+						<l>Op Bergen had ge-ooght die verre van u waren,</l>
+						<l>En ghy en hadder geen (gelijck 't niet kan geschien</l>
+						<l>Door verheyd en de Lucht) Verand'ring aen gesien,</l>
+						<l>Dat ghy daeromme geen verandering soud meenen?</l>
+						<l>Dat was te sot, want in die tijd daer misschien steenen</l>
+						<l>Sijn af-gevallen, als selfs Bergen, groot en swaer:</l>
+						<l>Maer als ghy't niet en merckt, is 't daerom juyst niet waer?</l>
+						<l>Beklaghelijcke saeck datmen niet ken verbieden</l>
+						<l>De School-geleertheyd voor de oordelose Lieden.</l>
+						<l>Eer datmen yemand voerd ter hooger schoole in</l>
+						<l>Behoordmen wel te deegh' van sijn verstand en sin</l>
+						<l>Bewust te wesen, dat hy was van deegh'lijck oordeel;</l>
+						<l>Dan sou geleertheyd eerst de Landen sijn tot voordeel.</l>
+						<l>Nu vlieght het al ter school, bequaem en onbequaem,</l>
+						<l>Om huys te houden d'een, en d'ander om een naem,</l>
+						<l>Men jaeghts'er blind'lings heen, voor datmen de gebreken</l>
+						<l>Oft de bequaemheyd van de jeught eens hebb' door-keken.</l>
+						<l>Van veers vertoont op zy, so dat ghy naulijcks 'tschijn</l>
+						<l>Der dingen saaght, die ghy wel meenden te beoghen:</l>
+						<l>Want lichtlijck wort in school een kleyn verstandt bedroghen.</l>
+						<l>Dus gaat men daar me toe, blindlings wordt men besteldt</l>
+						<l>Ter school, by Meesters die de kind'ren maar om gheldt,</l>
+						<l>En niet uyt lust doen zien, en ziende doen haar staren</l>
+						<l>Op yets, daar zy voor heen gheluckich blint in waren:</l>
+						<l>Want dickwils staat daar med' 't natuurlijck oordeel stil,</l>
+						<l>En men begaap het al door des gheleertheyts bril,</l>
+						<l>Die reuck'loos, sonder eens op het ghesicht te letten,</l>
+						<l>De Meesters op de neus daar van de kindren setten,</l>
+						<l>En na dat yeder een daar zo krijght by gheval,</l>
+						<l>Daar oordeelt hy dan na der dinghen kleur en stal.</l>
+						<l>Daar komt de twist van daan, want dese die sal leeren</l>
+						<l>Dat 't alles geel is, en in teghendeel sal sweeren</l>
+						<l>Een ander wederom de dingen blauw te zijn,</l>
+						<l>Ghelijck als d'uwe zijn, alst wel gheeft wercken schijn:</l>
+						<l>Daer by wilt ghy noch niet Eurypylus ghedogen</l>
+						<l>Datmen u help', en met naturelijcke ooghen</l>
+						<l>De dingen doe besien die ghy zo qualijck ziet.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>Soud ickse anders sien, ick sachse beter niet.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Siet hier ghebeurt het dat gheleertheyt is verkeertheyt.</l>
+					</sp>
+					<sp who="#nestor">
+						<speaker>Nest.</speaker>
+						<l>Dat komt by de persoon: veel weten en gheleertheyt</l>
+						<l>Is elck wel even na, maar elck niet even nut.</l>
+						<l>Een sot gheleerd die druckt, een wijs gheleert die stut</l>
+						<l>Zijn Vaderlandt met raadt: des waart van God te wenschen</l>
+						<l>Dat de gheleertheyt maar viel inde wyse menschen,</l>
+						<l>En in de dommen niet, de welcken zy verstreckt</l>
+						<l>Dat maar alleen 'tgeen 'tgout en klabbeck, alst bedeckt</l>
+						<l>'t Ghebootst bedrogh, en doet dat het op-recht in d'oghen</l>
+						<l>Schijnt den onkundighen, die daar door wort bedroghen.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Dat sno bedroch ghebeurt ons daghelijcks te veel,</l>
+						<l>Zulcks dat dat volcks ghetal wort veer het grootste deel,</l>
+						<l>Waarom veel wysen zelfs, die meer die dommen vresen,</l>
+						<l>Die zy een vreemd'ling eens op-droegen, buyte weten</l>
+						<l>Der opper-Hoofden 's Rijcks. ('t En is ons niet vergeten;</l>
+						<l>De stucken sijnder noch) zy gaven hem in hand'</l>
+						<l>Als schelmen plegen, al de vrydom van het Land,</l>
+						<l>Sulcks dat hy mocht vertreên der Eed'len oude rechten,</l>
+						<l>De Steden na sijn wil beteugelen met knechten.</l>
+						<l>Als my ghelieven, hun oock veysen so te wesen.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Achi.</speaker>
+						<l>Dat 's waar. Toch 'kmeen zyt doen tot voordeel van het lant</l>
+						<l>Vertrouwende dat door haar ansien en verstandt</l>
+						<l>Quader verlet wort van dit volck noch voorghenomen,</l>
+						<l>Dies Agamemnon hebt niet eens voor die te schromen,</l>
+						<l>Dat die Voorsichtighen in u gherechte saack</l>
+						<l>V teghen zijn, maar me, hoe bars zy schynen vaack,</l>
+						<l>De tydt en lijt het niet dat zy haar meening uyten,</l>
+						<l>Oft warrar, troosteloos, zoud heul gaan zoecken buyten</l>
+						<l>An vremde Vorsten: Want hy kent zijn oude paan,</l>
+						<l>En dan, eer dat hy 't wist, was hy en wy vergaan.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Prot.</speaker>
+						<l>Zy vraghen daar niet na an wien zyt Rijck versetten,</l>
+						<l>Sy deden 't eertijts wel, dat tegen alle Wetten:</l>
+						<l>Want om te komen tot haar voorghenomen quaat,</l>
+						<l>En saghen zy niet an de val van dese staat:</l>
+						<l>Maar droegen 't op een vremd' sonder behou van rechten,</l>
+						<l>Die 't niet was machtich te bewaren dan met knechten,</l>
+						<l>Wtheemsch en tuchteloos, en noch wast niet met al,</l>
+						<l>Ghelijck 't u Heeren wel bekent is, dat de val</l>
+						<l>Van dese Landen noyt, als doe gheweest is, nader,</l>
+						<l>Testorides waer toe sich dese sake keerd?</l>
+					</sp>
+					<sp who="#menelaus">
+						<speaker>Men.</speaker>
+						<l>Tot het bederf, om dat ghy God nocht Goods-dienst eerd.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Wat laster! Calchas spreeckt. Laet Agamemnon treuren.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Spreken? Ick sorgh ick sal met swijgen noch verbeuren.</l>
+						<l>Ten ware nu weer door den zellefden verrader.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Achi.</speaker>
+						<l>Daarom ist noodich, dat nu mannen van beleyt</l>
+						<l>Weer hellen an die zy, op dat het onbescheyt</l>
+						<l>Van 't redeloose Volck door hare wijsheyt worde</l>
+						<l>Gheleyt en af-gheleyt van die'r tot oproer porde:</l>
+						<l>Dats 't werck van wijsheyt die dat volck leyt byder handt</l>
+						<l>Met 't saam d'eenvoudighen, die 't oogh op haar heeft, want</l>
+						<l>Eenvoudicheyt die 'r toch alleen niet ken bestieren,</l>
+						<l>Volcht 't doen dies kloeckarts, die om rust, gewoonts manieren</l>
+						<l>Instell'ghen Godes acht, oft schoon ghewoonte zot</l>
+						<l>Wat dwaalt, hy volgt, en speelt, daar vreed is daer is Godt.</l>
+						<l>So moetmen doen, dat zijn in noot des Princen krachten,</l>
+						<l>Dat hy ken veynsen, en gelegentheyt verwachten.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Achilles zoudt ghy my dan tot dit veynsen raan?</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Achi.</speaker>
+						<l>Jaa'k, anders zie 'ck daar ons nu qualijck redden aan.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Dat Menelaus is tot sulcken raadt gheneghen,</l>
+						<l>En nieuwt my niet, maar dat Achilles my me teghen</l>
+						<l>In dese saken valt, en raat my tot een moort,</l>
+						<l>Dat vreemt te meerder daar 't Eurypylus noch hoort,</l>
+						<l>Die wetende 'tverstant van u en uws ghelijcken,</l>
+						<l>Ghesteven wort dat hy een voet-stee niet zal wijcken.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>Derde bedrijf. Tvveede toneel.</head>
+					<stage>Rey van Griecksche Soldaten</stage>
+					<sp who="#rey van grieckse soldaten">
+						<speaker>Rey van Grieckse Soldaten</speaker>
+						<l>Myceensche Vorst 'k hoor uyt de Visschers hier an strant,</l>
+						<l>Als dat Vlisses met zyn Schip is onder lant,</l>
+						<l>Het volck kryoelt van vreucht, men ziet de ruyters draven,</l>
+						<l>De vlacke stranden op, beset ist langs de haven</l>
+						<l>Van mans en vrouwen, en van trotse Edelien,</l>
+						<l>Die seer verlanghen om de Koningin te sien:</l>
+						<l>De vloten zijn gestuuvt vol volcks, de bootsghesellen</l>
+						<l>Klaut'ren om hooch, zo dat de schepen daar na hellen,</l>
+						<l>Die top-swaar worden van die radde maats gewicht.</l>
+						<l>Die op de bergen staan, en gauw zijn van ghesicht,</l>
+						<l>Die riepen datse 't schip al aan zjjn vlaggen konden.</l>
+						<l>Met deze bootschap heeft den Hopman my ghesonden,</l>
+						<l>Om u Heer Coning, en de Princen al, bewust</l>
+						<l>Te maken dese saack. </l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Ag.</speaker>
+						<l>Ten is my gans gheen lust</l>
+						<l>Die bootschap te verstaan. Hoe zalter nu ghedyen?</l>
+					</sp>
+					<sp who="#palamedes">
+						<speaker>Pala.</speaker>
+						<l>Wat baart afgodery ghevarelijcke tyen.</l>
+					</sp>
+					<sp who="#menelaus">
+						<speaker>Men.</speaker>
+						<l>Wat baart ghehoorsaemheyt en godsdienst ons al vree.</l>
+						<l>O Palamedes swijcht voor ghy de wraack en wee</l>
+						<l>Des geest'lijcheyts behaalt. </l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Ag.</speaker>
+						<l>Gaat Vorsten, gaat ontfangen</l>
+						<l>De Bruyt, daar bloedt-dorst na der Afgod heeft verlangen.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>Derde bedrijf. Derde toneel.</head>
+					<stage>Palamedes. Euripilus.</stage>
+					<sp who="#palamedes">
+						<speaker>Pal.</speaker>
+						<l>Zeght eer de Bruydegom, en meent u goude kroon.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eurypy.</speaker>
+						<l>Nees Palymedes, wy zijn sulcks niet eens ghewoon</l>
+						<l>Te staan na hoocheyt en na Wereltlijcke machten;</l>
+						<l>Maar wat wy doen is maar om troulijck te betrachten</l>
+						<l>Der grooter Goden eer, waar in dat dat bestaat,</l>
+						<l>Weet ick, let ghy maar op de Wereltlijcke raat.</l>
+					</sp>
+					<sp who="#palamedes">
+						<speaker>Pala.</speaker>
+						<l>En oock op u, ick sal hier dapper onder roeyen.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Enry.</speaker>
+						<l>Ghy kent u licht te seer met deze saack bemoeyen.</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>Derde bedrijf. Vierde toneel.</head>
+					<stage>Rey der Griecken.</stage>
+					<sp who="#rey-der-griecken">
+						<speaker>Rey der Griecken</speaker>
+						<l>De vvaartste ampten op der aardt,</l>
+						<l>Daar 't volck vvort veylich door bevvaart</l>
+						<l>Is vvill'ghe Godsdienst goedt en slecht</l>
+						<l>Het ander is het heyl'ghe Recht</l>
+						<l>Die tvvee zijn sonder onderscheyt</l>
+						<l>All'sins vvaar dat d'eenvoudicheyt</l>
+						<l>Leeft in het herte van die geen,</l>
+						<l>Die Preekstoel en Stadthuys betreen</l>
+						<l>Laat nederighe slechticheyt</l>
+						<l>O Goden! en oprechticheyt</l>
+						<l>Dan vveder komen metter spoet</l>
+						<l>In die tvvee staten, van ghemoet</l>
+						<l>Ontstelt, ontrust, en opghehitst</l>
+						<l>Van Ialoesy vol erghe list</l>
+						<l>Op dat haar luyder misverstandt</l>
+						<l>Ons niet en zy 'tbederf van 't Landt</l>
+						<l>'</l>
+						<l>De Gheestelijcke tvvist en strijt</l>
+						<l>Want noyt heeft Kettery bedocht</l>
+						<l>Yet nieus, noch op den baan ghebrocht</l>
+						<l>Zoo vreemd yets, of het kreech vvel loop</l>
+						<l>Alsout maar vvesen van een hoop</l>
+						<l>Bedurven menschen, die 't ghenot</l>
+						<l>Maar houden voor haar aardsche Godt</l>
+						<l>Ghelijck alst nu vvel klarelijck</l>
+						<l>Blijct in deez' tijdt ghevarelijck:</l>
+						<l>Want het en deed' de eyghen baat</l>
+						<l>En guls 'ghe lust na groote staat</l>
+						<l>Van vvien zoud 't vverden toch ghelooft</l>
+						<l>Dat nu een yder heeft in 't hooft?</l>
+						<l>O goedertieren Goden zyt</l>
+						<l>Ghy zo langmoedich, dat ghy lijt</l>
+						<l>Dat uwe Godheyt vvort gheschelt</l>
+						<l>Ghelastert en tot spot ghestelt</l>
+						<l>Van Papen, die de vvil en vvensch</l>
+						<l>Veel meer van een staatsuchtich MenschGhelieven (om haar veylicheyt)</l>
+						<l>Als uwe waarde heylicheyt</l>
+						<l>'t Is vvaar, ick sulcken Priester ken</l>
+						<l>Die nauvv in God of af-god en</l>
+						<l>Ghelooven: dan die luyden zyn</l>
+						<l>Zeer onghelijc haar eyghen schijn</l>
+						<l>Door zulcke luyden vvordt om gheldt</l>
+						<l>Het landt in rep en roer ghesteldt;</l>
+						<l>Want 't ringste deel van 't volckje slecht</l>
+						<l>Wort van haar qualijc onderrecht</l>
+						<l>En in ghenomen, en eer lang</l>
+						<l>Zyn zy dan zelf der Vorsten dwang</l>
+						<l>Ghelijc een Noorder storm de Zee</l>
+						<l>Bevveecht, bevveghen zy luy mee</l>
+						<l>De menschen door een yd'le droom</l>
+						<l>Die teghen dese vvint en stroom</l>
+						<l>Op-zeylen vvil, verliest zyn Schip,</l>
+						<l>Zyn lyf, zyn goedt, op eenen klip</l>
+						<l>Van deze storm en baren vvort</l>
+						<l>Ghy Agamemnon nu bestort</l>
+						<l>Stiert 't ancker daarom na de grondt,</l>
+						<l>En ziet of ghy 't of-ryen kondt,</l>
+						<l>Dat is nu veer de beste raat</l>
+						<l>Voor 't volc, voor u, en voor de staat</l>
+					</sp>
+				</div>
+			</div>
+			<div n="4" type="act">
+				<div n="1" type="scene">
+					<head>Het vierde bedrijf. Eerste toneel.</head>
+					<stage>Vlysses. Iphigenia. Clitemnestra.</stage>
+					<sp who="#clitemnestra">
+						<speaker>Cli.</speaker>
+						<l>Hoe luckigh, zaal'ge Vrou dreef ons een voor-eb uyt</l>
+						<l>Des havens engte? en hoe spoedich schoone Bruyt,</l>
+						<l>Schoof ons een voor de Wind' op 't rollen van de baren</l>
+						<l>Tot hier in Aulis? daer ghy lodderlijck zult paren,</l>
+						<l>Met sulck een Bruydegom, met sulck een kloecken helt,</l>
+						<l>Als oyt de groote Grieck, u Vader bracht te velt.</l>
+						<l>Iphigenia 't is Achilles, die gheboren</l>
+						<l>Wt Thetis is, en heeft u tot zijn Bruyt verkoren.</l>
+						<l>Lucksalighe Princes! wat Staf, wat Konings Kroon</l>
+						<l>Reyckt Jovis zelf u toe, de Koning aller Goon?</l>
+						<l>Die door dit Huw'lijck ons komt wisse spoet betek'nen:</l>
+						<l>Want ghy, ô sterflijck mensch! na maachschap zult berek'nen</l>
+						<l>D'onsterffelijcke Goon, door 'tlieflijck mondt aen mondt</l>
+						<l>T'saam aaz'men in Achil, en koppelt zo 't verbondt</l>
+						<l>Den Grieck met Gode, dat twist nimmermeer sal breken,</l>
+						<l>Nocht scheyden door ghewelt, of valscheyts loose treken.</l>
+						<l>Vruchtbare Koningin dat luck hebt ghy ghebaart,</l>
+						<l>En uws vruchts heusheyt is haars Bruygoms Grodheydt waart.</l>
+						<l>Lieftal'ghe Bruyt begint her hertjen niet te joken?</l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Iphi.</speaker>
+						<l>'K weet niet wat vreemdicheyt mijn sinnen komt bestoken,</l>
+						<l>Dat ick swaarmoedich ben, daar ick van hert en zin</l>
+						<l>Mijn Bruydegom uyt gront eens zuyv're ziels bemin.</l>
+						<l>Liefd stiert my voort, en schaamt die treckt my wederomme.</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Cli.</speaker>
+						<l>Iphigenia 'tzijn kintscheden, die 'r vermommen</l>
+						<l>En bootsen schaamte na, en oft al schaamte was,</l>
+						<l>Komt dien Princes int eerbaar huwelijck te pas?</l>
+						<l>Schaamt is een tuyghe van gheopenbaarde schande.</l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ulis.</speaker>
+						<l>En, Clitemnestra, schaamt is een ghetuyghe vande</l>
+						<l>Ghebloosde Min, die strack 't ontsteken bloet seer los</l>
+						<l>Drijft op door lichte brant, en jaacht de Maacht een blos</l>
+						<l>Aan, door ziel-roeringhe, wanneerse maar hoort noemen</l>
+						<l>Haar Lief, die'r sond' op trouw een Kranselijn vol bloemen.</l>
+						<l>Tintaride laat dit beleeftheyt zyn ghenaemt,</l>
+						<l>Ghelijck als waarlijck is de Maachdelijcke schaemt.</l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Iphi.</speaker>
+						<l>Vlysses, Hoveling, ghy weet het zo te kallen.</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Clit.</speaker>
+						<l>Vlysses, Dochter, weet een yder te ghevallen.</l>
+						<l>Schaamt en beleeftheyt die verscheelen veels te veel,</l>
+						<l>Want de blood' schaamt is boersch, vryposticheyt is eel.</l>
+						<l>Iphigenia nu vrymoedich dan, want 'tschamen</l>
+						<l>Sal u, ô schoone Bruyt! int mintse niet betamen.</l>
+						<l>Ghelooft u Moeder, Kint, want zy spreekt als verzocht.</l>
+						<l>Maar wat gheluyt is dat? </l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ulis.</speaker>
+						<l>Het is de Griecksche tocht,</l>
+						<l>Die vrolijck dese Bruyt komt aande strant ontmoeten.</l>
+						<l>Ziet daar der Priest'ren Rey die 'r singhende komt groeten.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>Vierde bedrijf. Tvveede toneel.</head>
+					<stage>Vlysses. Iphigenia. Citemnestra. Euripylus. Rey van Grieckse
+						papen.</stage>
+					<sp who="#rey-van-grieckse-papen">
+						<speaker>Rey van Grieckse papen</speaker>
+						<l>O Bruydt! ô Goddelycke Bruyt!</l>
+						<l>Wien alle vromen</l>
+						<l>Verwillekomen,</l>
+						<l>Om dat haar uwe koomst beduyt</l>
+						<l>Het blyde ende</l>
+						<l>Van haar ellende:</l>
+						<l>Ons nu alreed' bereydt</l>
+						<l>Om dat de grooten</l>
+						<l>Door ongheloof en godloosheyt,</l>
+						<l>'t Gheen dat Apollo seyt,</l>
+						<l>(Door ons) verstooten.</l>
+						<l></l>
+						<l>2. 't Onsalig' groot geslacht ten hoof</l>
+						<l>Door dertelheden</l>
+						<l>En quade zeden</l>
+						<l>Verwent, en ken noch geen gheloof</l>
+						<l>Nocht ghene Goden</l>
+						<l>Nocht gheen gheboden</l>
+						<l>Der Priesteren voor goedt,</l>
+						<l>Den Adel, Burgery, de Geestelijcke staet,</l>
+						<l>Die aen den oever u dus vrolijck komt ontmoeten.</l>
+						<l>Euryp'lus wenckt my, siet. Ick wil den Priester groeten,</l>
+						<l>En hooren wt sijn mond wat dat daer is te doen.</l>
+						<l>Als het is teghen</l>
+						<l>Haar wrevelich en trots ghemoet:</l>
+						<l>Het welck ons derven doet</l>
+						<l>Der Goden zeghen</l>
+						<l></l>
+						<l>3. Maar ghy, ô Maget (die de Goon</l>
+						<l>Kent alles waardich)</l>
+						<l>Hebt 'talles vaardich</l>
+						<l>Ghemaact, om u te laten doon</l>
+						<l>Tot offerhanden</l>
+						<l>Door 's Priesters handen:</l>
+						<l>Om Gode te voldoen</l>
+						<l>Door salich sterven:</l>
+						<l>Want vvisselijcke door u bloen,</l>
+						<l>Is maar der Griecken soen</l>
+						<l>Weer te verwerven.</l>
+						<l></l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ulys.</speaker>
+						<l>Iphigenia zy verwelkoomt hier aan landt.</l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Iphi.</speaker>
+						<l>Hoe lang heb ick ghewenscht in Aulis aan de strandt</l>
+						<l>Mijn voet te setten op? </l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ulys.</speaker>
+						<l>Vorstinne na u wenschen</l>
+						<l>Syt ghy daar nu, en doet vernoeghen seer veel menschen.</l>
+						<l>Voort, helpt de Moeder, en de Bruyt eerst uyt het schip,</l>
+						<l>Met al haar sleep, en dan vaart binnen dese klip,</l>
+						<l>Hier inde luute, daar 't ghemacklick is te legghen.</l>
+						<l>'t Schijnt dat Euripylus my yet wat heeft te seggen,</l>
+						<l>Ick spring aan landt, om sien wat dat daar is te doen.</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Clit.</speaker>
+						<l>Iphigenia, Kindt, ick krijgh al quaat vermoen</l>
+						<l>Van dese handeling. Wat heeft hy doch te spreken</l>
+						<l>Met hem alleen? En 'thoofd daar t'samen meed te steken?</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eurypy.</speaker>
+						<l>Neen, datelijck, want 't hangt an 't wenden vande Windt.</l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ulys.</speaker>
+						<l>En of de Vorst niet wou? </l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>Niet wou! Ey, swijcht. Mijn Kindt.</l>
+						<l>Gheluckighe Princes, 'ten waar uyt u gheboren</l>
+						<l>Iphigenia was, wy waren al verloren.</l>
+						<l>Zijt welkoom hier aan landt luck-brenghende Vorstin,</l>
+						<l>Met u komt Goods-dienst, en veel heyls ten Legher in.</l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Iphi.</speaker>
+						<l>O heyl'ghe Priester Gods, en ghy Godsal'ghe Reyen,</l>
+						<l>Ick danck u: Maar waar mach mijn Bruydegom verbeyen,</l>
+						<l>En mijn Heer Vader, daar ick lang na heb verlangt,</l>
+						<l>Hoe komt het dat my die niet vrolijck en ontfangt?</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>Dit salich Huwelijck, tot voordeel vande Landen,</l>
+						<l>Mach maar ghehandelt zijn van Gheestelijcke handen,</l>
+						<l>Waarom ick u, ô Bruyt, Godsalichlijck ontfang,</l>
+						<l>En koom u te ghemoet met aanghename sang.</l>
+						<l>Den Priester passen dien gheen Priesterlijcke saken?</l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Iphi.</speaker>
+						<l>Jaaz', maar men wil van my nu gheen Papinne maken,</l>
+						<l>O neen, Euripylus, maar eenes Vorsten Vrou,</l>
+						<l>Want ick nu zitte met Achilles onder trou,</l>
+						<l>Die my, in plaats van u, behoort te komen teghen.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>Iphigenia 't isser anders me gelegen:</l>
+						<l>Beelt van Achilles u toch niet met allen in.</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Clit.</speaker>
+						<l>Wat hebt ghy Paap dan met mijn Dochter inde sin?</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>Heeft Clytammestra meed' den aardt van alle Vrouwen?</l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Iphi.</speaker>
+						<l>Hoe nu Vlisses sal ick Thetys zoon niet trouwen?</l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ulys.</speaker>
+						<l>En sult ghy niet? dan isset anders als ick weet.</l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Iphi.</speaker>
+						<l>'k Wil niemant anders. </l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Cl.</speaker>
+						<l>Neen, an hem zijt ghy besteet,</l>
+						<l>Om zijnen 't wil zyt ghy naar Aulis toe ghevaren.</l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ulys.</speaker>
+						<l>Hoe salmen haer de saack toch derven openbaren.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>Geen swaricheyt. Me-vrou. </l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Cl.</speaker>
+						<l>Wat hebt ghy met ons voor?</l>
+						<l>Wat zalder zyn? </l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eu.</speaker>
+						<l>Vorstin. Ick bid u gheeft ghehoor.</l>
+						<l>Ben ick Euripylus niet uwen Priester heylich?</l>
+						<l>Betrout ghy my niet toe dat ick de volck'ren veylich</l>
+						<l>Bewoonen doe dit Lant, door dien ick de gheboon</l>
+						<l>Haar leere kennen van d' onsienelijcke Goon?</l>
+						<l>Betrout ghy my niet toe al 'tgheen dat is betaam'lijck?</l>
+						<l>En dat de Godtheyt haar in my vertoont lichaam'lijck?</l>
+						<l>Sulcx dat ick niet en ken (schoon of ick anders woud)</l>
+						<l>Dan af-raan u bederf, en aan-raan u behoud?</l>
+						<l>Voorwaar men moet my dat volcomelijck vertrouwen.</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Clit.</speaker>
+						<l>Men moet, al ken men niet. Hoe lang zult ghy my houwen</l>
+						<l>Toch inden twijfel met een lange teem? Nu kort</l>
+						<l>Euripylus, segt ons ten eersten watter schort.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>Me-vrou eer dat ghy 't weet zo zyt ghy onverduldich:</l>
+						<l>Dan niet te min ick ben van Godes weghen schuldich</l>
+						<l>De Menschen minder als de Goden te ontsien,</l>
+						<l>En sal derhalven u uyt Godes mondt ghebien,</l>
+						<l>Dat ghy u de gheboon des Hemels onderworpe,</l>
+						<l>Voor dat de holle Zee de Griecksche vloote slorpe</l>
+						<l>Ter wijder keele in. </l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Cli.</speaker>
+						<l>Euripylus waar toe</l>
+						<l>Dit driegen? zeght ons toch wat wildy dat ick doe?</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>Maar dat ghy my u Kint sult leveren in handen.</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Clit.</speaker>
+						<l>En dan? </l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eu.</speaker>
+						<l>En dan sal 't wel-gaan inde Griecksche Landen.</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Cli.</speaker>
+						<l>Euripylus wat hebt ghy met haar inden sin?</l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Iphi.</speaker>
+						<l>Ey doet het: 't is daar meed' te meer niet noch te min:</l>
+						<l>Syt om zo kleynen saack de Priesteren niet teghen.</l>
+						<l>Siet hier Euripylus met suyv're ziel gheneghen</l>
+						<l>Iphigenia, om de Priesterlijcke raat,</l>
+						<l>Tot mijnen eyghen heyl, tot welstant vande staat</l>
+						<l>Te volghen, noyt en heeft my daar in yet ghebroken.</l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ulis.</speaker>
+						<l>Noyt heeft Princessen mondt yet salighers ghesproken.</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Clit.</speaker>
+						<l>Vlysses, ey swijcht stil van zalicheyt by my,</l>
+						<l>Ick ken u wel, met u ist niet dan veynsery.</l>
+						<l>Wel nu Euripylus wat isser voorghenomen,</l>
+						<l>Int Griecksche Legher, dat men ons doet schielijck komen</l>
+						<l>Wt het Myceensche Rijck tot hier in Aulis? daar</l>
+						<l>Mijn Dochter trouwen zou, en nu en ist niet waar,</l>
+						<l>Ghelijck ick droeffelijck verstaan heb uyt u woorden,</l>
+						<l>Niet teghenstaande dat Vlysses ons bekoorden</l>
+						<l>Door die belofte, dat Achilles daatlijck zou</l>
+						<l>Iphigenia hier ontfanghen voor zijn vrouw.</l>
+						<l>Dan toch hy wist wel bet, schoon hoe 'y hem weet te houwen:</l>
+						<l>Maar nu, met wie zal zy Euripylus dan trouwen,</l>
+						<l>Terwijl dat niet en is? </l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eu.</speaker>
+						<l>Achilles is een zoon</l>
+						<l>Van Thetis de Godin, hoewel dat Huw'lijck schoon,</l>
+						<l>En aanghenaam daarom schijnt int ghesicht der ooghen,</l>
+						<l>So ist noch niet met al in aansien noch vermoghen,</l>
+						<l>By 't Huwelijck dat zy int bloeyenst van haar jeucht</l>
+						<l>Op heden doen sal tot ons aller heyl en vreucht:</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Clit.</speaker>
+						<l>Nochtans die Thetis zoon heeft leeft op aerde veylich.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eury.</speaker>
+						<l>Dat 's waar, maar 't maact de Bruyt niet Godt gelijc en heylich</l>
+						<l>Als dit, waer neffens zy ons vryd' voor alle noot.</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Clit.</speaker>
+						<l>Wie is haar Bruydegom? </l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eu.</speaker>
+						<l>Maar een Godsal'ge doot.</l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Iphi.</speaker>
+						<l>Wat seyt Euripylus? </l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Cli.</speaker>
+						<l>Wat salder nu ghebeuren?</l>
+						<l>Mijn Dochter sterven? </l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eu.</speaker>
+						<l>Ja, want dat so willekeuren</l>
+						<l>De grote Goden. </l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Cl.</speaker>
+						<l>Neen, so dat de Goon ghebien,</l>
+						<l>So latense 't dan my ghebieden, 'tsal gheschien,</l>
+						<l>V segghen ghelter niet. Mijn Kint is al om 't leven.</l>
+						<l>O Goden waar is u medogentheyt ghebleven?</l>
+						<l>Iphigenia! </l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Ip.</speaker>
+						<l>Ach! </l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>E.</speaker>
+						<l>Nu Clitemnestra, hoort,</l>
+						<l>Staat toch in reden. </l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Cl.</speaker>
+						<l>Wech, wech, spreeckt my niet een woort.</l>
+						<l>O Griecksche Vorsten, och! </l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eu.</speaker>
+						<l>'K seg u dat dat de Goden</l>
+						<l>Tot Delphos hebben door haar ware mondt gheboden.</l>
+						<l>Ic hebbet selfs gehoort. </l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Cl.</speaker>
+						<l>Schijnheyl'ge Paap ghy liecht,</l>
+						<l>Ghy liecht. Ghy doet niet dan dat ghy de werlt bedriecht</l>
+						<l>Met Hemels guychel-spel, en 'tzijn u eyghen dinghen,</l>
+						<l>Slechs om u baat bedocht, en om het volck te dwinghen</l>
+						<l>Tot sulcks als ghy begeert. Iphigenia, och!</l>
+						<l>Iphigenia! Kint! </l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ulys.</speaker>
+						<l>Nu Clitemnestra. </l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Cl.</speaker>
+						<l>Droch!</l>
+						<l>Lichtvaardighe weyfelaer, die door bedriechlijck vleyen</l>
+						<l>My socht in handen van dees moordenaer te leyen:</l>
+						<l>De waarom weet ghy wel, dan my ist onbewust.</l>
+						<l>'T is Clitemnestra, Lief, u Moeder die u kust,</l>
+						<l>Mijn soete zieltje, och! ô Goon! </l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Iphi.</speaker>
+						<l>Och, recht my weder.</l>
+						<l>Ey my, my wort so bang. Staatdochters set my neder.</l>
+						<l>'K voel over al mijn leen de voorbood vande doot.</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Clit.</speaker>
+						<l>Iphigenia, Lief, rust in u Moeders schoot.</l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ulys.</speaker>
+						<l>Indien 't Diana zou al even zalich achten</l>
+						<l>'K liet my in plaatse van Iphigenia slachten,</l>
+						<l>Om door dit lichaam de Goddinne vander Zee</l>
+						<l>Te stillen. </l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eu.</speaker>
+						<l>Dat 's een man. </l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Cl.</speaker>
+						<l>Vlysses spotter mee,</l>
+						<l>Ghelijck als ghy wel weet: dan ghy die 't lant in roeren</l>
+						<l>Gebracht hebt, bruyct hem maer om 't schelmstuc te volvoeren,</l>
+						<l>Dat ghy, ô Paap! bedacht slechs om u eygen baat,</l>
+						<l>En daar Vlysses u, om opmerck vande staat,</l>
+						<l>De rug in stijft: dan neen. O neen, ghy sult niet komen</l>
+						<l>Tot uyt-voer van het quaad aan ons luy voor ghenomen,</l>
+						<l>Al zoudt heel Griecken lant ghedyen tot den val.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eury.</speaker>
+						<l>Acht ghy geen Godsdienst? </l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Cl.</speaker>
+						<l>Ja 'k: Maar dese niet met al.</l>
+						<l>Euripylus ghy maackt het alle dagen grover.</l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Iphi.</speaker>
+						<l>Wat komt my, Moeder, in mijn jonghe Jaren over?</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Clit.</speaker>
+						<l>Hervat de moet mijn hert: want ziet de Godheyt het</l>
+						<l>V klacht verhoort, daer komt u Vader tot ontset.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>Het vierde bedrijf. Derde toneel.</head>
+					<stage>Iphigenia. Agamemnon Ulisses. Eurypylus. Clitemnestra.
+						Protesilaus.</stage>
+					<sp who="#iphigenia">
+						<speaker>Iphi.</speaker>
+						<l>Mijn Vader! </l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Ag.</speaker>
+						<l>Ha myn Kint! </l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Ip.</speaker>
+						<l>Waer toe ben ic geschapen?</l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>Vlis.</speaker>
+						<l>Soud Agamemnon zich versetten met de Wapen</l>
+						<l>Wel durven om dees saack? </l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eu.</speaker>
+						<l>'K verseker u wel neen.</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Clit.</speaker>
+						<l>'K verseker u wel ja. </l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Ag.</speaker>
+						<l>Mijn Dochter zyt te vreen.</l>
+						<l>Myceensche Vrouw, wat baart den Hemel onghelucken!</l>
+						<l>Mijn Lief, een Paap zoeckt u uw' Dochterken t'ontrucken,</l>
+						<l>En op te offeren dat onder Godsdiensts schijn.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>'t En waar Vlysses deed, wat zoud Eurip'lus zyn,</l>
+						<l>Toch anders als een windt daar niet aan is bedreven?</l>
+						<l>Vlysses ist van wien de rug hem wort ghesteven,</l>
+						<l>Dien mostmen dryven tot het Griecksche Legher uyt,</l>
+						<l>Men soud als dan met desen Geestelijcken guyt</l>
+						<l>Wel beter deech doen. </l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>E.</speaker>
+						<l>Hoe? waer voor zult ghy my schelden?</l>
+					</sp>
+					<sp who="#palamedes">
+						<speaker>Pal.</speaker>
+						<l>Hoe twee-spalct ghy toch dus de trotse Griecksche Helden?</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Komt Dochter. Komt mijn Vrou, ick sal u doen verstaan</l>
+						<l>'t Verborgen van dees zaack. </l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ul.</speaker>
+						<l>Hoe, laatmen haar so gaan?</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Prot.</speaker>
+						<l>Kent ghy u kloeck ghenoch so soeckt het te beletten.</l>
+					</sp>
+					<sp who="#palamedes">
+						<speaker>Pal.</speaker>
+						<l>Hoe na zoud ghy der u wel durven om verzetten?</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>Ontsetter u niet in. </l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ul.</speaker>
+						<l>Ick ben al vry ghesteurt.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>Niet eens Itaachsche Vorst, 't is nu dit volck haar beurt,</l>
+						<l>Men moet voor dees tydt dit so lange laten sloeren,</l>
+						<l>Tot dat wy met ghewelt het weten uyt te voeren.</l>
+						<l>En daar toe weet ick raadt, ist by aldien dat wy</l>
+						<l>Te winnen weten maar Achilles op ons zy.</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>Vierde bedrijf. Vierde toneel.</head>
+					<stage>Vlysses. Euripilus.</stage>
+					<sp who="#ulysses">
+						<speaker>Ul.</speaker>
+						<l>Dan zal 't te laat zijn, want zy zullen haar versteken.</l>
+						<l>Zy gaander vast me deur. </l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eu.</speaker>
+						<l>Daar sal niet aan ghebreken,</l>
+						<l>Laat my daar mee begaan. Het sal wel lucken, beydt:</l>
+						<l>Een sake van ghewicht wort met geen hevicheydt</l>
+						<l>Ghevordert: oock en pleecht te zyn niet uwe wijse.</l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ulys.</speaker>
+						<l>'K weet dat langmoedicheyt is in een Vorst te prijsen:</l>
+						<l>Dan wie ken t' aller uur verheeren zyn ghemoedt,</l>
+						<l>Wanneer door lastering ontsteken wort het bloet?</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>Protesilaus mocht zyn snap wel eens berouwen.</l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ulis.</speaker>
+						<l>Ick zal 't int binnenst' van mijn herte wel onthouwen.</l>
+						<l>Toch Palamedes is ons meerder inde weegh,</l>
+						<l>Die barst niet uyt, maar seyt zyn woorden wel so sneegh,</l>
+						<l>En spits, en weet zijn doen veel looser te besteken:</l>
+						<l>Indien ick ken aan dien sal ick my 't meeste wreken.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>Ja, 't waar wel orbaar dat hy met een deel aan kant</l>
+						<l>Gheholpen wierd, en dat het maar naar eens verstant</l>
+						<l>Beleydt wierd' na mijn sin, dan souden hier de saken</l>
+						<l>Door de veelhoofdicheyt niet meer op 't hollen raken.</l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ulys.</speaker>
+						<l>Gheluckich is het Lant, en wast van dach tot dach,</l>
+						<l>Daar maar een Vorst alleen door wijsheyt en ontsach</l>
+						<l>Sijn volck alleen beheerst, en breydelt dat met wetten,</l>
+						<l>Die tijds ghelegentheyt en Godsdienst beyde zetten.</l>
+						<l>Siet dan, ô Griecken! aan u wanckelbare staat,</l>
+						<l>By veelen gheregeert, daer elck om eyghen baat</l>
+						<l>Sijn eyghen oordeel schijnt veer voor 'tghemeen te soecken,</l>
+						<l>En daar d'inwoonders d'een den anderen verkloecken</l>
+						<l>Door Kerck-twist, diemen om Iphigenia ziet,</l>
+						<l>Oft zy Diana sal gheslachtet zijn of niet.</l>
+						<l>Saligh' Euripylus, wie derft in twijfel trecken?</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eur.</speaker>
+						<l>'T schijnt dat de grooten hier met God en Godsdienst gecken,</l>
+						<l>Vlysses wat een tydt beleven wy toch nu?</l>
+						<l>Wil Agamemnon dus, zyn Kroon beloof ick u.</l>
+						<l>Twyfelt hy te voldoen de wil der grooter Goden?</l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ulis.</speaker>
+						<l>Dat blijckt wel, want hy wil zyn Dochter haar niet dooden.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eury.</speaker>
+						<l>Hy moet, of ick berey hem binnenlandtsche twist,</l>
+						<l>En his het volck op hem, wel eerder als hy 't gist.</l>
+						<l>Ick steldt wel al in roer. Het sal mijn niet ghebreken</l>
+						<l>Aan die macht, dat ick sal de klare Water-beken</l>
+						<l>Veranderen in bloedt, door moort, die man aan man</l>
+						<l>Bedryven sal, waarop daatlijck sal volghen dan,</l>
+						<l>So veer hy op zyn oude Vryheydt wil volherden,</l>
+						<l>Dat dese steden tot puyn-hoopen sullen werden;</l>
+						<l>De boomen galghen, en het woest onvruchtbaar veldt</l>
+						<l>Een Kerrick-hof, daar romp op romp rot, door 't gheweldt</l>
+						<l>Van dese tong, die my een trommel sal verstrecken,</l>
+						<l>Om 't Volck te ruyen op, dat 't harnas aan sal trecken</l>
+						<l>So ras ick 't maar ghebied. Laat hy dat dencken vry,</l>
+						<l>Als ick spreeck, dat dan Godt spreeckt yverich door my.</l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ulis.</speaker>
+						<l>Alst doet Euripylus, 'k voel hert en ziel beweghen</l>
+						<l>Door uwer woorden kracht: de Goden is hy teghen</l>
+						<l>Die teghen u is. Maar heyl'ge Priester siet</l>
+						<l>Vlysses hier, die 't al wil doen wat ghy ghebiet.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Eurypy.</speaker>
+						<l>Daar voor staat u der Goden zegen te verwachten,</l>
+						<l>En aller menschen gunst, die u meer zullen achten</l>
+						<l>Als Agamemnon zelfs: siet eens so veel vermach</l>
+						<l>De Gheestelijcke staat, dat zy den Vorst 't ontsach</l>
+						<l>Benemen ken, wanneer hy sich met goet ghenoeghen,</l>
+						<l>Tot sulcks als wy ghebien, niet heel en al wil voeghen.</l>
+						<l>Dat haar de Overheyt volkomen heerschappy</l>
+						<l>Toe-rekent, dat is niet, ghelijck Vlysses ghy</l>
+						<l>Wel weet dat zy luy niet bequaam zyn tot regeeren,</l>
+						<l>Ten zy zy 't eerst van my en mijns ghelijcke leeren.</l>
+						<l>Maar eer de tydt verloopt, zo dient hier niet ghebeyt,</l>
+						<l>Dan datelijck ghewrocht: midts de ghelegentheyt</l>
+						<l>Ons schijnt te dienen, om de saken uyt te voeren.</l>
+						<l>Doet d' uwe op den tent van Agamemnon loeren,</l>
+						<l>En n eerstich nemen acht wie datter in en uyt</l>
+						<l>Soud moghen gaan. Voor al dat zy ons dese Bruyd,</l>
+						<l>Iphigenia 'k meen, niet looselijck versteken.</l>
+						<l>En ick sal midlertydt Achilles hier van spreken,</l>
+						<l>Die 'k wijs sal maken dat wy 't opperste ghebiedt</l>
+						<l>Hem gheven willen, schoon al meenen wy het niet;</l>
+						<l>Om 'tvoordeel sal hy sich op onse zyde gheven.</l>
+					</sp>
+				</div>
+				<div n="5" type="scene">
+					<head>Het vierde bedrijf. Vyfde toneel.</head>
+					<stage>Ulysses. Griecksche Soldaten.</stage>
+					<sp who="#ulysses">
+						<speaker>Uly.</speaker>
+						<l>Dat snood' gheselschap is volkomelyck bedreven</l>
+						<l>Op allerley bedroch. Ick moeter nu me deur,</l>
+						<l>Dan waar ick die ick was, en stondet in mijn keur</l>
+						<l>Oft ick dit wederom mocht aangaan ofte laten,</l>
+						<l>Ick sweert, zy souden my so schoon niet weder praten.</l>
+						<l>Dan, laas! wat ist, ick merck te laat haar schelmery,</l>
+						<l>Want zy staan zelfs na 'tgheen dat zy beloofden my:</l>
+						<l>Dat is de Kroon op 't hooft, die zy wel willen gheven,</l>
+						<l>Des dat die, diese draacht, naar hare wil moet leven.</l>
+						<l>'K gun Agamemnon wel die tytelen van eer:</l>
+						<l>Daar toe en kryghen zy Vlysses nemmermeer,</l>
+						<l>Die ghene Konings Kroon op 't hooft en zoud begeeren,</l>
+						<l>Of zoud oock willen voorts volkomelijck regeeren,</l>
+						<l>So wel die luyden, als de minste van 'tghemeen.</l>
+						<l>Waar zyn de dienaers? voort, gaat datelijcken heen</l>
+						<l>De Tente van de Vorst wel nauw ronts-om besetten,</l>
+						<l>Daar ghy ghestadich oock wel neerstich sult op letten,</l>
+						<l>En gade slaan voor al dat Clitemnestra, nocht</l>
+						<l>Iphigenia niet word elders heen ghebrocht.</l>
+					</sp>
+				</div>
+			</div>
+			<div n="5" type="act">
+				<div n="1" type="scene">
+					<head>Vijfde bedrijf. Eerste toneel.</head>
+					<stage>Agamemnon. Palamedes. Nestor. Protesilaus.</stage>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Noch Palamedes wijs, nocht Nestor seer ervaren</l>
+						<l>En kennen my, eylaas! voor schande niet bewaren.</l>
+						<l>Wat ist, en wat sal 't zyn, of ick my veynse schoon,</l>
+						<l>Mijn waarde Dochterken Godsdienstelijck te doon?</l>
+						<l>Wat sal die veynsery mijn anders toch verstrecken,</l>
+						<l>Als voor den volcke' bedeckt met Godes Godheydt gecken?</l>
+						<l>O gruwel, datmen dus met een Godsdienstich schijn</l>
+						<l>De slechte menschen, die verleydt van Papen zyn,</l>
+						<l>Moet mompen, om also te stillen haar ghemoeden.</l>
+					</sp>
+					<sp who="#palamedes">
+						<speaker>Pala.</speaker>
+						<l>Dit doet de Vorst maar om een quader te verhoeden,</l>
+						<l>Niet om den Volckeren in heyloos mis-verstant</l>
+						<l>Te styven, neen geensins. </l>
+					</sp>
+					<sp who="#nestor">
+						<speaker>Nest.</speaker>
+						<l>Neen Agamemnon, want</l>
+						<l>Door dit u doen, so schoon in 's blinden yvers oghen,</l>
+						<l>En wort gheen Godheyt, maar Afgodery bedroghen:</l>
+						<l>Ey laat den yveraar dan spelen met zijn pop.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Had elcke Grieck mijn sin men smeeter liever op.</l>
+						<l>'T is waar bedaarde Vorst, 'k en heb daar oock niet teghen,</l>
+						<l>Dat, wat aan 't veynsen van die Godsdienst is gheleghen,</l>
+						<l>Seer weynich is belangt; dan denckt dat midler tydt</l>
+						<l>De Griecksche Vorsten al haar aansien raken quijt,</l>
+						<l>So ver s'er laten van haar Onderdanen dwinghen.</l>
+					</sp>
+					<sp who="#nestor">
+						<speaker>Nest.</speaker>
+						<l>'T waar wel te wenschen dat de saken beter ginghen</l>
+						<l>Protesilaus als zy teghenwoordich gaan:</l>
+						<l>Maar dat ghy 't meent, ô Vorst, met drieschen en met slaan</l>
+						<l>Te beteren, dat's niet, 't syn averechtsche tyden.</l>
+						<l>Hier is nu niet te doen dan dulden, veynsen, lyden,</l>
+						<l>Waar meed meer voordeels voor den Vorst en voor de staat</l>
+						<l>Ghedaan sal worden als met dat dat ghy ons raat:</l>
+						<l>Want so men met ghewelt de saken woud' herschicken,</l>
+						<l>Soo brackmen onsen bandt van eendracht heel aan sticken,</l>
+						<l>En 's Vorsten goede saack, die billijck is en recht,</l>
+						<l>Stond' lijckwel dan noch an den uyt-komst van 't gevecht.</l>
+						<l>Waer toe dan lijf en goedt zo sorchlijck 'tavontuuren,</l>
+						<l>Dat toch behouden wert met haarluy te verduuren.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Verduuren Nestor? </l>
+					</sp>
+					<sp who="#nestor">
+						<speaker>Nest.</speaker>
+						<l>Ja verduuren, want so ty</l>
+						<l>Dit so twist-ziecke volck haar wil heeft, so sult ghy</l>
+						<l>Bevinden datse strack tweedrachtich met malkand'ren</l>
+						<l>Weer worden sullen, want haar aardt is oft met and'ren,</l>
+						<l>Oft met haar selleven te twisten, dat 's haar lust.</l>
+						<l>'t Sijn vrienden van 't ghekijf, en haters van de rust,</l>
+						<l>En 't aansien dat de Vorst, so 't schijnt, nu wort benomen,</l>
+						<l>Dat ken hy dan ter tijdt met woecker weer bekomen.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Prot.</speaker>
+						<l>Neen Nestor, wort den Vorst van dit volck eens ghehoont,</l>
+						<l>Ghy sult bevinden dat zy stracks daar een ghewoont</l>
+						<l>Of maken sullen, als zy meermaals lieten blijcken;</l>
+						<l>Derhalven hoort de Prins een voet-steed niet te wijcken,</l>
+						<l>Maar blyven op sijn stick, en dryvent moedich deur,</l>
+						<l>Als dan hield zyn ontsach de Vorstelijcke geur,</l>
+						<l>Die 'k anders met de voet van Papen zie vertreden.</l>
+					</sp>
+					<sp who="#palamedes">
+						<speaker>Pala.</speaker>
+						<l>Dit werck is door gheen dwang, maar door beleydt en reden</l>
+						<l>Alleene wederom te brenghen op zijn stel.</l>
+						<l>Laat Nestor raden, en de saken sullen wel</l>
+						<l>Protesilaus gaan: men veynst nu maar om voordeel.</l>
+					</sp>
+					<sp who="#nestor">
+						<speaker>Nest.</speaker>
+						<l>Sulck veynsen doen altydt in noot de luy van oordeel.</l>
+						<l>Legt over hoe 't hier staat, en hoe 't hier is ghestelt,</l>
+						<l>Ghy sult dan vinden dat de saken met ghewelt</l>
+						<l>Niet uyt te voeren zijn, dus laat het soetlijck sloeren</l>
+						<l>Tot beter tydt en stondt, want die 't uyt zoude voeren,</l>
+						<l>De groote meen ick, zijn zelfs door der Papen list,</l>
+						<l>Door baat en staat-zucht met malkanderen in twist.</l>
+						<l>Des Konings Broeder zelfs is oock den Koning teghen.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Dat denck ick, wanter hem het meest is aan gheleghen.</l>
+						<l>Ja zo veel, dat hy om zijn Helena alleen,</l>
+						<l>'t Gantsch machtich Grieckenlant gebracht heeft op de been:</l>
+						<l>So veel vermoghen zyne laffe Vrouwen lusten.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Al dat waar niet, liet hy mijn Dockterken noch rusten.</l>
+					</sp>
+					<sp who="#palamedes">
+						<speaker>Pal.</speaker>
+						<l>Hy doet dat niet, ô neen, maar 't is Euripylus,</l>
+						<l>Die blinde yveraar: door wien de Griecken dus</l>
+						<l>Aan 't rasen zyn gheraackt: 'twort al door hem ghedreven,</l>
+						<l>De schult is niemant dan hem maar alleen te gheven.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>En kenment hem niet slaan door reden uyt het hooft?</l>
+					</sp>
+					<sp who="#palamedes">
+						<speaker>Pal.</speaker>
+						<l>So schielijck niet, want hy hartneckelijck ghelooft,</l>
+						<l>(Door faut van oordeel) dat zyn salicheydt ghelegen</l>
+						<l>Is in syn sinlijckheyt: toch 'k meen men hem beweghen</l>
+						<l>Zoud kennen, by zo verd de tijdt leed datmen van</l>
+						<l>Vlysses boefte mocht hem grondich spreken an,</l>
+						<l>In wien niet quaats en sien dees oordeloose gasten,</l>
+						<l>Daar hy 't nochtans so grof maackt dat zyt sien en tasten.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Maar Menelaus dan, die vry wel verder siet,</l>
+						<l>Oft selfs Achilles meed, en soud men die dan niet</l>
+						<l>Omsetten kennen? Want dat mannen zijn van oordeel.</l>
+					</sp>
+					<sp who="#nestor">
+						<speaker>Nest.</speaker>
+						<l>Veel minder noch, want zyt maar doen om eyghen voordeel,</l>
+						<l>Wel beter wetende, als dat Diana zou</l>
+						<l>Bloedt-dorsten na de ziel van een onnos'le Vrou.</l>
+						<l>Somtijts zyn yv'raars noch door reden te verwinnen,</l>
+						<l>Maar die beroerte slechs om eyghen baat beginnen,</l>
+						<l>En worden nimmermeer door reden oft bescheyt</l>
+						<l>Van haar voornemen quaat van yemant afgheleyt:</l>
+						<l>Ja selfs door gheen gheweldt, door dien zyt loos belegghen</l>
+						<l>Met Geestlijck volck, en daar is teghen niet te segg hen:</l>
+						<l>Ghelijck d'ervarentheyt de Griecken dat wel leert.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Maar t'eene quaat wort dick met 't andere gheweert;</l>
+						<l>Dat zy dan sochten door Euripylus te poghen,</l>
+						<l>Dat selfde socht ick weer door Calchas te vermoghen,</l>
+						<l>En Calchas meend ick was Euripylus te loos.</l>
+					</sp>
+					<sp who="#palamedes">
+						<speaker>Pala.</speaker>
+						<l>Jaa 'y, maar Euripylus is Calchas weer te boos,</l>
+						<l>Te valsch, en t'onbeschaamt, ontsiet hem niet te lieghen,</l>
+						<l>Als hy zijn weer-party daar maar meed mach bedrieghen:</l>
+						<l>En al zyn aanhang gaat oock al de selfde gang.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Die leughenaar die lieght zijn leughenen so lang</l>
+						<l>Tot dat hy self meent dat zijn oude leughen waar is.</l>
+					</sp>
+					<sp who="#nestor">
+						<speaker>Nest.</speaker>
+						<l>Maackt dat het volck eens wijs, hoewel 't so openbaar is</l>
+						<l>Als 't licht der Sonne dat hj selfs de Maan belieght,</l>
+						<l>En onder dat verdeck d'eenvoudighen bedrieght,</l>
+						<l>Die het niet weten of zijn tong spreeckt Godes Wetten,</l>
+						<l>So datse zyn ghehart haar ziel daar voor te setten.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Prot.</speaker>
+						<l>Men soud door Wapenen haar dat wel maken moe.</l>
+					</sp>
+					<sp who="#nestor">
+						<speaker>Nest.</speaker>
+						<l>Oft moedich wel misschien, en brengent daar wel toe.</l>
+						<l>Dat zy, door noot gheparst, te kampen souden waghen</l>
+						<l>Mee die, die sy voorheen ootmoedichlijck ontsaghen.</l>
+						<l>Protesilaus uwe moedicheyt is groot,</l>
+						<l>En u ghetrouwicheyt, ghetrou tot inder doot,</l>
+						<l>Gheloof ick seker, maar 'tkomt steeds so niet gheleghen,</l>
+						<l>Gheweldt met weer gewelt grootmoedich te staan teghen.</l>
+						<l>Set daarom, bid ick u, die middel uyt u sin.</l>
+						<l>Want 't quaadt is nu, ô Vorst! te verd ghekropen in,</l>
+						<l>'t Is int begin versuymt, doe was het voor te komen,</l>
+						<l>En nu ist veel te laat haar met ghewelt te tomen:</l>
+						<l>En onse schult ist dat zy ons zyn boven 'thooft.</l>
+						<l>Zy moeten zijn gheweest van sinnen heel berooft,</l>
+						<l>Die, doe de Griecken eerst begonnen God te eeren,</l>
+						<l>De eerste Priesters, om den Vollicke te leeren,</l>
+						<l>Oft uyt Egypten, of van elders buytens Lands</l>
+						<l>Beriepen, ghelijck oft de Griecken aan verstands</l>
+						<l>Ghenoech ontbrack, hoewel de vrye Griecksche Landen</l>
+						<l>Wt-leveren, alst blijckt d'uytmuntenste verstanden.</l>
+						<l>Sulcx datmen Parth, noch Meed', noch war'ghe Arabier,</l>
+						<l>Nocht oock gheen overloos' Egyptenaren hier</l>
+						<l>Behoeft te halen om den vollicke te stichten.</l>
+						<l>O neen men soud dat met de Griecken wel verrichten,</l>
+						<l>Na wien men nimmermeer had om te sien, ghelijck</l>
+						<l>Men moet na dese doen, die maar het Griecksche Rijck</l>
+						<l>Ten dienst staan om 'tghenot, en uyt gheen waar bewegen,</l>
+						<l>Ghelijck de Lant-zaat doet, die van natuur ghenegen</l>
+						<l>Is tot de dienste Gods, en om ten dienst te staan</l>
+						<l>Zijn Overheyt als een gheboren Onderdaen:</l>
+						<l>Daar wy het teghen-deel van vreemde huurelinghen</l>
+						<l>Nu draghen moeten, die door 't slechte volck ons dwinghen</l>
+						<l>Tot sulcx als haar belieft, oft immers schiet int hooft,</l>
+						<l>Want zy en hebben 't Recht, noch Rechter trou belooft.</l>
+						<l>Soo dat heel Griecken-lant deez' en d'aanstaande plaghen,</l>
+						<l>Hoe swaar zy vallen, moet gheduldelijcke draghen,</l>
+						<l>Om dat int eerste des regeerings zijn versuymt</l>
+						<l>Twee dinghen, 'teene datmen al te grooten ruymt</l>
+						<l>Haar gaf, in plaatse datm' er hadde moeten binden</l>
+						<l>Met eeden aan den Heer haar yet wes t'onderwinden</l>
+						<l>Dat hem was teghen, en dat hy niet vond' geraan.</l>
+						<l>Het tweede dat nu meed de saken qualijck gaan,</l>
+						<l>Is datmen hier in plaats van Burgeren, geboren</l>
+						<l>Van ouder af-komst, en uyt goeden huyz' verkoren,</l>
+						<l>Maar vreemdelingen heeft, die 'r tieren ghelijck of</l>
+						<l>Ons lands-man tot het ampt des Priesters was te grof,</l>
+						<l>En oft hy van de Goon gheen harsens had ghekreghen.</l>
+						<l>Een volck van Aulis af, zuydoostewaarts gheleghen,</l>
+						<l>Dat in Egypten lant met strenghe slaverny</l>
+						<l>Wel eertydts was gheplaacht, en is gheworden vry</l>
+						<l>Door eenen Moses, die 'r uyt de dienst-huysen leyde</l>
+						<l>Van Phar'o de Tyran, door veelderley verscheyde</l>
+						<l>Behendicheen, en heeft ses hondert duysent mans</l>
+						<l>Personen, veertich jaar door meen'gen suuren kans,</l>
+						<l>Door swaard, door pest, door dorst, door diepe water-stromen</l>
+						<l>Ghesleept, voor datse zyn int rechte lant ghekomen.</l>
+						<l>Om dit veelsinn'ghe volck te houden int bedwang</l>
+						<l>Van Gods en Werelts Wet, ging Moses dese gang.</l>
+						<l>Het opperste ghesach heeft hy selfs heel behouden:</l>
+						<l>Sijn Broeder Aaron, die 'y volkomelijck vertrouden,</l>
+						<l>Gaf hy het Priester ampt, door Goddelijck bevel:</l>
+						<l>Dat was gheen vreemdeling. En op dat 't alles wel</l>
+						<l>Mocht in den lande gaan, so lang als hy 't beheerde,</l>
+						<l>Most Aron spreken maar het gheen dat hy begheerde,</l>
+						<l>En dit ging taam'lijck wel dies Moses leven uyt;</l>
+						<l>Dan dese ordening nam na zijn doot een stuyt:</l>
+						<l>Want men begon terstont om de vooghdy te wryten,</l>
+						<l>Die toch ten lesten viel te beurt de Aronyten.</l>
+						<l>Met vallen, opstaan, en met groote moeyten wierdt</l>
+						<l>Dit hoofdeloose volck so langhe dus bestiert,</l>
+						<l>Tot dat haar raadsaam docht te kiesen eenen Koning,</l>
+						<l>Veel meerder met de naam, als daadt, in Is'rels woning,</l>
+						<l>De Koning, na den aardt der Koningen ghemeen,</l>
+						<l>Woud (als het reden lijckt) 'tghebieden heel alleen</l>
+						<l>Tot hem betrecken, sonder yemandt yets te vragen:</l>
+						<l>Maer des Prophetens last en kond dit niet verdraghen,</l>
+						<l>Die 'y neffens hem had, en hy maackten 't so, dat hy</l>
+						<l>Niet meer verstreckte dan een doode schildery,</l>
+						<l>En 'tvolck dat kreech aan hem ten deele een misnoeghen,</l>
+						<l>Waar door ten lesten hem zyn vyanden versloegen.</l>
+						<l>Na dese David quam, een Man van groot verstant,</l>
+						<l>Die op een ander wijs regeerde 't Jootsche Landt.</l>
+						<l>Wat deed' hy dan? Maar hy (de vorighe ghebreken</l>
+						<l>In staats beheersinghe wel hebbende doorkeken,</l>
+						<l>Sulcks dat hy hem verstont de saken allerley)</l>
+						<l>Verstrecten de Propheet en Koning alle bey.</l>
+						<l>Dat was de rechte slach, en 't waar voor lant en luyden</l>
+						<l>Van Godt te wenschen, dat de saken noch op huyden</l>
+						<l>So gingen; want dan soud noch erghe staat-suchts list,</l>
+						<l>Nocht Papen mis-verstant ons maken dese twist.</l>
+						<l>Een Paap kent al in roer nu stellen met zijn kallen,</l>
+						<l>En 't oproer kennen zy niet stillen met haar allen:</l>
+						<l>En Agamemnon 't is hier niet op sulck een voet</l>
+						<l>Te brenghen, dan alleen door een ghedwee ghemoet:</l>
+						<l>Dat is de middel, Vorst, daar door ghy sult betomen</l>
+						<l>Dit volck, en metter tijd u aansien weer bekomen.</l>
+						<l>Ghy sult mijn woorden waar bevinden, want ghy kent</l>
+						<l>Noch lange leven: maar ick die ben op het endt</l>
+						<l>Van myne daghen, sal misschien dit niet beleven.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Och! dat my Nestor oock gheen beter raadt kan gheven:</l>
+						<l>Nu wel, aan 't veynsen dan, dat ick met herten rouw</l>
+						<l>Begin, op dat ick beyd, mijn goedt en bloedt behouw.</l>
+						<l>O Calchas! Calchas! wat sult ghy my komen raden?</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>Vijfde bedrijf. Tvveede toneel.</head>
+					<stage>Calchas. Agamemnon. Protesilaus. Palamedes. Nestor.</stage>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Nu Agamemnon, nu, zyt doch so niet beladen</l>
+						<l>Met dese zaack. </l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Ag.</speaker>
+						<l>Wel aan, hoe salter dan me gaan?</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Al wel. </l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Ag.</speaker>
+						<l>Al wel? </l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Ja Vorst, na dat de dingen staan.</l>
+						<l>Want van Achilles hebt ghy toch niet goets te hopen.</l>
+						<l>Die 'm nu ten lesten door het onbeschaamd'lijck lopen</l>
+						<l>Van dien Euripylus, gheuytert heeft, en hy</l>
+						<l>Verklaart hem t'eenemaal op Menelaus zy.</l>
+						<l>Ghelijckwel moet ghy noch hem alles goets vertrouwen:</l>
+						<l>Want 't Legher sonder hem niet blyven ken behouwen,</l>
+						<l>En hy en is niet valsch, ghelijck ons allegaar</l>
+						<l>Syn trouwe diensten zyn ghenoechsaam openbaar.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Achilles op haar zyd? Al hadmen 't my ghesworen,</l>
+						<l>'K en had het noyt ghelooft, want ick hem hebbe horen</l>
+						<l>Dat vollick lasteren, gheen uur gheleen, so seer</l>
+						<l>Als yemant doen mach. Wel 'k gheloof nu niemant meer.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>So staan de saken. En so haest ick dit kon mercken,</l>
+						<l>Begon ick, groote Vorst, met alle vlyt te wercken,</l>
+						<l>Om Clytemnestra, en de jonge Koningin,</l>
+						<l>Wat van den handel is, wel vast te beelden in:</l>
+						<l>En heb haar onderrecht hoe datzer voort sal draghen.</l>
+						<l>Z'is seer ghemoedight. </l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Ag.</speaker>
+						<l>Wel, ick sal 't haar selver vraghen.</l>
+						<l>Iphigenia met haar Moeder haalt my hier.</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Hoe eer, hoe liever, want het is nu, Vorsten, schier</l>
+						<l>De tydt dat 't yvrich volck, met dit spel inghenomen.</l>
+						<l>Tot rasens toe, sal om Iphigenia komen:</l>
+						<l>En dat 's te stuyten nocht met reden nocht ghewelt.</l>
+					</sp>
+					<sp who="#palamedes">
+						<speaker>Pal.</speaker>
+						<l>Heeft Calchas dat maar met Diana wel bestelt,</l>
+						<l>So sal 't wel lucken. </l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Dat? Ja dat insonderlinghe.</l>
+					</sp>
+					<sp who="#nestor">
+						<speaker>Nest.</speaker>
+						<l>So dat niet wel bestelt en waar voor alle dinghe,</l>
+						<l>Den aanslach en waar niet. </l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Daar gaat vry vast in, want</l>
+						<l>Van uwe sterrif-dagh. Men soud met sulcke woorden,</l>
+						<l>Iphigenia, Lief, u Moeder wel vermoorden;</l>
+						<l>Maar Calchas, die 't bedroch der Priesteren verstaed,</l>
+						<l>Heeft dien Eurypylus verhindert in sijn quaed.</l>
+						<l>'K heb die Diana hier al dichte byder handt.</l>
+						<l>'K sal voor Vlysses quaadt u wesen een behoeder.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>Vijfde bedrijf. Derde toneel.</head>
+					<stage>Calchas. Iphigenia. Agamemnon. Clitemnestra. Protesilaus. Nestor.
+						Palamedes.</stage>
+					<sp who="#calchas">
+						<l>Iphigenia komt met haar beleefde Moeder.</l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Iphi.</speaker>
+						<l>Myn Vader wat belieft zyn groote Majesteyt?</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Mijn Dochter, Calchas seyd my dat ghy zyt bereyt</l>
+						<l>Tot d' offerhande van de Griecken voorghenomen.</l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Iphi.</speaker>
+						<l>Hy seydt de waarheyt, schoon al waar ick hier ghekomen,</l>
+						<l>Mijn vader, om den zoon van Thetis voor mijn Man</l>
+						<l>Te trouwen, nu ick sie dat ick u meerder kan</l>
+						<l>Hier mede dienen, wil ick my vrywillich gheven</l>
+						<l>Alleen tot dit niet, maar al soud in ernst mijn leven</l>
+						<l>Oock ghelden, so en sal Vlysses nemmermeer</l>
+						<l>Door dese middelen gheraken aan u eer.</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Clit.</speaker>
+						<l>Neen Dochter dat en soud u Moeder nimmer lyden.</l>
+						<l>In eeuwicheyt en sal my niemant so verblijden</l>
+						<l>Als mijn Vlysses met zijn goddeloos gheboeft,</l>
+						<l>Doe 'k hier belande, door u sterf-dach heeft bedroeft.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>Men lette datmen oock door Calchas niet bedroghen</l>
+						<l>En werde. </l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Cl.</speaker>
+						<l>Neen: want ick gheloof mijn eygen oghen.</l>
+						<l>'K heb met Diana selfs, oft immers met die Vrouw</l>
+						<l>Ghesproken, so dat ick volkomelyck vertrouw:</l>
+						<l>Ja niet alleen vertrou, maar ben versekert mede.</l>
+					</sp>
+					<sp who="#rey-der-priesteren">
+						<speaker>R.D.P.</speaker>
+						<l>Noyt en beleefden wy in Griecken beter dagh!</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Cly.</speaker>
+						<l>Ziet wat den yver in d'eenvoudigen vermagh.</l>
+						<l>In uwe dood, mijn Kind, waent 't volck haer heyl gelegen.</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Wien soud' zy niet met haer onnoselheyd bewegen?</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Cly.</speaker>
+						<l>Achilles, ghy die sijt van Goddelijck geslaght,</l>
+						<l>Waer toe heeft afgoods-dienst en staet-sucht u gebracht?</l>
+						<l>Achilles! waerom moet Iphigenia lijden?</l>
+					</sp>
+					<sp who="#achilles">
+						<speaker>Ach.</speaker>
+						<l>Om dat dat willen de gevaerelijcke tijden.</l>
+					</sp>
+					<sp who="#euripylus">
+						<speaker>Evr.</speaker>
+						<l>Om dat de Godheyd selfs ons dat also gebied.</l>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>Vly.</speaker>
+						<l>Dat isser oorsaeck van alleen, en anders niet.</l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Iph.</speaker>
+						<l>Ulijsses dan most ghy u met de saeck niet moeyen.</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Cly.</speaker>
+						<l>Ghy niet. Want wt uw' borst maer leugenen en vloeyen.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Ghy geeft dees' saecke by de wijsen minder schijns.</l>
+					</sp>
+					<sp who="#protesilaus">
+						<speaker>Pro.</speaker>
+						<l>D'eenvoudigen bedrieght hy lijck'wel met sijn grijns.</l>
+					</sp>
+					<sp who="#tersites">
+						<speaker>Ter.</speaker>
+						<l>Protesilaus siet wel voor u met u kaken.</l>
+					</sp>
+					<sp who="#palamedes">
+						<speaker>Pal.</speaker>
+						<l>Daer 't schort aen reên sal hy 't met onverstand volmaecken.</l>
+					</sp>
+					<sp who="#menelaus">
+						<speaker>Men.</speaker>
+						<l>Verwacht ghy, Vorsten, dan het wterste geweld?</l>
+					</sp>
+					<sp who="#calchas">
+						<speaker>Cal.</speaker>
+						<l>Neen Menelaus. Neen. Hoe sijt ghy dus ontsteld?</l>
+					</sp>
+					<sp who="#nestor">
+						<speaker>Nes.</speaker>
+						<l>Tot ware Godsdienst kreeghmen niemand oyt door dreygen.</l>
+						<l>Ghy Menelaus (die 's Lands voordeel, en u eygen</l>
+						<l>Noch al veel meerder in 't wt-voeren van dees' saeck</l>
+						<l>Soeckt als een yder weet, 't schijnt dat ghy met vermaeck</l>
+						<l>Dees' slachting aendrijft, daer ghy van natuure tegen</l>
+						<l>Behoord te sijn, en als een bloed-oom te bewegen.</l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Iph.</speaker>
+						<l>Neen Nestor by so ver 't bewegen my den dood</l>
+						<l>Onthiel, heel Griecken bleef (dat weet ick) in de nood,</l>
+						<l>Daer om, op dat ghy meught der Goden zegen erven</l>
+						<l>Wil ick Goods-dienstigh tot u aller welstand sterven.</l>
+					</sp>
+					<sp who="#nestor">
+						<speaker>Nest.</speaker>
+						<l>Stelt dan, Myceensche Vorst, u herte toch te vrede.</l>
+					</sp>
+					<sp who="#agamemnon">
+						<speaker>Aga.</speaker>
+						<l>Te vrede? Moet ick niet? die van twee quaden een</l>
+						<l>Moet kiesen, seyde my vlus Calchas, kiest het kleen,</l>
+						<l>So mach ick dan dit quaat voor 't kleynste nu verkiesen.</l>
+					</sp>
+					<sp who="#palamedes">
+						<speaker>Pal.</speaker>
+						<l>Dat ist, want ghy u Kindt en aansien beyd verliesen</l>
+						<l>Sout Agamemnon, by aldien ghy met ghewelt</l>
+						<l>V teghen 't volck, en teghen Papen had ghestelt.</l>
+					</sp>
+					<sp who="#clitemnestra">
+						<speaker>Clit.</speaker>
+						<l>Daar komt Euripylus met zyn bloedtgier'ghe Reyen.</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>Vijfde bedrijf. Vierde toneel.</head>
+					<stage>Iphigenia. Vlysses. Euripylus.</stage>
+					<sp who="#iphigenia">
+						<speaker>Iphi.</speaker>
+						<l>Nu Moeder waar toe dient toch dit onnodich schreyen?</l>
+						<l>Wel Griecken, waar toe dus al t'samen int gheweer?</l>
+						<l/>
+					</sp>
+					<sp who="#ulysses">
+						<speaker>ulys.</speaker>
+						<l>Om u te halen. </l>
+					</sp>
+					<sp who="#iphigenia">
+						<speaker>Iph.</speaker>
+						<l>Ey, legt vry de wapens neer:</l>
+						<l>Men sal, Vlysses, my tot Goddelijcke dinghen,</l>
+						<l>Door driessen noch door staal ten ghener tyde dwinghen,</l>
+						<l>O neen, ick onderworp my selfs de wil der Goon.</l>
+						<l>Wel aan, Euripylus, ghy komt om my te doon,</l>
+						<l>Ten welghevalle van Diana, die de Winde</l>
+						<l>De Griecksche vloot onthoudt, ten wrake van haar Hinde,</l>
+						<l>Dat Agamemnon in haar heyl'ghe beemde schoot.</l>
+						<l>Boet nu de misdaadt met Ephigenias doot,</l>
+						<l>Op dat de Griecken, die in Aulis zijn benepen,</l>
+						<l>Voor Troyen komen met haar wel bezeylde Schepen.</l>
+						<l>Wie van de slechtsten hoop soud' so kleenhartigh wesen</l>
+						<l>Dat hy alsulck een dood in dienst van 't Land sou vresen?</l>
+						<l>Voorwaer ick ben een Vrou, maer van so grooten deughd</l>
+						<l>Dat ick die dood niet schroom, op dat ghy winnen meught.</l>
+						<l>Ick sterf tot boete Gods, ick sterf u tot versoen.</l>
+						<l>Ick sterf onnosel om daer mede te voldoen</l>
+						<l>De groote misdaat van mijn seer bedroefde Vader,</l>
+						<l>Ick sterf noch aldermeest voor u luy allegader:</l>
+						<l>Want, Griecken, sterf ick niet, so quam 't ghy tot den val,</l>
+						<l>En al u aanslach was op Troyen niet met al.</l>
+						<l>Indien ghy Troyen dan verovert na mijn leven,</l>
+						<l>So moet ghy my de eer van d' overwinning gheven.</l>
+						<l>Laat ick u Moeder eens omhelsen voor het lest.</l>
+						<l>Rust Vader, rust, want ick sterf voor 'tghemeene best.</l>
+						<l>Wan-gund' my dat niet, dat, my met meer and're vromen,</l>
+						<l>Ten dienst van 't Vaderlant het leven wort benomen.</l>
+						<l>Wel aan Euripylus, nu Priester maackt het kort.</l>
+					</sp>
+				</div>
+				<div n="5" type="scene">
+					<head>Vijfde bedrijf. Vijfde toneel.</head>
+					<stage>Diana, met haar Reye.</stage>
+					<sp who="#rey-van-diana">
+						<speaker>Rey van Diana</speaker>
+						<l>Hout op, eer dat ghy 't bloet onnoselijcke stort</l>
+						<l>Van een onschuld'ge Maaght, ick ben niet so bloetgierich,</l>
+						<l>Dat ick (wanneer ick sie den mensche goedertierich,</l>
+						<l>Boetvaardich voor mijn groote Godheydt knielen neer)</l>
+						<l>Het leven selven der leedwesende begheer.</l>
+						<l>Ghy zult u Griecken nu van desen uur af wachten,</l>
+						<l>Iet anders 't mijnder eer te dooden en te slachten</l>
+						<l>Dan Hinden maar alleen, die 'k my van deser tyd,</l>
+						<l>Tot allen tyden toe, houdt heylich toe ghewyd.</l>
+						<l>Gheeft my de Maghet, en neemt ghy dees witte Hinde,</l>
+						<l>En offertse my inde schaduw vande Linde,</l>
+						<l>Die ghy sult ginder int boschage vinden staan.</l>
+						<l>Ick ben, ô Griecken! met dees offer nu voldaan:</l>
+						<l>Ghy mooght wel over Zee na Troyen veylich varen,</l>
+						<l>Ick sal voor 't storten van de golven u bewaren:</l>
+						<l>En die voort aan bevrijd wil zyn van alle smert,</l>
+						<l>Die kniel voor Gode neer en offer hem zyn hert.</l>
+					</sp>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

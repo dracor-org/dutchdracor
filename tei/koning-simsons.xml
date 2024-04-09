@@ -1,0 +1,4405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000211" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Simsons treurspel</title>
+				<title type="sub"/>
+				<author>
+					<persName>
+						<forename>Abraham</forename>
+						<surname>de Koning</surname>
+					</persName>
+					<idno type="wikidata">Q21549409</idno>
+					<idno type="pnd"/>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL">https://www.dbnl.org/tekst/koni001sims01_01/index.php</idno>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Abraham de Koning: Simsons treurspel. Amsterdam: Cornelis Lodewijcksz
+						vander Plasse, 1618.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="MALE" xml:id="ahvsath">
+						<persName>Ahvsath</persName>
+					</person>
+					<person sex="MALE" xml:id="amri">
+						<persName>Amri</persName>
+					</person>
+					<person sex="MALE" xml:id="barnevs">
+						<persName>Barnevs</persName>
+					</person>
+					<person sex="MALE" xml:id="boer">
+						<persName>Heyntje</persName>
+					</person>
+					<person sex="FEMALE" xml:id="delila">
+						<persName>Delila</persName>
+					</person>
+					<person sex="FEMALE" xml:id="hilla">
+						<persName>Hilla</persName>
+					</person>
+					<person sex="MALE" xml:id="phicol">
+						<persName>Phicol</persName>
+					</person>
+					<person sex="MALE" xml:id="rehob">
+						<persName>Rehob</persName>
+					</person>
+					<person sex="UNKNOWN" xml:id="rey-der-ioodtsche">
+						<persName>Rey der Ioodsche</persName>
+					</person>
+					<person sex="UNKNOWN" xml:id="rey-der-phylistynsche">
+						<persName>Rey der Phylistynsche</persName>
+					</person>
+					<person sex="MALE" xml:id="simson">
+						<persName>Simson</persName>
+					</person>
+					<person sex="MALE" xml:id="sobab">
+						<persName>Sobab</persName>
+					</person>
+					<person sex="MALE" xml:id="thimniters-geest">
+						<persName>Thimniters Geest</persName>
+					</person>
+					<person sex="MALE" xml:id="thoy">
+						<persName>Thoy</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-09">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1618">
+				<desc/>
+			</event>
+			<event type="premiere" when="">
+				<desc/>
+			</event>
+			<event type="written" when="">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+
+			<docTitle>
+				<titlePart>SIMSONS Treur-spel.</titlePart>
+				<titlePart>Op de Reghel:</titlePart>
+				<titlePart>
+					<l>Wie zyn leet met leet wil wreken,</l>
+					<l>Simsons kracht sal hem ghebreken.</l>
+				</titlePart>
+				<titlePart>Ieremia Cap. 9. vers. 22.</titlePart>
+				<titlePart>Een stercke en beroeme hem niet zijner sterckheyt.</titlePart>
+				<titlePart><figure/></titlePart>
+				<titlePart>Micha. Cap. 7. vers. 5.</titlePart>
+				<titlePart>Bewaert de deure uws monts voor die in uwen arm slaept.</titlePart>
+				<titlePart>t'Amsterdam,</titlePart>
+				<titlePart>Voor Cornelis Lodewijcksz. vander Plasse, Boeckvercooper wonende op den
+					hoeck vande Beurs, in d'Jtaliaensche Bybel. 1618.</titlePart>
+			</docTitle>
+
+
+			<div type="dedication">
+
+				<head>Toe-eygening <lb/> Aen d'Achtbaere, Eerwaerde, en Voorsienige Hans Roelants,
+					Liefhebber der Edeler Poesye.</head>
+				<p>DE oorzaecke (oft reden) die my beweegt heeft konst-lievende IOANNES, om myne
+					ongheleerde Rijmkens, en Vader-loos werckxken te laten in't licht komen, onder
+					de beschuttinghe en scherm van uwe Achtbaerheyts wel geoeffent oordeel in de
+					leerlijcke, stichtelijcke, en vermakelijcke Rijm-konst, dat's uwe spreucke Non
+					omnia poßimus omnes, want dat wy al even veel niet vermeughen, connen, oft
+					weten, dat's merckelijck in onsen SIMSON te speuren, hy vermocht (door Godes
+					kracht) een iongen Leeuw te verworgen, en spits-sinnighe raetselen uyt te geven,
+					duyzent Mannen met een Ezelinne-Kinnebacken-kaeckx-been te verslaen, vijf mylen
+					weeghs stats-poort-deuren te verdragen, nieuwe en versche stricken te verbreken,
+					en eyndelijck stervende, de macht en hoochmoet zynder vyanden by duysenden te
+					vernielen: Dit alles connen wy lesen, en na-Rymen, maer in't vermeugen van
+					kracht niet navolghen. Js hy hier en daer wat rouw, wilt, en onghepolijst,
+					denckt zyn minne-kozerije en zyn geen tedre Hovelingse vryerijen, daer hy
+					ghelooft dat myn handt meer bestiert wert naer 't believen van myn verdrietighe
+					en pynelijcke Juffrouw Flerezyn, als van de vrolijcke en blygeestighe
+					Sang-Goddinnen, etc: Dit U. E. bekent zynde en wetende, sy u ghebeden te willen
+					myn SIMSON hoeden, beschermen, en borst-weren tegens alle Waen-weters
+					niet-wetende berispers, en mug-siftende Momisten: Hier op comt hy die geheel u
+					is, voor den dach, en soeckt veylich te rusten onder de vleugelen van sulcken
+					Scherm-Heer, die ick wensch 't geen hy wenscht, en d'Algoede God gelieve ons
+					beyde te verleenen.</p>
+				<p> </p>
+				<p>Jn Amsterdam den 17. April</p>
+				<p>ANNO 1618.</p>
+				<p> </p>
+				<p>U. E. Dienstwillige vrient</p>
+				<p>ABRAHAM de KONING.</p>
+			</div>
+			<div type="dedication">
+
+				<head>Eer-dicht, Op Simsons Treur-spel Van Abraham de Koning</head>
+				<lg>
+					<l>OP op mijn Sang-Goddin, kom laet ons gaen beweenen</l>
+					<l>Het droevich ongeval vanden verloofder Gods,</l>
+					<l>De val des Nazareens, een voor-beelt vande rots</l>
+					<l>Die tot ons aller vreucht wt Iuda is verscheenen.</l>
+					<l>Al Simsons stercke cracht en lach niet inde vlechten</l>
+					<l>Des afghesneden hayrs, maer in 't beloofde woort,</l>
+					<l>Door d'Enghel voort ghebracht, van Monoah ghehoort,</l>
+					<l>V kint sal heylich zyn, en Iuda weer op-rechten.</l>
+					<l>Ten leyt niet in zijn hant, ten leyt niet in zyn hayr,</l>
+					<l>Ten leyt niet in zyn wil, 't verstant is sotheyt maer,</l>
+					<l>Dat door vermetelheyt dorst van sijn crachten romen.</l>
+					<l>Het moetwillich gheslacht heeft Christum oock ghebonden,</l>
+					<l>Sy voerden heenen wech (het ginck met haer voor wint)</l>
+					<l>Den Siloe, den Helt, Marie waerde kint,</l>
+					<l>Die ons door zyn ghedult bevrydt heeft vande sonden.</l>
+					<l>V Simson waerde schaer, hoe wel hy is ghestorven,</l>
+					<l>Leeft inder eeuwicheyt, den Duyvel hy noch plaeght,</l>
+					<l>En al zyn list, en cracht, hy van onsen heenen jaecht,</l>
+					<l>Simson die door sijn doot ons leven heeft verworven.</l>
+					<l>Simson die 't swaere juck heeft op den hals ghetoghen,</l>
+					<l>Het huys, het machtich huys, van duyvel, ende doot,</l>
+					<l>Die baenden ons den wech, en ruckt' ons uyt den noot,</l>
+					<l>Doen wy in onse sond' des nickers borsten soghen.</l>
+					<l>Den Simson langh belooft, den Leeuw die soude komen,</l>
+					<l>Heeft nu zijn ampt volbrocht, hoewel hy wierd' bespot,</l>
+					<l>Bespoghen, en beschimpt, van 't ongheloovich rot,</l>
+					<l>Als blint, nochtans zijn hem de ooghen niet benomen.</l>
+					<l>Treet naerder wie ghy zijt, out, ofte Ionck van Iaren,</l>
+					<l>Monarch, Prins, Edelman, Stadts-borgher, ofte Boer,</l>
+					<l>Komt leert in desen boeck de listen van een Hoer,</l>
+
+					<l>Hoe datse die haer hoort doet voor den Duyvel vaeren.</l>
+					<l>Siet hoese Simson mat door haere loose treken,</l>
+					<l>En brenght hem in 't verdriet, die ghene macht en kreunt.</l>
+					<l>Ghy roemers altesaem, die op u krachten steunt,</l>
+					<l>Hoe wel ghy wonder stoft de macht sal u ontbreken.</l>
+					<l>Gheluckighe Poët, die door het waerde rymen,</l>
+					<l>De Princen onderwijst: en lockt die vande sond',</l>
+					<l>Die lichte sweeringhen steets hebben inden mont,</l>
+					<l>Ghy doet mijn Sang-Goddin al soetelijck beswymen.</l>
+					<l>Wie heeft u herssen-breyn soo mildelijck beseten?</l>
+					<l>Geen Phoebus, geen Pallas, geen Godin, ofte Nimph.</l>
+					<l>Maer hy die d'Aerde schiep, en bouden den Olymph,</l>
+					<l>Iehova 't Opper-hooft van d'Heylighe Poeeten.</l>
+					<l>Vaert inde stichtingh voort, o wilgh'-ge-eerden Koning!</l>
+					<l>Leerend' den wusten mensch te gruwen voor het quaet,</l>
+					<l>So ghy Volstandigh Blyft, sult ghy door dese daet</l>
+					<l>Een grooten Koningh zijn in uwe kleene woningh.</l>
+				</lg>
+				<p>Ghenoech om te volghen.</p>
+			</div>
+			<div type="dedication">
+				<head>Op den Simson Vanden Poët A. de Koning.</head>
+				<lg>
+					<l>DEn Schilder vaeck met zyn pinceel</l>
+					<l>So zoet en aerdich weet te streelen:</l>
+					<l>Dat hy Natures wesen heel</l>
+					<l>Met verwen kloeck bootst op panneelen.</l>
+					<l>En so een overeeuws geschicht</l>
+					<l>Laet voor geheuchnis den na-neven.</l>
+					<l>Den Poeet oock met zyn Gedicht,</l>
+					<l>En Rymerijen brenght in't leven:</l>
+					<l>'t Geen schier gewist was uyt 't gedacht,</l>
+					<l>En door des snellen tydt versleten.</l>
+					<l>'t Geen vre, of tyranny oyt wracht,</l>
+					<l>'t Verborgenst van natuurs secreten.</l>
+					<l>Van Hemels loop, of wat de Zee</l>
+					<l>Houd in haer diepen kolck besloten.</l>
+					<l>Der Dieren aert, 't Gevogelt me,</l>
+					<l>Der kruyden kracht, der boomen loten.</l>
+					<l>Den Coosche-Schilder heeft voorheen</l>
+					<l>De schoone Venus so gedreven:</l>
+					<l>So Godlijck, so volmaeckt van le'en,</l>
+					<l>Dat self't onsterflijck scheen te leven.</l>
+					<l>En ghy, O KONING doet niet min</l>
+					<l>Als ghy de snoo bedriegerijen</l>
+					<l>Den dullen Mars verbolgen zin,</l>
+					<l>Met Venus troetel tooverijen,</l>
+					<l>Soo aerdigh, groots nae't leven treft,</l>
+					<l>Als ghy u SIMSON doet verrysen.</l>
+					<l>En als uyt 't doncker graft opheft,</l>
+					<l>Dan schynt zyn dood u selfs te prysen,</l>
+					<l>Ons is genoech dat wy u glans</l>
+					<l>Vermeerd'ren met een Lauwer-krans</l>
+				</lg>
+				<p>VVeet of rust.</p>
+			</div>
+			<div type="preface">
+
+				<head>Inhoudt.</head>
+				<p>SImson, zynde een voor-beeld onses Heeren Iesu Christi, en een wonderlijck wonder
+					zynes tydts, by wiens, nau gelooffelijcke sterckte, geen sterffelijck mensche en
+					kan vergheleken worden: Van dese vangen wy aen V. L. aller Konst-liefdighe te
+					vertoonen, beginnende, alwaer d'onverschrickte Heldt, en Jsraels Hertogh besint
+					door al te nau besien, en in zyn herssenen ghedruckt te hebben de aen-lockende
+					schoonheydt, vande hert-stelende, en al te minnen droncken Gazareensche, een
+					Vrouwe ghenaemt Delila, die onse Verloofder Gods soo weet te vleyen en te
+					lief-koosen; dat hy als gheheel verzot, en blijft verzot op de Philisteensche,
+					vergetende zyn ampt, staet, en achtbaerheyt, dit ziende zyn gesworen erf-vyanden
+					de krygel sinnige Philisteen, versoeckt aen de gheliefde lichte Vrouwe, dewijl
+					zy al te vergeefs vinden hun wapenen, sterckte, macht, en gheweldt te slyten op
+					een onbindelijcke man, sy wil den Simson door haere listige tonge ende
+					bedriegelicke smeekinghe, lagen leggen om zyn kracht te vernemen, door
+					ondermyninge zyns hun onbekende sterckte. Waer over zy eens gheworden zyn, heur
+					bekorende door een milde belofte van een rijcke belooninghe, om dit wetende, en
+					de Vorsten verwitticht zynde, haere verblinde en vervoerde Minpleger,
+					ontrouwelijck en schandelijck te verraden: Twelck hun nochtans, eerst, tweede,
+					en derde mael misluckt, door dien d'Hebré eenigh achterdencken kryght, tuyld in
+					boerterije met de al te kurieuse begeerlijcke lusten zyns gheminde. Maer,
+					helaes, 't aenhouden verwint, de bedinghe, de suchtinghe, verzeghelt met de
+					Crocodilse tranen vande bedriegelijcke valsche proye, vermoeyde ja matte, de
+					ziele van onsen Danit zoo, dat hy verwonnen (O 't vry beclaeghelijck woort!)
+					zijn's herten secreet uyt schudde inden schoot van zyn ghewaende vriendinne, die
+					hem van zijn kracht berooft, door 't afscheeren zijns hayrs: verradende also
+					desen ontsichelijcken Vorst, die gheblindt, inden kercker met metale ketenen
+					malende, spilt in ellendighe slavernye zyn droevich treur-eynde: Zijn vyanden,
+					als afgodische Heydenen, hier over hun Afgoden loovende, en danckende, by eenen
+					grooten offer die sy op den Altaer Dagons smoken: houden een Vorstelijcke, ende
+					prachtelijcke maeltijdt, zijnde vrolijck, ende verheucht, over de wrake van
+					hunder aller vyandt.</p>
+				<p>Doen tot meerder hoon, spot, smaedt, en laster, den armen, blinden, en ghevanghen
+					Jode voor comen, op dat hy voor hun ooghe spele, ende alsoo hunne dertele
+					tyt-cortinghe sy, maer Simson by na verteert zynde, door de bittere droeffenisse
+					zijnder ziele, wordt veroorsaeckt door een weemoedighe desperate hope ghedreven,
+					d'Alder-Opperste eenighe God aen te roepen om kracht, ende sterckte, en sich
+					eenmael voor beyd' zijn ooghen noch eens te wreken aen de Philisteen: 't Welck
+					hy door de kracht Godes volbrenght: Buyghende twee calomnen (waer op den
+					Voor-hanck des Tempels ruste) met zulck ghewelt, dat hy 't gheheele ghebouw,
+					waer op wel dry duysent zielen vergadert waren, te neder stort, en eyndicht also
+					met zijn vyanden, zijn treurich treur-spel.</p>
+				<p>Hier uyt leerende, beneffens de geestelijcke aenmerckinge, en verghelijckenisse,
+					in onses Heylants, den waren Simson.</p>
+				<p>Ten eersten, dat wy Gode schuldich zijn te houden een onverbrekelijcke belofte,
+					van heylicheyt, en reynicheyt, nae ziel, en lichaem.</p>
+				<p>Ten tweeden, nae den goeden raet Syrachs, onsen vyand nimmermeer te
+					vertrouwen.</p>
+				<p>Ten derden, met het verlies van 't dierbaer leven wraeck-gierichlijck ons niet te
+					willen wreken aen onse vyanden: Want d'Alheylighe Al-wreker zeght: Gheeft myn de
+					wraecke, en ick zal't verghelden.</p>
+				<p>En voorder ghedenckt aen onse Reghel:</p>
+				<lg>
+					<l>Wie zijn leet met leet wil wreken,</l>
+					<l>Simsons cracht sal hem ontbreken.</l>
+				</lg>
+			</div>
+			<div type="dedication">
+				<head>Eer-dicht.</head>
+				<lg>
+					<l>CRanst, looft den Mercurist, wiens leer-rijck defte reden</l>
+					<l>Den Mensch voor-beeldt, hoe licht d'Aerds heersching sweyt, ja keert,</l>
+					<l>Waerd' is 't Kunst-lievend'-hert, en 't stuur zijns pen ghe-eert,</l>
+					<l>Midts hy Simson soo braef op 't konst-tooneel doet treden.</l>
+					<l>De Philistynsche roe, (nae-botsinghs eeuw voorleden,</l>
+					<l>Hoe, laes, mins-boeyens-knel, zijn heylens-luck beheert</l>
+					<l>Door gelt-giers-aert, die noch (O mensch! hier leerlijck leert)</l>
+					<l>D'een steyg'ren doet, en som werpt diep in't diepst beneden.</l>
+					<l>Ha met wat schenck, beloft, de Vorsten komen aen,</l>
+					<l>En met wat vley, vleyns, list, den Simson werdt verraen,</l>
+					<l>Een Spieghel voor elck die hier schijnt een werelts Koningh.</l>
+					<l>Ach vry-vereenicht Landt, houdt Vreed, en VVaerheyts licht,</l>
+					<l>D'sond' haet, dyn Vyand, acht hem niet, vertrouwt, noch swicht,</l>
+					<l>Mijdt den verschrickten val, Simsons, zyn wraecks beloningh.</l>
+				</lg>
+				<p>Wie faelt mach keeren.</p>
+			</div>
+			<div type="dedication">
+
+				<head>Klinck-dicht.</head>
+				<lg>
+					<l>AEnschouwers 'k bid u siet, sout ghy konnen bemercken</l>
+					<l>Dat desen kloecken Helt van minne rasend is,</l>
+					<l>Treet doch wat nader by: Ach so ick niet en mis,</l>
+					<l>Is 't den Verloofder Gods, Monoahs-soon den stercken.</l>
+					<l>Onsen Poeet her-roept door zyn vloeyende wercken,</l>
+					<l>Het gheen den grysen tydt schier in verghetenis</l>
+					<l>Ghebracht had, ja het gheen was uyt gheheughenis,</l>
+					<l>Gheeft hy door zyne pen weer onvermoeyde vlercken.</l>
+					<l>Een baecke om 't ghevley van lichtvaerdighe Vrouwen</l>
+					<l>Te myden als de pest, en nimmer te betrouwen</l>
+					<l>Op haer: hy door den list van Delila verhaelt:</l>
+					<l>Dat d'onghesloten mont veel ramps op hem kan trecken,</l>
+					<l>Door al 't gheheym zyns herts een Vrouwe te ontdecken,</l>
+					<l>Hy door een Simsons val oock levendich afmaelt.</l>
+				</lg>
+				<p>Vreest Godt voor al.</p>
+			</div>
+
+			<castList>
+				<head>Namen der Personagien.</head>
+				<castItem corresp="#simson">
+					<role>Ioden, {Simson.</role>
+				</castItem>
+				<castItem corresp="#amri">
+					<role>Ioden, {Amri, knecht.</role>
+				</castItem>
+				<castItem corresp="#rey-der-ioodtsche">
+					<role>Ioden, {Rey der Ioodsche.</role>
+				</castItem>
+				<castItem corresp="#delila">
+					<role>Philystynen, {Delila.</role>
+				</castItem>
+				<castItem corresp="#thoy">
+					<role>Philystynen, {Thoy.} Vorsten.</role>
+				</castItem>
+				<castItem corresp="#ahvsath">
+					<role>Philystynen, {Ahvsath.} Vorsten.</role>
+				</castItem>
+				<castItem corresp="#sobab">
+					<role>Philystynen, {Sobab.} Vorsten.</role>
+				</castItem>
+				<castItem corresp="#rehob">
+					<role>Philystynen, {Rehob.} Vorsten.</role>
+				</castItem>
+				<castItem corresp="#phicol">
+					<role>Philystynen, {Phicol.} Vorsten.</role>
+				</castItem>
+				<castItem corresp="#rey-der-phylistynsche">
+					<role>Rey der Phylistynsche.</role>
+				</castItem>
+				<castItem corresp="#hilla">
+					<role>Hilla.</role>
+				</castItem>
+				<castItem corresp="#barnevs">
+					<role>Barnevs.</role>
+				</castItem>
+				<castItem corresp="#boer">
+					<role>Heyntje, Een Boer.</role>
+				</castItem>
+				<castItem corresp="#thimniters-geest">
+					<role>Thimniters Geest.</role>
+				</castItem>
+				<castItem corresp="#scherprechter">
+					<role>Scherp-Rechter, Met eenighe andre Dienaers stom.</role>
+				</castItem>
+			</castList>
+		</front>
+		<body>
+			<div n="1" type="act">
+				<div n="1" type="scene">
+
+					<head>Simsons Treur-spel.</head>
+					<head>I. Handelinghe, I. Uytkomste.</head>
+					<sp who="#simson">
+						<speaker>Simson.</speaker>
+						<l>HOewel dat ick ghevoel mijn sterckt so groot, en grof,</l>
+						<l>Dat ick door dese handt versloegh ter neer in't stof,</l>
+						<l>Een Leeuw, en drie-mael-thien, noch duysent mannen wacker:</l>
+						<l>So is der Vrouwen kracht, (hoe teder en hoe swacker,</l>
+						<l>Sy moghen zijn voor ons) veel starreker, alst blijckt,</l>
+						<l>Dewijl dat myne kracht hier voor een Vrouw beswijckt.</l>
+						<l>'tSchijnt ick mijn leven heb ghesleten in het doncker,</l>
+						<l>Al-eer mijn sterflijck oogh aenschoude 't lief ghefloncker</l>
+						<l>Van 'talderbruynst ghesicht, ay een te soeten mondt!</l>
+						<l>De kaexkens roosen root, d'aentreckelijckst' die 'k vont.</l>
+						<l>Met Nectars dauw besproeyt, de schoonste aller schoone,</l>
+						<l>Waer in de min om min op 't minnelijckst' komt woonen.</l>
+						<l>'tGoutdradich floncker-hayr, so swadd'rich krol ghekrult,</l>
+						<l>'tGheen op zijn Gazareens is vreemt uytheems ghehult,</l>
+						<l>Verbraeft alleen 'tghecier van so veel duyst Jodinnen,</l>
+						<l>Ha zonne van mijn ziel! o smekende vriendinne!</l>
+						<l>V Redenrijcke re'en, en vriendelijcke praet,</l>
+						<l>Betovert myn verstandt, hoe Simson? wel hoe gaet,</l>
+						<l>Begheert nu voor de reen? sal lichte liefde binnen</l>
+						<l>Jn u haet-draghend'-hert sijn ruymt, en woon-plaets vinnen?</l>
+						<l>Om dese vreemde Vrouw, so schoon niet als u dunckt,</l>
+						<l>Die in uw koude borst we'er nieuwe vlam ontfunckt,</l>
+						<l>Een quel-lust, bitter soet, een weyfeloose minne:</l>
+						<l>Hoe, sal die? neen sy sal, o nimmermeer verwinne!,</l>
+						<l>So langh mijn ooghen zien: (ja of ick niet en kon)</l>
+						<l>Aenschouwen 't held're licht van d'heughelijcke Son:</l>
+						<l>So langh mijn groote kracht vergaen is, noch besweken,</l>
+						<l>Sal ick my aen de macht der Philistynen wreken.</l>
+						<l>Ha Simson! lastert niet, die liefd en heeft gheen schult,</l>
+						<l>Sal ick niet? seytse, neen, seght reden, ghy en sult.</l>
+
+						<l>Haet ick de Philistijns, wat heb ick haer te haten?</l>
+						<l>Mijn schoonste lief, myn vreucht, hoe kan ick u verlaten?</l>
+						<l>Een ooghwinck, (ach ick ken't! ick moet verwonnen zijn)</l>
+						<l>Van u, vermach op myn meer als den Philistijn,</l>
+						<l>Hoe listigh, schalck, en loos, hy soeckt met sterckt of schande,</l>
+						<l>Om dese grove leen te binden met zijn banden.</l>
+						<l>Onlancks (o snood verraet!) de Gasiteren my</l>
+						<l>Beloerden inde Poort te Gasa, daer ick by</l>
+						<l>D'ontrouwe Laya lach, om wiens lief-koseryen,</l>
+						<l>(Vervloeckte hoeren! doen door u verraderyen)</l>
+						<l>Was ick by na beklipt, en met het sweert verworcht,</l>
+						<l>Had ick ter midder-nacht voor list, noch laegh ghesorcht,</l>
+						<l>Ontwaeckt niet opghestaen, en hief tot spot der Vorsten</l>
+						<l>Stadts deuren uyt de Poort: die 'k op myn schoud'ren torsten,</l>
+						<l>En droeghse opwaerts wegh (voor diese halen kon,)</l>
+						<l>Tot wonder van mijn kracht, op d'hooghte voor Hebron.</l>
+						<l>Mijn liefste Delila! vooghdes van mijn ghedachten!</l>
+						<l>Beheerster van dees Ziel, mijn onverwonnen krachten,</l>
+						<l>Gherekent by u macht is kleyn, ja minder mee</l>
+						<l>Als Zorex edel beeck is by de groote zee.</l>
+						<l>Wat segh ick? hoe? sal dan een lichte Vrou aenminnigh,</l>
+						<l>V door een raserny, van liefde, doen zot-zinnigh</l>
+						<l>Vergheten al u eer, u staet, en u gheval?</l>
+						<l>V wijt-berucht ontzich? ha neen, ha nee, my zal</l>
+						<l>Veel eer de lichte wint van 't oost nae 't westen voeren,</l>
+						<l>Eer Jsr'els Richter blijft verzot op deze hoere.</l>
+						<l>Hoere? wat schaemt u tongh, dat ghy die last'ringh smeet,</l>
+						<l>S'is my zo lief en waert als ick op Aerden weet,</l>
+						<l>Een vrouwe die haer man bemint in liefde brandich,</l>
+						<l>Ghestadich ongheveynst en Blijft altijt volstandich.</l>
+						<l>Hola, daer komt mijn Son, wat wilde schoon Goddin?</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>Verschoningh,</head>
+					<stage>Delila</stage>
+					<sp who="#delila">
+						<l>Achtbare stercke Helt, wanneer de liefd (of min)</l>
+						<l>Dijn onverwonnen kracht niet in elckander strenghden</l>
+						<l>En min door weer-mins vlam u koude borst en zenghden,</l>
+						<l>Onmoogh'lijck waer u macht (die yver streckt ten val)</l>
+						<l>Bedwonghen of beheerst, maar Liefd' verwinnet al,</l>
+						<l>Jaselfs den trotsten Reus van Gath of d'Akaniten,</l>
+						<l>Of't ruw onsichlijck beeldt van Og, der Basaniten</l>
+						<l>Kroon-dragher: Voor wiens staf en kostle Diadem</l>
+						<l>D'inheemsche selfs verbaest, verschrickten voor zijn Stem.</l>
+						<l>Of d'Amalechiten oyt in opgheschooten leden,</l>
+						<l>Vermochten teghens liefd, ghelijck de Reusen deden,</l>
+
+						<l>Die bergh op bergh ghetast, hoogh hoopten top op top,</l>
+						<l>En krijghden op de Goon, ja steghen d'Hemel op,</l>
+						<l>Niet langh, hol over bol sy tuymelden ter neder,</l>
+						<l>So gaet het met de min, hoe kints, hoe licht, hoe teder</l>
+						<l>Van kracht hy wert begaept, lichtveerdich, dertel, wuft,</l>
+						<l>So klimt hy niet te min veer boven 't wijs vernuft,</l>
+						<l>Hy parst het kloeck verstant, (door zijn begeerlickheden)</l>
+						<l>Wt oordeels ondersoeck en uyt den stoel der reeden.</l>
+						<l>Hoewel beroemde Vorst, en Hooftman der Hebreen,</l>
+						<l>De min u kracht verkracht, so ist niet zonder reen,</l>
+						<l>Dewijl u Reusen macht is boven mensch vermoghen,</l>
+						<l>So wert de min Jalours, en ziet door deze ooghen.</l>
+						<l>Werpt hy zijn blixem uyt, en met zijn Tovery,</l>
+						<l>So wil hy dat u kracht hem onderdanich zy.</l>
+						<l>Komt selfs een Iovem niet stil uyt den Hemel sluypen,</l>
+						<l>Om steels-wijs hier of daer zijn boeltjens te bekruypen?</l>
+						<l>Hy laet zijn gulde vreucht, hy laet zijn echt-ghenoot,</l>
+						<l>En soeckt de Aerdtsche lust in zijn vriendinne schoot.</l>
+						<l>Dies wil ick (of versoeck) o onbedwonghen Ridder!</l>
+						<l>Dat ghy mijn liefd geniet, Ghetrouw altijdt, ick bidder</l>
+						<l>D'onsichgelijcke Goon, en s'Hemels gunst om aen,</l>
+						<l>Dat nimmer Simson moet Delilaes liefd versmaen.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Ha kracht des mins, helaes, hoe ben ick dus ghekluystert,</l>
+						<l>Dat een verloofder Gods na Vrouwen reden luystert?</l>
+						<l>Jck die een Jode ben, een Rechter Israels.</l>
+						<l>Wat maeckt een dertel wicht, en ted're Vrouw my spels?</l>
+						<l>Brack ick niet door myn kracht, twee versche nieuwe stricken?</l>
+						<l>Deed ick by Lehi niet, na haren adem snicken,</l>
+						<l>Door 't kinnebacken been eens Ezels, duysent man?</l>
+						<l>Hoe komtet dat ick my nu niet verweyren kan?</l>
+						<l>Ha schoon Coraele mont! Ha overlief gheflicker</l>
+						<l>Van 't appel bruyn ghesicht! ghy tovert so dat icker</l>
+						<l>Ghevanghen in verstrickt, ghebonden en gheboeyt</l>
+						<l>Voel dat een slaverny in mijne ziel groeyt.</l>
+						<l>Een will'ghe slaverny, ghepleecht by alle zielen,</l>
+						<l>Die met devoot ghelaet voor Venus altaer knielen:</l>
+						<l>En off'ren al haer gunst, haer leven, eer, en trou,</l>
+						<l>Aen minnens schoonste beeldt, en lief-beroofde Vrou.</l>
+						<l>Delila mijn vooghdes, mijn Jeuchts-Prieel, myn schoone:</l>
+						<l>Mijn eyghen Sielen-ziel, mijn Voor-hoofts Purper-Croone,</l>
+						<l>Mijn gulden Hemel-zon, mijn lieve Morghenstont,</l>
+						<l>Mijn levens eyghen kracht, dit 's eerste-trou verbont.</l>
+						<l>Gheeft my u witte hant, 'k sweer by myn eyghen leven,</l>
+						<l>'k En sal u nimmermeer verlaten, noch begheven.</l>
+
+						<l>Eer zal de groote Zee verbreken uyt haer wal,</l>
+						<l>En staen gelijck 't roo-meyr in karmozijn-Christal.</l>
+						<l>Eer sal de Avont-ster Vrouw Cipria haer borghen.</l>
+						<l>Eer sal de swarte nacht verswelghen dach, en morghen.</l>
+						<l>Eer ick u lief begeef, ghelijck ick heb gheseyt,</l>
+						<l>Door wan-lust, ontrouw, list, of door nieuplichticheyt.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Ach liefste! ach mijn troost!</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Sim.</speaker>
+						<l>Mijn hoop.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>De.</speaker>
+						<l>Mijn uytvercoren.</l>
+						<l>'k Hebt alles met u min.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Sim.</speaker>
+						<l>'kWaer zonder u verloren.</l>
+						<l>Hert-buyghster, roode roos, 't soet-wesens minn'lijkheyt,</l>
+						<l>By d'aengheboren deught van uwe achtbaerheydt,</l>
+						<l>Trotseert de minne zelfs, die qualijck om beteugh'len,</l>
+						<l>Gh'ontwapent, en berooft, van boghe, pijl en vleugh'len,</l>
+						<l>So dat het ted're wicht, verwonnen, niet een stip</l>
+						<l>Verplaetst': maer hanght u aen, gh'lijck aen 't ghevleugelt Schip</l>
+						<l>Het Visken Remora in't dolle Meyrs rumoeren,</l>
+						<l>De wouwe-staert, 'tSchips stuur verhindert te verroeren.</l>
+						<l>Ach Schip! ick ben u stant vergh'leecken, ziet ick zeyl,</l>
+						<l>En een Remora komt, mijn zielens-bants-onheyl,</l>
+						<l>En stut myn in het Meyr, en murmurende golghen,</l>
+						<l>Dat ick verloofder Gods, vermach in 't minst te volghen,</l>
+						<l>De Rechters die voor heen gheharnast en ghepluymt,</l>
+						<l>Deucht-gierich na de eer, door Mars zijn wech gheruymt.</l>
+						<l>Ach minne! laes, hoe vast ben ick in u ghewickelt,</l>
+						<l>De eer raet af de liefd, de liefd nochtans die prickelt,</l>
+						<l>Me-vrouwe, ay vertreckt, laet my een weynich hier.</l>
+						<l>Simson, bedenckt u wel, koop gheen berouw te dier,</l>
+						<l>Laet nimmer geyle min beroemde krachten boeyen,</l>
+						<l>Laet nimmer 't brandent hart, quelvoedend' blak'righ gloeyen,</l>
+						<l>Dat dijn ontsichlijck licht na't valsch ghegluur der min,</l>
+						<l>Door lodder-soete spijs de schilder-schoon vriendin,</l>
+						<l>'t Lock-aes der Philistijns, d'ontmanster vande mannen,</l>
+						<l>De wayfle-tover-treck, uyt ziels Christal verbannen,</l>
+						<l>'t Gheen droncken, vol en buys in hare schoonheyt weyt,</l>
+						<l>En d'opghetoghen gheest schijn leck're vreucht toeseyt.</l>
+						<l>Ha handen over-sterck, die met der ijl en baerde</l>
+						<l>Verbraken Leeuwen muyl, en maeyden op der aerde</l>
+						<l>De oudt-beruchte roem, een gheessel der Hebreen,</l>
+						<l>Soeckty maer uwe lust by deze Vrouw alleen?</l>
+						<l>Js myne schakel-min te vierich, niet om blussen,</l>
+						<l>Soeck ick dan anders niet dan Delila te kussen?</l>
+						<l>Blijf ick in liefd' verzot, dees schoone steets omvat,</l>
+						<l>Zo is mijn macht gheswackt, mijn sterckt heb ick ghehadt,</l>
+						<l>Js schoonheydts Hemel-beeldt gheroemet en wijtlustigh,</l>
+						<l>Gheen eygenschap des ziels, die levendich vernuftigh</l>
+
+						<l>Een Raren ommetreck of and're werelt boots?</l>
+						<l>Wat meen Manoachs Soon, de schoonheydt aldersnootst,</l>
+						<l>Heyl-deughdeloos gepronckt, ontciert van schoonicheden,</l>
+						<l>Veel eerder, d'wijl de min door waen-schoon werdt bestreden,</l>
+						<l>Ghelijck een snoode Weert, of deughdelooze Vrouw,</l>
+						<l>Een schoon gheschildert huys, of metsel-konst ghebouw</l>
+						<l>Bewoonet, koopt, oft huurt, so sal men dickwils binnen</l>
+						<l>Jn't opghesmuckte rif een snoode ziele vinnen.</l>
+						<l>Saraj ghy waert schoon, maer schoonder noch ghezielt</l>
+						<l>Oudtmoeder, laes, hoe zijn uw Susters soo vernielt?</l>
+						<l>Delila keur ick valsch, 't natuurelijck blancketten.</l>
+						<l>Stry ick teghen de liefd, haer macht, vooghdy, en wetten?</l>
+						<l>Ach schoone ick en can! hoe kondy niet? ghy kont.</l>
+						<l>Ach liefste lief! ay swyght. ha oversoeten mont!</l>
+						<l>Hoe is mijn starckte, laes, hoe is die nu verwonnen!</l>
+						<l>Hoe is die nu ghevelt door dees begaefde Sonne!</l>
+						<l>Die met haer lief ghezicht, en over preuts ghelaet,</l>
+						<l>Nabootset of beschaemt den roosen dagheraet,</l>
+						<l>Dat selfs (ghelijckmen waent) de lichte Venus daelde,</l>
+						<l>'K Acht datse, lief, haer glans, en schoonheyt van u haelde,</l>
+						<l>Wat raes ick wederom? wat speeld mijn inde zin?</l>
+						<l>Zoudy, o Aerdtsche Vrouw! en Altaer-waerd' Sanctin:</l>
+						<l>Ay tweede Pandora, liefds schoonheyt t'Hemel heffen,</l>
+						<l>En met dijn mind're deught Vrouw Cypria vertreffen?</l>
+						<l>Jst wonder dan, helaes, dat ghy een Simson dwinght?</l>
+						<l>Jst wonder dat mijn tongh u lof en Hymnus singht?</l>
+						<l>Die geen die noyt verschrickt en wierd door stael of wapen?</l>
+						<l>Jst wonder dat die soeckt in uwen schoot t'ontslapen?</l>
+						<l>Een die u bontghenoots u vrienden en gheslacht,</l>
+						<l>Ghelijck de preutse Leeuw de schalcke Vossen acht.</l>
+						<l>Ofschoon hun groots gemoet na d'Hemel schijnt te steygh'ren,</l>
+						<l>'k Verleer hun evenwel mijn Echte vrouw te weyg'ren.</l>
+						<l>'k Verleer hun strengh ghebien, en wrevle dwangh der Jo'on.</l>
+						<l>'k Verleer hun valsche list op Manoahs een'ghen Soon.</l>
+						<l>Wat wil ick? wat soeck ick? verruckte zotte slave!</l>
+						<l>Dan mijn verkreghen roem en glory te begraven!</l>
+						<l>Demp ick niet al mijn eer, daer mijn d'Heer me vereert,</l>
+						<l>Wanneer een swacke Vrouwe mijn sterckte overheert?</l>
+						<l>Wanneer een lief ghezicht kan Simson so betov'ren,</l>
+						<l>Dat hy door 't sacht ghewelt ken winnen noch verov'ren.</l>
+						<l>Vervloeckte tovery, hoe ben ick dus vermant!</l>
+						<l>Js minnens ted're kracht dan vromer als mijn hant?</l>
+						<l>Js 't zoet beveynst ghesmeeck met bigghel-traen-ghebeden,</l>
+						<l>Moghender als 't vermeugh van mijne groove leden?</l>
+
+						<l>Neen, geensins, noch de min, noch haer lief-kosery,</l>
+						<l>Noch duyvels snoode list, ghewelts-verradery,</l>
+						<l>Sal (hoop ick) Simson niet begoochlen noch begecken,</l>
+						<l>Noch trouwelooze trouw zijn zuyvre ziel bevlecken.</l>
+						<l>Helaes wat zijn mijn re'en, ghelijck de lichte wint.</l>
+						<l>Daer singht de tover-Vrouw die mijne Ziel bemint.</l>
+						<l>Daer speelt haer witte handt, 'tghemoedt werdt my verandert,</l>
+						<l>Liefd' nood', herts voeten gaan, daer lust en leven wandert.</l>
+					</sp>
+					<stage>Delila speelt binnen, en singht dit Liet.</stage>
+					<sp who="#delila">
+						<l>O Glory-rijcke zon!</l>
+						<l>Die oyt myn sieltje won,</l>
+						<l>Wanneer uw min verwon mijn hert,</l>
+						<l>Wiens sterckte selfs een Mars uyttart:</l>
+						<l>Al dyne gulle wraeck</l>
+						<l>Waer na 'k wel duyst-werf wensch en haeck,</l>
+						<l>Is 't erven</l>
+						<l>'tVerwerven</l>
+						<l>En min waer in ick heugh'lyck my vermaeck.</l>
+						<l>De wrake is de Min</l>
+						<l>Tot u waerde vriendin,</l>
+						<l>Om d'eerste Bruyt die, laes, ontzielt</l>
+						<l>Is, door het hongherich vuyr vernielt,</l>
+						<l>Dies ghy de stoute druckt,</l>
+						<l>De wrevle schilt, en boogh ontruckt</l>
+						<l>O Iooden!</l>
+						<l>De Goden</l>
+						<l>Sien dat u alles na u wensch gheluckt.</l>
+						<l>Lof wonderlijcke Helt,</l>
+						<l>O vroomste van het Velt!</l>
+						<l>Gheniet al uwe vreucht en rust,</l>
+						<l>U Delila vry liefd en kust,</l>
+						<l>Dyn zoete wraeck voldoet,</l>
+
+						<l>U lust met graeghe lusten boer</l>
+						<l>De Vorsten</l>
+						<l>Die dorsten</l>
+						<l>Al te vergheefs naer eel ghebooren bloet.</l>
+						<l> </l>
+						<l>Nu liefde krijcht, waer mee ghy weckt</l>
+						<l>De vroomste aller Helden,</l>
+						<l>Wiens hert en ziele na uw treckt,</l>
+						<l>Wan-lust u minne selden.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>Chooren, eerste Rey.</head>
+
+					<sp who="#rey-der-phylistynsche">
+						<speaker>Rey der Philistijnen.</speaker>
+						<l>HOe langhe zal ons macht ontbreken</l>
+						<l>Om ons eenmael noch te wreken</l>
+						<l>Aen een onverwonnen Iood?</l>
+						<l>Philistijnsche docht'ren suchten,</l>
+						<l>Want zo wie der hoopt, wy duchten</l>
+						<l>Sijne sterckt is t'overgroot.</l>
+						<l>Asclonitsche maeghden reyet,</l>
+						<l>Ghy Gaditsche Ioff'ren schreyet,</l>
+						<l>Dynen hooghen roem die smalt.</l>
+						<l>D'Helden die de werelt schrickte,</l>
+						<l>Die voor geenen vyant wrickte,</l>
+						<l>Sietmen dat hun moet ontvalt.</l>
+						<l>Sorek met u silv're stromen</l>
+						<l>Ruyst vry onder d'wil'ghe boomen,</l>
+						<l>Nemet al ons traentjes mee,</l>
+						<l>Heldre vloeden schud u biesen,</l>
+						<l>Dat wy al ons druck verliesen</l>
+						<l>Aen de Middelantsche Zee.</l>
+						<l>Treurich sietmen d'Hoofden hanghen,</l>
+
+						<l>Nat bepeerelt zyn de wanghen,</l>
+						<l>'t Hart is vol met spyt ghevult,</l>
+						<l>Israeliten, harde Ioden,</l>
+						<l>Siet, wy zweeren 't by de Goden</l>
+						<l>Dat gh'ons leet noch boeten sult.</l>
+						<l>Veel eer sal den kloot der Sonne</l>
+						<l>Nauw thien graden loopen connen</l>
+						<l>Op een uytghestrenghen dach,</l>
+						<l>'t Silver-licht der kromme Mane</l>
+						<l>Bercht haer schaeuw inde Iordane</l>
+						<l>Eer 't ons Godt ghehenghen magh.</l>
+						<l>Dat ons off'ren, bidden, smeken,</l>
+						<l>Ia al 't heyligh vier ontsteken,</l>
+						<l>Voor hem gelden souw als niet,</l>
+						<l>Neen, zo wie de Gooden eeren</l>
+						<l>En wie hulp van hen begheeren</l>
+						<l>Sietmen dat hun wil gheschiet.</l>
+						<l>Leert, o Vorsten! dat de listen</l>
+						<l>Die oyt Vrouwen herten wisten,</l>
+						<l>Werden door de wraeck bedacht:</l>
+						<l>Ghevoet door lust na roode schyven,</l>
+						<l>'t Ghelt can wonder veel bedryven:</l>
+						<l>O 't gout heeft te grooten kracht!</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+					<head>I. Handelinghe, II. Wtkomste.</head>
+					<stage>De Vorsten Thoy, Ahusath, Sobab, Rehob, Phicol.</stage>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>MAnhafte Philistijns, beruchte strytbaer Mannen,</l>
+						<l>Beroemde roem des Eeuws, bedwingers der tyrannen,</l>
+						<l>Die om u groot ontsigh en s'lichaems grove macht,</l>
+						<l>Van yder wert ghevrucht, van yder wert gheacht,</l>
+						<l>Soo wyt den Aerden kreytz nu kenbaer is bevonden,</l>
+						<l>En d'rou lang-armde zee des wereldts wijde ronden.</l>
+
+						<l>Bevat als in een kloot: soo wijt, segh ick, zo ver</l>
+						<l>Bralt dijne heerlijckheyt en Martiaelsche Ster:</l>
+						<l>M'hoort, by 't ghebercht Zeir, en Zihors beeck in 't Suyden,</l>
+						<l>Na 't noort Antiliban, dijn glory naem weer-luyden,</l>
+						<l>Jn't west de middel-zee, by d'oost Celo-zirier</l>
+						<l>Begrensen Palestyn: O Vorsten, waerom hier</l>
+						<l>Gheroemt, genoemt, verhaelt, 't landt of de macht der Reusen,</l>
+						<l>Als dwangh, ontsich, list, kracht vermach de starckt te kneusen.</l>
+						<l>De sterckt en wond're kracht, O wrevelich verdriet!</l>
+						<l>Van een Monoachs Soon, een zee ghebuer Danit,</l>
+						<l>Zijn wonderlick gheboort Thimniter wil vervloecken,</l>
+						<l>Wiens ziel nu mach in d'Hel een ruymt en woon-plaets soecken.</l>
+						<l>O Simson! 't Vossen vuyr dat g'in ons kooren sand,</l>
+						<l>Waer mee ghy d'ayren zenght, en d'Olijfboomen brant,</l>
+						<l>De Wijngaert-berghen schent, verschult door uwe sonden,</l>
+						<l>Dat dijn Schoon-vader wiert door 't gulle vier verslonden.</l>
+						<l>Fy schand, als ick bedenck hoe dees vervloeckte Jood</l>
+						<l>Ons Vorsten heeft ghetercht, en Kryghers heeft ghedoot!</l>
+						<l>De vier-kleen drymael thien door 't Raetsel raen verwondert,</l>
+						<l>Hy t'Asklon rooft, en nam, van dooden die hy plondert,</l>
+						<l>Verslaghen, en verworght, alleen door zijne hant,</l>
+						<l>Wat's dertigh-duysent man by Lehi hy vermant:</l>
+						<l>Ja slaets' en werptse neer? O wonderlijck verwinnen,</l>
+						<l>Met 't Kinnebacken been van eender Ezelinne!</l>
+						<l>Ha Philistynsche Roe, die schoud'ren, lend'nen slaet,</l>
+						<l>Die d'nieuwe stricken breeckt ghelijck een vlassen draet.</l>
+						<l>Die op u schoud'ren torst de poorten der Gaziten,</l>
+						<l>'k Acht dat Alckmena Soon moet van u sterckt verschieten,</l>
+						<l>Die 't Konincklijcke dier door zijne kracht ontsielt.</l>
+						<l>Maer ghy hebt insghelijckx een Jonghe Leeuw vernielt.</l>
+						<l>Draeght Atlas dat ghy kucht den Hemel op u schoud'ren,</l>
+						<l>Holp Hercles voor een wyl, ten minsten zijn 't Voor-oud'ren</l>
+						<l>Van dy, o trotzen Heldt, die met ons krachten spot,</l>
+						<l>Al waerder Iupyn selfs, of een vermenschten Godt.</l>
+						<l>Ahusath, zeght my eens, wat dunckt u van dien Reuse?</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Hy heeft nochtans, mijn Heer, maer d'Adem in zijn neuse.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>En hoe grof dat hy is, of hoe ontsighlijck sterck,</l>
+						<l>'t Js maer een sterflijck dier, zijn doen is menschen werck.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>'t Js hoe 't is ofte niet, hy doet ong'looflijck wonder.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phicol.</speaker>
+						<l>Hy heeft niet uytgherecht of 't is noch niet besonder.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>De aerde die verschrickt, en wondert van zijn daet.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Om dat hy duyzent man met 't Ezels been verslaet.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>Hy breeckt 't ghevlimde stael, hy wederkaets de pylen.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Stadts deuren neemt hy wech en draeghtse wel vijf mylen.</l>
+
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>Hy worcht der Leeuwen muyl g'lijck oft een Hinde was.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>'k Weet niet dat 'k hoorde oyt, of van een starcker las.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico.</speaker>
+						<l>Wy moeten 't zy met kracht, of listen sonderlinghen,</l>
+						<l>Dees onbedwonghen Jood vermannen of bedwingen.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Tot list daer 'n is gheen hoop, tot sterckt daer 'n is geen raet.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>Soo segh ick dat hy dan met tovery omgaet.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico.</speaker>
+						<l>Hy moet een helsche geest tot zijne hulp beweghen.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Jck meen dat zijne kracht is erghens in gheleghen.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Dat heeft my nu ghy't waent steets inden zin ghespeelt.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico.</speaker>
+						<l>Hy is nu, soo ick hoor, versot op 't schoonste beeldt</l>
+						<l>'t Geen oyt de aerde droegh, een Gasareensche Vrouwe.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Jst Delila? 'k gheloof die min sal hem berouwen.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Die hoer die is te slim, sy brenght hem noch ten val.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>'k Acht dat hy, snoo genoech, hem daer voor hoeden sal.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Hy wacht hem soo hy wil de min doet hem verdwasen.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico.</speaker>
+						<l>De min de blinde min doet d'alderwijste rasen.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>So hy hem gansch en gaer maer inde min vertrouwt.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>De min vergeckt, liefd wint, hoe sterck dat hy hem houdt.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>De liefd, of min vermach, maer Simson niet te kluyst'ren.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>Nu Vorsten, hoort my eens, wilt naer myn reden luyst'ren.</l>
+						<l>Daer kracht noch sterckt en helpt daer moetmen wijslijck raen,</l>
+						<l>En kiesen 't beste quaet van twee gheschapen qua'en.</l>
+						<l>Simson so yeder weet, is met geen kracht te winnen.</l>
+						<l>Nu, dan ghevreeckter list, hy is gheneycht tot minnen.</l>
+						<l>De min is schalck ghenoech, 't is yeder wel bewist,</l>
+						<l>En dubbel-sno deur-trapt in wayff'lery, en list:</l>
+						<l>Bemint hy Delila, 't is een de snootste Vrouwe,</l>
+						<l>'t Js een de archste proy die 'k immer sou betrouwen.</l>
+						<l>Vertrouwt hy dan de geen met hart, ghemoet, en sin,</l>
+						<l>Die hy met waerheyt noemt zijn soete vyandin,</l>
+						<l>Sy smeeckt hem soo sy wil (ach mocht ick d'waerheyt raden)</l>
+						<l>Dat s' hem noch op het lest sal lev'ren en verraden,</l>
+						<l>En of s'onwillich was, door dien s'hem in 't ghewelt</l>
+						<l>Van min hout: siet, soo sal 't roo valsch verleyend' gheldt,</l>
+						<l>'t Geen wy naer Vorsten pracht (als by manier van spreken)</l>
+						<l>Haer bieden: d'ooghen doen sy schemeren of breken,</l>
+						<l>Herts-lock-treck-'s werelts-ziel, en 't onvermoeyt ghewin,</l>
+						<l>Ja d'onversade lust de ronde munt-Goddin,</l>
+						<l>Dat 's 't albegheerde geldt, waer mee dat w'haer bedwinghen.</l>
+						<l>Jck voor mijn eyghen hooft geef duystwerf silverlinghen,</l>
+						<l>En noch eens thienmael thien, in ganghbaer keur ghemunt</l>
+						<l>Jst dats' hem maer verraet.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sob.</speaker>
+						<l>Mijn Heere, siet ghy kunt,</l>
+						<l>Al was hy al ghestrickt, ghebonden, en gheketent,</l>
+						<l>Zo 'n helpet, 't is al niet, 't is ons bekent, wy wetent.</l>
+
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Al weten wy't nochtans soo dunckt my 't noodich gheldt,</l>
+						<l>Oft 't zilver d'rechte vond die 't harte buycht, en helt</l>
+						<l>Op 't alderbest te zijn, waer door dat 't kindt de Vader,</l>
+						<l>De Vader 't kint verraet, geen dingh en isser quader.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>'t Zy s'is hem lief of leet hun reden zijn ghemeen.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Mijn Heer, des pennincx klanck verdooft doch alle reen.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Geen slot oft sterckt soo vast, of't gheld en doet ontsluyten.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>'t Geldt brenght den Mensch in d'Hel, en 't blijfter selver buyten.</l>
+						<l>De geldt of gout-dorst is doch nimmermeer versaet.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico.</speaker>
+						<l>En 't aldersterckst' metael tot smadelijck verraet,</l>
+						<l>Dat 's 'tbleycke ronde gelt te recht met waerheyt durven</l>
+						<l>Wy segghen, daerom ist soo doot, wit, en versturven.</l>
+						<l>Om datmen 't laghen leyt, en 't selve doetet weer.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>Js ons alsulck verraet, oock lof ghenoech of eer?</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>'t Js eer, 'tsy hoe 't oock is, zijn vyant maer te krencken,</l>
+						<l>Daer kracht of macht en baet, daer moetmen maer ghedencken,</l>
+						<l>(Oft schoon een eerlijck hert wat prickelt oft ontheucht)</l>
+						<l>Te maken vande noot een fluckx ghepynde deucht.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Jck rae dan dese deucht terstont in 't werck te stellen.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico.</speaker>
+						<l>En dese deucht volbrocht haer dan het ghelt te tellen,</l>
+						<l>Te weten, yder een soo veel Heer Thoj looft.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>Als duyst en hondert stuckx, voor yder, hooft voor hooft.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Een yder wil zijn eer, met list en woecker winnen.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>Delila sy bekoort, com treden wy naer binnen.</l>
+					</sp>
+				</div>
+				<div n="5" type="scene">
+					<head>I. Handelinghe, 3. Wtkomste.</head>
+					<stage>Delila, Simson.</stage>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>DE min verheucht met ons, met een te lieve lach,</l>
+						<l>Delila door u liefd haer g'luckigh noemen mach.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>De onversaegde borst die 'k eertijdts in 't geschemel,</l>
+						<l>Door 's vyandts ysre heyr heb vromelijck ghewaeght,</l>
+						<l>'t Stout herte 't geen my noyt verbluft was oft versaeght</l>
+						<l>Wort moedichlijck bestormt door 't schoonste vanden Hemel.</l>
+						<l>Dees wapeloosen arm, dees bindeloose handen,</l>
+						<l>Dees swackeloose le'en, en dit onsich'lijck licht,</l>
+						<l>Nu voor een vreemde Vrouw, een Philistijnsche swicht,</l>
+						<l>Die my verstrickt en bind door liefdes sachte banden.</l>
+						<l>Geen Asclonitsche macht, geen Gasareensche Vorsten,</l>
+						<l>Geen Ekroniters swaert, noch Asdothiters heyr,</l>
+						<l>Noch geen reuse van Gath met zijn weef-boomsche speyr,</l>
+						<l>Die over myne cracht, hun sterckte roemen dorsten.</l>
+
+						<l>Maer een so tedre vrouw die heeft myn ziel ghestrenghelt,</l>
+						<l>Die heeft myn cracht gheboeyd 't zy waer ick gae of stae,</l>
+						<l>'k Roem voor verwinnarers mijn liefste Delila,</l>
+						<l>Waer na dat al mijn lust, mijn hert, en leven henghelt,</l>
+						<l>Die Simson d'Nazareen de Hooftman der Hebreeuwen</l>
+						<l>Besint, en niet alleen voor u Princes // en booght,</l>
+						<l>Maer die zijn eenigh heyl in u vooghdes // en ooght,</l>
+						<l>Die u roem-rijcke roem, roemt wijder als de eeuwe.</l>
+						<l>De eeuwe zijn ghetelt, in Jaeren afgherekent,</l>
+						<l>De eeuwen van't begin zijn duerigh voort tot niet,</l>
+						<l>Maer u deurvierde glans van overschoonheyt m' siet</l>
+						<l>Van d'een tot d'ander Eeuw in stael pampier ghetekent.</l>
+						<l>Daer leest, daer leestmen in hoe dat een Gazareense,</l>
+						<l>Een Sorex edel-Vrouw de werelt overruft,</l>
+						<l>De schoonste diemen sagh naer menschelijck vernuft,</l>
+						<l>Die Simson had bemindt al was't een Philisteense.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>My wondert, liefste lief, ghebooren beelt'nis schoon</l>
+						<l>Tot heerschen, door u kracht d'Hebreeuwen of de Jo'on,</l>
+						<l>Dat ghy mijn vrienden schrick en haet zijt t'alder uuren,</l>
+						<l>En d'overpreutste dwangh van alle mijn ghebuuren.</l>
+						<l>En onderwijl de Min, 't zy door haer mommery,</l>
+						<l>Of door een ander list, die schakelt u aen my,</l>
+						<l>Ja soo diep als den haet mach wort'len in u beenen:</l>
+						<l>Noch verder doet de min ons herten t'saem vereenen.</l>
+						<l>Ghy haet, ick kent, maer wie? mijn Ouders, vrienden, broers,</l>
+						<l>De haet werdt op de min, de min op d'haet jelours,</l>
+						<l>D'haet die wil de min, de min wil d'haet verand'ren,</l>
+						<l>Of laetens onder een gheketent aen malkand'ren,</l>
+						<l>En so langh als u licht den vier'ghen Sonne kloot</l>
+						<l>Siet loopen door de lucht, sweerdy myn vrienden doot.</l>
+						<l>Mijn vrienden zijnse niet u erf-haetse vyanden,</l>
+						<l>Om dats' u eerste lief door 't vuyr deden verbranden?</l>
+						<l>Maer nietemin, o Vorst! en Ridders Capiteyn,</l>
+						<l>O alderbraefste Heldt, die zegerijck 't groen pleyn</l>
+						<l>Bezaeyt, en bloedich deckt Vrou Terras wyde schoot // siet,</l>
+						<l>Met naneefs van myn bloet wanneer ghy hyn maer 't hoot // biet.</l>
+						<l>Hoe wel geen haet hoe groot (hoop ick) vermach te blussen,</l>
+						<l>(Alwaer 't dat Atropos quam aen mijn lippen kussen)</l>
+						<l>De min, d'oprechte min, met een ziel-hongher graegh,</l>
+						<l>Die 't uw mijn Heer, mijn lief en aldervroomste draegh.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>En soo sal 't insghelijckx, schoon Joffrouw, mijn beminde,</l>
+						<l>Van nu te ghener tijdt door ontrouw anders vinde,</l>
+						<l>t' Vertrouwen van u hoop, al eer 'k uw minne schort,</l>
+						<l>Den Hemel nimmer gunst of rijcke heyl en stort</l>
+
+						<l>Op my: Hoewel 'k een Jood, Hebree, of een Daniter</l>
+						<l>Voor Gode ben, en blijf: Delila, seght my lieter</l>
+						<l>V Simson eerstmael eerst t'Himniters Dochter om?</l>
+						<l>Al haet ick d'Philistijns tot in mijn ouderdom,</l>
+						<l>Al most den derden voet my stercken (soo te spreken)</l>
+						<l>Sal ick my aen de smaet der Philistijnen wreken.</l>
+						<l>Hoewel ick, o Princes! mijn liefste toeverlaet,</l>
+						<l>Dijn waerdicheyt veracht, versma, verwerp noch haet.</l>
+						<l>Veel eerder sal de Son thien graden t'rugwaerts keeren,</l>
+						<l>Of onberoerlijck zijn t'Coelester met zijn Sphere.</l>
+						<l>Veel eerder sal de Maen haer silver-verwe-wit,</l>
+						<l>Verand'ren in't Coleur van 't swarte bruyne git.</l>
+						<l>En d'alderkleynste star, die sal voor onse ooghen,</l>
+						<l>Veel grooter als de Gloob sich tint'lende vertooghen:</l>
+						<l>Eer ick mijn soete min verander of verkeer.</l>
+						<l>t' Waer door u eygen schult.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>De.</speaker>
+						<l>Dat 's nimmer, waerde Heer.</l>
+						<l>Delila sy ghetrouw, u zielen-sons vriendinne.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Wie deucht en eer bemind die sal met reden minnen.</l>
+					</sp>
+				</div>
+				<div n="6" type="scene">
+					<head>I. Handelinghe, 4. Uytkomste.</head>
+					<stage>De Vorsten, Delila.</stage>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>ME-vrouwe die vermeucht alleen wanneer ghy lacht,</l>
+						<l>Veel meerder als wy doen met onse grove kracht.</l>
+						<l>Die met u lief ghesicht hoe lodderlijck, en teder!</l>
+						<l>Condt blixemen de starckt van al d'Hebreen ter neder,</l>
+						<l>O wonderlijcke kracht, Iupijn versuft die sitt</l>
+						<l>En wondert van u min, hoe seght hy, hoe, sal dit</l>
+						<l>Onaerdich hoeren kint, dees aterlingh, en bastert,</l>
+						<l>Mijn Godheyt vieren niet? Wie? wie ist die my lastert?</l>
+						<l>Wie puft mijn stercke Soons de trotse Philistijns?</l>
+						<l>Wie schimpt met mijne macht, daer ick hovaerdich myns</l>
+						<l>Niet hoef voor mensch, of Goon, te prijsen of te roemen?</l>
+						<l>Jck die elckx heyl bewerck, of vry keur mach verdoemen.</l>
+						<l>Jck die al langh ghenoech de gayle boevery</l>
+						<l>Van Simson heb ghesien, gaet henen seght heur vry</l>
+						<l>Die 'k waerdigh heb ghemaeckt, de Phenix aller Vrouwen,</l>
+						<l>Datse haer eer betracht, en brenght vry in 't benouwen</l>
+						<l>Door vlayery, of list, of valsche smekery</l>
+						<l>Die mijne krachten schent, gaet seght haer dit voor my,</l>
+						<l>Dit 's 't Goddelijck gheheym, 't Orakel vande Goon // siet,</l>
+						<l>Dat ghy, O Delila! dewijl 't uyt re'en en noot // schiet,</l>
+
+						<l>V vyand krencken meucht d'onwinnelijck Hebree,</l>
+						<l>V Simson 't sy hoe lief.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Del.</speaker>
+						<l>Dit's al te wreeden bee.</l>
+						<l>Jck kent, O Philistijns! ick kent, O groote Vorsten!</l>
+						<l>'k Heb van mijn ionckheyt aen, selfs van myn Moeders borsten</l>
+						<l>d'Hebreen met haet gehaet, en goddeloos veracht</l>
+						<l>Jn Godts-dienst wys, en doen geboorte en geslacht.</l>
+						<l>'k Haet met u al de Joon, de vreemders d'een met andren.</l>
+						<l>En nimmer moet myn haet vermindren noch verandren.</l>
+						<l>Maer hoe? dees grooten Vorst, en onbedwonghen helt</l>
+						<l>Die d'aertsche macht verwint, die 't Asclonitsche velt</l>
+						<l>En Lehis dorre pleyn, swart, bloedigh met zyn handen</l>
+						<l>Door 't zieleloos geremt bedeckt en laeft hun sanden,</l>
+						<l>Daer by een die in min so trou als liefd my sweert,</l>
+						<l>Dat hy geen ander Vrou als Delila begeert.</l>
+						<l>Hoe soud ick Philistyns dien man verraden connen:</l>
+						<l>Die door zyn lieve reen myn ziel gans heeft verwonnen?</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Js 't re'en, Me-vrou, dat ghy u vyant liefd of smeeckt?</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico.</speaker>
+						<l>Js 't reen of schijn van reen dat ghy u niet en wreeckt</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>Aen die u Vrienden slaet, en treet hun roem met voeten?</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Aen die wiens haet-gier lust zyn smaet aen ons te boeten?</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>O Philistynsche Vrou, zydy van't Goden zaet,</l>
+						<l>Verwillicht onse bee tot't vorderlyck verraet?</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>De Goon gebieden u, de Vorsten die bekooren</l>
+						<l>Dyn waen gestrickte Trou.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Del.</speaker>
+						<l>Ach was ick noyt geboren!</l>
+						<l>Helaes, ach Delila! was dyne levens lamp</l>
+						<l>Verwasemt met de lucht, en dat g'Elisa ramp</l>
+						<l>'tZiel-vreuchdigh-groene-velt, rampzalige ontrouwe,</l>
+						<l>Of Plutoos swarte rijck en hoefde te aenschouwen.</l>
+						<l>Verraen myn eygen harts ontwijselijcke voochd!</l>
+						<l>Die anders geene Zon oft Christalyn beooght</l>
+						<l>(Waer in verliefd' de geest, siet hippelen en wem'len</l>
+						<l>Zyn ziel) als in myn licht. O Goon! die boven d'Hem'len</l>
+						<l>V zetels gront en vest, en d'aerd u voetbanck noemt,</l>
+						<l>Ghy schrickt voor 't snoo verraet, 't is ontrou die ghy doemt,</l>
+						<l>En wildy nu Iupijn u g'rechticheyt verwandlen?</l>
+						<l>So straf ick al u doen, 'k verwerp u weyflig handlen.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phicol.</speaker>
+						<l>Me-vrou en lastert niet de Goon, natuur en 't bloet,</l>
+						<l>De Gods-dienst, leer, en wat ra'en dat g'ons wil voldoet.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Js't niet een vrome daet zyn vyant t'overromplen?</l>
+						<l>Te haten die ons haet, de wrevle te doen stromplen?</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>Te wreken die hem wreeckt? te binden die ons bant?</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Die met ons bloet vermaeckt 't schrael-graseloose lant?</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>Die 't Philistynsche Rot vernielt, en breeckt hun stricken?</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Die g'lijck met Leeuwen kracht een ionge Leeu doet sticken?</l>
+
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico.</speaker>
+						<l>Daer geen macht voor bestaet, daer list en sterckte swicht,</l>
+						<l>Daer ghy alleen verwint met u gespiegelt licht.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Daer moetmen, let hier op, geen krachten meer verspillen.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Wat 's 't ghene dat ghy wilt, laet hooren eens u willen:</l>
+						<l>Js 't loffelijck? 'k en stae noch tegen Goon, noch u,</l>
+						<l>Noch wet, noch reden op.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>Godinne, siet! als nu</l>
+						<l>Wy t'eynden raet en macht zyn strijdende gekomen;</l>
+						<l>So hebben w'onder ons dit by der hant genomen.</l>
+						<l>Simson die u bemint (ten minsen soo hy't veynst)</l>
+						<l>'t Js by ons wel versint, of duystmael overpeynst,</l>
+						<l>En heeft noch sulcken kracht van Goon, of van hun zegen,</l>
+						<l>Of siet ('t sy 't gae hoe 't wil) s'is ergens in gelegen.</l>
+						<l>D'een waent dat all' zyn kracht, door Plutoos raserny,</l>
+						<l>Of door een vreemt besweer van helsche toovery</l>
+						<l>Alleenelijck bestaet, of dat hy heeft gecregen</l>
+						<l>Een God, of Goon tot hulp, door wiens kracht aller wegen</l>
+						<l>Hy zeen'w en nieren sterckt, want 't is onmoogh'lijck niet</l>
+						<l>Daer is, daer is Me-Vrouw iets vreemts of wonders siet</l>
+						<l>('t Sy 't is of 't is so niet) waer me d'Hebreeusche dwinger</l>
+						<l>Bestrijd of overwind alwaer hy Godes vinger.</l>
+						<l>De Reen heeft al 't vernuft uyt d'Hersenen geput,</l>
+						<l>Daer n'is noch raet, noch hoop, list, Chrijgh is sonder nut,</l>
+						<l>Ten sy u eel verstand, O Cheur vrou, wil verwinnen</l>
+						<l>Dees Simson, die ghy cond besmeecken door u minnen.</l>
+						<l>Door errenstich versoeck, met lieffelijcke reen,</l>
+						<l>Door uwe vriend'lijckheyt, of biggel-traen gebeen.</l>
+						<l>Zoo langh, so hoogh, en dier, dat hy u seght besonder</l>
+						<l>'t Geheym van zyne starckt, en wonder boven wonder.</l>
+					</sp>
+				</div>
+				<div n="7" type="scene">
+					<head>Verschooninghe.</head>
+					<stage>Hilla een Camenier</stage>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Juffrou.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>De.</speaker>
+						<l>wat ist?</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hil.</speaker>
+						<l>Mijn Heer die comt daer in,</l>
+						<l>Hy vraeght naer u.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Del.</speaker>
+						<l>Vorsten, u Vriendin</l>
+						<l>Comt metter yl weerom.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>'t Js hoop ick al gekloncken.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>En isse niet te buys door Venus minne droncken.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Dat ons de snoode hoer bedrieghlijck oock verriet.</l>
+						<l>Seght Hilla, weet d'Hebre van onse comste niet?</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Jn't minste niet myn Heer. So haest begon te dagen</l>
+						<l>Als huyden, of hy gingh de wilde harten iagen.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Ha Jager vande Goon! ontsichelijcke romp,</l>
+						<l>De harten zijn vertzaeght, 'tvernuft is duft en stomp,</l>
+						<l>De krachten zyn geswackt, de hoornen zyn gebroken,</l>
+						<l>En noch en sien w'ons niet voor al ons leet gewroken.</l>
+
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>'t Js d'alderbeste bond die yder sterckste hout,</l>
+						<l>Vrouwen list die verwindt,</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phic.</speaker>
+						<l>Beloven w'haer het gout.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>'t Roo Gout (of't ronde gelt) daer wertse door gebogen,</l>
+						<l>'t Gelt is een toovenaer, 't begoghelt 's menschen oogen.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>De min die comt door't gelt, door 't gelt zy weer vergaet,</l>
+						<l>Om 't gelt en achtmen eer, noch list, noch snoo verraet.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>O groote kracht des Gouts! vervloeckte gulde Mynen</l>
+						<l>Soo m'u ten quaden bruyckt: met arbeyt moeyt en pynen</l>
+						<l>Door-graeftmen d'aerd, en Vorst in u zeen-adren, die</l>
+						<l>'k Als uytgeput, nu hol, door gulle gout-dorst sie.</l>
+						<l>Js't daerom dat, O mensch! u lust is onversad'lijck,</l>
+						<l>'t Sy tot een loflijck werck, of tot een daed verrad'lijck,</l>
+						<l>Verhaetse schelmery was noyt so groot, noch grof,</l>
+						<l>Sy wert door u gewaecht.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Del.</speaker>
+						<l>Hilla gaet binnen, of</l>
+						<l>V Heer ontwaeckte, roept, past voorder op u dingen.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>Delila siet voor eerst elf hondert silverlingen</l>
+						<l>Jn Coninglijck gewicht, wert vijfmael u getelt,</l>
+						<l>Soo ghy door uwe list verradet desen helt,</l>
+						<l>Dien Rover die vernielt dien monsterlijcken reuse,</l>
+						<l>Dien dwinger, dwingt door min, en geeft ons maer de leuse,</l>
+						<l>Soo haest wanneer u dunckt dat hy u heeft geseyt</l>
+						<l>Waer in dat zyne kracht en groote sterckte leyt.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Sal dan de liefste Vrou haer liefste lief verraden?</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>Sal dan de minnaers hant beroemen zyne daden,</l>
+						<l>Dat hy verslaet, en schent, ia zenght den kooren-oogst?</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>Die in u magen-bloed vind wraeck-lust, smaeck en troost,</l>
+						<l>Die 't al aen stucken ruckt, die niet en is te binden?</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Die't maer voor wey-spel acht't vernielen van u vrinden.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Die onse ste'en bespot, als hy poorts deuren vat,</l>
+						<l>En draeghtse, eer hy set, op d'hooght van Hebrons stat.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico.</speaker>
+						<l>Me-vrouw g'hebt meer als re'en ons en u selfs te wreken.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>De liefde parst en dringht, de reden bidt te spreken:</l>
+						<l>Jck ben gelijck een vuyr 't geen smokigh smoelt, en smuyckt</l>
+						<l>Eert inde ruyme locht zyn groote kracht gebruyckt.</l>
+						<l>Jck maecket hoe ick't wil, 'k heb, laes, de wolf by d'ooren,</l>
+						<l>De wanhoop schrickt en vreest, ach wat comt my te voren!</l>
+						<l>Jck ben gelijck een Maeght die 't soet Ja-woortjen veynst,</l>
+						<l>Hoe wel zijt anders wil, en duystmael anders peynst.</l>
+						<l>Wat is u Delila dat ghy so lange semelt?</l>
+						<l>Wat futselt uwen sin, kleeft u tongh aen't ghehemelt?</l>
+						<l>U harte welt en swelt, u borst is vol gepropt,</l>
+						<l>Js 't voor u doove oor niet langh genoegh geklopt?</l>
+						<l>Dien wonderaer ons Eeuws! dien dwinge-lande temmer!</l>
+						<l>Uyt Gout en wraeck-lusts haet. Nu Vorsten, siet, ick stemmer</l>
+
+						<l>Verwonnen door u, eer ghewillichlijken in </l>
+						<l>De Godsdienst, 't bloet en wet, die boeyen trou en min.</l>
+						<l> </l>
+						<l>Bedenckt u Delila, bedenckt u eedt, en trouwe,</l>
+						<l>Onsaligh is u daet! o wanck'le valsche Vrouwe!</l>
+						<l>Dat ghy met sulck verraet u naemen eer becladt,</l>
+						<l>Ghy hebt noyt liever lief, of waerder min ghehadt.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Hoe Vrou, sal d'eyghen liefd noch gelden, of vermeughen?</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Sal dan den Philistijn niet in zijn val verheughen?</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Sal nimmer 't Goden zaet sich eenmael zien verlost?</l>
+						<l>Soo vloecktmen dach en uyr datmen u bidden most.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>Dien kostle Diamant ontfanght, tot gift, in teken</l>
+						<l>Dat ghy u eyghen bloet laet van geen wraeck versteken.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico.</speaker>
+						<l>Dees keten neemt en draecht, 'k vereyssche nimmermeer.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Nu Heeren gaet in rust, 'k beloof u, siet ick sweer,</l>
+						<l>Soo veel als mijn vernuft kan list en reden vinden,</l>
+						<l>Verneem ick zyne cracht, hoemen hem best van binden:</l>
+						<l>Weest vlytigh op u wacht, loert listigh op u stuck,</l>
+						<l>Beveelt my voorts de saeck.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>Iupyn geeft ons't gheluck,</l>
+						<l>Dat wy door uwe list hem eyndelijcken moghen</l>
+						<l>Sien tot ons harten wuns ghevanghen en bedroghen.</l>
+					</sp>
+				</div>
+				<div n="8" type="scene">
+					<head>Chooren, II. Reye.</head>
+					<stage>Israelyten.</stage>
+					<sp who="#rey-der-ioodtsche">
+						<l>D'Opper-voocht van al de Ioodtsche</l>
+						<l>Die onlancx verwon de grootsche,</l>
+						<l>Die onlanckx de roemers dwongh,</l>
+						<l>En den lof Iehovaes songh,</l>
+						<l>Wiens geslacht na Gode luystert,</l>
+						<l>Die sit nu door min gekluystert.</l>
+						<l> </l>
+						<l>Helaes bedroghen Vorst, door minnens tooverije,</l>
+						<l>Hoe soecktmen onsen val? hoe staetmen na ons ramp?</l>
+						<l>De schijn-liefd haet u ziel, s'is uyt tot uwen schamp,</l>
+						<l>Sy rooft u groote kracht door hare vleyerije,</l>
+						<l>Uervloeckt is hoeren list, door gayle hoererijen,</l>
+						<l>Uerblinden dwasen helt! ontschaecktmen dyne kroon</l>
+						<l>Uerloofder Godes? siet op Monoachs Soon,</l>
+						<l>U leven spildy wegh in sotte slavernije.</l>
+
+						<l>O ghy Landen! die na desen</l>
+						<l>Moghet desen handel lesen</l>
+						<l>Een gheschied'nis over oudt,</l>
+						<l>Dynen vyandt niet vertrouwt,</l>
+						<l>Gheen wit ken den Moor-man decken,</l>
+						<l>Noch den Luypaert syne plecken.</l>
+						<l>Ghelijck de roest vermach het yser te verteeren,</l>
+						<l>Ghelijck de wrede Wolf, het schaepjen soeckt te sluyck.</l>
+						<l>So soeckt, vermach, en kan ooghschynelijck 'tghebruyck</l>
+						<l>Van af-ghesloofde macht der wrevel-hersche Heeren,</l>
+						<l>'t Ontginnen uwes staets, door 'tGoddeloos besweeren,</l>
+						<l>Van sachte minne-rust of ziel-verleydend' gout,</l>
+						<l>Vry-volck'ren deses Eeuws, die Delila aenschout</l>
+						<l>Wilt uyt dit treurigh spel een gulde lesse leeren.</l>
+						<l>Wie met Simson is verbonden</l>
+						<l>Om sijn heylandt vry van zonden</l>
+						<l>Als een ware Nazareen</l>
+						<l>Kuysch te lieven, die mach geen</l>
+						<l>Vreemde valsche min begheeren,</l>
+						<l>Noch zyn hooft te laten scheren.</l>
+						<l>Wel die hun voor 'tbedrogh der looser Hoeren wachten,</l>
+						<l>Wel die 'tlandt om gheen goudt verradet of bedrieght,</l>
+						<l>Wel die in vrede waeckt, daer list in slape wieght,</l>
+						<l>De grootste macht van 'tLand, die 'tsterckste zijn te achten,</l>
+						<l>De blinde dwasen helt ontsteeltmen al sijn krachten,</l>
+						<l>Wanneer hy 'tbidden hoort en 't Crocodils gheween</l>
+						<l>Sijn hert beweghen laet, hy valt en laes! met een</l>
+						<l>Spilt hy zijn leven af, in duyst're naere nachten.</l>
+					</sp>
+				</div>
+				<div n="9" type="scene">
+					<head>I. Handelingh. 5. Uytkomst.</head>
+					<stage>Simson, Delila.</stage>
+					<sp who="#simson">
+						<l>CRodus wat port uw tongh, veroorsaeckt sonder sorgen</l>
+						<l>Te segghen dat in zee, hoe wijt en veer men wielt,</l>
+						<l>So veel ghediert of visch en grimmelt noch en krielt,</l>
+						<l>Alsser in't Vrouwen hert wel listen sijn verborghen.</l>
+						<l>De list, de valsche list, die in 't verborghen kruypt,</l>
+						<l>Die achter de Gardijn van soete flatternye</l>
+
+						<l>'tMom-aensicht van bedrogh veynst door verraderye:</l>
+						<l>Jst moogh'lijck dats' in't hert van mijn vriendinne sluypt?</l>
+						<l>Soud' die my hert'lijck lieft my soecken te bedrieghen,</l>
+						<l>Valschertich en gheveynst, ghewickelt en gheswackt?</l>
+						<l>So 'n isser snooder Vrouw in d'aerden kreits bedackt!</l>
+						<l>So 'n isser valscher proy, of slimmer Hoer int lieghen!</l>
+						<l>Delila, uyt wat re'en of oorsaeck smeet u tongh,</l>
+						<l>Dees reden? Liefste lief, ey waertste boven vrinden!</l>
+						<l>Seght my eens al uw kracht, en hoe men u kan binden?</l>
+						<l>Op dat ick sie de gheen die uwe krachten dwongh</l>
+						<l>Waer in, waer door, of hoe zijn d'aldwinghende handen,</l>
+						<l>De sterckte van uw leen, so senuw-taey en grof,</l>
+						<l>Dat ghy eer Herclum lijckt, een Milo-zone, oft</l>
+						<l>Een temmer van 'tghedrocht, de geessel aller Landen,</l>
+						<l>De zelen, 'tstael of strick verbreeckty als een draet,</l>
+						<l>De waep'nen zijn voor u te scheuren als pampieren,</l>
+						<l>Vw arm en wordt niet moe, de Goon moeten u stieren,</l>
+						<l>Dees wonderlijcke kracht die't al te boven gaet,</l>
+						<l>'tBlijckt als door uwe handt wel duyst hun leven gaven,</l>
+						<l>En dat als ghy verhit na 'tkoele water dorst,</l>
+						<l>Sach men door Godes gunst dat 'tEzels-kaecxbeen borst</l>
+						<l>Waer uyt een klaer fonteyn uw drooghe ziel quam laven.</l>
+						<l>Seght my, O braven helt! 'tis wil, begheert en sin,</l>
+						<l>'tJs wensch-bekeurde lust uws Delilaes om weten</l>
+						<l>So 'k anders lief, u lief ben waerdichlijck te heten,</l>
+						<l>Waer in leyt uwe kracht, ey waer bestaetse in?</l>
+						<l>Maer wat wil dese vraegh, ey wat doet u so graghen,</l>
+						<l>Gheliefde lichte Vrouw om weten myne kracht,</l>
+						<l>Wt wat reen hebdy dit nieusgierichlijck bedacht,</l>
+						<l>Jst door versochte beed' van bloet-vrienden of maghen?</l>
+						<l>Nu 'tis of 'tis so niet, gh'en sult 'tgheheym hier van</l>
+						<l>Niet weten, door uw list, of dor uw yv'rich smeken</l>
+						<l>Verrasschen uyt mijn re'en, mijn mondt moet nimmer spreken</l>
+						<l>De waerheydt van mijn kracht. Hola hier komtse an.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila.</speaker>
+						<l>Sal ick nimmer dan verwerven</l>
+						<l>Voor mijn sterven,</l>
+						<l>O myn waerde! dese beé:</l>
+						<l>Waer in dat uw stercke krachten</l>
+						<l>Sijn te achten?</l>
+						<l>So moet ick van liever leé</l>
+
+						<l>Al mijn soete wens verbreken</l>
+						<l>En vry spreken</l>
+						<l>Laes een Simson mint my niet.</l>
+						<l>Weer-liefd mach my niet gebeuren,</l>
+						<l>Dies ick treuren</l>
+						<l>Moet, voor die myn ziel gebiet.</l>
+						<l>Schijn van liefde doet my minnen,</l>
+						<l>Daer zijn sinnen</l>
+						<l>Noch zyn harte niet en rust,</l>
+						<l>Of hy schoon de Gazareensche</l>
+						<l>Philisteensche</l>
+						<l>Na zyn vrije lusten kust.</l>
+						<l>Simson, waeromme veynst u herte doch voor my,</l>
+						<l>Daer ick u soo bemin, ick ben maer alte vry,</l>
+						<l>Jck ben maer al te sot, de Vrouwen minnen meerder</l>
+						<l>Als 't man-volck, dus met schae, en schand werd ick gheleerder.</l>
+						<l>'k Hebt alles in 't begin met u gemeyn ghehadt,</l>
+						<l>Maer nu ick 't overlegh 't is wel een schoonen wat.</l>
+						<l>Ghy nadert met u mont, 't hert gady my ontrecken,</l>
+						<l>Dewijl gh'uw wederhelft dit niet en wilt ontdecken,</l>
+						<l>Waer in dat uwe cracht voorneemelijck bestaet,</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simso.</speaker>
+						<l>Mijn overschoone Son, u minnelijck gelaet,</l>
+						<l>Waer mee dat uwe mont my noyt vergheefs en porden,</l>
+						<l>Eer onderlingh om u de sinnen 'tsamen knorden,</l>
+						<l>Vermach so veel op my (hoewel 'k my oyt bedwongh)</l>
+						<l>Dat ick om uwent will 't verborghen door mijn tongh</l>
+						<l>V heuscheyt toevertrou, vrypostich t' openbaren.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Door 't weten sal mijn ziel, eerst met u ziele paren.</l>
+						<l>Door 't weten, lief, hier van,</l>
+						<l>O ongetrouwde Man!</l>
+						<l>Weet ick dat met ons beyen</l>
+						<l>Gheen dinghen zyn verscheyen.</l>
+						<l>Geen wonder groot of kleen</l>
+						<l>Wy weten 't onder een,</l>
+						<l>Hierom mooghdy vertrouwen</l>
+						<l>Dijn Echteloose vrouwe,</l>
+						<l>Die gh'al haer vreucht ontreckt,</l>
+						<l>Als ghy yets voor haer deckt.</l>
+
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Delila dat's u kundt, ach sal ick 't dan niet helen!</l>
+						<l>Wanneer my yemandt bandt met zeven stercke zelen</l>
+						<l>Van onverdorde bast, ghesponnen stijf en strangh,</l>
+						<l>So werdt ick swack, en bleeft myn vliedend leven langh:</l>
+						<l>De liefde die vermocht u schoone t'openbaren</l>
+						<l>'t Verborghen mynes ziels, en voor u te verklaren</l>
+						<l>'tBegraven diep gheheym van d'onbedwonghen kracht,</l>
+						<l>Hoe, en door wat middel 'k werdt een ander gh'lijck gh'acht,</l>
+						<l>Noyt sterflijck mensch vermocht so veel op my verwerven</l>
+						<l>Als liefd' op my verkreegh.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Del.</speaker>
+						<l>'kWil een-mael voor mijn sterven</l>
+						<l>Versoecken na mijn lust, tot hoon van 'tblinde kindt,</l>
+						<l>Of liefd sterckheydt, of dat de sterckheydt liefd verwint.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Versoecket als 't u lust, 'tversoecken is geraden.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>'tVersoecken 'tgae hoe't wil, en kan voor al niet schaden.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Besoeckende so werdt de Maeght heur Maeghdom quijt,</l>
+						<l>En ick verlies myn kracht.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Del.</speaker>
+						<l>'kBlijf u Getrouw altijt,</l>
+						<l>En of ick al volbrocht 'tgheen my lust te besoecken,</l>
+						<l>Noch bleeft ghy sterck genoech.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Sim.</speaker>
+						<l>De uur sou ick vervloecken,</l>
+						<l>En wenschen alle ramp de liefste die 'kverkoor,</l>
+						<l>Dat ick myn groote kracht door hare lust verloor.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Hoe toets ick uwe min, niet sekerst' aen uw woorden.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>So ver niet dat men my na lusten vingh of moorden.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Vertrouwdy my 'tverraet, dat ick u leveren sou?</l>
+						<l>So waer ick waerdt verdoemt voor d'alderbooste Vrouw.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Neen, nimmer niet mijn Son, uw liefde zy onzondigh</l>
+						<l>Vermoed ick van uw trouw, 'ken maeckte u niet kondigh</l>
+						<l>Mijn kracht: Maer hierom ist ick schertz met u verstandt,</l>
+						<l>Mijn leen hebdy ghenoegh met uwen soeten bandt</l>
+						<l>En onverdort ghestrickt, ghebonden en gheseelt // siet,</l>
+						<l>Jck leef door uwe min, Delila lief, ten scheelt // niet</l>
+						<l>Als yet, of niet, 'ken wil, of kan myn sterckt by na</l>
+						<l>Vergh'lijcken by de cracht eens ted're Delila,</l>
+						<l>V swacke kracht, daer is myn sterckte door bestaende,</l>
+						<l>Ontbindy door uw lust, so gaet het gh'lijck men waende</l>
+						<l>Den gheen die syne schim sach in een klare vloet,</l>
+						<l>Wiens schaeuw-lust al te sot zijn lijf ontzielen doet,</l>
+						<l>Also suldy u lust versoeckende bevinden,</l>
+						<l>Bedroghen en ontlieft, ontsterckt die u beminden.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>De schaerse vrecke tijdt vergun my nimmer d'uur,</l>
+						<l>Dat ick uw min verlies door 'twanck'le avontuur.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Nieuwplichticheyt doet dick door lust 'tgheval verkiesen,</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Wie lust met re'en uyt min, hoe kan die min verliesen?</l>
+					</sp>
+					<stage>Vertooninge, waer de Vorsten Delila de zeven zelen brenghen.</stage>
+
+				</div>
+				<div n="10" type="scene">
+					<head>Verschooninghe.</head>
+					<stage>Simson wort vertoont gebonden, met (doch losse) zelen, de Philistynen aen
+						weder-zyden, loerende oft tijdt is, Delila hun wenckende</stage>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Hy slaept, kom, kom.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Th.</speaker>
+						<l>Dat denc ic.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>So.</speaker>
+						<l>Ja der Hasen slaep.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Sus, sus, sus.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ah</speaker>
+						<l>Hy roert hem.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Ph.</speaker>
+						<l>Wech van hier groven knaep.</l>
+						<l>Voort Boer.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Th.</speaker>
+						<l>Vertreckt.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>Jck docht of jem niet allien dorst // vaen:</l>
+						<l>O veughel, veughel! hoe wil ick ick jou noch een worst // braen,</l>
+						<l>'tWaer me nouw wel leet, was ick songer wraeck ghestorven:</l>
+						<l>Heerschop, die schelm het me wel een hiel half stuck lants bedorven,</l>
+						<l>Doen de Vossen 'tloopende vuyr aen hun swans // droeghen,</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Wy sullen met de wraeck van d'wreker des Lants // noeghen,</l>
+						<l>Ha Simson!</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Bo.</speaker>
+						<l>O dickert.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sob</speaker>
+						<l>Voort.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phi.</speaker>
+						<l>Delila sal't tijt // zijn?</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Simson.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>Ja treckt je wanten an, daer me selje me quijt // zijn.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Simson.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>Doremus aers vangje de negel in jou Clapmus.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Simson, op, de Philistynen over u.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Sims.</speaker>
+						<l>Sus,</l>
+						<l>Mijn lieve beeldt, wie wreckt my?</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>De.</speaker>
+						<l>Ach 'tzijn d'Phylistynen.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simso.</speaker>
+						<l>Waer zijnse? ha verraers! 'kverleer hyn my te bynen:</l>
+						<l>V liefd' is schijn van liefd, die ghy uw Simson swoert.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>V min is schijn van min, d'wijl ghy uw lief beboert</l>
+						<l>En tuyld met hare beed, ja droelt met kackerlacken</l>
+						<l>Heur vriendelijck versoeck.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Sim.</speaker>
+						<l>De ichteloose hacken</l>
+						<l>Vws broers, mijn Delila, wat zijnse gau en vlugh,</l>
+						<l>Men groet my in den slaep, maer vaeck keert men de rugh</l>
+						<l>d'Ontwakende Hebree, ha Hemel wat ten loosheyt</l>
+						<l>Bedocht oyt Vrouwen hert, en wat cruelle boosheyt</l>
+						<l>Drijft spijt uyt lust tot wraeck, op d'onbetemde Jood.</l>
+						<l>Om dat na re'en en recht 'khun vrienden heb ghedoodt.</l>
+						<l>Verraders kondt ghy niet dan met verraderyen,</l>
+						<l>En boose nucken steets, een eenich man bestryen?</l>
+						<l>Fy schande! dat ghy met mijn kalve ploegen moet</l>
+						<l>En soeckt door Wyven list 'tverspillen van mijn bloet,</l>
+						<l>Neen, seker, also langh deez' borst sal reden uyten,</l>
+						<l>Denk ick myn 'sherts gheheym voor geene Vrouw t'ontsluyten.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila.</speaker>
+						<l>Gaet henen, gaet, ghy sult</l>
+						<l>Noch door uw eyghen schult</l>
+
+						<l>Bedroghen en verraden</l>
+						<l>My vinden, die ick ben,</l>
+						<l>Een die uw krachten schen,</l>
+						<l>En d'oorsaeck uwer quaden.</l>
+						<l> </l>
+						<l>Hoe vriendelijck en veel</l>
+						<l>Ick mynen vyand streel,</l>
+						<l>En kus hem duysent-werven,</l>
+						<l>'kNoem hem myns herten trouw,</l>
+						<l>Siels-siele van dees Vrouw,</l>
+						<l>En 'ksoeck niet dan sijn sterven.</l>
+						<l> </l>
+						<l>Mijn valsche minne quist,</l>
+						<l>Doch nimmer voor de list</l>
+						<l>Heeft wraeck-lust eens ghevonden</l>
+						<l>Dat's dat ick Simsons kracht</l>
+						<l>Bedwonghen en veracht</l>
+						<l>Voor ooghen sie ghebonden.</l>
+						<l> </l>
+						<l>O Philistijnsche staet!</l>
+						<l>Uw ziel-ghenoot die gaet</l>
+						<l>Uw vyandt we'er besmeken,</l>
+						<l>Syn riem werdt ne'er gheruckt</l>
+						<l>Ist eerst-mael niet gheluckt,</l>
+						<l>Wy latent so niet steken.</l>
+						<l> </l>
+						<l>Geen stadt bouwt m'op een dach,</l>
+						<l>Gheen eyck in d'eerste slach</l>
+						<l>Men neder en sach vellen,</l>
+						<l>Boert hy met myn versoeck</l>
+						<l>Ick ben hem veel te kloeck</l>
+						<l>Door 'tminneloose quellen.</l>
+						<stage>Simson uyt.</stage>
+						<l>Simson mijn waerde Heldt, mijn lief, mijn ziel, mijn vreucht,</l>
+						<l>Dit hadd' ick noyt ghedacht, dat ghy u liefste meught</l>
+						<l>Bespotten op haer beed, in boerdelijcke boerde,</l>
+						<l>Jck waende dat gh'uw hart steets op u tonghe voerde,</l>
+
+						<l>Jck waende dat u ziel was met myn ziel vereent,</l>
+						<l>Maer nu 'k sie 't is gewaent, bedrogen ist gemeent,</l>
+						<l>De harten onderlingh vertrouwend ond'r ons beyen,</l>
+						<l>Wan-trouwen, nochtans zyn d'lichamen niet verscheyen,</l>
+						<l>Jck houd u voor myn vriend, ghy houd my voor u lief,</l>
+						<l>En ghy bercht't g'heym uws cracht gelijck als voor een dief.</l>
+						<l>Jck smeeck u sinlijckheyt, liefd woont by my recht midden</l>
+						<l>Jn't middel-punt myns harts, daer s'offert staegh met bidden</l>
+						<l>Al heur almachticheyt, aen u vertroude trou,</l>
+						<l>Hoe wel 'k u trou en liefd voor enkel veynsingh hou.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Die veynst in min bemint is waert te zyn bedroghen.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Recht tegendeel bevind ick, laes voor myne ooghen.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Hoe soo?</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Del.</speaker>
+						<l>D'wijl ick u min, en ghy veynst my u min,</l>
+						<l>Al waer ick niet u lief, maer uwe vyandin,</l>
+						<l>Dewijl g'u Delila (onkundigh uws vermogen)</l>
+						<l>Door 't veynsen vind bespot.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Sim.</speaker>
+						<l>Waer door?</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>De.</speaker>
+						<l>Maer door u logen.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson.</speaker>
+						<l>V weet-zuchts quel die quelt myn ziele met gequel,</l>
+						<l>V weet-zucht is m'een last. Myn vreuchd is u een hel.</l>
+						<l>Ghy wilt, en ick wil niet, ghy wilt myn starckte weten,</l>
+						<l>En ick vrees dat g'u selfs, en myn liefd sult vergheten.</l>
+						<l>Wat 's dat u wil soo port te yvren om dees lust?</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Wist ick 't geen dat ghy weet, soo waer myn ziel gerust.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Zijt even wel gerust, steldt dit g'heel uyt u zinnen.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Zo kan ick noch en wil u nimmermeer beminnen.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Ha soete Vyandin! Beheerster vrou uws Heer!</l>
+						<l>Al-dwingster van myn kracht! Siet, Delila 'k begeer</l>
+						<l>Myn sterckte voor d'al-liefste schoone niet te heelen:</l>
+						<l>Wanneer my yemant band (niet met geen seven zeelen)</l>
+						<l>Maer d'onverstrickte kracht myns leden, lief, die ick</l>
+						<l>Op offer tot u dienst, die mosten door 't gestrick</l>
+						<l>Van stricken zijn gestrickt, stricken daer noyt bevonden</l>
+						<l>Van is, dat eenigh Vee of dier med was gebonden,</l>
+						<l>Noch daer geen dinck meed is bearbeyt of geschiet.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Dien vond is beuslery, myn Heer, dat g'loof ick niet.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Gelooft het hoe ghy wilt, ghy sult het so bevinden,</l>
+						<l>Ghy weet myn 's herten raet wildyt u onderwinden,</l>
+						<l>'t Besoecken of ghy kond berooven myne kracht.</l>
+						<l>Delila ick ben u, ghy bindt my door u macht,</l>
+						<l>Ghy bind my door u min, dies heb ick niet te vreesen,</l>
+						<l>'k En kan niet buyten bant van liefdens stricken wesen.</l>
+					</sp>
+
+				</div>
+				<div n="11" type="scene">
+					<head>Verschooninghe.</head>
+					<sp who="#amri">
+						<speaker>Knech.</speaker>
+						<l>Mijn Heer.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Sim.</speaker>
+						<l>Jst tijdt?</l>
+					</sp>
+					<sp who="#amri">
+						<speaker>Kne.</speaker>
+						<l>Ja Heer.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Sims.</speaker>
+						<l>So gaen wy nae de Jacht.</l>
+						<l>D'Honden?</l>
+					</sp>
+					<sp who="#amri">
+						<speaker>Kn.</speaker>
+						<l>Die zijn binnen.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Si.</speaker>
+						<l>Hoe veel isser?</l>
+					</sp>
+					<sp who="#amri">
+						<speaker>Kn.</speaker>
+						<l>Maer acht:</l>
+						<l>Al 'tJaghers tuygh is reed, 'tRos bruyst en meent t'ontsinnen,</l>
+						<l>'tWas garen inde Locht.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Sim.</speaker>
+						<l>Gaet heen 'kvolgh u na binnen.</l>
+						<l>Vaert wel myn schoonste Wilt, ick soecke wilt na 'tWilt:</l>
+						<l>Maer Sorex edel Vrouw den wilden Jagher stilt.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Nu gaet, rijt, jaecht, en draeft,</l>
+						<l>V sterckt die't al verbraeft,</l>
+						<l>En niet en is te binnen,</l>
+						<l>Die sal een teere Vrouw</l>
+						<l>Die veynst te zijn ghetrouw,</l>
+						<l>V rooven door uw minnen.</l>
+						<l>Nu langher niet vertoeft, uyt-stel verliest dick voordeel,</l>
+						<l>En dralen in een werck, is naer goedtdunckens oordeel</l>
+						<l>Een vruchteloose scha, verselt met spa berouw.</l>
+						<l>Hilla, Hilla, wel waer blijftse? hoordy niet?</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hil.</speaker>
+						<l>Vrouw,</l>
+						<l>'kWas binnen besig.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Del.</speaker>
+						<l>Ja met Leeutje wat te speulen.</l>
+						<l>Weety waer Heyndrick woont, gins noorder aende meulen</l>
+						<l>By naest Lammen ghelt-sack, achter de swarte vliet?</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Me-vrouw ick ken daer een die Heyntje stort-bier hiet,</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Ja die is't denck ick, gaet en seght hy my beschicken</l>
+						<l>Strack moet vers en nieu van d'alderbeste stricken,</l>
+						<l>Die hy weet daer gheen dinck, noch Vee, noch dier me is</l>
+						<l>Ghebonden noch ghestrickt, sijn moeyt, hy zijt ghewis</l>
+						<l>Sal ick te danck vergoen: gaet ick vertoef u keeren.</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Ha wisty waerden Helt! ontsichlijck Vorst en Heere,</l>
+						<l>Hoe dat me-Vrouw u haet, hoewel s'u vriend'lijck vleyt,</l>
+						<l>Wisty hoe dat s'u ziel verstrickte laghen leydt,</l>
+						<l>Ghy soudt u voor 't bedroch, arch-wanende wel wachten.</l>
+						<l>Gheveynst is haer ghekus, gheveynst zijn al haer klachten,</l>
+						<l>Haer tranen zijn gheveynst, gheveynst is al haer schijn,</l>
+						<l>Hoe iaechtse naer u val, en yvert na u pijn.</l>
+						<l>Arch-dubbel is haer hert, ghepropt vol boerteryen,</l>
+						<l>Sy lieft u met den mondt, maer haer liefkoseryen,</l>
+						<l>Ducht ick suldy te laet bevinden helsch bedrogh.</l>
+						<l>Hier komt ons Heyntjen aen.</l>
+
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer Heyntie Stort-bier.</speaker>
+						<l>Wel wat nou doch?</l>
+						<l>Wasser noch een Roch in zee die sou m'aen boort komen.</l>
+						<l>Ja hey, 'k acht gien Juffers. liever ein Boerin ghenomen?</l>
+						<l>Die het moye dicke kluyten, hard vleys, hanghden en voeten.</l>
+						<l>Deuse Juffer pimpelmeesies, die sou m'altydt dienen moeten.</l>
+						<l>Neen, se diene me niet, 'k prijs soo een boerinnetje mit heur klier,</l>
+						<l>Die wil lustigh uyt een rul hart met de vryers te bier.</l>
+						<l>En se zijn so onbeschreumt al worter mee wat esnoept,</l>
+						<l>Datmer 's arendaeghs luyd, en leelyck, maer bruyloft om roept.</l>
+						<l>Nou deze steedtse Jufferties die vryen mee wel sterck,</l>
+						<l>Maer die gaender soo invinsijbel mee te werck.</l>
+						<l>Jck weter wel soo veul, dan ick wil niet luyt roopen,</l>
+						<l>'k Souse, sie daer, wel met een natte vingher beloopen.</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Onheusaert wel hoe dus? hier is een die u kent.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>Ja, ick denck dat je beter as je vrou bent.</l>
+						<l>Die al was s'een hoer, soo gaetser voor ein Juffrouw roemen.</l>
+						<l>Maer bygut je meucht een degelijcke Juffer gien hoer noemen.</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Wat seghdy.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>Niet Hilletje, dan datje moy en schoon bint.</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>En dat ghy Heyntje 't schempen wel ghewoon sint.</l>
+						<l>'kHeb een bootschap aen u.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Bo.</speaker>
+						<l>Segh an.</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hil.</speaker>
+						<l>'tVolck mach 'tniet hooren.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>So komt dan binnen Hill, en bytet safjes in myn ooren.</l>
+					</sp>
+				</div>
+			</div>
+			<div n="2" type="act">
+				<div n="1" type="scene">
+					<head>II. Handelinghe. I. Uytkomste.</head>
+					<sp who="#delila">
+						<speaker>Delila.</speaker>
+						<l>HOe dat ick 'tmaek, of hoe ick woel,</l>
+						<l>Myn dunckt ick in myn borst ghevoel</l>
+						<l>Een knagingh, en misnoeghen,</l>
+						<l>Door dien my lust nae deze wraeck,</l>
+						<l>En d'wyl ick naer de gout-dorst haeck,</l>
+						<l>Comt my 'tghewisse wroeghen.</l>
+						<l>Sal ick gheveynsd'lijck dan verraen,</l>
+						<l>Die nimmer sweert van my te gaen?</l>
+						<l>Hoe zal ick 't lijden konnen!</l>
+						<l>Te sien een die my lieft, en mint,</l>
+						<l>Dat m'hem soo wreed'lijck strickt en bint,</l>
+						<l>De sterckst' onder de zonne?</l>
+
+						<l>Wat Delila? wat re'en zijn dit?</l>
+						<l>Dijn oogh-merck, en u rechte wit,</l>
+						<l>Dat zijn de ronde goden:</l>
+						<l>Om 't silver, gelt, of gele Gout</l>
+						<l>'k Acht dat gh'u vriend verraden sout,</l>
+						<l>'k Laet staen d'Hebreeusche Iode.</l>
+						<l>Ha lust! of liever neyging, die</l>
+						<l>'k Als voor myn oogen doemlijck sie,</l>
+						<l>Wat kondy al bedrijven?</l>
+						<l>Om u verlaetmen 't beste goet,</l>
+						<l>Om u verteertmen vleys, en bloet,</l>
+						<l>Door quel-sucht na roo schyven.</l>
+						<l>Om gelt en achtmen goet noch eer,</l>
+						<l>Die gelt heeft is te hans een Heer,</l>
+						<l>Hoe wel 't veel streckt ten quaden,</l>
+						<l>Het goet, nae datmen met hem leeft,</l>
+						<l>Dient, ofte heerschet die het heeft,</l>
+						<l>En 't kan de Ziele schaden.</l>
+						<l>Nochtans hoe wel k'in gout-dorst sucht,</l>
+						<l>Een goede naem, en goet gerucht</l>
+						<l>Is meer dan gulde schatten.</l>
+						<l>Een goede gunst gaet boven gout.</l>
+						<l>Een goet gerucht m'eeuwigh behout,</l>
+						<l>Maer elck kan't niet bevatten.</l>
+						<l>De wraeck-lust knaecht en mordt mijn hart,</l>
+						<l>En nimmermeer, ducht ick, en wert</l>
+						<l>Myn haet al 't onversoenlijck</l>
+						<l>Gepaeyt, of ick sal d'roem van't lant</l>
+						<l>Verwonnen sien door dese hant,</l>
+						<l>Zyn sterckt is my ondoenlijck.</l>
+						<l>De stricken daer'k zijn le'en me strick,</l>
+						<l>Die zijn voor handen, maer als ick</l>
+						<l>Denck, waer magh Stort-bier blyven?</l>
+
+						<l>Siet ginder comt den groven Boer.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>En ginse staet die loose hoer,</l>
+						<l>'k Vrees se sel my bekyven.</l>
+						<l>Iuffer goen dagh, dat ic so langh wacht dats de schult van je meyt,</l>
+						<l>Die hadme van Tou, en van gien stricken eseyt,</l>
+						<l>Maer myn Goosen, 't leeck, wister beter bescheyt van.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Hill weet heur weetje wel.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Hey.</speaker>
+						<l>Ja je hebter ein wisse meyt // an</l>
+						<l>Se weet wongder averechts haer bootschap te doen.</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Wat schort jou logenaer?</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Hey.</speaker>
+						<l>Niet, dan geeftmen een soen.</l>
+						<l>Juffer 't is sulcken mallen meyt, se wou aynckel met me te bed.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>De stricken.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>He.</speaker>
+						<l>Die schoppen ien oogh noch selver edrayt hed,</l>
+						<l>Dat zynse, noyt isser iets levend me ebongen,</l>
+						<l>Vande weergae heb ick ien swiep emaeckt voor onse jonge,</l>
+						<l>Se zyn zo sterk me souwer ien dief.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>De.</speaker>
+						<l>'k Weet by opknoopen.</l>
+						<l>Komt binnen.</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hi.</speaker>
+						<l>Ja geeft hem gelt, en laet de plompert loopen.</l>
+					</sp>
+					<stage>Pause.</stage>
+					<stage>De Philistynen aen d'een zyde, Simson gebonden met stricken slapende.
+						Delila, Boer</stage>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Vorsten siet hier u wraeck gestrickt nu schoon voor handen.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Slaept hy?</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>Heerschip, jy selter u ving'ren an brangden.</l>
+						<l>Tast hem byld niet an, 't is ien veugel met ien beck.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Jaeght dien Stultus van hier.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sob.</speaker>
+						<l>Wel ist al vande geck?</l>
+						<l>So stout niet datje een woort meer spreeckt.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phi.</speaker>
+						<l>Durfje kicken?</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>Jaeck. waerom niet? hy is ebonge met myn eyge stricken.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Niet een woort, 't sy ghy met onse vrye-wil spreeckt.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>Al weer verraed? soo g'hier ie leet so stil wreeckt.</l>
+						<l>Moet ick niet? so wil ick dan niet. sta schrap ele borsten.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Delila.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Th.</speaker>
+						<l>Weckt hem, weckt hem.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>De.</speaker>
+						<l>Op, sy lief, de Vorsten</l>
+						<l>De Philistynen over u.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Sim.</speaker>
+						<l>Ha Delila! 'k en kan,</l>
+						<l>Ontrouwe valsche proy. verrady eenen Man</l>
+						<l>Die, laes, u meerder lieft, als selfs zyn eygen leven?</l>
+						<l>Waer zyn de Philistyns? wel waer zynse gebleven?</l>
+						<l>Sy ruymen voor my wegh, en stuyven voor myn hant:</l>
+						<l>G'lyck voor den wand'laer doet het Arabische sant.</l>
+						<l>G'lyck een geveerden pyl vlieght van een schitse boghe.</l>
+						<l>So swind het snoode rodt voor gluyren van mijn oogen.</l>
+						<l>Sy komen in't geweyr met bogen, pijl, en swaert.</l>
+						<l>En Simson trotst hun cracht, 't is hem de moeyt niet waert,</l>
+						<l>Dat hy 't vuyl Kakebeen van d'Eselinne b'hoeft // sict</l>
+						<l>Om dit godloos' gedrocht te vellen, Ha vrou toeft niet.</l>
+
+						<l>Soeckt list op list weer an, verlentert noch verklapt,</l>
+						<l>Houdt achter-raet en veynst eer ghy u lief betrapt.</l>
+						<l>Verguist geen nutte tijt, verspilt geen uyr of stonden,</l>
+						<l>So langh ghy niet en hebt u keurige lust gevonden.</l>
+						<l>Hoe ghy myns harten weet meer soecket snoo, en arch,</l>
+						<l>Hoe dieper ick't voor u geveynsdelijck verbergh.</l>
+						<l>Waer self myn kleet bewust 't zekreet 't geen 't harte koffert,</l>
+						<l>'t Sou door het gulle vuyr Vulcano zyn geoffert.</l>
+						<l>Had ick myn lieve helft 't Himniters eerste vrucht</l>
+						<l>Myn Raetsel niet geseyt, laes, noyt en had 't gesucht</l>
+						<l>Door 't woede dulle vuyr myn echts-gebeentens sparken,</l>
+						<l>Door d'handeloose wint vervoert aen 's werelts perken,</l>
+						<l>Noyt had m'een Bruydegom in d'hoogste eer verrast.</l>
+						<l>Noyt had ick dertigh doon in't velt by een getast.</l>
+						<l>Noyt had de Philistijn de wraeck-lust my te dooden.</l>
+						<l>Noyt gaf ick hun de re'en te sweren by de goden,</l>
+						<l>Dat hun gesworen haet niet rusten sal, ten sy</l>
+						<l>Jck hun gevangen ben: Verraders! loopt, soeckt vry</l>
+						<l>Een ander Delila om Simson te betrapen,</l>
+						<l>Oft rust 't gehelmde hooft, en laet u vyand slapen.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>Sint Velten! hoe liep ick daer, 'k had gien kar an myn neirs.</l>
+						<l>Js hy oock al ewegh? wie seyt ia? mient hy't al weirs?</l>
+						<l>Hoe liepen onse Hop-luy? s'hadden gien Flerezyn in haer voeten.</l>
+						<l>Al weer ein out wijf in't water. Heyntje sel moeten</l>
+						<l>Sen neus inhalen, of hy krijght ein schop in zyn gat.</l>
+						<stage>De Vorsten uyt.</stage>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>Wat helpt al onsen roem, als dat wy preuts en prat</l>
+						<l>Met onsen stalen boogh den Edomit verschricken,</l>
+						<l>En kerven met ons swaert den Pheresit aen sticken?</l>
+						<l>Wat helpt dat wy de Joon in slaverny en dwangh</l>
+						<l>'t Jock passen om den hals, hun treurigh leven langh?</l>
+						<l>Wat ist dat onder ons elck is een Giges hooghe</l>
+						<l>Wat ist dat d'Amonyt moet schreumen voor ons ooghe?</l>
+						<l>Wat ist of den Sirier ons dapperhe'en getuyght,</l>
+						<l>En dat den Arabier zyn krygel hooft ons buyght?</l>
+						<l>Als wy, sy schand! te swack zyn om een man te binden,</l>
+						<l>Wiens vindeloose kracht, noch list van zyn beminde,</l>
+						<l>Noch starckt verrassen kan 't geheym, waer in gewis</l>
+						<l>Zijn Goddelijck gewelt voor ons verborghen is:</l>
+						<l>Geen wapen sy genoech, noch volck om hem t'ontlyven,</l>
+						<l>Wy loopen voor hem wegh als kinders, en blo wyven.</l>
+						<l>Gelijck d'omsiende Haes voor 't koppel honden vliet,</l>
+						<l>So ist dat yder een hem siende d'rugghe biet.</l>
+
+						<l>Wat sotter frenesy mach d'hersenen bedwelmen</l>
+						<l>Van al de Philistijns! dat schilt, lans, boogh, noch helmen,</l>
+						<l>Noch tmali-duyst-pancier, 't scherp swaert, of staele kreeft,</l>
+						<l>Ons noch ontschrickt, noch maeckt datmen in't harnas beeft?</l>
+						<l>Jck ken 't de vrees die is een passi des ghemoede,</l>
+						<l>Maer past die Philistijns van onvertzaeghden bloede,</l>
+						<l>Wiens ghewapende hant, wiens hart ghestaelde arm,</l>
+						<l>Jnt hittighst vanden strijdt, in 't dulste van allarm</l>
+						<l>Men noyt verluyert sagh, noch dapp're stoute herten</l>
+						<l>Ontbreken om voor d'Hel een Cerberus te tarten.</l>
+						<l>'t Ontsichelijck ghesicht, den ouden Charon doet</l>
+						<l>Dick tuym'len over boort in d'Helsche swarte vloet,</l>
+						<l>'k Laet staen als dat sy maer een slechte Jood begapen,</l>
+						<l>Of vaeck zietmense staen en sidd'ren in hun wapen.</l>
+						<l>Wat bloodaerds zyn wy nu! help Dagon onsen Godt,</l>
+						<l>Wy werden van een man ghedwonghen en bespot.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Jck ben gants t'eynden raet.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sob.</speaker>
+						<l>Sijn list stont ons te vresen.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico.</speaker>
+						<l>Hy moet nochtans, hy moet, door ons bedroghen wesen.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Daer 'n is noch raet, noch hulp.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Ph.</speaker>
+						<l>So weet ick ons te raen.</l>
+						<l>'k Heb onlancx by gheval, van een slavin verstaen,</l>
+						<l>Te weten, een Jodin, als dat hem was verboden</l>
+						<l>Te nutten Bacchi dranck, door wil van zijnen Gode.</l>
+						<l>Oft nu dewijl den wijn de sterckste wel ontmant,</l>
+						<l>Om dats' hem is verboon, my speelt yet in 't verstandt.</l>
+						<l>Daer moet een reden zijn, hoewel s'is my onvind'lijck.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>Daer 's reden, of geen re'en, hy is voor ons onbind'lijck.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Vergheefs te langh ghehoopt.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Reh.</speaker>
+						<l>Tot tweemael toe bedrogen.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>Tot tweemael toe bespot, ghedroelt door zijne loghen.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico</speaker>
+						<l>Datmen Delila roept, en vraecht heur ernstich af,</l>
+						<l>Of s'hem noyt druyven bloet, of stercken dranck en gaf,</l>
+						<l>En heeft s'hem wijn gheboon, of hy hem heeft gedroncken.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>Dat wort te wel gelooft, de lichte gayle voncken</l>
+						<l>Die minnens vlam ontstack, die moeten door de wijn</l>
+						<l>Als by de graen-goddin doch steets gekoestert zijn.</l>
+						<l>Phicol en weet ghy niet wanneer die beyde swermen,</l>
+						<l>Dat moet, de minne moet by't vier heur sitten wermen.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Wat kan het schaen mijn Heer, ten gelt noch meer, noch min</l>
+						<l>Te reed'nen eens met haer.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Komt tre'en wy tot haer in,</l>
+						<l>Jck weet hy is ter Jacht.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rhe.</speaker>
+						<l>Anders waert ongheraden.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico.</speaker>
+						<l>'tVersoecken staet ons vry.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahu</speaker>
+						<l>'tGheen vry staet kan niet schaden.</l>
+
+					</sp>
+					<sp who="#rey-der-phylistynsche">
+						<speaker>Rey der Philistynsche.</speaker>
+						<l>WAnneer sullen eens de Goden</l>
+						<l>Hun vergrammen op d'Hebreen?</l>
+						<l>Wanneer sullen eens de Ioden</l>
+						<l>Hun sien voor den Philisteen</l>
+						<l>Verootmoedicht, en ghedwonghen,</l>
+						<l>Dats' hun Rechter sien ghestrickt:</l>
+						<l>Dat s' hun Hertogh voor een Ionghen,</l>
+						<l>Sien dat hy zyn dienst beschickt?</l>
+						<l>Sihors beeck swelt inde vloeden,</l>
+						<l>Siende onse macht gheterght,</l>
+						<l>Al ons Vorsten eel van bloede,</l>
+						<l>Werden meer en meer gheerght.</l>
+						<l>Sorex vrou al de Gaditsche,</l>
+						<l>Noch Deleuteropolit,</l>
+						<l>D'Ecronitsche, noch Gazitsche,</l>
+						<l>Die vermoghen, laes, meer niet!</l>
+						<l>Hertens heete tochten woedich,</l>
+						<l>Rusten nimmer, nacht, of dagh,</l>
+						<l>Begeert dryft de wraeck-lust bloedich,</l>
+						<l>Oftmen eenmael Simson sagh,</l>
+						<l>Door een wil die 't al te boven</l>
+						<l>Gaet, wat hier de mensch bewilt,</l>
+						<l>Dees Hebree veracht, verschoven,</l>
+						<l>Die men noyt en sach ghestilt.</l>
+						<l>Daniters, wilt u helt verheffen,</l>
+						<l>Roemt vry op een stercke Vorst,</l>
+						<l>Maer als u't ong'luck komt treffen,</l>
+						<l>Nimmer dan na wrake dorst,</l>
+						<l>G'hebt u God vergramt 't is blycklijck,</l>
+						<l>Die gaf u in't dienstbaer jock,</l>
+
+						<l>Dat een Simson nu g'lijck'lijck,</l>
+						<l>U verlost, g'lyck Mose trock</l>
+						<l>Met zijn Broeder, Amrans Sone,</l>
+						<l>Wt d'Egyptens slaefsche last</l>
+						<l>d'Isralyten: om te woonen</l>
+						<l>Hier in Palestyna vast,</l>
+						<l>Dan mooghdy hem 't hooft omdrucken,</l>
+						<l>U ghewaende Iudas kroon,</l>
+						<l>Wil dit luck u soo ghelucken</l>
+						<l>Soo staen al u saken schoon.</l>
+						<l>Wil der Goden moet gheschieden,</l>
+						<l>Hoewel 't ons is onbekent,</l>
+						<l>Yder soeckt wel nae 't ghebieden,</l>
+						<l>Maer 't onheyls last op het endt</l>
+						<l>Maect de heersch-sucht droef, en druckig,</l>
+						<l>'t Blyckt aen 't gheen ghebeuren sal,</l>
+						<l>'t Vorsten leven scheen gheluckich,</l>
+						<l>Maer g'luckx weeld gaet voor den val.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>II. Handelinghe. 2. Uytcomste.</head>
+					<stage>Simson, Hilla, Delila.</stage>
+					<sp who="#simson">
+						<speaker>Simson.</speaker>
+						<l>T' Woort, 't ongheschapen woort, Gods Engel die voorheen,</l>
+						<l>Mijn oud'ren op het velt verwonderlijck verscheen:</l>
+						<l>Dit woort, dit Heyligh woort, deed Sargars Borg'ren schricken,</l>
+						<l>En 't legher tusschen Dan, en Esthaol verquicken</l>
+						<l>Zareas Jootsche Rey, al suchtend' onder 't juck</l>
+						<l>Van dienstbaerheyt, die boo'n Monoach 't bly gheluck,</l>
+						<l>Mijn Vaders gantsche huys quam met zyn outste broeder</l>
+						<l>Verheught om myn gheboort, en zegende mijn Moeder,</l>
+						<l>Die, laes, als met der doodt had vromelijck ghestre'en,</l>
+						<l>Wiens droeve-blyde mont, verhaelde dese re'en:</l>
+						<l>Mijn kint, myn lieve kint! O Soon, mijn eerst ghebooren!</l>
+						<l>En iongst geteelde vrucht, Gode zydy vercooren:</l>
+
+						<l>“Een rechte Nazareen. verlooft u God en Heer</l>
+						<l>Tot in u droeve doot, siet! nu noch nimmermeer</l>
+						<l>Sal't Scheermes, noch de scheer u g'heylicht hooft bescheeren,</l>
+						<l>Noch suldy gheenen Wijn noch stercken dranck begheeren.</l>
+						<l>Wacht u voor vreemde spijs, en al't geen onreyn is,</l>
+						<l>En eetet: of ten kom voor u, op uwen dis.</l>
+						<l>Ghy sult, ghy sult mijn Soon de Philistijnen drucken,</l>
+						<l>En scheuren 't dienstbaer jock der Joden noch in stucken.”</l>
+						<l>Dit voor-seghs strengh verbodt, oft dese Prophecy,</l>
+						<l>Sou dit de goede God vervullen noch door my?</l>
+						<l>Neen Simson, wat ten kan, hoe? 't kan. Neen, 't kan niet wesen.</l>
+						<l>Soud ick de Philistijns, d'onsichelijcke, dese</l>
+						<l>Manhafte strijtbaer lie'n, de grootste diemen vant,</l>
+						<l>Alleenlijck door de kracht van mijne rechter handt,</l>
+						<l>Ontrucken zo veel duyst, van Israëlis kind'ren?</l>
+						<l>Sou my den stercken dranck, of wijn oock connen hind'ren?</l>
+						<l>De wijn vermaeckt den geest, hy vrolijckt God, en mensch,</l>
+						<l>Waerom en soud ick niet genieten 's herten wensch?</l>
+						<l>Wat, sou d'onreyne spijs m'ontheylighen of schaden?</l>
+						<l>Verloofder Godes, hoe? al 'tgeen dat u ten quaden</l>
+						<l>Ghedijen mocht, dat is u erenst'lijck verboo'n</l>
+						<l>Door 't Goddelijck bevel eens Moeders, tot haer Soon,</l>
+						<l>Jn 't menschelijck verkies volcht redelijck beramen.</l>
+						<l>Jn 't Goddelijcke volcht ziel-neygelijck g'hoorsamen.</l>
+						<l>God wil niet datmen dit, of dat, voor reden vraecht.</l>
+						<l>Hy wil ghehoorsaemheyt, dat 's 't geen dat hem behaecht:</l>
+						<l>Ons aertsche sinlijckhe'en door d'aengeboren sonden</l>
+						<l>Die willen nimmer wel ghewillich zijn ghebonden</l>
+						<l>Door keur-sieck, eygen-lust, onder 't bevolen woort,</l>
+						<l>'t Vernuft is vaeck ghe-erght, den mensch wil traegh'lijck voort.</l>
+						<l>'t Blijckt aende Sout-pilaer, ja selfs Loth d'ouden Vader,</l>
+						<l>Die suckelt noch te langh, en was een Ioom berader,</l>
+						<l>Eer hy na Gods bevel het gruw'lijck Sodom liet,</l>
+						<l>Het teghendeel hier van men in Abraham siet,</l>
+						<l>Die willigh Godes mont en wilde teghen streven,</l>
+						<l>Maer die zyn eyghen kint, de vreuchde van zijn leven,</l>
+						<l>Sijn uytgedruckte beeld, zijn herts beminden Soon</l>
+						<l>Gingh off'ren door het vier, en met zijn handen doon:</l>
+						<l>Niet door 't onrijpe woordt een Iephthas sot gesproken,</l>
+						<l>En dwaselijck volbracht, maer om des Altaers roken,</l>
+						<l>Door 't lieffelijck gesmoock van dit geslachte lam,</l>
+						<l>Doen klimmen voor de geen daer Abels offer quam.</l>
+						<l>Chaldeer, siet hoe is dijn glory naem gheclommen,</l>
+						<l>Hoe mach den Jsralijt op sulcken Vader brommen,</l>
+
+						<l>Dien Hertogh des gheloofs, wiens onvertsaeghde borst</l>
+						<l>Verschuylde grooter hart, als hy was grooter Vorst.</l>
+						<l>O onvertsaeghde Helt! door 't Goddelijck orakel,</l>
+						<l>Van 's Moeders lijf verlooft, wiens sterckt als een mirakel</l>
+						<l>De Werelt overgalmt, en Palestijn verbaest,</l>
+						<l>Wat 's u dat ghy versot so na de minne raest?</l>
+						<l>De minne van een Vrou? een Vrou, die g'hebt verkooren,</l>
+						<l>Die nochtans soo 't wel schijnt</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Heer ist u wil te hooren?</l>
+						<l>En so wille lust 't gheen dat de wuns behaecht,</l>
+						<l>By 't gheen Me-vrou u bidt, soo antwoort.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Sim.</speaker>
+						<l>Wat?</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hil.</speaker>
+						<l>Sy vraecht,</l>
+						<l>Oft u myn Heer, belieft, om harent wil te komen,</l>
+						<l>Op 't kleyn bereyde mael, 't gheen dat s' heeft voorghenomen</l>
+						<l>Te nutten met myn Heer.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Sim.</speaker>
+						<l>Jck kom, gaet heen, hier in,</l>
+						<l>Dat leyt my inde le'en, dat speelt my inde sin.</l>
+						<l>Daer is yets wonders, of yets vreemts weer in verborghen,</l>
+						<l>Nu wel, 'k gae tot haer in, en laet de quellust sorghen.</l>
+						<stage>Delila, Simson, Hilla.</stage>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Sijt welcom waerde Heer,</l>
+						<l>Set u hier by my neer,</l>
+						<l>En wilt u wat vermaken,</l>
+						<l>'t Gerecht 't geen ick hier stel,</l>
+						<l>Dat sal, hoop ick, u wel,</l>
+						<l>Om mynent wille smaken.</l>
+						<l>'k Geniet al myne lust.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simso.</speaker>
+						<l>Als dese mont u kust!</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>En als 'k uw naem hoor noemen</l>
+						<l>So bralt myn trouwe min.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simso.</speaker>
+						<l>Als ick mijne Godin,</l>
+						<l>Mach van haer lief doen roemen,</l>
+						<l>Dan smelt myn ziel terstont,</l>
+						<l>En komt door uwen mondt</l>
+						<l>Eenzieligh met u paren.</l>
+
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Mijn licht is duysternis,</l>
+						<l>Als ick de Sonne mis,</l>
+						<l>De Sonne van myn Iaren,</l>
+						<l>In u verweent ghesicht.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Bercht liefde zynen schicht.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>En speelt zyn dart'le kuertjes,</l>
+						<l>En loddert lodder-zoet,</l>
+						<l>Naer spyse daer 't meel voet,</l>
+						<l>Door d'alderzoetste gluertjes.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Soo voet de liefd maer een,</l>
+						<l>En in geen dinck verscheen.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Dan in een noch te heelen.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>En alst u waer bekent.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Dan haddy 't hart ghewent,</l>
+						<l>'t Geen 'k anders u moet stelen.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>'t Is u, en 't sal u zyn.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Soo drinckt dan dese wyn</l>
+						<l>Die 'k uw heb ingheschonken.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Geen wyn my niet en lust,</l>
+						<l>Ay, houd u lief gherust,</l>
+						<l>'k En wasser noyt van droncken.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Dies wondert my te seer.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Vraeght my daer af niet meer.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Hoe? 'n ist geen dranck der Ioden?</l>
+						<l>Ha lief! uytmuntend beeld!</l>
+						<l>De glory van mijn weeld</l>
+						<l>Is u dan wijn verboden.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Geen wyn, noch stercken dranck,</l>
+						<l>Mach ick myn leven lanck</l>
+						<l>Drincken, na myne wijse,</l>
+						<l>Noch eten, zyt ghewis,</l>
+						<l>Aen eenen vreemden dis,</l>
+						<l>Onreyn verboden spyse.</l>
+
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Neemt dat u hert begeert,</l>
+						<l>Maer ben ick u yets weert,</l>
+						<l>Soo wilt sonder vertoeven,</l>
+						<l>Dit edel druyven bloet,</l>
+						<l>Zeer lieffelyck en soet,</l>
+						<l>Ten minsten met my proeven.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>V beed en is maer wint.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>'k Segh dat ghy my niet mint,</l>
+						<l>'t Is tweemael wel ghebleken,</l>
+						<l>V min is veynsery.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Lief zeght dat niet van my.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>'k Mach wel de waerheyt spreken.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Helaes wat zyn de mans!</l>
+						<l>Verwonnen ben ick gants</l>
+						<l>Door u vriend'lycke bede,</l>
+						<l>Komt, geeft my Bacchi dranck,</l>
+						<l>'k Dronck in myn leven lanck,</l>
+						<l>Noch geenen wyn als heden.</l>
+						<stage>De instrumenten spelen. Hilla dient.</stage>
+						<stage>Simson veynsende beschoncken te zijn, valt in slaep.</stage>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Nu slaept schyn-lieve beeldt, mijn Enghel van mijn zeghe,</l>
+						<l>Jck acht den soeten most die heeft u ziel vermaeckt.</l>
+						<l>Gunt nu u Delila 'tgeen daer de lust nae haeckt.</l>
+						<l>Danck Hemel, 'k heb myn wuns volmaecktelijck verkreghe.</l>
+						<l>Ha droomt een langhen droom, ontluyckt geen blijde tenten.</l>
+						<l>Voor dat gh'u Treur-spel siet verresen voor 't ghesicht.</l>
+						<l>Slaept, slaept beroemde Man, daer g'in u sonde licht,</l>
+						<l>'k Heb langh ghenoech gheweest de lieve lust uws lenten.</l>
+						<l>Hilla, went uwen gangh in haest nu na de Vorsten,</l>
+						<l>Seght datse seker, zijn hun vyand wordt verrast,</l>
+						<l>Hy werd nu sonder schreum vryhartigh aenghetast,</l>
+						<l>'t Geen dat hun dapp're hand' voor henen noyt en dorsten,</l>
+
+						<l>Segt hun ick moet voor eerst, slechts met een vlecht-snoer vlechten</l>
+						<l>(Dat heeft hy my gheseyt) zyn seven locken hayr,</l>
+						<l>Sy comen op en zien 't, ick sal en moet daer naer</l>
+						<l>Een naghel met de vlecht, vast naghelen en hechten.</l>
+						<l>Gaet heen, spreeckt Thoj aen, seght datse niet vertoeven,</l>
+						<l>Hun wraeck leyt voor de deur, en sluymert, slaept, en rust,</l>
+						<l>Sy komen derdemael en sien hun s'herten lust,</l>
+						<l>En doen verblydt de Jood vermannen en bedroeven.</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Joffrouw ick gae, en sal mijn bootschap wel beschicken.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Onheyligen Hebree, den tijdt valt my te langh.</l>
+						<l>Dat ick u niet en sie in slaverny en dwangh,</l>
+						<l>Een uyr dunckt my een dach, een wenck duyst oogenblicken.</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>II. Handelinghe. 3. Uytkomste</head>
+					<stage>De Vorsten, Hilla, Delila, Simson, Boer.</stage>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>HIlla is het also ghelijck ghy hebt gheseyt?</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Mijn Heeren gaet wat aen, 'kweet dats' u komst verbeyt.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>'t Js al verlooren gangh, 't is al verlooren loopen.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Gaen wy de derdemael.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Re.</speaker>
+						<l>Met twijffelachtich hopen.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico</speaker>
+						<l>'t Js al verlooren moeyt, de saeck en gaet niet vast.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>Nochtans soo draecht het eyndt ghemeynelijck de last.</l>
+						<stage>Simson wederom verthoont in slaep, ghenaghelt met de seven locken
+							hayrs, met een Vlecht-snoer aende muyr.</stage>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Mijn Heeren siet hy is nu van zijn kracht berooft.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>Ha Dagon! wast maer soo!</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>'t Js reden ghy 't ghelooft.</l>
+						<l>Hy heeft my al 't geheym zijns harten nu ontslooten.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Jck yver nae de wraeck.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phi.</speaker>
+						<l>O dwinger van de grooten!</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>Rehob hy roert zyn been, daer mee is hy ontwaeckt.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Hy went.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahu.</speaker>
+						<l>Nu d'arm. </l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Reho.</speaker>
+						<l>Nu 't hooft.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Deli.</speaker>
+						<l>Hy is te seer vervaeckt.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico.</speaker>
+						<l>Weckt hem, ick wil de eerst hem grijpen, ende binden.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>O Simson, siet de wraeck die sal u heeden vinden.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Helaes, mijn Heer, ontwaeckt, ontwaeckt mijn liefste lief.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Wie steelt myn soete rust, ghelijck een diefse dief?</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Die nae u ziele staen die soecken u te vanghen.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Wacht dat ick 't hooft verroer, wel, wel, wel hoe t'verlanghen</l>
+						<l>Na mijne vanckenis, onsaligh Godloos rot,</l>
+						<l>Wraeck-gierghe Philistijns, wert derdemael bespot,</l>
+
+						<l>Jck sweert ick volgh u na, 'kverleer u my te quellen,</l>
+						<l>Loopt vry naer Charons schuyt, ick help u haest ter hellen.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>Wat gheraes is hier weer, wel, wel, waer is 'tramoer?</l>
+						<l>Of hoe na sou Deliaetje deuse arghe loose hoer,</l>
+						<l>Weer al de Hopluy, om een daghscheer enoot hebben,</l>
+						<l>Jgut de je 't myn stucke-vleys, hoe mat ick jy rebben,</l>
+						<l>Daer komtse, hoe sietse ghelijck een bepiste paep.</l>
+						<l>Juffer lustje niet te lachen? hier hebje een boer voor een aep.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila.</speaker>
+						<l>Is dan al mijn moeyt verlooren,</l>
+						<l>Is dan al mijn list ghedroelt?</l>
+						<l>So swelt 'therte my van tooren</l>
+						<l>Door de smaetheydt die 'tghevoelt:</l>
+						<l>Smaetheyt die de siel komt terghen,</l>
+						<l>En mijn hoop'loos twijff'len voet,</l>
+						<l>Nimmer sal ick hem so verghen</l>
+						<l>Dat hy my 'tgheheym ontdoet.</l>
+						<l>d'Isralijtsche Vrouwen spotten,</l>
+						<l>Lachen, boerten, voor en na,</l>
+						<l>Siet de Phylistijnsche sotten</l>
+						<l>Sijn bedroeft met Delila,</l>
+						<l>Siet hoe dat s'hun moet verliesen,</l>
+						<l>Al hun hoop is uytgheblust,</l>
+						<l>d'Hoofden hanghen gh'lijck de biesen</l>
+						<l>Die list door list soeckt vint de list.</l>
+						<l>Ha bedroefde Gazareensche!</l>
+						<l>Hoe is al dijn moet ghesmalt</l>
+						<l>Rampsalige Philisteensche,</l>
+						<l>Wiens gheluck op 'thooghste valt.</l>
+						<l>Wijt ick dan myn ramp de sonden</l>
+						<l>Die my 'tluck onwaerdich rooft?</l>
+						<l>Of wert hy die waert ghebonden</l>
+						<l>Is, van my te licht ghelooft?</l>
+
+						<stage>Delila, Simson.</stage>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Daer komt hy voor wiens licht den Philistijn verschuylt,</l>
+						<l>Daer komt de veynsert die so met de minne tuylt,</l>
+						<l>Daer is d' Hebresche Jood uyt d'alderslechtste stam // die</l>
+						<l>Mijn ziel bedroeft en haet, jae is op my noch gram.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Si.</speaker>
+						<l>Wie</l>
+						<l>Jst mijn waerde Vrouw, die 'tlieve beeldt mishaeght.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Ha Simson! schalcke man, de ghene die 'tmy vraeght:</l>
+						<l>Jck ben, helaes, helaes, te snoo voor uwe ooghen,</l>
+						<l>Dat ick uw minn' gheniet, gh' hebt driemael my bedroghen,</l>
+						<l>Gh' hebt drymael u gheveynst dat ghy my hadd' ontdeckt</l>
+						<l>Vw sterckte maer ick sie dat ghy maer met my geckt.</l>
+						<l>Jck die mijn eyghen eer en leven met u spilde,</l>
+						<l>En noch mijn daghen slijt, ha Dagon! dat ghy wilde</l>
+						<l>Dat uwe Dienares gheacht wierdt voor een slet</l>
+						<l>Van een die Goddeloos u heylicheydt en wet</l>
+						<l>So schemperich beschempt, als ghy my haetsigh hate,</l>
+						<l>Van d'eerste uur dat hy my tot sijn min beprate,</l>
+						<l>Dat nimmermeer de Son sijn lichte tourts vertoon,</l>
+						<l>Dien dach, die 'knu verwensch dat een Danitsche Soon</l>
+						<l>Die sich een Nazir roemt, waer me hy my verdoofde,</l>
+						<l>Door schijn van min, die laes een slechte Vrouw gheloofde:</l>
+						<l>Dat dien dach voor my zy beweenens waert, dat ick</l>
+						<l>My nimmer en verheugh, noch vreuchdelijck verquick.</l>
+						<l>Wanneer de lieve lent, voorloopster vande Somer,</l>
+						<l>Navolgster vande winter-grijs-besneeuwde-droomer</l>
+						<l>Haer rijcke beemden ciert, en als een groene sprey,</l>
+						<l>Bestickt met duyst ghebloemt, in 'tsoetste vande Mey,</l>
+						<l>Ons rijckelijck en milt al hare gunst komt deelen,</l>
+						<l>Laes, so heb ick mijn Heer voor u niet willen heelen</l>
+						<l>De springh-born mijnes herts, in volle vreucht die swol,</l>
+						<l>En d'ader-beeck mijns ziels gaf buys en boorde vol</l>
+						<l>Al 'tgheen me-Vrouw natuur m'op rijckelijckst hadd' ghegheven</l>
+						<l>Aen u, die 'tminste deel, my weyghert van mijn leven.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Mijn eygen deel.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>De.</speaker>
+						<l>Ten deel.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Sim.</speaker>
+						<l>Geheel die'k lief beminne:</l>
+						<l>Die 'k houw voor 'slevens lust.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>De.</speaker>
+						<l>Ja seght voor uw soetinne,</l>
+						<l>V woorden gheconfijt, in minne-kosery,</l>
+						<l>'kHouw maer voor achteloos, en louter veynsery,</l>
+						<l>Ja selfs 'tis my te wars dat ick u meer hoor spreken.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Mijn gulde Son waer heen, mijn krachten die 'k maer reken,</l>
+						<l>Ghe-evenaert in macht, of minder in balans</l>
+						<l>Teghen u zacht ghewelt uws lieven ooghen glans,</l>
+						<l>Helaes 'kben sonder my, en sonder my 'k niet gheven // kan,</l>
+						<l>Mijn leven is mijn lief, en daer hanght al mijn leven // an.</l>
+					</sp>
+				</div>
+				<div n="4" type="scene">
+
+					<head>II. Handelinghe. 4. Uytkomst.</head>
+					<stage>Thimniters Gheest. De Vorsten legghen sluymerende, in
+						verthooninghe.</stage>
+					<sp who="#thimniters-geest">
+						<l>HOe langh sal noch de roem van d'Asiaensche schrick</l>
+						<l>'tOntsichelijcke volck, de wrede dwinghelanden,</l>
+						<l>Dus sluym'ren inde slaep? Jck die heyloos verbrande,</l>
+						<l>Swerf hopeloos in vlam, daer 'kquynend' in verstick.</l>
+						<l>Mijn Dochter die, o wee! wiert tot ons ramp geboren,</l>
+						<l>Volcht Proserpinae Rey, die wraeck eyscht en begheert</l>
+						<l>(Al momp'lend' binnens mondts) heur droeve ziel-tongh sweert</l>
+						<l>Ghy sult voor Rhadamant eer langh u vonnis hooren,</l>
+						<l>Ghy wrev'le sult u recht vervolghen op een Jood,</l>
+						<l>Die gh'eyndelijck nu haest wraeckgierichlijk sult binden:</l>
+						<l>Maer dese blyde proy sal u als vuyr verslinden:</l>
+						<l>Sijn val is uwe val, sijn doodt werdt uwe doodt.</l>
+						<l>Ontrouwe siet de bood, de bood van d'helsche Coningh,</l>
+						<l>Die 'tonder-aerdtsche Rijck doet zidd'ren voor zijn staf,</l>
+						<l>Die al sijn borghery de wetten nam en gaf,</l>
+						<l>Dien Vorst roept u door my, en daer valt gheen verschooningh,</l>
+						<l>Bepleyt u eyghen recht, de Furyen zijn uw reen,</l>
+						<l>Laes die gh'onheylighe schaer gebruycken mooght voor Tolcken!</l>
+						<l>Ontschuldich uwe daet, komt helpt ons rijck bevolcken:</l>
+						<l>En laet mijn doode gheest dus waren niet alleen</l>
+						<l>So wrakeloos, ick bent, Thimniter die t'onvreden</l>
+						<l>Half rasende van spijt, en dulle onrust woel:</l>
+						<l>Tast toe, wat schroomdy noch, siet daer myn handen, voel,</l>
+						<l>Ghedenckt my dat ick ben die rees en dael beneden.</l>
+						<stage>binnen</stage>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Wat helscher spokery, ontrusticht onsen Gheest?</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Wat ist myn Heer? wat ist?</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Tho.</speaker>
+						<l>Wie ist die niet en vreest?</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico.</speaker>
+						<l>Jck zidder en ick beef.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Reh.</speaker>
+						<l>Vraechdy noch watter is, Heer?</l>
+						<l>Zaeghdy Thimniter niet?</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahu.</speaker>
+						<l>Wat neen, hoe neen, die n'is meer</l>
+						<l>Voor handen, sijn ghebeent heeft langh al 'tvuyr vernielt.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>So wast dan maer bedroch, een lichaem onghesielt,</l>
+						<l>Kan sonder siel of gheest verreppen noch verroeren,</l>
+						<l>En wacht dat Charon sal de siel we'er overvoeren.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>So waendy droom is dick met yd'le vrees vermenght.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico.</speaker>
+						<l>'tZy 'tis wat 'tis, oft niet, 't heeft my myn hand ghezenght,</l>
+						<l>Zijn doodt-kleedt scheen voor ons in lichte vlam te blaken.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>De woorden die hy sprack die riepen meest om wrake,</l>
+						<l>Soo over syne doodt, door Simson schult gheleen,</l>
+						<l>Als overwreede straf die w' aen sijn Dochter de'en.</l>
+
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Dit voor-seghs spoock, of geest can niet dan goet bedieden,</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>De Geest, of stem die sprack, ach! wanneer sal't gheschieden,</l>
+						<l>Dat wy ons zullen sien ghewroken op een Jood.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Jck weet een Dagons Paep, mijn Heeren t'is geen nood,</l>
+						<l>Hy weet van wichlery en dystre reden-spreucken.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Men moet uyt vrees, en wraek 'tghewisse wat verkreucken.</l>
+						<l>Weet hy van Tovery, of sulcken geests ghespoock,</l>
+						<l>Dat weet hy niet van God.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sob</speaker>
+						<l>Heer dat gheloof ick oock.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Hy weet 't geen dat hy weet, men vind geen const'naer kloecker.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Gaen wy dan nae hem toe.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phicol.</speaker>
+						<l>Wie mist wert vaeck een soecker.</l>
+					</sp>
+				</div>
+				<div n="5" type="scene">
+					<head>II. Handelinghe. 5. Wtkomst.</head>
+					<stage>Simson, Delila, Hilla, Barneus, de Vorsten, Boer.</stage>
+					<sp who="#simson">
+						<l>HOe langh suldy, o Vrou! myn droeve ziele zyn</l>
+						<l>Een moyelijck ghequel? Hoe langh suldy dus weenen?</l>
+						<l>Hoe langh suldy myn hert geen vreucht of rust verleenen?</l>
+						<l>En peerlen 'tsuyv're vel met traenens Christalijn?</l>
+						<l>Sal 't lieve morghen-root uws kaecxkens kleur robijnigh,</l>
+						<l>Dien roode roose-mont, met ambrozijn bedout,</l>
+						<l>Met een deluvi-stroom van reghen, heet, en zout,</l>
+						<l>Vermeughen myne ziel te stricken, droef en guynigh?</l>
+						<l>De lichte Venus star Voor-boot-ster vanden dagh,</l>
+						<l>Wanneer s'haer gulde pruyck verthoont de blyde werelt,</l>
+						<l>Sietse myns 's harten-Vrou, onciert, onthult, ontperelt,</l>
+						<l>S'ontreckt ons Horisont heur vriendelijcke lagh:</l>
+						<l>Sietse des avonts weer, mijn schoone inde venster,</l>
+						<l>Al treurende versuft ziel-droevigh, en ontpayt,</l>
+						<l>'k Sie mercklijck datse t'eer heur oorlof neemt, en schayt,</l>
+						<l>En schielijck bercht s'haer hooft, en tintelende glenster,</l>
+						<l>Hoe veel te meer sal ick in 't hertzeer voor en na,</l>
+						<l>(O zonne van myn dagh! 't gheen ick sie aen mijn vrouwe,)</l>
+						<l>Connen melydeloos, en treureloos aenschouwen</l>
+						<l>V tranen, en u druck, mijn eyghen Delila,</l>
+						<l>Waerom houdy my vreemt? waerom wildy u veynsen?</l>
+						<l>Heb ick myn Enghel noyt oprechtelijck bezint?</l>
+						<l>Heb ick in weder-min u hart'lijck niet bemint?</l>
+						<l>Hoe 'k sie ghy twijffelt noch, ick merckt aen u ghepeynsen.</l>
+
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila.</speaker>
+						<l>Ia met goet, recht, en re'en,</l>
+						<l>Ey gaet, laet my alleen</l>
+						<l>Myn treurigh leven spillen.</l>
+						<l>Ick smelt in tranens vloed,</l>
+						<l>'tGhesicht is 'tgheen my voed,</l>
+						<l>En dat 's wel naer u wille.</l>
+						<l>Dat ghy myn liefd begeckt</l>
+						<l>Dat 's my ghenoech ontdeckt,</l>
+						<l>'kBehoef gheen voorder loghen,</l>
+						<l>Ick siet dat ghy my haet,</l>
+						<l>Hoe schoon dat gh'u ghelaet,</l>
+						<l>Hebdy my niet bedroghen?</l>
+						<l>Niet eens, maer derdemael,</l>
+						<l>Helaes als ick't verhael,</l>
+						<l>So dunckt my 'thert te breken,</l>
+						<l>Dat een bespraeckte mont,</l>
+						<l>Wt 'sherten valsche gront</l>
+						<l>Beveynsdelijck kan spreken.</l>
+						<l>Hoe-wel ghy met my spot,</l>
+						<l>'kSweer by ons heyl, en God</l>
+						<l>Dagon, maeckt ghy my kondich</l>
+						<l>U sterckt, niet om we'erstaen,</l>
+						<l>'kEn sal u niet verraen,</l>
+						<l>So waer als ick ben sondich.</l>
+						<l>Nu 'ksie dat u mishaecht</l>
+						<l>Mijn lusten, siet so vraecht</l>
+						<l>My niet meer, want 'ken minne</l>
+						<l>Gheen vyandt, maer een vrint,</l>
+						<l>Die niet heelt, maer ontbindt</l>
+						<l>'tVerborghen zijn vriendinne.</l>
+
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Ach lief! hoe queldy my,</l>
+						<l>Om weten daer u vry</l>
+						<l>Niet is doch aen gheleghen.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Ick kent, 'tis maer ghevraeght</l>
+						<l>Uyt keur-lust die my graeght.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Gheen strijdt is sonder zeghe.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Ach mocht dit my gheschien,</l>
+						<l>Dat ick noch soude sien</l>
+						<l>De zeghe voor myn rouwe.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Wat waert dan?</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>De.</speaker>
+						<l>Maer ick sou</l>
+						<l>Weten dat ghy getrouw</l>
+						<l>Minde u Sorex Vrouwe.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>En by ghebreck van dies.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Ick nimmer we'er verkies.</l>
+						<l>V noch gheen mans besonder,</l>
+						<l>Hebreen, of schalcke Ioon,</l>
+						<l>Dat sweer ick by de Goon.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Dats wonder boven wonder!</l>
+						<l>Jst wonder? neen, ten is gheen wonder dat myn lief,</l>
+						<l>Die 'koyt voor ooghen lust in't minnend' hert verhief?</l>
+						<l>Mijn ziel so quelt en druckt, 'khoor daghelijcks haer klaghen,</l>
+						<l>Heur moeylijckheydt die dringht my hard van daegh tot daghe.</l>
+						<l>Sal ick? wil ick? hoe nu, Simson zydy verruckt?</l>
+						<l>Wat? zydy dul of sot? Mijn lief, helaes, hoe druckt</l>
+						<l>V biggheltraen versoeck deez' arm Hebre sijn herte,</l>
+						<l>'kEn kan, ick wil, wel hoe? de oorsaeck van mijn smarte,</l>
+						<l>De oorsaeck van myn ramp verklaer ick nimmermeer,</l>
+						<l>Vrouw weest ghetroost, ick gae.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Del.</speaker>
+						<l>Mijn bedgenoot, en Heer,</l>
+						<l>Ontworstelt desen arm, verlaet dees droeve Vrouwe</l>
+						<l>Niet eer, voor dat gh'haer eynd en Treur-spel sult aenschouwen,</l>
+						<l>Want siet, so veer ick mis d'onpayelijcke lust</l>
+						<l>Of zielens graghe keur, so leeft u Vrouw gherust,</l>
+						<l>Maer so deez' frenesy mijn hers'nen blijft beroeren,</l>
+						<l>Mooghdy d'ontzielde kas doen haest ter aerden voeren,</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Hoe wagghelt myne kracht! hoe trillen dese le'en!</l>
+						<l>Hoe sweet mijn gh'heylicht hooft! hoe parst al dit gheween!</l>
+						<l>Ha sterckte ghy beswijckt! myn wil is als ghedwonghen,</l>
+						<l>Hoewel re'en en verstandt te swyghen hadd' bedonghen,</l>
+
+						<l>So werdt mijn ziele mat, ia mat als tot der doodt.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>So rust myn waerde lief, rust, rust in mynen schoot.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Daer is myn Delila. ('ksal door u eedt niet schromen,)</l>
+						<l>Siet scheyr-mes, scherp, of scheyr noyt op mijn hooft ghecomen:</l>
+						<l>'k En proefden noyt gheen wijn, noch sterck ghemaeckte dranck,</l>
+						<l>'k At noyt onreyne spijs, want al mijn leven lanck</l>
+						<l>Ben ick een Nazareen, gheheylicht en verkoren,</l>
+						<l>En een verloofder Gods van 'sMoeders lijfgheboren.</l>
+						<l>Wanneer, helaes, wanneer my yemandt nu beschoer,</l>
+						<l>En spilde 'tkronckel-hayr op hout of steene vloer,</l>
+						<l>So weeck myn groote kracht, mijn sterckte moest verflenschen,</l>
+						<l>En ick wierd swack ghelijck al and're aerdtsche menschen.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Hoe kan de kracht, myn lief, sich berghen in u haer?</l>
+						<l>Dat 's wonder, ist soo?</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Sim.</speaker>
+						<l>Ja 'tgheen ick u segh is waer,</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>'t Geen waer is moetmen 't niet ontwijselijck gelooven,</l>
+						<l>So wil ick niet door lust om weten u berooven</l>
+						<l>Van dees u groote kracht 'kghelooft al eer ick't sie.</l>
+					</sp>
+				</div>
+				<div n="6" type="scene">
+					<head>Verschooningh.</head>
+					<stage>Knecht.</stage>
+					<sp who="#amri">
+						<speaker>Knech.</speaker>
+						<l>Myn Heer daer is een Jood, die sprack u garen.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Sim.</speaker>
+						<l>Wie?</l>
+						<l>Wie isset so u dunckt?</l>
+					</sp>
+					<sp who="#amri">
+						<speaker>Kn.</speaker>
+						<l>'tJs een u broeders Sone.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Hy com eens weer.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>De.</speaker>
+						<l>Myn Heer, mijn lief.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Si.</speaker>
+						<l>Mijn overschoone</l>
+					</sp>
+					<stage>Simson slapende in haer schoot.</stage>
+					<sp who="#delila">
+						<speaker>Delila.</speaker>
+						<l>Nu rust onsal'ghen man,</l>
+						<l>V Delila en kan</l>
+						<l>V veynsen niet meer belghen,</l>
+						<l>My dunckt de zonne lacht</l>
+						<l>Nu 'kweet al zyne kracht</l>
+						<l>Kan ick myn vreucht niet swelghen.</l>
+						<l>'tLeydt my vast inde le'en,</l>
+						<l>'kWeet sijn verborghenthe'en,</l>
+						<l>'kWeet al 'tgheheym zijns harten.</l>
+						<l>Nu Vorsten zijt ghewis</l>
+						<l>Dat hy verraden is,</l>
+						<l>Die u roem plagh te tarten.</l>
+						<l>Den dwingher die u dwongh</l>
+
+						<l>Is door een Vrouwen tongh</l>
+						<l>Arghlistelijck bedroghen,</l>
+						<l>d'Onbindelijcken helt</l>
+						<l>Is van een Vrouw ghevelt,</l>
+						<l>Door schijn-min, waen, en loghen.</l>
+						<l>Hilla flucx wend u gangh,</l>
+						<l>En toeft, noch draelt niet langh,</l>
+						<l>De Vorsten self te spreken:</l>
+						<l>Doet hun grondich verhael,</l>
+						<l>Sy komen vierdemael</l>
+						<l>Om eens hun leet te wreken.</l>
+						<l>'kHeb al sijn kracht verrast,</l>
+						<l>Sy binden hem maer vast,</l>
+						<l>Sy koelen al hun lusten,</l>
+						<l>Sy brenghen my het ghelt,</l>
+						<l>In ganghbaer munt ghetelt,</l>
+						<l>'kSal wachtende my rusten.</l>
+						<stage>Hilla.</stage>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Laes waerde Heer! my deert 'trampsalich ongheval,</l>
+						<l>'tGheen u te onverwacht als heden treffen sal.</l>
+						<l>Fy Vrouw! het is u schandt, om 'tghelt uw min te breken,</l>
+						<l>Maer wat kreunt my het stuck, als ick 'tbedenck ick reken</l>
+						<l>V ontrouw voor een winst, so wel voor u als my.</l>
+						<l>Geen ontrou, of daer is noch winst of voordeel by.</l>
+						<l>'t Js noch een Vlaems geluck breeckt Delila haer trouwe,</l>
+						<l>Sy sal deur 't gelt heur staet te prachtelijcker houwe.</l>
+					</sp>
+					<stage>Thoy, Ahusath, Rehob, Sobab, Phicol, Hilla.</stage>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>Hilla gaet ghy voor heen, wy volghen metter ijl.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Men soecke, krijgh, en weegh zijn silver onderwijl.</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Mijn Heeren dat 's van nood, 'tghelt is voorwis ghewonnen:</l>
+						<l>'tStuck dient wel vaeck volbrocht, 'tis kloeckelijck begonnen.</l>
+						<l>Jck gae met u verlof, en wacht u komst.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sob.</speaker>
+						<l>So doet:</l>
+						<l>'tGheval wanneer s'haer toont men haestich grypen moet.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Gheen tijdt versuymt, om so een wraeck-uur te versloffen!</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico</speaker>
+						<l>Ach Goon was hy ghestrickt, so was 'twit al ghetroffen.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>'kAcht dat ons Dagon d'uur en tijdt om wreken gunt:</l>
+						<l>Maer elck tel eerst sijn ghelt in silver-keur ghemunt.</l>
+
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila.</speaker>
+						<l>Nu slaept bedroghen man, droomt g'neuchelijcke droomen,</l>
+						<l>Mijn g'liefde wederhelft de quel-lust van mijn jeucht,</l>
+						<l>Dijn onverwachte ramp, sal als een blixem komen,</l>
+						<l>Wanneer ghy't om myn eedt in 't minst niet dencken meucht.</l>
+						<l>Vertrouwdy grooten Vorst een Gazareensche Vrouwe,</l>
+						<l>V's herten g'heymenis: u crachts verborghen cas?</l>
+						<l>Siet' 't sal, helaes, te laet beklagheloos u rouwen,</l>
+						<l>Wanneer ghy vloeckt de geen die eens de liefste was,</l>
+						<l>V lustes lieve schoot voor 'tsacht ghepluymde kussen,</l>
+						<l>Waer in 't gheheylicht hooft te sorg'loos leyt en rust.</l>
+						<l>Sal deze myne daet zyn wraeck-lust konnen blussen,</l>
+						<l>Wiens mont noyt lusteloos my looft, en heeft ghekust?</l>
+						<l>Laes, sal ick wel? kan ick 't gheminde beeld verraden?</l>
+						<l>Wat meed'lyds-herts-tocht parst natuer uyt myne borst?</l>
+						<l>Natuur gaet voor de reen, 't verraet en kan niet schaden,</l>
+						<l>Aen dien, wiens ouden haet naer 't bloet myns vrienden dorst.</l>
+						<l>Neen, neen, al langh ghenoech ben ick met schand bedroghen,</l>
+						<l>Tot drymael toe ghehoont, en listelijck bespot:</l>
+						<l>Siet hier de rechte wraeck door u beveynsde loghen.</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Me-Vrouw, de Vorsten komen.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>De.</speaker>
+						<l>Lof Philistijnsche Godt,</l>
+						<l>Die eenmael onse smaet wil aen ons vyandt wreken.</l>
+						<l>Hilla, gaet heen in haest, en wilt Barneus spreken,</l>
+						<l>Seght dat hy daed'lijck kom, en doe 't gheen ick begheer.</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Wat 's dat Me-vrou?</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Del.</speaker>
+						<l>Dat 's dit, dat hy m'een hooft bescheer.</l>
+						<l>'t Gheen ick hem wijsen sal, gaet ras, en maeckt u voeten.</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Dat 's wonder wel gepast, hy komt my recht ontmoeten.</l>
+					</sp>
+				</div>
+				<div n="7" type="scene">
+					<head>Verschoninge.</head>
+					<stage>Barneus, Hilla, Delila.</stage>
+					<sp who="#barnevs">
+						<speaker>Barne.</speaker>
+						<l>'t Wont-heelders ampt wel loff'lijck is,</l>
+						<l>En noodigh 't Chirurgynen,</l>
+						<l>Maer waer m'ons laeckt, wel groff'lyck,, wis,</l>
+						<l>Komt 't onverstant verschynen.</l>
+						<l>d'AEsculapisten wonder,, doen,</l>
+						<l>Door 't kunst-bedryf huns handen,</l>
+						<l>'t Scheeren kan hun besonder,, voen,</l>
+						<l>'t Blyckt in ons vrye Landen.</l>
+						<l>Daermen 't wel aen de wercken,, leert.</l>
+						<l>De wercken konnen blycken,</l>
+
+						<l>Als d'een 't Schaep, d'ander 't vercken,, scheert,</l>
+						<l>Moet d'een of d'aer verrycken.</l>
+						<l>Men scheert om 't gout nu Landen,, kracht,</l>
+						<l>Soo vreemd kanmen Barbieren,</l>
+						<l>Wie breeckt Religijs banden,, acht,</l>
+						<l>Kan 't doen noch wonder cieren.</l>
+						<l>Men loont die geen die loghen,, schryft,</l>
+						<l>Men vleyt de grootste mannen.</l>
+						<l>Die waerheyt nae vermoghen,, dryft,</l>
+						<l>Wordt schandelijck ghebannen.</l>
+						<l>Dees eeuw brenght wond're helden,, voort,</l>
+						<l>De wyste connen mommen,</l>
+						<l>Terwyl men rust door schelden,, stoort,</l>
+						<l>Soo scheertmen vast ront-omme.</l>
+						<l>Guld-scheertjen; o u krachten,, al,</l>
+						<l>Archlistich zyn bevonden,</l>
+						<l>Wel die hem voor u wachten,, zal,</l>
+						<l>Die blyve vry van sonden.</l>
+						<l>De sonde datmen 't Vaderlandt</l>
+						<l>Om 't goudt soeckt te verraden,</l>
+						<l>Geen handel men noyt quader vant,</l>
+						<l>Noch hel-werck doet meer schaden.</l>
+						<l>Wie Godes-dienst te scheeren,, soeckt,</l>
+						<l>Die staet naer zyn verderven,</l>
+						<l>Wie Isr'els groote heyren,, vloeckt,</l>
+						<l>Die schendt zyn eyghen erven.</l>
+						<l>De Prins betoom zijn willen,, al,</l>
+						<l>En leer zyn lust besnoeyen,</l>
+						<l>Dat hy 't ghemeent niet villen,, sal,</l>
+						<l>Maer scheeren sonder bloeyen.</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Hy maecktet my te langh, Barneé gaet met my.</l>
+						<l>Me-Vrou die sprack u garen.</l>
+					</sp>
+					<sp who="#barnevs">
+						<speaker>Ba.</speaker>
+						<l>Wie? my?</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hil.</speaker>
+						<l>Ja, ghy</l>
+						<l>Moet datelijck een Man zijn Croese kop bescheeren.</l>
+					</sp>
+					<sp who="#barnevs">
+						<speaker>Barne.</speaker>
+						<l>So strack.</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hil.</speaker>
+						<l>Ja terstont, 't is ernstigh haer begheeren.</l>
+
+					</sp>
+					<sp who="#barnevs">
+						<speaker>Barne.</speaker>
+						<l>So gaen wy dan.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delila</speaker>
+						<l>Mijn vrient, scheert dese Man zijn hooft.</l>
+					</sp>
+					<sp who="#barnevs">
+						<speaker>Barne.</speaker>
+						<l>Me-vrouw 'k waer dubbel zot van mijn verstant berooft.</l>
+						<l>Ontwaeckten hy 'k was doot, wie gaf my 't leven weder?</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Barneé sonder vrees, begint, knielt by my neder.</l>
+						<l>En maeckt niet veel ghesnips, u scheertjen snijt het wel?</l>
+					</sp>
+					<sp who="#barnevs">
+						<speaker>Barne.</speaker>
+						<l>Joffrou te wonderscharp, ie laet my toe, ick sel</l>
+						<l>(Soo ben ick sonder sorch) hem gau de keel af knippen,</l>
+						<l>Soo ziedy na u lust, zyn doots besturven lippen.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Neen, dat en wil ick niet. Vaert voorts: Nu d'ander zy.</l>
+					</sp>
+					<sp who="#barnevs">
+						<speaker>Barne.</speaker>
+						<l>Went hem wat sachjens om, soo kom ick ginder by.</l>
+						<l>Noch wat dit heen: nu soo. Soo, soo, dat 's wel. De locken</l>
+						<l>zijn af, 't werck is ghedaen.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Deli.</speaker>
+						<l>So is mijn wil voltrocken.</l>
+					</sp>
+					<sp who="#barnevs">
+						<speaker>Barne.</speaker>
+						<l>Wel moetet hem bekomen.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Deli.</speaker>
+						<l>'k Hoop dat nimmermeer.</l>
+					</sp>
+					<sp who="#barnevs">
+						<speaker>Barne.</speaker>
+						<l>Gheen Roos-water?</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Del.</speaker>
+						<l>Neen.</l>
+					</sp>
+					<sp who="#barnevs">
+						<speaker>Bar.</speaker>
+						<l>'k Danck u Me-vrouw.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Deli.</speaker>
+						<l>'k Danck Me-Heer.</l>
+						<l>Waer blijft nu 't Goden zaet die na de wrake dorsten,</l>
+						<l>De trotse Philistijns, d'onsichelijcke Vorsten:</l>
+						<l>De brommers op haer macht, de snorckers op 't gheweyr,</l>
+						<l>De drillers met haer spies, de rinners met haer speyr.</l>
+						<l>Wiens scherp gheslepen swaert door d'onverschrickte moede,</l>
+						<l>En keerde uyt den strijt, ten druypte nat van bloede.</l>
+						<l>Wiens scherp gescherpte pijl, te wonder net ghemickt</l>
+						<l>En faelde, of hy bleef in 's vyants vet ghestickt.</l>
+						<l>Dees krijghers die door schrick doen d'Edomiten stromp'len,</l>
+						<l>Die moeten door een Vrou heur vyand overromp'len.</l>
+						<l>Sy moeten door een wijf verraden die hun dwongh;</l>
+						<l>En vechten met hun geld, en smeken met hun tongh.</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Me-vrouw se komen daer.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Dat niemant van ons allen,</l>
+						<l>Door schreumelose vrees zijn hart en laet ontvallen.</l>
+					</sp>
+				</div>
+				<div n="8" type="scene">
+					<head>Verschooninghe.</head>
+					<stage>Delila, Simson, Al de Vorsten, Boer</stage>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Nu Vorsten, siet u proey, ghedwonghen is de Jood,</l>
+						<l>Ghelevert, en verraen, maer dat gh' hem niet en dood:</l>
+						<l>Jck bid noch voor zijn lijf.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Ha Delila! zijn leven:</l>
+						<l>Waer hy in onse handt, dat waer hem graegh ghegheven.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Geen dood en kon de wraeck volcomelijck voldoen.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Slaept hy noch?</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sob.</speaker>
+						<l>Ha wrev'le! g'en kunt nimmer vergo'en,</l>
+						<l>De schandelijcke smaet.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phi.</speaker>
+						<l>Die gh'aen ons hebt bewesen.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Delil.</speaker>
+						<l>Jck weck hem, grijpt vry toe, g'hebt gheensins yet te vreesen.</l>
+						<l>Sijn kracht is hem berooft. dus tast hem stout'lijck an.</l>
+						<l>'k Weet dat zijn sterckt en is maer als een ander man.</l>
+
+						<l>Simson, Simson, ontwaeckt, men loert om u te binden.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Ach Heer ick ben verraen: ick sal myn wrekers vinden.</l>
+						<l>'k Sal uytgaen als ick plagh.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Del.</speaker>
+						<l>En loopt niet Mannen, fy!</l>
+						<l>Dat ghy so bloode zyt.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Sim.</speaker>
+						<l>Help! Gods geest wyckt van my.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Ha Joode ghy zijt ons, nu siedy u ghevanghen.</l>
+					</sp>
+					<sp who="#hilla">
+						<speaker>Hilla.</speaker>
+						<l>Me-Vrouw eer datse gaen eysch eerst u geld t'ontfanghen.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Nu gasten bint hem wel.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Reh.</speaker>
+						<l>Lof Dagon van u gunst.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Ontkomt hy ons ick segh hy kan meer als een kunst.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico</speaker>
+						<l>Hy sal hem in't langh hayr nu immers niet verworghen.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Vervloeckte hoer! t'fy smaet!</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sob.</speaker>
+						<l>Leert uwe kracht verborgen.</l>
+						<l>Bedwinghd u tongh, vertrout een Gazareensche meer.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>Ho hy is inde knip, 'k hiet hou wellekom mijn Heer.</l>
+						<l>Dat is een heerschop, recht om te woonen by de Boeren.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>Nu ras, neemt hem voort wegh, wilt hem na Gaza voeren,</l>
+						<l>Wy sullen op het stuck ons voorder wel beraen:</l>
+						<l>Gaet meed mijn Heeren, 'k sal terwijl na binnen gaen,</l>
+						<l>En tellen Delila ses t'half duyst silverlinghen.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>Voort voort, we selle jou wel een aer lietje doen singhen.</l>
+					</sp>
+				</div>
+			</div>
+			<div n="3" type="act">
+				<div n="1" type="scene">
+					<head>III. Handelinghe. I. Uytkomste.</head>
+					<stage>De Vorsten, Thoy.</stage>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>DE wanden van dees zael die hupp'len van ghenucht,</l>
+						<l>De mueren al verheught die ryzen inde lucht,</l>
+						<l>De blau ghesteende vloer: en d'aerde krijght bewegen.</l>
+						<l>De murmurende beecken juyghen om de zeghen.</l>
+						<l>Den blyden Hemel reyd, 't ghesternte is verblyt,</l>
+						<l>Om dat w'ons eenmael sien ghewroken van ons spijt.</l>
+						<l>Een spijt 't geen onghewoon was voor 't gheslacht te draghen,</l>
+						<l>De Hemels zyn van bloet en Goddelijck van maghen.</l>
+						<l>Dorsten ons ouders niet: ha wonder als ick 't hoor!</l>
+						<l>Self drieschen een Iupijn in 't alderhoochste Choor?</l>
+						<l>Den Crijchs-Godt Mars die sach door een te licht gheschemel,</l>
+						<l>Ons Reusen strijt: hy stont en zidderden in d'Hemel.</l>
+						<l>Wy hoopten bergh op bergh, wy vochten soo verwoet</l>
+						<l>Dat al de Goon van anghst schier sweeten sweet en bloet.</l>
+						<l>Alleen voor dese uyr dorst ons een Jode terghen,</l>
+						<l>Voor wiens onsichtb're kracht wy mosten 't aensicht berghen,</l>
+						<l>D'Hebree die langh ghenoech ons krachten heeft ontkracht,</l>
+						<l>Js eyndelijck verrast, die nu zijn vonnis wacht.</l>
+						<l>Nu Vorsten, wat voor doot of straffe sal hy dulden.</l>
+						<l>Een yder geeft zijn raet, de langh verleden schulden.</l>
+						<l>De langh bewesen haet uyt doemelijcke nijdt</l>
+						<l>Hoe wert die nu voldaen?</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahu.</speaker>
+						<l> Geen swaert te scherp en snijt.</l>
+						<l>Geen vlam en is te heet om 't leven hem te rooven.</l>
+						<l>Geen doot is wreet ghenoech: mijn Heeren wilt ghelooven,</l>
+						<l>Alwaer al d'aertsche pijn gesmolten all's in een,</l>
+						<l>Zo oordeel ick voor hem, soo isse noch te kleen.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>Hoe? sal dan geenen straf ons wraeck-hert konnen stillen?</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Ja, wanneer w'hem zien al levende 't vel af villen.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico</speaker>
+						<l>Neen, dat en is niet wel, noch wettelijck gheraen.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Geeft reden.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phi.</speaker>
+						<l>Hy heeft ons het meeste leet ghedaen</l>
+						<l>Met zyn ghezicht: zijn ooghen die te vierich vlamden,</l>
+						<l>Die branden in zyn hooft, wanneer hy vaeck vergramden,</l>
+						<l>En sloegh 't onsichlijck volck, hoe heldisch, groot, en grof,</l>
+						<l>En joegh haer zielen uyt, en wierp haer rif in 't stof.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>Dus wort na recht, en re'en , de ooghen hem ghebroken.</l>
+						<l>Waer inde mensch misdoet daer wert hy in ghewroken.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Die re'en schijnt niet heel vreemt.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahu.</speaker>
+						<l>Zijn handen de'en meer quaet,</l>
+						<l>En g'lijck een wijs-gier wel te redenen bestaet.</l>
+						<l>Ong'luckich is de mensch ond'r alle aerdtsche dieren,</l>
+						<l>Om dat hy handen heeft, d'handen als bloet-gieren,</l>
+						<l>Die moorden, doen veel quaets: sy roven, breken trou,</l>
+						<l>Zijn schadelijck en strengh, dies ick rechtvaerdichst' hou,</l>
+						<l>'tGeen heyloos hier den mensch ont-deucht door wercken schendich,</l>
+						<l>Maeckt een verdiende straf: Den booswicht weer ellendich:</l>
+						<l>D'handen die ons misde'en te wrevelich, en straf,</l>
+						<l>Wilt door Scherp-rechters bijl na recht doen cappen af,</l>
+						<l>En handeloos en kan hy ons in 't minst niet deeren.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Vorsten, wat dunckt u?</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Reh.</speaker>
+						<l>De wil die is by de Heeren:</l>
+						<l>Willense dat ick wil, en doense 't geen ick rae.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phic.</speaker>
+						<l>Sy blinden hem.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahu.</speaker>
+						<l>Gheblint? nu schoon geblint, 'k sta</l>
+						<l>V re'en niet toe (waerom?) zyn ooghen wy niet vruchten.</l>
+						<l>Geen ooghen waren 't, maer zyn handen de'en ons suchten.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>En handeloos, en is hy ons niet dienstelijck of nut.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico</speaker>
+						<l>Mijn Heeren hoort myn eens, 't ontrijpe raden stut.</l>
+						<l>De rechtelijcke re'en blindt zynde kan hy malen,</l>
+						<l>Blint zynde kan hy best zyn ongheluck verhalen.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>Blint zynde is hy niet een arm ghevanghen man?</l>
+						<l>Wie vreest een blinde doch?</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Ha wrev'le hoe en kan</l>
+						<l>De lam-bloetighe straf, van wraeck-lust meerder boghe,</l>
+						<l>Dan datse d'App'len breeckt van u vervloeckte ooghe.</l>
+						<stage>Scherp-rechter uyt, en weer in.</stage>
+						<l>Scherp rechter, kom, tre voort, gaet heen na rechts besluyt,</l>
+						<l>En steeckt d'onsalige Jood zijn beyde ooghen uyt.</l>
+						<l>Hy heeft het wel verdient.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Reh.</speaker>
+						<l> Ja wel met dobbel reden.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Mijn heucht te wel de smaet die hy ons helden dede.</l>
+
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>'t Staet my noch voor, helaes, hoe hy mijn Neven sloegh.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico</speaker>
+						<l>En my ghedenckt hoe dat hy al de Vorsten joegh,</l>
+						<l>Wanneer hy duyzent man door 't kaecks-been send ter hellen.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Nu siet hy ons niet meer die ons ziel placht te quellen.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Gheketent is de geen die al de stricken brack.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>Eerst was hy trots, en sterck, nu arm, blint en swack.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Ha wispeltuur'ge Vrou! hoe speeldy met de grooten,</l>
+						<l>Ghy eert, ghy vleyt, ghy smeeckt, ghy kundt ter neder stooten,</l>
+						<l>Die g'op het Herojckst, en d'alderhoochst verheft.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Den blixsem alder-eerst den kruyn der Berghen treft.</l>
+					</sp>
+					<stage>Vertooninghe waer men Simson, ghebonden zynde, de ooghen
+						uytsteeckt.</stage>
+					<sp who="#rey-der-ioodtsche">
+						<speaker>Rey der Ioodtsche.</speaker>
+						<l>Schreyt nu Isralitsche Maeghden,</l>
+						<l>Want u Hertogh is vermant,</l>
+						<l>Wiens stercke hant</l>
+						<l>Syn's vyants schoud'ren, lend'nen plaeghden,</l>
+						<l>Dien Helt, dien Vorst, wonderaer,</l>
+						<l>En kan hier naer</l>
+						<l>De Ioodsche Rey heur schand verwinnen,</l>
+						<l>Die de rechte rechter druckt,</l>
+						<l>Ia wech-gheruckt,</l>
+						<l>Is nu't verçiersel der Iodinnen,</l>
+						<l>Heur glory, roem, pracht, en eer,</l>
+						<l>Leyt nu ter neer.</l>
+						<l>Wanneer men hem ghevanghen leyde,</l>
+						<l>Den blauwen Hemel als bedroeft,</l>
+						<l>Heeft niet vertoeft,</l>
+						<l>Een reghen-vochte trane schreyde,</l>
+						<l>'t Droef melydende Christal,</l>
+						<l>Om 't ongheval.</l>
+						<l>De Son die borgh zyn gulde luyster,</l>
+						<l>En hy blies zyn fackel uyt,</l>
+						<l>Ia 't droef gheluyt</l>
+
+						<l>Weckten d'Echo in het duyster,</l>
+						<l>Als d'Hebree met droeve klacht,</l>
+						<l>Verloor zyn macht.</l>
+						<l>De Gazareensche die hem zagen,</l>
+						<l>Loofden tot ons' schandt en spot,</l>
+						<l>Hun steenen Godt,</l>
+						<l>Yder een hoordemen vraghen,</l>
+						<l>Is dat niet dien stercken man,</l>
+						<l>Die 't al verwan?</l>
+						<l>Laes, bedroefde vrome vechter!</l>
+						<l>Israels boogh, schildt, en scharm,</l>
+						<l>Dyn kloecken arm,</l>
+						<l>O noyt overwonnen Rechter!</l>
+						<l>Ghy leght nu ter neer ghevelt,</l>
+						<l>Door dwang ghewelt.</l>
+						<l>Geen Helden, swaert, noch hun boghe,</l>
+						<l>Heeft u stouten moet ghemat,</l>
+						<l>Geen van Gath,</l>
+						<l>Vermocht op u, maer siet de loghe</l>
+						<l>Van een snoo door-trocken Hoer,</l>
+						<l>Die valslijck swoer.</l>
+						<l>Die heeft uwe ziel gevanghen,</l>
+						<l>En u g'heylicht hayr berooft,</l>
+						<l>En u verdooft.</l>
+						<l>Maer zy sal heur loon ontfanghen,</l>
+						<l>Wie weet hoe 't verand'ren sal,</l>
+						<l>'t Onwis gheval.</l>
+					</sp>
+				</div>
+				<div n="2" type="scene">
+					<head>III. Handelinghe. 2. Uytkomste.</head>
+					<stage>Simson, Amri, Boer. Rey der Philistynsche.</stage>
+					<sp who="#simson">
+						<speaker>Simso.</speaker>
+						<l>ISser wel eenigh man soo veer den scepter sweyt,</l>
+						<l>Ong'luckigher als ick? die meer zijn ramp beschreyt?</l>
+						<l>Die 't heyloos ongeval dryckt meer met duyzent wonden?</l>
+
+						<l>Ha Simson! 't is u schult, u schult is 't en u sonden!</l>
+						<l>V sonden hebben u bereydt dees swaere straf!</l>
+						<l>V sonden brachten u al siende in u graf.</l>
+						<l>V sonden groeven uyt het lieve licht uws ooghen.</l>
+						<l>V sonden hebben u te schandelijck bedroghen.</l>
+						<l>Bedroghen door een Hoer, die valschlijck u verriet!</l>
+						<l>Fy Delila! dat ick mijn ooghen-lust u hiet,</l>
+						<l>Dat ick verluste zot, u schoonheyt hoogh gingh roemen!</l>
+						<l>Die uyt moet yder Jood vervloecken en verdoemen,</l>
+						<l>Die uyr dat ick u sach was myn onsal'ge ramp!</l>
+						<l>Die uyr dat ick u sprack wiert 't ong'luck, dat de lamp</l>
+						<l>Mijns levens ongheval, zijn held're lichten miste,</l>
+						<l>Als ick in geyle min mijn daghen met u quiste!</l>
+						<l>Hoe was ick soo verruckt? soo reuckeloos en blint,</l>
+						<l>Dat myn verdwaesde ziel mijn ong'luck had bemint!</l>
+						<l>Ha ong'luck al te swaer! Ha wrede tyrannije!</l>
+						<l>Waerom mocht 't Godloos rodt moordadigh niet afsnyen</l>
+						<l>My liever niet den hals, of branden dese leen!</l>
+						<l>Of werpen 't sondigh rif voor wilde dieren heen.</l>
+						<l>Tyrannen zijn 't die noyt volde'en een wrede wrake.</l>
+						<l>Als sy met eenen priem 't ghesicht myns ooghen braken,</l>
+						<l>En bonden dese le'en met ket'nen van metael.</l>
+						<l>Jck sterf van smaet, en spijt, wanneer als ick 't verhael,</l>
+						<l>Hoe dat ick tot hun spot moet malen in een molen,</l>
+						<l>En krijgh een bete broots noch bedel wijs ghestolen.</l>
+						<l>Mijn drooghe dorst, helaes, een troebel water-vloet,</l>
+						<l>Ter nauwer noot ghescheyt, mijn lust versaden doet.</l>
+						<l>Aenschouwers die hier zijt, en siet mijn treurich leven,</l>
+						<l>Ach wilt m'een bolle broots om Godes wille gheven!</l>
+						<l>Daer by leent my een Herp, d'wyl ick in 't duyster queel,</l>
+						<l>Op dat ick lusteloos voor 't lest myn treur-liet speel.</l>
+						<l>Dan schort my noch een spons, om van dees blinde ooghen,</l>
+						<l>Mijn tranen lauw, en sout, mistroost'lick af te drooghen.</l>
+						<l>En geef dij't niet uyt liefd' dees arm ghevanghen Man,</l>
+						<l>Dees blind-verachten Jood, so bid ick, gheeft het dan</l>
+						<l>Om 't wonder dat mijn kracht, een Jonghe Leeuw verstickte,</l>
+						<l>En dat door dese hant duyst na hun adem snickte.</l>
+						<l>Een die Stadts-deuren droegh, en met een korsel-hooft,</l>
+						<l>Slechts om een Bruylofts-gift, eens driemael thien man rooft,</l>
+						<l>Hun Vier-cleen, en daer by 't lief aenghename leven,</l>
+						<l>'k Heb dick de Vorsten self doen sidderen en beven,</l>
+						<l>'k En smeeckte noyt om hulp, 'k en bad noyt om ghenaed,</l>
+						<l>Nieu stricken die verbrack ick als een vlassen draet.</l>
+						<l>Helaes en kan dit noch</l>
+					</sp>
+				</div>
+				<div n="3" type="scene">
+					<head>Verschooninghe.</head>
+					<stage>Boer, Rey der Philistynsche.</stage>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>Wat's hier alweer te clagen?</l>
+						<l>Of denckje dat het al moy weer is, neen, alle daghen</l>
+						<l>En ist ghien kermis, voort, voort, weerom an de ploegh,</l>
+						<l>Doen je myn kooren aen brandt staeckt, denck hoe ick loegh,</l>
+						<l>Even alliens als een Paert dat byten wil.</l>
+						<l>O Simson, 't sel me wel soo langh spijten. stil</l>
+						<l>Niet veel gherammel met die kettingh, hier komen Juffrouwen.</l>
+					</sp>
+					<sp who="#rey-der-phylistynsche">
+						<speaker>Rey der Philistynsche</speaker>
+						<l>Mijn vrient, is dit Simson?</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>Jae 't in trouwen,</l>
+						<l>Dat is de veughel, besiet hem nou vry wel,</l>
+						<l>'k Wed dat hy mijn hanghden nou niet ontloopen sel.</l>
+					</sp>
+					<sp who="#rey-der-phylistynsche">
+						<speaker>Rey</speaker>
+						<l>Lof Dagon van u wonder,</l>
+						<l>Die ons sloegh en bracht t'onder,</l>
+						<l>Die ons heeft wegh gheruckt,</l>
+						<l>Die hebdy nu verdruckt.</l>
+						<l>Die ons Helden verschrickten,</l>
+						<l>Die noyt voor 't swaert en wrickten,</l>
+						<l>Die om een daet te gram.</l>
+						<l>Stack licht in vuyr, en vlam.</l>
+						<l>Om soo ons haet te terghen,</l>
+						<l>D'Olijf, en Wyngaert berghen,</l>
+						<l>Die man sie'ck noch bespot,</l>
+						<l>Door gunst van onsen Godt.</l>
+						<l>Ha ooghen! die mijn lust noch sien aen dese Jode,</l>
+						<l>Die wrevel-moedigh dwongh den Philistijnschen arm,</l>
+						<l>Nu is mijn ziel verheught, nu hy leeft in 't gekarm,</l>
+						<l>Nu zal zyn dapp're hand ons crijchsluy niet meer dooden.</l>
+						<l>Lof zy de God der Philisteenen,</l>
+						<l>Lof zy al de Goon met eenen,</l>
+						<l>Van Asklon, Ekron, Gath,</l>
+						<l>Lof sy de Goon die nimmer math,</l>
+						<l>Asdots, Gazas borg'ren lieten,</l>
+						<l>Sterven door veel duyst verdrieten.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer</speaker>
+						<l>Ja Juffers, dat legh ick hem ghenoch op zijn bort.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker> Simson </speaker>
+						<l>Mijn God, wat doet m'u eer, en heyl'ge naem te kort!</l>
+						<l>V hout, en steenen Goon zyn maer onnutte blocken,</l>
+						<l>Ghy kleetse voor de kouw met schoon vergulde rocken.</l>
+						<l>S'en bien noch hulp, noch troost, sy connen soo veel sien</l>
+						<l>Als ick doe.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer</speaker>
+						<l>Jck sel jou by-gat verbie'n</l>
+						<l>Onse Goon te verachten, daer isser soo veel die de beelden eeren,</l>
+						<l>En die de Gootjes behanghen met Poppe-goet en kleeren:</l>
+						<l>Soume die al bestraffen? 't Kakebien wierd een loof.</l>
+					</sp>
+					<sp who="#amri">
+						<speaker>Amri</speaker>
+						<l>Mijn vrient wie is dat?</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>Simson, wat sinje doof?</l>
+						<l>Hebjet flus niet ehoort? wat schort jou dit te vraghen?</l>
+						<l>Of sinje meed een Jood?</l>
+					</sp>
+					<sp who="#amri">
+						<speaker>Amri.</speaker>
+						<l>'k Ben een van zijne maghen.</l>
+						<l>Ha Hemel hoe ontroert my dit verkruypend' bloet!</l>
+						<l>Dat ick myn eygen Heer gheblind aenschouwen moet.</l>
+						<l>Soo smadelijck veracht! gheketent als een slave!</l>
+						<l>Een die de sterckste was met Goddelijcke gave!</l>
+						<l>Soo rijckelijck begaeft, dat yder die hem sagh,</l>
+						<l>Zeghende dese uyr van zyn gheboortens dagh.</l>
+						<l>Laes, Heer, was ick u knecht, als gh'in u eer-tijdt heerste:</l>
+						<l>Soo wil ick in u druck my bieden weder d'eerste,</l>
+						<l>Die u weer dienen sal, en in u smaet, en schant</l>
+						<l>Dien ick u voor een hont, en ley u met der handt.</l>
+						<l>Mijn vriend, of vyand, laet my dees ghevanghen dienen.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer.</speaker>
+						<l>So klinck ick jou mee twie boeyen an jou bienen.</l>
+						<l>Sin je al mee besne'en? soo moet d'ien Jood met d'aer in een gat.</l>
+						<l>Maer noch heb ickse niet al, daer isser noch al mier in Stat.</l>
+					</sp>
+					<stage>Pausa.</stage>
+
+				</div>
+				<div n="4" type="scene">
+					<head>III. Handelinghe. 3. Wtkomste.</head>
+					<stage>De Vorsten, Delila, Boer, Simson, Amri.</stage>
+					<sp who="#thoy">
+						<speaker>Thoi.</speaker>
+						<l>Lof glory-rijcke Goon die in u Hemels zetel,</l>
+						<l>Straften dien stercken Jood, die stout en hoog vermetel</l>
+						<l>V Godheyt heeft bespot, en schimpelijck veracht.</l>
+						<l>V zaet de Philistijns, van Goddelijck gheslacht.</l>
+						<l>Lof Dagon (groote God!) beweger van ons zielen,</l>
+						<l>Wy komen desen dach noch voor u beelde knielen.</l>
+						<l>Dees dach komt t'off'ren noch op uwe Altaers plat,</l>
+						<l>De Vorst t'Ekron, Asklon, Asdoth, Gaza, en Gatth.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>De krijgher voor wiens kracht de Philisteus trilde:</l>
+						<l>Dien dwinger die 't al dwongh, die niemant noyt en stilde,</l>
+						<l>Die niemant noyt en bond, maer schimpte met ons Godt,</l>
+						<l>Js van een ted're Vrou door Dagons gunst bespot.</l>
+
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>Soo langh den Hemel blijft beswaddert met de wolcken.</l>
+						<l>Soo langh de ronde Son verlicht de werelts volcken,</l>
+						<l>Soo langh de silv're maen met tintel-starren schijnt.</l>
+						<l>Soo langh Neptuyn noch stilt, noch sachte rust en vynt,</l>
+						<l>Sal yder na ons doot ons bly gheluck verwond'ren.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>Iupyn sach onse smaet, flucx hy begon te dond'ren,</l>
+						<l>En wierp te seer vergramt zijn blixem uyt de Locht.</l>
+						<l>Dagon stond op, en sprack, ick heb een raet bedocht,</l>
+						<l>Jck sal zyn moed'ghe ziel doen matten door het minnen.</l>
+						<l>Daer helpt geen menschen sterckt als Goden willen winnen.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico.</speaker>
+						<l>Een yder brengh zyn gift tot danckbaerheyt, alwaer</l>
+						<l>Wy 't Heyligh offer doen op 't Goddelijck altaer.</l>
+						<l>Een yder looft de Goon, die Simson als een Jode</l>
+						<l>Veracht heeft, want hy eert noch dient geen vreemde Goden.</l>
+						<l>Jsraels God alleen looft hy met hart, en mont,</l>
+						<l>Die hem niet helpen wou als m'hem ghevanghen bondt.</l>
+						<l>'k Acht d'oorsaeck is alleen de straffe vande sonden.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>De sonden hebben hem gheketent, en ghebonden.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahusa.</speaker>
+						<l>Ons sonden hebben ons so langhen tydt verdruckt.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rehob.</speaker>
+						<l>En meerder sonden doen 't dat minder sond gheluckt.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>Geeft Goon dat wy niet meer voor u en moghen sond'ghen.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phic.</speaker>
+						<l>Comt gaen wy Goden-lof groot-maken, en verkond'ghen.</l>
+					</sp>
+					<stage>Vertooninghe daer de Vorsten offeren inden Tempel voor Dagon.</stage>
+					<stage>Simson, met den Ionghen Amri.</stage>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>De Vorsten die in pracht en groote pompery,</l>
+						<l>Preutz heerschen, en ghebie'n, die spiegh'len hun aen my,</l>
+						<l>Jck die ver over-trof de Princen, die m'ontsaghen.</l>
+						<l>Jck die men saligh prees, en zeghende myn daghen.</l>
+						<l>Jck die geen kroon ontsagh, noch scepterlijcke macht,</l>
+						<l>Mael nu ghelijck een slaef gheketend, en veracht.</l>
+						<l>Onzalighen Hebree, nu vloeckt m'u eer, en leven,</l>
+						<l>Als eenen dooden hont, ha wilt my antwoort geven</l>
+						<l>Ghy sprakeloose re'en, die wettelijck ghebiet,</l>
+						<l>Wickt, weeght, en balanceert mijn lyden, 't geen ghy siet.</l>
+						<l> </l>
+						<l>Memphides trotsen Prins, wiens scepter rijck beperelt:</l>
+						<l>Bedwongh den Africaen, die al de wyde werelt</l>
+						<l>Scheen veel te nau of engh, wanneer hy inder yl</l>
+						<l>Sijn Delta liet, en keert den rugh den veyl'ghen Nyl,</l>
+
+						<l>Om't vry-ghelaten-volck, Gods uytverkooren zielen,</l>
+						<l>Door 't scherp Egyptsche stael tyrannigh te vernielen:</l>
+						<l>Die vand' geen swaerder straf met al zijn Godloos heyr,</l>
+						<l>Dan 't grondeloose graf in't Arabische meyr.</l>
+						<l>Den vetten Moabyt, den wrev'len Jsraels temmer,</l>
+						<l>Ontzielde Ehuds handt met een twee-snydend lemmer.</l>
+						<l>Den schepter die te swaer d'Hebreen had gedruckt,</l>
+						<l>Wiert hem door Geras Soon uyt d'handen haest gheruckt,</l>
+						<l>Een Serubaal-zoon Abimelech besnoode,</l>
+						<l>Die tseventich zijn Broers verworrechde en doode,</l>
+						<l>Dien Goddeloose Vorst, en geessel van 't ghemeen,</l>
+						<l>Brack d'Harsen-pan een Wijf met eenen Meulen-steen.</l>
+						<l>Wat, zijn dees snoo Tyrans niet sachtelijck ghesturven?</l>
+						<l>Wat onverwachte dood hebbense niet verwurven?</l>
+						<l>Onduldighen Danit: misgundy hun 't gheval?</l>
+						<l>Helaes, en soud ick niet? seght reden? seght, en sal</l>
+						<l>Om kleynder sond die 'k heb als dese drie bedreven,</l>
+						<l>My 't rampsalighe eynd berooven 't droeve leven?</l>
+						<l>Jck sterve duysent doo'n, mijn sond heeft niet verschuld</l>
+						<l>Dees nickerlijcke straf. Nu Simson, met gheduldt</l>
+						<l>Lijd, Godes handt, ghelooft, die druckt u inder assen.</l>
+						<l>En d'wijl u 't langhe hayr wed'rom begint te wassen,</l>
+						<l>Vermach zijn lieve gunst, wiens g'nade wonder werckt,</l>
+						<l>V swackk' ontkrachte le'en te gheven d'eerste sterckt.</l>
+						<l>'k Vertwijffel aen zijn hulp, ach neen, wilt niet wanhoopen,</l>
+						<l>D'ontfermherticheyts deur staet voor de zondaers open,</l>
+						<l>Soo wie met waer berou van zonden tot hem komt,</l>
+						<l>Sijn Godheyt nimmermeer verwerpet of verdomt.</l>
+						<l>Ach Heere, ick ghelooft, vergheeft my mijne zonden,</l>
+						<l>Jck ben door mijne schult ghekercket, en ghebonden.</l>
+						<l>Ghy straft rechtveerdelijck, 'k verliet u wet, en woort.</l>
+						<l>Hier komen d'onbesneen, nu moet ick wed'rom voort.</l>
+						<stage>De Vorsten sittende boven inden Tempel aen een Maeltydt met Delila.
+							Rey der Philisteenen vrolijck zynde, d'instrumenten oft Musijck.</stage>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>Nu Delila, ghy die zijt d'oorsaeck van ons vreuchde.</l>
+						<l>Die onse vrolijckheyt veroorsaeckt door u vlijt:</l>
+						<l>Singht nu eens 't blyde liet 't gheen Dagon toe-ghewijt</l>
+						<l>Js, tot een danckbaerheyt.</l>
+					</sp>
+					<sp who="#delila">
+						<speaker>Del.</speaker>
+						<l>Mijn ziele die verheuchde</l>
+						<l>O Vorsten! als ick sach dat u versturven deuchde,</l>
+						<l>Door Simson wierd verjeught, wiens al te wond're kracht,</l>
+
+						<l>Door mijn hand wierd verrast die yder nu belacht,</l>
+						<l>'t Moet met hem winter zyn die steets in min verheughde.</l>
+					</sp>
+					<sp who="#rehob">
+						<speaker>Rebob</speaker>
+						<l>Hy maelt, en drayt een rat, 't geen nimmermeer en wint.</l>
+						<l>Hy was, of sach te gauw, maer d'ooghen die geblint</l>
+						<l>Nu zyn, versek'ren ons, de krachten zijn ghedwongen.</l>
+					</sp>
+					<sp who="#sobab">
+						<speaker>Sobab.</speaker>
+						<l>D'Al-dwingher die 't al dwongh was sterck door 't langhe hayr,</l>
+						<l>Nu ist hem afghekort, nu dwinght m'hem.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ahu.</speaker>
+						<l>Me-vrou waer</l>
+						<l>Na ist dat ghy toeft, daer dient noch eens ghesonghen.</l>
+					</sp>
+					<sp who="#phicol">
+						<speaker>Phico</speaker>
+						<l>Mijn Heeren soo 't uw haeght, datmen eerst een beveelt,</l>
+						<l>Die Simson hael, op dat hy voor de Vorsten speelt,</l>
+						<l>Soo sien w'ons ooghen lust, en voeden onse wrake.</l>
+					</sp>
+					<sp who="#thoy">
+						<speaker>Thoy.</speaker>
+						<l>'t Gevalt my wel.</l>
+					</sp>
+					<sp who="#ahvsath">
+						<speaker>Ah.</speaker>
+						<l>'t Behaecht ons oock.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Bo.</speaker>
+						<l>'kSel maken</l>
+						<l>Heerschops dat hy hier datelijck verschyn:</l>
+						<l>Maer eerst klaer ick uyt deze roemer mit wijn.</l>
+						<stage>Pausa, de Philistynsche. Instrumenten, en dansen.</stage>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer</speaker>
+						<l>Simson komt veur den dach, en speult wat snip, snap, snarp,</l>
+						<l>De Hopluy die begheerent.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Sim.</speaker>
+						<l>Amri, haelt my de harp.</l>
+					</sp>
+					<sp who="#boer">
+						<speaker>Boer</speaker>
+						<l>Past dat je me lustigh maeckt de vingheren te roeren.</l>
+						<l>'t Js byget voor Heeren, en Juffers, en veur gien plompe boeren.</l>
+						<l>Die verstaen hun dat spul niet, 't gaet boven hun begrijp,</l>
+						<l>Sy prijsen de Veel, trommeltje, 't schodt, en de sack-pijp.</l>
+						<l>Ja stel ghy de snaren vast, ick weet mijn weetje,</l>
+						<l>Jn d'wijl het schaepjen bleet, soo verliest het een beetje.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Amri wat's dat voor een? soo wrevel inde mont?</l>
+					</sp>
+					<sp who="#amri">
+						<speaker>Amri.</speaker>
+						<l>Mijn Heer het is een Boer, voor u een snooden hont.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson.</speaker>
+						<l>Helaes dat ben ick nu, ach Hemel stort u gave</l>
+						<l>Noch eenmael over een verachte, blinde slave.</l>
+						<l>Gunt my o Heere, Heer, dat ick beleef dien dach,</l>
+						<l>Dat ick voor mijn ghesicht my eenmael wreken mach:</l>
+						<l>Gheeft uwe knecht de kracht, myn kracht is my besweken,</l>
+						<l>Ach, mocht ick my noch aen de Philistijnen wreken.</l>
+					</sp>
+				</div>
+				<div n="5" type="scene">
+					<head>'t Liet der Philistijnen, singhende op den Tempel</head>
+					<sp who="#rey-der-phylistynsche">
+						<l>DE Goden die Aerd regeren,</l>
+						<l>Groot gheacht,</l>
+						<l>Monarchen die 't hier al overheren</l>
+						<l>Door hun macht,</l>
+						<l>Moeten al,, door 't gheval,,</l>
+						<l>Nu met den Philistyn,, vervrolyckt zijn.</l>
+
+						<l>2. De Coningen die hun scepters swayen</l>
+						<l>Eel van bloet,</l>
+						<l>Wiens eere geen tongh en kan verbreyen</l>
+						<l>Bie'n ootmoet,</l>
+						<l>D'Godt der Goon,, die hun kroon</l>
+						<l>d'Een na believen geeft, en d'aer ontleeft.</l>
+						<l>3. De Vorsten die d'Arabers tarten</l>
+						<l>Door hun swaert,</l>
+						<l>De stoute onvertsaeghde herten</l>
+						<l>Kussen d'Aerd,</l>
+						<l>Al hun eer,, schilt en speer,</l>
+						<l>Ia pylen, ende boogh,, breeckt een om hoogh.</l>
+						<l>4. God die om hoogh d'Hemelen spande,</l>
+						<l>Als een tent,</l>
+						<l>Die ons Simson gaf in handen,</l>
+						<l>Heeft ghewent</l>
+						<l>Onsen druck,, dies 't gheluck,</l>
+						<l>Nu t'Goddelijck geslacht,, vrolijck toelacht.</l>
+						<l>5. Lof sy God Dagon die onz' sonden,</l>
+						<l>Heeft bedeckt,</l>
+						<l>Die onse vyand' heeft ghebonden,</l>
+						<l>En begeckt,</l>
+						<l>Die ons joegh,, en versloegh,</l>
+						<l>Die heeft nu onse Godt,, met smaet bespot.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Ay my, ick ben soo moe, mijn beenen my beswijcken.</l>
+						<l>Amri is daer veel volcx?</l>
+					</sp>
+					<sp who="#amri">
+						<speaker>Amri.</speaker>
+						<l>De meeste vande rijcken.</l>
+						<l>De Vorsten, 't isser al, de hoogh, en laeghe staet.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Nu voor de leste dienst, mijn vriend, ick bid u, gaet,</l>
+						<l>En leyt my onder 't huys, by zuylen rust ick garen,</l>
+					</sp>
+					<sp who="#amri">
+						<speaker>Amri.</speaker>
+						<l>Mijn Heer 't ghebou dat rust heel op dees twee Pilaeren.</l>
+					</sp>
+					<sp who="#simson">
+						<speaker>Simson</speaker>
+						<l>Neemt dese harp, en maeckt u wegh. Heere helpt mijn</l>
+						<l>Ziele leeft, en sterreft nu met de Philistijn.</l>						
+					</sp>
+					<stage>Hier treckt hy den Tempel omme, daer hy selfs onder blyft, met de
+						Vorsten.</stage>
+				</div>
+				<div n="6" type="scene">
+
+					<head>III. Handelinghe. Leste Wtkomste.</head>
+					<stage>Rey der Ioodtsche.</stage>
+					<sp who="#rey-der-ioodtsche">
+						<l>BEclaghelijcke Vorst, onsichelijke Ioode,</l>
+						<l>Doorluchtighe Danit, en onverschrickten Helt,</l>
+						<l>U Broeders, laes, sien u verslaghen by de doode,</l>
+						<l>O heerscher! was u kracht en wonderlijck ghewelt</l>
+						<l>D'oorsaecke van u doodt? mosten dees stercke armen</l>
+						<l>Dy brenghen in het graf, helaes, ontzielde kas,</l>
+						<l>Laes, Helt die veertich Iaer als rechter kont beschermen</l>
+						<l>Israel, voor de geen die onsen vyandt was.</l>
+						<l>Slaept, slaept door uwe doodt, hebdy dry-duyst ontzielt,</l>
+						<l>Onbind'lijck was u kracht, ô onverwonnen wonder!</l>
+						<l>k' Hebt door u sterckte sterck der stercken kracht vernielt,</l>
+						<l>Wat schuylt hier g'heymenis, figurelijcke onder.</l>
+						<l>D'Heer Christus is, en was, de waere Nazareen,</l>
+						<l>D'Heer Christus is alleen hier afghebeeld gelettert,</l>
+						<l>Onder een Simsons beeld: wiens groote kracht alleen,</l>
+						<l>Heeft stervende de macht van 't Helsche rodt verplettert.</l>
+						<l>Iscarioth die kust, hy levert door verraet,</l>
+						<l>Die ons van sond ontbindt, die binden s' als ghevanghen,</l>
+						<l>Sy blinden 's werelts licht nae Godts bescheyden raet,</l>
+						<l>S' hebben huns levens Vorst aen 't hout des kruys ghehanghen.</l>
+						<l>O doodt, hy was u doot! ô hel, u helsche macht</l>
+						<l>Viel schandelijck ter neer, wanneer Godts Soon verheven,</l>
+						<l>Verwinnende verwon, en riep 't is al volbracht,</l>
+						<l>O Simson, Heylandt Christ V doodt alleen doet leven.</l>
+						<l>Ha stercken! waer 's u macht? waer is u wrevel rot?</l>
+						<l>Waer is u rycken buyt, en u gheroofde vaten?</l>
+						<l>Een Simson bindt u kracht als een warachtich Godt,</l>
+						<l>Siet, siet! hy overwint al scheen hy meest verlaten.</l>
+						<l>Waerom kondy ô graf! verderffelijcke hel</l>
+						<l>Niet houden in u schoot dien alderhoochsten Coningh?</l>
+						<l>'t Was een onmoghelijck werck, den Helt in Israel</l>
+						<l>Glorieuselyck verrees na 's Hemels blyde wooningh.</l>
+						<l>Begraeft, neemt wech, ô Ioon! beweent de sterckste Man,</l>
+						<l>Die oyt de Son bescheen, en Moeder heeft ghedraghen,</l>
+						<l>Dijn 'sVaders huys beschrey die niet weer komen kan,</l>
+						<l>Die Wt levender jonst treur-eyndich eyndt zyn daghen.</l>
+						<l> </l>
+						<l>EYNDE.</l>
+					</sp>
+					<p>Blijft volstandich.</p>
+				</div>
+				<div type="appendix">
+					<head>Klinck-dicht.</head>
+					<lg>
+						<l>Wie staech in Neer-duyts soeckt zijn tael hier te onthouwen,</l>
+						<l>Die komt aenschout hoe ons Abram de Coninck milt,</l>
+						<l>Door zijn vernuft, en konst, te saem (hier leeren wilt)</l>
+						<l>'t Bedroch dat heym'lijck schuylt onder beveynsde vrouwen.</l>
+						<l>Ghelijck als hier naer volcht, Const lievers wilt aenschouwen,</l>
+						<l>Hoe Delila door list Simson het hayr af scheert,</l>
+						<l>Die duyst manlijcke Mans het onderst' opwaerts keert,</l>
+						<l>Wierdt listich door een Vrou ghebrocht in groot benouwen.</l>
+						<l>Sijn vyandt seer verheucht, meende 't was doen te niet,</l>
+						<l>Doen Simson door een Vrou was komen in 't verdriet,</l>
+						<l>Maer zijn doot noch verslondt by dryduyst Philistijnen.</l>
+						<l>Hier in ghy mercken kont wat sterckte is met vliet,</l>
+						<l>Als onsen Rymert hier in re'en-rijck heeft bediet,</l>
+						<l>En aerdich op 't Tooneel sietmen 't nae 't leven schijnen.</l>
+					</lg>
+					<p>L.V.Y.</p>
+				</div>
+				<div type="appendix">
+
+					<head>Eerdicht, op Simsons Treur-spel Van Abraham de Koningh.</head>
+					<lg>
+						<l>GHy Griecken die met u ghedichten opgheblasen,</l>
+						<l>De werelt wondert, en de volcken doet verbasen.</l>
+						<l>Die met u namen van onsterffelycke lof</l>
+						<l>Verwonderinghen maeckt, de volcken die in 't stof</l>
+						<l>Van duysternissen wilt versteken, en bedoven,</l>
+						<l>Gantsch kundeloos, nochtans u groote dinghen loven.</l>
+						<l>Indien ghy spannen kond met Roomen alle bey</l>
+						<l>Van dichters uyt-ghekeurt Poëtelijck een Rey:</l>
+						<l>En wapen-ryck te zaem u woorden deft, en reden,</l>
+						<l>Op 't çierelyckste mocht op-smucken, en becleeden:</l>
+						<l>Ia alles rechten uyt, wat uyt te rechten stont,</l>
+						<l>'k Wed ghy in dese eeuw Hollantsche borsten vondt</l>
+						<l>Beswanghert met een moet, soo wel van hert als harssen,</l>
+						<l>Om u (trots sulcks) met re'en, om redenen te parssen,</l>
+						<l>En dat op hunne tael, met woorden rijck van zin,</l>
+						<l>Van treuricheden, of van bly, of droeve min.</l>
+						<l>Van boerteryen, 't sy, of kleyn, of groote saken,</l>
+						<l>Of souden u, ghelyck ghy haer, Patronen maken,</l>
+						<l>Waer uyt ghy ziften sout, de pracht, de pronck, de prael</l>
+						<l>Van haere, even alsse doen van uwe tael.</l>
+						<l>Soo bralt nu sonderlingh van gheesten uytghenomen</l>
+						<l>Het prachtigh Amsterdam, soo uytgherustet komen</l>
+
+						<l>De dichten wel ghevoeght: van stael, van schick, van maet,</l>
+						<l>Dat de verwond'ringh in verwond'ren selfs bestaet.</l>
+						<l>Aen Hoofden sietmen 't, en Coninghen openbaren,</l>
+						<l>Als of het Grieksche, en al Roomsche dichters waren.</l>
+						<l>Dat segghen wercken, en dat segh een yder stuck</l>
+						<l>Ghemeen aen elck, en voor de Werelt inden druck.</l>
+						<l>Dat segghe Simson oock, dees Simson die begrepen</l>
+						<l>Is van vernuftigh breyn, van sinnen wel beslepen.</l>
+						<l>Dees Simson, die hoewel van leden groot, en grof,</l>
+						<l>Door 't minnen kryght zyn doodt, en door zyn sterckte lof</l>
+						<l>By overleefde, en noch levende gheslachten,</l>
+						<l>Die roemen zyn ghewelt, en zyne min verachten:</l>
+						<l>Hem siende nu alhier selfs winnaer, selfs vermant,</l>
+						<l>Soecken te roemen u Dichter, en u verstandt,</l>
+						<l>Met stoffe waerdich om ter eeren te verheffen,</l>
+						<l>Maer u waerdye schynt hun machten t' overtreffen,</l>
+						<l>Als machteloos by u, O Conincklijck Poët!</l>
+						<l>Die wel te recht verdient dat ghy nu Coninck heet.</l>
+						<l>Laet Griecken roemen nu, want alle datse houwen</l>
+						<l>By hun ghemeen te zyn, dat moochdy hier aenschouwen,</l>
+						<l>Laet queelen hun van min, hier hebdy die verbeelt,</l>
+						<l>Dat yder woort, en vers, u een verwond'ren steelt.</l>
+						<l>Wildy manhafticheyt, of wildy veynsen, smeken,</l>
+						<l>Dat siedy door een Vrou, door-trapt, en schalck besteken.</l>
+						<l>Wildy verbaestheyt van verblufte Philisteen?</l>
+						<l>Wildy hun val? en wildy Isr'els treuricheen?</l>
+						<l>Hier hebdy 't uyt-ghekipt, van onghemeene standen.</l>
+						<l>Hier hebdyt t'zaem ghevoeght, ghebreydelt met de banden</l>
+						<l>Van wetenschap, en konst, soo gheestich uytghebromt,</l>
+						<l>Dat hem, en wel te recht, den Lauwerier toekomt,</l>
+						<l>En dat Poëten t'zaem hem çierelijcken vlechten</l>
+						<l>Een groen onwelckbaer krans, om op zijn hooft te hechten.</l>
+					</lg>
+					<p>Een boven al.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
