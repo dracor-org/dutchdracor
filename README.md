@@ -9,6 +9,7 @@ The collection contains fully encoded xml-documents based on digital theatre edi
 ([DBNL](https://www.dbnl.org/)) and the Census Nederlands Toneel ([Ceneton](https://www.let.leidenuniv.nl/Dutch/Ceneton/)), edited by Ton Harmsen.
 Each play was converted semi-automatically to DraCor-TEI, annotated manually by students from the University of Groningen (see the contributors below) and checked by Lucas van der Deijl. 
 DutchDraCor was launched in April 2024 with a first selection of 100 plays, mostly from the seventeenth century. The corpus will continue to grow, with a focus on early modern material (1550-1800).
+The corpus can be accessed via the DraCor website and API, or directly via [GitHub](https://github.com/dracor-org/dutchdracor/tree/main/tei).
 
 ## Contributors
 DutchDraCor was created with the assistance of many contributors: Teun de Vries, Hinke van Minnen, Mirthe Wubs, Mirte Triezenberg, Jasmijn van Valkenburg, 
