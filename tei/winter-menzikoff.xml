@@ -1,0 +1,3895 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000233" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Menzikoff</title>
+				<title type="sub"/>
+				<author>
+					<persName>
+						<forename>Nicolaas Simon</forename>
+						<nameLink>van</nameLink>
+						<surname>Winter</surname>
+					</persName>
+					<idno type="wikidata">Q2697615</idno>
+					<idno type="pnd"/>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL"
+						>https://www.dbnl.org/tekst/wint009toon02_01/wint009toon02_01_0002.php</idno>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Nicolaas Simon van Winter en Lucretia Wilhelmina van Merken:
+						Tooneelpoëzy. Deel 2. Amsterdam: Pieter Johannes Uylenbroek, 1786.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="MALE" xml:id="alexis">
+						<persName>Alexis Fedorowits</persName>
+					</person>
+					<person sex="MALE" xml:id="bazilius">
+						<persName>Bazilius</persName>
+					</person>
+					<person sex="MALE" xml:id="biron">
+						<persName>Gustaaf Biron</persName>
+					</person>
+					<person sex="FEMALE" xml:id="eudoxe">
+						<persName>Eudoxe</persName>
+					</person>
+					<person sex="MALE" xml:id="iwan">
+						<persName>Iwan</persName>
+					</person>
+					<person sex="MALE" xml:id="menzikoff">
+						<persName>Alexander Menzikoff</persName>
+					</person>
+					<person sex="MALE" xml:id="natalia">
+						<persName>Natalia</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-30">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+		<standOff>
+			<listEvent>
+				<event type="print" when="1786">
+					<desc/>
+				</event>
+			</listEvent>
+			<listRelation>
+				<relation active="https://dracor.org/entity/" name="wikidata"
+					passive="http://www.wikidata.org/entity/"/>
+			</listRelation>
+		</standOff>
+
+	
+	<text>
+		<front>
+			<div type="preface">
+
+				<head>Menzikoff. <lb/> Treurspel. <lb/> Door Nicolaas Simon van Winter.</head>
+
+				<head>Voorbericht.</head>
+				<p>Onder de menigvuldige stand- en staatsverwisselingen, die het menschdom in 't
+					gemeen, en sommige stervelingen in 't byzonder, in dit leven treffen, heeft de
+					eerste staatsdienaar van Czaar Peter, den eersten, zodanig een lot ondervonden
+					als aan weinigen ten deele valt. Menzikoff in Siberiën te vinden, trof myn'
+					geest zo geweldig, dat ik, zynen toestand gestadig voor myne gedachten hebbende,
+					besloot myne denkbeelden bot te vieren, en te waagen om hem naast Monzongo te
+					stellen: weinig dacht ik, toen ik Monzongo, myn eenig tooneelstuk, gemaakt had,
+					dat my, twintig jaaren daarna, een stof zou voorkomen, die my daartoe zou kunnen
+					doen besluiten. Ik durf my niet vleien dat myne aandoeningen, onder het
+					saamenstellen van Menzikoff ondervonden, my borg genoeg kunnen zyn voor zulk
+					eenen algemeenen goeden uitslag als myn' Monzongo te beurte gevallen is; dan hoe
+					dit zyn mooge, myne klimmende jaaren verzekeren my, dat dit myn laatste
+					dichterlyke arbeid zyn zal, dien ik myne deugd- en dichtlievende landgenooten
+					zal aanbieden.</p>
+			</div>
+			<castList>
+
+				<head>Vertooners.</head>
+				<castItem corresp="#menzikoff">
+					<role>Alexander Menzikoff.</role>
+				</castItem>
+				<castItem corresp="#iwan">
+					<role>Iwan, Zoon } van Menzikoff.</role>
+				</castItem>
+				<castItem corresp="#eudoxe">
+					<role>Eudoxe, Dochter } van Menzikoff.</role>
+				</castItem>
+				<castItem corresp="#biron">
+					<role>Gustaaf Biron, onder den naam van Constantyn.</role>
+				</castItem>
+				<castItem corresp="#alexis">
+					<role>Alexis Fedorowits, voorheen Luitenant van Menzikoff.</role>
+				</castItem>
+				<castItem corresp="#natalia">
+					<role>Natalia, Voedster van Eudoxe.</role>
+				</castItem>
+				<castItem corresp="#bazilius">
+					<role>Bazilius, Vertrouweling van Constantyn.</role>
+				</castItem>
+			</castList>
+			<castList>
+				<head>Zwygenden.</head>
+				<castItem corresp="#gevolg">
+					<role>Gevolg van Alexis.</role>
+				</castItem>
+				<castItem corresp="#eenige-slaaven">
+					<role>Eenige Slaaven van Menzikoff en Biron.</role>
+				</castItem>
+
+				<p>Het TOONEEL is in SIBERIËN, in de woesteny van Jacoutska, naby Berozow.</p>
+				<p>Het eerste bedryf speelt in een woest landschap; de overigen in een bosch, by het
+					huis van Menzikoff.</p>
+
+				<figure/>
+				<p>Myn waarde Kinders! smaakt een ongestoord geluk! <lb/> Vde Bedr. VIIde Toon.
+					<lb/> p.j. uylenbroek excud.</p>
+			</castList>
+
+		</front>
+		<body>
+			<div type="act" n="1">
+
+				<head>Menzikoff. </head>
+				<stage>Het tooneel verbeeld een woest bergachtig landschap, met eenige boomen op den
+					voorgrond, by welken, aan de eene zyde, een steenhoop is opgericht.</stage>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>alleen;</stage>
+						<stage>in het gewaad van een' landman, zynde een py van grof bruin laken,
+							hebbende een muts met een' bonten rand op het hoofd, en een' stok in de
+							hand, op welken hy van tyd tot tyd leent; langzaam optreedende.</stage>
+						<l>Het licht verdryft in 't eind' het maandenduurend duister:</l>
+						<l>De zon verspreid haar' glans met nieuwherbooren luister,</l>
+						<l>En geeft het leven weêr aan deze woesteny;</l>
+						<l>Maar, wie zy troost verleen', 't word nimmer dag voor my.</l>
+
+						<l>Myn kwynend hart, verteerd door 't woên der wreedste rampen,</l>
+						<l>Waarmede ooit sterveling op aarde had te kampen,</l>
+						<l>Word eindloos, 't zy dit oord een' langen dag geniet'</l>
+						<l>Of by het maanlicht kwyn', gefolterd door verdriet.</l>
+						<l>ô Gade, in blyder tyd myn troost en welbehaagen,</l>
+						<l>Op reis bezweeken door 't gewigt van onze plaagen!</l>
+						<l>Hoe zwaar me uw sterflot viel, gy wierd voor 't minst bevryd</l>
+						<l>Van al de elende, die uw troostloos maagschap lyd.</l>
+						<l>En gy, myn Dochter! gy, wie zich myn hoop dorst vleien</l>
+						<l>Dat Ruslands Troonmonarch ten zetel zou geleiên!</l>
+						<l>Gy, die alreede alom begroet wierd als Vorstin,</l>
+						<l>En, sints Ryksballing, als de onwaardigste Slaavin</l>
+						<l>Veroordeeld waart met ons hier deerlyk om te zwerven!</l>
+						<l>Van hoe veel jammers zyt ge ontslaagen door uw sterven!</l>
+						<l>Gelukkig hy, wien 't graf een stille schuilplaats bied!</l>
+						<stage>Hy treed naar den steenhoop.</stage>
+						<l>Slaap vreedzaam, dierbaar Pand! 'k benyde uw rust u niet,</l>
+						<l>Schoon ik, zo lang ik leef, uw sterflot zal beweenen:</l>
+						<l>Een wenschelyke dood zal ons welhaast herëenen.</l>
+						<l>Door hartewee verteerd, door droefheid afgeleefd,</l>
+						<l>Gevoel ik dag aan dag dat my de kracht begeeft.</l>
+						<l>Maar ach! Eudoxes lot en dat van haaren Broeder...</l>
+						<l>ô Denkbeeld, dat my moord! ... ô Hemel! wees hun hoeder! ...</l>
+						<l>Tot welk een onheil heeft de staatzucht my gebragt!</l>
+
+						<l>Ach! had ik nooit naar eer, nooit naar bewint getracht;</l>
+						<l>My met den stand vernoegd, waarin ik wierd gebooren;</l>
+						<l>Myn huis noch my waare ooit dit ongeval beschooren!</l>
+						<stage>Hy knielt met moeite by den steenhoop.</stage>
+						<l>ô Ziel van 't waardig Pand, dat in deez' grafkuil rust!</l>
+						<l>Is u nog iets van de aarde en van ons lot bewust,</l>
+						<l>Smeek dan den Hemel om een einde aan myne elenden,</l>
+						<l>En dat hy 't onheil van myn troostloos kroost will' wenden.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Menzikoff, Iwan.</stage>
+					<sp who="#iwan">
+						<speaker>Iwan,</speaker>
+						<stage>in het opkomen.</stage>
+						<l>Myn dierbre Vader by myn Zusters graf geknield;</l>
+						<l>Ten prooie aan al den rouw, die hem en ons ontzielt!</l>
+						<l>Wat schouwtooneel! Helaas! hy weent. Best dat ik nader',</l>
+						<l>Eer hy door droefheid sterv'.</l>
+						<stage>Hy knielt by Menzikoff.</stage>
+						<l>Myn teêrgeliefde Vader!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>opziende.</stage>
+						<l>Myn Zoon!</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Verlaat een plaats, die uw verdriet vergroot.</l>
+
+						<l>Uw ziel beweent met recht Elizes vroege dood;</l>
+						<l>Dan ach! wat zal het zyn zo u de smart doet sneeven!</l>
+						<l>Denk om de Kindren, die u ovrig zyn gebleeven.</l>
+						<l>Duld dat uw Zoon u trooste, en opbeure uit het stof.</l>
+					</sp>
+					<stage>Hy richt hem op.</stage>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Uw ouderlievend hart verdient den hoogsten lof;</l>
+						<l>Doch kan ik ooit dit graf beschouwen zonder traanen?</l>
+						<stage>Zich grafwaart wendende.</stage>
+						<l>Elize! is dit de weg, dien ik u dacht te baanen,</l>
+						<l>Toen Peter u beminde en naar uw huwlyk dong;</l>
+						<l>Toen Ruslands maagdenrei uw deugd ter eere zong;</l>
+						<l>Toen alles vaardig scheen u als Vorstin te groeten?</l>
+						<l>Bedrieglyk schyngeluk, dat gy te duur moest boeten!</l>
+						<stage>Tegen Iwan.</stage>
+						<l>Wat bleef haar ovrig van den glans en heerlykheid,</l>
+						<l>Waarmede ik te onbedacht haar zinnen had gevleid?</l>
+						<l>Een wreede ballingschap in barre wildernissen,</l>
+						<l>Waarin zy niet alleen en troon en kroon moest missen,</l>
+						<l>Maar huis en vaderland, en kleeding en gemak;</l>
+						<l>En, maanden achter een, zelfs schuilplaats onder 't dak,</l>
+						<l>Terwyl zy, nevens ons, gedrukt wierd door elenden,</l>
+						<l>Waarvan we in blyder tyd den blooten naam niet kenden;</l>
+						<l>Tot zy in 't eind' bezweek door 't woeden van 't verdriet.</l>
+
+						<stage>Op het graf wyzende.</stage>
+						<l>Zie daar, zie daar, helaas! all' wat haar overschiet.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Deze akelige plaats verleent den rouw slechts krachten;</l>
+						<l>Elizes blyde ziel hoort niets van onze klagten.</l>
+						<l>Toon, smeek ik, met uzelv' toch meerder deerenis;</l>
+						<l>Vergeet, zo veel gy kunt, het geen geleeden is:</l>
+						<l>Gy hebt geen nieuwe stof tot grooter smart van nooden.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>'k Beween de levenden nog sterker dan de dooden.</l>
+						<l>Myn eigen ongeluk waar' my geen traanen waard',</l>
+						<l>Zo door uw beider lot myn druk niet wierd verzwaard.</l>
+						<l>Ik nader, ik gevoel 't, het einde van myn lyden;</l>
+						<l>De dood zal my eerlang van myne elend' bevryden;</l>
+						<l>Waartoe u zulks ontveinsd? Bereid u tot dien slag,</l>
+						<l>En troost Eudoxes hart, zo troosten helpen mag;</l>
+						<l>Myn tedre voorzorg kan noch u noch haar meer baaten;</l>
+						<l>Myn Zoon, ik zal welhaast u beiden achterlaaten.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>De Hemel hoede ons voor den ramp, dien gy voorspelt!</l>
+						<l>Ach! is uw moed geheel door 't onheil neêrgeveld?</l>
+						<l>Gy waart, tot aan dit uur, groothartig, onbezweeken.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Het is geen wanhoop, 't is gevoel dat my doet spreeken.</l>
+
+						<l>Ik heb gelegenheid gewenscht tot dit bericht.</l>
+						<l>Uw Zusters dierbaar lyk, dat hier begraaven ligt,</l>
+						<l>Deed in dit oogenblik my met meer krachts beseffen</l>
+						<l>Hoe onvoorzien die slag u beiden stond te treffen.</l>
+						<l>Elizes droeve dood toont dit, helaas! te klaar;</l>
+						<l>Wanneer ik sterf, myn Zoon, begraaf my nevens haar.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>De Hemel keer' dien ramp, en rekke uw dierbre dagen!</l>
+						<l>Dan geeft Siberië ons voortaan geen stof tot klaagen.</l>
+						<l>Uw trouwe voorzorg heeft den hoogsten nood geweerd,</l>
+						<l>Sints ge aan ons klein gezin den landbouw hebt geleerd:</l>
+						<l>Hun onvermoeide vlyt doet onzen voorraad groeien;</l>
+						<l>De lammrenkudde tiert, de frissche runders loeien</l>
+						<l>Langs vlakten, waar welëer noch gras noch lover stond;</l>
+						<l>Het akelig gebrek verdwynt van onzen grond.</l>
+						<l>Gelukkig, zo men hier, in eenzaamheid gezeten,</l>
+						<l>Den hoofschen jammerpoel voor eeuwig kon vergeeten!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Gy maalt dit bar gewest thans van de beste zy'.</l>
+						<l>Siberië is en blyft een naare woesteny:</l>
+						<l>De bosschen zyn vervuld met ongetemde dieren;</l>
+						<l>De lange en bange nacht, waarin de stormen gieren,</l>
+						<l>Vergroot den schrik van dit in sneeuw begraaven oord;</l>
+						<l>Het land, door ons bebouwd, brengt schaars ons voedzel voort.</l>
+
+						<l>Welk een verschil, helaas! by 't heil van vroeger jaaren!</l>
+						<l>Nog strekte 't ons ten troost, indien hier menschen waaren;</l>
+						<l>Doch buiten Constantyn, die zich, in 't somber woud,</l>
+						<l>Met zyn gering gezin niet verr' van hier onthoud,</l>
+						<l>En uit weldaadigheid somtyds ons komt bezoeken,</l>
+						<l>Genaakt geen sterveling deze onbewoonde hoeken.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Dit is 't misschien, dat my dit oord verdraaglyk maakt.</l>
+						<l>Ik gruw van 't menschdom, dat van woede en afgunst blaakt:</l>
+						<l>'k Zie in elk' sterveling een' booswicht en verraader;</l>
+						<l>Bewerker van 't bederf van ons en onzen Vader.</l>
+						<l>Wat heeft hun snoodheid ons al ongevals bereid!</l>
+						<l>Met welk een laagheid heeft hun list ons niet gevleid!</l>
+						<l>Elk offerde ons zyn' dienst, zyn goedren, ja zyn leven;</l>
+						<l>En naauw' heeft ons 't geluk en 's Vorsten gunst begeeven,</l>
+						<l>Of elk keert ons den nek, bejegent ons met smaad,</l>
+						<l>En geeft om stryd ons blyk van langverkropten haat.</l>
+						<l>Ik wenschte in dit gewest geen sterfling ooit te aanschouwen.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Deze onbedachte wensch kon mooglyk u berouwen.</l>
+						<l>Uw ziel, myn Iwan! is verbitterd door 't verdriet.</l>
+						<l>Stel op dezelfde lyst het gantsche menschdom niet.</l>
+						<l>Daar zyn 'er, ik beken 't, die snood den veinsäart speelen,</l>
+						<l>Maar ook getrouwen, die in 's naasten onheil deelen.</l>
+
+						<l>'k Heb dikwerf my beklaagd, dat ik, te sterk verknocht</l>
+						<l>Aan 't heil dat ik bejoeg, geen vrienden heb gezocht.</l>
+						<l>Geef my geloof, myn Zoon; doe met myn dwaaling voordeel;</l>
+						<l>Besmet uw vroomheid niet door een partydig oordeel.</l>
+						<l>Leg waarde op 't schoon der deugd, wanneer gy de ondeugd vloekt.</l>
+						<l>De braave Constantyn, die sterk uw vriendschap zoekt,</l>
+						<l>Wiens edelmoedigheid met reden my verwondert,</l>
+						<l>Verdient voor 't minst door u te worden uitgezonderd.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Hy toont zich tegen ons gedienstig en beleefd,</l>
+						<l>En schynt de lofspraak waard', die hem uw goedheid geeft;</l>
+						<l>Maar doet hem 't zelfbelang niet naar myn vriendschap trachten,</l>
+						<l>En zou hy voor zyn' dienst geen ander loon verwachten?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Wat loon wacht hy van ons, daar ons de tegenspoed...?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Eudoxe is in zyn oog een onwaardeerbaar goed.</l>
+						<l>'k Heb meer dan eens zyn liefde in zyn gezicht geleezen,</l>
+						<l>Hoe loos hy die verbergt.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Mogt zy de zyne wezen!</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Wat hoor ik! Kan het zyn! Veelligt beproeft gy my.</l>
+						<l>Eudoxe eens ballings gaê!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Wy zyn 't zo wel als hy.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Herdenk de waardigheid waartoe gy wierd verheven.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Kan ik in dezen staat haar beter weêrhelft geeven?</l>
+						<l>Denkt gy, dat eenig mensch voortaan haar minnen zal;</l>
+						<l>Zich huwen aan een huis, gezonken door zyn' val?</l>
+						<l>De Grooten, die welëer naar haar bezitting trachtten,</l>
+						<l>Zyn met het wuft geluk veranderd van gedachten.</l>
+						<l>Men acht het ongeval besmetlyk op deze aard'.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Die snoode weiflaars zyn Eudoxes hand onwaard'.</l>
+						<l>'k Veracht de dwaazen, die verdienste in hutten schuwen.</l>
+						<l>Maar wat beweegt u toch, om thans haar uit te huwen?</l>
+						<l>Waar is zy veiliger dan in dees wildernis,</l>
+						<l>Zo lang haar Vader of haar Broeder by haar is?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Vertrouw myn woord, myn Zoon, myn leven loopt ten ende;</l>
+						<l>En 't zou in 't uiterste uur my troosten in de elende,</l>
+						<l>Indien myn hand Eudoxe aan een' Gemaal verbond,</l>
+						<l>Waarin ze een' toeverlaat, en gy een' Broeder vond.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Verbeeld ge u 't geen gy zoekt in Constantyn te vinden?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Hy durft ten minsten aan rampzaalgen zich verbinden;</l>
+						<l>En, balling nevens ons, heeft hy, in laater tyd,</l>
+						<l>Hoe zich het lot ook wend', geen reden tot verwyt.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Ik zorg dat dit ontwerp ons onheil zal voltrekken,</l>
+						<l>En aan ons zinkend huis tot grooter schande strekken.</l>
+						<l>Hy heelt ons wie hy is, en hoe hy herwaart kwam.</l>
+						<l>'t Is mooglyk dat hy sproot uit een' verachten stam.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>De deugd verheft den mensch, al wierd hy laag gebooren.</l>
+						<l>Ikzelf, myn Zoon, (ik heb u meermaal zulks doen hooren,)</l>
+						<l>Ben in geringen staat geteeld en opgevoed.</l>
+						<l>De waare grootheid hangt niet af van aadlyk bloed.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Zo Constantyn, als wy, zich door gevloekte treeken</l>
+						<l>Van valsche vrienden zag gedoemd naar deze streeken,</l>
+						<l>Ik deed dit oogenblik vervolgde vroomheid recht;</l>
+						<l>Doch ligt wierd hem die straf om misdaên opgelegd.</l>
+						<l>Wie weet wat hy misdreef; hy lyd misschien rechtvaardig;</l>
+						<l>En, zo hy schuldig is, is hy Eudoxe onwaardig.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Verban uwe achterdocht; de braave Constantyn,</l>
+						<l>Wat hem ook herwaart bragt, kan nimmer schuldig zyn.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>'t Is veiligst, wie hy is ten minsten uit te vinden,</l>
+						<l>Eer wy hem, te onbedacht, aan onzen stam verbinden.</l>
+						<l>Een onbezoedeld hart is all' wat ik begeer.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Zo hy Eudoxe mint, weet zy welligt iets meer.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Indien hy durft bestaan zyn trouw haar op te draagen,</l>
+						<l>Heeft zy ten minsten recht hem naar zyn' staat te vraagen.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Zy zoekt ons hier naar 't schynt. Men toets' haar met beleid.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Menzikoff, Iwan; Eudoxe, in eene droefgeestige houding opkomende.</stage>
+					<sp who="#iwan">
+						<speaker>Iwan,</speaker>
+						<stage>haar minzaam te gemoet treedende.</stage>
+						<l>Eudoxe, nadert ge ons dus peinzende en beschreid?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe,</speaker>
+						<stage>hem met tederheid aanziende.</stage>
+						<l>Helaas!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>tegen Eudoxe.</stage>
+						<l>Schep moed, myn Kind! laat eindlyk af van weenen.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe,</speaker>
+						<stage>haar' Vader de hand kussende.</stage>
+						<l>Kan iets op aard' voortaan my stof tot troost verleenen,</l>
+
+						<l>Daar ik met wanhoop zie hoe gy vervallen zyt?</l>
+						<l>Myn hart voorzegt het my, wy beiden zyn u kwyt.</l>
+						<l>Myn Vader, kan uw Kroost uw sterfuur overleeven?</l>
+						<l>En, zo die zwaare ramp myn' Broeder 't eerst doet sneeven,</l>
+						<l>Dan zwerf ik troosteloos in deze woesteny;</l>
+						<l>Een naar verblyf des doods; ach! te akelig voor my!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Vertrouw op 's Hemels zorg, en die van uwen Broeder.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Waar zal ik veilig zyn, beroofd van hulp en hoeder?</l>
+						<l>De dood is al de troost, waarnaar myn ziel verlangt.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Denk dat ons sterflot niet aan onze keuze hangt.</l>
+						<l>Tracht met gelaatenheid uw ongeval te draagen;</l>
+						<l>Uw moed, myn Kindren, zal den mynen onderschraagen.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>'k Heb moeds genoeg, zo lang myn Vader by ons is.</l>
+						<stage>Haar' Vader omhelzende.</stage>
+						<l>Ach! zo ik hoopen kon op uw behoudenis,</l>
+						<l>Dan wierd dees woesteny een lusthof in myne oogen.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>zyne Dochter omarmende, en de hand aan zyn' Zoon reikende.</stage>
+						<l>Ik weet wat ouderliefde en kindermin vermoogen.</l>
+						<l>Uw beider trouw voor my heeft myne elend' verzacht,</l>
+
+						<l>En veel tot stelping van myn hartwond' toegebragt.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>'t Is 't minst van onzen pligt u onze trouw te toonen.</l>
+						<stage>Tegen Eudoxe.</stage>
+						<l>Myn waarde Eudoxe, kunt ge een gulle vraag verschoonen,</l>
+						<l>De vraag eens Broeders, die uw ongeval beklaagt,</l>
+						<l>En voor uw welzyn waakt?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Vraag all' wat u behaagt.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Gy zaagt de vleiers, die, door eigenbaat gedreeven,</l>
+						<l>Eens dongen naar uw hand, u in het leed begeeven;</l>
+						<l>Ligt wierd u eedler hart bewaard in dees woestyn.</l>
+						<stage>Na een weinig stilzwygens.</stage>
+						<l>Ontzeg me uw antwoord niet.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Bedoelt gy Constantyn?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Verberg ons niets, myn Kind, het kon tot voordeel strekken.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>En mooglyk tot verdriet. Wat baat u dit te ontdekken?</l>
+						<l>Gy zaagt van 't oogenblik, waarin ik herwaart kwam,</l>
+						<l>Met hoe veel drifts hy deel in onzen toestand nam.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>En heeft hy om uw hand nooit aanzoek durven waagen?</l>
+						<l>Gy zwygt en bloost, Eudoxe!</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Ik heb hem afgeslaagen.</l>
+						<l>Kan ik, in dezen staat, ooit denken aan een' echt?</l>
+						<l>Doch schoon hem alle hoop op weêrmin is ontzegd,</l>
+						<l>Hy houd standvastig aan.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Deed hy u nimmer hooren</l>
+						<l>Hoe zyn geslachtnaam is, of waar hy wierd gebooren;</l>
+						<l>Wanneer, of om wat reên, hy herwaart wierd gedoemd?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Hy heeft my nooit zyn' naam of vaderland genoemd,</l>
+						<l>Noch zich van 't lot beklaagd dat hy, als wy, moet draagen;</l>
+						<l>Doch 't schynt dat hy zich vleit met hoop op blyder dagen.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Weet gy niets meer?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Hy heeft my verder niets ontdekt.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Het is niet zonder reên dat hy myne aandacht trekt.</l>
+						<l>Hy heeft tot ons behoud zich als een vriend gekweeten.</l>
+						<l>'k Wensch, (ik ontken zulks niet,) iets meer van hem te weeten;</l>
+
+						<l>Eudoxe, vind gy ooit daartoe gelegenheid....</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Misschien vond hy daardoor zich in zyn hoop gevleid:</l>
+						<l>Men doet geen onderzoek naar hen die wy verachten.</l>
+						<l>Ik waag door dezen stap te veel, naar myn gedachten.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Indien de jongling aan geen misdaên schuldig is,</l>
+						<l>Verdient zyn trouw voor ons oprechte erkentenis.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>En zo hy schuldig waar'?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Dan voegt ons hem te myden.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Nochtans behoud hy recht op billyk medelyden.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Ik zal, indien gy 't wilt, dit onderzoek bestaan.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Tracht all' wat hem betreft oplettend naar te gaan;</l>
+						<l>Tracht... Maar wie nadert ons?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Hier is geen reên tot vreezen</l>
+						<l>Dat iemand ons bespied.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>'t Schynt Constantyn te wezen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Menzikoff, Iwan, Eudoxe, Constantyn.</stage>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Myn Vrienden! 'k ben verheugd dat ik u hier ontmoet.</l>
+						<l>'t Geluk van u te zien verzacht myn' tegenspoed.</l>
+						<l>Mogt, mogt myn herwaartkomst uw kwelling ook vermindren!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Getrouwe Toeverlaat van my en van myn Kindren!</l>
+						<l>Uwe edelmoedigheid, die ons zo duur verpligt...</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Gy houd u ras voldaan; 'k heb niets voor u verricht.</l>
+						<l>Geloof my, zo myn magt myn' wensch kon evenaaren,</l>
+						<l>Dit akelig gewest zoude u geen droefheid baaren.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Myn Vriend, ik twyfel niet aan uw menschlievend hart.</l>
+						<l>Myn redding is naby; ik nader 't eind' der smart.</l>
+						<l>Doch 't onheil van myn kroost en 't uwe doet my zuchten.</l>
+						<l>Gy allen zult zo ras uw lyden niet ontvluchten.</l>
+						<l>Ik zorg dat gy allengs mistroostig worden zult.</l>
+						<l>De duurzaamheid der smart baart eindlyk ongeduld.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn,</speaker>
+						<stage>tegen Iwan.</stage>
+						<l>Laat ons, in dezen nood, ons onderling verëenen:</l>
+
+						<l>Ik zal Eudoxe en u standvastig bystand leenen;</l>
+						<l>Steun, bid ik, op myn trouw, die onverbreeklyk is.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Gy kunt verzekerd zyn van onze erkentenis.</l>
+						<l>Laat steeds de vriendschapsband ons onderling verbinden:</l>
+						<l>Het lot brengt Broeders aan, de deugd alleen schenkt Vrinden.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn,</speaker>
+						<stage>tegen Eudoxe.</stage>
+						<l>Kan ik my vleien dat gy stemt in dit verdrag?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Uw nutte bystand, ons beweezen dag aan dag,</l>
+						<l>Heeft u met billykheid myn vriendschap doen verwerven.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Na dees verbindtenis zal ik geruster sterven.</l>
+						<l>Leeft altoos eensgezind, en blyft elkandren by.</l>
+						<l>Gy allen, wreed gedoemd naar deze woesteny,</l>
+						<l>Van vriend en maag beroofd, uit have en erf verstooten,</l>
+						<l>Zyt thans door vriendschap, als door rampspoed, lotgenooten.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Het leed baart minder smart als ons de vriendschap schraagt.</l>
+						<l>Maar hoor, ik bid u, wat dus vroeg my herwaart jaagt.</l>
+						<l>Een van myn slaaven, korts om voorraad uitgezonden,</l>
+						<l>Heeft, in 't gebergte, een' stoet van reizigers gevonden;</l>
+						<l>Zy spoeden naar dees plaats.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Wie had hier volk verwacht?</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Zo hooren we eindlyk iets van 't menschelyk geslacht.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Zy moogen, zo 't hen lust, vry elders heenen trekken;</l>
+						<l>Voor my, ik wensch geen nieuws van dat geslacht te ontdekken;</l>
+						<l>Het vormt een saamenstel van boosheid en verraad:</l>
+						<l>Dit tuige ons Ostermans en Dolgorukkies haat.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Ach! zyn wyzelf, myn Zoon, bevryd van zielgebreken?</l>
+						<l>En...</l>
+						<stage>Tegen Constantyn.</stage>
+						<l>Doch Bazilius wenscht u, naar 't schynt, te spreeken.</l>
+						<l>Volg ons na dat gesprek, en blyf deez' dag ons by;</l>
+						<l>Dus vormen we onderling een kleine maatschappy.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Ik acht dees bede eene eer.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>Constantyn, Bazilius.</stage>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Hebt gy my iets te ontdekken?</l>
+					</sp>
+					<sp who="#bazilius">
+						<speaker>Bazilius.</speaker>
+						<l>Laat ons, zo 't mooglyk is, terstond van hier vertrekken.</l>
+						<l>Wat zal het zyn, als ons het reizend volk herkent,</l>
+						<l>Dat, zo men ons bericht, zich naar deze oorden wend?</l>
+						<l>Indien het aan het Hof uw' vreemden stap doet hooren,</l>
+						<l>Zyt gy en uw geslacht in eeuwigheid verlooren.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>'t Is niet waarschynlyk dat my iemand kennen zal.</l>
+					</sp>
+					<sp who="#bazilius">
+						<speaker>Bazilius.</speaker>
+						<l>Gy stort moedwillig u in 't schriklykst ongeval.</l>
+						<l>Wat raakt u Menzikoff en zyne tegenspoeden?</l>
+						<l>Verlaat rampzaligen, die gy niet kunt behoeden.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>De deernis, waarde Vriend, geeft my eene eedler wet.</l>
+						<l>Gy hebt tot deze deugd welëer my aangezet;</l>
+						<l>Gy deed my luistren naar der droeven jammerklagten;</l>
+						<l>Gy leerde my hun lot, zo veel ik kon, verzachten;</l>
+						<l>En zoud gy, nu de kans daartoe my gunstig staat,</l>
+						<l>Thans de eerste kunnen zyn, die my dien pligt ontraad?</l>
+					</sp>
+					<sp who="#bazilius">
+						<speaker>Bazilius.</speaker>
+						<l>Het voegt eene eedle ziel, met 's naasten leed bewoogen,</l>
+						<l>Hen blyk te geeven van grootmoedig mededoogen;</l>
+						<l>Doch niet dat zy zichzelf met hen in rampen stort,</l>
+						<l>Waardoor hun ongeval niet draagelyker word.</l>
+
+						<l>Hebt ge uw weldaadigheid door my zien tegenstreever</l>
+						<l>Toen gy, door deerenis met Menzikoff gedreeven,</l>
+						<l>Hem slaaven leende tot bebouwing van den grond,</l>
+						<l>En hem een lammrenkudde en nuttig melkvee zond?</l>
+						<l>Toen zag ik met vermaak uw werkzaam medelyden</l>
+						<l>Een troosteloos gezin van hongersnood bevryden.</l>
+						<l>Het kan door uwe zorg thans op zichzelf bestaan:</l>
+						<l>Wat houd u langer hier? wilt gy met hen vergaan?</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>'k Verberg u niet, dat, toen ik Menzikoff ontmoette,</l>
+						<l>En, in 't gevolg myns Ooms, hem in Cazan begroette,</l>
+						<l>Zyn ongelukkig lot my met verschrikking trof.</l>
+						<l>Een Man van zynen rang; de tweede aan 't Russisch Hof;</l>
+						<l>Wiens Telg verkooren was om op den troon te treeden;</l>
+						<l>Verstooten uit zyn' staat; beroofd van waardigheden;</l>
+						<l>Gevloekt van 't laag gemeen; ontzet van allen troost,</l>
+						<l>En zittende op een kar, omsingeld van zyn Kroost;</l>
+						<l>In ballingschap gevoerd, om, na 't beklaaglykst leven,</l>
+						<l>In 't woest Siberië den veegen geest te geeven;</l>
+						<l>Verguisd door laagen nyd en onverzoenbren wrok;</l>
+						<l>Scheen my een voorwerp dat met recht myn deernis trok.</l>
+						<l>'k Bewoog myn' Oom alleen naar Petersburg te trekken,</l>
+						<l>Opdat ik Menzikoff alhier ten steun mogt strekken.</l>
+						<l>Hy vond my in dit oord, wanneer hy hier verscheen,</l>
+
+						<l>En acht me een' lotgenoot in zyn rampzaligheên.</l>
+					</sp>
+					<sp who="#bazilius">
+						<speaker>Bazilius.</speaker>
+						<l>'t Verwondert my met recht dat hy u niet herkende.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>'k Zag hem gedompeld in de jammerlykste elende,</l>
+						<l>Toen op zyn' naaren togt zyne Egaê de aard' begaf.</l>
+						<l>Hy groef, met Iwan, haar met eigen hand een graf,</l>
+						<l>Terwyl een traanenvloed hem langs de kaaken vloeide,</l>
+						<l>En, by dien droeven pligt, het dierbaar lyk besproeide.</l>
+						<l>Zyn Dochters scheenen, in dat doodlyk oogenblik,</l>
+						<l>Hervormd in marmersteen, verstyfd door smart en schrik.</l>
+						<l>De wreede rouw verbood haar 't weenen en het klaagen.</l>
+						<l>Haar oog bleef roereloos op 't koude lyk geslaagen.</l>
+						<l>Nog zie ik 't naar tooneel, by d'omgedolven grond.</l>
+						<l>Ach! dacht toen een van hen aan 't geen rondom hen stond?</l>
+						<l>Veel minder dat hen 't lot in my een' Vriend deed vinden,</l>
+						<l>Die zich vrywillig aan hunn' rampspoed zou verbinden?</l>
+					</sp>
+					<sp who="#bazilius">
+						<speaker>Bazilius.</speaker>
+						<l>'k Beken hun ongeval is waard' te zyn beklaagd;</l>
+						<l>Maar is het niet te veel, dat ge alles daaraan waagt?</l>
+						<l>Wie heeft, als gy, zyn' rang, zyn goedren en zyn staaten,</l>
+						<l>Ooit om rampspoedigen, die hy niet kent, verlaaten?</l>
+						<l>Wie deelde ooit willig in eens anders ballingschap?</l>
+						<l>Gy maakt u schuldig aan een' spooreloozen stap.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Hoe! zou ik Menzikoff, op d'oever van zyn leven,</l>
+						<l>Door zielverdriet verteerd, in zyne elend' begeeven?</l>
+					</sp>
+					<sp who="#bazilius">
+						<speaker>Bazilius.</speaker>
+						<l>Hy is het niet alleen die u hier blyven doet.</l>
+						<l>Waartoe geveinsd? Ik peil den grond van uw gemoed:</l>
+						<l>Eudoxe boeit u hier.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Wie zou haar niet beminnen?</l>
+					</sp>
+					<sp who="#bazilius">
+						<speaker>Bazilius.</speaker>
+						<l>Breng u, zo 't mooglyk is, een oogenblik te binnen</l>
+						<l>Wat gy verschuldigd zyt aan uw beroemd Geslacht,</l>
+						<l>En welk een glori u aan 't Russisch Hof verwacht.</l>
+						<l>Vorst Dolgorukki, thans ten top van eer verheven,</l>
+						<l>Vleit zich zyn jongste Telg aan u ter bruid te geeven,</l>
+						<l>Zo ras zyn oudste spruit de kroon van Rusland draagt.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>'t Is u genoeg bekend hoe my die echt mishaagt.</l>
+						<l>Zou ik aan 't snood Geslacht van Dolgorukki huwen,</l>
+						<l>Dat haatelyk Geslacht, welks naam my zelfs doet gruwen?</l>
+					</sp>
+					<sp who="#bazilius">
+						<speaker>Bazilius.</speaker>
+						<l>Zo gy beslooten hebt dit aanbod af te slaan,</l>
+						<l>Daar is geen maagd in 't Ryk naar wie gy niet moogt staan.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Ik heb myzelv' gezegd all' wat gy my doet hooren;</l>
+						<l>Weêrstreef myn min niet meer; uw arbeid is verlooren.</l>
+					</sp>
+					<sp who="#bazilius">
+						<speaker>Bazilius.</speaker>
+						<l>Gy zult het offer zyn dier spoorelooze min.</l>
+						<l>Zo gy Eudoxe kost verheffen tot Vorstin,</l>
+						<l>Of haar slechts door uw' echt van ballingschap bevryden,</l>
+						<l>Gy zaagt my moogelyk uw opzet niet bestryden.</l>
+						<l>Doch nu haar, in het leed, geen uitkomst ovrig is,</l>
+						<l>Nu zy verkwynen moet in deze wildernis,</l>
+						<l>En gy, indien gy ooit haar weêrmin kunt verwerven,</l>
+						<l>Besluiten moet met haar hier raadloos om te zwerven,</l>
+						<l>Ontzet van alles wat voorheen uw ziel zo waard'...</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Eudoxe is 't eenig goed naar 't welk ik wensch op aard';</l>
+						<l>En, liever dan beroofd van haar gezicht te leeven,</l>
+						<l>Getroost ik my de dood; hier baat geen tegenstreeven;</l>
+						<l>Myn lot is hier bepaald.</l>
+					</sp>
+					<sp who="#bazilius">
+						<speaker>Bazilius.</speaker>
+						<l>Hoe zwaar uw keus my vall',</l>
+						<l>Denk nimmer dat myn trouw u ooit begeeven zal;</l>
+						<l>Schoon ik al 't leed voorzie, 't welk u en my zal treffen,</l>
+						<l>Ten zy ge uw waar geluk in tyds nog mogt bezeffen.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Schoon my uw raad mishaagt, 'k waardeer uw trouw voor my.</l>
+						<l>Maar mooglyk zyn alreeds de reizigers naby.</l>
+						<l>Ik kan uit hunne komst voor ons niets kwaads voorspellen.</l>
+					</sp>
+					<sp who="#bazilius">
+						<speaker>Bazilius.</speaker>
+						<l>Gedoog voor 't minst, myn Prins, dat ik u moog' verzellen.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Uw byzyn is my waard'; doch noem my Constantyn.</l>
+						<l>Ik stel myn veiligheid in onbekend te zyn.</l>
+					</sp>
+					<stage>Einde van het eerste Bedryf.</stage>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<head>Tweede bedryf.</head>
+				<stage>Het tooneel verbeeld een bosch- en bergachtig landschap: aan de eene zyde
+					ziet men, naby den voorgrond, het houten huis van Menzikoff, en, vóór hetzelve,
+					een zitbank.</stage>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+					<stage>Eudoxe en Natalia, uit het huis treedende.</stage>
+					<sp who="#natalia">
+						<speaker>Natalia.</speaker>
+						<l>Stel, myn Eudoxe, stel eens paalen aan uw smarte.</l>
+						<l>Uw maatelooze rouw verscheurt ons beiden 't harte.</l>
+						<l>Denk wat het eind' zal zyn van uwe treurigheid.</l>
+						<l>Uw Moeder had, helaas! zichzelve blind geschreid.</l>
+						<l>Indien myn raad by u geen invloed kan verwerven,</l>
+						<l>Zal droefheid u, als haar, eerlang het licht doen derven.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>ô Moeder!</l>
+					</sp>
+					<sp who="#natalia">
+						<speaker>Natalia.</speaker>
+						<l>Zy ontweek deze aarde en haar verdriet;</l>
+						<l>Stoor toch haar zielrust door uw jammerklagten niet.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Och! sliep ik nevens haar en myn geliefde Zuster</l>
+
+						<l>Den zachten slaap des doods, zo waar' myn ziel geruster.</l>
+					</sp>
+					<sp who="#natalia">
+						<speaker>Natalia.</speaker>
+						<l>Leef tot uws Vaders troost; gy ziet hoe veel hy lyd;</l>
+						<l>Denk, waarde Eudoxe, denk wat gy hem schuldig zyt.</l>
+						<l>Zou u het ongeval de pligten doen vergeeten</l>
+						<l>Waarvan ge u tot dit uur zo loflyk hebt gekweeten?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Ach! 't is myns Vaders lot dat my het hart doorboort.</l>
+						<l>Vriendin! bespeurt gy niet dat hem de droefheid moord?</l>
+						<l>Zyn eertyds helder oog staat kwynende en verslaagen;</l>
+						<l>De beenen weigren schier 't verzwakte lyf te draagen.</l>
+						<l>Hy heelt voor ons vergeefs 't vermindren van zyn kracht;</l>
+						<l>Zyn sterfuur is naby, en word door hem verwacht;</l>
+						<l>En zoude ik, in dien stand, naar 't leven kunnen wenschen,</l>
+						<l>Ik, een verlaaten wees, verstooten van de menschen</l>
+						<l>Naar 't woest Siberië, welks naam verschrikking baart?</l>
+						<l>Wie zal myn toevlucht zyn? Waar vind ik heul op aard'?</l>
+					</sp>
+					<sp who="#natalia">
+						<speaker>Natalia.</speaker>
+						<l>Schep moed: uw Broeder zal in 't leed u niet begeeven.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Ik ken zyn hart, hy zal dien slag niet overleeven;</l>
+						<l>En, zo hy my ontvalt, helaas! waar berge ik my?</l>
+						<l>ô Aklig voorgevoel! ô barre woesteny!</l>
+					</sp>
+					<sp who="#natalia">
+						<speaker>Natalia.</speaker>
+						<l>Waartoe, zo verr' vooruit, den zwaarsten ramp te vreezen?</l>
+						<l>De wakkre Constantyn zal uw beschermer wezen;</l>
+						<l>'t Is klaar genoeg te zien dat hy u teêr bemint.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Hy strekt ons in dit oord een' medelydend' vrind;</l>
+						<l>En, stond het aan zyn magt, hy zou ons lot verzachten:</l>
+						<l>'k Heb echter voor myzelf geen steun van hem te wachten.</l>
+					</sp>
+					<sp who="#natalia">
+						<speaker>Natalia.</speaker>
+						<l>Gy veinst vergeefs, ik heb uw neiging lang bespeurd.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>'t Is billyk dat myn ziel hem achtingwaardig keurt;</l>
+						<l>Hy troost, door zyne deugd, myn' Vader en myn' Broeder,</l>
+						<l>En is voor ons gezin een trouwbevonden hoeder.</l>
+						<l>Doch, schoon hy my bemint, en ik zyn deugd erken,</l>
+						<l>Ik weet nochtans wat ik myzelf verschuldigd ben.</l>
+						<l>Zoude ik, in dezen staat, aan huwen denken kunnen?</l>
+						<l>Ik Constantyn ooit deel aan onze elende gunnen,</l>
+						<l>En ligt een nieuw geslacht zien leeven door die trouw,</l>
+						<l>Dat beider ongeluk nog meer verzwaaren zou?</l>
+						<l>Wy hebben elk genoeg aan onzen ramp te draagen.</l>
+					</sp>
+					<sp who="#natalia">
+						<speaker>Natalia.</speaker>
+						<l>Zo hebt gy dan bereids zyn aanzoek afgeslaagen?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>De weigring van zyn hand verstrekt my niet tot blaam;</l>
+						<l>Men weet van Constantyn niet anders dan den naam.</l>
+						<l>Myn Vader wenscht dat ik zyne afkomst naar zal spooren,</l>
+						<l>En hoe hy herwaart kwam.</l>
+					</sp>
+					<sp who="#natalia">
+						<speaker>Natalia.</speaker>
+						<l>Hy is niet laag gebooren;</l>
+						<l>Dat tuigt zyn eedle zwier. Geloof my, hy verraad</l>
+						<l>In zyn gedrag een' man van Vorstelyken staat.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Wat baat ons staat of rang als wy die moeten derven,</l>
+						<l>En, zonder have of erf, in wildernissen zwerven?</l>
+					</sp>
+					<sp who="#natalia">
+						<speaker>Natalia.</speaker>
+						<l>Ten minsten geeft het recht om vriendschap aan te gaan.</l>
+						<l>Gy moet, zo 't mooglyk is, dit onderzoek bestaan.</l>
+						<l>Hy komt. Myn byzyn zou tot hinder kunnen strekken;</l>
+						<l>Hy zal aan u-alleen te vryer zich ontdekken.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Eudoxe, Constantyn.</stage>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Durf ik betrouwen op 't geluk dat my weêrvaart?</l>
+						<l>Acht my Eudoxe in 't eind' haar dierbre vriendschap waard'?</l>
+
+						<l>Kan ik my vleien, dat myn min, haar opgedraagen,</l>
+						<l>Na ons gewenscht verdrag, haar minder zal mishaagen?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Verwar de vriendschap niet ontydig met de min.</l>
+						<l>Uw hulp, ons huis betoond, verpligt me als uw vriendin;</l>
+						<l>Doch waare uw trouw voor ons uit zelfbelang gereezen,</l>
+						<l>Zy zou, hoe laag ik zonk, myn gunst onwaardig wezen.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Waan nooit dat zelfbelang myn grondbeginsel is.</l>
+						<l>Myn liefde sproot uit zucht tot uw behoudenis.</l>
+						<l>Uw schoonheid, ik beken 't, verwon myn jeugdig harte,</l>
+						<l>Dat, eer myn oog u zag, de kracht der liefde tartte;</l>
+						<l>Doch, uw verheven deugd, uw onvermoeid geduld,</l>
+						<l>Uw onbezweeken moed in 't lyden zonder schuid,</l>
+						<l>Uw tedre liefde voor uw' Vader en uw' Broeder,</l>
+						<l>Daar gy beroofd waart van uw Zuster en uw Moeder;</l>
+						<l>Bezaten grooter kracht dan 't uiterlyke schoon.</l>
+						<l>Geef my geloof, (ik ben het veinzen ongewoon,)</l>
+						<l>De liefde, die myn ziel naar uw bezit doet haaken,</l>
+						<l>Wenscht minder my dan u gelukkiger te maaken.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>De liefde, in dezen stand, betaamt noch u noch my.</l>
+						<l>Het leven sleepende in een barre woesteny,</l>
+						<l>Verzwaart gy myn verdriet door vruchtloos my te kwellen;</l>
+
+						<l>Laat ons ons waar geluk alleen in vriendschap stellen.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Beseft gy, waarde Eudoxe, al 't onheil dat u dreigt?</l>
+						<l>Uws Vaders levenslicht, dat reeds ten avond neigt....</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Ach! welk een denkbeeld wekt ge! Ontzie myn bittre smarte.</l>
+						<l>Myn dierbre Vader is de wellust van myn harte.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>'t Is u niet onbekend hoe hoog ik hem waardeer.</l>
+						<l>Doch, zo hy u ontviel, gy hebt geen Moeder meer;</l>
+						<l>Wie zou in uwen ramp u tot beschermer strekken?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Myn Broeder zou gewis zyn zorg my niet onttrekken.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>'k Doe Iwans deugden recht; ik eer hem als myn' Vrind;</l>
+						<l>Doch een getrouw gemaal, die ongeveinsd bemint,</l>
+						<l>Verstrekt tot grooter troost dan de allernaaste maagen.</l>
+						<l>Gy keert u af, en weent?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Vergun my u te vraagen</l>
+						<l>Vanwaar gy 't recht hebt om te dingen naar myn hand?</l>
+						<l>Al ben ik thans gedaald tot een' verachten stand,</l>
+						<l>Al heeft my 't wuft geluk uit hoogen rang verstooten,</l>
+						<l>Al zie ik my geschuwd van de onbedachte Grooten,</l>
+
+						<l>Die my beminden eer de voorspoed ons verliet,</l>
+						<l>Al derf ik huis en have, ik derf myne onschuld niet.</l>
+						<l>'k Bezit nog 't zelfde hart, dat, in gewenschter tyden,</l>
+						<l>Verdrukten bystand bood, uit werkzaam medelyden.</l>
+						<l>Nooit heb ik voor myzelf naar hoogen staat gehaakt.</l>
+						<l>'k Mis niets dat in myn oog my minder waardig maakt;</l>
+						<l>En hy, die waagen durft naar myn bezit te dingen,</l>
+						<l>Moet myner waardig zyn; en geen dier stervelingen,</l>
+						<l>Die in dit woest gewest om misdaên zyn gedoemd.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Nooit wierd ik in 't getal der schuldigen genoemd.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Dit is my niet genoeg; ik bid u, doe my hooren</l>
+						<l>Uit welk een' stam gy sproot, en waar gy wierd gebooren?</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Waartoe dit onderzoek?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Het schynt dat ge u zulks schaamt.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Neen, waarde Eudoxe, doch ik weet wat my betaamt.</l>
+						<l>Noch naam noch vaderland moet my uw weêrmin geeven.</l>
+						<l>Zo gy besluiten kunt met Constantyn te leeven,</l>
+						<l>Als balling, zonder schuld....</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Ben ik zo laag verneêrd,</l>
+						<l>Dat gy tot zulk een' prys myn wedermin begeert?</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Laat myne ontwyking u geen ongenoegen wekken.</l>
+						<l>Ontwring my geen geheim, 't welk ik niet kan ontdekken.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Bewaar uw groot geheim; ik onderzoek niets meer;</l>
+						<l>Doch spreek Eudoxe na dit oogenblik nooit weêr.</l>
+						<l>'k Weet ook wat my betaamt, en zal myn' roem bewaaren.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Uw Vader nadert ons. Laat toch uw' toorn bedaaren!</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Vaar wel.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Constantyn, Menzikoff, Iwan; vier Slaaven, gewapend met vuurroers en
+						pistoolen.</stage>
+					<sp who="#biron">
+						<speaker>Constantyn,</speaker>
+						<stage>tegen Iwan.</stage>
+						<l>Waar heen, myn Vriend?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>My is bericht gebragt,</l>
+
+						<l>Dat hier een boschwolf zwerft, en in den jongsten nacht</l>
+						<l>Niet slechts een naar gehuil gehoord is om de stallen,</l>
+						<l>Maar zelfs een jeugdig lam door hem is overvallen,</l>
+						<l>Roofgierig weggesleept, en zekerlyk verscheurd.</l>
+						<l>Ons volk, 't welk dit verlies te spade heeft bespeurd,</l>
+						<l>Is nevens my gereed het schrikdier na te jaagen.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Die wreede roover zal voortaan ons niet meer plaagen:</l>
+						<l>Myn slaaven hebben my dien ramp terstond gemeld:</l>
+						<l>Wy volgden hem op 't spoor, en hebben hem geveld.</l>
+						<l>Dus is door onze zorg dit onheil reeds verdreeven.</l>
+						<l>Zo 't u nochthans behaagt ter vosschenjagt te streeven,</l>
+						<l>De dag is gunstig, en men vond een legersteê.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Wys ons die aan, myn Vriend; verzel ons, op myn beê.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Ik ben bereid.</l>
+						<stage>Tegen Menzikoff.</stage>
+						<l>Vrees niets; wy zullen spoedig keeren.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan,</speaker>
+						<stage>tegen Menzikoff.</stage>
+						<l>Laat u de droefheid in ons afzyn niet verheeren.</l>
+						<l>Myn dierbre Vader! wees getroost; en sta my toe,</l>
+						<l>Dat ik, vóór myn vertrek, deez' kinderpligt voldoe.</l>
+					</sp>
+					<stage>Hy kust hem de hand.</stage>
+					<sp who="#biron">
+						<speaker>Constantyn,</speaker>
+						<stage>hem de andere hand kussende.</stage>
+						<l>Ik smeek u my voortaan ook als uw' Zoon te aanschouwen;</l>
+						<l>Dus kweekt men meer en meer het onderling vertrouwen.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>tegen Iwan.</stage>
+						<l>Myn waarde Zoon!</l>
+						<stage>Tegen Constantyn.</stage>
+						<l>Myn Vriend, hoe duur verpligt gy my!</l>
+						<l>Sla toch myn' Iwan gade.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Ik blyf getrouw hem by.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>alleen.</stage>
+						<l>Wat schenkt de wentlende aarde al wisling van tooneelen!</l>
+						<l>Moet ik, helaas! myn' Zoon een' vreemdling aanbeveelen;</l>
+						<l>Ik, op wiens naam-alleen zich Ruslands Adel boog,</l>
+						<l>Toen elk my eerbied toonde, en op myn wenken vloog;</l>
+						<l>Toen ik schier elken dag myn aanzien zag vergrooten?</l>
+						<l>Hoe spoedig vind ik me in een' afgrond neêrgestooten!</l>
+						<stage>Hy treed, in diep gepeins, vóóraan op het tooneel, onder een' der
+							boomen.</stage>
+						<l>ô Glori! 'k heb te spade uw nietigheid bespeurd.</l>
+						<l>Doch wierd myn bloedend hart niet jammerlyk verscheurd</l>
+
+						<l>Door 't smertlyk ongeval van myn geliefdste Maagen,</l>
+						<l>Ik zou my van myn lot, hoe deerlyk, niet beklaagen.</l>
+					</sp>
+					<stage>Hy heft zyne oogen en handen hemelwaart.</stage>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>Menzikoff; Alexis, met groot gevolg.</stage>
+					<sp who="#alexis">
+						<speaker>Alexis,</speaker>
+						<stage>van verre, in het opkomen, tegen zyn gevolg.</stage>
+						<l>Men ruste in 't gindsche dal, slaat daar de tenten neêr;</l>
+						<l>Houd u vooral byëen, tot dat ik wederkeer.</l>
+						<stage>Het gevolg vertrekt.</stage>
+						<l>Maar welk een vreemd tafreel ontdekt zich aan myne oogen!</l>
+						<l>Een oud eerwaardig man, in eerbied opgetoogen! ...</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>zonder hem te zien.</stage>
+						<l>ô Hemel, die myn smart en heete traanen ziet!</l>
+						<l>Straf, straf de Kindren om de schuld huns Vaders niet!</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis,</speaker>
+						<stage>allengs naderende, ter zyde.</stage>
+						<l>Ach! de ouderdom verschaft aan veelen stof tot treuren.</l>
+						<l>Hy schynt door 't leed verzwakt. Ik wensch hem op te beuren.</l>
+						<l>Wat bragt hem in dit oord, dat naauw' bewoonbaar is?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>Alexis ziende, ter zyde.</stage>
+						<l>Zie ik Alexis niet?.. Hy, in dees wildernis!..</l>
+						<l>Hoe ongedacht ontmoet de sterveling elkander!</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis,</speaker>
+						<stage>tegen Menzikoff.</stage>
+						<l>Eerwaarde Vreemdeling! hoe noemt ge u?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Alexander.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Hoe! Alexander!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Ja, sints my het onheil trof;</l>
+						<l>Welëer wierd ik genoemd, de veldheer Menzikoff.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Is 't wonder dat ik my door deernis voel verwinnen?</l>
+						<l>Een oud verlaaten man; en ach! beroofd van zinnen!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Kan 't mooglyk zyn dat gy my zinloos acht, Mynheer!</l>
+						<l>Herkent gy Menzikoff in zyne elend' niet meer?</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Zo ge uw verstand bezit, behoort gy u te schaamen</l>
+						<l>Voor spoorloosheden, die geen eerlyk' man betaamen.</l>
+						<l>Ik ken Prins Menzikoff; hy is me een waardig vriend.</l>
+						<l>Ikzelf heb onder hem in 't Russisch heir gediend;</l>
+						<l>De Zweedsche legermagt by Pultowa geslaagen.</l>
+						<l>Blyf die gy zyt; gy zoud dees dwaasheid u beklaagen.</l>
+						<l>De naam van Menzikoff, de waereld door vermaard,</l>
+						<l>Is heilig in het Ryk; en aller eerbied waard'.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Dit, dit ontbrak dan nog aan myn vernederingen</l>
+						<l>Dat ik myn' eigen naam me in 't eind' moest zien ontwringen!</l>
+						<l>Is myn gelaat zo sterk veranderd door verdriet!</l>
+						<l>Alexis, zie my aan: herkent ge uw' Veldheer niet?</l>
+						<l>Toen ik, aan 't Russisch Hof Vorst Peters last verligtte,</l>
+						<l>En met hem Petersburg en 't sterke Kroonslot stichtte;</l>
+						<l>Het Zweedsche en Turksche heir deed bukken voor ons zwaard;</l>
+						<l>Toen ik, door zyne gunst tot Vorst des Ryks verklaard,</l>
+						<l>Na dat my 't ordenslint des Aadlaars was gegeeven,</l>
+						<l>In 't Ingermansche land tot Heerscher wierd verheven;</l>
+						<l>Toen my Alexis zelf, geboogen aan myn' voet,</l>
+						<l>Daarvan den giftbrief bragt en vorstelyken hoed,</l>
+						<l>En ik, op elken stap, die my in magt deed ryzen,</l>
+						<l>Myn vrienden deelen deed in 's Vorsten gunstbewyzen;</l>
+						<l>Toen was u Menzikoff tot uw geluk bekend:</l>
+						<l>Doch nu hy, verr' van 't Hof, gedompeld in elend',</l>
+						<l>Zyn leven grafwaart sleept, gedrukt door onvermogen,</l>
+						<l>Is hy een vreemdeling, en zinloos in uwe oogen.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis,</speaker>
+						<stage>ontsteld.</stage>
+						<l>Zou 't mooglyk kunnen zyn?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Nu kent ge uw' redder niet.</l>
+
+						<l>Wie was 't, die u behield, toen alles u verliet?</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis,</speaker>
+						<stage>hem te voet vallende.</stage>
+						<l>Gy waart het, gy, myn Prins! Ik moet uw woord gelooven!</l>
+						<l>Doch uw vernedering gaat myn begrip te boven.</l>
+						<l>Wat wissling van fortuin, en in hoe kort een' tyd!</l>
+						<l>Schoon 't oog nog twyflen kon, myn hart zegt wie gy zyt.</l>
+						<l>Ikzelf liet me, onbedacht, door dwaazen waan verblinden.</l>
+						<l>Ach! wie dacht Menzikoff aan 's Irtis boord te vinden.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>hem met moeite opheffende.</stage>
+						<l>Gy vind hem echter daar, gedoemd tot ballingschap;</l>
+						<l>Doch 't is van zynen ramp gewis de laatste stap.</l>
+						<l>Ik ben getroost de dood geduldig af te wachten.</l>
+						<l>Vrees niet dat ik u zal vermoeien door myn klagten.</l>
+						<l>Ik heb te spade door ervaarenis ontdekt,</l>
+						<l>Dat hoogheid en gezag, hoe groots, hoe uitgestrekt,</l>
+						<l>Hoe driftig zy den mensch naar heur bezit doen haaken,</l>
+						<l>Slechts de oogen vleien, nooit het hart gelukkig maaken.</l>
+						<l>Wat zegen, dat ik, in myn' levensavondstond,</l>
+						<l>Van 't Hof tot aan het graf een tusschenwydte vond,</l>
+						<l>Waar my de stille deugd haar zachte stem doet hooren;</l>
+						<l>Waarin ik niets beween van 't geen ik heb verlooren,</l>
+						<l>Dan myn getrouwe Gade en oudste Huwlyksvrucht,</l>
+						<l>Ter goeder uur voor haar de nietige aarde ontvlucht!</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Uw Gade en Spruit, helaas!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>weenende.</stage>
+						<l>Zy zyn voor 't leed bezweeken.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Schep moed: zy leven thans in wenschelyker streeken.</l>
+						<l>Doch, zo het uwen rouw niet al te sterk vergroot,</l>
+						<l>Ontdek my, bid ik, waar uw ongeval uit sproot.</l>
+						<l>Wie had gedacht dat u dit lot zou wedervaaren?</l>
+						<l>Toen ik uit Moskou trok, voor naauwlyks twee paar jaaren,</l>
+						<l>Om 't land te ontdekken tot den boord der witte zee,</l>
+						<l>Bevond ge u aan het Hof in glori en in vreê.</l>
+						<l>De groote Peter, door erkentenis gedreeven,</l>
+						<l>Had zyn beroemde Gaê tot Keizerin verheven;</l>
+						<l>Gy waart zyn gunsteling.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Vorst Peter leeft niet meer.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>ô Hemel! Is die Vorst, zo gloriryk welëer,</l>
+						<l>Die 't woest vooroordeel bande, en Ruslands onderzaaten</l>
+						<l>De zeden minnen deed der meer beschaafde Staaten,</l>
+						<l>Die hen tot Helden vormde, en een barbaars geslacht,</l>
+						<l>Door zyne kundigheên, tot kundigheden bragt;</l>
+						<l>Die nooitvolpreezen Vorst aan 't Ryk, aan ons onttoogen;</l>
+
+						<l>En wierd gy, door zyn dood, ontzet van uw vermogen?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Zyne Echtgenoote, die hem volgde in 't Ryksgebied....</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Zy steeg ten troon, en gy, gy sterft hier door verdriet;</l>
+						<l>Daar uw weldaadigheid haar kluisters heeft verbroken,</l>
+						<l>En moogelyk den Vorst tot haar in liefde ontstoken?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Zo lang zy heerschte was ik veilig en gerust.</l>
+						<l>Zelfs heeft zy, eer de toorts haars levens wierd gebluscht...</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Wat zegt gy? Moet de Staat haar sterflot ook beklaagen?</l>
+						<l>ô Dubble ramp!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Zy stierf, in 't bloeien van haar dagen.</l>
+						<l>Nooit, nooit ontdekte ik in haar gunst voor my verschil;</l>
+						<l>Zelfs blonk die glansryk uit in haaren laatsten wil.</l>
+						<l>Den Kleinzoon van den Vorst was 't Ryksgebied beschooren,</l>
+						<l>En myne Elize tot zyne Echtgenoot' verkooren.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Wat hoor ik! Hoe! 'k Gevoel dat my de schrik verheert.</l>
+						<l>Regeert die Prins dan niet? Is Rusland omgekeerd;</l>
+						<l>Of buigt het weder voor de woede van tirannen,</l>
+						<l>Die door hun wreedheid deugd en menschlykheid verbannen?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>De tweede Peter heerscht in Ruslands Monarchy,</l>
+						<l>En maakt tot nu geen mensch elendiger dan my.</l>
+						<l>Wat zeg ik? neen: zo my vergund waare, op myn smeeken,</l>
+						<l>Den jongen Vorst te zien, 't bedrog waar' hem gebleeken.</l>
+						<l>Hy minde myne Elize, en toonde my geen haat.</l>
+						<l>Ach! Dolgorukkies list en heillooze eigenbaat</l>
+						<l>Bewerkten ons bederf.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Die snoode!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Ik had voordezen</l>
+						<l>Zyn' Zoon den jongen Prins ten gunstling aangepreezen;</l>
+						<l>Hun beider leeftyd kwam genoegzaam overëen.</l>
+						<l>De jongling drong welhaast in zyn genegenheên;</l>
+						<l>Terwyl zyn Vader, die met eenigen der Grooten</l>
+						<l>Door loosbedacht verraad myn' val reeds had beslooten,</l>
+						<l>My onophoudlyk vleide; en zelf my in dien Zoon</l>
+						<l>Voor myne Eudoxe had een' bruigom aangeboôn,</l>
+						<l>Om onder vriendschapsschyn my te eer ten val te brengen.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>ô Hemel! kan uw magt deze euveldaên gehengen?</l>
+						<l>Mistrouwde uw schranderheid dees laage vleitaal niet?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Geen sterfling heeft een oog dat 's menschen ziel doorziet.</l>
+						<l>Ik twyfelde aan 't bedrog, doch twyfelde te spade,</l>
+						<l>En zag me eerlang ten doele aan 's Vorsten ongenade.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Hoe treft me uw ongeval!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Het Hof wierd my ontzegd.</l>
+						<l>'k Verzocht den Vorst te zien, en smeekte alleen om recht.</l>
+						<l>Vergeefs, helaas! ik had geen recht, geen troost te hoopen.</l>
+						<l>'t Kortstondig uurglas van myn heil was uitgeloopen.</l>
+						<l>Besef, Alexis, hoe myn hart moest zyn gesteld,</l>
+						<l>Toen my, op 't onverwachtst, door vonnis wierd gemeld,</l>
+						<l>Dat ik, met Gade en Kroost van 't Vorstlyk hof verdreeven,</l>
+						<l>My naar Oranjenburg, myn lusthuis, moest begeeven.</l>
+						<l>Ik heb, 't is u bekend, aldaar een stad gebouwd;</l>
+						<l>Dus wierd dit streng bevel door my niet wreed beschouwd;</l>
+						<l>Het deed my hoopen dat de staatstorm overdryven,</l>
+						<l>En ik van 't hoog gezag niet zou verstoken blyven.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Was door zo verre een' togt de wraaklust niet voldaan?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Dit was gering by 't geen ik sints moest ondergaan.</l>
+						<l>'k Was naauwlyks in die stad, wanneer men my deed hooren,</l>
+
+						<l>Dat ik myn staaten, rang, en goedren had verlooren,</l>
+						<l>En zelfs gevonnisd was, om, met myn Gemaalin</l>
+						<l>En dierbre Telgen, verr' van huis en van gezin,</l>
+						<l>In naare ballingschap van oord tot oord te zwerven,</l>
+						<l>Om in dit woest gewest te kwynen en te sterven.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Ach! toef een oogenblik... Gun my verademing.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>De haat, nog niet vernoegd met myn vernedering,</l>
+						<l>Dwong my, myn Gade en Kroost, een wollen py te draagen.</l>
+						<l>Verbeeld u onzen staat: gezeten op een' wagen,</l>
+						<l>Nu door een enkel ros, dat door zyn' last bezweek,</l>
+						<l>Dan eens door honden, ach! van de eene in de andre streek</l>
+						<l>Rampzalig voortgesleept naar wouden en gewesten,</l>
+						<l>Waarin de hongersnood haar' zetel scheen te vesten;</l>
+						<l>Met zwart onweekbaar brood op al den togt gevoed,</l>
+						<l>En meestendeels gedrenkt met water uit den vloed;</l>
+						<l>Terwyl by zo veel smarte ons wreeder smart verscheurde,</l>
+						<l>Als ons 't ondankbaar volk dit onheil waardig keurde.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Is 't mooglyk dat een mensch, een sterfling, zo veel draagt?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Wy wierden echter ook van sommigen beklaagd.</l>
+						<l>Wy zagen reeds Cazan, wanneer myn dierbre Gade,</l>
+
+						<l>Alreede blind geweend, bezweek voor de ongenade</l>
+						<l>Van ons beklaaglyk lot, en, door een vroege dood,</l>
+						<l>De duurzaamheid des rouws in 't stille graf ontvlood.</l>
+						<l>Verbeeld u myne smarte en die van myne Spruiten.</l>
+						<l>De wanhoop groeide, toen de wreedheid wilde stuiten</l>
+						<l>Dat ik haar dierbaar lyk aan de aard' beveelen mogt.</l>
+						<l>Men duldde naauwlyks die vertraaging van den togt.</l>
+						<l>Ik, die welëer een heir zag op myn wenken draaven,</l>
+						<l>Ik heb met eigen hand een graf voor haar gegraaven.</l>
+						<l>'k Bezweek van droefheid by 't volbrengen van dien pligt.</l>
+						<l>ô Myn Sophië! de aard' valle uw gebeente ligt!</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Ach! ongelukkig Prins! my al uw leed te melden</l>
+						<l>Waare u te veel gevergd.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Myn treurig hart vond zelden</l>
+						<l>Gelegenheid om zich te ontlasten door zyn klagt.</l>
+						<l>De woede toonde in 't eind' zich eenigzins verzacht.</l>
+						<l>Men gaf een klein getal van onze huisbedienden,</l>
+						<l>Ons trouwer in den nood dan al de hoofsche vrienden,</l>
+						<l>Verlof, op hunne bede, om hier ons by te staan:</l>
+						<l>Zy kwaamen kort na ons in deze landstreek aan,</l>
+						<l>En bragten ons bericht, dat, tot behoud van 't leven,</l>
+						<l>Een kleine jaarwedde ons was door den Vorst gegeeven,</l>
+
+						<l>Die ons tot heden dient ten nutten onderstand.</l>
+						<l>Ik heb dit huis gebouwd, dit jong geboomt' geplant,</l>
+						<l>En de omgelegen streek doen door ons volk beploegen;</l>
+						<l>En zou my mooglyk naar myn noodlot kunnen voegen,</l>
+						<l>Zo door Elizes dood, met bittren rouw betreurd,</l>
+						<l>Myne eerste hartwond' niet op nieuw waare opgescheurd.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Uw ramp doorgrieft myn ziel. Indien ik tot verzachting</l>
+						<l>Daarvan iets kan bestaan...</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Voldoe aan myn verwachting;</l>
+						<l>Blyf, zo 't u mooglyk is, een weinig tyds ons by.</l>
+						<l>Dit is het eenige dat gy vermoogt voor my.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>'t Waar' wreed, zo dit verzoek door my wierd afgeslaagen,</l>
+						<l>Daar ik, ik zweer u zulks, met vreugd myn bloed zou waagen,</l>
+						<l>Om u of uw geslacht van eenig nut te zyn.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>hem omarmende.</stage>
+						<l>Uw trouw, geliefde Vriend, verzacht myn boezempyn.</l>
+						<l>Treed nevens my in huis; 'k zal u een' Jongling toonen,</l>
+						<l>In wiens grootmoedig hart ook de eêlste deugden woonen;</l>
+						<l>Hy strekt ten toeverlaat aan my en myn geslacht,</l>
+						<l>En keert, ligt binnen 't uur, met Iwan van de jagt.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Uw' Zoon en hem te zien zal my tot blydschap strekken.</l>
+						<l>Doch myn vertoeven zou myn volk ligt zorg verwekken;</l>
+						<l>Ik meld uw heusch verzoek hen in de legersteê,</l>
+						<l>En tevens myn besluit.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Keer spoedig, op myn beê.</l>
+					</sp>
+					<stage>Menzikoff treed naar zyn huis, en Alexis vertrekt. <lb> </lb>
+					</stage>
+				</div>
+			</div>
+			<div type="act" n="3">
+				<div type="scene" n="1">
+					<head>Derde bedryf.</head>
+					<head>Eerste tooneel.</head>
+					<stage>Menzikoff, Alexis.</stage>
+					<sp who="#alexis">
+						<speaker>Alexis,</speaker>
+						<stage>rondom ziende.</stage>
+						<l>Deze aklige eenzaamheid moet uw verdriet verzwaaren.</l>
+						<l>Welk een verschil, helaas! by 't heil van vroeger jaaren,</l>
+						<l>Toen gy, de tweede in 't Ryk in aanzien en in eer,</l>
+						<l>Omringd van uwen stoet...</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Ik wensch dien tyd niet weêr.</l>
+						<l>Laat andren, in myn plaats, voortaan hun heil verwachten</l>
+						<l>Van dagen zo vol zorgs, van zo veel bange nachten</l>
+						<l>Als ons het hoog bewint in 't Vorstlyk Hof bereid;</l>
+						<l>'t Is al geen zuiver goud dat flonkrend de oogen vleit.</l>
+						<l>Bespied, belaagd, beticht door vrekke hovelingen,</l>
+						<l>Bezwyken we onder 't juk, naar 't welk zy driftig dingen;</l>
+						<l>En naauwlyks heeft hun nyd den Gunsteling verneêrd,</l>
+						<l>Als hen de ervaarenis te spaê dees waarheid leert;</l>
+						<l>Zy zien zich in zyn plaats ten top van eer verheven,</l>
+						<l>Doch derven op hun beurt de vreugd en rust van 't leven.</l>
+						<l>Deze aklige eenzaamheid, die gy verschriklyk vind,</l>
+
+						<l>Heeft my ontdekt hoe my de Staatzucht had verblind;</l>
+						<l>De mensch, aan haar verslaafd, word trotsch en onrechtvaardig.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>ô Ongelukkig Prins, een beter noodlot waardig!</l>
+						<l>Wat hebt gy 't Russisch Ryk al glori aangebragt!</l>
+						<l>'k Heb, in uw' hoogen staat, voorheen u groot geacht,</l>
+						<l>Doch in dees wildernis, beroofd van uw vermogen,</l>
+						<l>Zyt gy, hoe laag verneêrd, nog grooter in myne oogen.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>De wederwaardigheid, hoe hevig ze ons verdrukk',</l>
+						<l>Wyst aan het vroom gemoed een' weg tot waar geluk;</l>
+						<l>Zy leert my zonder pyn alle aardsche grootheid derven,</l>
+						<l>En leven zonder schuld, en zonder wroeging sterven.</l>
+						<l>Meld op myn bede, als gy te rug in Moskou zyt,</l>
+						<l>Aan Dolgorukki, dat myn ziel hem niet benyd:</l>
+						<l>Zeg hem, dat Menzikoff, op d' oever van het leven,</l>
+						<l>Hem al 't geleeden leed goedwillig heeft vergeeven:</l>
+						<l>Dat ik hem voorspoed wensche, en glori in 't gebiên,</l>
+						<l>En dat ik spoedig 't eind' van myne elend' zal zien.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Och! of myn deerenis uw onheil kon vermindren!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Dit is te spaê. Doch zo uw voorspraak voor myn Kindren,</l>
+						<l>Of d' eedlen Vreemdling, die zich met ons hier bevind,</l>
+
+						<l>Van eenig nut kan zyn, bewys hen hulp, myn Vrind;</l>
+						<l>Doch wees vooral bedacht uzelven niet te waagen.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Nooit zal uw dierbaar Kroost zich van myn trouw beklaagen.</l>
+						<l>Dan ach! myn invloed is aan 't Russisch Hof gering.</l>
+						<l>Doch meld me, op myn verzoek, wie is die Vreemdeling</l>
+						<l>Voor wien gy my beveelt als voor uw Kroost te zorgen?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Zyn naam is Constantyn; hy houd zyn' staat verborgen;</l>
+						<l>Doch had zyn voorzorg ons niet yvrig bygestaan,</l>
+						<l>Wy waaren in dit oord door hongersnood vergaan;</l>
+						<l>Zyn vriendschap tracht elk uur myn wenschen voor te komen.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Zo veel behulpzaamheid doet my voor onheil schroomen.</l>
+						<l>Men deelt niet zonder reên zo diep in ons verdriet.</l>
+						<l>'t Is mooglyk dat hy u, op last van 't Hof, bespied.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Hy doet zyne eedle ziel ons door zyn daaden blyken;</l>
+						<l>Laat des uwe achterdocht hem niet verongelyken.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Gy schat zyn deugden hoog.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Ik doe zyne inborst recht.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Indien hy inderdaad zo braaf is als gy zegt,</l>
+						<l>Is 't vreemd, daar uw verdriet zyn mededoogen wekte,</l>
+						<l>Dat hy zich nooit aan u of aan uw Kroost ontdekte.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Hy mint Eudoxe, en heeft zyn trouw haar aangeboôn,</l>
+						<l>Doch houd dit nog geheim voor my en voor myn' Zoon;</l>
+						<l>Zy tracht; op myn bevel, zyne afkomst naar te spooren;</l>
+						<l>Wy zullen, langs dien weg, welligt iets naders hooren.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Ik spreek alleen uit zucht tot uw behoudenis.</l>
+						<l>De Hemel geev' dat hy haar weêrmin waardig is!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Hun echt, 'k ontken zulks niet, zou my tot troost verstrekken.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>En mooglyk Iwan aan zyn ongeval onttrekken.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Myn Zoon!. Wat hoor ik?. Wat bedoelt ge?. Ach! vlei my niet.</l>
+						<l>'k Stierf blyde, indien ik hem niet hulploos achterliet.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>U door de gunst van 't Hof met hoop voor hem te vleien,</l>
+						<l>Waare u, (waartoe geveinsd?) door ydlen waan misleiên;</l>
+						<l>Doch, zo Eudoxe was gehuwd aan Constantyn,</l>
+						<l>Zou hun herroeping niet geheel onmooglyk zyn;</l>
+
+						<l>Hun wederkomst aan 't Hof kan niemand schaadlyk wezen;</l>
+						<l>Daar die van uwen Zoon uw haaters zou doen vreezen</l>
+						<l>Voor zyn getergde wraak; gy kent hun razerny;</l>
+						<l>Doch raad hem dat hy vluchte, ik zal hem redden.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Gy?</l>
+						<l>Vergeefs ontwerp! Helaas! wat kan de vlucht hem baaten?</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Hy moet, in slaafsch gewaad, dit oord met my verlaaten.</l>
+						<l>Ik zal hem, op den togt, naar Poolen doen ontvliên;</l>
+						<l>Het valt hem ligt van daar naar schuilplaats om te zien.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Getrouwe Vriend, gy doet my vruchtloos uitkomst hoopen.</l>
+						<l>Gy zoud gewis die hulp met uwen dood bekoopen.</l>
+						<l>En, zo myn Iwan op de grenzen wierd ontdekt,</l>
+						<l>Zou hy, helaas!..</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Waartoe dit denkbeeld opgewekt?</l>
+						<l>Hoe dikwerf word in nood iets hagchlyks ondernomen!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Eens vyands oog ziet scherp.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Hy zal dat oog ontkomen.</l>
+						<l>Schep moed, en hoop veelëer op zyn behoudenis.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Zo al dit stout ontwerp niet onuitvoerlyk is,</l>
+						<l>Waar bergt zich myne Eudoxe, ontzet van haaren Broeder?</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Zy zie, door haaren echt, in Constantyn haar' hoeder.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>'t Is mooglyk dat zy hem haar hand onwaardig vind.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Hy moet die waardig zyn, zo zy haar' Broeder mint.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Zy komt. Het staat aan u haar dit ontwerp te ontvouwen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Menzikoff, Alexis, Eudoxe.</stage>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Treê toe, myn Kind.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Ik dacht myn' Broeder hier te aanschouwen.</l>
+						<l>Wie weet wat ongeval hem op de jagt weêrvaart!</l>
+						<l>Ach! zo een roofziek dier..!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Waartoe u dus bezwaard?</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>De zon is naauwlyks tot het zuiderpunt gereezen.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Een ongelukkig mensch vind altoos stof tot vreezen.</l>
+						<l>Wy zyn sints lang ten prooie aan wreeden tegenspoed,</l>
+						<l>En 't ongeluk, helaas! heeft nog niet uitgewoed.</l>
+						<l>'k Zou met standvastigheid myne eigen rampen draagen,</l>
+						<l>Indien ik uitkomst zag voor myn geliefdste Maagen;</l>
+						<l>Doch Dolgorukkies nyd en wrok op ons geslacht</l>
+						<l>Zal nimmer dulden dat ons onheil word' verzacht.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>En zo ik middel wist tot redding van uw' Broeder?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Wat zegt ge?.. Alexis!.. gy? Ach! red hem. Wees zyn hoeder.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Beseft gy tot wat prys hem hulp gebooden word?</l>
+						<l>En dat gy, als het lot den draad myns levens kort,</l>
+						<l>Hier eenzaam zwerven zult, van vriendenhulp begeeven?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Als hy behouden word, wat vraag ik naar het leven?</l>
+						<l>Hier zonder u en hem te blyven was voorheen</l>
+						<l>Een denkbeeld, ik beken 't, dat my ondraaglyk scheen;</l>
+						<l>Thans schynt my alles ligt, als hy slechts uit zyn lyden...</l>
+
+						<stage>Tegen Alexis.</stage>
+						<l>Ach! voed gy hoop, Mynheer, dat gy hem zult bevryden?</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Ik zal, tot zyn behoud, het uiterste bestaan.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Myn Vader! geef gehoor. Dit aanbod af te slaan</l>
+						<l>Waare ons des Hemels hulp misschien onwaardig maaken.</l>
+						<l>'k Heb u met zo veel krachts zien naar ons welzyn haaken;</l>
+						<l>Al uwe zorg was voor uw Dochter en uw' Zoon;</l>
+						<l>En zoud gy aarslen nu hem hulp word aangeboôn?</l>
+						<l>Vrees niet dat gy zyn' troost en onderstand zult derven;</l>
+						<l>Eudoxe zal, getrouw in leeven en in sterven,</l>
+						<l>U toonen dat haar liefde en nood en dood trotseert;</l>
+						<l>Dat zy haars Vaders rust meer dan haar rust waardeert.</l>
+						<l>'k Zal, om myns Broeders heil, myzelf gewillig waagen,</l>
+						<l>En nimmer my van 't lot, dat ik verwacht, beklaagen.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>ô Voorbeeld van de deugd!</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Myn daad verdient geen lof.</l>
+						<l>Wy hebben 't zelfbelang vergeeten met het Hof.</l>
+						<l>De tegenspoed, Mynheer, verbind de harten nader,</l>
+						<l>En leert my zorgen voor myn' Broeder en myn' Vader.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Myn waarde Telg! uw trouw vertoont zich in haar kracht.</l>
+						<l>Maar hebt gy uw besluit naar eisch wel overdacht?</l>
+						<l>Indien ik hier alleen in ballingschap moest zwerven,</l>
+						<l>'k Zou, tot behoud myns Zoons, zyn byzyn kunnen derven;</l>
+						<l>Doch wyl ik zeker ben dat my de dood genaakt,</l>
+						<l>Is 't billyk dat myn ziel ook voor uw welzyn waakt.</l>
+						<l>Zo ik voor 't minst iets meer van Constantyn kon weeten...</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Ik heb my van den last, my aanbetrouwd, gekweeten.</l>
+						<l>Hy heeft my sterk betuigd dat hy onschuldig is;</l>
+						<l>Doch 't geen hem voorts betreft blyft een geheimenis,</l>
+						<l>Die hy niet raadzaam vond my op myn vraag te ontvouwen.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Deze achterhoudendheid baart billyk misvertrouwen.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Uw ongewenscht bericht vermeerdert myn verdriet.</l>
+						<l>'k Dacht, door een echtverbond...</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Myn Vader, wacht dit niet.</l>
+						<l>Schoon ik geen reden vind als schuldig hem te doemen,</l>
+						<l>Hy is myn hand onwaard', die schaamt zichzelv' te noemen;</l>
+						<l>Ik heb hem zulks gezegd; zyn min strekt my tot hoon.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>tegen Alexis.</stage>
+						<l>Ach! oordeel zelf. Kan ik gedoogen dat myn Zoon</l>
+						<l>Met u dit oord begeeve, en hier zyn droeve Zuster...?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Stel, stel toch, kan het zyn, uw teder hart geruster.</l>
+						<l>Ik wacht, bedaard, met u hier 't eind' van 't ongeval.</l>
+						<l>Vrees niet dat de onschuld ooit beschermers derven zal;</l>
+						<l>De Hemel waakt voor haar en zal haar uitkomst baanen.</l>
+						<l>Myn waarde Vader! hoor myn bede; aanschouw myn traanen.</l>
+						<l>Zend Iwan uit dit oord, nu gy hem redden kunt.</l>
+						<l>Ik zal, zo lang op aarde u 't leven word vergund,</l>
+						<l>Met onbezweeken moed my kwyten naar vermogen.</l>
+						<l>'k Zal met een zachte hand uw dierbre traanen droogen;</l>
+						<l>En maalen u, ten troost in uwe droefenis,</l>
+						<l>Dat gy in hem herleeft; dat hy beveiligd is;</l>
+						<l>En dat de Hoogste magt in gunst voor my zal zorgen.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis,</speaker>
+						<stage>ter zyde.</stage>
+						<l>Helaas! is zo veel deugds in een woestyn verborgen!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>Eudoxe omarmende.</stage>
+						<l>Myn Kind! gy had verdiend gelukkiger te zyn.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Wie zie ik in 't verschiet?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Myn' Zoon met Constantyn.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Menzikoff, Eudoxe, Alexis, Iwan, Constantyn.</stage>
+					<stage>Verscheiden slaaven, van welken eenigen vuurroers en netten, en anderen
+						het gevangen wild en gevogelte draagen.</stage>
+					<sp who="#iwan">
+						<speaker>Iwan,</speaker>
+						<stage>in het opkomen, tegen een' der slaaven.</stage>
+						<l>Breng 't wild in huis, en berg de vuurroers en de netten:</l>
+						<l>Men dient, waar schaarsheid heerscht, op alles naauw' te letten.</l>
+						<stage>De slaaven vertrekken achter over het tooneel, naar de zyde waar het
+							huis van Menzikoff gezien word. </stage>
+						<l>Wie is dees vreemdeling?</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Hy is my onbekend.</l>
+						<l>'t Schynt een der reizigers; zy leegren hieromtrent.</l>
+						<stage>Zy naderen en groeten Menzikoff, Eudoxe en Alexis. </stage>
+						<l>'t Geluk heeft ons gediend.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Gy hebt zeer veel gevangen.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Myn Vader, kan het zyn, voldoe aan myn verlangen:</l>
+						<l>Heb ik deez' vreemdeling in 't Russisch Ryksgebied</l>
+						<l>Voordezen niet gezien?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Herkent ge Alexis niet?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>ô Ja! hy is 't.</l>
+						<stage>Tegen Alexis.</stage>
+						<l>Mynheer, wat heeft u hier gedreeven?</l>
+						<l>Dwingt u 't geweld als ons aan 's Irtis boord te leeven?</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Herdenkt gy niet waartoe ik uitgezonden wierd?</l>
+						<l>'t Geval heeft op den togt my naar dit oord gestierd.</l>
+						<l>'k Dacht weinig Menzikoff hier met zyn Kroost te vinden.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Gy ziet het loon der deugd, 't geschenk van valsche vrinden.</l>
+						<l>Indien gy deerenis met onzen toestand voed,</l>
+						<l>Meld, als gy 't Hof betreed, meld hoe ge ons zyt ontmoet:</l>
+						<l>Dat gy myn' Vader vond op d'oever van zyn leven,</l>
+						<l>En dat wy beiden ons getroosten hier te sneeven;</l>
+						<l>Doch zeg de werkers van ons drukkend ongeval,</l>
+						<l>Dat hun geduchte straf niet achterblyven zal:</l>
+						<l>Zy zullen, op hun beurt, 't gewigt te spaê betreuren</l>
+
+						<l>Van al de elenden, die ons jammerlyk verscheuren.</l>
+						<stage>Tegen Menzikoff.</stage>
+						<l>Maar welk een' wreeden angst spelt me uw ontroerd gezicht?</l>
+						<l>Heelt gy voor Iwan iets 't welk u op 't harte ligt?</l>
+						<l>Staan wy op nieuw ten doele aan Dolgorukkies treeken?</l>
+						<l>Gy zucht, en antwoord niet!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Ach! laat uw Zuster spreeken.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Wat is hier omgegaan?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Het zy dan wat het zy,</l>
+						<l>Geliefde Eudoxe, spreek; verberg het niet voor my,</l>
+						<l>Al eischte 't Hof myn hoofd.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Ons staat geen leed te schroomen;</l>
+						<l>Gy kunt in tegendeel uw ballingschap ontkomen.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Ik die ontkomen? Langs wat weg? Gy word misleid.</l>
+						<l>Wie gaf u dit bericht? Met wat waarschynlykheid</l>
+						<l>Kan ooit een balling uit Siberiën ontvlieden?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Alexis is bereid u onderstand te bieden.</l>
+						<l>Hy is, om uw behoud, het grootst gevaar getroost.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan,</speaker>
+						<stage>tegen Alexis.</stage>
+						<l>Zoude ik gedoogen dat ge uzelv' verroekeloost?</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>'t Valt my niet moeilyk u den weg ter vlucht te ontsluiten.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn,</speaker>
+						<stage>ter zyde.</stage>
+						<l>Welk een ontwerp, helaas! Hoe zal, hoe kan ik 't stuiten?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan,</speaker>
+						<stage>tegen Alexis.</stage>
+						<l>Beschouw myns Vaders en Eudoxes droeven staat;</l>
+						<l>Ik strek hen, in hun smart, ten steun en toeverlaat,</l>
+						<l>En zou myn liefde en trouw om een verachtlyk leven,</l>
+						<l>Uit schandlyk zelfbelang, hen in den nood begeeven?</l>
+						<l>Neen; op hoe duur een' prys my dit besluit moog' staan,</l>
+						<l>Myn ziel is niet gevormd tot heillooze euveldaên.</l>
+						<stage>Tegen Menzikoff en Eudoxe.</stage>
+						<l>Uw Zoon, uw Broeder zal zyn pligten niet verzaaken,</l>
+						<l>En door een laffe vlucht zichzelven schuldig maaken,</l>
+						<l>Terwyl gy hier ten prooie aan 't akligst zielverdriet...</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Bedien u van de kans, nu gy die gunstig ziet.</l>
+						<l>Myn maagschapminnend hart is niet voor u verborgen.</l>
+						<l>'k Zal voor ons dierbaarst Pand hier in uw afzyn zorgen;</l>
+						<l>Myn' Vader troosten, door 't vertrouwen dat uw vlucht</l>
+						<l>U ademhaalen doet in een gewenschter lucht.</l>
+						<l>Het denkbeeld van uw heil zal onzen druk verzachten,</l>
+
+						<l>En ons met lydzaamheid ons sterfuur doen verwachten.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Het smart my dat myn taal uw droefheid wekken moet.</l>
+						<l>Myns Vaders kracht bezwykt door al den tegenspoed;</l>
+						<l>En mooglyk zou hy zich met recht van my beklaagen</l>
+						<l>Zo ik hem wenschen kon nog lang dien last te draagen;</l>
+						<l>En zo hy door den dood van u wierd afgescheurd,</l>
+						<l>Welk een verschriklyk lot viel u dan niet te beurt?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Uw redding zal my troost in allen rouw verleenen.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>'k Heb u nog dezen dag het denkbeeld zien beweenen</l>
+						<l>Van hier alleen te zyn.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Toen waart ge niet bevryd.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Myn dierbaar Kroost, dit is een hagchelyke stryd.</l>
+						<l>Schoon 't Vaderlyke hart de Kinders noô kan derven,</l>
+						<l>Zo gy hier beiden blyft zult gy hier beiden sterven;</l>
+						<l>Myn sterfuur nadert sterk, naar uiterlyken schyn;</l>
+						<l>Een van uw beiden zal altoos de laatste zyn.</l>
+						<stage>Tegen Iwan.</stage>
+						<l>Als gy in vryheid zyt, kunt gy door uw gebeden</l>
+						<l>Uitheemsche Vrienden tot haar voorspraak overreeden.</l>
+
+						<l>Eudoxe schynt haar lot getroost te zyn, myn Zoon;</l>
+						<l>Veelligt verwerft haar deugd door u een heerlyk loon.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn,</speaker>
+						<stage>ter zyde.</stage>
+						<l>Dit ongewenscht besluit werpt al myn hoop ter neder.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>'t Verachteloost geluk keert mooglyk nimmer weder.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Ik roem uw vriendschap en de hulp die gy my bied;</l>
+						<l>Doch, zo my iemand kende en op den togt verried,</l>
+						<l>Zou ik slechts grooter ramp op al ons maagschap brengen,</l>
+						<l>En mooglyk, zonder nut, u in ons onheil mengen.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Gy voert de zorg te verr'. Wanneer ge in slaafsch gewaad,</l>
+						<l>Omstuwd van myn gevolg, met my dit oord verlaat,</l>
+						<l>Zult ge een verspiedend oog niet ligt vermoeden baaren;</l>
+						<l>En 's Hemels gunst zal ons en uw geslacht bewaaren.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Ach! Iwan, volg myn' raad; vlucht, nu 't u mooglyk is.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Geef my het leven weêr door uw behoudenis.</l>
+						<l>Verheug uws Vaders ziel. Gy ziet myn traanen leeken.</l>
+						<l>Moet ik u aan uw kniên om deze weldaad smeeken?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan,</speaker>
+						<stage>haar wederhoudende.</stage>
+						<l>Myn waarde Eudoxe! verg, verg my geen euveldaên.</l>
+
+						<l>Indien ik u begeev', hoe zal 't met u vergaan?</l>
+						<l>Waar vind ge een' toeverlaat, die u zyn hulp zal wyden?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>'t Gerust geweeten troost de onschuldige in het lyden.</l>
+						<l>Verhoor myn jongste beê: verzacht myn felle smart.</l>
+						<l>Verbeeld u al 't berouw, de wroeging van myn hart,</l>
+						<l>Indien ik my, helaas! als de oorzaak moest beschouwen</l>
+						<l>Dat gy hier hooploos kwynt, daar ik u kan behouên.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Nooit heeft de band des bloeds met zo veel krachts geklemd.</l>
+						<stage>Tegen Constantyn.</stage>
+						<l>Gy zwygt! Ach! sta ons by, zo word' hy overstemd.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Ontzet van zo veel deugds en zo veel trouws te vinden,</l>
+						<l>Verlegen over 't lot van zo veel dierbre vrinden,</l>
+						<l>Wikte ik naauwkeurig wat voor hen my oorbaarst scheen.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>En wat besluit ge in 't eind'? dat ik hem berge?</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Neen.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>ô Hemel!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Ach! waartoe...</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe,</speaker>
+						<stage>ter zyde.</stage>
+						<l>Ik voel myn leden beeven.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>tegen Constantyn.</stage>
+						<l>Spreek: zeg wat u beweegt zyn vlucht te wederstreeven?</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>'k Voorzie daaruit een bron van 't jammerlykst verdriet.</l>
+						<l>Wat zal het zyn, zo hy ontdekt word?</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Vrees zulks niet.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan,</speaker>
+						<stage>tegen Constantyn.</stage>
+						<l>Ik had my niet verbeeld dien raad van u te ontfangen;</l>
+						<l>Doch twyfel niet, ik zal voldoen aan uw verlangen.</l>
+						<stage>Tegen Alexis.</stage>
+						<l>Mynheer, gy hebt my duur aan uwe gunst verpligt;</l>
+						<l>Doch 't was te veel gewaagd. 'k Zal, in dit tydgewricht,</l>
+						<l>Myn maagen niet ten prooi' der wreedste elende laaten.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Ach! Iwan!</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan,</speaker>
+						<stage>tegen Eudoxe.</stage>
+						<l>Wees getroost.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Geen troost kan my meer baaten.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Neem geen verhaast besluit eer ge u te laat beklaagt.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>De last drukt minder zwaar wanneer men saamen draagt.</l>
+						<l>De maagschapsliefde geeft ons hoop op 's Hemels zegen.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Laat ons in huis 't ontwerp nog nader overweegen.</l>
+						<l>Het licht is my te sterk.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn,</speaker>
+						<stage>tegen Iwan.</stage>
+						<l>Myn waarde Vriend! sta pal.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan,</speaker>
+						<stage>op een' misnoegden toon.</stage>
+						<l>Gy hebt geen zorg te voên dat ik verandren zal.</l>
+					</sp>
+					<stage>Hy volgt Menzikoff en Alexis.</stage>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Eudoxe, Constantyn.</stage>
+					<sp who="#biron">
+						<speaker>Constantyn,</speaker>
+						<stage>Eudoxe wederhoudende, die haar' Broeder wil volgen.</stage>
+						<l>Sta, bid ik; weiger niet me een oogenblik te hooren,</l>
+						<l>Zo myn oprechte raad...</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Uw arbeid is verlooren.</l>
+						<l>'k Zie niet dan al te klaar wat ons te wachten staat.</l>
+						<l>My moord ge door uw min, myn' Broeder door uw' haat.</l>
+
+						<l>Kunt gy, oneedle ziel, ons dus verongelyken?</l>
+						<l>Waar is de vriendschap, waar de hulp die ge ons deed blyken?</l>
+						<l>Ik vleide my welëer dat uwe onwrikbre trouw</l>
+						<l>Aan ons ten toeverlaat in 't lyden strekken zou;</l>
+						<l>Dan ach! zy houd geen proef. Gy hebt misschien vernomen</l>
+						<l>Dat u vergund word in uw woonplaats weêr te komen.</l>
+						<l>Gy vreest, door Iwans vlucht, verdacht te zullen zyn</l>
+						<l>Dat gy hem bystand bood.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Gy word misleid door schyn.</l>
+						<l>Waartoe my 't hart doorgriefd door ongegronde klagten?</l>
+						<l>'k Ontfing geen tyding, die my uitkomst kan doen wachten.</l>
+						<l>Myn trouw voor uw geslacht trotseert het ongeval;</l>
+						<l>Ik zweer u dat zy ramp en tyd verduuren zal.</l>
+						<l>Doch oordeel zelf voor my. Kan ik een pooging sterken,</l>
+						<l>Die, zo ze al slaagen mogt, meer onheils zou bewerken?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Indien 't ontwerp gelukte, ik zag myn' wensch voldaan.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Uw Vader zou daardoor met u verlooren gaan.</l>
+						<l>Ik wierd met billykheid verachtlyk in elks oogen</l>
+						<l>Had ik aan dit gevaar u beiden niet onttoogen.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Gy hebt voorheen uw' dienst zo dikwerf ons geboôn.</l>
+
+						<l>Zo gy den Vader, na 't vertrekken van den Zoon,</l>
+						<l>Beloofd had, als welëer, goedhartig te onderschraagen,</l>
+						<l>Myn Broeder had gewis iets meerder durven waagen.</l>
+						<l>'k Las in zyn oog dat hy dit aanbod had verwacht;</l>
+						<l>Doch beter niets beloofd dan 't namaals niet volbragt.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Gaf eenig mensch aan 't Hof van Iwans vlucht vermoeden,</l>
+						<l>Dan kon ik Menzikoffs noch uw bederf verhoeden;</l>
+						<l>Dan wierd myn vonnis met het uwe straks geveld.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Ik zie hoe veel belang gy in uzelven stelt.</l>
+						<l>Gy hebt my dezen keer uwe inborst niet verborgen.</l>
+						<l>Gy zorgt voor uw behoud, laat ons voor 't onze zorgen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<sp who="#biron">
+						<speaker>Constantyn,</speaker>
+						<stage>alleen.</stage>
+						<l>Ach! myne Eudoxe! stond uw heil aan Constantyn,</l>
+						<l>Gy en uw Maagschap zoud welhaast gelukkig zyn.</l>
+						<l>ô Slaaven van het Hof! Bewerkers onzer plaagen!</l>
+						<l>Wat moet ik, onverdiend, om u al smaads verdraagen!</l>
+						<l>Gelukkig dat myn hart, van gruwlen onbewust,</l>
+						<l>Zich door geen wroeging, als het uwe, vind ontrust.</l>
+						<l>De Hemel zal in 't einde ons allen recht verschaffen,</l>
+
+						<l>Myne onschuld toonen, en uwe euveldaaden straffen.</l>
+						<l>Doch Iwan kon veelligt verandren van besluit:</l>
+						<l>Hy scheen misnoegd dat ik hun pooging had gestuit;</l>
+						<l>En echter zal myn trouw dit dwaas ontwerp bepaalen,</l>
+						<l>Al zou ik met myn bloed myn' tegenstand betaalen.</l>
+					</sp>
+					<stage>Einde van het derde Bedryf.</stage>
+				</div>
+			</div>
+			<div type="act" n="4">
+				<div type="scene" n="1">
+					<head>Vierde bedryf.</head>
+					<head>Eerste tooneel.</head>
+					<stage>Constantyn, Alexis.</stage>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Het belge u niet dat ik u herwaart heb geleid.</l>
+						<l>'t Is voor ons allen nutst, in deze omstandigheid,</l>
+						<l>Dat Menzikoffs geslacht in vryheid zich bepaale;</l>
+						<l>Opdat, wie ook van ons de weegschaal overhaale,</l>
+						<l>Geen van ons beiden zich beklaage in laater tyd,</l>
+						<l>En 't hart geen oorzaak vind' van heimelyk verwyt.</l>
+						<l>Doch, vraag ik niet te vry, meld my de waare reden</l>
+						<l>Van uwen tegenstand. De meeste zwaarigheden,</l>
+						<l>Die gy gevaarlyk noemt, acht ik van klein gewigt.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Hoe weinig gy die acht, ik kwyt my van myn' pligt.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Is 't pligt dat gy uw' Vriend in zyne tegenspoeden</l>
+						<l>Een nutte vlucht ontraad?</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Kan hem die vlucht behoeden?</l>
+						<l>Denk met bezadigdheid aan welk een ongeval</l>
+
+						<l>Ge uzelven waagt, Mynheer. Het Hof heeft overal</l>
+						<l>Verspieders: zo hun list uw gangen naar kan spooren,</l>
+						<l>Bewerkt ge uw' ondergang, en gaat gewis verlooren.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>'t Verwondert my met recht dat ge u om my bezwaart;</l>
+						<l>Of acht gy my uw zorg meer dan uw' Halsvriend waard'?</l>
+						<l>Is dit, vergeef het my, uw trouw aan hem bezegeld?</l>
+						<l>'k Besef de pligten niet waarnaar ge uw daaden regelt.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>'k Versta u klaar genoeg; gy houd myn deugd verdacht;</l>
+						<l>En echter heeft welligt dit onderdrukt geslacht</l>
+						<l>Geen yveriger Vriend, noch geen getrouwer Raader.</l>
+						<l>'k Eerbiedig Menzikoff gelyk myn' eigen Vader.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Hy is uw' eerbied waard', en heeft my, zelfs deez' dag,</l>
+						<l>Doen zien dat uw belang hem na aan 't harte lag;</l>
+						<l>Hy wenscht u door myn hulp aan uwen ramp te onttrekken,</l>
+						<l>En wil dat ik by 't Hof uw voorspraak zal verstrekken.</l>
+						<l>Zyn liefde werkt zo sterk voor u als voor zyn Kroost.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Gy geeft door dit bericht me een' wezendlyken troost.</l>
+						<l>'t Zy verre dat myn ziel zyn tederheid zou doemen;</l>
+						<l>Doch, zo ge my gelooft, moet gy me aan 't Hof niet noemen.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Wat wonderspreuk is dit? Gy wenscht naar allen schyn...</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Geen voorspraak is in staat om my van nut te zyn.</l>
+						<l>Gy staat verbaasd, en tracht myn oogmerk uit te vinden;</l>
+						<l>Doch vonnis niet te ligt; laat u geen waan verblinden;</l>
+						<l>'t Vernoege u dat myn zorg voor de onderdrukten waakt,</l>
+						<l>En meer naar hun geluk dan naar myn welzyn haakt.</l>
+						<l>'k Schat Iwans deugden hoog, en min hem, als myn' broeder;</l>
+						<l>Hy strekt zyn' Vader en Eudoxe ten behoeder.</l>
+						<l>Wie zou hun trooster zyn, indien hy hen begaf?</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>De droeve Menzikoff staat op den rand van 't graf;</l>
+						<l>De zorg van Iwan kan voortaan hem weinig baaten.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Kan hy, in dezen stand, Eudoxe dan verlaaten?</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Kunt gy niet zorgen voor de Zuster van uw' Vriend?</l>
+						<l>Heeft haar verheven deugd uwe achting niet verdiend?</l>
+						<l>Zyt ge ongevoelig voor den luister van haare oogen?</l>
+						<l>Wekt haar rampzalig lot u niet tot mededoogen?</l>
+						<l>Gy zucht, en antwoord niet!</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Ach! onderzoek niet meer.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Verberg u niet voor my. Bemint gy haar, Mynheer?</l>
+						<l>Of bond een vroeger echt..?</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Waartoe dit aan te dringen?</l>
+						<l>Wat kan 't u baaten my myn hartsgeheim te ontwringen?</l>
+						<l>Eudoxe is 't hoogste goed dat ik waardeere op aard'.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Indien gy haar bemint, waarom u niet verklaard?</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Zy kent myn hart; 'k heb haar myn liefde niet verzweegen;</l>
+						<l>En mooglyk zoude ik haar tot wedermin beweegen,</l>
+						<l>Indien zy weeten kon wie haar zyn liefde bied.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Zo ge u met reden vleit, waarom ontdekt ge u niet?</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Ik bid u dit geheim niet verder naar te spooren.</l>
+						<l>Ginds zie ik Menzikoff. Nu zult gy d'uitslag hooren.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Constantyn, Alexis, Menzikoff, Iwan, Eudoxe.</stage>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>tegen Alexis.</stage>
+						<l>Ik heb, op uw verzoek, alleen met myn geslacht</l>
+
+						<l>Uw voorgesteld ontwerp bezadigd overdacht,</l>
+						<l>En ben in 't einde in staat u ons besluit te melden.</l>
+						<l>Wy kunnen nooit de trouw, die ge ons betoont, vergelden,</l>
+						<l>Dan door te zorgen dat ge uw welzyn niet verkort,</l>
+						<l>En in ons deerlyk lot niet ingewikkeld word.</l>
+						<l>Het byzyn van myn' Zoon zal onzen druk verzachten;</l>
+						<l>Hy is getroost met ons de dood hier af te wachten.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn,</speaker>
+						<stage>ter zyde.</stage>
+						<l>Nu schep ik weder aêm.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis,</speaker>
+						<stage>tegen Menzikoff.</stage>
+						<l>'k Had heimlyk my gevleid,</l>
+						<l>Dat ik, uw huis ten nutte, in dees gelegenheid,</l>
+						<l>Van myne erkentnis u een blyk zou kunnen geeven;</l>
+						<l>Den naam van Menzikoff in Iwan doen herleeven.</l>
+						<l>Ik ken myzelven vry, en heb myn' pligt voldaan.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>De myne noodzaakt my myn Maagen by te staan.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis,</speaker>
+						<stage>tegen Iwan.</stage>
+						<l>Verknocht aan Menzikoff, geraakt door mededoogen,</l>
+						<l>Had ik u met vermaak aan uwen ramp onttoogen;</l>
+						<l>Doch nu uwe eedle ziel het ongeval trotseert,</l>
+						<l>De zorg voor uw geslacht meer dan uw heil waardeert,</l>
+						<l>Zou 't onbetaamlyk zyn tot vluchten u te dringen.</l>
+						<l>De hoogste Magt beschikt het lot der stervelingen.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Ik ben dat lot getroost, het zy dan hoe het zy.</l>
+						<l>Dan, 't zy ik leeve of sterve in deze woesteny,</l>
+						<l>Ik zal de vlyt en trouw, waarmeê ge u hebt gekweeten,</l>
+						<l>Zo lang ik adem schep, ik zweer 't u, nooit vergeeten;</l>
+						<l>En als myn ziel herdenkt hoe 't menschelyk geslacht</l>
+						<l>Zyn pligten overtreed, verdienste en deugd veracht,</l>
+						<l>De grooten schandlyk vleit uit laage zelfbelangen,</l>
+						<l>Zyn strikken uitzet om de onnoozelheid te vangen,</l>
+						<l>En hen, die 't lot verdrukt, noch troost noch bystand bied,</l>
+						<l>Dan zal ik denken, ach! dus was Alexis niet.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Laat u ons ongeluk tot geen verbittring wekken.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Dewyl myn byzyn tot geen redding u kan strekken,</l>
+						<l>Verzwaarde ik slechts uw' last zo ik hier langer bleef;</l>
+						<l>Gedoog dat ik myn volk bevel tot d'optogt geev'.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>'k Had my gevleid, dat gy hier langer zoud verbeiden.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Hoe zwaar ons 't scheiden vall', wy moeten eindlyk scheiden.</l>
+						<l>Doch zo 't verpoozing geeft aan uwe droefenis,</l>
+						<l>Zal ik slechts zorgen dat myn stoet reisvaardig is,</l>
+						<l>Zo ras de zon op nieuw het aardryk zal verlichten.</l>
+
+						<l>Ik keer terstond.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Gy zult ons allen duur verpligten.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Menzikoff, Iwan, Eudoxe, Constantyn.</stage>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>De trouw, myn Telgen, die ge elkandren blyken doet,</l>
+						<l>Hergeeft de zachte kalmte aan myn ontroerd gemoed.</l>
+						<l>Ik kon om uw behoud, myn Zoon, uw byzyn derven,</l>
+						<l>Doch 't denkbeeld van den staat waarin ik, na myn sterven,</l>
+						<l>Uw Zuster achterliet, verscheurde my het hart;</l>
+						<l>Uw deugd heeft my bevryd van eene ondraagbre smart.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Het voegt ons onderling elkandren te onderschraagen.</l>
+						<l>Eudoxe heeft, helaas! al leeds genoeg te draagen,</l>
+						<l>Al zwerft zy niet alleen in deze woesteny.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Het valt my echter zwaar dat gy hier kwynt om my.</l>
+						<l>Doch nu myn maagschapsliefde uw opzet niet kan weeren,</l>
+						<l>Zal ik, indien ik kan, myn ziel tot rust doen keeren,</l>
+						<l>En, op myn beurt, voor u geen minder zucht doen zien.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Ja, laaten wy om stryd elkandren bystand biên.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Uw zorg deed, in de elende, ons nimmer hulp ontbreeken.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Myn waarde Vader! 'k zie u beeven en verbleeken.</l>
+						<l>Gy hebt op dezen dag uw kracht te veel gevergd.</l>
+						<l>Denk, als ge uzelv' behoed, dat ge ons het leven bergt.</l>
+						<l>Neem, neem een weinig rust.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Laat u haar raad behaagen;</l>
+						<l>Verleng, zo 't mooglyk is, uwe overige dagen;</l>
+						<l>Zo lang gy by ons zyt, zyn wy ons leed getroost.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Wat ramp my treffe, ik ben gelukkig in myn Kroost.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Iwan, Eudoxe, Constantyn.</stage>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Helaas! ik durf niet lang op zyn behoudnis hoopen:</l>
+						<l>Zyn levenskracht neemt af, elk uur schynt hem te sloopen.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Is in ons deerlyk lot ons nog die slag bereid!</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Wat groot geluk, myn Vriend, in deze omstandigheid,</l>
+						<l>Dat ge, op Alexis raad, dit oord niet zult begeeven.</l>
+						<l>Uw Vader kon dien schok onmooglyk overleeven.</l>
+						<l>Ge ontgaat, door uw besluit, het knaagend naberouw</l>
+						<l>'t Welk op 't bericht zyns doods uw hart verscheuren zou.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Het zal myn' Vader van het sterflot niet bevryden</l>
+						<l>Dat Iwan hier met my ten prooi' blyft aan het lyden.</l>
+						<l>Had ge u niet tegen ons met zo veel krachts verzet,</l>
+						<l>Myn liefde had misschien myn' Broeder nog gered.</l>
+						<l>Wat zal 't nu zyn, helaas! ik zal hen beiden derven;</l>
+						<l>Uw raad is oorzaak dat ik troosteloos zal sterven.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Waartoe dit scherp verwyt? Eudoxe, indien ik dacht</l>
+						<l>Dat deze ontworpen vlucht tot nut van uw geslacht,</l>
+						<l>Of tot behoudnis van myn' Boezemvriend kon strekken,</l>
+						<l>Ik had onfeilbaar hem geraaden weg te trekken;</l>
+						<l>Doch nu ik klaar voorzag wat hem te duchten stond,</l>
+						<l>Bespeurde in welk een' staat uw Vader zich bevond,</l>
+						<l>En welk een ramp u dreigde, als hy den geest zou geeven,</l>
+						<l>Moest ik, myns ondanks zelfs, uw' yver wederstreeven.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Uw tegenspraak is 't niet die my hier blyven doet;</l>
+						<l>Ik heb myn keus gericht naar de inspraak van 't gemoed.</l>
+						<l>'k Ontveins u echter niet dat ik my uwer schaamde:</l>
+						<l>Gy kweet u niet voor my gelyk 't een' Vriend betaamde.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Gy toonde u onvernoegd, en echter had uw Vriend,</l>
+						<l>Door zyn' oprechten raad, uw' onwil niet verdiend.</l>
+						<l>De tyd, die 't all' ontdekt, zal mooglyk u doen blyken</l>
+						<l>Hoe onverdiend myn deugd zich ziet verongelyken.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Een, die gebannen is naar dit rampzalig oord,</l>
+						<l>Waar hem geen stervling troost of naar zyn klagten hoort,</l>
+						<l>Zal, staat het aan zyn keuze, altoos gezelschap wenschen.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Ach! Iwan, acht ge my d'onwaardsten aller menschen?</l>
+						<l>Heb ik my immer zo verachtelyk betoond,</l>
+						<l>Dat gy my door uw taal zo wreed, zo schamper hoont?</l>
+						<l>'k Zou, u verliezende, een' geliefden Vriend verliezen;</l>
+						<l>Doch, zo ik myn geluk voor 't uwe kon verkiezen,</l>
+						<l>Waare ik onwaardig dat my 't zonnelicht bestraalt.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan,</speaker>
+						<stage>op eene koele wyze.</stage>
+						<l>Ik kan gelooven dat ge onschuldig hebt gedwaald.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Ik dwaalde niet, ik heb trouwhartig my gekweeten.</l>
+						<l>Zo ge al de redenen van myn gedrag kost weeten...</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Indien die wettig zyn, waarom ze ons niet verklaard?</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Dan wierd ik 't eenig heil, naar 't welk ik streef, onwaard'.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Wat heil bedoelt ge? ik kan uw oogmerk niet bevroeden.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Zoek toch geen nieuwe stof tot ongegrond vermoeden.</l>
+						<l>Gy zyt in 't menschlyk hart zo groot een vreemdling niet,</l>
+						<l>Dat gy my niet verstaat, wanneer ge Eudoxe ziet.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Ik heb uw min bespeurd en tot dit uur gezweegen;</l>
+						<l>Doch, zo ge u inderdaad durft vleien met dien zegen,</l>
+						<l>Geef ons voor 't minst bericht van waar en wie gy zyt?</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Gy zult u op uw vraag voldaan zien door den tyd.</l>
+						<l>Het staat niet aan myn magt als nog u meer te ontdekken.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Gy zoekt door deze list haar in 't bederf te trekken.</l>
+						<l>Vermeetle! ik zie te klaar het oogmerk dat gy voed.</l>
+						<l>Gy moet misdaadig zyn, of uit verachtlyk bloed...</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Myn waarde Broeder!</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Woont de deugd alleen by Grooten?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Verraader! tot uw schande uit slaaven voortgesprooten...</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Gy dwaalt van 't spoor, Mynheer. Bepaal uw hevigheên.</l>
+						<l>Ik ben myn' oorsprong niet verschuldigd aan 't gemeen.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Dan zyt gy hier gedoemd om heillooze euveldaaden;</l>
+						<l>Of dient ten spie aan 't Hof, opdat ge ons zoud verraaden.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Ach! Iwan!</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Welk een hoon!</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Zo uw vermeetle waan</l>
+						<l>Durft waagen op Eudoxe een minnend oog te slaan,</l>
+						<l>Zult gy uw spoorloosheid my met uw bloed betaalen.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>En wie, wie zyt gy, die zo stout my durft bepaalen?</l>
+						<l>Ik min de deugd, en sproot uit geen' oneedlen Stam.</l>
+						<l>Dank 't groot vermogen 't welk Eudoxe op my bekwam,</l>
+
+						<l>Dat ik den hoon verkropp', zo bits my toegedreeven.</l>
+						<l>Verbeeld u nooit dat ge aan myn hart de wet zult geeven.</l>
+						<l>Ik min Eudoxe, en zal haar minnen voor uw oog.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Myn Broeder!.. Constantyn!.. helaas! dit gaat te hoog.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan,</speaker>
+						<stage>tegen Constantyn.</stage>
+						<l>Vertrek uit myn gezicht.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Ik laat my niet trotseeren.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Verraader! wykt ge niet, dan moet ge uzelv' verweeren.</l>
+					</sp>
+					<stage>Hy trekt zyn zwaard.</stage>
+					<sp who="#biron">
+						<speaker>Constantyn,</speaker>
+						<stage>het zyne trekkende.</stage>
+						<l>Weläan.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe,</speaker>
+						<stage>Iwan wederhoudende.</stage>
+						<l>ô Hemel! help!</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan,</speaker>
+						<stage>tegen Eudoxe.</stage>
+						<l>Wat wederhoud gy my?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Ach! Iwan! geef gehoor! ô Hemel! sta ons by!</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>Iwan, Eudoxe, Constantyn, Alexis.</stage>
+					<sp who="#alexis">
+						<speaker>Alexis,</speaker>
+						<stage>schielyk opkomende.</stage>
+						<l>Wat razerny is dit? Bedaart. Houd u te vreden.</l>
+						<stage>Hy vliegt tusschen beiden.</stage>
+						<l>Verzwaart uw lot niet. Steekt uw zwaarden in de scheden.</l>
+						<l>Geeft my gehoor. Gy werkt uw eigen ongeval.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Ik zweer u, dat hy nooit myn wraak ontkomen zal.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>'k Zal toonen dat ik my grootmoediger kan draagen.</l>
+						<l>Vaar wel. Gy zult te spade u van dees daad beklaagen.</l>
+					</sp>
+					<stage>Hy vertrekt.</stage>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Ach! welk een wreede smart!</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>'k Bemerk dat gy hem mint.</l>
+						<l>Doch zorg dat ik u nooit weêr in zyn byzyn vind';</l>
+						<l>Ik zou myn woede aan hem, en mooglyk u, doen blyken.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe,</speaker>
+						<stage>ter zyde.</stage>
+						<l>Ik beef, helaas!</l>
+
+						<stage>Tegen Iwan.</stage>
+						<l>'t Voegt my te zwygen en te wyken.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Zesde tooneel.</head>
+					<stage>Alexis, Iwan, die driftig ginds en weder wandelt.</stage>
+					<sp who="#alexis">
+						<speaker>Alexis,</speaker>
+						<stage>ter zyde.</stage>
+						<l>Hoe stil ik best den storm die aller ramp verzwaart?</l>
+						<l>Wie stuit een hollend ros in 't hevigst van zyn' vaart?</l>
+						<l>Zyn boezem jaagt; de woede is uit zyn oog te leezen.</l>
+						<stage>Tegen Iwan.</stage>
+						<l>Uit welk een oorzaak is dit misverstand gereezen?</l>
+						<l>Ik liet u hier vernoegd; ik keer op 't oogenblik,</l>
+						<l>En vind een schouwtooneel van wraakzucht en van schrik!</l>
+						<l>Hoe heeft de toorn zo sterk u beiden ingenomen?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Hy vliede waar hy will', hy zal my niet ontkomen.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Bedaar, eer gy door drift u meer verdriets bereid,</l>
+						<l>En deel my de oorzaak meê van zo veel hevigheid.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Die snoode mint Eudoxe, en durft, zelfs voor myne oogen...</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>De schoonheid voert alom een onbepaald vermogen.</l>
+
+						<l>Wie, die uw Zuster ziet, vind haar niet minnenswaard'?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Zou een verachte slaaf..?</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Ach! antwoord meer bedaard.</l>
+						<l>'t Staat niet aan onze keus te minnen of te haaten.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Die dwaaze liefde zal, ik zweer 't, hem weinig baaten.</l>
+						<l>Doch 't geen my woedend maakt, Eudoxe mint hem weêr.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Ik twyfel of de drift u niet verblind, Mynheer.</l>
+						<l>Heeft ze u gezegd dat zy zyn liefde zal gehengen?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Wat dreef haar anders aan zich in 't geschil te mengen?</l>
+						<l>Zy wederhield den slag die hem wierd toegebragt.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Ligt heeft zy d'uitslag meer bezadigd overdacht,</l>
+						<l>Die u te duchten stond uit dit rampspoedig stryden.</l>
+						<l>Het geen gy weêrmin noemt, is mooglyk medelyden.</l>
+						<l>Uw dreigen en verwyt doorgriefden haar het hart.</l>
+						<l>Waartoe, helaas! waartoe vermeerdert gy haar smart,</l>
+						<l>Daar zy zich voor uw heil zo yvrig heeft gekweeten?</l>
+						<l>Hebt ge in een oogenblik de poogingen vergeeten,</l>
+						<l>Die zy besteedde om u te ontheffen van verdriet?</l>
+
+						<l>Verdient zy dit onthaal?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Neen; zy verdient het niet.</l>
+						<l>Het grieft my dat myn drift haar tedre ziel beroerde.</l>
+						<l>Maar hy, wiens dwaaze min my tot die drift vervoerde,</l>
+						<l>Zal haare ontsteltenis betaalen met zyn bloed.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Herinner u in tyds op wien uw gramschap woed.</l>
+						<l>Uw Vader heeft deez' dag zyn deugden hoog gepreezen.</l>
+						<l>Gyzelf hebt my betuigd aan hem verpligt te wezen.</l>
+						<l>Wat heeft zyn yver, tot vermindring van de elend'</l>
+						<l>Die uw geslacht begrimde, al zorgen aangewend!</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Nooit zal myn Zuster 't loon van zynen dienst verstrekken.</l>
+						<l>Hy vleit zich vruchteloos haar in 't bederf te trekken.</l>
+						<l>Hy spaar' zyn zorg voortaan. Ik acht my niet verpligt</l>
+						<l>Aan gunstbetooningen, naar zelfbelang gericht.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Ten minsten geeft het u geen reden u te stooren</l>
+						<l>Dat hem Eudoxes oog en eedle ziel bekooren;</l>
+						<l>Of is hy strafbaar die de deugd beminlyk vind?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Zo ik my vleien kon dat zy hem niet bemint</l>
+						<l>Had ik my moogelyk bezadigder gedraagen.</l>
+
+						<l>Dan ach! ik zie te klaar dat hy haar zal behaagen.</l>
+						<l>Men kan niet loogchnen dat hy veel verdiensten heeft.</l>
+						<l>Bevallig van gelaat, verpligtende en beleefd,</l>
+						<l>Tracht hy bestendig ons verlangen voor te komen.</l>
+						<l>Een teder maagdenhart word ligt vooringenomen.</l>
+						<l>Wien ziet zy, buiten hem, in deze wildernis?</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Wie weet of hy haar hand geheel onwaardig is?</l>
+						<l>Of zou 't onmooglyk zyn dat hy uit een' der Grooten,</l>
+						<l>Welëer naar dit gewest gebannen, waar' gesprooten?</l>
+						<l>Zyn houding draagt geen blyk van een' geringen staat.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Hy meld zyne afkomst niet.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Waarom hem dan gehaat?</l>
+						<l>Of moet het in uw oog zyn schande en smaad verzwaaren,</l>
+						<l>Dat hy niet raadzaam vind zyne afkomst te openbaaren?</l>
+						<l>Zoud gy, zo gy met my deze oorden waart ontvlucht,</l>
+						<l>En adem had geschept in een gewenschter lucht,</l>
+						<l>Uw' staat en afkomst wel aan elk ontdekken kunnen?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Geenzins.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Dan is 't uw pligt de vryheid hem te gunnen,</l>
+
+						<l>Die gy met reden voor uzelv' begeeren zoud.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>'k Beken, ik heb de zaak niet in dit licht beschouwd,</l>
+						<l>En door oploopendheid my moogelyk misgreepen.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Denk wat al ramps die twist zou kunnen naar zich sleepen,</l>
+						<l>Daar ge u alleen met hem in deze streek bevind;</l>
+						<l>Daar u de tegenspoed, uws ondanks zelfs, verbind;</l>
+						<l>Daar hy steeds middlen heeft, die gy niet kunt ontdekken,</l>
+						<l>Om aan uw huis ten steun en toeverlaat te strekken.</l>
+						<l>Besef van welk een hulp ge u onbedacht berooft!</l>
+						<l>Wat heeft uw Vader zich al troost en heil beloofd</l>
+						<l>Uit de eensgezindheid, die u allen zou verëenen!</l>
+						<l>Hoe zal zyn stervend oog deez' bittren twist beweenen,</l>
+						<l>Als hem de droeve Eudoxe uw hevigheid verhaalt!</l>
+						<l>Wie zal zyn trooster zyn?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Myn Vriend! ik heb gedwaald.</l>
+						<l>Ik zie te spade dat myn drift my heeft bedroogen.</l>
+						<l>Myn dierbre Vader is de wellust van myne oogen.</l>
+						<l>Ach! moest ik zyn verdriet vergrooten in een' tyd</l>
+						<l>Dat hy bezwykt en sterft door 't onheil dat hy lyd?</l>
+						<l>Doch 't is te spaê geklaagd; 'k zal hem in 't graf doen zinken;</l>
+						<l>Den beker van 't berouw tot op den bodem drinken;</l>
+
+						<l>En de onbedachte min van trotschen Constantyn</l>
+						<l>Zal oorzaak van zyn dood en van de myne zyn.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Het grieft my, ik beken 't, u in dien staat te aanschouwen.</l>
+						<l>Laat ons bezadigd hem het misverstand ontvouwen,</l>
+						<l>En stillen met beleid uw Zusters droefenis:</l>
+						<l>Wie weet in welk een' staat zy door haar wanhoop is?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Myn hart voorzegt het my, ik zal hen beiden derven;</l>
+						<l>My blyft niets over dan te weenen en te sterven.</l>
+					</sp>
+					<stage>Einde van het vierde Bedryf.</stage>
+				</div>
+			</div>
+			<div type="act" n="5">
+				<div type="scene" n="1">
+					<head>Vyfde bedryf.</head>
+					<head>Eerste tooneel.</head>
+					<stage>Menzikoff, Iwan, Eudoxe, Alexis.</stage>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>'t Is edelmoedig, dat ge uw wanbegrip erkent;</l>
+						<l>Dan ach! myn Zoon, 't geeft ons geen uitkomst in de elend'.</l>
+						<l>De Hemel had, ten troost in ons rampspoedig leven,</l>
+						<l>Ons in dien Jongeling een' dierbren Vriend gegeeven,</l>
+						<l>Die ons ondraaglyk leed verzachtte door zyn vlyt:</l>
+						<l>Die dagen zyn geweest, helaas! wy zyn hem kwyt.</l>
+						<l>De gunst, in haat verkeerd, is t' allen tyd gevaarlyk;</l>
+						<l>Maar in dit bar gewest maakt hy 't bestaan bezwaarlyk.</l>
+						<l>Waar vind gy beiden hier uw levensonderhoud,</l>
+						<l>Als 't volk des eenen breekt, 't geen 't volk des andren bouwt?</l>
+						<l>De slaaven zullen als de meesters zich verdeelen,</l>
+						<l>En ach! ik zie geen kans om deeze breuk te heelen.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Waar vind men middlen tot verzoening van den haat?</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>'k Heb daartoe weinig hoop.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Ik ben ten einde raad.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Verwenschte hevigheid, die my zo verr' vervoerde</l>
+						<l>Dat ik myn' Vriend trotseerde!</l>
+						<stage>Tegen Eudoxe.</stage>
+						<l>En uw gemoed beroerde!</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe,</speaker>
+						<stage>tegen Iwan.</stage>
+						<l>Ach! was zyn vriendschap als de myne in uwe magt!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Hier dient, het zy hoe 't zy, een middel uitgedacht.</l>
+						<l>Indien men met beleid den haat niet kan bepaalen,</l>
+						<l>Zal ik door zielverdriet ten duistren grave daalen.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>En moet ik de oorzaak zyn van zo veel harteleed!</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Wie weet, indien ge een' stap tot nieuwe vriendschap deed...?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Hoe noode ik in myn oog myzelven zou verlaagen,</l>
+						<l>'k Ben tot myns Vaders rust bereid dien stap te waagen.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe,</speaker>
+						<stage>tegen Alexis.</stage>
+						<l>Wie weet of dit ontwerp den twist niet groeien doet?</l>
+						<l>Een rookend vuur, Mynheer, barst ligtlyk uit in gloed.</l>
+						<l>Ik zorg dat zich de drift bezwaarlyk zal betoomen.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Men moet de zaak niet tot dat uiterst laaten komen.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis,</speaker>
+						<stage>tegen Iwan.</stage>
+						<l>Het is myn oogmerk niet dat gy hem zoeken zoud;</l>
+						<l>Doch, zo gy uw belang en rust my toebetrouwt,</l>
+						<l>Ben ik gewillig hem uw neiging voor te draagen.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Ik vrees niet zonder reên dat ge u vergeefs zult waagen.</l>
+						<l>Myn woeste oploopendheid was de oorzaak van 't geschil.</l>
+						<l>Hy zal verbitterd zyn.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Het zy daarmeê zo 't will'.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Wie weet of hy in drift op u niet uit zal vaaren.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Verkropte spyt eischt lucht; hy zal allengs bedaaren.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>tegen Iwan.</stage>
+						<l>Weêrhoû Alexis niet in zyn goedwilligheid;</l>
+						<l>Denk dat ge uw' Vader in het uiterst rust bereid.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Hoewel ik weinig goeds durf uit dees pooging spellen,</l>
+						<l>'t Zou my verblyden zo zy de eendragt kon herstellen.</l>
+						<stage>Tegen Alexis.</stage>
+						<l>Ga, spreek met Constantyn; vernieuw den vriendschapsband.</l>
+
+						<l>Zeg hem... wat u behaagt... 'k stel alles in uw hand.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Steun op myn zorg; 'k zal uw verneedring niet gedoogen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Menzikoff, Iwan, Eudoxe.</stage>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Nooit, nooit, myn Iwan, waart gy grooter in myne oogen.</l>
+						<l>Toom, op uws Vaders raad, voortaan uw driften in,</l>
+						<l>En ban, zo 't mooglyk is, den luister uit uw' zin</l>
+						<l>Die u aan 't Russisch Hof voordezen heeft omscheenen;</l>
+						<l>De grootheid en 't gezag zyn uit ons oog verdweenen.</l>
+						<l>Al schynt ons deerlyk lot verschriklyk voor uw jeugd,</l>
+						<l>Toon dat gy 't niet verdient; zoek grootheid in de deugd.</l>
+						<l>Uw staat verpligt u dat ge u needrig moet gedraagen.</l>
+						<l>Waan nimmer dat elende en armoede ons verlaagen;</l>
+						<l>De schuld alleen baart schande; en hy, die dwaas vermoed</l>
+						<l>Dat aanzien of gezag onze achting ryzen doet,</l>
+						<l>Laat zich door d'ydlen glans van klatergoud verblinden.</l>
+						<l>Verdienste is menigwerf in hutten ook te vinden.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Alexis keert te rug. Ach! 't is vergeefs getracht...</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Menzikoff, Iwan, Eudoxe, Alexis.</stage>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Ik ben naar wensch geslaagd, en eerder dan ik dacht.</l>
+						<l>Het kostte my geen moeite om Constantyn te vinden:</l>
+						<l>Hy dwaalde hier omtrent, en haakt reeds naar zyn vrinden.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Wat zegt ge? ô Hemel!</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Is het mooglyk!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Dat hy koom'.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Menzikoff, Iwan, Eudoxe, Alexis, Constantyn.</stage>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Op dit gewenscht gebod verschyn ik zonder schroom.</l>
+					</sp>
+					<stage>Hy kust Menzikoff de hand.</stage>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>hem omarmende.</stage>
+						<l>Myn waarde Constantyn! gy geeft my 't leven weder.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan,</speaker>
+						<stage>tegen Constantyn.</stage>
+						<l>Ach! ziet gy zonder wrok op uwen hooner neder?</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn,</speaker>
+						<stage>hem omhelzende.</stage>
+						<l>Ik wrok voên tegen u? denk aan 't voorleedne niet.</l>
+						<l>Geef my uw vriendschap weêr, nu gy de myne ziet.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Myn Broeder! 'k was, door drift vermeesterd, onrechtvaardig;</l>
+						<l>Doch uw grootmoedigheid maakt u myn' eerbied waardig.</l>
+						<l>'k Zal u vergoeding doen; verlaat u op myn woord.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Is schoone Eudoxe nog op Constantyn gestoord;</l>
+						<l>Of zal zy, op zyn beê, haar vriendschap hem vergunnen?</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Wie zou, na dezen stap, dees bede u weigren kunnen?</l>
+					</sp>
+					<stage>Zy reikt hem de hand toe, die hy kust.</stage>
+					<sp who="#biron">
+						<speaker>Constantyn.</speaker>
+						<l>Nooit heeft myn dankbre ziel gewenschter stond beschouwd.</l>
+						<l>Myn Vrienden, zo ik u myn' staat niet heb ontvouwd,</l>
+						<l>Ik wierd door reednen van gewigt daartoe bewoogen.</l>
+						<l>Doch 't zwygen is dit uur niet meer in myn vermogen,</l>
+						<l>Nu ik uw aller gunst en vriendschap wederwon.</l>
+						<l>Gy ziet in my een Telg van 't Stamhuis van Biron.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>In u? Kan 't mooglyk zyn!</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Gy, uit Biron gesprooten!</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>Ik heet Gustaaf, en ben de jongste van zyn Looten.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Dan zyt ge niet gedoemd naar deze woesteny.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>'k Ben hier uit eigen keuze, en 't keeren staat my vry.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>ô Onwaardeerbre trouw!</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Wie kon zulks ooit vermoeden!</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Gy naamt vrywillig deel in onze tegenspoeden?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Verberg my niet wat u hiertoe heeft aangespoord.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron,</speaker>
+						<stage>tegen Menzikoff.</stage>
+						<l>Ik wierd van jongs af aan door uwen lof bekoord.</l>
+						<l>Ik had aan alle zyde uw wysheid hooren roemen,</l>
+						<l>En u de waare bron van Ruslands grootheid noemen;</l>
+						<l>Want de eer, die 't vlug gerucht een' Opperheerscher geeft,</l>
+						<l>Behoort niet minder aan den Raadsman dien hy heeft:</l>
+						<l>Een Vorst, hoe groot hy zy, kan nimmer wondren werken</l>
+						<l>Als oordeel en beleid hem niet in 't heerschen sterken.</l>
+
+						<l>Vervuld van eerbied voor uw deugd en kundigheid,</l>
+						<l>Wierd ik door mynen Oom naar 't Russisch Hof geleid,</l>
+						<l>Alwaar myn Broedren reeds ten top van glori steegen.</l>
+						<l>Verbeeld u, zo gy kunt, hoe sterk 't my moest beweegen,</l>
+						<l>Toen ik u by Cazan met al uw Maagen zag.</l>
+						<l>Nog jaagt my 't angstig harte op 't denkbeeld van dien dag.</l>
+						<l>Men had my geen bericht van uwen ramp gegeeven.</l>
+						<l>Ik waande u nog aan 't Hof ten top van eer verheven,</l>
+						<l>Wanneer ik u ontmoette in deerniswaarden staat,</l>
+						<l>Verteerd door smarte, en met de doodverwe op 't gelaat.</l>
+						<l>Verschoon my dat myn taal uw zielverdriet moet wekken.</l>
+						<l>'k Zag u den laatsten pligt aan uwe Gaê voltrekken.</l>
+						<l>Dit schrikkelyk gezicht zette al myn deernis aan.</l>
+						<l>'k Besloot u in dit oord standvastig by te staan.</l>
+						<l>Myn Oom verbond zichzelv' dat hy Vorst Peter spreeken,</l>
+						<l>En om verligting van uw ballingschap zou smeeken.</l>
+						<l>Hy trok naar Petersburg, en ik naar dit gewest,</l>
+						<l>Waar ik, reeds vóór uw komst, myn wooning had gevest.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Grootmoedige Biron!</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>ô Deugd, te wreed beleedigd!</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>Myn Halsvriend! wees om my toch met uzelv' bevredigd.</l>
+
+						<l>Waartoe herdenkt ge een drift, nooit door uw' Vriend herdacht?</l>
+						<stage>Tegen Menzikoff.</stage>
+						<l>Ik heb van maand tot maand, van uur tot uur gewacht,</l>
+						<l>Dat ik van 't Russisch Hof berichten zou bekomen:</l>
+						<l>Vergeefsche hoop, helaas! ik heb nog niets vernomen.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Ontzet, verwonderd door de grootheid van uw deugd,</l>
+						<l>Die zo veel luisters spreid in 't bloeien uwer jeugd,</l>
+						<l>Zoek ik naar woorden om myn dankbaarheid te toonen.</l>
+						<l>Ik wenschte u... ach! vergeefs... De Hemel zal u loonen.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>De zucht tot ons behoud komt u te duur te staan.</l>
+						<l>Ontwyk dit naar gewest; laat ons in 't leed vergaan.</l>
+						<l>Waartoe u, zonder nut, om ons dus stout te waagen?</l>
+						<l>Wierd uw bestaan ontdekt, gy zoud dees daad beklaagen.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Uw dierbre vriendschap heeft ons menigwerf getroost;</l>
+						<l>Doch nu ik weet dat ge u om ons verroekeloost,</l>
+						<l>Ben ik verpligt myn' raad by dien myns Zoons te voegen.</l>
+						<l>Stel u niet langer bloot aan 't Vorstlyk ongenoegen;</l>
+						<l>'t Hof acht hem schuldig die een' balling onderschraagt.</l>
+						<l>Voorkom uw' ondergang; 't is reeds te veel gewaagd.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>Myn yver voor uw huis laat nimmer zich bepaalen,</l>
+
+						<l>En eischt de Vorst myn hoofd, dat hy dat hoofd doe haalen.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Waartoe u blootgesteld aan 't jammerlykst verdriet,</l>
+						<l>En zonder dat ge ooit nut..?</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>Gy weet nog alles niet.</l>
+						<l>Myn trouw is niet geheel bevryd van zelfbelangen.</l>
+						<l>Eudoxes minzaam oog houd me in dit oord gevangen.</l>
+						<l>Gy zaagt, myns ondanks zelfs, myn' sterken liefdegloed...</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Bazilius genaakt met ongewoonen spoed.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>Menzikoff, Iwan, Eudoxe, Biron, Alexis, Bazilius.</stage>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>Wat jaagt u dus verbaasd? wat is u wedervaaren?</l>
+					</sp>
+					<sp who="#bazilius">
+						<speaker>Bazilius.</speaker>
+						<l>'k Ben ademloos; laat my een oogenblik bedaaren.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>Gy schynt ontsteld! gy beeft! Wat heeft u dus ontroerd?</l>
+					</sp>
+					<sp who="#bazilius">
+						<speaker>Bazilius.</speaker>
+						<l>Een stoet van ballingen word herwaart aangevoerd,</l>
+						<l>In jammerlyken stand en schier van rouw bezweeken.</l>
+						<l>Een gryzaart, wien zyn lot in wanhoop schynt te ontsteeken,</l>
+						<l>Wekt door een naar gegil elks hart tot deerenis,</l>
+						<l>Doch weigert, wat men vraag', te zeggen wie hy is.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Helaas! daar zyn 'er meer die bittre rampen lyden.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Kon 't mededoogen al de elendigen bevryden!</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>'t Zyn lotgenooten in ons onheil. Laat ons hart</l>
+						<l>Zich yvrig kwyten tot verzachting van hun smart.</l>
+					</sp>
+					<sp who="#bazilius">
+						<speaker>Bazilius,</speaker>
+						<stage>tegen Biron.</stage>
+						<l>Hun Leidsman heeft terstond by ons naar u vernomen.</l>
+						<l>Had ik hem niet gestuit, hy waar' met my gekomen:</l>
+						<l>Hy wil u zien.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron,</speaker>
+						<stage>tegen Menzikoff.</stage>
+						<l>Ik ben hier yllings wederom.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Zesde tooneel.</head>
+					<stage>Menzikoff, Iwan, Eudoxe, Alexis.</stage>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Ach! welk een uitzicht, zich in hoogen ouderdom,</l>
+						<l>Beroofd van goedren, in Siberiën te vinden!</l>
+						<l>De Hemel geeft aan elk geen onverwachte Vrinden.</l>
+						<l>Wie kon ooit denken dat Biron, alleen uit trouw,</l>
+						<l>Met zo veel yvers in ons onheil deelen zou?</l>
+						<l>Zyn deugd is dubbel waard' dat wy ons dankbaar toonen.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Wy kunnen nimmer zyn grootmoedigheid beloonen.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis,</speaker>
+						<stage>tegen Iwan.</stage>
+						<l>Gy ziet nu duidlyk door wat drift hy wierd bezield,</l>
+						<l>Toen u zyn tegenspraak in 't vlieden wederhield.</l>
+						<l>Hy hoopte dat zyn min Eudoxe zou bevryden,</l>
+						<l>En kon niet dulden dat uw Vader in zyn lyden</l>
+						<l>Hier eenzaam kwynen zou, ontzet van allen troost.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Ik wensch geen heil op aard' dan 't welzyn van myn Kroost.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Geliefde Eudoxe! wist Biron uw hart te winnen?</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Verberg uw neiging niet.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Hy is wel waard' te minnen.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Dat hy u dan verlosse uit deze woesteny;</l>
+						<l>Uw redding is de myne; ik blyf myn' Vader by.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Verbeeld ge u dat Eudoxe in trouw voor u zal zwichten?</l>
+						<l>Ik zal hier nevens u myns Vaders druk verligten.</l>
+						<l>Myn hart, 'k ontken zulks niet, voed achting voor Biron;</l>
+						<l>Doch schoon ik hem bemin, indien hy waanen kon</l>
+						<l>Dat ik om myn behoud u beiden zou verlaaten,</l>
+						<l>Zou hy, myns ondanks zelfs, my dwingen hem te haaten.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Myn Zoon, myn Dochter, welk een' zegen strekt me uw deugd!</l>
+						<l>Doch zoude ik dulden dat ge in 't bloeien van uw jeugd,</l>
+						<l>Om my ten steun te zyn, u zoud rampzalig maaken?</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Het voegt aan deugdzaam Kroost voor 's Vaders heil te waaken.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe,</speaker>
+						<stage>Menzikoff omhelzende.</stage>
+						<l>Zo lang myn oog u ziet, trotseere ik 't ongeval.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan,</speaker>
+						<stage>Menzikoff omhelzende.</stage>
+						<l>Ik zweer dat ik in 't leed u niet begeeven zal.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Biron genaakt van verre.</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>Zevende tooneel.</head>
+					<stage>Menzikoff, Iwan, Eudoxe, Alexis, Biron, Bazilius.</stage>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>Ik heb u veel te ontdekken,</l>
+						<l>'t Welk u ontzetting en verwondring zal verwekken:</l>
+						<l>Vorst Iwans Dochter heerscht; Czaar Peter leeft niet meer.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Wat hoor ik!</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Kan het zyn!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>naar de bank treedende.</stage>
+						<stage>Tegen Iwan.</stage>
+						<l>Ach! zet me een weinig neêr.</l>
+						<stage>Tegen Biron.</stage>
+						<l>Bedriegt ge u niet? wie heeft u dit bericht gegeeven?</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>Een onverwachte kwaal beroofde hem van 't leven.</l>
+						<l>Men droeg den Scepter op aan Kourlands Hertogin.</l>
+						<l>Een myner Broedren is de gunstling dier Vorstin:</l>
+
+						<l>Hyzelf zond my een' brief.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Dan moeten we u gelooven.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis,</speaker>
+						<stage>tegen Menzikoff.</stage>
+						<l>Dus ziet uw vyand zich zyn' sterksten steun ontrooven.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>Hy is niet meer aan 't Hof.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Gy zyt gewis misleid.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>Ik heb van 't geen ik zeg de grootste zekerheid.</l>
+						<l>Vorst Dolgorukki is, van eer en staat verstooten,</l>
+						<l>Gebannen naar dit oord met zyn rampzaalge Looten.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>De Hemel zy geloofd! De boosheid heeft haar loon.</l>
+						<l>Dat nu de Ontmenschte leer' ..</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Bepaal uw' haat, myn Zoon!</l>
+						<l>Laat zyn rampspoedig lot hem aan uw' toorn onttrekken;</l>
+						<l>Zyn wroegend harte zal hem strafs genoeg verstrekken.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>Hoe veel zyn overmoed u eertyds lyden deed,</l>
+						<l>Gy zoud geraakt zyn door 't beschouwen van zyn leed.</l>
+						<l>Hy heeft zyne Echtgenoote ook op zyn' togt verlooren.</l>
+
+						<l>Zyn Telgen schynen in hun zielverdriet te smooren,</l>
+						<l>Terwyl zyn grimmig hart al gillend aêmtocht zoekt,</l>
+						<l>De Keizerin, het Ryk, en zynen toestand vloekt.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Opdat hy aan zyn lot zich zou gewennen kunnen,</l>
+						<l>Zal 't noodig zyn de woede een' ruimen toom te gunnen.</l>
+						<stage>Tegen Iwan en Eudoxe.</stage>
+						<l>Draagt zorg, zo veel gy kunt, dat gy zyn byzyn myd;</l>
+						<l>Ons slechts te aanschouwen strekt voor hem een sterk verwyt.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Had my de ontmenschte alleen naar dit gewest verdreeven,</l>
+						<l>Ik zou zyn snoodheid om zyn' rampspoed hem vergeeven.</l>
+						<l>Doch als ik denk aan uwe en aan Eudoxes smart,</l>
+						<l>Ben ik geen meester meer van myn verbitterd hart.</l>
+						<l>Hoe zal ik tegen hem myn gramschap wederhouên?</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>'t Zal mooglyk veiligst zyn hem noch zyn Kroost te aanschouwen.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Daar is geen middel toe in deze wildernis,</l>
+						<l>Waar, buiten hem en ons, geen mensch te vinden is.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>Beschouw dit aklig oord niet langer als uw wooning;</l>
+						<l>Uwe eedle deugd verwerft, na zo veel leeds, belooning.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>ô Hemel!</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Ach! Biron!</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Neemt onze elende een' keer!</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron,</speaker>
+						<stage>tegen Menzikoff.</stage>
+						<l>Gy zyt hersteld in rang, in goedren, en in eer.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Door 't Hof in eer hersteld!</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Dit gaat myn hoop te boven.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron,</speaker>
+						<stage>Menzikoff den lastbrief aanbiedende.</stage>
+						<l>Zo gy nog twyflen mogt, gy moet dit schrift gelooven.</l>
+						<l>'t Strekke u van Annaas gunst een onbetwistbaar pand,</l>
+						<l>Gezegeld door haar' last, geteekend door haar hand.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>ter zyde.</stage>
+						<l>Myn ziel bezwykt door vreugd.</l>
+						<stage>Tegen Biron.</stage>
+						<l>Vergun my 't schrift te leezen.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Eudoxe! welk een heil!</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Ach! mogt het duurzaam wezen!</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>Myn waarde Eudoxe! smaak dien zegen ongestoord!</l>
+						<l>Wy scheiden, nog deez' dag, uit dit verschriklyk oord.</l>
+						<l>Het Hof heeft in zyn gunst voor alles zorg gedraagen:</l>
+						<l>Gewaaden naar uw' staat; een dienstbre sleep; de wagen,</l>
+						<l>Die u vervoeren zal; 't is alles reeds naby.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Gewenscht bericht...</l>
+						<stage>Ter zyde.</stage>
+						<l>Dan ach! het komt te spaê voor my.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Duld dat wy u geluk met uw herstelling wenschen.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>de hand aan Alexis en Biron biedende.</stage>
+						<l>Geliefde Vriend! en gy, trouwhartigste aller menschen!</l>
+						<l>'k Had op den rand van 't graf dees tyding niet verwacht.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>'k Heb door myns Broeders gunst naar troost voor u getracht;</l>
+						<l>En dorst my vleien dat ge eens uitkomst zoud erlangen:</l>
+						<l>Ik haakte elk oogenblik bericht daarvan te ontfangen;</l>
+						<l>En hoopte dat dit heil, verworven door myn trouw,</l>
+						<l>Aan myn beminnend hart tot voorspraak strekken zou,</l>
+						<l>Als ik u in dit uur myn' naam en staat ontdekte.</l>
+						<stage>Tegen Alexis.</stage>
+						<l>Besef nu welk een smart uw voorstel my verwekte.</l>
+
+						<l>Indien myn Vriend met u gevlucht waare uit dit oord,</l>
+						<l>En 't Hof, tot gunst geneigd, de ontkoming had gehoord,</l>
+						<l>Had dit vergryp die gunst in gramschap doen verkeeren;</l>
+						<l>Een vuur ontstoken, dat ons allen moest verteeren.</l>
+					</sp>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Ik dwaalde uit deernis, en doorgrondde uw oogmerk niet.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>het geschrift middelerwyl ten tweedenmaale geleezen hebbende, reikt
+							hetzelve aan Iwan over.</stage>
+						<l>'t Is of myn scheemrend oog de letters dubbel ziet.</l>
+						<stage>Na eenig stilzwygen.</stage>
+						<l>Geluk, myn dierbaar Kroost! beleeft gewenschter tyden!</l>
+						<l>De Hemel zal my op eene andre wyz' bevryden.</l>
+						<l>'t Schynt dat dees sterke schok myn krachten overwon;</l>
+						<l>De vreugd voleindigt 't geen de droesenis begon.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan,</speaker>
+						<stage>toeschietende, en zyn' Vader in den arm vattende.</stage>
+						<l>Myn Vader!</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Hemel! ach!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>tegen Iwan en Eudoxe.</stage>
+						<l>Verbergt my uwe smarte,</l>
+						<l>En hoort myn' jongsten wensch met een weldaadig harte.</l>
+						<l>Ik ben getroffen door myns vyands zielverdriet;</l>
+						<l>'k Vergeef hem zyn bestaan; verzwaart zyn onheil niet.</l>
+
+						<l>Laat hem, na uw vertrek, dit nedrig huis bewoonen;</l>
+						<l>Staat hem den voorraad af, en tracht hem hulp te toonen.</l>
+						<l>De Hoogste magt, die hem als ons vernederd heeft,</l>
+						<l>Behoed den sterveling die 's naasten schuld vergeeft.</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Wy zullen uw bevel ons tot een richtsnoer stellen.</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Zorgt voor de dienstbren die tot heden ons verzellen;</l>
+						<l>Maakt dat hun oude dag een dag van vrede zy;</l>
+						<l>Verschaft hen onderhoud, en maakt hen allen vry.</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>Hun trouw verdient uw gunst. Ach! mogt gy veele dagen...</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff,</speaker>
+						<stage>tegen Alexis.</stage>
+						<l>Gy, die u troostte uzelv' tot heil myns Zoons te waagen,</l>
+						<l>Grootmoedig Vriend! maak staat op zyne erkentenis.</l>
+						<l>Gy zult gelukkig zyn, zo 't een der mynen is.</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>Myn Vriend! myn Vader! schenk my deel aan uwen zegen!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Ach! wat bezit ik dat uw weldaên op kan weegen?</l>
+						<l>Eudoxe! nader my.</l>
+						<stage>Zy nadert, en Menzikoff legt haar hand in die van Biron. </stage>
+						<l>Ontfang haar van myn hand:</l>
+
+						<l>Zy strekke u van myn liefde een onwaardeerbaar pand.</l>
+						<stage>Zy knielen voor Menzikoff.</stage>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>Eudoxe! myne Eudoxe! ach! had ik durven denken</l>
+						<l>Dat gy my nog deez' dag uw dierbre hand zoud schenken!</l>
+					</sp>
+					<sp who="#eudoxe">
+						<speaker>Eudoxe.</speaker>
+						<l>ô Welk een mengeling van blydschap en van druk!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Myn waarde Kinders! smaakt een ongestoord geluk!</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron,</speaker>
+						<stage>tegen Iwan.</stage>
+						<l>Myn Iwan! stemt gy ook...</l>
+					</sp>
+					<sp who="#iwan">
+						<speaker>Iwan.</speaker>
+						<l>Myn toeverlaat! myn Broeder!</l>
+						<stage>Op Menzikoff wyzende.</stage>
+						<l>Dan ach!</l>
+					</sp>
+					<sp who="#menzikoff">
+						<speaker>Menzikoff.</speaker>
+						<l>Geliefde Zoon! de Hemel zy uw hoeder!</l>
+						<l>Gedraag u loflyk in den rang, die u verwacht.</l>
+						<l>Zorg dat ge altoos de wet der billykheid betracht.</l>
+						<l>Laat trotsheid, zelfbelang, noch staatzucht u verblinden,</l>
+						<l>Indien ge in 't uiterst uur de kalmte wenscht te vinden</l>
+						<l>Die in dit oogenblik ten troost strekt aan myn' geest.</l>
+						<l>Begraaf my by Elize... ik hoop...</l>
+					</sp>
+					<sp who="#biron">
+						<speaker>Biron.</speaker>
+						<l>Hy is geweest.</l>
+					</sp>
+					<stage>Biron en Eudoxe omarmen de kniën van Menzikoff, en buigen, weenende, hun
+						hoofden op dezelven.</stage>
+					<sp who="#alexis">
+						<speaker>Alexis.</speaker>
+						<l>Noch heil, noch onheil, is bestendig op deze aarde;</l>
+						<l>Maar de onbevlekte deugd houd zelfs in 't graf haar waarde.</l>
+					</sp>
+					<stage>EINDE.</stage>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
