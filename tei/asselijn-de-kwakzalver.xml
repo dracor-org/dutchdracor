@@ -1,0 +1,2046 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000119" xml:lang="dut">
+		<teiHeader>
+			<fileDesc>
+				<titleStmt>
+					<title type="main">De kwakzalver</title>
+					<author>
+						<persName>
+							<forename>Thomas</forename>
+							<surname>Asselijn</surname>
+						</persName>
+						<idno type="wikidata">Q448629</idno>
+					</author>
+				</titleStmt>
+				<publicationStmt>
+					<publisher xml:id="dracor">DraCor</publisher>
+					<idno type="URL">https://dracor.org</idno>
+					<availability>
+						<licence>
+							<ab>CC0 1.0</ab>
+							<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+								>Licence</ref>
+						</licence>
+					</availability>
+				</publicationStmt>
+				<sourceDesc>
+					<bibl type="digitalSource">
+						<name>DBNL</name>
+						<idno type="URL">https://www.dbnl.org/tekst/asse001kwak01_01/index.php</idno>
+						<availability status="free">
+							<p>In the public domain.</p>
+						</availability>
+					</bibl>
+					<bibl type="originalSource">
+						<title>Thomas Asselijn: De kwakzalver. Amsterdam: J. Lescailje (erven), 1692.</title>
+					</bibl>
+				</sourceDesc>
+			</fileDesc>
+			<profileDesc>
+				<particDesc>
+					<listPerson>
+						<person sex="MALE" xml:id="andries">
+							<persName>Andries</persName>
+						</person>
+						<person sex="FEMALE" xml:id="geertrui">
+							<persName>Geertrui</persName>
+						</person>
+						<person sex="FEMALE" xml:id="griet">
+							<persName>Griet</persName>
+						</person>
+						<person sex="MALE" xml:id="hans">
+							<persName>Hans</persName>
+						</person>
+						<person sex="FEMALE" xml:id="jacoba">
+							<persName>Jacoba</persName>
+						</person>
+						<person sex="MALE" xml:id="jan">
+							<persName>Jan</persName>
+						</person>
+						<person sex="FEMALE" xml:id="tryn">
+							<persName>Tryn</persName>
+						</person>
+					</listPerson>
+				</particDesc>
+				<textClass>
+					<keywords>
+						<term type="genreTitle">Farce</term>
+					</keywords>
+				</textClass>
+			</profileDesc>
+			<revisionDesc>
+				<listChange>
+					<change when="2024-06-18">(Lucas van der Deijl) convert from source</change>
+				</listChange>
+			</revisionDesc>
+
+
+		</teiHeader>
+		<standOff>
+			<listEvent>
+				<event type="print" when="1692">
+					<desc/>
+				</event>
+			</listEvent>
+			<listRelation>
+				<relation active="https://dracor.org/entity/" name="wikidata"
+					passive="http://www.wikidata.org/entity/"/>
+			</listRelation>
+		</standOff>
+	<text>
+		<front>
+			<docTitle>
+
+				<titlePart>DE KWAKZALVER KLUCHTSPEL.</titlePart>
+				<titlePart>De Heer W.G.V. FOCQUENBROCH gevolgd. Door T. ASSELYN.</titlePart>
+				<titlePart>
+					<figure>
+					</figure>
+				</titlePart>
+				<titlePart>By de Erfg: J: Lescailje, op de Middeldam, op de hoek van de Vischmarkt, 1692.
+					Met Privilegie.</titlePart>
+			</docTitle>
+			<div type="preface">
+				
+				<head>Copye van de Privilegie.</head>
+				<p>DE Staten van Holland ende Westvriesland doen te weten. Alzo Ons vertoond is by
+					de tegenwoordige Regenten van de Schouwburg tot Amsterdam, Dat zy Supplianten,
+					zedert eenige Jaaren herwaarts met hunne goede vrinden hadden gemaakt, en ten
+					Tooneele gevoert verscheiden Werken, zo van Treurspeelen, Blyspeelen als
+					Klugten, welke zy lieden nu geerne met den druk gemeenwilden maken? dochgemerkt
+					dat deze Werken door het nadrukken van anderen, veel van hun luitter, zo in Taal
+					als Spelkonst zouden komen te verliezen, en alzo zy Supplianten hen berooft
+					zouden zien van hun byzondere oogwit om de Nederduitsche Taal en de Digtkonst
+					voort te zetten, zo vonden zy hen genoodzaakt, om daarinne te voorzien, ende hen
+					te keeren tot Ons. onderdanig verzoekende, dat Wy omme tedenen voorsz. de
+					Supplanten geliefden te verleenen Oktroy ofte Privilegie, omme alle hunne Werken
+					reeds gemaakt, ende noch in 't ligt te brengen, den tyd van vyftien Jaaren
+					alleen te mogen drukken en verkoopen of doen drukken en verkoopen, met verbod
+					van alle andeten op zeekeren hooge peene daer toe by Ons te stellen, ende voorts
+					in communi forma. Zo is 't dat Wy de Zake en 't Versoek voorsz. overgemerkt
+					hebbende, ende genegen wezende ter bede van de Supplianten, uit Onze regte
+					wetenschap, Souveraine magt ende authoireit dezelve Supplianten gekonzenteert,
+					geakkordeert ende geoktroieert hebben, konzenteeren, akkordeeren ende
+					oktroieeren mitsdezen, dat zy geduurende den tyd van vyftien eerst achter een
+					volgende Jaaren de voorsz. Werken die reeds gedrukt zyn, ende die van tyd tot
+					tyd door haar gemaakt ende in 't ligt gebragt zullen werden, binnen den voorsz.
+					Onzen Lanpe alleen zullen mogen drukken, doen drukken, uitgeven en verkoonen.
+					Verbiedende daarom allen ende eenen ygelyken dezelve Werken daar te drukken,
+					ofte elders naargedrukt binnen den zelve Onzen Lande te brengen, uit te geven
+					ofte te verkoopen, op de verbeurte van alle de naargedrukte, ingebragte ofte
+					verkogte Exemplaaren, ende een boete van drie honderd guldens daar en boven te
+					verbeuren, te applieeren een darde part voor den Officier die de kalange doen
+					zal, een darde part voor den Armen der Plaatze daat het kazus voorvallen zal,
+					ende het resteerende darde part voorden Supplianten, Alles in dien verstande,
+					dat wy de Supplianten met dezen Onzen Oktroije alleen willende gratificeren tot
+					verhoedinge van hare schaade door het nadrukken van de voorsz. Werken, daar door
+					in geenige deelen verstaan, den inhoude van dien te authorizeeren ofte te
+					advoueeren, ende veel min de zelve onder Onze protektie ende bescherminge, eenig
+					meerder kredit, aanzien oft reputatie te geven, nemaar de Supplianten in kas
+					daar in yets onbehoorlyk zoude mogen influeeren, alle het zelve tot haren laste
+					zullen gehouden wezen te verantwoorden; tot dien einde wel expresselyk
+					begeerende, dat by aldien zy dezen Onzen Oktreije voor dezelve Werken zullen
+					willen stellen daar van geene geabbrevieerde ofte gekontraheerde mentie zullen
+					mogen maaken, nemaar gehouden zxllen weezen het zelve Oktroy in 't geheel ende
+					zonder eenige Omissie daar voor te drukken ofte te doen drukken, ende
+					dat zy gehouden zullen zyn een exemplaar van alle de voorsz. Werken, gebonden
+					ende wel gekonditioneert te brengen in de Bibliotheecq van Onze Univerziteit tot
+					Leiden, ende daar van behoorlyk te doen blyken. Alles op poene van het effekt
+					van dien te verliezen. Ende ten einde de Supplianten deezen Onzen konzente ende
+					Oktroye mogen genieten als naar behooren: Lasten wy allen ende eenen ygelyken
+					die 't aangaan mag, dar zy de Supplianten van den inhoude van dezen doen, laaten
+					en gedogen, rustelyk en volkomentlyk genieten, en cesserende alle beletten ter
+					kontrarie. Gedaan in den Haage onder Onzen grooten Zegele hier aan doen hangen
+					den xix September in 't Jaar onzes Heeren en Zaligmakers duizent zes honderd
+					vier entachtig.</p>
+				<p>G. FAGEL.</p>
+				<p>Ter Ordonnantie van de Staaten</p>
+				<p>SIMON van BEAUMONT.</p>
+				<p>De tegenwoordige Regenten van de Schouwburg, hebben het recht der bovenstaande
+					Privilegie, voor dit Kluchtspel, vergund aan de Erfgenaemen van Jacob
+					Lescailje,</p>
+			</div>
+			<castList>
+				<head>Persoonadjes.</head>
+				<castItem corresp="#andries">
+					<role>Andries, Vrijer van Geertrui.</role>
+				</castItem>
+				<castItem corresp="#geertrui">
+					<role>Geertrui, Vryster van Andries.</role>
+				</castItem>
+				<castItem corresp="#jacoba">
+					<role>Jacoba, Vryster van Jan.</role>
+				</castItem>
+				<castItem corresp="#jan">
+					<role>Jan, Vrijer van Jacoba.</role>
+				</castItem>
+				<castItem corresp="#hans">
+					<role>Hans, Vader van Geererui, en Jacoba, een Kwakzalver.</role>
+				</castItem>
+				<castItem corresp="#tryn">
+					<role>Tryn, { twee Vrouwen, yder met Doctors urinalen aan den arm.</role>
+				</castItem>
+				<castItem corresp="#griet">
+					<role>Griet, { twee Vrouwen, yder met Doctors urinalen aan den arm.</role>
+				</castItem>
+				<p>Het Kluchtspel speeld op een Kwakzalvers stelagie, na malkanderen af, op de
+					plaats daar 't vertoond word.</p>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<div type="scene" n="1">
+					<head>De kwakzalver.</head>
+					<head>Eerste tooneel.</head>
+					<stage>Geertrui, Andries.</stage>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>HOor, Truitje, de oorzaak dat ik hier kom in schyn om eenig Poeder of
+							ander Medicament te koopen,</l>
+						<l>Dat en is de meening niet, maar ziende my ten einde van al myn hoopt,</l>
+						<l>En dat uw Vader my u heeft ontzeid, zo is 't dat myn altyd werkende, en
+							nimmer rustende geest,</l>
+						<l>In geduurige overlegginge zeederd dien tyd altoos beezig is geweest.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Gy weet ook de oorzaak, Andries, waarom dat myn Vader u gelieft heeft te
+							excuseeren,</l>
+						<l>Om dat hy my, noch myn zuster, niet wil uit trouwen, als aan iemand die
+							hem op zyn Theater kan komen te succederen.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Alleen is dan myn boodschap, om uw sentiment voor 't laatst noch eens te
+							verstaan,</l>
+						<l>Wat dat gy my, in deez' myn overlegginge, wel zoud willen raan,</l>
+						<l>Wat dunkt u? hy kend doch myn swier, aard, en myn mienen,</l>
+						<l>Dat ik my by uw Vader voor knecht verhuurden, om hem op zyn theater te
+							dienen?</l>
+						<l>Hoe gevald u dit, Truitje? dat ik dit eens vermomd, in een vreemd gewaad,
+							bezocht?</l>
+						<l>Of dit noch wat mogt uitwerken.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geererui.</speaker>
+						<l>Dit zou ligt wel gaan, Andries, was dit by jou niet al te laat
+							bedocht.</l>
+						<l>Jou groote maat Jan heeft jou van dezen dag die pas al afgesneeden.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Hoe, Truitje! is Jan jou Vaders knecht geworden?</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>O ja, hy maakt hem vast achter 't gordyn al klaar om het Theater te
+							betreeden.</l>
+						<l/>
+						<l>En dat al op een aardige wys, als hy licht zelfs wel vertellen zal.</l>
+						<l>Ik zal hem eens roepen, Jan, Jan, Jan.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Jan half verkleed met de mantel om de ooren gestaagen.</stage>
+					<stage>Geertrui, Andries.</stage>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>O! myn Vrind, Andries.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Wel hoe kom jy tot deze staat, Jan?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Al door een heel wonderlyk geval.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Wel de Duivel, Jan! daar neemje me het brood uit myn mond, op die wys
+							mienden ik noch aan Truitje te raaken.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Hoor, Andries, leg het nou op een andere wys aan, ik beloofje behulpzaam
+							te zyn in je zaaken:</l>
+						<l>'t Water was my al aan de lippen, ik verklaarje dat ik ten einde van alle
+							raad alreeds was,</l>
+						<l>Alleen kwam my nu, dat ik by de Barbier had gewoont, en wat op de Viool
+							kon speelen, te pas.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Weetje wat ik doen zou, Andries? ik zou 't al heel op een andre boeg
+							wenden,</l>
+						<l>Ik wou zo wat de Boere Kermissen gaan bezoeken, daarze me wel het minste
+							kenden,</l>
+						<l>En verkoopen daar zo wat pleisters voor de likdoorens, en de tant, pyn,
+							en leggen zelf een pleister aan de zy van je hooftom de leus,</l>
+						<l>En ook wat vitriol cypri, of blauw alluin, om de wratten weg te neemen,
+							en voor 't bloeden uit de neus.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Maar zacht, daar komt myn Matres, Andries, die hoop ik zal 't zyn.
+							vertrek niet, of wil haar nevens my ook kongratuleeten,</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Schoon my dit is gemist, Jan, zal ik wat anders in 't werk gaan stellen
+							en practiseeren.</l>
+						<l>Uw dienaar, Jufvrouw Geertrui, Uw dienaar, Jufvrouw Jacoba, Vaar wel,
+							Jan.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Darde tooneel.</head>
+					<stage>Jan, Geertrui, Jacoba.</stage>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>O! dat is een vroome ziel, en in zyn darmen is hy goed.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Hoe! gaat Andries zo weg?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Die zelve Andries, Jufvrouw, is al een hupsch Kaerel, byzonder wel
+							opgevoed,</l>
+						<l>Hy speeld zeer aardig op de Fluit, en de Haubois, en is vol van
+							vertellinge en snakerije.</l>
+						<l>En een Liefhebber der Dichtkunst, hy kenje daar zo een honderd regels of
+							twee uit Aran en Titus, van buiten op snijen,</l>
+						<l>Over al is hy thuis, hiel gauw, en van een altyd werkende geest.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Ja, Jan, je zegt dat hy zo gauw is, maar jy bend hem noch al veel te gauw
+							geweest.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Maar zeg eens, Jan, op wat wys ben jy doch wel in Papaas dienst
+							geraakt?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Heel aardig was het, zo als ik hem ontmoete, doch dit alles te zeggen,
+							zouje de tyd zeekerlyk verveelen,</l>
+						<l>Doch je Papa heeft voor, om dit als een Kluchje op het Theater eerst voor
+							af te speelen,</l>
+						<l>Om de aardigheid die het bevat. Maar iet is 'er Jufvrouw dat ik vraagen
+							moet, hoe 't is, dat dit ontbreekt,</l>
+						<l>Terwyl je Vader een Hoogduitscher is, dat jy beiden zo zuiver Hollands
+							spreekt?</l>
+						<l>Te meer na dat ik versta noch van Ouders tot Ouders gebooren,</l>
+						<l>Daar men uw Hollanders moet oordeelen te zyn, al wie uw maar komen te
+							hooren?</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Wel gy bend het alleen niet, Jan, die dit verwonderen doed;</l>
+						<l>Maar hoor, ik zelt je zeggen, wy zyn van kindsbeen af by onze meni in den
+							Haag op gevoed.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Sta ruim, daar komt myn Heer,</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Jan, je moet Papa al heel courtois, en met groot respect salueeren,</l>
+						<l>Of anders staatje dit te verwachten, dat hy je niet weinig en zal
+							corigeeren.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Geertrui, Jan, Jacoba, Hans</stage>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Bister al verdig, ont ist alles klar? oder it most vleizich zein, ont
+							weizen ein huphs kezel.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Ja, myn Heer, dat zelje ook ondervinden, dat ik jou eerlyk en trouw
+							dienen zel.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Jacoba, habter it des Flesleins, von ein, tzwei ont trei schillinks al
+							verdeild? om nichts te abouzieren?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Ja, zy zal wel voor het Fleslein zorgen.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Zo zyn ook de poederdoosjes, van drie, zes, en twalef stuivers.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Kosten die jou niet een oortje het dozyn, Jufvrou?</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>ir most der knecht ook zo bald instruieren.</l>
+						<l>Ont lerren, das it 't zelbst al dagge zou wacht neemt.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Wel, Papa, dat zel geschien.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Daat valt voor myn niet veel aan te leeren, ik hebje dat zo van daag al
+							afgezien.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Nou las ons dan ein bekin, vom den klucht vor af te spielen, machen,</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Nou sel je 't zien, Jufvrou, hoe ik in men dienst kwam, 't zel een stukje
+							weezen, daar de haanen en hennen om zellen lachen.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Wit wollen anvang nemmen darster mit op de gaslen bist
+							kerescontriert.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Goed, myn Heer, ziet zo met de Fiool onder myn arm, ordentlyk, en wel
+							gemanierdt.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<stage>Gaat heen en weer met groote passen.</stage>
+						<l>Ich wol mit anstellen of ich vertreggen wol.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Goed, daar gaat mejonker heen, wou hy my voor zyn knecht aanneemen, zoo
+							was ik behouwen.</l>
+						<l>Ik spreek hem by lo eens aan, licht doed hy 't wel, al zou 't men al myn
+							leeven berouwen.</l>
+						<l>Hem, hem, myn Heer.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Wim roept da? wim raast mich an dem kof?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Ik vroegje gaeren een woortje, als 't wezen kon, myn Heer, met
+							verlof.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Spreeg vreilig, ir kherel, man halt mich nicht lang steen om den
+							gassen.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Ik zouje gaeren gevraagt hebben, of je niet een knecht van doen had, om u
+							in alle eerbiedigheid op te passen?</l>
+						<l>En dan zou ik myn persoon presenteren, als zynde totuwen dienst
+							bereid.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Vraylig, ich haber einer vom notten, want ich hab keiner im dit zem
+							tzeit.</l>
+						<l>Dar um bist du dein dinst gar teidirg kamen presentieren.</l>
+						<l>Mar ig weirs nigt ir kherrel of it mig wol solst accomodieren.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Accamodieren byget Jonker, trots de beste van het heele land,</l>
+						<l>Wan daar is tegenwoordig niet te doen, met detong of met de hand.</l>
+						<l>Of ik weer het te klaaren, met behendigheid en drolligheid van swie-</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Gar hupsch, man es hoog nottig das ich eng cerst ein mool most
+							probieren.</l>
+						<l>Om zu zeen of it woorden respondieren, mit etren kapassiteet.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Ik ben te vrêen, zeg maar op, zie eens of ik het niet te klaaren
+							weet.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>'t Is een deur sleepe veugel, een tweede Laserus van Tormes, afgerecht op
+							alle streeken.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Die, ik verseekerje, al wonderlyke kuren zal uitrechten, dat heb ik hem
+							al afgekeeken.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Hy zel volk zat, uit de kunst genoeg by een vergaaren, want hy is los, en
+							swak van bek.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Ook het hy ryklyk vleis aan de ribben, en is wel gewossen uit den
+							drek.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Erstlich wol ich zeen, of ir habt gutter gestaite,</l>
+						<l>Ont of it, wan it mich volcht, hupscher gesten knnt behalten.</l>
+						<l>Gar wol, dan volch mir manierleich, ont mach der miene der ich mach.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Dat zel ik je klaaren, dat niemand van zyn leeven beeter postuurtje van
+							Kalot zag.</l>
+						<stage>Zy wandelen het Theater een ress of twee over.</stage>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Zie wat maakt hy wonderlyke passen.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Myn zeel das hupsch, der Kherel habt gutter mienen.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Wat dunken, excelentje, ben ik niet een man die hem rechtschapen zel
+							dienen?</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Vreilich, huc usque bene, man ich wol uch van hupscher kleidren
+							verseen,</l>
+						<l>On van tag vor demlesten mool, metug op onzen Theattum trêen.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Zie, dat zyn grimmassen, men kan hem zonder lachchen niet aan zien.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Dat wol ig ug noch einmool tentieren,</l>
+						<l>Ont want ir mig dats selben wol magt, wol ig ug to meiner Servitorium
+							promovieren.</l>
+						<l>Kom las uns klar gaan machen, unt verkleed ug om op den Theatrum zou
+							gaen.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Goed.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>Geertrui, Jacoba.</stage>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>'t IS al een wonderlyken snaak, zeeker Papa heeft daar niet mis
+							getast,</l>
+						<l>Die potzen genoeg zel aan rechten, en al een deursleepen gast.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Hy is dan wie hy is, hy heeft kwalitenen genoeg om deur de waereld te
+							raaken.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Dat heb ik ook al in hem gezien, dat hy zyn Fortuin wel zel maaken,</l>
+						<l>'t Is een van alle Markten weêr gekomen, en die zyn weetje wel weet.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>En ook zo afgeregt in die Faculteit, al had hy al zyn leeven het Théater
+							bekleed.</l>
+						<l>Daar om twyfel ik 'er niet aan, of hy zelder hem wel deur redden.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Zou hy niet! zyn tong weet hy altyd wel te roeren.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Maar nou ben ik benieuwd, hoe by veur af in zyn recommandaatie zel
+							zyn,</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>O! daar twyfel ik niet aan, of hy zel dat na de kunst uit voeren,</l>
+						<l>Maar zagt, daar zynze weer.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Zeste tooneel.</head>
+					<stage>Jacoba, Geertrui, Hans, Jan In Hanssops Kleederen op het Theâter.</stage>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>NOu magt alles veertig ont stemd it instrument.</l>
+						<l>Want nat ich zee is beer noch gaar weinich volch ontrent.</l>
+						<l>Dar um wolen mer ein stuch, oder 't swey zou zomen moecicieren.</l>
+						<l>Nam mundus vult decipi, om das volch zu attachteren.</l>
+						<l>Ont wanmer kespield haben, macht dan alzo bald irren oratjoon.</l>
+						<l>Wat bleib ir?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Ik kom, Miester, a les is klaar, maar laat iens hooren, slaanwe al op ien
+							toon?</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Ja vreilich, hef of, man spield hupsch, ont mit lange strekken.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Nou, Vrinden, luister toe, hier hoorje een accoord van gekken.</l>
+						<stage>Zy speelen.</stage>
+						<l>Dat is uit, vrinden, wat dunkje, klinkt dat niet bykans zo goed als een
+							veest in een mosterpot?</l>
+						<l>Ja by get dat moetje bekennen, hoe wel dat je weet dat onze Rutjerd, en
+							Piet Suot,</l>
+						<l>Lest een duel hebben gehad, om dat de een den andren had verweeten,</l>
+						<l>Dat hy, met aan elkke voet vyftig pond gewigts, op het houte paard had
+							gezeeten,</l>
+						<l>Ook wil ik hier nou niet spreeken, hoe dat het hem heest toegedragen in
+							die tyd</l>
+						<l>Teen 'er een paar Bolleschokkers, elk vyf schoot bollen op aaten tot een
+							ontbyd,</l>
+						<l>Of hoe dat twic Schuitevoerders, hun zelven dorsten vermeeten,</l>
+						<l>Van, datze elk een Westfaalse ham van thien pond, met een hiel
+							roggenbrood op een reis zouwen op eeten.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Was Dybels vressen was das! ich woller dem balg tzou binden.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Wel selderment, daar ben ik hiel van myn stuk geraakt,</l>
+						<l>Hoor, miester, als jy in myn Schoot spreekt, zo schei ik 'er uit, zie dan
+							dat jy 't beeter maakt.</l>
+						<l/>
+						<l>Maar zacht, daar heb ik het weer. 't moest ook wel een gek weezen, die om
+							een wandeling te doen de waereld zou willen gaan om stappen,</l>
+						<l>Want hy had onderweeg ten minsten wel zes paar osschuiden van doen, om
+							zyn schoenen te laaten lappen.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Geertruid ont Jacoba, gaat ir binnen om der packette gereis te machen,
+							ont wan it das habt bestierd,</l>
+						<l>Zo komd dan zo bald weddet heer, as ich mein Medicamenten an den volchen
+							hab kerekommandierd.</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>Zevende tooneel.</head>
+					<stage>Hans, Jan.</stage>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>NOu vang dan wedder an, man spreg ter saggen.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Maar, myn Heer, zou dat zo slegt in zyn werk gaan, wat zou dat lyken,</l>
+						<l>Een goed Orateur, diend die niet eerst veur af zyn welspreekendheid te
+							laaten blyken?</l>
+						<l>Ik zal dan overtreeden, en gaan veel wonderlyke voorvallen verby, en
+							vangen aan,</l>
+						<l>En uw, myn respective toehoorders, Edeilluiden, Menschen en Boeren,
+							geeven te verstaan,</l>
+						<l>Hoe dat ik immediatelyk tot uw behoudenisse alhier ben gezonden,</l>
+						<l>Om u myn balzemen, en kruiden, dien ik drie mylen buiten de waereld heb
+							gevonden,</l>
+						<l>Aan te bieden. Hiet hebje dan voor eerst een oly, die de naam van
+							patientje met kwalyk en past,</l>
+						<l>Wie dat daar maar drie druppelen van gebruikt, krygt aanstonts op zyn
+							kop, zulken harden bast,</l>
+						<l>Dat, schoon de Vrouw de Man ontrouw is, en voort gaat in 'er
+							buitenspoorige streeken,</l>
+						<l>Hy bevryd is, dat hem de horens noit en zullen komen deur te breken;</l>
+						<l>Is 'er ook iemand die dit van doen heeft? 't is heel schaats, en naar, en
+							een kostelyk remedie in 't by zonder,</l>
+						<l>Hoe! koope 'er memand niet? Zynder daar ook boven die van nooden hebben,
+							of daar onder?</l>
+						<l>Je moet weeten dat het nergens te vinden is, daarom wilje niet lang
+							beraân.</l>
+						<l>Wel dit gaat heel buiten myn gissing, Miester! ik docht dat 'er zo wel
+							twee drie honderd pakketten zouwen voort gaan.</l>
+						<l>En hier hebje noch dat excelent poeder, die hier een scruppeltje van
+							neemt op den anderen dag,</l>
+						<l>en van de Nachtmerry zo wel bevryd, of hy tusschen twee posteleine
+							schootelen lag;</l>
+						<l/>
+						<l>En dit is weer in tegendeel een quinticentie, getrokken uit paerlen en
+							diamanten.</l>
+						<l>Die de versturvene krachten vernieuwd.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Ont das wasserken, is goed voor der heimlicher gebreggen der lichte
+							kwanten.</l>
+						<l>Eein weinig in een leppel kedaen, ont das vermengt in ein halfpint beer,
+							meer oder min,</l>
+						<l>In veer ein twantzig oeren keneezen auf de deubel, oder de brand voor dar
+							in.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>En hier zie weer een andre subltantie, die wel eer hennipzaad is
+							geweest,</l>
+						<l>En dat is dat zouverein remedie, die iemand in een kwartier uurs, van een
+							zeere keel geneest.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Halt oph ir grobber kherrel, ir bestialitert, zou proponieren,</l>
+						<l>Ont halt den maul, von sachen der ir nicht konst probieren.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Wel wie zeid dat meer, als jy dat ik het niet bewyzen en kan?</l>
+						<l>En wilje niet hebben datze van myn wyn proeven? hou daar, zuip jy ze
+							dan.</l>
+						<stage>Hans slaat Jan met de vuist.</stage>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Hab das, ir bernhauter, solstou irren meister zo onmanier leig
+							bejeegnen?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Wel wat Duivel! als men van dommekrachten droomd, moet het dan altyd
+							vuistslagen reegenen?</l>
+						<l>'k Wou liever een luis als een papegay doen klappen, of een esel een
+							Sarbanden dansen doen.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Halt oph, wie solst u machen, das ein esel Sarbanden dansen sol;</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Wilje dat het volk iens laaten zien miester, goed, kom spring jy dan maar
+							iens een kampriol:</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Pots dausend, ich wol euch alzo bald dein schalken kofverzetzen.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Ja praat jy wat, met woorden zelje lang vechten, eerje iemand zeld
+							kwetzen.</l>
+						<l>Maar, Miester, kom pays, en een eind van 't gevecht.</l>
+						<l>Ik heb een vraag aan je, ik verzoek datje me daer op iens op
+							onderrecht.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Spreeg vreylich, man wacht euch mit irren meister dem nar zu spielen.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Zouje wel raad weeten om een veest in twie parten te verdielen;</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Ir grosser nar, was vraag is das? wo nein, wie kan das gescheen?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Hoor, vang jy de eerste die ik laat in je neus, zo hebje twie parten in
+							elken neusgat een.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Men zeel, zo ichs nicht om deisen geselschap en liet verblyven.</l>
+						<l>Ich hachten dem Schelm tot poeder.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Nooit stur ver Soldaat van kyven.</l>
+						<l>Hebje wat op myn te zeggen? hiet ben ik, kom ruk maat een reisje van
+							leer.</l>
+						<stage>Zy trekken besden van leer.</stage>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Gar wol, wy wollen zeen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>Achste tooneel.</head>
+					<stage>Hans, Jan, Jacoba, Geertrui Beiden verbunst uit.</stage>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>WEl benje gek of dol, Jan, ik zeg steek daadlyk op je geweer,</l>
+						<l>Zel jy hier je deegen trekken? wel dat zyn wel eldermen ze kuuren.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Sta af, ik moet myn lyf defenderen.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Wel was ik als Papa, ik zou jou zo heerlyk de rug schuuren</l>
+						<l>Dat het jou heugen zou, wel ik stader van en tril en beef zo ben ik
+							gealtereerd;</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Je waard heerlyk betaald, indienje iens hier over uit de kunst wierd
+							afgesmeerd,</l>
+						<l>Jou rechte kakkerlak daar je bend. Nou bedaar, Papap,</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Hold mir nichts, ich wol dem vleegel dem orren vom dem koph hachen,</l>
+						<l>Ont him alzo bald in flarslen ritten, ont keheel toe huspoth machen,</l>
+						<l>Ja to poeder vermolen, dem hasekoph, hondtsvod, oder der matvods dar ir
+							steit.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Wel zie daar, nou is die bui weer hiel over, zeeker dat was maar puur een
+							haastigheid,</l>
+						<l/>
+						<l>Niet waar, myn Heer, ik bidje wild het my veur deze reis vergeeven,</l>
+						<l>En gy, Madames, ook van gelyken, het zap van deez Appel-Sina, zal uw
+							herstelde geest weer doen herleeven,</l>
+						<l>Een Medecyn die probatum is, nu kom ik met berouw, en leg dit gevreest,
+							en ontzachlyk geweer,</l>
+						<l>Met de allerdiepste onderdanigheid voor beider uwe voeten neer.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Hault den maul ander mool, saag ich, ont wild mich nicht errompieren,</l>
+						<l>Ich wol aber meiner Medicamenten, an deslem volchen offerieren.</l>
+						<stage>Hy spreekt regen het Volk met een Flesje, en zyn bezegelde Brieven in
+							zyn hand.</stage>
+						<l>Es ist nicht nottig ir hern, das ich euch meiner grosser fachen mach
+							bekand,</l>
+						<l>Want die selben zein kenoeg verspreid, durch diesem ganschen land.</l>
+						<l>Zed propria laus saetet, darom wol ich men selben nicht preizen,</l>
+						<l>Sed adrem, hir toon ich euch it hern, den oprechten lapis Philosophorum,
+							mit deisen stein, mit deisen...</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Mit deisen stein kan men de melankolye verdryven, en de oorzaak weg nemen
+							dieze maakt.</l>
+						<l>Met deisen stein, met deisen stein......</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Haltsmoel, met deisen stein,....</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Mit deisen stein; werd het kolyk gedissolveert, ja al was 'er een
+							weversknoop in je darmen geraakt,</l>
+						<l>En dat de winden tegens het middelrift, en 't wagenschot kwamen te
+							stooten, en te wroeten,</l>
+						<l>Zo zullen ze altemaal, deur d'ordinary Poort, en het klinket passeeren
+							moeten,</l>
+						<l>Das es een stein von wonder.</l>
+						<stage>Tryn komt ondertusschen uit, met een urienaal of twee aan de
+							arm.</stage>
+					</sp>
+					<sp who="#hans">
+						<speaker>Jans.</speaker>
+						<l>Mit diesen stein geneis ich der gekweld zein mit das podagram,</l>
+						<l>Das est ooch em heilzom secretum tegen dat dybels ischiaticam,</l>
+						<l>Da mit mach ich das morbum gallicum gansch verdwynen.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Mit deisen stein, mit deisen stein, die gek wil een ander van de pokken
+							geneezen, en hy weet geen raad voor de zynen.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Das is ein Medicament Catholicum, om keiner ziekten in dem ganschen
+							weld,</l>
+						<l/>
+						<l>Dar ich das mit nicht geneis, of ich wol nicht ein stiber an geld.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Dan isse ook goed veur die zo een brui, of slag van de meulen weg hebben,
+							gut baas, dan wou ik jou ze recommanderen,</l>
+						<l>Dat jy der je wat rykllyk van bedienden, en lieterje van 't hoofd tot de
+							voeten mee besmeeren.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>'t Is een Guit geboren, hy ziet nie mand aan, noch 't en scheeld hem niet
+							wie dat hy voor heeft.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>'t Wil noch alles van hem gedaan zyn, ook om dat hy 't noch een aardige
+							schyn geeft.</l>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>Neegende tooneel.</head>
+					<stage>Hans, Jan, Jacoba, Geertrui, Tryn.</stage>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>WEl Vroutje, wat is jou zeggen? kom op, houdje by de leer vast, en val
+							niet.</l>
+					</sp>
+					<sp who="#tryn">
+						<speaker>Tryn.</speaker>
+						<l>Ik wou de Doctor dit water iens laten visiteeren.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Goed, miester, laat ik non iens myn konst toonen. Wyfje, kom, ik zel 't
+							eerst zelfs iens bespeculeren.</l>
+						<l>Heeft de Patjent lang ziek geweest?</l>
+					</sp>
+					<sp who="#tryn">
+						<speaker>Tryn.</speaker>
+						<l>Zo een dag of zes heeft hy gaan kwynen, dat hy 't niet en had van
+							pas.</l>
+						<stage>Jan beziet het water met potzen.</stage>
+						<l>Dit is van een Mans persoon.</l>
+					</sp>
+					<sp who="#tryn">
+						<speaker>Tryn.</speaker>
+						<l>Och ja, is 't mogelyk! hoe kanje dat zo zien?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Dat is het minsten, hy mocht wel willen dat hy der al of was.</l>
+					</sp>
+					<sp who="#tryn">
+						<speaker>Tryn.</speaker>
+						<l>Och ja!</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>'t Is al een ouwe vergating, hy heeft niet veel lust, en hy is gantsch
+							niet wel, kan ook aan 't rusten niet raaken.</l>
+					</sp>
+					<sp who="#tryn">
+						<speaker>Tryn.</speaker>
+						<l>Och ja! dat is waar, net zo.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Het scheeld hem daar.</l>
+						<stage>Jan wyst zo, voor over 't hiele lyf.</stage>
+					</sp>
+					<sp who="#tryn">
+						<speaker>Tryn.</speaker>
+						<l>Och ja, dat hebje ook recht, daar scheeld het hem, hier zo.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<stage>Tryn wyst rontzom de maag.</stage>
+						<l>Ir habt wol kezeen, Mutter, er zolst wol maggen.</l>
+					</sp>
+					<sp who="#tryn">
+						<speaker>Tryn.</speaker>
+						<l>Och ja, wat zegje myn Heer?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Myn Heer, zy kan jou niet verstaan, ken jy wel Frans, wyfje?</l>
+					</sp>
+					<sp who="#tryn">
+						<speaker>Tryn.</speaker>
+						<l>Och neen.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Ik docht dat het al weer och ja zou zyn, dat heeft zy best geleerd.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertruy.</speaker>
+						<l>Wat is hy nou in zyn knoltuin, dat hy den Docter zo speeld.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Niet waar? 'tis of hy'er al zyn leeven op had gestudeer.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Daar is geen swarigheid altoos, vrouwtje, benje nier bly?</l>
+					</sp>
+					<sp who="#tryn">
+						<speaker>Tryn.</speaker>
+						<l>Och ja, dat is goed, maar waar komt het hem van daan?</l>
+						<stage>Jan beziet wederom het water met veel grammassen.</stage>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Zyn ziektenis principaal daar uit gesprooten,</l>
+						<l>Dat zyn long grooter is als zyn mild, en zyn eene nier, die hier achter
+							pleeg te leggen, is hem hier nouw voor in de borst geschooten.</l>
+						<l>Je doed wel datje, in tyds laat in verzien, want die patjent die schort
+							al vry wat,</l>
+						<l>Ook zo is zyn blaas heel verschoven, en die zit hem nou recht onder 't
+							linker schouwerblad.</l>
+						<l>Zyn darmen zitten hem in het hoofd, en zyn herzens, achter by zyn
+							billen,</l>
+						<l>Hy zouder om koud raaken, kwam jy by een Docter die hem putgeeren zou
+							willen.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Al wasser habt gereedineerd, dees es waarleigh al zo,</l>
+					</sp>
+					<sp who="#tryn">
+						<speaker>Tryn.</speaker>
+						<l>Och ja, maar hoe kan hy dat altemaal zo weeten?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>En had hy een onervaren Docter gehad, die hem had doen laaten, hy was al
+							lang by de Oudvaders geweest, en vergeeten.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geererui.</speaker>
+						<l>‘Wel 't is een vermaak om hem te hooren! hoe of het met dezen Domine
+							Docter noch of loopen zel?</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Ik wilje dat wel zeggen, Maseur, zyn doen en al zyn greepen gevallen my
+							noch al wonder wel.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Om nou alle swarigheid voor te komen, dat de ziekten geen meester en
+							word, zal ik je wat ordonneeren.</l>
+						<l>Ook zit hem zyn leever in zyn nek. ziet, daar is iet, om wat van te
+							rusten, en dat de apetyt zel doen vermeeren.</l>
+					</sp>
+					<sp who="#tryn">
+						<speaker>Tryn.</speaker>
+						<l>Och ja, 't is hiel wel, Jongman, maar wat heb ik nou hier? en wat zel dit
+							nou zyn?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Van dat Poeder, zelje hem alle avonden als hy te bed gaat, een darde part
+							van ingeeven, gemengt met biet of wyn,</l>
+						<l>Laat het vry zo een mingelen twee drie weezen, en wat van dezen oly, 's
+							middags en 's avonds na den eeten,</l>
+						<l>En gaander dan dien nacht, wel warm toegedekt, mooitjes op leggen
+							sweeten.</l>
+						<l>Ik verzeekerje, hy zel een heel ander creatuur weezen, 's morgens als hy
+							op staat.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Er habt it vreilich wol gedeen, mutter, ont er gibt ir hupschen raad.</l>
+					</sp>
+					<sp who="#tryn">
+						<speaker>Tryn.</speaker>
+						<l>Och ja, maar, Jongman, wilje dat water ook iens zien?</l>
+						<stage>Jan beziet het ander water van Tryn.</stage>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Och ja, wat dunkje, baas, is dat niet een stucke schelms, ziet dat niet
+							helder uit den groenen?</l>
+						<l>Die Patjent heeft al zyn leeven gras en haver gevreeten, en loopt noch
+							over de straat, met vier ysere soolen onder zyn schoenen.</l>
+					</sp>
+					<sp who="#tryn">
+						<speaker>Tryn.</speaker>
+						<l>Wat zegje, Jongman! grasen hover gevreeten?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Och ja, die meenden ons schoon te abuzeeren, myn Heer, maat dat is
+							evenwel mis.</l>
+						<l>Om, of men ook onderscheid zou konnen maaken, of de pis van een mensch,
+							koe, paard, of ezel is:</l>
+						<l>Maar al was het van een olifant, of van een kameel, of drommedaris;</l>
+						<l>Ja al was het van jou zelfs, myn Heer, zo zel ik op een prik zeggen, en
+							elk overtuigen dat het waat is.</l>
+						<l>Maar wist ik dat jy part en deel had in dit bedrog, vrouw?</l>
+						<l>Ik mien dat ik je met die glaze pispot zo zou kroonen, dat de pis by je
+							rug neer loopen zouw.</l>
+					</sp>
+					<sp who="#tryn">
+						<speaker>Tryn.</speaker>
+						<l>Och ja!</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Wat zegje, ja?</l>
+					</sp>
+					<sp who="#tryn">
+						<speaker>Tryn.</speaker>
+						<l>Neen ik weet nergens van, zy betaalen myn twee sluivers elk veur myn
+							gang. nou wat moet ik geeven?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Voor 't een en 't ander vyf schellingen.</l>
+					</sp>
+					<sp who="#tryn">
+						<speaker>Tryn.</speaker>
+						<l>Hou daar zynder vier, nou je moet leeven en laaten leeven.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>k Weet niet, die met zuik bedrog om gaan, behoorden men anders te
+							tracteren, dit zyn zo kunsjes denk ik, van enig jonge maats.</l>
+						<l>Of je ons weer van doen had, wy staan Donderdag, en Maandag, weer op deze
+							zelve plaats.</l>
+						<l>Zacht, baas, daar zien ik al weer een nieuwe kalant.</l>
+					</sp>
+				</div>
+				<div type="scene" n="10">
+					<head>Tiende tooneel.</head>
+					<stage>Hans, Jan, Jacoba, Geertrui, Griet Met een urmaal aan 'er arm.</stage>
+					<sp who="#griet">
+						<speaker>Griet.</speaker>
+						<l>WIlje dat water ienskyken, Jongman?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Hoe lang het de Patjent geleegen?</l>
+					</sp>
+					<sp who="#griet">
+						<speaker>Griet.</speaker>
+						<l>Ze leid niet, ze gaat alle dagen noch na buiten,</l>
+						<l>Op het Bliekers pad, uit wassen.</l>
+						<stage>Jan beztet het water van Griet en schut zyn hoofd.</stage>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Naar ik kan zien, zo is dit van een Vrouwspersoon.</l>
+					</sp>
+					<sp who="#griet">
+						<speaker>Griet.</speaker>
+						<l>Dat is waar, het is myn dochter,</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Al de inwendige conduiten</l>
+						<l>Zy teenemaal verstopt, en ze heest groote brand by haar, ja wel, moeder,
+							ze is 'er al hiel kwaalyk aan,</l>
+						<l>Ze moet noodzaaklyk afgang hebben, of daar zou anders wel een sware
+							ziekten uit konnen ont staan.</l>
+					</sp>
+					<sp who="#griet">
+						<speaker>Griet.</speaker>
+						<l>Och! dat is waar,</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Je hebt wat te lang gewacht, kom daadlyk een poeder, ziet, daar zelze
+							hiel lekker van purgeeren,</l>
+						<l>En zo dat niet en helpt, zo moet zy 'er zo aanstonts laaten
+							klisteeren.</l>
+						<l>Want daar moet opening zyn, haar schort al meer alsje wel meent.</l>
+					</sp>
+					<sp who="#griet">
+						<speaker>Griet.</speaker>
+						<l>Och! dat is waar, hy weet het! of hy 'er ingestooken had! hoe veel moetje
+							nou hebben?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Wel daar benje nou zo veur vyf of zes gulden besteld,</l>
+					</sp>
+					<sp who="#griet">
+						<speaker>Griet.</speaker>
+						<l>Vyf of zes guldens? neen, laatze dan liever noch wat zukkelen, och ze
+							moet het van de was-tobben halen, dat is al te veul geld.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Och! dat is waar, laat het dan vyf zes schellingen zyn, om datze het met
+							'er handen winnen moet,</l>
+					</sp>
+					<sp who="#griet">
+						<speaker>Griet.</speaker>
+						<l>Och! dat is waar, Jongman, 't zelderje ook te beter na gaan, dat jy 't
+							'et zo ceviel doed.</l>
+						<l>Hou daar, Vaar.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Wat dunkje, Baas, heb ik dat niet uit de kunst weeten te klaaren?</l>
+						<l>Dat heb ik noch van myn Miester de Barbier afgezien, die in de kunst al
+							hiel wel was ervaaren.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Ha! ir Finantie es gar hupsch, ont wol, ich wol ein man van euch machen,
+							var man zo voort.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Welwaarachtig, Jan, Jan je speeld die rol zo aardig, dat het een lust is
+							veur die het hoort.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>En op zo een zelve wys, weeten die soort van Pisbekykers, die men van
+							alle eerlyke Docters moet onderscheijen.</l>
+						<l>Het gemeene volk te bedriegen, de beurs te snijen, en te verleijen.</l>
+						<l>Met op het kunstigst uit te hooren, of 't een hy, of een zy is, en dit
+							weetende, zo is 't, dat water is van een Vrouw, en dat van een Man.</l>
+						<l>De Patjent heeft geen apetyt, de maag is ontsteld, kan niet wel rusten,
+							en is 'er al hiel kwaalyk an,</l>
+						<l>'t Is een ouwe vergaaring, hy is zieker als hy meent, en onder al dit
+							gebaar zonder iet te vergeeten,</l>
+						<l>Zo komenze uit het volk zelfs, 'er gebreeken, en oorzaak van 'er ziekten
+							te weeten:</l>
+						<l/>
+						<l>En wil myn miester daar an, ik zel hem wel neering maken, dat verzeeker
+							ik jou.</l>
+						<l>Dat die Vrouw daar pis van een paard brogt, dat wist ik alreê veur of dat
+							die koomen zou.</l>
+						<l>En zo doen die Pisbekykers altemaal, welke afgerecht zyn, om in fatzoen
+							te blyven,</l>
+						<l>Het water van een paard, of koe laaten komen, om 't volk te doen
+							verwond'ren, van 't onderscheid te konnen zien, om 'er credit te
+							styven.</l>
+						<l>Dat dan niet anders als maar bedrog en is.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Nou wir wollen dan na eins von spreggen, ich wol eins in meiner
+							labertorium gaan zeen.</l>
+						<l>Ich hab dar itwes in labore, om tou weisen hoe dem sachen aldaar
+							steen.</l>
+						<l>Ich bin beezig om einander quintislentjam, aus andre in gredjenten toe
+							distilieren.</l>
+						<l>Er beiden konst onderweilen, aen diesem keselschaf it medicamenten
+							recommandieren.</l>
+					</sp>
+				</div>
+				<div type="scene" n="11">
+					<head>Tiende tooneel.</head>
+					<stage>Geertrui, Jacoba, Jan.</stage>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>MEssieurs, ay! wat audientie, nu zalje iet voor komen datje noch nooit en
+							hebt gehoord.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Nou, Jan, al fatzoenlyk je hebt al praats genoeg.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Ja wel ruim zo veel als 't behoord.</l>
+						<l>Ik loof dat zyn mond wel wraak roept, en bei zyn kaaken,</l>
+						<l>Over al den arbeid dieze doen, om eens in rust te moogen raaken,</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Myn Heeren en Dames, hier hebt gy een excelent poeder, van veelen goed
+							bevonden, en geaprobeerd,</l>
+						<l>Uit veel kostelyke gommen en zappen, en kordiale kruiden te zamen
+							gekomposeerd.</l>
+						<l>Een heerlyke remedie, noch weinig bekend in veele landen,</l>
+						<l>Met een natte vinger uw mond van binnen daar meé gevreeven, maakt vaste
+							en hagelwitte tanden,</l>
+						<l>En komt alle verrottinge voor, en maakt het tantvleis, schoon al
+							geinfecteert, weder gezond.</l>
+						<l>Het geeft elk een aangenaame asem, en een zuivre mond.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Maar hoe komt dat de jouwe zelfs dan zo vies ruikt?</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Daat by doedze ook alle opdrachtigheid verdwynen,</l>
+						<l>Ze neemd ook weg, alle Commissaien, puisten op de neus, karbonkels en
+							robynen.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Kom daat moet ik veur al een pakquetje van hebben.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Ik zeg datje wygt, die de schoonheid doed vermeeren, en de Jeugd cieraad
+							by zet en geest.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Maar, Jufvrouw, bedienje 'er altyt zelven eerst van, en ik zieder hier
+							wel meer, die deze pouder van doen heeft.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Ook voor plekken, en vlekken, wratten op de handen, en wat het zou mogen
+							weezen,</l>
+						<l>Dit Poeder hebje voor een schelling, en hoe je 't gebruiken moet, kon je
+							in dit briefje leezen.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Treflyk, Jufvrouw, nou weer een ander op de koord.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>En dit is een kostelyken balzem, welke vermaard is deur 't hiele
+							land.</l>
+						<l>Een weinig daar van onder je neusgaaten gesmeert, versterkt de memory en
+							het verstand.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Maar, Jufvrouw, dat ik en jy onse snats daar wat besmeerden, was dat ook
+							mis?</l>
+						<l>Wel je stelt 'er alle bei zulk een Meesterlyken wys op, dat ik met en
+							weet, wie de beslen is.</l>
+						<l>Wat dunkje, jufvrouw Jacoba, zou jy jou zeif ook wel beeter als aan myn
+							konnen besteeden?</l>
+						<l>Ik heb alree zo veel gezien, dat wy met ons beiden, braaf een Théater
+							zouwen konnen bekleeden.</l>
+						<l>Wy kennen alle bei reedelyk opsnijen, en jy hebt 'er noch zo wat
+							bevalligheid by:</l>
+						<l>Jy met je poeder de la Reine, en balzem, en ik met de Pisbekykery.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacora.</speaker>
+						<l>Legt het 'er eens op aan, maar jy moest jou malle bakkes al in een andre
+							plooi etten.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Zacht daar komd myn Miester, sta ruim, nou zel je het weer hebben, met
+							dreien stein, met diesen stein.</l>
+					</sp>
+				</div>
+				<div type="scene" n="12">
+					<head>Elfde tooneel.</head>
+					<stage>Jacoba, Geertrui, Jan, Hans.</stage>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>War bister, er moest vleizig op meiner deenst letten.</l>
+						<l>Nou ich wol wedderom anvangen, holter das breeven, met er waffenen der an
+							zou geannexceert,</l>
+						<l>Ont holt euch statich, manierlich, das man nicht kan zeen, das er itwes
+							deert.</l>
+						<l>Ont it hern, hier habich ein andren quintissentiam getroggen aus nein onr
+							swantzich krauden,</l>
+						<l>Das man allein gebrauchr, is goed vor den benouden,</l>
+						<l>Gekwersten, gestofszen, geslaggen, gekutven, ont gehagt.</l>
+						<l>Magt das man ein weinig warm, on streig das op der wonde das geneist, ont
+							versacht,</l>
+						<l>Binnen veer ont swantzich oeren, alle kwetzoeren, oder de brand woller in
+							vooren.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Myn Heer, ziet die kinkel daar iens staan, het schort hem in de mond, hy
+							zietje aan met neus en ooren.</l>
+						<l>Hy heeft een Urinaal, licht om zyn water te bezien, viziteer jy dat nou
+							iens uit de kunst.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>O dem Baur zicht er nichts geldachtig aus, dem slach habend liebst om
+							zunst</l>
+						<l>Wolter itwes, ir mach mein an spreggen, nou woller ymand geholfen zein,
+							ir moest was kauffen,</l>
+						<l>Aber zo nicht, zo zolster dein eigen geluk, ont geueizing ontlauffen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="13">
+					<head>Twaalefde tooneel.</head>
+					<stage>Hans, Geertrui, Jacoba, Jan, Andries Onder schyn van een Boer, met een
+						Urinaal aan zyn arm.</stage>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>ZAcht val niet, maar.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Ik had hier een peetje pis Domine Docter, ik zou vraagen of je dat iens
+							bekyken woudt?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Daar krygt myn miester licht een verte veugl van een Boer, nou staat hy
+							stout.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Gar wol, las mer zeen, vom wien eis diesen uriene?</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Myn wyf heestze ten ochtent gelost, myn Heer, om je te dienen.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Wat of de kinkel miend, dat wy met zyn wyfs mieg gediend zyn?</l>
+						<l>Ja met zyn geld, heeft hy dat wat ryklyk in zyn zak?</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>‘Truitje, ik ben 't, houd je stil. Jan zelfs kent me niet.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Ich zee das it weib habt ein grosser ongemak.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Dat is waar, want ze is zo ongemakkelyk, dat zy niet een oogenblik kan
+							stil leggen.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>‘Maar Andties, zeg je dat je een wys hebt? wat wilje daar me zeggen?</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>‘Hou jy je maar stil.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Hoc abundat spiritus occidus. ont das gar nicht goed.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Zulk Latyn moest 'er niet veul komen, of ik verlies heel de moed.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Zacht, Huisman, myn miester die is hiel ontsteldr.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Pots dansend! wat zeé ich? hypostasus, est nigra ed ad modum
+							iniqualis.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Ach! myn Heer, ik hoop niet dat ze al verhuist is, en op die wys al uiter
+							kwaal is.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Haar calornativus, vrees ich, is al zo bald geextinguiert.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Wel waar of myn miester al die woorden van daanhaald, die hy al
+							versierd?</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Hoe staat het met 'er, myn Heer? isler noch wat hoop van leeven?</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Wol vreilich, ich wol euch dar zou nich meer dan diesem fleslein
+							geeven.</l>
+						<l>Wat es is nicht meer, dan einer grosser obstructioon</l>
+						<l>In der mattize, verselschaft mit einer vehementen estuatroon.</l>
+						<l>Det erteliger grobber suliginus, macht naar dem hirznen zou stygen.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Ja wei ik kander niet een Spaans woord van verstaan, daarom zel ik het
+							wel swygen.</l>
+						<l>Maar myn Heer, mienje zeeker dat 'er dat geneezen zel van de ziekten die
+							'er kweld?</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Er es kein zulchen Medicament in dem ganschen weldt.</l>
+						<l>It weib mangeld nicht anders, dan ich euch alzo bald habt kezeidt.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Het zel dan veel beeter zyn, dat het de knecht ons uit leid.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>De miester zeid dat jou wyf is een vrouws perzoon, is dat niet waar?</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Neen, dat het hy niet wel geraaden.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Dat zou het eerst van zyn leeven zyn, Boer, jou geschied genaden,</l>
+						<l>Dat ik jou niet van boven het Théater en schop, dat je de gek met ons
+							scheert.</l>
+						<l>Is jou wyf gien Vrouwmensch, Kinkel?</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Halt, ich wolt nicht, dat euch langer fexeert.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Maar allyke wel Doctor, daat is noch iet, gelyk ik twyfel ofje 't niet
+							over 't hoofd heb gekeeken.</l>
+						<l>Te meer, om dat ik 'er, gelyk het by onsleid, niet een woord van heb
+							hooren spreeken.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Was das?</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Maat myn wyf, Docter, is 's morgens, en na den eeten, zo kwaalyk, en 't
+							leit 'er hier zo en walgt, en wroet,</l>
+						<l>En dan is het ook somtyis wel, darze zo een watergalletje over de tong
+							lossen moet.</l>
+						<l>En daar by is ze ook zo korsel van kop, dat ik schier niet een brui heb
+							te zeggen,</l>
+						<l>Ja ze kan zomtyts zo een schoft van een dag, met het hoofd in 't kussen
+							leggen.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Las mir er uriene noch ein mool zeen, ha, ha, ich habt kemircht, nou hab
+							ich er wol op kelet.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Wel wat is 'er van, myn Heer?</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Ir weibes mit tzwey maagen bezer.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Met twie magen, Docter! dan zelze wel tweemaal meer kost als ik, kennen
+							verdouwen,</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Zo maat, dan zelze jou het brood ook wel uit de schimmel houwen.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>O dou, kinkel, versteit er nichts, ir grobber Kherrel after bint?</l>
+						<l>Ich wol zaagen das er weib is mit kind.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Met kind, wel laat dat maar zyn gang gaan. Maar ik heb daar een kwa kies
+							Docter, wouje me daar van verlossen.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Gaas ein mool zitten, wer wollen zeen, ig zee hier ein gar grosse</l>
+						<l>Ont verrotte kiese, der ich euch noodsaakleig aus moet rukken mit meinen
+							instrument.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Ja wel ik weet niet, Miester, ik ben dat eeten met al myn kiezen zo
+							gewent,</l>
+						<l>Dat ik geloof, het my kwaalyk zelbekomen, dat ik 'er een van zel missen
+							moeten.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Daar mee raakt zyn heele slachorder van strontkauwers in roeten.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Zouw 'er auders gien raad weezen om my te verlossen van die pyn?</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Nein das is onmoogleig, ont das kan anders nichts zyn.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Ja maar, Docter, ik vrees dat je me zo elderments zeer zel doen.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Ik wed zyn kies van non of aan belooft, dat by 't zyn leeven met meet zel
+							doen.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Kein noot, kein noot, zet euch mar nedder, kom, jong, kreigd mir myn
+							instrument.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Ja wel ik zeld dan wel moeten doen, alsje men anders niet hel pen en
+							kent.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Daar, Miester, is je nyptang, daar je de kay uit ieders kop mee plag te
+							trekken.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Ay handelt men wat voorzichtig, je weet met een kies is geen gek-</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Halt euch man stiles wol wol gaan.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Slappermenten! ay, ay, ay.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Niet dat de stem van een mensch beeter kan na apen, als een Boer en een
+							Papegay.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Daat legt den schender, der euch zo viel habt doen lyden,</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Bloed, Miester, ik zouje raaden dat jy die kies ook in 't kooper zou
+							laaten sayden,</l>
+						<l>En hem in print in je boek laaten zetten, dat je zeld uit laaten
+							gaan,</l>
+						<l>Want een groote kies zel zo wel in uw, als een groote worm in Beverwyks
+							observatie staan.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Gan slyden is dat trekken! ik vrees dat myn kaakebeen uit het lit zel
+							weezen.</l>
+						<l>Ackerment! die torn kwam er op aan.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Nou jy 'er deur bent zel de pyn wel over gaan en geneezen.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Zo een gezon le gast kwyt te worden is zeeker al wat te zeggen.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Ja, Jufvrouw dat voel ik best, het ryt me noch door het heele vleis,</l>
+						<l>Maar wat moetje nou hebben, Miester?</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Irsolst mir nicht mer gieben als een halbe ryksdaller von diesemreis.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Ay, myn Heer, met twie schellinge hoop ik zellewe wel accedieren.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>O dem, kinkel, ik kans nicht minder betuigen, ont er wolter zelbst mit
+							kontentieren.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Je behoorde zeeker deernis te hebben met een armen bloed,</l>
+						<l>Die ten minsten een paar daagen, om een halven ryksdaaler arbeije
+							moet.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Of jy zeggen woud, dat je niet veel geld hebt om te betaalen,</l>
+						<l>Wel dat ik je een kunst leerden daarje genoeg by kond haalen,</l>
+						<l>Wat zouje myn wel wille geeven? als ik je dat daadly k leer,</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>O dat zou wis to very weezen, neen dat leer ik nimmer meer.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Er solst dem Baur nog mal machen.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Neen, neen, je zelt het zien dat het gien tovery zel weezen,</l>
+						<l>En als jy dat kent, zo behoef jy je leeven veur gien aremoe te
+							vreezen.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Igut, hoe vult hy hem de kap,</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Wel als jy dat kent doen, zo benjy immers nou al ryk.</l>
+						<l>En waarom eisch jy dan noch geld?</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Dat het hy wel, met te min vrees ik dat hy hem noch in de hand zel
+							vallen.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Maar evenwel, kedaar, ken je me dat leeren? dat zakje geld zel ik 'er
+							noch aan vermallen.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Dat zocht ik maar.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Och! dien armenduivel is zyn geld al kwyt.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Hoor, ik zel je maar eenige woorden leeren zeggen,</l>
+						<l>En zo dra als je die gesprooken zult hebben, zel je straks een
+							ryksdaalder in je zak vinden leggen.</l>
+						<l>Maar als jy 't nou kent, zoo meng jy het niet meer doen als twee maal
+							daags.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Wel, laat zien, dat is op een dag een ducaat. wel hier raak ik hiel
+							slaags.</l>
+						<l>Nou wakker dan, begin maar straks; dat ik gezeid heb, is veur jou ten
+							besten.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Veur eerst moetje dit doen, en maaken al die zelve gesten</l>
+						<l>Die je my ziet doen, en spreeken my al myn woorden na,</l>
+						<l>En daar na zelje dan zien of ik in myn kunst niet vast en ga.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Pots honderd dybel! was of den nar met diesem Bour sol machen?</l>
+						<l>Ich wold em mool zeen.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Zacht, miester, houje maar zonder lachchen.</l>
+						<l>Nou kom, steek altyd veur eerst jou rechter arm, met je slinker voet vent
+							uit,</l>
+						<l>En spreek nou al my woordenna, in het zelfde geluid.</l>
+						<stage>Hy zeid hem deze navolgende woorden, van woord tot woord na, die Jan
+							hem voor zeid, die hem ondertusschen, onder enige vremde posturen, een
+							ryksdaalder in de zak laat vallen.</stage>
+					</sp>
+					<sp who="#jan #andries">
+						<speaker>Jan en Andries.</speaker>
+						<l>O plantynus, baldewynus, marcepynus, almanak.</l>
+						<l>Wylik omkyk, wyl ik kromkyk, geef my strak,</l>
+						<l>En zo daadlyk, wel genaadlyk, een patkon in myn zak.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Dat is genoeg, kom zie nou iens in jou zak, of je 'er gien geld in zeld
+							vinden.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Byget, daar vind ik een ryksdaalder! wel nou ben ik de rykste van myn
+							vrinden.</l>
+						<l>Wel hier mee loop ik daadlyk met die blije boodschap na myn wyf,</l>
+						<l>En jaag 'er met die tyng al 'er ziekte van 'er lyf.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Kom, huisman, beliefje me dat zakje geld nou wel iens te langen.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Zie daar, Jongman, ik hoop het met den intrest wel weer t'ont vangen.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Er bist ein dansend schelm, das der den baur, op zo ein weise
+							tractiert.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Ik weet niet hoe dat hy 't kan bedenken, of hoe dat hy't versiert.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries</speaker>
+						<l>Wel dat bloên vakzeerdme noch al in de mond.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Kom hier, huisman, spuwd het bloed maar neêr, en gaat zitten.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Och zo, Jufvrou, wod je me wat helpen.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Zie daar, steek dat beetje poeder in de holligheid van de kies, om het
+							bloed te stelpen.</l>
+						<l>‘Maar, Andries, maakje je geld zo los kwyt?</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries</speaker>
+						<l>‘O Ja, al dit doen, en die pyn die ik heb uitgestaan,</l>
+						<l>‘Is alleen uit geneegendheid, of ik unoch mogt genieten, gedaan.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>‘Maat het spyt me van jougeld.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>‘Houdje noch wat stil, Jan ken me noch niet, ik zel dat wel brouwen.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Zie daat, myn Heer, ik heb het in jou dienst gekonk westeerd, ik
+							pretendeerder niet een stuiver van te behouwen.</l>
+						<l>Steek jy die buit maar op, myn Heer.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Ich wees waarhaftig nichts hoe das ir das habt kepractiserdt.</l>
+						<l>Ha! ir bister ein hupsch kherrel, werdig daster im diesen konst, word zou
+							gepromovierdt.</l>
+						<l>Mein zeel, ich woller meiner olsten dochter tot ein weib tzou leggen.</l>
+						<l>Oder irren kheur, vom beiden, ont inclmation.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Ja, ik zelje daar wel haast myn keur van zeggen.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Er mogt dar vreilig stas op machen, ich gieb ir vom nou af an dar zou
+							mein woord.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Nou staat my ook op te passen, op hergeen dat ik daar heb gehoord.</l>
+						<l>En leggen ook myn zinnen te werk, om te vorderen myn zaaken.</l>
+						<l>Om te zien of ik in deze beezigheid, niet alleen weer aan myn geld, maar
+							ook an zyn beurs kan raaken.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Daar zit den armen duivel nou met de hand onder 't hoofd, en is al zyn
+							hoop en troost kwyt.</l>
+						<l>Het hy morgen weer lust, hy mach vry noch ereis te gast komen, op zulken
+							ontbyt.</l>
+						<l>Ha, ha, dat gaat wel, baas, al goorden ze ons noch zo lang met zulke
+							sneeuw ballen, ik zou 'er niet van weeeten,</l>
+						<l>En duurd dat noch zo een uur vyf zes, zo zellewe wis tavond boekedekoeken
+							met Krenten eeren.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Dat is beschikt, Jufvrouw. k heb myn geld al weer, en je Papaas beurs 'er
+							noch by.</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geererui.</speaker>
+						<l>Ik was al bevreest veur Jan, hy lonkten altemet zo wat ter zy.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Dat was een schoone vangst, myn Heer, ik zou me, nou dunkt me, zo niet
+							verhaasten met te vertrekken,</l>
+						<l>Maar daar je me daadlyk van sprak, miester, daar zel ik je myn zinlykheid
+							nou van oudekken,</l>
+						<l>Daar is jou dochter Jacoba, die by my wel altoos in de meeste achting is
+							geweest,</l>
+						<l>Om datze, gelyk als ik ben, is van een wakkere en vrolyke geest.</l>
+						<l/>
+						<l>Als 'tje beliefde, wou ik wel dat je me op dat rekwest, favorabel apostil
+							wilde verlienen.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Gar wol, ich wol er vom spregge. Jacoba.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Wat beliefje, Papa?</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Hoort, Jan verzoekt ir tot zein weib, wat dunk u? er habt gutter
+							miene</l>
+						<l>Op den Theater. ich wol das wol zeen, ont er es ein hupsch kerrel.</l>
+					</sp>
+					<sp who="#jacoba">
+						<speaker>Jacoba.</speaker>
+						<l>Wel, Papa, als 't je believen was, zo wensten ik het ook wel.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Jan, Jan, ich gieb ir mein woord, ir mach man vort gan mit ir sachen,</l>
+						<l>Ich hab al reits zo viel kezeen, dat ir wol durch den weld sold
+							rachen.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>O myn Heer de pisbekykery is alleen suffizant genoeg veur myn kost.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Maar, myn Heer, datje myn nou de andre gaf, zo waar jy vanalle bei die
+							ballasten verlost.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Was zachter, kinkel? wolter er noch ein weib haben? is ein nicht
+							kenoeg?</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>'k Beken, myn Heer, dat een wyfgenoeg is veur alle zaaken.</l>
+						<l>En had ik er een, ik zou zo veel schoenen met of loopenom 'er aan te te
+							raaken.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>O er beestialiteet! habt ir nichts selbst, in presentioon von ons drein
+							kezeid?</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Ja maar in een anderen zin, myn Heer, daar ik my toen van bediend heb, in
+							myn listig beleid.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>O kein grosser nar kander zein, onder al das kanailje vom den haze
+							kopsen</l>
+						<l>Dan ir bist, zolich mir zo von ein jou kharrel zolassen sopfen?</l>
+						<l>Ont machen mir al mein keld kweid? ha, ha, ha, ich moet ir noch auslachen
+							toe.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Maar zou jy, of Jan, my dat geld noch wel cens konnen laaten zien?</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Wol was dybel is das? wol hoe!</l>
+						<l>War is mein keld? pots honderd dausend, mein beurs bin ich och kweit,
+							Jan, habt 'er mein das och kebrouwen?</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Maar, myn Heer, wat is dat! zou jy myn zo veut den dief houwen.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Oder er grobber, matsvots, habt uch mir ooch a zou na an 't leib
+							kewest!</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Maar, myn Heer, bedaar doch, de zaak zel hem zelfs wel ontwinden op 't
+							lest.</l>
+						<stage>Hans trekt zyn degen.</stage>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Ich wol mein geld haben, oder ich wol het mit myn kling, vom dim, oder
+							von it haalen.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Zacht, myn Heer, steektje deegen op, je geld is behouwen, daer zel niet
+							een stuiver aan faalen.</l>
+						<l>Maar bezie men eens te recht.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan by zyn zelf.</speaker>
+						<l>Wel de Duivel! 't is Andties.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Wie meenje dat ik ben, die teegen je spreekt?</l>
+						<l>'t Is altyd juist gien Boer, schoon dat hy in een Boere kleed steekt.</l>
+						<l>Ziet daar, nou zieje wie ik ben, en daar is je geld wederom, myn Heer, en
+							ben ik voor heen versteeken</l>
+						<l>Geweest van je jougste, nou verzoek ik je oudste dochter voor my.</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>Jy bent het dan zelf Andries? wel ik beken 't zyn aardige streeken.</l>
+						<l>Myn Heer, nou heeft hy ze ook regtschaapen verdiend.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>En heeft men onlangs op de Schouburg, de Schoorsteenveeger, door Liefde
+							verbeeld,</l>
+						<l>Ik heb op dezelve wys, de rol van de Boet door Liefde gespeeld.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Er habt dem handgreiff von beurzen tzou lichten, al gar wol, ich had zo
+							gut nicht kenoomen,</l>
+					</sp>
+					<sp who="#jan">
+						<speaker>Jan.</speaker>
+						<l>O myn Heer, 't is al een aardige kunst, die in tyd van nood noch al te
+							pas kan koomen.</l>
+					</sp>
+					<sp who="#andries">
+						<speaker>Andries.</speaker>
+						<l>Wy zullen ook een goede Théater konnen uitmaaken.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Wat zaagt er. Geertrui, ist ir inclinatjoon?</l>
+					</sp>
+					<sp who="#geertrui">
+						<speaker>Geertrui.</speaker>
+						<l>Wel ja, Papa, als het jou ook zo beliefde te verstaan.</l>
+					</sp>
+					<sp who="#hans">
+						<speaker>Hans.</speaker>
+						<l>Andries, ich gieb ir dan mein woord, an vart it dan, het mut ir tzou
+							zamen, alle wol ont hupsch gaan,</l>
+						<l>Ich wol it beiden dan tot meiner Swager promovieren.</l>
+						<l>Ont it Gertrui en Jacoba, wild deisen vortrefleigen keselschap, met ein
+							vermaakleigen Dans regalieren.</l>
+					</sp>
+					<p>EYNDE.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+
+</TEI>
