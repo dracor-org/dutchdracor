@@ -1,0 +1,2178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000135" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Krispyn, poëet, en officier</title>
+				<author>
+					<persName>
+						<forename>Michiel</forename>
+						<nameLink>van</nameLink>
+						<surname>Breda</surname>
+					</persName>
+					<idno type="wikidata">Q21552949</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL">https://www.dbnl.org/tekst/bred006kris01_01/</idno>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Michiel van Breda: Krispyn, poëet, en officier. Amsterdam: Albert Magnus,
+						1685.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="MALE" xml:id="gustaaf">
+						<persName>Gustaaf</persName>
+					</person>
+					<person sex="FEMALE" xml:id="klaret">
+						<persName>Klaret</persName>
+					</person>
+					<person sex="MALE" xml:id="krispyn">
+						<persName>Krispyn</persName>
+					</person>
+					<person sex="FEMALE" xml:id="lysbeth">
+						<persName>Lysbeth</persName>
+					</person>
+					<person sex="MALE" xml:id="rudolf">
+						<persName>Rudolf</persName>
+					</person>
+					<person sex="MALE" xml:id="rykert">
+						<persName>Rykert</persName>
+					</person>
+					<person sex="FEMALE" xml:id="sofy">
+						<persName>Sofy</persName>
+					</person>
+					<person sex="MALE" xml:id="valerius">
+						<persName>Valerius</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Farce</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-09-11">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1685">
+				<desc/>
+			</event>
+			<event type="premiere" when="1686">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+
+		<front>
+			<docTitle>
+				<titlePart>KRISPYN, POËET, en OFFICIER.</titlePart>
+				<titlePart>KLUCHTSPEL.</titlePart>
+				<titlePart><figure/></titlePart>
+				<titlePart>T' AMSTERDAM,</titlePart>
+				<titlePart>By Albert Magnus, op den Nieuwendyk, in den Atlas, by den Dam.
+					1685.</titlePart>
+				<titlePart>Met Privilegie.</titlePart>
+
+			</docTitle>
+			<div type="appendix">
+
+				<head>Copye van de Privilegie.</head>
+				<p>DE Staten van Hollandt ende Westvrieslandt doen te weten. Also Ons vertoont is by
+					de tegenwoodige Regenten van de Schouwburgh rot Amsterdam. Dat sy Supplianten
+					sedert eenige Jaren herwaerts met huune goede vrinden hadden gemaeckt en ten
+					Toonele gevoert verscheiden Wercken, soo van Treurspelen, Bleyspelen als
+					Kluchten, welcke sy lieden nu geerne met den druck gemeen wilden maecken, doch
+					gemerkt dat dese wercken door het nadrucken van anderen, veel van haer luyster,
+					soo in Tael als Spelkonst souden komen te verliesen, ende alsoo sy Supplianten
+					hen berooft souden sien van hun bysonder ooghwit om de Nederduytsche Tael en de
+					Dichtkonst voort te setten soo vonden sy hen genootsaekt, om daer inne te
+					voorsien, ende hen te keeren tot Ons, onderdanigh versoeckende, dat Wy omme
+					redenen voorsz. de Supplianten geliefden te verlenen Octroy ofte Privilegie,
+					omme alle hunne wercken reets gemaeckt ende noch in 't licht te brengen, den tyt
+					van vyftien Jaren alleen te mogen drucken en verkopen of doen drucken en
+					verkopen, met verbot van alle anderen op seeckere hooge peene daar toe by Ons te
+					stellen ende voorts in communi forma. Soo is 't dat Wy de Zake en 't versoek
+					voorsz. overgemerkt hebbende, ende genegen wesende ter bede van de Supplianten,
+					uyt Onse rechte werenschap, Souveraine magt ende authoriteyt deselve supplianten
+					geconsenteert, geaccordeert ende geoctroyeert hebben, consenteren, accorderen
+					ende octroyeren mitsdesen, dat sy geduurende den tyt van vyftien eerst achter
+					een volgende Jaren de voorsz. werken die reeds gedrukt zyn, ende die van tyt tot
+					tyt door haer gemaekt ende in 't ligt gebragt sullen werden, binnen den voorsz.
+					Onsen Lande alleen sullen mogen drukken, doen drukken, uytgeven en verkopen.
+					Verbiedende daarom allen ende eenen ygelyken de selve werken naar te drukken
+					ofte elders naer gedrukt binnen den selve Onse Lande te brengen, uyt te geven
+					ofte te verkopen, op de verbeurte van alle de naargedrukte, ingebragre ofte
+					verkogte exemplaren, ende een boete van drie hondert guldens daer en boven te
+					verbeuren, te appliceren een derde part voor den Officier die de calange doen
+					sal, een derde-part voor den Armen der Plaetse daer het casus voorvallen sal,
+					ende het resterende derde-part voor den Supplianten. Alles in dien verstaande,
+					dat wy de Supplianten met desen Onsen Octroye alleen willende gratifieeren tot
+					verhoedinge van hare schade door het nadrukken van de voorsz. werken, daar door
+					in geenige deelen verstaen, den inhoude van dien te Authoriseren ofte te
+					advoueren, ende veel min de selve onder Onse protectie ende bescherminge, eenig
+					meerder credit aensien ofte reputatie te geven, nemaer de Supplianten in cas
+					daar in yets onbehoorlykx soude mogen influeren, alle het selve tot haren laste
+					sullen gehouden wesen te verantwoorden; tot dien eynde wel expresselyk
+					begerende, dat by aldien sy desen Onsen Octroye voor de selve Werken sullen
+					willen stellen, daer van geene geabbrevieerde ofte gecontraheerde mentie sullen
+					mogen maken, nemaer gehouden sullen wesen het selve Octroy in 't geheel ende
+					sonder eenige Omissie dier voor te drukken ofte te doen drukken, ende dat sy
+					gehouden sullen zyn een exemplaer van alle de voorsz. werken, gebonden ende wel
+					geconditioneert te brengen in de Bibliotheecq van Onse Universiteyt tot Leyden,
+					ende daer van behoorlyk te doen blyken. Alles op peenevan het effect van dien te
+					verliesen. Ende ten eynde de Supplianten desen Onsen consente Octroye mogen
+					genieten als naer behooren: Lasten wy allen ende eenen ygolyken die 't aengaen
+					mach, dat sy de Supplianten van den inhoude van desen doen, laten en gedogen,
+					rustelyk en volkomentlyk genieten en cesserende alle beletten ter contrarie.
+					Gedaen in den Hage onder Onsen groten Zegele hier aen doen hangen den xix
+					Septembr. in 't Jaer onses Heeren en Zaligmakers duysent ses hondert vier en
+					tachtig.</p>
+				<p>G. FAGEL.</p>
+				<p>Ter Ordonnantie van de Staten</p>
+				<p>SIMON van BEAUMONT'</p>
+				<p>De tegenwoordige Regenten van de Schouw-burgh, hebben het Recht van de
+					bovenstaande Privilegie, aangaande dit Blyspel, vergunt aen Albert Magnus,
+					Boekverkoper tot Amsterdam.</p>
+				<p>In Amsterdam den 28 November 1685.</p>
+			</div>
+			<castList>
+				<head>Vertooners.</head>
+				<castItem corresp="#valerius">
+					<role>Valerius, Minnaar van Klarette.</role>
+				</castItem>
+				<castItem corresp="#krispyn">
+					<role>Krispyn, Knecht van Valerius.</role>
+				</castItem>
+				<castItem corresp="#gustaaf">
+					<role>Gustaaf, een Geleerde.</role>
+				</castItem>
+				<castItem corresp="#sofy">
+					<role>Sofy, Moeder van Klarette.</role>
+				</castItem>
+				<castItem corresp="#klaret">
+					<role>Klarette.</role>
+				</castItem>
+				<castItem corresp="#rudolf">
+					<role>Rudolf, een Officier Vader van Klarette.</role>
+				</castItem>
+				<castItem corresp="#lysbeth">
+					<role>Lysbeth, Kamenier van Klarette.</role>
+				</castItem>
+				<castItem corresp="#rykert">
+					<role>Rykert, Vader van Valerius.</role>
+				</castItem>
+				<p>Het speeld in 't huis van Soft.</p>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<div type="scene" n="1">
+					<head>Krispyn, poëet, en officier.</head>
+					<head>Eerste tooneel.</head>
+					<stage>Valerius verkleed, Krispyn.</stage>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>JA heer, myn aanslag is nu tot het eind gebragt;</l>
+						<l>'t Is verder noch gelukt, dan ik zelf had verwacht.</l>
+						<l>Ik breng u hier in 't huis van uw beminde, waarlyk</l>
+						<l>Het had veel werks; doch 't lukt in 't eind noch hoe bezwaarlyk.</l>
+						<l>'k Heb by mevrouw Sophy; de moeder door myn list</l>
+						<l>Vry wat credit gemaakt.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Maar om wat reden is 't,</l>
+						<l>Dat ik verkleed most zyn? wil my nu openbaaren</l>
+						<l>Wat dat beduid, gy kost het flus my niet verklaaren.</l>
+						<l>Om dat....</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>We! aan ik zal het u verhaalen ... doch</l>
+						<l>Het zal hoognoodig zyn, dat van het schoon bedrog,</l>
+						<l>Van al het geene, dat hier is door my bedreeven,</l>
+						<l>Voor af maar met een woord, u kennis werd gegeeven.</l>
+						<l>Mevrouw wil niemand zien, zy acht geen menschen, dan</l>
+						<l>Alleen geleerden. 'K houw me als een geletterd man.</l>
+						<l>'k Geef voor, ik ben Poëet, en Philosooph, daar boven</l>
+						<l>Een groot Physiognomist; ik doe het haar gelooven.</l>
+						<l>Sofy acht my veel meer, en dieper gestudeert,</l>
+						<l>Als een Doctoor; ik werd op 't hoogst van haar geëerd,</l>
+						<l>Ik vley, en prys haar, ik keur goed al haar geschriften,</l>
+						<l>In proze en vaerzen, als zy my die geest te ziften.</l>
+						<l>Dus maakt zy zo veel werks van myn gevoelen, dat</l>
+						<l>Zy niemand achten zou, schoon hy meer kennis had</l>
+						<l>Als ik ooit hebben kan. 'k heb ook een geeft gekreegen</l>
+						<l>Door erffenis, die my heel zelden laat verlegen.</l>
+						<l>Ik heb voor deezen een geletterde gediendt,</l>
+						<l>Die my by testement, want hy had kind, noch vriend,</l>
+						<l>Als zyn geleerdheid, en zyn groote wysheyd maakte.</l>
+						<l>Zie, goed en had hy niet, wyl dat net opgeraakte</l>
+						<l>Voor zyne dood. Ook wist hy wonder net en fraay</l>
+						<l>Met streeken om te gaan; 'k heb van die ouwe paay</l>
+						<l>Zo veel geleerd; ik durf wel d'aldergaauwste tarten,</l>
+						<l>In onbeschaamtheid, en al diergelijke parten.</l>
+						<l>En om te beter noch te doeken, door die schyn</l>
+						<l>Dat licht geloovig volk, laat ik my voor Krispyn</l>
+						<l>Heer Gaauwert noemen; en voor al zie ik my eeren</l>
+						<l>En achten van Mevrouw Sofy, na myn begeeren.</l>
+						<l>Al wat ik zeg, en doe, behaagt haar ongemeen.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Ik mag dan hoopen dat ik eind'ling door die rêen...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Al zagjes; het begin van myn verhaal is 't beste,</l>
+						<l>Wy scheiden zo noch niet, ik bid let op het leste</l>
+						<l>Myn heer, zo zei de haan wel eer eens tot de pier.</l>
+						<l>'t End draagd de last, en dan werd goede raad eerst dier.</l>
+						<l>'k Vrees dat ik reden heb, van nu af aan te vreezen,</l>
+						<l>Myn heer, dat gy niet lang in deeze vreugd zult weezen.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Hoe zo?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Het is 't niet al, dat om u dienst te doen,</l>
+						<l>Ik by Mevrouw Sofy, my met zo goed fatsoen</l>
+						<l>In kuis gedrongen heb, maar dit moet gy ook hooren</l>
+						<l>Myn heer, en dat 's de knoop, ik zeg 't van te vooren.</l>
+						<l>Daar al de zaak aan hangd, de vader aan zyn kant</l>
+						<l>Gedoogt, dat zyn Klaret haar trouw en haare hand...</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Krispyn, ach dat 's het minst.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Dat 's 't minste niet.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Wat reden.</l>
+						<l>Kan heer Rudolf zyn kind met my in d'echt doen treeden?</l>
+						<l>En zonder, dat hy my, of myne midd'len kent.</l>
+						<l>Neen, neen Krispyn, dat zyn de menschen niet gewent.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Maar heer Rudolf, myn heer, kan u wel laaten loopen,</l>
+						<l>En zyne Dochter aan een ander wel verkoopen,</l>
+						<l>Uit trouwen meen ik.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Wel, dat is zeer goed, hy kan..</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Dat is zeer kwaad myn heer, hy koos haar reeds een man.</l>
+						<l>Maar van Klaret, zult gy volkomen u vernoegen.</l>
+						<l>De vader tracht vergeefsch, een man haar toe. re voegen,</l>
+						<l>Zy stemt het noch niet toe, schoon hy haar heeft verlooft.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Wat zegt gy? Goon! zo my myn lief zo wierd ontrooft.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Hy heeft haar toegezegd een van zyn beste vrinden,</l>
+						<l>Die haar voor zyne zoon....</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Wat zal ik onderwinden?</l>
+						<l>Ach myn Krispyn! helaas Krispyn! wat gaat aan!</l>
+						<l>Ach, ach! hoe duur zal my, myn vaders af zyn slaan?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Het komt ontydig heer, 'k beken 't; maar 'k durf noch hoopen,</l>
+						<l>Dat het na zyne zin, noch zo niet af zal loopen,</l>
+						<l>Gy hebt de min voor u, en...</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Kan ik in dit kleed,</l>
+						<l>Myn schoone doen verstaan, de groote van myn leed.</l>
+						<l>Ach kan ik zonder schaamt, zo voor het oog verschynen</l>
+						<l>Van myn meestres, en haar van myne minne-pynen...</l>
+						<l>Dit Raapeschilletje.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Zy wil het zo, dat 's goed.</l>
+						<l>'k Verkoos dit zo expres, om dat 't zo weezen moet.</l>
+						<l>Zo kond gy gaan voor een kopye van die heeren</l>
+						<l>Voor een Tartuffe, of als men in Parys ziet eeren,</l>
+						<l>Van 't volk dat dikwils naauw een A kent, voor een B,</l>
+						<l>En voor heel gaauw passeerd, met Titel van Abbe.</l>
+						<l>Ik heb gezeid, dat ge eerst uit Vrankryk zyt gekomen.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Ik kan maar weinig Frans.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Zy minder; wil niet schroomen.</l>
+						<l>Ik zei haar dat gy hier gebooren zyt, myn heer,</l>
+						<l>En dat gy evenwel verkreegen hebt deeze eer,</l>
+						<l>Om uw geleerdheid. Is 't niet treflyk uitgevonden?</l>
+						<l>Ik zei haar, dat gy hier in Holland zyt gezonden,</l>
+						<l>Om naar geleerde luy te zoeken; is 't niet loos?</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Ja, maar ik durf zo niet Krispyn...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Wat! durft altoos.</l>
+						<l>'k Heb dat expres bedacht...</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>En waarom doch?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Om reden</l>
+						<l>'t Za! u al lukken in die'schyn, stel u te vreden.</l>
+						<l>Voeg by dat kleed voor al, een stemmig weezen; trek</l>
+						<l>U hoofd vol rimp'len, en somtyds een scheeve bek</l>
+						<l>Star oog somtyds, en sta gelyk diep in gedachten.</l>
+						<l>Ha! dat zyn dingen die de menschen wys doen achten</l>
+						<l>De waereld laat zich doch door diergelyke schyn</l>
+						<l>Bedriegen; ziet gy 't niet myn heer aan u Krispyn?</l>
+						<l>Exempel! ik bedrieg de waereld door die streeken.</l>
+						<l>'k Maak vreemde grillen, en ik hem,als ik zal spreken.</l>
+						<l>De menschen meenen, ik ben heel geleerd. Mevrouw</l>
+						<l>Bad my noch gist'ren, dat ik doch haar vaarzen zou,</l>
+						<l>Zo wat verbeteren; ik heb 't stout aangenomen;</l>
+						<l>En op dat myn bedrog hier door niet uit zou komen,</l>
+						<l>Verzocht ik heer Gustaaf, dat die 't voor my zou doen;</l>
+						<l>Dat is een groot Poëet, men kan het aan 't fatsoen,</l>
+						<l>En aan zyn Acties zien, hy komt hier alle daagen</l>
+						<l>Sofy flik-flooyen, en na haar gezondheid vraagen.</l>
+						<l>Maar heer de stof van 't vaers, is wonderlyk, en raar.</l>
+						<l>Ik bid u luistert eens; een vrouw die alle jaar</l>
+						<l>In 't kraambed komt, en nooit een vaers bestont te dichten</l>
+						<l>Is schuldig, in haar oog met reden te betichten.</l>
+						<l>Zy maakt een schimpdicht, dat daar tegen uit zal gaan.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Maar die heer Gustaaf kan...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Zoet, zoet, daar komt hy aan.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Twede tooneel.</head>
+					<stage>Valerius, Krispyn, Gustaaf.</stage>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Ach! wat geluk myn heer, dat ik u met myn oogen</l>
+						<l>Hier weêr aanschouwen mag; ik sta als opgetoogen.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Ik kom myn plicht voldoen, aan die doorluchte geest</l>
+						<l>Dees tyds; wiens weerga in geen vrouw ooit is geweest;</l>
+						<l>De tiende Muze, die eerlang zal zyn verheven</l>
+						<l>Op 't hooge Helikon. en daar haar straalen geeven;</l>
+						<l>Maar deeze Jongeling, die daar zo stemmig ziet</l>
+						<l>Wat is dat doch voor een, of kend gy hem ook niet?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Dat 's een geleerde; vers, nu, nu zo eerst gebooren,</l>
+						<l>Die ik ter waereld breng. Ha! gy zult wond'ren hooren</l>
+						<l>Myn heer, en wylik wil dat ider een hem kend,</l>
+						<l>Zo is het redelyk, dat gy zyn vrind ook bent.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius aan Gustaaf.</speaker>
+						<l>Dat is een eer die ik...</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Myn heer...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>In deeze dagen,</l>
+						<l>Waar in wy leeven heer, mag hy de roem wel draagen,</l>
+						<l>Dat buiten u, en mv, hy meer geleerdheid heeft,</l>
+						<l>Als iemand 't zy wie 't zy die in deez eeuw noch leeft.</l>
+						<l>Voorts heeft hy ook een naam, uitdrukkende; gedachen,</l>
+						<l>Die wonder zyn, waar uit wat heerliks staat te wachten.</l>
+						<l>Hy heet Aankomeling, dat is te zeggen, Heer;</l>
+						<l>Heel gaauw in 's waerelds school, waar jongheid nimmermeer</l>
+						<l>Den top beklimt; ten zy, dat zy werd onderweezen</l>
+						<l>Van wyze Oudheid, die het alles heeft doorleezen.</l>
+						<l>Ik kom hem off'ren aan de Saffo van deez tyd.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Ja daar door is 't myn heer, door studie, en door vlyt...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Voorwaar de deugd is waard, dit zy niet eer en achting,</l>
+						<l>Van elk ontfangen werd, zy geeft ons die verwagting</l>
+						<l>Dat... want myn heer, zy weet als iemand hoog geleerd</l>
+						<l>En konstig is ... zie dan, is hy ook gestudeert,</l>
+						<l>Dan heeft hy weenenschap; myn heer, een die kan spreeken;</l>
+						<l>Is geenzins stom, dat is nu middag klaar gebleeken.</l>
+						<l>De wysheid onderscheid ons van de gekken, heer;</l>
+						<l>En daarom is het goed dat iemand door een leer...</l>
+						<l>Of wel geleerdheid klimt ... dat hy het zo kan maaken...</l>
+						<l>Gelyk wy u daar door tot zulk een lof zien raaken.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Ja toch, de weetenschap is overal vermaard.</l>
+						<l>Myn heer de weetenschap, is 't kostelykst op aard.</l>
+						<l>Zy onderscheid den mensch van reeelooze dieren,</l>
+						<l>Van domme beesten. ô wel dien, die zich versieren</l>
+						<l>Met zulk een kostlykheid; want dooreen stoute vlucht,</l>
+						<l>Verheft de wysheid ons, tot boven inde lucht;</l>
+						<l>En doet de menschen van der Goden tafel proeven:</l>
+						<l>En hier toe zullen wy maar een bewys be hoeven.</l>
+						<l>Men zegt, dat Pallas wierd gebooren uit het hoofd</l>
+						<l>Van Jupiter; 't welk van Vulkanus wierd gekloofd;</l>
+						<l>Dat zy geen moeder had, nu kund gy licht doorgronden...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Ja toch, dat spreekt van zelf, 't is wonder wel gevonden</l>
+						<l>Dat 's mislik kramen, en in 't gansche waerelds rond..</l>
+						<l>Maer a propo myn heer. Het vaers dat ik terstond</l>
+						<l>U gaf, hebt gy dat?</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Ja.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn tegen Valerius.</speaker>
+						<l>Ik zie Mevrouw daar komen,</l>
+						<l>Klaret is by haar; nu myn les wel waargenomen,</l>
+						<l>U lief schynt vry Chagrin.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Sofy, Klaret, Lysbeth, Gustaaf, Valerius, Krispyn.</stage>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>GY ziet, Apollo zou, zo ik een dag doorbrogt</l>
+						<l>Mevrouw, in welke, dat ik u niet had bezogt</l>
+						<l>Zyn Hof my sluiten, en my al zyn gonst ontrooven.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Myn heer, voor zo veel eer ben ik verplicht, dit te looven....</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Nooit ziet menu genoeg, ô Muze van deez tyd,</l>
+						<l>Die en in prooze, en vaers, onvergelyklik zyt.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Mevrouw op dat de vreugd, hier doch zou overstroomen,</l>
+						<l>Bracht ik dien heer die eerst uit Vrankryk is gekomen.</l>
+						<l>Ik offer u de blom van heer aankomeling.</l>
+						<l>Het is een groot Poëet.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>'k Zal met verwondering,</l>
+						<l>Aanvaarden het geschenk dat gy my doet; in 't weezen</l>
+						<l>Staat zyn geleerdheid, en zyn groot verstant te leezen.</l>
+						<l>Men ziet klaar, dat zyn geest van oordeel is verzelt,</l>
+						<l>Zyn Physiognomi....</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Gy hebt het recht gespeld,</l>
+						<l>De Phisiognomi liegt niet, ik moet belyden</l>
+						<l>Dat hy noch jong is, maar wy zyn in deeze tyden;</l>
+						<l>Dat 't rym geensints vertoeft, na hoogen ouderdom.</l>
+						<l>Neen toch niet, schoon dat hy noch is een jonge blom;</l>
+						<l>Hy is een wonder ... ô hy kan .. Mevrouw gy zou verstommen.</l>
+						<l>Zyn vaerzen, .. ô zo schoon! .. dat gy die hoorde brommen,...</l>
+						<l>Maar, met een woord, Mevrouw ik ken hem op een prik;</l>
+						<l>Hy is zo wys! hy is .. ja zo geleerd als ik.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Dat 's een groot lofdicht in één woord.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Maar....</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Gy zyt waardig,</l>
+						<l>Meer dan ik zeggen kan, ik ben noch onrechtvaardig.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Kom heer aankomeling, toont u eerbiedigheid</l>
+						<l>Aan ons beschermster, kom gy werd door my geleid.</l>
+						<l>Kom hier ô roos, van alle spruiten!</l>
+						<l>Wilt uw geleerdheid hier eens uiten.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Wat edel weezen, ach zo zacht gelyk eert dons</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn tegen Valerius.</speaker>
+						<l>Pas op je Rol, de Meid is ons.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Nooit zag men iemant haaken</l>
+						<l>Met zulk een ongeduld, om d'eer te moogen smaaken,</l>
+						<l>Van uwe kennis, als ik heb gehaakt Mevrouw.</l>
+						<l>En zo 't geluk myn wensch my had vergond, ik zou</l>
+						<l>Het geen ik hier nu doe, al hebben lang te vooren</l>
+						<l>Gedaan, heer Gaauwert kan 't met waarheid u doen hooren.</l>
+						<l>Ik heb hem honderdmaal, ja duizendmaal verzocht,</l>
+						<l>Dat hy, was 't mogelyk, my eens tot uwent brogt.</l>
+						<l>Die eer zo lang geweest, van hier te zyn ontfangen,</l>
+						<l>Zal my de grootste vreugd, des waerelts doen erlangen.</l>
+						<l>'k. Zal menschen konnen zien, die 'k acht, bemin, en eer,</l>
+						<l>Haar Hooren spreeken, en zelfs met haar spreeken. Meer,</l>
+						<l>'k Zal konnen hooren, of haar zin, en haar gedachten,</l>
+						<l>Gelyk de myne zyn; wat vrucht heb ik te wachten,</l>
+						<l>Van zulk een onderhoud!</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn tegen Gustaaf.</speaker>
+						<l>Hoe staat Mevrouw dit aan?</l>
+						<l>Weet hy te leeven? </l>
+						<l>Of 't uit een boekje was?</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Al wat ik hem hoor zeggen,</l>
+						<l>Is wonderlyk, het is niet netter uit te leggen.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Myn heer zal in het kort hier goe progressen doen;</l>
+						<l>Hy voegt by zyn diskoers met zulk een goed fatsoen,</l>
+						<l>Zo schoone graci. Ach dat 't zo een man mogt weezen,</l>
+						<l>Die uw werd toegelegt, myn Dochter! 'k zou niet vreezen.</l>
+						<l>Ach wat geluk! indien de Hemel zulk een man,</l>
+						<l>Voor myn Klaret...</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Mevrouw, is dit uw Dochter dan?</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Ja heer.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>‘O slechthoofd!</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Duld, dat ik ook myne plichten</l>
+						<l>Mevrouw mag tegens u gelyk 't betaamt verrichten;</l>
+						<l>En dat myn hert aan u herhaalen mag, al 't geen</l>
+						<l>Ik daadelyk Mevrouw u Moeder heb gebeên.</l>
+						<l>Maar mag ik hoopen, dat ik ook by u zal vinden</l>
+						<l>De zelfde goedheid, dat myn komst en onderwinden</l>
+						<l>Uw oogen niet mishaagt? Mevrouw een sterke magt</l>
+						<l>Een groot Godheid, heeft my in deez plaats gebragt!</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Dat 's zekerlyk Apol!</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Ja toch, dat wil hy zeggen.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Hy blaast my in, al wat gy my u voor hoort leggen.</l>
+						<l>Die zelfde Godheid, doet my hoopen, dat men nie</l>
+						<l>Zal last'ren 't oogmerk, dat my hier te komen ried.</l>
+						<l>'k Betrouw my op zyn zorg, hy strekt my een behoeder.</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>Ik volg in 't geen u raakt 't gevoelen van myn Moeder.</l>
+						<l>'t Geen haar behaagt kan my geensins mishaagen heer;</l>
+						<l>Uw komst vergramt my niet, men denkt gemeenlyk meer,</l>
+						<l>Als 't pas geeft dat men zegt. Maar zonder ver te loopen;</l>
+						<l>En gy zult u hier meê vernoegen, durf ik hoopen,</l>
+						<l>Volg, volg de neiging van de Godheid, die gy eerd.</l>
+						<l>Die u zo inblaast, die u alles zeggen leerd.</l>
+						<l>Ik hoor met vreugd, dat hy u in deez plaats doet komen</l>
+						<l>Hy kan gelukken doen, 't geen gy hebt voorgenomen.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Die reden maakt u nu veel liever noch aan my,</l>
+						<l>Wat hoor ik! ach Klaret! hoe waarelyk zyt gy</l>
+						<l>Uw Moeders Dochter! ik ken aan die ed'le reden</l>
+						<l>Myn bloed. O ja. 'k zal u in 't zelfde perk zien treden,</l>
+						<l>Waar in ik loop. Hêlaas! en zou uw vader dan,</l>
+						<l>Zo onrechtvaerdig de beginselen hier van,</l>
+						<l>Die heerlyke geest verdooven! Wreede wetten!</l>
+						<l>Ach wat onmenschlykheid die niemand kan beletten!</l>
+						<l>Ik zal bezwyken, ach!</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Wat heimelyke kwaal,</l>
+						<l>Onsteld u zo Mevrouw?</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Hoor na dit droef verhaal.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Waar uit onstaat die vrees? wat heeft men voorgenonen?</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Myn man is deezen dag weer in de stad gekomen.</l>
+						<l>Ach en die wreede wil, dat ik u nooit meer zie.</l>
+						<l>Ziet, zegt hy, Officiers, die braave mannen, die</l>
+						<l>Altyd met degens gaan, laat d'andere vertrekken,</l>
+						<l>Dat is verstandig volk, al de andere zyn gekken.</l>
+						<l>Weet dat één Officier, meer dienst doed, in een Ryk</l>
+						<l>Dan die Pedanten, en die Grieken algelyk.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Men wreek ons daadelyk van zulk een smaadig spreeken,</l>
+						<l>U man zal in een uur zo scherp zyn doorgestreeken,</l>
+						<l>Dat de nakomeling daar van gewaagen zal.</l>
+						<l>Altyd gereed om d'eer van 't heilig negen tal</l>
+						<l>Kloekmoedig voor te staan, zal ik zyn naam zo vlekken,</l>
+						<l>Door schimp gedichten, dat hy zal een voorbeeld strekken.</l>
+						<l>'k Zal uit Horatius, of Perseus, zo terstond</l>
+						<l>Een overzetten, ja zo stoptmen hem de mond.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Neen heeren, laaten wy de schimp gedichten blyven;</l>
+						<l>Dewyl wy zonder schuld, die geensins konnen schryven.</l>
+						<l>Wy moeten om Mevrouw, haar man ook eeren; maar</l>
+						<l>'t Zy met verlof, dat ik myn meening u verklaar.</l>
+						<l>Hy wil, dat zy alleen, met krygsvolk zal verkeeren.</l>
+						<l>Heel wel, wat zwaarigheid, zo wy dit contenteeren?</l>
+						<l>Verkleeden wy ons ook als Officiers.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Die raad</l>
+						<l>Gevalt my, 't is een trek daar elk verstomt voor staat.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>'t Is treffelyk bedagt, men kan 't niet schoonder vinden.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Ik onderfchryf 't. Wel aan, laat ons hem zo verblinden,</l>
+						<l>Door dit verkleeden; want de wapenhandeling,</l>
+						<l>Strekt aan geleerde luy, niet tot vermindering;</l>
+						<l>Dat is haar eerste werk. de godheid die wy eeren,</l>
+						<l>Kan alzoo wel de boog als zyne lier regeeren.</l>
+						<l>En 't is niet onbekent, hoe dat wel eer de groot'</l>
+						<l>Apollo 't schriklyk beest de Python heeft gedood.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Kom gaan wy dan, om ons op 't spoedigst te verkleeden.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy tegens Krispyn.</speaker>
+						<l>Maar eer gy gaat, werd u van my noch iets gebeden.</l>
+						<l>Is 't vaers verbetert dat ik gisteren u gaf?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn tegen Gustaaf.</speaker>
+						<l>'t Vaars, dat gy hebt, is dat geleezen?</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf tegen Krispyn.</speaker>
+						<l>Ja, 't was laf...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn tegen Soey.</speaker>
+						<stage>tegen Gustaaf.</stage>
+						<l>Het is gedaan Mevronw. ik bid u wil het geeven.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf tegen Krispyn.</speaker>
+						<l>Volg op de plaats, daar zal ik u...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Dat is een leeven!</l>
+						<stage>tegen Sofy.</stage>
+						<l>Ik kom zo weer Mevrouw, en zal het zonder fout,</l>
+						<l>Dan met my brengen en....</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Dat gy 't dan ook onthoud.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Vertoef niet meer, het is hoog tyd de kans te waagen</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>O groote Apol! geef dat deeze aanslag wel mag slagen.</l>
+						<l>Ga, en keer spoedig weer.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Klaret, Lysbeth.</stage>
+					<sp who="#lysbeth">
+						<speaker>Lyseeth.</speaker>
+						<l>Maar Juffrouw, zult gy dan</l>
+						<l>Altyd zo schreyen?</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>'k Zie niets, dat my troosten kan.</l>
+						<l>Myn vader wil, dat ik my zal in 't huwlyk begeeven,</l>
+						<l>Met iemand, die ik niet gezien heb van myn leeven.</l>
+						<l>Ach Lysbeth! ja hy zal my dwingen tot deez echt.</l>
+						<l>Een onbekende man te trouwen, is dat recht!</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Wis, hy heeft ongelyk dat hy u zo wil dwingen.</l>
+						<l>Ik zeg recht uit, het zyn, het zyn, zeer harde dingen.</l>
+						<l>Och Ouders, als men 't wel bezint</l>
+						<l>Wat is 't een misselyk huisraad, kind?</l>
+						<l>Zy doen de kinderen na haare moode trouwen,</l>
+						<l>Al is 't, dat zy daar na het hoofd daar over klouwen.</l>
+						<l>Het is een kwaad misbruik, en ik zou, als my dat</l>
+						<l>Zo ook te beurt viel, voor de Heeren van de stad,</l>
+						<l>Haar Compareeren doen. Maar 't zou wel konnen weezen,</l>
+						<l>Dat gy u lichter van den Bruigom liet beleezen;</l>
+						<l>Misschien zal hy u oog gevallen, als g'hem ziet.</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>Helaas!</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>O dat helaas, dat is het rechte niet.</l>
+						<l>O Juffrouw, dat helaas, zeid my 't geen ik te vooren</l>
+						<l>Al heb gedacht, gy hebt een ander uitverkooren.</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>Gy raad het.</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Gy bemind?</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>Ja Lysbeth, ik bemin.</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Maar wie toch Juffrouw, heeft vermeestert uwe zin?</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>Die heer van flusjes heeft...</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>U hart al ingenomen?</l>
+						<l>Hoe! heer Aankomeling is eerst van daag gekomen.</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>Dat is wel waar, maar weet dat onze liefde nu,</l>
+						<l>Niet eerft gebooren is; 'k verborg het zelss voor u.</l>
+						<l>Hy mind my, en ik hem, en om met my te spreeken,</l>
+						<l>Met meer gemak, ging hy zich in die kleed'ren steeken;</l>
+						<l>En gaf zich uit voor een geletterde, maar hy</l>
+						<l>Is 't minste niet het geen hy schynt, geloof my vry.</l>
+						<l>De Hemel heefr aan hem een ander lot beschooren.</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Hoe! gy bemind malkaar, en liet my dit nooit hooren?</l>
+						<l>Gy hebt my op het hoogst misdaan.</l>
+						<l>Hoe hebt gy nimmeermeer verstaan</l>
+						<l>Wat kamenier al is te zeggen?</l>
+						<l>Gy moet al uw geheim straks voor haar open leggen.</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>'k Bekent, 'k hoop evenwel, dat gy my helpen zult.</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Ja toch, zo veel ik kan, 'k vergeef u deeze schult.</l>
+						<l>'k Ben heel megaande, met de minnaars, want ik reken</l>
+						<l>De harten by het myn, gy hebt my maar te spreeken.</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>Hoe Lysbeth mind gy ook?</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Ja Juffrouw, tot myn smart;</l>
+						<l>De min, de schelmsche min, woeld my ook om het hart.</l>
+						<l>Ik moet, helaas ik moet! die schrikkelyke plaagen,</l>
+						<l>Dat groote huis-kruis, om myn pekelzonden draagen</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>Maar mag men weeten?...</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Ja, heer Gaauwert.</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>Ongemeen!</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Zag Juffrouw ooit een mensch, die met zo groote rêen</l>
+						<l>Verdiend bemind te zyn? wat is hy net besneden,</l>
+						<l>Hoe schoon, hoe fraay, hoe blank, hoe vol bevalligheden?</l>
+						<l>Wat heeft hygaaven! hy maakt vaerzen in het proos,</l>
+						<l>En prooze in vaerzen, my dunkt dat ik wel verkoos.</l>
+						<l>Is 't geen geleerde, vol van alle weetenschappen?</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>Neen Lysbeth.</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Neen! wel hy kan als een ester klappen.</l>
+						<l>Hy is zo wys!</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>Ik zeg hy heeft de schyn zo maar.</l>
+						<l>Kort om, het is een knecht!</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Een knecht!</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>Een knecht, 't is waar.</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Van wie?</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klareth.</speaker>
+						<l>Van die ik min. Hy diend zich van die trekken,</l>
+						<l>Om 't hart myns Moeders, tot zyn Meesters gonst te wekken.</l>
+						<l>Zy noemen hem Krispyn.</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Hoe werd een mensch misleid!</l>
+						<l>Al wat hy zegd en doet, is zo vol graviteit,</l>
+						<l>Dat ik hem voor een man vol wysheid heb gehouwen.</l>
+						<l>Wel hoe bedriegt de schyn!</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>Gelyk gy kond aanschouwen.</l>
+						<l>Lys, zo de Meester eens gelukkig werd, zult gy...</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Daar komt de groote Apol, met 't braadspit op zyn zy;</l>
+						<l>Hoe krygt die uil het zo, ik bid u wilt vertrekken.</l>
+						<l>Ei Juffrouw, laat my doch een weinig met hem gekken.</l>
+						<l>Ik zal my houden, of ik noch niets heb gehoord!</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>Lysbeth, Krispyn.</stage>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Ach Lysbeth! zyt gy daar? ik zweer u, op het woord</l>
+						<l>Van een geletterde, dat ik met al myn zinnen,</l>
+						<l>En hart, u eeuwiglyk, standvastig zal beminnen.</l>
+						<l>'k Leg aan uw voeten neer, myn wysheid, myne konst,</l>
+						<l>Ja ook my zelf, en smeek alleen op uwe gonst.</l>
+						<l>Ja prytje, u schoon gezigt, uw minnelyke lonken,</l>
+						<l>Die hebbe myne ziel, als Erna doen ontfonken,</l>
+						<l>Gy heerscht...</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Myn heer gy zegt, dat gy my liefde draagt.</l>
+						<l>'k Eisch tot bewys een proef. 'k Wil niet dat gy lang klaagt;</l>
+						<l>Het zal u lichter zyn. Wilt my eens Reg'len geeven,</l>
+						<l>Waar aan men zien kan, of een vaers wel is geschreven.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Ja, zonder twyffel; en dat is zeer licht voor my,</l>
+						<l>'k Weet alles; ja ik toch; ja toch, geloof my vry.</l>
+						<l>Hoor Lysbeth, luister toe, voor eerst moet gy wel letten.</l>
+						<l>Dat die Cacophonie, een luister by moet zetten</l>
+						<l>Aan deeze harmonie...en dat de sne daar na</l>
+						<l>Het vaers doet klinken. O een kenner hoord dat dra.</l>
+						<l>De kommaas... neen ik meen de punten moeten blyven</l>
+						<l>Op 't end, ver van malkaar; wacht u voor al by lyven,</l>
+						<l>Rym uit verlegentheid te zoeken; 't staat zo kaal.</l>
+						<l>Dat spreekt van zelf, maar hier aan hangt het principaal.</l>
+						<l>Het sleepend vaers mag nooit het staande vaers verdringen,</l>
+						<l>Want hier uit spruiten dan heel veel veranderingen.</l>
+						<l>Dat deugd gants niet, geenzins, dat kan nooit gaan; want ziet,</l>
+						<l>Indien het staande vaers het fleepend weer verstiet...</l>
+						<l> </l>
+						<l>Het eind dat op de middel staat moet ... en dat</l>
+						<l>Om zekere reden. men moet ook ... letter wel op;</l>
+						<l>Dat het vrouwelyke vaers zich schikt en voegd ... met</l>
+						<l>Het mannelyk rym, moet niet ... om Febus wil. ei</l>
+						<l>Let nou op. gelyk men weet, het nabuurige in de</l>
+						<l>Weeg staan, want ... dat bederft alles, en maakt</l>
+						<l>Dat van achteren...</l>
+						<l> </l>
+						<l>Zo zou het heel gedicht hol over bol geraaken.</l>
+						<l>Zie nou verstaje wel, hoe jy een vaers moet maaken?</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>'k Versta noch niet met al.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Hebt gy 't dan niet gehoord?</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Ja, maar 'k versta hier van noch niet een enkel woord.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Dat is myn schuld niet. Maar de konst van vaerzen maaken</l>
+						<l>Is hoog. Gy ziet hoe zwaar daar iemand toe kan raaken</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Ik twyffel daar niet aan. Maar tusschen u en my;</l>
+						<l>Aankomeling is die ook zo geleerd, als gy?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Al even eens.</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Myn heer, hy moet dan boven maaten</l>
+						<l>Geleerd zyn.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Wel ja toch. Wel Lysbeth is dat praaten.</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Ik hoor hy heeft een knecht, daar hy zeer op vertrouwt.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Ja. Hy 's niet leelik.</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>'k Hoor dat hy veel van hem houd.</l>
+						<l>Weet gy zyn naam?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Zyn naam?</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Men wil my doen gelooven,</l>
+						<l>Dat hy een guit is.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn</speaker>
+						<l>Ha! ha!</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Ja, en noch daar boven,</l>
+						<l>Dat men gemeenlyk u by malkand'ren ziet.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Somtyds.</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Men voegter by; maar ik geloof het niet...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Wat voegt men daar noch by?</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Men zegt dat al zyn leden</l>
+						<l>Wel schynen uit uw leên gesneden.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Loop voddetje, nou wil ik niet.</l>
+						<l>Ik merk wel watter is geschied.</l>
+						<l>Men heeft het u al uit doen leggen.</l>
+						<l>Om u de waarheid kort te zeggen,</l>
+						<l>'k Ben niet geleerd, 'k wil 't ook niet zyn.</l>
+						<l>'k Dien slechts myn Meester in die schyn.</l>
+						<l>Zo gy my recht bemind ... 'k zag gaaren...</l>
+						<l>Mevrouw...</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>'k Wensch dat gy wel moogt vaaren.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Zesde tooneel.</head>
+					<stage>Sofy, Krispyn.</stage>
+					<sp who="#krispyn">
+						<speaker>Krispyn</speaker>
+						<l>Mevrouw, gy komt hier wel te pas!</l>
+						<l>Uw vaerzen, die 'k zo even las,</l>
+						<l>Kome ik nu aan u wedergeeven;</l>
+						<l>Zy zyn vol konst; 'k heb van myn leeven</l>
+						<l>Geen schooner schrift en styl gezien.</l>
+						<l>Zie daar, ik koomze u weder biên.</l>
+						<l>Ik zag myn dagen geen bekwaamer.</l>
+						<l>Elizabeth brachtme in uw kamer...</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Myn heer, ik vreez gy hebt misschien,</l>
+						<l>Die met veel moeiten nagezien.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Daar valt niet op te kritizeren,</l>
+						<l>'t Zyn staaltjes om maar na te leeren.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Dat is my meermaal al gezeid.</l>
+						<l>Gy toond my uw genegenheid.</l>
+						<l>'t Gaat met de vaerzen als de beeren;</l>
+						<l>Die, eerze in goede vormen keeren,</l>
+						<l>Zyn onbeschoft en plomp van leest.</l>
+						<l>Een vaers is van den zelfden geest,</l>
+						<l>'t Laat zich in 't eerst maar paslyk schikken,</l>
+						<l>Men moet het schaaven, en wel likken,</l>
+						<l>Dan krygt het eerst zyn stal myn heer.</l>
+						<l>Het zelve is van een jonge beer.</l>
+						<l>Zal vaers, en beer verheven draaven;</l>
+						<l>Men moetze likken en wel schaaven.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>'k Beken 't is nodig, dat by and'ren dat geschied.</l>
+						<l>Maar by Mevrouw Sofy, is dat het zelfde niet,</l>
+						<l>Gy hebt voor vaerzen zulk een geest, zo hoog verheven,</l>
+						<l>Dat die verbetert zyn, zo ras zy zyn geschreeven.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Men zegt natuur doet niets ten halve.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Dat is waar.</l>
+						<l>Uw vaerzen trekken zeer na helden dichten; maar;</l>
+						<l>Nu apropo, Mevrouw, van held, en heldendichten.</l>
+						<l>Wat dunkt u, zou ik zo ons opzet wel verrichten?</l>
+						<l>Gelyk ik in dit kleed een krygsman? is 't zo goed?</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Schoon! gy zyt waardig, dat men u zo schild'ren doet.</l>
+						<l>'t Is treffelyk, het zou niet beter konnen weezen.</l>
+						<l>In deeze kleeding hebt gy geen gevaar te vreezen.</l>
+						<l>Zo wy verhindert zyn door myn gemaal, ik zal,</l>
+						<l>U by hem door doen gaan, voor ... maar daar is hy al.</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>Zevende tooneel.</head>
+					<stage>Rudolf, Sofy, Krispyn.</stage>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Zo veel te beter.</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Ik kwam, om u te doen hooren,</l>
+						<l>Dat straks de vader, van die ik heb uitgekooren</l>
+						<l>Tot onze schoonzoon, hier zal komen; of misschien,</l>
+						<l>Is hy hier al, dat hy een weinig wacht, indien...</l>
+						<l>Maar wat is dat voor een?</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Een Officier; wat vreugde?</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Een Officier!</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Ik zag, dat u dat woord verheugde.</l>
+						<l>Ja 't is een Officier, uit 't leger, hy...</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Myn heer,</l>
+						<l>Ik reken het bezoek, dat ik ontfang, een eer,</l>
+						<l>Die ik niet kan...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Myn heer gy wilt met myn raljeeren,</l>
+						<l>Geloof ik. 'k Hoop myn komst, zal u niet offenseeren.</l>
+						<l>'k Gebruik de vryheid, van Mevrouw te zien.</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Ik bid,</l>
+						<l>'k Bid, zo het weezen kan myn heer, dat gy doch dit</l>
+						<l>Wat dikmaals doet, dat gy my helpt, in haar te raaden,</l>
+						<l>Dat zy hier niemand ziet, dan lui van groote daaden.</l>
+						<l>Dat zy haar zo niet laat bedriegen door een schyn.</l>
+						<l>'k Heb d'eer gelyk myn heer, van Officier te zyn.</l>
+						<l>'k Heb lang gediend, en ben Soldaat in hart en nieren.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Gy doet zeer wel, lang leef, lang leeven de Officieren!</l>
+						<l>Lang leef het krygsvolk!</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Ja, ja toch, lang leeven zy.</l>
+						<l>Myn heer, 'k verzeker u, dat gy ten minsten zy.</l>
+						<l>Heel zeer verplichten zult, zo gy hier komt besteeden,</l>
+						<l>Uw leege tyd. Mevrouw Sofy krygt door uw reden</l>
+						<l>Misschien een afkeer van die Botmuils, Esels, die</l>
+						<l>Pedantsche Aapen, die ik steeds tot mynent zie.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Wel hoe myn heer!</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Voor my, ik zeg het zyn maar zotten,</l>
+						<l>Wel dubbelt waardig dat de menschen met haar spotten</l>
+						<l>Niet waar myn heer?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>He?</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Neen, myn heer heeft meer verstand,</l>
+						<l>Dan dat hy spreeken zou, met zulk een smaad en schand,</l>
+						<l>Van luiden, die zo hoog voor and'ren zyn verheven.</l>
+						<l>Hy weet wat achting dat men haar behoort te geeven.</l>
+						<l>Hy weet dat myn Apol, zyn Mars niet schuldig is.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Mevrouw, myn Mars! ha.. Mars! dat 's een geheimenis?</l>
+						<l>Die Godheid...</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Maar myn heer op wat beroemde tochten,</l>
+						<l>Hebt gy voor uwe naam, gelukkiglyk gevochten?</l>
+						<l>Zoud 't konnen zyn, dat ik 't geluk wel had gehad,</l>
+						<l>Met u te dienen?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Ik kan u verzek'ren, dat</l>
+						<l>Die eer myn heer, aan my zeer aangenaam zou veezen.</l>
+						<l>Ik weet, dat gy te land en water lang voor deezen</l>
+						<l>Gediend hebt; maar myn heer, waar was de laatste tocht</l>
+						<l>'k Zal dan wel zien...</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>'k Heb die in Polen doorgebrocht.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Ha! neen, dan konden wy malkand'ren daar niet vinden.</l>
+						<l>Ik diende in Duytsland, met verscheide van myn vrinden.</l>
+						<l>Daar, 'k dank den Hemel, zo veel schoone dingen zag.</l>
+						<l>Waarachtig, 't ging daar heet. die alderlaaste slag...</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Gy naamt Nieuwheuzel in?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Ho wilt daar niet van spreeken.</l>
+						<l>Dat was maar een ontbyt. wy hebben ... selleweeken</l>
+						<l>Daar na wel tienmaal meer...</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Maar evenwel myn heer,</l>
+						<l>'k Heb van dat zwaar beleg, met groote roem en eer</l>
+						<l>Veel hooren spreeken, en gy zult my zeer verplichten,</l>
+						<l>Zo gy de moeiten neemt, my net eens t'onderrichten,</l>
+						<l>Van die geschiedenisz' is my wel twintig maal</l>
+						<l>Verhaald, maarzo verwerd, dat ik'er in verdwaal,</l>
+						<l>En nooit daar van geen recht begrip heb konnen krygen.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Myn heer, om alle kleine omstandigheên te zwygen,</l>
+						<l>Na een beleg, waar in ik veel heb uitgestaan;</l>
+						<l>Weet, dat Nieuwheuzel aan ons over is gegaan.</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Zo 't u belieft myn heer...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Heer, wilt my excuzeeren</l>
+						<l>'k Heb haast.</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Een woord.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Wel 'k zal dan volgen u begeeren.</l>
+						<l>Nieuwheuzel heer, gans bloed! ô my wat was dat sterk!</l>
+						<l>Myn heer, Nieuwheuzel, heeft een Duivels buiten werk.</l>
+						<l>De wallen schriklyk hoog, die onbeleefde Turken.</l>
+						<l>Ja wel, ik was zo dol, zo dol, op deeze schurken.</l>
+						<l>Doen al de poorten toe, het ging'er lustig heet</l>
+						<l>Met schermutseeren. Wy slaan 't leeger, zo in 't breed,</l>
+						<l>Men maakte een battery, toen aan het kannonneeren,</l>
+						<l>En noch die zelfde nacht, begostmen t'approcheeren,</l>
+						<l>Wy opende trencheen...</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Hoe?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>En wy dekten dan,</l>
+						<l>Met takkebossen...</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Maar...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Om 't recht begrip hier van</l>
+						<l>Te hebben, werd vereischt, dat iemand wel moet weeten,</l>
+						<l>Hoe 't Land gelegen is, en hoe de plaatsen heeten..,</l>
+						<l>Ik zeg u met een woord, van boven is het hey;</l>
+						<l>Beneden aard, de stad van acht'ren ... zo dat wy</l>
+						<l>De linie schuins... rechts... aan geene zy begreepen...</l>
+						<l>Maar 't aldermeeste daar de Turk door wierd beneepen,</l>
+						<l>Was dat het leger, of bataille, voor ons stond,</l>
+						<l>En in stagordening, op een gelyke grond.</l>
+						<l>De middeltroep aan 't voor marcheeren,</l>
+						<l>En de achterste om het volk te keeren...</l>
+						<l>Versta jy 't? 't was meer als gemeen...</l>
+						<l>Versta je 't? zeg myn heer?</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Wel neen.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Wat zegje neen myn heer! wel wat is dat te zeggen!</l>
+						<l>'t Gebeurd wel honderdmaal. Maar om voort uit te leggen,</l>
+						<l>Het winnen van die plaats? men brak de bruggen af...</l>
+						<l>Straks toen de stad haar over gaf,</l>
+						<l>Wasse ons. Men zag tot 's vyands schanden</l>
+						<l>Ons daar victorieuslyk landen,</l>
+						<l>Rivier en haven, land, en vloot,</l>
+						<l>Was door het speeltonneel ter dood.</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Hoe! vloot en haven? en is dat nu steden winnen?</l>
+						<l>Geschied dat op die wys? myn heer waar zyn uw zinnen?</l>
+						<l>Of boert gy?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Boert? geensins, dat is de lichtste weg,</l>
+						<l>'t Is altemaal gegaan, net zo gelyk ik zeg.</l>
+						<l>In Poolen doet men 't licht heel anders, maar 'k durs zweeren,</l>
+						<l>Dat 't ongemaklik is den oorlog zo te leeren.</l>
+						<l>Gelukkige, die nooit slag, noch beleg'ring ziet.</l>
+						<l>Verfoejelyke eer! maar hoe! een Edelman kan niet</l>
+						<l>Gelyk kanalje, of als de lompe boeren leeven;</l>
+						<l>Hy werd tot hooger drift, door 't Ad'lik bloed verheeven.</l>
+						<l>Wie kan zo zonder ampt, in 't hoekje van den haard</l>
+						<l>Zyn tyd doorbrengen! Ha 't is altyd niet myn aard.</l>
+						<l>Neen, neen, men werd zo licht geen Officier verkooren.</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>En onderwyl zyt gy 't. Maar ik kan noch niet hooren,</l>
+						<l>Door welk een voorrecht; want gy spraakt zo ongegrond,</l>
+						<l>Van slag, belegering, en alles; zo terstond,</l>
+						<l>Dat ik zeer twyffel, of...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Voor luiden van bedryven,</l>
+						<l>Gelyk als wy zyn, moet de tong het minste blyven</l>
+						<l>Van al de leden; en wat my belangt, ik zeg,</l>
+						<l>'t Is my meer moeiten, te verhaalen een beleg,</l>
+						<l>Als de aldersterkste stad, of vesting t'overwinnen.</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<stage>Klaret, en Lysbeth uit.</stage>
+						<l>Heel net ‘wat officier! Is hy wel by zyn zinnen!</l>
+						<l>Myn Dochter zyt gy daar? de vader van die Heer,</l>
+						<l>Die u zal trouwen is misschien alhier. Ik keer</l>
+						<l>Zo daadlik wederom.</l>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>Achtste tooneel.</head>
+					<stage>Sofy, Krispyn, Klaret, Lysbeth.</stage>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Ach wat heb ik geleden!</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Niet half zo veel als ik. Wat stryd heb ik gestreeden!</l>
+						<l>Want 'k was bevreest, dat ik, 'k beken het u Mevrouw,</l>
+						<l>In het verhaal van die beleg'ring sneuv'len zou.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>'k Was waarlyk met Apol bewoogen,</l>
+						<l>Hy was in 't naauw, of ik bedroogen.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Apol houd zo ik hem recht ken</l>
+						<l>Min van van den degen, dan de pen.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>'k Zie heer Aankomeling.</l>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>Negende tooneel.</head>
+					<stage>Valerius, Sofy, Klaret, Lysbeth, Krispyn.</stage>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Mevrouw wilt my verschoonen;</l>
+						<l>Dat ik in dit gewaad, my voor uw durf vertoonen.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Wy staan verbaast myn heer, indien Apol ook nier</l>
+						<l>Van Mars jaloersch werd, om het geen hy aan u ziet.</l>
+						<l>Hoewel is hy hervormt? hoe wel voegt hy de zwieren</l>
+						<l>Van dapp're Helden, van doorluchte kavaljieren,</l>
+						<l>By zyn geleerdheid! ach Klarette! ach! ach waarom</l>
+						<l>Verkoos men deezen heer niet tot uw bruidegom?</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Helaas! waarom mogt ik niet zo gelukkig weezen!</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>De deugd heeft ontrent u, een sterke proef te vreezen,</l>
+						<l>Ja in een zaak, wensch ik, ik zelf wel weeuw te zyn.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Ik moet aan u 't geheim ontdekken. Deeze schyn,</l>
+						<l>Al die verkleeding is een streek...</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>sofy.</speaker>
+						<l>Zy kan behaagen</l>
+						<l>Aan my...</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>De liefde, die ik zo lang heb gedraagen...</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Ik weet het wel myn heer; ik weet de Poëezy,</l>
+						<l>De liefde tot die konst, geleide u hier by my.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Mevrouw Sofy, ik bid dat gy my toch wilt hooren.</l>
+						<l>'k Aanbid...</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Een schoon gedicht. Ja't is voor konstige ooren...</l>
+						<l>Maar heer Gustaaf verbergt al 't geene dat hy weet,</l>
+						<l>Al zyn geleerdheid, in dit aardig krygsmans kleed.</l>
+					</sp>
+				</div>
+				<div type="scene" n="10">
+					<head>Tiende tooneel.</head>
+					<stage>Sofy, Klaret, Valerius, Krispyn, Lysbeth, Gustaaf.</stage>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Hoe mag Apollo dan tot uwent niet verkeeren,</l>
+						<l>ô Dwaaze Rudolf, dan vermomt in vremde kleeren?</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Gy ziet het.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Ach te wel!</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth. lacht.</speaker>
+						<l>'k Zou barsten, lachte ik niet.,.</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>Zwyg stil zottin.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Hoe! daar gy zo veel onheil ziet,</l>
+						<l>Zyt gy zo stout noch, van te lachchen voor myn oogen!</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Mevrouw, dewyl wy by u man doch niets vermoogen,</l>
+						<l>Zo laat ons, voor altyd vaar wel nu zeggen aan</l>
+						<l>De zanggoddinnen, 't is hier met Apol gedaan.</l>
+						<l>Hy houd in Amsterdam geen vier, noch licht.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>ô Schanden!</l>
+						<l>Ik zie 't en sterft van spyt. Waar zalt in 't end belanden?</l>
+						<l>Maar laat ons doch geen tyd verliezen, 'k wens te zien,</l>
+						<l>Een maakzel van uw brein.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Mevrouw 't zal voort geschien</l>
+						<l>Maakt u gereed, en leen uwe ooren,</l>
+						<l>Om eens een schoone stof te hooren,</l>
+						<l>Die niemant weet als ik alleen.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Wat vaerzen maakt gy in 't gemeen?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Wat vaerzen! treffelik. Ik zal 't u daadelik zeggen.</l>
+						<l>Die vaerzen, die ... om u die vaerzen uit te leggen...</l>
+						<l>Die.. ja de langste ... die ... en die ook noch langer zyn.</l>
+						<l>Dat is geen moeiten, neen, dat is zo maar een schyn.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Dat zullen zekerlyk Alexandrynse wee zen.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Ja toch, Alexandryns, dat slag is nooit volpreezen.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Maar waarom noemt men al de lange vaerzen zo?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>'t Geschied, om dat .. gelyk Homerus handeld.. O!</l>
+						<l>Die schryft de reden, maar men moet'er wel op lettën.</l>
+						<l>Die Alexander was een kaerel .. hy gaf wetten</l>
+						<l>Aan heel de waereld. 't was een man gelyk een Reus.</l>
+						<l>Die Alexander! Bloed! wat was hy Genereus!</l>
+						<l>Hoor nu Alexandrins, die naam is wel gevonden</l>
+						<l>Van Alexander. Zie, op zulke vaste gronden...</l>
+						<l>En datse lang zyn, was uit nood,</l>
+						<l>Hy had de bynaam van de groot;</l>
+						<l>Gelyk wy by Homerus leezen,</l>
+						<l>Zo moeten ook de vaerzen weezen,</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Gy weet het al!</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Ik ken de konsten door en door,</l>
+						<l>En noch veel meer. Ik draaf op Febus helder spoor.</l>
+						<l>Maar laaten wy myn dichten, en myne vaerzen steeken;</l>
+						<l>En eens van u gedicht, en van uw vaerzen spreeken.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>U schoone geest heer, werd te veel gespild.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Mevrouw,</l>
+						<l>Ik wierd vaak dol, als ik myn vaerzen leezen zou,</l>
+						<l>Of zeggen most voor elk, voor Raekels, onverstanden,</l>
+						<l>'t Zyn roozen voor de varkens...</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Schande,</l>
+						<l>Doen wy de konst aan, in deeze ongeleerde tyd;</l>
+						<l>Waar in men, beesten, uit geleerde lui, ô spyt</l>
+						<l>By na niet kennen kan! 'k zal voor het volk my wachten</l>
+						<l>Die altyd anderen, uit jaloezy verachten.</l>
+						<l>Nooit schryft men iets, dat aan haar nydig oog voldoet.</l>
+						<l>En dat hoogdraavende, heeft niemand recht en goed.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>'t Hoogdraavende Mevrouw is waerd van ieder t'eeren.</l>
+						<l>En weinig schryvers, die zo ver de zaak pousseeren.</l>
+						<l>Men rekent zich al wys, ja zelf een groote held,</l>
+						<l>Zo ras men schryft, of als men prooze op voeten steld.</l>
+						<l>Men ziet niet na de kracht van zeggen, ongebonden,</l>
+						<l>En slechte styl is schoon, als 't rym wel is gevonden.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Voor my ik heb zint gist'ren nacht,</l>
+						<l>Wel hondert vaerzen voortgebracht;</l>
+						<l>Daar ik 's jaars zo ik die wou venten,</l>
+						<l>Voor kreeg wel duizend guldens renten.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Myn heeren 'k bid, dat gy my eens gehoor vergunt,</l>
+						<l>'k Heb hier iets door 't geluk, van ongemeene munt.</l>
+						<l>Zo 'k een geleerde mag, gelyk 't behoort, gelooven,</l>
+						<l>Myn heeren luistert, zy gaan d'anderen te boven.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn, zagt.</speaker>
+						<l>Ik kryg de poplezy. Hart, laat hooren.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Kan 't geschiên,</l>
+						<l>Laat ons de vruchten van uw schoonen arbeid zien.</l>
+						<l>Wat is de stof?...</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Die is...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Men zal 't noch beter maaken.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy,</speaker>
+						<l>'k Verstaat, uw zedigheyd myn heer, in deeze zaaken,</l>
+						<l>Belet u...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Wel ja toch...</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Waarom...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Antipatie...</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>De tyd verloopt.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn tegens Valerius.</speaker>
+						<l>Myn heer nou ik haar leezen zie...</l>
+						<l>Is myn geleerdheid uit kom pakken wy ons biezen,</l>
+						<l>Wy zullen het proces verliezen.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy. leest</speaker>
+						<l>Op een Vrouw die alle negen Maanden kinderen</l>
+						<l>Krygt, en nooit eenig vaers gemaakt heeft.</l>
+						<l>O Vrouw! onkunstig; maar wel vruchtbaar; uw verstand</l>
+						<l>Legt u verkeert in 't hooft. wat meent gy? 't is een schand,</l>
+						<l>Gy doet niet anders dan de waereld te vermeeren.</l>
+						<l>De God der wysheyd zal by u niet prospeeren!</l>
+						<l>Hoe, alle jaar een kind, en nooit een vaers, 't is schand</l>
+						<l>Gy hoorde straks van schaamt te sterven, slegt verstand.</l>
+						<l>Uw lichaam, 't is wel waar, schynt arheidzaam te weezen,</l>
+						<l>Maar'k heb nooit van uw geest een enkel vaers geleezen.</l>
+						<l>Uw lichaam is een kouw, uw geest een papegaay:</l>
+						<l>Ik bidde zeg my eens, is 't niet byzonder fraay,</l>
+						<l>Dat ge in uw kouw dat beest, en dat voor al uw leeven,</l>
+						<l>Hebt stomgehouden, en voor niet de kost gegeeven?</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Wat hoor ik!</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Hoe myn heer?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn tegen Valerius.</speaker>
+						<l>Myn heer ik ben in 't net,</l>
+						<l>Het is met my gedaan.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Hoe zyt gy zo verzet?</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Zoud gy d'Auteur wel, van die schoone vaerzen weezen.</l>
+						<l>Mevrouw, die gy daar zo aan ons hebt voorgeleezen!</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Verbeterd straks, ja toch, verbetert 't en zo voort,</l>
+						<l>Die term. O gy gebruikt daar een oneigen woord.</l>
+						<l>Een man is een Auteur, een vrouw een Autoresse.</l>
+						<l>Noem dan Mevrouw, niet een Auteur; maar na de lesse</l>
+						<l>Van de Gramatica, een Autores... Auteur</l>
+						<l>Is eigentlyk .. ja wel ... gy volgt maar slechts de sleur.</l>
+						<l>Spreek van wat anders of...</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Maar heer...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Maar..</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>'k Zal niet zeggen.</l>
+						<l>Mevrouw, om uwent wil, hoe al de zaaken leggen.</l>
+						<l>Maar wat het vaers belangt, dat ik zo heb gehoord;</l>
+						<l>'t Is treff'lyk, wonderbaar, ook tot het minste woord.</l>
+						<l>Ik acht 't een groote gonst, dat gy my deed vereeren,</l>
+						<l>Met het geluk dat ik dit vaers mogt, en critiseeren.</l>
+						<l>'k Heb hier, en daar, ook maar wat af, en by gedaan</l>
+						<l>En twee dry Rymen, 't welk my gladder docht te gaan.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>En wie verzocht u dit?</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Myn heer.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Hoe zal 't hier lukken?</l>
+						<l>Ik zeg, dat gy het liegt, wel dat zyn schoone stukken!</l>
+						<l>Ik gaf u nooit iets, noch in proos, noch poëezy.</l>
+						<l>Ik! ik! ik! u! u! ik weet tienmaal meer als gy.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Ik lieg dit dan?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Ik bid nu wild geen kwesti maaken.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Ondankb're is dit myn loon? zo aan myn eer te raaken!</l>
+						<l>O ongeletterde! ô gy ongeleerde loer!</l>
+						<l>O dommer weet niet, dan .. dan een weestfaalze boer.</l>
+						<l>Gy heet my liegen! wel ik zweert ik zal dit wreeken.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Indien ik schermen kon; ik zou u voort doorsteeken.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Ha waaren wy alleen!</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Ik wenscht van harten.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>'k Zou</l>
+						<l>U daadlyk loeren, met ootmoedig naberouw...</l>
+						<l>Maar zo het weezen moet, dat gy noch voor myn oogen...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>'k Verstaat. gy meent dat wy niet duëlleeren moogen.</l>
+						<l>Maar een renconter is noch niet verboden. Neen.</l>
+						<l>Ha! waarom zyn wy hier niet met ons beide alleen.</l>
+						<l>Adiel. ik ga ... volg niet, of...</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Ik zal ook vertrekken.</l>
+					</sp>
+				</div>
+				<div type="scene" n="11">
+					<head>Elfde tooneel.</head>
+					<stage>Sofy, Valerius, Klaret, Lysbeth.</stage>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Myn heer die kwesti, kan ons ongemaak verwekken.</l>
+						<l>Men moet die slechten, dat geschil wierd end'ling groot.</l>
+						<l>Wat schaadt! staaken zy malkanderen zo dood.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Die vrees is vruchteloos Mevrouw 't zal niet geschieden.</l>
+						<l>In plaats var vechten, zult g'haar alle bei zien vlieden.</l>
+						<l>Gy zult noch lachchen, om het geene dat zy doen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="12">
+					<head>Twaalfde tooneel.</head>
+					<sp who="#krispyn">
+						<speaker>Krispyn, Alleen.</speaker>
+						<l>De drommel! wie zou dat van die Pedant vermoên.</l>
+						<l>Ik zei wel dat ik voort zou uit dit huis vertrekken.</l>
+						<l>Maar 't was maar om de leus, om met die Uil te gekken.</l>
+						<l>Hoe zeer men snoeft, het hart blyft evenwel bevreest.</l>
+						<l>Wel in wat groot gevaar is daar Krispyn geweest!</l>
+						<l>Hy volgt my zekerlyk, want hy heeft daar doen blyken,</l>
+						<l>Dat myn Courazy moet, voor zyn Courazy wyken.</l>
+						<l>Maar hy is een Autheur, en dat steld my te vreen,</l>
+						<l>Dat geest my weer wat moed.</l>
+					</sp>
+				</div>
+				<div type="scene" n="13">
+					<head>Dertiende tooneel.</head>
+					<stage>Gustaaf, Krispyn.</stage>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf. aan een zy.</speaker>
+						<l>Had ik geen dubb'lereen!</l>
+						<l>Hoe wel is 't datik my hier stil zo heb versteeker;</l>
+						<l>Uit vrees dat hy my mogt door averechtze streken..</l>
+						<l>Wat beest is dat! ik docht...</l>
+						<stage>ziet Krispyn.</stage>
+						<l>ô My ik zie him daar!</l>
+						<l>ô My! waar berg ik' t lyf? hier ben ik in gevaar</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn, ziet Gustaaf.</speaker>
+						<l>ó My! ó bloed! ô my! hier raak ik heel te schanden.</l>
+						<l>Myn vyand! ach helaas! 'k begin te klappertanden.</l>
+						<l>Ik docht niet dat ik hem hier weer ontmoeten zou.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Ik tril en beef van schrik; ja wel hoe zal ik 't nou..</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>‘'k Ben dood verzet hy maar zyn voeten.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Dat ik hem ging beleeft ontmoeten!</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Dat ik hem aansprak om pardon,</l>
+						<l>Zie hier uw zoon in nood, ô Zon!</l>
+						<l>Apollo, ach! bewaar myn leeven!</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Misschien zou hy 't my wel vergeeven,</l>
+						<l>Als ik hem op myn knyen bad.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>'k Wou dat hy myn geweer al had.</l>
+						<l>Wil ik het voor zyn voeten leggen?</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Mag ik u goeden avond zeggen?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Van harten, 'k wensch dat, tree maar toe.</l>
+						<l>Wat zeit men van de vreede! en hoe...</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>De vrede krygt men door gevaren,</l>
+						<l>Men hoort die eeuwig te bewaren.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Gewis de vreê brengt overvloet.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Ik wensch dat zy lang duuren moet.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Ik mee.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Dat 's waerlyk al myn wenschen.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Och! was dat zoo by alle menschen.</l>
+						<l>Een levendige hond, is meerder waardig, als</l>
+						<l>Een doode mensch myn heer.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Dat zeggen is niet vals.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>De vreede doed op aard veel duyzend menschen leeven,</l>
+						<l>Die, Zoo het oorlog wierd, de geest voort zouden geeven.</l>
+						<l>Men zal geen oorelog meer voeren, ja gewis.</l>
+						<l>De heele waereld zeit, dat dit haar meening is.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>S'is schadelik aan volk, en land.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Voor al, aan luiden van verstand.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Voor zeeker heer, maar zult gy hier noch wat verblyven?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Ja toch, en gy?</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Ik ga, 'k moet noch een lof-dicht schryven.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Heel wel.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Maar, gy blyft hier?</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Noch wat.</l>
+					</sp>
+					<sp who="#gustaaf">
+						<speaker>Gustaaf.</speaker>
+						<l>Vaar wel myn heer.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Myn heer u dienaar 'k zie u morgen lichtlik weer.</l>
+					</sp>
+				</div>
+				<div type="scene" n="14">
+					<head>Veertiende tooneel.</head>
+					<sp who="#krispyn">
+						<speaker>Krispyn, alleen.</speaker>
+						<l>Dat was een leventje. zintfelten!</l>
+						<l>Daar ree de drommel haast op stelten.</l>
+						<l>Hy was onthutst, en vol van schrik,</l>
+						<l>Hy was ontrend zo bang als ik.</l>
+						<l>Had ik 't geweeten.</l>
+					</sp>
+				</div>
+				<div type="scene" n="15">
+					<head>Vyftiende tooneel.</head>
+					<stage>Sofy, Valerius, Klaret, Lysbeth, Krispyn.</stage>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Ach Mevrouw! ik ben verlooren.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Myn heer, ik beb terstond u laten zien, en hooren,</l>
+						<l>Dat ik, al wat ik kan, heb voor u min gedaan.</l>
+						<l>Ik heb voor u gebeên, maar 't is niet voortgegaan.</l>
+						<l>Ik ben wanhoopende; en ik weet geen raat te vinden</l>
+						<l>Myn man die laat zich van de krygszucht heel verblinden.</l>
+						<l>G'zult de vader voor uwe oogen daadlyk zien,</l>
+						<l>Van hem die hy verkoos tot schoon-zoon.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Kan 't geschien!</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Hy is zo daadlik, met een vreemde in huys gekomen;</l>
+						<l>Die zal het zeeker zyn.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Helaas! ik heb 't vernoomen.</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>Ach Moeder!</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Ach myn kind! wat herten leet! wat spyt.</l>
+						<l>'k Gevoel tot in myn ziel, de rampen die gy lyd.</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>Ach! welk een bitter lot, bereid my mynen vader!</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>'k Beklaag u alle bei, dat g' 't al ik kan niet nader.</l>
+					</sp>
+				</div>
+				<div type="scene" n="16">
+					<head>Zestiende tooneel.</head>
+					<stage>Klaret, Valerius, Sofy, Rudolf. Krispyn, Lysbeth, Rykert.</stage>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Gy komt heel wel te pas, het was hoogtyd myn heer.</l>
+						<l>Vrouw, dochter, meid, 't gezin, elk plaagt my even zeer.</l>
+						<l>Maar boven al die heer, die myn Klaret...</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Kant weezen?</l>
+					</sp>
+					<sp who="#rykert">
+						<speaker>Rykert.</speaker>
+						<l>Wat zie ik! 't is myn zoon!</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Nu ben ik buyten vreezen,</l>
+						<l>Myn vader?</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Hoe?...</l>
+					</sp>
+					<sp who="#rykert">
+						<speaker>Rykert.</speaker>
+						<l>Gy ziet me ontroert...</l>
+					</sp>
+					<sp who="#klaret">
+						<speaker>Klaret.</speaker>
+						<l>Is 't moogelik?</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>Kan ik gelooven, dat in zulk een oogenblik...</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Hoe wel zeid Brero, 't kan verkeeren?</l>
+					</sp>
+					<sp who="#rykert">
+						<speaker>Rykert.</speaker>
+						<l>Wild myn ontroering excuzeeren</l>
+						<l>Dit is myn Zoon, daar ik u kind,</l>
+						<l>Voor kwam verzoeken hy bemind...</l>
+						<l>Met u verlof, dat ik omhels...</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Wat vreemde stukken!</l>
+						<l>'k Sie onzer aller wensch in 't eynde noch gelukken.</l>
+						<l>Mevrouw, gy hebt gewenscht, dat deeze cavaljer</l>
+						<l>Uw dochters man mogt zyn; 'k vergun u dit pleizier.</l>
+						<l>Hy zal het zyn. Myn heer laat ons niet langer wachten,</l>
+						<l>En wyl 't geluk, myn heers, Mevrouws, en myn gedachten</l>
+						<l>Op nieuws vereenigt, laat ons 't huweliks verbond,</l>
+						<l>Van onze kinderen, voleyndigen terstond.</l>
+						<l>Die moeiten hadden wy hier in wel konnen spaaren</l>
+						<l>Dewyl 't geval deez twee wist zonder ons te paaren.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Al zagtjes wat zo 't jou belieft</l>
+						<l>Ik zag my ook eens graag gerieft</l>
+						<l>'k Ben ook verlieft, door 't groot vermoogen</l>
+						<l>Van die, van die bekoorlike oogen</l>
+						<l>Ik wensch nu ook gepaart te zyn.</l>
+					</sp>
+					<sp who="#valerius">
+						<speaker>Valerius.</speaker>
+						<l>Het is myn dienaar.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Ja Krispyn.</l>
+						<l>Myn heer wild nu myn dienst gedenken</l>
+						<l>Ei maak dat zy my Lysbeth schenken.</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Hebt gy dan liefde voor elkaar?</l>
+					</sp>
+					<sp who="#lysbeth">
+						<speaker>Lysbeth.</speaker>
+						<l>Waarom zo wel niet als een aar</l>
+						<l>Myn heer...</l>
+					</sp>
+					<sp who="#rudolf">
+						<speaker>Rudolf.</speaker>
+						<l>Ik geef z'u, wil z'u trouwen.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Mevrouw 'k bid wild 't ten goeden houwen...</l>
+						<l>Ik heb het voor myn heer gedaan.</l>
+					</sp>
+					<sp who="#sofy">
+						<speaker>Sofy.</speaker>
+						<l>'k Vergeeft.</l>
+					</sp>
+					<sp who="#krispyn">
+						<speaker>Krispyn.</speaker>
+						<l>Daar mag een zoon opstaan.</l>
+					</sp>
+					<stage>EYNDE.</stage>
+				</div>
+			</div>
+		</body>
+	</text>
+
+</TEI>
