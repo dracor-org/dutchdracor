@@ -1,0 +1,2443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000103" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">De gewaande advocaat</title>
+				<author>
+					<persName>
+						<forename>Pieter</forename>
+						<nameLink>de</nameLink>
+						<surname>Lacroix</surname>
+					</persName>
+					<idno type="wikidata">Q79764629</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL">https://www.dbnl.org/tekst/croi003gewa01_01/</idno>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Pieter de Lacroix: De gewaande advocaat. Amsterdam: Albert Magnus, 1685.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="MALE" xml:id="augestyn">
+						<persName>Augestyn</persName>
+					</person>
+					<person sex="MALE" xml:id="haagse-barent">
+						<persName>Haagse Barent</persName>
+					</person>
+					<person sex="FEMALE" xml:id="izabel">
+						<persName>Izabel</persName>
+					</person>
+					<person sex="MALE" xml:id="jonker-blyhert">
+						<persName>Jonker Blyhert</persName>
+					</person>
+					<person sex="MALE" xml:id="karlofisi">
+						<persName>Karlofisi</persName>
+					</person>
+					<person sex="MALE" xml:id="meindert">
+						<persName>Meindert</persName>
+					</person>
+					<person sex="MALE" xml:id="schout">
+						<persName>Schout</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Farce</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-09-11">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1685">
+				<desc/>
+			</event>
+			<event type="premiere" when="1683">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+			<docTitle>
+
+				<titlePart>DE GEWAANDE ADVOCAAT, KLUCHTSPÉL.</titlePart>
+				<titlePart><figure/></titlePart>
+				<titlePart>Te Amsterdam,</titlePart>
+				<titlePart>By Albert Magnus, op de Nieuwen Dyk, in den Atlas, by den Dam.
+					1685.</titlePart>
+				<titlePart>Met Privilegie.</titlePart>
+
+			</docTitle>
+			<div type="appendix">
+
+
+				<head>Copye Van de privilegie.</head>
+				<p>DE Staaten van Hollande en Westvrieslandt doen te weten. Also Ons vertoont is by
+					de tegenwoordige Regenten van de Schouwburgh tot Amsterdam. Dat sy Supplianten
+					sedert eenige Jaren herwaerts met hunne goede vrienden hadden gemaeckt en ten
+					Tooneele gevoert verscheiden Wercken, soo van Treurspellen, Blyspelen als
+					Kluchten, welcke sy lieden nu geerne met den druck gemeen wilden maecken, doch
+					gemerckt dat dese wercken door het nadrucken van anderen, veel van haer luyster,
+					soo in Tael als Spelkonst souden komen te verliesen, ende alloo sy Supplianten
+					hen berooft souden sien van hun bysondet ooghwit om de Nederduytsche Tael en de
+					Dichtkonst voort te setten soo vonden sy hen genootsaeckt, om daer inne te
+					voorsien, ende hen te keeren tot Ons, onderdanigh versoeckende, dat Wy omme
+					redenen voorsz. de Supplianten geliefden te verlenen Octroy ofte Prvilegie, omme
+					alle hunne wercken reets gemaeckt ende noch in 't licht te brengen, den tyt van
+					vyftien Jaren alleen te mogen drucken en verkopen of doen drucken en verkopen,
+					met verbot van alle anderen op seeckere hooge peene daer toe by Ons te stellen
+					ende voorts in communi forma. Soo is 't dat Wy de Zake en 't versoeek voorsz.
+					overgemerckt hebbende, ende genegen wesende ter bede van de Supplianten, uyt
+					Onse rechte wetenschap, Souveraine magt ende authoriteyt de selve supplianten
+					geconsenteert, geaccordeert ende geoctroyeert hebben, consenteren, accorderen,
+					ende Octroyeten mitsdesen, dat sy geduurende den tyt van vyftien eerst achter
+					een volgende Jaren de voorsz. werken die reeds gedrukt zyn, ende die van tyt toe
+					tyt door haer gemaekt ende in 't ligt gebragt sullen werden, binnen den voorsz.
+					Onsen Landen alleen sullen mogen drukken, doen drukken, uytgeven en verkopen.
+					Verbiedende daarom allen ende eenen yegelyken de selve werken naar te drukken
+					ofte elders naergedrukt binnen den selve Onse Landen te brengen, uyt te geven
+					ofte te verkopen, op de verbeurte van alle de naargedrukte, ingebragte ofte
+					verkogte exemplaren, ende een boete van drie hondert guldens daer en boven te
+					verbeuren, te appliceren een derde part voor den Officier die de calange doen
+					sal, een derde part voor den Armen der Plaetse daer het casus voorvallen sal,
+					ende het resterende derde part voor den Supplianten. Alles in dien verstaande,
+					dat wy de Supplianten met desen Onsen Octroye alleen willende gratificeren tot
+					verhoedinge van hare schade door het nadrukken van de voorsz. Werken, daar door
+					in geenige deelen verstaen, den inhoude van dien te Authoriseren ofte te
+					auvoueren, ende veel min de selve onder Onse protectie ende bescherminge, eenig
+					meerder credit aensien ofte reputatie te geven, nemaer de Supplianten in cas
+					daer in yets onbehoorlykx soude mogen influeten, alle het selve tot haren laste
+					sullen gehouden wesen te verantwoorden: tot dien eynde wel expresselyk
+					begerende, dat by aldien sy desen Onsen Octroye voor de selve Werken sullen
+					willen stellen, vaer van geene geabbrevieerde ende gecontraheerde medtie sullen
+					mogen maken, nemaer gehouden sullen wesen het selve Octroy in 't geheel ende
+					sonder eenige Omissie daer voor te drukken ofte te doen drukken, ende dat sy
+					gehouden sullen zyn een exemplaer van alle de voorsz. werken, gebonden ende wel
+					geconditioneert te brengen in de Biblioteecq van onse Universiteyt tot Leyden,
+					ende daer van behoorlyk te doen blyken. Alles op peene van het effect van dien
+					te verliesen. Ende ten eynde de Supplianten desen Onsen consente en Octroye
+					mogen genieten als naer behooren: Lasten wy allen ende eenen ygelyken die 't
+					aengaen mach, dat sy de Supplianten van den inhoude van desen doen, laten en
+					gedogen, rustelyk en volkomentlyk genieten en cesserende alle beletten ter
+					contrarie. Gedaen in den Hage onder Onsen groten Zegele hier aen doen hangen den
+					XIX Septembr. in 't jaer onses Heeren en Zaligtnakers duysent ses hondert vier
+					en tachtig.</p>
+				<p>G. FAGEL.</p>
+				<p>Ter Ordonnantie van de Staten</p>
+				<p>SIMON van BEAUMONT.</p>
+				<p>De tegenwoordige Regenten van de &gt;Schouwburgh, hebben het Recht van de
+					bovenstaande Privilegie, voor dit Kluchtspél, vergunt aen Albert Magnus.
+					Bockverkoper tot Amsterdam.</p>
+				<p>In Amsterdam, den 1 Maert 1685.</p>
+			</div>
+			<castList>
+
+				<head>Vertooners.</head>
+				<castItem corresp="#jonker-blyhert">
+					<role>Jonker Blyhert. Vryer van Izabel.</role>
+				</castItem>
+				<castItem corresp="#izabel">
+					<role>Izabel.</role>
+				</castItem>
+				<castItem corresp="#augestyn">
+					<role>Augestyn. Vader van Izabel.</role>
+				</castItem>
+				<castItem corresp="#karlofisi">
+					<role>Karlofizi. Broeder van Augestyn.</role>
+				</castItem>
+				<castItem corresp="#haagse-barent">
+					<role>Haagse Barent.</role>
+				</castItem>
+				<castItem corresp="#schout">
+					<role>Schout.</role>
+				</castItem>
+				<castItem corresp="#meindert">
+					<role>Meyndert.</role>
+				</castItem>
+				<castItem>
+					<role>Dienders. Stom.</role>
+				</castItem>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<head>De gewaande advocaat, kluchtspél.</head>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<lg>
+							<stage>Wyze: 'k Vong twee Meesjens, &amp;c.</stage>
+							<l>ANd're leeren menschen zingen,</l>
+							<l>Maar die konst die loopt om brood,</l>
+							<l>Ik leer beesten klein en groot,</l>
+							<l>Maar 't zyn ook geen wondre dingen,</l>
+							<l>Want veel beesten hebben geest,</l>
+							<l>En veel menschen worden beest.</l>
+						</lg>
+
+						<l>O! de Opera had hier wel gebleeven,</l>
+						<l>Indien zy hadden maar gegeeven,</l>
+						<l>Zoo weinig aan elk operist,</l>
+						<l>Als ik geef, nou is 't haar gemist.</l>
+						<l>Ziet die Kastraat, tergoeder trouwen,</l>
+						<l>Kan ik met zes paar duiten houwen,</l>
+						<l>Een volle week, en alle daag</l>
+						<l>Loopt hy nog met een volle maag.</l>
+						<l>Ik heb 'er twaales, 't zyn koraalen,</l>
+						<l>Die zingen gelyk Nagtegaalen,</l>
+						<l>Maar als ik deezen oronbaar</l>
+						<l>Geleert heb, is myn troep heel klaar,</l>
+						<l>Kom, kom laat ik jou stem probeeren.</l>
+						<l>Regt op je lyf wil jy regt leeren.</l>
+						<l>Ziet dat 's Be deur, en dat 's Be mol.</l>
+						<l>Zingt met my, ut, re, mi, fa, sol.</l>
+						<l>Nog eens, kom wakker niet te kikken.</l>
+						<l>Let op de nooten, op de snikken.</l>
+						<l>Ik zal de maat slaan, repje ras.</l>
+						<l>Zing jy superus, ik de bas.</l>
+						<lg>
+							<stage>Voize, Laat Louys de France, &amp;c.</stage>
+							<l>Ut, re, mi, fa, sol, la la,</l>
+							<l>Dat is regt een Opera,</l>
+							<l>Zo zo, dat gaat heen,</l>
+							<l>'t Zal na deezen, beeter weezen,</l>
+							<l>Zoo zoo, dat gaat heen,</l>
+							<l>Ik ben Paris, jy Heleen.</l>
+						</lg>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Twede tooneel.</head>
+					<stage>Jonker Blyhart, Barent.</stage>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>WEl Haagse Barent, dat is raar,</l>
+						<l>Leert hier het eene beest het aar?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Die eeuw, heer Jonker, is versleeten,</l>
+						<l>Ik ben geen beest meer moet je weeten.</l>
+						<l>Ik leer nou beesten een voor een,</l>
+						<l>Wil jy ook leeren 'k ben te vreen?</l>
+						<l>Zoo ik dit beest kan leeren klappen,</l>
+						<l>Hoef ik geen Schoene meer te lappen.</l>
+						<l>Wat kom jy hier doen uit den Haag?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Ik kom hier trouwen.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Wat de plaag?</l>
+						<l>Maar aan een Weeuw, of aan een Vryster?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Wel Haagse Barend, ben jy byster.</l>
+						<l>Die slooten loop ik altyt mis,</l>
+						<l>Daar ymand in verdronken is.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Maar heeftze mannetjens met kraagen?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Geen Amstel Juffer kan behaagen,</l>
+						<l>Een Haagenaar, als door haar geld,</l>
+						<l>De Meyt is ryk, en wel gestelt,</l>
+						<l>Een eenig kind.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Maar wie zal 't weezen?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Dat staat in deeze brief te leezen.</l>
+						<l>In 't zwaantje naast het groene hek.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>O, doet dat niet, de vaar is gek.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Daarlyd my weynig aan geleegen.</l>
+						<l>'t Geld kan de gekheyd overweegen.</l>
+						<l>De wysheyd loopt nou stom langs straat,</l>
+						<l>Het geld alleen heeft nou de praat.</l>
+						<l>De vrouwen die niet veel en weeten,</l>
+						<l>Die worden voor fluweel versleeten.</l>
+						<l>Maar is 't een huyshen kuys en stil?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Het is een hen die leggen wil.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Maar wie belet haar dan te trouwen?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Haar Vader, want die wil haar houwen.</l>
+						<l>De Vryershier tot Amsterdam,</l>
+						<l>Agt hy te styf, te lomp, te lam,</l>
+						<l>Het moet een Haagenaartje weezen.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Heel goed, dan staat my niet te vreezen,</l>
+						<l>'k Ben een gebooren Haagenaar,</l>
+						<l>Gelyk je weet.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Dat is wel waar,</l>
+						<l>Maar daar zal veel aan jou ontbreeken,</l>
+						<l>Hy wil geen vryer hooren spreeken,</l>
+						<l>Of 't moet zyn een geleerde vent,</l>
+						<l>Een Advocaat, die wetten kent.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Maar hoor, zy is aan my verbonden</l>
+						<l>Door deeze brief, my toegezonden</l>
+						<l>Zelf van haar Vaders eigen hand.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Ik wed, dat hy de brief verbrand,</l>
+						<l>Wanneer hy komen zal te hooren,</l>
+						<l>Dat jy geen brief van Professoren</l>
+						<l>Hebt, die jou maakt tot Advocaat,</l>
+						<l>Want hy is gek, en opstinaat,</l>
+						<l>Jy zult hem nimmermeer believen,</l>
+						<l>Al hadje hondert zulke brieven,</l>
+						<l>Maar trek naar Harderwyk, en laat,</l>
+						<l>Jou vaardig maaken Advocaat.</l>
+						<l>Want een blaauwbesse brief kan maaken</l>
+						<l>Dat jy zult aan zyn Dochter raaken.</l>
+						<l>Daarom vertrek vry daadlyk heer,</l>
+						<l>Komt over veertien daagen weer.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Ik zal die zotheid hem verleeren,</l>
+						<l>Hy zal my zelf nog promoveeren</l>
+						<l>Tot Advocaat.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Ziet wat je doet.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>De gekke zyn voor looze goed.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Daar komen na haar alle daagen,</l>
+						<l>Wel meer als hondert vryers vraagen.</l>
+						<l>Die roemen van haar groote magt,</l>
+						<l>Of van haar rykdom, of geslagt,</l>
+						<l>Door dat zoo meenigmaal te hooren,</l>
+						<l>Leent hy aan niemand meer zyn ooren.</l>
+						<l>Ten zy dat hy is Advocaat,</l>
+						<l>Die hy dan door zyn Broeder laat,</l>
+						<l>Of hy geleert is, ondervraagen,</l>
+						<l>En deeze Broer is gek volslaagen.</l>
+						<l>Die alle vryers 't zy wie 't zy,</l>
+						<l>Schoon datze wyzer zyn als hy,</l>
+						<l>Voor gekken uit maakt, dat zy schroomen,</l>
+						<l>Om nimmermeer weerom te komen.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker</speaker>
+						<l>Wel ik weet raat voor zulk gebrek,</l>
+						<l>'k Zal hem geneezen, met een trek.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Kan ik jou helpen wilt maar spreeken,</l>
+						<l>Jy weet ik kan de Haagse streeken.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Verzeeker, maar blyft dicht by huis.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Ik breng maar deeze schoene t'huis.</l>
+						<l>Dan kom ik weer, je moet niet vleijen,</l>
+						<l>Hy laat hem daar door niet verleijen.</l>
+						<l>Maak van jou slegten staat beklag.</l>
+						<l>Zie daar, daar komt hy voor den dag.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Jonker, Augestyn.</stage>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>'t GEluk komt my zoo bly ontmoeten,</l>
+						<l>Nu ik myn vriend u mag begroeten.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Zyt gy myn vriend, hoe kan dat zyn?</l>
+						<l>Ik kenje niet.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Heer Augestyn.</l>
+						<l>'k Ben lang geweest uw vriend voor deezen.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Ik zeg monsieur dat kan niet weezen,</l>
+						<l>Ik zag u nooyt, dat ik u zweer.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>'k Zag u ook nimmermeer myn heer,</l>
+						<l>Maar ik had egter voor genoomen</l>
+						<l>Als vriend in huys, u by te koomen,</l>
+						<l>'k Moest aan u zelf een boodschap doen.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Die bootschap kan ik ligt vermôen.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Weet dat myn Vaar een ryke Vrek was</l>
+						<l>En door zyn gierigheyd heel gek was,</l>
+						<l>Een Edelman van naam zeer groot,</l>
+						<l>Die my zyn goet liet, na zyn Dood.</l>
+						<l>Maar ik heb gelt, en goed, en haven,</l>
+						<l>Kort na zyn dood met hem begraaven.</l>
+						<l>Gelyk hy spaarde dag en nacht,</l>
+						<l>Heb ik het ook weer deur gebragt.</l>
+						<l>Vrou Venus stal my door haar oogen.</l>
+						<l>En Bachchus door zyn lek're toogen,</l>
+						<l>Den teerling ende gladde kaart,</l>
+						<l>Verslonden, dat hy had gespaart.</l>
+						<l>Zoo dat voor u staat t'uwer eeren,</l>
+						<l>Een vogel zonder nest of veeren.</l>
+						<l>Maar ik heb in dat vuyl gedrang,</l>
+						<l>Geleert veel konsten van belang,</l>
+						<l>Ik heb veel deugden aangewonnen,</l>
+						<l>Die u myn heer behaagen konnen.</l>
+						<l>Ik ben voorvegter laat en vroeg,</l>
+						<l>Zoo op de straat als in de kroeg.</l>
+						<l>'k Roep al de Nikkers by haar naamen.</l>
+						<l>Veel meer als al de moffen saamen.</l>
+						<l>Ik lieg en spreek ook zelde waar,</l>
+						<l>Ik ben een valsche dobbelaar.</l>
+						<l>En wilt gy hooren wat voor Boeken,</l>
+						<l>Het zyn, die ik ga onderzoeken,</l>
+						<l>Het Boloneesche hontjen, dat</l>
+						<l>Is een Juweel voor deeze stat.</l>
+						<l>Dan Jonker Moezel, die voor deezen,</l>
+						<l>In rang wou d'alder eerste weezen.</l>
+						<l>'t Vermaak des houwlyks, dat is lief,</l>
+						<l>De Meyden duyvel, gaauwe Dief,</l>
+						<l>De Haagse Ligtmis onzer tyen,</l>
+						<l>Als ook de Franse minneryen,</l>
+						<l>Ook de open hertige Juffrouw;</l>
+						<l>De onkuysche Hageta ontrouw,</l>
+						<l>Bedurve Koopman, en verreezen</l>
+						<l>Hipolites, wel waard te leezen.</l>
+						<l>De biegt van 't huw'lyk, wel bekend</l>
+						<l>Als ook de reuklooze Student.</l>
+						<l>Al wie een Ligtmis tracht te weezen,</l>
+						<l>Die moet voor al die Boeken leezen.</l>
+						<l>O, die zyn noodig aan de jeugd.</l>
+						<l>Zy leeren leeven zonder deugd.</l>
+						<l>Nou weet ik andre braaf te knellen,</l>
+						<l>Met het Baarlannen en Menellen.</l>
+						<l>Met kinkenove pasedie,</l>
+						<l>Ik speel nou regt al wat ik zie.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Zoo, zoo.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Ik ga uyt beurze snijen.</l>
+						<l>Ik mag geen eerbre maagden lyen,</l>
+						<l>Ik ranse 's avons aan op straat,</l>
+						<l>En zoo der my een tegen staat,</l>
+						<l>Die laat de kap en diamanten,</l>
+						<l>Met goude ringen en pandanten.</l>
+						<l>Ik steek, ik kerf, ik steel, ik buit,</l>
+						<l>Ik gooy by nagt de glaazen uit.</l>
+						<l>De kroegen weet ik op te schikken,</l>
+						<l>Zoo; dat daar elk voor my moet schrikken.</l>
+						<l>Ik ga in 't Schouwburg, met een roes,</l>
+						<l>Daar raas ik als een dolle droes,</l>
+						<l>Dat die zyn in de Bak gezeeten,</l>
+						<l>Onmogelyk niet konnen weeten</l>
+						<l>Wat dat men speeld, door myn gerugt,</l>
+						<l>Verandert Treurspel in een Klugt.</l>
+						<l>Ik bruy myn waerelt wel met vreugde.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Maak eens een end van al jou deugden.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Ik hoorde heeden van een Vrind,</l>
+						<l>Als dat gy hebt een eenig kind,</l>
+						<l>Van twintig jaar, met schoone leeden.</l>
+						<l>Die gy wout graag ten Egt besteeden,</l>
+						<l>Die gy zult geeven die haar trouwt</l>
+						<l>Een heele halve ton met gout.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Zoo is 't ook.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Maar myn ingewanden,</l>
+						<l>Van liefde en trouw als Etna branden,</l>
+						<l>Toen ik dat hoorde, want dat geld,</l>
+						<l>Nam my terstont in zyn geweld.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Gy zoud alleen om 't geld dan trouwen?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Wel zeeker, want een wyf te houwen,</l>
+						<l>Die kaal is, ô dat 's al te gek,</l>
+						<l>Dat is maar warmoes zonder spek.</l>
+						<l>Al had jou Dochter neus nog ooren,</l>
+						<l>Zoo zou ze my nogtans bekooren,</l>
+						<l>Als ik jou Dochter heb getrouwe,</l>
+						<l>Hout haar by u, geeft my maar 't gout.</l>
+						<l>Heer Augestyn, 'k moet regt uit spreeken,</l>
+						<l>My komt geen Wyf, maar geld t'ontbreeken;</l>
+						<l>Dat is alleen der Minnaars aas,</l>
+						<l>Wie anders trouwt is zot en dwaas.</l>
+						<l>Men trouwt uit liefde, maar och arme!</l>
+						<l>Wie zal hem by de liefde warme?</l>
+						<l>Uw Dochter was gelukkig heer,</l>
+						<l>Dat zy my kreeg.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Maar sint wanneer?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Hoe veilig zou uw geltje weezen.</l>
+						<l>By my, daar elk een voor moet vreezen</l>
+						<l>Geen dief, geen dobb'laar, nog geen hoer</l>
+						<l>Zaagt gy uw daagen op myn vloer.</l>
+						<l>Elk schuwt my als Kompaan de roover,</l>
+						<l>Ik heb, voor hoer nog boef niet over.</l>
+						<l>Ik kan de laagen, het geweld,</l>
+						<l>En strikken die de waerelt stelt,</l>
+						<l>Om maar d'onnoos'le meê te plaagen,</l>
+						<l>Maar ik ben vry voor al die laagen.</l>
+						<l>Dies ben ik ook verzeekert gy,</l>
+						<l>Uw Dochter geeven zult aan my.</l>
+						<l>Myn Snyer heeft de maat genoomen</l>
+						<l>Van 't Bruigoms kleed, hy zal straks koomen,</l>
+						<l>Hier met den Winkelier om 't geld,</l>
+						<l>Dat hem zal worden toe geteld</l>
+						<l>Van u, maar weet gy zult het trekken</l>
+						<l>Van onze hooft som, 't zal verstrekken,</l>
+						<l>In mindring, als gy hebt gezegt,</l>
+						<l>Van 't geen ge uw Dochter geeft ten Egt.</l>
+						<l>Ook komt hier 't Brabants wyf van kanten,</l>
+						<l>Den Juwelier, van Diamanten,</l>
+						<l>Om haar betaling, ik heb nou</l>
+						<l>Het alles klaar tot onze trouw.</l>
+						<l>Elk was geneegen my te borgen,</l>
+						<l>Zoo dra ik zey dat ik op morgen,</l>
+						<l>Zou trouwen met u Dochter.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>goet.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Myn knegt heeft reets, wie my in 't bloed</l>
+						<l>Bestaan, genood, om tavond saamen,</l>
+						<l>Tot uwent eens een dag te raamen</l>
+						<l>Van onze trouw.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Is dat het al,</l>
+						<l>Dat ik daar nou van hooren zal?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Ja daarom ben ik hier gekoomen.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Nu gy die moeyten hebt genoomen,</l>
+						<l>Zoo neemt de moeyte en gaet weer heen.</l>
+						<l>Stel Snyer en zulk soort te vrêen.</l>
+						<l>De Juwelier voorzyn pandanten</l>
+						<l>En 't wyf uyt Brabant voor haar kanten,</l>
+						<l>Myn Dochters hou'lyks gelt leyt klaar,</l>
+						<l>En is gereed, maar niet voor haar.</l>
+						<l>Zeg ook dat tavond uwe vrinden,</l>
+						<l>By my geen eeten zullen vinden.</l>
+						<l>Voor zulk een Vryer, mer verlof,</l>
+						<l>Als gy zyt, is het hier spit of.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Wel wat zal ik hier nog beleeven.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Ik meen myn Dochter niet te geeven,</l>
+						<l>Een die in zulke deugden leeft,</l>
+						<l>Een die zyn goed verhinkelt heeft.</l>
+						<l>Een die 't nu van de roof moet haalen,</l>
+						<l>Een die derft borgen, niet betaalen;</l>
+						<l>Een pypen stelder openbaar,</l>
+						<l>Een dief een valse dobbelaar,</l>
+						<l>Een die niet doet als maagden kraaken.</l>
+						<l>Al zulke vryers, moet ik wraaken.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Wel dat stryt tegens alle reên.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Gy hebt myn zin gehoord, gaa heen.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Myn heer ik heb het al geloogen,</l>
+						<l>Een eerlyk man staat voor uw oogen,</l>
+						<l>Een die gezet gematigt leeft,</l>
+						<l>Een die veel gelt en rykdom heeft.</l>
+						<l>Een Heer, een Edelman geschaapen,</l>
+						<l>'k Voer tien kwartieren in myn waapen,</l>
+						<l>Een open helm heeft myn kasket,</l>
+						<l>Ik ben een Ridder Baronnet.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Waarom dan 't eerste niet verzweegen?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Myn heer ik had bericht gekreegen,</l>
+						<l>Dat alle vryers een voor een,</l>
+						<l>Hier liepen wis een blaauwe scheen.</l>
+						<l>Die op haar deugd en rykdom roemen,</l>
+						<l>Dies dorst ik my niet eerlyk noemen.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>'t Is waar, ik zie na geld nog eer,</l>
+						<l>Maar na geleertheid, dat is meer;</l>
+						<l>Geleertheid schat ik boven allen,</l>
+						<l>De staat op eer en geld kan vallen,</l>
+						<l>Daar een geleert man blyft in staat,</l>
+						<l>Hoor, het moet zyn een Advocaat,</l>
+						<l>Zyt gy een Advocaat laat hooren?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Neen.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Wil my dan niet meer verstooren,</l>
+						<l>Hou my niet langer voor uw gek.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Ik zal gehoorzaam zyn.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Vertrek.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Jonker, Barent.</stage>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>IK zal die gekheid u verleeren,</l>
+						<l>En Haagse Barent promoveeren.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Wel Jonker Blyhert is 't niet regt,</l>
+						<l>Gelyk als ik u had gezegt,</l>
+						<l>Is hy niet gek in allen deelen?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Kom, jy moet nu voor vryer speelen,</l>
+						<l>Ik maakje daadlyk Advocaat;</l>
+						<l>Jy weet tot zulke zaak en raad.</l>
+						<l>Jy bent bekwaam voor wys te loopen.</l>
+						<l>Jy hebt de waereld braaf doorkroopen.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Wat moest ik doen, wat moest ik zyn?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Een Advocaat. Spreekje ook Latyn?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Myn heer gelyk u dat bekent is,</l>
+						<l>Zoo wel een lapper hier gewent is.</l>
+						<l>Maar sprak ik dat, was 't dan al wel?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker</speaker>
+						<l>Hoor jy moet gaan na Izabel.</l>
+						<l>Kom steekje vaardig in de veeren.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Maar hebje ook Advocaare kleeren?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Zie datje een zwarte rok slegs huurt.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Goet, ik weet raad, hier in de buurt,</l>
+						<l>Woond Saar de uytdraagster, die voor deezen</l>
+						<l>Plagt heer Torquatus meyd te weezen,</l>
+						<l>Die heeft ten minsten aan dien heer</l>
+						<l>Een rok verdiend, ja nog wel meer.</l>
+						<l>Maar hoor, ik dien myn naam te weeten,</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Gy zult myn heer Barnardo heeten.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Barnardo, goet ik ben te vrêen.</l>
+						<l>Zie daar stapt heer Bernardo heen.</l>
+						<l>Ik zal gelyk een axter klappen.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Jy kent wat meer als schoene lappen.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Maar Jonker Blyhert, met verlof,</l>
+						<l>Neem dog beleeft uw hoet eerst of,</l>
+						<l>Eer jy myn ampt noemt.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Zeg my waarom?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Dat is respektum perzoonarum.</l>
+						<l>Weet dat Barnardus is Monsieur,</l>
+						<l>Of wel myn heer de Reprateur,</l>
+						<l>Her zyn voorwaar geen kleene zaaken,</l>
+						<l>Veel ouwe dingen nieuw te maaken.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Ziet maar dat jy jou niet verpraat,</l>
+						<l>Zeg maar Ego sum Advocaat.</l>
+						<l>Die woorden zalje moeten weeten.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Die woorden heb ik al vergeeten.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Ego sum Advocaat.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Hoe, wat?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Ego sum Advocaat.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Ik vat.</l>
+						<l>Het zal aan my nou niet ontbreeken.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Maar laat ik jou eerst hooren spreeken,</l>
+						<l>Of jy op 't Prononsieeren let.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Ego sum Advocaat.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Dat 's net.</l>
+						<l>Geen Advocaat kan klaarder spreeken.</l>
+						<l>Daar zal aan jou nou niets ontbreeken.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Nou ben ik niet verwondert, dat</l>
+						<l>Ik hier zie zweeven door de stad,</l>
+						<l>Geheele bosjens Advocaaten,</l>
+						<l>Nou weet ik mê geleert te praaten.</l>
+						<l>Ben ik waarachtig Advocaat?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Verzeeker, maar wanneer je gaat,</l>
+						<l>Zoo moetje staadig zien, en stappen</l>
+						<l>Als Advocaat, vol weetenschappen.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Ik weet tot zulke zaaken raad.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Zegt maar Ego sum Advocaat,</l>
+						<l>Op alles dat jou komt te vooren,</l>
+						<l>Jy zult die ouwe gek bekooren.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Maar ik wil weeten hoe veel gy</l>
+						<l>My toelegt voor deez' snakery.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>'k Zal u als gy het hebt bedreeven,</l>
+						<l>Tien silvre ducatonnen geeven.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Tien ducatonnen, dat 's goet geld,</l>
+						<l>Ik zal jou helpen als een held.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Gy moet niet blyven in gebreeken.</l>
+						<l>Ik ga de Vaar en Dochter spreeken,</l>
+						<l>Gy zult myn Broeder zyn, gaa heen,</l>
+						<l>Maar komt haast weer.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Ik ben te vrêen.</l>
+						<stage>Jonker Blybert klopt aan de deur van Augestyn</stage>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>Jonker, Augestyn.</stage>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>MYn Heer, ik kom u nog eens spreeken</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Het moet u aan 't verstant ontbreeken,</l>
+						<l>Of aan memory.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Gy spreekt regt.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Weet gy niet watter is gezegt?</l>
+						<l>Toen gy uw afscheyd hebt genoomem,</l>
+						<l>Als dar gy nooit zoud weeder koomen.</l>
+						<l>Is 't u vergeeten? wel ik zeg</l>
+						<l>Vertrek, en blyf voor eeuwig weg.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Waarom ik weer kom, dat zyn zaaken,</l>
+						<l>Die u gelukkig konnen maaken.</l>
+						<l>Myn Broeder, zynde een Advocaat,</l>
+						<l>Geleert in de alderhoogsten graad,</l>
+						<l>Die wysheid schaft als veel Doctooren,</l>
+						<l>En Boeken schryft, naast Professooren,</l>
+						<l>Is hier gekoomen, hy begeert,</l>
+						<l>Dat gy hem met de naam vereert</l>
+						<l>Van Schoonzoon, zoo 't u kan gevallen.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Geleertheid schat ik boven allen.</l>
+						<l>Maar flus waart gy een eenig kind,</l>
+						<l>Hebt gy een Broer, ô dat 's verzind.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Dat zeid ik om uw gunst te krygen.</l>
+						<l>Die vryt, die moet zoo veel verzwygen,</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Maar is hy al gelyk gy zegt?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Hy kent het Rooms en Duitse regt,</l>
+						<l>Zyn gaven hebben geen gebreeken,</l>
+						<l>Hy kan gelyk een engel spreeken,</l>
+						<l>En brengen wysheid in den Raad,</l>
+						<l>Als Raadsheer en als Advocaat.</l>
+						<l>Hy is een Sisero volslaagen,</l>
+						<l>Hy kan hem als een hoov'ling draagen.</l>
+						<l>Hy is in schoonheid een Adoon.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Zoo dat zoo is, word hy myn Zoon.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Hy heeft, dit moet ik u verklaaren,</l>
+						<l>Vier duizend guldens alle jaaren</l>
+						<l>Om te verteeren, of nog meer.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Heel goed, ô dat behaagt my zeer,</l>
+						<l>Nooit kan het geld de koop verbreeken,</l>
+						<l>Ik zal myn Dochter daar van spreeken,</l>
+						<l>Hoor Izabelle kom hier dra.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Zesde tooneel.</head>
+					<stage>Izabel, Augestyn, Jonker.</stage>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>WAt 's uw believen heer Papa?</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Nu zult gy aan een Heer geraaken,</l>
+						<l>Die ons zal zeer gelukkig maaken.</l>
+						<l>'t Is een geleert, wys Advocaat,</l>
+						<l>Die als een Engel plyt en praat;</l>
+						<l>In wysheid moet hem yder wyken,</l>
+						<l>In schoonheid heeft hy geen gelyken.</l>
+						<l>Hy is ook ryk, niet waar?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Gewis.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Zoo deilt gy Jonker Blyhert mis?</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Dat is een loshoofd zonder oordeel,</l>
+						<l>Aan deeze Heer doen wy groot voordeel,</l>
+						<l>Want Jonker Blyhert uit den Haag,</l>
+						<l>Vergeet het komen hier van daag</l>
+						<l>Gelyk 't gezeid was, om te trouwen;</l>
+						<l>Hy breekt zyn woord, wilt gy het houwen?</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Wel jy verandert als de wind.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Hoor, dat versta jy niet myn kind.</l>
+						<l>Maar 'k moest uw Broeders naam eerst weeten?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Barnardo, werd die heer geheeten,</l>
+						<l>'t Is heer Bernardo, die in 't land</l>
+						<l>Vermaart is door zyn groot verstand;</l>
+						<l>Als Raadsheer weet hy hem te draagen.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Dat zal myn Dochter wel behaagen,</l>
+						<l>Zy eert, met my alleen 't verstand.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Daar komt hy, geef hem vry de hand.</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>Zevende tooneel.</head>
+					<stage>Izabel, Augestyn, Jonker, Barent.</stage>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>DIe Heer is wys, dat zal niet missen,</l>
+						<l>Dat kan ik aan zyn stappen gissen.</l>
+						<l>Zyn stadig zien en braaf gelaat,</l>
+						<l>Getuigt dat hy is Advocaat.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Myn Heer, indien gy zyt de Vader</l>
+						<l>Van Izabel, zoo kom ik nader,</l>
+						<l>En geef u myn geleerde hand.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Maar doet jou schootsvel aan een kant,</l>
+						<l>Belegt voorzichtig uwe zaaken.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Hy ziet of hy een paert wil maaken.</l>
+						<l>Die ouwe gek, ik word vervaerd.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Myn kind, ik heb u wel bewaard.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Dat 's waar, want ik kan Schoenen lappen.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Dat is een Heer vol werenschappen.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Neem hem de hoed af, spreek dan voort</l>
+						<l>Latyn.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Ik kan geen enkel woord.</l>
+						<l>Hoe zeidje flus, dat moest ik weeten,</l>
+						<l>Het is my al den brui vergeeten.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Ego sum.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Nego sum, maar hoe meer?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Advocatus.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Ik ken het Heer.</l>
+						<l>Wie ik ben, lust u dat te hooren?</l>
+						<l>Ik ben een Advocaat gebooren.</l>
+						<l>Ego, Ego sum Advocaat,</l>
+						<l>En dat ook in de boogste graat,</l>
+						<l>Niet als 'er veel zyn, neen verzeeker,</l>
+						<l>Die maar studeeren in de beker.</l>
+						<l>Ik weet de regels in het regt,</l>
+						<l>Gelyk als Plato heeft gezegt,</l>
+						<l>En Aristoteles beschreeven,</l>
+						<l>Dat 's my als in de pap gegeeven,</l>
+						<l>Maar hebt gy Seneca gekend,</l>
+						<l>Dat was een duvel van een vent,</l>
+						<l>Die deed de Turcken voor hem zwigten,</l>
+						<l>Hoor daar moet jy de hoed voor ligten.</l>
+						<stage>Hy neemt hem de hoed as.</stage>
+						<l>'t Was myn Patroon, die ik ook vier,</l>
+						<l>Hoor Heer, dat is de mode bier.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Die mode zou je moeten laaten.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Dat is 't gebruik der Advocaaten,</l>
+						<l>Kent gy den Ridder Donquisiot,</l>
+						<l>Of gierge Warnar met zyn Pot,</l>
+						<l>Of 't meurse Besje leugenachtig.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Myn Heer die ken ik niet waarachtig.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Of Pholiphemus, elks verdriet.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Myn Heer ik ken hem zeker niet.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Of Alexander, waerelt winder?</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Myn Hoer die ken ik nog veel minder.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Dat die nog leefden al te zaam,</l>
+						<l>Zy sturven zonder roem en naam;</l>
+						<l>Men zou haar naamen nimmer noemen,</l>
+						<l>Maar elk zou heer Barnardo roemen;</l>
+						<l>Dat is wel zeker, weet dat zy</l>
+						<l>In wysheid kinders zyn by my.</l>
+						<l>Ja Plato, Cato, al die Heeren,</l>
+						<l>Die zouden by my komen leeren.</l>
+						<l>Ik weet van alle ding het pit,</l>
+						<l>Wat krachten in het pikdraad zit,</l>
+						<l>Ik weet ook door myn weetenschappen,</l>
+						<l>De scheeve Schoenen regt te lappen.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Myn Broeder mengelt als een snaak,</l>
+						<l>Geleerde wysheid met vermaak.</l>
+						<l>Die gaaf is hem als aangebooren.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Kan u myn Engel, dat bekooren?</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Spreekt gy veel taalen, net, en klaar?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Her Hollands als een Haagenaar.</l>
+						<l>Ik laar my in het Frans zoo hooren,</l>
+						<l>Gelyk een burger aan de Loire.</l>
+						<l>De botte en platte Waalsche taal,</l>
+						<l>Spreek ik gelyk een Luiker Waal.</l>
+						<l>De Vlaamse deune kan ik zingen,</l>
+						<l>Gelyk de oprechte Bruggelingen.</l>
+						<l>Hans pigpags taal, die aan den Ryn.</l>
+						<l>Spreek ik gelyk een Agripyn.</l>
+						<l>Ik heb een pint Hebreeuws gedronken,</l>
+						<l>Door haar Rabynen ingeschonken.</l>
+						<l>Van 't oude Griex steekt my de walg,</l>
+						<l>Om dat haar P verbeelt een galg.</l>
+						<l>Het Engels, kan ik grondig tpreeken,</l>
+						<l>Zonder myn kaaken eens te breeken.</l>
+						<l>Het Portugees, dat spreek ik glad,</l>
+						<l>Uit Kolisensy, vatje dat.</l>
+						<l>Ik heb een koffer me genomen,</l>
+						<l>Vol nieuw Latyn van 't ouwe Romen.</l>
+						<l>Een hoed vol heb ik maar, myn Heer,</l>
+						<l>Op regt Kaldeeus, daar was niet meer.</l>
+						<l>Ook spreek ik glad en zonder stooten,</l>
+						<l>Gelyk een kinkel boer van Slooten,</l>
+						<l>Van Ouderkerk en Amstelveen,</l>
+						<l>Die taalen spreek ik heel gemeen.</l>
+						<l>Uit deeze spraaken kan ik weeten,</l>
+						<l>Als 't heet is dat men licht kan zweeten,</l>
+						<l>Als 't kout is dat men loopt na 't vuur,</l>
+						<l>Wanneer de druiven blyven zuur,</l>
+						<l>Dat dan de wyn niet zoet kan vallen.</l>
+						<l>Ik ben Magister boven allen,</l>
+						<l>In veel Historien vermaart,</l>
+						<l>Ik weet van 't vier Heemskinders paard,</l>
+						<l>Al watze van zyn daaden schryven,</l>
+						<l>Ik weet van Palmeryn de Olyven,</l>
+						<l>Van Floris en van Blancie fleur,</l>
+						<l>Die boeken ken ik deur en deur.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Wat renten hebt gy in te komen?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Behalven 't gelt van Moeis en Oomen,</l>
+						<l>Vier duizend guldens is myn staat.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Aanstaande Schoonzoon, Advocaat,</l>
+						<l>Wat wilt gy voor duwary geeven,</l>
+						<l>Aan Izabelle.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>By myn leeven,</l>
+						<l>Krygt zy de alwaardige Krispyn,</l>
+						<l>En na myn dood nog al het myn.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Wat of hy met Krispyn mag meenen?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Dat is de grootste van zyn steenen,</l>
+						<l>'t Is een juweel, gezet in 't goud,</l>
+						<l>Dat hy voor Izabelle houd.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Maar Heer hebt gy ook wat kontanten,</l>
+						<l>Gereed, voor andre diamanten?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Neen niet een stuiver, ben je mal.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Hoe, heeft u Broeder niet met al?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Hy heeft geen stuivers, is zyn zeggen,</l>
+						<l>Maar hy heeft ducatonnen leggen,</l>
+						<l>Wel twee dry duizend op zyn kant.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Kom Izabelle ryk uw' hand.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Maar Vader zal ik met hem paaren?</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Maar, zeg ik hier niet veel te maaren.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Is hy al van een goed gerugt?</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Vangt deeze veugel in de vlugt.</l>
+						<l>Steek uit jou hand, jy zult hem trouwen,</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Ik hoop het zal jou tavond rouwen.</l>
+						<l>Maar och wat heeft by aan zyn hand?</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Zottin dat is een diamant.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Het is het hoosje voor het kerven</l>
+						<l>Van 't pikdraad.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Wel hy doet my sterven,</l>
+						<l>Die botten duivel. Hoord Juffrouw,</l>
+						<l>Als hy een pen versnyen zou,</l>
+						<l>Zoo heeft hy in zyn hand gesneeden;</l>
+						<l>Dat is 't verband.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Wel dat heeft reeden.</l>
+						<l>Myn Heer. gy zult myn Schoonzoon zyn.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>En jy myn Schoonvaar Augestyn.</l>
+						<l>Wat zal myn Engel vreugde raapen,</l>
+						<l>By my een Advocaat te slaapen.</l>
+						<l>Al waar gy gaat myn Engelin,</l>
+						<l>Zyt gy Mevrouw Advocatin.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Ik ga myn Broeder hier eens haalen,</l>
+						<l>Want die spreekt alderhande taalen,</l>
+						<l>Om eens te hooren, of gy 't regt</l>
+						<l>Verstaat, gelyk gy hebt gezegt;</l>
+						<l>Want hebt gy logentaal gesprooken,</l>
+						<l>Zoo is dees Huwlyx Band verbrooken.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Maar hoe is uw heer Broeders naam?</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>'t Is Karlofisie, die de faam</l>
+						<l>Wel dry schoft werk geeft alle daagen,</l>
+						<l>Slegs met zyn gaaven om te draagen,</l>
+						<l>Voor hem staat de alderwyste stom,</l>
+						<l>Hy is Magister Artsium.</l>
+						<l>'k Zweer, als gy voor hem zult verschynen,</l>
+						<l>Dat uw geleertheid zal verdwynen.</l>
+						<l>ô Karlofisie is een geest!</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>De zulke die bemin ik meest.</l>
+						<l>En ik zal eens na huis toe stappen,</l>
+						<l>Om een paar Schoenen af te sappen,</l>
+						<l>En dan myn Huisraad altemaal</l>
+						<l>Hier brengen uit myn groote zaal.</l>
+						<l>Want wy zyn eens myn uitgeleezen,</l>
+						<l>Em zoo moet ook ons Huisraad weezen.</l>
+						<l>Em gy myn Broeder, blyf, en praat</l>
+						<l>Met Izabelle, die ik laat</l>
+						<l>In u bewaring.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>'t Zal geschieden,</l>
+						<l>Heer Broeder heeft maar te gebieden.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Vaar wel mon keur, vaar wel Papa.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Vaar wel heer Schoonzoon keer tog dra.</l>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>Achtste tooneel.</head>
+					<stage>Izabel, Jonker.</stage>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>SChoon Izabelle uw groot vermoogen,</l>
+						<l>Trof my door uw bekoorlyke oogen,</l>
+						<l>Gy bebt myn jeugdig hert doorgrieft.</l>
+						<l>Ach Izab elle ik ben verlieft.</l>
+						<l>Verschoon my dat ik met uw Vader</l>
+						<l>Wat boert, ik hoop hem hier door nader</l>
+						<l>Te breng en tot de reedlykheid.</l>
+						<l>Hy heeft my u alleen ontzeit,</l>
+						<l>Om dat i k ben, moet ik u derven</l>
+						<l>Geen Advocaat, dit doet my sterven.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Zoo doet hy yder dat is waar,</l>
+						<l>Tot myn verdriet en hertzeer, maar</l>
+						<l>Wat zal ik doen, ik dagt voor deezen</l>
+						<l>Eens Jonker Blyherts Bruid te weezen,</l>
+						<l>Maar nu trouw ik tot myn bederf,</l>
+						<l>Een zotten Advocaat, ik sterf.</l>
+						<l>Uw Broeder zal, ik ben vol vreezen,</l>
+						<l>Noch gekker als myn Vader weezen.</l>
+						<l>Ach Jonker Blyhert, waar vertoeft</l>
+						<l>Gy zoo lang, ach ik ben bedroeft.</l>
+						<l>Zult gy u Vaders woord niet houwen?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Zoud gy met Jonker Blyhert trouwen?</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Die heeft myn Vaders woord en hand,</l>
+						<l>O dat 's een Heer van groot verstand.</l>
+						<l>En na dat hy my is beschreeven,</l>
+						<l>Is hy een Hoov'ling, in wel leeven.</l>
+						<l>Ik had gehoopt van deezen dag</l>
+						<l>Dat hy hier komen zoude ach, ach.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Maar Izabelle laat my hooren,</l>
+						<l>Waarom hebt gy myn Brôer verkooren,</l>
+						<l>Daar gy waart Jonker Blyherts Bruit?</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel</speaker>
+						<l>Myn Vader scheyter tienmaal uyt,</l>
+						<l>En tienmaal tienmaal alle daagen,</l>
+						<l>Hy neemtze al aan die na my vraagen,</l>
+						<l>Dar Advocaaten zyn, die hy</l>
+						<l>Dan onderzoekt of zy</l>
+						<l>Geleert zyn, maar myn Heer die allen</l>
+						<l>Tot nog toe zyn te ligt gevallen.</l>
+						<l>Gelyk ik hoop uw Broeder ook</l>
+						<l>Verdwynen zal gelyk de rook.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Had Jonker Blyhert hier gekomen,</l>
+						<l>Zou hy van hem zyn aan genoomen,</l>
+						<l>Tot Schoonzoon, na zyn Breeders raad,</l>
+						<l>Al was hy schoon geen Advocaat?</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>O neen dat had hy niet te hoopen.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Gy zult het anders af zien loopen,</l>
+						<l>Gy word zyn Bruit nog deezen dag.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Ik wensten heer, dat ik dat zag.</l>
+						<l>Hy is een heer van groot vermoogen.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Zie Jonker Blyhert voor uw oogen.</l>
+						<l>Zo ik betuyg met deeze Brief,</l>
+						<l>Zyt gy myn ege verknogre Lief,</l>
+						<l>Aan my, in eygendom gegeeven,</l>
+						<l>Ik ben myn tweede ziel uw leeven,</l>
+						<l>Uw minnaar en uw Bruidegom.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Myn Engel zyt hier wellekom,</l>
+						<l>Ay red my een maal uit de banden,</l>
+						<l>En strikken van myn Vaders handen.</l>
+						<l>Hy slingert my, zyn eenig kind,</l>
+						<l>Met trouwen als een dwarrelwind.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Hier is de rustplaats van uw zinnen,</l>
+						<l>Ik zal u eeuwig trou beminnen.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Maar hoe zal 't met uw Broeder gaan?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Zaagt gy dat voor myn Broeder aan?</l>
+						<l>O neen, het is een van jou buuren,</l>
+						<l>'t Is Haagse Barent.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Watte kuuren.</l>
+						<l>Hoe onze Barent in die straat,</l>
+						<l>Gekleed gelyk een Advocaat?</l>
+						<l>Ik kan uw oogwit niet doorgronden.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Die heb ik na u toe gezonden,</l>
+						<l>Om maar te toonen hoe de schyn,</l>
+						<l>Verbeeld, veel dingen die niet zyn,</l>
+						<l>Veel menschen eeren deezer daagen,</l>
+						<l>De kleeren meer als die ze draagen.</l>
+						<l>Of eeren 't lichchaam om het kleed.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Weet, dat ik nog uw wit niet weet.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Dit zal nu Haagse Barent leeren,</l>
+						<l>Hoe dat een gek door mooye kleeren</l>
+						<l>Te draagen, voor een wyze gaat,</l>
+						<l>Hoe 't kleed ook maakt een Advocaat,</l>
+						<l>Voor die de tytel maar wil draagen,</l>
+						<l>Gelyk m'er veel ziet deezer daagen.</l>
+						<l>En om uw Vader klaar en breed,</l>
+						<l>Die maar op 't Advocaate kleed</l>
+						<l>Verslingert schynt te zyn, door deeze</l>
+						<l>Bedriegeryen te geneezen.</l>
+						<l>Maar gy moet nog na myn besluit,</l>
+						<l>U draagen als myn Breeders Bruid.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Ik zal my naar uw welbehaagen,</l>
+						<l>In dit vreemt voorval wyslyk draagen.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Verschoon myn al te stout bestaan,</l>
+						<l>De liefde heeft my dit geraan.</l>
+						<l>Ik ga uw Vader nog eens spreeken,</l>
+						<l>Op datwe ons aanslag niet verbreeken,</l>
+						<l>Vaar wel myn Engelin tot flus.</l>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>Negende tooneel.</head>
+					<stage>Barent, met een Kruywagen en een Koffer.</stage>
+					<sp who="#jonker-blyhert">
+						<speaker>WAt moet een die de kost wil Winnen</speaker>
+						<l>In deeze waerelt al beginnen,</l>
+						<l>Ik ben lakey geweest, Soldaat,</l>
+						<l>Nou Lapper, Kruyer, Advocaat,</l>
+						<l>Dit laasten och, ik zou schier vreezen,</l>
+						<l>Zal nog het alderslegste weezen,</l>
+						<l>Dit leit my zeker inde zin,</l>
+						<l>Ik kruy nou regt het Rasphuis in,</l>
+						<l>Kourasie wats'er aan bedreeven,</l>
+						<l>'k Mag denken ik ben schaap gebleeven,</l>
+						<l>Ik sluit voor zulken plok geen mond,</l>
+						<l>Tien ducatonnen 't is geen stront.</l>
+						<l>Schoone Izabelle, doet maar open,</l>
+						<l>Ik zweet van 't kruyen en van 't loopen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="10">
+					<head>Tiende tooneel.</head>
+					<stage>Barent, Izabel.</stage>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>ZYt van uw Bruydegom gegroet.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Maar hoe? kruit gy uw eygen goed?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Weet dat al de Advocaaten kruyen,</l>
+						<l>Dat zal ik jou daar na beduyen,</l>
+						<l>Als jy myn wyf zyt, ik jou man,</l>
+						<l>ly weet niet hoe ik kruyen kan,</l>
+						<l>Het zal jou wonder wel behaagen,</l>
+						<l>Want ik zal kruyen, jy zult draagen.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Maar mag ik al jou Huisraat zien?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Verzcker, dat zal voort geschien.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Ontsluit de kist, nou niet te vreezen.</l>
+						<l>Dit schynt de Voddemart te weezen.</l>
+						<l>Maar Bruidegom, wat wil dit zyn?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Dat is de alwaardige Krispyn.</l>
+						<l>Dat is Krispyn vol weetenschappen;</l>
+						<l>Hy leert schoenmaaken, en schoenlappen,</l>
+						<l>Hy's van ons gilde ons Opperheer,</l>
+						<l>Om dat by stal by nagt het leer,</l>
+						<l>Waar van hy daags de schoene maakte,</l>
+						<l>Die dan aan d'armen voeten raakten.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Maar dit gelykt een linne zak.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Wel Bruid, dat is myn Bruigoms pak.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>'k Zag zwarter linnen nooit myn daagen.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Dat doet ik heb het lang gedraagen.</l>
+						<l>Zes maanden loop ik met een hemd,</l>
+						<l>En 't blyft zoo wit....</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Dat is niet vremd.</l>
+						<l>Maar Bruidegom, wat wil dit weezen?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Dat was myn sondaags kleed voor deezen.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Maar wat is dit, wel dat staat schoon?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<stage>Twee Osse Hoorens.</stage>
+						<l>Dat is een Hoorendraagers kroon,</l>
+						<l>Het pluimpje van de koekernoeten,</l>
+						<l>Die men gemeenlyk zoo ziet groeten.</l>
+						<l>'k Vereerze aan jou myn Egtgespan.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Die geeven vrouwen aan haar man.</l>
+						<l>Ik heb die siersel niet van nooden,</l>
+						<l>De mannen draagent 't is de moden.</l>
+						<l>Maar lief daar komt myn Vader aan,</l>
+						<l>Met Oom.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Dan is 't geen tyd te staan.</l>
+						<l>Ik ga, wilt gy nu de oorzaak weeten,</l>
+						<l>'k Heb nog wat Huisraad, t'huys vergeeten,</l>
+						<l>Zeg Vader, ik kom daatlyk weer.</l>
+					</sp>
+				</div>
+				<div type="scene" n="11">
+					<head>Elfde tooneel.</head>
+					<stage>Augestyn, Karlofisi, Jonker.</stage>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>MAar dat verwondert my nog meer,</l>
+						<l>Zoo schielyk, zonder my, wat reden?</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Hoor broer, men moet het yzer smeeden</l>
+						<l>Terwyl het heet is, hy is ryk,</l>
+						<l>Geen Wyze leefter zyns gelyk,</l>
+						<l>Hy spreekt wel honderd vreemde taalen,</l>
+						<l>Jy zulter zelver in verdwaalen.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Mortalibus doctrina est honari omnibus.</l>
+						<l>De weetenschappen zyn meer waard,</l>
+						<l>Als alle schatten op der aard.</l>
+						<l>Daarom verlang ik bove maaten,</l>
+						<l>Om met myn nieuwe Neef te praaten.</l>
+					</sp>
+				</div>
+				<div type="scene" n="12">
+					<head>Twaalfde tooneel.</head>
+					<stage>Augestyn, Karlofisi, Jonker, Barent.</stage>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>DAar komt hy, ziet zyn wyze trêen,</l>
+						<l>Geleerdheyd straalt uyt al zyn lêen.</l>
+						<l>Hy zal u ver de loef af steeken.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Die wys is spreekt, en hoord graag spreeken.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Het zaad van wysheyd, Heer dat leid</l>
+						<l>In de eedele stilswygentheyd.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Heer Broeder, met uw welbehaagen,</l>
+						<l>Laat toe dat wy elkaar wat vraagen,</l>
+						<l>Het spitst de geesten meer en meer,</l>
+						<l>Quid est Justitia, myn Heer?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Hoe zal ik deeze vraag ontleggen?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Het is Regtvaerdigheid te zeggen.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Myn Heer dat is Regtvaerdigheid,</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Heer Neef, gy hebt zeer wel gezeid.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Heer Oom, hoord, nou moet ik wat vraagen.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Vraag wat u lust 't zal my behaagen.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Antwoord my nu eens kort en dra,</l>
+						<l>Verklaar, quid est Justitia.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Justitia est constans &amp; perpetua voluntas</l>
+						<l>Jus suum cuique tribuendi,</l>
+						<l>Te willen elk het zy ne geeven.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Myn Heer, dat hebje klaar beschreeven.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Dat heeft Justiniam gezegt,</l>
+						<l>En van die Wet de grond gelegt,</l>
+						<l>'t Jus, van Justiniam gegeeven,</l>
+						<l>Werd Regt, Regtvaerdigheid beschreeven.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Myn Heer, gy hebt een groote geest.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Dien Imperator is geweest,</l>
+						<l>De instelder van 't regtveerdig leeven,</l>
+						<l>Gelyk in 't Korpus staat geschreeven</l>
+						<l>Door Bartel, Baldes, Tiophiel.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Die Heeren ken ik, by me ziel.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Mesares Jason, Hipolites,</l>
+						<l>Mascordes.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>En Aran en Tires.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Grondleggers zyn dir, zoo elk zegt;</l>
+						<l>Van 't onwaardeerlyk Roomse Regt.</l>
+						<l>Hebt gy de sleutel van Requesten?</l>
+						<l>Van Testamenten en Aresten?</l>
+						<l>Van sessiebrieven klaar en blood?</l>
+						<l>Die hier zoo noodig zyn als brood.</l>
+						<l>Verstaat gy 't woord wel van mandaten?</l>
+						<l>Leest gy het boek wel van Plakaaten?</l>
+						<l>Weet gy van Reformatie wel?</l>
+						<l>Van mandement in Cas de appél?</l>
+						<l>Al deeze sleutels moet gy weeten.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Ik hebze nou juist t' huis vergeeten.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Kent gy grive aminima?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Heer Karlofisi ik zeg ja.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Kent gy garant wel in raau axie?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Ja, maar ik ben niet van die faxie.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Weet gy wel wat Dekreeten zyn?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Kend gy het Wetboek van Krispyn?</l>
+						<l>Dat boek zoo groot in weytse tittelen,</l>
+						<l>Bestaat in twintig Hoofdkapittelen,</l>
+						<l>Waar van dat de eersten alle zes,</l>
+						<l>Beschryven de Spanriem, Snymes,</l>
+						<l>Pikgaaren, Borstlap, en Klopscheenen,</l>
+						<l>Spanelsen, Likhoud, en Wetsteenen.</l>
+						<l>En de andre veertien schryven kloek,</l>
+						<l>Van Nyptang, Handleer, Schorteldock,</l>
+						<l>Van Buigwas, Kurk, Priem, en de meesten,</l>
+						<l>Van Borstels, Elsen en van Leesten.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Gaan wy in huis, laat dat Latyn</l>
+						<l>Myn Heer voor die geleerde zyn.</l>
+						<l>Ik ben al moe van hen te hooren,</l>
+						<l>Ons byzyn mogt hen ook verstooren.</l>
+					</sp>
+				</div>
+				<div type="scene" n="13">
+					<head>Dertiende tooneel.</head>
+					<stage>Karlofisi, Barent.</stage>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>DE boeken van Jastiniaan,</l>
+						<l>Die konnen op den Dam niet staan,</l>
+						<l>Nog op de Beurs, ja ik derf zeggen,</l>
+						<l>Men moest nog eens de Stad uitleggen,</l>
+						<l>En gaan vergrooten Amsterdam.</l>
+						<l>Indien zyn Boekenkas hier kwam,</l>
+						<l>Ik heb daar van met dees myn oogen,</l>
+						<l>Alleen gezien de Gataloge</l>
+						<l>In plano, groot na dat ik gis,</l>
+						<l>Gelyk de Reus in 't Doolhof is.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Krispyn heeft meer en grooter boeken,</l>
+						<l>Elk blad is groot tien schorteldoeken,</l>
+						<l>De Letter O die is zoo groot,</l>
+						<l>Gelyk de heele Weereltkloot,</l>
+						<l>Die op 't Stadthuis staat, en de woorden,</l>
+						<l>Zyn dik en lang als kabelkoorden.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>De boeken van Justiniaan</l>
+						<l>Die hebben ons meer dienst gedaan.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>En dat Krispyn niet had geschreeven,</l>
+						<l>Zoo zoumen zonder laarzen leeven,</l>
+						<l>En loopen zonder muil of schoen</l>
+						<l>Gelyk de Barrevoeters doen.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Justiniaan ay hoord myn reeden,</l>
+						<l>Bragt aan de heele waerelt vreeden.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Zwyg zeg ik als ik spreeken zal,</l>
+						<l>Of ik breng oorlog over al.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Leen naar ik zeggen zal uw ooren,</l>
+						<l>Of gy zult na myn vuisten hooren,</l>
+						<l>O jy zult voelen door myn slaan</l>
+						<l>De wetten van Justiniaan.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Kom ik het Wetboek eens t' ontvouwen</l>
+						<l>Van myn Krispyn, ik zal je touwen,</l>
+						<l>Voel, dat 's een kragtig Argument.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Wel hei, wat drommel scheelt de Vent.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Jy krygt door myn Krispyns vermoogen</l>
+						<l>Een dikke Neus met twee blaauw Oogen.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Ik ben schier dood, myn hoofd, myn gat,</l>
+						<l>Myn arm, myn been, myn neus is plat.</l>
+						<stage>Barent kruipt uit het kleed.</stage>
+						<l>'k Moet echter ook een kansje waagen,</l>
+						<l>Daar, daar en daar, dat zyn eerst slaagen.</l>
+						<l>Justinianus doet jou dat;</l>
+						<l>Veeg nou aan jou Krispijn je gat.</l>
+						<l>Sta op, sta op, ik schenk je 't leeven,</l>
+						<l>Ik zal jou myn genade geeven,</l>
+						<l>Myn gramschap is gedaan, ik zweer.</l>
+						<l>Maar hoe? hy heeft geen asem meer.</l>
+						<l>Hier is geen mensch, 'k begin te vreezen,</l>
+						<l>Het zal gewis de duivel weezen.</l>
+						<l>Och Broeder kom, myn angst is groot.</l>
+						<l>Kom hier de duivel die is dood.</l>
+						<l>Of 't is een geest, dat wil ik zweeren.</l>
+						<l>Of nachtgespook in mensche kleeren.</l>
+						<l>Myn hert begint te beeven, ik</l>
+						<l>Word angstig, ach! ik sterf van schrik;</l>
+						<l>Want zoo 't een geest is och och lacy,</l>
+						<l>Zoo komt hy hier tot myn Temtacy.</l>
+					</sp>
+				</div>
+				<div type="scene" n="14">
+					<head>Veertiende tooneel.</head>
+					<stage>Augestyn, Karlofisi.</stage>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>MAar heeft het vraagen wel gegaan?</l>
+						<l>Spreekt hy niet alderhande Taalen?</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Ay laat ik eerst myn azem haalen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="15">
+					<head>Vyftiende Tooneel.</head>
+					<stage>Augestyn, Karlofisi, Barent.</stage>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Ik kruip weer aardig met een snap,</l>
+						<l>Gelyk te vooren in myn Kap.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Is hy niet waardig hoog gepreezen!</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Die Vent dat zal de Duivel weezen,</l>
+						<l>Ik sloeg hem tot by nederviel;</l>
+						<l>En ziet toen had hy lyf nog ziel.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Ben ik een Geest wat moogje droomen?</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Men zal jou hangen gy moogt schroomen.</l>
+						<l>Men weet voor tovenaars hier raad.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Dat 's mis, ik ben een Advocaat,</l>
+						<l>Ik ga met goe Commissi kaapen.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Daar komt de Schout, met al zyn knaapen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="16">
+					<head>Zestiende tooneel.</head>
+					<stage>Augestyn, Karlofisi, Schout, Dert, en twee stommen.</stage>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Ter goeder uur Heer Officier,</l>
+						<l>Brengt tog die tovenaar van hier,</l>
+						<l>En doet hem op den Dam verbranden.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Kom vat hem Meyndert, by de handen.</l>
+						<l>Geef u gevangen op myn woord,</l>
+						<l>Geef u gevangen zeg ik voort.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Daar staat hy nou ik zag nooit slegter,</l>
+						<l>Zoo schrikt de Duivel voor de Regter.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Men knevelt hem ter deeg.</l>
+					</sp>
+					<sp who="#meindert">
+						<speaker>Meindert.</speaker>
+						<l>Ik zal</l>
+						<l>Maar Heer wy hebben nimmendal.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Hy is ons nochtans niet ontloopen.</l>
+					</sp>
+					<sp who="#meindert">
+						<speaker>Meindert.</speaker>
+						<l>Myn Heer hy is dit kleed ontkroopen.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Ontkroopen, hoe is hy er uit?</l>
+						<l>Ja zeker, ô die looze guit.</l>
+						<l>Kom mannen, wakker niet te draalen,</l>
+						<l>Men moet de Duivel agter haalen.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Kom zoeken wy in deeze straat,</l>
+						<l>Men moet hem vangen 't gaat zoo 't gaat.</l>
+					</sp>
+				</div>
+				<div type="scene" n="17">
+					<head>Zeventiende tooneel.</head>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>ZY willen my voor promoveren</l>
+						<l>Tot Advocaat de galg vereeren.</l>
+						<l>'k Wensch Jonker Blyhert met zyn gat,</l>
+						<l>Eens op een scharpen heekel zat.</l>
+						<l>Maar zagt ik moet hier niet lang klappen</l>
+						<l>Onnut, ik moet weer schoene lappen.</l>
+						<l>Hy zingt en lapt schoenen.</l>
+						<l>Weet dat Haagse Barent haat,</l>
+						<l>Zoo te speelen Advocaat.</l>
+						<l>'k Wens dat Jonkers gat,</l>
+						<l>O die Rebel,</l>
+						<l>Op een hekel,</l>
+						<l>'k Wens dat Jonkers gat,</l>
+						<l>Op een scharpen heekel zat.</l>
+					</sp>
+				</div>
+				<div type="scene" n="18">
+					<head>Achtiende tooneel.</head>
+					<stage>Augestyn, Karlofisi, Barent.</stage>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Maar Barent buur heb jy hier ook</l>
+						<l>Gezien, een Geest, of Nagtgespook</l>
+						<l>In deeze straat te loopen waaren?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>'k Weet Van geen Geest nog Tovenaaren.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Dan was 't de Duivel.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Ja misschien.</l>
+						<l>De Duivel laat hem niet meer zien.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Hoe, is dit Barent buur, wel deeze,</l>
+						<l>Zal de Advocaat Barnardo weezen,</l>
+						<l>Wel Heer Barnardo zit jy hier?</l>
+						<l>Heer Schout, Heer Schout, Heer Officier.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Loop laat de Schout zyn Besje zoenen.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Daar zit de duyvel, hy lapt schoenen,</l>
+						<l>Nou weet ik zeker en 't is waar,</l>
+						<l>De duyvel is een Konstenaar.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Wat mag die ouwe gek al snappen;</l>
+						<l>De Duyvel kan geen schoenen lappen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="19">
+					<head>Negentiende toonel.</head>
+					<stage>Barent, Augestyn, Karlofisi, Schout, Meindert, gevolg.</stage>
+					<sp who="#karlofisi">
+						<speaker>Kalofisi.</speaker>
+						<l>DAar zit de Toovenaar ik zweer.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Wel ik bezweer jou tien maal meer,</l>
+						<l>Ben ik een Geeft, wel wagt jou handen,</l>
+						<l>Of anders zal ik die verbranden.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Ik ben myn Heer den Officier.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>En ik ben Haagse Barent hier.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Kom Barent geef jou voort gevangen.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Bruy hier van daan en laatje hangen.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Jy leeft jou Buuren tot verdriet.</l>
+						<l>Kom vat hem.</l>
+					</sp>
+					<sp who="#meindert">
+						<speaker>Meindert.</speaker>
+						<l>Heer ik durf niet.</l>
+						<l>'t Was Haagse Barent wel voor deezen,</l>
+						<l>'t Zal nou de Droes in spesie weezen.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Kalofisi.</speaker>
+						<l>Och gryp hem, 't is een Tovenaar.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Dat liegje, voelje dat niet klaar.</l>
+						<l>Jou ouwe gek, voel, dat 's geen loogen,</l>
+						<l>Wat tover Riemen al vermoogen.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Vat Meindert, vat hem houd hem vast,</l>
+					</sp>
+					<sp who="#meindert">
+						<speaker>Meindert.</speaker>
+						<l>Hy 's weg.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Men volg dien stouten gast.</l>
+					</sp>
+				</div>
+				<div type="scene" n="20">
+					<head>Twintigste tooneel.</head>
+					<stage>Izabel, Jonker, Barent.</stage>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>My dunkt ik heb gerugt vernomen.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>'k Zie Haagse Barent ginder koomen.</l>
+						<l>Hoe gaan de zaaken, Barent buur?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Zoo t' Advocaaten dat valt zuur.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>My dunkt daar hoor ik weer gerugten.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Och Haagse Barent die moet vlugren.</l>
+						<l>Ik weet niet meer als deeze list,</l>
+						<l>Te kruypen in myn eygen kist.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout, van binnen.</speaker>
+						<l>Men neem den Tovenaar gevangen.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent, uit de Kist.</speaker>
+						<l>Eerst hebben en dan op te hangen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="21">
+					<head>Eenentwintigste tooneel.</head>
+					<stage>Jonker, Izabel, Schout, Meindert, Augestyn, Karlofisi, Barent,
+						Gevolg.</stage>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>HY moet hier zyn, elk toont zyn plicht,</l>
+						<l>Of hy betovert my 't gezigt:</l>
+						<l>Zoekt wakker, ziet wel uit uw oogen,</l>
+						<l>Ik ben nooit meer als nu bedroogen.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent. van achter de Seherm.</speaker>
+						<l>Hoe zoekje hier de Tovenaar?</l>
+						<l>Kom voelt hem daar, en daar, en daar.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Daar 's weer de Tovenaar verscheenen,</l>
+						<l>Men vat hem aan.</l>
+					</sp>
+					<sp who="#meindert">
+						<speaker>Meindert.</speaker>
+						<l>Hy is verdweenen.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Komt mannen zoek hem over al,</l>
+						<l>'k Zweer hy ons niet ontloopen zal.</l>
+					</sp>
+				</div>
+				<div type="scene" n="22">
+					<head>Tweeentwintigste tooneel.</head>
+					<stage>Jonker, Izabel, Augestyn, Karlofisi, Barent.</stage>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>IK ben ontstelt, die razernyen,</l>
+						<l>Heer Broeder, moet ik om u lyen.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Wel Barent wel jy maakt het raar.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout, van binnen.</speaker>
+						<l>Men vat, men vangt den Tovenaar.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Hiet jy dat raar, ik ben vol schroomen,</l>
+						<l>Och, och! ik zie de Schout weer komen.</l>
+						<l>Ik hou my noch aan de eerste list.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Heer Schout hy is in deeze kist.</l>
+					</sp>
+				</div>
+				<div type="scene" n="23">
+					<head>Drieentwintigste tooneel.</head>
+					<stage>Schout, Meindert, Augestyn, Karlofisi, Jonker, Izabel.</stage>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>DAn is hy in zyn dood gekroopen.</l>
+						<l>Kom Meindert maakde Kist voort open,</l>
+					</sp>
+					<sp who="#meindert">
+						<speaker>Meindert.</speaker>
+						<l>Ik zal, maar och ik schrik en beef,</l>
+						<l>Hy isser niet zoo waar ik leef.</l>
+						<l>Het zal gewis de Duivel weezen.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Wat duivel staat de gek te vreezen.</l>
+						<l>Ik heb de Tovery verstaan,</l>
+						<l>De Kist kan daar ook open gaan,</l>
+						<l>Kom zet hem zoo, daar is hy open.</l>
+						<l>Hy zal ons dan niet licht ontloopen.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent, van binnen.</speaker>
+						<l>Men vangt den Tovenaar, gryp aan</l>
+						<l>De Schelm zal ons nu niet ontgaan.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Kom Mannen volg my onverleegen,</l>
+						<l>Neem elk braaf in de vuist uw Degen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="24">
+					<head>Vierentwintigste tooneel.</head>
+					<stage>Augestyn, Karlofisi, Jonker, Izabel, Barent.</stage>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>IK kruip weer in myn voorig gat.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Heer Officier hy is al vat.</l>
+						<l>Hy is weer in de Kist gedooken.</l>
+					</sp>
+				</div>
+				<div type="scene" n="25">
+					<head>Vyfentwintigste tooneel.</head>
+					<stage>Augestyn, Karlofisi, Jonker, Yzabel. Schout, Meindert, Barent, en
+						gevolg.</stage>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>DAn is zyn vonnis uitgesprooken.</l>
+						<l>Bezet de Kist met alle man.</l>
+						<l>Kom Meindert gryp hem nou maar an.</l>
+						<l>Doe open, vat hem by de lappen.</l>
+					</sp>
+					<sp who="#meindert">
+						<speaker>Meindert.</speaker>
+						<l>Myn Heer hy zal my niet ontsnappen.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Zyn Tooveryen hebben uit.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Maak op de Kist.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Daar staat de Guyt.</l>
+						<l>Heer Schout, wil deeze Boef niet spaaren.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Verbrand hem als de Toovenaaren.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>'k Zeg hou jou handen van me gat,</l>
+						<l>Of anders krygje, voelje dat?</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Stap uit de Kist, ik wil jou zweeren,</l>
+						<l>Ik zal jou potsen jou verleeren.</l>
+						<l>Heb jy jou Paternosters klaar?</l>
+						<l>Komt Mannen grypt hem by het haar.</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Gemak, wilt al die moeiten spaaren</l>
+						<l>Heer Karlofisi, wil bedaaren,</l>
+						<l>En gy Heer Schout, war gy hier ziet</l>
+						<l>Gebeuren, is door my geschied.</l>
+						<l>Dat 's Haagse Barent, die voor deezen</l>
+						<l>Uw Schoenelapper pleegt te weezen,</l>
+						<l>Heer Augestyn, die heb ik nou</l>
+						<l>Gehuurt, op dat hy een maal jou,</l>
+						<l>Door zyne list, en snakeryen</l>
+						<l>Zou van uw zotte zin bevryen,</l>
+						<l>Van dat ge uw Dochter, die daar staat;</l>
+						<l>Wilt dwingen aan een Advocaat.</l>
+						<l>Nu is u middagklaar gebleeken,</l>
+						<l>Wat gekken datter konnen steeken</l>
+						<l>In 't Advocaate kleed, dat 's klaar.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Die waarheid Heer, is al te waar.</l>
+						<l>Maar waarom hebt gy dit verzonnen,</l>
+						<l>En deeze zotterny begonnen?</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Om dat ik Jonker Blyhert ben.</l>
+						<l>Daar is uw Brief.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Wel, ik beken</l>
+						<l>Ik heb uw deeze Brief geschreeven,</l>
+						<l>En zal u ook myn Dochter geeven.</l>
+						<l>Myn zinnen zyn heel omgekeert,</l>
+						<l>Uw schranderheid heeft my geleert,</l>
+						<l>Geen Advocaat zal my meer trekken,</l>
+						<l>Want onder haar zyn ook veel gekken.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>Wat zegt gy Breeder Augestyn?</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Hoord gy zyt gek, en die zoo zyn.</l>
+						<l>Nu zult gy Jonker Blyhert trouwen.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Zoo gy uw woord maar komt te houwen.</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Hy heeft myn woord, myn hert, myn schrift.</l>
+					</sp>
+					<sp who="#izabel">
+						<speaker>Izabel.</speaker>
+						<l>Heb dank Heer Vader voor die gift.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Wie zal myn moeiten my betaalen?</l>
+					</sp>
+					<sp who="#augestyn">
+						<speaker>Augestyn.</speaker>
+						<l>Kom in ik zal u wel onthaalen?</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Heer Karlofisi, dit 's verdraait,</l>
+						<l>Gy staat als ik, wy zyn bekaait.</l>
+						<l>Veeg vry jou gat aan al je boeken.</l>
+					</sp>
+					<sp who="#karlofisi">
+						<speaker>Karlofisi.</speaker>
+						<l>'k Zou de geleertheid wel vervloeken,</l>
+					</sp>
+					<sp who="#jonker-blyhert">
+						<speaker>Jonker.</speaker>
+						<l>Wel Haagse Barent goeje knegt,</l>
+						<l>Daar is uw loon.</l>
+					</sp>
+					<sp who="#haagse-barent">
+						<speaker>Barent.</speaker>
+						<l>Wel Heer dat 's regt,</l>
+						<l>Nu weet ik ook dat Advocaaten,</l>
+						<l>Hun geld verdienen maar met praaten.</l>
+					</sp>
+					<p>EINDE.</p>
+						<figure> </figure>
+				</div>
+			</div>
+		</body>
+	</text>
+
+</TEI>
