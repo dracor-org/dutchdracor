@@ -1,0 +1,2988 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000101" xml:lang="dut">
+
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">De dood van Pompeus</title>
+				<author>
+					<persName>
+						<forename>Pierre</forename>
+						<surname>Corneille</surname>
+					</persName>
+					<idno type="wikidata">Q747</idno>
+				</author>
+				<author>
+					<persName>
+						<forename>Govert</forename>
+						<surname>Bidloo</surname>
+					</persName>
+					<idno type="wikidata">Q1397888</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL">https://www.dbnl.org/tekst/corn001dood01_01/</idno>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Pierre Corneille, De dood van Pompeus (trans. Govert Bidloo). Amsterdam:
+						Jacob Lescailje (erven), 1684.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="UNKNOWN" xml:id="aegypte">
+						<persName>AEgypte</persName>
+					</person>
+					<person sex="MALE" xml:id="achillas">
+						<persName>Achillas</persName>
+					</person>
+					<person sex="MALE" xml:id="achoreus">
+						<persName>Achoreus</persName>
+					</person>
+					<person sex="FEMALE" xml:id="charmione">
+						<persName>Charmione</persName>
+					</person>
+					<person sex="FEMALE" xml:id="cleopatra">
+						<persName>Cleopatra</persName>
+					</person>
+					<person sex="MALE" xml:id="julius-caezar">
+						<persName>Julius Caezar</persName>
+					</person>
+					<person sex="FEMALE" xml:id="kornelia">
+						<persName>Kornelia</persName>
+					</person>
+					<person sex="MALE" xml:id="lepidus">
+						<persName>Lepidus</persName>
+					</person>
+					<person sex="MALE" xml:id="marcus-anthonius">
+						<persName>Marcus Anthonius</persName>
+					</person>
+					<person sex="MALE" xml:id="philippus">
+						<persName>Philippus</persName>
+					</person>
+					<person sex="MALE" xml:id="photinus">
+						<persName>Photinus</persName>
+					</person>
+					<person sex="MALE" xml:id="ptolomeus">
+						<persName>Ptolomeus</persName>
+					</person>
+					<person sex="UNKNOWN" xml:id="rome">
+						<persName>Rome</persName>
+					</person>
+					<person sex="MALE" xml:id="septimius">
+						<persName>Septimius</persName>
+					</person>
+					<person sex="UNKNOWN" xml:id="staatkunde">
+						<persName>Staatkunde</persName>
+					</person>
+					<person sex="UNKNOWN" xml:id="wysheid">
+						<persName>Wysheid</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-09-10">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1684">
+				<desc/>
+			</event>
+			<event type="premiere" when="1684">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart>DE DOOD van POMPEUS, TREURSPEL.</titlePart>
+				<titlePart>Uit het fransch van den heer Corneille.</titlePart>
+				<titlePart>
+					<figure/>
+				</titlePart>
+				<titlePart>t'AMSTERDAM,</titlePart>
+				<titlePart>By de Erfgenamen van Jacob Lescaille, op de boek van de Vischpoort,
+					1684.</titlePart>
+				<titlePart>Met Privilegie.</titlePart>
+
+			</docTitle>
+			<div type="appendix">
+
+				<head>Copye van de privilegie.</head>
+				<p>DE Staten van Holland ende Westvrieslandt doen te weten. Alsoo Ons vertoont is by
+					de tegenwoordige Regenten van de Schouwburgh tot Amsterdam, Dat sy Supplianten
+					sedert eenige Jaren herwaarts met hunne goede vrinden hadden gemaakt en ten
+					Toonele gevoert verscheyden werken, soo van Treurtpeelen, Blyspeelen als
+					Kluchten, welke sy lieden nu geerne met den druk gemeen wilden maken; doch
+					gemerkt dat dese werken door het nadrukken van anderen, veel van hun luyster,
+					soo in Taal als Spelkonst souden komen te verliesen, en alsoo sy Supplianten hen
+					berooft sonden sien van hun by sonder ooghwit om de Nederduytsche Taal en de
+					Dichtkonst voort te serten, soo vonden sy hen genoodsaakt, om daar inne te
+					voorfien, ende hen te keeren tot Ons, onderdanigh versoekende, dat Wy omme
+					redenen voorsz. de Supplianten geliefden te verleenen Octroy ofte Privilegie,
+					omme alle hunne Werken reedts gemaekt, ende noch in 't licht te brengen, den
+					tijdt van vijftien Jaren alleen te mogen drukken en verkoopen of doen drukken en
+					verkoopen, met verbodt van alle anderen op seekeren hooge peene daar toe by Ons
+					te stellen, ende voorts in communi forma. Soo is 't dat Wy de Sake en 't Versoek
+					voorsz. overgemerkt hebbende, ende genegen wesende ter bede van de Supplianten,
+					uyt Onse rechte wetenschap, Souveraine macht ende authoriteyt deselve
+					Supplianten geconsenteert, geaccordeert ende geoctroyeert hebben, consenteren,
+					accorderen ende octroyeren misdesen, dat sy geduurende den tijdt van vijftien
+					eerst achter een volgende Jaren de voorsz. Werken die reeds gedrukt zijn, ende
+					die van tydt tot tydt door haar gemaakt ende in 't ligt gebragt sullen werden,
+					binnen den voorsz. Onsen Lande alleen sullen mogen drukken, doen drukken,
+					nytgeven en verkoopen. Verbiedende daarom allen ende eenen ygesyken deselve
+					Werken naar te drukken, ofte elders naargedrukt binnen den selve Onsen Lande te
+					brengen, uyt te geven ofte te verkoopen, op de verbeurte van alle de
+					naargedrukte, ingebragte ofte verkogte Exemplaren, ende een boete van drie
+					hondert guldens daar en boven te verbeuren, te appliceren een derde part voor
+					den Officier die de calange doen sal, een derde part voor den Armen der Plaatse
+					daar het casus voorvallen sal, ende het resterende derde part voor den
+					Supplianten. Alles in dien verstande, dat wy de Supplianten met desen Onsen
+					Octroye alleen willende gratificeren tot verhoedinge van hare schade door het
+					nadrukken van de voorsz. werken, daar door im geenige deelen verstaan, den
+					inhoude van dien te authoriseren ofte te advoueren, ende veel min de selve onder
+					Onse protectie ende bescherminge, eenig meerder credit, aensien ofte reputatie
+					te geven, nemaer de Supplianten in cas daar in yets onbehoorlyx soude mogen
+					influeren, alle het selve tot haten laste sullen gehouden weten te
+					verantwoorden; tot dien eyude wel expresselijk begerende, dat by aldien sy desen
+					Onsen Octroye voor de selve Werken sullen willen stellen daar van gene
+					geabbrevieerde ofte gecontraheerde mentie sullen mogen maken, nemaar gehouden
+					sullen wesen het selve Octroy in 't geheel ende sonder eenige Omissie daar voor
+					te drukken ofte te doen drukken, ende dat sy gehouden sullen zijn een exemplaar
+					van alle de voorsz. werken, gebonden ende wel geconditioneert te brengen in de
+					Bibliotheecq van Onse Universiteyt tot Leyden, ende daer van behoorlyk te doen
+					blyken. Alles op poene van het effect van dien te verliesen. Ende ten eynde de
+					Supplianten desen Onsen consente Octroye mogen genieten als naar behooren:
+					Lasten wy allen ende eenen ygelyken die 't aangaan mag, dat sy de Supplianten
+					van den inhoude van desen doen, laten en gedogen, rustelyk en volkomentlyk
+					genieten, en cesserende alle beletten ter contrarie. Gedaan in den Hage onder
+					Onsen grooten Zegele hier aan doen hangen den xix Septembr. in 't Jaar onses
+					Heeten en Zaligmakers duysent ses hondert vier en tachtigh.</p>
+				<p>G. FAGEL.</p>
+				<p>Ter Ordonnantie van de Staten</p>
+				<p>SIMON van BEAUMONT.</p>
+				<p>De tegenwoordige Regenten van de Schouwburg, hebben het recht der bovenstaande
+					Privilegie, voor dit Treurspel, vergund aan de Erfgenaamen van Jacob
+					Lescailje.</p>
+				<p>den 6 December, 1684.</p>
+			</div>
+			<castList>
+				<head>Vertooners</head>
+				<castItem corresp="#julius-caezar">
+					<role>Julius Caezar.</role>
+				</castItem>
+				<castItem corresp="#marcus-anthonius">
+					<role>Marcus Anthonius.</role>
+				</castItem>
+				<castItem corresp="#lepidus">
+					<role>Lepidus.</role>
+				</castItem>
+				<castItem corresp="#kornelia">
+					<role>Kornelia, Weduwe van Pompeus.</role>
+				</castItem>
+				<castItem corresp="#ptolomeus">
+					<role>Ptolomeus, Koning van AEgypten.</role>
+				</castItem>
+				<castItem corresp="#cleopatra">
+					<role>Cleopatra, Suster van Ptolomeus.</role>
+				</castItem>
+				<castItem corresp="#photinus">
+					<role>Photinus, Opperste der AEgyptische Raaden.</role>
+				</castItem>
+				<castItem corresp="#achillas">
+					<role>Achillas, Algemeen stedehouder der legers van de Koning van
+						AEgypte.</role>
+				</castItem>
+				<castItem corresp="#septimius">
+					<role>Septimius, Romeins hoofdman, in dienst van de Koning van AEgypte.</role>
+				</castItem>
+				<castItem corresp="#charmione">
+					<role>Charmione, Staat Juffer van Cleopatra.</role>
+				</castItem>
+				<castItem corresp="#achoreus">
+					<role>Achoreus, Lei jonker van Cleopatra.</role>
+				</castItem>
+				<castItem corresp="#philippus">
+					<role>Philippus, Vry gemaakte slaaf van Pompeus. <lb/>Eenige zwygende Roomsche
+						Soldaaten. <lb/>Eenige zwygende AEgyptenaren.</role>
+				</castItem>
+
+				<p>Het Tooneel is binnen Alexandrijen, in het Koninglijk Paleis van Ptolomeus.</p>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<head>De dood van Pompeus.</head>
+				<head>Eerste bedryf.</head>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+					<stage>Ptolomeus, Photinus, Achillas, Septimius.</stage>
+					<sp who="#ptolomeus">
+						<speaker>Petolomeus</speaker>
+						<l>HEt lot verklaard zich, wyl 't onz heden doed verstaan,</l>
+						<l>Hoe 't met den Schoonzoon, en Schoonvader is vergaan,</l>
+						<l>Toen 't Godendom verbaast gesplitst scheen door krakkeelen,</l>
+						<l>Deed hen Pharzaliën in eenen uitzlag deelen,</l>
+						<l>Die niemand van hen giste: al 't water 't welk met bloed</l>
+						<l>Geverfd, een sneller drift gevoeld in zijne vloed,</l>
+						<l>Door vriendemoorders, al de waapenen verbrooken,</l>
+						<l>Al de Adelaars op 't veld, met doodsche pest ootstooken,</l>
+						<l>De gantsche waagenburg zoo deerelijk vernield!</l>
+						<l>Die heele heuvelen van dooden, die ontzield</l>
+						<l>Haare uiterste eer ontbreekt, staâg dwingen hen te wreeken,</l>
+						<l>Wier lyken half verrot, met stank de lucht ontsteeken,</l>
+						<l>Die met een nieuwe krijg de leevende bevecht.</l>
+						<l>Zijn naare teekenen, waar naar het hooge recht</l>
+						<l>Des degens, Caesars zaak doed als rechtvaardig roemen</l>
+						<l>En held Pompeus, die geslagen is, verdoemen.</l>
+						<l>De Veldheer, waard beklaagd, en die de beste zy</l>
+						<l>Gekooren had, die zijn geluk de dwinglandy</l>
+						<l>Van 't onluk overgeeft, zal de nakomelingen,</l>
+						<l>Een heerlijk voorbeeld zijn van veel veranderingen,</l>
+						<l>Hy vlucht, hy, die altijd als overwinnaar quam,</l>
+						<l>De voorspoed naar de maat van zijne degen nam;</l>
+						<l>Hy zoekt in onze stad, en havenen, en muuren,</l>
+						<l>Een schuilplaats, die de magt van Caezar kan verduuren.</l>
+						<l>Die trotze Vluchter, zoekt de schuilplaats, die wel eer</l>
+						<l>De Goden koozen, tot der reuzen tegenweer.</l>
+						<l>Hy meend, dat weer dit land, in spyt des krijgs, voor deezen</l>
+						<l>De Hemel hoedende, zal tot bescherming weezen</l>
+						<l>Der Aarde, en eindelijk, dat onz beroemde land,</l>
+						<l>Meê deel zal neemen in zijn wanhoop, en de hand</l>
+						<l>Verleenen, om de val van 't Aardryk te onderschraagen.</l>
+						<l>Pompeus komt alhier 't geval des waerelds waagen,</l>
+						<l>Hy wil, das onz' AEgypte, in wonderwerk vermaard,</l>
+						<l>Hem in zijn vryheid sterkke, of dood, vergunne de aard.</l>
+						<l>Dat die zijn, roem verheffe, of met hem neêr mag storten.</l>
+						<l>Dit is 't, mijn vrinden, 't geen onz raadslot moet bekorten.</l>
+						<l>Hy brengt in deeze plaats, de vrede, of oorlogstroon</l>
+						<l>Gaf hy voor heenen aan mijn Vader deeze kroon,</l>
+						<l>Hy steld my in gevaar, heeft hy my 't rijk gegeeven,</l>
+						<l>Hy doed het nu weerom, als in een waagschaal, beeven</l>
+						<l>Men moet hem straffen, of ontfangen: zyne dood</l>
+						<l>Verhaasten, of zyn lót verweeren in de nood.</l>
+						<l>'t Een schynd onzeeker, en het ander zeer onwaardig,</l>
+						<l>Voor my, die onderwyl vast vrees, of onrechtvaardig</l>
+						<l>Of ongelukkig my te vinden, eindlykal</l>
+						<l>Wat ik begin, ik zie myn vyandlyk, geval,</l>
+						<l>Steld my of veel gevaar, of groote schand voor de oogen.</l>
+						<l>Ik zal verkiezen, maar gy zult my raaden mogen,</l>
+						<l>Tot welk een keur myn hert moet billyk overslaan.</l>
+						<l>Het raakt Pompeus, en deeze eer zal aan onz staan;</l>
+						<l>Of Caezars Zegepraal te stuiten, of te sterken,</l>
+						<l>Ik, ondertusschen, die het oorbaarste uit moet werken,</l>
+						<l>Kan zeggen, dat noit vorst, in zulk een zaak van staat,</l>
+						<l>Zoo zeer gedwongen wierd, te zien naar goede raad.</l>
+					</sp>
+					<sp who="#photinus">
+						<speaker>Photinus.</speaker>
+						<l>Terwijl, ô Vorst, de kling, 't geschil reeds kon beslissen,</l>
+						<l>Zijn recht, en billikheid maar yd'le beeldenissen.</l>
+						<l>Die zich in dat geval, rechtvaardig toonen wil,</l>
+						<l>Staa niet op reden; maar op het geweld slechts stil.</l>
+						<l>Bezie u kracht, bezie Pompeus, wiens vermoogen</l>
+						<l>Met zijn geluk gelijk geveld is, en bedroogen.</l>
+						<l>Hy vlucht voor Caezar niet alleen, in deeze staat,</l>
+						<l>Hy vlucht ook voor 't verwijt, en de oogen van de Raad.</l>
+						<l>Waar af het meerendeel hem op het hert zal drukken,</l>
+						<l>Het jammerlijk verlies, en al 't verongelukken</l>
+						<l>Der Helden, die ten prooije, aan gieren op het veld</l>
+						<l>Gelaaten zijn, hy vlucht voor al 't romeinsch geweld;</l>
+						<l>Voor 't reeds verloore Roome, en slaat hen in de keeten,</l>
+						<l>Die zijne nederlaag dit hebben dank te weeten.</l>
+						<l>Hy vlucht de wanhoop van de vorsten, en 't gemeen,</l>
+						<l>'t Welk, om 't vergooten bloed der buuren niet te vreên,</l>
+						<l>Zich wreeken wil van 't Land, 't welk eer heeft vol geftooken</l>
+						<l>Van schatten, en van volk, nu leeg: de staf verbrooken</l>
+						<l>De troon tot asch verbrand, hy, de oorzaak van 't gewoel,</l>
+						<l>En aller ongeval, staat yders wraak ten doel.</l>
+						<l>Hy wil de Waereld met zijn val verbryzeld, vlieden;</l>
+						<l>Maar, onder zijne val de Waereld noch gebieden.</l>
+						<l>Zult gy alleenig hem beschermen voor de magt</l>
+						<l>Van zoo veel vyanden? 't geluk, zoo hoog geacht,</l>
+						<l>Bestond alleen in hem, hy had voor zich maar krachten,</l>
+						<l>En nu hy valt, moet gy die val niet moeilijk achten.</l>
+						<l>Zult gy de zwaare last,daar Roome zelf voor bukt,</l>
+						<l>Dan draagen? eene last die de Aard verplet, en drukt.</l>
+						<l>Voor wien de groote held Pompeus zelf moest buigen.</l>
+						<l>Wanneer men hem, wien 't lot zijne ongunst wil betuigen,</l>
+						<l>De hand bied, en 't oprecht wil weezen, werd men vaak</l>
+						<l>Oan die getrouwigheid, gesmolten in de wraak</l>
+						<l>Der tegenstanders, en men boet het nood'loos strijen</l>
+						<l>Voor de onderdrukte met een straf, als zy, te lijen</l>
+						<l>Die averechts gedraaid, u voelen doed uw loon.</l>
+						<l>O Vorst! haal toch den krijg niet op uw land en troon.</l>
+						<l>Voeg u by hen wien 't lot en Goden gunst toedraagen,</l>
+						<l>En zonder van geweld, of ongelijk te klaagen,</l>
+						<l>Prijs al het doen der Goôn, terwijl hun magt alleen,</l>
+						<l>Het hooge recht heeft, van verheffen, en vertreên.</l>
+						<l>Gehoorzaam hun besluit, en eisch van hen geen reeden,</l>
+						<l>Volg hun bevel, en help de onlukkige vertreeden.</l>
+						<l>Hy, van der Goden gunst nu over al beroofd,</l>
+						<l>Zoekt maar het eind der haat te laaden op uw hoofd.</l>
+						<l>Zijn hoofd ten val gedoemd, en nauw den slag ontweeken,</l>
+						<l>Schijnt in zijn val alleen een metgezel te ontbreeken.</l>
+						<l>Het is een misdaad, dat hy hier een schuilplaats zoekt.</l>
+						<l>Het toond zijne achting niet, wijl u zijn haat vervloekt.</l>
+						<l>Hy zoekt uw havens, en zal zeeker u bederven,</l>
+						<l>En gy kund twijff'len of hy ook verdiend te sterven!</l>
+						<l>Had hy onz' wenschen, en verwachten braaf voldaan,</l>
+						<l>En zag men in zijn vloot zyn zegeteekens staan.</l>
+						<l>Dan had hy niet als vreugd, en welkoom hier te wachten;</l>
+						<l>Maar, nu verwonnen gun hy 't Godendom zijn klagten.</l>
+						<l>Ik leg het niet op hem, maar op zijn ongeluk.</l>
+						<l>K volvoer des Hemels wil, maar tot mijn eigen druk!</l>
+						<l>En met dezelve kling die Caezar zou bezuuren</l>
+						<l>Verkort ik zuchtende zijne ongelukkige uuren.</l>
+						<l>Kort om, gy kund geenzints verzeekeren uw hoofd,</l>
+						<l>Noch 't onweêr stillen, als gy 't zijn' hem niet beroofd,</l>
+						<l>Gerechtigheid is voor geen deugd van staat te stellen.</l>
+						<l>Tot goed, of quaad doen, naar 't de tijd eischt, overhellen,</l>
+						<l>Is geenzints oorzaak van het krenken van gezach.</l>
+						<l>Het vorst'lijk recht maakt van verschoonen geen gewag,</l>
+						<l>Het bloode recht verdelgt het heerschen, moet men vreezen</l>
+						<l>Voor alle onbillikheid, wie zal daar vry van weezen?</l>
+						<l>Die, met volkomen magt, alle and'ren wil gebiên,</l>
+						<l>Moet alles, zelf de wet verbreeken, niets ontzien.</l>
+						<l>De deugd, die hem bederft, gelijk eene ondeugd, haaten.</l>
+						<l>Zich niet in 't onderzoek van misbedrijven laaten,</l>
+						<l>Maar, vliegen in den arm, elk die hem helpen kan</l>
+						<l>Dit 's mijn gevoelen; licht zal u Achillas van</l>
+						<l>Een andre grond van staat, met deeze Heer iets zeggen,</l>
+						<l>Elk heeft zijn meening, hoe de haare dan mag leggen,</l>
+						<l>Die de overwonne straft, vreest den ver winnaar niet.</l>
+					</sp>
+					<sp who="#achillas">
+						<speaker>Achillas.</speaker>
+						<l>Photinus spreekt zeer wel, Heer Koning, maar al ziet</l>
+						<l>Elk een met my, zich in 't geluk, en moed bedroogen</l>
+						<l>Van deeze Held, nochtans 'k ben met zijn bloed bewoogen.</l>
+						<l>En zie 't voor dierbaar aan, de Goden droegen 't meê</l>
+						<l>Hunne achting toe, als 't volk op 't veld dien neêrlaag leê.</l>
+						<l>Niet dat ik om den staat, dat stuk niet wil gehengen:</l>
+						<l>Maar, is 't niet noodig, 't is niet wettig bloed te plengen,</l>
+						<l>Waar toe is 't noodig dat men in die strafheid leeft?</l>
+						<l>Wie vreest hem, aan wiens zy hy zich gehouden heeft,</l>
+						<l>Gy zijt onzijdig, en kund ook onzijdig leeven,</l>
+						<l>Aanbid men Caezar, gy kund hem die pligt ook geeven.</l>
+						<l>Maar schoon uw wierook hem onsterf'lijke eer bereid,</l>
+						<l>Dit offer was te groot naar 't altaar aangeleid.</l>
+						<l>Door 't offren van zijn hoofd, aan 't Hoofd der krijgs, gelukken,</l>
+						<l>Zoud gy te zwarte een vlek op uwe naam doen drukken.</l>
+						<l>Het is genoech dat gy hem thans uw hulp ontzegt,</l>
+						<l>En niet ter neder werpt, indien gy 't dus belegt,</l>
+						<l>Zal niemand op uw doen iets te berispen weeten,</l>
+						<l>Gy zijt hem veel verpligt; hoe heeft hy zich gequeeten,</l>
+						<l>Toen Rome, op zijne raad, uw Vader weder gaf</l>
+						<l>Den breidel van dit Rijk, en zijn geroofde staf.</l>
+						<l>Maar dankbaarheid, en 't recht, daar 't volk zich meê kan streelen,</l>
+						<l>Moet maar bepaald, in 't hert der vorsten, meester speelen,</l>
+						<l>Of ook een vorst al iets kan schuldig zijn, ja, schoon</l>
+						<l>Hy om veel dienst, en trou, verschuldigd was zijn kroon,</l>
+						<l>Zoo is hy echter aan zijn volk veel meer verbonden,</l>
+						<l>Als aan een ander, en daar werd geen schuld gevonden,</l>
+						<l>Wanneer zy met het bloed van zijnen onderdaan</l>
+						<l>Alleen betaald moet zijn, maar, als wy verder gaan,</l>
+						<l>Wat waagde hy toch in 't verdedigen der rijkken?</l>
+						<l>Hy wou de Waereld maar zijn groote magt doen blijken,</l>
+						<l>En met uw Vader weêr te stellen op den troon,</l>
+						<l>Groeide ook zijne eerzugt op, hy heeft hem hulp geboôn;</l>
+						<l>Maar niet als met de mond, zijn welgeschikte zeggen</l>
+						<l>Had minder kragt als 't goud, 't welk Caezar by quam leggen;</l>
+						<l>Ja, zijn welspreekendheid, die flauwe, en slechte magt</l>
+						<l>Had nimmer onz weêr in AEgypte en 't hof gebragt,</l>
+						<l>Die bystand gaaven ons zeshonderdduizend kroonen.</l>
+						<l>Laat hem zoo groots niet meer zijn dienst aan onz vertoonen,</l>
+						<l>De gift van Caezar, meer, als al zijn zeggen, doed:</l>
+						<l>Toch zoo 't een weldaad is, die gy vergelden moet,</l>
+						<l>'t Is wel, gy zult voor hem, als hy voor u deed, spreeken.</l>
+						<l>Hy zie de erkentenis van 't gene u is gebleeken.</l>
+						<l>Onfangt gy hem, gy steld een meester op uw troon,</l>
+						<l>Die, schoon hy is verdelgt, noch op uw naam, en kroon</l>
+						<l>Zal woeden, en de wet u, in uw rijkken, stellen.</l>
+						<l>Sluit dan uw havens toe, maar wild zijn hoofd niet vellen;</l>
+						<l>Toch als gy 't noodig acht, is deeze hand gereed,</l>
+						<l>Die aan zijn koning zijn gehoorzaamheid besteed,</l>
+						<l>Het zou my spijten dat men immermeer zou hooren</l>
+						<l>Dat ik hem 't eerst niet trof.</l>
+					</sp>
+					<sp who="#septimius">
+						<speaker>Septimius.</speaker>
+						<l>'K ben een romein gebooren,</l>
+						<l>En ken hen beide. o! Vorst, Pompeus is in nood,</l>
+						<l>Hy zoekt nu hulp by u, die meester van zijn dood,</l>
+						<l>En leeven weezen kund, hem helpen, of verjaagen,</l>
+						<l>Of dood, of leevende, aan zijn vyand op kund draagen!</l>
+						<l>Van deeze vier, zou 't eerste u zeer gevaarlijk staan,</l>
+						<l>Laat my dan toe, dat ik de laatste u voor mag slaan.</l>
+						<l>Hem weg te jaagen, is een magtig vyand wekken.</l>
+						<l>'t Zal den Verwinnaar voor een halve pligt slechts strekken,</l>
+						<l>Nadien gy hem 't gevolg van een te lang gevecht,</l>
+						<l>Te water, en te land, hem spaarende, open legt</l>
+						<l>Als elk van hen vermoeid van wreeken, en van strijen,</l>
+						<l>De weêrslag van 't geval des krijgs, u zou doen lijen.</l>
+						<l>Hem Caezar geeven, is maar een, en zelve zaak,</l>
+						<l>Krijgt die hem in zijn magt, zoo zal hy zijne wraak</l>
+						<l>Verbergen, onz ten spijt, hem zijn vergiffnis geeven;</l>
+						<l>En de eer genieten dat hy kan zachtmoedig leeven,</l>
+						<l>Gewapend met de deugd van valsche ootmoedigheid,</l>
+						<l>Die hem niet eigen is, en, spijt zijn hert, nu leid,</l>
+						<l>En achtende geluk, tot slaaf te konnen maaken,</l>
+						<l>Een medeminnaar, die geen leevens gift kan laaken,</l>
+						<l>Verpligt hy 't slaafse Rome, en spaard hem door uw daad,</l>
+						<l>Maar zet op u, gelijk Pompeus, felle haat.</l>
+						<l>Gy moet voor misdaad, en gevaar den Vorst bevrijen.</l>
+						<l>Zijn magt verzeekeren, en voor zijne achting strijen.</l>
+						<l>Hy moet in 't dooden van dien gadeloozen Held,</l>
+						<l>Zijn oogwit krijgen, gy, in 't tegendeel 't geweld,</l>
+						<l>En alle schande, op u, om zijne grootheid laaden.</l>
+						<l>Dit 's mijn gevoelen, en dit hoord u elk te raaden.</l>
+						<l>Zoo wint gy gunst by de eene, en vreest den and'ren niet.</l>
+						<l>De raad is vol gevaar, die u Achillas bied:</l>
+						<l>Want geen van beide, zal u gunst, of eer betoonen.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Prolomeus.</speaker>
+						<l>'k Zal my van 't nazien van het recht der zaak verschoonen.</l>
+						<l>Laat ons de bui, die 't al het bovenste onder keerd,</l>
+						<l>Ontwijken, 'k volg uw raad, mijn overleg begeerd</l>
+						<l>Ook deel te nemen, in al 's rijks veranderingen.</l>
+						<l>'t Is lang genoeg dat wy 't vermeet'le volk niet dwingen,</l>
+						<l>Dat wy gelooven, dat een roomsche burger meêr</l>
+						<l>Zou weezen als een mensch, men stoot die trotze neêr,</l>
+						<l>Met haare vryigheid, laat ons haar fierheid dooven,</l>
+						<l>In 't laau we bloed, dat wy Pompeus doen ontrooven.</l>
+						<l>Laat ons dien enk'le hoop, van haar hoogmoedigheid</l>
+						<l>Verdelgen, laat ons haar, wier dwingende beleid</l>
+						<l>De Waereld slaat in 't juk, een felle dwingland geeven</l>
+						<l>Haar sluiten, wien 't geval in boeijens wil doen leeven.</l>
+						<l>Laat ons 't Heelal nu mee gaan wreeken in haar straf.</l>
+						<l>De koningen, ô Roome! op wiens gewijde staf</l>
+						<l>Uw dartele moed zich koelde, ook ziende deeze uw keeten</l>
+						<l>Met minder smart zich slaaf van Caezars grootsheid heeten,</l>
+						<l>Terwijl hy u zoo wel vermeesterde als haar magt.</l>
+						<l>Gaat dan, Achillas, en Septimius, betracht</l>
+						<l>De groote daad, die my onsterffelijk zal maaken.</l>
+						<l>Het zy den Goden lief, of leet, 'k zal voor u waaken!</l>
+						<l>'k Versta dat zy zijn dood begeeren, nu zy hier</l>
+						<l>Hem zenden.</l>
+					</sp>
+					<sp who="#achillas">
+						<speaker>Achillas.</speaker>
+						<l>'s Konings wil is 't recht van 't rijks bestier.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Ga, haast u om mijn Troon met zekerheid te stijven.</l>
+						<l>Denkt dat ik op uw hand AEypte nu laat drijven,</l>
+						<l>Aan wien 't geval van Roome en van AEgypte staat.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Ptolomeus, Photinus.</stage>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>IK ben bedroogen, of mijn zuster, want zy laat</l>
+						<l>Zich voorstaan, dat de komst van deeze held haar zaaken</l>
+						<l>Met een gewenschter einde en uitkomst, goed zal maaken,</l>
+						<l>Wijl vaders laatste wil in zijn bewaaring is:</l>
+						<l>Verwagt zy slechts de kroon; in deeze onsteltenis.</l>
+						<l>Zy acht zich reeds voogdes, van onz verdeeld vermoogen,</l>
+						<l>En dat zijn goedheid reeds tot alle plicht bewoogen,</l>
+						<l>Haar alles toe zal staan. haar opgeblaaze hart, gen,</l>
+						<l>'t Welk door deeze yd'le waan, op nieuws ontsteken werd,</l>
+						<l>Beheerscht alreeds mijn rijk, en drukt in haar gedachten,</l>
+						<l>Dat zy haar blind geluk heeft in den top te wachten.</l>
+					</sp>
+					<sp who="#photinus">
+						<speaker>Photinus.</speaker>
+						<l>Dit 's ook een reeden daar men zich om haasten moet,</l>
+						<l>O Vorst, in 't storten van dat zeer gevaarlijk bloed.</l>
+						<l>Hy, volgende de wil uws vaders, zal zijn oordeel</l>
+						<l>Wel vellen, maar tot u, noch tot uw zusters voordeel.</l>
+						<l>Zim Vrinden keuren goed, al wat hy ook bedrijft.</l>
+						<l>Nu overweeg wat grond van onrust, dat hier blijft.</l>
+						<l>Ik wil de Koning, door mijn rustig tegenspreeken,</l>
+						<l>De broederlijke liefde, en band niet doen verbreeken;</l>
+						<l>Neen! 'k wil haar uyt uw troon maar geensins uit uw hert</l>
+						<l>Verstooten; 't heerschen baard niet als benauwde smert,</l>
+						<l>Wanneer daar twee gelijk zich op den zeetel zetten.</l>
+						<l>Een vorst die dat verdraagt, verstaat noch niet de wetten</l>
+						<l>Van 't koninglijk bestier, hy breekt zijn moogendheid,</l>
+						<l>Wanneer hy aan een tweede, iets van dat recht toeleid</l>
+						<l>De reedenen van staat..... maar, Vorst, ik zie haar komen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Cleopatra, Ptolomeus, Photinus.</stage>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>ZYt gy noch hier, daar reeds Pompeus werd vernomen?</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Ik wacht in mijn Paleis, dien dapp'ren Oorlogsheld,</l>
+						<l>En heb Achillas, en Septimius gesteld</l>
+						<l>Om hem te ontmoeten.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Hoe, alleen deez' twee gezonden</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Is dit niet volks genoech? volg meê, gy zijt ontbonden.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Het is u dan te veel, hem ook deeze eer te doen?</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Het staat aan my, de kroon voor oneer te bchoên.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Voerd gy den staf van 't Rijk, zoo wilt ook niet vergeeten</l>
+						<l>De hand te kussen, wien gy dien hebt dank te weeten.</l>
+						<l>Bewijs getrouwigheid aan dien ber oemden man.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Pharzaliën beneemt de grootheid veel daar van.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Schoon hy door zijne val van yder was verstooten,</l>
+						<l>Hy blijft dien held, van wien gy hebt uw kroon genooten</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Nu is hy maar een schim, kreeg Vader door zijn magt</l>
+						<l>De kroon, 't is recht dat ook zijn schim zich schuldig acht,</l>
+						<l>Voor deeze dienst, niet ik, hy ga zijn dienst verhaalen</l>
+						<l>Op Vaders graf, en doe zich van zijn geest betaalen,</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Gy handeld hem dan zoo, na die doorluchte daad!</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Mijn waarde Zuster, 'k zie op 't noodlot dat hem haat.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Gy ziet hem, dat 's wel waar, maar met versmaadende oogen</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>De tijd heeft om een zaak te ontdekken, veel vermoogen</l>
+						<l>Gy, die hem zoo veel acht, ga, toon hem uwen pligt,</l>
+						<l>Maar, denk ook, dat hy wel in deeze haven licht.</l>
+						<l>Noch schipbreuk lijden kan.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Hoe zoud hy schipbreuk vreezen!</l>
+						<l>Zelfs in de haven? of is hy ter dood verweezen?</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Ik heb gedaan al 't geene ik voor noodzaaklijk acht,</l>
+						<l>En van de Goden my te binnen is gebragt.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Ik merk het al te wel, Photinus, en Verwanten,</l>
+						<l>Vol lafheid, wisten u een haat in 't hert te planten,</l>
+						<l>Vol doodelijk vergift, die menschen door de Goôn</l>
+						<l>Uit slijk geheven....</l>
+					</sp>
+					<sp who="#photinus">
+						<speaker>Photinus.</speaker>
+						<l>Ja, mijn raad wil hem doen doôn.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Ik spreek u, Vorst, als ik my zal verned'ren moeten</l>
+						<l>Met ute spreeken, zult gy ook voor alle boeten.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus, tegen Photinus.</speaker>
+						<l>Zwijg maar, als ik die trotze een weinig zeggen laat;</l>
+						<l>Ik ken uwe onschuld, en ik weet van haare haar,</l>
+						<l>Maar 't is mijn zuster, hoor haar zonder tegenspreeken.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Indien 't noch tijd is om dit slecht besluit te breeken,</l>
+						<l>Ontsla u, Prins, van haar, en haare dwinglandy,</l>
+						<l>Herroep de deugd, die zy verbannen, waar op wy,</l>
+						<l>En menschen van ons bloed, wel mogen moedig weezen.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Een yd'le hoop staat reeds in uw gezicht te leezen,</l>
+						<l>Als gy Pompeus noemt, zoo spreekt gy als vorstin,</l>
+						<l>En dekt met valsche drift de hovaardy, die in</l>
+						<l>Uw eigenbaatig hert, de rol van deugd komt speelen.</l>
+						<l>Bely het, Zuster, wilt uw misdaad my niet heelen,</l>
+						<l>U is de laatste wil van Vader wel bewust,</l>
+						<l>Gy spreekt veel van dien held, om dat zy by hem rust.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Weet nu, dat my de deugd alleenig dus doed spreeken.</l>
+						<l>Zoo eenige eigenbaat mijn boezem had ontsteeken,</l>
+						<l>Zou ik voor Caezar, en niet voor Pompeus zijn.</l>
+						<l>Hoor dan 't geheim, 't geene ik verburg met andre schijn</l>
+						<l>Wanneer 't moedwillig volk, 't welk deeze stad bewoonde</l>
+						<l>Dit Rijk ontveiligde, den Vorst haar weerzin toonde,</l>
+						<l>En hy te Rome by den Raad zelfs by stand zocht,</l>
+						<l>Nam hy onz beide meede op dien benauden tocht;</l>
+						<l>Om medelijen in haar hert hier door te baaren.</l>
+						<l>Gy waart toen noch zeer jong, en ik reeds van die jaaren,</l>
+						<l>Dat my het weinig schoon, 't geen my den hemel schonk,</l>
+						<l>Als uit twee starren, in mijn jeugdige oogen blonk,</l>
+						<l>Ja Caezar zelfs geviel, ten minste, ik kon wel merken,</l>
+						<l>Dat zijne heuscheid mijn gevoelen wou versterken:</l>
+						<l>Maar, ziende tegen hem de bitsheid van de Raad.</l>
+						<l>Nam hy Pompeus, en zijpe achtbaarheid, te baat.</l>
+						<l>Dit was de laatste van hun trouw, en vrindepligten,</l>
+						<l>Pompeus nam op zich zijn oogwit te verrichten.</l>
+						<l>Gy weet den uitslag ook, die Minnaar niet vernoegd</l>
+						<l>Met onz dien groten man te hebben toegevoegd,</l>
+						<l>Die al de stemmen van gantsch Rome straks kon winnen,</l>
+						<l>Gaf noch een klaarder blijk van liefde aan mijne zinnen,</l>
+						<l>Vergrootende zijn gift, ontsloot hy met de schat,</l>
+						<l>Voor my zijn hert, 't welk noch maar de eerste min bezat.</l>
+						<l>Hy heeft geweld, en krijg de zenuwen gegeeven,</l>
+						<l>En al het geld, dat wy hem schuldig zijn gebleeven,</l>
+						<l>Herstelde in onze hand 't verlooren rijks gezach.</l>
+						<l>De Vorst, die dit herdacht, toen hy op 't sterven lag,</l>
+						<l>Liet my, zoo wel als u, 't bezit van zijne Rijken,</l>
+						<l>En by zijn laatste wil zal altijd kunnen blijken,</l>
+						<l>Dat gy aan my, een deel moet geeven van die magt.</l>
+						<l>Gy nu onkundig, van mijn dienst, hebt vaak gedacht,</l>
+						<l>Dat my veel dienst geschiede, en durst den Vorst betijgen,</l>
+						<l>Dat hy, door drift verblind, my al te veel doed krijgen;</l>
+						<l>Nu hy my half betaald, mijne eigene erffenis,</l>
+						<l>Daar hy my het geheel wel dubbeld schuldig is.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Voorwaar, die reekening heeft Zuster net gevonden.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>'k Wagt Caezar haast, hy heeft een brief aan my gezonden.</l>
+						<l>U we oogen zullen licht van daag, getuigen, van</l>
+						<l>Een zaak zijn, die uw geest zich niet verbeelden kan.</l>
+						<l>En sprak, ik als vorstin, het was niet zonder reeden,</l>
+						<l>'k Heb niet als haat, en smaat, van uwe trots geleden.</l>
+						<l>Gy hebt, onwaardige, die my mijn eer ontrukt,</l>
+						<l>My niet als Zuster, maar als een slavin, gedrukt,</l>
+						<l>Ik zwijg van veelerhande, ondraagelijke stukken.</l>
+						<l>'k Moest voor 't baldadig schuim der Rijksbedienaars bukken.</l>
+						<l>Van wien ik, tot nu toe, heb gift, en staal gevreest.</l>
+						<l>Pompeus, of de Vorst wien ik ben lief geweest,</l>
+						<l>Komt om my recht te doen, hoe 't ook uw Raad mag maaken,</l>
+						<l>Of de een of de ander zal my aan den staf doen raaken.</l>
+						<l>'k Laat u ontwinden welk een aangelegenheid,</l>
+						<l>En trotsheid straks mijn tong, in 't spreeken heeft geleid.</l>
+						<l>Cleopatra binnen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Ptolomeus, Photinus.</stage>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Wat dunkt u van die Trotze?</l>
+					</sp>
+					<sp who="#photinus">
+						<speaker>Photinus.</speaker>
+						<l>O Vorst, 't geen wy daar hooren,</l>
+						<l>Koot my gantsch onverwagt, en wonderlijk te vooren,</l>
+						<l>Ik weet niet wat ik denk, 't neemt mijn gedachten in,</l>
+						<l>En hoorende 't geheim van haare, en Caezars min,</l>
+						<l>Werd mijn gemoed gesolt, en heen, en weêr gedreeven.</l>
+						<l>Ik kan geen vast besluit in 't eene, of 't ander geeven.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Wat zullen wy! de held gaan helpen?</l>
+					</sp>
+					<sp who="#photinus">
+						<speaker>Photinus.</speaker>
+						<l>Neen, men moet,</l>
+						<l>Al had men hem beschermt, voor 't storten gaan zijn</l>
+						<l>Cleopatra is trots, s'is schoon, vol haat gebooren,</l>
+						<l>Zoo 't waar is dat haar oog ook Caezar kan bekooren, bloed,</l>
+						<l>Kund gy alleenig maar ontworstelen haar haat,</l>
+						<l>Als gy zijn vyands hoofd aan hem vereeren gaat.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Zy is gevaarelijk, en listig, en doorsleepen.</l>
+					</sp>
+					<sp who="#photinus">
+						<speaker>Photinus.</speaker>
+						<l>Haar list heeft voor die dienst geen hooger dienst begreepen.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Maar zoo zijn grootsheid door haar lonken overslaat.</l>
+					</sp>
+					<sp who="#photinus">
+						<speaker>Photinus.</speaker>
+						<l>Zoo vlei haar, maar 't is best dat gy u van den raad</l>
+						<l>Der afgezondene ook bediend, laat onz beletten,</l>
+						<l>Dat zy den voet ons niet te ras komt dwars te zetten.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Kom, gaan wy van den trans des toorens alles zien,</l>
+						<l>Op haare wederkomst zal 't noodige geschien.</l>
+					</sp>
+					<p>Einde van 't eerste Bedrijf.</p>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<head>Tweede bedryf.</head>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+					<stage>Cleopatra, Chakmione.</stage>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>'k BEmin hem, maar hoe hoog die vlam ook is gereezen,</l>
+						<l>Ik zal noyt blindelings aan haar gehoorzaam weezen.</l>
+						<l>De deugd, die my altijd zoo klaar voor oogen steld,</l>
+						<l>Wat ik verschuldigd ben aan d'overwonnen held.</l>
+						<l>Laat my dit nimmer toe: want schoon ik kan beminnen,</l>
+						<l>Die hem verwonnen heeft, 'k zal nochtans noit mijn zinnen,</l>
+						<l>En ed'le ziel, de smart van de argwaan voelen doen,</l>
+						<l>Dat Caezar van my iets onwaardigs zouvermoên.</l>
+						<l>Zijn hert is tot geen min, door laffe min te noopen.</l>
+					</sp>
+					<sp who="#charmione">
+						<speaker>Charmione.</speaker>
+						<l>Hoe! mind gy Caezar daar, zoo 't naar uw wensch zou</l>
+						<l>AEgypte tegens hem zou in de Waapens staan.</l>
+						<l>Pompeus byftand doen, de zege tegen gaan, loopen,</l>
+						<l>Die in Pharzaliën op Caezars naam mag boogen.</l>
+						<l>Voorwaar de liefde heeft op u geen groot vermoogen!</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>De Vorsten hebben door geboorte, in haar gemoed</l>
+						<l>Een prikkel, die door deugd, haar tochten temmen doed!</l>
+						<l>Haar edelmoedig heid, kan niets als eer verdraagen.</l>
+						<l>'t Gaat alles wel, als zy hen zelve, om raad gaan vraagen.</l>
+						<l>Maar als eene onder daan, een misslag werd gewaar,</l>
+						<l>Verwerpt hy 's Vorsten raad, en steld hem in gevaar.</l>
+						<l>Dit voeld Pompeus nu, de Vorst had reeds beslooten</l>
+						<l>Hem hulp te bieden, maar 't is weder om gestooten.</l>
+						<l>Hy geeft Photinus 't oor, en toond zich zonder trouw,</l>
+						<l>Daar hy, deed hy hem recht, hem Vorst'lijk hand'len zou</l>
+					</sp>
+					<sp who="#charmione">
+						<speaker>Charmione.</speaker>
+						<l>Zoo dat gy Minnaares, en Vyandin te zaamen</l>
+						<l>Van Caezar...</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Ik behoef mijn vlam my niet te schaamen.</l>
+						<l>'k Draag hem een hert toe, dat zijn min wel waardig is.</l>
+					</sp>
+					<sp who="#charmione">
+						<speaker>Charmione.</speaker>
+						<l>Zoo hebt gy reeds zijn hert?</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>'k Geloofde dit gewis.</l>
+					</sp>
+					<sp who="#charmione">
+						<speaker>Charmione.</speaker>
+						<l>Hebt gy verzeekering?</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Noit zullen koninginnen,</l>
+						<l>Leer dit, Charmione, die haare naam beminnen,</l>
+						<l>Doen blijken dat de min, haar ziel heeft overheerd</l>
+						<l>Voor dat zy weeten, hoe baar iemands min begeerd,</l>
+						<l>En dat die schoone vlam, die haar heeft ingenoomen,</l>
+						<l>Haar altijd zorgen doed, om in geen schand te koomen.</l>
+						<l>Te Roome zach ik eerst de vlam van zijne ziel,</l>
+						<l>Daar kreeg ik 't merk, waar door ik my eerst zeeker hiel.</l>
+						<l>Van die, tot deeze tijd, deed hy door zijne booden,</l>
+						<l>En buid, en lauw'ren my tot zijne liefde nooden.</l>
+						<l>De zege, en liefde, volgt waar hy zich heene wend,</l>
+						<l>Dit 's Spanje, Vrankrijk, en Italiën bekend.</l>
+						<l>Zijn arm verwind geen Stad, geen Land, geen Vorst, geen Lieden,</l>
+						<l>Die hy niet daad'lijk komt aan mijne liefde bieden,</l>
+						<l>En met die zelve hand, noch rookende van 't bloed,</l>
+						<l>'t Welk hy de vrinden van Pompeus storten doed,</l>
+						<l>Schrijft hy my zijne liefde, en noemd zich mijn gevangen,</l>
+						<l>Beklaagd zijn lot, daar 't hem de zege doed ontfangen.</l>
+						<l>Verwinnaar in het veld, zond hy my dit geschrift,</l>
+						<l>Zoo nu zijn spoedigheid, zoo groot is als zijn drift,</l>
+						<l>Of liever, zoo de zee hem niet wil tegenstreeven.</l>
+						<l>Zal deeze stad, hem haast, zijn hert aan my zien geeven</l>
+						<l>Hy komt, Charmione, tot binnen onze wal.</l>
+						<l>By my, om loon, van zijn zeeghaftig krijgsgeval.</l>
+						<l>Hy bied my al zijn zege, en buigt naar mijne wetten</l>
+						<l>Dat hert, die hand, die wet aan koningen kan zetten.</l>
+						<l>'t Staat aan mijn strafheid, of den Meester van 't Heelal,</l>
+						<l>Zich ongelukkig, of gelukkig noemen zal.</l>
+					</sp>
+					<sp who="#charmione">
+						<speaker>Charmione.</speaker>
+						<l>Uw schoonheid duifd alreeds 't vermoogen overdenken,</l>
+						<l>Van iets,waar meê gy nooit uw held zuid willen krenken.</l>
+						<l>Indien uw strafheid zijn geluk verand'ren moet,</l>
+						<l>Zoo is 'er geen belang, dat Caezar vreezen doed.</l>
+						<l>Maar wat verwacht gy toch? wat eischt gy van zijn handen,</l>
+						<l>Die reeds gekeetend zijn, door heil'ge huwlijksbanden</l>
+						<l>Aan zijn Calphurnia?</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Het scheiden van een vroūw,</l>
+						<l>Te Roome nu gemeen, maakt plaats voor mijne trouw,</l>
+						<l>En Caezar kend die wet: door zulk een wijs van scheijen,</l>
+						<l>Kon hy Calphurnia voor 't echtaltaar geleijen.</l>
+					</sp>
+					<sp who="#charmione">
+						<speaker>Charmione.</speaker>
+						<l>Op deeze wijs kan hy zich ook van u ontslaan.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Misschien dat mijn geluk hem beeter aan zal staan.</l>
+						<l>Misschien zal mijne min hem meêr verbonden houwen.</l>
+						<l>Maar, laat ons aan 't geval, die gantsche zaak betrouwen.</l>
+						<l>Voltrekken wy deeze Echt, indien 't geschieden kan,</l>
+						<l>Al was 't voor eenen dag, ten minsten dat ik dan</l>
+						<l>Een dag de Waereld, zal als hoofdvoogdes bestieren.</l>
+						<l>'k Heb staatzucht, 't zy ik die gelijk een deugd mag vieren,</l>
+						<l>Of voor een misdaad acht, mijn hert is wel te vreên</l>
+						<l>In 't dragen van die last, 'k bemin die drift alleen,</l>
+						<l>Deeze is alleenig waard voor groote koninginnen,</l>
+						<l>Om eer moet haar alleen die yver doen beminnen.</l>
+						<l>Dan kan men, zonder schand, geraaken tot een kroon.</l>
+						<l>'k Wil door geen dol geweld, benaaderen een troon.</l>
+						<l>Verwonder u dan niet, dat gy my ziet verweeren,</l>
+						<l>Charmione, een held, die my verpligt hem te eeren:</l>
+						<l>Wijl ik niet meêr voor zijn misleide deugd vermag,</l>
+						<l>Zoo raad mijn ziel, hem stil, te ontvluchten deezen slag.</l>
+						<l>Ik wensche dat een storm van hier dreef zijne scheepen,</l>
+						<l>En uit de handen van zijn beuls hem weg wouw sleepen!</l>
+						<l>Maar, Achoreus, die getrouwe, komt daaraan,</l>
+						<l>Van wien ik zeekerlijk al de omslag zal verstaan.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Cleopatra, Charmione, Aohoreus.</stage>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>IS't werk al uitgevoerd? en zaagen onze stranden,</l>
+						<l>Hoe zy dat edel bloed, bestonden aan te randen?</l>
+					</sp>
+					<sp who="#achoreus">
+						<speaker>Achoreus.</speaker>
+						<l>Op uw bevel heb ik my naar de strand gespoed.</l>
+						<l>Ik heb het dol verraad, zien woeden op zijn bloed!</l>
+						<l>Ik zag die groote Man verraadelijk bederven.</l>
+						<l>'k Zag in zijn ongeluk, Mevrouw, zijn heerlijk sterven.</l>
+						<l>Naardien gy dan begeerd, dat me u 't geval verteld</l>
+						<l>Der braave dood, die onz in schaamte en schande steld,</l>
+						<l>Zoo hoor, verwonder, en beklaag u zijnent weegen:</l>
+						<l>Dry van zijn scheepen, die de haaven 't eerste kreegen.</l>
+						<l>Ziende al het toestel, en bereijen onzer vloot,</l>
+						<l>Geloofden dat de vorst, bewoogen in hun nood,</l>
+						<l>Genoopt van eere, en pligt, hen quam met vreugd begroeten</l>
+						<l>Maar, ziende dat de vorst alleen haar deed ontmoeten,</l>
+						<l>Door eenig lijfgevolg, vermoeden zy terstond</l>
+						<l>Dat hy verbreeken wou zijn woorden, en verbond,</l>
+						<l>Pompeus wierd door schrik een weinig ingenoomen,</l>
+						<l>Maar, als hy onze vloot zag in de wapens komen,</l>
+						<l>Verbande hy de vrees, die hem onwaardig scheen,</l>
+						<l>In 't moeijelijk geval, verzorgde hy alleen,</l>
+						<l>Kornelia, om die in geen gevaar te waagen.</l>
+						<l>Laat onz, spraak hy, dit hoofd, alleenig op gaan draagen</l>
+						<l>Aan d'intrêe, die AEgypte onz nu heeft toebereid,</l>
+						<l>En wijl alleen 't gevaar op my is aangeleid,</l>
+						<l>Zoo denk maar om uw vlucht, en my daar na te wreeken,</l>
+						<l>Den Koning Juba zal zyn trouw en woord niet breeken:</l>
+						<l>Mijn Zoonen, en den held uw Vader, zuldgy daar</l>
+						<l>Wel vinden, toch, al zaagt gy hen in doods gevaar,</l>
+						<l>Zoo wanhoop niet, zoo lang gy Cato ziet in 't leeven.</l>
+						<l>Terwyl bun teed're min, het afscheid niet kon geeven;</l>
+						<l>Had hem Achillas met zijn boot aanboord geleid,</l>
+						<l>Septimius, die hem de hand toereikt, en vleid,</l>
+						<l>Als veldheer, groet hem in de spraak van 't groote Romen.</l>
+						<l>Bid hem, uyt 's vorsten naam, in zijne boot te koomen,</l>
+						<l>Kom over, sprak hy, kom, en daal in deeze boot,</l>
+						<l>De zanden, daar alhier het waater overstoot.</l>
+						<l>Doen meenig groote kiel in deezen ingang zinken.</l>
+						<l>Pompeus, die 't bedrog, zag uit hunne oogen blinken,</l>
+						<l>Belachte 't ongeval, hy kust voor 't laast zijn vrouw;</l>
+						<l>En al de zijne, die hy graag behouden zouw,</l>
+						<l>Verbied by 't volgen, en verhaast zich tot zijn plaagen.</l>
+						<l>'T gezicht waar meê hy onz de schepter op quam draagen,</l>
+						<l>Behield hy nu ook noch, en 't aangezicht bewees</l>
+						<l>Den moord'ren, dat zyn hart geen staaf was van de vrees.</l>
+						<l>Zijne onbevlekte deugd geleid hem in zijn lijen.</l>
+						<l>Zijn slaaf Philippus,die hy onlangs liet bevrijen,</l>
+						<l>Verzeld hem, deeze heeft dit alles my verteld,</l>
+						<l>Het verd're zag ik zelf, myn hert is noch ontsteld.</l>
+						<l>'K geloof dat Caezar zelf, die rampen niet zal hooren,</l>
+						<l>En zijne traanen, en manhafte zuchten smooren.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Nu spaar de mijne niet, verhaal zijn wreede dood,</l>
+						<l>Om wien mijn weeke ziel mijne oogen reeds ontsloot</l>
+					</sp>
+					<sp who="#achoreus">
+						<speaker>Achoreus.</speaker>
+						<l>Men leid hem, en wy zien hem uit de scheepsvlood treeden,</l>
+						<l>Zelf zonder dat men hem wat onderhoud met reeden,</l>
+						<l>Die smaad deed hem wel zien, wat hy te wachten had.</l>
+						<l>De boot komt end'lijk aan, men noodigd hem naar stad.</l>
+						<l>Hy stond grootmoedig op, Achillas trok zijn deegen,</l>
+						<l>Een teeken, waar op hy zoo daadlijk wierd doorreegen,</l>
+						<l>Door vier verbasterde van eer, en 't roomsche bloed,</l>
+						<l>En als Septimius met steek op steek hem groet,</l>
+						<l>Verschrikt Achillas zelf, door 't woeden van hun handen,</l>
+						<l>Verwonderd dat zy hem zoo hevig aan gaan randen,</l>
+						<l>Staat als verleegen met het uitgetooge zwaard,</l>
+						<l>Daar hem het bloed met schaamte, in 't beevende aanzicht vaard.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Gy, Goden, die in 't land een burgertwist kund smeeden,</l>
+						<l>Als gy zijn sterven wreekt, zoo spaar doch onze steeden!</l>
+						<l>En wijt het niet de plaats, maar eer de felle hand;</l>
+						<l>Want Roomen heeft begaan de misdaad van onz land.</l>
+						<l>Wat sprak? wat deed den Held, in de uitgang van zijn leeven?</l>
+					</sp>
+					<sp who="#achoreus">
+						<speaker>Achoreus.</speaker>
+						<l>Hy heeft zich blind'lings aan zijn noodlot opgegeeven.</l>
+						<l>Hy dekte met een slip der mantel, zijn gezicht,</l>
+						<l>En acht niet waardig, dat hy 't ongenadig licht</l>
+						<l>Des Heemels meêr beschouwd, nu 't dus hem zier verraaden,</l>
+						<l>Hy wil niet dat men denk, dat ook zijne oogen baaden</l>
+						<l>Om bijstand, in den nood, van zulk een gruwelstuk.</l>
+						<l>Men hoorde in al dien tijd geen woord van ongeluk,</l>
+						<l>Of dat hy stervende, hun straf, en dood begeerde,</l>
+						<l>En zonder dat zijn moed zich tegens hun verweerde,</l>
+						<l>Scheen't hem een slechte zaak te denken aan 't verraad,</l>
+						<l>En wat men zeggen zal van hem, en deeze daad.</l>
+						<l>Zijn deugd vergroot zijn roem, spijt hun mishandelingen,</l>
+						<l>De laatste zucht, die hy noch uit zijn mond kon wringen</l>
+						<l>Was van eene eedele aart, en eindigde de nood</l>
+						<l>Van 't noodlot deezes Helds, mot zijn beroemde dood.</l>
+						<l>De schelm Septimius heeft 't hoofd van 't lijf gehouwen,</l>
+						<l>Achillas deed het op een speer, ten pronk beschouwen,</l>
+						<l>Als was 't een merk van zege, uit eenig bloedig staan,</l>
+						<l>En eindelijk, op dat zijn rampspoed werd voldaan,</l>
+						<l>Laat hy de holle zee, dat waardig lijf bespoelen,</l>
+						<l>Die romp zal de ongenâ, van vloed, en wind gevoelen.</l>
+						<l>Kornelia, die dit verschriklijk schouwspel zag,</l>
+						<l>Wou door haar schreeuwen, dien onmenschelijken slag,</l>
+						<l>Noch weeren, en haar man met mededogende oogen,</l>
+						<l>Beschermen, maar als zy haar hoop nu ziet vervloogen,</l>
+						<l>Slaat zy haar handen na den hemel, geeft zich op,</l>
+						<l>Aan 't ongeval, dat haar bedroeftheid drijft in top.</l>
+						<l>Zy valt of dood, of flaauw, in haar galei ter neder</l>
+						<l>Onzeeker in haar vlucht, roeit straks haar bootsvolk weder</l>
+						<l>De scheepen in het ruim, Septimius, vol haat,</l>
+						<l>Die noch de helft maar ziet van zijne gruweldaad,</l>
+						<l>Zet haar in 't vluchten na, en wil met dry paar kielen,</l>
+						<l>Pompeus na zijn dood noch volgen, en vernielen!</l>
+						<l>Achillas brengt terwijl de prijs, den vorst belooft,</l>
+						<l>'t Gemeene volk vol schrik, wend bevende het hoofd</l>
+						<l>Van 't helden aangezicht, d'een waand dat hy het scheuren</l>
+						<l>Van 't aardrijk noord, dat elk om zijne wraak doed treuren.</l>
+						<l>Een ander hoord den slag des donders, en verbeeld</l>
+						<l>Zich eene ontsteltenis, daar zelf natuur in speeld:</l>
+						<l>Zoo zeer had deeze daad, haar ziel met angst geslaagen,</l>
+						<l>Vertoonende de straf, die elk noch had te draagen.</l>
+						<l>Aan de and're kant, vertoond zijn Slaaf geen slaafs gemoed,</l>
+						<l>Die van de strand vast let waar heen de hollevloed</l>
+						<l>Dit kostelijke pand, gezind is heen te smijten,</l>
+						<l>Om, zoo 't hem moog'lijk is, die pligt aan hem te quijten</l>
+						<l>Die dooden eigen is, om zijn verbrande been,</l>
+						<l>In een geringen bus, te mengen met geween;</l>
+						<l>Om van een weinig aarde, een eerengraf te stichten,</l>
+						<l>Voor hem, wien al 't geluk des Watrelds wou verpligten.</l>
+						<l>Maar, wijl Kornelia naar de Afrikaansche strand,</l>
+						<l>In't vluchten werd vervolgt, doed van de Grieksché kant</l>
+						<l>Zich Caezars krijgsvloot op, die naauwlijks is te tellen,</l>
+						<l>En in 't.....</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Dit is zijn vloot, 'k zal u de wet nu stellen,</l>
+						<l>Beefd, schelmen, beefd, en ziet de bliksem in mijn hand,</l>
+						<l>Die u vernielen kan, de vloot, die gy onz land</l>
+						<l>Zaagt naderen, is die van Caezar, al mijn vreezen,</l>
+						<l>En twijffelen heeft uit, ô ja! 't zal Caezar weezen.</l>
+						<l>Hy komt, ik ben vorstin, Pompeus krijgt zijn wraak,</l>
+						<l>De dwinglandy leid neer, 't lot helpt mijn goede zaak.</l>
+						<l>Laat ons terwijl 't geval der helden, overweegen,</l>
+						<l>Bemerken wat wy zijn, door 't geene zy verkreegen.</l>
+						<l>De Prins des roomschen raads, de meester van 't Heelal,</l>
+						<l>Aan wiens beroemde deugd, 't gelukkige geval,</l>
+						<l>Verbonden scheen, de Held, die dry maal van dry deelen</l>
+						<l>Des Waerelds, zegenpraalde, en Roome zijn beveelen</l>
+						<l>Zag vreezen, en voldoen, die in de laatste slag,</l>
+						<l>Twee burgermeesteren, zijn standaard volgen zag,</l>
+						<l>Ziet, nu 't geluk zijne arm, en aanslag heeft begeeven,</l>
+						<l>De AEgyptsche monsters, hem voort dingen naar het lee-</l>
+						<l>Men moet Septimius, Achillas, en Photin,</l>
+						<l>Als hooge rechters, van zijn eed'le noodlot zien.</l>
+						<l>Een vorst, die van zijn hand den schepter heeft gekreegen,</l>
+						<l>Laat pesten van het hof hun moedwil aan hem pleegen!</l>
+						<l>Zoo sterft Pompeus, en misschien zal ook van daag,</l>
+						<l>Vorst Caezar op zijn beurt, gevoelen deeze plaag,</l>
+						<l>Maakt mijn voorzegging valsch, ô Goden! ziet mijn traanen!</l>
+						<l>Wilt voor mijn wensch den weg, en voor zijn waapens baanen!</l>
+					</sp>
+					<sp who="#charmione">
+						<speaker>Charmione.</speaker>
+						<l>Mevrouw, den koning komt.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Ptolomeus, Cleopatra, Charmione, Ptolomeus.</stage>
+					<l>Myn Zuster, weet gy niet</l>
+					<l>Van 't groot geluk, dat ons zoo daad'lijk is geschiet?</l>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Ja, 'k weet dat Caezar komt, en vind my nu ontslaagen,</l>
+						<l>Van al de wetten, daar uwe Raad my meê dorst plaagen.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Zoo haat gy altijd dan dien trouwen onderdaan!</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Neen, maar ik lach, met al zijn werken, en beraân.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Wat voorstel deed hy doch, 't geen u docht quaad te weezen?</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>'k Heb veel van hem geleên, en had noch meêr te vreezen,</l>
+						<l>Zoo groot een amptenaar voerd zijn gedachten uit,</l>
+						<l>En gy bied hem de hand, in al wat hy besluit.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Om zijn voorzichtigheid, waardeer ik ook zijn raaden.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Om zijne dwing'landy, vreeze ik ook voor zijn daaden.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Een vorst mag, om zijn rijk, ook alle daaden doen.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Van die gerechtigheid kan ik niet goeds vermoên.</l>
+						<l>Na dat men, om dat recht, mijn recht heeft weg genomen,</l>
+						<l>Is ook Pompeus, aan zijn deerlijk eind gekomen.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Nooit wierd zoo zwaaren zaak tot beeter eind gebragt,</l>
+						<l>Daar ik hem helpen zou, verraste ons Caezars magt.</l>
+						<l>Gy ziet zijn vlugheid, en 't ontroerd mijne onderdaanen.</l>
+						<l>Eer ik in staat ben van te helpen, zijn zijn vaanen</l>
+						<l>Alhier gevoerd, nu kan ik veilig aan de hand</l>
+						<l>Van de overwinnaar biên, uw hert, mijn hof, en land.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Draag zorg voor uwe gift, ik zal de mijne brengen.</l>
+						<l>Wild, in uw rijks belang, dat niet van and're mengen.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Het uwe, en't mijne, is van een zelven aart, en bloed.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Gy kund ook zeggen, in gelijke staat gevoed,</l>
+						<l>Bei zijnde vorsten, maar ik weet dat inde zaaken</l>
+						<l>Van onz belang, nochtans, is onderscheid te maaken.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Ja, Zuster, want het rijk, waar meede ik ben te vreên,</l>
+						<l>Strekt zich tot de overkant der Nylstroom naauwlijks heen,</l>
+						<l>Maar, Caezars hert, verpligt aan uwe strenge wetten,</l>
+						<l>Komt onder uw gebied de Taag, en Ganges zetten.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Mijn hert, 't welk groot vermaak in eer, en heerschen blind,</l>
+						<l>Word wel ontfonkt, maar maakt mijn achterdocht niet</l>
+						<l>Maar, laat van Tagus, noch van Ganges, onz hier spreeken,</l>
+						<l>'k Zal mijn vermogen, noch veranderen, noch breeken.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>'t Geval dat lacht u toe, bedien u daar nu van.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Indien ik 't niet gebruik, beschuldig gy my dan.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>'k Verhoop daar veel van, wijl de min hem heeft bezeeten.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Maar moog'lijk hebt gy noch de vrees niet heel vergeeten.</l>
+						<l>Toch wat gelegenheid, mijn liefde heeden vleit,</l>
+						<l>Vrees niet, ik heb mijn oog op niemands goed geleid.</l>
+						<l>'k Ben tegens u door haat noch gramschap aangedreeven,</l>
+						<l>'k Wil wel met u, schoon gy nier wel met my, wild leeven.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Gy toond my onderwijle al vry wat veel uw haat.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra,</speaker>
+						<l>De tijd is 't die een zaak naar waarde kennen laat.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>De wijze van uw doen laat my genoeg dit blijken.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Held Caezar komt, hy is nu meester van uw rijken.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Hy is het van at de Aard, en ook van mijn Bestier.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Ga. offer hem uw dienst, 'k verwacht de zijne alhier.</l>
+						<l>Ga, hy verdiend het wel, gy kund hier toch niets maaken.</l>
+						<l>Ik zal voor de eer des kroons, in uwe plaats; wel waaken.</l>
+						<l>Photinus komt om u te helpen, nu, ga voort.</l>
+						<l>Beraatslang met dien man wat tot uw pligt benoord.</l>
+					</sp>
+					<stage>Cleopatra binnen.</stage>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Ptolomeus, Photinus.</stage>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>IK heb uw raad gevolgt, maar hoe ik haar meêr vleide,</l>
+						<l>Hoe meer de dertelheid haar onverstand misleide.</l>
+						<l>Zoo dat ik eindelijk, door zoo veel smaad ontroerd,</l>
+						<l>Miin felle gramschap, in mijn woorden heb volvoerd.</l>
+						<l>Mijn arm, die door dit leet zich naauwlijks in kost binden,</l>
+						<l>Kon haast geen achterdocht in Caezars aankomst vinden:</l>
+						<l>Mijn hevigheid had haar schier in dien slaat gesteld,</l>
+						<l>Dat zy Pompeus mocht gaan klaagen van geweld.</l>
+						<l>'k Moest hooren dat ik haar als koningin moest ecren.</l>
+						<l>Indien haar haat, en trots, kan Caezars hert verheeren,</l>
+						<l>Werd ik van broer, en vorst, tot onderdaan gebragt.</l>
+						<l>Neen, komen wy haar voor, 't is zwakheid dat men wacht,</l>
+						<l>En 't quaad den teugel vierd, 'k zal 't middel haar ontrooven,</l>
+						<l>Waar door zy mijn gezach, en achting, uit kan dooven.</l>
+						<l>Waar door zy heerscht, en't oog van Caezar heeft behaagd.</l>
+						<l>Laat ons niet dulden dat zy onz ten rijke uitjaagt,</l>
+						<l>Ten koste van een lonk,</l>
+					</sp>
+					<sp who="#photinus">
+						<speaker>Photinus.</speaker>
+						<l>Heer Koning, geef geen reeden</l>
+						<l>Aan Caezar, om AEgypte ook op den nek te treeden.</l>
+						<l>Zijne eerzucht, die al de Aarde, in lijn gareel wil slaan</l>
+						<l>En in de woede Tan zijn oorlog doen vergaan,</l>
+						<l>Vermeetel door zijn zege, en 't smertelijk gevoelen,</l>
+						<l>Dat waare minnaars treft, zal onophoud'lijk woelen,</l>
+						<l>Om wraak te neemen van die zijn beminde straft.</l>
+						<l>Schoon gy niet anders als u zelve recht verschaft.</l>
+						<l>En om uwe ondergang, en die van 't rijk, te brouwen,</l>
+						<l>Zou hy uwe eed'le toorn maar voor een misdaad houwen.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Zoo hy mijn zuster ziet, werd zy mijn koningin.</l>
+					</sp>
+					<sp who="#photinus">
+						<speaker>Photinus.</speaker>
+						<l>Cy zijt om hals, verdelgtgy't voorwerp van zijn min.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>'K zal haar, terwijl ik my niet redden kan, niet spaaren.</l>
+					</sp>
+					<sp who="#photinus">
+						<speaker>Photinus.</speaker>
+						<l>Om haar met vreugd re doôn moet gy uw zelf bewaaren.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus</speaker>
+						<l>Hoe! om op Zulk een hoofd mijn goude kroon te zien!</l>
+						<l>Mijn staf, zo u mijn hand niet langer mag gebiên,</l>
+						<l>Ga, ga, dan voor de hand, des overwinnaars bukken.</l>
+					</sp>
+					<sp who="#photinus">
+						<speaker>Photinus.</speaker>
+						<l>Gy zuid hem uit de hand eer van een zuster rukken.</l>
+						<l>Wat vlam haar Caezar toond, denkt dat hy haast vertrekt,</l>
+						<l>Dat gy dan meester zijt, de vlam der liefde strekt</l>
+						<l>In zijns gelijke nooit zoo ver zich uit, of 't waaken</l>
+						<l>Voor haare grootsheid kan die drift zeer licht doen staaken.</l>
+						<l>Ook ziet hy Africa, en Spanjen in de magt</l>
+						<l>Van Juba, en zoo lang de zoons niet zijn geslagt,</l>
+						<l>Die held Pompeus teelde, en Scipio in 't leeven</l>
+						<l>Gezien werd, zal hy elk geen wetten kunnen geeven.</l>
+						<l>Hy, wien Pharzaliën met schrik na de oogen ziet,</l>
+						<l>Zou qualijk doen, zoo hy baar adem scheppen liet.</l>
+						<l>Indien hy tijd gaf, aan deeze onvertsaagde helden,</l>
+						<l>Om zich te wreeken van de slaagen die haar velden,</l>
+						<l>Indien hy haar verwind, moet hy naar Rome gaan,</l>
+						<l>En daar de zeetel van zijn rijk, ter needer slaan</l>
+						<l>Genieten 't groot geluk, van zijn beroemde daaden,</l>
+						<l>Verand'ren naar zijn zin, alle amptenaars, en raaden.</l>
+						<l>Nu, oordeel wat gy beft voor uw bewaaring doed,</l>
+						<l>O Vorst, zie Caezar aan, bedwing uw kloek gemoed,</l>
+						<l>Geef hem slechts alles toe; en wild wel overdenken,</l>
+						<l>Dat u 'r geval zeer licht, 't gevolg daar van zal schenken.</l>
+						<l>Geef, zonder tegenspraak, uw staf, uw troon, uw kroon,</l>
+						<l>Laat hy daar heer van zijn, 't werde al hem aangeboôn</l>
+						<l>Hy zal de laatste wil van onze vorst volvoeren,</l>
+						<l>En meenen wel te doen, gy zult zijn hert beroeren.</l>
+						<l>Met deeze laatste dienst, wiens groot belang uw staf</l>
+						<l>Wel hoeden zal voor de angst, van ongerechre straf.</l>
+						<l>Wat hy dan doed, gy moet uw ongenoegen dekken,</l>
+						<l>Prijs toch zijn oordeel, en laat hem maar voort vertrekken,</l>
+						<l>Wanneer wy naderhand, de tijd zien tot de wraak,</l>
+						<l>Verzeeker ik u magt, en vrinden, voor uw zaak.</l>
+						<l>Bedwing tot deze tijd 't geweld van uw gedachten,</l>
+						<l>Daar u de dartle smaad, eens zusters durft verachten,</l>
+						<l>Haare opgeblazentheid, is niet als beuzel praat.</l>
+						<l>Een die op zaaken denkt, geen woord ter herten gaat.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Gy geeft, met eene gift, my 't rijk, en 't lieve leeven.</l>
+						<l>Een wijze raadsheer, is een vorst tot steun gegeeven.</l>
+						<l>O steunsel van mijn troon, 'k ga Caezar alles biên,</l>
+						<l>Om 't al te houden, dat wy reeds verlooren zien.</l>
+						<l>'k Wil met mijn gantsche vloot, hem daadlijk gaan verbeiden,</l>
+						<l>En, door die valsche pligt, zijn groote magt misleiden.</l>
+					</sp>
+					<p>Eindt van het tweede Bedrijf.</p>
+				</div>
+			</div>
+			<div type="act" n="3">
+				<head>Derde bedryf.</head>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+					<stage>Charmione, Achoreus.</stage>
+					<sp who="#charmione">
+						<speaker>Charmione.</speaker>
+						<l>JA, wijl de Koning zelfs dien held begroeten gaet,</l>
+						<l>En voor zyn voeten de eer van zijn vermoogen laat,</l>
+						<l>Houd zich Cleopatra, in haar vertrek beslooten;</l>
+						<l>En zal daer blijven, tot zy de eer eerst heeft genooten,</l>
+						<l>Dat Caezarzells, aan haar zijn pligtbewijzing doed.</l>
+						<l>Wat dunkt u van dat groots laatdunkende gemoed?</l>
+					</sp>
+					<sp who="#achoreus">
+						<speaker>Achoreus.</speaker>
+						<l>Zoo ed'len hoogmoed past aan koninglijke vrouwen.</l>
+						<l>Die de eer van haar geboorte in waarde willen houwen,</l>
+						<l>Door krachten, en beleid kan ik haar spreeken?</l>
+					</sp>
+					<sp who="#charmione">
+						<speaker>Charmione.</speaker>
+						<l>Neen.</l>
+						<l>Zy zend my om van u te hooren, hoe 't gemeen,</l>
+						<l>En 't hof, zich op de komst van Caezar, heeft gedraagen,</l>
+						<l>Of 't schoon geschenk van 't hoofd, zyn grootsheid kon behaagen?</l>
+						<l>Of hy vernoegd scheen, of met smaad die gift bezag.</l>
+						<l>Of hy zijn zwakheid toonde, of dwingende gezach.</l>
+						<l>En eind'lijk, wat hy tot de moorders heeft gesprooken?</l>
+					</sp>
+					<sp who="#achoreus">
+						<speaker>Achoreusl</speaker>
+						<l>Het hoofd heeft wonderlijk zijn groore ziel ontstooken.</l>
+						<l>Ik zag een werking in zijn rustige gelaat,</l>
+						<l>Waar van de moorders niet veel goeds te wachten staar.</l>
+						<l>Ik weet niet of hy veinst: maar kan wel reeden vinden,</l>
+						<l>Van billijke achterdocht, zijn zy des konings vrinden,</l>
+						<l>Zoo beeft haar raadslag hem geen groote dienst gedaan.</l>
+						<l>'K ben hem gevolgt, toen gy my na de strand zaagt gaan.</l>
+						<l>Zijn Icheepen, die van strand met goede schikking quamen,</l>
+						<l>Een mijl maar zijnde in zee, voort Caezars vloot vernaamen.</l>
+						<l>Gelijk hy staag, de gunst van Mars te land genoot,</l>
+						<l>Zoo gaf Neptunus ook 't gelei nu aan zijn vloot,</l>
+						<l>Die streefde, als zijn geluk, voor wind, op 't schielijk komen,</l>
+						<l>Wierd onze ontstelde vorst zijne achterdocht benomen,</l>
+						<l>Dat hy een Koning was, hy dekte met een schijn</l>
+						<l>Van vrolijkheid, zijn vrees; zijn doen, en woorden zijn</l>
+						<l>Vol laffe ned'righeid, ik moest mijn spijt versmooren,</l>
+						<l>Die Ptolomeus, maar geen koning, daar mogt hooren.</l>
+						<l>En Caezar, die de schrik klaar uit zijn aanzicht las,</l>
+						<l>Gaf hem wat nerts, door schijn, dat hy medoogend was:</l>
+						<l>De vorst, hier door gevleid, heeft hem met schrik gegeeven</l>
+						<l>De gift, die 't noodlot in zijn handen had gedreeven.</l>
+						<l>Mijn heer, sprak hy, gy hebt geen medestrijder meêr,</l>
+						<l>'T geen u de goden niet vergunden, toen uwe eer</l>
+						<l>In 't laatste strijd perk klonk, stel ik in uw vermogen,</l>
+						<l>Pompeus en zijn vrouw, de een ziet gy voor uwe oogen,</l>
+						<l>En de and re werd vervolgd: op 't einde van dit woord,</l>
+						<l>Ontdekte Achillas 't hoofd, 't welk, als op nieuw vermoord,</l>
+						<l>Zich van dien euvlen hoon, met hikken zoekt te wreeken,</l>
+						<l>'T scheen dat het helden hoofd, zich aanstelde om te spreeken,</l>
+						<l>Van zyn geleede smert, 't verwilderde aangezicht,</l>
+						<l>En de openstaande mond, herriep het leevens licht,</l>
+						<l>Ziin gramschap toonde in 't einde een yver om de goden</l>
+						<l>Zijn val te wijten, en tot zijne dood te nooden.</l>
+						<l>Maar Caezar, die nier weet wat hem te denken staat,</l>
+						<l>Blijft stom op dit gezicht, of hem den bliksem slaat,</l>
+						<l>Hy houd zijne oogen op dit voorwerp neêrgeslaagen,</l>
+						<l>Men ziet niet dat zijn geest, verheugd is, of wil klaagen,</l>
+						<l>Maar, zoo men gissen mag, my docht dat uit zijn oog</l>
+						<l>Een vonk van looze vreugd, in 't gloeijende aanzicht vloog,</l>
+						<l>Die zijne eergierigheid, vol gramschap, niet wil weeren.</l>
+						<l>'T genoegen, van alleen den Aardboôm te overheeren,</l>
+						<l>Ontstak, op 't onvoorzienste, en tegen zijn bedwang,</l>
+						<l>Zyn hert, 't welk door de vreugd van 't wigtig staatsbelang</l>
+						<l>Zeer fel bevochten wierd: maar voor zijn deugd moest zwichten.</l>
+						<l>Hy haat de trouwloosheid, neemt acht op grootsche pligten.</l>
+						<l>En onderzoekt, al stil, hoe zijne tochten gaan.</l>
+						<l>Hy overweegt de zelve, om 't red'lijkste uit te keuren.</l>
+						<l>Stort traanen: dwingt zijn deugd het hoofd in top te beuren;</l>
+						<l>En laat een ed'len aart in deeze zwakheid zien.</l>
+						<l>Die 't hoofd verbergen doed; om dit gezicht te ontvliên.</l>
+						<l>Hy heft zijne oogen, en zijne uitgestrekte handen</l>
+						<l>Ten hemel, morrende schijnt hy hen aan te randen,</l>
+						<l>Die hem deeze offer doen, hier op beneemt de druk,</l>
+						<l>En diep gepeins zijn spraak, hy laat op 't gruwelstuk,</l>
+						<l>Zoo vol van oneer, ook geen romers antwoord krijgen:</l>
+						<l>Als door zijn wreed gezicht, zijn zuchten, en zijn zwijgen.</l>
+						<l>Met dertig benden treed hy daatelijk aan land,</l>
+						<l>Bezet de haavens, en verzeekerd poort, en strand,</l>
+						<l>Steld over al zijn wacht, geeft heimelijk beveelen.</l>
+						<l>En laat zijn wantrouw, en zijn leet, daar onder speelen.</l>
+						<l>Spreekt van AEgypte, als heer, en van Pompeus, niet</l>
+						<l>Als vijand, maar als een, die hy als schoonzoon ziet.</l>
+						<l>Dit zag ik alles zelf.</l>
+					</sp>
+					<sp who="#charmione">
+						<speaker>Charmione.</speaker>
+						<l>Zie daar verwachte plaagen</l>
+						<l>En 't geen de Koningin, Osiris af wou vraagen.</l>
+						<l>'K zal met geen kleene vreugd haar alles doen verstaan;</l>
+						<l>En, gy volhard in 't geene uw trouwheid heeft gedaan.</l>
+					</sp>
+					<sp who="#achoreus">
+						<speaker>Achoreus.</speaker>
+						<l>Stel haar voor my gerust, maar Caezar laat zich hooren,</l>
+						<l>Stel haar de doodschrik wel van 't moord gespan te vooren;</l>
+						<l>En 't zy de zaak of wel, of qualijk slaagt, ik zal</l>
+						<l>Haar spreeken, als ik 't eind maar weet van die geval;</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Caezar, Ptolomeus, Lepidus, Photinus, Achoreus.</stage>
+					<stage>Eenige Roomsche, en AEgyptische Soldaten.</stage>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>KLim op den troon, mijn Heer, gy kunt mijn rijk bestieren.</l>
+					</sp>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>Kend gy my wel, die dus uw tong den toom durft vieren?</l>
+						<l>Wat kan my 't noodlot, van zijn vijandschap, meêr blijk</l>
+						<l>Verschaffen? my, die zelf de naam van troon, gelijk</l>
+						<l>Als die van schande schat: voorwaar het nijdig Romen</l>
+						<l>Zou dit vermeet'le stuk, met vreugd, te vooren komen.</l>
+						<l>Met recht wierde ik vervolgd, van haar, wiens laf gemoed</l>
+						<l>De koningen wel maakt, maar ook versmaaden doed.</l>
+						<l>Die niets in koningen of vreezen of beminnen.</l>
+						<l>Die met haar leeven, ook de haat dier naam beginnen:</l>
+						<l>'T was noodig dat u dit Pompeus had geleerd,</l>
+						<l>Had hy de kroon bemind, of zulk een gift begeerd,</l>
+						<l>Hy had die reeds gehad, gy, en uw koningrijkken,</l>
+						<l>Verdienden, zoo gy hem uw bystand had doen blijken,</l>
+						<l>Die u den schepter gaf, onsterffelijke lof.</l>
+						<l>Gy kost niet vallen, of gy liet de waereld stof</l>
+						<l>Tot roem van uw bedrijf, en zoo ter neêr te vallen,</l>
+						<l>Was u meêr waard, als met die zegekreet te brallen;</l>
+						<l>En zoo u 't noodloot van dien val niet konde ontslaan,</l>
+						<l>Zou ik u zelf daar na; weêr hebben op doen staan.</l>
+						<l>Gy had geen krachten om deeze ed'le lust te wekken,</l>
+						<l>Maar, welk een recht, deed u zijn droeve dood voltrekken?</l>
+						<l>Wat had zijn bloed verbeurd? wat misdaad dreef uw slag',</l>
+						<l>Gy, die de minste der romeinen, ook ontzach,</l>
+						<l>En achting schuldig zijt, heb ik om u, de velden</l>
+						<l>Bevochtigt met het bloed, der overwonne helden?</l>
+						<l>Kreeg ik voor u de zege? en 't recht in deeze strijd,</l>
+						<l>Van leeven en van dood? kan ik o groote spijt!</l>
+						<l>Die nimmermeer dit in Pompeus kon gedoogen,</l>
+						<l>In u dit toestaan? die mijn zege, en mijn vermoogen,</l>
+						<l>Misbruikt hebt? meerder deed, als ik zelfs denken dorst,</l>
+						<l>Hoe meend gy, dat ik doch den slag, die u bemorst,</l>
+						<l>Met 's Veldheers waardig bloed, na al uw doen, zal noemen?</l>
+						<l>Schoon Mithridates op de nederlaag mag roemen</l>
+						<l>Van veele duizenden, gy doed de roomsche magt</l>
+						<l>Meer hoon, en leet, als hy! nu gy dien hoofdman slagt,</l>
+						<l>Denk niet dat ik niet weet, dat gy, was ik geslaagen;</l>
+						<l>Mijn hoofd, hem als een gift, zoud hebben opgedraagen,</l>
+						<l>Gy achte onz evenveel; maar dank zy mijn geluk,</l>
+						<l>Men eerd my, daar mijn vlucht, met allerhande druk,</l>
+						<l>Zou zijn geplaagt geweest, gy eerd die zege brachten,</l>
+						<l>Niet my geniet ik iets, 't is voor geluk slechtste achten.</l>
+						<l>Gevaarelijke drift, en vriendschap, die gedraaid</l>
+						<l>Kan werden, daar 't geval des waerelds heene waaid.</l>
+						<l>Maar spreek, verberg uw schaamte, en uw ontstelde weezen.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>'T is waar, ik ben ontsteld, en meerder als voor deezen.</l>
+						<l>Gy zelf zult toestaan, dat dit met groot recht geschiet.</l>
+						<l>Ik kreeg, in mijn geboorte, een onbepaald gebied,</l>
+						<l>Nu zie ik hier een Heer, hier, daar mijn hof moet beeven,</l>
+						<l>Als 't my in 't aanzicht ziet, ik, die mocht wetten geeven,</l>
+						<l>Zie in mijn eyge hof, eens anders groote magt</l>
+						<l>Ik werd, door u te zien, tot ned'righeid gebragt.</l>
+						<l>Nu oordeel, of uw taal mijn zinnen kan herstellen?</l>
+						<l>Die zich in uw ontzach, door vreeze, en nadacht quellen,</l>
+						<l>En hoe een angstig prins, dieuwe mogentheid,</l>
+						<l>En groote gramschap ziet, best tot zijn voordeel pleit.</l>
+						<l>In al 't verwond'ren, 't welk mijn ziel nu komt ontmoeten,</l>
+						<l>En u als wreeker van Pompeus moet begroeten,</l>
+						<l>Gedenkt my evenwel, dat wy aan uwe magt</l>
+						<l>Meêr zijn verbonden, als aan die uw vijand bragt.</l>
+						<l>Uw gunst ging voorde zijne, wat zy voor ons ooit deeden,</l>
+						<l>Geschiede op uw verzoek, dat hy door kracht, en reeden,</l>
+						<l>De roomsche Raad bewoog, 't beleedigt kroongeschil</l>
+						<l>Te redden, was niet zijn, maar uw verzoek, en wil:</l>
+						<l>Maar, door die groote raad der heil'ge staatsbeveelen deelen,</l>
+						<l>Zou, zonder 't geld, 't welk gy dies tijds onz toe woud</l>
+						<l>Niet veel gevorderd zijn, en door uw geld, mijn heer,</l>
+						<l>Kreeg vader het gezach, ten trots der muit'ren, weêr.</l>
+						<l>Om kort te gaan, wy zijn aan Caezar alles schuldig.</l>
+						<l>Wy hebben uwen vrind, uw Schoonzoon, ongeduldig</l>
+						<l>Om uwe voorspoed, tot die tijd, veel eer gedaan,</l>
+						<l>Dat hy zelf tegens u, dorst in de waapens gaan,</l>
+						<l>En dwinglandy begon, en met....</l>
+					</sp>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>Al zacht, zijn leeven,</l>
+						<l>Heeft aan uw haat, genoeg vernoeging moeten geeven.</l>
+						<l>Bevlek zijne eer niet, noch verhaal dat Romen niet</l>
+						<l>Bekennen durft, en weet gy voor uw zaaken iet,</l>
+						<l>Rechtvaardig u, maar wil Pompeus niet verachten.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus</speaker>
+						<l>'k Laat aan de Goden dan het oordeel der gedachten,</l>
+						<l>En zeg alleen, dat wy, in al den zwaaren strijd,</l>
+						<l>Daar gy door hoon, en smaad, eerst toe gedwongen zijt.</l>
+						<l>Niet wenschten, als 't geluk voor u, en uwen deegen;</l>
+						<l>En wyl hy tegens u zijn vijandschap dorst pleegen,</l>
+						<l>Heb ik zijn dood voor u, nood zaakelijk geacht.</l>
+						<l>Zyne ongegronde haat, aangroeijende in zijn magt,</l>
+						<l>Die zelfs uit de afgrond hulp tot uw bederf zou haalen,</l>
+						<l>Zou, vallende in uw hand, op u zelfs nederdaalen.</l>
+						<l>Wy vreesden dat uw hart, 't welk vol zachtmoedigheid,</l>
+						<l>Uw zinnen, met de lust van die gedachten, vleid,</l>
+						<l>Uw recht misbruikende, u mogt ongelukkig maaken.</l>
+						<l>My docht ook, dat in die gevaarelijke zaaken,</l>
+						<l>Mijn pligt was u, mijn heer, uws ondanks, dienst te doen.</l>
+						<l>Mijn brandende yver, die naar uw beveelen toen</l>
+						<l>Niet wachten kon, heeft zelf een last op zich genoomen,</l>
+						<l>Die gy misprijst en my met schande t' huis doed koomer.</l>
+						<l>Schoon gy 't een misdaad noemd, al wat men voor u doed</l>
+						<l>Is wel geooreloft; dat ik mijn hand met bloed</l>
+						<l>Besmette, was om u voor ongeval te dekken;</l>
+						<l>Hoe grooter de ondaad is, hoe meer 't u moet verstrekken</l>
+						<l>Tot teeken, dat mijne eer, en arm u dienen wou,</l>
+						<l>En dat dit offer, u geheiligd, door mijn trouw,</l>
+						<l>Uw eer, en al uw magt verzeekering kan geeven.</l>
+					</sp>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>Uw laffe misdaad, door uw loosheid aangedreeven,</l>
+						<l>Zoekt koele ontschuldiging, en dekzel voor uw zaak;</l>
+						<l>Uw drift was valsch, indien zy vreesde voor 't vermaak,</l>
+						<l>'t Geen al de waereld wenschte, uw vrees heeft my benoomen</l>
+						<l>Het nut, dat eenmaal uit de burgerkrijg zou koomen,</l>
+						<l>Daar my mijne eer toeroept; 'k begeer de zeege alleen,</l>
+						<l>Om 't einde van dien krijg te zien, en. die misdêen.</l>
+						<l>Vergiffenis te doen, zoo ras zy zijn verwonnen,</l>
+						<l>Zou haar mijne eerzucht voort, als broeders, lieven konnen.</l>
+						<l>Hoe groot, hoe vol gevaar ooit vijand was, de haat</l>
+						<l>Getemd zijnde, is mijn hert voor hem een toeverlaat.</l>
+						<l>O! wat een vreugd zou de aard, na zoo veel ooreloogen,</l>
+						<l>Genooten hebben, had men op een waagen moogen,</l>
+						<l>Als overwinnaars van hun tweedracht, rijden zien,</l>
+						<l>My, en Pompeus! mogt uw vrees dit niet wel vliên?</l>
+						<l>Belagchelijke vrees, die my met recht doed klaagen,</l>
+						<l>Gy hoeft geen zorg voor mijn zachtmoedigheid te dragen.</l>
+						<l>Wensch mijn zachmoedigheid, zy koome u nu te pas.</l>
+						<l>Indien mijn opzicht slechts op 't recht der wetten was,</l>
+						<l>'k Zou Rome, door uw straf, nu gaan te vreede stellen,</l>
+						<l>My in uw naberouw, noch naam, noch achting quellen,</l>
+						<l>Gebruiken zelfs uw troon, als tot een schouwtooneel,</l>
+						<l>Maat, om Cleopatra, wil ik haar bloed geheel</l>
+						<l>Verschoonen, en 't veraaad op uwe vleijers leggen,</l>
+						<l>'k Zal zien wat gy my zelfs hier op zult kunnen zeggen</l>
+						<l>En naar 't gevoelen, 't welk gy my zelfs uiten zult,</l>
+						<l>Zal ik u achten met, of zonder groote schuld.</l>
+						<l>Wil vast een altaar voor Pompeus op gaan bouwen,</l>
+						<l>Als een, wiens naam ik wil onsterffelijk doen houwen!</l>
+						<l>Wisch door deeze offerhande uw groote misdaad uit:</l>
+						<l>Maar neem, in 't keuren van het offer, wijz besluit.</l>
+						<l>Ga heen, geef last daar toe, laat my alhier verblijven,</l>
+						<l>Om met mijne oversten, mijn zaaken voort te drijven.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Caear, Anthonius, Lepidus.</stage>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>ANthonius, hebt gy die schoone Vrouw gezien?</l>
+					</sp>
+					<sp who="#marcus-anthonius">
+						<speaker>Anthonius.</speaker>
+						<l>'t Geluk wouw my 't gezicht, van deeze schoone biên.</l>
+						<l>Noolt kon de Hemel zoo veel zoets te zaamen mengen,</l>
+						<l>Zoo veel bevalligheên, in een schoon lichaam, brengen.</l>
+						<l>Men ziet een deftigheid, in 't aangezicht verspreid,</l>
+						<l>Die vorsten dwingen zou, tot onder daanigheid.</l>
+						<l>Haar oog steelt herten, en haar taal verrukt de zinnen;</l>
+						<l>Indien ik Caezar was, ik zouw haar willen minnen.</l>
+					</sp>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>Hoe nam zy 't offer van mijn heete min toch aan?</l>
+					</sp>
+					<sp who="#marcus-anthonius">
+						<speaker>Anthonius.</speaker>
+						<l>Zy dorst noch geen geloof, aan mijne woorden slaan,</l>
+						<l>Schoon 't ook haar hert geloofd, met zeedig dit te weig'ren,</l>
+						<l>Wil zy uw minnevlam, maar hooger op doen steig'ren.</l>
+						<l>Zy noemt zich des onwaard, hoewel zy zelve denkt,</l>
+						<l>Dat zy wel waardig is, dat gy uw min haar schenkt.</l>
+					</sp>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>Zou zy my minnen?</l>
+					</sp>
+					<sp who="#marcus-anthonius">
+						<speaker>Anthonius.</speaker>
+						<l>Kunt gy 't wel onzeeker achten?</l>
+						<l>Daar zy de kroon van u alleenig moet verwachten.</l>
+						<l>Hoe! zult gy twijffelen, of zy van liefde brand?</l>
+						<l>Die alles van u hoopt, die tot de hoogste stand</l>
+						<l>Van grootheid, door uw magt, kan werden opgeheeven,</l>
+						<l>Wil zonder vreeze uw liefde aan haare liefde geeven,</l>
+						<l>Voor de overwinnaar van Pompeus buigt het al.</l>
+						<l>Gy zult het zien, nochtans zy vreest voor 't ongeval</l>
+						<l>Des smaats, die Rome pleegt, aan 't koninglijk veroogen, moogen:</l>
+						<l>Maar meest speeld haar de zorg van uwe trouw voor de</l>
+						<l>Zy vreest Calphurnia, maar, als zy u zal zien,</l>
+						<l>Zal de eene en de and're vreeze uit haar gedachten vliên.</l>
+						<l>En gy uw zoete hoop doen naar uw zin gelukken,</l>
+						<l>Als gy een vrind'lijk woord zult in haar boezem drukken.</l>
+					</sp>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>Laat onz die schoone ziel van de yd'le vreeze ontslaan,</l>
+						<l>Mijn min haar toonen, en niet wachten, laat onz gaan.</l>
+					</sp>
+					<sp who="#marcus-anthonius">
+						<speaker>Anthonius.</speaker>
+						<l>Eer dat gy haar gaat zien, zoo weet, dat in uw handen,</l>
+						<l>Septimius, die eerst Pompeus aan dorst randen,</l>
+						<l>Kornelia nu brengt, hy meent door deeze daad,</l>
+						<l>Groote achting op te doen, by u, en by den staat.</l>
+						<l>Zoo draa zy aanquam, heeft men, volgende uw beveelen,</l>
+						<l>Haar hier gebragt; en al de zaaken doen verheelen.</l>
+					</sp>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>Zy kom; verdrietelijke, en moeijelijke maâr,</l>
+						<l>Hoe plaagt gy mijn geduld: war blijkt uw wreedheid klaar.</l>
+						<l>O Heemel! mag mijn min dan eind'lijk niet gebeuren,</l>
+						<l>Dat my een uur de zorg de vrijheid niet kom steuren!</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Caezar, Kornelia, Anthonius, Lepidus, Septimius.</stage>
+					<sp who="#septimius">
+						<speaker>Septimius.</speaker>
+						<l>MYn Heer.</l>
+					</sp>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>Septimius, ga na uw meester toe.</l>
+						<l>Ik ben het byzijn, van een landverraader moê;</l>
+						<l>Van een Romein, die, na dat hy de kling mogt draagen,</l>
+						<l>Ten dienst van Caezar, en Pompeus, met behaagen,</l>
+						<l>Een koning dienen kan.</l>
+					</sp>
+					<stage>Septimius gaat binnen.</stage>
+					<sp who="#kornelia">
+						<speaker>Kornelia,</speaker>
+						<l>Weet, Caezar, dat mijn val,</l>
+						<l>Die in uw boeijens zelf het lot braveeren zal,</l>
+						<l>My uw gevangene, maar geen slaavin kan maaken.</l>
+						<l>Gy eischt niet dat mijn hert, 't welk gy van eer ziet blaaken,</l>
+						<l>Aan u gehoorzaam is, en heer, en meester noemt.</l>
+						<l>Hoe zeer, ik door 't geval, tot rampspoed ben gedoemd,</l>
+						<l>Zoo zal ik evenwel, noch deeze naam behouden,</l>
+						<l>Dat my Pompeus, en de jonge Crassus trouwden;</l>
+						<l>Dat Scipio my teelde; om meêr te zeggen, 'k leef</l>
+						<l>Gelijk een roomsche vrouw, die voor geen rampspoed beef.</l>
+						<l>In al de stormen, my door 't noodlot toegedreeven,</l>
+						<l>Heb ik geen schaamte, als na Pompeus noch te leeven.</l>
+						<l>En schoon my 't middel in de nood, die my nu drukt,</l>
+						<l>Door wreede deerenis, van sterven is ontrukt,</l>
+						<l>En staal, en vloed ontzeid, moet ik my echter schaamen,</l>
+						<l>Dat my mijn ramp, en rouw, het leeven niet benaamen;</l>
+						<l>Het sterven was mijne eer, maar 't noodlot wouw 't verbiên,</l>
+						<l>Om my rampzaaliger, en in uw boey te zien.</l>
+						<l>'k Voel echter dat de Goôn my tot een dank verplichten,</l>
+						<l>Wijl ik, voor Caezar hier, zie Ptolomeus zwichten.</l>
+						<l>Helaas! wat quader ster zag mijn geboortedag;</l>
+						<l>Zoo ik de Goden noch met recht, bedanken mag,</l>
+						<l>Dat zy alhier my doen mijn vanden ontmoeten;</l>
+						<l>Daar my een koning met beleefcheid moest begroeten:</l>
+						<l>Naardien mijn man aan hem, de kroon gaf, en 't gebied:</l>
+						<l>O Caezar, hoor doch naar de kreet der zeege niet!</l>
+						<l>Zy is maar de uitslag, van de elende mijner daagen!</l>
+						<l>Dit is de bruidschat, die mijn mannen moest behaagen.</l>
+						<l>De Waereld heeft om my, nu tweemaal straf geleên,</l>
+						<l>En tweemaal heeft mijne echt, vol tegenstrijdigheên.</l>
+						<l>De goden van het volk, 't welk recht had, af doen wenden.</l>
+						<l>'K zou niet elendig zijn, in al mijn zwaare elenden,</l>
+						<l>Zoo ik, tot heil van Rome, aan Caezar was gepaard,</l>
+						<l>Door zoo een droevige echt, 't vergif voor my gespaard,</l>
+						<l>Van 't onverwinnelijk gestarnte, met mijn schreeden</l>
+						<l>Had in uw huis gebragt; maar waar toe zoo veel reeden?</l>
+						<l>Denk niet, dat ik mijn haat verkleenen kan, ô neen!</l>
+						<l>Ik heb 't u reeds gezegt, ik volg de roomsche zeên.</l>
+						<l>Een hert, gelijk het mijne, al is het ook gevangen,</l>
+						<l>Wil niet, uit vrees van de eer te schenden, iets ontfaugen.</l>
+						<l>Eisch geen vernedering, die laage dienst gebied,</l>
+						<l>Gedenk alleen dat gy Kornelia hier ziet.</l>
+					</sp>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>O eed'le en waarde helft van hem, die hier moest sneeven!</l>
+						<l>Wiens moed, verwondring wekt, wiens lot kan deernis geeven,</l>
+						<l>Al uw gedachten, doen voorwaar, een klaar besluit.</l>
+						<l>Wie dat uw vader was, en wie uw man, en uit</l>
+						<l>De moed die gy vertoond, werd licht'lijk afgenoomen,</l>
+						<l>'T geslacht uws mans, en dat, van waar gy zijt gekoomen.</l>
+						<l>De ziel van Crassus, en Pompeus, al hun kracht,</l>
+						<l>Die, door de tegenspoed, misleid wierd, en veracht,</l>
+						<l>Het bloed der Scipioos, beschermers van 't vermoogen,</l>
+						<l>Der goden, spreekt door u, en flikkerd uit uwe oogen.</l>
+						<l>En Romen ziet geen huis, in al zijn muuren meêr,</l>
+						<l>Wiens vrouw, en dochters, u gelijk zijn, in uwe eer.</l>
+						<l>Indien 't Jupijn, en al de goden kon behaagen</l>
+						<l>Dat eertijds Hannibal de zege weg kon draagen,</l>
+						<l>Zelfs zonder uw geslacht, dat die beroemden held,</l>
+						<l>Wien nu de Hemel van u wegneemt, het geweld,</l>
+						<l>Van een te wreeden vorst, wat had verdagt gehouwen,</l>
+						<l>En geen beloften, zoo veel kunnen toevertrouwen,</l>
+						<l>Als de oude vrindschap, die hy in mijn hert altijd</l>
+						<l>Verwachten mogt, dat hy gedoogt had, dat de strijd</l>
+						<l>Zijn vrees had weggejaagt, en de achterdocht benoomen,</l>
+						<l>Dat hy my eindelijk gewacht had, zonder schroomen,</l>
+						<l>En plaats gegeeven tot ver weering van mijn zaak,</l>
+						<l>'K zou hem dan, smoorende de tweedragt, en de wraak,</l>
+						<l>Bewongen hebben, om zijn leeven noch te spaaren,</l>
+						<l>Uit zijn gedachten, mijn geluk te laaten vaaren,</l>
+						<l>Om my te minnen, die de zege alleen begeer,</l>
+						<l>Om hem tot deelgenoot te hebben, in mijne eer,</l>
+						<l>'K zou zijn vernoegde ziel weêr hebben doen herleeven,</l>
+						<l>En zelfs, het godendom zijn nederlaag vergeeven;</l>
+						<l>Hy zou te Rome weer, mijn zeege by den Raad</l>
+						<l>Verdeedigd hebben, en doen smooren alle haat,</l>
+						<l>Maar, nu door zijn verlies, 't welk niemant kan waardeeren,</l>
+						<l>De waereld, deeze vreugde om 't nootlot moet ontbeeren,</l>
+						<l>Zal Caezar u zoo veel bewijzen als hy kan,</l>
+						<l>Wat hy heeft voor gehad met uw beroemde man.</l>
+						<l>Neem volle vrijigheid, gy moet alleen twee daagen</l>
+						<l>Hier mijn gevange zijn, en zelfs getuig'nis draagen,</l>
+						<l>Hoe ik na onze twist, zijn naam in achting houw,</l>
+						<l>En zijne moorders straf, ik wil door u, Mevrouw,</l>
+						<l>Aan gantsch Italiën, de nieuwe trots vertellen,</l>
+						<l>Waar van Thessaliën, mijn boezem op doed zwellen,</l>
+						<l>Ik laat u wat in rust. Ga, Lepidus, beschik</l>
+						<l>Voor haar een goed vertrek, 'k ga voor een oogenblik;</l>
+						<l>Men eere haar, als een der grootste roomsche vrouwen,</l>
+						<l>Dat 's meër als koningin. elk zal zich vaardig houwen,</l>
+						<l>Tot alles wat hen door uw goedheid werd geboôn.</l>
+					</sp>
+					<sp who="#kornelia">
+						<speaker>Kornelia.</speaker>
+						<l>Wat deugden doed gy my al haaten, groote Goôn!</l>
+					</sp>
+					<p>Einde van het derde Bedrijf.</p>
+				</div>
+			</div>
+			<div type="act" n="4">
+				<head>Vierde bedryf.</head>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+					<stage>Ptolomeus, Achilla, Photinus.</stage>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>HOe! met die zelve hand! en met die zelve deegen,</l>
+						<l>Waar mêe hy' t hert eerst van Pompeus heeft doorreegen?</l>
+						<l>Is dan Septimius, door Caezar dus versmaad:</l>
+						<l>En, in uw bijzijn, ook gesturven in dien staat?</l>
+					</sp>
+					<sp who="#achillas">
+						<speaker>Achillas.</speaker>
+						<l>Hy sturf, ô vorst! en laat de schande in uw gedachten,</l>
+						<l>Die hy heeft doorgestaan, en u noch staat te wachten,</l>
+						<l>Denk nu wie Caezar is, zoo langzaam in zijn haat;</l>
+						<l>In korten tijd rijst toorn, die haast weer over gaat,</l>
+						<l>Maar grimmigheid, met ernst, en voordacht aangedreeven,</l>
+						<l>Vermeerderd door de tijd, kan zwaarder slaagen geeven,</l>
+						<l>Hoop niet, dat gy hem ooit, bezaadigder zult zien,</l>
+						<l>Hy toond zich maar verstoord, om alle vrees te ontvliên,</l>
+						<l>Zijne eerzucht zorgt maar, dat geen magt hem kan verheeren,</l>
+						<l>Vervolgt Pompeus, en doed zijn geheug'nis eeren,</l>
+						<l>Zijn looze gramschap zoekt het voordeel van zijn dood,</l>
+						<l>En door dit wreeken, werd zijne eer, en naam vergroot.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Ik had geen meester, ach! had ik u willen hooren,</l>
+						<l>Ik zat noch op de troon, waar toe ik b:n gebooren,</l>
+						<l>'T is on voorzigtigheid, aan koningen gemeen,</l>
+						<l>Te veel naar raad te zien, en in de keurigheën</l>
+						<l>Misleid te werden, 't lot komt hen 't gemoed verblinden,</l>
+						<l>En zoo zy eenig licht, door haar gedachten vinden,</l>
+						<l>Zijn zy verbijsterd, en dan diend dat licht alleen,</l>
+						<l>Om haar in de Afgrond, meêr, en meerder, neêr te treên.</l>
+					</sp>
+					<sp who="#photinus">
+						<speaker>Photinus.</speaker>
+						<l>Ik kende Caezar niet, maar wijl hy 't groot betrachten</l>
+						<l>Van de ongemeene dienst, durft voor een misdaad achten,</l>
+						<l>Heer koning, is 't alleen zijn al te moedig bloed,</l>
+						<l>Dat onz verschoonen, en die daad afwasschen moet;</l>
+						<l>Ik rep nu geenzints meêr, van zonder tegenspreeken</l>
+						<l>Te hoopen op 't vertrek, en zoo dien smaad te wreeken,</l>
+						<l>Ik geef de midd'len tot geneezing van dit quaad,</l>
+						<l>Laat onz de dood, die hem zoo zeer ter herten gaat,</l>
+						<l>Rechtvaardigen op hem, laat zy te zaamen sterven,</l>
+						<l>En laat onz in hun bloed, gelijk de handen verven,</l>
+						<l>Zoo ziet zich Rome, door uw magt alleen, ontzlaân,</l>
+						<l>Van twee tierarmen, die in eernaam t' zaamen gaan.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Ja, hier door is alleen mijne ondergang te mijen,</l>
+						<l>Ik wil geen straf, voor een, die 'k zelf versterkte, lijen</l>
+						<l>Laat onz hem toonen, dat zijn zege, en krijgsgezach,</l>
+						<l>Door onz is voortgezet, laat onz op eenen dag,</l>
+						<l>Met al het roomsche volk, naar onz believen leeven,</l>
+						<l>Haar nu de vrijdom, als wel eer, de boeijens geeven.</l>
+						<l>O! Caezar, uwe moed groeije in uw daaden niet;</l>
+						<l>Erken de mijne, die gy met uwe oogen ziet.</l>
+						<l>Gy zijt zoo sterflijk als Pompeus ooit mogt weezen;</l>
+						<l>Gy waard hem nijdig, en zijn magt stond u te vreezen;</l>
+						<l>Gy hebt geen leevens, noch geen zielen meer, als hy;</l>
+						<l>Zijn ramp, die gy beklaagd, moest u doen zien, dat gy</l>
+						<l>Een hert hebt, dat als 't zijne, ook is met staal te raaken,</l>
+						<l>Nu blikzem, donder vry, ga yder angstig maaken</l>
+						<l>Voor uw geregtigheid; het is aan my gesteld,</l>
+						<l>Uw staat te redden, en uw listige geweld</l>
+						<l>Te straffen, die in my zlechts zusters bloed wil spaaren.</l>
+						<l>Ik laat my leeven, en mijn kracht niet evenaaren</l>
+						<l>Door deeze waagschaal van uwe onstandvasligheid;</l>
+						<l>Gy zult, tot zulk een prijs, haar liefde, die u vleid,</l>
+						<l>Niet krijgen, of de smaad van 't weigren kunnen wreeken;</l>
+						<l>'k Zal, op eene eed'ler wijz, uw haat, en kracht verbreeken.</l>
+						<l>Gy schreeft my flus de keur van mijn slachtoffers voor,</l>
+						<l>Ik heb'er op gedacht, en geeve uw last gehoor.</l>
+						<l>Wat kan ik beeter aan uw schoonzoons ziel opdragen</l>
+						<l>Als u? wiens bloed, wiens rook, wiens asch hem zal behaagen.</l>
+						<l>Mijn vrienden, 'k ben genoech gemoedigd: maar, men moet</l>
+						<l>Een arm gaan zoeken, die zoo groot een slachting doed.</l>
+						<l>Misschien is al mijn drift onnut, wijl zijn soldaaten</l>
+						<l>De stad bewaaren, wat kan onze voorzorg baaten?</l>
+						<l>Wat rijd, wat schikking, neemt men heeden best in acht?</l>
+					</sp>
+					<sp who="#achillas">
+						<speaker>Achillas.</speaker>
+						<l>In deezen staat, ô vorst! hebt gy zeer groote kracht.</l>
+						<l>Twee mijlen van de stad heb ik, voor weinig dagen,</l>
+						<l>Zes duizend mannen, of het oproer onz mogt plaagen,</l>
+						<l>Voor u gereed gesteld: dat Caezar vrijlijk waak,</l>
+						<l>Al zijn voorzichtigheid doed niets tot deeze zaak;</l>
+						<l>De stad heeft onder de aarde een uitgang, door die wegen</l>
+						<l>Werd licht uw volk te nacht al stil, in 't hof gekreegen:</l>
+						<l>Want openbaar zijn magt te willen wederstaan,</l>
+						<l>Was zoo veel, als van zelfs in zijn verderf te gaan.</l>
+						<l>Wy moeten, als de liefde, en wijn zijn zorg verasschen,</l>
+						<l>In 't midden van 't onthaal wel op onz voordeel passen;</l>
+						<l>Het volk is al voor onz Toen hy hier binnen trad,</l>
+						<l>Heb ik de schrik gemerkt, die hun gemoed bezat.</l>
+						<l>Toen zy zelfs zaagen, dat zijn moedige adelaaren,</l>
+						<l>Reeds meester van de pracht,van onze vaandels waaren,</l>
+						<l>Op 't dertel schouwspel van deeze opgeblaaze smaad,</l>
+						<l>Ontvonkte een dolle toorn in haar verbleekt gelaat.</l>
+						<l>'k Zag hoe de razerny haar zinnen kon ontroeren,</l>
+						<l>Dat zy gereed zijn om eene aanzlag uit te voeren,</l>
+						<l>Het schort maar aan 't bevel. Het roomsche volk voor al,</l>
+						<l>Dat van Septimius bestierd werd, door zijn val</l>
+						<l>Te schrikkelijk ontzet, zoekt deeze smaad te wreeken,</l>
+						<l>Die aan haar hoofdman zoo onlijdlijk is gebleeken.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Hoe is het moogelijk dat y mand tot hem dringt?</l>
+						<l>Zoo hem, geduurende het maal, zijn wacht omringt.</l>
+					</sp>
+					<sp who="#photinus">
+						<speaker>Photinus.</speaker>
+						<l>'t Volk van Kornelia, de Romers die u dienden,</l>
+						<l>Bevinden onder hen veel broederen, en vrienden,</l>
+						<l>Wier ongenoegen wel deed blijken, dat haar hand</l>
+						<l>Zich wenscht te ontlasten van hun heer, en dwingeland:</l>
+						<l>Zy gaaven reeds hun woord, en staan den vorst na 't leeven,</l>
+						<l>En kunnen veiliger, als wy, den steek hem geeven;</l>
+						<l>Zijn valsche ned'righeid, of eer, zijn dwaas beleid,</l>
+						<l>'t Welk voor de pligt, daar hy Kornelia mêevleid,</l>
+						<l>De winst van Rome wacht, zal tot hem toegang maaken,</l>
+						<l>Om, zonder twijffel, tot dit wigtige eind te raaken.</l>
+						<l>Maar, 'k zie Cleopatra; veins toch, dat uw gemoed</l>
+						<l>Zoo zwak is, dat het niet, ô vorst, als vreezen doed.</l>
+						<l>Laat onz vertrekken, wien zy aanziet als haar plaagen,</l>
+						<l>Wier lastig bijzijn toch haare oogen zou mishaagen.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Gaa heene, en kom straks weêr.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Ptolomeus, Cleopatra, Charmione, Achoreus.</stage>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>IK heb, met al mijn magt,</l>
+						<l>De gramschap van de vorst tot stilstand weêr gebragt.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Ik dorst zoo groot een dienst, van zuster, wel verwachten.</l>
+						<l>Wiens zinnen bezig zijn met eedele gedachten.</l>
+						<l>Maar, uwen minnaar, scheid wel ras.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>'t geschiede alleen,</l>
+						<l>Om dat 'er in de stad krakeel te rijzen scheen,</l>
+						<l>'t Welk hy zelfs dempen wou, want eenige soldaaten,</l>
+						<l>En burgers hadden zich in 't schelden uitgelaaten,</l>
+						<l>En ik, ik heb u zelf de boodschap willen doen,</l>
+						<l>Dat gy niet quaads voor u, noch 't rijk hebt te vermoên.</l>
+						<l>De grooten Caesar heeft uw misdaad wel mispreezen,</l>
+						<l>Met meêr medogenheid, als gramschap in zijn weezen,</l>
+						<l>Ja, hy beklaagd u, die zoo laffe raadslien hoord,</l>
+						<l>Die hunne koningen niets raaden als tot moord;</l>
+						<l>Zoo laag als hun geboorte, is 't eind dat zy bejaagen,</l>
+						<l>Vergeefs verheft men hen, om staaten te onderschraagen.</l>
+						<l>Een hert tot dienst geteeld, weet quaalijk van gebiên,</l>
+						<l>Het is verleegen, als het zich zoo groot moet zien,</l>
+						<l>Zijn hand, die zelfs zich op geen misdaad durft betrouwen.</l>
+						<l>Ontvalt den last, die hem te zwaar was om te houwen.</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>'t Is zoo, mijn zuster,en het eind der snoode daad,</l>
+						<l>Doed my de miszlag zien in 't kiezen van mijn raad.</l>
+						<l>Had ik aan wijzer geest, mijne ooren willen geeven,</l>
+						<l>'k Zou in de zelve roem, van mijns gelijken leeven,</l>
+						<l>De vrindschap waarder zijn, die, door natuur geleid,</l>
+						<l>Uw broeder werd vergund, schoon vol ondankbaarheid;</l>
+						<l>Pompeus wierd alhier, van Caesar wel ontfangen,</l>
+						<l>De waereld zou door onz, de vreede weêr erlangen,</l>
+						<l>My, met rechtvaardigheid, hun zaaken hand'len zien,</l>
+						<l>Haar beider vrind zijn, ja, haar scheidsman wel misschien.</l>
+						<l>Maar, wijl 't voorgaande, toch geen ander eind kan krijgen,</l>
+						<l>Zoo vinde ik goed, voor u mijn meening niet te zwijgen;</l>
+						<l>'k Misdeede u, zuster, en gy zijt nochtans zoo goed,</l>
+						<l>Dat gy mijn leeven, en mijn schepterstaf behoed.</l>
+						<l>Verwin u t' eenemaal, doe koninglijke daaden,</l>
+						<l>Verlos Achillas, die met doodsche schrik belaaden,</l>
+						<l>Gelijk Photinus vreest, zy hebben u misdaan,</l>
+						<l>En 't sterven wel verdiend! maar 't gaat mijne eer ook aan,</l>
+						<l>Die heeft belang hier in, zoo Caezar haar wil dooden,</l>
+						<l>Om 't geen haar koning zelf, hen ernstig heeft geboden,</l>
+						<l>Zoo komt die schande op my, mijn hert werd in haar straf,</l>
+						<l>Zoo zeer getroffen, of hy my zelf 't vonnis gaf.</l>
+						<l>Wil toch, om my, uw haat, die billijk is, bepaalen,</l>
+						<l>Kan hun verachte bloed, uw eed'le hert betaalen?</l>
+						<l>Laat ik verschuldigd zijn; stil Caezars gram gemoed,</l>
+						<l>Zlechts met een woord, wijl hy 't al om uw liefde doed.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Indien in mijne hand haar dood en leeven rusten,</l>
+						<l>Achte ik het geenzints waard, dat my die wraak zou lusten,</l>
+						<l>Maar, ik vermag niet veel op dien beroemden man,</l>
+						<l>Als 't bloed des dooden helds, my wederspreeken kan,</l>
+						<l>'k Beroem my niet, dat ik hem kan doen overhellen,</l>
+						<l>Ik sprak 'er af: maar hy wist dat weêr uit te stellen,</l>
+						<l>En draaijende onz gesprek, op een gantsch ander ding,</l>
+						<l>Gaf hy noch toestand, noch volkomen weigering.</l>
+						<l>'k Wil evenwel 't verzoek, om u, noch eenmaal waagen;</l>
+						<l>'t Verdubbeld bidden, mogt misschien wat beeter slaagen.</l>
+						<l>Ik durf gelooven, dat....</l>
+					</sp>
+					<sp who="#ptolomeus">
+						<speaker>Ptolomeus.</speaker>
+						<l>Hy komt, ei! laat my gaan,</l>
+						<l>Dat hy my hier vond, zou hem licht doen overslaan</l>
+						<l>Tot groote afkeerigheid, en zijne gramschap tergen,</l>
+						<l>Gy zult met meerder vrucht alleen 't verzoek hem vergen,</l>
+						<l>Ja, hem dit toe doen staan.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Caezar, Cleopatra, Anthonius, Lepidus, Charmione, Achoreus. en eenige
+						Romeinen.</stage>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>Vorstin, de stad is weêr</l>
+						<l>In stilte, en niemand hoord van eenige oproer meêr,</l>
+						<l>Of vreest voor binnekrijg, van burgers of soldaaten,</l>
+						<l>Die door baldaadigheid, en drift zijn uitgelaaten.</l>
+						<l>Maar, toen ik u verliet, op deeze zelve tijd,</l>
+						<l>Leed, groote Goôn! mijn ziel een ongeruster strijd.</l>
+						<l>De moeijelijke zorg, die my deed van u blijven,</l>
+						<l>Kon my, in weêrwil van mijne eer, tot gramschap drijven,</l>
+						<l>Ik was gestoord, om dat mijn tegenwoordigheid,</l>
+						<l>Door haare vijandschap, wierd van u afgeleid.</l>
+						<l>Maar, ik kan alles, wat my tegenstaat, vergeeten,</l>
+						<l>Als mijn gedachten, my het groot geluk doen weeten,</l>
+						<l>En mijn verlangen, met die zoete hoop, en schijn</l>
+						<l>Vermaaken, dat uw min mijn vlam zal gunstig zijn;</l>
+						<l>Ten minsten denken doen, dat Caezar kan gelooven,</l>
+						<l>Dat gy niet t' eenemaal uw min hem zult ontrooven;</l>
+						<l>Dat hy met recht uw min mag eisschen, wijl alleen</l>
+						<l>De Goden, boven hem, d'almogendheid bekleên.</l>
+						<l>Ja koningin, indien daar ymand wierd gevonden,</l>
+						<l>Die met meer achting, voor uw banden, was gebonden,</l>
+						<l>Zoo ik een zeetel wist, die met meewaardigheid,</l>
+						<l>Daar gy zijn meester boeide, uw zinnen had gevleid.</l>
+						<l>Ik ging voort na hem toe, min om zijn troon te winnen,</l>
+						<l>Als wel, om 't recht, van u door dienst te moogen minnen.</l>
+						<l>Ik zou niet willen, dat ik wierd van u geacht</l>
+						<l>Eer ik dien vijand, had in mijn geweld gebragt;</l>
+						<l>Om zulk een kost'lijk recht, ging ik deeze oorlog wekken.</l>
+						<l>Deeze eerzucht, heeft mijne arm, voor u, den kling doen trekken.</l>
+						<l>'k Wilde in Pharzalien Pompeus niet verslaan,</l>
+						<l>Maar eer bewaaren, ja, princes, hy is vergaan,</l>
+						<l>De god des krijgs heeft niet zoo veel voor my gestreeden,</l>
+						<l>Als 't voordeel, en de gunst van uwe aanloklijkheeden.</l>
+						<l>Die stierde deeze hand, door haar zwol mijn gemoed,</l>
+						<l>Wijn zege is de arbeid, die baar kracht voor 't laatste doed.</l>
+						<l>Het is een merk des vlams, die zy my waardig achten,</l>
+						<l>In 't hert te blaazen, en in 't eind zijn ook mijn klagten</l>
+						<l>Gevolgt, toen mijn gezicht uw godd'lijke oogen zag,</l>
+						<l>Waar op, uw ziel, met eere, een antwoord geeven mag.</l>
+						<l>Gy maakt my meester van de Waereld, en van Romen.</l>
+						<l>'k Ben om die tijtel te vergrooten, hier gekomen.</l>
+						<l>'k Ben uw gevangen, en gelukkig, zoo mijn geest,</l>
+						<l>Zoo veel van de uwe, maar verwinnaar is geweest,</l>
+						<l>Dat zy het een waardeerd, en 't andre toe wil laaten.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Ik dank het hoog geluk, 't welk my met eere, en staaten</l>
+						<l>Vervuld, en ophoopt, voor zoo groote eene overvloed.</l>
+						<l>'t Is tijd dat ik mijn hert voor u onsluyten moet.</l>
+						<l>Ik ken my zelve, en u, die van mijn jonger jaaren</l>
+						<l>Uw liefde altijd aan my, door diensten, quaamt verklaaren.</l>
+						<l>Mijn rijksstaf, is een gift van uw beroemde magt.</l>
+						<l>Gy hebt tot tweemaal toe, de kroon my 't huis gebragt,</l>
+						<l>'k Beken hier op, mijn heer, dat ik u moet beminnen,</l>
+						<l>En dat mijn hert, geenzints deeze aanval kan verwinnen,</l>
+						<l>Daar 't zoo veel deugden, en zoo groote daaden ziet.</l>
+						<l>Mijne afkomst, deeze staf, dit rijk, mijn nieuw gebied,</l>
+						<l>Zijn zoo veel vijanden, helaas! die mijn verachten,</l>
+						<l>Door doodelijke haat, geheel te plett'ren trachten.</l>
+						<l>De naam van koningin, strekt my by haar tot schand,</l>
+						<l>Zoo Rome, als wel voorheen, dien eernaam noch verband.</l>
+						<l>De troon verneederd my, daar zy my wil verhoogen,</l>
+						<l>Die teekenen van eer, zoo schand'lijk in hunne oogen,</l>
+						<l>Die tijtels maaken my onwaardig voor uw min.</l>
+						<l>Noch durf ik evenwel, als ik uw magt begin</l>
+						<l>Te wikken, aan mijn wensch, geene eed'le hoop ontzeggen,</l>
+						<l>Die zoo veel legers, in hun bloed kon nederleggen,</l>
+						<l>Met recht, de eenzinnigheid van Roomen temmen mag,</l>
+						<l>De schrik, die 't altoos heeft voor 't koninglijk gezach</l>
+						<l>Moet wijken, voor 't bevel van uw gerechte wetten,</l>
+						<l>Daar is geen hinderpaal, die gy niet kunt verzetten.</l>
+						<l>Gy hebt het my beloofd, ik wagt die wonderdaad,</l>
+						<l>Uw laatste slag, in roem, dit ver te boven gaat.</l>
+						<l>'k Verzoek dit maar aan u, en niet aan and're Goden.</l>
+					</sp>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>Geen werk is zwaar, waar toe de liefde my komt nooden.</l>
+						<l>Ik zal ter loops, maar eens het Afrikaansche strand</l>
+						<l>Bezoeken, en mijn magt, hen, wien de schrik vermand,</l>
+						<l>En van mijn vijanden noch over zijn gebleeven,</l>
+						<l>Doen zien, en Roome, 't welk geen vijand my kan geeven,</l>
+						<l>Zal, onvermogende om mijn arm te wederstaan,</l>
+						<l>In 't eind bezorgt zijn, hoe 't my aan de hand moet gaan.</l>
+						<l>Uwe oogen zullen zien, hoe zy aan uwe voeten,</l>
+						<l>Ootmoediglijk haar haat, en trotsheid, off'ren moeten.</l>
+						<l>Na eene neêrlaag, zie ik hoe de ondankbaarheid,</l>
+						<l>In Alexanders stad, u om mijn gunst noch vleid.</l>
+						<l>Ik wil dat zy uw liefde, ontzachlijk koomen smeeken,</l>
+						<l>Uw liefde bidden, dat zy Caezars op wil queeken.</l>
+						<l>Dit is het groot geluk, daar mijne wensch naar tracht.</l>
+						<l>Dit is de vrucht, die ik met mijn laurieren wacht.</l>
+						<l>Gelukkig zoo het lot, zijn wreedheid om kon wenden,</l>
+						<l>My die liet plukken, eer 't my van u af wou zenden,</l>
+						<l>Maar 't krijgs vuur, 't vuur der min met nieuwen yver slaat.</l>
+						<l>'t Wil dat ik om uw min te krijgen, u verlaat.</l>
+						<l>Waar dat men heene vlucht, ik moet ook derwaards draaven,</l>
+						<l>Om 't einde van de zege, en uwe min te staaven.</l>
+						<l>Laat ondertuslchen toe, dar ik op nieuws verzien</l>
+						<l>Met kracht, door uwe min, mijn vijand 't hoofd mag biên,</l>
+						<l>Zoo kom 't verschrikte volk, die waarheid weêr te binnen,</l>
+						<l>Dat mijn grootmoedigheid, het komen, zien, en winnen,</l>
+						<l>Acht voor een zelve zaak.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Mijn heer! het is te veel,</l>
+						<l>Laat toe dat ik daar van misbruike een minder deel.</l>
+						<l>Uw liefde, heeft my tot die mislag aangedreeven,</l>
+						<l>Hy boete deeze schuld, gy zult den staf, ja 't leeven</l>
+						<l>Misschien my schenken, maar zoo gy van de overdaad</l>
+						<l>Van uwe lief de, my ook iets gebruiken laat,</l>
+						<l>Zoo bidde ik u, by alle uw groote aanloklijkheden,</l>
+						<l>'t Geluk dat uwen kling bestierd, met recht, en reden,</l>
+						<l>By alles 't geene ik hoop, en gy met lust verwacht,</l>
+						<l>Besmet toch met geen bloed, 't geen my is toegedacht.</l>
+						<l>Mijn heer, ei! geef genaade, of laat ik hen die geeven,</l>
+						<l>Toon hier door, dat ik weêr ben tot den troon verheeven,</l>
+						<l>Achillas, en Photin, zijn uwe haat niet waard,</l>
+						<l>Zy zijn genoech gestraft, als hen in de oogen vaard,</l>
+						<l>De glans van mijn gezach, haar misdaad...</l>
+					</sp>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>Neem een teken,</l>
+						<l>Waar door uw naam, vorstin, veel schoonder door mag breeken.</l>
+						<l>Mijn wil staat 't uwer magt, maar zoo gy raad bemind,</l>
+						<l>Kies onderdaanen, die uw goedheid dankbaar vind.</l>
+						<l>Gebruik toch over my maar wettelijke magten,</l>
+						<l>Maak niet dat ik my, aan haar quaad moet schuldig achten,</l>
+						<l>'t Is zelf al veel dat ik om u den koning spaar;</l>
+						<l>En was 't mijn liefde niet...</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Caezar, Kornelia, Cleopatra, Achoreus, Anthonius, Lepidius, Charmione. en
+						eenige Romeinen.</stage>
+					<sp who="#kornelia">
+						<speaker>Ornelia.</speaker>
+						<l>Waak, Caezar, daar 's gevaar!</l>
+						<l>Uw dood is al bestemt, men zweert uw bloed te plengen.</l>
+						<l>Men wil uw hoofd, by 't hoofd van mijn Pompeus brengen.</l>
+						<l>Waak, Caesar! waak! 't is tijd, eer uw vergoote bloed</l>
+						<l>In 't zijne werd gemengt, wie deeze misdaad doed,</l>
+						<l>Wie 't met hem staan; en hoe het stuk is voorgeslagen,</l>
+						<l>Kund gy mijn slaaven, die 't u zeggen kunnen, vraagen.</l>
+					</sp>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>O! recht romeins gemoed, en waardig zulk een held.</l>
+						<l>Zijn ziel, die van om hoog,vast aan ziet, hoe 't geweld,</l>
+						<l>Dat hem was aangedaan, door my zijn straf zal voelen,</l>
+						<l>Laat zijne gramschap om deeze eed'le wraak bekoelen,</l>
+						<l>En red my door zijn Helft, die hy op aarde liet,</l>
+						<l>Van däag uit een gevaar, 't welk my by na verried.</l>
+						<l>Hy leeft noch in haar min, 'k hoor door haar mond hem spreeken,</l>
+						<l>Hy drijft haar voort, en kan haare eed'le ziel ontsteeken,</l>
+						<l>Hy dooft haar gramschap uit, om met grootmoedigheid,</l>
+						<l>My te overwinnen.</l>
+					</sp>
+					<sp who="#kornelia">
+						<speaker>Cornelia.</speaker>
+						<l>Schoon zich Caezar lichtlijk vleid,</l>
+						<l>Met die gedachten dat mijn haat al is geweeken,</l>
+						<l>Voor deeze erkentenis die aan my is gebleeken,</l>
+						<l>Hy denk het niet, het bloed van mijn beroemde held,</l>
+						<l>Heeft eeuwig onderscheid, in onz gemoed gesteld.</l>
+						<l>'k Verwacht de vrijdom, die gy my hebt aangebooden,</l>
+						<l>'k Zal die besteeden, om elk tot uw val te nooden,</l>
+						<l>Een vijand zoeken, die van 't leeven u beroofd,</l>
+						<l>Zoo gy my houden durft 't geen gy my hebt beloofd;</l>
+						<l>Maar schoon mijn wensch is, dat ik u mag zien bederven,</l>
+						<l>Zoo stut ik deeze slag, die u nu wil doen sterven,</l>
+						<l>De reden wil uw dood, maar geenzints door verraad,</l>
+						<l>Die 't weet, en niet ontdekt, heeft deel in zulk een quaad.</l>
+						<l>Ik Wil uw dood! maar als uw vijandin, de zoonen</l>
+						<l>En neeven van mijn man, die moeten u betoonen</l>
+						<l>Van welk een bloed zy zijn, als zy in een gevecht,</l>
+						<l>Mijn wensch volvoeren, in 't beschermen van zijn recht.</l>
+						<l>'k Wil dat een waarde hand, door my daar toe gedreeven,</l>
+						<l>U, in een veldslag, zal tot offerhande geeven</l>
+						<l>Aan hem, wiens ziel gy eerd, door 't oeff'nen van uw wraak,</l>
+						<l>Daar zelfs uw leger ziet zoo ridderlijk een zaak.</l>
+						<l>Mijn zorg en wensch verhaast uw dood en ongelukken,</l>
+						<l>Nochtans deeze ondergang, zou mijne hoop verdrukken.</l>
+						<l>Uw welvaart daagd mijn wraak, maar wat mijn hoop ook vleid,</l>
+						<l>'k Wil haar niet tergen, in haare ongeduldigheid.</l>
+						<l>Eene uitgestelde wraak, zal licht tot niet verloopen,</l>
+						<l>Zy staat te duur, als zy voor wachten is te koopen,</l>
+						<l>Ik zal de blikzem, op het Africaansche strand,</l>
+						<l>Niet zoeken, 'k zie haar tot mijn heil in uwe hand,</l>
+						<l>Zy dreigt een hoofd, 't welk zy om my eerst moet verzengen,</l>
+						<l>'t Stond in mijn magt, het zijne, of 't uwe aan hem te brengen,</l>
+						<l>Die my de liefste was, mijn haat mogt keuren, maar</l>
+						<l>Ik maak een onderscheid, in zijne moordenaar,</l>
+						<l>En die hem overwon, ik wil uw roem niet straffen,</l>
+						<l>Eer ik die schelmsche daad het rechte loon kan schaffen;</l>
+						<l>Ja, Roome wil dit ook, haar god'lijk aangezicht</l>
+						<l>Zou schaam root werden, om 't vergeeeten van mijn pligt,</l>
+						<l>Die hoon was al te groot, zoo, na zoo veel gelukken,</l>
+						<l>De waereld, op een dag, voor 't schandlijk staal zag bukken</l>
+						<l>Twee hoofden, welker roem geen paalen is gezet,</l>
+						<l>Haar moedig hert, dat gy wilt boeijen door uw wet,</l>
+						<l>Zou als een ongeluk, haar volle vrijdom wraaken,</l>
+						<l>Zoo de aanslag van den Nijl, den Tijber vry moest maaken,</l>
+						<l>Gelijk haar een romein, in boeijens heeft geleid,</l>
+						<l>Wacht zy van een romein ook haare vrijigheid.</l>
+						<l>Gy zoud hier sneuvelen, en zy geen wraak erlangen,</l>
+						<l>Zy zouden u misdoen, en gy geen straf ontfangen,</l>
+						<l>En zonder dat uw dood, aan uws gelijke een schrik</l>
+						<l>En afkeer geeven zou, ging, in dat oogenblik,</l>
+						<l>Als gy wierd afgemaakt, het voorbeeld ook verlooren,</l>
+						<l>Wreek Rome van dit rijk, door 't noodlot uitgekooren</l>
+						<l>Tot ongelukken, ik zal noch de wraak wel zien,</l>
+						<l>Die mijn Pompeus wil. De tijd en nood gebiên</l>
+						<l>Te zorgen. 'K ga, vaar wel, en Caezar mag verklaaren,</l>
+						<l>Dat mijne wenschen eens voor zijne welstand waaren.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>Caezar, Cleopatra, Anthonius, Lepidus, Achoreus, Charmione, En eenige
+						roomsche Zoldaaten.</stage>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>HAar fierheid, en zjjn moed, neemd mijn gedachten in.</l>
+						<l>Ziet eens voor wien gy om genaade bid, vorstin.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Ga heen, mijn heer, ga heene, ik kan voor hen niet spreeken;</l>
+						<l>Ga, op die schelmen uw geschonde rechten wreeken.</l>
+						<l>'t Is meer op my als u gemunt, men zoekt mijn dood.</l>
+						<l>Mijn magt brengt die verraârs in de allergrootste nood;</l>
+						<l>Om die te dempen, werd mijn steunsel aangegreepen;</l>
+						<l>Men zoekt, door uwe dood my naar de dood te sleepen.</l>
+						<l>In al de gramschap, die van zinnen my beroofd,</l>
+						<l>Gedenk ik echter, dat mijn broeder is haar hoofd.</l>
+						<l>Zult gy 't gedenken, heer, zal ik van u verwerven</l>
+						<l>Dat uw verstoord gemoed, daar 't andere doed sterven,</l>
+						<l>Zich zal gewaardigen te denken wie hy is?</l>
+					</sp>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>O ja, 't zal eeuwig staan in mijn geheugenis,</l>
+						<l>Dat uw grootmoedig hert zijn misdaad wil vergeeven,</l>
+						<l>Ten inzicht van zijn bloed. Vaar wel, wil vroolijk leeven.</l>
+						<l>Achillas, en zijn vrind, moet bukken voor 't gevaar,</l>
+						<l>Waar mêe hen 't noodlot dreigt; om 't vloekgespan, en haar</l>
+						<l>Te jaagen op de vlucht, zal ik haar straf bereijen,</l>
+						<l>Hen beulen zenden, daar zy mijn gevolg verbeijen.</l>
+						<l>'k Zal hen geen vaandels, maar mijn bijlen laaten zien.</l>
+					</sp>
+					<stage>Cazar gaaf met de Romeinen binnen.</stage>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Ga, Achoreus, wil uw hand aan Caezar biên,</l>
+						<l>Keer, neffens hem, mijn dood, die reeds al is bezwooren</l>
+						<l>Als hy zijn vijand straft - zoo houd aan hem te vooren</l>
+						<l>'t Geen hy my heeft beloofd; draag zorg, voor 's konings bloed,</l>
+						<l>Wanneer de heevigheid van Caezars deegen woed;</l>
+						<l>Spaar, om mijn druk, zijn bloed.</l>
+					</sp>
+					<sp who="#achoreus">
+						<speaker>Achoreus.</speaker>
+						<l>'k Verzeeker u zijn leeven,</l>
+						<l>Zoo hem mijn zorg, en hand slechts bijstand mogen geeven.</l>
+					</sp>
+					<p>Einde van 't vierde Bedrijf.</p>
+				</div>
+			</div>
+			<div type="act" n="5">
+				<head>Vyfde bedryf.</head>
+				<div type="scene" n="1">
+					<head>Eerste tooneel.</head>
+					<stage>Kornelia, houdende een doodbus in haar handen. Philippus.</stage>
+					<sp who="#kornelia">
+						<speaker>Kornelia.</speaker>
+						<l>MYne oogen, kan ik u gelooven? heeft geen droom,</l>
+						<l>Aan my, die droevig zijnde, ook alle rampen schroom,</l>
+						<l>Een loogen voorgedicht? Philippus! keert gy weder?</l>
+						<l>Lei gy die waarde man op 't eerlijk lijkvuur neder?</l>
+						<l>De doodbus, die ik draag, ia daar zijne asch dan in?</l>
+						<l>O voorwerp al te teêr, en schriklijk voor mijn min!</l>
+						<l>Gy eeuwig onderhoud van haat, en medelijen!</l>
+						<l>Kleen overschot mijns mans, wild zijnen geest niet mijen,</l>
+						<l>Aanhoor zijn vrouw, verwacht geen naklagt of geween,</l>
+						<l>Ik zal mijn ongeluk gaan onder de oogen treên,</l>
+						<l>Met and're midd'len. 't Zijn onwaardige genuchten,</l>
+						<l>Met duizend woorden zijne elenden uit te zuchten.</l>
+						<l>Die by zich zelve klaagt, zoekt troost in zijne klagt.</l>
+						<l>'k Bezweer de Goden, by haar allergrootste magt,</l>
+						<l>Om meêr te zeggen; 'k zweer by u, die mêer vermoogen</l>
+						<l>Op my hebt, als 't ontzach van 't godlijk mededoogen,</l>
+						<l>'t Welk quaalijk voor hem waakte. Elendig overschot,</l>
+						<l>Ik zweer by u, die na dien doodschen slag van 't lot</l>
+						<l>Mijn godheid zijt, by u, die my alleen 't genoegen</l>
+						<l>Van troost hier geeven kund; daar gy my toe komt voegen</l>
+						<l>Eene yver tot zijn wraak; het laffe Aegypte bragt</l>
+						<l>Aan Caezar, 't offer, daar mijn man om wierd geslagt.</l>
+						<l>Maar 'k zweer, ô Rome, nooit uwe wal te komen,</l>
+						<l>Voor dat ik van dien god, en paap, heb wraak genomen.</l>
+						<l>Doe my dit denken, en versterk my in mijn haat.</l>
+						<l>O asch! die my in hoop, en duizend zorgen laat,</l>
+						<l>En, om ook Caezar zijn verdiensten te doen voelen,</l>
+						<l>Zoo stort in yders hert, al 't geene in 't mijn komt woelen.</l>
+						<l>Gy, die hem eer beweeft op dien vervloekten strand;</l>
+						<l>Gy, wiens godvruchtigheid van liefdepligten brand,</l>
+						<l>Zeg my, wat goede geest heeft u toch aangedreeven,</l>
+						<l>Om deeze lijkpligt aan dien grooten held te geeven?</l>
+					</sp>
+					<sp who="#philippus">
+						<speaker>Philippus.</speaker>
+						<l>Geheel met bloed besmet, meêr dood dan mijnen heer,</l>
+						<l>En, na ik honderdmaal vervloekt had kroon, en eer,</l>
+						<l>Mevrouw, stierde ik mijn gang, en zuchten na die zijen</l>
+						<l>Des oevers, die den slag der golven moeste-lijên;</l>
+						<l>Ik liep heel lang vergeefs, tot dat ik eind'lijk van</l>
+						<l>Een rots, dicht by een plaat, den romp van uwen man</l>
+						<l>Ontdekte, daar de vloed, vergramt, scheen lust te vinden</l>
+						<l>In 't lichaam af en aan te zetten door de winden.</l>
+						<l>Ik wierp mv in de vloed, omhelsde,en stiet hem voort,</l>
+						<l>En zaamelde onderwijl war tot een houtmijt hoord;</l>
+						<l>De stukken van een kiel, hier op de strand gebleeven,</l>
+						<l>Heb ik hem zonder kunst, zoo ik best kon, gegeeven;</l>
+						<l>De vlam sloeg nauwlijks door, of 't godendom verziet</l>
+						<l>My van een man, die my godvruchtig bystand bied:</l>
+						<l>'t Was Cordus, een romein van afkomst, die quam keeren</l>
+						<l>Van stad, en jaaren lang zich moest aan strand erneeren;</l>
+						<l>Als hy de romp maar zag, heeft hy terstond geloofd;</l>
+						<l>Dat dit Pompeus was, door 't missen van het hoofd;</l>
+						<l>Hy valt aan 't weenen, en laat dus zijn inborst hooren:</l>
+						<l>O gy! wie dat gy zijt, door 't godendom gekooren</l>
+						<l>Tot deeze waarde dienst, gy kend u zege niet;</l>
+						<l>Gy vreest voor straf, daar gy noch geen vergelding ziet.</l>
+						<l>Maar, Caezar zal, eerlang, dien held op 't felste wreeken,</l>
+						<l>Aan wiens vermoorde lijk uw yver is gebleeken;</l>
+						<l>Vertel vry yder een, dat gy hem hebt verzengt;</l>
+						<l>'t Is raadzaam, dat gy aan zijn weduw de asch zelf brengt:</l>
+						<l>Zijn overwinnaar heest met achting haar ontfangen,</l>
+						<l>Zoo grootsch, als nimmer God zou, op zijn komst, erlangen.</l>
+						<l>Volvoer het, ik kom weêr. Hy ging voort van my af:</l>
+						<l>Maar keerde kortlijk, als hy my de lijkbus gaf,</l>
+						<l>Waarin zijn hand, en mijne in 't einde de asch beslooten,</l>
+						<l>Die van dien held, en 't vuur, noch over was geschooten.</l>
+					</sp>
+					<sp who="#kornelia">
+						<speaker>Cornelia.</speaker>
+						<l>Wat lof verdiend die man, door zijn godvruchtigheid!</l>
+					</sp>
+					<sp who="#philippus">
+						<speaker>Philippus.</speaker>
+						<l>'k Zag wond're warring in elks weezen, en beleid,</l>
+						<l>Toen ik hier binnen quam, veel volk vlood naar de haaven,</l>
+						<l>Daar onze koning zich op 't sterkste had begraaven;</l>
+						<l>De romers volgden hen, en Caezar liet hen zien,</l>
+						<l>Daar 't zand van bloed noch rookte, een recht, 't welk moest
+							geschiên.</l>
+						<l>Men zag Photinus door een beulsche kling ontlijven:</l>
+						<l>Zoo draa als hy my zag, quam hem de nieuwsgier drijven,</l>
+						<l>Om my te kennen; toen greep hy uit deeze hand</l>
+						<l>De lijkasch van mijn heer, en zeide: ô waarde pand!</l>
+						<l>O overschot van een der grootste halve goden!</l>
+						<l>Wiens naam geen lofspraak, naar zijn waarde, werd gebooden.</l>
+						<l>Schoon ik ook zegepraal, Pompeus, zie de wraak,</l>
+						<l>Die uw verraaders volgt, en 't offer, 't geene ik maak.</l>
+						<l>Meêr zullen'er noch voor uw heilig altaar sneeven;</l>
+						<l>Cy, vlieg na 't hof, en wil, voor my, zijn vrouw dit geeven;</l>
+						<l>Stel haar bedroefdheid, door die zwakke hulp, te vreên;</l>
+						<l>Zeg haar, dat ik mijn arm zal tot haar wraak belteên.</l>
+						<l>Op deeze woorden is hy zuchtende gescheijen,</l>
+						<l>En liet een kus van eer de beenderbus geleijen,</l>
+						<l>Dien ik toen wederkreeg van deezen grooten man.</l>
+					</sp>
+					<sp who="#kornelia">
+						<speaker>Kornelia.</speaker>
+						<l>O zucht! ô eerbewijs! ô hoe gemakk'lijk kan</l>
+						<l>Elk 's vijands lot, die niet te vreezen is, beklaagen?</l>
+						<l>Philippus, dat men hem de wraak schijnt t'huis te draagten,</l>
+						<l>Wijl eige halsgevaar hem tot deeze yver noopt,</l>
+						<l>En, onder dit belang, alleen zijn heug'nis loopt,</l>
+						<l>En zijn gezach yersterkt, en de eer kan grooter maaken.</l>
+						<l>'k Beken, 'k zie Caezars hert, door eedle vlammen, blaaken:</l>
+						<l>Maar 'k zie Pompeus ook verwonnen door zijn hand,</l>
+						<l>Die medeminnaar van zijn grootsheid is van kant.</l>
+						<l>Zijn deugd zal aan de nijd veel twijfling kunnen geeven</l>
+						<l>Wat hy zou doen, indien Pompeus was in 't leeven;</l>
+						<l>Hoe groot zijn dienst ook is, 't gevaar, 't welk hem nu naakt,</l>
+						<l>Dien prijs verkleinende, zijn glants ook duister maakt;</l>
+						<l>De liefde speeld haar rol, de liefde doed hem vechten:</l>
+						<l>Als hy Pompeus wreekt, kan hy 't geschil beslechten,</l>
+						<l>'t Geen zijn beminde treft, daar zijn belang zoo zeer</l>
+						<l>Verknocht is aan 't belang van mijn vermoorden heer,</l>
+						<l>Behoorde ik hem zijn dienst ook niet veel danks te weeten?</l>
+						<l>'t En zy een moedig hert naar 't zijne altijd moet meeten</l>
+						<l>Dat van een ander; ja ik oordeel, en vertrouw,</l>
+						<l>Dat ik zelfs, daar hy strijd, hem in de waapens houw,</l>
+						<l>Terwijl ik in dien staat, waar toe hy is gedreeven,</l>
+						<l>Dezelve proeven van mijn deugd zou willen geeven,</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Cleopatra, Kornelia, Philippus, Charmione.</stage>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>IK kom hier niet om u te steuren in 't geklag,</l>
+						<l>'t Geene uwe droefheid wel rechtmaatig uitten mag.</l>
+						<l>'k Wil de asch van uw gemaal, wiens lijk, de vloed ontdraagen,</l>
+						<l>Ustraks is toegebragt, met u, uit pligt, beklaagen.</l>
+						<l>Ik kom, om u, Mevrouw, te zweeren, dat mijn moed</l>
+						<l>Het godendom, 't welk u zijn strafheid voelen doed,</l>
+						<l>Om krachten heeft gesmeekt. Had ik mijn wensch gekreegen,</l>
+						<l>De meester van uw ziel was niet zoo schelms doorreegen.</l>
+						<l>Toch zoo uw droefheid, door het zien van deeze gift,</l>
+						<l>Een weinig plaats maakt voor een vergenoegde drift;</l>
+						<l>Indien de wraak uw druk oen weinig mogt verbreeken,</l>
+						<l>Zoude ik u zeggen, dat men reeds uw hoon ziet wreeken.</l>
+						<l>Photinus, die 't verraad... gy weet het moog'lijk al.</l>
+					</sp>
+					<sp who="#kornelia">
+						<speaker>Kornelia</speaker>
+						<l>Ik hoorde al iets, Princes, van dien verraaders val.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Zoo een verhaaste straf hoorde u zeer lief te weezen.</l>
+					</sp>
+					<sp who="#kornelia">
+						<speaker>Kornelia</speaker>
+						<l>Zoo 't zoet is, 't is voor u: 't werde ook van u gepreezen.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Elk een vind aangenam eene uitslag die hy hoopt.</l>
+					</sp>
+					<sp who="#kornelia">
+						<speaker>Kornelia</speaker>
+						<l>Onze inzicht en belang elkandre verre ontloopt.</l>
+						<l>Zoo Caezar by zijn lijk Achillas lijk wil voegen,</l>
+						<l>Zal hy u wel voldoen, maar my geenzints vernoegen;</l>
+						<l>Daar moet een and're gift ten offer zijn gebragt,</l>
+						<l>Eer ik Pompeus, en zijn ziel bevreedigt acht:</l>
+						<l>Dat laage bloed kan ook by 't ongeluk niet haalen,</l>
+						<l>Mijn smert laat zich door geen onwaarde smert betalen.</l>
+						<l>De wraak, die mijn gemoed ontsteekt, en overheerd,</l>
+						<l>Straft Ptolomeus, daar zy Caezars dood begeerd;</l>
+						<l>Schoon hy on waardig is tot heerschen, ja te leeven,</l>
+						<l>Weet ik, dat Caezar hem, zijns ondanks dit zal geeven.</l>
+						<l>Maar, schoon zijn liefde aan u, die dienst had toegezeid,</l>
+						<l>Zal eindlijk eenig God, met meêr rechtvaardigheid,</l>
+						<l>Dit keeren; ja, wil my den heemel maar verhooren,</l>
+						<l>Zoo zal den eenen noch des anders hert doorbooren.</l>
+						<l>Vergund de heemel ooit mijn ziel zoo veel geluk,</l>
+						<l>Zoo zal de blijdschap haar bewoonen voor de druk:</l>
+						<l>Maar zoo mijn hooge wensch te veel eischt, groote Goden!</l>
+						<l>En een uw straf genaakt, zoo wilt den koning dooden.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>De hemel volgd altijd de wensch niet in zijn wraak.</l>
+					</sp>
+					<sp who="#kornelia">
+						<speaker>Kornelia.</speaker>
+						<l>De hemel schikt zomtijds ook de uitslag naar de zaak,</l>
+						<l>En stierd den schuldigen zijn welverdiende plaagen.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>De hemel laat zoo wel zij a goedheid hem behaagen,</l>
+						<l>Als zijn rechtvaardigheid.</l>
+					</sp>
+					<sp who="#kornelia">
+						<speaker>Kornelia.</speaker>
+						<l>'t Is zoo, maar dit begin,</l>
+						<l>Heeft meer rechtvaardigheid, als groote goedheid, in.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Hy laat zomtijds van 't recht, zich tot de zachtheid, leijen.</l>
+					</sp>
+					<sp who="#kornelia">
+						<speaker>Kornelia:</speaker>
+						<l>Onz beider haat, en liefde is licht, vorstin, te scheijen.</l>
+						<l>Ik spreek als weduw, gy als zuster; yders recht</l>
+						<l>Is, billik, aan 't geval des konings vast gehecht.</l>
+						<l>Wy zullen uit het bloed, 't geen reeds gestort is, merken,</l>
+						<l>Wiens wenschen 't godendom geliefd heeft uit te werken.</l>
+						<l>Zie, Achoreus daar.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Kornelia, Cleopatra, Achoreus, Philippus, Charmione.</stage>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>ACh! in zijne oogen staat</l>
+						<l>Geen teeken, als 't geen my een voorbeeld is van quaad.</l>
+					</sp>
+					<sp who="#achoreus">
+						<speaker>Achoreus.</speaker>
+						<l>Zoo draa als Caezar had vernomen....</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Ach! ik weet</l>
+						<l>Wat zorg en arbeid hy geduurig heeft besteet,</l>
+						<l>Om de onderaardsche weg, waar door het volk van buiten</l>
+						<l>Stond in te komen, door te graaven, en te sluiten,</l>
+						<l>Dat hy zijn volk de plaats aanstonds verzeek'ren deed,</l>
+						<l>Alwaar Photinus straks de smert der stoutheid leed;</l>
+						<l>Dat ook Achillas, door die smert, om 't hert beneepen,</l>
+						<l>De haaven, nu alreeds ontvolkt, had aangegreepen;</l>
+						<l>Dat hem den koning volgde, en de overige magt,</l>
+						<l>Al door Anthonius, te lande is aangebragt;</l>
+						<l>Dat Caezar, dus versterkt met nieuwe krijgsbanieren,</l>
+						<l>Achillas heeft gestraft, en deed de zegevieren,</l>
+						<l>Daar twijffel ik niet aan.</l>
+					</sp>
+					<sp who="#achoreus">
+						<speaker>Achoreus.</speaker>
+						<l>O ja! mevrouw, men zag</l>
+						<l>Dat hem 't geluk verzelde, als 't lang voor deezen plag.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Zeg my alleen,of hy mijn broeder heeft behouwen,</l>
+						<l>Of hy zijn woord my hield?</l>
+					</sp>
+					<sp who="#achoreus">
+						<speaker>Achoreus.</speaker>
+						<l>Dat moogt gy wel betrouwen.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Dit is alleen de zaak die ik maar weeten moet,</l>
+						<l>De Goden hebben hem, gelijk gy ziet, behoed.</l>
+					</sp>
+					<sp who="#kornelia">
+						<speaker>Kornelia.</speaker>
+						<l>Het loon der misdaad zal misschien hier na noch koomen.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Gy wilde dat aanstonds, nu heeft hy 't niet te schroomen.</l>
+					</sp>
+					<sp who="#achoreus">
+						<speaker>Achoreus.</speaker>
+						<l>Ach! had den hemel toch uw wensch wat meêr verhoord.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Wat zegt gy? beeter! 'k schrik op 't melden van dat woord.</l>
+						<l>Verhaal onz toch, 't geene ik noch naauwlijks kan verzinnen</l>
+					</sp>
+					<sp who="#achoreus">
+						<speaker>Achoreus.</speaker>
+						<l>Geen zorg, geen last, kon hier het minste voordeel winnen;</l>
+						<l>Hy koos te sterven, schoon dit Caezar weeren wouw;</l>
+						<l>Hy is gestorven, maar met teekenen, mevrouw,</l>
+						<l>Die vorsten waardig zijn als zy haar leeven laaten;</l>
+						<l>Herroepende zijn deugd, verweerde hy zijn staaten;</l>
+						<l>'t Staat Rome op zeer veel bloeds, dat hy ter neder leid;</l>
+						<l>Hy heeft Anthonius, met zoo veel dapperheid,</l>
+						<l>Bevochten, dat hy reeds veel voordeels had gekreegen:</l>
+						<l>Maar, 't noodlot zwichte, op 't zien van Caezars dapp'ren deegen.</l>
+						<l>Achillas volgt terstond. Photinus krijgt een dood,</l>
+						<l>Te schoon voor een verraâr, hy helpt zijn vorst in nood,</l>
+						<l>En sterft gewaapend: maar al 't roepen mogt niet baaten,</l>
+						<l>Van Caezar, die den vorst in 't leeven wilde laaten,</l>
+						<l>Die, zonder hoop van gunst, verschrikt door deeze stem,</l>
+						<l>Zijne ongerusten geest deed vreezen, dat men hem</l>
+						<l>Een laag leid, en zijn hoofd tot schande, wil verschoonen;</l>
+						<l>Hy valt de rijen aan, doorboordze, en kan hen toonen,</l>
+						<l>Wat deugd kan werken, die met wanhooop is verzeld;</l>
+						<l>Zijn hert, 't welk 't onrecht, zich door die verbeelding queld,</l>
+						<l>Zoekt overal de dood, die hem niet aan durft reppen.</l>
+						<l>Na 't missen van zijn volk, en na wat aâm te scheppen,</l>
+						<l>Zag hy eten boot, bijna bezet, daar 't volk in sprong,</l>
+						<l>Hy werpt zich meê daar in: maar, 't volk, dat om hem drong,</l>
+						<l>Viel met zoo grooten tal in 't vaartuig, dat de baaren</l>
+						<l>Die met zijn laading, naar den afgrond deeden vaaren.</l>
+						<l>Dus geeft zijn dood aan hem zijn vollen luister weêr,</l>
+						<l>Aan u AEgypte, en aan Vorst Caezar zege, en eer</l>
+						<l>Hy doed u overal voor koningin verklaaren,</l>
+						<l>En, schoon de romers vry van 't bloed des konings waren,</l>
+						<l>Wiens neêrlaag gy betreurd, zoo laat hy echter niet</l>
+						<l>Zijne ongenuchten na, hy zucht, als vol verdriet.</l>
+						<l>Maar, zie hem zelfs, die u zal meerder blijken toonen</l>
+						<l>Van smert, om dat het lot den vorst niet wouw verschoonen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Caezar, Kornelia, Cleopatra, Anthonius, Achoreus, Charmione,
+						Philippus.</stage>
+					<sp who="#kornelia">
+						<speaker>Cornelia.</speaker>
+						<l>DAt Caezar 't woord my houw, 't geen hy my daatlijk gaf,</l>
+						<l>Achillas, heeft nu als Photinus, zelfs zijn straf,</l>
+						<l>Uw teeder hert, is aan hun koning nu gebleeken,</l>
+						<l>Ik kan Pompeus hier toch verder niet meêr wreeken.</l>
+						<l>Ik zou hier niet meêr zien, dan dat rampzaalig strand,</l>
+						<l>'T geen my een voorbeeld geeft van haar bedreeve schand,</l>
+						<l>Uw nieuwe zege feest, 't geschreeuw, en 't zaamen dringen,</l>
+						<l>Van 't volk, om 's konings lot, zoo vol veranderingen,</l>
+						<l>En 't geen my meest alhier het blijven komt verbiên,</l>
+						<l>Is, dat ik hier, in u, mijn meester aan moet zien,</l>
+						<l>Laat ik my zelve ontslaan, van deeze onwaardigheden,</l>
+						<l>Laat ik in vrijigheid, mijn haat aan u besteeden.</l>
+						<l>Mijn yver dwingt my noch, een beede u voor te slaan,</l>
+						<l>Aanschouw dien doodbus, hier gebreekt het hoofd noch aan;</l>
+						<l>Onthouw die gift my niet, mijne eer zou zelfs niet kunnen</l>
+						<l>Gedoogen, dat ik u, aan my liet meêr vergunnen.</l>
+					</sp>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>'T is billijk, en mijn hert heeft u al toegelegd,</l>
+						<l>Dat overschot, het welk gy eischt, met zoo veel recht.</l>
+						<l>Maar 't is ook billijk dat wy, na zoo veel verzuchten,</l>
+						<l>Zijn geest, die noch al waart, alle onrust doen ontvluchten.</l>
+						<l>En dat een hout mijt, door onz beiderhand geboet</l>
+						<l>Hem wreekt, en voor de schand, van andere voldoed.</l>
+						<l>Dat zich zijn schim vernoege, in 't hooren onzer klagten,</l>
+						<l>En dat een doodbus, die men hem mag waardig achten,</l>
+						<l>Na 't blussen van de vlam, als de uitvaard is gevierd,</l>
+						<l>Met pracht, en glans, zijne asch tot uw genoegen sierd,</l>
+						<l>Hy zal zich door die hand, die hem eerst dorst bevechten,</l>
+						<l>Altaaren voor zijn deugd, na 't sterven, op zien rechten,</l>
+						<l>Slachtoffers, wierookgeur, en beede, en wat men meêr</l>
+						<l>Kan geeven, komt hem toe, als wel behoorlijke eer,</l>
+						<l>En morgen zal hy al de plechtigheên ontfangen;</l>
+						<l>Ik bidde u, laat my toch dit groot geluk erlangen.</l>
+						<l>Doe aan uw ongeduld, dit weinige geweld,</l>
+						<l>En wees dan vry, 't vertrek werd dan aan u gesteld,</l>
+						<l>Breng dan die waarde schat te Rome, laat haar denken.....</l>
+					</sp>
+					<sp who="#kornelia">
+						<speaker>Cornelia.</speaker>
+						<l>Neen, Caezar, 'k zal die schat aan Rome niet eer schenken,</l>
+						<l>Voor dat uw neederlaag, en uitvaard, aan zijn bloed,</l>
+						<l>En heilige asch, de muur des stads ontsluiten doed.</l>
+						<l>En schoon zy hem zoo zeer, als ik hem doe, beminnen,</l>
+						<l>Hy komt daar niet, voor dat zy hem u zien verwinnen,</l>
+						<l>Ik brengze in Africa, daar zal mijn hoop, de magt</l>
+						<l>Mijns vaders, van zijn zoons, en Cato, t' zaam gebragt</l>
+						<l>Van braaver koning, noch veel onderstand zien krijgen,</l>
+						<l>Het recht genieten, en 't geval, in 't eind, doen zwijgen,</l>
+						<l>Daar zal u 't overschot van 't Pharzaliaansche veld,</l>
+						<l>Te water, en te land, doen voelen zijn geweld;</l>
+						<l>Daar zal ik tot uw val, met haast, de weg gaan baanen,</l>
+						<l>En 't leger hitzen, door dien bus, en mijne traanen;</l>
+						<l>Mijn hand zal hen mijn wet doen volgen, in hun vaan,</l>
+						<l>Doodbussen in de plaats van adelaaren, slaan.</l>
+						<l>Ik zal dit voorwerp, vol van droefheid, hen beschaffen,</l>
+						<l>Om hem te wreeken, en grootmoedig, u te straffen.</l>
+						<l>Gy geeft hem eer, 't is waar, maar gy krijgt van deeze eer</l>
+						<l>De wederglans op al uw voor' ge daaden weêr.</l>
+						<l>Gy eischt my tot geruige, en 'k wil gehoorzaam weezen;</l>
+						<l>Maar, denk niet, dat mijn hert u min haat, als voor deezen.</l>
+						<l>'t Verlies is veel te groot, daar 's geen herstellen aan.</l>
+						<l>De drift van mijne haat zal niet licht overgaan:</l>
+						<l>Ik wil mijn haat zoo lang doen duuren als mijn daagen.</l>
+						<l>Mijn leeven, en mijn dood hangt aan haar welbehaagen:</l>
+						<l>'k Beken nochtans, gelijk een waare romeinin,</l>
+						<l>Dat ik u niet meêr haat, als ik uw deugd bemin.</l>
+						<l>Het eene, en 't ander is zeer kragtig, en rechtvaardig;</l>
+						<l>Het toond uw deugd, en is mijn pligten niet onwaardig;</l>
+						<l>Het eene is vol belangs, en 't ander vol van moed;</l>
+						<l>De dwang mijn geest het eene, en 't ander volgen doed.</l>
+						<l>Gy ziet dat uwe deugd, vergeefs van trouw verlaaten,</l>
+						<l>My dwingt te prijzen 't geene ik ook behoor te haaten.</l>
+						<l>Nu oordeel van de haat, waar toe mijn pligt my drijft;</l>
+						<l>Kornelia werd van Pompeus weeuw gestijft.</l>
+						<l>Ik ga, maar twijffel niet, of 'k zal van hier vertrekken,</l>
+						<l>Om tegens u de goôn, en menschen op te wekken,</l>
+						<l>Die goden, die u vleide, en, in den laatsten strijd,</l>
+						<l>Mijn man zoo qualijk diende, en my, met valsche vlijt</l>
+						<l>Bedroogen; die mijn man ook hebben zien doorsteeken,</l>
+						<l>Daar hy haar bliksem zag, die zullen hem noch wreeken,</l>
+						<l>Wanneer de wroeging hen de schuld bekennen doed.</l>
+						<l>Mijne yver, die veel meer, door haare weig'ring, woed,</l>
+						<l>Gedenkende aan mijn man, heeft de armen van de goden,</l>
+						<l>Om u de zeege weêr te ontrukken, niet van nooden.</l>
+						<l>En, als ik my, in al mijn magt, bedroogen vind,</l>
+						<l>Zal dit Cleopatra volvoeren. 'k weet gy mind;</l>
+						<l>Ik ken uw liefde, en weet hoe u haar kracht kan leijen,</l>
+						<l>En dat u is bewust, hoe 't huuwlijk is te scheijen;</l>
+						<l>Dat u de min verblind; ja, Rome heeft geen wet</l>
+						<l>Die gy niet schenden durft, en u de trouw belet.</l>
+						<l>Weet dat de jonglingschap van Rome licht zal denken,</l>
+						<l>Dat, om de bedgenoot eens koningins te krenken,</l>
+						<l>Hen alles vry staat; dat uw vrinden, nu versmaad,</l>
+						<l>Zich wreeken sullen, op uw bloed, om deeze daad.</l>
+						<l>'k Belet uw val, als ik uw lusten wil weêrstreeven.</l>
+						<l>Vaar wel, en morgen moet gy my 't beloofde geeven</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>Caezar, Cleopatra, Anthonius, Achoreus, Charmione.</stage>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>EEr ik u in 't gevaar van al dit lijden laat,</l>
+						<l>Mijn Heer, beneem in my al de oorzaak van dit quaad;</l>
+						<l>Slacht my voor u behoud: mijn staat baard my verdrieten;</l>
+						<l>En, wijl ik Caezar tot mijn man niet mag genieten,</l>
+						<l>Wil ik niet leeven, die de dood in 't aanzicht viel,</l>
+						<l>Om uwe welstand, als om uw doorluchte ziel.</l>
+					</sp>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>Deeze yd'le voorslag heeft den hemel noch gegeeven</l>
+						<l>Aan grootsche zielen, die in onvermoogen leeven:</l>
+						<l>Zy hebben weinig kracht, en zorgen dies te meêr,</l>
+						<l>Vermogten zy wat veel, zy wenschten minder weêr.</l>
+						<l>De hemel zal 't gevolg van deeze vloek beletten,</l>
+						<l>En mijn geluk voortaan volkomen voort gaan zetten.</l>
+						<l>Als maar uw liefde, uw smert, en druk te stelpen poogd,</l>
+						<l>En gy, ter mijner gunst, uwschoope wangen droogd,</l>
+						<l>En dat uw goedheid, diep geraakt door mijn gebeeden,</l>
+						<l>Een trouwe minnaar laat die waarde plaats bekleeden,</l>
+						<l>Die uwen boozen broêr, onwaardelijk bezat;</l>
+						<l>Gy zult wel hooren welk een ongeneuchte ik had,</l>
+						<l>Toen ik de wanhoop zach, die hy heeft willen voeden,</l>
+						<l>En met wat kracht ik hem voor't schrikken wou behoeden;</l>
+						<l>Hy heeft mijn goedheid tot op 't laatste toe mistrouwd,</l>
+						<l>En liep in zijn bederf, daar hem de vrees weêrhoud.</l>
+						<l>Een schand voor Caezar, dat hy met zoo veele benden,</l>
+						<l>Met zoo veel zorg, om geen gehoor zaamheid te schenden,</l>
+						<l>In dit geval nochtans u zijn gehoorzaamheid</l>
+						<l>Niet toonen kon, in 't eerst, 't geen hem is opgeleid.</l>
+						<l>Wijd dat den hemel, die in weêr wil van ons poogen,</l>
+						<l>Door hooger last, de straf des misdaads wouw gedoogen.</l>
+						<l>Haar strafheid tegen hem geeft u een zachter lot,</l>
+						<l>Terwijl AEgypte nu zal vieren uw gebod.</l>
+					</sp>
+					<sp who="#cleopatra">
+						<speaker>Cleopatra.</speaker>
+						<l>Ik weet dat ik hier door een nieuwe kroon zal draagen,</l>
+						<l>En niemand als de Goôn; en hem, dit heb te klaagen.</l>
+						<l>Terwijl de schikking van de Goden dan gehengt,</l>
+						<l>Dat strafheid, en geluk, te zaamen werd gemengd,</l>
+						<l>Zoo stoor u niet, indien gy my al stil ziet weenen,</l>
+						<l>Om uw geluk, 't welk my veel zegen wil verleenen.</l>
+						<l>Zoo ik zijn dood, gevolgd op zijn verraad, aanschouw:</l>
+						<l>En my, en aan natuur, en aan de reden houw;</l>
+						<l>Ik sla mijne oogen niet op mijne aanstaande staaten,</l>
+						<l>Of 't bloed verwijd my, dat mijn hert hem heeft verlaaten;</l>
+						<l>Die, zijnde, als ik, geteeld uit een beroemde stam,</l>
+						<l>Door 't hooren van quaa raad een deerlijk einde nam;</l>
+						<l>'k Voel in mijn ziel een stil, en zwijgend tegenstreeven,</l>
+						<l>En kan my, zonder leet, niet op den troon begeeven.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Zesde tooneel.</head>
+					<stage>Lepidius, Caezar, Cleopatra, Anthonius, Charmione.</stage>
+					<sp who="#lepidus">
+						<speaker>Lepidus.</speaker>
+						<l>HEt hof is door veel volks, mijn heer, alom vervuld,</l>
+						<l>'t Roept om zijn koningin te zien, vol ongeduld,</l>
+						<l>Valt het de goden aan met schelden, en met klaagen,</l>
+						<l>Dat die dit kost'lijk pand zoo lang verbergen zaagen.</l>
+					</sp>
+					<sp who="#julius-caezar">
+						<speaker>Caezar.</speaker>
+						<l>Princes, laat onz aan haar niet weig'ren, dat zy zien</l>
+						<l>'t Geen zy begeeren, en hoe gy haar zult gebiên.</l>
+						<l>De hemel, die mijn wensch vaak gunstig was, wil geeven,</l>
+						<l>Dat door dit bly geroep uw droefheid werd verdreeven,</l>
+						<l>Aan uw gedachten niet als 't voorbeeld over laat</l>
+						<l>Van al 't genoegen, 't welk mijn hert met wonden slaat.</l>
+						<l>Uw hof, en mijn gevolg, is bezig in 't bezorgen</l>
+						<l>Van al de pracht, die onz zal streelen met de morgen,</l>
+						<l>Daar de een, en de ander zich tot zijnen dienst vervoegd,</l>
+						<l>U kroond, en ook de ziel des dooden helds yernoegd.</l>
+						<l>Voor u een troon, voor hem een altaar op zal bouwen,</l>
+						<l>En zweerd uw beider naam in eeuwige eer te houwen.</l>
+					</sp>
+					<p>EINDE.</p>
+				</div>
+			</div>
+			<div type="act" n="6">
+				<head>Naspel, Op de dood van Pompeus.</head>
+				<head>Naspel. </head>
+				<stage>Alle die in 't treurspel gespeeld hebben, zoo sprekende als
+					zwijgende.</stage>
+				<div type="scene" n="1">
+					
+					<castList>
+						<head>Zingende.</head>
+						<castItem corresp="#rome">
+							<role>Rome.</role>
+						</castItem>
+						<castItem corresp="#aegypte">
+							<role>Aegypte.</role>
+						</castItem>
+						<castItem corresp="#wysheid">
+							<role>Wysheid.</role>
+						</castItem>
+						<castItem corresp="#staatkunde">
+							<role>Staatkunde.</role>
+						</castItem>
+					</castList>
+					<castList>
+					<head>Danzende.</head>
+						<castItem>
+							<role>Romeinen.</role>
+						</castItem>
+						<castItem>
+							<role>AEgyptenaaren.</role>
+						</castItem>
+					</castList>
+					<p>Beschrijving van de vertooning.</p>
+					<stage>HEt tooneel verbeeld een landschap, met roemsche tenten in 't verschiet;
+						door de middenste der zelve vertoond zich een zee met scheepen, voor haare
+						anders leggende.</stage>
+					<stage>Aan de rechter zijde van't tooneel zit Caezar op een triumphwagen,
+						houdende een AEgyptische vaan, geleid[...] van Mars: Achter op de wagen
+						staat de Faam. Voor hem leggen geknield dry Egyptenaars. Op de zijden staan
+						Antonius, en Lepidus, Kornelia, en Philippus geboeid. Nader na voren, dry
+						halsnaakte slaaven. Voor, en by deeze, leggen de lijken van Ptolomeus,
+						Photinus, Achillas, en Septimius. By deeze knield een slaaf met het hoofd
+						van Pompeus op een speer. Achter aan de zij van 't tooneel staat Rome. Aan
+						de linker zij zit Cleopatra, op een staatcyplaats, houdende een roomsche
+						vaan, voor haar flaat Venus, voor deeze drie Romeinen, achter op, Cupido, op
+						zij Achoreus, en Charmione, een weinig van daar, leggen eenge Cupidoos,
+						speelende met bijlen, en bundelen</stage>
+					<sp who="#rome">
+						<speaker>Rome.</speaker>
+						<l>ZIe Caezar, vol van oorlogsdeugd,</l>
+						<l>Die in Pharzaliën, mee vreugd,</l>
+						<l>Zijn standaard rechte, na zijn degen</l>
+						<l>De zeege had in 't veld verkregen:</l>
+						<l>Maar, die van vorstelijker aard,</l>
+						<l>Wanneer men aan hem komt vertellen,</l>
+						<l>Hoe 't laffe AEgypte 't hoofd dorst vellen</l>
+						<l>Van held Pompeus, zelf beweend,</l>
+						<l>De busch met de asch, en 't dood gebeent,</l>
+						<l>Van die hy gaaren had gespaard.</l>
+					</sp>
+					<stage>Danz. van Romeinen.</stage>
+					<sp who="#rome">
+						<speaker>Rome.</speaker>
+						<l>Wy Romeinen triumpheeren,</l>
+						<l>Nu de Nijlstroom doods bevreest,</l>
+						<l>Caezars kling ziet overheeren,</l>
+						<l>Al die vijand is geweest.</l>
+						<l>Sprei, ô arend, uwe vleug'len</l>
+						<l>Over al wat grootsch verschijnt,</l>
+						<l>Laat uw bek, noch klaauwen teug'len;</l>
+						<l>Yder schrikt, en vlucht, en quijnd</l>
+						<l>Voor uw magt, in top gev oogen,</l>
+						<l>Die 't geluk zelf paalen steld,</l>
+						<l>Eer, AEgypte, dit vermoogen;</l>
+						<l>Eer, ô aarde! deezen held.</l>
+					</sp>
+					<sp who="#aegypte">
+						<speaker>AEgypte.</speaker>
+						<l>Schrikt de Nijl voor Caezars oogen,</l>
+						<l>Blijft zy aan zijn kling verpligt?</l>
+						<l>Rome schrikt weêr voor 't vermoogen</l>
+						<l>Van Cleopatraas gezicht.</l>
+						<l>Leid Gradivus zijne wagen!</l>
+						<l>Blaast de faam zijn daaden uit!</l>
+						<l>Venus leid met welbehaagen</l>
+						<l>De oorlogsvaanen van zijn bruid!</l>
+						<l>Zie uw standaard in baar handen,</l>
+						<l>Wijl zy de onze aan hem vereerd;</l>
+						<l>Doed hy stad, en vlooren branden,</l>
+						<l>Minnebrand heeft hem verbeert:</l>
+						<l>Hy brengt baar zijn krijgslaurieren,</l>
+						<l>Daar hy over lijken stapt,</l>
+						<l>Om haar godlijkheid te vieren,</l>
+						<l>Nu elk in de handen klapt.</l>
+						<l>Romers, en AEgyptenaaren,</l>
+						<l>Mengen beide een vreugdgeschal,</l>
+						<l>Elk is blijde O! land, ô! baaren,</l>
+						<l>Nimmer zaagt gy dit geval.</l>
+					</sp>
+					<sp who="#rome">
+						<speaker>Rome.</speaker>
+						<l>Reken nu, ô! laater tijen,</l>
+						<l>Van mijn veldheers groote slag,</l>
+						<l>Of de roem der monarchijen</l>
+						<l>Uw verdeelde jaar, en dag;</l>
+						<l>Laat de zon zijn eernaam blijken</l>
+						<l>Van daar hy de morgen groet,</l>
+						<l>Tot daar hy, in noorder rijken,</l>
+						<l>Zich verkoeld in Thetis vloed,</l>
+					</sp>
+					<sp who="#aegypte">
+						<speaker>AEgypte.</speaker>
+						<l>Waar men zeege, of winst durft noemen,</l>
+						<l>Zal men u, Cleopatra,</l>
+						<l>Voor de sterkste moogen roemen:</l>
+						<l>Hy, wien elk smeekt om genaâ,</l>
+						<l>Buigt zijn zwaard, en bundelbijlen</l>
+						<l>Voor de Mingod, die o kroond;</l>
+						<l>Hy, gewond door deeze pijlen,</l>
+						<l>Zich als uwen slaaf vertoond.</l>
+						<stage>Danz van AEgyptenaaren.</stage>
+						<l>Heeft de liefde dan zoo veel vermoogen,</l>
+						<l>Datze zoo rustige helden boeid?</l>
+						<l>Zoo is 't eidel op krachten te boogen;</l>
+						<l>Hier zwicht de krijgsdeugd voor dertele oogen.</l>
+						<l>Ach! heeft de liefde dan zoo veel vermoogen?</l>
+						<l>Lacht nu, ô rijken, vlooten, en muuren,</l>
+						<l>Vrankrijk, en Spanje, en wie noch al meer,</l>
+						<l>Caezars inval zoo hart moest bezuuren;</l>
+						<l>Lacht nu, bevreesde, en bange gebuuren;</l>
+						<l>Lacht vry, ô rijken, vlooten, en muuren.</l>
+					</sp>
+					<sp who="#staatkunde">
+						<speaker>Staatkunde.</speaker>
+						<l>Wat of den uitslag weezen zal.</l>
+						<l>Van 't wonderlijke krijgsgeval?</l>
+						<l>Zal nu AEgypte dienstbaar weezen?</l>
+						<l>Of Rome voor AEgypte vreezen?</l>
+						<l>Zie hier de min, en daar het zwaard,</l>
+						<l>Om hof, en rijken te vernielen.</l>
+						<l>O! dolle drift, u beide onwaard;</l>
+						<l>O! hooggeboore, en brave zielen.</l>
+					</sp>
+					<sp who="#wysheid">
+						<speaker>Wysheid.</speaker>
+						<l>Ik, die de twist Vaak heb beslist,</l>
+						<l>Ik kom, met zeegen,</l>
+						<l>Tot uwe welstand neêr;</l>
+						<l>Laat min, noch degen,</l>
+						<l>Het zwaarste weegen:</l>
+						<l>Maar kies, na rede, De blije vrede,</l>
+						<l>Zoo bloeije uw welstand weêr.</l>
+					</sp>
+					<sp who="#staatkunde">
+						<speaker>Staatkunde.</speaker>
+						<l>O! Tijberstroom, ô! vlugge Nijl,</l>
+						<l>Bruisch voort gelijk een snelle pijl;</l>
+						<l>Vermeng al uw beroemde baaren;</l>
+						<l>Laat d'Arend met de Phoenix paaren,</l>
+						<l>Zoo rijze, na zoo veel gevaar,</l>
+						<l>Een Phoenix, of een adelaar,</l>
+						<l>Uyt de asch, waar in deez twee verteeren,</l>
+						<l>Die al de waereld zal regeeren.</l>
+					</sp>
+					<stage>Danz van 6 AEgyptenaaren.</stage>
+					<p>EINDE.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
