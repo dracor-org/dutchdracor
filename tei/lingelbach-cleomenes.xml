@@ -1,0 +1,3026 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000111" xml:lang="dut">
+    <teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="main">Cleomenes</title>
+			<author>
+				<persName>
+					<forename>David</forename>
+					<surname>Lingelbach</surname>
+				</persName>
+				<idno type="wikidata">Q107664976</idno>
+			</author>
+		</titleStmt>
+		<publicationStmt>
+			<publisher xml:id="dracor">DraCor</publisher>
+			<idno type="URL">https://dracor.org</idno>
+			<availability>
+			  <licence>
+			  <ab>CC0 1.0</ab>
+			  <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+			  </licence>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl type="digitalSource">
+				<name>DBNL</name>
+				<idno type="URL">https://www.dbnl.org/tekst/ling001cleo01/</idno>
+				<availability status="free">
+					<p>In the public domain.</p>
+				</availability>
+			</bibl>
+			<bibl type="originalSource">
+				<title>David Lingelbach: Cleomenes. Amsterdam: Jakob Lescailje (erven), 1687.</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<profileDesc>
+		<particDesc>
+			<listPerson>
+				<person sex="FEMALE" xml:id="ariarates">
+					<persName>Ariarates</persName>
+				</person>
+				<person sex="MALE" xml:id="atis">
+					<persName>Atis</persName>
+				</person>
+				<person sex="MALE" xml:id="attalus">
+					<persName>Attalus</persName>
+				</person>
+				<person sex="FEMALE" xml:id="axiane">
+					<persName>Axiane</persName>
+				</person>
+				<person sex="MALE" xml:id="cleomenes">
+					<persName>Cleomenes</persName>
+				</person>
+				<person sex="MALE" xml:id="didos">
+					<persName>Didos</persName>
+				</person>
+				<person sex="FEMALE" xml:id="dorine">
+					<persName>Dorine</persName>
+				</person>
+				<person sex="MALE" xml:id="evander">
+					<persName>Evander</persName>
+				</person>
+				<person sex="MALE" xml:id="gentius">
+					<persName>Gentius</persName>
+				</person>
+				<person sex="FEMALE" xml:id="laodice">
+					<persName>Laodice</persName>
+				</person>
+				<person sex="FEMALE" xml:id="theoxena">
+					<persName>Theoxena</persName>
+				</person>
+			</listPerson>
+			</particDesc>
+		<textClass>
+		<keywords>
+			  <term type="genreTitle">Tragedy</term>
+		</keywords>
+		</textClass>
+	</profileDesc>
+    	<revisionDesc>
+    		<listChange>
+    			<change when="2024-09-10">(Lucas van der Deijl) convert from source</change>
+    		</listChange>
+    	</revisionDesc>
+
+
+</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1687">
+				<desc />
+			</event>
+			<event type="premiere" when="1687">
+				<desc />
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/" />
+		</listRelation>
+	</standOff>
+    <text>
+        <front>
+                <docTitle>                    
+                    <titlePart><figure /></titlePart>                    
+                    <titlePart>CLEOMENES.</titlePart>
+                    <titlePart>TREURSPEL.</titlePart>
+                    <titlePart>Door</titlePart>
+                    <titlePart>D. LINGELBACH.</titlePart>
+                    <titlePart><figure>
+                            <p />
+                        </figure></titlePart>
+                    <titlePart>t' Amsterdam,</titlePart>
+                    <titlePart>By d' Erfgen: van Jakob Lescailje, op de Middeldam, op de
+                        hoek van de Vischmarkt, 1687.</titlePart>
+                    <titlePart>Met Privilegie.</titlePart>
+
+                </docTitle>
+            <div type="dedication">
+                
+                <head>Aan de E.E. heeren, Hendrik Vastrik. Michiel Hinloopen. Wichbold
+                    Muilman. Michiel Wiltschut. Abram Bakker. Kornelis Verpoorten. Regénten van het Weeshuis.
+                    <lb /> En de E.E. heeren, Jeremias van der Meer. Pieter van Wikkevoort. Sjakes
+                    Thirri. Antoni Reepmaaker. Regénten van het Oude Mannen
+                    Huis.</head>
+                <p>Myn Heeren,</p>
+                <p>WY neemen de vrymoedigheid, om aan u. E.E. dit Treurspél van
+                    Cleoménes op te draagen, mét die hoop, dat, niet tégenstaande uwe wichtige
+                    belangen, én noodige bezigheeden, hy échter aan u. E.E. niet
+                    onaangenaam zal zyn, schoon hy als een Vondeling te voorschyn komt; te meêr om
+                    dat ons gebleeken is uwe érnstige geneegentheid om de Schouwburg eens wéder in
+                    zyne oude luister te zien bloeijen, én de Nederduitsche Poëzy, én Taal voort te
+                    zétten; én nademaal het u. E.E. heeft belieft de belangen, én wélstand der
+                    zélve, tót voorstand der beide Godshuizen, aan ons beide te vertrouwen, vinden
+                    wy ons meêr verplicht, ja genootzaakt onze eersteling aan u. E.E. eerbiedig op
+                    te offeren, om daar door te betoonen, dat ons inzicht het uwe tracht te
+                    évenaaren, én dat wy, zo veel doenlyk is, voorhébben, om een oogwit te bereiken,
+                    én de Schouwburg voordeel by te bréngen.</p>
+                <p>Wy zyn échter zo verwaant niet dat zulks in onze macht alleen bestaat; ô neen, wy
+                    weeten dat Yver, én Liefde van veelen, de
+                    konst doet Bloeijen, dat niet eene Bie, maar veele Drommen de
+                    kórf met honingraaten vullen.</p>
+                <p>Ook verblind ons de eige liefde zo vér niet, dat wy zouden waanen een wérk in 
+                    't licht te bréngen, dat zyne volmaaktheid in alle deelen volkomen
+                    heeft, wy laaten dat aan het oordeel van alle Konstkenneren, én zéggen alleen,
+                    dat het eene eigene vinding is, dat van de Stoffe, Schikking, én Redeneering
+                    niets ontleent is, dat wy mét voordacht ieder Bedryf op een byzonder Tooneel
+                    laaten afspeelen, dat wy meerder werking daar in hébben gemaakt als men
+                    gemeenlyk in de Fransche Treurstukken ziet, enz.</p>
+                <p>Wat nu tót de uitvoering van zulk een wérk behoort, zullen die licht kunnen
+                    oordeelen, die het ondernoomen hébben.</p>
+                <p>Wy twyfelen échter niet aan eene goede uitslag, zo om de ongemeenheid van de
+                    Verziering, als de verscheidenheid der Hartstóchten, die hier gewéldig onder een
+                    arbeiden, én voornaamentlyk swanger gaan mét Liefde, én Staatzucht, twé der
+                    grootste, én krachtigste beweegingen, om in de gemoederen der aanschouweren,
+                    schrik, én médelyden te verwékken. Indien ons dit gelukt, én dar déze geringe
+                    aanbieding u. E.E. niet kome te mishaagen, zullen wy eer genoeg
+                    ingelégt hébben, én ik voortaan niet anders betrachten als mét alle
+                    geneegentheid te betuigen dat ik bén,</p>
+                <p>Myn Heeren,</p>
+                <p>V E.E. Verplichtste Dienaar</p>
+                <p>D. LINGELBACH.</p>
+            </div>
+            <div type="appendix">
+                
+                <head>Copye van de Privilegie.</head>
+                <p>DE Staten van Holland ende Westvriesland doen te wetten. Alzo Ons vertoond is by
+                    de tegenwoordige Regenten van de Schouwburg tot Amsterdam, Dat zy Supplianten
+                    zedert eenige Jaaren herwaarts met hunne goede vrinden hadden gemaakt en ten
+                    Tooneele gevoert verscheiden Werken, zo van Treurspeelen, Blyspeelen als
+                    Klugten, welke zy lieden nu geerne met den druk gemeen wilden maken? doch
+                    gemerkt dat deze Werken door het nadrukken van anderen, veel van hun luister, zo
+                    in Taal als Spelkonst zouden komen te verliezen, en alzo zy Supplianten hen
+                    berooft zouden zien van hun byzondere oogwit om de Nederduitsche Taal en de
+                    Digtkonst voort te zetten, zo vonden zy hen genoodzaakt, om daar inne te
+                    voorzien, ende hen te keeren tot Ons, onderdanig verzoekende, dat Wy omme
+                    tedenen voorsz. de Supplianten geliefden te verleenen Oktroy of e Privilegie,
+                    omme alle hunne Werken reeds gemaakt, ende noch in 't ligt te brengen, den tyd
+                    van vyftien Jaaren alleen te mogen drukken en verkoopen of doen drukken en
+                    verkoopen, met verbod van alle anderen op zeekeren hooge peene daar toe by Ons
+                    te stellen, ende voorts in communi forma. Zo is 't dat Wy de Zake en 't Verzoek
+                    voorsz. overgemerkt hebbende, ende genegen wezende ter bede van de Supplianten,
+                    uit Onze regte wetenschap, Souveraine magt ende authoriteit dezelve Supplianten
+                    gekouzenteert, geakkordeert ende geoktroieert hebben, konzenteeren, akkordeeren
+                    ende oktroieeren misdezen, dat zy geduurende den tyd van vystien eerst achter
+                    een volgende Jaaten de voorsz. Werken die reeds gedrukt zyn, ende die van tyd
+                    tot tyd door haar gemaakt ende in 't ligt gebragt zullen werden, binnen den
+                    voorsz. Onzen Lande alleen zullen mogen drukken, doen drukken, uitgeven en
+                    verkoopen. Verbiedende daarom allen ende eenen ygelyken dezelve Werken naar te
+                    drukken, ofte elders naargedrukt binnen den zelve Onzen Lande brengen, uit te
+                    geven ofte te verkoopen, op de verbeurte van alle de naargedrukte, ingebragte
+                    ofte verkogte Exemplaaren, ende een boete van drie honderd guldens daar en boven
+                    te verbeuren, te appliceten een darde part voor den Officier die de kalange doen
+                    zal, een darde part voor den Armen der Plaatze daar het kazus voorval en zal,
+                    ende het resteerende darde part voor den Supplianten. Alles in dien verstaande,
+                    dat wy de Supplianten met dezen Onzen Oktroije alleen willende gratificeren tot
+                    verhoedinge van haare schaade door het nadrukken van de voorsz. Werken, daar
+                    door in geenige deelen verstaan, den inhoude van dien te authorizeeren ofte te
+                    advoueeren, ende veel min de zelve onder Onze protektie ende bescherminge, eenig
+                    meerder kredit, aanzien oft reputatie te geven, nemaar de Supplianten in kas
+                    daar in yets onbehoorlyk zoude mogen influeeren, alle het zelve tot haren laste
+                    zullen gehouden wezen te verantwoorden; tot dien einde wel expresselyk 
+                    begeerende, dat by aldien zy dezen. Onzen Oktroije voor de zelve Werken zullen
+                    willen stellen daar van gene geabbrevieerde ofte gekontraheerde mentie zullen
+                    mogen maeken, nemaar gehouden zullen weezen het zelve Oktroy in 't geheel ende
+                    zonder eenige Omissie daar voor te drukken ofte te doen drukken, ende dat zy
+                    gehouden zullen zyn een exemplaar van alle de voorsz. Werken, gebonden ende wel
+                    gekonditioneert te brengen in de Bibliotheecq van Onze Univeriteit tot Leiden,
+                    ende daar van behoorlyk te doen blyken. Alles op poene van het effect van dien
+                    te verhezen. Ende ten einde de Supplianten dezen Onzen konsente Oktroije mogen
+                    genieten als naar behooren: Lasten wy allen ende eenen ygelyken die 't aangaen
+                    mag, dat zy de Supplianten van den inhoude van dezen doen, laten en gedogen,
+                    tustelyk en volkomemlyk genieten, en cesserende alle beletten. Gedaan in den
+                    Hage onder Onsen grooten Zegele hier aan doen hangen den XIX September in 't
+                    Jaar onzes Heeren en Zaligmakers duisent zes honderd vier tachtig.</p>
+                <p>G. FAGEL.</p>
+                <p>Ter Ordonnatie van de Staaten</p>
+                <p>SIMON van BEAUMONT.</p>
+                <p>De tegenwoordige Regenten van de Schouwburg, hebben het recht
+                    der bovenstaande Privilegie, voor dit Treurspel, vergund aan de Erfgenamen van
+                        Jacob Lescailje.</p>
+                <p>Den 26 November, 1687.</p>
+            </div>
+                
+                <castList>
+                    <head>Vertooners.</head>
+                	<castItem corresp="#gentius">
+					<role>Gentius, Kóning van Bithimien.</role>
+				</castItem>
+                	<castItem corresp="#attalus">
+					<role>Attalus, Gewaande Prins, zoon van
+                            Didés.</role>
+				</castItem>
+                	<castItem corresp="#didos">
+					<role>Didos, Steedehouder van
+                        Gentius.</role>
+				</castItem>
+                	<castItem corresp="#theoxena">
+					<role>Theoxena, Prinsés van Kapadocia, verlooft
+                            aan Attalus</role>
+				</castItem>
+                	<castItem corresp="#axiane">
+					<role>Axiane, Prinsés van Bithinien, verlieft op
+                            Cleoménes.</role>
+				</castItem>
+                	<castItem corresp="#cleomenes">
+					<role>Cleomenes, Onbekende Prins van Bithinien,
+                            gezant van Kapadecia.</role>
+				</castItem>
+                	<castItem corresp="#evander">
+					<role>Evander, begunstigde van Didos en
+                            Attalus.</role>
+				</castItem>
+                	<castItem corresp="#ariarates">
+					<role>Ariarates, vertroude van
+                        Cleoménes.</role>
+				</castItem>
+                	<castItem corresp="#laodice">
+					<role>Laodice, Staatjuffer van
+                        Theóxena.</role>
+				</castItem>
+                	<castItem corresp="#dorine">
+					<role>Dorine, Staatjuffer van
+                        Axiane.</role>
+				</castItem>
+                	<castItem corresp="#atis">
+					<role>Atis, Hooftman van 's Konings
+                            Lyfwachten.</role>
+				</castItem>
+                    <castItem>
+					<role>Lyfwachten, stom.</role>
+				</castItem>
+                </castList>
+            </front>
+        <body>
+	<div type="act" n="1">
+		<div type="scene" n="1">
+			<head>Cleomenes. <lb>
+		</lb>
+			</head>
+			<head>Eerste bedryf.</head>
+			<head>Eerste tooneel.</head>
+			<stage>Ariarates, Cleomenes.</stage>
+			<sp who="#ariarates">
+				<speaker>Ariarates.</speaker>
+				<l>WAt swarigheid, myn Heer, benéveld uw gedachten,</l>
+				<l>Hoe! Cleoménes, moet ik op myn' komst verwachten,</l>
+				<l>Dat gy, die nimmermeer besweekt in tégenspoed,</l>
+				<l>Nu zucht, én tékens toond van een ontstéld gemoed?</l>
+				<l>Moet ik, na weinig tyds dat wy te Schodra scheiden,</l>
+				<l>Gy, om Theóxena als bruid hier heen te leiden,</l>
+				<l>Ik, om myn vader nóch te spreeken voor zyn dood,</l>
+				<l>U vinden in een staat die myn verdriet vergroot?</l>
+				<l>Wat onheil tréft uw ziel? wat maakt u zo verslaagen?</l>
+				<l>Vergunme uw antwoord dóch, nu ik 't u af durv vraageu,</l>
+				<l>En zégme, indien 't mag zyn, myn Heer, wat de oorzaak is,</l>
+				<l>Dat ik in u bespeur zulk eene ontstéltenis?</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>Myn Heer, de ontstélt'nis, diege in myn verandert weezen</l>
+				<l>Bespeuren kunt, is uit geen tégenspoed gereezen;</l>
+				<l>'t Is iet geheims, 't welk my de zinnen zo ontroert,</l>
+				<l>Dat myn gedachten als verrukt zyn, én vervoert.</l>
+				<l>'k Sta tusschen hoop, én vrees; word my de vrees benoomen,</l>
+				<l>Wat isser dat ik hier niet zal te boren komen?</l>
+				<l>Ja, vriend, zo my 't geluk zo mildelyk bestraalt,</l>
+				<l>Zie ik een stroom van zeege op my reeds afgedaalt.</l>
+				<l>Hoor dan de réden van myn vreezen, én myn hoopen;</l>
+				<l>Twe maanden zyn nu, sint wy kwaamen, al verloopen,</l>
+				<l>En 't was bestémt dat, op onze aankomst, alles zou</l>
+				<l>Vervaardigt weezen tot de prinselyke trouw.</l>
+				<l>Maar kóning Gentius, zo dra hy had vernoomen</l>
+				<l>De schoone bruid, die hier mét weêrzin is gekomen,</l>
+				<l>Waar aan prins Attalus verlooft is, doet terstont</l>
+				<l>Opschorten al wat wierd vereischt by 't trouwverbond.</l>
+				<l>Dit bragt in ieder een verscheidene gedachten.</l>
+				<l>Theóxena, die zulk een lót niet dorst verwachten,</l>
+				<l>Staat heel verstélt; de prins houd echter ernstig aan,</l>
+				<l>En bid de kóning dat de trouwdag voort mag gaan;</l>
+				<l>Maar vruchteloos; hy vraagt zyn vader na de réden;</l>
+				<l>Die paait hém met wat hoop, én veel omstandigheeden,</l>
+				<l>Ten laatsten, ziende dat de prins mistroostig wierd,</l>
+				<l>Heeft hy hém in zyn' hoop wat meerder bót gevierd,</l>
+				<l>En vast gestélt, van daag aan Hammon raad te vraagen,</l>
+				<l>Door 's priesters mond, óf hém dit huuw'lyk zou mishaagen.</l>
+				<l>Nu wacht men antwoord; én in déze gallery</l>
+				<l>Zal ons de Vórst de zin der Góôn ontdekken: wy</l>
+				<l>Verwachten zyne komst, door dien hy, na het bidden,</l>
+				<l>Alleen in 't binnenkoor gegaan is, om, in 't midden</l>
+				<l>Der priest'ren, Hammons zin te hooren uit zyn' mond.</l>
+			</sp>
+			<sp who="#ariarates">
+				<speaker>Ariarates.</speaker>
+				<l>Hoe! staat Theóxena dan toe, dat op die grond</l>
+				<l>Haar trouw werd uitgestélt, én mét die schyn van réden?</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>Zy heeft de Hémel om dat uitstél zélf gebéden.</l>
+				<l>Zy is hier tégen dank gekomen, én zy klaagt</l>
+				<l>Gestadig, dat haar die gedwongen trouw mishaagt.</l>
+				<l>O Góôn! laat u die ook mishaagen, laat haar zinnen</l>
+				<l>Volstandig zyn, om nooit Prins Attalus te minnen;</l>
+				<l>Vernietig déze trouw. Ariaratés, ach!</l>
+				<l>Myn leeven, óf myn' dood, hangt aan déze ééne dag.</l>
+			</sp>
+			<sp who="#ariarates">
+				<speaker>Ariarates.</speaker>
+				<l>Hoe! aan déze ééne dag?</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>O ja, ik ben verlooren,</l>
+				<l>Zo my de Hémel zulk een noodlót heeft beschooren,</l>
+				<l>Dat déze dag de trouw volvoerd wérd; ja, ik acht</l>
+				<l>Myn leeven niet, zo haast dit huw'lyk is volbragt.</l>
+			</sp>
+			<sp who="#ariarates">
+				<speaker>Ariarates.</speaker>
+				<l>Mind gy Theóxena?</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>O ja, 'k heb onbezonnen,</l>
+				<l>Vergeetende wie 'k ben, zo stout een daad begonnen;</l>
+				<l>Ik weet wél dat ik heb iet reukeloos bestaan;</l>
+				<l>Maar zie myn grootsch gemoed, in zulk een opzét aan.</l>
+				<l>Al bén ik slécht van staat, al kén ik vriend nóch maagen,</l>
+				<l>Al weet ik niet wie my heeft onder 't hart gedraagen,</l>
+				<l>Al zyn myne ouderen tót nóch my onbekénd,</l>
+				<l>De Hémel heeft zyn' gunst op deze borst geprént;</l>
+				<l>Die star, die ik bedék mét veel omzichtigheeden,</l>
+				<l>Zal, zo 't órakel spélt, my doen een' troon betreeden.</l>
+				<l>En, zo de trouw nu werd vernietigt, 'k beeld my in,</l>
+				<l>Dat ik Theóxena ontfang als koningin.</l>
+			</sp>
+			<sp who="#ariarates">
+				<speaker>Ariarates.</speaker>
+				<l>Is dan, als 't huwelyk mét Attalus blyft steeken,</l>
+				<l>Uw liefde aan haar beként, haar weêrliefde u gebleeken?</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>Wie is zo reukeloos, dat hy zyn liefde zou</l>
+				<l>Ontdékken durven aan die koninglyke vrouw,</l>
+				<l>Tén zy een koninks kroon versierde zyne haaren?</l>
+			</sp>
+			<sp who="#ariarates">
+				<speaker>Ariarates.</speaker>
+				<l>Wat hoopt gy dan, wyl gy haar niet kunt évenaaren</l>
+				<l>In sttaat, ên dat haar trouw licht heeden werd volvoert?</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>Uit laatste is 't maaralleen dat my de ziel ontroert,</l>
+				<l>Voor 't and're, héb ik zo veel minnelyke blyken,</l>
+				<l>Dat ik my licht verbeeld de zeege wég te stryken.</l>
+				<l>Hoor dan in 't kort, myn Heer, wat my zo moedig maakt;</l>
+				<l>Ik bén door haare gunst tót hooge slaaf geraakt,</l>
+				<l>Door haar, is my de staf als Veldheer opgedraagen,</l>
+				<l>Ik kon haare oogen mét myn byzyn nooit mishaagen,</l>
+				<l>Wat ik tót hind'ring van haar huw'lyk héb geraân,</l>
+				<l>En voorgestélt, heeft zy blymoedig toegestaan;</l>
+				<l>Zy bad haar Vader, wyl zy eindelyk moest scheiden,</l>
+				<l>Of ik haar, als gezant, mocht herwaarts heen geleiden,</l>
+				<l>Zy heeft my ménigmaal ontdékt, dat déze trouw,</l>
+				<l>Door Vader aangeprést, haar dood verhaasten zou.</l>
+				<l>Wie durft op zo veel blyk geen meerder gunst ver wachten?</l>
+				<l>Inden de Hémel maar verhooren wil myn' klagten,</l>
+				<l>Myn min begunstigen door 't huw'lyk af te slaan,</l>
+				<l>Dan bén ik te eenemaal in myne wénsch voldaan.</l>
+				<l>Maar'k hoor gerucht. Het is de Kóning, 'k zal nu hooren</l>
+				<l>Wat my de gódspraak heeft in myne min beschooten.</l>
+				<l>Voldoe uw plicht, begroet Theóxena. Misschien</l>
+				<l>Zal ik een' wensch'lyke, óf een dood'lyke uitslag zien.</l>
+			</sp>
+			</div>
+		<div type="scene" n="2">
+			<head>Tweede tooneel.</head>
+			<stage>Gentius, Attalus, Didos, Cleomenes, Evander, Atis, Lyfwacht.</stage>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>MYn Zoon, nu zult gy zien het wit van uw verlangen;</l>
+				<l>Wy hébben eindelyk 't besluit der Góôn ontsangen;</l>
+				<l>Dóch, eer ik dat ontdék, wilde ik u op uw' plicht</l>
+				<l>Doen dénken, door een kort, dóch nódig, voorbericht.</l>
+				<l>Gy weet met wélk een' zucht ik te uwaarts bén genégen,</l>
+				<l>Dat al myn wélstant, aan uw wélstant is gelégen,</l>
+				<l>Dat ik, mét óverlég, én raad, én ryp besluit,</l>
+				<l>Voor u, Theóxena verkoos tót eene bruid.</l>
+				<l>Maar ónderzoek niet, wyl de tyd het zal ontdékken,</l>
+				<l>Waarom ik 't huw'lyk niet deed na uw wensch voltrekken?</l>
+				<l>Dénk niet dat my bewoog, óf droom, óf spook, óf schyn</l>
+				<l>Van iets, dat beelden van verbaasde zinnen zyn;</l>
+				<l>'t Spruit uit eene oorzaak die ons Hammon zal verklaaren;</l>
+				<l>En ik, gezint om, na die godsbraak, voort te vaaren,</l>
+				<l>Zal dézen dag met vreugde, én vórstelyke pracht,</l>
+				<l>Uwe écht zien op het grootst en heerelykst volbracht,</l>
+				<l>Of u voor eeuwig van die zoete hoop versteeken.</l>
+				<l>Nu wil ik, hoe de zaak ook uitvalt, tégenspreeken</l>
+				<l>Noch klaagen hooren; maar vernoeg u mét de wil</l>
+				<l>Der Góden. Didós lees. Een ieder houd zich stil.</l>
+			</sp>
+			<stage>Didos leest.</stage>
+			<sp who="#didos">
+				<l>Indien uw Zoon word aan Theóxena verbonden</l>
+				<l>Door 't Huwelyk zult gy verliezen staat, én kroon;</l>
+				<l>De Prins zal sneuvelen, wyl 't Kroonrécht is geschonden,</l>
+				<l>Ten zy yvert om zyn Vyand eerst te doôn.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>O Góden!</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Zie nu het gevaar dat ons komt dreigen.</l>
+				<l>Kan uw verkeerde zin nóch na dit huw'lyk neigen,</l>
+				<l>Dat my berooven zou van kroon, én staat? neen zoon!</l>
+				<l>Zoek liever moedig naar de hand die u wil doôn,</l>
+				<l>Vervólg die vyand, én betoon dat u het leeven</l>
+				<l>Zo waard is, als 't vermaak dat eene bruid kan geeven.</l>
+				<l>Bedank myn' zórg, die, door 't opschorten uwer trouw,</l>
+				<l>Zo waard een leeven, als het uwe is, bergen wou,</l>
+				<l>En wilt, voor dat genót, uw eigen wélstant kiezen.</l>
+				<l>Als 't huw'lyk word volbragt zal ik myn' kroon verliezen,</l>
+				<l>Gy sneuvelen, indienge uw vyand niet verkloekt.</l>
+				<l>O Góôn! wat houd ons, dat men voort die schélm niet zoekt,</l>
+				<l>Hém naspoort, om niet meêr dat groot gevaar te vreezen?</l>
+				<l>Ach! had 't Orakel ons zyn schuilplaats aangeweezen,</l>
+				<l>Zo mocht ik hoopen, dat hy heeden wierd van kant</l>
+				<l>Geholpen, door 't beleid van uwen dapp'ren hand.</l>
+				<l>Maar laaten wy, nu dit ontbreekt, mét érnstig poogen,</l>
+				<l>De Góôn verplichten, dat zy hém ontdékken moogen.</l>
+				<l>Laat ons niet rusten, want myn wélstaat hangt daar aan,</l>
+				<l>Gelyk uw leeven. Zoon, 'k laat alles op u staan.</l>
+				<l>Verban de liefde, en prént alleen in uw gedachten,</l>
+				<l>Door wélk een middel gy uw vyand eerst zult slagten,</l>
+				<l>Vertraag niet langer zulk een heerelyke daad.</l>
+				<stage>Tégent Didós ter zyden.</stage>
+				<l>Hoor, Didós. blyf, én steun de prins met uwe raad.</l>
+				<l>Gy weet myn oogwit; stél zyn minnent hart te vreeden</l>
+				<l>En tracht, zo 't mooglyk is, zyn driften te overreeden</l>
+				<stage>Tégen Cleoménes.</stage>
+				<l>Gy kunt Theóxena ontdékken, wat de Góôn</l>
+				<l>Beslooten, in de trouw van haar, mét myne zoon.</l>
+			</sp>
+			</div>
+		<div type="scene" n="3">
+			<head>Derde tooneel.</head>
+			<stage>Cleomenes, Attalus, Didós.</stage>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>MYn Heer, ik zie, hoe tót verzeek'ring uwer staaten,</l>
+				<l>Het lót wil, dat gy zult Theóxena verlaaten;</l>
+				<l>Dat ook uw fier gemoed, met groote ontstéltenis,</l>
+				<l>Om déze swaarigheid alreeds beswangert is;</l>
+				<l>'k Bekén, 't valt hart, na zulk een lang, én lastig beiden,</l>
+				<l>Zo op een oogenblik van 't minlykste af te scheiden;</l>
+				<l>Maar, wyl u 't Gódendom die ramp heeft toegevoegt</l>
+				<l>Zo toon om dit besluit u zélve niet misnoegt.</l>
+				<l>Wat isser édeler als zyn gemoed te stillen</l>
+				<l>In tégenspoeden die de Goôn volbréngen willen?</l>
+				<l>'t Is 't grootste middel, als die félle slag ons raakt,</l>
+				<l>Waar door een héld, met hén, zich zelve onstérflyk maakt.</l>
+				<l>Laat dan geen kleen belang uw groote ziel beklémmen;</l>
+				<l>Stém onverzaagt, myn Heer, het zélfde dat zy stémmen;</l>
+				<l>En overweeg, wat heil u ooit te hoopen stond</l>
+				<l>Van dat gevaarelyk, én dood'lyk trouwverbond.</l>
+				<l>De Góden willen, dat uw bloed op de aard zal stroomen,</l>
+				<l>Indien gy aarzelt om die manslag voor te komen.</l>
+				<l>Kunt gy, in dit gevaar, u zélve nóch beraân,</l>
+				<l>En twyf'len, aan wat kant uw hart moet overslaan?</l>
+				<l>'k Weet, in een onweêr van verbysterde gedachten,</l>
+				<l>Hoe 't kunstig is, voor zich het zékerst te betrachten;</l>
+				<l>Maar, daar ons leeven in gevaar staat om de min,</l>
+				<l>Verbant men lichtelyk die swakheid uit zyn zin.</l>
+				<l>Toon dan uwe yver om uw vyand op te zoeken,</l>
+				<l>Verkloek hem eerst, myn Heer, eer hy u kan verkloeken,</l>
+				<l>Elk oogenblik is reeds voor u te lang gewacht;</l>
+				<l>En, zo hy door meêr hulp moest werden omgebracht,</l>
+				<l>Ik óffer u myn dienst zo gy die hébt van nooden,</l>
+				<l>Gebruik myne arm, myn Heer; ik zal uw vyand dooden,</l>
+				<l>Of sneuv'len, zo hy word door uw beleid ontdékt;</l>
+				<l>Verschoon myne yver, Prins; myn moed word opgewékt,</l>
+				<l>In dit geval, om u het zékerste te raaden;</l>
+				<l>Myn heil bestaat daar in. Ik zal u, overlaaden</l>
+				<l>Van vreugd, ten dienst staan, én, afwachtende uw gebóôn,</l>
+				<l>'t Vervólg beveelen aan het hoog besluit der Góôn.</l>
+			</sp>
+			</div>
+		<div type="scene" n="4">
+			<head>Vierde tooneel.</head>
+			<stage>Attalus, Didos.</stage>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>ACh! Didós, waar is 't eind van al myne ongelukken?</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Na by; ik zal u haast uit die verwarring rukken:</l>
+				<l>En wat u 't lót ook dreigt, door zo veel tegenspoed,</l>
+				<l>De zin is klaar genoeg, ik zie 'er deur. Hou moed.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Ach! Didós, ach! ziet gy voor my nóch eenig ópen?</l>
+				<l>Mach ik, door uw beleid, een wenschlyke uitkomd hoopen?</l>
+				<l>Ik bid u, zég my dóch, waar in voor my zo groot</l>
+				<l>Een heil bestaan kan, spreek.</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Waar in? in 's Kónings dood.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>In 's Kónings dood?</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Ja, Prins; het noodlót heeft beslooten</l>
+				<l>Dat door uwe arm moet zyn het Kónings bloed vergoonten.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Is dit het heil, dat ik verwacht van uwe raad?</l>
+				<l>Hoe! Didós, vérgt gy my zo gruwelyk een daad?</l>
+				<l>Zou ik 't récht van natuur, en alle wétten schénnen?</l>
+				<l>Zou my de waereld voor een vader moorder kénnen?</l>
+				<l>Zou ik vergieten 't bloed waar uit ik leeve? ô Góôn!</l>
+				<l>Wat vérgt men my? hoe! zou een vader, door zyn zoon</l>
+				<l>Het leeven missen? ach! ik beef door die gedachten.</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Vaar niet te haastig voort; gy moet het eind verwachten.</l>
+				<l>Als gy de réden hoort van zulk een vrémd besluit,</l>
+				<l>En uit wat grond de raad van zulk een voorslach spruit,</l>
+				<l>Zult gy my hooren mét vry meêr bedaarder zinnen.</l>
+				<l>De Kóning is het, Prins die u belét te minnen;</l>
+				<l>Door hém word uwe trouw, én alle vreugd gestaakt,</l>
+				<l>Om dat zyn boezem zélf in heete liefde blaakt.</l>
+				<l>Hy mind Theóxena, én, om u uit te stéllen,</l>
+				<l>Vraagt hy de Góden raad, die zulk een vonnis véllen</l>
+				<l>Dat my verbaast. Hy heeft 't geheim my zélf ontdékt,</l>
+				<l>En dat Theóxena die vlam heeft opgewékt.</l>
+				<l>Bedénk nu wat gy moogt verwachten, van een Vader,</l>
+				<l>Die zélf, tén aanzien van uw min, speelt voor verraader;</l>
+				<l>Hy handelt niet mét u, myn Heer, als mét een zoon,</l>
+				<l>Maar als een vrémde, en doet uw liefde zulk een' hoon.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Helaas! óf Vader schoon is aan die swakheid schuldig,</l>
+				<l>Die kleene misdaad geeft geen reên, om onverduldig</l>
+				<l>Te woeden, óf dat ik hém na zyn leeven sta.</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Niet? is u dan de kroon, is u Theóxena</l>
+				<l>Zo veel niet waardig, om een hand vol bloed te spillen?</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Hoe! vadermoorden, zoud gy my dat raaden willen?</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>O ja, Prins, want daar hangt uw staat, én leeven aan;</l>
+				<l>En 't geen waarom gy zyt zo noodeloos begaan,</l>
+				<l>De swarigheid, die gy kunt in die manslach vinden,</l>
+				<l>En wat natuur belangt, die knoop zal ik ontbinden:</l>
+				<l>'k Zie dat gewoonte in ons 't natuurelyk verzaakt,</l>
+				<l>En dat de neiging van natuur, het bloed niet maakt;</l>
+				<l>'t Spruit daar uit niet dat wy onze ouderen beminnen;</l>
+				<l>De plicht, van kindsbeen af geprént in onze zinnen,</l>
+				<l>Het goed onthaal dat ons van de ouderen geschiet,</l>
+				<l>Maakt die verbintenis, én anders is het niet.</l>
+				<l>Gy zyt een voorbeeld; gy, tén uiterste verleegen,</l>
+				<l>Zyt, door gewoonte, tót uw vyand nóch geneegen,</l>
+				<l>Die u gantsch niet bestaat. Ik sweer u, by de Góôn,</l>
+				<l>Dat gy geen Prins zyt, maar myn bloed, myn eigen zoon.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Uw zoon?</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>O Ja. Ik héb iet schrikk'lyks ondernoomen,</l>
+				<l>Op dat ge, als wettig Prins, op déze troon zoud koomen,</l>
+				<l>Myn boezem brande om u in koninglyke staat</l>
+				<l>Te aanschouwen, maar ik kon u nooit, als mét verraad,</l>
+				<l>Die groote waardigheid opóff'ren. 'k Héb de wétten,</l>
+				<l>Myn plicht geschonden, Zoon, om u zo hoog te zétten.</l>
+				<l>Des Kónings afzyn, én der Kóninginnen dood</l>
+				<l>Verrukten my, dat ik zo groot een daad besloot.</l>
+				<l>Ik heb het wettig zaad doen sneuv'len, tot belooning</l>
+				<l>Heb ik Evander, en zyn zoons, na uwe krooning,</l>
+				<l>Myn ampt, en schat belooft, en voort tot staat gebracht</l>
+				<l>Voor zulk een groote daad. Ik héb altoos gedacht</l>
+				<l>Dat Vorsten Góden zyn, én waereldlyke zaaken</l>
+				<l>Veranderlyk, dat, om zyn zaad vergood te maaken,</l>
+				<l>Men nimmer schroomen moest een schélmstuk aan te gaan.</l>
+				<l>Op déze grond, myn Zoon, héb ik de Prins verraân,</l>
+				<l>U in zyn plaats gelégt. De star, die als na 't leeven</l>
+				<l>Op zyne réchter borst stond van natuur gedreeven,</l>
+				<l>Die had ik nagebootst op de uwe.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>O Góôp! ik schrik</l>
+				<l>Voor 't gruwelyk bestaan. Ach! Didós, ach! ben ik</l>
+				<l>Uw zoon? zal ik uw daad óf pryzen, óf verdoemen?</l>
+				<l>Zal ik u wreed voor my, óf wél barmhertig noemen?</l>
+				<l>Hoe dorst gy 't wéttig kind verstooten van de troon,</l>
+				<l>En dooden, om daar op te plaatzen uwen zoon?</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Dat was noodzakelyk, wilde ik myn wit voltrékken.</l>
+				<l>De star mocht eens zyn staat, en myn verraad ontdékken.</l>
+				<l>Ik wist wel dat die op uw borst niet lang zou staan,</l>
+				<l>Dies gaf ik voordat hy, door konst, was weggedaan,</l>
+				<l>Die vond gelukte: én, om voorts alles te bekleeden</l>
+				<l>Met schyn, veinsde ik uw dood door veele omstandigheeden.</l>
+				<l>Evanders Egemaal was uwe voedster, zy</l>
+				<l>Versweeg myn list, én hielp u tót de heerschappy.</l>
+				<l>Nu had ik voor niet eer aan u 't geheim te ontdékken</l>
+				<l>Voor ik, na 's Kónings dood, uw krooning zach voltrékken:</l>
+				<l>Maar, nu ik zie dat u de Vórst verongelykt,</l>
+				<l>Dat óver u het lót zo wreed een vonnis strykt,</l>
+				<l>Nu moet ik zéggen hoe gy staat, én op wat gronden.</l>
+				<l>De Prins zal sneuvelen, wyl 't kroonrécht is
+                                geschonden,</l>
+				<l>Ten zy hy yvert om zyn vyand eerst te doôn.</l>
+				<l>Wie is die vyand als de Kóning? ja, myn Zoon,</l>
+				<l>Hy is het. Kom hem voor. Natuur hoeft niet te beeven,</l>
+				<l>Nóch uwen arm, om hém een steek in 't hart te geeven.</l>
+				<l>Voldoe de gódspraak, dood uw vyand onverzaagt,</l>
+				<l>En wasch de troon af, met het bloed dat u belaagt.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Ach! wat zal myn gemoed in déze zaak besluiten?</l>
+				<l>Helaas! hier kan voor my niet als gevaar uit spruiten.</l>
+				<l>Gy hebtme een' staat bestélt die my niet toebehoort,</l>
+				<l>En wilt dat ik die nóch behouw door kóningsmoort.</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>O Ja! dat wil ik, én met ryplyk óverweegen;</l>
+				<l>Hoe! Zoon, beswykt gy? toont gy reeds u zélf verleegen?</l>
+				<l>Bekneld de vrees u, daar de nood nóch naauw'lyks nypt?</l>
+				<l>Wanneer men om tot staat te klimmen, zich vergrypt,</l>
+				<l>Dan moet men, eer men flaauw de kans zou zien verloopen,</l>
+				<l>Het eene schéllemstuk, mét moed, op 't ander hoopen,</l>
+				<l>En niet te ruch zien, zélfs, in 't uiterste gevaar.</l>
+				<l>Kom, vatten wy 't geluk van vooren by het haar,</l>
+				<l>Eer 't ons de nék keert. Gy moet stérven, óf u wreeken</l>
+				<l>Aan hém, die heimelyk heeft uw bedérf besteeken;</l>
+				<l>Dit is de Kóning. Ai! bekreun u dan niet om</l>
+				<l>Een manslag min óf méêr. Gy ziet het Gódendom</l>
+				<l>Begunstigen myn wit, zy komen zélf ontleeden,</l>
+				<l>Langs wélk een' wég gy kunt, als Vorst, de troon betreeden,</l>
+				<l>Zy willen, dat gy styft het vaderlyk besluit.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Wat zal ik doen?</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Peil eens het hart van uwe bruid;</l>
+				<l>'t Is noodig om op haar belangen stip te létten;</l>
+				<l>'k Zal u verlaaten, om onze aanslag voort te zétten,</l>
+				<l>En 't uur bestémmen dat de Kóning brengt ten val.</l>
+				<l>Ik heb veel vrienden die ik tót ons trékken zal,</l>
+				<l>Om zo verzékert door die rampen heen te breeken.</l>
+				<l>Des Kónings liefde baant een weg om u te wreeken.</l>
+				<l>'k Zal Cleoménes, hém beloovende tot vrouw</l>
+				<l>Uw zuster, spreeken, én doen wank'len in zyn' trouw.</l>
+				<l>Zy mind hém. Hy heeft straks zich tót uw dienst verbonden.</l>
+				<l>Laat my de zórg, ik zal zyn boezem eens doorgronden.</l>
+				<l>Stémt hy mét ons, zo staat het wél, Zoon, houw dan moed,</l>
+				<l>Dénk, dat een Kónings kroon veel ongemak verzoet.</l>
+			</sp>
+			<stage>Einde van 't eerste Bedryf.</stage>
+			</div>
+		</div>
+	<div type="act" n="2">
+		<div type="scene" n="1">
+			<head>Tweede bedryf.</head>
+			<head>Eerste tooneel.</head>
+			<stage>Theoxena, Laodice.</stage>
+			<sp who="#laodice">
+				<speaker>Laodice.</speaker>
+				<l>IS Cleoménes by de Kóning wéêr ontbóden,</l>
+				<l>Na dat hy het besluit ontdékt heeft van de Góden?</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Ja, Laodice, ik verwacht hém ook, én zal</l>
+				<l>Hém deel doen hébben in myn wénschelyk geval.</l>
+			</sp>
+			<sp who="#laodice">
+				<speaker>Laodice.</speaker>
+				<l>Hoe! wénscht gy dit geval? Ik dacht dat gy, verslaagen</l>
+				<l>In uwe ziel, u zoud van 't nydig lót bek laagen,</l>
+				<l>Dat u mishaagen zou het góddelyk besluit,</l>
+				<l>Daar, voor uw min, zo veel verandering uit spruit.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Kunt gy myn ziel mét zulk een' swakheid wél betichten?</l>
+				<l>Zaagt gy my voor 't besluit der Góden immer swichten?</l>
+				<l>En zou ik, daar myn min de grootste dienst geschied,</l>
+				<l>Nu ték ens toonen van een innerlyk verdriet?</l>
+				<l>Neen, Laodice, die in wéêrspoed niet wil klaagen,</l>
+				<l>Kan zich in voorspoed licht zo édelmoedig draagen;</l>
+				<l>En bén ik altyd in myn leet getroost gewest,</l>
+				<l>Hy vreest zyn noodlót niet, die voor geen stérven vreest.</l>
+				<l>Ik bén, door Vaders dwang, mét weêrzin hier gekómen;</l>
+				<l>Maar hebt gy in myn' reis, óf weggaan, ooit vernoomen</l>
+				<l>'t Geen my op 't hart lag? toonde ik ooit dat my de min</l>
+				<l>Op Attalus ontstak mét zulk een' tégenzin?</l>
+				<l>Nóchtans besloot ik, eer ik hem myn' hand zou geeven,</l>
+				<l>Als Bruid, hier te eindigen myn ongelukkig leeven.</l>
+				<l>Nu réd de Hémel my uit dat gevaar, én ik</l>
+				<l>Van 't huw'lyk, én 't besluit myn 's Vaders, door 't beschik</l>
+				<l>Der Góden vry gestélt, mach, zonder vrees, verkiezen</l>
+				<l>Een minnaar, die ik dacht voor eeuwig te verliezen:</l>
+				<l>Ja, Laodice, ja! ik mach nu onbeschroomt</l>
+				<l>Bot yieren aan de min die ik had ingetoomt.</l>
+				<l>Bezéf hier uit, óf ik heb reên om my t' ontstéllen?</l>
+				<l>'t Orakel, kon dat ooit een béter vonnis véllen?</l>
+				<l>Ik zie my vry, én van een wisse dood geréd,</l>
+				<l>Ontslaagen van myn woord, én 't haat'lyk huw'lyksbéd.</l>
+			</sp>
+			<sp who="#laodice">
+				<speaker>Laodice.</speaker>
+				<l>O Góôn! war hoor ik? had dit huwelyk uw leeven</l>
+				<l>Gekost, én hadge uw hart een ander wég gegéven?</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxfna.</speaker>
+				<l>O Ja; myn boezem was, eer dat ik overkwam,</l>
+				<l>Al lang ontstooken van een' minnelyker vlam.</l>
+				<l>Ik minde, maar, ik had die liefde nooit beleeden,</l>
+				<l>Indien de Hémel niet verhoort had myn gebéden.</l>
+				<l>Hy zélf, die 'k zo bemin, bleef hier van onbewust,</l>
+				<l>En myne vlam zou met myn leeven zyn geblust.</l>
+			</sp>
+			<sp who="#laodice">
+				<speaker>Laodice.</speaker>
+				<l>Zo schynt dr Hémel voor uw liefde zélf te zorgen?</l>
+				<l>Maar mach het zyn, Prinsés, ai! houd dit niet verborgen,</l>
+				<l>Wie is door uwe min zo hoog in tóp gestélt?</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>'t Is Cleoménes, 't is die braaven oorlogshéld,</l>
+				<l>Die Tracers, Parthen, én de Grieken heeft verslaagen,</l>
+				<l>Om vaders rykstroon voor het vallen te onderschraagen.</l>
+				<l>Verwonder u niet dat die héld my zo beviel;</l>
+				<l>Bespeur daar uit 't beleid van een verhéven' ziel,</l>
+				<l>Die meêr op deugd oogt, als op groote staat, én kroonen.</l>
+			</sp>
+			<sp who="#laodice">
+				<speaker>Laodice.</speaker>
+				<l>Zo ik myn' plicht vergeet, Prinsés, wilt my verschoonen,</l>
+				<l>Maar, na myn oordeel...</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>'k Héb uw oordeel niet gevraagt,</l>
+				<l>Maar u alleen ontdékt wat minnaar my behaagt.</l>
+				<l>Ik weet wél dat gy zult zyn laage staat verachten;</l>
+				<l>Maar ik begryp iet meêr als gy met myn' gedachten;</l>
+				<l>Gy oogt op grootsheid, ik oog op de deucht alleen,</l>
+				<l>Die uitblinkt in myn héld, zo stérk, zo ongemeen,</l>
+				<l>Dat ik besluiten moet, schoon 't lót hem heeft verstooten,</l>
+				<l>Dat hy is uit het bloed van Kóningen gesprooten,</l>
+				<l>Dies heb ik vast gestélt om hem nóch dézen dag</l>
+				<l>Te ontdékken, wélk een' vlam in my verborgen lag.</l>
+				<l>Maar hoe! wie nadert ons, én komt myn' vreugd verstooren?</l>
+			</sp>
+			<sp who="#laodice">
+				<speaker>Laodice.</speaker>
+				<l>'t Is Axiane de Prinsés; licht komt zy hooren,</l>
+				<l>Of gy het hoog besluit der Góden niet betreurt.</l>
+			</sp>
+			</div>
+		<div type="scene" n="2">
+			<head>Tweede tooneel.</head>
+			<stage>Axiane, Theoxena, Laodice, Dorine.</stage>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>PRinsés, al valt u zulk een droevig lót te beurt,</l>
+				<l>Al is het dat de Góôn uw min verongelyken,</l>
+				<l>Ik hoop, uw édel hart zal daarom niet beswyken.</l>
+				<l>Ik zag, uit myn paleis, u wand'len in den hóf,</l>
+				<l>En mérkte, dat gy hier niet anders zogt als stóf,</l>
+				<l>Om uw beswaard gemoed te ontlasten door uw klachten;</l>
+				<l>Dierhalven, zo 't kon zyn, wilde ik uw' rou verzachten.</l>
+				<l>Verban de droefheid, die uw ziel beknélt mét pyn;</l>
+				<l>Laat ons, in wéêrwil van het noodlót, zusters zyn;</l>
+				<l>Laat onze vriendschap, schoon gy broeders min moet missen,</l>
+				<l>Aangroeijen, én dat leet uit uw' gedachten wisschen.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Prinsés, zo groot een' gunst is onverdient, ik zou</l>
+				<l>Ondankbaar zyn, als ik die niet aanvaarden wou.</l>
+				<l>Uw zórg is veel te groot, ik weet niets by te haalen</l>
+				<l>Dat waardich is, om zulk een wéldaad te betaalen.</l>
+				<l>Dóch, dit kan ik u wél verzeek'ren, dat my geen</l>
+				<l>Verdriet bejégent is, hoe swaar u zulks ook scheen.</l>
+				<l>In tégendeel, ik moet de Góden eeuwich looven.</l>
+				<l>Ik streev, door hunne gunst, al myn gevaar te booven</l>
+				<l>Ik lief koos myn' fortuin, én stél in de uitspraak van</l>
+				<l>De Góden al 't geluk dat ik verwachten kan.</l>
+				<l>Maar laat ons liever slóf tót and're réden vinden;</l>
+				<l>Laat ons de vriendschap, van ons beide, vaster binden;</l>
+				<l>Gun my gelégentheid dat ik u wéêr, mévrouw,</l>
+				<l>Mag tékens toonen van myne ongeveinsde trouw.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Ik sta verwondert, én verbaast om déze réden.</l>
+				<l>Ik dacht u heel misnoegt te vinden, heel te onvréden.</l>
+				<l>Ik dacht benéffens u te klaagen, om myn hart</l>
+				<l>Te ontlasten van een wreede, én heimelyke smart.</l>
+				<l>Maar gy zyt heel vernoegt; én ik, helaas! daar tégen,</l>
+				<l>Wanhoopende, bedrukt, ten uiterste verleegen,</l>
+				<l>Zie my aan alle kant beneepen van verdriet.</l>
+				<l>De nacht verveelt my, én de dag gevalt my niet;</l>
+				<l>Ja, myne ziel, geprangt van een verborge lyden,</l>
+				<l>Voelt dag op dag op 't felst zich van die drift bestryden.</l>
+				<l>Ey gy zult licht hier uit besluiten, ô Vórstin!</l>
+				<l>Dat al myn' kwelling spruit uit heimelyke min.</l>
+				<l>Helaas! Ik min; maar hy, die ik heb uitverkooren,</l>
+				<l>Is veel te slécht van staat, is veel te laag gebooren;</l>
+				<l>Dit doet dat ik myn lót beschreije, én my beklaag,</l>
+				<l>Om dat ik hoopeloos een minnaar liefde draag.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Gy mind?</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Helaas! ik kan myn' kwélling, myn' gepeinzen,</l>
+				<l>En wat myn ziel bestryd, voor u niet meêr ontveinzen.</l>
+				<l>Ik min, Prinsés, én óf het my tót nadeel strékt,</l>
+				<l>'T is Cleoménes die die zoete vlam verwékt.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Wie! Cleoménes?</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Ja. Ai! wraak niet myn verkiezen,</l>
+				<l>Want ik wil graag myn' staat om zyne min verliezen.</l>
+				<l>Ach! heeft uw oog wél ooit een minnaar zo volmaakt</l>
+				<l>Gezien? 't is wonder dat uw boezem zélf niet blaakt</l>
+				<l>Door 't vuur dat my verteert. Wie zag, wie kénde in 't leeven</l>
+				<l>Een Héld, die zyne lóf niet vér voorby zal streeven?</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Is hém uw min beként?</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Ach! voegt het my, mêvrouw,</l>
+				<l>Dat ik myn' liefde aan hém zo stout ontdékken zou?</l>
+				<l>Maar, gy, aan wiên hy is verplicht door veele réden,</l>
+				<l>Kunt my die dienst doen, én aan hém myn' min ontléden.</l>
+				<l>Indien ik iet vermag, Prinsés....</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Ik hoor gerucht.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Ai! hélp een minnarés, die om de liefde zucht.</l>
+				<l>Licht vind ik uitkomst zo hy luistren wil, én hooren.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Prinsés, dénk om zyn' staat, hy is te laag gebooren.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Zo veel te grooter zyn de blyken van myn' min.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Ons nadert iemand, bind uw driften nu wat in.</l>
+			</sp>
+			</div>
+		<div type="scene" n="3">
+			<head>Derde tooneel.</head>
+			<stage>Ariarates, Theoxena, Axiane Laodice, Dorine</stage>
+			<sp who="#ariarates">
+				<speaker>Ariarates.</speaker>
+				<l>Mêvrouw, Prins Attalus, zo dra hém was gebleeken</l>
+				<l>'T besluit der Góden, wilde u nóch eens zien én spreeken.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Helaes! Prinsés, ik durv hém dus ontstélt niet zien,</l>
+				<l>Verschoon my, ik vertrék, én wil zyn byzyn vliên.</l>
+			</sp>
+			</div>
+		<div type="scene" n="4">
+			<head>Vierde tooneel.</head>
+			<stage>Theoxena, Ariarates, Laodice.</stage>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>MYn Heer, wilt gy u aan myn' vriendschap nader binden,</l>
+				<l>Zo vlieg, zie óf gy kunt Héld Cleoménes vinden,</l>
+				<l>Zég hém, zo 't moog'lyk is, dat hy my dóch ontsla</l>
+				<l>Van 't Prinselyk bezoek, ik bid, myn Heer, ai! ga.</l>
+			</sp>
+			</div>
+		<div type="scene" n="5">
+			<head>Vyfde tooneel.</head>
+			<stage>Attalus, Theoxena, Laodice.</stage>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>MEvrouw, ik twyfel niet u is bericht gegreven,</l>
+				<l>Dat ik, u minnende, verliezen moet myn leeven;</l>
+				<l>En ook hoe myne ziel ontroert is, én verstélt,</l>
+				<l>Nu over ons het lót zo wreed een vonnis véld.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>O ja, myn Heer, ik héb die tyding al vernoomen,</l>
+				<l>En dacht ook niet dat gy zo haastig hier zoud komen;</l>
+				<l>'K dacht dat gy 't voorwérp, dat u zulk een' weêrspoed baard,</l>
+				<l>Verachten zoud, als u, én uwer liefde onwaard.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Ik u verachten? Góôn! waar reu ooit gebleeken,</l>
+				<l>Dat te u waards myne plicht, óf achting is besweeken?</l>
+				<l>Of dat gy myner liefde onwaardig weezen zoud?</l>
+				<l>Ik had al myn geluk op uwe min geboud,</l>
+				<l>Ja, 'k sweer dat my de kroon zo veel nooit zal behaagen,</l>
+				<l>Als uwe schoonheid, die ik steets ontzach zal draagen;</l>
+				<l>En dat ik hier verschyn, geschied alleen, Mêvrouw,</l>
+				<l>Tót een bewys hoe hoog ik u in waarden houw;</l>
+				<l>Ja, dat ons huwelyk niet kosten zou myn leeven,</l>
+				<l>'K zou blind'ling nóch myn' hand aan u als bruigom geeven.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Dit vreesde ik, én dat gy, uit al te flaauw een moed,</l>
+				<l>Myn liefde hooger zoud waardeeren als uw bloed,</l>
+				<l>Dat gy uitspoorig de gevaaren die u dreigen</l>
+				<l>Zoud in de wind slaan, én na myne weêrmin neigen;</l>
+				<l>Maar 'k mérk dat u 't gevaar van stérven nóch weêrhoud,</l>
+				<l>En dat ik héb te veel op myne vrees betrouwd;</l>
+				<l>Dés héb ik réden om uw groots gemoed te pryzen,</l>
+				<l>En dank de Góden, die voor my dit vonnis wyzen.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Gy dankt de Góôn, mêvrouw, én pryst myn groots gemoed,</l>
+				<l>Om dat ik min waardeer uw weêrliefde als myn bloed?</l>
+				<l>Wat inzigt hébt gy voor? zoud gy my daarom haaten,</l>
+				<l>Als-ik besloot om nooit uw schoonheid te verlaaten?</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Myn Heer, die swakheid was voor uw gemoed te groot</l>
+				<l>Indien gy tégens 't lót zo laf een daad besloot;</l>
+				<l>Dóch op dat gy niet aan die kant zult overhéllen,</l>
+				<l>Om uwe staat, én oock uw leeven vast te stéllen,</l>
+				<l>En 't haat'lyk huwelyk te bannen uit uw zin,</l>
+				<l>Moet ik belyden, Prins, dat ik u niet bemin.</l>
+				<l>Door Vaders dwang bén ik, mét weêrzin, hier gekomen;</l>
+				<l>Ik had als onze trouw volbracht wierd, voorgenoomen</l>
+				<l>Te stérven, én u nooit op te ófferen een hart,</l>
+				<l>Dat nérgens meêr als om dit huw'lyk was benart;</l>
+				<l>Dit had ik vast gestélt; maar nu de Góden willen,</l>
+				<l>Door hunn' voorzichtigheid, geen édel bloed verspillen,</l>
+				<l>Nu al uw heil, myn Heer, alleen hier in bestaat,</l>
+				<l>Dat gy uw Vyand zoekt, en myne min verlaat,</l>
+				<l>Nu moet ik uit uw hart zo groot een swakheid weeren,</l>
+				<l>Die, tot uw nadeel, mogt myn wedermin begeeren.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Gy haat my dan, mêvrouw, én hébt my nooit bemind?</l>
+				<l>Hébt gy al veinzend' my gelief koost, én geblind?</l>
+				<l>En nu de Góden my, én al myn wélstand haaten,</l>
+				<l>Begeert gy dat ik u voor eeuwig zal verlaaten?</l>
+				<l>Moet myn ontstélt gemoed nóch pal staan voor die slag?</l>
+				<l>O Góôn! van wien ik my mét récht bek laag en mag,</l>
+				<l>Indien gy voor hébt om my eeuwig te onderdrukken,</l>
+				<l>Waarom maakt gy geen eind van al myne ongelukken?</l>
+				<l>Gy haat my dan, mêvrouw? én band myn teed're min</l>
+				<l>En zielsgeneegendheid zo licht uit uwe zin?</l>
+				<l>He laas! ik hoopte, schoon 't my al mogt tégen loopen,</l>
+				<l>Dat ik ten minsten op uw wedermin mogt hoopen.</l>
+				<l>Ondankb're schoonheid, was uw raadslót zo verwoed,</l>
+				<l>Dat gy myn' liefde woud betaalen met uw bloed?</l>
+				<l>Gy zyt mét wéêrzin dan gekomen in myn' landen</l>
+				<l>Door Vaderlyke dwang, gy hébt myn' minnepanden</l>
+				<l>Aanvaard op zulk een' grond? ô Góôn! wie had vertrouwt</l>
+				<l>Dat gy myn' liefde mét die smaat beloonen zoud?</l>
+				<l>Wie dacht in zulk een' ziel die dubbelheid te vinden?</l>
+				<l>Ik dacht; na 't dooden van myn' Vyand, my te binden,</l>
+				<l>Op 't kóninglyke woord, door eene onbreekb're trouw,</l>
+				<l>Aan één, in wien ik nu myn vyand in beschouw.</l>
+				<l>Maar, wreede, al is 't dat gy my hébt die hoop benoomen,</l>
+				<l>Al is 't dat gy hier mét uw wéêrzin zyt gekomen,</l>
+				<l>Weet égter, dat ik haast, schoon mét uw tégenzin,</l>
+				<l>In staat zal zyn om u te neigen tót myn' min.</l>
+				<l>Ik weet een middel om myn' vyand te verkloeken;</l>
+				<l>Ik hoev', naar 't voorwérp dat ik doôn moet, niet te zoeken;</l>
+				<l>Als dat voldaan is, door een' heerelyke daad,</l>
+				<l>Zult gy my moogelyk heel in eene and're staat</l>
+				<l>Bejégenen, én vry van 't raadsbesluit der Góden,</l>
+				<l>Hét al zien vliegen naar hét wit van myn' gebóden.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Myn Heer, wie twyfelt, óf uw onverschrokken moed,</l>
+				<l>Zal, aangeprikkelt, door een drift van édel bloed,</l>
+				<l>'t Gevaar doorworst'len, én die hoek te bóven streeven,</l>
+				<l>Ja, iet verrichten dat geen wéêrgâ heeft, in 't leeven.</l>
+				<l>Maar, dat myn' goedheid in uw hart die toorn verwekt,</l>
+				<l>Om dat ik u 't besluit héb van myn' liefde ontdekt,</l>
+				<l>Daar óver dunkt my héb ik réden om te klaagen.</l>
+				<l>Wie zou zich anders in die staat, als ik doe, draagen?</l>
+				<l>Ik kom door Vaders last, die my aan u verpand,</l>
+				<l>In weêrwil van myn hart, hier trékken uit myn land;</l>
+				<l>Ik ga myn' zinlykheid, myn' keur, myn' liefde tégen,</l>
+				<l>En toon my, op myn' komst, geheel tót u geneegen,</l>
+				<l>Inmiddels word myn' trouw, van tyd, tót tyd, geschort,</l>
+				<l>Ik uitgestélt, én in myn' meening gantsch verkort.</l>
+				<l>Ten laatsten dreigt u 't lôt, én eischt daar by uw leeven,</l>
+				<l>Zo gy aan my de hand, als bruigom, komt te geeven,</l>
+				<l>Ik, die my daar door zag ontslaagen van uw min,</l>
+				<l>Word van u aangezien voor eene Vyandin.</l>
+				<l>Hoe! Prins; zou ik, daar my de Góôn in vryheid stéllen,</l>
+				<l>Daar zy een vonnis tót myn vergenoeging véllen,</l>
+				<l>My niet bedienen van de midd'len, om myn hart</l>
+				<l>Voor eeuwig vry te zien van een' ondraagb're smart?</l>
+				<l>Zou ik, daar ik u meen een dienst te doen, door 't uiten</l>
+				<l>Van myn' genégentheid, de slach niet moogen stuiten</l>
+				<l>Waar meê gy van de Góôn gedreigt word? Hoe! myn Heer!</l>
+				<l>Is dit myn' dank, én géld myn' zórg by u niet meêr?</l>
+				<l>Het past de Prins, alleen op zyne staat te létten,</l>
+				<l>En, naar 't besluit der Góôn, de liefde te verzetten.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>'K ondek uw oogwit klaar, mêvrouw; maar had vertrouwt,</l>
+				<l>Dat gy uw meening nooit zo licht ontdékken zoud.</l>
+				<l>Dóch, wyl 't u luste voor myn leeven zórg te draagen,</l>
+				<l>Zie ik my van uw gunst niet te eenemaal ontslaagen;</l>
+				<l>En, heeft het vonnis van de Góden u vernoegt,</l>
+				<l>Ik zal op myne beurt ook weeten wat my voegt.</l>
+			</sp>
+			</div>
+		<div type="scene" n="6">
+			<head>Sesde tooneel.</head>
+			<stage>Theoxena, Laodice.</stage>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>HOe zédig dreigt hy; maar dit dreigen doet my vreezen,</l>
+				<l>Of hy in 't kort mogt van zyn Vyand meester weezen.</l>
+				<l>Dés zal ik, eer my 't lót nóch vinniger begrimt,</l>
+				<l>Eer hy de hoek van zyn gevaar te boven klimt,</l>
+				<l>Aan Cleoménes myn' verborge liefde ontdékken,</l>
+				<l>En aanstonds mét hém uit Bithinien vertrék ken.</l>
+				<l>Myn, Laodice, ga dan heen, zég aan myn Héld,</l>
+				<l>Dat ik hém wacht, én in wat staat ik bén gestéld;</l>
+				<l>Zég hoe de Prins my dreigd; wat ik héb voorgenoomen,</l>
+				<l>Dat ik zyn deugd waardeer.</l>
+			</sp>
+			<sp who="#laodice">
+				<speaker>Laodice.</speaker>
+				<l>Mêvrouw, ik zie hem komen.</l>
+			</sp>
+			</div>
+		<div type="scene" n="7">
+			<head>Zevende tooneel.</head>
+			<stage>Theoxena, Cleomenes, Laodice.</stage>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>KOm, Cleoménes, kom, geniet eens na uw zin,</l>
+				<l>In 't openbaar, de vrucht van heimelyke min.</l>
+				<l>Verkryg de zeege die gy had voorlang genooten,</l>
+				<l>Zo Vader tégens my niet anders had beslooten.</l>
+				<l>Zie my nu vry van zulk een' haatelyke trouw,</l>
+				<l>Eu u in eene staat als ik u stéllen wou.</l>
+				<l>Ik hield tót nóch bedekt het raadslót myner zinnen;</l>
+				<l>Nu geeve ik u verlóf om my te moogen minnen;</l>
+				<l>Ja, 'k maak van nu af aan u meester van myn' ziel,</l>
+				<l>Nadien uw moedigheid, én deugd myn zin beviel.</l>
+				<l>Verwonder u niet dat ik zo lang hield, mét zórgen</l>
+				<l>En innerlyk verdriet, myn' min voor u verbórgen;</l>
+				<l>Dat ik, zo groot een' blyk, als gy my hébt getoont</l>
+				<l>Van uw genegentheid, mét koelheid héb beloont.</l>
+				<l>'K was geen meestrésse van myn' vryheid, én myn harte</l>
+				<l>Leed, om myn nakend lót, een onverdraagb're sinarte;</l>
+				<l>Nu bén ik vry, én mach u zéggen, dat ik meêr</l>
+				<l>'t Geluk van uwe min, als myne staat waardeer.</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>O Góôn! wat hoor ik? is 't een' droom? bén ik bedroogen,</l>
+				<l>Of zal ik waar'lyk op die zeege konnen boogen?</l>
+				<l>Zal ik my, voor myn' dood nóch zien in zulk een' staat?</l>
+				<l>Gy mind my dan, Prinsés? ô Hémel! waarom laat</l>
+				<l>Gy my niet toe, dat ik van vreugd de geest mach geeven,</l>
+				<l>Nadien gy my belét in dat geluk te leeven?</l>
+				<l>Waarom my niet die gunst weêrhouden voor altyd,</l>
+				<l>Nadien gy my 't bezit van zulk een' staat benyd?</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Hoe! twyfelt gy, myn Heer, aan myn' genégentheeden?</l>
+				<l>Wat raserny is dit? wat port u tót die réden?</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>Ik twyf'len aan uw' gunst! ik twyfelen, mêvrouw?</l>
+				<l>Neen! dénk niet dat ik zo zal wank'len in myn' trouw.</l>
+				<l>En, wat de Góden tot myn ongeluk beslooten,</l>
+				<l>Nu ik héb blykken van uw wédermin genooten,</l>
+				<l>Zal my het lót, nóch Góôn, nóch ménschen, nóch gewéld,</l>
+				<l>Nóch dwing'landy, tót myn bedérf in 't wérk gestélt,</l>
+				<l>Belétten, tót myn' dood, in uwe dienst te leeven.</l>
+				<l>Helaas! Prinsés, moest ik u niette kénnen geeven</l>
+				<l>Een doodelyk geheim, een' haatelyke last,</l>
+				<l>Een' tégenspoed, die ons zo onverwacht verrast,</l>
+				<l>Waar van ik u niet zie in eeuwigheid ontslaagen,</l>
+				<l>Ik had geen' réden om in déze staat te klaagen;</l>
+				<l>Ik triomfeerde, én stofte op myn' verkreegene eer.</l>
+				<l>Maar, ach! nu is 't gedaan.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theóxena.</speaker>
+				<l>Wat hinderd u, myn Heer?</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>Helaas! iet, dat ik zal mét myne dood bekoopen.</l>
+				<l>Ik mag, ik mag, Prinsés, op uwe min niet hoopen.</l>
+				<l>De Kóning, wyl het lót u scheide van zyn' zoon,</l>
+				<l>Komt u zyn hart wéêrom aanbieden, mét zyn kroon.</l>
+				<l>Hy blaakt in liefde, én haakt, mét innerlyk verlangen,</l>
+				<l>Om u nóch dézen dag als zyne bruid te ontfangen.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theóxena.</speaker>
+				<l>Hoe! my, myn Heer?</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>O ja! 't Is ernst, mêvrouw, ik kom</l>
+				<l>Uit 's Kónings last, hy wil u voort als bruidegom</l>
+				<l>Begroeten, én hy laat, om tot zyn wit te raaken,</l>
+				<l>Reeds alle toestél in de témpel vaardig maaken.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theóxena.</speaker>
+				<l>O Góôn!</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>Besluit hier uit, óf déze dag my niet</l>
+				<l>Zal storten, in het swaarste, én uiterste verdriet.</l>
+				<l>Ik minde, ik zach u op het onvoorzienste ontslaagen</l>
+				<l>Van uw belófte, uw min word aan my opgedraagen,</l>
+				<l>En op dit oogenblik, waar in ik 't eind van al</l>
+				<l>Myn' hoop na by zie, raak ik 't naaste aan myne val.</l>
+				<l>O wreeden Hémel! schépt gy lust om my te plaagen?</l>
+				<l>Is 't niet genoeg, dat ik, berooft van vriend, én maagen,</l>
+				<l>En zórg van ouderen, héb van myn kindsbeen aan,</l>
+				<l>Geduurig onder 't juk van uw besluit gestaan?</l>
+				<l>Moest gy my op het laatst doen door de wanhoop sneeven,</l>
+				<l>Daar gy my had belooft een Kónings kroon te geeven?</l>
+				<l>En, nu ik kom in staat om die te aanvaarden, rukt</l>
+				<l>Gy my op 't onvoorzienst daar af, én onderdrukt</l>
+				<l>My mét die vrees, van nooit op dat genót te hoopen.</l>
+				<l>Ach! zag ik in dit groot gevaar nóch eenig ópen,</l>
+				<l>Maar alles is vergeevs; uw Hóf is reeds bezét</l>
+				<l>Mét Kóninglyke wacht, én onze vlucht belét;</l>
+				<l>Hier is geen uitkomst, als de Vórst, uw hand te geeven,</l>
+				<l>En dat ik maak een eind van myn rampzalig leeven.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Helaas! van al 't gevaar dat my tót dézen dag</l>
+				<l>Bejégent heeft, is dit wél de alderswaarste slag;</l>
+				<l>En, wat besluit ik by my zelve ook héb genoomen,</l>
+				<l>'K zie niet als mét myn' dood dit nakend kwaad te ontkomen.</l>
+				<l>Maar gy, myn Heer, al word myn' tégenspoed vergroot,</l>
+				<l>Hébt nóch geen'reeden om te zoeken uwe dood;</l>
+				<l>Want Axiane mind u hévig, én heeft héden</l>
+				<l>Haar heimelyke min my ópentlyk beleeden.</l>
+				<l>Al is 't nu dat ik word van uwe zy gerukt,</l>
+				<l>Al is 't dat ons besluit, tót ons verdriet, mislukt,</l>
+				<l>Gy kunt 't verlies van my, mét déze trouw wéêr boeten,</l>
+				<l>En al uw ongeval, mét haare min verzoeten.</l>
+				<l>Laat my dan stérven, én verwacht gy van de Góôn,</l>
+				<l>Mét haar, na 's Prinsen dood, 't genót van déze kroon.</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>Houd op, houd op, mêvrouw, mét diergelyke woorden.</l>
+				<l>Aanbiddelyke ziel, houd op mét my te moorden.</l>
+				<l>Zou ik uw dood zien, én myn' liefde opóff'ren aan</l>
+				<l>Een ander? zou ik zulk een' trouwloosheid begaan?</l>
+				<l>Neen! laat ons liever, als zo moed'loos te beswyken</l>
+				<l>In dit gevaar, een' proef van onze moed doen blyken.</l>
+				<l>Laat ons veel hever door de Lyfwacht dringen, haar</l>
+				<l>Mét listomzetten, en ontvlochten hét gevaar.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Zult gy dan Axiane, én haare min velachten?</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>O ja, zy heeft van my geen weêliefde ooit te wachten.</l>
+				<l>Ik zal u rédden, óf hier sneuvelen.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Wel aan,</l>
+				<l>Ik zal u vólgen, én steets ooverzétt'lyk staan;</l>
+				<l>Ik zal de Kóning in zyn opzét tégenstreeven,</l>
+				<l>Zyn min ontkomen, óf hier eindigen myn leeven.</l>
+				<l>Kom, Heer, volvoeren wy dit heerelyk besluit;</l>
+				<l>Stérf als myn Bruidegom, 'k zal stérven als uw Bruid.</l>
+			</sp>
+			<stage>Einde van 't Twide Bedryf.</stage>
+			</div>
+		</div>
+	<div type="act" n="3">
+		<div type="scene" n="1">
+			<head>Derde bedryf.</head>
+			<head>Eerste tooneel.</head>
+			<stage>Axiane, Dorine.</stage>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>HOe! zal Theóxena mét Atis herwaards komen,</l>
+				<l>En heeft hy haar paleis in zyn gewéld genoomen?</l>
+			</sp>
+			<sp who="#dorine">
+				<speaker>Dorine.</speaker>
+				<l>O ja, mêvrouw; ook heeft uw Vader aan zyn wacht</l>
+				<l>Bevoolen, dat zy in zyn' hófzaal wérd gebragt.</l>
+				<l>Ik zag Theóxena, mét traanen op de wangen</l>
+				<l>Beklaagen, dat de Vórst haar wilde als bruid ontsangen.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Hoe! als zyn' bruid?</l>
+			</sp>
+			<sp who="#dorine">
+				<speaker>Dorine.</speaker>
+				<l>O ja. de Kóning, wyl de Góôn</l>
+				<l>Uw broeders huwelyk béletten, laat de troon,</l>
+				<l>Mét groote toestél, in de Témpel, reeds bereiden,</l>
+				<l>Om daar Theóxena, als zyne bruid te, leiden.</l>
+				<l>Hy óffért haar zyn hart; maar zy daar tégen, schéld</l>
+				<l>Die gunst voor tieranny, voor ópenbaar gewéld,</l>
+				<l>En wil niet, dat de Vórst haar tót zyn' min zal dwingen.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Góôn! wat voorzie ik heil door die veranderingen.</l>
+			</sp>
+			<sp who="#dorine">
+				<speaker>Dorine.</speaker>
+				<l>Ik dacht, mêvrouw, gy zoud verstélt zyn door die maar.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Zou ik verstélt zyn? neen! Dorine, ik zie 't gevaar</l>
+				<l>Daar door vermindert, dat ik in myn' min moest vreezen,</l>
+				<l>Want haar vertrék zal door die trouw verhindert weezen;</l>
+				<l>Terwyl groeit dagelyks de nieuwe vriendschap aan;</l>
+				<l>Dan kan zy aan myn' Héld myn liefde doen verstaan,</l>
+				<l>Zy weet myn' kwélling, én, hoe ik hém bén geneegen.</l>
+			</sp>
+			<sp who="#dorine">
+				<speaker>Dorine.</speaker>
+				<l>Gy gaat dan op myn' raad uw liefde nóch niet tégen?</l>
+				<l>Gy lief koost die, én streelt zo lang dat heim'lyk kwaad,</l>
+				<l>Tót ik op 't laast voor u, nóch uitkomst vind, nóch raad.</l>
+				<l>Wat hoopt gy? wat is 't wit van uw geneegentheeden?</l>
+				<l>Gy triomfeert niet, schoon uw min hém is beleeden.</l>
+				<l>Ook past het niet dat gy u aan een man verlooft,</l>
+				<l>Wiens staat, de luister van uw majesteit verdooft.</l>
+				<l>Wat zal uw Broeder, als hy 't hoort, van u besluiten?</l>
+				<l>Helaas! uit uwe min kan niet als onheil spruiten;</l>
+				<l>Want Cleoménes, vólgt hy uwe driften, raakt</l>
+				<l>In ongenade, én 't geen gy voor hébt blyft gestaakt.</l>
+				<l>Dies bid ik, wilt uw min dóch nader overwegen;</l>
+				<l>Beraad u wél, Prinsés, gy gaat uw wélstant tégen.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Ach! als men vólgen moet 't geen ons de liefde raad,</l>
+				<l>Dan lét men weinig op zyn' wélstand, óf zyn' staat.</l>
+				<l>Ik bén te vérvervoert, om weêr te rug te keeren;</l>
+				<l>Ik voel my ook te swak, die driften af te weeren.</l>
+				<l>En Vader, wyl hy zélf gevoelt een nieuwe brand,</l>
+				<l>Zal my niet lastig zyn, mét wreede tégenstant.</l>
+				<l>Hy zal niet wraaken, myn volmaakt, myn schoon verkiezen,</l>
+				<l>En Cleoménes zal by hém geen' gunst verliezen.</l>
+				<l>Ach! wist myn Héld maar dat hy my zo wél beviel;</l>
+				<l>Zag hy de teed're drift van myn' verliefde ziel,</l>
+				<l>Zo mocht ik hoopen, dat hy zélf zou midd'len vinden,</l>
+				<l>Waar door ik, zonder vrees, my mocht aan hém verbinden,</l>
+				<l>Kom dan Theóxena, vriendin, gy kunt myn leet</l>
+				<l>Verzachten, maak dat hy myn teed're liefde weet.</l>
+			</sp>
+			<sp who="#dorine">
+				<speaker>Dorine.</speaker>
+				<l>Mêvrouw, uw broeder komt.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Ach! wélk een lastig komen,</l>
+				<l>Dorine, al myn vermaak is daar door wég genoomen.</l>
+				<l>Ik dacht myn liefde eens bót te vieren, maar, wat raad,</l>
+				<l>Nu moet ik veinzen, én veand'ren myn gelaat.</l>
+			</sp>
+			</div>
+		<div type="scene" n="2">
+			<head>Twede tooneel.</head>
+			<stage>Attalus, Axiane, Dorine.</stage>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>PRinsés, gy weet wat my staat van myn lót te hoopen;</l>
+				<l>Ik zou myn huwelyk mét myne dood bekoopen.</l>
+				<l>Ik word gedreigt, zo ik myn Vyand niet verkloek.</l>
+				<l>Dies staat my niet te doen, als dat ik naarstig zoek</l>
+				<l>Naar hém, die my belaagt. Nu héb ik 't spoor gevonden,</l>
+				<l>Nu kan ik, naar myn' zin, 't geheim der Góôn doorgronden.</l>
+				<l>Myn Vyand is beként, hy heeft gezag, én macht,</l>
+				<l>En kan niet, als mét groot gewélt zyn omgebracht.</l>
+				<l>Hier toe ontbreekt my hulp, én, om die uit te vinden,</l>
+				<l>Héb ik allom verzógt de bystant myner vrinden,</l>
+				<l>Die zich bevlytigen, tót voorstant myner zaak,</l>
+				<l>En driftig yveren, na een gewénschte wraak.</l>
+				<l>Nu kom ik ook by u, mêvrouw, om te onderzoeken,</l>
+				<l>Of gy, om mynent wil, u zélf wél zoud verkloekken,</l>
+				<l>Iet lóffelyks, zo 't in uw macht was, te bestaan?</l>
+				<l>Mag ik, als gy 't beloost, daar op ook zéker gaan?</l>
+				<l>Of zoud gy aarz'len, als 't mét uw begrip, én oordeel</l>
+				<l>Niet overeen kwam, schoon het strékte tót myn voordeel.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Heer Broeder, bén ik ooit besweeken in myn plicht?</l>
+				<l>Verzoek niet, want waar ik in zaaken van gewicht</l>
+				<l>U dienst kan dóen, moogt gy gebieden, ja, myn leeven</l>
+				<l>Wil ik, tót wélstant van uw staat, ten bésten geeven.</l>
+				<l>Een kleen verzoek héb ik hier tégen, dat gy my</l>
+				<l>Uw hulp ook bied als ik die eisch. ontdék dan vry</l>
+				<l>Waar in 't bestaat dat gy myn' bystant hébt van nooden;</l>
+				<l>Gy zult my vaardig zien, myn Heer, op uw gebooden.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Ik twyfel niet aan uw' genégentheid, én bén</l>
+				<l>Verzékert, dat ik die heel grondig in u kén.</l>
+				<l>Maar myn verzoek, Prinsés, zal licht uw keur mishaagen,</l>
+				<l>Want 't is iet ongemeens dat ik u voor zal draagen.</l>
+				<l>Ik héb een' Vyand, die, zo ik regeeren zal,</l>
+				<l>Door myn beleid, én moed, gebracht moet zyn tén val;</l>
+				<l>Dit laatste ontbreekt my, én ik wil u wél belyden,</l>
+				<l>Dat doodsche schrik my voor de manslag komt bestryden.</l>
+				<l>Dat ik geene uitkomst zie, zo ik my niet bedien</l>
+				<l>Van één, die onverschrikt zyn' Vyand aan durft zien.</l>
+				<l>Zulk één dingt ook na loon. Want, als ik zie verslaagen</l>
+				<l>Hém, die myn liefde, én staat, én leeven durft belaagen,</l>
+				<l>Van één, die my zyn hand zélf aanbied, zal 't my weêr</l>
+				<l>Betaamen, dat ik zulk een' héldendaad mét eer</l>
+				<l>Boloone; én déze dienst, die my, gelyk héistélde,</l>
+				<l>Indien het weezen kon, mét uwe min vergésde,</l>
+				<l>En Cleoménes heeft te hoopen op dat loon.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Wie! Cleoménes? is het waarheid? groote Góôn!</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Gy staat verstélt.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Helaas!</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>En licht zal 't u misnoegen,</l>
+				<l>Prinsés; dat ik u zulk een minnaar toe wil voegen.</l>
+				<l>Gy oogt licht op iet groots, én acht zyn' staat te kleen</l>
+				<l>By de uwe; maar, mêvrouw, geloóf my vry, dat geen</l>
+				<l>Waardy, óf staat, óf kroon, kan by zyn' héldendaaden,</l>
+				<l>En deugden, die in hém uitblinken als sieraaden,</l>
+				<l>Geleeken zyn; ô neen! al is zyn' staat gering,</l>
+				<l>Al is hy opgevoed gelyk een vondeling,</l>
+				<l>Zyn'gaaven deeden hém, van zulke laage trappen,</l>
+				<l>Tót op het hoogste punt van eer, én achting stappen.</l>
+				<l>Dus wierd hy afgezant, én Véldheer, én verkreeg</l>
+				<l>Op Tracien, én Parth, én Grieken, zeege op zeeg',</l>
+				<l>En deed zyn Lauweren, én onvorwonnen deegen,</l>
+				<l>Veel swaarder, als 't gewicht van goude kroonen, weegen.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Houd op; ai! overstélp myn' ziel niet door de vreugd.</l>
+				<l>Ik weet wél wat beleid, wat dapperheid, én deugd</l>
+				<l>Zyn ziel bezit; ik kén zyn waarde, zy streeft bóven</l>
+				<l>'t Gemeen vér uit. Maar, Góôn! mag ik u wél gelooven?</l>
+				<l>Is 't waarheid? zal ik hém verkrygen van uw hand,</l>
+				<l>Om wiên myn teed're ziel in zuiv're liefde brand?</l>
+				<l>Wél aan, myn Heer, vol voer uw opzét, wilt niet schroomen,</l>
+				<l>Gy zult door zyn beleid die hoek licht boven komen.</l>
+				<l>Als ik maar bén het loon dat hém word toegevoegd,</l>
+				<l>Dan stém ik in uw keur, dan bén ik heel vernoegd.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Wat blyde maar; mêvrouw gy wilt u overgeeven</l>
+				<l>Aan hém? ô Góôn! ik dacht gy zoud my tégenstreeven,</l>
+				<l>Ik dacht gy zoud myn béde ontzéggen; maar gy mind</l>
+				<l>Die dapp'ren Véldheer, die ik méde héb bezint.</l>
+				<l>Wél aan, myn zuster, gy zult morgen uw verlangen.</l>
+				<l>Voldaan zien, én die Héld van myne hand ontfangen.</l>
+				<l>Veins maar by Vader, die vervoert door nieuwe min,</l>
+				<l>Geeft aan Theóxena zyn kroon, zyn hart, en zin.</l>
+				<l>Maar ik verhoop, eer hy dit huw'lyk zal volbréngen,</l>
+				<l>Dat ik door myn beleid myn Vyands bloed zal pléngen;</l>
+				<l>Ik héb, door zyne dood, 't besluit der Góôn voldaan,</l>
+				<l>En niemant zal in 't ryk myn wil dan tégenstaan.</l>
+				<l>Dus zult gy my zien op die eeretrap verheeven,</l>
+				<l>Daar ik u kan als Bruid aan Cleoménes geeven.</l>
+				<l>Stél uw geluk dan in die manslag névens my.</l>
+				<l>Keur Vaders min voor goed, ja prys zyn opzét vry.</l>
+				<l>Hy zal hier komen, om Theóxena te wachten</l>
+				<l>In dit Paleis, én u te ontdékken zyn' gedachten.</l>
+				<l>Van my is hy geheel verzékert; ja hy laat</l>
+				<l>Volkomen toe, om vast te stéllen myne staat,</l>
+				<l>Dat ik myn' vrienden tót den aanslag mag bereiden,</l>
+				<l>Wyl hy Theóxena zal na den Témpel leiden.</l>
+				<l>Vaar wél, lét op uw zaak, de tyd wil dat ik ga,</l>
+				<l>En Didós spreek, mét wien ik érnstig my berâ</l>
+				<l>Tót wélstant myner zaak; Hy zal mét blydschap hooren</l>
+				<l>Dat Cleoménes, én zyn' deugden u bekooren.</l>
+				<l>Hoop midlerwyl dat myn besluit tén bésten kom,</l>
+				<l>En wacht van myne hand alsdan uw Bruidegom.</l>
+			</sp>
+			</div>
+		<div type="scene" n="3">
+			<head>Derde tooneel.</head>
+			<stage>Axiane, Dorine.</stage>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>DOrine, op wélk een' wys zal ik myn' blydschap mélden?</l>
+				<l>Hoe zal ik broeder zulk een' groote dienst vergélden?</l>
+				<l>O Góden! uw besluit, én zyn gevaar, verwékt</l>
+				<l>Hét middel, dat myn' vlam word aan myn Héld ontdékt.</l>
+				<l>Ik mag hém minnen; hy zal Broeder hélpen wreeken;</l>
+				<l>Myn liefde zal hém meer tót dat besluit ontsteeken.</l>
+				<l>O vreugd! hoe onverwagt reikt my 't geluk de hand,</l>
+				<l>En bied myn' zuivre min een wenschlyke onderstant.</l>
+				<l>Wie dorst dit hoopen? wie van Broeder dit verwachten?</l>
+				<l>Ik dacht voor eeuwig in myn' lyden te versmachten?</l>
+				<l>Ik dacht myn' liefde zou my hoop'loos doen vergaan.</l>
+			</sp>
+			<sp who="#dorine">
+				<speaker>Dorine.</speaker>
+				<l>Ai! bind u in, Prinfés, daar komt de Kóning aan.</l>
+				<l>Uw minnaar volgt hém.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Ach! Dorine, ik zie hém komen</l>
+				<l>Die myne ziel heeft als beheerscher ingenoomen.</l>
+			</sp>
+			</div>
+		<div type="scene" n="4">
+			<head>Vierde tooneel.</head>
+			<stage>Gentius, Cleomenes, Didos, Evander, Axiane, Dorine,
+                            Lyfwacht.</stage>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>SPreek my van billikheid, nóch réchten, weest voldaan</l>
+				<l>Dat ik hier Kóning bén, én dat wy 't zo verstaan.</l>
+				<l>De Min heerscht over my, ik geeve aan ieder wétten,</l>
+				<l>Wilt gy alleen, myn Heer, myn huwelyk belétten?</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>Myn Heer, het ampt, dat ik bekleede als afgezant,</l>
+				<l>'T woord, dat Theóxena hèeft aan uw zoon verpand,</l>
+				<l>'T misnoegen, dat u is, om uwe min, gebleeken,</l>
+				<l>Verplicht my, om voor haar vrymoedig uit te spreeken.</l>
+				<l>Ik zég 't is ongelyk dat aan mêvrouw geschiet;</l>
+				<l>Zy kwam hier, maar, myn Heer, om uwe liefde niet.</l>
+				<l>Zy ziet haar, door de Góôn, van de eerste trouw ontslaagen,</l>
+				<l>Zult gy, myn Heer, zult gy haar mét de twéde plaagen?</l>
+				<l>Want, als 't gezégt moet zyn, die grootsche ziel, besloot,</l>
+				<l>Na 't huw'lyk met uw zoon, grootmoedig haare dood.</l>
+				<l>Bedénk nu wat zy zal na uwe trouw besluiten.</l>
+				<l>Myn Heer, uit uwe min kan niet als onheil spruiten.</l>
+				<l>Bedénk eens hoe verstélt haar Vader op zal zien,</l>
+				<l>Als hy, om haare dood, in 't véld, u 't hoofd zal biên.</l>
+				<l>My dunkt, ik zie reeds om zyn dochters dood te wreeken,</l>
+				<l>Het oorlogsvuur in gantsch Bithinien ontsteeken,</l>
+				<l>Uw steên in de asch, én door die zelfde gloet verteert</l>
+				<l>Het hart, dat, tégens reên, Theóxena begeert.</l>
+				<l>Laat dan uw zinnen door de liefde niet verrukken;</l>
+				<l>Verdoof de glans niet Vórst, yan al uw' héldestukken;</l>
+				<l>Dénk, dat een Kóning nooit een grooter eer behaalt,</l>
+				<l>Als daar hy moedig van zyn' driften zégepraalt.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Hoe! waant, myn Heer, dan dat ik heb op losse gronden,</l>
+				<l>En zonder óverlég, dit huw'lyk onderwonden?</l>
+				<l>Dat ik verstélt zal staan op 't dreigen van haar dood?</l>
+				<l>Neen, neen! myn Heer, myn moed, én doorzigt is te groot.</l>
+				<l>En wat Theóxena belangt, ik zal haar' zinnen</l>
+				<l>Omzétten, én my doen uit vrye keur beminnen;</l>
+				<l>Het schitt'rend kroonegoud bekoord het téder oog,</l>
+				<l>En 't beurde meêr dat zulks een maagden hart bewoog.</l>
+				<l>Maar dat men my wil mét een' yd'le vrees beklémmen,</l>
+				<l>En dreigen, om daar door myn opzét af te stémmen,</l>
+				<l>Geloof, dat nóch gewélt, nóch kóninglyke macht,</l>
+				<l>Nóch al het krygsvólk dat ooit wierd by een gebracht.</l>
+				<l>My zal belétten in myn' liefde voort te vaaren,</l>
+				<l>Al zou men in myn ryk nóch stad, nóch ménschen spaaren,</l>
+				<l>Nóch zal myn' liefde op haar, gantsch onverzétt'lyk staan.</l>
+				<l>Ik héb omdat te doen, myn Heer, te veel gedaan.</l>
+				<l>Dit hart, gezéngt in 't vuur dier twee bekoorlyke oogen,</l>
+				<l>Haakt naar het uur, dat zy die gloed weêr lésschen moogen;</l>
+				<l>Dat heil verwacht ik door 't volbréngen onzer trouw:</l>
+				<l>Ook bén ik al te vér óf ik schoon keeren wou.</l>
+				<l>Ik bén geen meester meêr van myn' verliefde zinnen.</l>
+				<l>Ik word gedwongen om Theóxena te minnen.</l>
+				<l>Myn zoon zélf, die zich mét zyn Vyands dood bemoeit,</l>
+				<l>Streelt myne vlam, die reeds zo fél is aangegroeit.</l>
+				<l>Ook kan ik, naar myn zin, geen grooter eer behaalen,</l>
+				<l>Als dat ik mach van zulk een schoonheid, zégepraalen.</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleovenes.</speaker>
+				<l>Dat zich Prins Attalus, na 't hoog besluit der Góôn,</l>
+				<l>Gehoorzaam toont, én voor u swicht gelyk een zoon,</l>
+				<l>Daar door bewyst hy, dat hém aan zyn' staat, én leeven,</l>
+				<l>Meer hangt als aan zyn' min. Maar, dat de Vórst, gedreeven</l>
+				<l>Door een verkeerde drift, terstont de Bruid verkiest,</l>
+				<l>Zo dra de Prins haar mét zyn tégenzin verliest,</l>
+				<l>Haar Hóf mét wacht bezét, de kóninglyke zaalen</l>
+				<l>Gereet maakt, om die schoone als zyne bruid te onthaalen,</l>
+				<l>In weêrwil van haar hart, dat dunktme is ongehoort,</l>
+				<l>En past geen Kóning, die verplicht is aan zyn woord.</l>
+				<l>Indien die schoone, kóst uw zin'lykheid behaagen,</l>
+				<l>U voegden déze trouw, haar Vader af te vraagen,</l>
+				<l>En, door gezanten, te verzoeken tót uw vrouw.</l>
+				<l>Wat heil verwacht de Vórst van een gedwonge trouw?</l>
+				<l>Wat vreugd word ooit van zulk een huwelyk genooten?</l>
+				<l>Zy is uit 't édel bloed van kóningen gesprooten,</l>
+				<l>Dés is 't onbillik, dat gy haar als een' slaavin</l>
+				<l>Zoud handelen, myn Heer, én dwingen tót uw' min.</l>
+				<l>In aller Góden naam, laat dóch dat opzét vaaren;</l>
+				<l>Dénk om haar jonkheid, én om uwe hooge jaaren.</l>
+				<l>U leid een' drift, die van berouw word nagegaan.</l>
+				<l>Uit déze trouw kan niet als ongeluk ontstaan.</l>
+				<l>Stél haar in vryheid, én verbind u aan de réden,</l>
+				<l>Dat word u érnstig, uit haar' naam, van my gebéden.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Myn Heer, ik zie dat door myn' goedheid dit verwyt</l>
+				<l>Veroorzaakt word, én dat gy onverduldig zyt.</l>
+				<l>Wat my belangt, ik zal in alles my zó draagen,</l>
+				<l>Dat nooit Theóxena heeft réden om te klaagen.</l>
+				<l>Gy kunt vertrékken, én haar Vader zéggen, dat</l>
+				<l>Haar' schoonheid lang de troon van myne ziel bezat.</l>
+				<l>Voor 't ov'rig' héb ik u geen' réden meêr te geeven;</l>
+				<l>Het zy myn schult, zo iet onreed'lyks word bedreeven.</l>
+				<l>Wat vérder het berouw belangt, dat my verzélt,</l>
+				<l>Dat is een' zaak, die nooit een grootsche ziel ontstélt.</l>
+				<l>Ik weet myn oogwit, én ik zal het zo betéggen,</l>
+				<l>Dat men my nimmer iet, tót laster, na zal zéggen.</l>
+				<l>Dóch, wilt gy blyven, ik zal u, als afgezant,</l>
+				<l>Onthaalen, én myn' bruid verwachten van uw' hand.</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>O Góôn! gy hoord dan niet na billikheid, nóch réden!</l>
+				<l>Gy vólgt, geblind, de drift van uwe zinlykheeden!</l>
+				<l>Wél, zyt gy toomeloos, én doof voor myne raad,</l>
+				<l>Vrees dan 't gevaar, myn Heer, dat u te wachten staat.</l>
+			</sp>
+			</div>
+		<div type="scene" n="5">
+			<head>Vyfde tooneel.</head>
+			<stage>Gentius, Axiane, Didos, Evander, Dorine.</stage>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>IK staak myn opzét niet, om zulk een macht'loos dreigen.</l>
+				<l>Hoe! dochter, zou ik na dat haat'lyk voorstél neigen,</l>
+				<l>Daar ik my zélve, mét die trouw, al héb gestreelt?</l>
+				<l>Daar ik verjong, als ik die schoone my verbeeld?</l>
+				<l>Zou ik, daar ik reeds dorst, om haar, zo veel beginnen</l>
+				<l>Nu aarzelen, om dat volmaakte beeld te minnen?</l>
+				<l>Neen, neen! volvoeren wy, mét yver, ons besluit;</l>
+				<l>Zy werde mét haar zin, óf tégenzin, myn' bruid.</l>
+				<l>Evander, ga, zég dat ik zal, mêvrouw, verwachten</l>
+				<l>In myne Hófzaal, zég, dat ik, mét myn' gedachten,</l>
+				<l>Oog op haar weêrliefde, én dat zy my niet ontzeid,</l>
+				<l>Ontzag te toonen, aan myn' liefde, én Majesteit.</l>
+				<l>Gy, Didos, zult het oog op Cleoménes houwen,</l>
+				<l>Ik vrees hém niet, maar wil hém évenwél mistrouwen.</l>
+				<l>Ga, lét op zyn bestaan, en geev myn' Hórwacht last,</l>
+				<l>Dat, op dit teeken, élk op uw gebóden past.</l>
+			</sp>
+			</div>
+		<div type="scene" n="6">
+			<head>Zesde tooneel.</head>
+			<stage>Gentius, Axiane, Dorine, Lyfwacht.</stage>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>MYn dóchter, zie my aan, verjongt, in liefde ontsteeken,</l>
+				<l>Geneegen, déze schoone, om weêrliefde aan te spreeken,</l>
+				<l>Die, toen zy, om de trouw uw's Broeders, overkwam,</l>
+				<l>Van die tyd af, myn borst, zétte in een' lichte vlam.</l>
+				<l>Verwonder u niet, nu zy daar van is ontslaagen,</l>
+				<l>Dat ik haar tracht dit hart, als minnaar, op te draagen.</l>
+				<l>'T is liefde, die reeds voert in myne ziel 't gebied,</l>
+				<l>En wat vermag die Gód, door zyne wétten, niet?</l>
+				<l>Al dwaalt men zomtyds, het valt lichter te vergeeven,</l>
+				<l>Wanneerme een misdaad doet die hy heeft voorgeschreeven.</l>
+				<l>Ik weet wél, dat het aan myn' jaaren niet wél past</l>
+				<l>Myn' hals te buigen na zo ongewoon een' last;</l>
+				<l>Maar, wie kan weêrstand biên, aan twé hekoorlyke oogen,</l>
+				<l>Wanneer de liefde voerd het opperste vermoogen?</l>
+				<l>Zie my in zulk een staat, myn dóchter, én beklaag</l>
+				<l>Alleenig dit, dat ik, Theóxena, mishaag.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Hoe! gy mishaagt haar?</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Ja én, om haar om te zétten</l>
+				<l>Na myn genégentheid, ga ik myn zinnen wétten.</l>
+				<l>Licht zal zy, wat bedaart, na de eerste ontstéltenis,</l>
+				<l>My niet ontveinzen hoe haar hart genégen is.</l>
+			</sp>
+			</div>
+		<div type="scene" n="7">
+			<head>Zevende tooneel.</head>
+			<stage>Axiane, Dorine.</stage>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>ZIe daar, Dorine, wat de liefde al uit kan wérken:</l>
+				<l>Lét op de ontstélt'nis die gy kunt in Vader mérken;</l>
+				<l>Is hy niet scheutvry voor zyn toomeloos gewéld,</l>
+				<l>Hoe licht'lyk word een hart, als 't myne is, neêrgevéld?</l>
+				<l>Misdoet myn Vader niet mét zyne vlam te ontdékken,</l>
+				<l>Hoe zal hét my, ei! zég! tót nadeel kunnen strékken?</l>
+				<l>En óf ik door de liefde al struikelde in myn' plicht,</l>
+				<l>Hét is een zoete zonde, én die vergeest mén licht.</l>
+				<l>Wél aan, myn ziel, volg dan, al bundeling, de wétten</l>
+				<l>Der liefde, uw Broeder poogt uw trouwdag voort te zétten.</l>
+				<l>Niet kan u tégenstaan? én Cleoménes heeft</l>
+				<l>Geen réden dat hy zulk een opzét tégenstreeft.</l>
+			</sp>
+			</div>
+		<div type="scene" n="8">
+			<head>Achtste tooneel.</head>
+			<stage>Theoxena, Evander, Atis, Axiane, Dorine, Laodice, Lyfwacht.</stage>
+			<sp who="#evander">
+				<speaker>Evander.</speaker>
+				<l>MEvrouw....</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Ga, zég de Vórst, wat hy heeft voorgenoomen,</l>
+				<l>Dat ik nooit, mét myn' wil, zyn opzét na zal komen.</l>
+				<l>Voldoe die last.</l>
+				<stage>Tégen Atis.</stage>
+				<l>En gy, myn Heer, laat my de smart,</l>
+				<l>By Axiane, eens vry ontlasten van myn hart.</l>
+			</sp>
+			</div>
+		<div type="scene" n="9">
+			<head>Negende tooneel.</head>
+			<stage>Axiane, Theoxena, Laodice, Dorine.</stage>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>PRinsés, gy komt van pas, om in myn vreugd te deelen:</l>
+				<l>Ik kan, ik kan voor u myn' blydschap niet meêr heelen;</l>
+				<l>Gy zyt nóch onbewust van myn geluk, dies kom,</l>
+				<l>Neem deel daar in, én hoor, wie ik tót bruidegom</l>
+				<l>Verkryg; ik zie myn' wénsch volbracht, myn wit beschooten,</l>
+				<l>En 't is door Broeders gunst, dat ik zulks héb gennoten.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Prinsés, myn droevig lót, myn staat, laat my niet toe,</l>
+				<l>Dat ik u, in die vreugd, gelyk 't betaamt, voldoe.</l>
+				<l>Ik kwam hier vry, zie my nu aan als een ge vangen,</l>
+				<l>Die zo zy uitkomst hoopt, moet naar de dood verlangen.</l>
+				<l>Uw Vader dwingt my, om te aanvaarden zyne trouw,</l>
+				<l>En 't is niet in myn macht, óf ik 't volbréngen wou.</l>
+				<l>Ik héb my al verlooft, myn woord is wéggegeeven,</l>
+				<l>Eer ik had réden om zyn' min te wéderstreeven.</l>
+				<l>Dit alles hélpt niet; mén verzéltme allom mét wacht;</l>
+				<l>Mén wil daar by, dat ik wérde in zyn Hóf gebracht,</l>
+				<l>Daar wil hy my zyn' liefde ontdékken, my verzéllen</l>
+				<l>Tót inde témpel, én een droevig voorbeeld stellen</l>
+				<l>Aan al de waereld, die my stérven zien, vol moed,</l>
+				<l>Voor 't auter, dat ik zal bespatten mét myn bloed,</l>
+				<l>Om my, voor eeuwig, van zyn' min te zien ontslaagen.</l>
+				<l>Helaas! ik zie voor my geen uitkomst, al myn klaagen,</l>
+				<l>En jammeren, verlicht myn' ramp, én kwélling niet,</l>
+				<l>Maar, wikkelt my, hoe langs hoe meerder, in verdriet.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Prinsés, ei! laat ons van die swaarigheid niet spreeken.</l>
+				<l>Ik kom, wyl u 't begin is van myn' min gebleeken,</l>
+				<l>Aan u ontdékken hoe ik heeden triomfeer,</l>
+				<l>En al verkryg wat ik mét hart, én ziel begeer.</l>
+				<l>Héld Cleoménes zal myn broeders vyand slachten,</l>
+				<l>En mórgen my, tot loon, als zyne bruid verwachten.</l>
+				<l>'T is zo beslooten, hy heeft broeders gunst verzócht,</l>
+				<l>Die heeft het, na myn' wensch, alreeds zo vér gebrócht.</l>
+				<l>Wat aanbelangt uw trouw mét Vader, ik wil hoopen,</l>
+				<l>Dat gy niet buiten 't spoor zult van de réden loopen,</l>
+				<l>Zulk een besluit past aan geen' édele Vórstin;</l>
+				<l>Ook is 't een kóning, die u aanbied zyne min.</l>
+				<l>Maar licht verveel ik u; myn' blydschap staat u tégen;</l>
+				<l>Geloof 't, uit plicht alleen héb ik die niet versweegen.</l>
+				<l>Vaar wél, het is my leet, dat gy misnoegen vind</l>
+				<l>In Vaders liefde, die u ongeveinsd bemind.</l>
+			</sp>
+			</div>
+		<div type="scene" n="10">
+			<head>Tiende tooneel.</head>
+			<stage>Theoxena, Laodice.</stage>
+			<l>WAt hoor ik? groote Góôn! bén ik van alle plaagen,</l>
+			<l>Hét eenig doelwit, dat uw gramschap moet verdraagen?</l>
+			<l>Is 't niet genoeg, dat ik, door een gedwonge trouw.</l>
+			<l>Het voorspook myner dood, al in 't verschiet beschouw?</l>
+			<l>Moest ik nóch, voor hét laatst, myn Minnaars ontrouw hooren?</l>
+			<l>O wreeden Hémel! hébt gy my dit lót beschooren?</l>
+			<l>Was 't niet genoeg, dat ik in myne ramp verging,</l>
+			<l>Schoon ik de tyding van zyn ontrouw niet ontfing?</l>
+			<l>He'ld Cleoménes zal myn broedert vyand slachten,</l>
+			<l>En mórgen my, tot loon, als zyne bruid verwachten.</l>
+			<l>Waar heb ik dit verdiend, dat gy my zo beloont</l>
+			<l>Voor myne min, aan u zo ongeveinst betoont?</l>
+			<l>Kon Axiane op u meêr zeege, als ik verwinnen,</l>
+			<l>Waarom voor my geveinsd, mét zulke ontstélde zinnen?</l>
+			<l>Myn Cleoménes, kleeft die vlék op uwe ziel,</l>
+			<l>Voorheen zo zuiver, toen uw deugd my eerst beviel?</l>
+			<l>Is dit uw woord, dat ik onwankelyk betrouwde,</l>
+			<l>En waar op ik myn' dood, óf myn verlossing boude?</l>
+			<l>Wél aan, breek uw belofte, ik zal, mét myne dood,</l>
+			<l>Uw ontrouw boeten, die myn min zo licht verstoot.</l>
+			<l>Maar, Góôn! wat zég ik, wat verrukt myn fiere zinnen?</l>
+			<l>Waarom geloof ik, dat hy weif'len zou in 't minnen?</l>
+			<l>Kan een verliefde maagd, door valsche schyn misleid,</l>
+			<l>My zo licht twyf'len doen aan zyn stantvastigheid?</l>
+			<l>Waar toe verval ik? Góôn! héb ik niet zo veel blyken,</l>
+			<l>Dat zyn stantvaste ziel onmoog'lyk kan beswyken?</l>
+			<l>Ja, Cleoménes, ja! uw trouw word valsch beticht,</l>
+			<l>Uw inborst is te fier, gy wyfelt niet zo licht;</l>
+			<l>Ik heb misdaan, mét haar zo haastig te gelooven;</l>
+			<l>Gy kunt, mét zulk een' smét, uw luster nooit verdooven.</l>
+			<l>Kom, gaanwe, ik zal, mét een onkreukb're én édele moed,</l>
+			<l>Verduuren 's kónings liefde, én alle tegenspoet.</l>
+			<stage>Einde van 't derde Bedryf.</stage>
+			</div>
+		</div>
+	<div type="act" n="4">
+		<div type="scene" n="1">
+			<head>Vierde bedryf.</head>
+			<head>Eerste tooneel.</head>
+			<stage>Attalus, Evander.</stage>
+			<sp who="#evander">
+				<speaker>Evander.</speaker>
+				<l>HOe gaat het, Prins, zyn al uw' vrienden by malkander?</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>O ja, zy staan gereed. Maar, zég my eens, Evander,</l>
+				<l>Heeft Cleoménes by de kóning iets verricht?</l>
+				<l>Deed hy hém omzien na de réden, én zyn' plicht?</l>
+			</sp>
+			<sp who="#evander">
+				<speaker>Evander.</speaker>
+				<l>O neen! de kóning, gantsch verlieft, én ingenoomen</l>
+				<l>Mét déze schoonheid, kon zyn driften niet betoomen.</l>
+				<l>Hy gaf te kennen, dat zyn onverschrókken hart,</l>
+				<l>Om haar, voor geen gevaar óf dreigen, was benart.</l>
+				<l>'T is wonder, dat een Vórst, daar niemand by kon haalen</l>
+				<l>In deugd, zo reukeloos kan door de liefde dwaalen.</l>
+				<l>In déze zaal wil hy haar leiden op de troon,</l>
+				<l>En ófferen zyn hart, én kóninglyke kroon,</l>
+				<l>Wat hém van haar besluit, én afkeer is gebleeken.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Waarom óf Didós my in déze zaal wil spreeken?</l>
+				<l>Hier is 't onveilig: 'k vrees dat iemand ons verspied.</l>
+			</sp>
+			<sp who="#evander">
+				<speaker>Evander.</speaker>
+				<l>De kóning had hém hier bescheiden, vrees maar niet,</l>
+				<l>Geen ménsch, als ik de deur verzéker, kan ons stooren.</l>
+				<l>Wy zyn hier veilig, Prins, hier kan ons niemand hooren.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Een wichtige aanslag, dient omzichtig uitgevoert.</l>
+			</sp>
+			<sp who="#evander">
+				<speaker>Evander.</speaker>
+				<l>Daar komt Heer Didós zélf, hy schynt geheel ontroert.</l>
+			</sp>
+			</div>
+		<div type="scene" n="2">
+			<head>Twede tooneel.</head>
+			<stage>Attalus, Didos, Evander.</stage>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>MYn Heer, hoe dus ontstélt?</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Ga, wilt de deur bezórgen,</l>
+				<l>Laat ons alleen, ik moet de Prins iet in 't verbórgen</l>
+				<l>Ontdékken; maak voor al dat ons de kóning niet</l>
+				<l>Verrasse, óf steur ons eerst.</l>
+			</sp>
+			<sp who="#evander">
+				<speaker>Evander.</speaker>
+				<l>Ik doe 't geen gy gebied.</l>
+			</sp>
+			</div>
+		<div type="scene" n="3">
+			<head>Derde tooneel.</head>
+			<stage>Didos, Attalus.</stage>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>VErwonder u niet, zoon, al ziet gy myne haaren</l>
+				<l>Besweet van angst, my is iet wonders wédervaaren;</l>
+				<l>Van zulk een voorval, heeft de waereld nooit gehoort.</l>
+				<l>Wy zyn verraaden, zoon; dat Kind, dat ik vermoord</l>
+				<l>Geloofde, én in wiens plaats gy zoud de troon betreeden,</l>
+				<l>Dat leest tót ons bedérf, én openbaart zich heeden.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Wat zegt gy, Vader?</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Ja, myn zoon, wy zyn verraân;</l>
+				<l>Word hy beként, zo is 't mét u, én my gedaan.</l>
+				<l>Die schélmse Evander, heeft het Kind gespaart in 't leeven,</l>
+				<l>My valsch misleid. Wel aan, zy zullen beide sneeven,</l>
+				<l>Hy zal dat schelmstuk weêr betaalen mét zyn' dood.</l>
+				<l>Vervloekte, héb ik zo uwe achtbaarheid vergroot,</l>
+				<l>Uw staat verheerelykt, om dat gy hébt behouwen</l>
+				<l>Myn' grootste Vyand? Góôn! dorst ik dit ooit vertrouwen?</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Wat hoor ik, Vader! leeft de Prins? waar is hy? spreek</l>
+				<l>Op dat ik my aan hém, door Cleoménes, wreek.</l>
+				<l>Myn zuster wil het loon voor zyne dienst wel weezen.</l>
+				<l>Ontdék hém maar, myn Heer, wy hébben niet te vreezen.</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Gy zult verbaast staan, zoon, als gy hém noemen hoort.</l>
+				<l>'T is Cleoménes zélf, die déze kroon behoort.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Wie, Cleoménes?</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Ja, die is het, die myn' laagen</l>
+				<l>Ontwórstelt is, én hier, als Vórst, de kroon moet draagen</l>
+				<l>Na 's kónings dood. Hy is 't, die ik Evanders hand</l>
+				<l>Vertrouwde, om tót myn' rust te hélpen aan een kant.</l>
+				<l>Maar die verraader, heeft uit av'rechts médedoogen,</l>
+				<l>Het Kind gespaart, én my zo jammerlyk bedroogen;</l>
+				<l>Nu komt hy hier, om u te schoppen van de troon,</l>
+				<l>Daar gy door myne list waart opgeklommen.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Góôn!</l>
+				<l>Wat hoor ik? moet ik hém voor myne vyand houwen,</l>
+				<l>Op wien ik my alleen dorst in myn wraak vertrouwen?</l>
+				<l>Hoe weet gy, Vader, dat die Héld myn vyand is?</l>
+				<l>Wat blyk hébt gy hier van gekreegen, is 't al wis?</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Ja, zoon, ik héb daar van zo klaare én zeek're blyken,</l>
+				<l>Dat alle twyfeling daar aanstonds voor moet wyken;</l>
+				<l>Lét op zyn'staat, hy is een een vond'ling, én zo oud</l>
+				<l>Als hy moest weezen, die Evander was vertrouwt.</l>
+				<l>Maar, dat nóch klaarder, én, als een onfeilbaar teeken,</l>
+				<l>Zal voor onze oogen van zyn staat, én afkomst spreeken,</l>
+				<l>De Star, die, door de tyd, is op uw bórst vergroeid,</l>
+				<l>Staat op de zyne nóch zo schoon, als een die gloeid.</l>
+				<l>Wie kan nu twyf'len? wat kan klaarder blyken geeven?</l>
+				<l>Hy is het Kind, dat schélm Evander spaarde in 't leeven.</l>
+				<l>Die heeft ons valsch misleid; én 't geen ik nimmer dócht,</l>
+				<l>Tót nu geveinst dat hy de Prins had omgebrócht.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Helaas! 't hart klóptme, ik schrik voor zo veel swaarigheeden.</l>
+				<l>Hoe zaagt gy 't téken op zyn' bórst? ei! zég de reeden.</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Toen Cleoménes, voor uw Bruid zo yv'rig sprak,</l>
+				<l>En 's kónings weigering zyn moed in toorne ontstak,</l>
+				<l>Dacht ik de tyd bekwaam, om onze list te stérken</l>
+				<l>Mét zyn beleid, én moed, om de aanslag uit te wérken.</l>
+				<l>Ik vólg hém, spreek hém nóch in déze ontsteltheid aan.</l>
+				<l>Hy, om Theóxena het aldermeest begaan,</l>
+				<l>Belooft, tót uwe hulp, zyn leeven by te zétten,</l>
+				<l>Zo gy haar huw'lyk mét de kóning wilt belétten.</l>
+				<l>Ik sweer dat gy dit zult volbrengen, dat ik haar,</l>
+				<l>Door déze mandag, zie geréd uit dat gevaar.</l>
+				<l>Dit wékt hém op, om my mét yver af te vraagen,</l>
+				<l>Wie 't is, die door zyn moed, én arm moet zyn verslaagen.</l>
+				<l>Maar eer ik van 't geheim hém iet te kennen gaf,</l>
+				<l>Vérg ik hem ook eene eed van zyn' getrouwheid af.</l>
+				<l>Hy, staande in 't rond, ontbloot zyn bórst, én sweert by 't teeken,</l>
+				<l>De stér daar op gegroeid, uw ongelyk te wreeken:</l>
+				<l>Gy Hélden, zégt hy, in zyn hart van toorne ontstélt,</l>
+				<l>'K sweer, by de stér, waar door 't Orakel heeft gespéld,</l>
+				<l>Dat ik, schoon onbekénd aan ouderen, én maagen,</l>
+				<l>Na myne vyands dood, een goude kroon zal draagen;</l>
+				<l>'K sweer andermaal, by 't bloed van die my heeft gebaard,</l>
+				<l>By hém, die my zo lang hét leeven heeft bewaard,</l>
+				<l>Dat al verweezen was ter dood, 'k sweer by de Góden,</l>
+				<l>Dat ik die snoode, die de Prins belaagt, zal dooden;</l>
+				<l>Hier op gaf hyme een brief, die in zyn boezem stak,</l>
+				<l>Te leezen, maar zo dra als ik die ópen brak,</l>
+				<l>Kénde ik Evanders hand, én las ér uit die woorden;</l>
+				<l>Gy waart aan myne hand vertrouwt om u te moorden,</l>
+				<l>Dóch médetyden heeft hét leeven u gespaart;</l>
+				<l>Denk, vry dat u hét lót heest tót iet groots bewaart.</l>				
+				<l>En, schoon de staatzucht u heeft van uw érf verstooten,</l>
+				<l>De stér zal tuigen uit wat bloed gy zyt gesprooten.</l>
+				<l>Góôn! wat beving myn ziel een ongemeene schrik,</l>
+				<l>Op 't leezen van dit blad, én nóch veel meêr toen ik</l>
+				<l>De stér zag op zyn bórst, dat Prinselyke téken,</l>
+				<l>Op de uwe nagebootst; ik wilde, én kon niet spreeken.</l>
+				<l>Hy vraagt de naam voort van uw vyand, na den eed.</l>
+				<l>Ik veins, én zég dat gy die naam alleenig weet,</l>
+				<l>Dat gy zo aanstonts, om uwe aanslag te voltrékken,</l>
+				<l>Zult mét genoegen, wie het is, aan hém ontdékken.</l>
+				<l>Dénk nu eens na, myn zoon, wat ons te vreezen staat.</l>
+				<l>Hy is de réchte Prins, hét wéttig ooir, hét zaad</l>
+				<l>Van kóning Gentius; indien dit word vernoomen,</l>
+				<l>Zo is 't mét u, én my, rampzaalige, omgekomen.</l>
+				<l>Dies isser niet te doen, als, datge ons uit zo groot</l>
+				<l>Een onheil daat'lyk réd, door Cleoménes dood.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Door Cleoménes dood?</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Dat middel moet gy kiezen.</l>
+				<l>Hy moet van kant, óf gy uw lyf, én staat verliezen.</l>
+				<l>Hier is geen middelwég. Gy moet door déze daad</l>
+				<l>U vésten op de troon, die ik eerst mét verraad</l>
+				<l>U eigen héb gemaakt. Verzéker dus uw leeven;</l>
+				<l>De Góden hébben u hier midd'len toe gegeeven;</l>
+				<l>Want, nu de Prins is door Evanders hand gespaart,</l>
+				<l>Heeft hém hét lót alleen voor uwen arm bewaart,</l>
+				<l>Kom hém dan voor. Gy kunt, verstérkt mét uwe vrinden,</l>
+				<l>Hém dooden, én de knoop der Gódspraak dus ontbinden.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Van al de élenden dieme omringen, isser geen</l>
+				<l>Die my zo fél bestórmt, myn Heer, als déze alleen.</l>
+				<l>Wie ziet my aan, mét al de last die ik moet draagen,</l>
+				<l>Die niet myn noodlót, én myn jonkheid moet beklaagen?</l>
+				<l>Myn wisse dood staat by de Góden vast gezét,</l>
+				<l>Ik mis een schoonheid, die ik dacht in 't bruilofsbéd</l>
+				<l>Te ontfangen; 'k moet myne arm nóch leenen om te moorden,</l>
+				<l>Een Héld, die, in myn plaats, mét récht de kroon behoorden.</l>
+				<l>'k Moet waagen, 't geen ik my zo eigen had verbeeld,</l>
+				<l>Eer dat ik wist wat my uw' zórg had meêgedeeld,</l>
+				<l>Waar hólt dit heene, ô Góôn! ach! had gy my versweegen,</l>
+				<l>Wie dat hy is, ik had licht and're hulp gekreegen.</l>
+				<l>Nu bén ik in gevaar gewikkelt, én ik zie</l>
+				<l>In my geen' kracht, dat ik myn' swakheid weêrstant biê.</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Hoe! zou ik dan, daar al uw' rampen hooger stygen,</l>
+				<l>Uw vyand? naam, en wie uw staat belaagt, verswygen?</l>
+				<l>Zou ik, daar reets uw dood by 't lót is vast gestélt,</l>
+				<l>Indien uw vyand door uwe arm niet word gevéld,</l>
+				<l>Toelaaten, daar ik zie myn' list zo wél gelukken,</l>
+				<l>Dat hy, zó onverwacht, u van de troon zou rukken?</l>
+				<l>Neen! zoon, voldoe 't besluit der Góden, zulk een' daad</l>
+				<l>Zal u beschutten, én handhaaven uwe staat.</l>
+				<l>Dus streeft gy al 't gevaar voorby, én, na 't volbrengen</l>
+				<l>Van zulk een héldendaad, zult gy hét bloed licht pléngen</l>
+				<l>Van kóning Gentius, die, toomeloos, én blind,</l>
+				<l>Zyn' tóchten invólgt, én Theóxena bemind.</l>
+				<l>Op zulk een' wys word gy nooit van de kroon versteeken,</l>
+				<l>En kunt u aan uw Bruid, uw Vórst, én Vyand wreeken.</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Ik zie wél dat my hier niet meêr te kiezen staat,</l>
+				<l>Dies vólg ik blindeling, heer Vader, uwe raad.</l>
+				<l>Maar, op wat wys raakt bést myn vyand om hét leeven?</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Gy moet hém óf door list, óf door gewéld doen sneeven.</l>
+				<l>Dan moet gy, wyl de Vórst zo zórgeloos zyn' tyd</l>
+				<l>In minnerijen mét Theóxena verslyt,</l>
+				<l>Gantsch onverschrokken door de Lyfwacht zien te breeken,</l>
+				<l>Om mét hét zélfde staal hém ook in 't hart te steeken.</l>
+				<l>Dus ziet gy, door uw hand, volbracht 't besluit der Goôn,</l>
+				<l>En kunt Theóxena geleiden op de troon.</l>
+				<l>Wat vreest gy? niemant zal, na déze daad, belétten</l>
+				<l>Dat gy u zult, als Vórst, op 's kónings zétel zétten.</l>
+				<l>Het graauw vliegt van myn hand, 't Hóf ziet my na 't gezicht;</l>
+				<l>Ga heen dan, zoon, op dat het haastig word verricht.</l>
+			</sp>
+			</div>
+		<div type="scene" n="4">
+			<head>Vierde tooneel.</head>
+			<stage>Evander, Didos, Attalus.</stage>
+			<sp who="#evander">
+				<speaker>Evander.</speaker>
+				<l>MYn Heer, de kóning komt, 't is tyd om af te breeken,</l>
+				<l>Indienge iet wichtigs mét élkander hébt te spreeken.</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Wél, spil geen tyd meer mét een noodeloos beraad,</l>
+				<l>Dénk aan 't besluit der Góôn, uw leeven, én uw staat.</l>
+			</sp>
+			</div>
+		<div type="scene" n="5">
+			<head>Vyfde tooneel.</head>
+			<stage>Didos, Evander.</stage>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>EVander, 'k héb uw trouw, te my waards, groot bevonden.</l>
+				<l>Ik héb voorheen mét u eene aanslag onderwonden,</l>
+				<l>Waar door myn zoon is tot zo groot een staat geraakt;</l>
+				<l>Gy hébt het wéttig zaad grootmoedig afgemaakt.</l>
+				<l>Maar 't noodlót heeft, om myn geluk wat in te toomen,</l>
+				<l>Myn zoon, gantsch onverwacht, een vyand op doen kokomen,</l>
+				<l>Die hém belaagt. Die moet van kant; én 't is bestélt,</l>
+				<l>Die om te bréngen, óf door laagen, óf gewélt.</l>
+				<l>'T uur is naarby; indien 't gelukt, na myn verlangen,</l>
+				<l>Zult gy een ander loon, als gy verwacht, ontfangen.</l>
+			</sp>
+			<sp who="#evander">
+				<speaker>Evander.</speaker>
+				<l>Myn Heer, myn leeven, én geluk, staat in uw macht.</l>
+				<l>Uw gunst, heest my alreeds, zo hoog in staat gebracht,</l>
+				<l>Dat ik myn' dienst genoeg voldaan acht, ja, myn leeven,</l>
+				<l>Wil ik voor uwe zoon gewillig overgeeven.</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Stil, laat ons swygen, want de kóning komt daar aan.</l>
+			</sp>
+			</div>
+		<div type="scene" n="6">
+			<head>Zesde tooneel.</head>
+			<stage>Gentius, Didos, Evander, Lyfwacht.</stage>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Hébt gy Theóxena myn inzigt doen verstaan?</l>
+				<l>Is haare fierheid mét myn' liefde niet bewoogen,</l>
+				<l>Of zal ik zo veel gunst van haar niet wachten moogen?</l>
+			</sp>
+			<sp who="#evander">
+				<speaker>Evander.</speaker>
+				<l>Myn Vórst, zy heest, om 't hart beneepen, én beknelt,</l>
+				<l>Uw min voor dwing'landy gescholden én geweld.</l>
+				<l>Zy zal zo daatelyk mét Atis herwaarts kómen,</l>
+				<l>Op 't kóninglyk verzoek, dat zy heeft aangenoomen..</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Wél, dat zy kome, ik kan myn' drift niet tégenstaan.</l>
+				<l>Myn Didós, wat doet my de liefde niet bestaan?</l>
+				<l>Kunt gy de ontstéltenis wél uit myne oogen leezen?</l>
+				<l>Hérdénk dit eens, zy zal zo daat'lyk by my weezen,</l>
+				<l>Dan zal ik haar myn' liefde ontdékken, én myn' smart;</l>
+				<l>Maar, zo zy koel blyft, én in 't weigeren volhard,</l>
+				<l>My afslaat, weêrstand bied, én die bekoor'lyke oogen</l>
+				<l>Mét traanen nat maakt, zal ik, zonder médedoogen,</l>
+				<l>Voor dat geducht gewéld onwrikbaar kunnen staan?</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Indien gy vreest, myn Heer, waarom zo veel gedaan?</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Zal myne zoon, wél van die schoone kunnen scheiden,</l>
+				<l>En aanzien, dat ik haar zal na de témpel leiden?</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Uw zoon heeft op myn' raad, zyn liefde gantsch verzét;</l>
+				<l>Ik weet, dat hy alleen op zyne vyand lét,</l>
+				<l>Die naarspoort; midlerwyl kan zich de Vórst vernoegen</l>
+				<l>Mét zyn Theóxena; wie zou zy béter voegen,</l>
+				<l>Als u, myn Heer, nadienze uwe oogen heeft behaagt?</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>'T is waar, ook héb ik rang myn liefde aan u geklaagt</l>
+				<l>Myn trouwe, Didós, ja, toen zy was aangekomen,</l>
+				<l>Hébt gy de kwélling, dien nu uitbérst, al vernoomen.</l>
+				<l>Gy waard myn raadsman, én gy wist, dat ik myn zoon</l>
+				<l>Niet af kort zétten als door 't hoog besluit der Góôn.</l>
+				<l>Die vond gelukte, én zy voldeeden my ten lésten</l>
+				<l>Mét een Orakel, daar ik kon myn' hoop op vésten.</l>
+				<l>Myn zoon wierd wérk bestélt, versteeken van zyn' trouw,</l>
+				<l>En ik mach vry myn hart opóff'ren aan mêvrouw.</l>
+				<l>Daar komt zy aan, wat straalt een góddelyk vermoogen,</l>
+				<l>Een eed'le fierheid uit die zielverrukkende oogen.</l>
+			</sp>
+			</div>
+		<div type="scene" n="7">
+			<head>Zevende tooneel.</head>
+			<stage>Gentius, Theoxena, Didos, Evander, Atis, Laodice,
+                        Lyfwacht.</stage>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>PRinsés, héb ik 't geluk, na zo veel tégenspoed,</l>
+				<l>Dat ik u in myn Hóf als Bruidegom begroet?</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Myn Heer, wat gy in dit besluit hébt voorgenoomen,</l>
+				<l>Ik bén hier niet in 't hóf als uwe bruid gekomen.</l>
+				<l>Ook is 't een slécht onthaal, dat ik, op uwe last,</l>
+				<l>Van lyftrauwanten word gevólgt, én opgepast.</l>
+				<l>Ik bén verwondert, dat een kóning, zo érvaaren</l>
+				<l>In staatkunde, én van groot beleid, én hooge jaaren,</l>
+				<l>Door een' verkeerde drift, én openbaar gewéld,</l>
+				<l>Een maagd wil dwingen, die door 't lót is vry gestélt.</l>
+				<l>Zal ik, daar ik my eerst zie van de zoon onrslaagen,</l>
+				<l>Terstont dit zélfde hart, de Vader op gaan draagen?</l>
+				<l>Ten doel staan voor zyn' liefde, én nieuwe ontstooken' vlam?</l>
+				<l>Dat was hét inzicht niet toen ik hier overkwam,</l>
+				<l>Ik was, op Vaders woord, aan Attalus verbonden;</l>
+				<l>Mét wélk een recht eischt my de kóning? op wat gronden</l>
+				<l>Steunt dit verzoek? myn Heer, 't is louter onbescheid.</l>
+				<l>Gy hébt uw' keur wél, maar ik héb myn zinlykheid.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Mêvrouw, ik dórst van u geen ander antwoord wachten.</l>
+				<l>Ik had uw' fierheid al verbeeld, in myn' gedachten;</l>
+				<l>Ik wist wél, dat gy zoud weêrstreeven myne min,</l>
+				<l>Eer ik u op de troon geleide als kóningin.</l>
+				<l>Maar dénk niet dat ik héb iet reed'loos ondérwonden;</l>
+				<l>'T beginzel myner min, steunt op onwrikb're gronden;</l>
+				<l>En, hoe myn opzét ook verwékt uw ongeduld,</l>
+				<l>Indien ik iet misdoe, uw schoonheid heeft de schuld.</l>
+				<l>Toen ik myn zoon zag van uw trouwbelófte ontslaagen,</l>
+				<l>Kon ik myn heim'lyk vuur, niet meêr verbórge draagen;</l>
+				<l>Dit hart, door uw gezicht, gezét in lichte brand,</l>
+				<l>Gaf, blind'lings, aan die vlam vólkomen de overhand.</l>
+				<l>Bespeur daar uit de kracht van twé aaumin'lyke oogen;</l>
+				<l>Lét eens van wélk een' macht zy zyn, van wat vermoogen,</l>
+				<l>Ik, die my waande vry voor haar gewéld te zyn,</l>
+				<l>Lég overheert, én bén my zélve maar in schyn.</l>
+				<l>In déze staat, Prinsés, kom ik uw min verzóeken;</l>
+				<l>Gebruik uw macht, om die te lasteren, te vloeken;</l>
+				<l>Zég dat ik dwaal, én u gewéld doe, ja, zég meer,</l>
+				<l>Al wat gy my verwyt, verzoet de liefde weêr.</l>
+				<l>Ik hoev myn' meening u niet klaarder te vertaalen,</l>
+				<l>Nóch 't weezen van myn' liefde, én hartstócht af te maalen,</l>
+				<l>Myne oogen zullen u ontdékken, wat gewéld</l>
+				<l>Myn' ziel bestormt, én hoe de min dit hart beknélt.</l>
+				<l>Zoek dan geen omwég om myn' min te wéderstreeven;</l>
+				<l>'K héb, hoopende op uw gunst, my reets te vér begeeven.</l>
+				<l>Lét ook op 't récht dat gy, voor 't huw'lyk van myn zoon,</l>
+				<l>Door my verkrygt, Prinsés, ik offer u myn kroon,</l>
+				<l>En hart gelyk op; kunt gy wél iet meêr waardeeren?</l>
+				<l>Gy zult myn ziel, én ook dit gantsche ryk regeeren.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Ik zie, myn Heer, hoe vér de liefde u heeft vervoert;</l>
+				<l>Ik zie, wat hartstócht mét gewéld uw brein ontroert;</l>
+				<l>Dat ik niet lichtelyk myn vryheid zal verkrygen,</l>
+				<l>Zo 'k, uit ontzag voor u, myn meening kom te swygen.</l>
+				<l>Ik mérk uw oogwit; maar eer dat gy vérder gaat,</l>
+				<l>Zal ik ontdékken hoe 't mét my geschaapen staat.</l>
+				<l>Ik, die my waar'lyk van myn noodlót moest beklaagen,</l>
+				<l>Zie my, op 't onvoorzienst van Vaders dwang ontslaagen;</l>
+				<l>De Góden stéllen my in vryheid, ja, uw troon</l>
+				<l>Moest gy verlaaten, zo ik trouwde mét uw zoon.</l>
+				<l>Hier op, myn Heer, héb ik, by al de Góôn, geswooren,</l>
+				<l>Dat my, door dwang, geen prins, óf kóning, zou bekóoren;</l>
+				<l>Dat ik uit vrije keur, opóff'en zou myn' ziel</l>
+				<l>Aan één, wiens moedigheid, én deugd, my wél beviel.</l>
+				<l>In déze staat, waar in ik my eerst wilde streelen,</l>
+				<l>Mét dit besluit, komt my de Vórst terstont verveelen;</l>
+				<l>Verzéltme allom mét wacht, tót in dit hóf, om my</l>
+				<l>Het hart te tréffen mét zyn nieuwe minnery;</l>
+				<l>En 't is niet in myn' macht, gehoor daar toe te geeven.</l>
+				<l>Vergeeftme, ô Vórst! dat ik uw min moet tégenstreeven.</l>
+				<l>Door dwang te huuwen is een' doodelyke pyn.</l>
+				<l>De min wil altyd vry, én ongedwongen zyn.</l>
+				<l>Hérroep uwe oude deugd; én, wilt gy my gelooven,</l>
+				<l>De vlam die u bestryd is licht om uit te dooven;</l>
+				<l>Dóch, zo die uitbarst, én my dreigt mét haare gloed,</l>
+				<l>Bén ik bereid die uit te blusschen mét myn bloed.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Is dan uw boezem, heel berooft van medelyden,</l>
+				<l>Mêvronw, datge op die wys myn' liefde zét tér zyden?</l>
+				<l>Is 't niet genoeg, dat gy, indien ik my misga,</l>
+				<l>Bespeurt, uit wat gewéld, én reên ik zulks besta?</l>
+				<l>Waarom myn' min getérgt mét wéderwaardigheeden?</l>
+				<l>Ik pleeg geen onbescheid, ik min u na de réden.</l>
+				<l>Verkort ik u als ik een kroon zét op uw hooft?</l>
+				<l>Prinsés, die was u niet mét myne zoon belooft.</l>
+				<l>Waarom een middel, tót myn nadeel uitgekoozen,</l>
+				<l>Dat myne wangen doet van liefde, én gramschap bloozen?</l>
+				<l>Geloof vry, dat ik van myn' keur niet af zal staan,</l>
+				<l>Wat eeden gy ook tót myn nadeel hébt gedaan.</l>
+				<l>Geef my geen' réden om het uiterste te pleegen;</l>
+				<l>Gy vond u licht, Prinsés, in zulk een' staat verleegen.</l>
+				<l>Denk wat een Vórst vermach, én wat in een gemoed,</l>
+				<l>Wanneer 't wanhoopende is, getérgde min niet doet.</l>
+				<l>Myn wil is elk een wét; buig dan uw fiere zinnen,</l>
+				<l>Mêvrouw, én wilt my uit een vrije keur beminnen.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Wel stél aan élk de wét, zo vér uw heerschappy,</l>
+				<l>En paalen strékken, maar in 't minste niet aan my.</l>
+				<l>Ik kwam hier vry, én zie my boven dat ontslaagen,</l>
+				<l>Door Hammon, van een' trouw, die my nooit zou behaagen;</l>
+				<l>Wat isser dan dat my aan uwe wétten bind?</l>
+				<l>Zyt gy een kóning, ik, ik bén een kónings kind.</l>
+				<l>Zou ik, om dat gy my bemind, myn plicht vergeeren?</l>
+				<l>Zou ik een stiefmoêr van myn' eerste bruigom heeten?</l>
+				<l>Een troon beklimmen, die de voorzaad mét gewéld</l>
+				<l>My zou ontrukken, als de dood u had gevéld?</l>
+				<l>Zou ik die eeden, die ik héb geswooren, breeken?</l>
+				<l>Die zuiv're vlam, die in myn' boezem is ontsteeken,</l>
+				<l>Verdooven door een' mist van ontrouw? neen! Myn Heer,</l>
+				<l>Verzoek dit hart niet, want het hoort aan my niet meêr.</l>
+				<l>Al uw gewéld zou licht my kunnen onderdrukken,</l>
+				<l>Maar uw besluit, ôVórst! zal nimmer u gelukken;</l>
+				<l>Myn Cleoménes..... Góôn! wat zég ik?</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Wie, mêvrouw?</l>
+				<l>Is 't Cleoménes die belét doet aan myn trouw?</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Myn Heer, dit teeder hart kon, op hét ernstig vérgen,</l>
+				<l>Om wédermin, zyn naam voor u niet meêr verbérgen.</l>
+				<l>Ik zie uwe yver, én dat uw vervoerde zin,</l>
+				<l>Indien ik vry was, my zou dwingen tót haar' min.</l>
+				<l>Ik kén uw deugd daar by, én hoop dat na dit keuren</l>
+				<l>Gy onze zielen niet zult van élkand're scheuren.</l>
+				<l>Hét staaf aan my niet meêr om aan de Vórst myn' hand,</l>
+				<l>Als bruid te geeven, wyl dit hart reeds is verpand.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Wêl aan, mêvrouw, ik zal terstont een vonnis véllen,</l>
+				<l>Dat u ontslaan zal, én wéêrom in vryheid stéllen.</l>
+				<stage>Tégen Atis.</stage>
+				<l>Verzéker u terstond van Cleoménes.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Hoe!</l>
+				<l>Wat gaat u aan, myn Heer? waar bréngt de liefde u toe?</l>
+				<l>Helaas! wat hébt gy voor?</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Prinsés, zyn bloed te plêngen</l>
+				<l>Op darge in vryheid moogt myn huwelyk volbréngen,</l>
+				<l>De Góden hébben u hier eenmaal in voldaan,</l>
+				<l>Ik zal de twédemaal niet min als zy bestaan.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Tót wat verwoedheid word de kóning aangedreeven?</l>
+				<l>Myn Heer, bedénk wie gy wilt bréngen om het leeven,</l>
+				<l>Hy is een afgezant; hy staat voor Vader in.</l>
+				<l>Schénd gy de wétten, om uw' reukelooze min?</l>
+				<l>Wat dólheid voerd u aan? ik bid, ei! vólg de réden,</l>
+				<l>Betoon u niet ontbloot van alle mensch'lykheeden.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Hoe! zou ik dan my zélve, om zynent wil, verraân?</l>
+				<l>Neen, neen! door zyne dood word myne min voldaan,</l>
+				<l>Uw eed heeft u aan hém verbonden, door zyn stérven</l>
+				<l>Stél ik u vry, én mach uw wedermin verwérven.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Hoe! waant de Vórst dan als myn minnaar is gevéld,</l>
+				<l>Dat hy my tót zyn' min zal dwingen door gewéld?</l>
+				<l>Dat hy my zo vér zal van myne plicht verrukken,</l>
+				<l>Dat ik hém minnen zou, na zulke gruwelstukken?</l>
+				<l>Dat ik een hand, van zulk een dierbaar bloed besmét,</l>
+				<l>Ontfangen zou mét vreugd in 't haat'lyk bruiloftsbéd?</l>
+				<l>Neen, dénk dat niet; want als gy hébt zyn bloed vergooten,</l>
+				<l>Héb ik een hand om 't staal my ook in 't hart te stooten.</l>
+				<l>Dan kunt gy in die stroom van bloed, door een geméngt,</l>
+				<l>Het hart verkoelen dat de wéllust heeft gezéngt,</l>
+				<l>Vaar voort, Barbaar, vaar voort, begin uwe euveldaaden;</l>
+				<l>Voldoe uw moordlust...</l>
+			</sp>
+			</div>
+		<div type="scene" n="8">
+			<head>Achtste tooneel.</head>
+			<stage>Atis, Gentius, Didos, Theoxena, Evander, Laodice, Lyfwacht.</stage>
+			<sp who="#atis">
+				<speaker>Atis.</speaker>
+				<l>OP, myn Heer, wy zyn verraaden.</l>
+				<l>De gantsche stad is reeds in oproer, het gerucht</l>
+				<l>Vermeerdert meer, én meer, ik bén met reên beducht</l>
+				<l>Voor heimelyk verraad, én kan men 't niet belétten,</l>
+				<l>Ik vrees, men zal mét macht Theóxena ontzétten.</l>
+				<l>Ik kon geen récht bescheid bekomen; maar 't is wis,</l>
+				<l>Dat Cleoménes van dit vólk de aanvoerder is.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Wie, Cleoménes?</l>
+			</sp>
+			<sp who="#atis">
+				<speaker>Atis.</speaker>
+				<l>Jan myn Vórst.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Wél aan, gy Heeren,</l>
+				<l>Stél u in staat om zulk een opzét af te keeren.</l>
+				<l>Ga, Didós, breng terstont myn hófwacht op de been.</l>
+				<stage>Tégen Evander.</stage>
+				<l>Verzékert gy mêvrouw. Gy, Atis, ga voort heen,</l>
+				<l>Belét hun woede, én wilt voor al geen tyd verliezen,</l>
+				<l>Om 't zékerste tót haar behoudenis te kiezen.</l>
+				<l>Ik zal, zo 't nood doet, u verstérken mét myn' wacht.</l>
+				<l>Maak dat myn vyand, door uw moed, wérd omgebracht.</l>
+				<l>Mevrouw, uw minnaar zal myn' laagen niet ontkomen,</l>
+				<l>'T is al vergeefs wat hy voor u heeft voorgenoomen.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Bewaar hém, groote Góôn! voor hun geducht gewéld;</l>
+				<l>Of laat my roe dat ik mach stérven mét myn Héld.</l>
+			</sp>
+			<stage>Einde van 't Vierde Bedryf.</stage>
+			</div>
+		</div>
+	<div type="act" n="5">
+		<div type="scene" n="1">
+			<head>Vyfde bedryf.</head>
+			<head>Eerste tooneel.</head>
+			<stage>Theoxena, Laodice.</stage>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>MYn Laodice, zie my van myn lót verdrukken,</l>
+				<l>Door een' ondraagb're last, én droevige ongelukken;</l>
+				<l>Zie my ten laatsten in een' snooder staat gebracht,</l>
+				<l>Als ik, na 't vonnis van de Góden, had verwacht.</l>
+				<l>Myn Cleoménes, die my wilde in vryheid stéllen,</l>
+				<l>Zie ik reeds, door 't gewéld des kónings, nédervéllen;</l>
+				<l>Hier is geen' uitkomst, én ik wacht, in déze nood,</l>
+				<l>Zyn wisse néderlaag, én myn verhaaste dood.</l>
+				<l>Dit wil myn droevig lót; én gy, die licht myne oogen</l>
+				<l>Zult luiken, toon aan my uw uiterste vermoogen,</l>
+				<l>Voer onze lyken, op myn bé, voort uit dit land,</l>
+				<l>En bied my na myn' dood in myne wraak de hand;</l>
+				<l>Ik weet dat dit gezicht myn Vader zal ontsteeken,</l>
+				<l>Om zo veel héviger myn ongelyk te wreeken.</l>
+				<l>Dóch, zo de kóning wil dat gy alleen vertrékt,</l>
+				<l>Dat dan één zark hét graf van bei de lyken dékt.</l>
+				<l>Dit is hét laatste dat ik van u zal verzoeken;</l>
+				<l>Gy moet, om mynent wil, u zelv' zo veel verkloeken.</l>
+				<l>Ei! spaar uw traanen, want myn droevig noodbeschik</l>
+				<l>Staat vast, én ik vertraag 't besluit geen oogenblik.</l>
+			</sp>
+			<sp who="#laodice">
+				<speaker>Laodice.</speaker>
+				<l>Helaas! Prinsés, zal ik u kunnen overleeven,</l>
+				<l>En aanzien, dat gy zult u zélf de doodsteek geeven?</l>
+				<l>Gelooft gy, dat de Góôn op u dus zyn gestoort?</l>
+				<l>Zou 't hun behaagen, dat uw minnaar wérd vermoord?</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>O ja! de Góden zyn op myne min verbólgen,</l>
+				<l>My schiet niet over als myn minnaar naar te vólgen,</l>
+				<l>Zyn' ziet te paaijen voor de mislag die ik déê,</l>
+				<l>Toen ik voor Gentius myn' zuiv're min beléê.</l>
+			</sp>
+			</div>
+		<div type="scene" n="2">
+			<head>Twede tooneel.</head>
+			<stage>Axiane, Theoxena, Laodice, Dorine.</stage>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>HElaas! Prinsés, helaas! hébt gy 't gerucht vernoomen,</l>
+				<l>Dat my, zo onverwacht, ter ooren is gekomen?</l>
+				<l>Héld Cleoménes, door myn Broeder aangerand,</l>
+				<l>Ligt deerelyk gewond, gevéld door zyne hand.</l>
+				<l>Die wreede, die Barbaar, die my, op valsche gronden</l>
+				<l>Misleide, heeft zyn woord, dat hy my gaf, geschonden;</l>
+				<l>Hy, van wiens hand ik hém als bruigom had verwacht,</l>
+				<l>Heeft hém verraaden, én zo deer'lyk omgebracht.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Is Cleoménes dood?</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Die tyding kom ik bréngen,</l>
+				<l>En dat zo snoode een' hand dat kost'lyk bloed dorst pléngen.</l>
+				<l>En ik, wien 't leeven, door zyn' dood, verstrékt een' last,</l>
+				<l>Zieme aan een kéten van zo veele élenden vast.</l>
+				<l>O Góôn! wie dacht dat my een broeder zou verraaden?</l>
+				<l>Dat hy zyn' moordlust aan myn' minnaar zou verzaaden?</l>
+				<l>Dit 's dan de bruiloft die ik mórgen had verwacht!</l>
+				<l>Tieran, wat hélsche wrok heest u zo vér gebracht,</l>
+				<l>Dat gy myn' minnaar, die u had zyn woord gegeeven</l>
+				<l>Om u te wreeken, zo moordadig bréngt om 't leeven?</l>
+				<l>Of is uw dorst tót bloed zo onverzaad'lyk groot,</l>
+				<l>Dat Cleoménes die eerst moest mét zyne dood</l>
+				<l>Uitlésschen? wél, barbaar, gy kunt my ook doorsteeken</l>
+				<l>Iudien'er léssching tót uw bloeddorst mocht ontbreeken.</l>
+				<l>Kom, monsterdier, kom, sla uw klaauwen, rood van 't bloed</l>
+				<l>Myn's minnaars, in myn borst, gy hébt niet uitgewoed,</l>
+				<l>Maar tot myne ondergang, uw moordlust ingespannen.</l>
+				<l>Kom, schrikdier van natuur, kom, wreedste der tierannen,</l>
+				<l>Kom, mést u zat in 't bloed uws zusters, die maar wacht,</l>
+				<l>Na 't twéde schélmstuk, nu gy 't eerste al hebt volbracht</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Is Cleoménes dood? ô Góden! wat vertraagen</l>
+				<l>Wy 't oogenblik, om méê dat zelve lót te draagen?</l>
+				<l>Hét is niet vrémt, dat men my alle hoop benam,</l>
+				<l>Nadien ik dóch om hier te stérven overkwam.</l>
+				<l>Prinsés, bezie in my het wit, daar alle plaagen,</l>
+				<l>Gelyk op stórmen, met onwéderstaanb're slaagen.</l>
+				<l>Bezie in my, al wat u ooit rampzalig scheen.</l>
+				<l>En datge onmoog'lyk dacht, zie dat in my alleen.</l>
+				<l>Ik bén de droevigste, én élendigste aller ménschen,</l>
+				<l>Wien zélf nier óv'rig is om iet te kunnen wénschen;</l>
+				<l>Die haare ramp van tyd, tót tyd zó ziet vergroot,</l>
+				<l>Dat haar niet anders kan verlossen, als de dood.</l>
+				<l>Lét maar op 't swaarste dat my ooit zal tréffen konnen,</l>
+				<l>Héld Cleoménes ligt door my, door my verwonnen,</l>
+				<l>Ik, ik bén de oorzaak, dat uw Vader, zo verwoed,</l>
+				<l>Heeft, door uw broeders arm, gestort dat waardig bloed.</l>
+				<l>Hét onwéêrstaan'lyk lót dwong myne mond te spreeken</l>
+				<l>Eén woord, waar door hy zo moordadig is doorsteeken;</l>
+				<l>Myne yver bracht hém zo rampzalig om den hals,</l>
+				<l>En maakt my deelgenoot van zo veel ongevals.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Wat zégt gy? Hémel! zyt gy oorzaak van zyn stérven?</l>
+				<l>Moet ik door u, mêvrouw, myn Cleoménes dérven?</l>
+				<l>Wat dolheid voerde u tót zo haatelyk een' daad,</l>
+				<l>En maakt u deelgenoot van dat verdoem'lyk kwaad?</l>
+				<l>Wél aan, ik eisch zyn bloed weêrom van uwe handen,</l>
+				<l>Die oorzaak zyt dat die vervloekte dwingelanden</l>
+				<l>Hét pléngden, Góden! die alle aardsche dingen ziet,</l>
+				<l>Straf déze daad, alleen volbracht tót myn verdriet;</l>
+				<l>Vervólg de moorders mét een eeuwig duurend wroegen.</l>
+				<l>Of zo gy, by die straf, een' grooter straf wilt voegen,</l>
+				<l>Laat broeders vyand, die hy naarspoort overal,</l>
+				<l>Zyn borst doorsteeken, én hém bréngen tót zyn' val.</l>
+				<l>Dat hy, veracht, geschopt, gesleept, langs alle straaten,</l>
+				<l>Een schouwspél strékke als hy hét leeven heeft verlaaten.</l>
+				<l>Of zo 't mislukt, dat dan de donder, uit uw hand</l>
+				<l>Geslingert, hém verplétte, én breng die schélm van kant,</l>
+				<l>Die my misleid heeft, én myn minnaars bloed vergooten.</l>
+				<l>Ontménschte beul, zyn wy uit één geslacht gesprooten?</l>
+				<l>Zyt gy myn' broeder? neen! gy hébt uw stam verzaakt,</l>
+				<l>Uw woord geschonden, én myn' minnaar afgemaakt.</l>
+				<l>Waar vind ik uitkomst? ach! wat lót is my beschooren!</l>
+				<l>Ach! kost u ook de naam van moorderés bekooren.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Vaar uit, mêvrouw; vaar uit, én schéld myn' misdaad vry.</l>
+				<l>Dit is het minst' van al de élénden die ik ly.</l>
+				<l>Koel vry uw moed, mét my die vuile naam te geeven</l>
+				<l>Van moorderés, ik zal uw drift niet tégenstreeven.</l>
+				<l>En gy, Tieran, wiens hart in heeté liefde blaakt,</l>
+				<l>Die, om uw voordeel, hébt myn minnaar afgemaakt,</l>
+				<l>Gy zult u, in uw waan, hét meest bedrooge vinden.</l>
+				<l>Nooit zal een zoete trouw ons aan élkander binden.</l>
+				<l>En, zo myn'béê word van het Gódendom verhoort,</l>
+				<l>Zal eeuwig weê, en wraak u vólgen op die moord.</l>
+				<l>Ja, déze geile vlam, die my wilde óverheeren,</l>
+				<l>Moet u al kwynende, van tyd, tót tyd, verteeren.</l>
+				<l>En gy, doorluchte ziel, die, door de minnenyd,</l>
+				<l>Om mynent wil, helaas! zo vroeg gesneuveld zyt,</l>
+				<l>Gedoog, dat ik dit hart, na zo veel jammerklachten,</l>
+				<l>Mach tót eene ófferhand van onze liefde slachten.</l>
+				<l>Ontfang myn' laatste zucht, terwyl ik myn verdriet</l>
+				<l>Wil einden, mét de dood, die my noch overschiet.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Laat af, mêvrouw.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Hoe nu! belét gy my te stérven?</l>
+				<l>Rampzalige, staaf, ik moet het leeven dérven.</l>
+				<l>Gy kunt u troosten als gy op zyn' lykasch zucht,</l>
+				<l>En strooijen een gedrang van klachten door de lucht.</l>
+				<l>Gy kunt u zélve mét zyn' min vernoeging geeven,</l>
+				<l>Maar my, my past het niet myn minnaar te óverleeven;</l>
+				<l>Neen! onze zielen zyn te vast in een verknócht,</l>
+				<l>Om niet te sneuvelen nu hy is omgebrócht.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Was hy uw minnaar?</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Ach! wie zou, mét ziel én zinnen,</l>
+				<l>Zulk een volmaakten Héld als by was niet beminnen?</l>
+				<l>Wie zag hém aan, die niet op hém verliefde? Ja,</l>
+				<l>Wie zag ter waereld van zyn' deugd een wédergâ?</l>
+				<l>Ik had beslooten, toen ik hier kwam, om te stérven,</l>
+				<l>En dat uw broeder nooit als bruid my zou verwérven;</l>
+				<l>Ik had verzeek'ring van zyn' liefde, én wil voor al</l>
+				<l>Niet leeven, nu hy zo rampzalig raakt ten val.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Wél, stél dat uit, mêvrouw, tot dat gy hébt genooten,</l>
+				<l>Voldoening voor het bloed door broeders hand vergooten.</l>
+				<l>Bied my uw hulp indien hy u is waard geweest;</l>
+				<l>Wreek zyne dood, geev dan mét my vernoegt de geest.</l>
+				<l>Ik zal u voorgaan om die moorder aan te randen,</l>
+				<l>Maak dat hy zyne straf verkrygt van onze handen.</l>
+			</sp>
+			</div>
+		<div type="scene" n="3">
+			<head>Derde tooneel.</head>
+			<stage>Gentius, Attalus gewond, Axianen,
+                            Evander, Theoxena, Laodice, Dorine, Lyfwacht.</stage>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>MYn zoon! moet ik u zien in zulk een' droeve staat?</l>
+				<l>O Góden! is uw wraak gevallen op myn zaad?</l>
+				<l>Myn waarde zoon, moest u myn vyands hand doorsteeken?</l>
+				<l>Nu zien wy dat de Góôn meest dubbelzinnig spreeken.</l>
+				<l>Kom hier, myn dóchter, zie uw broeder in zyn bloed</l>
+				<l>Versmooren, én my 't wit van alle tégonspoed.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>O Góôn!</l>
+			</sp>
+			<sp who="#attalus">
+				<speaker>Attalus.</speaker>
+				<l>Ei my! ik sterv', ik voel myn kracht beswyken.</l>
+				<l>Myn Vórst, de staatzucht wilde uw zoon verongelyken.</l>
+				<l>Laat Didós u 't besluit ontdékken van de Góôn.</l>
+				<l>Spaar Cleoménes, want die is....</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Vaar voort, myn zoon,</l>
+				<l>Ei! spreek.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Hy stérft, hy heeft alréê de geest gegeeven.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Hy wilde iet zéggen, maar 't is uit, 't is mét zyn leeven</l>
+				<l>Gedaan, ô Góden! is uw gramschap zo verwoed,</l>
+				<l>Dat ik die stillen moet mét dit onnózel bloed?</l>
+				<l>Wél aan, laat Didós ons 't besluit der Góôn ontdékken;</l>
+				<l>Als dat voldaan is, zal ik voort myn' wraak voltrékken.</l>
+				<l>Evander, ga, zég voort aan Atis, dat hy past</l>
+				<l>Op Cleoménes, én niet doe voor nader last.</l>
+				<l>Mêvrouw, zie hier de vrucht van uw uitspoorig minnen,</l>
+				<l>Zie wat ik heeden zal tót myne wraak beginnen.</l>
+				<l>Uw minnaar is in zyn paleis rondom bezét,</l>
+				<l>Door Atis krygsvólk, én zyn vlucht daar door belét.</l>
+				<l>Hy kan niet hoopen als mét zyne dood te boeten</l>
+				<l>Voor 't bloed, dat zyne hand doet stroomen voor myn voeten.</l>
+				<l>Zo groot een rampspoed heeft uw wéderwaardigheid,</l>
+				<l>En tróts bejégenen myn' zoon, én hém bereid.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Op dit verwyt zal ik niet bloozen noch verbleeken,</l>
+				<l>Of tót behoudenis van Cleoménes spreeken.</l>
+				<l>Ik zie wél hoe de haat der Góden op my woed,</l>
+				<l>En wat ik hoopen kan in zo veel tégenspoed.</l>
+				<l>Myn droevig noodlót, hoe rampzalig 't my wil maaken,</l>
+				<l>Zal échter my nooit doen myn plicht, óf staat verzaaken.</l>
+				<l>En, zo myn Minnaar door uw handen sterven moet,</l>
+				<l>'K wil met hem sterven voor uw zoons vergooten bloed.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Slacht my, beneffens haar voor 't bloed door hém vergooten.</l>
+				<l>Ja, Vader, wilt uw swaard vry in myn' boezem stooten;</l>
+				<l>Als Cleoménes stérft, zultge op dat oogenblik</l>
+				<l>My zien met hem vergaan, en stérven zonder schrik.</l>
+				<l>Ja, dit besluit staat vast; ik héb hém opgedraagen</l>
+				<l>Dit hart, dat hy alleen kost door zyn' deugd behaagen.</l>
+				<l>Of schoon Theóxena zyne oogen meêr beviel,</l>
+				<l>Ik zal myn min voldoen, én zyn verslaage ziel.</l>
+				<l>Stél dan niet langer uit myn broeders geest te stillen;</l>
+				<l>Uw opzét word gestérkt door 't geen wy zélver willen.</l>
+				<l>Myn' hoopelooze liefde, aan u zo spaade ontdékt,</l>
+				<l>Verwacht geen minnaars hand mét broeders bloed bevlékt.</l>
+				<l>In déze staat kan ik geen béter lót verwachten,</l>
+				<l>Als datge ons beide doet mét Cleoménes slachten.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Myn dóchter, wat voerd u tót die verwoedheid aan?</l>
+				<l>Wat wilt gy dat de hand uw's Vaders zal bestaan?</l>
+				<l>Is 't niet genoeg dat ik myn' zoon, die hier moest draagen</l>
+				<l>Na myne dood de kroon, zo deer'lyk zie verslaagen?</l>
+				<l>En dat een Minnarés haar minnaar ziet verheert,</l>
+				<l>Eu évenwél my stout in myn gezicht braveert?</l>
+				<l>Vaar voort, mêvrouw, vaar voort, ik zal de wraak verkiezen</l>
+				<l>Voor dit vergoote bloed, al moet ik u verliezen;</l>
+				<l>Blyft u verbittert hart by dat besluit, wél aan,</l>
+				<l>Ik zal, zo wel als gy, iet ongemeens bestaan.</l>
+			</sp>
+			</div>
+		<div type="scene" n="4">
+			<head>Vierde tooneel.</head>
+			<stage>Didos, Gentius, Theoxena, Axiane, Laodice, Dorine, Lyfwacht.</stage>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>'T Gaat wél, myn Heer, 't gaat wél, 't strékt alles tót uw voordeel.</l>
+				<l>Uw vyand is alreeds verwonnen na ik oordeel.</l>
+				<l>Waar is de Prins?</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Helaas! die ligt verstikt in 't bloed.</l>
+				<l>En maakt hoe langs hoe meêr my zin'loos, én verwoed,</l>
+				<l>Uw hulptroep kwam te laat. dóch eer hy raakte om 't leeven,</l>
+				<l>Wilde hy my een geheim, zo 't scheen, te kénnen geeven;</l>
+				<l>Maar, ach! zyn kracht besweek, én mét een flaauwe toon</l>
+				<l>Beval hy, dat gy zoud aan my 't besluit der Góôn</l>
+				<l>Ontdékken, dat ik moest Héld Cleoménes spaaren.</l>
+				<l>Wat schuilt'er, Didós? spreek, op dat ik voort mach vaaren,</l>
+				<l>En myne wraak, die zo réchtvaardig is, verzaân.</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Gy hébt dan eindelyk my in myn' hoop verraân,</l>
+				<l>O Góden! gy hébt, die ik nimmer wilde vreezen,</l>
+				<l>My doen de élendigste, van alle schépzels weezen.</l>
+				<l>Myn zoon! myn zoon! ik zie u dan in zulk een staat?</l>
+				<l>Gy voelt het eerst de straf voor myn vervloekt verraad!</l>
+				<l>Ik, die u meenden op een kónings troon te stéllen,</l>
+				<l>Zie, van die hoogte, u in eene afgrond nédervéllen.</l>
+				<l>O aarde! splyt u op; kom, donder, plét my 't hooft,</l>
+				<l>Nu ik, zo onverwacht, bén van myn' zoon berooft.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Hoe! raast gy, Didós?</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Neen, geen raazerny benévelt</l>
+				<l>Myn' zinnen, dénk niet dat dien ouden Didós révelt;</l>
+				<l>Maar wél, dat hém de straf van 't Gódendom, verbaast,</l>
+				<l>Terwyl hun' woede fél op myne misdaad raast.</l>
+				<l>Myn Vórst, 't is waar, ik kan een groot geheim ontleeden,</l>
+				<l>En zéggen wie de troon moet oa uw dood betreeden.</l>
+				<l>'T Orakel spreekt nu klaar; ik héb het récht der kroon</l>
+				<l>Geschonden, daarom tréft de wraak eerst op myn' zoon;</l>
+				<l>En nu die ligt gevéld verdriet my 't licht te aanschouwen,</l>
+				<l>Dés zal ik het verraad u ongeveinst ontvouwen,</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Wat zégt gy, Didós?</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Ja, ik héb uw kroon verraân,</l>
+				<l>Myne eed geschonden door afgrys'lyke euveldaân.</l>
+				<l>Ik héb, toen uw gemaal in 't kraambéd raakte om 't leeven,</l>
+				<l>Eene ongehoorde daad, iet schrikkelyks bedreeven.</l>
+				<l>Uw afzyn stérkte my in dat besluit, én brócht</l>
+				<l>Te weeg een daad, die nooit van iemand is bedócht.</l>
+				<l>Ik heb het wéttig zaad, als vondeling, doen dwaalen,</l>
+				<l>Op dat de glans der kroon, myn' zoon eens zou bestraalen.</l>
+				<l>Hy was Evanders hand bevoolen om te doôn,</l>
+				<l>En Cleoménes is uw wettig kind, én zoon.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Wie, Cleoménes?</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Ja, ik had de star, het teeken,</l>
+				<l>Dat voor hem zal, als een getuige, onfeilbaar spreeken,</l>
+				<l>Waar door hy van my wierd voor uwe zoon beként,</l>
+				<l>In 't eerst ook op de borst van myne zoon geprént.</l>
+				<l>Hier door héb ik uw oog, én 't gantsche hóf bedroogen,</l>
+				<l>En zou als kóning hier myn' zoon beschouwen moogen,</l>
+				<l>Ten waar myn' staatzucht zo rampzalig was mislukt,</l>
+				<l>En ik, mét myne hoop, zo jammerlyk verdrukt.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>O Góôn!wat hoor ik? ga, myn lyfwacht, vlieg, kan 't weezen,</l>
+				<l>Bérg Cleoménes voor het onheil dat wy vreezen,</l>
+				<l>Ga, zég aan Atis al wat Didós hier belyd,</l>
+				<l>Maar maak, voor alle ding, dat gy myn zoon bevryd.</l>
+				<l>En gy, verraader, die, door staatzucht aangedreeven,</l>
+				<l>Myn zoon verried, om aan uw zaad de kroon te geeven,</l>
+				<l>Vrees myne wraak, én dénk, na die bekéntenis,</l>
+				<l>Wélk eene straf voor zulk een' misdaad over is.</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Neen Vórst, geen vrees zal ooit myn grootsche ziel beknéllen,</l>
+				<l>Ik schrik voor 't vonnis niet, dat uwe wraak zal véllen.</l>
+				<l>Indien my 't leeven luste, ik had u nooit geméld,</l>
+				<l>Myn groot bestaan, óf ooit uw wettig zaad herstélt.</l>
+				<l>My walgt het licht, nadien myn eenig kind, verslaagen,</l>
+				<l>Benoomen is de hoop van ooit een kroon te draagen.</l>
+				<l>Het leeven is me een last, ik haat het, wyl myn zoon</l>
+				<l>Na uwe dood niet kan beklimmen déze troon.</l>
+				<l>Dat dan de Góden vry hun' wraak aan my volbréngen,</l>
+				<l>Nu 't hun gelust heeft dit onnozel bloed te pléngen.</l>
+				<l>Dat aarde, én hémel zich bereide tót myn' straf.</l>
+				<l>Dat de afgrond my verswélge, én strékke een eeuwig graf;</l>
+				<l>Dat al de naarheid, die de schrik ons af kan maalen,</l>
+				<l>My overstélp, nu ik myn' zoon in 't graf zie daalen.</l>
+				<l>Niets isser dat my kan verschrikken, nu myn' list</l>
+				<l>Mislukt, én 't Gódendom is op my aangehist.</l>
+				<l>Ha! dat ik zo vervloekt Evanders hand betrouwde</l>
+				<l>Een daad, daar ik 't geluk van myne zoon op boude.</l>
+				<l>Vervloekte mislag, die my noch de ziel ontroert,</l>
+				<l>En knaagt, om dat ik 't wérk niet zélf heb uitgevoert.</l>
+				<l>Een schélmstuk half volbracht, verdient mét récht de tooren</l>
+				<l>Der Góden, én een lót gelyk my is beschooren.</l>
+				<l>Myn zoon, had ik de Prins zélf in de wieg gesmoort,</l>
+				<l>Men had nooit van zyn' komst, nóch uwe dood gehoort.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Ontaarde booswicht!</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Nu zal ik my zélver straffen,</l>
+				<l>En voor 't vergoote bloed geréchte wraak verschaffen.</l>
+				<l>Myn zoon. ik bracht, 't is waar, uw vyand niet van kant,</l>
+				<l>Maar wreek die misdaad op my zelve, mét myn' hand.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Ver waaten mensch, laat af.</l>
+			</sp>
+			<sp who="#didos">
+				<speaker>Didos.</speaker>
+				<l>Gy zult my niet belétten</l>
+				<l>Te stérven, nóch een' maat aan uwe wraak te zétten.</l>
+				<l>Ei my! ik héb voldaan; myn treurról is volspeelt.</l>
+				<l>O waereld! die my zo veel voorspoed hébt verbeeld,</l>
+				<l>Vaar wél, ik zal myn zoon niet op de troon beschouwen,</l>
+				<l>Maar in het duister grafaltyd gezélschap houwen.</l>
+				<l>Ei my! ô wee....</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Hy stérst. wél aan, ik ga myn zoon</l>
+				<l>Zelf rédden, én 't besluit volbréngen van de Góôn.</l>
+			</sp>
+			</div>
+		<div type="scene" n="5">
+			<head>Vyfde tooneel.</head>
+			<stage>Evander, Gentius, Theoxena, Axiane, Laodice,
+                        Dorine.</stage>
+			<sp who="#evander">
+				<speaker>Evander.</speaker>
+				<l>DIe hoop is vruchteloos, uw zoon is al verslaagen,</l>
+				<l>En ik voel meede een deel van myn geréchte plaagen;</l>
+				<l>Een woedende uitval heeft, door Cleoménes hand,</l>
+				<l>My doen gevoelen hoe de wraak der Góden brand.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Wat isser van myn zoon?</l>
+			</sp>
+			<sp who="#evander">
+				<speaker>Evander.</speaker>
+				<l>Die wierd te rug gedreeven,</l>
+				<l>Dóch swaarelyk gewond, én heeft de geest gegeeven.</l>
+				<l>Uw lyfwacht heeft, 't is waar, het woeden wél gestut,</l>
+				<l>Maar Cleoménes is zyn leeven niet beschut.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>O Góden! is uw haat op my zo fél ontsteeken?</l>
+				<l>Wel aan, myn zoon, ik sweer 't vergoote bloed te wreeken.</l>
+			</sp>
+			<sp who="#evander">
+				<speaker>Evander.</speaker>
+				<l>Ei my! myn' kragt verflaauwt. myn Vórst, ik ga de Góôn</l>
+				<l>Verzoenen, voor 't verraad gepleegt aan uwe zoon.</l>
+			</sp>
+			</div>
+		<div type="scene" n="6">
+			<head>Zesde tooneel.</head>
+			<stage>Gentius, Theoxena, Axiane. Laodice, Dorine.</stage>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>ZIe hier een Vader in de droevigste ongelukken</l>
+				<l>Versmooren, daar men ooit een mensch door zag verdrukken.</l>
+				<l>Zie my élendig, én gebracht in zulk een staat,</l>
+				<l>Waar in my 't leeven walgt, én alles tégen gaat.</l>
+				<l>Myn zoon, 't verraad hield u verborgen, nu de Góden</l>
+				<l>U kénbaar maaken, moest een snoode hand u dooden.</l>
+				<l>Wél aan, ik wreek my aan die schélmen; maar hun' dood</l>
+				<l>Heeft my van middelen tót myne wraak ontbloot.</l>
+				<l>Kom, afgront, spalk u op, én braak my weêr de schimmen,</l>
+				<l>Laat die langs de aakelige én duist're weegen klimmen</l>
+				<l>In onzen dag, op dat myne arm voldoe de plicht</l>
+				<l>Eens Vaders, én na wénsch een wreede wraak verricht.</l>
+				<l>Maar 't is vergeefs; ik bén van alle hoop versteeken;</l>
+				<l>Myn zoon is dood, én, ach! ik kan zyn' dood niet wreeken.</l>
+				<l>Dat vry myn troon verzinken én in vergetelheid</l>
+				<l>Myn naam blyv', nu my zulk een noodlót is bereid.</l>
+				<l>Myn zoon.. maar, Góden! is het waarheid, óf is 't loogen?</l>
+			</sp>
+			</div>
+		<div type="scene" n="7">
+			<head>Zevende tooneel.</head>
+			<stage>Gentius, Cleomenes, Atis, Theoxena, Axiane, Ariarates,
+                            Laodice, Dorine, Lyfwacht.</stage>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>MYn Vader, neen, geen waan, óf schyn heeft u bedroogen,</l>
+				<l>Ik leef, en bén gered, en buiten lyfsgevaar;</l>
+				<l>Elk wierd geneigt, zo dra uw wacht ons bracht de maar</l>
+				<l>Van Didós schélmstuk, om myn ongelyk te wroeken.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Wat zie ik? groote Góôn! ik kan van vreugd niet spreeken,</l>
+				<l>De blydschap laat niet toe dat ik myn hart ontdék,</l>
+				<l>En uit uw wederkomst myn vergenoeging; trék.</l>
+				<l>Omhéls uw Vader, én verstrék aan zyne staaten</l>
+				<l>Een zuil, beklim de troon die ik nu wil verlaaten.</l>
+				<l>De Gódspraak spreekt nu mét geen duist're én dubb'le</l>
+				<l>Dés doe ik afstant van myn kroon, én myne min.</l>
+				<l>Zy zyn gesneuvelt door wien 't kroonrécht was geschonden,</l>
+				<l>En ik héb onverwacht myn wéttig zaad gevonden.</l>
+				<l>Ontfang dan, na uw wensch, die schoone van myn' hand,</l>
+				<l>Daar myn gewaande zoon voorheen aan was verpand.</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>Myn Heer, én Vader, wie is machtig uit te drukken</l>
+				<l>De vreugd die ik gevoel, na zo veele ongelukken?</l>
+				<l>Wie dacht, dat ik, in zulk een on weêr van den staat,</l>
+				<l>De stórm ontkomen zou van hun vervloekt verraad.</l>
+				<l>En gy, die zo veel hébt om myne min geleeden.</l>
+				<l>En doorgestaan een reeks van nieuwe swaarigheeden,</l>
+				<l>Volhard, én min hém, die zyn vyand heeft gevéld,</l>
+				<l>En door het noodbeschik der Goden is herstélt.</l>
+			</sp>
+			<sp who="#theoxena">
+				<speaker>Theoxena.</speaker>
+				<l>Myn Heer, op wélk een' wys zal ik u antwoord geeven?</l>
+				<l>Gy ziet me alreets ontstélt én door de blydschap beeven;</l>
+				<l>Gy ziet myn' traanen reets uitbérsten mét vermaak,</l>
+				<l>Nu ik myn' héld geniet, én hy gewénschte wraak.</l>
+				<l>Myn Heer, vergeeft my héb ik my te fier gedraagen,</l>
+				<l>Om Cleoménes is uw min steets afgeslaagen.</l>
+			</sp>
+			<sp who="#axiane">
+				<speaker>Axiane.</speaker>
+				<l>Myn Broeder, die ik als op nieuws hérbooren acht,</l>
+				<l>Die ik bemind héb, én door 't lót, zo onverwacht,</l>
+				<l>Hérstélt zie, kost gy my nóch onbeként behaagen,</l>
+				<l>Laat my, als Zuster, toe dit hart u op te draagen;</l>
+				<l>'T is waar, ik héb uw deugd, als minnares, bemind,</l>
+				<l>'K vólhard als Zuster, wyl het bloed ons vaster bind.</l>
+			</sp>
+			<sp who="#cleomenes">
+				<speaker>Cleomenes.</speaker>
+				<l>Myn Zuster, laat ons nooit die waare vriendschap staaken,</l>
+				<l>Laat onze harten steets in zuiv're liefde blaaken.</l>
+				<l>Myn Vader, gun ook aan de lyken, die hun' straf</l>
+				<l>Ontsangen hebben, op myn béde, een eerlyk graf.</l>
+			</sp>
+			<sp who="#gentius">
+				<speaker>Gentius.</speaker>
+				<l>Wel aan, ik zal de wraak met hunne dood bepaalen,</l>
+				<l>Ik zal de Góden, die ons mét hunn' gunst bestraalen,</l>
+				<l>Dankóffer slachten, nu ik myn hérboore zoon,</l>
+				<l>Als wéttig nazaat, mag geleiden op de troon.</l>
+			</sp>
+			<stage>Einde van 't vyfde, en laatste Bedryf.</stage>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>

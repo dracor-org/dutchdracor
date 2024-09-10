@@ -1,0 +1,2825 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000112" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">De ontdekte schyndeugd</title>
+				<author>
+					<persName>
+						<forename>David</forename>
+						<surname>Lingelbach</surname>
+					</persName>
+					<idno type="wikidata">Q107664976</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL">https://www.dbnl.org/tekst/ling001ontd01_01/</idno>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>David Lingelbach, De ontdekte schyndeugd. Amsterdam: Jakob Lescailje
+						(erven), 1687.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="MALE" xml:id="eerste-dienaar">
+						<persName>1 Dienaar</persName>
+					</person>
+					<person sex="MALE" xml:id="tweede-dienaar">
+						<persName>2 Dienaar</persName>
+					</person>
+					<person sex="FEMALE" xml:id="agata">
+						<persName>Agata</persName>
+					</person>
+					<person sex="FEMALE" xml:id="bely">
+						<persName>Bely</persName>
+					</person>
+					<person sex="MALE" xml:id="dirk">
+						<persName>Dirk</persName>
+					</person>
+					<person sex="MALE" xml:id="filibert">
+						<persName>Filibert</persName>
+					</person>
+					<person sex="FEMALE" xml:id="geertruy">
+						<persName>Geertruy</persName>
+					</person>
+					<person sex="MALE" xml:id="joris">
+						<persName>Joris</persName>
+					</person>
+					<person sex="FEMALE" xml:id="kniertje">
+						<persName>Kniertje</persName>
+					</person>
+					<person sex="MALE" xml:id="kristoffel">
+						<persName>Kristoffel</persName>
+					</person>
+					<person sex="MALE" xml:id="schout">
+						<persName>Schout</persName>
+					</person>
+					<person sex="MALE" xml:id="volkert">
+						<persName>Volkert</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Comedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-09-10">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1687">
+				<desc/>
+			</event>
+			<event type="premiere" when="1687">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart>DE ONTDEKTE SCHYNDEUGD,</titlePart>
+				<titlePart>BLY-SPEL.</titlePart>
+				<titlePart>Door</titlePart>
+				<titlePart>D. LINGELBAGH.</titlePart>
+				<titlePart><figure> </figure></titlePart>
+				<titlePart>t' Amsterdam,</titlePart>
+				<titlePart>By d' Erfgen: van Jakob Leskailje, op de Middeldam; op de hoek van de
+					Vischmarkt, 1687.</titlePart>
+				<titlePart>Mer Privilegie.</titlePart>
+
+			</docTitle>
+
+			<div type="appendix">
+				<head>Copye Van de privilegie.</head>
+				<p>DE Staten van Holland ende Westvriesland doen te weeten. Alzo ons vertoond is by
+					de tegenwoordige Regenten van de Schouwburg tot Amsterdam, Dat zy Supplianten
+					zedert eenige Jaaren herwaarts met hunne goede vrinden hadden gemaakt en ten
+					Tooneele gevoert verscheiden Werken, zo van Treurspeelen, Blyspeelen als
+					Klugten, welke zy lieden nu geerne met den druk gemeen wilden maken? doch
+					gemerkt dat deze Werkken door het nadrukken van anderen, veel van hun luister,
+					zo in Taal als Spelkonst zouden komen te verliezen, en alzo zy Supplianten hen
+					berooft zouden zien van hun byzondere oogwit om de Nederduitsche Taal en de
+					Digtkonst voort te zetten, zo vonden zy hen genoodzaakt, om daar inne te
+					voorzien, ende hen te keeren tot Ons, onderdanig verzoekende, dat Wy omme
+					redenen voorsz. de Supplianten geliefden te verleenen Oktroy ofte Privilegie,
+					omme alle hunne Werken reeds gemaakt, ende noch in 't ligt te brengen, den tyd
+					van vijftien Jaaren alleen te mogen drukken en verkoopen of doen drukken en
+					verkoopen, met verbod van alle anderen op zeekeren hooge peene daar toe by Ons
+					te stellen, ende voorrs in communi forma. Zo is 't dat Wy de Zake en 't Verzoek
+					voorsz. overgemerkt hebbende, ende genegen wezende ter bede van de Supplianten,
+					uit Onze regte werenschap, Souveraine magt ende authoriteit de-zelve Supplianten
+					gekonzenteert, geakkordeert ende geoktroteert hebben, konzenteeren, akkordeeren
+					ende oktroiceren misdezen, dat zy geduurende den tyd van vyftien eerst achter
+					een volgende Jaaren de voorsz. Werken die reeds gedrukt zyn, ende die van tyd
+					tot tyd door haar gemaakt ende in 't ligt gebragt zullen werden, binnen den
+					voorsz. Onzen Lande alleen zullen mogen drukken, doen drukken, uitgeven en
+					verkoopen. Verbiedende daarom allen ende eenen ygelyken dezelve Werken naar te
+					drukken, ofte elders naargedrukt binnen den zelve Onzen Lande te brengen, uit te
+					geven ofte te verkoopen, op de verbeurte van alle de naargedrukre, ingebrachte
+					ofte verkogte Exemplaaren, ende een boete van drie honderd guldens daar en boven
+					te verbeuren, te appliceren een darde part voor den Officier die de kalange doen
+					zal, een darde part voor den Armen der Plaatze daar het kazus voorvallen zal,
+					ende het resteerende darde part voor den Supplianten. Alles in dien verstande,
+					dat wy de Supplianten met dezen Onzen Oktroye alleen willende gratificeeren tot
+					verhoedige van haare schaade door het nadrukken van de voorsz. Werken, daar door
+					in geenige deelen verstaan, den inhoude van dien te authorizeeren ofte te
+					advoueeren, ende veel min de zelve onder Onze protektie ende bescherminge, eenig
+					meerder kredit, aanzien ofte reputatie te geven, nemaar de Supplianten in kas
+					daaa in yets onbehoorlyk zoude mogen uiflueeren, alle het zelve tot haren laste
+					zullen gehouden wezen te verantwoorden; tot dien einde wel expresselyk
+					begeerende, dat by aldien zy dezen Onzen Oktroye voor dezelve Werken zullen
+					willen stellen daar van geene geabbrevieerde ofte gekontraheerde mentie zullen
+					mogen maaken, nemaar gehouden zullen weezen het zelve Okttoy in 't geheel ende
+					zonder eenige. Omissie daar voor te drukken ofte te doen drukken, ende dat zy
+					gehouden zullen zyn een exemplaar van alle de voorsz. Werken, gebonden ende wel
+					gekonditioneert te brengen in de Bibliotheeq van Onse Universiteyt tot Leiden,
+					ende daar van behoorlyk te doen blyken. Alles op poene van het effekt van dien
+					te verliesen. Ende ten einde de Supplianten dezen Onzen konzente Oktroye mogen
+					genieten als naar behooren: Lasten wy allen ende eenen ygelyken die 't aangaan
+					mag, dat zy de Supplianten van den inhoude van dezen doen, laaten en gedoogen,
+					rustelyken volkomentlyk genieten, en cesseerde alle beletten ter kontrarie.
+					Gedaan in den Haage onder Onzen grooten Zegele hier aan doen bangen den xix.
+					September in 't Jaar onzes Heeren en Zaligmakers duizent zes bonderd
+					vier-en-tachtig.</p>
+				<p>G. FAGEL</p>
+				<p>Ter Ordonnantie van de Staten</p>
+				<p>SIMON van BEAUMONT.</p>
+				<p>De tegenwoordige Regenten van de Schouwburgh, hebben het recht de: bovenstaende
+					Privilegie, voor de Ondekte Schyndeugd, vergund aan de Erfgenaamen van Jacob
+					Lescailje.</p>
+				<p>Den 15 December. 1687</p>
+			</div>
+			<castList>
+				<head>Vertooners.</head>
+
+				<castItem corresp="#">
+					<role>Geertruy, Vrouw } van Filibért.</role>
+				</castItem>
+				<castItem corresp="#">
+					<role>Bely, Meid } van Filibért.</role>
+				</castItem>
+				<castItem corresp="#">
+					<role>Joris, Knecht } van Filibért.</role>
+				</castItem>
+				<castItem corresp="#">
+					<role>Filibert, Een Koopman.</role>
+				</castItem>
+				<castItem corresp="#">
+					<role>Volkert, Neef van Filibért.</role>
+				</castItem>
+				<castItem corresp="#">
+					<role>Kristoffel. een Roffiaan.</role>
+				</castItem>
+				<castItem corresp="#">
+					<role>Kniertje, Boel van Kristoffel.</role>
+				</castItem>
+				<castItem corresp="#">
+					<role>Agata, Nicht van Kniertje.</role>
+				</castItem>
+				<castItem corresp="#">
+					<role>De Schout.</role>
+				</castItem>
+				<castItem corresp="#">
+					<role> 1 } Dienaars van de Schout.</role>
+				</castItem>
+				<castItem corresp="#">
+					<role> 2 } Dienaars van de Schout.</role>
+				</castItem>
+				<castItem corresp="#">
+					<role>Dirk, Vrijer van Bély.</role>
+				</castItem>
+			</castList>
+			<castList>
+				<head>Swygende.</head>
+				<castItem corresp="#">
+					<role>Lichthart, een Muzikant. Verscheide Danssers.</role>
+				</castItem>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<p/>
+				<div type="scene" n="1">
+					<head>De ontdekte schyndeugd, <lb> </lb>
+					</head>
+					<head>Eerste bedryf.</head>
+					<head>Eerste tooneel.</head>
+					<stage>Geertruy Bely, Bely zit en naayt by een kleerbén mét Linden én
+						zingt.</stage>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Gy ziet vrolyk de harten in pyn,</l>
+						<l>Wilt niet minnen, maar minnelyk zyn, enz.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>WAar ben je, Bélitje? is Joris weêr gekomen?</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Neen, Juffrouw.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wél wat is dat wachten een verdriet</l>
+						<l>Die guit die schaamt hém langer niet.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Ik héb hem zint dat hy flus uitging niet vernoomen.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ja wél, onmooglyk kan het langer zo bestaan,</l>
+						<l>Die réchten Lomp zoekt niet als stóf om my te plaagen,</l>
+						<l>Ik kijf vast op hem alle daagen,</l>
+						<l>Maar zonder vrucht; hy is na Vólkert Neef gegaan,</l>
+						<l>En laat me wachten na bescheid meêr als twé uuren,</l>
+						<l>Ik kan van ongeduld niet duuren,</l>
+						<l>Want zo men Man Kozyn 't niet spreekt,</l>
+						<l>Is 't zéker dat hy, nóch de kat in 't reizen steekt.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Sinjeur gaat t'avond dan noch met de Schuit van achten?</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ja, en die guit laat ons zo wachten.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Licht dat hy door de Stad loopt zoeken naar men Heer;</l>
+						<l>Maar zie, daar is hy zélf al weêr.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Geertruy, Joris, Bely.</stage>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wél nou, zél 't eind'lijk eens gelukken</l>
+						<l>Jou rechten onbeschaamden bloed?</l>
+						<l>Is dat uit blyven? dit zyn weêr jou ouwe nukken,</l>
+						<l>Dit gaat al weêr op de oude voet;</l>
+						<l>Maar, wacht ik zé 't je weêr betaalen.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Wel hadje niet belast dat ik Kozyn moest haalen.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wel ja ik, Jakhals, maar was dat twê uuren wérk,</l>
+						<l>En langer?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Na dat ik 'et mérk</l>
+						<l>Zoek jy weêr reeden om te kyven.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wat hoef je zo lang uit te blyven?</l>
+						<l>Je weet wél dat men Man van huis moet, én hy staat</l>
+						<l>Op heete koolen, 't word vast laat,</l>
+						<l>En eer hy gaat moet hy Kozyn noodzaaklyk spreeken</l>
+						<l>Maar, wacht ik leer nou al je streeken</l>
+						<l>Ik zél die potzen weêr gedenken.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Wél, je ziet</l>
+						<l>Ik héb geloopen dat ik swiet,</l>
+						<l>En kan noch pas men adem haalen,</l>
+						<l>Nóch kyfje; maar 't is wel, ik zeltje eens' weêr betaalen</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wat zegje?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Niet; 'k spreek niet een woord</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ontkén je dat ik zélver héb gehoort,</l>
+						<l>En durf je nóch in 't heim'lyk morren?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Ik zeg niet aârs als van je knorren,</l>
+						<l>Dat dat schier onverdraaglijk is.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ei! kyk dien vlégel, hy heeft nóch gelyk na 'k gis,</l>
+						<l>Jou réchten, druiloor, 'k zou voor jou dan moeten swijgen?</l>
+						<l>Ik zou het nä myn zin niet krygen?</l>
+						<l>Wél, wél, ik zél men haast ontslaan van zulk een kruis;</l>
+						<l>Men man die gaat nu juist van huis,</l>
+						<l>Maar wacht, als hy is weêr gekomen,</l>
+						<l>Dan zél je eerst van de drommel droomen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Joris, Bely.</stage>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>AL weêr kwaad water! wel de moord!</l>
+						<l>Het is zen leeven niet gehoord,</l>
+						<l>Ze raad, én tiert, én dreigtme zonder reeden.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Belje.</speaker>
+						<l>Nou, nou, ontstélje daar niet om vaar, weest te vreeden,</l>
+						<l>Je weet 't is Juffrouws haastigheid.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Is 't Juffrouws haastigheid? wél zéker, schoon bescheid,</l>
+						<l>Men zou de drommel zo niet plaagen;</l>
+						<l>Dit ky ven duurt vast alle daagen;</l>
+						<l>Maar élk een drommel heeft zen maand; ik zei 't 'er weêr</l>
+						<l>Vergelden, die schynheilig; ja, ik zweer.</l>
+						<l>Dat ik hier in men woord zél houwen,</l>
+						<l>Al zou 't men ook daar na nóch honderdmaal berouwen.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Wél, Ioris, zég wat wouje doen?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Wat raakt 'et jou!</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Is dat fatzoen</l>
+						<l>Zo laelyk op een ménsch te graauwen?</l>
+						<l>Ie kund wel spreeken zonder snaauwen.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Weest maar te vreên, 'k zél 't heur betaalen, én misschien zél jy het in
+							het kort wél zien.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Nou niet te haastig Vaâr je zélt nóch wél bedaaren.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Ia, ja, ik zél het heel wél klaaren.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Ik ga, daar komt Sinjeur met Iuffrouw aan.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Geertrui, Filibert, Ioris.</stage>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Daar staat hy, Hartje, wilt 'em nu ter deeg bekyven.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wel Joris, schaamje datje zo lang uit durft blyven,</l>
+						<l>Waar komje nou zo laat van daan?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Sinjeur, Kozyn was uit, én 'k héb bylo geloopen</l>
+						<l>Om hém te zoeken, in hét Heerelogemént,</l>
+						<l>De Graaf, het Hof, de Zon, en waar hy is beként,</l>
+						<l>Dat men het sweet heeft by het Lichchaam neêr gedroopen,</l>
+						<l>Op 't lést vernam ik dat hy in de brakke grond</l>
+						<l>By vrienden was, én 'k dorst niet gaan voor ik hem vond,</l>
+						<l>Toen hy men boodschap had vernoomen,</l>
+						<l>Beloofde hy aanstonds hier te komen,</l>
+						<l>Toen bén ik straks na huis gegaan.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wél, wél, je hébt je zaak heel wyzelyk gedaan,</l>
+						<l>Kom, maakje vaardig, én wilt alles wél bestéllen,</l>
+						<l>Je zéltmen op de reis verzéllen.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertrui, van ter zyden.</speaker>
+						<l>Dat 's goed, dit slaagt me na men zin.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Laat zien ereis daar schietme iet in,</l>
+						<l>Ik héb op Rotterdam geschreeven,</l>
+						<l>Loop kopieer de brief, en kom dan weêr.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Ik zél.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Loop ras, en doe je dingen wél.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>Filibert, Geertrui.</stage>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wél, Hartjelief, wél twéde leeven,</l>
+						<l>Hoe staaje zo bedrukt?</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Je wilt me dan begeeven?</l>
+						<l>Je reis die slaat dan t'avond vast?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Je weet wél dat ik moet.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wat is het ook een last</l>
+						<l>Neu juist te reizen by de Winter, konje blyven:</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Myn Troosje lief, dat kan niet zyn.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Kan jy 't niet schryven?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>O neen! 'k moet zélver zien hoe dat men zaaken staan.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ey! Laat 'er iemand anders gaan.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Dat kan niet weezen, 'k moet de Koopliên zélver spreeken.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Je hébt te Leiden eerst geweest voor drie vier weeken,</l>
+						<l>En in den Haag.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Dat 's waar, maar 'k kryg daarom geen géld;</l>
+						<l>'k Word ieder post vast uitgestéld.</l>
+						<l>Van dag tót dag, én 'k moet ook géld betaalen</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Dat kunje by Kozyn wél haalen.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Dit is reeds by my in 't verschót</l>
+						<l>Vier duizend gulden, én hy wilder geen genót</l>
+						<l>Van trékken, 'k héb hém nu ontboden,</l>
+						<l>Om dat ik nóch wat kasgéld héb van nooden,</l>
+						<l>Dat morgen vroeg betaalt moet zyn;</l>
+						<l>Zo dat ik gaan moet om men géld ook in te krygen.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Men hart is zo benaauwd, och! och! Na alle schyn</l>
+						<l>Zie ik je niet gezond weêrom.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Ey! Wilt dat swygen;</l>
+						<l>Wat, ik héb meêr van huis geweest,</l>
+						<l>Maar nimmer was je zo bevreest.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Dat loof ik wél, zo naar te droomen,</l>
+						<l>Gewis my zal iet overkomen,</l>
+						<l>En raakten ik jou kwyt, zie daar ik stierf van rouw.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Waar is in Amsterdam zo deugdelyk een Vrouw?</l>
+						<l>Dat is eerst liefde! och! kon het weezen,</l>
+						<l>Ik lietme waarelyk beleezen.</l>
+						<l>Maar, weest te vreeden, Lief, je zietme haast weêr om.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Och! heeten ikje al wéllekom,</l>
+						<l>Dat zou men droevig hart verlichte.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Sesde tooneel.</head>
+					<stage>Volkert, Filibert, Geertruy.</stage>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Goe'n avond, Neef, goe'n avond, Nichte,</l>
+						<l>Kozyn, die gaat van huis gelyk ik héb gehoort?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Ja, voor het sluiten van de poort,</l>
+						<l>Ga ik op Haarlem, én dan mórgen</l>
+						<l>Op Leyden, en den Haag, maar, Neef, eer dat ik ga</l>
+						<l>Héb ik een béde, ót gy my woud verzórgen</l>
+						<l>Mét eenig kasgeld, want ik zal, zo dra</l>
+						<l>Ik weêrkom, alles mét 't résteerend wédergeeven,</l>
+						<l>'k Héb al men bankgéld van de mórgen afgeschreeven.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Zeer gaaren, zég maar hoe veel geld 'er nóch ontbreekt.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Een zakje dukatons.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Wél, 't zél der morgen weezen,</l>
+						<l>Begeerje iet meêr, je kunt hét krygen alsje spreekt.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Neen, Neef, ik dankje.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Wilt niet vreezen,</l>
+						<l>Spreek onbeschroomt.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Neen, Neef, ik dankje, 't is zo wél,</l>
+						<l>'k Zél aan men Vrouw het hand-schrift geeven,</l>
+						<l>Waar in ik zoveel schuld bekén, hét is by leeven óf stérven.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>'t Hoeft niet.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Al, ik kom straks weêr, ik zél</l>
+						<l>'t Gaan schryven, stél terwyl men Vrouwje wat te vreden,</l>
+						<l>Zy is mistroostig door een droom, én heel belâan</l>
+						<l>Mét vrees, nu ik van huis moet gaan.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Myn Heer, dat is niet buiten reeden,</l>
+						<l>Zy heeft u lief.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Daar heb ik blyken van gezieu,</l>
+						<l>Zy mind my krachtig.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ja, misschien.</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>Sevende tooneel.</head>
+					<stage>Volkert, Geertruy.</stage>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Wél, Nicht, dit slaagt na wénsch.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Niet waar, maar 't bést van allen,</l>
+						<l>Zyn knecht gaat meê, en 'k bén verzékert van myn Meid,</l>
+						<l>Die trouw blyft door uw mildigheid,</l>
+						<l>Kan ooit de zaak wel béter vallen?</l>
+						<l>Men man die heb ik door myn vleijen gantsch verstrikt,</l>
+						<l>Hy zou my voorstaan, schoon dat alles wierd verklikt,</l>
+						<l>Myn zedigheid heeft hem alle achterdocht benoomen;</l>
+						<l>Ik veinsde my bedroefd, maar kan me niet betoomen.</l>
+						<l>Van vreugd, nu hy van huis gaat.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Spreek wat zacht.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Hy is op u gantsch niet verdacht,</l>
+						<l>Gy zyt zyn Vriend.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Dat 's waar, maar de uwe nóch veel meerder.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wél, twyfelt gy?</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>O neen! 'k begeerder</l>
+						<l>Geen klaarder blyken van, ik zie die reets zo groot.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wél zonder u, Neef, was ik zéker liever dood;</l>
+						<l>Wat vreugd genoot ik in dit leeven,</l>
+						<l>Mocht ik zomtyd myn hart aan u niet overgeeven?</l>
+						<l>Maar 'k was geen kleentjen in de ly;</l>
+						<l>Toen Joris uit bleef, 'k dagt hy zal Kozyn niet vinden,</l>
+						<l>Die zit al by zyn goeije vrinden,</l>
+						<l>En denkt nu langer niet om my.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Om u niet denken, die mijn wéllust zyt, én leeven?</l>
+						<l>Ey! zie my daar voor tóch niet aan;</l>
+						<l>Gy weet wél wat ik heb om uwent wil gedaan,</l>
+						<l>En dat ik u nooit zal begeeven;</l>
+						<l>Had ik gweeten dat uw Man van huis zou gaan,</l>
+						<l>Ik had gevloogen om te passen op uw wénken;</l>
+						<l>Maar wie zou dit van daag juist dénken?</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ik had het zélver niet gedacht.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Gy zult my de eer van uw gezelschap dan vergunnen,</l>
+						<l>En my verzéllen déze nacht?</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wél, twyfelt gy? zou ik iet béters wénschen kannen?</l>
+						<l>Maak maar de toestél reed, zég Kniertje dat ze niet</l>
+						<l>'T geen ons vermaaken kan ontziet,</l>
+						<l>'K heb lust om uit de band te springen,</l>
+						<l>Ik moet tóch als men Man in huis is my bedwingen,</l>
+						<l>Nu wil ik uit de borst mét u eens vrolyk zyn.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Wat bén ik u verplicht.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Maar 't moetal mét een schyn</l>
+						<l>Van deugd geschieden, dóch men kan licht midd'len vinden,</l>
+						<l>Om de oogen van de Waereld te verblinden;</l>
+						<l>Voor my, myn slécht, én stemmig kleed,</l>
+						<l>Maakt dat geen ménsch van my iet dénken kan, óf weet.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Daar komt uw Man.</l>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>Achtste tooneel.</head>
+					<stage>Filibert, Volkert, Geertruy, Joris.</stage>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Kund gy myn Vrouwtjen overreeden</l>
+						<l>Heer, Vólkert? stélt ze 'er wat te vreeden?</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Myn Heer, zo tamelyk, 't schynt datze uw byzyn niet</l>
+						<l>Wél missen kan, uw reis verwékt haar veel verdriet;</l>
+						<l>'T is wél een swakheid, maar zy mind u als haar leeven.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Ja zulk een Vrouw is ook aan ieder niet gegeeven.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Dat is de waarheid.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>O! haar deugd</l>
+						<l>Is ongemeen, zy strékt een voorbeeld aan de jeugd.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Ik acht Neef in dat deel gelukkig.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Ay! zie, hoe staatze daar, hoe drukkig.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ik bid, Liéf, kweldme tóch nïet meêr.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Och! wat 's opréchte liefde teêr.</l>
+						<l>Nou, Engel, schrei niet of je maakt my ook bewoogen,</l>
+						<l>Je parst me traanen uit men oogen.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ja, ja, spót al mét myn verdriet.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Neen, Hartje, 'k doe dat zéker niet.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Nu, Neef, behouden reis, vaar wél, ik zal u morgen,</l>
+						<l>Als 't is gezégt, het géld bezórgen.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wat blyf ik u daar voor verplicht.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Wél zou ik zo veel niet voor u doen, én voor Nicht.</l>
+						<l>Vaar wél, én goede nacht.</l>
+					</sp>
+					<sp who="#filibert #geertry">
+						<speaker>Filibert en Geertry.</speaker>
+						<l>Goê nacht, Neef.</l>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>Negende tooneel.</head>
+					<stage>Filibert, Geertruy, Joris.</stage>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Mét dat praaten</l>
+						<l>Verloopt de tyd, geef Neef dit brief je als hy hét géld</l>
+						<l>Hier mórgen vroeg in huis bestélt,</l>
+						<l>Je kunt het ook wel door een Kruijer laaten haalen;</l>
+						<l>Dan moetje die Sinjeur betaalen,</l>
+						<l>Daar ik dat goed van héb gekócht,</l>
+						<l>Dat gist'ren is in huis gebrógt;</l>
+						<l>Ik had hem uitgestélt tót mórgen</l>
+						<l>Ay! Hartje, wilt dan ook men reiszak. voort bezórgen</l>
+						<l>Laat Béletje de brief bestéllen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="10">
+					<head>Thiende tooneel.</head>
+					<stage>Filibert, Joris.</stage>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Joris, is</l>
+						<l>Nu alles vaardig? want het word al tyd na 'k gis.</l>
+						<l>Moet ik ook nóch aan iemand schryven?</l>
+						<l>Vergeet ik ook nóch iet?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Niet dat ik weet, maar gaat</l>
+						<l>Je reis nóch voort, Sinjeur?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wél ja zé, wat een praat</l>
+						<l>Is dat, moet ik niet zien men schulden in te krygen?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Wél alsje moet, dan moet ik swygen,</l>
+						<l>Maar wist jy wat hier al geschied</l>
+						<l>Als jy van huis bént, Heer, je gingt van avond niet.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wél wat geschiet 'er, spreek?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Ik durf 't je schier niet zéggen,</l>
+						<l>Hoe hier in huis de zaaken léggen,</l>
+						<l>Je zout me ook niet gelooven, maar zie daar</l>
+						<l>Ik sweer 't, al wat ik zég is waar,</l>
+						<l>Ik zél 't bewyzen, én zo ik blyv' in gebreeken</l>
+						<l>Jaag my dan voor een vagebond, een guit</l>
+						<l>Vry uit je huis, en geef me niet een enk'le duit</l>
+						<l>Van al men huur, nóch meêr, je meugt me vry deursteeken</l>
+						<l>Indien ik lieg.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wel zég wat isser dan te doen?</l>
+						<l>Wat schort 'er? óch! men leeden beeven.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Ioris.</speaker>
+						<l>Sinjeur, iet dat je van je leeven,</l>
+						<l>In 't alderminst niet zoud vermôen.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wat isser dan? spreek op!</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Als ik 't je zou ontdékken,</l>
+						<l>Moest jy belooven, dat je niet, uit ongedult,</l>
+						<l>De gantsche zaak verbrodden zult</l>
+						<l>Mét raazen, want het zou jou meest tót nadeel strékken.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wél dat beloov' ik; zég nu op wat dat 'er schort.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Wél hoor, Sinjeur! jou Vrouwtje word</l>
+						<l>Van Vólkert opgepast.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wat wilje daar meê zéggen?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Niet; als dat hy gaat in jou plaats by Juffrouw léggen</l>
+						<l>Als jy van huis bént.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wat! speelt dan men Vrouw de hoer?</l>
+						<l>Wat zégje, Joris!</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>'T is geen loogen,</l>
+						<l>Sinjeur, ik héb 'er zélf al twé dry maal verspied,</l>
+						<l>En 'k zélt je zien doen veur jou oogen,</l>
+						<l>Geloof men zéggen eerder niet.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Ach! houw me vast, ik stérf; wie zou dat toevertrouwen,</l>
+						<l>Aan zulk een Spiegel aller vrouwen?</l>
+						<l>Maar word ik dol? geloof ik dat</l>
+						<l>Men Vrouw heur eer zo vuil beklad,</l>
+						<l>Op 't zéggen van een guit, die door zyn snoode streeken,</l>
+						<l>Heur zoekt de kroon van 't hoofd te spreeken?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Sinjeur, denk wat je zégt, én doet,</l>
+						<l>Ik spreek de waarheid.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>O! gants bloed,</l>
+						<l>Hou jy't nóch staande, schélm? Ik zég je hébt geloogen.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Ey! raas dóch niet, dénk om je woord,</l>
+						<l>Want zo je Vrouw maar 't minste hoord,</l>
+						<l>Dan is 't niet meêt in myn vermoogen,</l>
+						<l>Om jou het zélf te laaten zien.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wél 't kan onmoogelyk geschiên,</l>
+						<l>Dat zy, die pas van my een oogenblik kan duuren,</l>
+						<l>Uitwérken zou die snoode kuuren.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Ioris.</speaker>
+						<l>Ja daer deur heeft ze jou verkloekt</l>
+						<l>Tót nu toe, én zo fraai gedoekt.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wél wie zal dan iet toebetrouwen,</l>
+						<l>Op't vleijen, én geschrei van vrouwen?</l>
+						<l>Maar zégt eens, Joris, hoe je 't weet?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Wél hoor, Sinjeur, 'k héb lang geweeten, dat de waagen</l>
+						<l>In huis niet récht ging, én het is me zéker leet</l>
+						<l>Dat jou Kozyn doet hoorens draagén;</l>
+						<l>'k Beként, ik héb 'er na gegaan,</l>
+						<l>Als jy van huis waart, én vernoomen</l>
+						<l>Waar dat zy by malkander komen;</l>
+						<l>'T is in een sluiphuis, by een zéker Roffiaen,</l>
+						<l>En tót nóch meêr bewys dat ik niet bén bedrógen,</l>
+						<l>Dat alles waar is, én geen loogen,</l>
+						<l>Men Neef heeft zélf altyd voor heur gespeeld.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Is 't waar?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Ioris.</speaker>
+						<l>Ik zweer 't!</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Je zweer 'et! wel, zie daar,</l>
+						<l>Ik zég 't je, maar mét waare woorden,</l>
+						<l>Indien het waarheid is zél ik de Hoer vermoorden;</l>
+						<l>Och! och! wat word ik ongerust,</l>
+						<l>Och! dit beneemt my al men lust;</l>
+						<l>Men Vrouw lichtvaardig; maar het kan niet moog'lyk weezen;</l>
+						<l>Zy lykt zo deugdig van gemoed,</l>
+						<l>Zo zédig, én wél opgevoed,</l>
+						<l>Ik laatme niet zo licht beleezen.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Ioris.</speaker>
+						<l>Wél hoor, veel woorden zyn om niet,</l>
+						<l>Sinjeur, maar zél jy 't niet gelooven als je 't ziet.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wel ja.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Ioris.</speaker>
+						<l>Zét dan je misvertrouwen</l>
+						<l>Zo lang ter zyden, én geloof het geen ik zég,</l>
+						<l>Sinjeur, wanneerwe zyn op weg.</l>
+						<l>Zél ik de heek zaak gelyk het lyd ontvouwen</l>
+						<l>En wat van ons gedaan moet zyn,</l>
+						<l>Ik zel je ook in het breed dan zeggen,</l>
+						<l>Hoé wy het hooren aan te leggen.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Ja wel, de Duivel haal Kozyn;</l>
+						<l>Hy wil geen Intrést van zyn geld van my genieten,</l>
+						<l>Maar na dat jy men nou verhaalt,</l>
+						<l>Heeft hém men Vrouw wél ruim betaalt;</l>
+						<l>Ik wed'er meêr zyn die zo gaeren géld verschieten.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Swyg, daar komt Juffrouw.</l>
+					</sp>
+				</div>
+				<div type="scene" n="11">
+					<head>Elfde tooneel.</head>
+					<stage>Geertruy, Filibert, Joris, Bely.</stage>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Hartje lief,</l>
+						<l>Hier is je reiszak, hébje iet meerder ook te zéggen.</l>
+						<l>Ze is wel verrzien van al wat dient tot jou gerief</l>
+						<l>Ik mag ze hier vast neêr gaan leggen.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Neen, 't is zo wél; kom kryg men mantel, en men hoed.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Kom voort, waar wacht hy nou zo lang na dezen bloed.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Zo, 't is zo wél.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Myn twéde leeven,</l>
+						<l>Je gaat men eindelyk begeeven?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Ja, ja, weest maar te vreên,</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ay reist tóch met gemak.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Ik zal. Hier, Joris, neem de zak.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Vaar wél; ik moet dan eindlyk scheiden.</l>
+						<l>Ei! eens gekust, nóch eens.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Al wél, ei! weest te vreên.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Reis doch voorzichtig mét je beiden.</l>
+						<l>En breek in 't keeren hals en been.</l>
+					</sp>
+				</div>
+				<div type="scene" n="12">
+					<head>Twaalfde tooneel.</head>
+					<stage>Geertruy, Bely.</stage>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>HOor, Bély, Vólkert Neef heeft my mét ernst gebéden,</l>
+						<l>Of ik hém wou vergasten, 'k hébt belooft,</l>
+						<l>En 't zél wat laat zyn eer ik 't huis kom, 'k héb ook héden</l>
+						<l>Veel swarigheden in men hoofd,</l>
+						<l>Zo door't vertrékken van men Man, als andre zaaken,</l>
+						<l>Die 'k wil vergeeten door 't gezélschap, ga, bestél</l>
+						<l>De Brief, en kom voort weêr, ik zél</l>
+						<l>Terwyl men zélven vaardig maaken.</l>
+					</sp>
+					<stage>Geertruy binnen.</stage>
+					<sp who="#bely">
+						<speaker>Belt.</speaker>
+						<l>Wél, Juffrouw. Dit 's na wénsch, zy gaan weer zamen heen,</l>
+						<l>Dan héb ik mooy het huis alleen,</l>
+						<l>Dan kan ik onze Dirk weêr delikaat onthaalen,</l>
+						<l>Myn lieve Vryer, Juffrouw gaat</l>
+						<l>Te gast by Vólkert, nou 'k zél swijgen, maar dat staat</l>
+						<l>Ons schoon, hier zal geen ménsch na taalen.</l>
+						<l>Ook sny ik, want het doet men beurs in 't minst geen zeer,</l>
+						<l>Zacht bteeje riemen uit een ander man zen leer.</l>
+					</sp>
+					<stage>Einde van 't Eerste Bedryf.</stage>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<div type="scene" n="1">
+					<head>Twede bedryf.</head>
+					<head>Eerste tooneel.</head>
+					<stage>Volkert, Agata, Kniertje.</stage>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Agaat, hoe komt gy weêr beneeden?</l>
+						<l>Wie hélpt men liefste dan verkleeden?</l>
+					</sp>
+					<sp who="#agata">
+						<speaker>Agata.</speaker>
+						<l>Myn Heer, uw liefste is al gereet,</l>
+						<l>Ik wou maar vraagen, óf men heer wél weet,</l>
+						<l>Dat Lichthart, die zo aanstonts is gekomen,</l>
+						<l>Twé vreemde speelliên nóch heeft mégenoomen.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Ja, Ja, laat Lichthart maar begaan,</l>
+						<l>Agaat, het mag 'er nu op staan.</l>
+						<l>Waar zyn de danssers? zyn de kleeren</l>
+						<l>Ook bóven? kunt gy 't voisje leeren?</l>
+					</sp>
+					<sp who="#agata">
+						<speaker>Agata.</speaker>
+						<l>'k Meen Ja, de kleeren zyn ook boven, alles is Gereed.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Wy zyn nu buiten vreezen?</l>
+						<l>Dies laat ons uit de borst eens lustig vrolyk weezen;</l>
+						<l>Haar man zit in de schuit, én droomt al na ik gis,</l>
+						<l>Hy zal nu onze vreugd niet stooren?</l>
+						<l>Laat ons dan onbekommert zyn;</l>
+						<l>Hoe vaart de kóst? hoe vaart de wyn?</l>
+						<l>Is alles al gereed? laat hooren?</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>'t Is alles wél verzórgt, stél maar je hart gerust;</l>
+						<l>Ik héb een kóst doen vaardig maaken,</l>
+						<l>Die 'k weet dat ongemeen zal smaaken.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Wél daar op eens mét smaak gekust.</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertie.</speaker>
+						<l>Sus, sus, men man zou 't zien.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Wat isser aan geleegen.</l>
+						<l>Zég, Kniertje? is je man jalours?</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Ja wél ter deegen.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Waar is hy?</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>'k Had hem uitgestuurt,</l>
+						<l>Hier by de speellui in de buurt,</l>
+						<l>Maar zie, daar is hy zélf.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede toneel.</head>
+					<stage>Volkert, Kristoffel, Kniertje, Agata.</stage>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Ho, Kristoffórus, wonder</l>
+						<l>Wie geits?</l>
+					</sp>
+					<sp who="#kristoffel">
+						<speaker>Kristoffel.</speaker>
+						<l>Her, Vólkert, noe! Hans donder!</l>
+						<l>Wie geits dem Hér, wie geits?</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Al wél,</l>
+					</sp>
+					<sp who="#kristoffel">
+						<speaker>Kristoffel.</speaker>
+						<l>A! Neem gemak.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Hebt gy uw boodschap al verricht?</l>
+					</sp>
+					<sp who="#kristoffel">
+						<speaker>Kristoffel.</speaker>
+						<l>He! wélk ein snak!</l>
+						<l>'t Is alles richtig, hei! laat ons man lustig weezen,</l>
+						<l>Nichs haab ik zegt breur, 't hart ist goet</l>
+						<l>Ond eerlich, man we zunt toe hoop von vleisch ond bloed.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Je bent een noob'le kwant, ik héb je altyd gépreezen.</l>
+					</sp>
+					<sp who="#kristoffel">
+						<speaker>Kristoffel.</speaker>
+						<l>I zunt potzierlich!</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Waarom niet?</l>
+						<l>Geen Mensch weet tóch wat hier geschied.</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Kristoffel, ei loop heen, de Tafel is al vaardig,</l>
+						<l>En spoel de glaazen; daar komt Juffrouw, Heer! hoe aardig</l>
+						<l>Is ze opgeschikt?</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde toneel.</head>
+					<stage>Volkert, Geertruy.</stage>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Myn Engelin!</l>
+						<l>Weest wélkom.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Is 't zo na uw zin?</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Bezonder, en wanneer 't kon weezen,</l>
+						<l>Ik wénschte wél, myn uitgeleezen,</l>
+						<l>U altyd zo gekleed te zien.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ja zo het zonder opspraak kost geschiên.</l>
+						<l>Maar is 't niet wél, dat ik uw oogen mag behaagen,</l>
+						<l>In zulk een aangenaame schyn,</l>
+						<l>En als ik by myn Man moet zyn,</l>
+						<l>Dat ik mag slechter kleed'ren draagen?</l>
+						<l>Voor hém is 't ommers wel, én goed genoeg, myn heer;</l>
+						<l>Want als ik mag by u verkeeren</l>
+						<l>Dan schort 'et immer aan geen toestél, óf aan kleéren.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Dat 's waar, maar beurde zulks wat meêr.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Men moet zich na het geen niet anders zyn kan voegen;</l>
+						<l>Men heeft tóch nimmer zyn genoegen;</l>
+						<l>De vreugd, die al te veel genooten word, verveeld,</l>
+						<l>'t Is 't lékkerst brókje dat men steelt.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>'t Is waar, én nu het zo moet weezen,</l>
+						<l>Is 't bést de korte tyd besteet.</l>
+						<l>De Tafel is byna gereet.</l>
+						<l>Ik bid zét u hier bymy neêr, myn uitgeleezen,</l>
+						<l>Gy hébt die plaats wel meêr bekleed.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ik zal, én stél voort alle zórgen,</l>
+						<l>En swarigheden uit tót morgen,</l>
+						<l>Men man zal onze vreugd nu niet</l>
+						<l>Verstooren, en 't geen 't oog niet ziet,</l>
+						<l>Kan 't hart niet deeren, hy is gierig,</l>
+						<l>Ik jong, én gaaren by de vreugd,</l>
+						<l>Als zynde in 't béste van myn jeugd,</l>
+						<l>Al schyn ik zédig, 't hart is swierig</l>
+						<l>Ik zie wel of men raapt, én schraapt,</l>
+						<l>En by een Man vol zórgen slaapt,</l>
+						<l>'T heest ook wat in, by goede vrinden</l>
+						<l>'T vernoegen van de jeugd te vinden.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>'K bén bly, myn Engel, dat gy 't zo mét my vetstaat.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ik weet et wél dat men kwaalyk praat</l>
+						<l>Van Vrouwen, die van braave vrinden,</l>
+						<l>En van een eerelyk geslacht,</l>
+						<l>By and'ren méêr vermaak als by haar mannen vinden;</l>
+						<l>Ja 'k heb 'er zélf zomtyds veracht,</l>
+						<l>Maar 'k wist toen nóch niet wat het in had, een van beiden</l>
+						<l>Te kiezen, óf gebrék te lyden</l>
+						<l>Door al te teeder een gemoed,</l>
+						<l>Of dat men weelde kan in volle overvloed</l>
+						<l>Genieten, zonder achterdénken</l>
+						<l>Te geeven, óf zyn naam te krenken;</l>
+						<l>Ik zie wel, óf men zich al veel verbeeld van de eer,</l>
+						<l>De zoete tyd, die vast verby is, keert niet wéêr.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Kniertje, Volkert, Geertruy, Kristoffel, Agata.</stage>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>GEliefjes, zyt gy al gezeeten?</l>
+						<l>Zal ik ook wachten mét het eeten?</l>
+						<l>'T is alles vaardig.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Neen, is alle ding gereet</l>
+						<l>Zo maak maar dat men aanstonds eet.</l>
+						<l>Kristoffel, dit 's uw plaats, wilt u hier neder zetten.</l>
+					</sp>
+					<sp who="#kristoffel">
+						<speaker>Kristoffel.</speaker>
+						<l>Der Hér értzy mich.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Nú, zit néêr,</l>
+						<l>En maak geen Komplimenten méêr,</l>
+						<l>Uw byzyn zal de vreugd vermeerd'ren, niet belétten.</l>
+					</sp>
+					<stage>Kniertje en Agata bréngen 't eeten.</stage>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Geliefjes, wélkom.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Dat gebraad</l>
+						<l>Heeft goeje mines, zo! het lykt zeer delikaat.</l>
+						<l>Kom, Kniertje, zit hier néêr, dit zal uw plaats zyn.</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Vrinden,</l>
+						<l>Ik durf me dat niet onderwinden,</l>
+						<l>Ei! Ekskuzeer me.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>'T moet zo zyn,</l>
+						<l>Agaat, kom schénk een Glas mét wyn,</l>
+						<l>En laat de Speelliên binnen kómen,</l>
+						<l>Wy moeten nu niet zitten ofwe droomen,</l>
+						<l>Muzyk, en Wyn verheugen 't hart.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Dat 's waar, ik mag het ook byzonder gaaren hooren</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Ik bréng 't u eens, myn uitverkoren.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Héb dank, myn Heer.</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>O jé! Wat zyn die Speullui swart.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde toneel.</head>
+					<stage>Filibert, én Joris, verkleed als Speelliên, Volkert, Geertruy,
+						Kristoffel, Kniertje, Agata.</stage>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>‘O Bloed! dit 's Volkért, én men wyf, dat wil ik sweeren,</l>
+						<l>Zy is het, maar in and're kléeren!</l>
+						<l>De duivel haal de looze hoer!</l>
+						<l>O Moord!</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>‘Ik bid, Sinjeur, ei! snoer</l>
+						<l>Je Mond, laat dich in 't minst niet blyken,</l>
+						<l>Wy moeten nu de kat zien uit de boom te kyken</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Och! Joris houw men vast, 'k word as een stók zo styf;</l>
+						<l>Maar, zyn ze 't al? O ja! 't is Vólkert mét men wyf,</l>
+						<l>Wie drommel zou 't zo durven droomen?</l>
+						<l>Och! och! wat zél men overkomen?</l>
+						<l>De duivel vaar in dat Kozynschap.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Swyg dóch stil,</l>
+						<l>‘Dat bid ik, want ie hébt nou alles na je wil.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wat! is 't men wil dan, dat men wyf en hoer zél weezen?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Neen, maar 'k wil zéggen, dat je 't zelf nou heb gezien,</l>
+						<l>Want anders mogt je 't nóch misschiên,</l>
+						<l>Gelyk als eerst, voor leugens vreezen.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Ja, 'k zie genoeg. Jou hoer! jou guit.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Wél swyg je niet, én voer je diergelyke woorden,</l>
+						<l>Zo is de heele zaak verbruid.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>'K zél swygen, maar in huis zél ik de hoer vermoorden.</l>
+						<l>Och! Joris, wel hoe klópt men hart, Och! och! wat raad?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Maak hier maar dat je niet beként word door je praat.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>'T za, Speelliên, zaag eens op. Kom laaten we eensjes klinken,</l>
+						<l>Kristoffel; Schoone, ik zal 't op uw gezondheid drinken.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Héb dank, Neef.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Agata, zég dat</l>
+						<l>De Potzemaaker voort begint,</l>
+					</sp>
+					<sp who="#agata">
+						<speaker>Agata.</speaker>
+						<l>Men Heer, ik vat</l>
+						<l>De zin, 't zél voort geschiên.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Laat de andre nóch wat wachte.</l>
+					</sp>
+					<stage>Hier worden eenige Potzeryen, én danssen vertoond.</stage>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Wat dunkt u, Schoone, is dat niet aardig?</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Mét gedachten</l>
+						<l>Kan 't niet verbétert zyn, 't is zéker ongemeen.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Vólkert.</speaker>
+						<l>Dat zich de danssers ook verkleên.</l>
+					</sp>
+					<sp who="#agata">
+						<speaker>Agata.</speaker>
+						<l>Zy zyn al vaardig.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Wél, men laat ze voort beginnen.</l>
+					</sp>
+					<stage>Hier word een Ballét gedanst van vier of zes Perzoonen.</stage>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wél, Neef, hoe kenje 't zo verzinnen?</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Nicht, zulk een toestel valt niet swaar</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Maar, is de Juffrouw die hier zingen zou, al klaar?</l>
+					</sp>
+					<sp who="#agata">
+						<speaker>Agata.</speaker>
+						<l>'k Meen ja, Mevrouw.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>'k Verlang om haar te hooren.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Ik bid, gebie, myn Uitverkooren.</l>
+					</sp>
+					<stage>Hier word gesongen.</stage>
+					<sp who="#kristoffel">
+						<speaker>Kristoffel.</speaker>
+						<l>I dat geit hups, noe, noe, wie wollen auch eins springen,</l>
+						<l>Ond zingen; las ons lustig zyn,</l>
+						<l>Der Musik voegt wol by de wyn.</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Wel; Vaâr, verstae jy jou ook van die seuve saaken?</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Ja, ja, laat hy hem meê vermaaken.</l>
+					</sp>
+					<sp who="#kristoffel">
+						<speaker>Kristoffel.</speaker>
+						<l>Der Pompernik kel is aber hie,</l>
+						<l>Ich werd em nicht verlassen:</l>
+						<l>Wen ich dein Schoen braun ooglein zie</l>
+						<l>Erlieb ich aussermassen;</l>
+						<l>O lieb, o lieb, o lieb, ier doet mie 't harts zo weê;</l>
+						<l>Wen ich 's lyb vol gezouffen haab lig ich in roe, end vré.</l>
+						<l> </l>
+						<l>Noe zund wie lustig.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Kan ik u noch meêr verlusten?</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ik word al slaaprich.</l>
+						<l>Gy sult in myne armen rusten.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Moet ik dit hooren, en kan ik hier langer staan?</l>
+						<l>Men zou de drommel zo verraân,</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Geef aan de Speelliên ook eens drinken,</l>
+					</sp>
+					<sp who="#kristoffel">
+						<speaker>Kristoffel.</speaker>
+						<l>Her Vólkert, las ons auch eins klinken.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wel, op een kusjen aan weerzyden</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>'k Ben te vreên,</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>'k Verdoe dat: want die kus die smaakt me ongemeen.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>‘ô Heer! zie ik dit voor myn oogen?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Wat dunkje, heb ik nou geloogen?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Neen, Joris; och! 't is al te waar,</l>
+						<l>Maar, 'k zél die vuile hoer, die ranken duur betaalen,</l>
+						<l>Kom laet ons voort de Schouwt gaan haalen.</l>
+					</sp>
+					<stage>Zy loopen verbaast wég.</stage>
+				</div>
+				<div type="scene" n="6">
+					<head>Zesde tooneel.</head>
+					<stage>Geertruy, Volkert, Kniertje, Kristoffel.</stage>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>WAt 's dit? hier is de baan niet klaar;</l>
+						<l>Wat schort de Speelliên?</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Zyn ze dol, óf buiten zinnen?</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Och! 't valt me daar als loot op 't hart, na 'k merk,</l>
+						<l>Kozyn, is dit geen deeglyk werk.</l>
+						<l>We zyn verspied; wat raad? wat zullenwe beginnen?</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>Sevende tooneel.</head>
+					<stage>Agata, Geertruy, Vólkert, Kniertje, Cristoeffel.</stage>
+					<sp who="#agata">
+						<speaker>Agata.</speaker>
+						<l>MEn Heer, én Juffrouw, och! wat héb je lui gedaan?</l>
+						<l>De Speelliên zyn kwaad wég gegaan;</l>
+						<l>Ze spraaken van de Schout te haalen,</l>
+						<l>De een zei, ik sweer ik zél die Hoer dat wéêr betaalen.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Och! 't zél men man zyn, dat gaat vast;</l>
+						<l>Och! Neef wat raad? we zyn verrast,</l>
+						<l>We zyn hier laelijk in de val; 'k wil sweeren,</l>
+						<l>Dat hy ons in die Speelmans kleêren</l>
+						<l>Verspied heest; 'k twyselde al, maar, ach! nou is 't te laat,</l>
+						<l>Ik bén bedurven, ach! wat raad?</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Ik sta verstélt; maar kom we moeten hen verkloeken,</l>
+						<l>Nu zy zo dom zyn; ras de kleren uit, en voort</l>
+						<l>Na huis, dan zyn zy licht te doeken,</l>
+						<l>Zo gy maar vast blyft by uw woord.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Och! och! ik kan van schrik me zélven pas bedaaren.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Kom, niet te sém'len, kryg de kleêren, trek maar uit,</l>
+						<l>Want vondenze ons, zo was het heel procés verbruid.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wat zél men eind'lyk wédervaaren?</l>
+						<l>Dit is men droom.</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Hier zyn je kleêrén, trék maar aan,</l>
+						<l>Wat hoeft 'et juist zo nét te staan?</l>
+						<l>Wat zo! je kaper op.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Men beenen staan en beeven.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Vólkert.</speaker>
+						<l>Als wy maar weg zyn, mag 't geen kwaad,</l>
+						<l>Dan isser gantsch niet aan bedreeven.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>'T is donker, én zo glad op straat.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Vólkert.</speaker>
+						<l>Dat mag geen kwaad, ik zal u aan uw huis verzéllen,</l>
+						<l>Ei! wilt u niet te veel ontstéllen.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Kom, 't zal zo wél zyn. Nu, goé nacht;</l>
+						<l>Ik had dit voorval niet verwacht.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Vólkert.</speaker>
+						<l>Indien zy komen, kunt gy alles maar ontkénnen.</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Zo schoon; ey! lieve ga maar heen,</l>
+						<l>Begeerje ook een Lantaeren?</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Vólkert.</speaker>
+						<l>Neen</l>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<head>Achtste tooneel.</head>
+					<stage>Kniertje, Kristoffel, Agata.</stage>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>SUnt Vélten moet die Lichthart schennen,</l>
+						<l>Die guit heest ons die pots gespeelt,</l>
+						<l>En hier 'er Man in Speelmans kleêren</l>
+						<l>Gebracht, wie had em dit zen leeven zo verbeëld?</l>
+						<l>Maar 'k zél 'et hem wel weêr betaalen, wil ik sweeren.</l>
+					</sp>
+					<sp who="#agata">
+						<speaker>Agata.</speaker>
+						<l>Zo dra ze kwaamen had ik in 'er doen geen zin,</l>
+						<l>Ze gluipten zo.</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Dat 's waar, ze dorsten pas 'er oogen</l>
+						<l>Eens opstaan; wél ik bén nóch nooit zo valsch bedroogen.</l>
+					</sp>
+					<sp who="#kristoffel">
+						<speaker>Kristoffel.</speaker>
+						<l>Des em der haan hak, noe!</l>
+					</sp>
+					<sp who="#agata">
+						<speaker>Agata.</speaker>
+						<l>Ik beelde me schier in</l>
+						<l>Datze onze taal niet kosten spreeken.</l>
+					</sp>
+					<sp who="#kristoffel">
+						<speaker>Kristoffel.</speaker>
+						<l>Ich wol em hals ond beinen breeken</l>
+						<l>Dem Lichthart da! dien Schélm!</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Hoe waarje zo verblind</l>
+						<l>Dat jy 'er aannaamt?</l>
+					</sp>
+					<sp who="#kristoffel">
+						<speaker>Kristoffel.</speaker>
+						<l>Noe! i snakken wie ein kind;</l>
+						<l>Kon ik die Nar? i zé! ik heb em von myn daagen</l>
+						<l>Nicht zeên, wat meug i dan zo vraagen,</l>
+						<l>Man by dem kranken, wen ik Lichthart zé, er zol</l>
+						<l>Mi saterfaction verschaffen, ob ich wol</l>
+						<l>Em eins der kraage, was verzétten.</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Laat ons op onze dingen létten,</l>
+						<l>Schik alles aan een zy, Agaat, daar bérg al 't goed.</l>
+						<l>Jy voort de tafel, niet te wachten,</l>
+						<l>Wy moeten heur die kans af winnen, met gedachten,</l>
+						<l>Die sakkereerse zót, die bloed,</l>
+						<l>Hy meent zen Vrouw hier nóch te vinden,</l>
+						<l>Maar dat zél mis zyn, én hy moet 'et liegen, dat</l>
+						<l>Zy hier geweest is, zo ik aârs de zaak récht vat.</l>
+						<l>Daar word geklopt.</l>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<head>Negende tooneel.</head>
+					<stage>De Schout, Twee Dienaars, Filibert, Joris, Kniertje, Kristoffel,
+						Agata.</stage>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Goên avond, vrinden;</l>
+						<l>Kom, zég ons voort waar dat de Vrouw is van die Man.</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Zyn Vrouw, men Heer, wel daar heb ik geen kennis an.</l>
+					</sp>
+					<sp who="#kristoffel">
+						<speaker>Kristoffel.</speaker>
+						<l>O! Her Scholtétus!</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Dit ontkennen zal niet baaten,</l>
+						<l>Gy paait ons niet met schoon te praaten.</l>
+						<l>Zég waar zy is.</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Men Heer, je hebt gewis abuis,</l>
+						<l>Je bént hier in een onrécht huis.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wat, in een onrécht huis? dat 's valschelyk geloogen,</l>
+						<l>Ik héb 'er mét men eigen oogen</l>
+						<l>Zo daad'lyk neffens hém verspied,</l>
+						<l>En Lichthart, maar nou isser niet</l>
+						<l>Je hebt 'er lichtlyk in een heim'lyk gat versteeken.</l>
+					</sp>
+					<sp who="#kristoffel">
+						<speaker>Kristoffel.</speaker>
+						<l>Was zaagt der Nar?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Ei, Mof, hou jy je smoel der uit.</l>
+					</sp>
+					<sp who="#kristoffel">
+						<speaker>Kristoffel.</speaker>
+						<l>Matsfuzel! hazenkopf.</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Stil Stoffel, wat beduid</l>
+						<l>Dit raazen, laat ik met 'er spreeken;</l>
+						<l>Wat zég je van die Man zen Vrouw?</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>'k Zég dat die Man zen Vrouw hier daadlyk heeft gezeeten,</l>
+						<l>Mét Sinjeur Vólkert, heur Kozyn;</l>
+						<l>En zo je niet wilt zéggen waar ze zyn,</l>
+						<l>Ik zel het évenwél wel weeten;</l>
+						<l>'T za, dienaars, doe gelyk ik héb belast.</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Men Heer,</l>
+						<l>Dit is gewélt; hélp! vrienden! buuren!</l>
+						<l>Men doet me in huis gewelt.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Ei! zie die kuuren.</l>
+						<l>Jou Séldremaliméntze Meer!</l>
+						<l>Durf jy men eigen Vrouw verzaaken?</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Wél, Jakhals! durf jy zeggen datze hier</l>
+						<l>Geweest is, dat jy 't waar kunt manken?</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Sus, sus, waar toe zo veel getier?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Ja, Voddemoêr, dat durf ik zéggen,</l>
+						<l>Of mienje dat zo schoon te ontléggen,</l>
+						<l>Kom hier eens, Joris, heb ik niet</l>
+						<l>Mét jou, en Lichthart heur verfpiet,</l>
+						<l>En zaagen wy 't niet veur onze oogen?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Wél ja.</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>'T is valschelyk geloogen.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wat zégje?</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Dat je 't liegt, ik héb geen Ménsch gezien.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Wat drommel zél der nóch geschien?</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Wég vént, je bént niet by je zinnen,</l>
+						<l>Je raaskald; is jou Vrouw hier in men huis geweest?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Ja, Sloery, ja ze, dronken beest,</l>
+						<l>Ze was flus mét er Pól hier binnen;</l>
+						<l>Hier zatje, en braste, én waart wél louwter in je schik</l>
+						<l>Zie daar, hier héb jy lui gezéten</l>
+						<l>Al wil jy, Voddemoer, 't niet weeten,</l>
+						<l>Hier zatje in 't rond, terwyl dat ik,</l>
+						<l>En Joris, in de schyn van Speullui jou verrasten,</l>
+						<l>Terwyl je lui te zamen brasten.</l>
+						<l>Spreek, Joris, is 't niet waar? héb jy 't niet mé gezien?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>'k Héb ommers ja gezeid.</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Je liegt 'et mét je twiên.</l>
+						<l>Ik héb geen ménsch in huis vernoomen,</l>
+						<l>Je hébt voorzeeker léggen droomen,</l>
+						<l>Of eenig spook heeft jou de harzenen ontroert.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Wél 'k loof waarachtigh dat de Hoer nóch met ons boert.</l>
+					</sp>
+					<sp who="#eerste-dienaar">
+						<speaker>1 Dienaar.</speaker>
+						<l>Myn heer, wy hébben 't huis van boven tót beneeden</l>
+						<l>Doorzógt, maar niemant daar gevonden.</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Is dat reeden</l>
+						<l>Dat jy een ménsch zo affronteert?</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Hoe! Filibért, 'k loof datje ons scheert;</l>
+						<l>Gy zégt dat hier uw Vrouw in kostelyke kleêi en,</l>
+						<l>Zo straks heeft zitten banketteeren,</l>
+						<l>En nu ik kom is 't mis.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Men Heer, de drommel moet</l>
+						<l>Men haalen... O! ik drink van kwaadheid schier men bloed;</l>
+						<l>'k Weet dat ze hier is, én die Hoer heeft haar versteeken.</l>
+						<l>Maar kom, de zaak zél zélver spreeken,</l>
+						<l>Laat hier je dienaars, én laat ons dan zaamen gaan</l>
+						<l>Tót mynent, daar zél jy de waarheid wél verstaan;</l>
+						<l>'k Wil sweeren dat ze niet in huis is,</l>
+						<l>En dan is 't licht te zien, men Heer, hoe 't wérk niet pluis is.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Kom, gaan wy dan zo daad'lyk heen;</l>
+						<l>Blyft gy zo lang hier met u tweên.</l>
+					</sp>
+					<sp who="#tweede-dienaar">
+						<speaker>2 Dienaar.</speaker>
+						<l>Zeer wel, myn Heer.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Nou wil ik sweeren</l>
+						<l>Dat ik jou, Voddemoêr, dat liegen zél verleeren.</l>
+					</sp>
+					<sp who="#kniertje">
+						<speaker>Kniertje.</speaker>
+						<l>Ei, Ioop, Jan gat, loop na de pomp,</l>
+						<l>Jou rechten uil, jou botten lomp.</l>
+					</sp>
+					<sp who="#kristoffel">
+						<speaker>Kristoffel zingt.</speaker>
+						<l>Dat i voor hébt, werd die missen,</l>
+						<l>Doe bist auf don pok kel geschissen,</l>
+						<l>Noe, noe, noe, noe, noe!</l>
+						<l>Koekeldoe doe, doe, doe, doe, doe.</l>
+					</sp>
+					<stage>Einde van 't Twéde Bedryf.</stage>
+					<p>
+						<figure> </figure>
+					</p>
+				</div>
+			</div>
+			<div type="act" n="3">
+				<div type="scene" n="1">
+					<head>Derde bedryf.</head>
+					<head>Eerste tooneel.</head>
+					<stage>Dirk, Bely.</stage>
+					<sp who="#dirk">
+						<speaker>Dirk.</speaker>
+						<l>Myn Bélitje, dacht ick nóch zo van pas te komen?</l>
+						<l>Zo lékker te eeten, én te drinken? Wie zou 't droomen?</l>
+						<l>Ik wou dat jou Sinjeur wat veel van huis most gaan.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Ja wél dan zou het mét zyn zaaken heel slécht staan;</l>
+						<l>Zyn Vrouwtje buiten, ik hier binnen,</l>
+						<l>Verteerden meêr als hy kan winnen.</l>
+					</sp>
+					<sp who="#dirk">
+						<speaker>Dirk.</speaker>
+						<l>Wat raakt dat ons, als wy maar lékk're wyn,</l>
+						<l>En eeten hébben, O! dan kan men vrolyk zyn;</l>
+						<l>Wy hoeven niet te zórgen</l>
+						<l>Hoe 't word gewonnen, laat die zórgen, die 'er bór gen.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Je hébt gelyk; ook is dat spreekwoord waar,</l>
+						<l>Een kwaade voórgang, maakt een kwaad gevolg.</l>
+					</sp>
+					<sp who="#dirk">
+						<speaker>Dirk.</speaker>
+						<l>Zie daar,</l>
+						<l>Dat 's leeg geveegt, daar moetje me eens een zoen op geeven.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Geen ien, maar tien.</l>
+					</sp>
+					<sp who="#dirk">
+						<speaker>Dirk.</speaker>
+						<l>Wat zo, men twéde leeven.</l>
+						<l>Zie daar men hart springt op van vreugd.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Wél waarom zou ik niet men jeugd</l>
+						<l>In vrolykheid besteeden,</l>
+						<l>Eer dat die is vergleeden?</l>
+						<l>Men juffrouw doet het wél, én die is noch getrouwt.</l>
+					</sp>
+					<sp who="#dirk">
+						<speaker>Dirk.</speaker>
+						<l>Dat 's waar, maar évenwél, wie zou het durven droomen,</l>
+						<l>Dat zulks zou in 'er harzens komen?</l>
+						<l>Voor my ik had 'et nooit op heur betrouwt.</l>
+						<l>Het lykt een vrouwmensch, stémmig, staatig,</l>
+						<l>En zédig, in 'er ommegang, niet praatig,</l>
+						<l>Ze is sléghjes in 'er kleeding, alle dag;</l>
+						<l>Als 't preckt, dis, is zy op de eerste slag</l>
+						<l>Van 't Klokkeluijen in de Kérk, om plaats te krygen,</l>
+						<l>Recht voor de Preekstoel, én zy heeft... maar laat ik swygen,</l>
+						<l>Der schuilt doch meerder als men weet,</l>
+						<l>Of dénken kan in 't stemmig kleed.</l>
+						<l>Men zégt de Drommel, als hy iemant wil bedriegen,</l>
+						<l>Of ons zoekt voor te liegen,</l>
+						<l>Dat hy hém in een Eng'le schyn vermaalt.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Wel wie heeft jou die fraayigheid verhaald?</l>
+					</sp>
+					<sp who="#dirk">
+						<speaker>Dirk.</speaker>
+						<l>Hei! laat die viezevaazen vaaren,</l>
+						<l>Als wy 't maar beide béter klaaren</l>
+						<l>Dan mach 't geen kwaad. kom, noch ereis geveegt,</l>
+						<l>En 't glaasje tot de boom geleegt;</l>
+						<l>O bloed! die wyn maakt krommesinkken,</l>
+						<l>En évenwel word ik niet moê van drinken.</l>
+						<stage>Hy Zingt.</stage>
+						<l>Hei wie zou niet vrolyk weezen,</l>
+						<l>Ah hy by de lekk're wyn,</l>
+						<l>En zyn éngelin mag zyn?</l>
+					</sp>
+					<sp who="#dirk">
+						<speaker>Hei wie zou niet vrolyk weezen</speaker>
+						<l>Ah hy by de lekk're wyn,</l>
+						<l>En zyn éngelin mag zyn?</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Daar word geklopt, och! och! dit brengt me in duizend vreezen!</l>
+						<l>Wat gaat me aan, wat raad! zo dit men Juffrouw is?</l>
+					</sp>
+					<sp who="#dirk">
+						<speaker>Dirk.</speaker>
+						<l>Nou, nou, Mallootje, waar toe die ontsteltenis?</l>
+						<l>'T zél iemand anders zyn.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Wie klopt daar?</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy van binnen.</speaker>
+						<l>Doe maar open,</l>
+						<l>Ik ben 't.</l>
+					</sp>
+					<sp who="#dirk">
+						<speaker>Dirk.</speaker>
+						<l>O bloed! waer zél ik loopen!</l>
+						<l>We zyn verspied, ei! Belitje, kom ras,</l>
+						<l>Versteekme in deze kleêrbén, óf die kas.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Kruip in de Mantelkas.</l>
+					</sp>
+					<sp who="#dirk">
+						<speaker>Dirk.</speaker>
+						<l>Dat 's goed, maar 'k moest niet smooren.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Neen, neen, belét, maar dat geen ménsch je daar kan hooren.</l>
+						<l>Als zy na béd is kom ik jou weêr by.</l>
+						<l>Hoe kryg ik alles aan een zy?</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Twede tooneel.</head>
+					<stage>Geertruy, Volkert, Bely, Dirk in de Kas.</stage>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wel, Bélitje, wat 's dit te zéggen,</l>
+						<l>Dat jy een mensch zo lang laat staan</l>
+						<l>Eer dat'er open word gedaan?</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>De sleutel had ik achter laaten léggen.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Loop, kryg men nachtgoed, och! 'k ben bly</l>
+						<l>Dat wy geraakt zyn uit de ly,</l>
+						<l>Vertrek nu, Neef, eer datze ons hier in huis betrappen</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Ik zal. Maar op dat Bély niet zél klappen</l>
+						<l>Zél ik'er iet vereeren.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Juffrouw, daar</l>
+						<l>Is 't Nachtgoed. Hoe is 't hooft zo swaar?</l>
+						<l>Je schynt ontstélt.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Niet buiten reeden.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Hoor, Bélitje, dat goud vereer ik jou,</l>
+						<l>Blyf voort jou Juffrouw maar getrouw,</l>
+						<l>En swyg. Voorts alles wat je heeden</l>
+						<l>Mocht zien, én hooren, zég niet anders als dat Nicht,</l>
+						<l>Niet uit geweest is, 'k zal u altoos zyn verplicht</l>
+						<l>Indienje dit wél uit hélpt wérken.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Je bént gesteurt na ik 't kan mérken.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert,</speaker>
+						<l>Ja, Bélitje, dat 's waar.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>'T is me ook wél eer gebeurd.</l>
+						<l>Is 't anders niet; kom, wilt niet vreezen,</l>
+						<l>Ik zelje in alles hulpzaam weezen.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ja, maar men Man heeft ons gesteurt.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>'T is waar, maar wat 's 'er aan bedreeven?</l>
+						<l>Had hy zo lang by ons gebleeven,</l>
+						<l>Tot dat 'er iemant stil was na de Schout gegaan,</l>
+						<l>Dan had hét slécht mét ons gestaan:</l>
+						<l>Maar tot ons groot geluk zynze alle wéggeloopen:</l>
+						<l>Toen zyn wy stil na huis gesloopen.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Zo heeft Sinjeur je zélf verspiet?</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ja; én wie zél hém licht ontgeeven dat hy ziet.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Geen noot, we moeten 'er bedriegen,</l>
+						<l>En 't geen ze zaagen heeten liegen.</l>
+						<l>Kom ras, je nachtgoed aan, 't naaikussen by der hand,</l>
+						<l>Kom, al je kleêren an een kant,</l>
+						<l>Zo zienze van jou uitgaan 't minste téken.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Daar word geklópt. ach! Neef, nou is'et werk verbrust.</l>
+						<l>Och! och! wat raad.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Zus, zus, weest niet al te ongerust.</l>
+						<l>Ik zélme in deze kas versteeken</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Daar is 't niet veilig, Heer, maar wilje zéker zyn</l>
+						<l>Kruip in die kleerbén; hier kan juffrouw zitten naaijen,</l>
+						<l>En, door die bezigheid, men Heer ontdraaijen</l>
+						<l>Dat zy is uitgeweest, én om meêr schyn</l>
+						<l>Te geeven dat wy zo laat wérken;</l>
+						<l>Zég dat hét linden morgen voort</l>
+						<l>Moet wéggaan met hét oop'nen van de poort,</l>
+						<l>Zo kan hy in hét minst niet mérken.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Dat's wél bedacht; kruip in. Ga open nu de deur</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Filibret, Joris, De Schout, Geertruy, Bely, Dirk in de Kas, Volkert in de
+						Klêerbén.</stage>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Hoe! benje niet van buis, Sinjeur?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Hoe duivel heb ik 't hier?</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wel, hartje, wie dorst droomen,</l>
+						<l>Dat jy zo haast weêrom zoud komen?</l>
+						<l>Je reis gaat dan niet voort? Ik zie je weêr,</l>
+						<l>En voor onze afspraak? Maar wat 's dit? Wat maakt men Heer</l>
+						<l>De Schouwt in huis? of hébje een ongeluk gekreegen?</l>
+						<l>Wat hapert 'er? Ei! laat me niet verleegen!</l>
+						<l>Myn Heer, ei! zeg wat isser gaans!</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Wel, Filibért, wat zal dit zyn? dit komt me Spaans</l>
+						<l>En zéldzaam voor! hoe! hebt gy my bedroogen</l>
+						<l>Met voordacht? En wat voor geloogen?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>O Joris!</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>O Sinjeur! hier is hét wérk verbruid.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ei! zégme tóch, wat déze ontstéltenis beduid?</l>
+						<l>Wat isser gaans? gy swygt! Ach! 't gaat me aan de zinnen,</l>
+						<l>Hier schort iet, ach! wat zél ik arme vrouw beginnen?</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Ja, Juffrouw, daar schort mêer als gy licht weet,</l>
+						<l>Uw Man beschuldigt u, én heeft my meê genoomen,</l>
+						<l>Om dat ik op het mat zou komen,</l>
+						<l>Mét hoerery; Ik meenden u verkleed,</l>
+						<l>Heel kóstelyk, gelyk hy my berichte,</l>
+						<l>Te vinden, maar 't was mis.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wie, my?</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>O Ja.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Hoe! my?</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>O Ja, hier hélpt geen veinzery,</l>
+						<l>Ik zég 't gelyk hét is.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wat! durft hy my betichte</l>
+						<l>Mét hoerery?</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>O Ja, én dat hy déze nacht</l>
+						<l>U heeft gevonden, heel lichtvaardig in de kleêren,</l>
+						<l>Met Vólkert zitten bankétteren,</l>
+						<l>Tewyl ik mét myn dienaars héb gewacht</l>
+						<l>Tot Lichtharts, na de leus, om u te knippen,</l>
+						<l>Maar, 't schynt gy wist die dans te ontslippen;</l>
+						<l>Want komende, daar gy misschien</l>
+						<l>Geweest zyt, héb ik niet gezien,</l>
+						<l>Nóch niets gevonden, dies wy na uw huis toe keerde,</l>
+						<l>Gelyk uw Man begeerde,</l>
+						<l>Vermits hy toonen wou dat gy waart uitgegaan.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Hoe héb ik 't! zoekje me te scheeren?</l>
+						<l>Heeft myn Man my in andre kleêren</l>
+						<l>Zien vrolyk weezen? hoe! ik kan dit niet verstaan.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Karonje! zie hoe kan ze'er houwen.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Voor my, ik durf 't u niet betrouwen.</l>
+						<l>Uw Man sweert echter, dat hy 't zelver heeft gezien.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ja wél, wat zél 'er nóch geschiên?</l>
+						<l>Wat zégje, Liefste, heb jy my te nacht gevonden</l>
+						<l>By Volkért Neef? heb ik mét hém myn trouw geschonden?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>O Varken, vraagje nóch na 't geen je zelf wél weet?</l>
+						<l>Dat ik je niet den hals mach breeken is me leet.</l>
+						<l>Héb jy niet mét Kozyn gegeeten?</l>
+						<l>Of wilje 't nou niet weeten?</l>
+						<l>Men zong'er nóch Muzyk, je waart wel in je schik;</l>
+						<l>Maar weinich dóchtje toen, dat hy, én ik,</l>
+						<l>Je lui verspiede in Speelmans kleêren.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wél hartje, dat je valsch misleid bént, wil ik sweeren.</l>
+						<l>Ik bén niet uit geweest, maar héb mét onze Meid</l>
+						<l>Hier zitten naaijén,</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Schoon bescheid!</l>
+						<l>Ei! zie, ze durft, met stoute kaaken,</l>
+						<l>Het geen de waarheid is verzaaken.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wel Man, ïs 't érnst? of wordje zót</l>
+						<l>En dol? maar, neen, dit lykt geen spót.</l>
+						<l>Wél zég, waar héb je my vernoomen?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wél tot Kristoffels, voor den droes heen op 't nieuw wérk.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertrui.</speaker>
+						<l>Och! 't schortje in het hooft na 'k mérk,</l>
+						<l>Een spook, óf droom, heeft jou bedroogen;</l>
+						<l>Ik héb Kozyn niet voor men oogen</l>
+						<l>Gezien, én ook niet uit geweest,</l>
+						<l>Maar hier mét Bélitje gezeeten,</l>
+						<l>En al de gantsche tyd versleeten</l>
+						<l>Mét naaijen, want ik was bevreest</l>
+						<l>Voor 't vriezen, én dat dan men goed niet wég zou raaken.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Sinjeur, dat is de waarheid, Vaâr.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Je liegt hét valschlyk, bei te gaâr.</l>
+						<l>Kom hier ik zélje dat verzaaken</l>
+						<l>Verleeren, Joris, héb jy niet</l>
+						<l>Mét my te nacht heur doen verspiet?</l>
+						<l>Spreek op, heb jy 'er niet by 't danssen, zingen</l>
+						<l>Zien vrolyk weezen, én by and're schoone dingen?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Wel ja, Sinjeur, na dat ik miên</l>
+						<l>Héb ik Mejuffiouw daar benéffens jou gezien.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Na dat je meent! jou Guit, zo styf je dan zyn loogen</l>
+						<l>Op gissing? jy beticht jou eerelyke vrouw</l>
+						<l>Mét hoerery, én 't schénden van heur trouw</l>
+						<l>Ook op die voet?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wél zyn men oogen</l>
+						<l>Dan koussen? 'k éb nóch goet gezicht,</l>
+						<l>En dat ik héb gezien ontstryd men my niet licht.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Kon u geen valsche schyn bedriegen?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wel moet ik dan het geen ik zél gezien héb liegen?</l>
+						<l>Hoe zel 't hier lukken? Joris, spreek!</l>
+						<l>Je ziet in wat perkét ik steek.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Wat zél ik zéggen?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wél de waarheid.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Onbehouwen!</l>
+						<l>Jy durft jou eigen Vrouw mistrouwen?</l>
+						<l>Wat komtme al over? ach! wat raad?</l>
+						<l>Moord! Buuren! hélp! 'k word desperaat!</l>
+						<l>Men Man, myn eigen Man, wat gruwelyke zaaken!</l>
+						<l>Die zoekt me tót een hoer te maaken!</l>
+						<l>Och! help, 'k word zo benaauwt; ei my!</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Ze stérft! och vrienden, stame by.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Foei, Filibért, gy hoorde u in uw hart te schaamen,</l>
+						<l>'T stryd zéker tégen hét betaamen,</l>
+						<l>Dat gy uw eigen Vrouw beticht</l>
+						<l>Mét hoerery. Gy hébt my boven dat bericht,</l>
+						<l>Dat ik haar niet in huis zou vinden,</l>
+						<l>En nu ik kom, zit zy hier bézig mét hét linden,</l>
+						<l>En heeft, na 't zéggen van haar zélf, én van de meid</l>
+						<l>Niet uit geweest.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wat Droes! bén ik dan zo misleid?</l>
+						<l>Och! Joris, ik begin te schroomen,</l>
+						<l>Och! och! wat zél men overkomen?</l>
+						<l>Zég, hébbenwe ook al wél gezien?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Ja wél, 'k mistrouw men eigen oogen</l>
+						<l>Zo wel als jy, we zyn misschien</l>
+						<l>Door 't flik'ren van de kaars bedroogen.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Maar, Joris, évenwél, hoe kan dat moog'lyk zyn?</l>
+						<l>Ik kon 'er immers aan 'er spreeken.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>'T is waar, zy was 't na alle schyn,</l>
+						<l>Maar 't blykt we hebben mis gekeeken.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Dan is het Droom, of spookery.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Ei! lieve Joris, sta me by,</l>
+						<l>Haal tóch wat eek, 'k begin te vreezen,</l>
+						<l>Dat dit haar laatste nacht zél weezen.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Voorwaar, 'k ben met de Vrouw begaan.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>FILIBERT.</speaker>
+						<l>Och! och! ze stérft, wat gaat men aan?</l>
+						<l>Och Wyfje lief, wilt doch bedaaren,</l>
+						<l>Ik was te haastig uitgevaaren.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ei my! ik bén zo bang.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Mejuffrouw, neem gedult,</l>
+						<l>Uw Man beként alreets zyn schuld.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ach! zulke harde, én félle slaagen</l>
+						<l>Zyn voor een eérlyk gemoed, niet wél te draagen.</l>
+						<l>Dit gaat te vér. o smaad! o pyn!</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Nu, wilt niet onverduldig zyn.</l>
+						<l>Kom, bid uw Vrouwtje datze uw misslag wil vergeeven;</l>
+						<l>Beloof haar ook, dat gy van al uw leeven,</l>
+						<l>Geen ontrouw zult op haar vermoên.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ik héb mét zyn belooven niet te doen.</l>
+						<l>Nu hy zulk kwaad van my durft spreeken,</l>
+						<l>Zél ik myn beenen nooit by hém weêr ondersteeken.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>FILIBERT.</speaker>
+						<l>Genâ! myn Wyfje lief, genâ! ik bid bedaar;</l>
+						<l>Al wat ik flus gezégt héb is niet waar;</l>
+						<l>Vergeef 't me doch! ik zél na dézen</l>
+						<l>Altyd jou trouste voorspraak weezen;</l>
+						<l>Ach! héb tóch deernis mét je Man; ik was misleid</l>
+						<l>Door spook, of droom, récht uit gezeid.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Die Guit dorst dit ook staande houwen!</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>JORIS.</speaker>
+						<l>Myn lieve Juffrouw, ei! genâ!</l>
+						<l>Ik houwje voor de kuischste, én eerlykste aller vrouwen;</l>
+						<l>Vergeestme, sprak ik je te na.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Jy waart getuige, én zaagt my in die weidsche kleêren.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>JORIS.</speaker>
+						<l>Ik droomden 't ook, dat wil ik sweeren.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Foei! kan dat over jou gemoed,</l>
+						<l>Dat jy je vrouw op zulk een voet</l>
+						<l>Lichtvaardigheid zoekt op te dringen?</l>
+						<l>Foei! foei! 't zyn ongehoorde dingen.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>FILIBERT.</speaker>
+						<l>Myn lieve Vrouw, ik bid vergeef hét. och! wat raad?</l>
+						<l>Och! och! ik héb het al te kwaad,</l>
+						<l>Men Heer, wat zél ik doen ten lésten?</l>
+						<l>Ik bid spreek jy een woord ten bésten.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Mejuffrouw, 'k bid, ei! weest te vreên.</l>
+						<l>Gy hoort reets hoe zy schuld bekénnen, mét hun tweên.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Bekénje, dat je valschlyk hébt geloogen?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Ja, Wyfje lief, ik bén bedroogen,</l>
+						<l>Ik héb 't gedroomt.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>JORIS.</speaker>
+						<l>Ik ook, zo waar ik leef.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wel, nu gy schuld beként, vergeef</l>
+						<l>Ik 't alles, maar gy zult hier daad'lyk sweeren,</l>
+						<l>Dat gy my op die wys' nooit weêr zult affronteeren,</l>
+						<l>Noch lasteren op kwaad vermoên.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>FILIBERT.</speaker>
+						<l>Mét waare woorden, 'k zélje nimmer weêr misdoen.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Ik bén voldaan; rys op.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Ik zélje voortaan houwen,</l>
+						<l>Voor de aldereerlykste, én deugdelykste aller vrouwen,</l>
+						<l>Kom, Bély, tap terstont een glas mét rinsche wyn,</l>
+						<l>We moeten op het goet succés van peis, de béker</l>
+						<l>Eens storten, want men heer heeft zéker</l>
+						<l>Niet weinig tót de zaak gedaan.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Dat is onnodig, 't word te laat, Heer, ik moet gaan.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Ik zélje niet onreed'lyks vérgen.</l>
+						<l>Kom wat gezeeten. Joris, hier,</l>
+						<l>Ga wilt men mantel in de mantelkas eens bérgen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Joris, Dirk uyt de Kas, en de Voorgaande van het Darde Tooneel.</stage>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Moord! help! een dief! een dief!</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibeet..</speaker>
+						<l>Wél waar toe dit getier?</l>
+						<l>Wat schortje, Joris?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Och? men leeden staan én beeven</l>
+						<l>Van schrik; hier zit een dief verschoolen.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Joris, waar?</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Hier in de Mantelkas.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>SCHOUT.</speaker>
+						<l>Wel, Vent! wat maakje daar?</l>
+						<l>Kom uit de kas, voort, voort.</l>
+					</sp>
+					<sp who="#dirk">
+						<speaker>DIRK.</speaker>
+						<l>Ik heb geen kwaad bedreeven,</l>
+						<l>Men Heer, ook ben ik dief, nóch schélm.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Hoe komje hier in,</l>
+						<l>Jou, Deugeniet? neen, neen, je hebt niet goeds</l>
+						<l>In 't zin.</l>
+					</sp>
+					<sp who="#dirk">
+						<speaker>DIRK.</speaker>
+						<l>Ik vry jou lui 'er meid, men Heer, én wyl jy heeden</l>
+						<l>Van huis gingt, had zy my gebéden,</l>
+						<l>(Terwyl jou Vrouwtje by een ander vast</l>
+						<l>De Nacht verslyten zou,) óf ik by haar te gast</l>
+						<l>Wou komen; 'k sloeg 't niet af, én wil hét ook wél weeten,</l>
+						<l>Dat ik hier lekker heb gegeeten,</l>
+						<l>En lustig toe gedronken, maar,</l>
+						<l>In 't midden van de vreugd vond ik de baan niet klaar.</l>
+						<l>Der wierd geklópt, én wy, die mét gedachten,</l>
+						<l>Zo haast geen onraad wachten,</l>
+						<l>Staan schielyk op, ik kruip in deze kas, om niet</l>
+						<l>Ontdékt te worden; zy doet ópen,</l>
+						<l>En vind daar, tegen al 'er hoopen,</l>
+						<l>Mejuffrouw, mét een Heer, die, om niet meê verspied</l>
+						<l>Te wordén, wyl ze voort, eer dat hy kost vertrékken.</l>
+						<l>Aanklopte, in déze bén met linden hém verstak.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wat zeid die leugenaar?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Waar bénje, Joris, strak</l>
+						<l>Haal uit de ben. Hier zél hem 't schélmstuk zélf ontdékken</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris Volkert uit de ben halende</speaker>
+						<l>Ho! ho! Kozyn neef, heb ik jou daar?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Kom 'er uit,</l>
+						<l>Jou, eervergeete Fielt, jou, Guit!</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Wat zélme eind'lyk overkomen?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>O Schelm! hoe zel ik my betoomen?</l>
+						<l>Wat létme dat ik my niet wreek,</l>
+						<l>En jou opstaande voet doorsteek?</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Zacht, Heer.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Kozyn, ik bid.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Is dat Kozynen?</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Och! Man....</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>o Hoer! o Swyn, der Swynen!</l>
+						<l>Ontken nu, dat je straks my hébt misleid</l>
+						<l>Door jou geveinsde onnozelheid.</l>
+					</sp>
+					<sp who="#joris">
+						<speaker>Joris.</speaker>
+						<l>Ik wéd ze zél nou kleinder zingen.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Ik sta verstélt, myn Heer, wél dit zyn fraaije dingen,</l>
+						<l>En gy, Mejuffer, gy verstaat u op dit spél;</l>
+						<l>Gy doet uw dingen zeker wél.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Foei, dat ik my zo liet bedriegen!</l>
+						<l>Zy dorst my 't geen, ik zélf gezien had, heet en liegen;</l>
+						<l>Dit Schoontje dat wist nergens van.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Myn lieve Man....</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Myn lieve Man!</l>
+						<l>Myn vuile hoer, 'k begeér na dezen</l>
+						<l>Van jou zo niet genoemt te weezen.</l>
+						<l>Ik zél verzoeken, dat de Wét</l>
+						<l>Ons daad'lyk van malkander zét,</l>
+						<l>En dat jy in het Spinhuis, voor je leeven</l>
+						<l>Gebannen word, zo kan je, een goed éksémpel geeven</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Och! Man, dénk om je eigen eer.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely, met een Roemer Wyn.</speaker>
+						<l>Hier is ... maar, och! wat 's dit?</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Kom hier jou, vuile Meer,</l>
+						<l>Jou Pry, die meê de hoerestreeken</l>
+						<l>Verstaat, én flus jou eerelyke Vrouw</l>
+						<l>Hielp liegen, répje, en pakje nou</l>
+						<l>Ten huize uit zonder tégenspreeken.</l>
+						<stage>Tegen Dirk.</stage>
+						<l>En jy, die 't kluwen hébt ontdékt,</l>
+						<l>Het welkje tot verschooning strekt,</l>
+						<l>Ga waarje wiit, én trouw, is 't jou behaagen,</l>
+						<l>Dit Staal, maar maak dat zy 'er leeve daagen,</l>
+						<l>Niet weêr kom onder myn gezicht.</l>
+					</sp>
+					<sp who="#bely">
+						<speaker>Bely.</speaker>
+						<l>Ik ben geen Meer, geen Pry, nóch licht,</l>
+						<l>En sprak ik flus een woord ten bésten</l>
+						<l>Voor Juffrouw.....</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wél hoe zél 't ten léften</l>
+						<l>Noch gaan? 'k zég pakje daad'lyk voort,</l>
+						<l>En spreekme niet een énkel woord,</l>
+						<l>Of 'k laat je meê na 't Spinhuis leijen.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Och! man, héb deernis mét men schreijen;</l>
+						<l>Dénk om myn eerelyk geslacht.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Foei! dat ik daar toe wierd gebragt,</l>
+						<l>En om vergiff'nis bad, die smaad is niet te dulden.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Ik bid, ei! hoor een woord, Kozyn, ik zél al je schulden</l>
+						<l>Kwyt-schélden, zo je uw Vrouw niet schénd, nóch my niet meld.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Wat schenkje me al 't verschoote géld?</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Ja, zo gy alles wilt vergeeten, én vergeeven.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Ja maar ik wil met heur niet leeven.</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Nu, nu, dat stél ik aan de tyd.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Je schéldme, als 't is gezegt, vier duizend gulden kwyt?</l>
+					</sp>
+					<sp who="#volkert">
+						<speaker>Volkert.</speaker>
+						<l>Ja; daar is 't handschrist.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>FILIBERT het stukken scheurende.</speaker>
+						<l>Wel, 't zyn toch gedaane zaaken,</l>
+						<l>Die nimmer weêr zyn goed te maaken.</l>
+						<l>Je meugt voortaan dan zaamen gaan:</l>
+						<l>Kom, kom, hier nou niet lang te staan.</l>
+						<l>Ik zel me troosten dat ér meêr zo zyn bedroogen,</l>
+						<l>Maar kom me nóoit meêr onder de oogen.</l>
+						<l>Myn Heer, 'k vérzoek ook dat je 't hoerhuis ruineert,</l>
+						<l>Daar zy zo sluipend heeft verkeert.</l>
+					</sp>
+					<sp who="#schout">
+						<speaker>Schout.</speaker>
+						<l>Voor alles zal ik dat bezorgen.</l>
+					</sp>
+					<sp who="#geertruy">
+						<speaker>Geertruy.</speaker>
+						<l>Laat ik hier blyven tót de morgen.</l>
+					</sp>
+					<sp who="#filibert">
+						<speaker>Filibert.</speaker>
+						<l>Geen oogenblik, ik wil dat gy terstont vertrékt,</l>
+						<l>Nu dat uw Schyndeugd is ontdékt.</l>
+					</sp>
+					<stage>UYT.</stage>
+					<p>
+						<figure> </figure>
+					</p>
+				</div>
+			</div>
+		</body>
+	</text>
+
+</TEI>
