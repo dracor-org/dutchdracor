@@ -1,0 +1,3482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000073" xml:lang="dut">
+    <teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="main">De Cid</title>
+			<author>
+				<persName>
+					<forename>Pierre</forename>
+					<surname>Corneille</surname>
+				</persName>
+				<idno type="wikidata">Q747</idno>
+			</author>
+			<author>
+				<persName>
+					<forename>Johan</forename>
+					<nameLink>van</nameLink>
+					<surname>Heemskerck</surname>
+				</persName>
+				<idno type="wikidata">Q976241</idno>
+			</author>
+				
+		</titleStmt>
+		<publicationStmt>
+			<publisher xml:id="dracor">DraCor</publisher>
+			<idno type="URL">https://dracor.org</idno>
+			<availability>
+			  <licence>
+			  <ab>CC0 1.0</ab>
+			  <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+			  </licence>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl type="digitalSource">
+				<name>DBNL</name>
+				<idno type="URL">https://www.dbnl.org/tekst/corn001cid_02_01/</idno>
+				<availability status="free">
+					<p>In the public domain.</p>
+				</availability>
+			</bibl>
+			<bibl type="originalSource">
+				<title>Pierre Corneille: De Cid (trans. Johan van Heemskerck). Amsterdam: Erven J. Lescailje, 1697 (reprint).</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<profileDesc>
+		<particDesc>
+			<listPerson>
+				<person sex="FEMALE" xml:id="chimene">
+					<persName>Chimene</persName>
+				</person>
+				<person sex="MALE" xml:id="don-alonso">
+					<persName>Don Alonso</persName>
+				</person>
+				<person sex="MALE" xml:id="don-arias">
+					<persName>Don Arias</persName>
+				</person>
+				<person sex="MALE" xml:id="don-diego">
+					<persName>Don Diego</persName>
+				</person>
+				<person sex="MALE" xml:id="don-ferdinando">
+					<persName>Don Ferdinando</persName>
+				</person>
+				<person sex="MALE" xml:id="don-gomes">
+					<persName>Don Gomes</persName>
+				</person>
+				<person sex="MALE" xml:id="don-rodrigo">
+					<persName>Don Rodrigo</persName>
+				</person>
+				<person sex="MALE" xml:id="don-sanche">
+					<persName>Don Sanche</persName>
+				</person>
+				<person sex="FEMALE" xml:id="dona-urraca">
+					<persName>Dona Urraca</persName>
+				</person>
+				<person sex="FEMALE" xml:id="elvire">
+					<persName>Elvire</persName>
+				</person>
+				<person sex="FEMALE" xml:id="leonora">
+					<persName>Leonora</persName>
+				</person>
+				<person sex="MALE" xml:id="staatjongen">
+					<persName>Staatjongen</persName>
+				</person>
+			</listPerson>
+			</particDesc>
+		<textClass>
+		<keywords>
+			  <term type="genreTitle">Tragedy</term>
+		</keywords>
+		</textClass>
+	</profileDesc>
+    	<revisionDesc>
+    		<listChange>
+    			<change when="2024-09-11">(Lucas van der Deijl) convert from source</change>
+    		</listChange>
+    	</revisionDesc>
+
+
+</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1641">
+				<desc />
+			</event>
+			<event type="premiere" when="1641">
+				<desc />
+			</event>
+			<event type="written" when="1640">
+				<desc />
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/" />
+		</listRelation>
+	</standOff>
+    <text>
+        <front>
+                <docTitle>                    
+                    <titlePart>DE CID,</titlePart>
+                	<titlePart>TREURSPEL.</titlePart>
+                	<titlePart>Uit het Fransch van den Heer Corneille.</titlePart>
+                	<titlePart>Vertoond of de Amsteldamsche Schouwburg.</titlePart>
+                	<titlePart>Den laatsten Druk.</titlePart>
+                	<titlePart><figure/></titlePart>
+                	<titlePart>Te Amsteldam,</titlePart>
+                	<titlePart>By de Erfg: van J: Lescailje, op de Middeldam, op de hoek van de Vischmarkt,
+                        1697.</titlePart>
+                </docTitle>
+            <div type="preface">
+                
+                <head>Voorreden.</head>
+                <p>HEeft ooit Boeksken in zyn eigen taale met een gunstig onthaal
+                    door de waereld gewandeld, of is ooit Schouwspel met volkomene aangenaamheid op
+                    de tooneelen vertoond geweest, 't is de CID; die zynen eersten uitgeever, de
+                    Heer Corneille, ook geen minder lof dan belooning heeft toegebragt. Het verzoek
+                    der zodanige, welker bidden by my gebieden was, heeft 'er my over ettelyke
+                    jaaren de eerste verhandeling van doen in onze Taal brengen, om eens te zien hoe
+                    na men de Fransche aardigheden in ons Duitsch zoude konnen komen; en myn eigen
+                    lust, die door de aanvalligheid van stoffe in 't werken wakkerde, by gebrek van
+                    beter bezigheid, het overige. Dat ik te liever deede, door dien ik my liet
+                    dunken een Hollandsch hert in een Spaanschen boezem gevonden te hebben; dat is,
+                    een onverzettelyken voorstander der Vadelandsche vryheid, en een onvertsaagd
+                    tegenspreeker van den opdrang der uitheemscher heerschappye: die deze CID
+                    afweerd met woorden, recht waardig om door een vryen Hollander tegen den
+                    heerschzucht der hedendaagsche Spanjaarden uytgesproken te zyn: en des te
+                    aanmerkelyker, om dat ze de CID door de pen van een Spaanschen Jesuit (heftig
+                    onder de hevige) in de mond gegeeven werden. Dit wilde ik niet, billyke Leezer,
+                    dat u onbewust zoude zyn, nadien ik niet konde beletten dat u deze malligheden
+                    in de hand zouden komen.</p>
+                <p>Veniam pro laude.</p>
+                <p>Den 15. April, 1640.</p>
+            </div>
+            <castList>
+                
+                <head>Vertooners.</head>
+            	<castItem corresp="#don-ferdinando">
+            		<role>Don Ferdinando, de eerste Koning van
+                            Castilien.</role>
+            	</castItem>
+            	<castItem corresp="#dona-urraca">
+            		<role>Dona Urraca, Infante van
+            			Castilien.</role>
+            	</castItem>
+            	<castItem corresp="#don-diego">
+            		<role>Don Diego, Vader van Don
+                    	Rodrigo.</role>
+                    	</castItem>
+            	<castItem corresp="#don-gomes">
+            		<role>Don Gomes, Grave van Gormas, Vader van
+                    	Chimene.</role>
+                    	</castItem>
+            	<castItem corresp="#don-rodrigo">
+            		<role>Don Rodrigo, Zoon van Don Diego, en Vryer
+                    	van Chimene.</role>
+                    	</castItem>
+            	<castItem corresp="#don-sanche">
+            		<role>Don Sanche, Minnaar van Chimene, en
+                    	medevryer van Don Rodrigo.</role>
+                    	</castItem>
+            	<castItem corresp="#don-arias">
+            		<role>Don Arias, } Castiliaansche
+                    	Edelluiden.</role>
+                    	</castItem>
+            	<castItem corresp="#don-alonso">
+            		<role>Don Alonso, } Castiliaansche
+                    	Edelluiden.</role>
+                    	</castItem>
+            	<castItem corresp="#chimene">
+            		<role>Chimene, Meestersse van Don Rodrigo, en
+                    	van Don Sanche.</role>
+                    	</castItem>
+            	<castItem corresp="#leonora">
+            		<role>Leonora, Voedstervrouw van de
+                    	Infante.</role>
+                    	</castItem>
+            	<castItem corresp="#elvire">
+            		<role>Elvire, Staatjuffrouw van
+                    	Chimene.</role>
+                    	</castItem>
+            	<castItem corresp="#staatjongen">
+            		<role>Een Staatjongen, of Pagie van de Infante.</role>
+                    	</castItem>
+                <p>Het Tooneel moet uitbeelden 't Hof van den Koning, en de Stad van Sivilien. Het
+                    Spel begind 's morgens, en eindigd 's anderen daags tegen de middag.</p>
+            </castList>
+        </front>
+        <body>
+	<div type="act" n="1">
+		<head>De Cid, </head>
+		<head>Eerste Bedryf.</head>
+		<div type="scene" n="1">
+			<head>Eerste tooneel.</head>
+			<stage>Elvire, De Graaf.</stage>
+			<sp who="#elvire">
+				<speaker>Elvir.</speaker>
+				<l>VAn al deez' Vryers, die met dagelyks verkeeren</l>
+				<l>Uw Dochter zoeken aan, en myne gunst begeeren,</l>
+				<l>Betoonen van haar min wel 't aldermeeste blyk</l>
+				<l>Don Rodrig' en Don Sanche, in dienst en plicht gelyk.</l>
+				<l>Niet dat Chimene leend het oor aan haare klagten,</l>
+				<l>Of met een lonkend oog gaat streelen haar gedachten;</l>
+				<l>Maar buiten onderscheid aan ieder een beleefd,</l>
+				<l>Zy niemand hoop beneemt, noch niemand hoop en geeft,</l>
+				<l>En zonder hun te straf of ook te zacht te weezen,</l>
+				<l>Verwacht van uwe keur haar Echtgenoot na dezen.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Zy doet zo als ze hoord; en beide zyn z' haar waard,</l>
+				<l>Beide Adelyk van Stam, en bei door deugd vermaard;</l>
+				<l>Bei jong, maar die voor 's hands doen in haar oogen leezen</l>
+				<l>Der overoud'ren roem in manheid zo gepreezen.</l>
+				<l>Rodrigo boven al en heeft niet eenen trek</l>
+				<l>In 't aanzicht, die zyn moed ten vollen niet ontdek',</l>
+				<l>En die niet uit en beeld de Ridderlyke daaden</l>
+				<l>Van zyn manhafte huis, met Lauw'ren overlaaden.</l>
+				<l>Zyn Vaders dapperheid was zonder wederpaar,</l>
+				<l>Zo lang zyn kracht hem duurde, en zelfs ook noch daar naar</l>
+				<l>Men in de rimpels van zyn voorhoofd vond geschreeven</l>
+				<l>Wat dat hy eertyds was, en wat hy had bedreeven.</l>
+				<l>Zyn Zoon beloofd niet min; en in een woord, myn kind</l>
+				<l>Dat mag wel hebben lief dien ik heb zo bezind.</l>
+				<l>Gaa spreekt 'er daar eens van, maar laat uw aanspraak strekken</l>
+				<l>Te heelen mynen zin, en haaren zin te ontdekken.</l>
+				<l>Wanneer ik weder kom vang ik dit weder aan,</l>
+				<l>Myn uur dat roept my nu om na den Raad te gaan.</l>
+				<l>De Koning zal zyn Zoon een Voedsterheer erweelen,</l>
+				<l>Of my veel eer daar toe verkiezen onder veelen:</l>
+				<l>Want 't gunt myn arm verricht tot voordeel van het Ryk,</l>
+				<l>Maakt dat ik (zo my dunkt) hier niemand in en wyk.</l>
+			</sp>
+			</div>
+		<div type="scene" n="2">
+			<head>Tweede tooneel.</head>
+			<stage>Elvire, Chimene.</stage>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>WAt blyde boodschap breng ik aan deez' jonge Lieven!</l>
+				<l>Hoe voegd zich alles na haar wensch, en herts believen!</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Elvire, wel wat is 't? zeg hoe de zaak toch leid;</l>
+				<l>Wat hoop! wat hulp! wat heeft myn Vader u gezeid?</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>Twee woordjes daar uw heil geheel is aangelegen,</l>
+				<l>Hy acht zo zeer Rodrig' als gy hem zyt genegen.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>De grootheid van 't geluk doet dat ik het mistrouw,</l>
+				<l>Maar mag geloofd zyn, 't geen gy zegt, en ik wel wouw?</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elvir.</speaker>
+				<l>Uw Vader verder gaat, en tot uw vergenoegen</l>
+				<l>Zal hy u lasten u na dit verzoek te voegen:</l>
+				<l>Hy staat zyn vryen toe; nu oordeeld, nademaal</l>
+				<l>Zyn Vader even flus, in 't komen van de Zaal,</l>
+				<l>Na 't scheiden van den Raad de zaake voor zal stellen,</l>
+				<l>Of hy een beter uur kon op de wyzer tellen:</l>
+				<l>En of niet uw gebed, uw wensch, uw's herten lust,</l>
+				<l>Zal weezen haast voldaan, en gy daar door gerust?</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>'t Schynt echter dat myn ziel, met onlust ingenomen,</l>
+				<l>Deez' vreugde niet en vat met daar als voor te schroomen;</l>
+				<l>Een enkel oogenblik luks rad te draaijen plag,</l>
+				<l>En in een groote spoet vrees ik te grooter slag.</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>Gy zult uw vreeze zien op 't wenschelykst bedroogen.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Kom, gaan wy dan, en zien wat wy verwachten mogen.</l>
+			</sp>
+			</div>
+		<div type="scene" n="3">
+			<head>Darde tooneel.</head>
+			<stage>De Infante, Leonora, Staatjongen.</stage>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>LOop na Chimene toe, en zeg haar uit myn naam,</l>
+				<l>Dat zy in haar bezoek den tyd wat beter raam,</l>
+				<l>'t Valt vry wat laat van daag, ik heb 's my te beklaagen.</l>
+			</sp>
+			<sp who="#leonora">
+				<speaker>Leon</speaker>
+				<l>Mevrouw, een zelfde zorg u altyd weêr komt knaagen,</l>
+				<l>Ik zie u vol gepeins, en droevig elken dag,</l>
+				<l>Bevraagen hoe het al met haare Min gaan mag.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>'t Is recht ik daar na vraag, ik heb ze zelfs bewoogen</l>
+				<l>De pylen doel te staan die haar in 't herte vloogen.</l>
+				<l>Zy mind haar Don Rodrig', en heeft hem van myn hand,</l>
+				<l>En door my Don Rodrig' haar ys verkeerd in brand.</l>
+				<l>Dus die van 't zoete paar de boeijen eerst ging smeden,</l>
+				<l>Heb tot de ontboeijing (zo my dunkt) gelyke reden.</l>
+			</sp>
+			<sp who="#leonora">
+				<speaker>Leon</speaker>
+				<l>Mevrouwe, niet te min in 't midden van haar vreugd</l>
+				<l>Zo ziet men u vergaan van enkel ongeneugd.</l>
+				<l>Die liefde, die haar bei kan zo blymoedig maaken,</l>
+				<l>Doet die uw treurig hert zo diepen droefheid smaaken?</l>
+				<l>En deze zoete zorg, die gy dus voor haar neemd,</l>
+				<l>Kan 't zyn dat die u zelfs van alle zoet vervreemd?</l>
+				<l>Maar ik ga al te verre, en werd wat onbescheiden.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Myn droefheid die neemt toe door 't heimelyk belyden;</l>
+				<l>Hoor, hoor doch eind'lyk eens, hoe dat ik heb gestreên,</l>
+				<l>En laakende myn lot, zo loofd myn deugd met een.</l>
+				<l>De min een dwanggod is, die niemand vry laat leeven.</l>
+				<l>Dien jongen Edelman, die ik heb weg gegeeven,</l>
+				<l>Dien min ik.</l>
+			</sp>
+			<sp who="#leonora">
+				<speaker>Leon.</speaker>
+				<l>Mind gy hem?</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Leg op myn hart uw hand,</l>
+				<l>En voel hoe 't zich ontsteld in 't melden van zyn brand,</l>
+				<l>Hoe 't zyn verwinnaar ken.</l>
+			</sp>
+			<sp who="#leonora">
+				<speaker>Leon.</speaker>
+				<l>Vergeef het my, Mevrouwe,</l>
+				<l>Indien ik breek myn plicht met u dit voor te houwen;</l>
+				<l>Te kiezen voor uw lief een enkel Edelman!</l>
+				<l>Wat zal de Koning, als hy 't hoord, hier zeggen van?</l>
+				<l>Een Erfgenaam van 't Ryk haar dus ver te vergeeten!</l>
+				<l>Bedenk wie dat gy zyt; gy schynt het niet te weeten.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>nf.</speaker>
+				<l>Neen, neen, ik weet het wel, en zal myn bloed veel eer</l>
+				<l>Uitstorten, dan myn zelfs zo laag te smyten neêr.</l>
+				<l>Ik kon wel zeggen, dat in de edelste gemoeden</l>
+				<l>Al een verdienst heeft recht de waare min te voeden,</l>
+				<l>En zo myn neiging hier haar onschuld zoeken wou,</l>
+				<l>Zy duizend dingen tot haar voordeel vinden zou.</l>
+				<l>Maar neen, al dit zal my tot geen verkleining strekken,</l>
+				<l>Noch wil met anders vuil myn schennis niet bedekken.</l>
+				<l>Waar ach op eer heeft plaats, lust uitgeslooten werd;</l>
+				<l>En is myn liefde groot, noch grooter is myn hert.</l>
+				<l>Een edel hovaardy gaat my deez' lesse leeren,</l>
+				<l>Dan zynde een Konings kind, een Koning my moet eeren,</l>
+				<l>En al wat minder is, onwaardig is voor my.</l>
+				<l>Dies zynde 't hert verheerd door 't lyden dat ik ly,</l>
+				<l>Zo gaf ik zelver weg 't geen ik niet mogt behouwen,</l>
+				<l>En stelden in myn steê Chimene, op 't betrouwen,</l>
+				<l>Dat, dit te weeg gebragt, 't ontsteeken van haar vlam</l>
+				<l>De myne dooven zou eer die meêr voedzel nam.</l>
+				<l>Vind dan niet langer vreemd dat myn gepynd verlangen</l>
+				<l>Verwacht, met ongeduld, haar blyde Bruiloftszangen.</l>
+				<l>Gy ziet dat myne rust alleen daar in bestaat:</l>
+				<l>Want liefde leefd by hoop, en buiten hoop vergaat.</l>
+				<l>Het is een krachtig vuur, maar moet zeer haast vervallen</l>
+				<l>Door onderhouds gebrek, dit is 't verzet voor 't mallen.</l>
+				<l>Zo dat, in spyt van 't geen myn onheil immer kan,</l>
+				<l>Indien Chimene krygt Rodrigo tot een Man,</l>
+				<l>Myn hoop is daar meê dood, myn hert daar door geneezen,</l>
+				<l>En ik zal weder zyn die ik eens plag te weezen.</l>
+				<l>Doch ly ik midlerwyl oneindelyke smert,</l>
+				<l>En tot haar trouwdag toe leid my Rodrig' in 't hert.</l>
+				<l>Ik poog hem kwyt te zyn, en kan het niet ontbeeren,</l>
+				<l>Ik ben ten einden raad, nu Min my zuchten doet</l>
+				<l>Om 't geen dat ik verwerp, en zelfs stoot met de voet.</l>
+				<l>Ik voel myn bange ziel in tween zich te verdeelen,</l>
+				<l>En of myn moed is groot, het kan myn hert niet heelen.</l>
+				<l>Die trouwval is te vreemd, ik wensch het, en ik vrees 't,</l>
+				<l>En 't geen ik daar door hoop daar ben ik voor bedeest.</l>
+				<l>Myn eer en myne min gebruiken zulke streeken</l>
+				<l>Van onderling geweld, dat zy my 't hert doen breeken,</l>
+				<l>En ik 't besterven moet, 't zy dat dit voortgang heeft,</l>
+				<l>'t Zy dat het achter blyft; geen ding my troost en geeft.</l>
+			</sp>
+			<sp who="#leonora">
+				<speaker>Leon.</speaker>
+				<l>Mevrouw, ik weet u hier niet anders op te zeggen,</l>
+				<l>Dan dat ik met u treur om 't geen niet is te ontleggen:</l>
+				<l>Ik laakten u terstond, maar ik u nu beklaag;</l>
+				<l>Dan nademaal dat in zo bitterzoeten vlaag</l>
+				<l>Uw deugd dus tegenstreefd mins nypen en mins streelen,</l>
+				<l>Zal deugd in uw gemoed ook weêr eens ruste teelen;</l>
+				<l>Heb daar op vry uw hoop, en op de hulp van tyd,</l>
+				<l>Die alle hertenleet en onheil zagjes slyt.</l>
+				<l>Den Hemel is u meê, en zal niet lang verdraagen</l>
+				<l>Dat Deugd onschuldig ly het harde Noodlots slaagen</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Myn alderbeste hoop is hoopeloos te zyn.</l>
+			</sp>
+			<stage>Staatjongen uit.</stage>
+			<sp who="#staatjongen">
+				<speaker>Staatj.</speaker>
+				<l>Mevrouw, op uw bevel zo volgd Chimene myn.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Ga, onderhoud haar wat in geene galderye.</l>
+			</sp>
+			<sp who="#leonora">
+				<speaker>Leon.</speaker>
+				<l>Wilt gy noch blyven dan in deze raazernye?</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Neen, ik wil maar alleen, in spyt van myn verdriet,</l>
+				<l>My wat bezadigen eer my Chimene ziet.</l>
+				<l>Ik volg u datelyk. O Hemel! hoor myn klagten,</l>
+				<l>En wil eens eindelyk myn lyden wat verzachten,</l>
+				<l>Zet eens een perk aan 't leet dat my dus drukt ter neêr,</l>
+				<l>Verzeker myne rust, verzeker doch myn eer:</l>
+				<l>Want door eens anders heil myn heil moet zyn verkeegen,</l>
+				<l>Aan deze trouwdag is ons alle drie gelegen,</l>
+				<l>Vervroeg daar de uitkomst van, of geef myn ziel meêr kracht,</l>
+				<l>Tot reine tegenstand van geile liefdens magt.</l>
+				<l>Deez'minnaars vast aan een door echtenband te voegen,</l>
+				<l>Is 't breeken van myn boei, het wit van myn vernoegen.</l>
+				<l>Doch ik maak 't al te lang; wel gaan wy na Chimeen,</l>
+				<l>Haar onderhoud zal licht my stellen watte vreên.</l>
+			</sp>
+			</div>
+		<div type="scene" n="4">
+			<head>Vierde tooneel.</head>
+			<stage>De Graaf, Don Diego.</stage>
+			<sp who="#don-gomes">
+				<speaker>Graaf.</speaker>
+				<l>GY hebt het eind'lyk weg, en word door gunst verheven</l>
+				<l>Tot vord'ring van een staat die my moest zyn gegeeven.</l>
+				<l>De Koning u 't bestier gund van de Prins zyn Zoon.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Diego.</speaker>
+				<l>Dit blykt van eer, dat hy steld in myn huis ten toon,</l>
+				<l>Wyst uit dat hy bemind het recht, en weet te achten</l>
+				<l>De diensten die, wel eer gedaan, hem nut toebragten.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Graaf.</speaker>
+				<l>Hoe groot een Koning is, hy is een mensch als wy,</l>
+				<l>En valt met zyne keur wel aan de onrechte zy;</l>
+				<l>Ja deez' verkiezing toond aan die te Hoof verkeeren,</l>
+				<l>Dat diensten, nu ter tyd gedaan, haar loon ontbeeren.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Dieg.</speaker>
+				<l>Laat ons niet spreeken meêr van 't geen niet diend tot vreê,</l>
+				<l>De gunst heeft hier gehad by loon van dienst haar steê:</l>
+				<l>'t Kan zyn dat in uw keur waar meêr waardy gevonden,</l>
+				<l>Maar's Konings zinlykheid heeft zich aan my gebonden:</l>
+				<l>By de eer die hy my doet voegd gy daar by noch een,</l>
+				<l>En maakt ons huizen bei door echten band gemeen.</l>
+				<l>Rodrigo mind Chimeen, en haar verheven gaaven</l>
+				<l>Het oogmerk van zyn dienst na haare gunst doen draven,</l>
+				<l>Verwilgd daar in, myn Heer, neemt hem tot Swager aan.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Graaf.</speaker>
+				<l>Rodrigo! neen; die moet nu na wat grooters staan;</l>
+				<l>En door deze aanwas van uw nieuwverkregen staaten,</l>
+				<l>Hy ongetwyffeld hem vry meêr zal dunken laaten.</l>
+				<l>Het ga u wel daar meê; en houd maar recht het stier</l>
+				<l>Van 's Prinsen gladde jeugd, vol van moed, vol van vier,</l>
+				<l>Leer hem hoe dat hy zal met Land en Luiden leeven,</l>
+				<l>De kwaade voor de schrik van strenge straf doen beeven:</l>
+				<l>De goede hebben lief, die koesteren met loon,</l>
+				<l>En door 't gehandhaafd recht bevestigen zyn troon.</l>
+				<l>Voeg daar de deugden by die 't ampt eens Veldheers raaken,</l>
+				<l>Vertoon hem hoe men zich den arbeid licht moet maaken,</l>
+				<l>In krygsplichtsoeffening voor and'ren munten uit,</l>
+				<l>Zich leggen in 't geweer met 't hoofd op een affuit,</l>
+				<l>Den gantschen dag te paard in heete zon te draaven,</l>
+				<l>Een muur te breeken deur, een bolwerk te ondergraaven,</l>
+				<l>Een stad te neemen in, en dat hy zelver mag</l>
+				<l>Doen hellen aan zyn zyd' de zege van een slag.</l>
+				<l>Zyt hem hier 't voorbeeld van, want dit u diend geweeten,</l>
+				<l>Dat gy hem voor moet gaan in 't gund gy hem zult heeten.</l>
+				<l>Het zeggen geld 'er niet als 't op de daad komt aan,</l>
+				<l>En 't oog moet meêr dan 't oor begrypen zulk vermaan.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Dieg.</speaker>
+				<l>Tot voorbeeld hoefd men hem maar voor zyn les te geeven,</l>
+				<l>Te leezen het bedryf van myn beroemde leeven,</l>
+				<l>Daar zal hy in een lang aan een geknoopt verhaal</l>
+				<l>Van heldendaaden zien, hoe dat men door het staal</l>
+				<l>De volkeren betemd, zyn vyand brengt aan 't vluchten,</l>
+				<l>En van verkregen roem doet vliegen de geruchten.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Het levend voorbeeld, wis, dat heeft vry ander kracht,</l>
+				<l>Een Prins leerd in een boek zyn plichten al te zacht.</l>
+				<l>En wat heeft doch verricht uw groot getal van jaaren,</l>
+				<l>Dat niet een enk'len dag van my kan evenaaren!</l>
+				<l>Zo gy eens dapper waart, ik ben het nu ter tyd,</l>
+				<l>En dezen arm die is 't die 't gantsche Ryk bevryd.</l>
+				<l>Grenade, en Arragon voor dezen degen beeven:</l>
+				<l>Myn naam alleen een schrik kan aan de Mooren geeven.</l>
+				<l>Het zou hier zonder my haast neemen weêr zyn keer:</l>
+				<l>En zo gy my niet had, gy hield geen Koning meêr.</l>
+				<l>Elk uur, elk oogenblik, hoopt op door nieuwe daaden</l>
+				<l>Lauwrierkrans op lauwrier, daar ik meê ben verlaaden,</l>
+				<l>De Prins zou, tot een proef van manheid en van moed,</l>
+				<l>Veldslaagen winnen, mids my volgende op de voet;</l>
+				<l>En ver van 't loom gelees, dat voor myn arm moet wyken,</l>
+				<l>Zo zou hy leeren doen met na myn doen te kyken.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Gy spreekt my te vergeefs van 't geen ik weet zo wel,</l>
+				<l>Ik heb u zien te veld gaan onder myn bevel:</l>
+				<l>'t Is waar doen my de kracht bezweek door hooge jaaren,</l>
+				<l>Dat uwe dapperheid myn plaatze kwam bewaaren,</l>
+				<l>En dat, om hier niet van te maaken meêr gewag,</l>
+				<l>Gy heden zyt 't geen ik wel eer te weezen plag.</l>
+				<l>Doch ziet gy, dat in ons dit beide te onderwinden,</l>
+				<l>De Koning tusschen tweên weet onderscheid te vinden.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Het geen ik waardig was aan u gegeeven is.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Die voor u wierd gesteld was 't beter waart gewis.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Die 't best kan voeren uit het beter had geleeken.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Voorby gegaan te zyn is niet het beste teeken.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Met kuipen kreeg gy 't als een loozen hoveling.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>De luister van myn deugd was maar alleen 't verding.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Om wel te zeggen, 't was ten opzicht van uw jaaren.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>De Koning toonde gunst aan kloekheids lang ervaren.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Was 't kloekheid toegeleid 't kwam dezen degen toe.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Hy moest 't niet waard zyn die vergeefs hem zelfs liep moê.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Niet waard zyn! wie?</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Gy.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Ik! hou daar; uw kwaalyk spreeken,</l>
+				<l>Verwaande Grysaart, men op deze wys moet wreeken.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Voleind, en neem al voort myn leeven na deez' hoon,</l>
+				<l>Het eerste dat myn stam te lyden was gewoon.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>En wat meend gy te doen, dus slap, en afgesleeten?</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Helaas! myn zwakken arm heeft zyne kracht vergeeten.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Uw zwaard is in myn magt, maar 'k oordeel 't my geen eer,</l>
+				<l>Dat ik myn hand zou slaan aan dit veracht geweer.</l>
+				<l>Ga heen, en wil de Prins ook dit te leezen geeven,</l>
+				<l>In 't neemen van zyn les uit uw beroemde leeven.</l>
+				<l>Deez' straffe, zo wel waard een opgeblaazen klap,</l>
+				<l>Zal tot goed onderwys verstrekken de eerste trap.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Stort gy myn bloed dan niet?</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Myn ziel heeft zyn genoegen,</l>
+				<l>En myne hand die zou van zulk een doodslag wroegen.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Versmaad gy dan myn lyf?</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Dien draad te snyden af,</l>
+				<l>Was maar een dag vyf zes u brengen eer in 't graf.</l>
+			</sp>
+			</div>
+		<div type="scene" n="5">
+			<head>Vyfde tooneel.</head>
+			<sp who="#don-diego">
+				<speaker>Don Diego alleen.</speaker>
+				<l>O Spyt! ô ramp! ô hoon, ô ongewilde jaaren!</l>
+				<l>Heb ik dus lang geleefd om deze smaad te ervaren?</l>
+				<l>En ben ik onder 's krygs beleid geworden grys,</l>
+				<l>Om in een dag te zien myn eer gemaakt tot prys?</l>
+				<l>Myn arm, die met ontzag gantsch Spanjen plag te vieren,</l>
+				<l>Myn arm, die 't Ryk zo vaak in zyn behoud moest stieren.</l>
+				<l>Zo vaak de Zetel van zyn Koning heeft gestyfd,</l>
+				<l>Verraad my in den nood, en nu verleegen blyft.</l>
+				<l>O wreed geheugen van myn achtbaarheid voorleeden!</l>
+				<l>O werk van zo veel tyds op eene stond vertreeden!</l>
+				<l>O nieuwe waardigheid, bouwvallig voor myn eer!</l>
+				<l>Verheeven stortrots, daar myn heil van struikeld neêr!</l>
+				<l>Ach! moet men van uw ramp de Graaf zich zien beroemen?</l>
+				<l>En sterven zonder wraak, of 't leeven eerloos noemen?</l>
+				<l>Zyt Graave van myn Prins voortaan de Voedsterheer,</l>
+				<l>Dat ampt en laat niet toe een amptman zonder eer;</l>
+				<l>Uw trotze hoovaardy heeft, door dit schendig hoonen,</l>
+				<l>My, tegen 's Konings keur, daar weeten uit te troonen.</l>
+				<l>En gy, roemruchtig tuig van menig heldendaad,</l>
+				<l>Maar nu van stramme leên een noodeloos sieraad;</l>
+				<l>Geweer, wel eer gevreesd, maar dat in dit onteeren</l>
+				<l>My meêr diend tot een pronk dan om my te verweeren:</l>
+				<l>Weg, weg, verlaat voortaan die zo haast is vermand,</l>
+				<l>En voeg u tot myn wraak in een bekwaamer hand:</l>
+				<l>Is Roderik myn zoon, zo moet zyn liefde wyken,</l>
+				<l>En deze vlam het zeil voor grooter vlamme stryken:</l>
+				<l>Myn eer die is de zyne, en deze schimp geleên,</l>
+				<l>Die my treft aan de wang, die springt hem voor de scheen.</l>
+			</sp>
+			</div>
+		<div type="scene" n="6">
+			<head>Zesde tooneel.</head>
+			<stage>Don Diego, Don Rodrigo.</stage>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>ROdrigo, heb je hert?</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Wie 't waar, zo niet myn Vader,</l>
+				<l>Zou 't daat'lyk werden wys.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Hoor hier eens, koom wat nader,</l>
+				<l>'k Erken de sprenkels van myn welgebooren bloed</l>
+				<l>In deze wakkerheid, in dit uw groot gemoed:</l>
+				<l>Myn jonkheid bot weêr uit in zulk geswind beweegen</l>
+				<l>Van ed'le toornigheid, die my niet laat verleegen.</l>
+				<l>Kom, Zoone, kom myn kind, kom beterd myne schand,</l>
+				<l>Kom, wreek my toch.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Van wie?</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Van zulk een snooden hand,</l>
+				<l>Dat zy aan beider eer een doodsteek heeft gegeeven,</l>
+				<l>Door eene vuistslag, doch de schelm had straks het leeven</l>
+				<l>Gelaaten, maar myn kracht bezweek, myn groot gemoed,</l>
+				<l>En dit geweer, dat in myn hand geen nut meêr doed,</l>
+				<l>Dat lever ik aan u, om my daar meê te wreeken;</l>
+				<l>Ga, straf een onverlaat, en wilt zyn trots verbreeken;</l>
+				<l>Beproef daar aan uw moed: want zulken overlast</l>
+				<l>Men niet dan in het bloed des schenders af en wast.</l>
+				<l>Sla dood, of blyft 'er dood. Voorts om verdacht te weezen,</l>
+				<l>Breng ik u voor de vuist een man die is te vreezen:</l>
+				<l>Ik heb hem menigmaal geheel bebloed gezien</l>
+				<l>Ophoopen om hem heen een wal van doode liên.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Zyn naam; want meêr gezeid dat is maar tyd verlooren.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Om u dan in een woord wat meêr noch te doen hooren,</l>
+				<l>Het is een Oorlogsheld die vaak heeft zeeg bestreên,</l>
+				<l>'t Is....</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>'k Bid u maakt een eind.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>De Vader van Chimeen.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>De....</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Antwoord daar niet op, ik weet uw minnetochten;</l>
+				<l>Maar 't leeven zyn ze onwaard die eerloos leven mogten,</l>
+				<l>Hoe waarder die ons schend hoe 't schennis zwaarder is,</l>
+				<l>Kortom gy weet het hoon, de wraak moet gaan gewis.</l>
+				<l>'k Zeg u des niet meêr; maar wil u, noch my verveelen,</l>
+				<l>Toon u een waardig Kind van zulken Vaders teelen:</l>
+				<l>Verdrukt door 't ongeval daar 't noodlot my in steekt,</l>
+				<l>Ga ik 't beschreijen; gy, gaa, loop, vlieg, en ons wreekt.</l>
+			</sp>
+			</div>
+		<div type="scene" n="7">
+			<head>Zevende tooneel.</head>
+			<sp who="#don-rodrigo">
+				<speaker>Don Rodrigo
+                            alleen.</speaker>
+				<l>GEraakt aan 't binnenst van myn hert,</l>
+				<l>Door onvoorzien zo wel als doodelyke schichten,</l>
+				<l>Ellendig wreeker om dit ongelyk te richten,</l>
+				<l>En ongevallig wit van onverdiende smert,</l>
+				<l>Ik sta gelyk een staak, en myne ziel verslaagen</l>
+				<l>Die wykt voor zyne plaagen.</l>
+				<l>Zo na te zien myn min te zyn beloond,</l>
+				<l>Ach! ach! waar wil dit heene?</l>
+				<l>Myn Vader is 't die hier in is gehoond,</l>
+				<l>De Hooner is de Vader van Chimene.</l>
+				<l> </l>
+				<l>Wat voel ik vreemden tegenstryd,</l>
+				<l>Myn eer en myne min my elk om 't seerst bekooren;</l>
+				<l>Een Vaders wraak voldaan is een meesterss' verlooren.</l>
+				<l>'t Een port myn gramschap aan, en 't ander die verbyt;</l>
+				<l>Gebragt tot droeve keur, of in myn Min te sneeven,</l>
+				<l>Of eereloos te leeven.</l>
+				<l>Te wederzyds myn ramp my stoot in 't graf,</l>
+				<l>Ach! ach! waar wil dit heene?</l>
+				<l>Zal ik dit hoon dan laaten zonder straf?</l>
+				<l>Zal zyn gestraft de Vader van Chimene?</l>
+				<l> </l>
+				<l>Vader, Meestersse, en Eer, en Min,</l>
+				<l>Medogenlooze plicht, en overwreed behooren,</l>
+				<l>Al myn vermaak is weg, of al myn eer verlooren,</l>
+				<l>'t Een maak my leevens moê, en 't ander ramp brengt in.</l>
+				<l>O waarde en wreede hoop, van een gemoed groothertig,</l>
+				<l>Maar echter minnesmertig.</l>
+				<l>Eêl vyand van myn aldergrootste heil,</l>
+				<l>Helaas! waar wilt gy heene?</l>
+				<l>Zyt gy in my dat ik myn eer beveil?</l>
+				<l>Zyt gy in my dat ik verlies Chimene?</l>
+				<l> </l>
+				<l>'t Is beter eenmaal dood te zyn,</l>
+				<l>Ik ben niet min verplicht aan myn Meestersse, als Vader,</l>
+				<l>Die zyne schennis wreekt, is haare gunstversmaader,</l>
+				<l>En die dit kan bestaan gevoeld geen minnepyn,</l>
+				<l>Voorkomen wy 't verdriet van tegens haar te derven</l>
+				<l>'t Geen ons doch zou doen sterven.</l>
+				<l>'t Luk loopt my dwers; daar 's niet dat helpen mag,</l>
+				<l>Myn hoop vervliegt daar heene,</l>
+				<l>Wel aan, myn ziel, is sterven uw gelag,</l>
+				<l>Zo sterft, en stoord ten minsten niet Chimene.</l>
+				<l> </l>
+				<l>Te sterven, en niet zyn gerecht,</l>
+				<l>Te loopen na een dood zo dood'lyk mynder eere!</l>
+				<l>Te lyden dat men aan myn naam tot schande keere,</l>
+				<l>Dat ik niet heb de roem myn's huis gehouden hecht!</l>
+				<l>Te ontzien een minnevlam waar af myn ziel van binnen</l>
+				<l>'t Verlies al kan bezinnen!</l>
+				<l>Ach! luist'ren wy niet meêr na dit bedrog,</l>
+				<l>Dat ons stoot los daar heene;</l>
+				<l>Wel aan, myn arm, behoud uw eere toch,</l>
+				<l>Nadien gy moet verliezen uw Chimene.</l>
+				<l> </l>
+				<l>Wis! 't was met myn verstand geen deeg;</l>
+				<l>Ben ik myn Vader niet zo veel als 't lief gehouwen?</l>
+				<l>'t Zy ik blyf in 't gevecht, 't zy door een droef benouwen,</l>
+				<l>'k Zal storten uit myn bloed zo zuiver als ik 't kreeg.</l>
+				<l>'k Beschuldig my alreeds van 't al te lang vertraagen,</l>
+				<l>De wraak moet overdraagen.</l>
+				<l>En schaamrood dus te hebben 't stuk verschoond,</l>
+				<l>Laat 't loopen derwaards heene,</l>
+				<l>Nadien myn Vader is van daag gehoond,</l>
+				<l>En d'Hooner is de Vader van Chimene.</l>
+			</sp>
+			</div>
+		</div>
+	<div type="act" n="2">
+		<head>Tweede bedryf.</head>
+		<div type="scene" n="1">
+			<head>Eerste tooneel.</head>
+			<stage>De Graaf, Don Arias.</stage>
+			<sp who="#don-gomes">
+				<speaker>Graaf.</speaker>
+				<l>'k BEken hier onder ons, het bloed was my wat warm,</l>
+				<l>Toen ik hem gaf de slag, en wat te rad myn arm.</l>
+				<l>Maar nu het is geschied en is 't niet weêr t'herhaalen.</l>
+			</sp>
+			<sp who="#don-arias">
+				<speaker>Ar.</speaker>
+				<l>Laat voor des Konings wil die hooge moed wat daalen.</l>
+				<l>Hy trekt het hem vry aan, en dapperlyk gestoord.</l>
+				<l>Vaart met een vollen ernst in uwe zaake voort.</l>
+				<l>Ook hebt gy niet waar mede in recht u te verweeren,</l>
+				<l>Dus ziet, d'onteerders staat, en grootheid van 't onteeren,</l>
+				<l>Vereisschen schuldbeken, en zonderlinge ootmoed,</l>
+				<l>Dat vry te boven ga 't gund men gemeenlyk doet.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Hy neem my 't leeven dan, dat is in zyn vermogen.</l>
+			</sp>
+			<sp who="#don-arias">
+				<speaker>Arias.</speaker>
+				<l>Wat meêr gehoorzaamheids, en 't zeil min opgetoogen;</l>
+				<l>Stil toch de gramschap van een Prins die u bemind.</l>
+				<l>Hy wil 't zo; zegt gy noch dat gy 't niet goed en vind?</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Graaf.</speaker>
+				<l>Myn vriend, als daar myn eer en achtbaarheid aan stonde,</l>
+				<l>Wat ongehoorzaam zyn waar niet zo grooten zonde:</l>
+				<l>En neemt zy waar al groot, myn diensten aan de kroon</l>
+				<l>Zyn vry meer dan genoeg op dat men zulks verschoon.</l>
+			</sp>
+			<sp who="#don-arias">
+				<speaker>Ari.</speaker>
+				<l>Hoe treflyk ook uw dienst mag zyn, hoe menigvuldig,</l>
+				<l>Een Koning en is noit zyn onderzaad iet schuldig:</l>
+				<l>Gy vleid u zelfs te veel, en moet des zyn bericht,</l>
+				<l>Dat die zyn Prins wel diend niet meêr doet dan zyn plicht.</l>
+				<l>Gy loopt in uw verderf, myn Heer, met dit vertrouwen.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Graaf.</speaker>
+				<l>Ik zal niet van uw raad dan na bevinding houwen.</l>
+			</sp>
+			<sp who="#don-arias">
+				<speaker>Ar.</speaker>
+				<l>Gy hoord te zyn beducht voor 's Konings hooge magt.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Een dag alleen noit man als ik ben té onderbragt.</l>
+				<l>Hy ga zyn magt vry reê tot myne straffe maaken,</l>
+				<l>De Staat zal voor ik val het onderst' boven raaken.</l>
+			</sp>
+			<sp who="#don-arias">
+				<speaker>Arias.</speaker>
+				<l>Hoe! vreesd gy dan niet meêr het opperste gebied?</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Eens Stafs die zonder my hem uit de handen schiet!</l>
+				<l>Hem zelfs is al te veel aan myn behoud geleegen,</l>
+				<l>Myn hoofd in 't vallen zou zyn kroon doen overweegen.</l>
+			</sp>
+			<sp who="#don-arias">
+				<speaker>Arias.</speaker>
+				<l>Laat toe dat reden u de zinnen wat bedaar',</l>
+				<l>En neemt een goed beraad.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Graaf.</speaker>
+				<l>'t Beraad dat is aldaar.</l>
+			</sp>
+			<sp who="#don-arias">
+				<speaker>Ar.</speaker>
+				<l>Wat zal ik zeggen dan? 'k moet rekening gaan geeven.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Dát ik niet toestaan kan in iet verkleind te leeven.</l>
+			</sp>
+			<sp who="#don-arias">
+				<speaker>Ar.</speaker>
+				<l>Bedenkt dat 's Konings wil niet lyd te zyn bepaald.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Het lot dat leid'er al, wat diend'er meêr verhaald.</l>
+			</sp>
+			<sp who="#don-arias">
+				<speaker>Ar.</speaker>
+				<l>Vaar wel dan, nademaal ik niet en kan verrichten:</l>
+				<l>En met Lauwrier bedekt vreesd echter 's bliksemsschichten.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra</speaker>
+				<l>Ik wachte zonder vrees.</l>
+			</sp>
+			<sp who="#don-arias">
+				<speaker>Ar.</speaker>
+				<l>Maar doch niet zonder schâ.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Wy zullen dan voldaan Don Diego zien hier na.</l>
+				<l>Ik stoor my weinig aan zulk onvermogend dreigen,</l>
+				<l>En in het grootst' gevaar is wonderdoen myn eigen,</l>
+				<l>Want daar 't myn eer betreft en zal de wreedste dood</l>
+				<l>My niet verzetten, zelfs in de alderscherpste nood.</l>
+			</sp>
+			</div>
+		<div type="scene" n="2">
+			<head>Tweede tooneel.</head>
+			<stage>Don Rodrigo, De graaf.</stage>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>HEer Graaf, een woord of twee.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Spreek.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Help my uit 't vermoeden,</l>
+				<l>Kend gy Don Diego wel?</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Ja 'k.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Zacht man, wilt u hoeden.</l>
+				<l>Weet gy dat dien goên Heer was in zyn tyd een schat</l>
+				<l>Van deugd, van dapperheid, van eere? weet gy dat?</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>'t Kan zyn.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod</speaker>
+				<l>Dit vuur dat gy my ziet inde oogen blaaken,</l>
+				<l>Weet gy 't zyn bloed te zyn? weet gy 't?</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Wat kan 't my raaken.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Ik zal 't u doen verstaan, vier treedjes maar van hier.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Wel stoute Jongen; hoe!</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Spreek zonder veel getier.</l>
+				<l>Ik ben jong, 't is zo, maar by edel bloed in de aâren</l>
+				<l>En wacht de dapperheid niet na 't getal der jaaren.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>My dus te randen aan! wat losheid speeld hier meê?</l>
+				<l>Men u noch noit en zag den degen uit de scheê.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Men hoefd geen tweede proef van myns gelyk te wachten,</l>
+				<l>Haar eerste handwerk is een meesterstuk te achten.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Weet gy wel wie ik ben?</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Ja; ieder, zo ik raam,</l>
+				<l>Zou beeven, buiten my, van schrik voor uwen naam;</l>
+				<l>In duizend Lauwreblaân, die u het hoofd omgeeven,</l>
+				<l>Schynt van myn nederlaag het ongeval geschreeven:</l>
+				<l>Ik rande als roek'loos aan een arm die't doorgaans wind,</l>
+				<l>Maar hy heeft magts genoeg die zich vol moeds bevind.</l>
+				<l>Aan die zyn Vader wreekt is niets van onvermogen;</l>
+				<l>Uw arm noit neêrlaag had, maar zoud ze krygen mogen.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gr.</speaker>
+				<l>Dat groot gemoed dat in deez' taal drukt uit zyn schyn,</l>
+				<l>Zich daag'lyks uit uw oog ontdekken quam aan 't myn:</l>
+				<l>En werdende gewaar de deugd die in u blikte,</l>
+				<l>Myn hert met volle vreugd myn Dochter u toeschikte.</l>
+				<l>Ik weet hoe gy haar mind, en ben verblyd te zien</l>
+				<l>Dat uwe tochten voor uw plichtschuld moeten vliên:</l>
+				<l>Dat die niet flaauwen doen uw dapp're vierigheden,</l>
+				<l>Noch uw verheven Deugd gezonken is beneden</l>
+				<l>Het geen ik daar van hield; dus hebbende gehaakt</l>
+				<l>Te krygen tot myn Zoon een Ridder heel volmaakt,</l>
+				<l>Bevind ik in myn keur my niet te zyn bedroogen,</l>
+				<l>Doch ik gevoel myn hert heel over u bewoogen,</l>
+				<l>Ik prys uw hoog gemoed, maar ik beklaag uw jeugd,</l>
+				<l>Verzoekt geen proef te doen die gy niet haalen meugt.</l>
+				<l>Geef mynen arm verlof om dit gevecht te myden,</l>
+				<l>Dat al te ongelyk geen eer heeft van zyn stryden:</l>
+				<l>Te vechten zonder vaar is winnen zonder roem:</l>
+				<l>Wat lof leid in 't verderf van zulk een jongen bloem?</l>
+				<l>Men zal u met een vuist gelooven neêrgeslaagen,</l>
+				<l>En ik zou maar 't verdriet van uwe dood weg draagen.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Verkeerd meêdoogen volgd uw schendig stuk; die de eer</l>
+				<l>My neemen derft, die schroomd myn leeven (schynt het) meêr.</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Gaa heenen uwes weegs.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Gaan wy al stil ter werven?</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Zyt gy uw leeven moê?</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Zyt gy bevreesd voor sterven?</l>
+			</sp>
+			<sp who="#don-gomes">
+				<speaker>Gra.</speaker>
+				<l>Kom gy, voldoed uw plicht. Een Zoon toond zich ontaard,</l>
+				<l>Wien meêr zyn leeven dan zyns Vaders eer is waard.</l>
+			</sp>
+			</div>
+		<div type="scene" n="3">
+			<head>Derde tooneel.</head>
+			<stage>De Infante, Chimene, Leonora.</stage>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>STil, myn Chimene, stil uw innerlyk bedroeven,</l>
+				<l>Deze opgekomen ramp wil uw geduld beproeven,</l>
+				<l>Gy zult na korten storm weêr kalmte zien verwekt,</l>
+				<l>'t Is maar een kleine wolk die uw geluk bedekt;</l>
+				<l>En door wat uitstels kan 'er niet veel zyn verlooren.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Myn hert, vervuld met vrees, mag na geen hoope hooren;</l>
+				<l>Een onweêr dat zo snel na zulk een stilte komt,</l>
+				<l>Een wisse schipbreuk dreigd, van enkel onheil bromd,</l>
+				<l>Daar is geen twyffel aan, ik sneuvel in de haven;</l>
+				<l>Ik minde, was bemind, ons Vaders 't jawoord gaven,</l>
+				<l>En ik aan u daar van de blyde boodschap brogt,</l>
+				<l>Op 't eigen oogenblik dat haaren onlust wrocht,</l>
+				<l>'t Verhaal waar af u niet zo haast is voorgedraagen,</l>
+				<l>Of 't heeft van 't zoet verwacht al 't steunzel ingeslaagen.</l>
+				<l>Vervloekte Staatzucht, en verwaande hovaardy,</l>
+				<l>Waar door de beste meest geraaken in de ly:</l>
+				<l>Gestrenge naam van eer, de moordpriem van myn lusten,</l>
+				<l>Wat kost gy my al leets? hoe gaat gy my ontrusten?</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Gy hebt geen oorzaak dus te vreezen dit verschil,</l>
+				<l>Een oogeblik blies 't op, en 't weder blussen wil:</l>
+				<l>'t Is al te ruchtbaar om in onheil uit te breeken,</l>
+				<l>De Koning wil alreeds het werde vergeleeken.</l>
+				<l>En zo veel my belangt, gevoelig van uw schâ,</l>
+				<l>Zal ik doen wat ik kan dat alles wel vergâ.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Verdraagen geld'er niet in diergelyke zaaken,</l>
+				<l>Want hoon aan de eer gedaan en is niet goed te maaken:</l>
+				<l>Vergeefs men daar toe magt en wysheid brengt by een,</l>
+				<l>En zo men 't kwaad geneesd, 't is maar in schyn alleen.</l>
+				<l>Ja haat die heim'lyk woed in de eens ontstelde zinnen,</l>
+				<l>Ontsteekt een vinnig vuur met meerder kracht van binnen.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Den zoeten echten band, daar uw Rodrigoos hert</l>
+				<l>Aan zyn Chimene door zo vast verbonden werd,</l>
+				<l>De Vaders te gelyk zal op een nieuw vereenen,</l>
+				<l>En door dit huuw'lyks heil van alle tweedracht speenen.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Ik wensch het zo veel eer dan ik 's in hoope ben,</l>
+				<l>Don Diego is te trots, en ik myn Vader ken;</l>
+				<l>Ik voel een traanenvloed die ik niet kan weêrhouwen,</l>
+				<l>'t Voorleên my smert, en derf 't aanstaande niet vertrouwen.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Wat maakt u dus benaauwd? een afgeleefd oud man?</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Hy heeft een Zoon vol moeds.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>'t Volwassen schort 'er an.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Wie dapper weezen zal die wil al vroeg beginnen.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Hy is te zeer verliefd, en die te recht beminnen</l>
+				<l>Mishaagen al te noô de geen die haar behaagd:</l>
+				<l>Een woord, wanneer gy wilt, zyn toorn uit hem verjaagd.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Maar hoord hy na my niet, hoe zal ik 't dan aanleggen?</l>
+				<l>En geeft hy my gehoor, wat zal men van hem zeggen?</l>
+				<l>Hy, zynde een Edelman, te lyden zulken smaad!</l>
+				<l>'t Zy dat hy plaatze geeft, 't zy dat hy tegenstaat</l>
+				<l>De vonk die in hem vlamd, myn wensch die blyft verlegen</l>
+				<l>Door schaamte of door spyt; beschaamd van zynent wegen</l>
+				<l>Zo hy myn wil komt na, vol spyt te zyn ontzeid</l>
+				<l>Indien hy meêr zyn eer als myne min toeleid.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Chimenes hert draafd hoog, en neemt in geen bedenken,</l>
+				<l>Hoe na het haar ook ga iet dat haar eer mag krenken,</l>
+				<l>Maar of ik tot 'er tyd dat dit zy bygeleid,</l>
+				<l>Deez' vryer nam te Hoof in myn verzekerdheid,</l>
+				<l>En zo by dwang de drift zyns arrenmoeds hield binnen,</l>
+				<l>Zou 't geenen nadocht voên in uw verliefde zinnen?</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim</speaker>
+				<l>Ach! doet gy dat, Mevrouw, zo ben ik buiten schroom.</l>
+			</sp>
+			</div>
+		<div type="scene" n="4">
+			<head>Vierde tooneel.</head>
+			<stage>De Infante, Staatjongen, Chimene, Leonora.</stage>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>STaatjongen, zoekt Rodrig', zeg dat hy by my koom.</l>
+			</sp>
+			<sp who="#staatjongen">
+				<speaker>Staatj.</speaker>
+				<l>De Graave van Gormas, en hy....</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Ach! ach! ik beeve.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Spreek.</l>
+			</sp>
+			<sp who="#staatjongen">
+				<speaker>Staatj.</speaker>
+				<l>Hebben uit het Hof haar te gelyk begeeven.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Alleen?</l>
+			</sp>
+			<sp who="#staatjongen">
+				<speaker>Staatj.</speaker>
+				<l>Alleen, en, zo 't geleek, met onderlinge twist.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Zy zyn wis handgemeen, 't is al te wel gegist.</l>
+				<l>Mevrouw, ik bid hou my deez' haastigheid ten goede.</l>
+			</sp>
+			</div>
+		<div type="scene" n="5">
+			<head>Vyfde tooneel.</head>
+			<stage>De Infante, Leonora.</stage>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>HElaas! wat voel ik voor een wroegen in my woeden!</l>
+				<l>'k Beklaag haar ongeval, en zal ik haar verraân?</l>
+				<l>Myn rust verlaat my, en myn brand gaat weder aan.</l>
+				<l>'t Geen dat Rodrigo doet van zyn Chimene scheiden,</l>
+				<l>Komt door een nieuwe hoop my tot nieuw lyden leiden:</l>
+				<l>En haare tweespalt, die ik aanschouw met verdriet,</l>
+				<l>In myn bekoorde ziel een stil verheugen giet.</l>
+			</sp>
+			<sp who="#leonora">
+				<speaker>Leon.</speaker>
+				<l>De Deugd in uw gemoed zo hoog ten top gezeeten,</l>
+				<l>Is die door snoode min zo haast ter neêr gesmeeten?</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Ei! noemd ze niet meêr snood, nadien ze nu by my</l>
+				<l>In volle praal geplaatst het recht heeft aan haar zy.</l>
+				<l>Draagd haar eerbieding toe nu zy my mag behaagen;</l>
+				<l>Myn Deugd bestryd ze wel, maar hoope leid my laagen,</l>
+				<l>Terwyl de min, helaas! weêr in myn boezem glyd,</l>
+				<l>En na een Minnaar haakt die nu Chimene is kwyt.</l>
+			</sp>
+			<sp who="#leonora">
+				<speaker>Leon.</speaker>
+				<l>Laat gy dit hooge hert zo laag dus licht'lyk vallen,</l>
+				<l>En gaat gy redenloos u geeven tot zulk mallen?</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf</speaker>
+				<l>Ach! met hoe weinig nut leend iemand reden 't oor,</l>
+				<l>Wanneer de ziel geraakt te hollen buiten 't spoor!</l>
+				<l>Want als de zieke zelfs bemind zyn eigen quaalen,</l>
+				<l>En kan hy niet verstaan daar raad voor te doen haalen.</l>
+			</sp>
+			<sp who="#leonora">
+				<speaker>Leon.</speaker>
+				<l>De hoop verlokt u, en uw ziekte schynt uw zoet;</l>
+				<l>Doch blyf Rodrigo uws onwaardig wat gy doet.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>'k Weet het niet dan te wel, maar zo myn deugd moet zwichten,</l>
+				<l>Zo hoord wat vreemder hoop de Min kan in my stichten,</l>
+				<l>Indien Rodrigo komt verwinnaar uit het Veld,</l>
+				<l>En zulk een Oorlogsman valt onder zyn geweld,</l>
+				<l>Mag ik 'er zonder schand, als Minnaar, werk van maaken,</l>
+				<l>Want wat zal hy niet doen kan hy dit boven raaken!</l>
+				<l>Ik derf my beelden in, dat onder zyn beleid</l>
+				<l>Het Ryk aan alle kant zal werden uitgebreid:</l>
+				<l>En 't vleijen van de Min doet dat ik nu al raade</l>
+				<l>Dat hy eerlang de kroon zal draagen van Grenade,</l>
+				<l>De Mooren te onderbragt hem zullen bidden aan,</l>
+				<l>Arragon zynen arm zal werden onderdaan,</l>
+				<l>Portugaal 't geeven op, enzyne Heldendaaden</l>
+				<l>Aan de overzyd' des zees met lof hem zullen laaden:</l>
+				<l>Kort om, al wat men zeid dat ooit door mannekracht,</l>
+				<l>Door dapperheid, door deugd, te weege was gebragt,</l>
+				<l>Ik van Rodrigo hoop na dit zyn overwinnen;</l>
+				<l>En vind dus in hem stof wel waardig om te minnen.</l>
+			</sp>
+			<sp who="#leonora">
+				<speaker>Leon.</speaker>
+				<l>Maar zie, Mevrouw, hoe ver gy zynen arm dringt aan.</l>
+				<l>In een gevechts gevolg dat licht nooit aan zal gaan</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Rodrigo is gehoond, de Graaf heeft 't hoon bedreeven,</l>
+				<l>Zy zyn na buiten toe; wat kan men blyks meêr geeven?</l>
+			</sp>
+			<sp who="#leonora">
+				<speaker>Leon.</speaker>
+				<l>Maar neemt dat dit gevecht al zeker zy gesteld,</l>
+				<l>Is 't niet vry volle vroeg dat gy zulk oordeel veld?</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Wat wilt gy? ik ben mal, en myne zinnen maalen,</l>
+				<l>En dit noch 't minste kwaad van myne minnekwaalen.</l>
+				<l>Kom met my in 't vertrek, en troost my in myn leed,</l>
+				<l>Noch laat my niet alleen nu gy myn euvel weet.</l>
+			</sp>
+			</div>
+		<div type="scene" n="6">
+			<head>Zesde tooneel.</head>
+			<stage>De Koning, Don Arias, Don Sanche, Don Alonso.</stage>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>DE Graaf is dan zo los, zo waanwys, zo vermeeten,</l>
+				<l>Dat hy zyn misdaad meend vergeeven en vergeeten?</l>
+			</sp>
+			<sp who="#don-arias">
+				<speaker>Ari.</speaker>
+				<l>Ik heb hem uit uw naam daar lang op ondergaan.</l>
+				<l>Maar niet verricht, al heb ik, Heer, myn best gedaan.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>O Hemel! zal dan dus een Onderzaat versmaaden</l>
+				<l>Zyn plicht van hulde en trouw door roekelooze daaden!</l>
+				<l>Don Diego hoond hy, en op 's Konings wil niet let,</l>
+				<l>Ja midden in myn Hot zo steld hy my de wet.</l>
+				<l>Laat hem een dapper Held en een groot Krygsman weezen,</l>
+				<l>Ik zal hem van die kwaal, ik zweer 't hem, wel geneezen,</l>
+				<l>Al was hy enkel staal, ja Mars in menschen schyn,</l>
+				<l>Hy zal zien wat het is my ongehoorzaam zyn.</l>
+				<l>Ik weet hoe dat men moet zo fiere zinnen temmen,</l>
+				<l>En heb dat harde hair wat zacht eerst willen kemmen,</l>
+				<l>Maar nu hy zulks misbruikt, ga heen van dezen dag</l>
+				<l>Verzeker u van hem, daar koom van wat het mag.</l>
+			</sp>
+			<sp who="#don-sanche">
+				<speaker>Sanc.</speaker>
+				<l>'t Kan zyn een weinig tyds zou hem meêr buigzaam maaken,</l>
+				<l>Men heeft hem voor gehad noch heel verhit; 't zyn zaaken,</l>
+				<l>Heer Koning, die 't gemoed doen zieden in 't begin,</l>
+				<l>Een hert zo moedig, kan zich kwaalyk toomen in.</l>
+				<l>Hy heeft wel ongelyk, maar zulke zielen konnen</l>
+				<l>Tot ongelyks beken zo haast niet zyn gewonnen.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Don Sanche, zwyg, en zwicht, want gy dit weeten zult,</l>
+				<l>Men zich schuldplichtig maakt in 't spreeken voor deez'</l>
+			</sp>
+			<sp who="#don-sanche">
+				<speaker>San.</speaker>
+				<l>Ik zwicht, Heer, en ik zwyg; maar laat een woord toch leggen</l>
+				<l>De grond tot zyn verschoon.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Wel wat weet gy te zeggen?</l>
+			</sp>
+			<sp who="#don-sanche">
+				<speaker>San.</speaker>
+				<l>Dat een gemoed gewend niet dan iets groots te doen,</l>
+				<l>Zich zwaarlyk buigen kan tot de ootmoed van een zoen:</l>
+				<l>Het ziet daar toe geen raad als ingewikt met schanden,</l>
+				<l>En hier op heeft alleen de Graaf getoond zyn tanden:</l>
+				<l>Hy vind in deze plicht iet dat hem tegen werd,</l>
+				<l>En zou gehoorzaam zyn had hy een minder hert.</l>
+				<l>Gebied dat zynen arm, volwasschen onder 't vechten:</l>
+				<l>Door 't punt van zyn rapier dit ongelyk ga rechten,</l>
+				<l>Hy zal 't u bet'ren, Heer, 't is buiten alle zorg,</l>
+				<l>En tot het hem zy kond, ziet hier 't geen blyft zyn borg.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon</speaker>
+				<l>Gy breekt door het ontzag; maar ik vergeef 't uw jaaren,</l>
+				<l>En min deez' vierigheid in jonkheids wedervaaren;</l>
+				<l>Een Koning, die zyn doen met ryper raad omgeeft,</l>
+				<l>Der Onderzaaten bloed in meerder achting heeft.</l>
+				<l>Ik waak voor myn Gemeent', bestier ze door de reden,</l>
+				<l>Gelyk het hoofd draagt zorg voor al de minder leeden.</l>
+				<l>Dus 't geen dat u dunkt recht en is geen recht by myn,</l>
+				<l>Gy spreekt als een Soldaat, ik moet een Koning zyn,</l>
+				<l>En wat men zeggen mag, en hoe men 't wil gelooven,</l>
+				<l>De Graaf zal door deez' plicht zyn achtingsglans niet dooven,</l>
+				<l>Dat meer is, 't hoon raakt my, hy heeft geschandvlekt de eer</l>
+				<l>Van hem die ik myn Zoon koos tot een Voedsterheer,</l>
+				<l>En, door het stout bestaan van zulke onheils neepen,</l>
+				<l>Heeft hy hem aan myn keur, en aan my zelfs vergreepen.</l>
+				<l>Ik ben 't die hy voldoet als hy deze ondaad recht;</l>
+				<l>Maar 't is daar van genoeg. Voort diend u noch gezegt,</l>
+				<l>Dat ons de vyand dreigd; ik vrees voor een verrassen.</l>
+			</sp>
+			<sp who="#don-arias">
+				<speaker>Arias.</speaker>
+				<l>De Mooren zouden die weêr wat te raaken passen?</l>
+				<l>En wel een aanslag op ons hebben in den zin?</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Men heeft haar Vloot gezien te Zeewaart steeken in,</l>
+				<l>En u is wel bekend dat in zeer weinig uuren</l>
+				<l>Men die met eene vloed kan hier ter reede stuuren.</l>
+			</sp>
+			<sp who="#don-arias">
+				<speaker>Arias.</speaker>
+				<l>Zo menig zwaar verlies heeft haar benomen 't hert,</l>
+				<l>Dat uw ontziene magt noch meêr zou zyn getert.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Dat baat niet, wantzy noit en zullen mogen lyen,</l>
+				<l>Dat ik myn voet dus vast zet in Andalousyen,</l>
+				<l>En zulken schoonen streek van afgenomen grond,</l>
+				<l>Die wakkerd haare wrok tot wraak schier te elker stond.</l>
+				<l>Dit is de reden die my heeft hier in Seviljen</l>
+				<l>Doen stellen zints tien jaar de zeetel van Castiljen,</l>
+				<l>Om haar dicht by te zyn en vaardig op het spoot</l>
+				<l>Te dempen in den dop al wat zy neemen voor.</l>
+			</sp>
+			<sp who="#don-arias">
+				<speaker>Arias.</speaker>
+				<l>Zy hebben wel geleerd ten koste van haar hoofden,</l>
+				<l>Hoe zwaarlyk men u weêr, van 't geen gy wind, beroofden;</l>
+				<l>Te groote vrees is kwaad.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>'t Verzuim dat is noch qua'er,</l>
+				<l>En die te veel vertrouwd die noodigd het gevaar;</l>
+				<l>Ja zelfs de vyand, die gy hebt voorheen geslaagen,</l>
+				<l>Zo gy uw kans verkykt, zal 't voordeel u ontjaagen.</l>
+				<l>Dan echter 't waar niet goed, de tyding zynde onwis,</l>
+				<l>Te strooijen onder 't volk een nachtschrik by de gis:</l>
+				<l>Den angst, die wapenroep zou nodeloos omvoeren,</l>
+				<l>Mogt, mits de duisterheid, de Stad te zeer beroeren,</l>
+				<l>Nadien myn goede wacht houd tegens allen nood,</l>
+				<l>Is 't voor als u genoeg.</l>
+			</sp>
+			<sp who="#don-alonso">
+				<speaker>Alon.</speaker>
+				<l>Myn Heer, de Graaf is dood;</l>
+				<l>Don Diego, door zyn Zoon zyn onlust heeft gewrooken.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Van dat ik wist de wrok heb ik de wraak voorsprooken,</l>
+				<l>En wou dit ongeval verhoeden van toen af.</l>
+			</sp>
+			<sp who="#don-alonso">
+				<speaker>Alon.</speaker>
+				<l>Chimene, vol van rouw, komt vorderen de straf,</l>
+				<l>En met een traanenvloed eischt recht van uwe handen.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Hoewel ik voel myn ziel tot haar ontferming branden,</l>
+				<l>Nochtans het geen de Graaf begaan heeft, hier gezeid,</l>
+				<l>Heeft wel verdiend dit loon van zyn vermetelheid.</l>
+				<l>Doch of hy 't schoon verdiend, het valt my hert te missen</l>
+				<l>Een zulken Oorlogsheld, en na het kloek beslissen</l>
+				<l>Van menig groot gevaar, na menigmaal den Staat</l>
+				<l>Te hebben met zyn bloed in trouwe dienst gebaad,</l>
+				<l>Al is 't dat zyne trots niet was om te verdraagen,</l>
+				<l>Noch smert my zyn verlies, en moet zyn dood beklaagen.</l>
+			</sp>
+			</div>
+		<div type="scene" n="7">
+			<head>Zevende tooneel.</head>
+			<stage>De Koning, Don Diego, Chimene, Don Sanche, Don Arias, Don
+                            Alonso.</stage>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>REcht! recht, Heer Koning, recht!</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Heer Koning, weest my goed.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Ik werp my voor u neêr.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Ik val voor u te voet.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Ik vorder recht van u.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Wilt myn verdeeding hooren.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>'k Eisch wraake van een moord.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>'t Was straf van hoon, in tooren.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Rodrigo, Heer....</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Die deê gelyk een eerlyk man.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Die stak myn Vader dood.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Zyn Vader pord' hem an.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Een Prins is schuldig recht aan 't bloed der Onderzaaten.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Voor een gerechte wraak het recht wat moet ontlaaten.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon</speaker>
+				<l>Ryst bei te gader op, en redend een voor een.</l>
+				<l>Chimene, ik heb myn rouw met uwen ramp gemeen,</l>
+				<l>En ik voorwaar uw leet met hertenleet aanhoorden.</l>
+				<l>Gy krygt uw beurt daar na, valt haar niet in haar woorden.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Heer Koning, wat verdriet! myn Vader die is dood,</l>
+				<l>En ik zag 't drabbig bloed dat uit zyn wonde vlood;</l>
+				<l>Dat bloed, dat zich zo vaak voor uwen Staat ging wagen,</l>
+				<l>Dat bloed, dat u verkreeg de zeeg van zo veel slaagen,</l>
+				<l>Dat bloed, dat op de grond noch rookt van enkle spyt,</l>
+				<l>Dat het zich ziet gestort voor minder als gy zyt.</l>
+				<l>'t Gund midden in 't gevaar geen kryg ooit dorst vergieten,</l>
+				<l>Rodrigo in uw Hof doet langs der aarde vlieten:</l>
+				<l>En voor zyn proefstuk, hy met zulken fraaijen daad</l>
+				<l>Van zulken vasten stut ontzet heeft uwen Staat.</l>
+				<l>Heeft van uw Oorlogsvolk de moed ter neêr geslaagen,</l>
+				<l>De hoop weêr opgerecht van die u haat toedraagen.</l>
+				<l>Ik kwam, ach! op de plaats heel machteloos, en bleek,</l>
+				<l>En vond hem overleên, Heer Koning, ik bezweek;</l>
+				<l>Vergeef 't my zo myn smert myn stemme doet verstyven,</l>
+				<l>Myn traanen en gezucht de rest u schuldig blyven.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Hou moed, myn waarde kind, en weet dat van voortaan</l>
+				<l>Uw Koning u in steê wil van een Vader staan.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Myn Heere, te veel eers geschiede aan myn ellende;</l>
+				<l>Ik kwam dan machteloos, en vond zyn leeven te ende.</l>
+				<l>Hy sprak my wel niet aan, maar dat vry dieper dreef,</l>
+				<l>Zyn bloed in 't vochte stof my myne plicht voorschreef:</l>
+				<l>Of eer, zyn dapperheid genooddruft te ondergaande,</l>
+				<l>Sprak tot my door zyn wond, en my tot wraak vermaande.</l>
+				<l>En om zyn overlast aan u te maaken kond,</l>
+				<l>Ontleent daar toe myn stem door zulken droeven mond.</l>
+				<l>Heer Koning, duld toch niet, dat onder uwe oogen,</l>
+				<l>Een ongestutte loop van moord heb zulk vermoogen,</l>
+				<l>Dat, zonder strafs gevolg, de beste van het Land</l>
+				<l>Zyn onder lyfsgevaar van elks verwaande hand:</l>
+				<l>Dat zich een jonge wulp beroeme van haar sneeven,</l>
+				<l>Zich baaden in haar bloed, en haar beneeme 't leeven.</l>
+				<l>Een zulk een Oorlogsheld, waar van men u beroofd,</l>
+				<l>By wraaks gebrek den ernst tot uwen dienst verdoofd.</l>
+				<l>In 't kort, myns Vaders dood eisch ik te zien gewrooken,</l>
+				<l>Meêr tot uw nut dan om u voor my op te stooken.</l>
+				<l>Uw Staat verliest in het verlies van zulken man,</l>
+				<l>Wreek bloed met bloed, en doet de dood den dooder an,</l>
+				<l>Laat hem en zyn geslacht, zo verre als het kan rekken,</l>
+				<l>Zoenoffer voor deez' zonde aan 't gantsche Land verstrekken.</l>
+				<l>De zon, die alles ziet, en ziet niet hier op aard,</l>
+				<l>Dat zulk een dierbaar bloed is in betaaling waard.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Don Diego, antwoord nu.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Wat is men vol gelukken,</l>
+				<l>Wanneer men met zyn kracht zich 't leeven voeld ontrukken,</l>
+				<l>En wat brengt ouderdom aan menig groot gemoed,</l>
+				<l>Met zyne zwakheid, Heer, een zwaaren tegenspoed.</l>
+				<l>Ik, die wel eer gewend was altyd te overwinnen,</l>
+				<l>Die door gedaane dienst my deed alom beminnen,</l>
+				<l>Die zie my nu, vermits ik heb te lang geleefd,</l>
+				<l>Onteerd door schendig hoon, en dat my wraak begeeft.</l>
+				<l>'t Geen noit vermogt beleg, noch slag, noch ongenade,</l>
+				<l>'t Geen noit vermogt Argier, Arragon, noch Grenade,</l>
+				<l>'t Geen noit uw vyand, noch myn haater heeft bestaan,</l>
+				<l>Dat is my in uw Hof door hoogmoed aangedaan.</l>
+				<l>Myn eer is daar geschend ten trots van myne jaaren.</l>
+				<l>Myn zwaaren ouderdom men dorst met schimp verzwaaren;</l>
+				<l>Heer Koning, op deez' wys zo zou dit gryze hair,</l>
+				<l>Versleeten in 't helmet by menig krygsgevaar,</l>
+				<l>Dit bloed, in uwen dienst zo ridderlyk vergooten,</l>
+				<l>Deze arm, wel eer de schrik van 's vyands vaste slooten,</l>
+				<l>Met oneer gaan in 't graf, had ik niet voortgebragt</l>
+				<l>Een Zoon, wel waard zyn Land, zyn Koning, zyn geslacht,</l>
+				<l>Hy leende my zyn hand, hy heeft de Graaf doorsteeken,</l>
+				<l>Myn eere weêr hersteld, myn oneer derven wreeken;</l>
+				<l>Zo 't toonen van zyn moed, ook met gevaar van 't graf,</l>
+				<l>Zo eene vuistslags wraak verdiend een wreede straf,</l>
+				<l>Op my, op my alleen, moet dezen bliksem vallen;</l>
+				<l>Wanneer den arm misdoet, het hoofd ontgeld het mallen</l>
+				<l>Van 't geen 'er is misdaan, van de oorzaak van 't gekarm</l>
+				<l>Ben ik, Heer Koning, 't hoofd, hy is alleen den arm.</l>
+				<l>Beklaagd Chimene zich van dat hy heeft verslaagen</l>
+				<l>Haar Vader, hy en had het noit behoefd te waagen</l>
+				<l>Had ik het konnen doen. Behoud den arm u dan,</l>
+				<l>En offerd haar het hoofd, dat geen meêr dienst doen kan.</l>
+				<l>Ten kosten van myn lyf voldoed vry, Heer, Chimene,</l>
+				<l>Ik pleeg geen tegenweer, ik ga gewillig heene;</l>
+				<l>En ver van het verwyt dat ik geen schuld en weet,</l>
+				<l>Zo 'k buiten oneer sterf, zo sterf ik zonder leed.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>De zaak is van gewicht, en ryp'lyk overwoogen,</l>
+				<l>Verdiend voor het gerecht des vollen Raads betoogen.</l>
+				<l>Don Sanche, breng Chimeen in zekerheid weêr t'huis,</l>
+				<l>Don Diego heb myn Hof tot zyn gevangenhuis,</l>
+				<l>Zyn Zoon zy nagezocht, ik zal u rechtsdwang geeven.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>'t Is recht, Heer Koning, dat een Moorder misse 't leeven.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Stil uw verdriet, myn kind, en stel uw hert gerust.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Bevel van rust is my maar aanwas van onlust.</l>
+			</sp>
+			</div>
+		</div>
+	<div type="act" n="3">
+		<head>Darde bedryf.</head>
+		<div type="scene" n="1">
+			<head>Eerste tooneel.</head>
+			<stage>Elvire, Don Rodrigo.</stage>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>ROdrigo! wel hoe nu? rampzalig wicht, wat doe je?</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Ik volg de wreede klem van myn hard noodlots bloeije.</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>Van waar komt u deez' trots en deze nieuwe moed,</l>
+				<l>Dat gy verschynd ter plaats die gy besmet met bloed?</l>
+				<l>Hoe! derft gy noch tot hier des Graaven schim aanranden?</l>
+				<l>Bragt gy hem niet ter dood?</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Zyn leeven was myn schande,</l>
+				<l>Myne eer heeft van myn hand gevorderd deze daad.</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>Maar in des dooden huis te zoeken toeverlaat!</l>
+				<l>Zocht ooit een moorder daar zich voor de straf te bergen?</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Kwam ooit een moorder recht aan zynen rechter vergen?</l>
+				<l>Neen, ziet my niet meêr aan met een verbaasd gezigt;</l>
+				<l>Ik zoek de dood, nu ik de doodslag heb verricht.</l>
+				<l>Myn recht hangt aan myn min, myn Rechter is Chimene,</l>
+				<l>Ik heb haar haat verdiend, daar door de dood met eene.</l>
+				<l>En koom daar van ontfaân, als welzyns beste pand.</l>
+				<l>Het vonnis van haar mond, den slag van haare hand.</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>Vlied liever uit haar oog, vlied van haar grammen tooren,</l>
+				<l>Ontrekt u de eerste brand van haar ontvlamd verstooren,</l>
+				<l>Ga heen, geef u niet bloot aan de eerste ontsteltenis.</l>
+				<l>Die in 't verbolgen hert noch versch ontsteeken is.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Neen, neen, dat waarde pand dat ik kon dus mishaagen,</l>
+				<l>Kan my geen haat genoeg tot myne straf toedraagen:</l>
+				<l>Die eens zo groot te zien zou zyn myn grootst geluk,</l>
+				<l>Om door de dood te zyn veel eerder uit den druk.</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv</speaker>
+				<l>Chimene is na het Hof, ontsteld en heel begreezen,</l>
+				<l>En zal met veel gevolgs terstond hier weder weezen.</l>
+				<l>Ga toch, Rodrigo, ga, en hou my buiten last:</l>
+				<l>Wat zou men zeggen zo men hier zag zulken gast?</l>
+				<l>Wilt gy, dat iemand haar noch nageef, dit, of kwaader,</l>
+				<l>Dat ze in haar huis ontfangt de Moorder van haar Vader?</l>
+				<l>Haar wederkomst die naakt; zy komt, zy komt, ik zeg,</l>
+				<l>Ten minsten om haar eer, Rodrigo, schuil u weg.</l>
+			</sp>
+			</div>
+		<div type="scene" n="2">
+			<head>Tweede tooneel.</head>
+			<stage>Don Sanche, Chimene, Elvire.</stage>
+			<sp who="#don-sanche">
+				<speaker>San.</speaker>
+				<l>JA, Mevrouw, men des wel een bloedig hemd mag draagen,</l>
+				<l>Uw traanen, en uw toorn, de wraak te recht opdaagen.</l>
+				<l>Doch ik neem 's my niet aan met een fluweele taal</l>
+				<l>Te troosten uwen rouw, te koesteren uw kwaal:</l>
+				<l>Maar zo ik te uwen dienst kan zyn bekwaam gevonden,</l>
+				<l>Gebruik myn zwaard tot straf van hem die gaf de wonden:</l>
+				<l>Gebruik myn liefde om haast te wreeken deze moord;</l>
+				<l>Op uw bevel zo zal myn arm doen 't geen ze hoord.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Rampzalige!</l>
+			</sp>
+			<sp who="#don-sanche">
+				<speaker>San.</speaker>
+				<l>Mevrouw, diend u toch van myn leeven.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Gy weet de Koning heeft een Rechtdag uitgeschreeven.</l>
+			</sp>
+			<sp who="#don-sanche">
+				<speaker>San.</speaker>
+				<l>Het recht dat is zo loom, en zo verdrietzaam lang,</l>
+				<l>Dat menigmaal de schuld raakt buiten straffens dwang.</l>
+				<l>Den traagen loop daar van, onwis hoe uit te vallen,</l>
+				<l>Vereischt te veele tyds, en geeft vaak niet met allen.</l>
+				<l>Laat toe dat door 't rapier een Ridder doe de wraak,</l>
+				<l>De weg veel korter is, en zekerder de zaak.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Dit is den lesten raad, en moet het daar toe komen,</l>
+				<l>Uw dienst zal (is 't u ernst) dan werden aangenomen.</l>
+			</sp>
+			<sp who="#don-sanche">
+				<speaker>San.</speaker>
+				<l>Dat is het eenig heil daar myn gemoed na haakt,</l>
+				<l>En, op die hoop, vaar wel; dit my te vreden maakt.</l>
+			</sp>
+			</div>
+		<div type="scene" n="3">
+			<head>Darde tooneel.</head>
+			<stage>Chimene, Elvire.</stage>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>IK zie my eind'lyk vry, en mag hier onbedwongen</l>
+				<l>U openen de smert in myne borst verdrongen:</l>
+				<l>'k Mag geeven vollen loop aan myn bedroefd gezucht,</l>
+				<l>En u tot in myn ziel doen zien myn ongenugt.</l>
+				<l>Myn Vader die is dood, Elvire! en de eerste degen</l>
+				<l>Die ooit Rodrigo trok, is hem door 't hert gereegen.</l>
+				<l>Schrei, droevige oogen, schrei, en smelt in uw getraan,</l>
+				<l>Myns leevens eene helft heeft de and're helft verdaan:</l>
+				<l>En zulken wreeden daad verplicht my om te wreeken,</l>
+				<l>Om 't geen my over is 't geen ik my vind te ontbreeken.</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>Stel u gerust, Mevrouw.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Wat zyt gy onbewust</l>
+				<l>Van myn ellendig lot, dat gy my spreekt van rust!</l>
+				<l>Helaas! waar zou myn ziel deez' rust van daan toch komen,</l>
+				<l>Zo my deerd 't geen ik mis, 't deerd die 't my heeft benomen?</l>
+				<l>Wat kan ik hoopen, ach! als eeuwig ongerief,</l>
+				<l>Daar ik vervolg een moord, en heb de moorder lief?</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>Liefd gy hem noch die u beroofd heeft van een Vader?</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Ach! lieven dat is niet, Elvire, 't gaat my nader,</l>
+				<l>Ik ben verzot op hem, myn eigen hert hem diend,</l>
+				<l>En in myn vyand zelfs vinde ik myn waardsten vriend.</l>
+				<l>Ik voel dat, ja! in spyt van mynen zwaaren tooren,</l>
+				<l>Rodrigo noch bevecht myn Vader als te vooren,</l>
+				<l>Hem in myn boezem volg, en hy zich weert, en wykt,</l>
+				<l>Nu dapper is, dan slap, en zomtyds schier bezwykt.</l>
+				<l>Maar in dit hard gevecht van haat op min gebeeten,</l>
+				<l>Zo werd myn hert gescheurd, myn ziel van een gereeten,</l>
+				<l>En of de liefde schoon heeft op my grooter magt,</l>
+				<l>Noch heb ik (als 't behoord) myn plicht in grooter acht.</l>
+				<l>En loop geblindhokt toe daar de eer is te bewaaren,</l>
+				<l>Rodrigo is my waard, my deerd zyn kwaalyk vaaren,</l>
+				<l>Myn hert held aan zyn zyd; maar al des niettemin</l>
+				<l>Ik weet wat kinderplicht, en Vadermoord heeft in.</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>Is u 't vervolgen ernst?</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Ach! bloedige gedachten</l>
+				<l>Van wreed vervolg, dat ik genootdrukt moet betrachten!</l>
+				<l>Ik ding hem na zyn lyf, en voor 't voldingen schrik.</l>
+				<l>Myn dood hangt aan de zyne, en ik zyn dood beschik.</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elvir.</speaker>
+				<l>Verlaat, Mevrouw, verlaat een voorstel zo verwoedig,</l>
+				<l>Noch haal niet op uw hals een noodgeval zo bloedig.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Zal ik dan zien de dood myns Vaders zonder straf?</l>
+				<l>Zyn bloed vast roepen wraak, daar ik geen wraak verschaf?</l>
+				<l>Myn hert zal dat, verzot in schandig minnemallen,</l>
+				<l>Gelooven't zy genoeg een traan vyf zes te vallen?</l>
+				<l>Daar meê te houden op, en laaten voort myne eer.</l>
+				<l>Verstikt in stom gezwyg, door liefde treeden neêr!</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elvir.</speaker>
+				<l>Mevrouw, geloof my, gy zult wel zyn te verschoonen,</l>
+				<l>Van u niet al te wreed op zulk een held te toonen:</l>
+				<l>Een held en minnaar bei, gy hebt genoeg gedaan</l>
+				<l>Dat gy den Koning hebt daar van gesproken aan;</l>
+				<l>Dringt op het uiteind niet, laat uw vervolg voort steeken.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Myn achting hangt 'er aan, ik moet, ik wil my wreeken;</l>
+				<l>En of my schoon al vleid een dwaaze minnelust,</l>
+				<l>Dat onschuld steld myn geest in 't minste niet gerust.</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elvir.</speaker>
+				<l>Maar g'hebt Rodrigo lief, hy kan u niet mishaagen.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>'k Beken 't.</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elvir.</speaker>
+				<l>Hoe zult gy dan u hier in eind'lyk draagen?</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Tot voorstand van myn eer, en bet'ring van myn schâ,</l>
+				<l>Hem daagen, zien gedoemd, en sterven zelfs daar na.</l>
+			</sp>
+			</div>
+		<div type="scene" n="4">
+			<head>Vierde tooneel.</head>
+			<stage>Don Rodrigo, Chimene, Elvire.</stage>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>WEl, zonder dat gy hoefd my voor 't gerecht te daagen,</l>
+				<l>Zie hier, neem in myn dood uw zo gewenscht behaagen.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Elvire, wat is dit? waar zyn w'? hoe komt dit by?</l>
+				<l>Rodrigo in myn huis? Rodrigo hier by my?</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Verschoon myn leeven niet, smaak, zonder tegenstreeven,</l>
+				<l>Het zoet dat u myn ramp, en uwe wraak kan geeven.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Helaas!</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Geef my gehoor.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Ik sterf.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Een oogenblik.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Weg, laat my sterven toch.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Ik 't in een woord beschik,</l>
+				<l>Daar na zo antwoord my niet dan met dezen degen.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Hoe! daar myns Vaders bloed noch niet is afgezegen?</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Chimene.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Weg; doet weg dit haatelyk vertoog,</l>
+				<l>Dat my verwyt uw schuld dus schendig voor myn oog.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Ach! zie het liever aan om uwen haat te wetten,</l>
+				<l>Uw toorn te hitsen op, myn straf niet uit te zetten.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>'t Is in myn bloed geverfd.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Kom, doop het in het myn,</l>
+				<l>En wascht zo daar van af de verf die 't heeft van 't dyn.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Ach! wat een wreedheid, dus op eenen dag te moorden</l>
+				<l>De Vader door uw zwaard, de Dochter door uw woorden!</l>
+				<l>Doe my dit tuig uit 't oog, ik mag 't niet zien zo blood;</l>
+				<l>Gy wilt dat ik u hoor, en jaagt my aan de dood.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Ik doe 't geen gy begeerd, maar zonder my te ontgeeven</l>
+				<l>De wil van door uw hand te missen dit myn leeven.</l>
+				<l>Want als 't al is gezeid, verwacht noch van uw haat,</l>
+				<l>Noch van myn min 't berouw van myn beroemde daad.</l>
+				<l>Uw Vader met een slag, noit weder goed te maaken,</l>
+				<l>Onteerde 't eerlyk hoofd myns Vaders, zulke zaaken</l>
+				<l>Die treffen, als gy weet, zeer diep een man van moed,</l>
+				<l>Ik had myn deel aan 't hoon, ik volgd' hem op de voet,</l>
+				<l>Ik vond hem, heb myn eer en Vader bei gewrooken,</l>
+				<l>En zo 't noch stond te doen, 't geschiede als 't is gesproken.</l>
+				<l>Niet dat niet in der daad myn min lang tegens my</l>
+				<l>En mynes Vaders wil gestreeden heeft voor dy:</l>
+				<l>Gis daar uit vry haar magt, dat ik in zulk onteeren</l>
+				<l>Getwyffeld heb of 't stuk de wraake kon ontbeeren;</l>
+				<l>En daar ik uwen haat, of schand moest ondergaan,</l>
+				<l>Weêrhield ik myne hand, drong mynen arm niet aan,</l>
+				<l>Ja heb my zelfs berispt van te veel hevigheden;</l>
+				<l>En uwe gaaven wis de waage wikken deeden,</l>
+				<l>Zo hier niet tegens aan zich had gekant met pyn,</l>
+				<l>Dat iemand zonder eer u niet kan waardig zyn,</l>
+				<l>Dat die my had bemind, toen ik mogt 't hoofd oplichten,</l>
+				<l>My haaten zou wanneer ik eerloos moeste zwichten.</l>
+				<l>Dat altoos en in al te luist'ren na de min,</l>
+				<l>Was uwe keur beschaamd met lust te volgen in.</l>
+				<l>Ik zeg het u noch eens, ik zal, en moet het zeggen,</l>
+				<l>Tot dat ik voor uw voet een droevig Lyk zal leggen,</l>
+				<l>'k Heb u verongelykt, maar ziet ik trok deez' lyn</l>
+				<l>Tot weering van myn smaad, en om u waard te zyn.</l>
+				<l>Doch plichtvry van myn eer, en plichtvry van myn Vader,</l>
+				<l>Kom ik aan u voldoen myn plicht en schuld te gader.</l>
+				<l>'t Is om myn hoofd u aan te bieden dat gy my</l>
+				<l>Hier ziet op deze plaats, ik niet onwillig ly,</l>
+				<l>En weet uws Vaders dood daar mede is uit te wissen,</l>
+				<l>Dies ik u niet wil doen uw offerhande missen,</l>
+				<l>Slacht met een groot gemoed de geene die zyn eer</l>
+				<l>Gesteld heeft in de roem uws huis te vellen neêr.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Rodrigo, ach! 't is waar, dat, zelfs met tegenstryden,</l>
+				<l>Ik u niet laaken kan van geene smaad te lyden:</l>
+				<l>En hoe dat ook berst uit de grootheid van myn druk,</l>
+				<l>'t Geeft u zo zeer geen schuld als wel myn ongeluk.</l>
+				<l>Ik weet, wat achtbaarheid, na zulk een schendig hoonen,</l>
+				<l>U vergde voor een hert in dit geval te toonen;</l>
+				<l>Gy hebt de plicht maar van een eerlyk man gedaan,</l>
+				<l>Doch my met die te doen myn plicht geweezen aan.</l>
+				<l>Uw dapderheid leerd my myn les in u verwinnen,</l>
+				<l>Zy heeft uw eer en wraak meêr dan u zelfs doen minnen,</l>
+				<l>Dit voegd my desgelyks; en ik heb, tot besluit,</l>
+				<l>Myn eer ook voor te staan, myn wraak te voeren uit.</l>
+				<l>Helaas! uw opzicht slechts doet my hier in noch schroomen,</l>
+				<l>Had ander ongeval myn Vader my benomen,</l>
+				<l>Myn ziel zou, in 't geluk van u te mogen zien,</l>
+				<l>Noch vinden al den troost die iemand mag geschiên:</l>
+				<l>En een aanminnig zoet myn smert zou overweegen,</l>
+				<l>Als zulken waarden hand myn traanen af kwam veegen,</l>
+				<l>Maar ik moet uw bederf voort werken uit met vlyt,</l>
+				<l>Nu, door myns Vaders moord, gy myn bederver zyt,</l>
+				<l>En myn onlukkig lot dat kan, dat wil gehengen,</l>
+				<l>Dat ik myn eigen leet aldus te weeg zal brengen.</l>
+				<l>Want cind'lyk, dat gy weet hier van het recht bescheid,</l>
+				<l>Verwacht geen slap besluit van myn genegentheid:</l>
+				<l>Of schoon al mynen haat ons liefde wenscht te wyken,</l>
+				<l>Myn hoogverheven aard moet u hier in gelyken:</l>
+				<l>Gy hebt door uwe daad u waard getoond van my,</l>
+				<l>Ik moet door uwe dood my toonen waard van dy.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Stel dan niet langer uit 't geen de eer u gaat gebieden,</l>
+				<l>Die eischt myn hoofd, en ik kom 't u van zelf aanbieden:</l>
+				<l>Maak daar een offer af tot zulk een ed'len zoen,</l>
+				<l>De slag zal my niet min als 't vonnis vreugde aan doen.</l>
+				<l>Te wachten na't vervolg van langzaam recht te pleegen,</l>
+				<l>Komt voor uw achtbaarheid noch myne ramp geleegen;</l>
+				<l>'k Zal sterven vol geluks zo 'k sterf door zulk een slag.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Ga, ik de aanklaagster wel, maar Beul niet weezen mag,</l>
+				<l>Of gy my bied uw hoofd, kan ik het zo begeeren?</l>
+				<l>Ik wil 'er dingen na, maar gy zult het verweeren:</l>
+				<l>'t Is van een ander daar ik het van hebben moet,</l>
+				<l>Want die de straf vervolgd, de straf niet aan en doet.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Ofschoon al uwen haat ons liefde wenscht te wyken,</l>
+				<l>Uw hoogverheeven aard de myne moet gelyken,</l>
+				<l>En eenen and'ren arm te ontlenen tot uw wraak,</l>
+				<l>Geloof my, myn Chimene, is geen gelyke zaak.</l>
+				<l>Myn hand die heeft alleen myn Vader konnen wreeken,</l>
+				<l>Uw hand zich in de wraak van de uwe alleen moet steeken.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Ach! wreed gemoed, waarom zo styf hier op gestaan!</l>
+				<l>Uw wraak was zonder hulp, gy bied 'er hulp toe aan!</l>
+				<l>Ik wil u volgen na, en ben te kittelachtig</l>
+				<l>Te lyden dat gy aan myn roem zou zyn deelachtig.</l>
+				<l>Myn Vader, en myne eer, in schuld niet willen zyn,</l>
+				<l>Noch aan uw wanhoop, noch aan uwe minnepyn.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>O streng besluit van eer! helaas! wat kan ik zeggen?</l>
+				<l>Zal ik zo veel genâ my dan niet toe zien leggen!</l>
+				<l>Ach! om uws Vaders wil, of wel om onze min</l>
+				<l>Zo dood my, of uit wraak, of uit meêdoogens zin:</l>
+				<l>Uw ongevallig lief zal 't veel min smerte geeven,</l>
+				<l>Te sterven door uw hand, als in uw haat te leeven.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Ga, ik en haat u niet.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Gy moet.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Neen, ik en kan....</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Vreest gy het snoô gesnap van 't volk zo weinig dan?</l>
+				<l>Wanneer men myn misdoen en uwe min zal weeten,</l>
+				<l>Wat meend gy dat de Nyd te zeggen zal vergeeten?</l>
+				<l>Nood drukt haar zwygen in, en mag ik zyn geloofd,</l>
+				<l>Behou uw achtbaarheid ten koste van myn hoofd.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Myn achtbaarheid die munt meêr uit als gy blyft leeven;</l>
+				<l>En boven afgunsts reik myn roem zal zyn verheeven,</l>
+				<l>Wanneer men weeten zal dat ik u zo bezin,</l>
+				<l>En u ter dood vervolg; hier steekt wat wonders in.</l>
+				<l>Ga heen, vertoon niet meêr aan myne droevige oogen</l>
+				<l>'t Geen ik verliezen moet, en niet zal missen mogen.</l>
+				<l>Bewimpel u vertrek in 't donker van de nacht,</l>
+				<l>Myn eer die loopt gevaar indien gy langer wacht,</l>
+				<l>De Nyd tot achterklap zou neemen volle reden,</l>
+				<l>Indien men wist ik u hier had by my geleeden,</l>
+				<l>Geef haar geen oorzaak toch myn deugd te luchten uit.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Ach! dat ik sterf.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Ga, ga.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Wat 's 't slot van uw besluit?</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>In spyt van myne min, die mynen toorn wil breeken,</l>
+				<l>Zal ik myn best doen om myn Vader wel te wreeken;</l>
+				<l>Maar weder ook in spyt van zulk een wreeden plicht,</l>
+				<l>Zal zyn myn grootste wensch te hebben niet verricht.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>O wonder van de min!</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Maar wonder vol misnoegen.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Wat gaan ons Vaders ons al ramp en smert toevoegen?</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Helaas! wie had gedacht?...</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Helaas! wie ooit gezeid?....</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Dat heil, als 't komt zo na, zo haastig weder scheid.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>En dat zo onverwacht, gelyk als voor de haaven,</l>
+				<l>Een snellen storm ons hoop zou in de Zee begraaven!</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Ach, doodelyk verdriet!</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Ach, droefheid zonder end!</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Ga heen, zeg ik noch eens, ik ben dit niet gewend.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Vaar wel, ik ga voortaan een stervend leeven sleepen,</l>
+				<l>Tot dat door uw vervolg het my werde uitgeneepen.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Indien ik daar toe kom dat ik u breng ten val,</l>
+				<l>Ik zweer u dat ik u niet overleeven zal,</l>
+				<l>Vaar wel, treê uit, en wacht dat gy niet werd bekeeken.</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>Mevrouwe, wat voor ramp dat hier in schynt te steeken....</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Ei! kwel my langer niet, en laat my wat met vreên,</l>
+				<l>Ik zoek de stilheid, en verlang te zyn alleen.</l>
+			</sp>
+			</div>
+		<div type="scene" n="5">
+			<head>Vyfde tooneel.</head>
+			<sp who="#don-diego">
+				<speaker>Don Diego
+                            alleen.</speaker>
+				<l>WY vinden nimmermeer ten vollen ons vermaaken,</l>
+				<l>Ons hoogste heil dat is vermengd met 't geen wy laaken:</l>
+				<l>Veeltyds komt angst en zorg in heugelyke spoed</l>
+				<l>Verstooren het bejag van ons verblyd gemoed.</l>
+				<l>In 't midden van myn luk voel ik het zo te weezen,</l>
+				<l>Ik zwem in zoete vreugde, en beef door enkel vreezen.</l>
+				<l>'k Heb dood gezien die my te hoonen had bestaan,</l>
+				<l>En ik en kan niet zien de hand die 't heeft gedaan;</l>
+				<l>Ik maak my zelven moê met zonder vrucht te zoeken,</l>
+				<l>En loop vast door de Stad byna in alle hoeken,</l>
+				<l>Zo stokoud als ik ben, en is 'er steeg noch straat,</l>
+				<l>Die ik in 't nagevraag myns zoons ter zyden laat,</l>
+				<l>Elk oogenblik ik hem schier meen in zulken donker</l>
+				<l>Te loopen op het lyf, doch 't is maar valsch geflonker,</l>
+				<l>En myn genegendheid daar door gesteld te leur,</l>
+				<l>Die beeld zich alles in dat my de vrees brengt veur.</l>
+				<l>Ik nergens wedervaar de teekens van zyn vluchten,</l>
+				<l>De vrienden van de Graaf my doen voor onheil duchten,</l>
+				<l>Haar groot getal en magt my een benauwdheid is,</l>
+				<l>Rodrigo leefd niet meer, of leid in hechtenis.</l>
+				<l>O Hemel! zal zyn schyn my noch weêrom bedriegen?</l>
+				<l>Of zie ik dien ik zoek? neen, dit en kan niet liegen,</l>
+				<l>Hy is 't, hy is het zelf, myn bidden is verhoord,</l>
+				<l>Myn vreeze die heeft uit, en myn verdriet is voort.</l>
+			</sp>
+			</div>
+		<div type="scene" n="6">
+			<head>Zesde tooneel.</head>
+			<stage>Don Diego, Don Rodrigo.</stage>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>ROdrigo, mag ik u ten lesten eens aanschouwen?</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Ach! 't is verwinnaar, maar met enkel herts benouwen.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Laat my bedaaren wat, dat ik u geef uw lof,</l>
+				<l>Myn deugd en vind geen reên om u te wyzen of,</l>
+				<l>Gy hebt ze wel gevolgd, en uw doorluchtig sterven</l>
+				<l>In u weêr leeven doet myn naam, die scheen te derven,</l>
+				<l>De helden van het huis daar ge uit gesprooten zyt</l>
+				<l>Hebt gy verevenaard in uwen jongen tyd,</l>
+				<l>En door den eersten steek van uw gestrengen degen</l>
+				<l>Zo grooten manheids roem als iemand ooit verkreegen.</l>
+				<l>Stut van myn ouderdom, en styl van myn geluk,</l>
+				<l>Dat ik u aan myn borst in bei myne armen druk,</l>
+				<l>Kom, kus my deze koon, en wil de plaats erkennen</l>
+				<l>Die gy hebt door uw moed gevryd van 't schandig schennen.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>De eer komt u daar van toe, elk weet, dat, zynde uw Zoon,</l>
+				<l>Ik niet min doen en kon dan 't wreeken van uw hoon,</l>
+				<l>Ja hou 't voor groot geluk, dat ik vernoegen geeven</l>
+				<l>Kan met myn eerste proef aan die my gaf het leeven.</l>
+				<l>Maar midden in uw vreugd en heb 't niet voor onwaard,</l>
+				<l>Dat ik my zelfs voldoe nu de eer is eerst bewaard:</l>
+				<l>Veroorlofd dat myn ramp in vryheid uit mag breeken,</l>
+				<l>Gy vleid ze veel te lang door uw aanminnig spreeken.</l>
+				<l>'t Berouwd my niet dat ik u heb dien dienst gedaan;</l>
+				<l>Maar geef my weêr 't geen my is door deez' daad ontstaan:</l>
+				<l>Myne arm, mits uwe wraak, gewapend t'myner schade,</l>
+				<l>Heeft deez' beroemde steek my dyen doen ten kwaade,</l>
+				<l>Heeft my myn ziel vermoord, en in een anders bloed</l>
+				<l>Myn eigen heil verstikt, ontvreemd myn hoogste goed.</l>
+				<l>Ach! spreekt 'er niet meêr van, 'k heb om u al verlooren.</l>
+				<l>Myn hert kan na geen hoop noch na geen troost meêr hooren.</l>
+				<l>Waar toe dus veel gezeid, en dus veel opgehaald?</l>
+				<l>'t Geen ik u schuldig was heb ik u wel betaald.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Voer vry noch hooger aan de vrucht van uw verwinnen,</l>
+				<l>Ik gaf u 't leeven, gy geeft my myne eer; als 't minnen</l>
+				<l>Van de eer dan meerder is als 't lieven van het lyf,</l>
+				<l>Zo veel ik voor uw dienst u meerder schuldig blyf.</l>
+				<l>Maar doet uit uw gemoed deez' zwakheid doch verloopen,</l>
+				<l>Wy hebben maar eene eer, Meesterssen vry met hoopen:</l>
+				<l>Min is niet dan een lust, en de eer een schuld en plicht.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Ach! wat is 't dat gy zegt?</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Dieg.</speaker>
+				<l>'t Geen diend tot uw bericht.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Myne eer, verongelykt, zich op myn zelfs komt wreeken,</l>
+				<l>En gy my van de schand van lichtigheid derfd spreeken!</l>
+				<l>Het schennis is gelyk, en ik voor even hou</l>
+				<l>Een kiygsman zonder moed, een minnaar zonder trouw.</l>
+				<l>Wil myn standvastigheid niet met deze ondaad tergen,</l>
+				<l>Behou my moedig, maar ga my geene ontrouw vergen,</l>
+				<l>Myn boeijen zyn te vast om zo te zyn ontsloopt,</l>
+				<l>Myn trouw verbind my noch, hoewelze niet meêr hoopt.</l>
+				<l>Nu ik niet laaten kan, noch hebben mag Chimene,</l>
+				<l>Zo is de dood, die 'k zoek, myn rechte hulp alleene.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Dieg.</speaker>
+				<l>'t En is geen tyd noch om te zoeken uwe dood,</l>
+				<l>Uw Koning en uw Land uw arm noch heeft van nood.</l>
+				<l>De vloot die wierd gevreesd, nu op de reê gekomen,</l>
+				<l>De Stad voor overval, voor plond'ren 't Land doet schroomen:</l>
+				<l>De Mooren zyn voor hand; de vloed haar by der nacht</l>
+				<l>Zal hebben in een uur tot aan de Stad gebragt.</l>
+				<l>Het Hof dat staat verzet, het volk is op de beenen,</l>
+				<l>Men hoord niet dan geschrei, men ziet schier niet dan weenen.</l>
+				<l>In dit gemeen gevaar heeft myn geluk gewild</l>
+				<l>Dat ik heb in myn huis gevonden in der stilt'</l>
+				<l>Vyf honderd Edellui van myn vertrouwde vrienden,</l>
+				<l>Die tot myn schenniswraak haar leeven my aandienden;</l>
+				<l>Gy in de voorbaat waart, maar hun manhafte moed</l>
+				<l>Zich beter koelen zal op 't Moorsch vyandig bloed.</l>
+				<l>Ga treed hun kloek'lyk voor daar eer is te behaalen,</l>
+				<l>Zy onder uw geleid te strandwaart willen daalen;</l>
+				<l>Hou met uw zwaarden af de vyandlyke vloot,</l>
+				<l>En, zo gy sterven wilt, zoek daar een braave dood.</l>
+				<l>Neem vry dit middel waar dat u dus werd gegeeven;</l>
+				<l>Verdeedigd, zo gy kond, uw Prins, uw land, uw leeven:</l>
+				<l>Of keer veel liever weêr verwinnaar na het Hof,</l>
+				<l>Noch laat geen wraak van hoon bepaalen uwen lof.</l>
+				<l>Ga, voerd ze verder voort, en dwing, door zeegs verkrygen,</l>
+				<l>'t Gerechte tot genâ, Chimene tot een zwygen.</l>
+				<l>Hebt gy haar lief, zo weet Rodrigo voor gewis,</l>
+				<l>Dat de uitkomst van uw wensch deze overwinning is.</l>
+				<l>De tyd valt my te kort om dit meêr uit te rekken,</l>
+				<l>Ik hou u met de praat, en gy moest zyn aan 't trekken:</l>
+				<l>Kom, volg my, slaat'er op, en maak uw Koning vind</l>
+				<l>Dat, 't geen hy in den Graaf verliesd, hy aan u wind.</l>
+			</sp>
+			</div>
+		</div>
+	<div type="act" n="4">
+		<head>Vierde bedryf.</head>
+		<div type="scene" n="1">
+			<head>Eerste tooneel.</head>
+			<stage>Chimene, Elvire.</stage>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>MAar 't is geen valsche waan, Elvire? zou 't zo weezen?</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>'t Is niet te zeggen hoe hy werd alom gepreezen,</l>
+				<l>En met wat welkom roep 't roemuitende gerucht</l>
+				<l>Van dezen jongen held dringt deur tot in de lucht.</l>
+				<l>De Mooren voor zyn oog als schimmen fluks verdweenen,</l>
+				<l>Haar landing was wel snel, maar vloden snelder heenen.</l>
+				<l>Drie uuren vechtens aan ons volk gaf voor den dag</l>
+				<l>Twee kroonen tot een buit en een gewonnen slag:</l>
+				<l>De aanleiders dapperheid was boven al te merken.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Wrocht dan Rodrigoos arm al deze wonderwerken?</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>Door zyn manhafte deugd wierd alles meest verricht.</l>
+				<l>Hy heeft de kroon van 't hoofd der Koningen gelicht.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Van wie komt gy dit nieuws, dit vreemde nieuws te weeten?</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>Van 't volk, door wien zyn lof werd luidskeels uitgekreeten,</l>
+				<l>Dat hem zyn toevlugt noemd, zyns vrydoms wissen borg,</l>
+				<l>Den Engel zyns behouds, zyns welstands waarde zorg.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chi.</speaker>
+				<l>De Koning zou hy nu zyn doodslag wel verschoonen?</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>Rodrigo zich noch niet en derf voor hem vertoonen,</l>
+				<l>Maar Don Diego laat hem hooren in het Hof,</l>
+				<l>Tot voorstand van zyn Zoon, en leid geweldig of;</l>
+				<l>Brengt in tot misdaadszoen de twee gewonnen kroonen,</l>
+				<l>En bid de Prins dien dienst wil met genade loonen.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Maar is hy ook gewond?</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>'k Heb daar niet van verstaan.</l>
+				<l>Wel gy verschiet van verw, hou moed, wat gaat u aan?</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Myn moed ik met de maat myns gramschaps af moet meeten?</l>
+				<l>Zou ik om zynent wil myn zelven dus vergeeten?</l>
+				<l>Men roemd hem, men hem pryst, en zal 't myn hert staan toe?</l>
+				<l>Myn eer dus werden stom, myn plicht haar plichten moe?</l>
+				<l>Weg min, doortrapte min, laat gramschap boven zweven,</l>
+				<l>Ving hy twee Koningen, hy nam myn Vader 't leeven;</l>
+				<l>Dit rouwgewaad, daar ik in lees myn ongeluk,</l>
+				<l>Is van zyn dapperheid het eerste meesterstuk.</l>
+				<l>En of schoon't gantsche volk is tot zyn gunst geneegen,</l>
+				<l>Hier maakt my wat ik zien den Vadermoorder tegen.</l>
+				<l>Gy die geeft nieuwe kracht aan de oorzaak van myn leet,</l>
+				<l>Treursluijer, rouwgedek, en zwart omhangen kleed,</l>
+				<l>Sieraad waar meê my pronkt zyne eerste overwinnen,</l>
+				<l>Wil toch myn achtbaarheid beschutten tegen't minnen:</l>
+				<l>En als myn liefde krygt daar op te groote magt,</l>
+				<l>Zo laat myn droeve plicht zich sterken door uw klagt;</l>
+				<l>Rand den verwinnaar aan vrymoedig zonder schromen.</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>Mevrouw, bedaar u wat, zie daar de Infante komen.</l>
+			</sp>
+			</div>
+		<div type="scene" n="2">
+			<head>Tweede tooneel.</head>
+			<stage>De Infante, Chimene, Leonora, Elvire.</stage>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>IK kom hier niet om u te troosten in uw rouw,</l>
+				<l>Maar eer dat ik myn leed met 't uwe mengen zou.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Neen, zyt deelachtig eer aan 't algemeen verblyden,</l>
+				<l>Geniet het heil dat zich vervoegd aan uwer zyden;</l>
+				<l>Mevrouwe, buiten my heeft niemand treurens recht,</l>
+				<l>'t Gevaar dat voor den Staat Rodrigo heeft beslecht,</l>
+				<l>En 's Lands behoud dat u zyn wapenen aanbragten,</l>
+				<l>Aan my, aan my alleen, noch laaten toe myn klagten.</l>
+				<l>Hy heeft de Stad beschut, den Koning dienst gedaan,</l>
+				<l>En zyn manhaften arm doet my maar ondienst aan.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Het is zo, myn Chimeen, hy deede wonderdaaden.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Zo haast kwam dit gerucht myne ooren niet belaaden,</l>
+				<l>Of ik vernam met een dat ieder hem verhief,</l>
+				<l>En voor een dapper held en ongevallig lief.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Wat is 'er lastig toch voor u in 's volks gewaagen?</l>
+				<l>Deez' jonge Mars die 't loofd, die plag u te behaagen,</l>
+				<l>Hy uwe ziel bezat, uw wil was hem een wet,</l>
+				<l>Zyn roem dat is een paerl aan uwe Kroon gezet.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>'k Beken dat ieder een hem loofd met groote reden,</l>
+				<l>Doch voor my is zyn lof als op een adder treeden:</l>
+				<l>Myn smert word maar getergd als hy werd zo vermaard,</l>
+				<l>En zie wat ik verlies in 't zien wat hy is waard.</l>
+				<l>Helaas! wreede ongeneugt van minnezieke zinnen!</l>
+				<l>Hoe dat hy 't meêr verdiend, hoe ik hem meêr moet minnen,</l>
+				<l>En echter zo behoud myn plicht de meeste magt;</l>
+				<l>Dus werd in spyt van min zyn dood by my betracht</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Deez' plicht u deed zeer hoog op gisteren waardeeren,</l>
+				<l>'t Geweld, u aangedaan, u bragt tot zulker eeren,</l>
+				<l>Dat ieder in het Hof verhief uw groot gemoed,</l>
+				<l>En deernis te gelyk had met uw tegenspoed:</l>
+				<l>Maar wilt gy wel den raad van een vriendin gelooven?</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>U niet gehoorzaam zyn ging alle schuld te boven.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>'t Geen toen was wel, zich nu heel anders aanzien laat,</l>
+				<l>Rodrigo is een stut geworden van den Staat,</l>
+				<l>De hoop en wensch van 't volk, dat zich voor hem laat hooren,</l>
+				<l>De voorstand van dit Ryk, en vreeze van de Mooren:</l>
+				<l>Zyn daad die geeft ons weêr 't geen ze ons genomen heeft,</l>
+				<l>En in hem nu alleen uw Vader weder leefd.</l>
+				<l>Wilt gy dan dat ik u myn zin zeg in twee woorden?</l>
+				<l>Gy zoekt 't gemeen bederf met hem te willen moorden.</l>
+				<l>Hoe! was 't geoorlofd ooit zyn waarde Vaderland</l>
+				<l>Tot 's Vaders wraak te zien gesteld in 's vyands hand?</l>
+				<l>Kan uw vervolg op ons na rechten weezen krachtig?</l>
+				<l>En om gestraft te zyn zyn wy de schuld deelachtig.</l>
+				<l>Niet dat gy daarom hoefd tot trouwen te verstaan</l>
+				<l>Met een wien Vadermoord u pord te klaagen aan.</l>
+				<l>Ik zelfs zou u den raad daar toe niet konnen geeven,</l>
+				<l>Ontrekt hem vry uw min, maar laat hem voor ons leven.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Mevrouw, ach! laat my toe, dat ik in vryigheid</l>
+				<l>Volvoer ten einden uit myn groot gemoedsbeleid,</l>
+				<l>Ofschoon myn hert zich veel laat aan hem zyn geleegen,</l>
+				<l>Het volk hem als aanbid, de Prins hem is geneegen,</l>
+				<l>Hy prachtig staat omheind met menig Oorlogsheld,</l>
+				<l>Noch zal zyn zegepronk door my zyn neêr geveld.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>'t Is moedigheid, wanneer, om 's Vaders dood te wreeken,</l>
+				<l>Ons plicht zo waarden hoofd ons doet van straf aanspreeken:</l>
+				<l>Maar 't is een heerlyk blyk van vry een hooger moed,</l>
+				<l>Als liefde tot 't Gemeen doet wyken plicht van bloed.</l>
+				<l>Geloof my, 't is voor u genoeg uw min te dooven,</l>
+				<l>Voor hem te grooten straf hem daar van te berooven.</l>
+				<l>Laat u 't Gemeenebest toch stellen deze wet,</l>
+				<l>In 't verder gy te veel zou vinden tot belet.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Men mag my doen belet, maar ik en kan niet zwygen.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Bedenk wel, myn Chimeen, wat gy tracht te verkrygen.</l>
+				<l>Ik ga, gy zult alleen des beter u beraân.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Na 's Vaders moord en is daar geen beraaden aan.</l>
+			</sp>
+			</div>
+		<div type="scene" n="3">
+			<head>Derde tooneel.</head>
+			<stage>De Koning, Don Diego, Don Arias, Don Rodrigo, Don
+                            Sanche.</stage>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>MAnhaften erfgenaam van 't huis, wiens dapperheden</l>
+				<l>Geweest zyn als een stut des Staats, een Burg der Steden:</l>
+				<l>Een zulker helden spruit, in koenheid zo vermaard,</l>
+				<l>Die dit uw proefstuk heeft zo haast verevenaard;</l>
+				<l>Myn magt is veel te klein om u te konnen loonen,</l>
+				<l>Ik kan na uw verdienst u geen vergelding toonen.</l>
+				<l>Uw Vaderland verlost van 's vyands wreeden haat.</l>
+				<l>Myn staf in myne hand bevestigd door uw daad,</l>
+				<l>De Mooren te onderbragt, eer ik in dit benouwen</l>
+				<l>Had konnen geeven last hun aanval te weêrhouwen?</l>
+				<l>En zyn geen zaaken die uw Koning laaten toe</l>
+				<l>De middel, noch de hoop, die uw verschulding doe.</l>
+				<l>Twee Koningen, die gy my zelf hier brengt gevangen,</l>
+				<l>Die zullen u doen 't loon van dezen dienst ontfangen;</l>
+				<l>Zy hebben u genoemd haar CID. dat is, haar Heer,</l>
+				<l>En ik misgun u niet dien hoogen naam van eer.</l>
+				<l>Zyt vry voortaan DE CID, voor wien het al moet wyken,</l>
+				<l>Die schrik en angst brenge aan de Moorsche Koningryken,</l>
+				<l>En dat by dezen naam myn gantsche Land beken,</l>
+				<l>Wat gy my waardig zyt, en ik u schuldig ben.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Heer Koning, laat uw gunst my niet te zeer beschaamen,</l>
+				<l>Zo slechten dienst verdiend niet zulke hooge naamen,</l>
+				<l>En 't jaagd my, groote Vorst, vry een rood aanzigt aan,</l>
+				<l>Zo weinig waard te zyn de eer die my werd gedaan.</l>
+				<l>Ik weet dat ik aan u ben schuldig te betaalen</l>
+				<l>Het bloed dat in my stroomd, de lucht die 'k in kom haalen,</l>
+				<l>En als ik het besteê ten besten van uw Staat,</l>
+				<l>Ik maar alleen de plicht doe van een onderzaat.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Al die door plichts verband haar tot myn dienst begeeven,</l>
+				<l>En voeren die niet uit met daaden zo verheeven:</l>
+				<l>Want als de dapperheid niet dribbeld buiten spoor,</l>
+				<l>Zo neemt ze nimmermeer zo groote dingen voor.</l>
+				<l>Lyd dat men u dan loove, en my in 't lang doet hooren</l>
+				<l>'t Waarachtig recht verhaal hoe gy verwon de Mooren.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Weet dan, ô Vorst, hoe, in 't gevaarelyk bestaan,</l>
+				<l>Dat zulken snellen schrik de gantsche Stad joeg aan,</l>
+				<l>Ik in myn Vaders huis by een vond een hoop vrienden,</l>
+				<l>Die myn beroerd gemoed hier tot bekooring dienden.</l>
+				<l>Maar, Heere, neemt het my niet anders af als wel,</l>
+				<l>Zo ik die aan de man bragt buiten uw bevel.</l>
+				<l>'t Gevaar was voor de hand, wy haar volvaardig zagen,</l>
+				<l>En eerst te Hoof te gaan was wis myn hoofd te waagen;</l>
+				<l>Dat ik voor uwen Staat te geeven beter dacht,</l>
+				<l>Dan te verliezen op Chimenes wreede klagt.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>'k Onschuldig uwen ernst in dit uw hoon te wreeken,</l>
+				<l>En myn behouden Ryk dat komt my voor u spreeken,</l>
+				<l>Geloof vry van nu aan, dat, wat Chimene zeid,</l>
+				<l>Ik haar alleen gehoor geef uit bescheidenheid.</l>
+				<l>Maar ga gy voort.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Dit volk valt onder my aan't trekken,</l>
+				<l>Om met een mannen moed des vyands magt te ontdekken:</l>
+				<l>Vyfhonderd was'er eerst, maar snellen toeloop deê</l>
+				<l>Dat wy drie duizend sterk ons vonden op de Reê;</l>
+				<l>Zo kon ons fiere tret, en onverschrokken weezen,</l>
+				<l>Terstond van nieuwe moed in veelen oorzaak weezen.</l>
+				<l>Ik berg twee derdendeel van dezen schoonen hoop,</l>
+				<l>Zo haast ik buiten kom, in 't vaartuigs overloop:</l>
+				<l>De rest, waar van 't getal wierd meerder te elker uuren,</l>
+				<l>Blyft by my, en kan naauw van ongeduld meêr duuren;</l>
+				<l>Ik doe ze laagjes neêr haar strekken langs de gracht,</l>
+				<l>En zo heel stil een stuk verslyten van de nacht.</l>
+				<l>De wachters insgelyks ik last geef stil te blyven,</l>
+				<l>En met verborgen laag myn krygsbeleid te styven:</l>
+				<l>Ik veins vrymoedelyk te doen door uw bevel</l>
+				<l>Al wat ik hen beveel, en wat ik daar bestel.</l>
+				<l>Het schemerlicht, dat 's nachts de sterren mededeilen,</l>
+				<l>Ons eind'lyk op de Reê doet tellen dertig zeilen;</l>
+				<l>De stroom die voert ze voort, en met gelyke spoed.</l>
+				<l>Ter haven dringen in de Mooren en de vloed.</l>
+				<l>Men laat ze gaan voorby, 't schynt hun wel uit te vallen,</l>
+				<l>Geen krygsvolk op de Reê, geen wachters op de wallen;</l>
+				<l>Een algemeene stilte, op haar beleid gepast,</l>
+				<l>Haar buiten twyffel steld van dat wy zyn verrast.</l>
+				<l>Zy werpen 't anker uit, zy landen zonder schroomen,</l>
+				<l>En vallen in de hand van die haar aan zien koomen:</l>
+				<l>Wy springen vaardig voort, en maaken te gelyk</l>
+				<l>Een schichtig veldgeschrei. Op dit beteekend blyk</l>
+				<l>Weêrgalmd 't gantsche strand door 't roepen uit de scheepen,</l>
+				<l>Die vol gewapend volk een schrikken na zich sleepen.</l>
+				<l>De Mooren zyn verbaast, en weeten geenen raad,</l>
+				<l>De moed ontzinkt hen eer de stryd te deeg aangaat.</l>
+				<l>Wy dringen op hen in te water en te lande,</l>
+				<l>En doen een stroom van bloed afebben langs het strande.</l>
+				<l>Zy liepen tot de buit, en vinden hard gevecht,</l>
+				<l>En eer ze zyn geland daar menig aamloos legt.</l>
+				<l>Maar haare Vorsten fluks 't verstrooide heir vergaaren,</l>
+				<l>Haar moed wast weder aan, zy meêr en meêr bedaaren,</l>
+				<l>En leevens wanhoop doend' haar stryden voor haar lyf,</l>
+				<l>Hersteld haar in haar plicht, en sterkt haar krygsbedryf.</l>
+				<l>De zabels raaken uit, die op haar punten breeken</l>
+				<l>Den aandruk van ons volk, waar menig blyft doorsteeken.</l>
+				<l>De strand, de stroom, de reê, de haven, en haar vloot,</l>
+				<l>Zyn 't veld waar zich vertoond in vollen schyn de dood.</l>
+				<l>Wat dapperheid, wat deugd, hoe veele heldendaaden,</l>
+				<l>In 't duister van de nacht verdonk'ren, mag men raaden,</l>
+				<l>Daar elk alleen getuig der slaagen die hy gaf,</l>
+				<l>Niet onderkennen kon hoe 't met de rest liep af.</l>
+				<l>Ik vond my overal om de onze moed te geeven,</l>
+				<l>Deed de eene winnen grond, drong de ander daar beneven,</l>
+				<l>Bragt elk in zyn gelid, en onder hunne vaân,</l>
+				<l>Maar wist niet hoe het stond voor dat den dag brak aan.</l>
+				<l>Doe zag ik dat te mets de Mooren wat bezweeken,</l>
+				<l>Dat hun de moed ontviel, en zy allengskens weeken:</l>
+				<l>En zo als 't nieuwe licht deed zien een nieuwen hoop,</l>
+				<l>Die ons te hulpe kwam, geraakten ze op der loop;</l>
+				<l>De zucht tot zeeg die week voor vreeze van te sterven,</l>
+				<l>Zy vlieden na haar vloot, zy straks de kabels kerven,</l>
+				<l>Gaan zonder omzien deur, en niemand en bezind,</l>
+				<l>Of hy zyn Koning ook met hem te scheepe vind.</l>
+				<l>Dus wykt de plicht voor schrik, en als de vloed haar Lande,</l>
+				<l>Zo voerd haar de eb weêr af van 't land tot haarer schande.</l>
+				<l>Haar Koningen terwyl, door hitte van den stryd,</l>
+				<l>Met weinig van haar volk zich hebbende al te wyd</l>
+				<l>Begeeven onder ons, de weg haar afgesneeden,</l>
+				<l>Die bieden nochtans weer, ik zoek ze te overreden,</l>
+				<l>Om zich behoudens lyfs te geeven aan ons op;</l>
+				<l>Maar kryg geen antwoord, als de zabel op de kop:</l>
+				<l>Doch ziende zich vermand, al haar gevolg verslaagen,</l>
+				<l>En dat zy nu alleen vergeefs haar leeven waagen,</l>
+				<l>Zo roepen zy om 't hoofd van 't heir, dies ik my noem,</l>
+				<l>Zy reiken haar geweer, en daar meê leid haar roem.</l>
+				<l>Ik zend ze allebei terstond aan u gevangen:</l>
+				<l>Dus eindigde 't gevecht, daar 't Ryk scheen aan te hangen.</l>
+				<l>Op deze wyze was 't, Heer Koning, dat uw knecht....</l>
+			</sp>
+			</div>
+		<div type="scene" n="4">
+			<head>Vierde tooneel.</head>
+			<stage>De Koning, Don Diego, Don Rodrigo, Don Arias, Don Alonso,
+                            Don Sanche.</stage>
+			<sp who="#don-alonso">
+				<speaker>Alon.</speaker>
+				<l>CHimene, Heer, die komt aan u verzoeken recht.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Wat moeijelyker maar, wat buitenstydsche plichten!</l>
+				<l>Ga, ik en wil haar niet met u te zien ontstichten,</l>
+				<l>Voor allen dank ik u van my verzenden moet:</l>
+				<l>Maar denk het is om best 't geen uwen Koning doet.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Chimene hem vervolgd, en wenscht niet te behoeven.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Men zeid zy heeft hem lief, ik wil haar eens beproeven.</l>
+				<l>Hou u bedroefd.</l>
+			</sp>
+			</div>
+		<div type="scene" n="5">
+			<head>Vyfde tooneel.</head>
+			<stage>De Koning, Don Diego, Don Arias, Don Sanche, Don Alonso,
+                            Chimene, Elvire.</stage>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>WEl nu, zyt eindelyk te vreên,</l>
+				<l>Chimene, de uitkomst geeft u daar toe volle reên;</l>
+				<l>Ofschoon Rodrigo heeft de zege aan ons verworven,</l>
+				<l>Hy is in ons gezicht van zyne wond gestorven.</l>
+				<l>Geef vry den Hemel dank, die u dus op hem wreekt.</l>
+				<l>Zie hoe het bloosjen in haar aanzigt daar verbleekt.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Maar zie hoe zy bezwymd; en wil toch eens bezinnen</l>
+				<l>In dit haar zwymen, Heer, de werking van het minnen.</l>
+				<l>Haar hertenleed heeft haar geheimenis ontdekt,</l>
+				<l>En laat nu niet meêr toe gy dit in twyffel trekt.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Rodrigo is dan dood?</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Neen, neen, hy is in 't leeven.</l>
+				<l>En gy staat hem in 't hert op 't minnelykst geschreeven,</l>
+				<l>Gy zult hem hebben ook, schep weder nieuwe moed.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Heer Koning, vreugd zo wel als droefheid zwymen doet,</l>
+				<l>Vernoegens overmaat ontzenuwd onze krachten,</l>
+				<l>En 't hert daar door verflaauwd, zyn plicht niet kan betrachten.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Gy wil, Chimene, dat men u noch geef gelyk;</l>
+				<l>Maar gy gaf van uw smert en al te kenbaar blyk.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Wel, Heer, ga vry myn ramp hier mede noch bezwaaren,</l>
+				<l>En zeg my, 't zwymen is door droefheid wedervaaren;</l>
+				<l>Dat druk my daar toe bragt, mag ook wel zyn geloofd,</l>
+				<l>Want my zyn dood beneemt 't vervolgen van zyn hoofd;</l>
+				<l>Zo hy van wonden sterft, voor 't Vaderland verkreegen,</l>
+				<l>Myn wraak is zonder wraak, myn voorstel loopt my tegen,</l>
+				<l>Zo heerelyken eind strekt my slechts tot verdriet,</l>
+				<l>Helaas! Ik wil zyn dood, maar wil ze eerlyk niet.</l>
+				<l>Ik wil niet dat z' hem doe zo grooten roem verkrygen;</l>
+				<l>Hem niet op 't bed van eer, maar een Schavot doe stygen;</l>
+				<l>Hy om myn Vader sterve, en niet om 't Vaderland,</l>
+				<l>Op dat zyn naam daar door bevlekt blyv' met zyn schand.</l>
+				<l>Te sterven voor den Staat is geen ellendig sterven,</l>
+				<l>'t Is door een braave dood een eeuwig lof beërven.</l>
+				<l>'k Verbly my in zyn heil, en mag 't doen zonder schand,</l>
+				<l>'t Verzekerd u den Staat, en my myn offerhand;</l>
+				<l>Maar edel, maar versierd door zulke heldendaaden,</l>
+				<l>Het hoofd voor bloemgepronk gekroond met lauwerbladen,</l>
+				<l>En om u in een woord myn zin te zeggen aan,</l>
+				<l>Recht waardig voor de ziel myns Vaders in te staan.</l>
+				<l>Maar, ach! waar toe dat my verrukken myn gedachten!</l>
+				<l>Rodrigo heeft van my geen kwaad meêr te verwachten.</l>
+				<l>Wat kan toch tegens hem myn ongeacht geween?</l>
+				<l>Uw Ryk is hem een plaats van vrydom in 't gemeen;</l>
+				<l>Daar schynt het dat hem nu is alles toegelaaten,</l>
+				<l>Daar heerscht hy over my, noch kan myn recht my baaten:</l>
+				<l>Ja 't recht gesmoord in des verwonnen Vyands bloed,</l>
+				<l>Een nieuwen eertrap deez' verwinnaar strekken moet:</l>
+				<l>Daar ik ben toegang van, en 't schenden van de wetten,</l>
+				<l>Verstout hem op myn nek zyn trotze voet te zetten.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Myn Dochter, dit beklag gaat vry wat hevig aan,</l>
+				<l>De schaal moet zyn gelyk daar recht zal zyn gedaan:</l>
+				<l>Men stak uw Vader dood, maar hy was eerst aanrander,</l>
+				<l>De billykheid is my hier zachtheids medestander.</l>
+				<l>En eer dat gy beticht van onrecht myn begeer,</l>
+				<l>Ga met uw hert te raad, Rodrigo is daar Heer,</l>
+				<l>En uwe min aan my in 't heim'lyk dank komt geeven,</l>
+				<l>Dat ik voor u behoude uw minnaar by het leeven.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Voor my myn vyand! en het oogmerk van myn haat!</l>
+				<l>Myns Vaders moordenaar! en de oorzaak van myn kwaad!</l>
+				<l>Werd dan zo weinig werks gemaakt van myne klagten,</l>
+				<l>Dat my schynt dienst gedaan met daar niet op te achten?</l>
+				<l>Heer Koning, nu gy aan myn traanen weigerd recht,</l>
+				<l>Laat toe dan dat ik neem myn toevlucht tot 't gevecht.</l>
+				<l>'t Is daar door dat hy my wist te verongelyken,</l>
+				<l>'t Is daar door ook dat ik myn wraak moet laaten blyken.</l>
+				<l>Ik eisch aan ieder van uw Ridderschap zyn hoofd,</l>
+				<l>En die my dat verkrygt zy ik tot loon beloofd:</l>
+				<l>Dat 's hem bevechten, Heer; en laat my toe te trouwen,</l>
+				<l>Die aan Rodrigo zal de kop af konnen houwen;</l>
+				<l>Veroorlofd dat dit zy verkondigd overal.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Dit kamprecht, dat gy wil, men u vergunnen zal,</l>
+				<l>Is wel een oud gebruik, hier in gevoerd voor dezen,</l>
+				<l>Tot straf, by proefs gebrek, van misdaad onbeweezen:</l>
+				<l>Maar 't zwakt den Staat te zeer van 't dapperste Oorlogsvolk,</l>
+				<l>En de uitkomst menigmaal is van 't misbruik de tolk,</l>
+				<l>Terwyl deez' wreede wys, onwis om op te bouwen,</l>
+				<l>De onschuldige verdrukt, die schuld heeft 't veld doet houwen.</l>
+				<l>'k Spreek des Rodrigo vry; hy is my al te waard,</l>
+				<l>Om hem te waagen aan den uitval van het zwaard:</l>
+				<l>En hoe zo hoogen hert zich hebben mag misgreepen,</l>
+				<l>De Mooren zyne schuld met haare vlugt meêsleepen.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Hoe, Heer! doet gy om hem alleen een recht te niet,</l>
+				<l>Dat al uw hof hier weet zo vaak te zyn geschied?</l>
+				<l>Wat zal het volk daar van, wat zal de nyd niet zeggen,</l>
+				<l>Zo hy door uw verbod het vechten schynt te ontleggen?</l>
+				<l>En zulks hem diend tot dek, om niet te neemen aan,</l>
+				<l>'t Geen ieder Edelman zou willig ondergaan.</l>
+				<l>Heer Koning, spaar deez' gunst die zynen roem zou vlekken,</l>
+				<l>Laat hem van zyn bedryf de vruchten eerlyk trekken;</l>
+				<l>De Graaf was trots, hy heeft daar over straf gedaan,</l>
+				<l>Hy deed het als een man, hy moet het houden staan.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Nadien gy 't zo begeerd, zo zal het zo geschieden,</l>
+				<l>Maar duizend zouden zich tot dezen stryd aanbieden,</l>
+				<l>In des verwonnens plaats, en 't loon daar toe gesteld,</l>
+				<l>Myn Ridders al gelyk maakt moorders van dien held.</l>
+				<l>'t Waar onrecht, hem alleen te zetten tegens allen;</l>
+				<l>'t Zy eens genoeg in dit gevaar hem te zien vallen.</l>
+				<l>Chimene, kies uw man, en uit uw oogen ziet,</l>
+				<l>Maar na dit kampgevecht en vergd my verder niet.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die</speaker>
+				<l>Verschoon daar door niet, Heer, die zynen degen vreezen,</l>
+				<l>Het veld voor ieder een zy open, als voor dezen:</l>
+				<l>Na 't geen Rodrigo heeft van dezen dag doen zien,</l>
+				<l>Wat hert zo hoog, dat hem zou derven d'handschoen biên?</l>
+				<l>Wie is 't, die tegens hem zyn leeven hier in waagde?</l>
+				<l>Wat zou deez' krygsheld zyn, wie zou zyn de onversaagde?</l>
+			</sp>
+			<sp who="#don-sanche">
+				<speaker>Sanc.</speaker>
+				<l>Ha! Ridder, zyt gy hier, laat openen het veld,</l>
+				<l>Ik ben dus onversaagd, ik ben dien Oorlogsheld.</l>
+				<l>Mevrouw, vergun my toch myne yver uit te drukken;</l>
+				<l>Gy weet wat gy beloofd, indien 't my mogt gelukken.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Chimene, steld gy uw geschil in zyne hand?</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Heer Koning, 'k heb 't beloofd.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Op morgen doet 't gestand.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Die.</speaker>
+				<l>Neen, Heer, 't is van geen nood dit verder te verzetten;</l>
+				<l>Den arm geen uitstel zoekt daar moed den ernst kan wetten.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Te komen uit een slag, en tot een kamp te gaan!</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Dieg.</speaker>
+				<l>Rodrig' heeft aâm gehaald toen hy 't u diende aan.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Ik wil, hy hem een uur of twee voor't minst zal rusten;</l>
+				<l>Maar om te toomen in deez' vechtgezinde lusten,</l>
+				<l>En te betuigen dat ik tot myn leet laat toe</l>
+				<l>Een bloedig rechtgeding dat ik voluit ben moê,</l>
+				<l>Zal ik, noch niemand van myn Hof, zich daar vertoonen,</l>
+				<l>Gy zult de Rechter zyn die 't stryden by zal woonen,</l>
+				<l>Maak dat ze beid' hier in haar draagen als 't behoord,</l>
+				<l>En het gevecht voleind, leid den verwinnaar voort</l>
+				<l>Te Hoof; wie hy ook zy, hy heeft van my te wachten</l>
+				<l>Een en de zelfde prys van zyn manhaft betrachten,</l>
+				<l>En wil dat hem tot loon Chimene geeft haar trouw.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Heer, dat 's te strengen wet gesteld aan mynen rouw.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Gy klaagd, maar uwe min, onëenig met uw klaagen,</l>
+				<l>Indien 't Rodrigo wind, ontfangt hem met behaagen:</l>
+				<l>Laat af, noch wederspreek niet meêr een recht zo zoet,</l>
+				<l>Wie dat het is van tweên, uw Bruigom weezen moet.</l>
+			</sp>
+			</div>
+		</div>
+	<div type="act" n="5">
+		<head>Vyfde bedryf.</head>
+		<div type="scene" n="1">
+			<head>Eerste tooneel.</head>
+			<stage>Chimene, Don Rodrigo.</stage>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>ROdrigo, dus by daag? hoe hebt gy't hert gekreegen?</l>
+				<l>Ga, gy verkort myne eer, ga, wandel uwer weegen.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Ik ga ter dood, Mevrouw, en eer ik dit bestel,</l>
+				<l>Zo kom ik hier voor 't lest u zeggen noch vaar wel:</l>
+				<l>Myn min is schuldig, en myn hert in het belyden</l>
+				<l>Derf zonder uw verlof uit uw gebied niet scheiden.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Gy gaat ter dood?</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Ja run; de Graaf zyn wraake heeft,</l>
+				<l>Zo haast gy dit verlof maar aan uw dienaar geeft.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Gy gaat ter dood! Don Sanche is die dan zo te vreezen,</l>
+				<l>Dat hy een schrik aan dit ontembaar hert kan weezen?</l>
+				<l>Wat maakt u zo gering, of wat maakt hem zo groot?</l>
+				<l>Rodrigo gaat ten stryde, en acht hem zelfs al dood.</l>
+				<l>Die niet gevreesd en heeft myn Vader, noch de Mooren,</l>
+				<l>Gaat vechten met Don Sanche, en geeft de moed verlooren.</l>
+				<l>Uw dapperheid heeft die nu 't nood doet het zo slecht?</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Ik ga na myne straf, en niet naar een gevecht,</l>
+				<l>En myn trouwvaste min beneemt my het begeeren</l>
+				<l>Wanneer gy zoekt myn dood van't leeven te verweeren.</l>
+				<l>'k Heb altyd 't zelfde hart, maar ik en heb geen hand</l>
+				<l>Tot de behoudenis van 't geen dat gy verband,</l>
+				<l>En deze nacht had gy alreeds uw wensch verkreegen,</l>
+				<l>Zo ik gestreeden had alleen van mynent weegen.</l>
+				<l>Maar doende 't voor myn Prins, voor 't volk, en voor den Staat:</l>
+				<l>Myn beste niet te doen dat waar geweest verraad.</l>
+				<l>En myn manhaft gemoed haat zo noch niet het leeven,</l>
+				<l>Dat het zich wil daar uit met trouwloosheid begeeven.</l>
+				<l>Maar nu 't verschil slechts hangt aan 't geen my zelver raakt,</l>
+				<l>Gy, eischt myn hoofd, en de eisch werd by my niet gewraakt,</l>
+				<l>Uw haat doet u daar toe eens anders hand verkiezen,</l>
+				<l>Ik was niet waard myn lyf door de uwe te verliezen;</l>
+				<l>Men zal my ook niet zien zyn slaagen te weêrstaan,</l>
+				<l>'k Ben hem meêr schuldig die voor u den stryd neemt aan:</l>
+				<l>En denkende dat het van u is dat ze komen,</l>
+				<l>Nadien zyn wapens voor uw eer zyn aangenomen,</l>
+				<l>Ga ik hem bieden aan myn borst geheel ontbloot,</l>
+				<l>En kus in zyne hand de uwe die my dood.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Indien van droeve plicht de hevigheid verbolgen;</l>
+				<l>Die my doet tegens dank uw dapperheid vervolgen,</l>
+				<l>Aan uwe min schryft voor zo over straffen recht,</l>
+				<l>Dat het u weerloos steld aan hem die voor my vecht,</l>
+				<l>In deez' verblinding wil u echter niet ontgeeven,</l>
+				<l>Dat dit uw achtbaarheid niet min geld dan uw leeven;</l>
+				<l>En dat, ook in wat roem Rodrigo heeft geleefd,</l>
+				<l>Zo hy verslaagen werd, zyn achting hem begeefd.</l>
+				<l>De eer was u waardiger dan ik u waard moest weezen.</l>
+				<l>Doen ge in myns Vaders bloed uw handen wiescht voor dezen,</l>
+				<l>En ze u verzaaken deed, in spyt van uwe min,</l>
+				<l>De hoop, de zoete hoop, die myn bezit had in.</l>
+				<l>En ik zie u daar van zo weinig werks nu maaken,</l>
+				<l>Dat zonder tegenweer gy te onder zoekt te raaken.</l>
+				<l>Wat ongelykheid drukt dus uwe moed ter neêr?</l>
+				<l>Waarom had gy die doe, of heb ze nu niet meêr?</l>
+				<l>Hoe! zyt gy koen maar om my te verongelyken?</l>
+				<l>Als my geen ongelyk geschied wilt gy bezwyken,</l>
+				<l>En handeld gy zo straf myn Vader, om daar na</l>
+				<l>Te lyden zonder nood dat iemand u versla?</l>
+				<l>Neen, zonder dat gy sterft, laat my uw dood betrachten,</l>
+				<l>En doet wat voor uw eer, wilt gy uw lyf niet achten.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Na's Graaven dood, en na der Mooren nederlaag,</l>
+				<l>Myn achtbaarheid gestut met zulken styven schraag,</l>
+				<l>Zich tegens niemand nu voortaan behoefd te zetten;</l>
+				<l>Men weet wel dat geen vrees myn groot gemoed kan letten,</l>
+				<l>Dat myne dapperheid schier alle ding vermag,</l>
+				<l>En daar het geld myn eer ik deurbreek door 't ontzag.</l>
+				<l>Neen, neen, in dit gevecht (wat gy daar van moogt denken)</l>
+				<l>Rodrigo sterven kan, maar kan zyn eer niet krenken,</l>
+				<l>Hy zal niet zyn beticht dat hem zyn moed begaf;</l>
+				<l>Hy zal niet raaken voor verwonnen in zyn graf:</l>
+				<l>Men zal maar zeggen, dat hy niet heeft willen leeven,</l>
+				<l>Om tot Chimenes haat geen oorzaak meêr te geeven,</l>
+				<l>Dat hy geweeken is voor 't straffe noodgeval,</l>
+				<l>'t Geen zyn Meestersse dwong te zoeken zynen val.</l>
+				<l>Sy eischt van hem zyn hoofd, en haar zyn hoofd te ontzeggen</l>
+				<l>Schynt aan zyn moedig hert een doodschuld voor te leggen,</l>
+				<l>Tot wraake van zyne eer zo schoot hy op zyn min,</l>
+				<l>Tot wraak van zyn Meesterss' schiet hy 'er 't leeven in,</l>
+				<l>Dus doende plaats, in spyt van zyne liefde geeven,</l>
+				<l>Chimene aan zyne eer, en aan Chimeen zyn leeven.</l>
+				<l>Alzo dan zult gy zien myn dood in dit gevecht,</l>
+				<l>Den hooren van myn heil te hebben opgerecht:</l>
+				<l>En zal dit eers gevolg myn willig sterven kroonen,</l>
+				<l>Dat niemand buiten my u kon voldoening toonen.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Nadien u letten niet te loopen in uw dood,</l>
+				<l>Uw leeven noch uw eer, twee redenen zo groot,</l>
+				<l>Zo doet het dan om my; en wil kloekmoedig stryden,</l>
+				<l>Ten minsten om my van Don Sanche te bevryden.</l>
+				<l>Heb ik u ooit bemind, zo weerd van mynen hals</l>
+				<l>Een juk dat aan myn zin zo tegen is in als.</l>
+				<l>Moet ik u zeggen meêr? ga, denk op uw beschermen,</l>
+				<l>Op dat door dwang myn plicht zich uwer mag ontfermen;</l>
+				<l>En is u 't minnen ernst, zo keer verwinnaar uit</l>
+				<l>Den stryd, die van die 't wind Chimene maakt de Bruid.</l>
+				<l>Vaar wel; dit woord gezeid doet my van schaamte bloozen.</l>
+			</sp>
+			</div>
+		<div type="scene" n="2">
+			<head>Tweede tooneel.</head>
+			<sp who="#don-rodrigo">
+				<speaker>Don Rodrigo
+                            alleen.</speaker>
+				<l>WAt Vyand is 'er nu die ik niet 't veld doe loozen,</l>
+				<l>Voort Moor, voort Navarrois, voort koene Castiljaan,</l>
+				<l>En al wat Spanjen meêr voor strydbaar volk fokt aan,</l>
+				<l>Voeg u by een, en kom vry legerwys bestooken</l>
+				<l>Een hand, die zulken moed door haar is ingesprooken;</l>
+				<l>Gebruik al uw geweld op zo een zoet verwacht,</l>
+				<l>Om dat te niet te zien is niet genoeg uw magt.</l>
+			</sp>
+			</div>
+		<div type="scene" n="3">
+			<head>Darde tooneel.</head>
+			<sp who="#dona-urraca">
+				<speaker>De Infante
+                            alleen.</speaker>
+				<l>ZAl ik u noch ontzien, ontzag van myn geboorte,</l>
+				<l>Die maakte een misdaad van myn min?</l>
+				<l>Of wel u leenen 't oor, ô liefde, die de poorte</l>
+				<l>Doet open aan myn wensch, en laat myn driften in;</l>
+				<l>Arme Prinsesse, los van zin,</l>
+				<l>Hoe zult gy doen hier na behoorte?</l>
+				<l>Rodrigo, uwe deugd u myner waardig maakt;</l>
+				<l>Maar gy, ach! door uw deugd niet aan een kroon geraakt.</l>
+				<l>O onbarmhartig lot, dat al te straf gaat scheiden</l>
+				<l>Myne eere van myns herten lust;</l>
+				<l>Moet dan myn keur, die valt op zulke deugdzaamheiden,</l>
+				<l>My kosten zulken leet, my maaken zo ontrust?</l>
+				<l>O Hemel! wie kan zyn bewust</l>
+				<l>Wat smert myn ziel noch moet verbeiden,</l>
+				<l>Zo ik op myn gemoed doch niet verkrygen kan</l>
+				<l>Dat ik de min doof uit, of neem de minnaar an.</l>
+				<l>Maar schaamte my misleid, noch reden kan beramen,</l>
+				<l>'t Versmaaden van zo waarden keur:</l>
+				<l>Of Vorsten van myn Staat my schoon al vryen kwamen.</l>
+				<l>Rodrigo, 'k wil met u myn daagen brengen deur.</l>
+				<l>Want na dat my de zaak komt veur,</l>
+				<l>En kan uw hoofd geen kroon beschaamen,</l>
+				<l>Nu gy twee Koningen verwonnen hebt in 't veld,</l>
+				<l>En u den naam van CID haar tot een Heere steld.</l>
+				<l>Hy is my waard; maar weer ik heb hem weg gegeeven,</l>
+				<l>Hy aan Chimene blyven moet:</l>
+				<l>Haars Vaders dood niet houd haar haat zo wel by 't leeven,</l>
+				<l>Of zy vervolgd met leed de plichten van haar bloed.</l>
+				<l>Dus hoopt niet langer eenig goed,</l>
+				<l>Uit deze daad by hem bedreeven,</l>
+				<l>Nadien dat tot myn straf het noodlot kan zien aan,</l>
+				<l>Dat min noch duuren blyft by die in onmin staan.</l>
+			</sp>
+			</div>
+		<div type="scene" n="4">
+			<head>Vierde tooneel.</head>
+			<stage>De Infante, Leonora.</stage>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>WAt komt gy doen, Lenoor?</l>
+			</sp>
+			<sp who="#leonora">
+				<speaker>Leo.</speaker>
+				<l>Mevrouw, ik kom u toonen</l>
+				<l>De vreugde die ik voel nu rust uw deugd gaat loonen.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Waar zou deez' rust doch zyn te vinden in myn kwaad.</l>
+			</sp>
+			<sp who="#leonora">
+				<speaker>Leon.</speaker>
+				<l>Zo liefde leefd by hoop, en zonder hoop vergaat,</l>
+				<l>En kan Rodrigoos min uw ziel niet langer kwellen;</l>
+				<l>Gy weet in wat gevecht Chimene hem gaat stellen,</l>
+				<l>Nu hy daar sterven moet, of werden moet haar man,</l>
+				<l>Zo is uw hert geheeld, mids hoop niet duuren kan.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Hoe veel schort daar noch aan?</l>
+			</sp>
+			<sp who="#leonora">
+				<speaker>Leon.</speaker>
+				<l>Wat weet je 'er op te zeggen?</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Maar zeg veel eer wat hoop dat gy my weet te ontleggen?</l>
+				<l>Ofschoon Rodrigo wel op zulken voorwaard stryd,</l>
+				<l>Noch weet ik raad om dit gevolg te zien vermyd:</l>
+				<l>De min, dien zoeten Arts van myne wreede wonden,</l>
+				<l>Een duizend kunstenaar, heeft duizend looze vonden.</l>
+			</sp>
+			<sp who="#leonora">
+				<speaker>Leo.</speaker>
+				<l>Wat kond gy hoopen noch, nadien een Vaders moord</l>
+				<l>Haar vastverknochte min door onmin niet en stoord?</l>
+				<l>Want by des zaaks beleid Chimene wel laat blyken,</l>
+				<l>Dat haat in dit vervolg moet voor haar liefde wyken.</l>
+				<l>Zy vorderd een gevecht, en voor haar Ridder kiest</l>
+				<l>Een die in ieders oog alreeds den stryd verliest:</l>
+				<l>Zy keurd niet angstig uit een van de vroome Helden,</l>
+				<l>Die roem en wapenkund haar daar voor oogen stelden,</l>
+				<l>Don Sanch' haar keur voldoet; en 't is voor de eerstemaal</l>
+				<l>Dat dezen Jongeling hem wapend in het staal.</l>
+				<l>Zy liefd in dit gevecht zyn onbedreven weezen;</l>
+				<l>Gelyk hy zonder roem, zo is zy buiten vreezen:</l>
+				<l>Zulk kiezen, en zo haast, kan u genoeg doen zien</l>
+				<l>Dat zy maar zoekt een stryd die haar tot onschuld dien':</l>
+				<l>Om met deez' zeeg zich aan Rodrigo te besteden</l>
+				<l>En onder schyn van dwang te toonen weêr te vreden.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Ik merk het wel genoeg; en niettemin myn hert</l>
+				<l>Tot deez' verwinnaars gunst te meêr gedreeven werd.</l>
+				<l>Wat raad, wat raad voor my, die in myn brand moet smooren?</l>
+			</sp>
+			<sp who="#leonora">
+				<speaker>Leon.</speaker>
+				<l>Dat gy gedenkt, Mevrouw, wie dat gy zyt gebooren,</l>
+				<l>'t Lot leverd u een Prins, gy liefd een Onderdaan.</l>
+			</sp>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>Myn liefde gaat heel op een ander streek nu aan,</l>
+				<l>Ik min Rodrigo, niet zo als hy was voor dezen,</l>
+				<l>Een vry veel hooger vlam is nu in my gereezen.</l>
+				<l>Min ik hem, 't is dien Held die zo veel heeft gedaan,</l>
+				<l>'t Is de beroemde CID, daar Vorsten onder staan.</l>
+				<l>Ik zal myn zelfs nochtans ook hier in overwinnen,</l>
+				<l>Niet dat ik vrees voor schand, maar om in 't zoete minnen</l>
+				<l>Van zulken lieven Paar te geeven geen belet;</l>
+				<l>En of men hem al schoon een kroon had opgezet,</l>
+				<l>Ik wil niet neemen weêr 't geen ik heb eens gegeeven;</l>
+				<l>Nadien in dit gevecht hy wis moet boven zweeven.</l>
+				<l>Kom laat ons noch eenmaal bevestigen ons gift,</l>
+				<l>En aan Chimene doen erkennen deze drift.</l>
+				<l>En gy, die ziet den brand die my heeft overwonnen,</l>
+				<l>Zie my ook eindigen gelyk ik heb begonnen.</l>
+			</sp>
+			</div>
+		<div type="scene" n="5">
+			<head>Vyfde tooneel.</head>
+			<stage>Chimene, Elvire.</stage>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>ELvire, wat al leeds is 't dat ik troost'loos ly?</l>
+				<l>Hoe rold het ongeval baldadig over my?</l>
+				<l>Ik weet niet wat ik meêr of kan of zal verhoopen,</l>
+				<l>En alles baard my vrees, en gaat my tegen loopen:</l>
+				<l>Geen wil in my ontstaat die ik volkomen wou,</l>
+				<l>En zelfs myn zoetste wensch die volgt een snel berouw.</l>
+				<l>Twee Ridders ik om my breng tot een bloedig vechten,</l>
+				<l>En hoe het ook valt uit 't en kan myn ramp niet rechten,</l>
+				<l>'t Lot gun my wat het mag, myn leet is even groot,</l>
+				<l>En ik blyf zonder wraak, of die ik min blyft dood.</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>Van de een en de ander kant zie ik u 't leet ontdooken,</l>
+				<l>Of gy krygt die gy mind, of gy zult zyn gewrooken.</l>
+				<l>En wat ook 't noodgeval hier in beschikken kan,</l>
+				<l>Of 't voerd uw roem ten top, of 't helpt u aan een man.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Hoe! aan een die ik haat veel meêr als een verraader;</l>
+				<l>Myn vryers moordenaar, of moorder van myn Vader!</l>
+				<l>Wie dat men van deez' twee my geeft tot Echtgenoot,</l>
+				<l>Zyn handen zyn van 't bloed dat ik meest min noch rood,</l>
+				<l>Myn ziel te wederzyds heeft van hen een afgryzen,</l>
+				<l>En vrees meêr als de dood 't geen 't vonnis hier zal wyzen;</l>
+				<l>Weg wraak, weg min, die my het hoofd brengt op der loop,</l>
+				<l>In u en is geen zoet dat ik zo zuur bekoop.</l>
+				<l>En gy, ô Noodgeval! gy slaat en zalfd de wonden,</l>
+				<l>Laat zonder voordeel 't eind zyn van 't gevecht gevonden,</l>
+				<l>En zonder dat men weet wie 't wind, of wie 't verliesd.</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>Gy voor u zelfs hier in te strengen straf verkiest,</l>
+				<l>En dit gevecht u maar een nieuwe smert zal weezen,</l>
+				<l>Zo 't u vervolgen doet uw recht gelyk voor deezen:</l>
+				<l>U tuigen doe dus staâg d'hoogachting van uw bloed,</l>
+				<l>En u doet eischen 't hoofd van die gy minnen moet.</l>
+				<l>Neen, neen, 't is ver het best, dat zynen arm verkrygen</l>
+				<l>Hem doende een lauwrekrans, u eeuwig voort doe zwygen:</l>
+				<l>Dat by't gevechts gevolg uw plicht blyve overheerd,</l>
+				<l>En u de Koning dwingt tot 't geen gy zelfs begeerd.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Als hy verwinnaar waar, denkt gy ik 't op zou geeven?</l>
+				<l>Myn plicht is veel te sterk, en myn verlies te oneven.</l>
+				<l>Noch recht van kampgevecht, noch dat van 's Konings wil,</l>
+				<l>En stel aan my geen wet daar na te zwygen stil.</l>
+				<l>Hy kan met kleine moeit' Don Sanche zien verwonnen,</l>
+				<l>Maar niet met hem zo licht Chimenes roem geschonnen:</l>
+				<l>En wat schoon aan zyn zeeg de Koning heeft beloofd,</l>
+				<l>Ik zal 'er duizend meêr doen vechten om zyn hoofd.</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>Zie toe, vry dat tot straf van dit hoogmoedig spreeken,</l>
+				<l>Den Hemel niet en duld' dat eind'lyk men u wreeke.</l>
+				<l>Hoe nu! wilt gy noch al verstooren het geluk</l>
+				<l>Dat u met eeren eens doet afstaan van uw stuk?</l>
+				<l>Wat heeft deez' plicht toch voor? wat kan zy u doen hoopen?</l>
+				<l>Is met uw vryers dood uws Vaders lyf te koopen?</l>
+				<l>Hebt gy te weinig aan een slag van 't ongeluk?</l>
+				<l>Moet ramp zyn opgehoopt op ramp, en druk op druk?</l>
+				<l>Ga heen vry, ga al voort in deze vreemde grillen;</l>
+				<l>Gy zyt hem wis niet waard die zy u geeven willen.</l>
+				<l>Den Hemel eenmaal moê van u te zyn zo goed,</l>
+				<l>Zal doen gy door zyn dood Don Sanche hebben moet.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Elvire, ik heb genoeg aan 't geen ik moet verdraagen,</l>
+				<l>Verzwaar het toch niet meêr met zulken droef gewagen;</l>
+				<l>Ik wil ze, zo ik kan, vermyden alle bei,</l>
+				<l>Zo niet, Rodrigo heeft myn wensch tot zyn gelei.</l>
+				<l>Niet dat een zotte min myn neiging strekt tot dezen,</l>
+				<l>Maar zo men hem verwon, ik zou Don Sanches wezen,</l>
+				<l>Dit inval doet deez' wensch uit myne lippen gaan:</l>
+				<l>Wee my! wat zie ik daar? Elvire, 't is gedaan.</l>
+			</sp>
+			</div>
+		<div type="scene" n="6">
+			<head>Zesde tooneel.</head>
+			<stage>Don Sanche, Chimene, Elvire.</stage>
+			<sp who="#don-sanche">
+				<speaker>Sanc.</speaker>
+				<l>MEvrouw, ik breng hier voor uw voeten dezen degen.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Hoe! om Rodrigoos bloed my daar doen af te veegen?</l>
+				<l>Verraader, derfd gy noch verschynen voor myn oog,</l>
+				<l>Nu gy my hebt beroofd van 't geen my 't herte toog?</l>
+				<l>Barst uit vry myne min, gy hebt niet meêr te vreezen,</l>
+				<l>Myn Vader is voldaan, laat af dus dicht te weezen.</l>
+				<l>Een zelfde slag myn eer gesteld heeft uit de ly,</l>
+				<l>Myn ziele buiten hoop, myn minnevlammen vry.</l>
+			</sp>
+			<sp who="#don-sanche">
+				<speaker>San.</speaker>
+				<l>Met meêr bezadigheid.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Wat! houd gy u niet binne,</l>
+				<l>Vervloekte moorder van een held die ik beminne:</l>
+				<l>Weg, 't moest zyn met verraad, een krygsman zo vermaard</l>
+				<l>Waar nimmer te onderbragt door uw slaphandig zwaard.</l>
+			</sp>
+			<sp who="#elvire">
+				<speaker>Elv.</speaker>
+				<l>Maar hoor hem toch, Mevrouw.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Wat valt 'er meêr te hooren?</l>
+				<l>Kan ik noch twyffel slaan aan 't geen my komt te vooren?</l>
+				<l>'k Vin tot myn ongeval het geen ik heb gezocht,</l>
+				<l>En myn vervolg, helaas! dat is ten eind' gebrogt.</l>
+				<l>Vergeef my, waarde vriend, dit moordig onderwinden,</l>
+				<l>Denk dat ik ben een kind zo wel als een beminde;</l>
+				<l>Wrocht ik myns Vaders wraak ten koste van uw bloed,</l>
+				<l>Ik 't myne weêr om u te wreeken storten moet.</l>
+				<l>Myn ziel heeft wyders niet het geen haar kan weêrhouwen,</l>
+				<l>Zy van u eischen komt genâ op haar berouwen;</l>
+				<l>En gy, die door zyn dood my te verkrygen acht,</l>
+				<l>Onzalig dienaar van myn noodlot zo onzacht.</l>
+				<l>Hoopt niet meêr iets van my, gy zult my noit behaagen;</l>
+				<l>En hebt voor dienst te doen het leeven my ontdraagen.</l>
+			</sp>
+			<sp who="#don-sanche">
+				<speaker>San.</speaker>
+				<l>Een vreemden inval, die vervreemd van all' gehoor.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Hoe! wilt gy noch dat ik leen aan uw roemen 't oor?</l>
+				<l>En met gemak versta, met wat vermetelheden</l>
+				<l>Gy uiten zult zyn moord, myn ramp, uw dapperheden,</l>
+				<l>Op dat my uw verhaal het herte breeken doe;</l>
+				<l>Weg, weg, ik heb uw hulp daar niet van nooden toe,</l>
+				<l>Laat myne ziel vergaan door haare eigen kwaalen,</l>
+				<l>Tot wraake van myn lief wil ik geen helper haalen.</l>
+			</sp>
+			</div>
+		<div type="scene" n="7">
+			<head>Zevende tooneel.</head>
+			<stage>De Koning, Don Diego, Don Arias, Don Sanche, Don Alonso,
+                            Chimene, Elvire.</stage>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Voor u, 't geen ik toch niet verberg in myn gepeins:</l>
+				<l>Ik minde,'t was u kond, maar om myn bloed te wreeken</l>
+				<l>Heb ik zo waarden vriend wel derven doen doorsteeken.</l>
+				<l>Gy zelfs, Heer, aan 't vervolg hebt konnen zien wel licht,</l>
+				<l>Hoe dat ik heb myn min doen wyken voor myn plicht.</l>
+				<l>Rodrigo is eens dood; zyn dood hem dit doet winnen,</l>
+				<l>Dat ik in steê van haat beken hem te beminnen.</l>
+				<l>'k Was schuldig deze wraak aan die my heeft geteeld.</l>
+				<l>'k Ben schuldig dit geween aan die myn min beveeld.</l>
+				<l>Don Sanche, met voor my te zyn, heeft my bedorven,</l>
+				<l>En de arm die my bederft heeft my tot loon verworven.</l>
+				<l>Maar, Heer, zo myn ellende uw groot gemoed verzet,</l>
+				<l>Zo wederroept uit gunst deze al te harde wet;</l>
+				<l>Ik wil hem al myn goed tot zyn vergelding geeven,</l>
+				<l>Mids dat hy my laat toe van na myn zin te leeven;</l>
+				<l>Op dat ik zonder eind tot aan myn dood beschrei,</l>
+				<l>In kloosterlyk gewaad, myn Vriend en Vader bei.</l>
+			</sp>
+			<sp who="#don-diego">
+				<speaker>Diego.</speaker>
+				<l>Zy mind hem, Heer, en acht haar eer nu niet te schennen,</l>
+				<l>In dus met eigen mond haar liefde te bekennen.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Chimene, dat gy 't weet, uw Minnaar is niet dood.</l>
+				<l>Don Sanch' heeft maar zyn schand met valsch bericht vergroot.</l>
+			</sp>
+			<sp who="#don-sanche">
+				<speaker>San.</speaker>
+				<l>Heer Koning, haaren haast die heeft haar zelf bedroogen;</l>
+				<l>lk kwam om van 't gevecht haar de uitkomst te vertogen.</l>
+				<l>Dien braaven Oorlogsheld, die in haar ziele leefd,</l>
+				<l>Vreest niet, sprak hy, zo als hy my ontwapend heeft;</l>
+				<l>Ik zou veel eer de zege onzeker laaten blyven,</l>
+				<l>Dan 't bloed te storten dat Chimenes zaak kwam styven:</l>
+				<l>Maar nademaar myn plicht my dwingt na 't Hof te gaan,</l>
+				<l>Diend haar in plaats van my uw wedervaaren aan;</l>
+				<l>Ga werp u, en uw zwaard, voor haare voeten neder.</l>
+				<l>Ik kwam 'er; dit gezicht bedroog haar; want my weder</l>
+				<l>Daar ziende, zy, zo 't schynt, my voor verwinnaar nam,</l>
+				<l>En daat'lyk door haar toorn haar liefde boven kwam,</l>
+				<l>Met zulken ongeduld, en zulke hevigheden,</l>
+				<l>Dat ik tot geen gehoor kon komen van myn reden.</l>
+				<l>Voor my, ik in myn ramp my noch gelukkig acht,</l>
+				<l>Onaangezien het leed myn liefde daar van wacht;</l>
+				<l>En in myn groot verlies bemin ik het verliezen,</l>
+				<l>Dat eind'lyk uitkomst geeft aan haar volmaakt verkiezen.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Myn Dochter, rekend u zo schoonen vlam geen schand,</l>
+				<l>Noch zoekt geen middel meêr tot verder tegenstand:</l>
+				<l>Een buitenstydsche schaamt vergeefs u dat kom heeten,</l>
+				<l>Uw eer is voortaan vry, uw plichten zyn gekweeten,</l>
+				<l>Uw Vader is voldaan, en wraaks genoeg voorwaar,</l>
+				<l>Zo menigmaal uw lief te zien in zulk gevaar:</l>
+				<l>Gy ziet den Hemel een heel ander schikking maaken.</l>
+				<l>Zo veel voor hem gedaan doet nu uw eigen zaaken,</l>
+				<l>Noch wederstreefd niet meêr myn Koninglyk bevel,</l>
+				<l>Dat u een Bruigom geeft die gy bemind zo wel.</l>
+			</sp>
+			</div>
+		<div type="scene" n="8">
+			<head>Achtste tooneel.</head>
+			<stage>De Koning, Don Diego, Don Arias, Don Rodrigo, Don Alonso,
+                            Don Sanche, De Infante, Chimene, Leonora, Elvire.</stage>
+			<sp who="#dona-urraca">
+				<speaker>Inf.</speaker>
+				<l>DRoog uwe traanen af, Chimene, staak uw treuren,</l>
+				<l>En heb van myne hand hem die u mag gebeuren,</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Neem my niet kwaalyk an, Heer Koning, zo myn min</l>
+				<l>My voor haar knielen doet, daar ik my voor u vin.</l>
+				<l>Mevrouw, ik kom geen loon van myn verwinning haalen,</l>
+				<l>Maar met myn hoofd op 't nieuw myn misdaad u betaalen:</l>
+				<l>Myn liefde t' myner baat en brengt niet in voor recht,</l>
+				<l>Noch 's Konings willekeur, noch wetten van 't gevecht.</l>
+				<l>Zo 't geen 'er is gedaan te kort komt voor een Vader,</l>
+				<l>Zeg met wat middel men u mag voldoen noch nader;</l>
+				<l>Zyn 't duizend vryers die noch te bevechten staan?</l>
+				<l>Moet myn gevaar tot aan des waerelds einde gaan?</l>
+				<l>Zal ik een vloot doen vliên? een heir aan stukken kappen,</l>
+				<l>En de ouder helden roem manhaftig over stappen?</l>
+				<l>Zo myne schuld daar door dan eenmaal zyn voldaan?</l>
+				<l>Ik wil het alles doen, ik derf het al bestaan.</l>
+				<l>Maar zo deez' wreede eer, geduurig onverbeden,</l>
+				<l>Niet dan met myne dood kan zyn gesteld te vreden,</l>
+				<l>Zo wapend tegens my niet meêr eens anders kracht,</l>
+				<l>Myn hoofd leid voor uw voet, wreekt u met eigen magt;</l>
+				<l>Uw hand alleen heeft recht van my te zien verwonnen;</l>
+				<l>Neem zelf de wraak die noit een ander doen zal konnen;</l>
+				<l>Maar dat myn dood voldoe ten minsten myne straf,</l>
+				<l>Noch stoot my niet met een van uw geheug'nis af:</l>
+				<l>En nademaal myn val moet uwen roem behouden,</l>
+				<l>Behou 't geheugen van die uwen roem dus bouwde,</l>
+				<l>En zeg zomwyl, als u voor oogen komt myn dood,</l>
+				<l>Had hy my niet bemind, hy had geen stervens nood.</l>
+			</sp>
+			<sp who="#chimene">
+				<speaker>Chim.</speaker>
+				<l>Rys op, Rodrigo, 't is niet meêr te ontkennen, Heere,</l>
+				<l>Myn liefde wil 'er uit, myn drift is niet te keeren,</l>
+				<l>Rodrigo deugden heeft die ik niet haaten kan,</l>
+				<l>En gy myn Koning zyt, daar is geen weig'ren an.</l>
+				<l>Maar 't gund daar gy my hebt alreede toe verweezen,</l>
+				<l>Kan met geen redens schyn zo haast volvoerd noch weezen;</l>
+				<l>Zal eenen dag myn rouw doen aan, en leggen af?</l>
+				<l>Rodrigo in myn bed, myn Vader zien in 't graf?</l>
+				<l>Dat waar te zeer geheuld met die hem heeft verslaagen,</l>
+				<l>En aan zyn waarde ziel myn trouweloos gedraagen:</l>
+				<l>Dat waar myn eer bevlekt met eindelooze smaad,</l>
+				<l>En in myns Vaders bloed myn snoode hand gebaad.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>De tyd heeft menigmaal voor wettig aangepreezen,</l>
+				<l>'t Geen vry onwettig scheen in zyn begin te weezen.</l>
+				<l>Rodrigo door 't gevecht u zyne heeft gemaakt,</l>
+				<l>Maar of hy na zyn loon al schoon op huiden haakt,</l>
+				<l>Ik moest een vyand zyn, Chimene, uwer eeren,</l>
+				<l>Zo ik hem zulken loon niet liet noch wat ontbeeren,</l>
+				<l>Uw trouwdag uitgesteld verbreekt het kamprecht niet,</l>
+				<l>Dat zonder tydbeding hem uwe trouw aanbiedt.</l>
+				<l>Neem, zo gy wilt, een jaar tot afstand van uw weenen,</l>
+				<l>Rodrigo, midlerwyl moet gy ter heirvaart heenen,</l>
+				<l>En nademaal gy hebt de Mooren uit ons Land</l>
+				<l>Gedreeven door 't geweld van uw gestrenge hand,</l>
+				<l>Ga hen tot in haar nest den Oorlog weêr toevoeren,</l>
+				<l>Neem haare Steden in, en plonderd Dorp en Boeren,</l>
+				<l>De naam alleen van CID haar strekken zal tot schrik,</l>
+				<l>Zy noemden u haar Heer, ik u haar Koning schik;</l>
+				<l>Maar onder 't krygsbedryf uw lief getrouw wilt weezen,</l>
+				<l>Kom weder, kan het zyn, meêr waardig als voor dezen:</l>
+				<l>En door uw groot bestaan verkryg u zulken naam,</l>
+				<l>Dat gy haar dan moogt zyn met eeren aangenaam.</l>
+			</sp>
+			<sp who="#don-rodrigo">
+				<speaker>Rod.</speaker>
+				<l>Heer, om uw dienst te doen, Chimene te verkrygen,</l>
+				<l>Wat kan 'er zyn zo hoog daar ik niet toe zal stygen?</l>
+				<l>Al moet ik van haar weg zyn menig droeven dag,</l>
+				<l>'t Is my geluks genoeg dat ik noch hoopen mag.</l>
+			</sp>
+			<sp who="#don-ferdinando">
+				<speaker>Kon.</speaker>
+				<l>Hoop op uw dapperheid, en hoop op myn belooven,</l>
+				<l>En nu gy 't kwaadste zyt gelukkelyk te boven,</l>
+				<l>Om te overkomen voort 't geen noch haar eer niet lyd,</l>
+				<l>Laat werken uwe deugd, uw Koning, en de tyd.</l>
+			</sp>
+			<stage>UIT.</stage>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>
