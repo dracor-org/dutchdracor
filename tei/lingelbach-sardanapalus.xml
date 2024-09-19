@@ -1,0 +1,2794 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000123" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Sardanapalus</title>
+				<author>
+					<persName>
+						<forename>David</forename>
+						<surname>Lingelbach</surname>
+					</persName>
+					<idno type="wikidata">Q107664976</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL">https://www.dbnl.org/tekst/ling001sard01_01/</idno>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>David Lingelbach, Sardanapalus. Albert Magnus (erven), Amsterdam
+						1699.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="MALE" xml:id="arbaces">
+						<persName>Arbaces</persName>
+					</person>
+					<person sex="FEMALE" xml:id="attalia">
+						<persName>Attalia</persName>
+					</person>
+					<person sex="MALE" xml:id="belus">
+						<persName>Belus</persName>
+					</person>
+					<person sex="FEMALE" xml:id="hypermis">
+						<persName>Hypermis</persName>
+					</person>
+					<person sex="MALE" xml:id="ninias">
+						<persName>Ninias</persName>
+					</person>
+					<person sex="MALE" xml:id="porus">
+						<persName>Porus</persName>
+					</person>
+					<person sex="FEMALE" xml:id="salomena">
+						<persName>Salomena</persName>
+					</person>
+					<person sex="MALE" xml:id="sardanapalus">
+						<persName>Sardanapalus</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-09-10">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1699">
+				<desc/>
+			</event>
+			<event type="premiere" when="1699">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart>
+					<figure> </figure>
+				</titlePart>
+				<titlePart>SARDANAPALUS,</titlePart>
+				<titlePart>TREURSPEL.</titlePart>
+				<titlePart>door</titlePart>
+				<titlePart>D. LINGELBACH.</titlePart>
+				<titlePart>
+					<figure/>
+				</titlePart>
+				<titlePart>t' AMSTERDAM,</titlePart>
+				<titlePart>By de Wed: en Erven van Albert Magnus, op den Nieuwendyk, in den Atlas,
+					by den Dam. 1699.</titlePart>
+				<titlePart>Met Privilegie.</titlePart>
+
+			</docTitle>
+			<div type="appendix">
+
+				<head>Copye van de Privilegie.</head>
+				<p>DE Staten van Holland ende Westvriesland doen te weten, alsoe ons vertoont is by
+					de Regenten van het Burger Weeshuys ende Oude Mannenhuis der Stad Amsterdam, en,
+					in die qualiteyt, te samen eygenaers, mitsgaders Regenten van den Schouburg
+					aldaar, dat sy, Supplianten, sedert eenige Jaren hebbende gejouisseert van onsen
+					Octroye of Privilegie van dato den 19. September 1684. waer by wy aen de
+					Regenten van den selven Schouburg, in die ryt, hadden gelieven te consenteren,
+					accorderen ende Octroijeren, dat sy, gedurende den tyt van vyftien eerst achter
+					een volgende Jaren, de Werken, die doenmaels ten dienste van het Tooneel reets
+					gedruckt waren, ende, van tyt tot tyt; nog vorder in het ligt gebragt, ende ten
+					Tooneele gevoert soude werden, alleen soude mogen drucken, uytgeven en verkopen,
+					nu ondervonden, dat de Jaren, by het voorgemelde Octroy of Privilegie genaemt,
+					op den 19. September 1699. souden komen te expireren; ende dewyl de Supplianten
+					ten meesten dienste van de Schouburg, waer van henne respestivé Godshuysen onder
+					andere mede moesten werden gesubpenteert, de voorgemelde Werken, soo van
+					Treurspellen, Blyspellen als Kluchten, als anders, die reets gedrukt en ten
+					Toneele gevoert waeren, of in het toekomende gedrukt, en ten Toneele gevoert
+					souden mogen werden, geerne alleen, gelyk voorheenen, souden blyven drucken,
+					doen drucken, uytgeven en verkopen, ten eynde de selve Werken, door het
+					nadrucken van anderen, hier luyfter, soo in tael, als spelkonst, niet mogten
+					komen te verliesen, dog dat sulx aen haer, na de expiratie van het bovengemelde
+					ons Octroy, en sulx nae den 19. September 1699. niet gepermitteert soude wesen,
+					soo vonden de Supplianten hun genootsaekt sig te keeren tot ons, onderdanig
+					versoekende, dat wy aen de Supplianten, in hare bovengemelde qualiteyt,
+					geliefden te verleenen prolongatie van het voorsz. Octroy of Privilegie, omme
+					alsoo de voorsz. Werken, soo van Treurspellen, Blyspellen, Kluchten, als andere,
+					reets gemaakt en ten Tooneele gevoert, en als nog in het ligt te brengen, een
+					tyt van vyftien eerst achter een volgende Jaren, alleen te mogen drucken en
+					verkopen; of doen drucken en verkopen, met verbod aen allen andere op seekere
+					hoge penen, by U Ed. Groot Mog. daer roe te stellen, en voorts in communi forma;
+					soo is 't dat wy de saacke, ende 't voorsoek voorsz. overgemerkt hebbende, ende
+					genegen wel ende, ter bede van de Supplianten, uyt onse rechte wetenschap,
+					Souveraine magt en authoriteyt, deselve Supplianten geconsenteert, geaccordeert
+					ende geoctrojeert hebben, consenteren, accorderen ende octroyeren, mits desen,
+					dat sy, by continuatie, de voors[...]. Werken, soo van Treurspellen, Blyspellen,
+					Klugten als andere, reets gemaekt en ten Tooneele gevoert, en als nog in het
+					licht te brengen, den tyt van vyftien eerst achter een volgende Jaren, alleen
+					binnen onsen landen, sullen mogen drucken, doen drucken, uytgeven en verkopen,
+					verbiedende daerom allen en een ygelyk, de voorsz. Werken, in 't geheel ofte ten
+					deele, naer te drucken, ofte, elders naergedruckt; binnen den selven onsen lande
+					te brengen, uyt te geven ofte verkopen, op de verbeurte van alle de
+					naergedruckte, ingebrachte, ofte verkogte exemplaren, ende een boete van drie
+					honden guldens, daer en boven, te verbeuren, te appliceren een dar de part voor
+					den Officier, die de calangie doen sal, een darde part voor den Armen der
+					Plaetsen daer 't casus voorvallen sal, en het resterende darde part voor de
+					Supplianten, alles in dien verstande, dat wy de Supplianten met desen onsen
+					Octroye alleen willende gratificeren tot verhoedinge van hare schade door het
+					naedrucken van de voorsz. Werken, daer door in genigen deele verstaen den
+					inhoude van dien te authoriseren, ofte te advoueren, ende, veel min, het selve
+					onder onse protextie ende bescherminge eenig meerder credit, aensien, of
+					reputatie te geven, nemaer de Supplianten in cas daer inne iets onbehoorlyks
+					soude influeren, alle het selve tot haren laste sullen gehouden wesen te
+					verantwoorden, tot dien eynde welexpresselyk begeerende, dat by aldien sy dese
+					onsen Octroye voor de vootz. Werken sullen willen stellen, daer van geen
+					geabbrevieerde ofte gecontraheerde mentie sullen mogen maken, nemaer gehouden
+					sullen wesen het selve Octroy in 't geheel, en sonder eenige Omissie, daer voor
+					te drucken, ofte te doen drucken, ende dat gehouden sullen syn een exemplaer van
+					alle de voorsz. Werken, gebonden en wel geconditioneert, te brengen in de
+					Bibliotheecq van onse Universiteyt tot Leyden, ende daer van behoorlyk te doen
+					blyken, alles op pene van het effect van dien te verliesen, ende ten eynde de
+					Supplianten desen onsen Octroye ende consente mogen geniet en als naer behooren,
+					lasten wy allen ende een ygelyk, die 't aengaen mag, dat sy de Supplianten van
+					den inhoude van desen doen lasten ende gedogen, rustelyk, vredelyk ende
+					volkomentlyk genieten ende gebruyken, cesserende alle belet ter contrarie
+					gedaen. Gedaen in den Hage, onder onsen grote Zegele, hier onder aen doen hangen
+					op den een en twintigste May in 't jaer on ses Heer en Zaligmakers, een duysent
+					ses hondert negen en negentig.</p>
+				<p>A. HEINSIUS.</p>
+				<p>Ter ordonnantie van de Staten</p>
+				<p>SIMON van BEAUMONT.</p>
+				<p>De Regenten van 't Wees-en Oude Mannenhuis hebben, in haar voorsz. qualiteit, het
+					recht van deeze Privilegie vergund aan de Wed: en Erfgenamen van A. Magnus, voor
+					het TREURSPEL van SARDANAPALUS.</p>
+				<p>In Amsteldam den 15. September, 1699.</p>
+			</div>
+			<div type="dedication">
+
+				<head>Den heere Mr. Joan Hees, Secretaris der Stad Amsterdam.</head>
+				<lg>
+					<l>Gy, die in liefde tot de Duitsche Dichtkunst blaakt,</l>
+					<l>In dat bekoorlyk schoon zomtyds uw geeft vermaakt,</l>
+					<l>Als zy vermoeit is door een drang van bezigheeden;</l>
+					<l>Verschoon my, nu ik tracht, myn yver u te ontleeden,</l>
+					<l>U aftevergen haar gewoonelyke gunst,</l>
+					<l>Zo vaak beweezen aan die loffelyke kunst,</l>
+					<l>Te meer alze uitmunt, om, op bloedige tooneelen,</l>
+					<l>Haar Treurrol, naar den eisch, op 't krachtigste af te speelen,</l>
+					<l>Het teedere gemoed te zuiveren van 't kwaad.</l>
+					<l>Al komt myn Treurslof niet in een volmaakten staat</l>
+					<l>Te voorschyn, zo die maar by u werd aangenoomen,</l>
+					<l>Vernoeg ik my, en zal geen Nyd, noch Laster schroomen.</l>
+					<l>Sardanapalus breng ik op die hoop in 't licht;</l>
+					<l>Niet daar hy dartelt, en, vergeerende zyn plicht,</l>
+					<l>Spil a en Naald gebruikt, zich zelven laat blanketten,</l>
+					<l>En reuk'looze overdaad zyn Boelen voor doet zetten;</l>
+					<l>Maar daar zyn Monarchy, die onbepaalde staat,</l>
+					<l>Door't Medisch oorlogs vuur rampzalig ondergaat;</l>
+					<l>Daar hy zynschatten, niet wel moog'lyk te wardeeren,</l>
+					<l>Zich zelf, in 't Lustvertrek doet door den gloed verteeren,</l>
+					<l>Met al de Vrouwen, die zyn wellust zyn geweest.</l>
+					<l>Die ongebonde Vorst, zo reuk'loos, als gevreest,</l>
+					<l>Veerbeeld ik in dien staat, niet om daar uit te leeren,</l>
+					<l>Hem na te volgen, in zyn brassen, en boeleeren,</l>
+					<l>Maar tot een voorbeeld van een yder, dat het kwaad,</l>
+					<l>Hoe snel het is, niet licht de kreup'le straf ontgaat.</l>
+					<l>Noch ziet men 't Treurtooneel van bloed, en traanen leeken,</l>
+					<l>D'Kuiche Attalia om haar bescherming smeeken,</l>
+
+					<l>Zich troostende eer de dood als 't Koninklyk geweld.</l>
+					<l>Men ziet Vorst Berus, als een moedig oorlogs held,</l>
+					<l>De dart'le Ryksvorstin in zyn belangen mengen,</l>
+					<l>En, door die hulp, 't geweld des Dwing'lands onderbrengen.</l>
+					<l>De deugd van Ninias uitblinken tot in 't end.</l>
+					<l>Hoe 't wisselvallig lot 't beloop der zaaken, wend,</l>
+					<l>En keert, en klaar betoont, dat waereldlyke dingen</l>
+					<l>Staag onderworpen zyn een reeks veranderingen.</l>
+					<l>Hoe Salomena om haar geilheid ondergaat,</l>
+					<l>Na dat zy alles om Prins Ninias bestaat.</l>
+					<l>Dit is de stof, waar van het werk is opgeslaagen.</l>
+					<l>Gebeurt het nu, dat wy uw oordel niet mishaagen</l>
+					<l>Myn Heer, en dat uw gunst zich met myn yver paart,</l>
+					<l>Die minnelyk ontfangt na haar beleefden aart,</l>
+					<l>Dan zal zy, 't eenemaal vernoegt, haar oogwit raaken,</l>
+					<l>En leeren door het spel ook stichten, en vermaaken.</l>
+					<l>Myn HEER,</l>
+					<l>UE, Verplichtste Dienaar</l>
+					<l>D. Lingelbach.</l>
+				</lg>
+			</div>
+			<div type="appendix">
+
+				<head>Copye van de Privilegie.</head>
+				<p>DE Staten van Holland ende Westvriesland, doen te weten. Also Ons vertoont is by
+					de tegenwoordige Regenten van de Schouwburgh tot Amsterdam. Dat sy Supplianten
+					sedert eenige Jaren herwaerts met hunne goede vrinden hadden gemackt enten
+					Tooneel gevoert verscheiden Wercken, soo van Treurspelen, Blyspelen als
+					Kluchten, welcke sy lieden nu geerne met den druck gemeen wilden maecken, doch
+					gemerkt dat dese wereken door het nadrucken van anderen, veel van haer luyster,
+					soo in Tael als Spelkonst souden komen te verliesen, ende alsoo sy Supplianten
+					hen berooft souden sien van hun bysonder oogwit om de Nederduytsche Tael en de
+					Dichtkonst voort te setten soo vonden sy hen genoorsaekt, om daer inne te
+					voorsien, ende hen te keeren tot Ons, onderdanigh versoeckende, dat wy omme
+					redenen voorsz. de Supplianten geliefden te verlenen Octroy ofte Privilegie,
+					omme alle hunne wercken reets genaakt ende noch in 't licht te brengen, den tyt
+					van vyftien Jaren alleen te mogen drucken en verkopen of doen drucken en
+					verkopen, met verbot van alle anderen op seeckere hooge peene daer toe by Ons te
+					ftellen ende voorts in communi forma. Soo IS 't, dat Wy, de Zake en 't Versoek
+					voorsz. overgemerkt hebbende, ende genegen wesende ter bede van de Supplianten,
+					uyt Onse rechte wetenschap, Souveraine Magt ende authoriteyt deselve Supplianten
+					geconsenteert, geaccordeert ende geoctroyeert hebben, consenteren, accorderen
+					ende octroyeren mitsdesen, dat sy geduurende den tyt van vyftien eerst
+					achtereenvolgende Jaren de voorsz. werken die reeds gedrukt zyn, ende die van
+					tyt tot tyt door haer gemaekt ende in 't ligt gebragt sullen werden, Binnen den
+					voorsz. Onsen Lande alleen sullen mogen drukken, doen drukken, uytgeven en
+					verkopen. Verbiedende daerom allen ende eenen yegelyken de selve werken naer te
+					drukken ofte elders naer gedruckt binnen den selve Onsen Lande te brengen, uyt
+					te geven ofte te verkopen, op de verbeurte van alle de naargedrukte in gebrachte
+					ofte vetkogte Exemplaren, ende een boete van drie hondert guldens daer en boven
+					te verbeuren, te appliceren een derde part voor den Officier die de calange doen
+					sal, een derde-part voor den Armen der plaetse daer het casus voorvallen sal,
+					ende het resterende derde part voor de Supplianten. Alles in dien verstande, dat
+					Wy de Supplianten met desen Onsen Octroye alleen willende gratificeren tot
+					verhoedinge met hare schade door het nadrucken van de voorsz. werken, daer door
+					in geenige deele verstaan, den Inhoude van dien te Authoriseren, ofte te
+					advouëren, ende veel min de selve onder Onse protectie ende bescherminge eenig
+					meerde credit, aansien ofte reputatie te geven, nemaer de Supplianten, in cas
+					daar in yets onbehoorlijkx soude mogen influëren, alle het selve tot haren laste
+					sullen gehouden welen te verantwoorden, tot dien eynde wel expresselijk
+					begerende, dat by aldien sy desen Onsen Octroye voor de selve Werken sullen
+					willen stelten, daer van gene geabbrevieerde ofte gecontraheerde mentie sullen
+					mo-gen naken; nemaer gehouden sullen wesen, het selve Octroy in 't geheel ende
+					sonder eenige Omissie daar voor te drukken ofte te doen drucken; ende dat sy
+					gehouden sullen zyn een Exemplaer van alle de voorsz werken, gebonden ende wel
+					geconditioneert te brengen in de Bibliotheecq van Onse Universiteyt tot Leyden,
+					ende daer van behoorlyk te doen blyken. Alles op poene van het effect van dien
+					te verliesen, Ende ten eynde de Supplianten delen Onsen contente Octroye mogen
+					genieten als naar behooren: Lasten wy allen ende eenen yegelyken die 't aengaen
+					mach, dat sy de Supplianten van den inhoude van desen doen, laten en gedogen,
+					rustelyk, en volkomentlyk genieten en [...]serende alle beletten ter contrarie.
+					Gedaan in den Hage onder Onsen Grooten Zegele hier aan doen hangen, den xix
+					Septembr, in 't Jaer onses Heeren en Zaligmakers duysent ses hondert vier en
+					tachtig.</p>
+				<p>G. FAGEL:</p>
+				<p>Ter Oldonnantie van de Staren</p>
+				<p>SIMON van BEAUMONT</p>
+				<p>De tegenwoordige Regenten van de Schouwburg, hebben het Recht van de bovenstaande
+					Privilegie, aangaande die Treurspel, vergunt aan de Wed: en Erven van A. Magnus,
+					Boekverkoopster tot Amsterdam.</p>
+			</div>
+			<castList>
+				<head>Vertoonders.</head>
+				<castItem corresp="#sardanapalus">
+					<role>Sardanapalus, Kroning van Assyrien.</role>
+				</castItem>
+				<castItem corresp="#salomena">
+					<role>Salomena, Vorstin, en Stedehoudster van Sardanapalus.</role>
+				</castItem>
+				<castItem corresp="#belus">
+					<role>Belus, Geweezene Vorst in Armenien, Vader van Ninias.</role>
+				</castItem>
+				<castItem corresp="#ninias">
+					<role>Ninias, Zoon van Belus, verlooft aan Attalia.</role>
+				</castItem>
+				<castItem corresp="#attalia">
+					<role>Attalia, Assyrische Prinses.</role>
+				</castItem>
+				<castItem corresp="#porus">
+					<role>Porus, Hoofdman van Satomenas Lyfwacht.</role>
+				</castItem>
+				<castItem corresp="#hypermis">
+					<role>Hypermis, Vertrouwde van Salomena.</role>
+				</castItem>
+				<castItem corresp="#arbaces">
+					<role>Arbaces, Vorst, en Stedehouder van Sardanapalus in Meden.</role>
+				</castItem>
+			</castList>
+			<castList>
+				<head>Swygende.</head>
+				<castItem corresp="#agis">
+					<role>Agis, Hoofdman van Sardanapalus Lyfwacht.</role>
+				</castItem>
+				<castItem corresp="#gevolg-van-sardanapalus">
+					<role>Gevolg van Sardanapalus.</role>
+				</castItem>
+				<castItem corresp="#gevolg-van-salomena">
+					<role>Gevolg van Salomena.</role>
+				</castItem>
+				<castItem corresp="#gevolg-van-attalia">
+					<role>Gevolg van Attalia.</role>
+				</castItem>
+				<castItem corresp="#gevolg-van-arbaces">
+					<role>Gevolg van Arbaces.</role>
+				</castItem>
+				<p>Het Tooneel verbeeld het Koninklyk Paleis in Ninive.</p>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<div type="scene" n="1">
+					<head>Sardanapalus.</head>
+					<head>Eerste bedryf,</head>
+					<head>Eerste tooneel.</head>
+					<stage>Belus, Ninias.</stage>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Waar heen, myn Zoon! wat drift verrukt uw fiere zinnen?</l>
+						<l>Hoe Ninias, betoontge u dus ontaard door 't minnen,</l>
+						<l>En weegt 't belangen van Attalia u meer,</l>
+						<l>Als Vaders wraak ten zoen van zyn beledigde eer?</l>
+						<l>Ik zie Armenien door, anderen regeeren,</l>
+						<l>Sardanapalus my in 't Hof de nek toekeeren,</l>
+						<l>Wanneer hy uit geholt, van wellust afgemat,</l>
+						<l>Zich om de maand vertoond in 't Hof, of door de Stad,</l>
+						<l>Terwyl het ryks gebied een Vrouw is opgedraagen.</l>
+						<l>Wilt gy zo reukeloos uw eige leeven waagen,</l>
+						<l>Nu onze wraak, naar wensch, in haar geboorte slaat?</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Hoe Vader, zou ik dan van zulk een onverlaat,</l>
+						<l>En wreede, door gewelt Attalia zien rooven?</l>
+						<l>Kunt gy die zwakheid van uw Ninias gelooven?</l>
+						<l>Zou dat gedrogt, dat vuig van snoode misdaân stinkt,</l>
+						<l>Myn lieve morgen zon, die eerst in 't opgaan blinkt,</l>
+						<l>Haar glans verdooven, en tot vuile wellust dwingen?</l>
+						<l>Neen, eer zal deze hand hem na het leeven dingen.</l>
+						<l>Eer zal ik,</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Vaar toch niet in uwe driften voort,</l>
+						<l>Gy hebt 't begin noch niet van myn besluit gehoort.</l>
+						<l>Denk niet, dat ik zo ver zal van de reden wyken,</l>
+						<l>Dat ik Attalia zou zien verongelyken.</l>
+						<l>Maar zonder overleg, en blind'ling aan te gaan</l>
+						<l>Het onderneemen van een Koning te verslaan,</l>
+						<l>Die zich verzekerd door een stoet van Hof trauwanten,</l>
+						<l>Is, of men blind'ling zich wou tegens 't noodlot kanten.</l>
+						<l>Op welk een wys meent gy te raaken tot uw wit?</l>
+						<l>Verbeeld u, zo de Vorst in 't vrouwetimmer zit,</l>
+						<l>Dat hy omzigtig van het krygs volk laat bewaaken,</l>
+						<l>Door welk een middel gy in dat vertrek zult raaken,</l>
+						<l>Waar in Arbaces zelf pas is door list geraakt,</l>
+						<l>Toen hy beding met een Gesneede heeft gemaakt,</l>
+						<l>Om voor een goude kop te toonen 't snood boeleeren,</l>
+						<l>En 's Konings dartelheid gesierd in vrouwe kleeren:</l>
+						<l>Waar uit de haat die nu haar eind bereiken zal,</l>
+						<l>Geteeld is, tot bederf van 't Ryk, en 's Konings val.</l>
+						<l>Of wilt gy hem in 't Hof aanranden, dat beslooten</l>
+						<l>Van hofwacht, als gy had het Konings bloed vergooten,</l>
+						<l>U stellen zou ten doel van hun getergde wraak?</l>
+						<l>Neen, waag u zo niet, zoon, ik heb een grooter zaak</l>
+						<l>Voor handen: uw beleid, uw dapperheid, en leeven</l>
+						<l>Is nodig, en zal klem aan 't heerlyk opzet geeven.</l>
+						<l>Gy weet in welk een staat 't Assyrische gebied</l>
+						<l>Gebragt is, dat het zich in 't end verlasten ziet</l>
+						<l>Van onderdaanen, die de moedwil, en 't vermoogen,</l>
+						<l>Niet langer willen van een red'loos mensch gedoogen.</l>
+						<l>Dit heelt Arbaces inde wapenen gebragt,</l>
+						<l>Door Priester Belezus gezenuwd met de magt</l>
+						<l>Der Babilonners, en gevreesde Baktriaanen;</l>
+						<l>Om, zo het moog'lyk is, met hunne legervaanen,</l>
+						<l>Die trotze Monarchy, die zo verhoeven stond,</l>
+						<l>Van deze toppunt af te werpen in de grond.</l>
+						<l>Gy weet, wat hy bezuurde in zyne nederlagen;</l>
+						<l>Dat hy tot dry maal toe is uit het veld geslagen;</l>
+						<l>Dat op het laatst de kans, na zo veel tegenspoed,</l>
+						<l>Gekeerd is, en de zeeg' hem verder volgen moet;</l>
+						<l>Dat Salomenus door zyn dood het veld moest laaten</l>
+						<l>Aan vorst Arbaces; dat de stad door zyn soldaaten</l>
+						<l>Belegerd is, en hoe 't Orakel is voldaan,</l>
+						<l>'t Welk spelde, dat dit Ryk niet eer zou ondergaan,</l>
+						<l>Voor dat de Eufraat, lang stil, en in zyn kil gedooken,</l>
+						<l>Zou als een vyand met zyn vloed dit ryk bestdoken.</l>
+						<l>Dit is volbragt; des zal dat schrikdier, van de Goon</l>
+						<l>Verlaaten, hier in 't eind verkrygen zynen loon.</l>
+						<l>Ja zoveel ryken, als zyn Monarchie deed beeven,</l>
+						<l>Zult gy, ontslagen van dat Juk, noch zien herleeven;</l>
+						<l>'t Belegerd Ninive vergaan in smookend puin:</l>
+						<l>Gy ziet de muuren opgemetzeld van arduin,</l>
+						<l>En door Semiramis gesticht als 't tweede wonder,</l>
+						<l>In een nacht door de vloed gestort het bovenst onder</l>
+						<l>Dit baant Arbaces, en zyn heit een open pad,</l>
+						<l>Om stil, en onverwacht te trekken in de stad.</l>
+						<l>Ik heb Athenor ook op myne zy gekreegen.</l>
+						<l>Al toont de dwing'land zich niet openbaar verleegen,</l>
+						<l>'k weet echter dat hy schrikt, en heim'lyk is bekneld.</l>
+						<l>Hy heeft aan Corus reeds zyn kinderen besteld</l>
+						<l>Met groote schatten; tot een blyk, dat hy beneepen</l>
+						<l>Om 't hart, Arbaces vreest, die weer heeft moed gegreepen</l>
+						<l>Op 't zwellen der Eufraat, op 't heimelyk verstand</l>
+						<l>Met ons, tot ondergang van deze dwingeland.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Ach! Vader paay my niet met zulk een ydel hoopen;</l>
+						<l>Twe Jaaren zyn alreeds in dit beleg verloopen;</l>
+						<l>En wat Arbaces tot zyn wraak zich onderwind,</l>
+						<l>Gy ziet, dat hy zich zelf in 't end verleegen vind.</l>
+						<l>'T onwinbaar Ninive verduurt zyne oorlogs krachten;</l>
+						<l>En eer ik bystand van zyn leeger kan verwachten,</l>
+						<l>Zal ik Attalia, die 't nergens kan ontvliên,</l>
+						<l>Van die Geweldenaar met kracht vermeesterd zien.</l>
+						<l>Wat voordeel trek ik dan uit uw bedekte laagen?</l>
+						<l>Wat zou 't my baaten, of dat Monster wierd verslagen?</l>
+						<l>Of Ninive in vuur, in puin, en asch verging.</l>
+						<l>Als ik Attalia niet ongeschend ontfing?</l>
+						<l>Zaagt gy haar, traanen, en haar innerlyk beweegen,</l>
+						<l>Gy wierd tot myn besluit met hart en ziel geneegen.</l>
+						<l>Gy zoud my porren tot dat heerelyk bestaan.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Zou ik my zelve, en u zoonbedacht verraân?</l>
+						<l>Daar alles staat om naar myn wenschen uit te vallen:</l>
+						<l>Athenor tot myn dienst, Arbaces voor de wallen:</l>
+						<l>De nacht voorhanden, die de Dwingland straffen zal.</l>
+						<l>Zou ik zo reukeloos toestemmen uwe val?</l>
+						<l>Neen, zoek de tyd eer voor Attalia te rekken:</l>
+						<l>Na weinig uitstel, zoon, kunt gy uw wraak voltrekken.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Gy hoopt op uitstel, en gy kent dat Monsterdier,</l>
+						<l>Dat al twedagen door een onbetaam'lyk vier</l>
+						<l>Ontsteeken, haar verwachte, en nu heeft voorgenoomen</l>
+						<l>Dat hy die schoone wil door zyn gewelt bekomen.</l>
+						<l>Hy heeft de toestel daar al vaardig toegemaakt,</l>
+						<l>En zál niet rusten, eer hy tot zyn oogwit raakt.</l>
+						<l>Wie kan de dwinglandy van die Tieran gedoogen?</l>
+						<l>De deugd verdrukt zien, en noch blyven onbewoogen?</l>
+						<l>ô Zon! wiens helder licht dit heilloos hof bestraald,</l>
+						<l>Hoe kan uw oog, als 't op de boosheid nederdaalt,</l>
+						<l>En de ongebondenheld van 's Konings Hof bordeelen,</l>
+						<l>Die aanzien, zonder dat die gruw'len u verveelen?</l>
+						<l>Daar alle wellust is ter hoogster top gezet,</l>
+						<l>Daar de overdaad regeert by 't Koninglyk banket,</l>
+						<l>Daar 't krielt van gruwelen, en boosheên, die 't betaamen</l>
+						<l>Niet toe laat, dat men noemt met hun bekende naamen;</l>
+						<l>Daar die ontaarde Vorst, door geile lust verhit,</l>
+						<l>In vrouwelyk gewaad by zyne Boelen zit,</l>
+						<l>Die onbetaamelyk zyn hart in geilheid zengen,</l>
+						<l>Daar wil by met geweld die kursche schoonheid brengen.</l>
+						<l>Ik zou dit, zonder my aan hem te wreeken, zien?</l>
+						<l>Neen, Vader, denk niet, dat zulks immer zal geschiên.</l>
+						<l>Wat zeege gy te nacht zult door uw list bekoomen,</l>
+						<l>De Koning moet van daag het leeven zyn benoomen,</l>
+						<l>Wil ik Attalia in vryheid zien hersteld.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Betoomt uw opzet niet zyn toomeloos geweld?</l>
+						<l>Zou Salomena, die hy heeft 't gebied gegeeven,</l>
+						<l>Om zorgloos na zyn lust in dartelheid te leeven,</l>
+						<l>Zyn dood niet wreeken?</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Ja, zy wreeke zyne dood,</l>
+						<l>Als ik maar, stervende, haar voor de aanstaande nood</l>
+						<l>Bevryden kan, haare eer, en zuiverheid bewaaren,</l>
+						<l>Ben ik het al getroost vat my mag weedervaaren.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Op zulk een ruuw besluit zo reuk'loos voort te gaan,</l>
+						<l>Word van een zin'looze eer, als van een Held gedaan.</l>
+						<l>Bedenk wat voordeel wy met weinig uitstel winnen:</l>
+						<l>Besta niet ongemeens met spoorelooze zinnen.</l>
+						<l>Arbaces offert ons de vryheid, en de val</l>
+						<l>Des dwingelands, zo haast hy trekt in deze wal.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Ach Vader! maar daar komt die schoone, om ons te smeeken,</l>
+						<l>Dat wy het opzet van die dwingeland verbreeken.</l>
+						<l>'t Ontsteld gelaat ontdekt haar innerlyk verdriet:</l>
+						<l>Ay, Vader, weiger ons dan uwe bystand niet.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede toneel.</head>
+					<stage>Attalia, Belus, Ninias, Gevolg.</stage>
+					<sp who="#attalia">
+						<speaker>Attalia.</speaker>
+						<l>Myn heer, ik kom voor 't laatst u myn besluit ontdekken,</l>
+						<l>Niet om u daar door tot verwoedheid op te wekken,</l>
+						<l>Maar om, terwyl ik ben in dit gevaar verstrikt,</l>
+						<l>Te toonen, hoe myn hart voor 's Konings op zet schrikt.</l>
+						<l>Gy weet, myn heer, uit wat geslagt ik ben gebooren;</l>
+						<l>Dat ik uw zoon heb tot myn Bruidegom verkooren;</l>
+						<l>Dat ik de naaste ben aan 't magtig ryksgebied,</l>
+						<l>Dat Salomena nu in 's Konings naam ontziet.</l>
+						<l>'k Beklaag my niet, dat myn voor ouders zyn verstooten</l>
+						<l>Uit deze Monarchie, noch dat ik ben gesprooten</l>
+						<l>Uit Ninus Ed'le stam van myner Moeders zy,</l>
+						<l>ô Neen, want haare glans zet my meer luister by.</l>
+						<l>Dit hoopte ik, dat men meer ontzag, en eer zou draagen,</l>
+						<l>Aan 't onbesprooke bloed van myn doorluchte maagen;</l>
+						<l>Dat nooit een dwingeland, vervremd van alle deugd,</l>
+						<l>Myne eer belaagen zou in 't opgaan myner jeugd.</l>
+						<l>Ik, ongelukkige, weleer zo vry gebooren,</l>
+						<l>Word nu vervolgd, en heb myn vryheid al verloeren.</l>
+						<l>Sardanapalus, die, ten schimp van myn geslagt,</l>
+						<l>Begeert, dat ik, schoon met myn weerzin, werd gebragt.</l>
+						<l>In 't vrouwentimmer, wil myn zuyverheid bevlekken,</l>
+						<l>En door onkuysche min my tot zyn wellust trekken.</l>
+						<l>Nu kan ik zyn geweld niet tegenstaan, myn Heer.</l>
+						<l>En wat ik overleg ik vind geen uitkomst meet,</l>
+						<l>Als door de dood alleen myn vryheid te verwerven:</l>
+						<l>Ja, Ninias, ik heb beslooten om te sterven:</l>
+						<l>Maar, wyl myn ziel zo vast is aan uw min verpand,</l>
+						<l>Wenschte ik die zoete slag te ontfangen van uw hand.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Hoe, door myn hand prinses, zou ik uw bloed vergieten?</l>
+					</sp>
+					<sp who="#attalia">
+						<speaker>Attalia.</speaker>
+						<l>ô Ja, ik kan daar door myn vryheid weêr genieten.</l>
+						<l>Laat dit u troosten, dat ik, ongeschend, verga,</l>
+						<l>En dat ik om uw min, myn Heer, zo veel besta.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Neen, neen, de booswicht zal eerst door myn handen sneeven:</l>
+						<l>Gy zult niet sterven, neen, myn schoone, gy zult leeven.</l>
+						<l>De goden willen door dit middel, dat de straf.</l>
+						<l>Die ongebonden Vorst zal storten in zyn graf.</l>
+						<l>Kom, Vader, ben ik uit uw edel bloed gesprooten,</l>
+						<l>Besluit de manslag, die uw zoon reeds heeft beslooten.</l>
+						<l>Verdedig nevens my de onnoos'le in dit gevaar;</l>
+						<l>Ay Heer, doe zulks om my, terwyl ik 't doe om haar.</l>
+						<l>Om haar zal ik met vreugd het eerloos bloed vergieten,</l>
+						<l>En sterven, als zy maar haar vryheid mag genieten.</l>
+					</sp>
+					<sp who="#attalia">
+						<speaker>Attalia.</speaker>
+						<l>Tot zulk een prysstond my myn vryheid veel te duur.</l>
+						<l>Leef Ninias, en ly dat ik de dood bezuur.</l>
+						<l>Laat ons de midd'len, die maar ovrig zyn, gebruiken,</l>
+						<l>En uwe lieve hand myn stervende oogen luiken.</l>
+						<l>Gy kunt doch, wat gy ook besluit, niets groots bestaan:</l>
+						<l>Gy zult die dwingeland onmoogelyk verslaan.</l>
+						<l>Die laffe Vorst, bezorgd voor zyn onzaalig leeven,</l>
+						<l>Word al te sterk bewaard om door uw hand te sneeven.</l>
+						<l>Besluit dan, wilt gy my beschermen in die nood,</l>
+						<l>Dat ik myn rampen mach verkorten door myn dood.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Wat voel ik myne ziel op 't vinnigste bestryen,</l>
+						<l>Ach, vader! zie uw zoon benaaud, in 't uiterst lyen,</l>
+						<l>Wanhoopende van ooit die schoone vry te zien;</l>
+						<l>Beroofd van middelen om hem het hoofd te biên,</l>
+						<l>Die haar door zyn geweld wil uit myne armen rukken.</l>
+						<l>Beweegt u niet 't gevaar dat ons zal onderdrukken?</l>
+						<l>Staat uw verstand nu stil in zulk een ongeval?</l>
+						<l>Ay raad my toch, myn heer, wat ik besluiten zal.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Myn kinders, hoe myn ziel geraakt is met medoogen,</l>
+						<l>Betuigd het zilte nat, dat zypelt uit myne oogen.</l>
+						<l>En wat ik overleg, ons schiet noch tyd te kort,</l>
+						<l>Om die Tieran te zien van zyne troon gestort.</l>
+						<l>Kost gy tot morgen zyn vervloekt besluit verlengen,</l>
+						<l>Gy zoud in deze nacht het Ryk zien onderbrengen,</l>
+						<l>U weêr in vryheid, my hersteld in myne staat,</l>
+						<l>Bezoek dit maar alleen, mynkind, dit is myn raad.</l>
+					</sp>
+					<sp who="#attalia">
+						<speaker>Attalia.</speaker>
+						<l>Myn heer, hoe zou ik op dat uytstel hoopen kunnen?</l>
+						<l>Men zal geen oogenblik my langer vrydom gunnen:</l>
+						<l>Twe dagen heb ik al zyn stormen uitgestaan:</l>
+						<l>Nu pleegt hy 't uitterste, myn heer, nu is 't gedaan.</l>
+						<l>Hy heeft zyn Hoofdman, en Trauwanten streng bevoolen,</l>
+						<l>My op te zoeken, hoe, en waar ik zat verschoolen.</l>
+						<l>Hy nadert al, en zal my dwingen met geweld,</l>
+						<l>Indien uw lieve hand my niet in vryheid stelt.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Tot zulk een wreed besluit zal ik myn stem niet geeven.</l>
+						<l>Neen, schoone Attalia, verzeker noch uw leeven.</l>
+						<l>Wie weet, wat uitkomst noch voor ons te hoopen staat:</l>
+						<l>Doch vindge in 't uiterst u beroofd van hulp en raat.</l>
+						<l>En moet voor zyn geweld de dood uw toevlucht strekken,</l>
+						<l>'t Geen deze ring bevat, kan dat besluit voltrekken;</l>
+						<l>Gebruik dit middel, en verlaat u op de Goôn:</l>
+						<l>Want deze nacht verkrygt de dwingeland zyn loon.</l>
+					</sp>
+					<sp who="#attalia">
+						<speaker>Attalia.</speaker>
+						<l>Ach! daar komt Porus, 'k voel van schrik myn leden beeven:</l>
+						<l>Licht voert hy 't vonnis uit tot myn bederf gegeeven.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Darde tooneel.</head>
+					<stage>Attalia, Belus, Ninias, Porus, Gevolg.</stage>
+					<sp who="#porus">
+						<speaker>Porus.</speaker>
+						<l>MEvrouw, de Koning, om uw af zyn gansch ontsteld;</l>
+						<l>Belaste aan Agis u met wil, of met geweld,</l>
+						<l>Zo gy weer spannig zyn verzoek niet woud gehengen,</l>
+						<l>Verzeld met lyfwacht in zyn lust vertrek te brengen.</l>
+						<l>Hy heeft de Ryks vorstin des Konings last vertoond;</l>
+						<l>Zy heeft uw afzyn op de zachtste wys verschoond,</l>
+						<l>De Vorst gepaaid, en my bevoolen u te ontdekken,</l>
+						<l>Dat haare gunst zal u behoudenis verstrekken.</l>
+						<l>Zy wil u t' eenemaal van 's Konings liefde ontslaan,</l>
+						<l>Indien haar van uw kant werde eene dienst gedaan:</l>
+						<l>Wat die behelst wil zy aan Ninias ondekken.</l>
+						<l>Gy beide kunt terwyl in dit Paleis vertrekken.</l>
+					</sp>
+					<sp who="#attalia">
+						<speaker>Attalia.</speaker>
+						<l>Word myn verdriet noch op het onvoorzienst verzacht?</l>
+						<l>Wie had die gunst ooit van de Ryksvorstin verwacht!</l>
+						<l>Wil Salomena zich dan myner noch erbarmen,</l>
+						<l>My regens 's Konings vlam, en zyn geweld beschermen?</l>
+						<l>Myn Ninias, ga, werk met ernst die midd'len uit;</l>
+						<l>Stem alles, als zy myn behoudenis besluit.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Ik sta als in een droom verward, en op getoogen,</l>
+						<l>Myn zoon, betracht uw pligt, terwyl wy hoopen moogen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Ninias, Porus.</stage>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>O Goden! zal my noch in 't end die gunst geschien,</l>
+						<l>Dat ik Attalia weer zal in vryheid zien?</l>
+						<l>Is 't waarheid, Porus, spreek, of heeft men ons bedrogen?</l>
+						<l>Is Salomena met Attalia bewoogen?</l>
+						<l>Ik bid ontdek my doch, hoe 't hier geschaapen staat;</l>
+						<l>Wat dienst verwacht zy voor zo heerelyke daad?</l>
+					</sp>
+					<sp who="#porus">
+						<speaker>Porus.</speaker>
+						<l>Myn heer, ik heb geen last om haar geheimen te uitten;</l>
+						<l>De koningin wil zelf haar hart voor u ontsluiten;</l>
+						<l>Zy komt, gy kunt haar zin bevatten uit haar reên.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>Salomena, Ninias, Porus, Gevolg.</stage>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Vertrek, en laat my hier met Ninias alleen.</l>
+						<l>Myn heer, gy weet tot welk een staat ik ben gereezen,</l>
+						<l>Dat ieder uit ontzag voor myne magt moet vreezen,</l>
+						<l>Dat gansch Assyrien, dat magtig ryks gebied,</l>
+						<l>Sardanapalus wel, maar my het meeste ontziet.</l>
+						<l>Tot zulk een staat heeft my het gunstig lot verheeven,</l>
+						<l>Nu kon ik na myn wensch in pracht, in achting leeven,</l>
+						<l>En al genieten wat een grootsch gemoed beviel,</l>
+						<l>Zo niet een grooter kwaal dat zoet vermaak weerhiel.</l>
+						<l>Geen staatzorg, geen gevaar bekommerd myn gedachten;</l>
+						<l>Geen vreugd kan ook 't verdriet van myne ziel verzachten;</l>
+						<l>In wellust kwyn ik, en een heim'lyk leed verteerd</l>
+						<l>Dit hart, om dat het noch 't gewenschte zoet ontbeerd.</l>
+						<l>Tot noch toe heb ik al die zwaarigheên verzweegen,</l>
+						<l>Myn leed verkropt, en geen verlichtenis verkreegen.</l>
+						<l>Nu wil 't geval, myn heer, dat ik u dienst kan doen;</l>
+						<l>En gy kunt deze dienst my wederom vergoên.</l>
+						<l>Gy kunt de kwellingen, die myne ziel beheeren,</l>
+						<l>Alleen niet minderen, maar teffens van my weeren;</l>
+						<l>Gy kunt my dienst doen, of vermeerderen myn druk;</l>
+						<l>In u, myn heer, in u bestaat al myn geluk.</l>
+						<l>Ik zal Attalia voor 's konings min bevryden,</l>
+						<l>Zo gy me in tegendeel wilt helpen in myn lyden.</l>
+						<l>Uw vader Belus zal ik helpen tot zyn staat,</l>
+						<l>En hooger, prins, zo gy my heeden niet verlaat.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Kan ik u dienst doen? ach, vorstin! wil my verschoonen.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Ja, Ninias, gy kunt, ik zal u 't middel toonen.</l>
+						<l>Gy kunt my minnen. Hoe! ontsteld u dit, myn heer?</l>
+						<l>Vermag myn liefde, en myn gezag op u niet meer?</l>
+						<l>Kan u de luister niet van Majesteit bekooren?</l>
+						<l>Ik min u, min my weer, of, Prins, gy zyt verlooren.</l>
+						<l>Uw vader raakte niet alleen uit 't ryks bewind.</l>
+						<l>Maar was gedood, myn heer, had ik u niet bemind.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Gy mind my?</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Ja ik min; uw deugd kan my behaagen,</l>
+						<l>En dwingen, Prins, dat ik myn liefde u op moet draagen.</l>
+						<l>Bemerk daar uit hoe fel myn ziel bestreeden word;</l>
+						<l>Ik doe de grootsheid van myn Majesteit te kort;</l>
+						<l>Ik ging myn pligt voorby, ten waar ik kon bezinnen,</l>
+						<l>Dat keuren vry staat aan ontzagb're Koninginnen.</l>
+						<l>Verwonder u dan niet, dat ik zo veel besta.</l>
+						<l>Ik offer u myn liefde, of wel myne ongenâ.</l>
+						<l>Attalia kunt gy voor 's Konings min bevryden,</l>
+						<l>Indien gy mede uw deel wilt neemen in myn lyden.</l>
+						<l>Gy mint haar, maar gy zult haar nooit verkrygen, heer,</l>
+						<l>Zy is in myn geweld, en hoort aan u niet meer.</l>
+						<l>Ik zal haar aanstonds aan de koning overgeeven,</l>
+						<l>Indien gy durft bestaan myn keur te wederstreeven.</l>
+						<l>Verkeer de zoetheid van myn liefde niet in haat;</l>
+						<l>Herdenk eer, wat de min uit wanhoop onderstaat.</l>
+						<l>Bedenk wat heerlyk lot myn liefde u heeft beschooren.</l>
+						<l>Ik heb u nevens my tot heerschen uytverkooren,</l>
+						<l>De Koning offert my het gansche ryksgebied,</l>
+						<l>En 't is van my, dat gy 't u opgeofferd ziet.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Helaas!</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Gy zucht.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Wie zou in zulk een staat niet zuchten!</l>
+						<l>Gy mengt de zoetheid van uw gunst met bitt're vruchten.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>De nasmaak zal weêr zo veel te aangenaamer zyn.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Ay, overweeg, Vorstin, wat doodelyke pyn</l>
+						<l>Het is, twee zielen van elkanderen te scheuren!</l>
+						<l>Bepaal uw gunst, en laat my minder eer gebeuren.</l>
+						<l>Bescherm Attalia een dag, en ik...</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Neen, neen:</l>
+						<l>'k Verzeker haar geen uur stelt gy my niet te vreên.</l>
+						<l>Gy kunt hier over met uw Vader u beraaden;</l>
+						<l>Een weinig uitstel kan myn grootsch gemoed niet schaaden.</l>
+						<l>Ik kom om antwoord. Maak dat ik uw min verwerf,</l>
+						<l>Of wacht uw eigen, en Attaliaas bederf.</l>
+					</sp>
+					<stage>Einde van het eerste Bedryf.</stage>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<div type="scene" n="1">
+					<head>Tweede bedryf.</head>
+					<head>Eerste tooneel.</head>
+					<stage>Belus, Ninias.</stage>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>WAt eischt de Koningin? wat hoop hebt gy gekreegen?</l>
+						<l>Hoe, Ninias! wat 's dit? gy zucht, en staat verleegen:</l>
+						<l>Heeft Salomena iets onreed'lyks u gevergd?</l>
+						<l>Wat haperter, myn zoon, dat gy't voor my verbergd?</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Ach! Vader, al 't gevaar, dat ooit myn hart deed beeven,</l>
+						<l>Vergroot, en word door haar ter hoogster top verheeven.</l>
+						<l>Zy mind my, en wil u herstellen in uw staat,</l>
+						<l>Ja hooger, als ik maar Attalia verlaat.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Zy mint u, en wil my tot grooter staat verhoogen?</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>O ja, my offert zy het opperste vermongen,</l>
+						<l>'T gebieden nevens haar; en als ik dat besta,</l>
+						<l>Beloofd zy vry heid aan de schoone Attalia.</l>
+						<l>Zo niet, haar aanstonds in des Konings magt te geeven,</l>
+						<l>Ten kosten van haar eer, en myn rampzalig leeven.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Hoe hebt et op dit stuk u zelven nu berâan?</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Dat ik veel liever in myn rampen wil vergaan,</l>
+						<l>Als dar ik trouweloos myn schoone zou verlaaten.</l>
+						<l>Ja dit besluit staat vast; zy mag my dreigen, haaten,</l>
+						<l>Myn ongekreukt gemoed zal onbeweeglyk staan.</l>
+						<l>Vergeefsch heeft zy zo veele aanbiedingen gedaan.</l>
+						<l>En eer die snoode Vorst Attalia zal dwingen,</l>
+						<l>Zal ik hem met myn staal in 't open Hof bespringen.</l>
+						<l>Hy, driftig door een geile, en toomelooze min,</l>
+						<l>Komt uit zyn lustvertrek, en zal de Koningin</l>
+						<l>Beweegen, om aan hem Attalia te geeven:</l>
+						<l>Maar in dat oogenblik, ten kollen van myn leeven,</l>
+						<l>Zal ik zyn eetloos bloed vergieten met myn hand,</l>
+						<l>En Ninive ontslaan van zulk een Dwingeland.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Indien geen nader weg was tot uw wraak te vinden,</l>
+						<l>'K zou aan dat groots besluit my aanstonds ook verbinden.</l>
+						<l>Maar nu de hemel voor ons zorgt in deze staat,</l>
+						<l>Zo dien u van die gunst, en hoor een beter raad.</l>
+						<l>Is Salomena op uw deugd in liefde ontsteeken,</l>
+						<l>Wel aan, dit is het pad waar langs we ons zeker wreeken.</l>
+						<l>Dit is het middel, dat Attalia hersteld</l>
+						<l>In vryheid, en beschermd voor 't koninglyk geweld.</l>
+						<l>Gewis dit voorval zal ons weer in staat herstellen,</l>
+						<l>En op het onvoorzienst de vyand nedervellen.</l>
+						<l>Ik zie zyn moogentheyd verstooven met de wind,</l>
+						<l>Indien gy voor een dag de Koningin bemind.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Kunt gy myn ziel tot zulk een snoode zwakheid raaden?</l>
+						<l>Zou ik haar minnen, die ik eeuwig zal versmaaden?</l>
+						<l>Zou Salomena, die van wellust afgemat,</l>
+						<l>In 's Konings dartelheid ook heeft haar deel gehad,</l>
+						<l>En nu tot loon bezit 't gebied van zyne staaten,</l>
+						<l>My doen om haare min Attalia verlaaten?</l>
+						<l>Neen, Heer, verwacht van my zo snoode misdaad niet.</l>
+						<l>Al voerde my haar liefde in 't opperste gebied,</l>
+						<l>Al kon zy my ten top van alle grootscheid zetten,</l>
+						<l>Ik zal myn zuiv're ziel met ontrouw nooit besmetten.</l>
+						<l>Men zal niet zeggen, als ik in myn ramp verging,</l>
+						<l>Hy is ontaard van 't bloed, dat hy van u ontving.</l>
+						<l>Doch deze raad doet my zelf twyff'len, en gelooven,</l>
+						<l>Of uwe Jaaren ook uw oude deugd verdooven?</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Neen, denk niet, dat in my de deugd is uitgedoofd:</l>
+						<l>Die blinkt veel sterker uit op myn gerimpeld hoofd.</l>
+						<l>Denk niet, dat ik zo ver zal wy ken van 't betaamen,</l>
+						<l>Dat ik my immermeer heb myner raad te schaamen.</l>
+						<l>Neen, zoon, ik wil niet dat gy trouwloosheid begaat,</l>
+						<l>Veel minder, dat gy ooit Attalia verlaat.</l>
+						<l>Ik wil, terwyl ons is alle andere hulp benoomen,</l>
+						<l>Door deeze voorval al 't gevaar te boven komen,</l>
+						<l>Dat ons tot noch toe heeft gedreigd met zo veel smart.</l>
+						<l>Ik wil, dat uwe min de Koningin verward</l>
+						<l>In zulk een strik, waar in zy, meer en meer verleegen</l>
+						<l>Blyft hangen, zo lang, tot ik heb myn wraak verkreegen.</l>
+						<l>Gy weet wat ik daar toe verricht heb, en bestaan;</l>
+						<l>Zy bied u 't Ryksbewind; my myn' herstelling aan,</l>
+						<l>Wanneer gy dat verkrygt, zal 't vuur, in my ontsteeken</l>
+						<l>Uit ed'le spyt, zo lang toeleggen om te wreeken</l>
+						<l>Myn hoon, tot Ninive, dat zo verheeven staat,</l>
+						<l>Door myn verbolgentheid in puin, en asch vergaat.</l>
+						<l>Dit is myn inzigt, en om alles uit te voeren,</l>
+						<l>Moet u een kleen belang niet eens de ziel ontroeren.</l>
+						<l>'t Is loflyk, dat men veinst, en ongemeen vermaak,</l>
+						<l>Wanneer men veinzend raakt aan 't oogwit zyner wraak.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>De wraak is loffelyk, wanneer de deugd na 't lyden</l>
+						<l>Verwind, en de ondeugd mag in 't openbaar bestryden.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Daar tieranny regeert, en de ondeugd zeegepraald,</l>
+						<l>Heeft zelden voor de vuist de deugd haar wraak behaald.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>'t Is waar, maar daar de deugd benard is, en verleegen,</l>
+						<l>Heeft zy vaak onverwacht der Goden gunst verkreegen.</l>
+						<l>En beurt het, dat zy moet neerstorten in het graf,</l>
+						<l>Ontwykt een dwingeland altyd der Goden straf?</l>
+						<l>Ik wil myn grootsche ziel met veinzen niet bevlekken,</l>
+						<l>Maar door de deugd de gunst der Goden tot my trekken.</l>
+						<l>Doch is het vast gesteld, dar ik moet ondergaan,</l>
+						<l>Ik buig my onder 't lot, en kan 't niet tegenstaan.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Wie zich verwaareloost, en niet wil laaten raaden,</l>
+						<l>Zal billyk op zyn hals den haat der Goden laaden;</l>
+						<l>En zo hy sneuveld door een eindeloos verdriet,</l>
+						<l>Hy geeft zich zelf de schuld, maar aan zyn noodlot niet,</l>
+						<l>Hoe! meent gy dat de Goôn, die u een middel toonen,</l>
+						<l>Gereed staan, zonder dat, uw lyden te verschoonen?</l>
+						<l>Het staat aan u, dat gy u zelf gelukkig maakt,</l>
+						<l>En haar, om wien de Vorst in geile liefde blaakt.</l>
+						<l>Gy ziet een monsterdier Attalia beknellen,</l>
+						<l>En kunt haar met een woord weêrom in vryheid stellen:</l>
+						<l>Verbeeld u, hoe zy zelf om haar verlossing sineekt,</l>
+						<l>Het is Attalia, myn zoon, die door my spreekt;</l>
+						<l>Zy roept al knielende met traanen in haare oogen,</l>
+						<l>Ach! help my Ninias, en gy blyft oubewoogen?</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Neen, neen, vermoed op haar zo groot een zwakheid niet,</l>
+						<l>Verwacht nooit, dat dit van Attalia geschied.</l>
+						<l>Haar grootsche ziel is wel ten uitterste verleegen,</l>
+						<l>Zy zoekt haar vryheid wel, maar, heer, door and're weegen.</l>
+						<l>Zy wil, wat stormen ons ook waayen over 't hoofd,</l>
+						<l>Dat ik de trouw bewaar, die aan haar is beloofd.</l>
+						<l>Zy heeft die groote deugd my zelven aangepreezen;</l>
+						<l>Nu zy standvastig is, hoe! zou ik trouwloos weezen?</l>
+						<l>Zou ik een misdaad, die zo haatlyk is, bestaan?</l>
+						<l>En Salomena zou die Ninias verraân?</l>
+						<l>Een afgezolde boel, daar 's Konings dart'le zinnen</l>
+						<l>Van zyn verzaad, zou ik die veinzende beminnen?</l>
+						<l>Haar streelen, die korts gestreeld heeft die Tieran?</l>
+						<l>Ha! spreek'er niet meer af, myn hart dat beeft'er van.</l>
+						<l>Kan ik Attalia niet voor geweld bevryden,</l>
+						<l>De dood zal dan in 't kort wel eindigen ons lyden,</l>
+						<l>Dit is onze uitvlucht; en die voor geen sterven vreest,</l>
+						<l>Is nooit zyn ongeluk op aard te groot geweest.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Gy wilt een wisse dood voor uw behouding kiezen,</l>
+						<l>En die gy redden kunt, zo reukeloos verliezen:</l>
+						<l>Noch waantge, datge iets grootsch, iets ongemeens bestaat:</l>
+						<l>Gy wilt getrouw zyn, en zyt trouwloos inderdaad.</l>
+						<l>Een valsche schyn hebt gy voor waarheid ingenoomen.</l>
+						<l>'t Is lof lyk, dat men veinst, om tot zyn waak te koomen.</l>
+						<l>Weerhoud niet, dat ik kom in 't voorig Ryks gebied:</l>
+						<l>Weest edelmoedig, maar belet myne aanslag niet.</l>
+						<l>Al ons geluk bestaat in Salomenaas minnen;</l>
+						<l>De Goden hebben dit geprent in haare zinnen,</l>
+						<l>Tot voorstand onzer wraake, en om Attalia.</l>
+						<l>Beta u langer niet, myn hoop is veel te na.</l>
+						<l>Ga, wil haar uwe min verzeek'ren, en belooven;</l>
+						<l>Wy streeven door die hulp al ons gevaar te boven.</l>
+						<l>Arbaces wacht maar na myn bystand; ga dan Zoon,</l>
+						<l>Beveel het ov'rige aan uw Vader, en de Goôn.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Ay verg my geen bestaan, daar 'k eeuwig voor zal yzen.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Ik verg u een bestaan, dat gy hier na zult pryzen.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Hoe! trouweloos te zyn, vergt gy dat van uw Zoon?</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Tot redding van uw Lief, tot wraak van onze hoon,</l>
+						<l>Is 't nodig dat gy veinst uw liefd' haar op te draagen;</l>
+						<l>Zy komt, ga spreek haar, of wy zullen 't ons beklaagen.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Ik bid u, sta my toe, dat ik my wel berâ.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Berâ u, en laat my uw nut bezorgen, ga.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Ach! Vader, verg my niet om eereloos te leeven.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Ik zal haar uwe min nochtans te kennen geeven.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Verkort myn eer niet, denk eerst na wat gy bestaat.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>'t Is al bedacht, vertrek, hier helpt geen laf beraad.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede tooneel.</head>
+					<stage>Salomena, Belus, Hypermis, Porus, Govolg.</stage>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Hoe! schuwt my Ninias! of heeft hy voorgenoomen,</l>
+						<l>Dat Salomena nooit zal tot haar oogmerk komen?</l>
+						<l>Raakt hem Attalia, het opperste gebied</l>
+						<l>In deze Monarchie, en uw herstelling niet?</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Mevrouw, 'k heb last om van het tegendeel te spreeken.</l>
+						<l>Dat Ninias terstond is op u komst geweeken,</l>
+						<l>Sproot uyt onrsteltenis; wyl haare Majesteit,</l>
+						<l>Alom, waar zy verschynt, zoo groote glans verspreid.</l>
+						<l>'t Herdenken op uw staat, en gunsten, doet hem beeven.</l>
+						<l>Hy is in zyn geluk, Mevrouw, noch onbedreeven.</l>
+						<l>Verschoon de zwakheid, die gy in myn Zoon beschoud;</l>
+						<l>Hy heeft de zorg van zyn belang aan my vertrouwd,</l>
+						<l>En aanbevoolen u zyn harts geheim t'ontdekken.</l>
+						<l>Vorstin, die ons wilt tot een schild, en toevlucht strekken,</l>
+						<l>Ons, die tot noch toe zyn een speeltuig van 't geval,</l>
+						<l>Van alle staat ontbloot, geraakt aan lager wal,</l>
+						<l>Geschopt uit 's Konings gunst, en alle waardigheden,</l>
+						<l>Die wy wel eer met lof in zyne dienst bekleeden;</l>
+						<l>Gy wilt ons niet alleen herstellen, Koningin,</l>
+						<l>Maar gy begunstigt noch myn Zoon met uwe min.</l>
+						<l>Wat wonder is 't, dat gy verbaast, en opgetoogen,</l>
+						<l>Den Vader ziet van vreugd met traanen in zyne oogen?</l>
+						<l>Den Zoon in eenigheid vertrokken, uit ontzag,</l>
+						<l>Terwyl hy zoo veel gunst van u verhoopen mag?</l>
+						<l>'k Beken wel, had myn raad uw liefde niet gesteeven,</l>
+						<l>Hy had zyn hart zo licht aan u niet op gegeeven.</l>
+						<l>Maar toen hy overvroeg, en acht nam op uw staat,</l>
+						<l>Op u we Majesteit, en minnelyk gelaat,</l>
+						<l>Dat hy Attalia voor eeuwig toch moest derven,</l>
+						<l>'t Zy door des Konings liefde, of haar ontydig sterven,</l>
+						<l>En wat geluk des door uw gunst te hoopen stonds;</l>
+						<l>Dat myn' herstelling was gebouwd op deze grond;</l>
+						<l>Dat uwe min hem zou tot grooten staat verhoogen,</l>
+						<l>Stond hy van liefde, en vreugd, gelyk als opgetoogen.</l>
+						<l>Ga Vader, sprak hy, dank Mevrouw voor zo veel eer;</l>
+						<l>Ga, spreek haar uit myn naam, myn hart is veel te teer.</l>
+						<l>Myn' ziel, op uwe raad, bewoogen, en verslagen,</l>
+						<l>Kan noch de glans niet van haar Majesteit verdraagen;</l>
+						<l>Al myn beweegingen in arbeid zyn aan 't gaan;</l>
+						<l>Haar zelf te spreeken was een reukeloos bestaan;</l>
+						<l>Ik zou myn meening haar niet klaar genoeg ontdekken;</l>
+						<l>Laat my wat rusten, en in eenigheid vertrekken.</l>
+						<l>Ik zal, wat meer bedaard, vergeetende al myn druk,</l>
+						<l>My beter streelen met myn naderend geluk,</l>
+						<l>En opgehelderd gaan de Koningin begroeten.</l>
+						<l>Ga, Vader, mid'lerwyl, en werp u voor haar' voeten,</l>
+						<l>Tot een bewys hoe hoog ik Salomena acht.</l>
+						<l>Zo ver heb ik myn Zoon door mynen raad gebragt.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Gy hebt u vaderlyk, en als 't betaamd gekweeten;</l>
+						<l>'k Zal ook die groote dienst, en weldaad niet vergeeten.</l>
+						<l>Mag ik, op 't geen gy my beloofd verzekerd gaan,</l>
+						<l>'K neem van dit oogenblik u ook voor Vader aan.</l>
+						<l>Maar, ach! myn' ziel staat in dit groot geluk verleegen;</l>
+						<l>Zy had die tyding liefst van Ninias gekreegen.</l>
+						<l>Ach! had hy min ontsteld, en mêer om my begaan,</l>
+						<l>My zelf zyn liefde ontdek en deze dienst gedaan.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Mevrouw, ay laat u toch wat uitstel niet misnoegen;</l>
+						<l>Te krachtiger zal hy zich na uw liefde voegen,</l>
+						<l>Als hy de grootheid kan van zyn geluk verstaan;</l>
+						<l>'t Gemoed is teer, ik bid, ay zie zyn Jonkheid aan.</l>
+						<l>Wie zou voor zo veel gunst, als Gy hem op wilt draagen,</l>
+						<l>Niet staan in zyne ziel verwonderd, en verslaagen?</l>
+						<l>'t Verschil is tusschen u, en hem te groot Vorstin,</l>
+						<l>Om niet te beeven op 't aanbieden uwer min.</l>
+						<l>Laat dan een kleine poos aan myne Zoon 't genoegen,</l>
+						<l>Dat hy,wat meer bedaard, zich tot uw dienst mag voegen.</l>
+						<l>Ik blyf zyn borg; vertrouw u op het Vaders woord;</l>
+						<l>Gy zeegepraald, uw liefde en guust heeft hem bekoord.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Wel aan, op 't Vaders woord zal ik my dan verlaaten.</l>
+						<l>Verzeker my zyn min, 'k verzeker u uw staaten.</l>
+						<l>Ik zal my mid'lerwyl in dit gewenscht vermaak</l>
+						<l>Verheugen, en beveel aan uwe zorg de zaak.</l>
+						<l>Myn minnend hart zal nu niet hoopeloos verteeren.</l>
+						<l>Ach! Vader, eeuwig zal ik u als Vader eeren;</l>
+						<l>En tot een blyk, hoe hoog ik uwe gunst waardeer,</l>
+						<l>Geef ik 't Armenische gebied aan u niet weêr,</l>
+						<l>Maar gy zult neffens my de Stad, en 't Heir bewaaken;</l>
+						<l>Ik wil my gansch gerust met uwe Zoon vermaaken.</l>
+						<l>Ga, dryf Arbaces weer van onze vesten af</l>
+						<l>Naar Meden, geef aan dien wêerspannigen zyn straf.</l>
+						<l>Hy heeft de laatste maal ons uyt het veld geslagen;</l>
+						<l>Op uw beleid, myn Heer, durf ik een uytval waagen.</l>
+						<l>Ik geef aan u de plaats van 't opperst krygs bewind.</l>
+						<l>Erkennend door die gunst, dat my uw Zoon bemind,</l>
+						<l>Ga Porus, wil terstond Athenor kenbaar maaken,</l>
+						<l>Dat ik aan Belus stel 't belang der oorlog zaaken;</l>
+						<l>Belast hem, dat hy myn gebod niet tegenstreeft,</l>
+						<l>En dat een ieder volgt de wetten, die hy geeft.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Mevrouw, ik sta versteld voor zoo veel eer bewyzen;</l>
+						<l>'t Hart kloptme; ik voel myn bloed het onderst boven ryzen;</l>
+						<l>Ik weet niet of ik waak, of droom; ik zie my in</l>
+						<l>Een staat gesteld, die 'k nooit verwachten dorst, Vorstin.</l>
+						<l>Maar nu ik ben tot zulk een waardigheid verheeven,</l>
+						<l>Zal ik de waereld blyk van myne kloekheid geeven;</l>
+						<l>Bescherm Attalia; ik val myn vyand aan.</l>
+						<l>Mevrouw, gy zult, wat ik verricht heb, haast verstaan.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Darde tooneel.</head>
+					<stage>Salomena, Hypermis.</stage>
+					<sp who="#hypermis">
+						<speaker>Hypermis.</speaker>
+						<l>Vorstin, besluit gy dan Attalia te hoeden</l>
+						<l>Voor 't Koninglyk geweld, en zyn uitspoorig woeden?</l>
+						<l>Zyn uw gedachten door de liefde zo vervoerd?</l>
+						<l>Gy weet alreeds wat drift de Koning heeft ontroerd,</l>
+						<l>Dat hy niet laaten zal Attalia te minnen.</l>
+						<l>Hy komt uyt zyn Paleis met gansch ontstelde zinnen,</l>
+						<l>En zal u dwingen, dat gy haar Hem overgeeft;</l>
+						<l>Volbrengt gy dit, of dat gy 't opzet tegenstreeft,</l>
+						<l>'k Zie u van Ninias in eeuwigheid verlaaten,</l>
+						<l>Of dat de Koning u vervolgen zal, en haaten.</l>
+						<l>Wat baat u dan de hoop, daar gy u zelf me streelt?</l>
+						<l>Gewis; Mevrouw, gy hebt u zelf te veel verbeeld.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Vertoont myn Majesteit nu zulke flaauwe straalen,</l>
+						<l>Dat gy die zwaarigheid zo hoog in top durst haalen?</l>
+						<l>Of waant gy, wat de Vorst besluit in dit geval,</l>
+						<l>Dat myne Mogentheid voor zyne zwichten zal?</l>
+						<l>Ik voer 't gezag, en zal voor 's Konings welstand waaken:</l>
+						<l>Hy mag zich als voorheen in 't Vrouwen Hof vermaaken,</l>
+						<l>By duizend Schoonheên zich verlustigen, maar tracht,</l>
+						<l>Noch denk niet, dat zy werde in dat vertrek gebragt.</l>
+						<l>Ik zal Attalia in zekerheid bewaaren;</l>
+						<l>Doch 's Konings hevigheid door myn gezag bedaaren.</l>
+						<l>Hy komt. Vertrek, en zeg myn lyfwacht, dat hy voort</l>
+						<l>Gereed staat tot myn dienst, op 't allerminste woord.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Sardanapalus, Salomena, Gevolg.</stage>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>Vorstin, gy hebt u niet, gelyk 't betaamd gedraagen.</l>
+						<l>Waar blyft Attalia, myn wellust, myn behagen?</l>
+						<l>Die schoone, die myn borst in lichte vlammen zet?</l>
+						<l>Ik heb twedagen haar verwacht op 't feest banket,</l>
+						<l>En mid'lerwyl, myn Hof, gewoon zo uit gelaaten</l>
+						<l>Te leeven, als een Vorst betaamt van myne staaten,</l>
+						<l>Van alle dartelheid, en overdaad gespeend.</l>
+						<l>Het zachte zwanendons, dat ons 't vermaak verleend,</l>
+						<l>En zoete rust verschaft, staat vaardig, met verlangen,</l>
+						<l>Om schoone Attalia benevens my te ontfangen.</l>
+						<l>De zoete Wellust, die myn ziel aanminnig streelt,</l>
+						<l>Verkwynt, door 't missen van dat aangenaame beeld.</l>
+						<l>Geen geur, of tooyzel kan ons aangezigt behaagen,</l>
+						<l>Noch 't lust ons vlecht, noch strik, noch licht gewaad te draagen;</l>
+						<l>Het Vrouwen timmer zuft, geen blydschap gaat'er om;</l>
+						<l>'t Banket verveelt het oog; de Zangers zitten stom;</l>
+						<l>De Weelde, daar altyd myn magt door is gebleeken,</l>
+						<l>Is met alle Overdaad uit myn paleis geweeken,</l>
+						<l>Nu ons Attalia haar held're glans beroofd.</l>
+						<l>Wat hapert 'er Mevrouw? zy is aan ons beloofd.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>'t Is waar, wy hadden u die schoone eerst opgedraagen;</l>
+						<l>Nu heeft zy ons verzet door haar wemoedig klaagen.</l>
+						<l>Zy bid, zy smeekt ons om haar vryheid; en ik moet</l>
+						<l>Bekennen, dat zy heeft bewoogen myn gemoed.</l>
+						<l>Gy, die befaamd zyt door uws vyands nederlagen,</l>
+						<l>Die drymaal zelf in 't veld Arbaces hebt verslagen,</l>
+						<l>'t Assyrische gebied in uw geweld bevat,</l>
+						<l>Monarch, en Koning zyt van zo veel volk, en schat,</l>
+						<l>Dat voor uw naam alleen, al wie uw haat, moet beeven,</l>
+						<l>Zult ook uw zelf niet tot die zwakheid overgeeven,</l>
+						<l>Om die doorluchte maagd, geteeld uit edel bloed,</l>
+						<l>Te dwingen door geweld, dat zy uw lust voldoet:</l>
+						<l>Naar dien'er duizend zyn, die ieder wenschen zullen,</l>
+						<l>Om haare plaats, ten dienst des Konings, te vervullen.</l>
+						<l>Neen, uw grootmoedig hart is ons te wel bekend;</l>
+						<l>Gy hebt u tot vermaak, tot dwingen, nooit, gewend,</l>
+						<l>Gy zult de onnos'le mede, als wy, haar vryheid geeven,</l>
+						<l>En ons verschoonen in het geen 'er is bedreeven.</l>
+					</sp>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>Hoe nu, wat hebtge voor met deze vleyery?</l>
+						<l>Is dit medoogen in het lyden dat ik ly?</l>
+						<l>Is dit de bystand die ik dacht van u te haalen?</l>
+						<l>Verzacht gy op die wys myn heete minnek waalen?</l>
+						<l>Wat razerny, Mevrouw, dryft u tot dit bestaan?</l>
+						<l>Wilt gy, zo wel als zy, myn liefde tegengaan?</l>
+						<l>Is dit het loon, voor al de gunst, aan u beweezen?</l>
+						<l>Al wie my haar onthoud mag voor myn gramschap vreezen.</l>
+						<l>Hoe, waant gy, dat gy zo een Koning paaijen zult?</l>
+						<l>Geef ons Attalia, of vrees myn ongeduld.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Myn Heer, wy willen meer befcheidenheid verwachten,</l>
+						<l>Ay, ban de reden niet geheel uit uw gedachten.</l>
+						<l>Niet is'er, dat het volk tot meer genoegen scherpt,</l>
+						<l>Als dat een vorst zich reên, en wetten onderwerpt;</l>
+						<l>Ik weet wel, dat hy die of volgen kan, of laaten,</l>
+						<l>Maar 't eene zal hem doen beminnen, 't ander haaten.</l>
+					</sp>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>Wat steltge ons swarigheén van kleen belang ten toon?</l>
+						<l>Sardanapalus leeft, gelyk hy is gewoon.</l>
+						<l>Zou ik aan reden, of aan wetten my vergaapen?</l>
+						<l>De gansche waereld is alleen om my geschaapen.</l>
+						<l>Wy vreezen niemants haat, noch 't wiss'len van 't geval;</l>
+						<l>Daar is geen macht die myn besluit verand'ren zal.</l>
+						<l>Laat ons dan, als een vorst betaamd, in wellust leeven.</l>
+						<l>Het tegenwoordige is ons tot vermaak gegeeven.</l>
+						<l>Al ons vernoegen spruit uit liefde, en overdaad.</l>
+						<l>Wy laaten u 't bestier van 't Leger, en de Staat,</l>
+						<l>En willen ons vermaak bevryd van zorg genieten,</l>
+						<l>Sta ons dan toe, Mevrouw, dat wy ons wit beschieten.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Myn Heer, wy willen niet, dat gy uw wellust staakt,</l>
+						<l>In tegendeel, dat gy u meer, en meer vermaakt.</l>
+						<l>Kies duizent schoonheên uit, en edele Vorstinnen,</l>
+						<l>Verschoon alleen, ô Vorst, Attalia te minnen.</l>
+					</sp>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>Hoe nu! ik merk gy tergt het Konniglyk geduld,</l>
+						<l>Gy hoort, wat ik begeer, wat gy volbrengen zult.</l>
+						<l>Hoe! zal uw flaauw gezag voor myne magt niet duiken?</l>
+						<l>Wy zullen dan, als 't past, onze achtbaarheid, gebruiken.</l>
+						<l>Gy weigert haar, wel aan, gy Hoofdman van myn wacht,</l>
+						<l>Dat voort Attalia werd' in myn Hof gebragt.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Gy Hoofdman wacht u wel van hier geweld te pleegen.</l>
+						<l>Besta niets reukeloos, gy vond u licht verleegen.</l>
+						<l>Het is de Ryks Vorstin, die 't tegendeel gebied:</l>
+						<l>Wy voeren hier het woord, Sardanapalus niet.</l>
+					</sp>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>Hoe! Salomena, hebtge u zelve alreeds vergeeten?</l>
+						<l>Dat gy hier 't woord voert is alleen my dank te weeten.</l>
+						<l>Wy hebben u, 't is waar, 't gebied ter leen betroud,</l>
+						<l>Maar niet, op dat gy my ooit tegenstreeven zoud.</l>
+						<l>Gy moet uw luister, van myn glans, en aanzien, leenen;</l>
+						<l>En zou het minder licht het grooter nu verkleenen?</l>
+						<l>Maak niet, dat ik u weer van dat gezag vervreem,</l>
+						<l>En van het Ryk de toom zelf in de handen neem,</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Voor die verandering, myn Heer, is zorg gedraagen.</l>
+					</sp>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>Laat ons Attalia, gy kunt de rykskroon schraagen.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>'t Was onbetaamelyk, dat ik myn woord verbrak.</l>
+					</sp>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>Gy zyt het, die die vlam eerst in myn borst ontstak.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>'t Is waar Vorst, maar ik tracht die misllag voor te komen.</l>
+					</sp>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>Vorstin, verhinder niet 't geen ik heb voorgenoomen,</l>
+						<l>Of vrees voor myn geweld, en toomelooze haat.</l>
+						<l>Gy kent myn woede, indien die eens aan 't hollen slaat,</l>
+						<l>Kan haar geen draayboom van gezag, of reden, keeren.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Wy zullen evenwel Attalia verweeren.</l>
+					</sp>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>Gy blyft hartnekkig, wel ondankbre, en snoode, gy</l>
+						<l>Zult dan een oorzaak zyn van myne razerny.</l>
+						<l>Myn Hofwacht, voort bezet dit Hof met uwe troepen,</l>
+						<l>Wy zullen 't woord, dat haar 't gebied gaf, weêr herroepen.</l>
+						<l>'k Ontrek u, niet alleen de gunst, die ik u gaf;</l>
+						<l>Maar, snoode, wacht in 't kort uw welverdiende straf.</l>
+					</sp>
+					<stage>Einde van het tweede Bedryf.</stage>
+				</div>
+			</div>
+			<div type="act" n="3">
+				<div type="scene" n="1">
+					<head>Darde bedryf</head>
+					<head>Eerste tooneel.</head>
+					<stage>Salomena, Hypermis, Gevolg.</stage>
+					<sp who="#hypermis">
+						<speaker>Hypermis.</speaker>
+						<l>Mevrouw, in welk gevaar hebt gy u zerf gesteeken?</l>
+						<l>De Koning yvert om zyn ongelyk te wreeken;</l>
+						<l>Bied hem Athenor in zyn hevigheid de hand,</l>
+						<l>Waar vind gy voor zyn woede, en gramschap tegenstand?</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Zal Porus tot myn hulp met nieuwe troepen komen?</l>
+						<l>Is Belus in het heir voor Veldheer aangenoomen?</l>
+						<l>Drong myn gezag dat door? of is hem 't krygs gebied</l>
+						<l>Geweigerd, zeg my, hoe het staat, of weet gy 't niet?</l>
+					</sp>
+					<sp who="#hypermis">
+						<speaker>Hypermis.</speaker>
+						<l>Mevrouw, ik kan u hier geen recht bescheid van geeven,</l>
+						<l>Of hy 't aanvaard heeft, of dat zy hem tegenstreeven.</l>
+						<l>Dit weet ik, dat de Vorst u in zyn gramschap dreigt,</l>
+						<l>Zich sterk maakt, en omzien te wreeken, is geneigd.</l>
+						<l>Hoe 't verder staat zult gy van Porus aanstonds hooren.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Wel aan, ontwyken wy zo lang des Konings tooren.</l>
+						<l>Verheeve ziel, voltrek uw heerlyk opzet niet,</l>
+						<l>Voor gy van 't gansche Heir u zelf verzekerd ziet.</l>
+						<l>ô Ed'le Staatzucht, hoe vervoerd gy myn gedachten!</l>
+						<l>ô Liefde, wat al vreugd heb ik van u te wachten!</l>
+						<l>Ik zal, nu ik my van u beide vind verzeld,</l>
+						<l>Alleen niet tegenstaan het Koninglyk geweld,</l>
+						<l>Maar alles waagen om uw lessen naar te komen:</l>
+						<l>Geen woede, of razerny, zal dat besluit betoomen.</l>
+						<l>Ik heb myn groots gemoed te vast aan u verpand,</l>
+						<l>En volg, daar gy my heen wil leiden, hand aan hand.</l>
+						<l>Zo myne ziel komt, in het barnen der gevaaren,</l>
+						<l>Te stranden, zy zal u in grootsheid evenaaren;</l>
+						<l>Op dat men zeggen mag, wanneer zy is vergaan,</l>
+						<l>Wat word'er om de Liefde, en Staatzucht niet bestaan.</l>
+						<l>Maar daar komt Porus; wel, zal ik myn wensch bekomen?</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Twede tooneel.</head>
+					<stage>Salo Mena, Porus, Hypermis.</stage>
+					<sp who="#porus">
+						<speaker>Oporus.</speaker>
+						<l>O Ja, Vorst Belus is in 't Leger aangenoomen;</l>
+						<l>Athenor nam 't bevel van u grootmoedig aan,</l>
+						<l>En wil beneffens Hem, iet ongemeens bestaan.</l>
+						<l>Elk is gereed uw hoon door zyn beleid te wreeken,</l>
+						<l>Eer noch den avond valt de veldbazuin te steeken,</l>
+						<l>Den vyand onverwacht te stooren in zyn nest.</l>
+						<l>Hoewel van eenige geoordeeld wierd voor 't best,</l>
+						<l>Arbaces, die zo lang belegerde onze muuren,</l>
+						<l>Niet op te slaan, maar in zyn lagen te verduuren.</l>
+						<l>Doch Belus voert hen aan op uw gegeeven last,</l>
+						<l>En draagt zich als een Held van zyne Jaaren past.</l>
+						<l>Dc Veldheer kiest zyn zyde, en moedigd de soldaaten;</l>
+						<l>Het Heir weergalmd van vreugde, elk een is uitgelaaten.</l>
+						<l>Zy roepen, laat ons, eer de Vyand ons vermand.</l>
+						<l>Hem op slaan; schoon de muur, die aan de waterkant,</l>
+						<l>Het magtig Ninive beschermde, aan zyne zoomen,</l>
+						<l>Door 't zwellen der Eufraat gestort is in zyn stroomen.</l>
+						<l>Dat toeval doet ons in dit voorneem geen belet;</l>
+						<l>De muurbres word wel met een kleene magt bezet;</l>
+						<l>Ontsluit de poort, om zo de vyand af te keeren,</l>
+						<l>tn in het open veld in 't harnas te braveeren;</l>
+						<l>Kom ieder stel zich voort in zyn geleeden schrap;</l>
+						<l>Vorst Belus gaat ons voor; Het opperveldheerschap</l>
+						<l>Is door de Koningin aan deze Held gegeeven.</l>
+						<l>Wy zweeren, dat wy dit besluit niet tegenstreeven.</l>
+						<l>Hier op verzekerd hy zich van hun trouw, en woord,</l>
+						<l>En voert het gansche Heir tot aan de Wester poort.</l>
+						<l>Maar eer hy last gaf om de veld klaroen te steeken,</l>
+						<l>Beval hy my aanstonds van 't leger af te breeken,</l>
+						<l>En met tweeduizend man te waaken voor den staat,</l>
+						<l>En u, ga, spreekt hy, pleeg met Salomena raad,</l>
+						<l>Verzoek haar uit myn uaam Attalia te hoeden,</l>
+						<l>En keer met uwe magt Sardanapalus woeden.</l>
+						<l>Bescherm haar tegens hem, pleegt hy geweld; Mevrouw,</l>
+						<l>Zie my dan tot uw dienst, en blyk van Belustrouw.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Wat ben ik voor 't bewys van zulk een weldaad schuldig!</l>
+						<l>Wat draagd die braave Vorst zich tot myn heil zorgvuldig!</l>
+						<l>Wel aan, volvoeren wy ons groots besluit met kracht,</l>
+						<l>Nu wy gewapend zyn met zulk een oorlogs magt.</l>
+						<l>Ga Porus, zieterstond Prins Ninias te spreeken;</l>
+						<l>Ik zal met zyne raad myn groots besluit besteeken.</l>
+						<l>Ga, breng hem hier; bezet dan 't Hof met dubb'le wacht;</l>
+						<l>Waak met voorzigtigheid alleen deeze eene nacht.</l>
+						<l>De Koning is in liefde, en felle toorn ontsteeken,</l>
+						<l>Hy zal licht trachten om zyn haat aan my te wreeken.</l>
+						<l>Voorkom dit, maakt, dat gy gereed staat op myn woord,</l>
+						<l>Versterk my met uw hulp, indien gy onraad hoort.</l>
+					</sp>
+					<sp who="#porus">
+						<speaker>Porus.</speaker>
+						<l>Gy zult my altyd trouw in uwe dienst bevinden.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Nu is het tyd voor ons iets heerlyks te onderwinden.</l>
+						<l>Het dreigen van de Vorst verbaasd myn hart niet meer.</l>
+						<l>Ik zie my niet alleen versterkt met teegenweer,</l>
+						<l>Maar in een staat die noch myne achting zal vergrooten.</l>
+						<l>Ja, Ja Hypermis, 'k heb iets ongemeens beslooten.</l>
+						<l>'t Is niet genoeg, dat ik Attalia verschoon,</l>
+						<l>Maar ik heb vast gesteld de Koning zelf te doon.</l>
+						<l>Hoe nu! verbaasd u dit besluit? en zoud gy vreezen,</l>
+						<l>Dat zulk een groot bestaan voor my te zwaar zal weezen?</l>
+						<l>Verbeeld u eens, indien Vorst Belus zeegepraald,</l>
+						<l>Of 's Konings mogendheid voor myn gezag niet daalt?</l>
+						<l>Wie zal my, nu het Heir wil luist'ren naar zyn wetten,</l>
+						<l>Verhind'ren Ninias de Kroon op 't hoofd te zetten?</l>
+						<l>Het Vaderlyk belang is met de Zoon gemeen.</l>
+						<l>Ik wil in zekerheid met Hem de Troon betreên.</l>
+						<l>En om de weêrslag niet van 't los geval te vreezen,</l>
+						<l>Kan ik door 's Konings dood alleen verzeekerd weezen.</l>
+						<l>Heldin Semiramis is hier in voorgegaan;</l>
+						<l>Ik zal om myn belang niet min als zy bestaan.</l>
+					</sp>
+					<sp who="#hypermis">
+						<speaker>Hypermis.</speaker>
+						<l>Goôn! wat besluit gy? ach! Vorstin, gy doet my beeven,</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Ik zet het al op een, myn Ryksgebied, en leeven,</l>
+						<l>Om Ninias naast my te plaatzen op de troon.</l>
+						<l>Ik heb het Vaders woord, en wacht maar naar de Zoon,</l>
+						<l>Om door zyn kloek beleid myne aanslag voort te zetten.</l>
+						<l>Stemt hy des Konings dood, wie zal de slag beletten?</l>
+					</sp>
+					<sp who="#hypermis">
+						<speaker>Hypermis.</speaker>
+						<l>Helaas! Vorstin, voor zie doch 't naakende gevaar,</l>
+						<l>Eerge iets besluit, de slag is voor uw arm te zwaar.</l>
+						<l>En toen Vorst Ninus door Semiramis moest sneeven,</l>
+						<l>Had hy haar onbedacht 't gansch Ryksgebied gegeeven.</l>
+						<l>Gy hebt het maar terleen, en ziet uw magt bepaald;</l>
+						<l>Zyn glans geeft luister aan het licht dat van u straalt.</l>
+						<l>Ook heeft het Belus noch niet na zyn wensch gekreegen:</l>
+						<l>Het oudste krygs volk is de Koning meest geneegen.</l>
+						<l>Dat zal niet dulden, dat uw arm de Vorst zal doôn,</l>
+						<l>Veel min, dat Ninias gesteld werde op de troon.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Bekommer u niet om den uitslag myner zaaken,</l>
+						<l>Verzel Attalia, 'k zie Ninias genaaken.</l>
+						<l>Wat straalt een deftigheid uit dat volmaakt gezigt;</l>
+						<l>ô Goôn! wat ben ik u voor zyne min verpligt.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Derde tooneel.</head>
+					<stage>Salomena, Ninias.</stage>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>MYn Heer, ay toon niet meer, met neergeslagene oogen,</l>
+						<l>Die diepe eerbiedigheid aan ons geducht vermoogen.</l>
+						<l>Uw heerelyk besluit is ons bekend gemaakt.</l>
+						<l>Ook van wat drift uw ziel zo hevig is geraakt.</l>
+						<l>'t Vernoegd my, nu ik heb zo groot een daad begonnen,</l>
+						<l>Dat liefde op uw gemoed op 't laatst' heeft veld gewonnen.</l>
+						<l>'k Zal ook betoonen, dat uw hoog verheven aard,</l>
+						<l>Ver al de grootheid van myn luister evenaard.</l>
+						<l>Uw braat besluiten ging niet buiten myn gedachten.</l>
+						<l>Van uwe deugd kon ik geen minder gunst verwachten.</l>
+						<l>'K ben bly, dat gy een keur in uwe ziel besloot,</l>
+						<l>Waar door gy uw geluk zo ongemeen vergroot.</l>
+						<l>Het middel daar toe zal ik aanstonds u vertoonen.</l>
+						<l>Ja, Prins, 'k heb voor uw deugd op 't heerelykst te loonen.</l>
+						<l>'K ben in een staat, die gy niet licht verwachten zoud,</l>
+						<l>Was aan uw Vader niet het gansche Heir betrouwd.</l>
+						<l>Zo ver, myn Heer, kon my zyn ernstig woord verrukken:</l>
+						<l>Ik heb daar op gebouwd de grond van myn gelukken;</l>
+						<l>En zal, eer ons 't geval de nek keert, onbelaân,</l>
+						<l>Indien gy niet bezwykt, iets ongemeens bestaan.</l>
+						<l>Ik ken u, en ik hoop, terwylwe een wit beschieten,</l>
+						<l>Dat ik van uw beleid vernoeging zal genieten:</l>
+						<l>In 't kort, myn Heer, zo ik myn eind bereiken zal,</l>
+						<l>Verwacht ik, door uw hand, van daag des Konings val.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Des Konings val!</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Ja, die staat vast, gy zult niet hoeven</l>
+						<l>Te vreezen, dat ik wil uw groots gemoed beproeven.</l>
+						<l>'t Is ernst; ik wil niet meer regeeren in de schyn;</l>
+						<l>Ik wil de Troon betreên, maar gy zult Koning zyn.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Voor al die gunsten, die gy aan my op komt draagen,</l>
+						<l>Mevrouw, staat myne ziel op 't allerhoogst verslagen.</l>
+						<l>Ik ben verbaasd, en kan in my geen gaaven zien,</l>
+						<l>Die waard zyn zo veel eer, als gy my aan komt biên.</l>
+						<l>Dat ik u eeuwig ben verpligt zal kunnen blyken,</l>
+						<l>Als gy Attalia niet laat verongelyken.</l>
+						<l>Wat aanbelangd de Vorst, zyn dood staat vast, Mevrouw,</l>
+						<l>Nu gy bestemd 't geen ik alleen volbrengen wou.</l>
+						<l>Denk echter niet, dat ik vermaak schep in het plengen</l>
+						<l>Van Konings bloed; ik zou de manslag nooit volbrengen,</l>
+						<l>Indien ik niet bedacht, na 't heerelyk bestaan,</l>
+						<l>De gansche Waereld van een Monsterdier te ontslaan.</l>
+						<l>Ik wilde Attalia, gebragt in 't uitterst lyden,</l>
+						<l>Door zyne dood, van dat gehaat geweld bevryden.</l>
+						<l>Ik dacht, als deze hand deed zyne wonden bloên,</l>
+						<l>Alleen geen menschen maar de Goden dienst te doen.</l>
+						<l>Zo ver, Mevrouw, heeft my de nood verrukken kunnen,</l>
+						<l>Dat ik een Dwingeland het leeven moet misgunnen.</l>
+						<l>Ja hy zal sterven tot verzachting van myn smart,</l>
+						<l>Al moest ik door myn borst hem stooten in het hart.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Neen, ik begeer niet, dat gy, met gevaar van 't leeven,</l>
+						<l>Zyn bloed zult storten, 'k zal u and're midd'len geeven.</l>
+						<l>Myn lyfwacht is versterkt, weest gy nu 't hoofd daar van,</l>
+						<l>En stut, zo lang gy kunt, het woên van die Tieran.</l>
+						<l>Uw Vader dryft alree de Vyand van de muuren;</l>
+						<l>Wy moeten, tot Hy komt, dien Dwingeland verduuren.</l>
+						<l>Zo Hy met zeege keert, Arbaces heir verslaat,</l>
+						<l>Wie zal hem tegenstaan in die gewenschte staat?</l>
+						<l>Dan wil ik openbaar de laffe Votst braveeren,</l>
+						<l>Voor al zyn dreigingen Hem in 't gezigt trotzeeren;</l>
+						<l>Ik wil, waaneer hy staat van alle magt ontbloot,</l>
+						<l>Dat dan uw hand het staal hem in de boezem stoot,</l>
+						<l>Op dat ik mag, zo dra de Koning is verscheiden,</l>
+						<l>U neffens my met pragt op zyne Troon geleiden,</l>
+						<l>Van 't Leger toegejuigd, begunstigd van de Goôn.</l>
+						<l>Zie daat voor uwe min, myn Heer, een heerlyk loon.</l>
+						<l>Zie daar een waare proef van myn genegentheden;</l>
+						<l>Gy zult door myne liefde een Koningstroon betreden.</l>
+						<l>Uw grootsch, en fier gemoed heeft lang myn ziel bekoord:</l>
+						<l>Wat is 't geluk, dat gy na myne liefde hoort.</l>
+						<l>Uw Vader heeft my al uw lyden voor gedraagen,</l>
+						<l>En eindelyk, dat ik uwe oogen kost behaagen.</l>
+						<l>Sla die niet langer neer voor myne Majesteit,</l>
+						<l>Maar neem gerust uw deel in myne waardigheid.</l>
+						<l>Acht my als Minnares, en niet als Koninginne,</l>
+						<l>'k Veracht myn grootsheid nu ik Ninias beminne.</l>
+						<l>Ik zal.... Maar hoe myn Heer! wat maakt u zo versteld?</l>
+						<l>Doet noch myn luyster op uw ziel zo veel geweld?</l>
+						<l>Kan u 't herdenken van 't voorleeden noch ontroeren?</l>
+						<l>Of maakt gy zwaarigheid om de aanslag uit te voeren?</l>
+						<l>Wat haperter? ay sluit voor my uw hart niet meer,</l>
+						<l>Ik spreek gulhartig, en bemin u al te teêr.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Helaas!</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Wat zal ik uit die droeve zucht besluiten?</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Dat ik onmagtig ben myn hartsbesluit u te uiten.</l>
+						<l>Ach! 't is te groote gunst, die gy aan my bewyst,</l>
+						<l>Te meer, om dat myn hart voor 't Scepter zwaayen yst.</l>
+						<l>Ik wil in uwedienst den Koning wel ontlyven,</l>
+						<l>Maar met beding, dat ik dan van de troon mag blyven.</l>
+						<l>Als ik Attalia kan van zyn woede ontslaan,</l>
+						<l>Dan heb ik my, en Haar, en zelf de Goôn voldaan.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Hoe! is de Troon van geen waardy meer in uwe oogen?</l>
+						<l>Verveelt u reeds, daar wy met hart en ziel na poogen?</l>
+						<l>Ik weet wel, dat die is verzeld met zwaarigheên.</l>
+						<l>Maar nu myn hart besluit met moed daar op te treên,</l>
+						<l>Nu ik myn liefde aan u reeds over heb gegeeven,</l>
+						<l>Is 't onbetaamelyk, dat gy 't zoud tegenstreeven:</l>
+						<l>Men volgt 't geminde na al was het met gevaar;</l>
+						<l>En valt het draagen van een Kroon voor u zo zwaar?</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Ach! Koningin, waar is u ooit van my gebleeken,</l>
+						<l>Dat ik als trouweloos ben in myn plicht bezweeken?</l>
+						<l>Ik weet wel welk een eisch gy aan my hebt gedaan;</l>
+						<l>Maar heb ik die, Mevrouw, wel immer toegestaan?</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Hoe, Ninias! ben ik dan in myn hoop bedrogen?</l>
+						<l>Zal Salomena op uw gunst niet hoopen moogen?</l>
+						<l>Heeft my uw Vader dan verraden, en misleid,</l>
+						<l>Door zyn verzekering van uw genegentheid?</l>
+						<l>Spreek klaar; ik wil de grond van uw gedachten weeten:</l>
+						<l>Ik heb myn pligt, myn staat, om uwentwil vergeeten;</l>
+						<l>Ik heb uws Vaders woord geloofd, en nooit betrouwd,</l>
+						<l>Dat gy met zyn belang het minst verscheelen zoud.</l>
+						<l>Nu laat gy onverwacht my and're tekens blyken.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Verwacht nooit, dat ik zal myn deugd verongelyken,</l>
+						<l>Myn hart, Mevrouw, heeft zelf niet in beraad gestaan,</l>
+						<l>Of myn genegentheid tot u mogt overslaan.</l>
+						<l>'t Is ook onmoog'lyk, dat een ed'le ziel zou kunnen</l>
+						<l>Aan laffe trouw'loosheid de minste plaats vergunnen.</l>
+						<l>Die snoode misdaad past maar aan een vuig gemoed,</l>
+						<l>Dat Eer, en Deugd verlaat, vanneer het voordeel doet.</l>
+						<l>In al myn poogen trachte ik anders niet te toonen,</l>
+						<l>Als die beweegingen, die waarlyk in my woonen.</l>
+						<l>Ik laat het kwaad niet uit een vrees voor straf, ô neen!</l>
+						<l>Ik min de Deugd maar om haar waardigheid alleen.</l>
+						<l>En schoon ik my daar door vervolgen zag, en haaten,</l>
+						<l>Nooit zal myn fier gemoed die ed'le drift verlaaten.</l>
+						<l>Ik zal myn zuiv're min steeds ongeschend, behoên.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Ondankb're, kan u dan geen Koningin voldoen?</l>
+						<l>Kan u Attalia myn liefde doen verachten?</l>
+						<l>Vermag myne achtbaarheid niet meêr op uw' gedachten?</l>
+						<l>Ik bied u aan myn hart, een Koninglyke kroon,</l>
+						<l>En alle waardigheid, en gy veracht dit? Goôn!</l>
+						<l>Wat razeny heeft uw gedachten ingenoomen!</l>
+						<l>Herdenk tot welk een staat gy door myn min zoud koomen;</l>
+						<l>'t Is 't rechte teken van een vuig, en laf gemoed,</l>
+						<l>Dat niet verwisseld in zyn liefde, als 't voordeel doet.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Ik weet wel, als men maar bemint uit zucht tot staaten,</l>
+						<l>Dat dan zeer lichtelyk 't geminde word verlaaten.</l>
+						<l>Maar als een zuiv're vlam twe harten zamen bind,</l>
+						<l>Wanneer men maar uit liefde, en geen belang bemind,</l>
+						<l>En dat een vaste knoop gelegt is tusschen beiden,</l>
+						<l>Die liefde is zelf de dood niet magtig om te scheiden.</l>
+						<l>Zie my in zulk een staat, Mevrouw, en acht niet vremd</l>
+						<l>Dat myne ziel 't verzoek van u niet toe enstemt.</l>
+						<l>En beurt het, dat men ons mogt van elkander scheuren,</l>
+						<l>Wy zullen tot in 't graf ons beider lot betreuren.</l>
+						<l>Des kunt gy hier licht uit besluiten, Koningin,</l>
+						<l>Dat ik de dood zo veel niet vrees, als uwe min.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Ha! 't gaat te hoog; hoe durft uw mond die woorden uiten?</l>
+						<l>Vreest gy de wraak niet, die myn gramschap zal besluiten?</l>
+						<l>Kent gy het woeden niet van myn getergde haat,</l>
+						<l>Dat gy zo schaamteloos myn teed're min, versmaad?</l>
+						<l>Ondankb're Ninias! ô Goôn! ik ben bedrogen!</l>
+						<l>Ik ben verraden! ach! men heeft my voor geloogen!</l>
+						<l>De snoode Vader heeft my met een glimp misleid!</l>
+						<l>Ha! dat ik heb betroud op zyne arglistigheid!</l>
+						<l>Ik zie alleen de hoop van myne min niet stranden,</l>
+						<l>Maar Belus heeft door my 't gebied van 't Heir in handen;</l>
+						<l>Hy zal ons moog'lyk noch trotzeeren in 't gezigt.</l>
+						<l>Fy myne onnozelheid; fy, dat ik zo myn pligt</l>
+						<l>Verzaakt heb, en my zo onnozel liet bedriegen!</l>
+						<l>Wie dacht dat my zo schelms de Vader voor zou liegen?</l>
+						<l>Nu word myn goedheid, en oprechte min belacht:</l>
+						<l>Wat komt my over? ach! waar ben ik toe gebragt!</l>
+						<l>Ik vind my overal bedrogen, en verlaaten.</l>
+						<l>Maar, hoe ontroerde ziel, wat kan dit klaagen baaten!</l>
+						<l>Denk op de wraak, terwyl een felle haat u noopt</l>
+						<l>Door zyne weigering, eer ook die kans verloopt.</l>
+						<l>Verwoede minnenyd, kom, kom, beheersch myn zinnen,</l>
+						<l>Verstok dit hart, 't welk die ondankb're wilde minnen,</l>
+						<l>Verbolge gramschap, kom, verzel my met een haat,</l>
+						<l>Die, zo lang als ik leeve, in my niet overgaat;</l>
+						<l>Kom span uw vierschaar in myn hart, en wilt ontsteeken</l>
+						<l>In my een felle drift om deze smaad te wreeken,</l>
+						<l>Ruk eeuwig uit myn hart 't medoogen, dat my prangt,</l>
+						<l>Maak dat het onverschrikt na zyn verderf verlangd.</l>
+						<l>Om uwe min wilde ik Attalia behoeden,</l>
+						<l>En heb de Vorst getergd, gepord tot hevig woeden;</l>
+						<l>Denk nu niet,dat ik haar noch langer voor zal staan;</l>
+						<l>Neen, 'k zal in haar bederf het eerst myn wraak verzâan.</l>
+						<l>Myn grootsche ziel blyft niet gevoelloos voor zulk tergen.</l>
+						<l>Trouw'looze, neen! ik wil, noch zal haar nier meer bergen.</l>
+						<l>De woede, en spyt heeft reeds myn ziel re diep geraakt;</l>
+						<l>Zie aan myne oogen, hoe myn hart in gramschap blaakt;</l>
+						<l>Ik zal haar aanstonds aan den Koning overgeeven:</l>
+						<l>Boet uw verwaandheid dan met uw onzalig leeven;</l>
+						<l>'t Zal my niet scheelen, wat gy doet, of hoe 't u gaat,</l>
+						<l>Als maar in uw bederf gewrooken word myn smaad.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Ay, overweeg, Vorstin...</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Hier valt niets t'overweegen,</l>
+						<l>Als waare middelen om onze wraak te pleegen.</l>
+						<l>Men brenge Attalia terstond voor ons gezigt;</l>
+						<l>Zy hoor haar vonnis, en blyve u daar voor verpligt.</l>
+						<l>Zo kunt gy uit haar ramp licht uw vernoeging trekken.</l>
+						<l>Myn liefde kon u tot medoogen niet verwekken;</l>
+						<l>Wel, zie die zon dan voor haar middag ondergaan;</l>
+						<l>Beschouw wat deugd gy aan de onnoos'le hebt gedaan;</l>
+						<l>Geniet voort uw vermaak, en vrucht, uit bloed, en traanen,</l>
+						<l>Die doodsche weg dorst uw' weerspannigheid haar baanen.</l>
+						<l>Zie, welk eene ed'le ziel! die waarlyk voordeel trekt,</l>
+						<l>Nu hy een Koning in tot woeden heeft verwekt.</l>
+						<l>Wat moet zyn grootsch gemoed zich koest'ren in genoegen,</l>
+						<l>Nu hy Attalia de Koning toe ziet voegen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde Tooneel.</head>
+					<stage>Salomena, Attalia, Ninias, Porus.</stage>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>MEvrouw, gewaardig u te hooren uit myn mond</l>
+						<l>Een, vonnis, dat uwe eer zal storten tot de grond;</l>
+						<l>'k Was om uw nakend leed in myne ziel bewoogen;</l>
+						<l>Uw Jonkheid had myn hart getroffen met medoogen;</l>
+						<l>Ik wilde u hoeden voor het Koninglyk geweld,</l>
+						<l>En had al myn geluk in Ninias gesteld;</l>
+						<l>Maar die ondank baare, uit een onbezonnen yver,</l>
+						<l>Veracht myn liefde, en spant de boog der wraak veel styver.</l>
+						<l>Nu rouwt het my wel, dat uw ted're Jonkheid moet</l>
+						<l>Betaalen, 't ongelyk, dat my die wreede doet.</l>
+						<l>Maar daar een vrouw uit haat tot wreeken is geneegen,</l>
+						<l>Ontziet zy niemand om haar razerny te pleegen.</l>
+						<l>Zo ver ben ik vervoerd; maar geev' zyn Deugd de schuld,</l>
+						<l>Dat gy de wellust van een Vorst verzaaden zult.</l>
+						<l>Hy wilde u liever zien in uwe ramp versmachten,</l>
+						<l>Als myne kwelling door zyn wedermin verzachten.</l>
+						<l>Zyne averechtsche Deugd heeft u dien dienst gedaan,</l>
+						<l>Dat ik alleen uit wraak naar uw bederf zal staan.</l>
+					</sp>
+					<sp who="#attalia">
+						<speaker>Attalia.</speaker>
+						<l>Ach! waarde Ninias, zal ik in 't uitterst lyden</l>
+						<l>My moogen over uw standvastigheid verblyden?</l>
+						<l>Is uwe Deugd zo groot, datge ongeschend bewaard</l>
+						<l>'t Hart, dat onscheidelyk is met myn hart gepaard?</l>
+						<l>Wel, ed'le Prins, vaar voort, bezwyk niet voor haar woeden;</l>
+						<l>Uw min verbreekt 't geweld van alle tegenspoeden.</l>
+						<l>Ik leef alleen in u, en acht het sterven niet,</l>
+						<l>Nu myn' verleegen ziel u zo volstandig ziet.</l>
+						<l>Volhart, en ik zal ook volharden u te minnen;</l>
+						<l>Laat uwe Deugd niet door haar dreigen overwinnen.</l>
+						<l>Bewaar uw zuyver hart maar ongeschend voor my,</l>
+						<l>Geef dan de volle toom aan haare razerny.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Ach! waarde ziel, hoe zal ik kunnen, voor myne oogen,</l>
+						<l>Aanschouwen uw bederf, en blyven onbewoogen?</l>
+						<l>Zal ik u zien ten prooy van eene Dwingeland?</l>
+					</sp>
+					<sp who="#attalia">
+						<speaker>Attalia.</speaker>
+						<l>Ja liever, als dat gy my redden zoud met schand.</l>
+						<l>Weest niet begaan om my, noch om myn nakend lyden,</l>
+						<l>Het sterven zal my wel van dien Tieran bevryden;</l>
+						<l>Gy kunt my volgen, als ik in myn ramp verga.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Kom, geeven wy de Vorst terstond Attalia.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Vorstin, ay overdenk, indien gy haar wilt geeven,</l>
+						<l>Dat deze dag een eind zal maaken van ons leeven.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Ondankb're, denk wat spyt myn grootsche ziel verteerd,</l>
+						<l>Nu gy zo schaamteloos my in 't gezicht trotzeert;</l>
+						<l>Verwacht niet, dat ge in my zult medelyden vinden;</l>
+						<l>Om my te wreeken zal ik alles onder winden.</l>
+						<l>Myn rekkelyk gemoed is al te lang gezard;</l>
+						<l>Te veel hebt gy gesteund op myn medoogend hart:</l>
+						<l>Nu is myn wraak aan 't gaan, en niemand zal die keeren:</l>
+						<l>Gy kunt haar nakend kwaad beklaagen, maar niet weeren.</l>
+						<l>Ik scheur haar van u af, en voort uit uw gezigt.</l>
+					</sp>
+					<sp who="#attalia">
+						<speaker>Attalia.</speaker>
+						<l>Vaarwel, myn Ninias, denk eeuwig op uw pligt.</l>
+					</sp>
+					<stage>Einde van het derde Bedryf.</stage>
+				</div>
+			</div>
+			<div type="act" n="4">
+				<div type="scene" n="1">
+					<head>Vierde bedryf.</head>
+					<head>Eerste tooneel.</head>
+					<stage>Salomena, Hypermis, Gevolg.</stage>
+					<sp who="#hypermis">
+						<speaker>Hypermis.</speaker>
+						<l>Wat hevigheid, Mevrouw, heeft uwe ziel bewoogen,</l>
+						<l>Dat gy met zucht op zucht, met traanen in uwe oogen</l>
+						<l>Dus ongestadig door 't Paleis loopt heen, en weêr?</l>
+						<l>Heeft u de Koning zo benadeeld in uwe eer</l>
+						<l>En om Attalia uw Achtbaarheid beledigd?</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Neen, neen, Hypermis, 'k ben door and're reên ontvreedigd:</l>
+						<l>Ik word van liefde, en wraak, en wanhoop opgemaakt;</l>
+						<l>'t Is spyt, 't is minnenyd die myne boezem blaakt,</l>
+						<l>En 't hart tot gramschap noopt om myne smaad te wreeken.</l>
+						<l>Ach! myn Hypermis, 'k ben van myn besluit versteeken.</l>
+						<l>Ik ben verraden, en in zulk een strik verward,</l>
+						<l>Daar ik geen uitkomst zie voor myn verleege hart.</l>
+						<l>Wie dorst dit denken, dat ik zo misleid zou worden?</l>
+						<l>Wat of den Vader tot dat haat'lyk veinzen porden?</l>
+						<l>Wat inzigt of hem tot dat snood verraad bewoog,</l>
+						<l>Dat hy een Koninginne in haare hoop bedroog?</l>
+						<l>Of zou het noodlot wel met hem in staat te tillen</l>
+						<l>De val van ons gezag in 't kort besluiten willen?</l>
+						<l>Hoe 't is, wy staan versteld, en in de ziel ontroerd.</l>
+						<l>Wy hebben reeds de Vorst tot gramschap aangevoerd,</l>
+						<l>En waanden, door de liefde, en 's Vaders magt gesteeven,</l>
+						<l>Assyrien te doen voor onze wetten beeven.</l>
+						<l>Nu gaat die hoop te grond door zyne ondankbaarheid,</l>
+						<l>En ik sta jammerlyk verraden, en misleid.</l>
+						<l>Die snoode, van wien ik hoopte al myn heil te wachten,</l>
+						<l>Durft niet alleen 't gezag der Majesteit verachten,</l>
+						<l>Maar, my ontdekken met een onontroerde zin,</l>
+						<l>Dat hy de dood zo veel niet vreest als myne min.</l>
+						<l>Die vreede, om zo myn toorn noch feller op te wekken,</l>
+						<l>Dorst zelve schaamteloos dat snood besluit ontdekken.</l>
+						<l>Hy dacht licht dat ik my zo fel niet wreeken zou,</l>
+						<l>Maar zal het tegendeel haast zien met naberouw.</l>
+						<l>Ondankb're 'k zal myn leed niet zonder wraak beklaagen;</l>
+						<l>Gy zult altyd het eind niet van uw hoop bejaagen;</l>
+						<l>Myn ed'le gramschap, door de minnenyd verwoed,</l>
+						<l>Krygt reeds al de overhand in myn ontsteld gemoed;</l>
+						<l>Zy band de liefde uit myn verhevene gedachten,</l>
+						<l>En leert, uit spyt vervoerd, my myne plicht betrachten.</l>
+						<l>Verrader! beef nu vry voor myn geduchte, magt!</l>
+						<l>Gy hebt myn liefde, en myn aanbiedingen veracht.</l>
+						<l>Wel aan, nu is't myn beurt, om and're raad te schaffen,</l>
+						<l>Myn smaad te wreeken, en de ondankbaarheid te straffen.</l>
+					</sp>
+					<sp who="#hypermis">
+						<speaker>Hypermis.</speaker>
+						<l>Ontzeid u Ninias, zyn liefde, groote Goôn.</l>
+						<l>En mart gy noch, Mevrouw, in 't wreeken van die hoon?</l>
+						<l>Gy ziet des Konings hart in haat en liefde blaaken,</l>
+						<l>En kunt met eene gift hem weêr bezadigd maaken,</l>
+						<l>Waar wacht gy na? vaar voort, nu u die hoon geschied;</l>
+						<l>Voor kom des Konings woede, en berg haar langer niet.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Ja, help vry myne ziel in hevigheid ontsteeken,</l>
+						<l>Ra my, Hypermis, om myn ongelyk te wreeken.</l>
+						<l>Hits, hits de gramschap aan van myn verbolgen hart,</l>
+						<l>Het voelt medoogen, schoon op 't vinnigste gezard.</l>
+						<l>Ja! die verrader kent de grootheid myner liefde,</l>
+						<l>Hy kent de kwelling die zo lang myn borst doorgriefde.</l>
+						<l>Maar, wreede, al heb ik om uw min zo veel gedaan,</l>
+						<l>Gy zult haast voelen wat myn gramschap kan bestaan.</l>
+						<l>Attalia zal nu des Konings wellust boeren,</l>
+						<l>Gy voor uwe oogen myn besluit beschouwen moeten.</l>
+						<l>Bemerk dan, maar te spâ, wat dat gy hebt verbeurd,</l>
+						<l>Als zy wanhopend uit uwe armen word gescheurd.</l>
+						<l>Zucht, schri, scheur uw gewaad om haar rampzalig lyden,</l>
+						<l>Ik zal my weer in al uw kwellingen verblyden.</l>
+						<l>Ga volg de wanhoop die u voert na 't duister graf;</l>
+						<l>Ik tal verlichtigingen gevoelen door uw straf.</l>
+						<l>'k Zal onmedogend, als gy 't uitterst zult besluiten,</l>
+						<l>En sterven, voor uw ramp, myn hart, en oogen sluiten.</l>
+					</sp>
+					<sp who="#hypermis">
+						<speaker>Hypermis.</speaker>
+						<l>Wel, ruk hem zo uit 't hart waar in hy zat geplaatst,</l>
+						<l>Besluit dit vry... maar, hoe komt Porus zo verbaasd?</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Twede tooneel.</head>
+					<stage>Salomena, Porus, Hypermis. Gevolg.</stage>
+					<sp who="#porus">
+						<speaker>Porus.</speaker>
+						<l>Vorstin, nu is 't gedaan met uw gezag, en staaten;</l>
+						<l>Wy zyn van 't oorlogs volk, dat ik hier bragt, verlaaten.</l>
+						<l>Dat kiest des Konings zyde; ik vrees zyn ongenâ,</l>
+						<l>Zo gy zyn gramschap met de schoone Attalia</l>
+						<l>Niet ondergaat; ik heb een kleen getal behouwen,</l>
+						<l>Maar durf my tegens't woên des Konings niet betrouwen.</l>
+						<l>Ook loopt'er en gerucht dat Held Arbaces, sterk</l>
+						<l>In aantocht is, om by 't gestorte metzelwerk</l>
+						<l>Te waaden door de Eufraat, die naar zyn kil geweeken,</l>
+						<l>Een ruimer doortocht geeft, als immer is gebleeken.</l>
+						<l>Men zegt, dat Belus, en Athenor zich verstaan,</l>
+						<l>Ja, dat met voordacht 't Heir is van de Bres gegaan,</l>
+						<l>Om door eert looze allarm de Vyand op te waaken;</l>
+						<l>Zo 't waar is, zal zeer licht Arbaces binnen raaken,</l>
+						<l>De Stad vermeesteren, die zo veel heeft bezuurd,</l>
+						<l>En 't vyandlyke heir twe jaaren lang verduurd.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Ach! welk een wreede slag treft myne ziel door de ooren!</l>
+						<l>Dit vreesde ik al, helaas! dit lot is ons beschooren;</l>
+						<l>Dit is in 't eind het loon voor dat ik heb bemind.</l>
+						<l>Wy zyn verraden, Goôn! ik gaf het krygs bewind</l>
+						<l>Een trouwelooze, die uit de afgrond opgekoomen</l>
+						<l>My door een blinde liefde heeft al 't verstand benoomen.</l>
+						<l>Want was ik niet ontzind, ik had de schelm mistrouwd;</l>
+						<l>Nu zie ik, laas! te spâ 't geen my zo dier beroud.</l>
+						<l>En voor dat schelm stuk moet ik noch die smaad verdragen,</l>
+						<l>Dat myn genegenheid word van hem afgeslagen.</l>
+						<l>Hy blyft noch even trots hoe veel ik vlei, en smeek.</l>
+						<l>Wel aan, verbolge ziel, verhaast u dan, en wreek</l>
+						<l>Uw schand in hun bederf; en schoon hy Hof en daken,</l>
+						<l>Het gansche Ninive mogt tot een puinhoop maaken,</l>
+						<l>Hy zal zyn zoon, en haar niet hoeden voor de dood.</l>
+						<l>Ga geef haar aan de Vorst, gelyk myn wraak besloot.</l>
+						<l>Zy sterve, of boet zyn lust; het zal my niet verscheelen;</l>
+						<l>Ga mid'ler wyl, volbreng op 't ernstigst myn beveelen.</l>
+						<l>Verzeker Ninias, op dat ik, of 't gevaar</l>
+						<l>Meer toenam, myne wraak voldoe in hem, en haar.</l>
+						<l>Wilt voort het gansche Hof met dubb'le wacht bezetten,</l>
+						<l>En zo het moog'lyk is op 's vyands aankomst letten.</l>
+						<l>Zet sterke schidwacht uit, en span in de oude stad</l>
+						<l>De ketens, eer met kracht de vyand binnen spat.</l>
+						<l>Ik zal, 't gevaar dat ons genaakt, de Vorst ontleden,</l>
+						<l>Wil hy de tyd dan noch tot zyn vermaak besteden,</l>
+						<l>Zo bied my uwe hulp, ik weet Athenor zal</l>
+						<l>Myn zyde kiezen, trekt de vyand in de wal.</l>
+					</sp>
+					<sp who="#porus">
+						<speaker>Porus.</speaker>
+						<l>Mevrouw, ik kan geen kracht aan u beveelen geeven,</l>
+						<l>Zo lang het oorlogs volk uw woord wil tegenstreeven;</l>
+						<l>Stil eerst de Vorst, hy komt, en hou dan voorgewis,</l>
+						<l>Dat noch de vyand van de stad geen meester is,</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Darde tooneel.</head>
+					<stage>Sardanapalus, Salomena, Hyperus, Gevolg.</stage>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>ONdankb're Koningin, die myn beleid dorst weeren,</l>
+						<l>Schrik nu, en wacht het loon van uw verwaand trotzeeren.</l>
+						<l>Nu is 't myn beurt om weêr te stappen op de Troon;</l>
+						<l>Ik zal u straffen, om myn voorgelede hoon,</l>
+						<l>En neemen zelf van 't ryk de teugel in de handen.</l>
+						<l>Myn hart zal nu niet meer vergeefs in liefde branden,</l>
+						<l>Om schoone Attalia; want waar gy haar verbergd,</l>
+						<l>Ik zal haar, lang genoeg van u getrotst, getergd,</l>
+						<l>Zelf in uw weder wil uw kracht'looze arm ontrukken;</l>
+						<l>Uw flaauw gezag zal nu myn magt niet onderdrukken;</l>
+						<l>Die is met zenuwen van oorlogs volk gesterkt.</l>
+						<l>Wat baat het dat gy nu zo veel hebt uit gewerkt,</l>
+						<l>Om myn verbolge hart in feller haat te ontsteeken?</l>
+						<l>De bliksem van myn toorn zal die verwaandheid wreeken,</l>
+						<l>Ten zy uw grootsch gemoed eerbiedig zwicht, en beeft,</l>
+						<l>En schoone Attalia gewillig overgeeft.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Myn Heer, gy hebt niet eens zo veel geweld van nooden;</l>
+						<l>Verschoon ons, dat wy haar niet hebben aangeboden.</l>
+						<l>Ik zie myn mislag nu in 't einde, en ben bereid</l>
+						<l>Ontzag te toomen aan uw liefde, en Majesteit.</l>
+						<l>Ja, Vorst, die schoone zult gy van myn hand ontfangen;</l>
+						<l>Geniet dan, daar gy naar gehaakt hebt met verlangen,</l>
+						<l>Indien de zorg van 't ryk u zo veel tyd vergund.</l>
+						<l>Wy zyn, helaas! verraân, het is op ons gemunt.</l>
+						<l>Arbaces, zo 't gerucht door zyn bazuin laat hooren;</l>
+						<l>Trekt vast gewaapend aan, en brult van woede, en tooren,</l>
+						<l>Hy heeft met de oversten een heimelyk verstand;</l>
+						<l>Vorst Belus bied hem ook in zyne wraak de hand.</l>
+						<l>Uw grootste vyand zal u licht het eerst braveeren.</l>
+						<l>'t Is tyd, myn Heer, 't is tyd om naar het Heir te keeren,</l>
+						<l>Uw oude Helden moed te tonnen in 't gevaar.</l>
+						<l>Denk om uw Monarchie veel meer, Vorst, als om Haar.</l>
+						<l>Zy staat tot uwe dienst, ik zal haar overgeeven,</l>
+						<l>Volg uwe lust, maar zorg voor Koningryk, en leeven.</l>
+						<l>Keer 't nakend onweer dat vast op komt meer, en meer,</l>
+						<l>Of geef ons last, en stel my in myn aanzien weêr.</l>
+					</sp>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>Hoe nu! wat droom ontsteld uw spoorelooze zinnen?</l>
+						<l>Of tracht gy, daar ik met banketten, lonken, minnen,</l>
+						<l>Mv wil ver maaken, ons te ontrusten, met een waan</l>
+						<l>Dat ooit Arbaces na myn ondergang kan staan?</l>
+						<l>Wat zou hem moedigen? zyne afgematte benden?</l>
+						<l>'t Verslagen Heir, dat hy na Babilon moest zenden</l>
+						<l>Om toevoer, en om zich te stellen in die staat,</l>
+						<l>Waar me hy kracht'loos 't veld om Ninive beslaat?</l>
+						<l>'t Is waar, hy heeft in 't kort zyn zwakke legervaanen</l>
+						<l>Vermeerderd, met een hoop af vall'ge Baktriaanen;</l>
+						<l>Maar wat heeft hy verricht? wat heeft hy uit gevoerd?</l>
+						<l>Wat ondernam hy ooit dat u met reên ontroerd?</l>
+						<l>Gy zegt hy heeft verstand; met wie met myn Soldaten?</l>
+						<l>Neen, neen, Mevrouw, eer my Athenor zal verlaaten,</l>
+						<l>Zal Aard, en Hemel zich vermengen onder een;</l>
+						<l>Hy zal om geen belang zyn pligt te buiten treên.</l>
+						<l>Wat Belus aanbelangd, die zal zich nimmer wreeken,</l>
+						<l>Die is met zyne Zoon van myne gunst versteeken.</l>
+						<l>Bekreun u verder niet met myn gevaar, Mevrouw,</l>
+						<l>Maar toon, voor dar gy ons misdaan hebt, uw berouw.</l>
+						<l>Kom, geef haar die myn ziel in liefde heeft ontsteeken;</l>
+						<l>Ik moet my door haar min vernoegen, of my wreeken.</l>
+						<l>Indien my deze gust aanstonds van u geschied,</l>
+						<l>Stel ik u weder als voor heen in 't Ryks gebied;</l>
+						<l>Zo niet, hebt gy een storm van myne haat te wachten.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Helaas! gy stelt te licht 't ge vaar uit uw gedachten.</l>
+						<l>De muurbres spelt niet goeds; de Eufraat in zyne kil</l>
+						<l>Gedooken, maakt ruim baan, waar langs de vyand stil,</l>
+						<l>En zonder tegenstand kan trekken in de muuren;</l>
+						<l>Ik vrees wy zullen al te vroeg t gevaar bezuuten.</l>
+						<l>Gy zyt te zeker, en betrouwd uw Heir te veel,</l>
+						<l>Dat u verlaat, en neemt in Belus wraak zyn deel.</l>
+					</sp>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>Wel voed die zwakke vrees, weest in uw ziel bewoogen</l>
+						<l>Om dat gevaar; ik steun op myn gevreesd vermoogen.</l>
+						<l>Ik ben niet eens beducht voor zulk een tegenspoed.</l>
+						<l>Myn groote naam geeft aan myn Oorlogshelden moed.</l>
+						<l>Zy zullen zelf niet in het grootst gevaar bezwyken.</l>
+						<l>Laat dan Arbaces vry eens uit zyn schuilhoek kyken.</l>
+						<l>Ik vrees die Sprinkhaan niet, die wel het veld beslaat</l>
+						<l>Met ongediert, dat toch door storm, en wind vergaat.</l>
+						<l>Indien 't niet zeker was, dat ik hun kon verduuren,</l>
+						<l>'k Had magts genoeg zyn heir te keeren van myn muuren.</l>
+						<l>Maar, neen, wy willen dat zyn leger, in het veld,</l>
+						<l>Van langer hand verga, en als het zneeuw versmelt.</l>
+						<l>Laat hem vry in die waan van tot zyn wit te raaken;</l>
+						<l>Wy zullen midler wyl in liefde ons zelv' vermaaken,</l>
+						<l>In 't pragtig Hof, verzeld van Weelde, en Overdaad,</l>
+						<l>Uitmunten, als een Vorst betaamd van naam, en staat.</l>
+						<l>'T mistrouwen van myn Heir steunt op onvaste gronden,</l>
+						<l>Zy zyn te dier aan my, en aan hun eed verbonden.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Daar komt Attalia; gy ziet uit haar geween,</l>
+						<l>Hoe 't hart gesteld is, Vorst, ik laat u beide alleen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Sardanapalus, Attalia, Gevolg.</stage>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>VOlmaakte Attalia, zal ik ten laatsten moogen,</l>
+						<l>My spieg'len in de glans van uw' bekoorlyke oogen?</l>
+						<l>Ik bid bezwalk die met geen wolk van traanen, neen,</l>
+						<l>Verruk veel eer myn ziel door uw bekoorlykheên.</l>
+						<l>Vergun een Vorst gehoor, die, kan hy u behaagen,</l>
+						<l>Alleen niet wenscht zyn Kroon, en Scepter op te draagen,</l>
+						<l>Maar u te voeren in de Troon van zyne ziel.</l>
+						<l>Beklaag u niet, dat my uw vrind'lyk oog beviel.</l>
+						<l>Denk wie het is die wenscht in uwe gunst te leeven,</l>
+						<l>Sardanapalus, die Assyrien doet beeven;</l>
+						<l>Die ider wetten geeft, en nu alleen verlangd,</l>
+						<l>Dat hy een minlyk woord uit uwe mond ontvangd.</l>
+						<l>Ja, schoone, Hy alleen is na uw min begeerig;</l>
+						<l>Bevallig beeld, ei toon u langer niet af keerig.</l>
+						<l>Kom, reik me u schoone hand, wy zullen zaamen gaan</l>
+						<l>Na 't vorstlyk Lustvertrek, daar duizend schoonheên staan</l>
+						<l>Op 't pragtigste getooid in net gestelde reyen,</l>
+						<l>Die onder maargezang al speelende ons verbeyen.</l>
+						<l>Daar zult gy nevens my, op 't heerlyk seest banket</l>
+						<l>Zien Weelde, en Overdaad in haaren top gezet;</l>
+						<l>Daar zult gy op de troon van myn vermoogen klimmen.</l>
+						<l>De Goude vaten, vol geschonken tot de kimmen,</l>
+						<l>Verkwikken hart, en oog, door haare geur, en gloed;</l>
+						<l>Dit is een Hof, Mevrouw, vol weelde, en overvloed.</l>
+						<l>Daar 't altoos bruiloft is; daar de avond aan de morgen,</l>
+						<l>De morgen wederom aan de avond, zonder zorgen,</l>
+						<l>Of kommer, of verdriet, wellustig word geknoopt;</l>
+						<l>Daar 't van vermaak, en weelde, in volheid overloopt;</l>
+						<l>Daar 't hart al wat het mag begeeren, kan ontfangen;</l>
+						<l>Wie zou op aard na zulk genoegen niet verlangen?</l>
+					</sp>
+					<sp who="#attalia">
+						<speaker>Attalia.</speaker>
+						<l>Myn Heer, wy kennen uw vermoogen, en uw aard,</l>
+						<l>Een Vorst als gy is zulk genoegen hier wel waard.</l>
+						<l>Gebruik uw schat, en tyd, tot die uitspoorigheden,</l>
+						<l>Maar verg my niet, myn Heer, 't geen stryd met eer en reden.</l>
+						<l>Hoe, zou Attalia, geteeld uit edel bloed,</l>
+						<l>Zo vry gebooren, en zo zuiver van gemoed,</l>
+						<l>Door dwang zich moeten aan uw wellust overgeeven?</l>
+						<l>Aan dat gehaat vermaak! en onbetaam'lyk leeven?</l>
+						<l>Dat aan de deugd niet, maar aan geile boelen voegd?</l>
+						<l>Of aan een die zich zelf in gruwelen vernoegd?</l>
+						<l>Hoe, Vorst, gelooft gy dat ik zal myn pligt verzaaken,</l>
+						<l>En my met u in Weelde, en overdaad vermaaken,</l>
+						<l>In dat wellustig Hof, daar de ondeugd zegepraald,</l>
+						<l>En alle onzedigheid de grootste lof behaald?</l>
+						<l>Vernoegd u in die weelde, ik schrik'er aan te denken.</l>
+						<l>Ga, laat de gulzigheid in gulde vaten schenken,</l>
+						<l>Verza 't hovaardig hart in dart'le wellust, ga;</l>
+						<l>Geniet alle overdaad, verschoon Attalia.</l>
+						<l>Nooit word myn ziel verrukt tot onbetaamlykheden;</l>
+						<l>Dies verg my niet 't geen stryd met voegelyke zeden.</l>
+						<l>Ik heb dit zuiver hart reeds aan de deugd verpand,</l>
+						<l>En zal het nimmermeer bevlekken met een schand</l>
+						<l>Die tegens de eerbaarheid, en haare wet zou stryden;</l>
+						<l>Neen, ik wil liever door verachting, kommer, lyden,</l>
+						<l>Verwachten dat myn deugd in 't end maar zeegepraald,</l>
+						<l>Als dat ik hier by u in wellust word onthaald.</l>
+						<l>Daar liefde, oprechtheid, deugd, en trouw de zeege ontfangen,</l>
+						<l>Naar zulk genoegen zou myn hart op aard verlangen.</l>
+					</sp>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>Wat vormd gy zwarigheid in uw verdwaald verstand.</l>
+						<l>De Majesteit bevlekt geen Onderdaan met schand.</l>
+						<l>Of meent gy op die wys een Koning af te zetten?</l>
+						<l>Gy zult door deeze reên myn opzet niet beletten;</l>
+						<l>Neen, schoone Attalia, denk dat het prikkels zyn,</l>
+						<l>Die my 't hart treffen met de haatelykste pyn,</l>
+						<l>En voort aanmoedigen om 't uitterste te pleegen;</l>
+						<l>Bedenk u wel, Prinses, laat u een Vorst beweegen;</l>
+						<l>Verwacht het on weêr niet van myn getergd geduld;</l>
+						<l>Indien die bui u trof, het was u eige schuld.</l>
+					</sp>
+					<sp who="#attalia">
+						<speaker>Attalia.</speaker>
+						<l>Dat zy zo; nooit zult gy door dreigen my verschrikken,</l>
+						<l>Noch door geweld myn ziel in haar bederf verstrikken.</l>
+						<l>Schept gy vernoegen in myn lyden, en verdriet?</l>
+						<l>Bezoetel uwe naam met zulk een misdaad niet:</l>
+						<l>Een Vorst, die 't schitt'ren van zyn glans niet wil beletten,</l>
+						<l>Tracht zyne lust de hiel fors op de nek te zetten,</l>
+						<l>En maakt zich door de deugd een heerelyke naam;</l>
+						<l>Niet door bedryven, dien ik my te noemen, schaam;</l>
+						<l>Die aan vet wyfde meer als aan een Koning passen,</l>
+						<l>Of aan Tirannen die de wetten zyn omwassen.</l>
+						<l>Geen reed'lyk Vorst zal zich bedienen van geweld,</l>
+						<l>Tot welk een hooge top zyn magt ook is gesteld,</l>
+						<l>Maar zulke uitspoorigheyd, door reden, paalen zetten.</l>
+					</sp>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>Hoe! zal een Vorst zyn lust beteugelen door wetten?</l>
+						<l>Zal hy zich binden aan de reden? die ontzien,</l>
+						<l>Daar hy geschaapen is om ider te gebiên?</l>
+						<l>Neen! ik ontzie alleen de Wellust, haare Altaaren</l>
+						<l>Bezoek ik dagelyks met myn Verliefde schaaren.</l>
+						<l>De dart'le Overdaad staat aan haar rechte zy.</l>
+						<l>De slinke word bekleed van Weelde, en Lekkerny.</l>
+						<l>Die schoonheên wil myn ziel eerbiedig offerbrengen,</l>
+						<l>Op dat zy steeds myn hart door haare gunsten zengen,</l>
+						<l>En voeren na de troon van 't opperste geluk;</l>
+						<l>Zy jaagen uit myn hart, beschaamdheid, kommer, druk,</l>
+						<l>En al wat hinder kan aan myn vermoogen geeven;</l>
+						<l>Zy doen my zorgeloos by duizend schoonheên leeven.</l>
+						<l>Dan word myn hair gestreeld, en luchtig opgetooit,</l>
+						<l>En met welriekende siraaden overstrooit.</l>
+						<l>Dan dekt het luchtig kleed myn Vorstelyke leden,</l>
+						<l>En maakt myn hart en hand bekwaam tot Vrouwe zeden.</l>
+						<l>Waar door de dartelheid gevoed word, en gesterkt,</l>
+						<l>En alles wat ik meer kan wenschen uitgewerkt.</l>
+						<l>Zie daar, Mevrouw, in 't kort wie wy ontzien, en vreezen.</l>
+						<l>Omhelst dit mede, en wil niet wederspannig weezen.</l>
+						<l>Maak dat uw schoon gelaat vrywillig my verzeld,</l>
+						<l>Of troost u dat gy word gedwongen door geweld.</l>
+					</sp>
+					<sp who="#attalia">
+						<speaker>Attalia.</speaker>
+						<l>Al hebt gy uit u hart de vrees der Goôn verbannen,</l>
+						<l>En tot myn ondergang uw lusten ingespannen,</l>
+						<l>Denk echter niet dat ik uw wellust volgen zal.</l>
+						<l>Ik heb my al voorzien in dit gevreesd geval.</l>
+						<l>Uw dreigen zal my niet verbaazen, of verzetten,</l>
+						<l>Noch uw geducht geweld myn zuiverheid besmetten;</l>
+						<l>Veel min uw dartelheid daar ik voor schrik, en gruw;</l>
+						<l>ô Neen, Vorst; want ik vrees de dood veel min als u.</l>
+						<l>Durft gy uw leeven my zo onbeschaamd ontdekken?</l>
+						<l>Of zou het luchtig kleed my tot uw liefde trekken?</l>
+						<l>Zou my dat walchelyk gestel bekooren? neen!</l>
+						<l>Streel zo u boelen, laat Attalia met vreên,</l>
+						<l>En past u zeden toe die aan een Man betaamen;</l>
+						<l>Maak niet dat ieder zich moet uwer ondaân schaamen,</l>
+						<l>Als gy in 't luchtig kleed zo schaamt'loos u verneerd,</l>
+						<l>En met uw laffe hand de Spil, en Naald hanteerd,</l>
+						<l>In reuk'looze overdaad en wellust zit verzoopen;</l>
+						<l>Laat ons van een Monarch als gy, iet grooters hoopen.</l>
+						<l>'t Is heerlyk als een Vorst het pad der deugd betreed,</l>
+						<l>En daar door waardig word de plaats die hy bekleed.</l>
+						<l>Wie wellust aanbid, en de reeden durft verzaaken,</l>
+						<l>Verbeurt zyn Kroon, en zal ten schimp des vyands raaken.</l>
+					</sp>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>Ondank'bre Attalia, hoe durft gy, zo ontzind,</l>
+						<l>Een Koning tergen, die u ongeveinsd bemind?</l>
+						<l>Ik vlei, ik smeek, en gy durft my zo schaamt'loos hoonen?</l>
+						<l>Wel, denk niet, dat ik my zal ongevoelig toonen.</l>
+						<l>Myn hart word al te fel getroffen door die smaad;</l>
+						<l>'k Zal uwe ondankbaarheid...</l>
+						<stage>Porus, van binnen,</stage>
+						<l>Op wapen! op verraad!</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde toneel.</head>
+					<stage>Sardanapalus, Attalia, Porus. Gevolg.</stage>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>WAt wapenkreet komt ons zo onverwacht ter ooren?</l>
+					</sp>
+					<sp who="#porus">
+						<speaker>Porus.</speaker>
+						<l>ô Vorst! wy zyn verraân, wy gaan gelyk verlooren.</l>
+						<l>'t Is uit met uw gezag, en trotze Heerschappy:</l>
+						<l>Arbaces triomfeert, vorst Belus voegt zich by</l>
+						<l>Zyn troepen; hy is door de muurbres ingekomen,</l>
+						<l>Die neergestort is door de starke Waterstroomen.</l>
+						<l>Hy heeft de Voorstad al gezet in lichte brand.</l>
+						<l>Nu rukt hy herwaards aan, en vind geen tegenstand;</l>
+						<l>En wie die bieden wil word deerelyk verslagen.</l>
+						<l>Men hoort niet dopr de Stad als jammeren, en klagen,</l>
+						<l>En deerlyk schreyen om het nakende gevaar.</l>
+						<l>Men ziet de Vrouwen, met een vreeselyk misbaar</l>
+						<l>In deze nood, om 't lyf te bergen, angstig vluchten.</l>
+						<l>De weerelooze, en de kinders hoort men zuchten,</l>
+						<l>En kermen uit ontzag, en schrik voor 's Vyands magt.</l>
+						<l>In zulk een droeve staat is 't Koningryk gebragt.</l>
+					</sp>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>Hoe, raast gy Porus? is de Vyand door de stroomen</l>
+						<l>Gewaad, en door verraad in Ninive gekomen?</l>
+						<l>Heeft hem Athenor in zyn aankomst niet belet?</l>
+						<l>Heeft hy met geen gevaar zyn voet in 't ryk gezet?</l>
+						<l>Waar ben ik? is 't een droom! is 't waarheid, of is 't logen?</l>
+						<l>Verzinkt dan op een uur myn onbepaald vermoogen?</l>
+						<l>En braakt den afgrond al haar gruuw'len op my uit?</l>
+						<l>Breng wapens! dat men voort des vyands troepen stuit.</l>
+						<l>Men zal myn mogentheid noch zo niet onderbrengen,</l>
+						<l>De Blikzem van myn haat zal die verraders zengen.</l>
+						<l>Breng herwaards wapenen, kom keeren wy 't verraad.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<head>Sesde tooneel.</head>
+					<stage>Sardanapalus, Salomena, Attalia, Porus, Hypermis. Gevolg.</stage>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>HElaas! myn Heer, moet ik, wien alles tegengaat,</l>
+						<l>U noch voor 't aller laatst die droeve tyding brengen,</l>
+						<l>Hoe 't noodlot wil, in 't end, uw ondergang geheugen.</l>
+						<l>Het keert, en stort haar haat al teffens op u uit.</l>
+						<l>'t Is al vergeefs wat gy tot tegenstand besluit.</l>
+						<l>Uw groote naam, en roem, die uitblonk van te vooren,</l>
+						<l>Zal met uw Monarchie, in puin, en asch, versmooren:</l>
+						<l>Myn onbezonne liefde is tot uw straf gebruikt.</l>
+						<l>En heeden is het dat uw glorie onderduikt.</l>
+					</sp>
+					<sp who="#sardanapalus">
+						<speaker>Sardanapalus.</speaker>
+						<l>Noch zo niet! neen! al zyn wy van 't geval verlaaten,</l>
+						<l>Alis 't dat ons het lot de nek keert, en wil haaten,</l>
+						<l>Myn groote naam zal met myn Ryk niet ondergaan,</l>
+						<l>Die zal vergrooten door een ongehoord bestaan,</l>
+						<l>Wy zullen op het laast, gewelt, noch Vyand vreezen.</l>
+						<l>Arbaces zal ook geen volkomen Meester weezen.</l>
+						<l>Hy zal zich daar van niet beroemen, dat zyn magt</l>
+						<l>Sardanapalus ooit ten onder heeft gebragt,</l>
+						<l>Of dat hy vruchten van zyn schatten heeft genooten.</l>
+						<l>Ik zal in 't uiterste gevaar myn naam vergrooten,</l>
+						<l>En voor het aller laatst iets ongemeens bestaan.</l>
+						<l>Wie moed heeft, volg; ik val voor eerst den Vyand aan.</l>
+					</sp>
+				</div>
+				<div type="scene" n="7">
+					<head>Zevende tooneel.</head>
+					<stage>Salomena, Attalia, Hypermis. Gevolg.</stage>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>MYn Vyandin, nu kunt gy om ons nakend lyden,</l>
+						<l>En deerlyk ongeval u in uw ziel verblyden.</l>
+						<l>Doch, schoon gy uw geluk zo na voor handen ziet,</l>
+						<l>Wacht echter nimmer dat gy Ninias geniet.</l>
+						<l>Is my zyn wederliefde, en alle hoop benoomen,</l>
+						<l>Denk nimmer dat gy zult myn woede, en wraak ontkomen.</l>
+						<l>Want als ik raak ten top van alle tegenspoed,</l>
+						<l>Zal ik 's ryks ondergang bezeeg'len met uw bloed.</l>
+					</sp>
+					<stage>Einde van het Vierde Bedryf.</stage>
+				</div>
+			</div>
+			<div type="act" n="5">
+				<div type="scene" n="1">
+					<head>Vyfde bedryf</head>
+					<head>Eerste tooneel.</head>
+					<stage>Porus, Hypermis.</stage>
+					<sp who="#porus">
+						<speaker>Porus.</speaker>
+						<l>WAar is de Koningin; Hypermis?</l>
+					</sp>
+					<sp who="#hypermis">
+						<speaker>Hypermis.</speaker>
+						<l>Nat bekreeten,</l>
+						<l>En gansch ontsteld, is zy in haar vertrek gezeeten,</l>
+						<l>En wil in eenzaamheid haar zelve noch beraân</l>
+						<l>In deze droeve staat, wat zekerst dient gedaan,</l>
+						<l>Nu zy geen uitkomst voor haar liefde mag verwachten,</l>
+						<l>Of zy Attalia haar haat ten zoen zal slagten.</l>
+						<l>Nu twyfelt Zy wat best van haar gedaan zou zyn,</l>
+						<l>En voelt in deze stryd een doodelyke pyn.</l>
+					</sp>
+					<sp who="#porus">
+						<speaker>Porus.</speaker>
+						<l>Ach! is het nu noch tyd om zulk een wraak te pleegen,</l>
+						<l>Daar 't reeds zo jammerlyk is met het Ryk geleegen?</l>
+						<l>'t Was beter dat zy dacht om dit gevaar te ontvliên,</l>
+						<l>En na behouding van haar leeven om te zien.</l>
+						<l>Zy zal niet denken zo veel jammeren te hooren</l>
+						<l>Als haar, en Ninive, zyn van de Goôn beschooren.</l>
+						<l>Laat ik haar die voor 't laatst ontdekken, roep Mevrouw,</l>
+						<l>En toon haar, kan het zyn, de blyken myner trouw.</l>
+					</sp>
+					<sp who="#hypermis">
+						<speaker>Hypermis.</speaker>
+						<l>Zy komt uit haar vertrek, en heeft uw stem vernoomen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<head>Tweede toonel.</head>
+					<stage>Salomena, Porus, Hypermis. Gevolg.</stage>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>ACh! Porus, zal ons noch meer onheil overkomen?</l>
+						<l>Waar is de Koning? waarde Vyand? is zyn magt</l>
+						<l>Gestut, of zyn wy alle in slaverny gebragt?</l>
+						<l>Hoe staat het? moogen wy op eenige uitkomst hoopen?</l>
+					</sp>
+					<sp who="#porus">
+						<speaker>Porus.</speaker>
+						<l>Helaas, Mevrouw, die kans is t'eenemaal verloopen.</l>
+						<l>De Vyand dringt met al zyn Oorlogsbenden in.</l>
+						<l>Tot nu toe heb ik dit paleis, ô Koningin!</l>
+						<l>Beschermd; maar 't zal niet lang hun wreed geweld verduuren.</l>
+						<l>Wy zullen mede op 't laatst hun razerny bezuuren,</l>
+						<l>Ten zy gy nevens my u op de vlucht begeeft.</l>
+						<l>Hier is geen hoop, al uw geluk hebtge overleefd.</l>
+						<l>De trotze Arbaces zal met Belus u braveeren.</l>
+						<l>De Koning wilde in 't eerst hun schielyke aantocht keeren,</l>
+						<l>Maar vond zich van zyn volk verlaaten, en verheerd.</l>
+						<l>Wanhopend is Hy toen na 't Lustvertrek gekeerd,</l>
+						<l>Om daar, zo 't mooglyk was de Vyanden te stuiten;</l>
+						<l>Hy wilde in dit gevaar iet ongemeens besluiten.</l>
+						<l>Hoe 't gaat, voor ons staat niet te kiezen in de nood,</l>
+						<l>Als 't vluchten, of zich zelf te redden door de dood.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Neen, Porus, laat ons zo lafhartig niet bezwyken.</l>
+						<l>Wy zien de val noch niet van zo veel koningryken.</l>
+						<l>Denk niet, dat ons 't geluk geheel verlaaten heeft</l>
+						<l>Zo lang als die Monarch Sardanapalus leeft.</l>
+						<l>De Vyand zal noch van de Stad geen meester weezen,</l>
+						<l>Wy hoeven 't uitterst niet in dit gevaar te vreezen.</l>
+						<l>Licht zal Athenor... Maar waardwaereld myn verstand!</l>
+						<l>Wat flaauwe hoop krygt in myn hart noch overhand,</l>
+						<l>Daar ik gegrensd sta aan het alleruitterst lyden?</l>
+						<l>Neen, Belus zal zich in myn rampen haaft verblyden,</l>
+						<l>En juichen, nu zyn list myn magt heeft onderdrukt,</l>
+						<l>Dat zyn verradery hem is na wensch gelukt.</l>
+						<l>Ik zie hem in zyn vreugd volkomen uitgelaaten,</l>
+						<l>My bits trotseeren, en dit Hof van zyn soldaten</l>
+						<l>Omsingeld. 'k Zie alreeds, dat my de ziel zo prangt,</l>
+						<l>Hoe minlyk Ninias Attalia ontvangt,</l>
+						<l>En zeegepraalt, nu hy die schoone mag verwerven,</l>
+						<l>En wedermin geniet; ha, spyt! die ik moest derven,</l>
+						<l>Terwyl myn ramp hen in volkoome vryheid stek.</l>
+						<l>ô Vinnig ziels verdriet! ô doodelyk geweld!</l>
+						<l>Myn liefde is oorzaak van myn droevige ongelukken,</l>
+						<l>En 't leed dat aan groeid om ons eeuwig te onderdrukken.</l>
+						<l>Ik zal in zulken staat zo moedeloos vergaan?</l>
+						<l>Neen! laat ons mede iets grootsch in 't uitterste bestaan.</l>
+						<l>Moet ik, door 't vluchten, of de dood een uitkomst kiezen,</l>
+						<l>Laat dan Attalia het leeven eerst verliezen.</l>
+						<l>Ga haal haar, dat zy van myne arm de slag verwacht.</l>
+						<l>Wy sneeuv'len niet alleen; zy werde eerst omgebracht.</l>
+						<l>Ik zal met grooter vreugd, wanneer ik heb vergooten</l>
+						<l>Haar bloed, dat zelve staal my in de boezem stooten,</l>
+						<l>En sterven, om my zelf te redden van meer schand.</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<head>Darde tooneel.</head>
+					<stage>Salomena, Attalia, Porus, Hypermis, Gevolg.</stage>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>KOm, kom Attalia, en wacht van deze hand,</l>
+						<l>Ten zoen van onze wraak, den slag die u zal drukken.</l>
+						<l>'t Zal myn verrader noch niet al naar wensch gelukken.</l>
+						<l>Al Zegepraald hy door myn lyden, en verdriet,</l>
+						<l>Hy ziet het eind, dat hy bereiken wil, noch niet.</l>
+						<l>Ik zal op 't onvoorzienst zyn vreugd met traanen mengen,</l>
+						<l>En uw onzalig, Bloed, om my te wreeken, plengen.</l>
+						<l>Gy zult ik verga eerst door myn hand vergaan;</l>
+						<l>Ja bitze Vyand in zo veel zal ik bestaan,</l>
+						<l>Om cens de grootheid van het straffen te evenaaren</l>
+						<l>Met myn geleede spyt. Dit zal u wedervaaren,</l>
+						<l>Om dat een wreede my zyn weerliefde heeft ontzeid,</l>
+						<l>Om dat ik ben verraân door lichtgelovigheid.</l>
+						<l>'k Verbly my noch in al myn droeve teegenspoeden,</l>
+						<l>Dat myne hand in 't lest noch op uw borst mag woeden;</l>
+						<l>En dat de slag, die u zal storten in het graf,</l>
+						<l>Die wreede die my reên om hem te minnen gaf,</l>
+						<l>Die snoode Vader, die in schrikkelyke euveldaaden</l>
+						<l>Vermaak schept, en my heeft zo jammerlyk verraaden,</l>
+						<l>Zo fel zal pynigen, met endeloos verdriet,</l>
+						<l>Dat niemand in elende hun beider weerga ziet.</l>
+						<l>Ja, wanhoop zal hen doen ontelb're kwaalen lyden.</l>
+						<l>Die zoete hoop kan in myn ramp my noch verblyden.</l>
+						<l>'k Verbeeld my al, wanneer hy u verslagen vind,</l>
+						<l>Hoe hevig hy zyn rouw, en jammerklagt begint.</l>
+						<l>Hoe hy het laauwe bloed zal met zyn traanen mengen,</l>
+						<l>En op het bleeke lyk zich zelf de dood steek brengen;</l>
+						<l>Hoe de oude Vader 't hair zal rukken uit het hopfd,</l>
+						<l>Zo dra hy weerkeerd van verwinnen afgesloofd,</l>
+						<l>En zyne zoon ziet in het stremmend bloed verstikken.</l>
+						<l>Dit zoet gedenken kan my noch de ziel verkwikken,</l>
+						<l>Hoe angstig dat ik sta. Ja, trotze Vyandin,</l>
+						<l>Ik paai door deze slag myn wraak, en myne min.</l>
+					</sp>
+					<sp who="#attalia">
+						<speaker>Attalia.</speaker>
+						<l>Wel, wrede Koningin, voldoe uw heilloos poogen!</l>
+						<l>Vergiet dit edel bloed, het staat in uw vermoogen.</l>
+						<l>Verzaad uw haat, die maar naar myn bederven dorst,</l>
+						<l>Ontmensde Vyandin! Kom stoot vry door myn borst.</l>
+						<l>Verhaast myn dood, nu ik een eind zie van myn lyden;</l>
+						<l>Ik kan my in de deugd van Ninias verblyden;</l>
+						<l>En dat gy die zo trots op uw gezag dorst staan,</l>
+						<l>Zult met de Monarchie al teffens ondergaan.</l>
+						<l>'k Verbeeld my al, dat gy wanhopend, en verleegen,</l>
+						<l>Van wenschelyke uitkomst zyt versteeken allerweegen;</l>
+						<l>Hoe Belus, zo uw hand niet zelf uw bloed vergiet,</l>
+						<l>In u te straffen zyn gewenschte wraak geniet;</l>
+						<l>Hoe uw verslagen ziel moet voor de gezel vreezen</l>
+						<l>Der Helsche docht'ren, die Beulinnen zullen weezen,</l>
+						<l>En onophoud'lyk u vervolgen overal,</l>
+						<l>Ten zoen, van dat uw haat my heeft gebragt ten val.</l>
+						<l>In die benaaude staat gepynigd, en verleegen,</l>
+						<l>Zal elk een druppel van myn bloed u zwaarder weegen</l>
+						<l>Als 't gansche Koningryk, dat met u ondergaat.</l>
+						<l>Wat houd u dan, dat gy de hand niet aan my slaat?</l>
+						<l>Vaar voort, verwoede Vrouw met uw geweld te pleegen,</l>
+						<l>Myn grootsche ziel is voor het sterven niet verleegen.</l>
+						<l>Ik ben het al getroost, en daal met vreugde in 't graf,</l>
+						<l>Nu Ninias aan u geen hoop van weermin gaf.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Wel, vlei u met die hoop; dit zal my niet benaauwen,</l>
+						<l>Denk nimmer dat myn hand in 't wreeken zal verflaauwen.</l>
+						<l>Dit staal....</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<head>Vierde tooneel.</head>
+					<stage>Ninias, Salomena, Attalia, Hypermis, Porus. Gevolg.</stage>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>LAat af, Vorstin; wat wil uw hand bestaan?</l>
+						<l>'t Is nu geen tyd om die aan moordgeweer te slaan.</l>
+						<l>Zie u verwonnen, en van oorlogs volk verlaaten.</l>
+						<l>Niet een van uwe beste, en dapperste soldaaten,</l>
+						<l>Of kiest Arbaces zyde, en zweert hem hulde, en trouw.</l>
+						<l>De Stad is gansch verheerd. Nu kom ik maar, Mevrouw,</l>
+						<l>Om schoone Attalia, zo 't moog'lyk was, te hoeden,</l>
+						<l>En u te bergen voor het vyandlyke woeden.</l>
+						<l>'k Erken die dienst die gy aan Vader hebt gedaan;</l>
+						<l>'k Weet alles wat gy om myn liefde hebt bestaan,</l>
+						<l>En zal, nu 't nood doet, myn getrouheid u doen blyken.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Ondankb're, meent gy my zo laf te zien bezwyken?</l>
+						<l>Meent gy, dat ik zou gunst van u ontfangen? neen!</l>
+						<l>Zyn wy verwonnen, en verlaaten, afgestreên,</l>
+						<l>En zonder hulp, en hoop in 't uitterste gebleeven,</l>
+						<l>Hoe kan dat zyn, zo lang de Koning is in 't leeven?</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Mevrouw vertrouw myn woord, en zet uw Gramschap neêr,</l>
+						<l>Arbaces zegepraalt, de Koning leeft niet meer.</l>
+						<l>Sardanapalus met zyn schatten, en bordeelen,</l>
+						<l>Ligt reeds tot asch verteerd, waar mê de winden speelen,</l>
+						<l>Die strooiend door de lucht, tot een getuigenis,</l>
+						<l>Dat zulks het zeker loon der Dwingelandenis.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>De Koning leeft niet meer?</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Gelieft het u te hooren,</l>
+						<l>Vorstin, op welk een wys hy in der Goden tooren</l>
+						<l>Gesneuveld is, ik zal het u in 't kort verslaam.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Wreedaardige, hoop vry myn rampen op, vang, aan,</l>
+						<l>Wy luist'ren; uw verhaal zal my meer voedzel geeven</l>
+						<l>Om u te haten; zeg, hoe kwam de Vorst om 't leeven?</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Na dat Arbaces met zyn leger overkwam,</l>
+						<l>En geen meer tegenstand in Ninive vernam,</l>
+						<l>Trekt voort zyn moedig Heu de Stad in, van Soldaaten,</l>
+						<l>En Stedelingen, uit een doodsche schrik verlaaten,</l>
+						<l>En krygt van 't derdendeel volkomen de overhand;</l>
+						<l>Maar vond by 't Lustpaleis een felle tegenstand.</l>
+						<l>Sardanapalus had hier al zyn magt, begreepen</l>
+						<l>In Hofwacht, Lyfssaffiers, en Vluchtigen, beneepen</l>
+						<l>Om 't hart van schrik, verbaasd in orden saamgebragt,</l>
+						<l>Om, of het mooglyk was de vyandlyke magt</l>
+						<l>Te keeren, of, gelyk hy was gewoon voor dezen,</l>
+						<l>Elk voot zyn aanblik te doen sidderen, en vreezen.</l>
+						<l>Hier ging het treffen toen op 't aller hevigste aan;</l>
+						<l>Die, om de Koning in het unterst by te staan,</l>
+						<l>En de and'ren om de zeeg volkomen te verwerven,</l>
+						<l>Of in het Harrenas een braave dood te sterven.</l>
+						<l>De Koning woedende, en in een verbolge zin,</l>
+						<l>Valt op de Vyand aan, gelyk een Bosch Leeuwin</l>
+						<l>De jager aanvalt, als hy heeft haar nest besprongen,</l>
+						<l>Die Legerplaats beschermd, en zyn onweerb're jongen.</l>
+						<l>Tot drymaal doet hy Held Arbaces tegenstand;</l>
+						<l>Maar vond zich door 't getal der Vyanden vermand;</l>
+						<l>En vluchte in 't Lustvertrek, en doet de brug verbreeken.</l>
+						<l>Wy deinzen wat, en zien terstond een vlamontsteeken,</l>
+						<l>Eer dat men Helden tot een storm had uit gekipt.</l>
+						<l>Een halt gezengde slaaf, die pas de vlam ontslipt,</l>
+						<l>Bericht ons, hoe de Vorst, door waahoop aangedreeven,</l>
+						<l>Om de ongelukken van het Ryk niet t'overleeven,</l>
+						<l>Of zich van een Monarch als slaaf te zien veracht,</l>
+						<l>In 't Lustvertrek had al zyn schat by een gebragt,</l>
+						<l>Met al zyn Boelen; en dat hy toen, om te weeren,</l>
+						<l>Dat niemand naderhand de Vrouwen mogt braveeren,</l>
+						<l>Of van zyn scharten zich verryken, met zyn hand</l>
+						<l>Dat heerelyk paleis zelf heeft gezet in brand,</l>
+						<l>Om zo met al zyn schat, en Vrouwen om te komen.</l>
+						<l>De vuurvloed, bruischende, vernield met gloended stroomen</l>
+						<l>Gebouwen, schatten, en een onwaardeerlyk goud.</l>
+						<l>Men zag de balken, en gewelf van cederhoud,</l>
+						<l>Rondom zo dier bevat, tot puin en asch verteeren.</l>
+						<l>Maar wie zou 't naar geween, en jammeren niet deeren,</l>
+						<l>Die zich verbeeld hoe 't met de vrouwen is vergaan;</l>
+						<l>Zy zien zich zelven in een kring van vlammen staan,</l>
+						<l>En wachten tot de gloed haar lichaam zat verslinden.</l>
+						<l>De een, om verligting in dat doods gevaar te vinden,</l>
+						<l>Stort van een hoogte zich te pletter in de vlam.</l>
+						<l>Een ander, met die hoop, of zy 't gevaar ontkwam,</l>
+						<l>Springt van het dak af in de stroom, en moet versmooren.</l>
+						<l>Wen kon in al 't gedruisch een yslyk kryschen hooren</l>
+						<l>Van stemmen, die de lucht deed barsten door 't geluid,</l>
+						<l>Dat doordrong met geweld, en aan den Hemel stuit.</l>
+						<l>Zo lang tot dat Paleis 't welk strekte een waerelds wonder,</l>
+						<l>Van zyne wortel afgerukt, het bovenst onder</l>
+						<l>Gekeert wierd, door de gloed die alles heeft verteert.</l>
+						<l>Op zulk een wys, Vorstin, is Ninive verheert.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>O Goden! liet de Vorst zich door de vlam verslinden?</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>O ja, men zal van zyn gebeente zelf niet vinden;</l>
+						<l>Dat licht in 't gloeijend puin verteerd, en overdekt.</l>
+						<l>Die Koning, die Monarch, die 't aardryk heeft verstrekt</l>
+						<l>Een Gezel, Vorsten heeft gemaakt tot zyne slaaven,</l>
+						<l>Krygt zo veel eer niet, dat zyn lykasch word begraaven;</l>
+						<l>Die zal verstuiven met de wind in de open lucht,</l>
+						<l>En laaten niet als maar zyn naam voor't los gerucht.</l>
+						<l>Dit deerlyk noodlot moest die dwingland wedervaaren.</l>
+						<l>Die trotze Monarchie, die dartienhondert jaaren,</l>
+						<l>En noch ruim vyftig zo onwrikbaar heeft gestaan,</l>
+						<l>Zien wy op eene nacht zo schielyk ondergaan.</l>
+						<l>Wy die nu wilden uw getrouwen dienst vergelden,</l>
+						<l>Na dat de Goden ons voor overwinnaars stelden,</l>
+						<l>Bezorgden, om u voort te hoeden voor geweld,</l>
+						<l>Dat uw behoudenis wierd in myn hand gestelt.</l>
+						<l>Arbaces wil 't verzoek van my niet tegenstreeven.</l>
+						<l>Hy nadert, om u blyk van zyne gunst te geeven.</l>
+						<l>Verwacht dat Vader ook uw dienst waerdeeren zal,</l>
+						<l>Als eens de buijen van het wisselig geval,</l>
+						<l>Door weynig tyds verloop wat raaken aan 't bedaaren.</l>
+						<l>Zie daar, Vorstin, al 't leed dat u zal wedervaaren.</l>
+						<l>Zie daar de gunst betaalt die ons beweezen is,</l>
+						<l>En, voor uw zucht tot my, een waare erkentenis.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<head>Vyfde tooneel.</head>
+					<stage>Arbaces, Belus, Salomena, Ninias, Attalia, Porus, Hypermis,
+						Gevolg.</stage>
+					<sp who="#arbaces">
+						<speaker>Arbaces.</speaker>
+						<l>DAt myn genade allom door 't ryk werde uitgeblaazen!</l>
+						<l>De Val der Monarchie, zal elk genoeg verbaazen!</l>
+						<l>Laat ons nu toonen, na zo heerelyk een daad,</l>
+						<l>Die 't aardryk heeft verlost van zulk een onverlaat,</l>
+						<l>Dat eindelyk de Goôn, enwy, voldaan naa 't woeden</l>
+						<l>Van dien Tiran, het ryk voor meer gevaar behoeden.</l>
+						<l>En gy Prinses, die zyn geweld vreesde uit te staan;</l>
+						<l>En Gy, die zo veel hebt voor ons ten dienst gedaan,</l>
+						<l>Gy zult in onze zeege u w luister ook herhaalen.</l>
+						<l>Ik zal Attalia eerst met myn gunst bestraalen,</l>
+						<l>Zy was het doelwit van die laffe Dwingeland;</l>
+						<l>Nublyv zy Eeuwig aan haar Ninias verpand,</l>
+						<l>Verzekert van myn gunst, en zyn genegentheeden.</l>
+						<l>Gy Salomena zult in 't ryk een plaats bekleeden</l>
+						<l>Na uw wardy, nadien deze onbepaalde staat,</l>
+						<l>En trotze Monarchie na Meden overgaat.</l>
+						<l>Men zal 't Assirische gebied niet meer waardeeren</l>
+						<l>Als voor een leenryk, dat Vorst Belus zal regeeren.</l>
+						<l>Prins Ninias verstrekke een nieuwe opgaande Zon</l>
+						<l>Met zyne Attalia, in 't prachtig Babilon,</l>
+						<l>Terwyl ik ider wil na zyn waardy beloonen.</l>
+						<l>Athenor, Belezus, zal ik myn gunst betoonen.</l>
+						<l>Zy zyn ook zenuwen, en zuilen van myn macht,</l>
+						<l>En door hun bystant zie ik 't al na wensch volbracht.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Wy zien dan eindelyk Assyrien verwonnen!</l>
+						<l>En hooren zo veel ramp, als immer woorden konnen</l>
+						<l>Verbeelden; ik zie my verraden op het lest,</l>
+						<l>En heb daar toe door liefde een schelm zelfs aangeprest,</l>
+						<l>Een trouwelooze die wy eeuwig vloeken moeten.</l>
+						<l>lk zou nu leeven? Neen! ik zal die misslag boeten.</l>
+						<l>Ik zal niet leeven met een schandelyke naam.</l>
+						<l>Sardanapalus zal de snelgevlerkte Faam</l>
+						<l>Met haargerucht bazuin de Waereld doen verbaazen.</l>
+						<l>Wel aan, van myn besluit zal zy niet minder blaazen.</l>
+						<l>Hoe! zou ik 't Vaderland door myne min verraân,</l>
+						<l>Vernoegt, en zonder wraak zo zien te gronde gaan?</l>
+						<l>U zegepraalen? Hem in dart'le liefde blaaken?</l>
+						<l>Zou ik my zelven aan die misslag schuldig maaken?</l>
+						<l>Ontfangen gunst van een die my zo doodlyk haat?</l>
+						<l>Die my, en myne min berokkend zo veel smaad?</l>
+						<l>Verwacht die swakheid van geen ziel zo hoog verheeven</l>
+						<l>Als myne; ik wil myn ramp niet langer overleeven.</l>
+						<l>En nu ik my aan u niet wreeken kan, zal ik</l>
+						<l>Door deze hand mýn leet voleinden zonder schrik.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Laat af Vorstin; ô Goôn! zy brengt haar zelf om 't leeven.</l>
+					</sp>
+					<sp who="#salomena">
+						<speaker>Salomena.</speaker>
+						<l>Ja wreede, ik heb my zelf de doodsteek al gegeeven,</l>
+						<l>Gy ziet my hopeloos in myne ramp vergaan;</l>
+						<l>Ik sterf, na dat ik ben zo eereloos verraân.</l>
+						<l>Al geeft myn lyden u een innig ziel genoegen,</l>
+						<l>De Goden slaan u met een eeuwigduurend wroegen.</l>
+					</sp>
+					<sp who="#arbaces">
+						<speaker>Arbaces.</speaker>
+						<l>Ga Porus, help Mevrouw, voor 't laast; het is uw plicht,</l>
+						<l>En luik, zo gy haar niet kunt redden, haar gezicht.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Myn waarde Attalia, na zo veel ziels verlangen,</l>
+						<l>En woeden van 't geval mach ik u weer ontfangen.</l>
+						<l>Ik mach in 't end, na zo veel doorgestaane druk,</l>
+						<l>My zelfs verheugen in het naderend geluk,</l>
+						<l>Dat onze zielen zal onscheidlyk zamen binden.</l>
+						<l>Wie dacht, wie dacht in 't End noch zo veel heil te vinden!</l>
+						<l>Wy zien hoe onverwacht de kans verwiss'len kan,</l>
+						<l>En Zegepraalen, door de dood van dien Tiran.</l>
+					</sp>
+					<sp who="#attalia">
+						<speaker>Attalia.</speaker>
+						<l>Doorluchte Ninias, na 't doorge worstelt lyden,</l>
+						<l>Zal ik my moogen om uw liefde en deugd verblyden,</l>
+						<l>Wie dorst dit hoopen in dit schrikkelyk gevaar?</l>
+						<l>'K moest schipbreuk lyden in my ne Eer door Hem, door Haar</l>
+						<l>Wierd my de Dood gedreigd, nu bergde gy ons leeven;</l>
+						<l>Nu wilde Vorst dat ik my zelf mach overgeeven</l>
+						<l>Aan U; Gy weet hoe gy myn zinnen hebt bekoord,</l>
+						<l>Ontfang dit hart dan dat u eeuwig toebehoord.</l>
+					</sp>
+					<sp who="#ninias">
+						<speaker>Ninias.</speaker>
+						<l>Ach! myn Prinses, uw gunst kan al myn ramp verzoeten.</l>
+					</sp>
+					<sp who="#belus">
+						<speaker>Belus.</speaker>
+						<l>Doorluchte Vorst, vergun dat ik voor uwe voeten</l>
+						<l>Met vrengde erkennen mach de gunst aan ons betoont,</l>
+					</sp>
+					<sp who="#arbaces">
+						<speaker>Arbaces.</speaker>
+						<l>Rys Vader, 'k heb altyd getrouwe dienst beloont.</l>
+						<l>U komt met recht een deel van myn genoote zeege.</l>
+						<l>Door u heb ik het Eind van al myn hoop verkreege.</l>
+						<l>De val der Monarchie is door uw hulp verrigt;</l>
+						<l>Dies blyve ik eeuwig aan uw braave stam verplicht.</l>
+						<l>Verheug u nu gy ziet verwaaten Hoogmoed daalen,</l>
+						<l>En dat de Deugd in 't end gerust mag zegepraalen.</l>
+					</sp>
+					<stage>Einde van het Vyfde, en laatste Bedryf.</stage>
+				</div>
+			</div>
+		</body>
+	</text>
+
+</TEI>

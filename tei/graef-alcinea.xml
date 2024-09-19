@@ -1,0 +1,3658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000092" xml:lang="dut">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Alcinea</title>
+				<title type="sub">of Stantvastige kuysheydt</title>
+				<author>
+					<persName>
+						<forename>Hendrik</forename>
+						<nameLink>de</nameLink>
+						<surname>Graef</surname>
+					</persName>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence>
+						<ab>CC0 1.0</ab>
+						<ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+							>Licence</ref>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<name>DBNL</name>
+					<idno type="URL">https://www.dbnl.org/tekst/grae002alci01_01/</idno>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Hendrik de Graef: Alcinea, of Stantvastige kuysheydt. Amsterdam: Adriaen
+						Venendael, 1671.</title>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="MALE" xml:id="agis">
+						<persName>Agis</persName>
+					</person>
+					<person sex="UNKNOWN" xml:id="albanen">
+						<persName>Albanen</persName>
+					</person>
+					<person sex="FEMALE" xml:id="alcinea">
+						<persName>Alcinea</persName>
+					</person>
+					<person sex="MALE" xml:id="arthabasus">
+						<persName>Arthabasus</persName>
+					</person>
+					<person sex="MALE" xml:id="claudius">
+						<persName>Claudius</persName>
+					</person>
+					<person sex="MALE" xml:id="hanise">
+						<persName>Hanise</persName>
+					</person>
+					<person sex="MALE" xml:id="karismont">
+						<persName>Karismont</persName>
+					</person>
+					<person sex="MALE" xml:id="klarimeen">
+						<persName>Klarimeen</persName>
+					</person>
+					<person sex="MALE" xml:id="marcellus">
+						<persName>Marcellus</persName>
+					</person>
+					<person sex="MALE" xml:id="nisus">
+						<persName>Nisus</persName>
+					</person>
+					<person sex="FEMALE" xml:id="octavia">
+						<persName>Octavia</persName>
+					</person>
+					<person sex="MALE" xml:id="pagie">
+						<persName>Pagie</persName>
+					</person>
+					<person sex="MALE" xml:id="philon">
+						<persName>Philon</persName>
+					</person>
+					<person sex="FEMALE" xml:id="polimia">
+						<persName>Polimia</persName>
+					</person>
+					<person sex="MALE" xml:id="polinesso">
+						<persName>Polinesso</persName>
+					</person>
+					<person sex="UNKNOWN" xml:id="rey-van-wichelaers">
+						<persName>Rey van Wiggelaers</persName>
+					</person>
+					<person sex="MALE" xml:id="sidion">
+						<persName>Sidion</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragicomedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-09-10">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+
+
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1671">
+				<desc/>
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata"
+				passive="http://www.wikidata.org/entity/"/>
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart>ALCINEA,</titlePart>
+				<titlePart>OF</titlePart>
+				<titlePart>Stantvastige Kuysheydt.</titlePart>
+				<titlePart>TREUR-BLY-EYND SPEL.</titlePart>
+				<titlePart>Virtus dum patitur vincit. Chrisost.</titlePart>
+				<titlePart><figure> </figure></titlePart>
+				<titlePart>t' Amsterdam,</titlePart>
+				<titlePart>By ADRIAEN VENENDAEL, Boeckverkoper in de Mol-steegh, in 't groot
+					Catechismus.</titlePart>
+				<titlePart>M DC LXXI.</titlePart>
+
+			</docTitle>
+
+			<div type="dedication">
+				<head>Op-dracht, Aen de Kunstkundige Vriendin Kornelia van der Veer.</head>
+				<p>Welwijze Juffer.</p>
+				<p> </p>
+				<p>ONder alle Christelijcke gevechten, zeydt de heylige Outvader Augustinus, voert
+					de Kuysheyt de alderfelste veltslagh, dewijle de zelvige van een geduurige
+					strijdt wert bestreeden, doch zelden overwonnen, op wiens borst geweer af
+					klincken de aendringende steenen van afgunst, verduurende de ondragelijcke
+					harts-tochten der ongebonden dartelheeden, waer door zy na het uytbonzen der
+					Rijcx-troon, alles geleden hebbende, op de zelvige komt te zeegen-pralen met een
+					goddelijcke overwinninge. Zulx blijckt klaerlijck in de kuysche Lukretia,
+					bedgenoot van Collatinus, wiens zuyverheydt wel wiert bevochten, maer nimmer
+					overwonnen. En Hippo, Lucia verzelt met meer andere Heldinnen, hieldenze voor
+					zoo heyligh, zoo dat zy noyt van haer Godlijck Altaer af en weecken.
+					Zeeckerlijck men verspilt meer tijdts in het bestormen van een kuysche ziele,
+					als in het belegeren van een wel-bemuurde Stadt, wien is hy die meerder beklaegt
+					zijn aengeleyde raetslagen, als dusdanigen bestryder. Dit geeft ons den Ouden
+					Gregorius te kennen, zoo wanneer hy zeyt, dat de Zuster van de Wellust is droef
+					heyt, waer van dit Spel, Me-Juffer u een levend voorbeeld zal vertoonen, want
+					der Albanen Koningin verstreckt hier een tweede Penelope, zy wert gelieft,
+					gehaet, verdoemt, beklaeght, herstelt in Koninginne waerdigheydt. Chrisostomus
+					zeght, dat de deucht heeft lijdende de overwinninge, wat kan zy niet al
+					verdragen, zy steeckt eyndelijck het hooft in het onweer der stormende
+					bulderwinden op, en richt het boven alle stootende golven uyt, zoo dat zy uyt de
+					kaecken des doots in vollen waerdigheydt komt te zegen-pralen. Maer hoe knellen
+					na-berouws banden den brandende Klarimeen, die door dartele wellustigheydt als
+					een schip op onruste baren gins, en weder geschockt wert? Seneca zijne vriend
+					Lucilium vermaenende, gebied hem dat hy voor de wellust meer op zijn hoede most
+					weezen als voor een dootslager, want zy zal u vriendelijck toelachen, om op
+					hoope van om te brengen.</p>
+				<p>Om dan deze voort-eetende kanc-ker te ontvlieden, en met Argus wel voorzightigh
+					om te zien, zoo neemt in uw vriendelijcke bescherminge de verstooten, doch
+					herstelde Koningin; onder de vleugelen van U E. kunst-lievende bescheydentheyt,
+					ick zulx, verzeeckert zijnde, wensche te blijven U E. kunstlievende
+					leerlingh,</p>
+				<p> </p>
+				<p>H.D. Graef.</p>
+				<p> </p>
+				<p>Amsterdam den 29 van Oegstmaent 1671.</p>
+			</div>
+			<div type="preface">
+
+				<head>Inhoudt.</head>
+				<lg>
+					<l>TRrouwlooze minzucht in een dartel perck beschooten,</l>
+					<l>Tracht Kuysche Onnoozelheydt ten Rijxtroon uyt te stooten.</l>
+					<l>Straemt Alcinea met veel loogenen in 't hart.</l>
+					<l>Prins Klarimeen als dul, die d'eed le zocht te hoonen,</l>
+					<l>Geneepen van zijn feyt, laet zigh van neepen loonen,</l>
+					<l>De lichtingh van haer smart, is lichtingh van zijn smart.</l>
+				</lg>
+			</div>
+			<div type="dedication">
+
+				<head>Aen Alcinea: Of Stantvastige Kuysheydt. <lb/>In Neederduytsche Vaerzen gestelt
+					door Hendrick de Graef.</head>
+				<lg>
+					<l>WIe dat stantvastigheydt wil zien, die slâ zijn oogen</l>
+					<l>Op Alcinea, die onnoozel wert gehoont.</l>
+					<l>Oprechte liefde voert te overgroot vermogen,</l>
+					<l>Een eygen bed-genoot, geen bed-vrindin verschoont.</l>
+					<l>De min van vrouw, en broêr, hier heevigh slaen aen 't branden;</l>
+					<l>Men mint, men haet, men doemt, en alles buyten schult.</l>
+					<l>De Vorst weet zelfs niet waer de waerheydt zal belanden;</l>
+					<l>Geluckigh is hy die in 't lijden heeft gedult.</l>
+
+					<l>De wreetheydt staet verzet, de dartelheydt verlegen,</l>
+					<l>De Koningin herstelt, verstooten buyten reên.</l>
+					<l>Zoo triomfeert de deucht, wiens Kuysheyt heeft de zegen,</l>
+					<l>Een vroom gemoed wert vaeck bevochten, en bestrên.</l>
+					<l>d'Albaensche Koningin een prael-beelt zal vertoonen</l>
+					<l>Hoe dat men deuchden moet met waere deught beloonen</l>
+					<l> </l>
+					<l>Ad. Venendael.</l>
+				</lg>
+			</div>
+			<castList>
+
+				<head>Vertoonders.</head>
+				<castItem corresp="#karismont">
+					<role>Karismont, Koning van Alba.</role>
+				</castItem>
+				<castItem corresp="#alcinea">
+					<role>Alcinea, Koningin van Alba.</role>
+				</castItem>
+				<castItem corresp="#polimia">
+					<role>Polimia, Princes der Albanen.</role>
+				</castItem>
+				<castItem corresp="#klarimeen">
+					<role>Clarimeen, Prins der Albanen.</role>
+				</castItem>
+				<castItem corresp="#octavia">
+					<role>Octavia, Staet-Juffer van Polimia.</role>
+				</castItem>
+				<castItem corresp="#philon">
+					<role>Philon, 's Konings vertrouwelingh.</role>
+				</castItem>
+				<castItem corresp="#arthabasus">
+					<role>Arthabasus, Velt-heer in 't leger.</role>
+				</castItem>
+				<castItem corresp="#polinesso">
+					<role>Polinesso. } Eedelen van den Koning.</role>
+				</castItem>
+				<castItem corresp="#claudius">
+					<role>Claudius. } Eedelen van den Koning.</role>
+				</castItem>
+				<castItem corresp="#marcellus">
+					<role>Marcellus. } Eedelen van den Koning.</role>
+				</castItem>
+				<castItem corresp="#nisus">
+					<role>Nisus. } Eedelen van den Koning.</role>
+				</castItem>
+				<castItem corresp="#sidion">
+					<role>Sidion, Vertrouweling van Polimia.</role>
+				</castItem>
+				<castItem corresp="#agis">
+					<role>Agis, Kapiteyn van de Lijf-garde.</role>
+				</castItem>
+				<castItem corresp="#hanise">
+					<role>Hanise, Hof-wiggelaer.</role>
+				</castItem>
+				<castItem corresp="#rey-van-wichelaers">
+					<role>Rey van Wiggelaers.</role>
+				</castItem>
+				<castItem corresp="#albanen">
+					<role>Albanen.</role>
+				</castItem>
+				<castItem corresp="#pagie">
+					<role>Pagie.</role>
+				</castItem>
+				<p>Alba in Hongaryen.</p>
+			</castList>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<head>Alcinea, of Stantvastige Kuysheydt. </head>
+				<head>Het eerste bedryf.</head>
+				<div type="scene" n="1">
+					<stage>Alcinea. Klarimeen.</stage>
+					<sp who="#alcinea">		
+					
+					<l>HEer Broeder deze reên ontroeren mijne geest.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wel hoe Vorstin? Wat 's dit? Waer zijt ghy voor bevreest?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Voor het gevaer ick vrees het welck mijn ziel komt drucken.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Uw zegen star die rijst, verdooft 's Rijx ongelucken,</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Van Alcinea niet, maer wel van Klarimeen.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Nu dat mijn Broeder heeft de wreede Zarazeen,</l>
+						<l>Zijn halve maens ontruckt, ay! wilt uw ziel niet pijnen.</l>
+						<l>Maer zijn verheught om 't leet der trotze Byzantijnen</l>
+						<l>De Faem in Alba blaest zijn winningh al voor uyt.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>'t Licht vliegende gerucht moet anders zijn beduyt,</l>
+						<l>Mijn tongh geen antwoort kan op 't geen ghy voorstelt geven,</l>
+						<l>Mijn Prins leyt al ontzielt, en in den slach gebleven,</l>
+						<l>De droefheydt die mijn ziel geduurigh pijnt is groot.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wie dat in voorspoet leeft kent armoedt, ramp, noch noot.</l>
+						<l>Dees laffe zorgh verbant, laet anghst, en droefheydt varen,</l>
+						<l>Gy pijnt uw zelfs vergeefs met noodeloos bezwaren,</l>
+						<l>Veracht onmatigheydt in droefenis Mevrouw,</l>
+						<l>Een groote ziel toont zigh in blijdtschap, als in rouw</l>
+						<l>In een gelaet, wilt als een Koningin u dragen,</l>
+						<l>Door dien een oogenblick baert meer als duysendt plagen,</l>
+						<l>Voor een doorluchte ziel, vrouw zuster, ay! schep moedt,</l>
+						<l>Zult ghy mijn broeder dan begroeten met een vloet.</l>
+						<l>Van tranen, daer 't geluck uw Vorst de wegh komt banen,</l>
+						<l>Na 't graegh Heersch Asien, en wrede Tracianen?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>'t Geluck is als ghy weet te stuurs op ons gekant.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl,</speaker>
+						<l>De schrick maeck u vervaert voor volck, en bloetverwant.</l>
+						<l>Weest niet afkeerighlijck, leeft tusschen hoop, en vreeze;</l>
+						<l>Wie eer wierdt doodt gezeydt men heerlijck zagh verreezen</l>
+						<l>Door 't onverwacht geluck, zal Alba dan de smaet</l>
+						<l>Gevoelen daer Apol in Thetis ondergaet.</l>
+						<l>Wilt reên, en reed'lijckheydt niet redenloos weêrstreeven,</l>
+						<l>Maer onderdanigh zijn de wet u voor geschreven</l>
+						<l>Beroemde Koningin geef Klarimeen gehoor,</l>
+						<l>Nu dat mijn ziel, uw ziel het noodighste stelt voor,</l>
+						<l>De woedende Barbaer is al zijn heyr verslagen,</l>
+						<l>Op uwe troon zult ghy veel heerelijcker dagen</l>
+						<l>Als Febus in het Oost, dees vreughde zal uw druck</l>
+						<l>Verwisselen in vreught, de rampspoet in geluck,</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>De vreught die ghy noemt vreucht, is broeder heel onmachtigh</l>
+						<l>Te wissen uyt mijn ziel, de liefde die heel krachtigh</l>
+						<l>Tot uwen broeder is, mijn hoop die leyt ter neer.</l>
+						<l>Wie dat verslagen leyt, die keert voor nimmer weer,</l>
+						<l>Mijn Koninghs ongeval parst tranen uyt mijn oogen,</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Inbeeldingh maeckt de mensch, Vorstin zomwijl bedroogen.</l>
+						<l>Mijn broeder zegenpraelt, waerom gekermt, geweent?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Een hart als't mijn, ô Prins! heeft reden dat het steent,</l>
+						<l>Wat voordeel geeft de krijgh daer 't volck haer hooft moetmiss en?</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Gy zult uw Koning zien al eer gy 't zelfs zult gissen.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Mishandelt, en doorwond dat hy geen lijck gelijckt.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Die voor lafhartige voor nimmermeer bezwijckt.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>De Byzantijn die is te heet op Oorloghstochten.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wilt ghy dan ramp aen vreught, de vreught aen ramp verknochten?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Wat wrede heeft mijn lief, mijn waerde omgebracht?</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Een Helt uyt god'lijck bloet, wie wederstaet zijn macht?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Leert niet natuur, ô Prins, te toonen wederminne.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Dat is dat vuur dat als een Etna brandt hier binnen,</l>
+						<l>Mijn Broeder uw gemael en ick zijn van een vrouw</l>
+						<l>Ter weerelt voortgebracht, mijn duldelooze rouw</l>
+						<l>En pijn vermeert, die 't vuur heeft in dees borst ontsteecken,</l>
+						<l>Is kouder als het ys, en toont geheel geen teecken</l>
+						<l>Van wedermin, wel hoe? waer ben ick voor bevreest</l>
+						<l>‘Dat ick een vrouw ontzie, daer mijne oorlogs geest,</l>
+						<l>Den nagebuur verschrikt, die Grieck, en Pars doet 't zagen?</l>
+						<l>Dees arm heeft meer dan eens de zegen 't huys gedragen,</l>
+						<l>Ben ick niet Klarimeen? ja? neen, ja? zal 'k verraen</l>
+						<l>Mijn waerde broeder? neen, helden lauwer blaên</l>
+						<l>Met bloetschant smetten, wegh met zulx te overpeynzen,</l>
+						<l>'t Zal hier geraden zijn noch voor een wijl te veynzen.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Wat spreeck ghy binnen 's mont.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Ick heb daer toe mijn reên,</l>
+						<l>Door dien ick Koningin mijn ziels genegentheen</l>
+						<l>Geoffert heb aen die het vuur hier in gesticht heeft,</l>
+						<l>Als Paphos Koningin vol glans voor mijn gezicht leeft,</l>
+						<l>Wiens trotze af keerigheyt zich steets afkeerig toont</l>
+						<l>Het schijnt dat in haer borst een Noorder ysklip, woont.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Mijn byzijn u belet, 'k zal gaen, laet uwe zinnen</l>
+						<l>Beraden, hoe gy best die schoone zult verwinnen.</l>
+					</sp>
+					<stage>Al. binnen.</stage>
+					<sp who="#klarimeen">
+						<speaker>Klarimeen.</speaker>
+						<l>VErtreckt niet mijn Godin, wiens Godheyt wert geeert</l>
+						<l>Uw schoonheydt is het vuur dat my tot asch verteert.</l>
+						<l>'k Leef levenloos nu dat mijn blinde min is oorzaeck</l>
+						<l>Van mijne elend, helaes? wie streckt my nu een voorspraeck,</l>
+						<l>Zijt ghy het liefde, reên, deucht, of voorzichtigheydt,</l>
+						<l>Koom oordeel oordeelt nu met groote achtbaerheyt,</l>
+						<l>Ay laet ontzagh met de verwantschap my herstellen,</l>
+						<l>Haer voort doen afstaen van dees groote ziel te quellen,</l>
+						<l>Dat zy geen winnares blijft van Prins Klarimeen,</l>
+						<l>Vervloeckte minne-lust, wegh vleyende Sireen</l>
+						<l>Hoe dorst ghy raden datick Broeders gemalinne</l>
+						<l>Zou smeecken om haer min, 'k verban u uyt mijn zinnen.</l>
+						<l>'k Vergeet de Koningin, en morzel 't vuur tot stof</l>
+						<l>Dat mijne geest in vlam gezet heeft, 't is te grof</l>
+						<l>Een Koninklijcke ziel om 't geen niet zijn mag vergen,</l>
+						<l>Hoe Prins, wat zal dit zijn? wilt ghy u zelven tergen.</l>
+						<l>'k Verloor veel eer mijn zelfs dan dat ick het gezicht</l>
+						<l>Verliezen zou van die my eeuwigh houd verplicht;</l>
+						<l>Niet goddelijcks is by haer schoonheydt te gelijcken;</l>
+						<l>De Koningh zal voor my, ick nimmer voor haer wijcken,</l>
+						<l>Wie dat haer weder streeft gevoelen zal mijn straf,</l>
+						<l>Mijn Broeder zelfs sal ick doen dalen in zijn graf,</l>
+						<l>Ick wil mijn liefde voort ontdecken, mijn elenden</l>
+						<l>Daer door verlichten, of het leven deerlijck enden.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>Polimia, Octavia, Klarimeen.</stage>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>OCtavia de Prins staet om mijn konst verzet.</l>
+						<l>Ha quelster van mijn ziel.</l>
+					</sp>
+					<sp who="#octavia">
+						<speaker>Oct.</speaker>
+						<l>Haer Hoogheyt die belet</l>
+						<l>Zijn Hoogheydt na ick zie.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Vertreck.</l>
+					</sp>
+					<stage>Oct. binnen.</stage>
+					<sp who="#klarimeen">
+						<speaker>Kl.’</speaker>
+						<l>O snoode ontmoetingh.</l>
+						<l>Princes Polimia dees onverwachte groetingh</l>
+						<l>Die had ick niet verwacht, ick heb u niet gezien,</l>
+						<l>O vrouw ghy zijt alleen wiens schoonheyt dat ik dien</l>
+						<l>Geduurighlijk, wilt nu mijn hart de rust weer geven.</l>
+						<l>O ziele van mijn ziel, ô leven van mijn leven.</l>
+						<l>Ontbint Prins Klarimeen van slaverny, en pijn.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Hoe kan uw groote ziel van my afkeerigh zijn,</l>
+						<l>Daer u Polimia getrouwe min koomt toonen,</l>
+						<l>Mijn lief laet voor uw druck de blijdtschap by u woonen,</l>
+						<l>Ick heb u noyt zoo koel gezien van moedt als nu.</l>
+						<l>Maeckt de zwaermoedigheydt u voor mijn byzijn schuw,</l>
+						<l>Of druckt de Rijx last u vol Rijx bekommeringen,</l>
+						<l>Die als een Oorloghs speer 't benauwde hart doordringen,</l>
+						<l>Uw laf heydt Klarimeen terght my tot ongedult.</l>
+						<l>Wie wijsselijck regeert vervalt in schand, noch schult,</l>
+						<l>Van lasteringen, Kroon, en Staf zijn swaer om dragen,</l>
+						<l>Zoo dra uw Broeder heeft den Byzantijn verslagen,</l>
+						<l>En triomfecrende verwinnaer keert uyt 't velt</l>
+						<l>Ontlast hy u van last, Prins Klarimene quelt,</l>
+						<l>Polimia niet meer, die in een zee van tranen</l>
+						<l>Als Biblis zal vergaen, zoo ghy haer ramp komt banen,</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>d' Aenlockzelen des staets zijn vol van doots gevaer,</l>
+						<l>De liefde die ons houdt geschakelt aen elkaer</l>
+						<l>Ontroert my niet, ô neen? 't zijn andere gedachten</l>
+						<l>Die my ontstellen, en 't bedwelmde breyn verkrachten,</l>
+						<l>Gy weet hoe my de Kroon, en Rijckstaf van dit Rijck</l>
+						<l>Zijn toevertrouwt, waer van Polimia ik blijck,</l>
+						<l>Zal toonen aen de Vorst, de schrik, vrees, angst, en zorgen,</l>
+						<l>Zijn mijn staffieren van den avondt tot den morgen,</l>
+						<l>Te toomen toomloos volck, vereyst een wijs beleydt</l>
+						<l>De sterckste zuyl van't Rijck, is goê voorzichtigheyt,</l>
+						<l>De staf valt niet zoo schoon als zy wel schijnt te zwieren,</l>
+						<l>Wanneer als ick mijn ziel wil schoone t'uwaerts stieren,</l>
+						<l>Dan stoort den Adel my om een geringe zaeck,</l>
+						<l>Zoo dat ick niet een uur kan vinden tot vermaeck:</l>
+						<l>De onrust is mijn rust, dees wil zijn dienst verlaten,</l>
+						<l>Die vleyt my om mijn gunst, een ander hoopt op staten,</l>
+						<l>Ick bid u oordeel nu, heb ick de reden niet</l>
+						<l>Dat ick gerustigh leef, en wraeck het Hofs verdriet.</l>
+					</sp>
+					<stage>Pagie uyt.</stage>
+					<sp who="#pagie">
+						<speaker>Pa.</speaker>
+						<l>d' Uytheemsche Heeren zijn vergadert met de raden</l>
+						<l>In 't Konincklijck vertreck, verhoopen zijn genaden</l>
+						<l>Te spreecken,</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Zegh dat ick terstont verschijnen zal.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Dit is een voorbô van mijn naekend ongeval,</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Ghy hebt geen noot Princes, laet my uw zorg bevoolen,</l>
+						<l>Oprechte min noyt woont in onderaerdze hoolen,</l>
+						<l>Ick blijf gelijck ghy weet in als uw onderdaen.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Wie Vorsten kroonen torst meent steets te zijn verraên.</l>
+					</sp>
+					<stage>Binnen.</stage>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Ga lichtgelovige, uw waen heest u bedroogen,</l>
+						<l>Ick min een ander beelt, wiens goddelijck vermogen</l>
+						<l>Prins Klarimeen verheert, het is de Koningin</l>
+						<l>Die dees helthafte ziel staegh branden doet in min,</l>
+						<l>Voor wiens Altaer ick stort gebeen, en offerhanden.</l>
+						<l>'t Is Alcinea die dit hart in min doet branden.</l>
+					</sp>
+					<stage>Binnen.</stage>
+				</div>
+				<div type="scene" n="3">
+					<stage>Philon, Arthabasus, Nisus, Polinesso, Claudius, Karismont
+						Marcellus.</stage>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>LAngh leef zijn Majesteyt.</l>
+						<l>Die door zijn helden daên,</l>
+						<l>Een dubb'le krans verdient van dubb'le lauwerblaen;</l>
+						<l>Wiens dapperheydt een zuyl voor 't Rijck streckt, en haer Staten,</l>
+						<l>Dees zegenpralingh 't volck zal maecken uytgelaten,</l>
+						<l>En dobberend in vreught, nu Alba, door uw zwaert</l>
+						<l>Den Byzantijn verdelght, wiens tyranny niet spaert</l>
+						<l>Het grijs gerimpelt hooft, noch 't puyck der jongelingen</l>
+						<l>Ick hoor de Burgery triomf, triomfe zingen</l>
+						<l>Nu gy verwinnaer keert uyt 't bloedigh oorlogsvelt.</l>
+						<l>Albanen het is tijt dat ghy voort oopen stelt</l>
+						<l>De Hofpoort, om uw Vorst op 't prachtighst in te halen.</l>
+					</sp>
+					<sp who="#nisus">
+						<speaker>Ni.</speaker>
+						<l>Die 's vyands trotsheyt voor Belgrade neer deed dalen.</l>
+					</sp>
+					<sp who="#claudius">
+						<speaker>Cl.</speaker>
+						<l>Zoo slaet de Dondergod verwaten Vorsten neer.</l>
+					</sp>
+					<sp who="#marcellus">
+						<speaker>Mar.</speaker>
+						<l>Nu Koning Karismont munt uyt in oorlogs eer,</l>
+					</sp>
+					<sp who="#polinesso">
+						<speaker>Po.</speaker>
+						<l>Het aerdtrijck dreunde van 't geklanck der moorttrompetten.</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>Toen Selim op ons hals dorst zijne zabel wetten.</l>
+					</sp>
+					<sp who="#marcellus">
+						<speaker>Mar.</speaker>
+						<l>De werelts Vorsten zien hoe 't rat des werelts keert.</l>
+					</sp>
+					<sp who="#claudius">
+						<speaker>Cl.</speaker>
+						<l>Waer van dat Croye tuyght, wiens smart dat Alba leert.</l>
+					</sp>
+					<sp who="#nisus">
+						<speaker>Ni.</speaker>
+						<l>Die 't al verdelgen wou most zelfs de vlucht verkiezen.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Dat is het oorloghs lot, 't zy winnen, of verliezen.</l>
+					</sp>
+					<sp who="#polinesso">
+						<speaker>Po.</speaker>
+						<l>Een twintigh duyzent tal ter aerde leyt gevelt.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Wie door geen goet doen wint, moet winnen door gewelt.</l>
+					</sp>
+					<sp who="#nisus">
+						<speaker>Ni.</speaker>
+						<l>De wackerheydt in noot zijn vyandt doet vertzagen</l>
+					</sp>
+					<sp who="#marcellus">
+						<speaker>Mar.</speaker>
+						<l>Al wie in 't harnas sterft men nimmer hoort beklagen.</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>De Helden leven eerst, wanneer zy zijn vol leeft.</l>
+					</sp>
+					<sp who="#polinesso">
+						<speaker>Po.</speaker>
+						<l>Een bloote schaduw maeckt dat een lafharte beeft.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Zo dra mijn Koningin, roem waerdige oorlogshelden.</l>
+						<l>Mijn wederkoomst verneemt, dan zal 't Rijck Alba</l>
+						<l>Vorst Karismonts triomf, en 's vyandts neederlaegh,</l>
+						<l>Ik die dit waggelend Rijck met dees mijn schouwd'ren schraegh</l>
+						<l>Heb door uw helden moet den Zarazeen verwonnen</l>
+						<l>Zy weecken voor ons stael al eer'er was begonnen,</l>
+						<l>In 't porloghsvelt te slaen gelijck al een zoldaet.</l>
+						<l>Soo staet de Rijxstoel vast, als hem de Vorst verlaet</l>
+						<l>Op die het Vaderlandt meer dan haer zelfs beminnen,</l>
+						<l>Dees zegenpralingh zal mijn waerde Koninginne</l>
+						<l>Verrassen, als ick zelfs zal mijne bode zijn</l>
+						<l>Lief Alcinea wat baert my uw af zijn pijn.</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>Zijn Majesteyt zie toe, 't geluck dient waer genomen</l>
+						<l>De vrees, en achterdocht doen steets mijn ziele schroomen</l>
+						<l>Voor 't dreygende gevaêr van 't smeulend oologsvier,</l>
+						<l>Zult ghy de zegen dan door 't bloedige rappier</l>
+						<l>Verkregen, niet behoên voor 'svyants list, en lagen?</l>
+						<l>Ghy hebt uw vyand wel geslagen, niet verslagen.</l>
+						<l>Zoo dra als ons vertreck ter ooren koomt zal hy,</l>
+						<l>Ons heyr belagen,en doorsnuff'len, hoe dat wy</l>
+						<l>Het harnas heel gerust ontgespen, met den degen.</l>
+						<l>Ons volck bespringende, waer zijn dan de verkregen</l>
+						<l>En dier gekochte blaên des lauwerkrans, dees hoon,</l>
+						<l>Den moedigen Albaen deed sterven duysent doôn.</l>
+						<l>Dies wilt, ô Vorst uw val, en d'onze niet verwecken,</l>
+						<l>Maer laet die nevel eerst van ons gezicht vertrecken.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Daer draegh ick zorge voor, nu veltheer Selamniet</l>
+						<l>Of Arthabase voert het opperste gebiet</l>
+						<l>In 't 't leger, leeft mijn ziel gerust, en zonder vrezen,</l>
+						<l>Ghy helden weet hoe in dien dapp'ren Helt zijn weezen</l>
+						<l>Een dubbelen helt vertoont, tot steunsel van mijn staet</l>
+						<l>Achilles in 't gevecht, Ulisses in den raet.</l>
+					</sp>
+					<sp who="#polinesso">
+						<speaker>Po.</speaker>
+						<l>Van 't geen ons stael verricht, krijght hy daer voor belooningh?</l>
+						<l>Hy buyght als wy, ghy zijt, hy niet, ons hooft en Koningh,</l>
+						<l>'t Geluck een onderdaen ten Rijxtroon voeren kan,</l>
+						<l>Een yder staet na staet.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Ick heb noyt in dien man</l>
+						<l>Lafhartigheydt gezien, hoe fel het Oorlogh druckte,</l>
+						<l>Neen Polinesso, neen? of my de kans geluckte</l>
+						<l>Of tegen was, hy stont onwickbaer als een rots,</l>
+						<l>Bepael uw losse tongh, die door de nijdt dus trots</l>
+						<l>Zijn moedigheydt braveert, laet wel doen u verwinnen.</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>Het Konincklijck ontzagh, doet de onstuymde zinnen</l>
+						<l>En 't hart bedaeren van den wrevelen zoldaet.</l>
+						<l>Een Koningh doet veel meer als hy te velde gaet</l>
+						<l>Als duyzent veltheers, laet u Cezar zijn een teecken</l>
+						<l>Den grooten Scipio, en Macedoôn, ick reecken</l>
+						<l>Antonius niet eens, en meer doorluchtigh bloedt,</l>
+						<l>Die voor haer Vaderlandt betoonden helden moedt,</l>
+						<l>Men wist niet in die tijt van kermen, en van klagen,</l>
+						<l>En zoo door ongeval de droeve neederlage</l>
+						<l>Hun viel te beurt, dan wast 't za helden val weer aen,</l>
+						<l>Ghy ziet uw Koningh zelfs die is u voorgegaen.</l>
+						<l>De Vorsten moedigen kleenmoedigen tot strijden,</l>
+						<l>Zijn moed geeft nieuwen moed, geen speer, noch kogel mijden,</l>
+						<l>Maer wagen nevens haer het leven, en al 't geen</l>
+						<l>Een edelmoedigh hart acht waerdigh re besteên.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Toen ick mijn Koningin gaf ziel, en hart in handen,</l>
+						<l>O helden, die my doet in lief de t'haerwaerts branden</l>
+						<l>Doe wierdt mijn lafheydt door dat god'lijck beelt bedeckr,</l>
+						<l>Een Koningh zonder moed het heyr een last verstreckt.</l>
+						<l>Als ick mijn afscheydt nam van Albás Koninginne</l>
+						<l>Om 't leger te bezien, gevoelde ick hier binnen</l>
+						<l>Hoe liefde met natuur my trock tot de Vorstin</l>
+						<l>Die ick veel meerder als 't Albaensche Rijck bemin;</l>
+						<l>Ick kan van blijdschap van mijn halve ziel niet duuren,</l>
+						<l>Nu mijne oogen zien de Konincklijcke muuren</l>
+						<l>Van 't machtigh Alba, op 't kasteel ick my verlust,</l>
+						<l>Aen geens zijd de Revier, een yder zoeckt sijn rust,</l>
+						<l>Zoo dra Apol vertreckt, en dat Diaen koomt lichten,</l>
+						<l>Wy ons naer Albá spoên, gy helden volg uw plichten,</l>
+					</sp>
+					<stage>Alle binnen.</stage>
+				</div>
+			</div>
+			<div type="act" n="2">
+				<head>Het tweede bedryf.</head>
+				<div type="scene" n="1">
+					<stage>Klarimeen, Alcinea.</stage>
+					<sp who="#klarimeen">
+					<l>VRouw zuster, ay! stort geen onnutte tranen meer,</l>
+					<l>Vergun uw oogen haer bevalligheden weer,</l>
+					<l>Nu twintigh duyzent tal der wreê Mahomitanen</l>
+					<l>Is door de Vorst verdelght, wiens sleepende halve manen</l>
+					<l>Al werden in triomf naer Albá heen gevoert,.</l>
+					<l>Dies is het noodeloos dat ghy uw ziel ontroert.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Wie geest ons zeeckerheydt van 's vyandts neederlage?</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Die, die den Byzantijn zaghuyt het velt geslagen,</l>
+						<l>Om d'overwinninge te maecken my bekent.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Gerechten Hemel, heeft uw goedheydt dan in 't end</l>
+						<l>Gestorten tranen, en gebeeden aengenomen?</l>
+						<l>Het schrickelijck gevaêr dat ons scheen op te komen</l>
+						<l>Gevoelde 't out Byzant, zijn stoffen is betaelt,</l>
+						<l>Noyt blijder zonneschijn heeft op een Rijck gedaelt,</l>
+						<l>Als Albá, mijne tongh van vreught kan nauwlijcks spreecken,</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>‘Hier baent 't geluck my 't spoor, nu dient geen tijt verkeeken</l>
+						<l>Hoe legh ick best de strik waer in ick haer verstrick?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Zal de zwaermoedigheyt dan yder oogenblick,</l>
+						<l>De ziel van Klarimeen die dapp're Prins regeeren,</l>
+						<l>Ghy hoort uw zelf in plaets van and're te verheeren,</l>
+						<l>Des Koninghs zegenprael verblijdt zijn Koningin.</l>
+						<l>Princes Polimia speelt stadigh in uw ziu.</l>
+						<l>Het welck uw geest verruckt, star oogend op getoogen</l>
+						<l>Als zaegt ghy de Vorstin voor de Princes voor oogen.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Dat ick haer heb bemint, zulcks kan niet zijn ontkent,</l>
+						<l>Maer nu! nu is mijn min heel van haer afgewent,</l>
+						<l>En mint een ander beelt in Alba hoogh gepreezen,</l>
+						<l>Die zonder weergâ leeft, ten zy dat gy 't most wezen,</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Polimia mijn Heer aenvalliigh is, en schoon.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Dat woort vermoort mijn ziel, en streckt mijn eer tot hoon,</l>
+						<l>Wat noemt ghy schoon dat niet by haer is te gelijken.</l>
+						<l>Die straffe moet in als mijn ziels Voogdesse wijcken.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Een die onnoozel is men nimmer schelden moet.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Al wie mijn gramschap terght, veracht mijn groots gemoedt.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Bescheydentheydt heeft plaets by die, die wijs'lijck leven.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Om dit gewonde hart den dootsteeck wegh te geven</l>
+						<l>En 't vuur te dooven uyt dat als een Etnâ blaeckt</l>
+						<l>Wil ick niet ghy haer noemt, die mijne ziel vermaekt</l>
+						<l>Tart die de wapen Godt in min ontstack, mijn tooren</l>
+						<l>Is onuytblusselijck, 't wil nimmer van haer hooren,</l>
+						<l>Ick schuw die Krokodil, en vleyende Sireên,</l>
+						<l>Uw goddelijck gezicht, vol van bevalligheen</l>
+						<l>Doet mijn verliefde ziel geduurigh 't uwaerts hellen.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Hoe broeder? wat zal 't zijn, laet af mijn ziel te quellen,</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>d'Albaensche Koningin, d'Albaensche Prins vermant.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Weê hem die minlust pleeght, met eygen bloet verwant.</l>
+						<l>Ick ben aen Karismont, niet Klarimeen verbonden.</l>
+						<l>Zie voor u wat ghy doet, bouwt niet op losse gronden,</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Nu ick den Scepter zwaey waer zijt ghy voor vervaert?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Regeer u zelfs zoo zult ghy zijn van elck vermaert.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Polimia zal ick in eeuwighey niet minnen.</l>
+						<l>Die my doorwond, die draegt de naem van Koninginne.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Zoo langh dees blinde drift uw blindheydt Prins bestiert</l>
+						<l>En Alcinea, voor Polimia steets viert</l>
+						<l>Zal 't ongeraden zijn te minnen, wilt bedaren,</l>
+						<l>De Stuurman stuurt vergeefs in 't klossen van de baren</l>
+						<l>Naer een gewenste reê, daer hy bevrijd door noot,</l>
+						<l>Hem veylighlijck vertrouwt, men magh voor al de doot,</l>
+						<l>Niet tergen, neem gedult, schoon minne-stormen razen,</l>
+						<l>Wie doet de dapp're ziel van Klarimeen verbazen</l>
+						<l>Die voor geen donder vreest, noch blixem van Jupijn.</l>
+						<l>Bezadight u, zoo zal verlicht zijn uwe pijn,</l>
+						<l>Mijn gunst voor nimmermeer zal Klarimeen begeven.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>O woort dat ziel, en hart in volle vreucht doet leven.</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>Polimia, Octavia, Klarimeen, Alcinea.</stage>
+					<sp who="#polimia">
+					<l>DAt Arthabasus sprack speelt stadigh in mijn zin</l>
+					<l>Voor zijn vertreck?</l>
+					</sp>
+					<sp who="#octavia">
+						<speaker>Oct.</speaker>
+						<l>Mevrouw?</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Wat ist?</l>
+					</sp>
+					<sp who="#octavia">
+						<speaker>Oct.</speaker>
+						<l>De Prins.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>De min</l>
+						<l>Die dees helthafte ziel met hare pijl doorboorde</l>
+						<l>Heb ick aen u ontdeckt.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>‘Ghy zijt die my verstoorde.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Weerstreeft ghy mijne min, zo is 't met my gedaen,</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>‘Nu dat gelegentheyt uw ontrouw derft verraên.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Polimea die is tot u in als genegen,</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>‘Nu noch in eeuwigheydt,</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Streeft ghy u zelven tegen</l>
+						<l>Daer my, ô Koningin 't geluck zelfs bied de hand?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>De dwing'landy behoort geen Prins, een dwingeland,</l>
+						<l>Laet mededoogentheydt genâ by u verwerven.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wie mijne wil weerstreeft, zal door mijn handen sterven.</l>
+						<l>Mijn ziel mint u alleen.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>‘O Hemel wat ick hoor?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Hoe Broeder wat zal 't zjn, wat hebt ghy met my voor?</l>
+						<l>Is 't boert, of ernst, spreeck op, uw min die mint te vinnigh.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Nu Alcinea spreeckt bedeckt, en dubbelzinnigh,</l>
+						<l>Voer ick gewelt ten troon verzelt van veynzery,</l>
+						<l>Ghy zijt ô Koningin, waerom ick stadigh ly</l>
+						<l>De felle rampen die mijn fiere ziel belagen,</l>
+						<l>Ick heb al langh genoegh 't verborgen vuur gedragen</l>
+						<l>In dees manhafte borst, mijn liefde weyd de goôn,</l>
+						<l>Voor nimmer Klarimeen.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Ghy zult my eerder doôn</l>
+						<l>Dan dwingen, door uw dwangh, mijn huw'lijxbant te breecken,</l>
+						<l>Wat bloetschant baert daer af weet Theben noch te spreecken</l>
+						<l>Als zy met tranen denckt, 't geen voormaels is gebeurt</l>
+						<l>Aen Koningh Edipus, wien 't nootlot had gekeurt</l>
+						<l>Tot quaet doen zonder schult; wat straf heeft dan te dragen</l>
+						<l>Die zelfs zijn val verweckt, en endelooze plagen?</l>
+						<l>O Broeder ken u zelfs, zie voor u wat ghy doet</l>
+						<l>Door schendery ghy stapt uw wisse doot te moet,</l>
+						<l>Mijn tranen zullen by mijn lief u overtuygen.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Ick sal een Sextus zijn, u naer mijn wil doen buygen.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>'k Ben geen Polimea verandert toch van zin.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Hoe ghy my meerder haet, hoe ick u meerder min.</l>
+						<l>De min van een Vorstin, is boven aertsch, en heerlijck?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Door wulpsche min zijn bloet te schenden is te deerlijck,</l>
+						<l>De Vorst is mijn gemael.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>'k Vrees hem zoo veel als u</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Mijn trouw beooght, laet af, weest voor dees opzet schuw.</l>
+						<l>Weet dat ick heb geen macht, de Koningh mijne macht heeft</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Mijn macht, verschaft u macht?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Als de Vorstin verkracht leeft.</l>
+						<l>O goon waer wil dit heen, ick ben uw broeders vrouw</l>
+						<l>Prins Klarimeen bedaer.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wat zal dit? hoe zou</l>
+						<l>Men zulck een flonckerstar voor Klarimeen verbergen,</l>
+						<l>Men moet geen Goden, ô Godin tot gramschap vergen.</l>
+						<l>Ay weederstreeft my niet, wilt my uw weermin bien.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Baldadige laet af.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Mijn wille moet geschiên.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Jupijn gedooght niet dat ghy eerloos aen zult raecken</l>
+						<l>d'Albaensche Koningin</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Kon Jö hem vermaecken</l>
+						<l>Ghy Zult mijn Jö zijn, ick ben Jupijn op aerdt?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Van Jupiter gehaet de naem van mensch niet waert,</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Ick heersch als Koning, en zal Alba wetten stellen.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Zo stel u w zelfs een wet. laet reden u verzellen,</l>
+						<l>Ontzinnige verban uw woede razerny,</l>
+						<l>Omhelst de deught en haet gewelt, en dwing'landy,</l>
+						<l>Zoo Zult ghy gloor, en eer, die Eeuwen duurt verkrijgen,</l>
+						<l>Stantvaste Kuysheydt zal voor dartelheydt noyt nygen</l>
+						<l>Geen stercker mensch dan die zijn eygen drift verheert.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Die van elck wert ontzien, Vorstin voor u verneert.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Dees eer behoort de Vorst mijn Karismont, uw broeder,</l>
+						<l>De schenzucht maeckt uw drift, hoe langer hoe verwoeder,</l>
+						<l>Ja als een Tijger in het Tracische gewest</l>
+						<l>Geworpen langhs den oort van Schytien, 't waer best</l>
+						<l>De eer ondanckbaer mensch 't erkenen van uw Koningh,</l>
+						<l>Niet zijne toornigheyt te wecken, de belooning</l>
+						<l>Die ghy van hem geniet, ghy lasterlijck verstoot.</l>
+						<l>Om zo door schendery te staen naer 's broeders doot.</l>
+						<l>Men valt door zond in zond, den donder moet hem pletten</l>
+						<l>Die na mijn kuysheydt staet, die gaet men dus verheffen</l>
+						<l>Ick zweer Tijran dat ick de Vorst uw doen verhael</l>
+						<l>Zo dra hy zegen rijck keert herwaerts, laet geen strael</l>
+						<l>Van uw vervloeckt gezicht mijn zuyverheydt beschynen</l>
+						<l>Mijn eer geterght in 't kort, uw trots zal doen verdwijnen.</l>
+					</sp>
+					<stage>Binnen.</stage>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Ha trotze ziel kunt ghy dees trotsheyt met gedult</l>
+						<l>Van de Vorstin die als een bosch Leeuwinne brult</l>
+						<l>Gedoogen, en mijn gloor bezwalcken, daer zy d'ader</l>
+						<l>En oorspronck is van't quaet, my scheldend voor verrader</l>
+						<l>Wiens Heerschappy de macht van Albás kroon verdruckt</l>
+						<l>'k Ben als Actëon, of Narçis, te ver verruckt</l>
+						<l>Door haer aentrecklijk heen die mijn elende wecken,</l>
+						<l>Nu Alcinea pooght mijn min da Vorst 't ontdecken,</l>
+						<l>Hoop ick, voor haer te zijn in aenzien by de Vorst</l>
+						<l>Het bulderend onweer doen afftuytten op de borst</l>
+						<l>Van de Vorstin, zo dra mijn broeder koomt ter ooren</l>
+						<l>Hoe door zijn Koningin, stont 't Rijck heur val beschooren,</l>
+						<l>En 't brandend oogen licht van zijne ziels voogdin</l>
+						<l>Seets blixemde op my, om haer vervloeckte min</l>
+						<l>Die ongeoorloft is te blussen, d'Echt schoffeeren</l>
+						<l>Haer Heer zijn trouweloos, door 't schandelijck ontëeren</l>
+						<l>Al 't Konincklijk gezagh gaen ploffen plots ter neer,</l>
+						<l>Waer door dat Alba noyt kreegh hare glory weer,</l>
+						<l>Dan leef ick door mijn list in aenzien by mijn broeder</l>
+						<l>Pasifaë was noyt, noch Phedra zoo verwoeder</l>
+						<l>Als Albás Koningin, haer vroomheyt deckt mijn schant,</l>
+						<l>Zal ick ontschuldigen beschuldigen? de brant</l>
+						<l>Door de Vorstin gesticht doet my geen wreetheydt schroomen,</l>
+						<l>Want een verliefde ziel is quaet om in te toomen,</l>
+						<l>Maer wat wil Sidion?</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>Sidion, Klarimeen.</stage>
+					<sp who="#sidion">
+						<l>ZYn Hoogheydt zy gegroet,</l>
+						<l>Wel hoe mijn Prins, wat 's dit? Dus droevigh van gemoed</l>
+						<l>Daer Koningh Karismont uw Broeder is gekomen</l>
+						<l>Met rijcke buyt gekeert.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Heeft van zijn komst vernomen</l>
+						<l>d'Albaensche Koningin</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Si.</speaker>
+						<l>Neen Heer, want hy hem houd</l>
+						<l>Op het kasteel tot zijn vermaeck, en lust gebouwt,</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>De Koning weer gekeert begint ghy oock te razen</l>
+						<l>Wie bracht dees tijdingh u, spreeck op? nu?</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Arthabase</l>
+						<l>De Veltheer machtigh Prins, van 's Koninghs legher macht.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Dees onverwachte komst, ontroert my onverwacht</l>
+						<l>Wat tot mijn reys behoort, op 't spoedighst wilt bezorgen.</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Si.</speaker>
+						<l>Uw wil is my een wet.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Nu zweer ick eer den morgen</l>
+						<l>‘De Goude Zon begroet, dat de Vorstin mijn haet</l>
+						<l>Gevoelen zal volleet, dees duldeloozen smaet</l>
+						<l>Gedooght noyt moedigh Prins, 'k acht tranen vloer, noch smeecken,</l>
+						<l>Nu 'k aen dien wreede my zal op het heerlijck wreecken.</l>
+					</sp>
+					<stage>Kl. Binnen.</stage>
+				</div>
+				<div type="scene" n="4">
+					<stage>Polimia, Octavia, Sidion.</stage>
+					<sp who="#sidion">
+						<speaker>Si.</speaker>
+						<l>Wel Sidion waer heen dus haestig? hoor een woort,</l>
+						<l>De tijdt gedooght het niet, verschoon my, ick moet voort.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Uw Prins zijn liefde is verandert.</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Si.</speaker>
+						<l>Waerde Juffer,</l>
+						<l>Wie mint hy meer als u, om wien hy als een zuffer</l>
+						<l>Door af te zijn van 't Hof treurt heele dagen langh.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Zegh Alcinea die hem houd in haer bedwangh.</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Si.</speaker>
+						<l>Het geen Mevrouw verhaelt, doet my de ziel ontstellen.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Heeft dan Polimia geen reên om haer te quellen?</l>
+						<l>Daer ick uw Prins bemin als d'appel van mijn oogh.</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Si.</speaker>
+						<l>Zijn liefde is heel verblint, hy vlieght te steyl, en hoogh,</l>
+						<l>Natuur wraeckt bloetschant, en de goôn het noyt gehengen,</l>
+						<l>Dat Alcinea haer zou met de Prins vermengen,</l>
+						<l>De Zuyverheydt gedoogt geen smet in haer gewaed,</l>
+						<l>Des Koninghs wederkomst doet my vertrecken, laet</l>
+						<l>Uw zorgh my toe vertrouwt, wilt Sidion gebieden,</l>
+						<l>Waer in 't u Hoogheydt lust.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Wilt Klarimeen bespieden</l>
+						<l>Hoe hy hem by de Vorst in al zijn handel draeght,</l>
+						<l>Of hy van de Vorstin, of's Rijx gezagh gewaeght.</l>
+						<l>O Sidion ghy zijt door my tot staet gereezen,</l>
+						<l>Wilt my nu hulpzaem zijn.</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Si.</speaker>
+						<l>Ick wil steets dienstbaer wezen</l>
+						<l>Waer dat ick kan of magh, en zal staegh dienstbaer zijn,</l>
+						<l>Hoe grooter donderslagh, noch grooter zonneschijn,</l>
+						<l>Tyrannen dragen mee na haer verdiensten plagen.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Wat moet een dapp're ziel al teghenspoet verdragen.</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Si.</speaker>
+						<l>De tijt vergunt geen tijt, ontslaet my.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Spoed u heen,</l>
+						<l>Verhael aen my in 't kort het doen van Klarimeen.</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<stage>Octavia, Polimia.</stage>
+					<sp who="#octavia">
+						<l>HOe zal dien trotsen mensch dit in zijn ooren dond'ren,</l>
+						<l>Als gy zijn doen ontdeckt, heel Alba zal verwond'ren</l>
+						<l>Van 't geen Polimia haer maecken zal bekent,</l>
+						<l>Niet weetend 't geen gy weet.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Fortuyn heeft haer gewent</l>
+						<l>Tot Klarimeen wiens list derft yder een braveeren,</l>
+						<l>En zal de Rijx Vorstin doen tot slavin verneeren,</l>
+						<l>My gaen versmaden als zijn snootste vyandin,</l>
+						<l>Genegentheydt raet af zijn overhelsche min</l>
+						<l>'t Ontdecken aen de Vorst, wiens gunst hy heeft in handen,</l>
+						<l>De Koningin bevleckt met lasteren, en schanden,</l>
+						<l>Wiens wreedtheydt schricken doet de geene die het hoort,</l>
+						<l>De Vorst van hem verleyt, zou van my niet een woort</l>
+						<l>Geloven, mijne ziel had oock de last te dragen</l>
+						<l>Van Ixion, die ick voor altijt zal beklagen,</l>
+						<l>En nimmer ende ziet in 't endeloos verdriet</l>
+						<l>Kan ick verwinnen, die verwinnaer my gebiet,</l>
+						<l>Zulx is onmogelijck? de liefde stelt my wetten,</l>
+						<l>En wil ick mijne wil zal na zijn wille zetten.</l>
+						<l>Zoo rijst mijn morgenzon die op den middagh sterft,</l>
+						<l>Beloften, glory, eer, natuur, en reên gy derft</l>
+						<l>Uw maght, en mogentheydt, ô licht vervlogen eeden</l>
+						<l>Die snelder dan een stroom zy ras verby gegleeden,</l>
+						<l>Een Prins zijn liefde duurt vaeck voor een korten tijt.</l>
+					</sp>
+					<sp who="#octavia">
+						<speaker>Oct.</speaker>
+						<l>Zoo zal 't onnoodigh zijn dat gy uw tijt verslyt.</l>
+						<l>Die u vergeet vergeet.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Wat laet gy u ontslippen,</l>
+						<l>Die my bood zijne mont, moght ick weerbiên mijn lippen,</l>
+						<l>Octavia gy weet niet wat gy zegt, swijgh stil.</l>
+					</sp>
+					<sp who="#octavia">
+						<speaker>Oct.</speaker>
+						<l>Ick zal gehoorzaem zijn, en volgen raet, en wil.</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<stage>Klarimeen, Karismont, Philon, Arthabasus, Polinesso, Claudius, Marcellus,
+						Sidion, Nisus.</stage>
+					<sp who="#klarimeen">
+						<speaker>Kla.</speaker>
+						<l>DAt ick van de Vorstin, ô Vorst moet zijn d'aenklager.</l>
+						<l>O schrick van 't Ooster Room, Albaensche Scepterdrager,</l>
+						<l>Snijt felder in mijn hart, dan een tweesnijdend zwaert</l>
+						<l>Wat heeft uw afzijn my al leet, en ramp gebaert?</l>
+						<l>Geen Venus quam Adoon als zy my quam beloncken,</l>
+						<l>Haer oogen waeren my twee geyle minnevoncken.</l>
+						<l>Maer slechs in d'asch van mijn verdoofde Lemnos gloet,</l>
+						<l>Wat heeft mijn zuyv're ziel, en Princelijck gemoed</l>
+						<l>Al listen niet bezuurt? ja! meer dan duyzend lagen,</l>
+						<l>Uw broeder Klarimeen voor eeuwign zal beklagen</l>
+						<l>De dagh van 's Rijx gezagh vol schrick hem toevertrouwt,</l>
+						<l>Onwettelijcke brant, verfoeyde liefde, bouwt</l>
+						<l>Gy op die u weerstreeft, de Koningin dorst vergen</l>
+						<l>Mijn edelmoedigh hart tot minlust, ach! het tergen</l>
+						<l>Van een verliefde vrouw is qualijck te weerstaen,</l>
+						<l>Haer honingh zoete reên, en Krocodils getraên</l>
+						<l>Weerstont ick als een rots, toen gy my gaeft in handen</l>
+						<l>Het Vorstelijck ontzagh verviel de Vorst in schanden.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Wie heeft mijn broêr mistrouwt?</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kla.</speaker>
+						<l>Geen mensch als gy mijn Vorst,</l>
+						<l>Wiens wapen-rustingh ziet noch root van bloet bemorst</l>
+						<l>Van 't Ottomansche heyr, 't welck Hun, en Pers wou dwingen,</l>
+						<l>Toen ghy uw onderdaens beschermde voor 't bespringen</l>
+						<l>Van Mahomer, toen steegh de ontrouw op uw troon,</l>
+						<l>Uw Rijxglans wiert verdooft, gezagh van Albâs Kroon</l>
+						<l>Most als een ballingh zigh in ballinghschap verzaden,</l>
+						<l>Men zagh de Koningin in volle wellust baden,</l>
+						<l>Zy bood my 's Rijx gezagh, om zoo door list mijn hart</l>
+						<l>Te trecken op haer zy, maer hoe ick wierd gezart</l>
+						<l>'k Bleef onbeweegelijck, en vluchten voor die snoode.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Dees ydelheyt verban, danck met my d'Opper Goden,</l>
+						<l>Voor d'overwinninge, noyt zagh ick blijder dagh,</l>
+						<l>Als toen ick mijn Vorstin in handen gaf 't gezagh,</l>
+						<l>Mijn Alcinea was, ô broeder, dit wel waerdig,</l>
+						<l>Zoo ick door dit bestaen geweest ben te lichtvaerdig,</l>
+						<l>Zoo heb ick my verraen, wie geef ick best geloof,</l>
+						<l>Mijn broeder, of mijn vrouw? een vrouw geeft licht ten roof</l>
+						<l>De zinnen van haer man, een broeder daer weer tegen,</l>
+						<l>Weet vleyende zijn broêr door't vleyen te beweegen.</l>
+						<l>Wat staet my hier te doen? 'k ken haer voorsichtigheydt,</l>
+						<l>En ginder broeders trouw, ô onwaerdeerlijckheydt,</l>
+						<l>Natuur houd weederzijds mijn ziel te straf gebonden.</l>
+						<l>Ik ken de deuchden van mijn waerde niet doorgronden,</l>
+						<l>Heb ick onweetend oock op 't vrouwen ooghs blanket</l>
+						<l>'t Welck klimt, en daelt, mijn hoop te reuckeloos gezet.</l>
+						<l>ô ja! mijn luckstar duyckt, in 't opgaen, het is wonder</l>
+						<l>Dat ick noch hooren kan het geen ick hoor, de donder</l>
+						<l>Verpletze allen die de trouw te buyten gaen,</l>
+						<l>Heet dit te zijn voogdes? is dit den onderdaen</l>
+						<l>Regeeren als de Vorst moet in het harnas blaecken?</l>
+						<l>Kon ick als Mulciber beletten zulck vermaecken</l>
+						<l>'k Had niet ten strijt gegaen, op schorre wapen klanck?</l>
+						<l>Ick stel het lijf voor 't volck, en niemant weet my danck.</l>
+						<l>Wat moet een Konings ziel al tegenspoên verduuren,</l>
+						<l>Wat 't algemeen verdruckt, moet ick alleen bezuuren,</l>
+						<l>ô Karismont is dit dat overgodlijck beelt</l>
+						<l>In Engelinne schijn voor uwe oogen speelt,</l>
+						<l>Vol aengenaem onthael? ver raderes, uw woorden</l>
+						<l>Met valscheydt opgepronckt, mijn eerlijck hart bekoorde,</l>
+						<l>Niet denckende gy zoud zoo licht zijn in uw trouw.</l>
+						<l>Als dit uw vader hoort, zoo sterft hy wis van rouw.</l>
+						<l>De schoonste bloem wel eer een Lernaes ondier bergde,</l>
+						<l>Is dit de kuysche vrouw, die mijne broeder vergde</l>
+						<l>Te blussen hare brant? gewelt, en razerny</l>
+						<l>Kom donder op, 't is tijt laet wraeck de schelmery</l>
+						<l>Voort straffen 't hels bestaen, van Albâs Koninginne</l>
+						<l>Die eer de naem droegh van doorluchtige Vorstinne,</l>
+						<l>Hoe Koning! doemt gy dan die uwe ziel bemint?</l>
+						<l>Weerroept dien strengen eysch, hoe zijt gy zoo ontzint</l>
+						<l>Dat ghy uw eygen bloet wilt als een zeê doen golven?</l>
+						<l>Nu zie ick 't lauw're blad te schandelijck bedolven</l>
+						<l>In eenen poel van schant, noch mint mijn ziel haer ziel,</l>
+						<l>Schoon zy door geylheydts drift, tot deze daet verviel.</l>
+						<l>Mijn liefde wil niet dat ick spreeck van haer gebreecken,</l>
+						<l>Wiens schoonheydt zou een hart dat yzigh is ontsteecken.</l>
+						<l>Wel aen dan achterdocht voor eeuwighlijck vertreckt,</l>
+						<l>Uyt mijn gedachten, voort, eer ghy mijn haet verweckt,</l>
+						<l>Ick moght den Byzantijn wel door mijn stael verdelgen.</l>
+						<l>De aerde doen het bloet der Zarazeens verzwelgen,</l>
+						<l>Nu dat mijn Koningin te schandelijck vergeet</l>
+						<l>Haer trouw, en eer, mijn raet, en broeder helpt het leet</l>
+						<l>Verduuren van uw Vorst, wilt nu uw gunst betoonen,</l>
+						<l>Vervloeckte die den Echt zoo eereloos derft hoonen,</l>
+						<l>Met ontrouw, draegt tot straf de alderstrafste straf,</l>
+						<l>Van d'Huwelijx-voogdes, voor my ick sta u af.</l>
+						<l>Ick ban u uyt mijn hart, jae; 'k zal geen rust verwerven,</l>
+						<l>Voor Alcinea sterft, ick wil dat zy zal sterven,</l>
+						<l>Zoo wasch ick af mijn schant, door 't over schandelijck bloet,</l>
+						<l>Vrouw Juno zoo dees eys u niet gevalt, zoo doet</l>
+						<l>Een teec ken, en weerhoud het geen ick heb beslocten.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Zult gy uw Koningin dan onverhoort verstooten,</l>
+						<l>Daer het geluck u dient?</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Dat haestigh neemt zijn keer.</l>
+					</sp>
+					<sp who="#nisus">
+						<speaker>Ni.</speaker>
+						<l>Die Koningen verheft.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Die Koningen ruckt neer.</l>
+					</sp>
+					<sp who="#marcellus">
+						<speaker>Mar.</speaker>
+						<l>Oploopendheydt mijn Vorst, eer Vorsten onheyl brouwde.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Goet overlegh haer noyt op oogendienst vertrouwde.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Uw naem onfterf'lijck is zoo ghy geen haet gebruyckt.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>De Koningin boeleert, den Koning zwicht, en duyckt.</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>Kunt ghy uw Gemalin dan droevigh hooren karmen?</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Ontzinde moet ick my niet over't Rijck erbarmen.</l>
+						<l>Ga Philon wilt haer voort ontzielen, door 't geweer</l>
+						<l>Dat uwe zy bekleet, geef aen uw Heer dees eer.</l>
+						<l>Want dien vervloeckte is niet waerd het licht 't aenschouwen.</l>
+						<l>Zy is de bron, waer uyt het onheyl wert gebrouwen,</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>Weet dat de Koningin een lit is van uw leen.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>'t Verstorven zet men af, ick volgh natuur, en reên.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Kan 't bloet zijn eygen bloet baldadigh zoo vergieten?</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Kan ick van zulck een vrouw, oyt heyl, of troost genieten?</l>
+						<l>Tart gy mijn heevighydt door ongedult gezart?</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>Zijn halve ziel te doôn, strijt tegens ziel, en hart.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Zal dan de zuyverheyt 't gewelt een doelwit strecken?</l>
+					</sp>
+					<sp who="#polinesso">
+						<speaker>Polin.</speaker>
+						<l>De Kuysheydt lijd niet als het purper, smet, of vlecken.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Ick ben hier Koning, elck leeft na mijn wil, en last.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Een wil die een Tyran, en niet een Koning past.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Wie onderdanigh is, die volgt 't geen wert gebooden.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Niet om door zijn geweer een Koningin te dooden.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Voor Eeuwen is wel eer een Koningin gedood.</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>Mijn Vorst het scheelt te veel zy 't dartelheydt, of noot.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Zal Alba my om haer voor Eeuwighlijck verdoemen.</l>
+					</sp>
+					<sp who="#marcellus">
+						<speaker>Mar.</speaker>
+						<l>Wie Alcinea kent zal op haer deuchden roemen.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Vrouw Juno is testraf, vervloeckt Echtbreeckery.</l>
+					</sp>
+					<sp who="#claudius">
+						<speaker>Cl.</speaker>
+						<l>Zoo gy haer 't leven gunt zoo leeft gy veyligh, vry.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Zal ick behouden 't geen ick willigh wil verliezen.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Beoogt gy uw voogdes, gy zult haer zijd verkiezen.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Wiens ontrouw Lydien, en Albás glans verdooft.</l>
+					</sp>
+					<sp who="#claudius">
+						<speaker>Cl.</speaker>
+						<l>Een voorneem onvolbracht, heeft die uw eer ontrooft.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>De wetten leeren ons wie dat misdoet te straffen.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>De wetten leeren ons loon naer verdienst te schaffen.</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>Verban dees Euvelen moed, de knagingh het gemoed</l>
+						<l>Een wree beulin verstreckt, die staegh de droef heydt voed,</l>
+						<l>Houd haer voor eeuwighlijck op het Kasteel gevangen,</l>
+						<l>Al waer zy dagh op dagh zal om haer doot verlangen.</l>
+						<l>Een hoogh gebooren ziel noyt zwaerder wert gepijnt</l>
+						<l>Als daer men d'Eerglans dooft, wiens leven dan verdwijnt.</l>
+						<l>Laet haer gekluystert, en gekeetent voort vertrecken,</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Ka.</speaker>
+						<l>Ick zou mijn ziel daer door tot grooter gramschap wecken.</l>
+						<l>Zou ick haer kerckere, bewaeren 't beeltenis,</l>
+						<l>Dat ziel, en hart bezwaert, 't waer dubb'le droefenis.</l>
+						<l>Ick haetze eeuwiglijck, voor eeuwiglijck te minnen,</l>
+						<l>Geen bloet, noch raet herstelt de heevigheyt der zinnen.</l>
+						<l>Van Koning Karismont, dat mijne wil geschied.</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Sid.</speaker>
+						<l>‘Wat hoor ick hemel? ach! Voort Sidion, voort vliet</l>
+						<l>Naer de Princes, wilt haer 't geen gy gehoort hebt melden,</l>
+						<l>Zoo ziet men waere deucht met waere deucht vergelden.</l>
+					</sp>
+					<stage>Alle binnen.</stage>
+				</div>
+			</div>
+			<div type="act" n="3">
+				<head>Het darde bedryf.</head>
+				<div type="scene" n="1">
+					<stage>Polimia, Sidion, Octavia.</stage>
+					<sp who="#polimia">
+						<l>VAer voort, mijn ziel verlangt naer 't ende van uw reên?</l>
+						<l>'K weet nauwlijx of ick slaep, of waeckend ben.</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Sid.</speaker>
+						<l>Geen steen</l>
+						<l>Is harder als het hart van Albás wrede Koning,</l>
+						<l>Ja Polinesso vint met Philon geen verschooning,</l>
+						<l>Noch Arthabasus voor de droevige Vorstin,</l>
+						<l>O snoode zijt gy niet, die uw stantvaste min</l>
+						<l>Zoo eerloos hebt verschopt? is dit de telg gesprooten</l>
+						<l>Uyt Koning Abradaet, wiens overwaerde looten</l>
+						<l>Zijn jammerlijck geschent? haer Circes toovertael</l>
+						<l>Ontluysterde de glans van mijne zegen prael</l>
+						<l>Niet als zy zwoer de Vorst getrouw te zijn in liefde</l>
+						<l>Al eer dat schoonheyts pijl dit oorlogs hart doorgriefde.</l>
+						<l>d'Ontstelde Koningh brult als een getergde Leeuw,</l>
+						<l>Met razerny verzelt, waer zagh men droever eeuw</l>
+						<l>Als dees vertoonen, daer de Koningin moet lijden</l>
+						<l>Onschuldig, wijl de Vorst medoogen stelt ter zijden,</l>
+						<l>Aen Philon hy gebied, wiens stael noch is bemorst</l>
+						<l>Van Prins Albandors bloet te stooten in de borst</l>
+						<l>Van Alcinea, tot verlichtingh zijnder smarte,</l>
+						<l>Mijn wraeck zal zijn voldaen, als ghy my toont het harte</l>
+						<l>Van die mijn ziel en hart bedroeft maeckt tot de doot</l>
+						<l>Dat haer en rots verplet, of stale klingh doorstoot.</l>
+						<l>Ga Philon gy zult voort die Tooveres vermoorden,</l>
+						<l>Dees droeve reên Princes, mijn droeve ziel aenhoorden</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Onluckige Princes, rampzaligh Konings kint,</l>
+						<l>Dus van uw Vorst gehaet, en t'onrecht hoe verblint</l>
+						<l>Heeft u het ongeval dit ziels verderf beschooren,</l>
+						<l>Uw uchtend gloor en glans voor 't daghlicht is verlooren,</l>
+						<l>Octavia had ick gevolgt uw wijzen raet</l>
+						<l>'k Had afkeert van 't Rijck de minne nijt, en haet.</l>
+						<l>De Koning neergezet, en nu, ô al te wreede,</l>
+						<l>Lichtvaerde Klarimeen, vleckt gy de Zuyverheden</l>
+						<l>Van Alcinea door uw schelmery, de aerd</l>
+						<l>Zijt ghy trouwlooze mensch nu, noch voor nimmer waerd,</l>
+						<l>Had ick zijn list ontdeckt, 'k deed wel.</l>
+					</sp>
+					<sp who="#octavia">
+						<speaker>Oct.</speaker>
+						<l>Nu stort gy tranen</l>
+						<l>Vergeefs, voorzichtigheyt moet hier een uytkoms banen</l>
+						<l>Tot heyl van de Vorstin, zie nu met Argus toe,</l>
+						<l>'t Gevaer steeckt vol gevaer.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Wat middel, waer, en hoe?</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Sid.</speaker>
+						<l>Dat wy ons in dit bosch tot dat zy koomt verbergen,</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Wy waeren lijvenloos, wat magh uw raet my vergen?</l>
+						<l>Dat het den Koning wist.</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Sid.</speaker>
+						<l>Princes wy zijn niet veer,</l>
+						<l>Maer naderen de plaets al waer de glans, en eer</l>
+						<l>Van Alcinea zal verwekken, en verdooven.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Het schijnt dat God Jupijn 't gewelt het hooft houd boven,</l>
+						<l>En d'eed'le deucht verdruckt, en laet ten prooy der doot,</l>
+						<l>Maer 't zy dan zoo als 't is, noyt Philons kling doorstoot</l>
+						<l>De droeve Koningin, 'k zal my daer tegen zetten</l>
+						<l>Als ick als een heldin die wreetheyt derf beletten.</l>
+					</sp>
+					<stage>Binnen en voort weer uyt.</stage>
+				</div>
+				<div type="scene" n="2">
+					<stage>Alcinea, Philon, Polimia, Sidion, Octavia.</stage>
+					<sp who="#alcinea">
+					<l>ZEgh Philon is 't noch ver daer hem mijn lief onthoud?</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Wy nad'ren al Vorstin, zoo gy mijn woort vertrouwt.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Hoe zal mijn Koning nu zijne Koningin onthahalen?</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Gelijck hy is gewoon te doen naer 't zegenpralen.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Zult gy dan gaen ter doot als een onnoozel lam?</l>
+						<l>‘Zult gy uw harte bloet aen d'over wrede vlam</l>
+						<l>Op off'ren? is 't begin het ende van uw leven?</l>
+						<l>Koomt gy op zulck een klip te stooten, en te sneven?</l>
+						<l>Wee 't Rijck dat een Vorstin vermoort, doch buyten schult.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Daer leeft geen blijder mensch als ick, nu 'k zie vervult</l>
+						<l>De tijt, dat ick mijn vreucht vol blijdschap zal beoogen,</l>
+						<l>Mijn ziel is tot haer ziel verheucht voort uytgevloogen,</l>
+						<l>Vrind Philon zijn wy haeft daer my de Vorst verwacht?</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Doorluchte Koningin dat ick u heb gebracht</l>
+						<l>Hier in dit dichte bosch, heeft my uw Heer geboden,</l>
+						<l>Op halstraf hy gebiet u door dit stael te dooden.</l>
+						<l>Zijn gramschap eyst uw hart, het welck mijn hart ontroert,</l>
+						<l>Elendige waer toe heeft minlust u vervoert</l>
+						<l>Dat gy, helaes! door my het leven moet verliezen,</l>
+						<l>Rampzalige, wat raet, wat uytvlucht zal die kiezen</l>
+						<l>Die van de doot benart, geen hulp, noch uytkomst ziet?</l>
+						<l>Wiens Rijx troon is omheynt van ziel, en harts verdriet?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Boert gy met uw Vorstin? ga voor, ick zal u volgen.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Geen Athos brant zoo fel als Karismont verbolgen</l>
+						<l>Van dulle gramschap is, Ach! dat het boerten waer,</l>
+						<l>Zoo leefden ick gerust, gy buy ten lijfs gevaer.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Laet af dees zotte reên, den Koning moght u hooren.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>‘Kan Alcinea, wel gaen door dees hand verlooren.</l>
+						<l>O neen; ô ja! ô neen! ô ja! wel aen 't moet zijn,’</l>
+						<l>Het is de Vorst zijn wil.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Koom eyndigt dan zijn pijn,</l>
+						<l>Doorstoot zijn Gemalin, zoo leeft hy buyten vreezen,</l>
+						<l>Doch! zoo gy veynst, laet af van veynzen.</l>
+					</sp>
+					<stage>Philon treck zijn degen, om de Koningin te door stooten.</stage>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Het moet wezen.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Uw veynzery die is belach'lijck, laet ons gaen,</l>
+						<l>Wy wenschen om de Vorst.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Zijn wil moet zijn voldaen.</l>
+						<l>Verschoon ick u zoo zal zijn wreetheydt Philon dooden.</l>
+					</sp>
+					<stage>Pol. ontdeckt haer.</stage>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Eerlooze mensch laet af, laet af ô wrede, en snoode</l>
+						<l>Ontrouwe moordenaer, verrader, die zijn hant</l>
+						<l>Aen zijn Vorstin derft slaen, vreest gy geen straf, noch schant?</l>
+						<l>Zo vreest die 't ongelijck zal van dees droeve wreecken,</l>
+						<l>Zoo gy haer borst doorstoot zult ghy uw zelfs door steecken.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Het is uyt 's Vorsten naem, benart my niet, laet af.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Onnoozelen verwoed te stooten in het graf;</l>
+						<l>ô Philon, kan natuur voor nimmermeer gehengen,</l>
+						<l>U zelfs zoud gy hier door te los om 't leven brengen,</l>
+						<l>Een Koningin te doôn heeft voeten in de aerd.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Onkuysche dartelheydt dees smaed'bre doot u baert.</l>
+						<l>Voorzightige Princes, zijn eygen bloet te vergen,</l>
+						<l>Tot bloetschandt is de Goôn, natuur, en hemel tergen.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Wat hoor ick hemel? ach! waer wilt nu met my heen?</l>
+						<l>Vervloeckte Klarimeen, poogt gy de zuyverheen</l>
+						<l>Van Alcinea door uw list te smetten, wreede;</l>
+						<l>Wat heeft mijn kuysche ziel van u al leets geleeden?</l>
+						<l>Gedoogt den donder-God, dien God-vergeeten mensch,</l>
+						<l>Zal 't hem dan altijt gaen naer lust, naer wil, naer wensch?</l>
+						<l>Heet dit zijn Koning gaen op 't prachtighste begroeten?</l>
+						<l>Koom Philon moort my vry, ick wil gewilligh boeten</l>
+						<l>De schult van 's Konings broêr.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Uw onschult baert de tijt,</l>
+						<l>Niet my alleen, maer zelfs Octavia, gy zijt</l>
+						<l>In uw stantvastigheydt een parel der Albanen.</l>
+						<l>Stort geen meer oogen nat, droogh af uw bracke tranen.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Hier geld geen veynzery, veel minder loogentael,</l>
+						<l>Weerstreeft geen Konings wil, noch dit getergde stael,</l>
+						<l>De Prins die is te vroom om aen zulck quaet te dencken,</l>
+						<l>De Vorst voorzichtigh, dies wilt beyder eer niet krencken,</l>
+						<l>De gloor van een Monarch heel lichtelijck verdooft.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Een eerelooze Prins wiens schennis dat berooft</l>
+						<l>Gansch Alba van haer glans, den Koning gaet verlooren</l>
+						<l>Zo ver zijn wreetheydt derft verstooten zonder hooten;</l>
+						<l>Zijn kuysche Gemalin, mijn vrind hy is verleyt,</l>
+						<l>Wie dat voorzichtigh gaet in halsrecht, altijt pleyt</l>
+						<l>Voor een ontschuldige, erbarmt u om mijn smeecken,</l>
+						<l>En wilt dit grimmigh stael weer in haer schede steecken,</l>
+						<l>Vergiet geen bloet van die men plots ten Rijck uytstoot</l>
+						<l>Een die verstooten leeft, leeft Philon, levend doot.</l>
+						<l>Gehoorzaemt uw Vorstin, wilt op mijn raet vertrouwen,</l>
+						<l>Want moortlust wroeging baert, en wroeging na berouwen,</l>
+						<l>Den hemel zal in 't kort door wonderlijck besluyt</l>
+						<l>Zelfs Alcineás zaeck rechtvaerdigh voeren uyt.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Zijn Majesteyt die raest als dul, en onverduldigh.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Gy zijt zoo wel aen haer, als hem uw leven schuldigh,</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Verschoon ick de Vorstin, wat raet voor Philon dan?</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Een oprecht hart is noyt vervaert voor een tyran.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Mijn hart verflauwt, mijn hant die weygert oock het dooden.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Vaer voort! ick ben bereyt, volbrengh mijn liefs geboden,</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Zoo langh ick adem schep, gedoogh ick dit geenzins.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Wat werckt verblinde min, in een misleyde Prins,</l>
+						<l>De doot mijn toevlucht is, mijn luckstar is verdweenen,</l>
+						<l>De glans van Alba is op 't heerlijckst uytgescheenen,</l>
+						<l>Waer wacht gy na? vaer voort, moort uwe Koningin,</l>
+						<l>Wel hoe weerhoud gy 't stael? wat 's dit?</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>'t Waer beeter in</l>
+						<l>Des Koninghs hart gedruckt, dan 't in uw hart zou dringen,</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Ick ben de doot getroost.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Men kan de ziel niet dwingen,</l>
+						<l>Ick sterf veel liever zelfs, dan ick uw borst doorstoot.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Stantvaste Kuysheydt vreest, ô Philon voor geen doot,</l>
+						<l>Vergeefs op kuysheydts klip verwoede stormen razen,</l>
+						<l>Noyt zal Prins Klarimeen dees dapp're ziel verbazen,</l>
+						<l>Mijn fier gemoed verwind de vrees; schrick, anghst, en zorgh.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Ick blijf uw toeverlaet, de Koningin u borgh.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Vorst Karismont wil dat ick hem haer hart zal geven.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Verban dees yd'le vrees, wijl hier is stracx om 't leven</l>
+						<l>Een bosch-zwijn omgebracht, doorziet daer in elx deel,</l>
+						<l>Het harte van dat dier, of mensch verscheelt niet veel,</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Ick sta om deze reên verzet, en opgetoogen?</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>'t Is reed'lijck dat de mensch is met de mensch bewoogen.</l>
+						<l>Het moorden moort de ziel, en pijnigt het gemoed.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Ick hoor gerucht, 't is best dat gy u boschwaerd spoet.</l>
+						<l>Verschuyl u by 't geboomt, gins hoor ick deerlijck steenen.</l>
+					</sp>
+					<stage>Verschuylen haet.</stage>
+					<sp who="#klarimeen">
+						<speaker>Klarimeen.</speaker>
+						<l>WAer bergh ick my van angst, waer vlucht ick veylig heenen, aen?</l>
+						<l>Nu dat de wroegingh my na 't bosch dryft herwaerts</l>
+						<l>'t Is Klarimeen wiens list zoo eerloos dorst verraên</l>
+						<l>d'Albaensche Koningin, zoo hoor ick yder momp'len,</l>
+						<l>Ach! Alcinea!ach! 'k heb my te los doen stromp'len</l>
+						<l>In het vervaerlijck hol van minne-nijt, helaes!</l>
+						<l>Wat onder-aerds gebergt vergunt aen my een plaets?</l>
+						<l>Daer ick in eenzaemheydt dit leven magh verslijten.</l>
+						<l>Het tongeloosgeboomt mijn wreetheydt koomt verwijten,</l>
+						<l>Albaensche Burgery, vervloeckt Prins Klarimeen,</l>
+						<l>Mijn dartelheydt verdoemt, want gy hebt meer als reên,</l>
+						<l>Door my heeft Philon haer doorstooten met zijn degen,</l>
+						<l>Rampzalig mensch, kost u een tranen vloet bewegen,</l>
+						<l>O neen! want in dees borst een wrede Tyger woont,</l>
+						<l>Ick heb ô goôn, mijn broer te schandelijck gehoont,</l>
+						<l>Ontzinnige, spreeck op; waer waeren uwe zinnen,</l>
+						<l>Dat gy woud minnen, die gy niet vermogt teminneen?</l>
+						<l>Ick haest my of ick noch de dootslagh kost verhoên,</l>
+						<l>Het knagende gemoed 't bevreesde hart doet voên</l>
+						<l>Dees zorgen. Hemel! ay wilt hier een uytkomst schaffen,</l>
+						<l>Of my elendige met uwe weerwraeck straffen.</l>
+						<l>'t Is Klarimeen schreeuwt elck, die Albas Koningin</l>
+						<l>Verdaght maeck by de Vorst door zijn onkuysche min,</l>
+						<l>'t Is Klarimeen die als een God wou 't Rijck regeeren,</l>
+						<l>Gekroonde doen als eer Sesostris deed verneeren,</l>
+						<l>Die zelfs in 't voetzant viel.</l>
+					</sp>
+					<stage>Philon, Klarimeen, Sisiont.</stage>
+					<sp who="#philon">
+						<speaker>Philon</speaker>
+						<l>VErbergh u Sidion,</l>
+						<l>'k Zie ginder Klarimeen.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Hebt gy d'Albaensche Zon,</l>
+						<l>Die broeder Karismont bestraelde met haer stralen,</l>
+						<l>Door uw vervloeckt geweer naer Lethe heen doen dalen?</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Ick heb gelijck gy ziet dit stael geverft in 't bloet.</l>
+						<l>Van Alcinea.........</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wegh, waer zijt gy opgevoed</l>
+						<l>Dat gy de Kuysheydt moort</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>De Vorst heeft zulx gebooden,</l>
+						<l>'k Heb tegens wil, en danck de Kuysheydt moeten dooden.</l>
+					</sp>
+					<stage>Kl. valt in flaatwte.</stage>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Hoe! Alcinea doot? Ach Philon! ach! ick sterf.</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Sid.</speaker>
+						<l>De Prins bezwijmt, 't gelaet verschiet haer kleur, en verf.</l>
+						<l>Help Philon, help, 't is tijt.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>ô wonderlijcke dingen,</l>
+						<l>Dat waên vol ydelheydt weet een tyran te dwingen,</l>
+						<l>Zijn Hoogheydt die bedaert, hy schept zijn adem weer.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Hoe Alcinea doot? leeft de Vorstin niet meer?</l>
+					</sp>
+					<stage>Toent it Prins een gomt Koffertje daer im het hart leyt
+						besloeten.</stage>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Zulcx kan dees koffer, en 't vermoorde hart getuybuygen gen.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wegh laet het my niet zien, waer voor dat ick moet</l>
+						<l>Heel schaemteloos, zijt gy in het barbaers gewest</l>
+						<l>By 't ondier opgevoed? 'k zal u gelijck de pest,</l>
+						<l>Of Nubiaensche Leeuw, in eeuwigheden schuwen.</l>
+						<l>Want die uw wreetheyt ziet, zal voor mijn wreetheydt gruwen.</l>
+						<l>'t Is wonder dat Iupijn zijn blixem u niet slaet,</l>
+						<l>Barbaer, hoe dorst uw hant door't stael de levens draet</l>
+						<l>Van Alcinea de Vorstin, verwoed af korten,</l>
+						<l>Al d'ongevallen op my teffens needer storten?</l>
+						<l>Wel aen Tyran, dit stael zal braecken doen de ziel</l>
+						<l>Uyt uw Tyrannisch lijf, want mijne ziel verviel</l>
+						<l>In d'alderzwaerste elend, toen ick haer aen dorst klagen</l>
+						<l>Dat Alcinea haer niet eerlijck had gedragen,</l>
+						<l>In wien den hemel schiep een goddelijcke deucht,</l>
+						<l>Vrint Philon gy zijt vry, ick draegh de schult, verheucht</l>
+						<l>Uom mijn ongeval, wie Konincklijcke zielen</l>
+						<l>Door overstrengh gewelt ter aerde neer doet knielen</l>
+						<l>Stort zelver in zijn graf, haer wraeck die staet aen my.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Weerhoud hem Sidion, ick neem de vlucht.</l>
+					</sp>
+					<stage>Phi Binnen.</stage>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Vlucht gy?</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Sid.</speaker>
+						<l>Mijn Prins wat zal dit zijn? ick bid u wilt bedaren.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Hoe! ziet gy daer de geest niet om ons heene waren?</l>
+						<l>Verbergh u, naeck doch niet de schaduw der Vorstin.</l>
+						<l>Drie zijn ter neer gevelt door geylheyts drift. O min</l>
+						<l>Die mijne ziel vermoort, gy hebt my schelms geprickelt,</l>
+						<l>De grootste van dit Rijck, in 't grootste quaet gewickelt.</l>
+						<l>Waer is de liefde die een Koning draegt zijn vrouw?</l>
+						<l>Waer is de broeder zucht, oprechte liefde, en trouw?</l>
+						<l>Waer is gehoorzaemheydt van trouwe onderdanen?</l>
+						<l>Vervlogen. Nu de Vorst zijn heyl-loos stael derft banen</l>
+						<l>In Koninginne bloet, het water, lucht, en aerd,</l>
+						<l>Vuur, dwangh, en toornigheydt, zijn met 't gewelt vervaert</l>
+						<l>Voor my, die van natuur, en deuchden ben verbastert:</l>
+						<l>Albanen gy hebt recht dat gy my snoode lastert,</l>
+						<l>Noemt my geen broeder meer van Koning Karismont,</l>
+						<l>Het midpunt trilt, en beeft, dees yzer harde gront</l>
+						<l>Spat wijd van een, helaes! onluckige Vorstinne,</l>
+						<l>Toen 't stael drongh door uw borst, toen voelden ick 't hier binnen,</l>
+						<l>Apol bezweeck van angst in 't zelvige oogenblick,</l>
+						<l>Zijn glans verduysterde en zidderde van schrick,</l>
+						<l>Doe ghy Onnoozele in d'Eliseesche velden,</l>
+						<l>De lang verstorvenen uw droeve doot quaemt melden,</l>
+						<l>Geen Ister, noch Eufraet my reynigt van dees smet,</l>
+						<l>Dat Atlas my verdelgh, dat Pelion my plet,</l>
+						<l>En Ossa heel verniel, kom blixem wilt my zengen,</l>
+						<l>Dat my den Nijl verdrenck, of Pontus laet gehengen,</l>
+						<l>Dat ick als Icarus stort neder uyt de lucht,</l>
+						<l>Dat d'aerd dit lijf verzwelgh, zo zal men klacht, noch zucht</l>
+						<l>Van my rampzalige, in 't machtigh Alba hooren.</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Sid.</speaker>
+						<l>Na 'k aen de reden hoor heeft hy 't verstant verlooren.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wel Sidion gaet u mijn droef heydt niet aen 't hart?</l>
+						<l>Voelt gy niet 't geen ick voel?</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Ja Prins</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Zoo wilt mijn smart,</l>
+						<l>Verzelt met razerny, geween, en droevigh klagen,</l>
+						<l>Als een verduldige, verduldigh helpen dragen,</l>
+						<l>Ick waer geluckigh dat my Taurus plettent 't hooft.</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Sid.</speaker>
+						<l>Ick vrees voor ongeval.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Het stael,'t welck heeft verdooft</l>
+						<l>De Koningin haer glans, zal Karismont verdelgen,</l>
+						<l>Eerst Klarimeen, wel aen, laet d'aerd zijn bloet verzwelgen,</l>
+						<l>Zoo raeckt hy in der yl na d'onderste Jupijn,</l>
+						<l>De Prins van Acheron, daer mach hy Koning zijn,</l>
+						<stage>Rand Sidion voor zijn zelfs aen.</stage>
+						<l>O Alcinea laet dees arm mijn wensch volvoeren,</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Sid.</speaker>
+						<l>Mijn Heer wat zal dit zijn? laet af.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Komt gy ontroeren</l>
+						<l>Gerechte wanhoop? ach! 'k zie voor mijn ziel geen rust,</l>
+						<l>Voor 's Konings levens lamp is door dit stael geblust,</l>
+						<l>Een die zijn bed-vriendin dorst Goddeloos verademen,</l>
+						<l>Wie Alcinea kent zal op haer deughden roemen:</l>
+						<l>Dies moet hy voort van kant.</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Sid.</speaker>
+						<l>Help Philon! Philon help!</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Hou vast ick kom terstont.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Eer ick mijn droef heydt stelp,</l>
+						<l>Moet ik uw harte bloet, bloetdorstige doen stroomen,</l>
+						<l>Verrader, zegh waer toe is Klarimeen gekomen,</l>
+						<l>Door uw vervloekte moort? Tyran gy komt van pas,</l>
+						<l>Voort geeft my uw geweer, op dat ick in de plas</l>
+						<l>Van 't tygeraerdigh bloet mach deze handen wassen,</l>
+						<l>Hoe! vlucht ghy? neen! hou stant, ick zal u toch verrassen,</l>
+						<l>Vlucht vry na Flegeton, dat nare duyst're rijck,</l>
+						<l>'k Ben snelder dan de wint, wat mensch is mijns gelijck?</l>
+					</sp>
+					<stage>Binnen.</stage>
+				</div>
+			</div>
+			<div type="act" n="4">
+				<head>Het vierde bedryf.</head>
+				<div type="scene" n="1">
+					<sp who="#alcinea">
+						<speaker>Alcinea, in Harderins gewaed.</speaker>
+						<l>WAt baet ons goude kroon, of staf,</l>
+						<l>Of purp're kleeden, die ons drucken,</l>
+						<l>Wanneer wy levendigh in 't graf</l>
+						<l>Neerdalen? 's Werelts ongelucken</l>
+						<l>Berijden grooten smaet, en straf.</l>
+						<l> </l>
+						<l>Mijn glory, is helaes! verdweenen,</l>
+						<l>Verschopt van Vorst, en Adeldom,</l>
+						<l>Mijn luckstar heeft al uyt gescheenen,</l>
+						<l>Hoe hoogh zy in den eertop klom,</l>
+						<l>ô God Jupijn waer wilt noch heenen.</l>
+						<l>Met my rampzalige Vorstin,</l>
+						<l>O Alba, 'k zie uw hooge wallen</l>
+						<l>Door Klarimeens vervloeckte min</l>
+						<l>Als die van Pergamum vervallen,</l>
+						<l>Wat werckt al een verkeerde zin.</l>
+						<l> </l>
+						<l>Indien onkuysche brant dit harte</l>
+						<l>Had aengevoerd, zoo soud ick zijn</l>
+						<l>Verduldigh in mijn leet, en smarte,</l>
+						<l>Te licht waer my de zwaerste pijn.</l>
+						<l>Stantvastigheydt zal wellust tarten.</l>
+						<l> </l>
+						<l>Die Alcinea ruckt ter neer,</l>
+						<l>Dat knagend beest, knaegt Klarimeene,</l>
+						<l>Dien Eer-dief, die mijn gloor, en Eer</l>
+						<l>Bezwalckt, loopt als een Stier daer heenen,</l>
+						<l>Kent Koning, ja zijn zelfs niet meer.</l>
+						<l> </l>
+						<l>O Ridderschap, en gy Albanen</l>
+						<l>Vaer wel, de droef heydt die my pijnt,</l>
+						<l>Zal Alcineás vreuchde banen,</l>
+						<l>Tyrannen heerschzucht haest verdwijnt</l>
+						<l>Zy lachen om gebeen, en tranen.</l>
+						<l> </l>
+						<l>Een woede Leeuw in Alba woont,</l>
+						<l>Die my, uyr Abradact gesprooten,</l>
+						<l>Heeft als een wrede trots gehoont</l>
+						<l>Van Kroon, en Rijx gezagh verstooten,</l>
+						<l>Zoo wert het goet met quaet beloont.</l>
+						<l> </l>
+						<l>Het rechte loon van 's weerelts dingen,</l>
+						<l>Hoe valt het nootlot my zoo wreet,</l>
+						<l>Men dwingt, wiens maght, had maght te dwingen,</l>
+						<l>De Vorst verheucht hem in mijn leet.</l>
+						<l>Wy leven in veranderingen.</l>
+						<l>Verstooten Koningin, zoeckt uwe rust te vinden,</l>
+						<l>By 't schaduw rijck geboomt, van groene Eyck, en linden.</l>
+					</sp>
+					<stage>Karimeen, Alcinea.</stage>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>BOsschadie, velden, en rots, ach! hebt ghy niet gezien</l>
+						<l>De geest van de Vorstin? waer voor dat ick moet vliên</l>
+						<l>Met dootsche schrick bezet, ay! stel mijn ziel ter degen,</l>
+						<l>En laet mijn droef gesteen, (dat bid ick) u bewegen,</l>
+						<l>Waer leyt de Koningin mishandelt, en vernielt?</l>
+						<l>Koom Tyger, Leeuw, en Beer, val aen! val aen! ontzielt,</l>
+						<l>Die als een schrick-dier heeft haer zuyver bloet geslorpen</l>
+						<l>Waer leyt dat god'ljck Beelt mishandelt, en verwerpen,</l>
+						<l>Gescheurt, gesleept, getrapt? gun Goden dat mijn smart</l>
+						<l>Al eer de wanhoop, die geduerighlijck mijn hart</l>
+						<l>Geljck de kancker 't vleesch wegh eet, komt wegh te knagen,</l>
+						<l>Verzacht wert. Zal ick nooyt geëgndight zien mijn plagen,</l>
+						<l>Soo wensch ick dat ick voort uyt braecken magh mijn ziel.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Waer is mijn grootsheyt, wegh? zo dra als die verviel,</l>
+						<l>Viel Koning Karismont uyt Albás goude Zeetel,</l>
+						<l>Die als een Rijx-Tyran, boosaerdigh, en vermeetel,</l>
+						<l>Ontluystert Lydien, en het Albaensche Rijck,</l>
+						<l>Maer zacht! wat wil dit zijn? wie steent dus yzelijck?</l>
+						<l>Dat my de naere galm, weer-galmt vol schricks in d'ooren.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Ick zoeck maer al vergeefs, mijn zoecken is verlooren,</l>
+						<l>Zal ick dan troosteloos na Alba keeren? neen!</l>
+						<l>Dat is onmogelijck, mijn zuchten, en gebeên</l>
+						<l>Die zullen 't doode lijck op zoecken, wreede bergen</l>
+						<l>Waer is de troon Vorstin? waer mooght ghy haer verbergen,</l>
+						<l>Dat ghy niet eens verhoort Prins Klarimeen zijn klacht.</l>
+						<l>Wat sie ick door 't geboomt daer scheemeren? stil! zaght!</l>
+						<l>'t Is Alcinea! ja! neen! 't is haer geest! sluyt oogen,</l>
+						<l>Ontsluyt voor nimmer weer, kniel wreede voor 't vermoogen</l>
+						<l>Van Albás Koningin, die door vervloeckte Nijt</l>
+						<l>Onnoozel wiert gedoot, en raeckren 't leven quijt.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al</speaker>
+						<l>Zendt dan den Hemel op my arme plage op plagen?</l>
+						<l>Moet ick, die niet meer kan verdragen, meer verdragen?</l>
+						<l>Waer berg ick my? wie zijt ghy die een doode terght?</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Hoe! vlucht ghy? neen! hou stant, blijf staen, u niet verberght,</l>
+						<l>O aengename geest! voor moorder Klarimeene</l>
+						<l>Vermoorde, schept ghy noch vermaeck in droevigh weenen?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>O Goon 't is Klarimeen!</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Kom wreeckt u nare geest.</l>
+						<l>Moort my moordadige.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Ick ben ter doot bevreest,</l>
+						<l>Wie zijt ghy die my meld, dees droeve, en nare woorden?</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Prins Klarimeen die Alcinea dorst vermoorden.</l>
+						<l>Does droeve door-slagh wroeght geduerigh mijn gemoed,</l>
+						<l>De vrees met anghst verzelt, door waert mijn schrickigh bloet.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Inbeeldingh maeckt zijn breyn door woelende gedachten</l>
+						<l>Tot mijn geluck bedwelmt.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>'k Zal willigh my doen slachten,</l>
+						<l>O Alcinea! zoo u mijne door behaeght,</l>
+						<l>Of zoo ghy wilt dat ick van razerny geplaeght</l>
+						<l>d'Elenden lijden moet! ick zal 't gewilligh lijden.</l>
+						<l>Ja! 'k zal in mijne pijn, my op het hooghst verblijden,</l>
+						<l>Dies zeght my waerde geest, waer is het waerde graft</l>
+						<l>Van die ick heb belaegt, die my nu heeft gestraft,</l>
+						<l>Laet my rampzalige dit groot geluck genieten?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Vorstinne beul, Tyran, komt wreetheyt u verdrieten?</l>
+						<l>Zijt ghy nu zat van bloet? waer is dedapperheyt</l>
+						<l>Van die de Goden is gelijck? wiens wijs beleyt</l>
+						<l>Een tweede Numa streckt, om Rijcken te gebieden,</l>
+						<l>Moet ghy moordadigh mensch nu voor u zelven vlieden?</l>
+						<l>Waer is nu Philon die zijn Koningin doorstiet?</l>
+						<l>Het was der Goden wil, Tyran, maer d'uwe niet,</l>
+						<l>Dat ick mijn herte bloet most tot een offer geven:</l>
+						<l>De wroegingh dieu hier mismoedigh heeft gedreven,</l>
+						<l>Laet die de Koningh voort doen af-staen van zijn haet,</l>
+						<l>Trouw'looze die my hebt van leven, eer, en staet</l>
+						<l>Berooft: geef nu weerom het geen ghy hebt genomen,</l>
+						<l>Ontdeckt bedrieger uw bedriegery vol schroomen.</l>
+						<l>Die eer was mijn gemael, hoe gy my schelms verriet,</l>
+						<l>Dan zal ick heel vernoeght vertrecken, anders niet.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Ick ben gewilligh om getrouwe raedt te volgen,</l>
+						<l>De Koningh Karismont, hoe wreevel, en verbolgen,</l>
+						<l>Weerhoud mijn zuchten niet, ick zie ten end mijn quaet</l>
+						<l>Bekentenis van schult my van mijn schult ontslaet,</l>
+						<l>Ick zal ô Koningin! uw waerde zijd verkiezen,</l>
+						<l>Op dat ick sterven magh, daer ghy most 't lijf verliezen.</l>
+					</sp>
+					<stage>Binnen.</stage>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Den Hemel zy gedanckt, die stadigh voor my waeckt,</l>
+						<l>En troost d'onnozelheydt, te valsch verdacht ghemaeckt,</l>
+						<l>Een spoore-looze laet zich aen geen reden binden,</l>
+						<l>Maer vliedt, door vrees gheparst, veel snelder dan de winden</l>
+					</sp>
+					<stage>Octavia, Polimia, Alcinea.</stage>
+					<sp who="#octavia">
+						<speaker>Octavia</speaker>
+						<l>GIns komt haer Majesteyt, die eene zilte vloet</l>
+						<l>Van bracke tranen stort, wiens eerelijck gemoed</l>
+						<l>De bittre nijdigheyt van Klarimeen moet dragen.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Men moet een harde Beul voor nimmermeer beklagen,</l>
+						<l>Geen reedenloozer dier als een ondankbaer mensch.</l>
+					</sp>
+					<sp who="#octavia">
+						<speaker>Oct.</speaker>
+						<l>Uw droefheyt streckt de Prins zijn ziels vermaeck, en wensch,</l>
+						<l>Mammoedigheyt gebiet verzelt met wijze reden,</l>
+						<l>Dat ghy niet achten zult zijn vleyende gebeden;</l>
+						<l>Verwin u zelfs, en wert niet van zijn lust verheert.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Gedult Octavia heeft my voor hem verneert,</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>De schrick die my bevingh, is van mijn hert gemindert,</l>
+						<l>Polim lindien mijn komst u niet verhindert,</l>
+						<l>Zoo weest met my verblijd om 't onverwacht geluck,</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Heeft Vader Jupiter vernietight uwe druck?</l>
+						<l>Zoo leef ick noch op hoop, schoon hoop my maeckt zorghvuldigh.</l>
+						<l>En bljf als dienares u 't dienstbaer leven schuldigh.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Houd op, 'k ben geen Vorstin, ick stâ die grootsheyt af.</l>
+						<l>Vorstinne zonder Vorst, Vorstinne zonder staf;</l>
+						<l>Vorstinne zonder kroon, en vorstelijck gebieden,</l>
+						<l>Vorstin van eenzaemheydt, die voor haer Vorst moet vlieden,</l>
+						<l>Met wien ick praelde als mijn voet de troon betrat,</l>
+						<l>Toen ick als een Vorstin, Vorstins vermogen had.</l>
+						<l>Eer dulle razerny mijn Koninghs breyn regeerde,</l>
+						<l>En helsche Klarimeen mijn kuysche ziel onteerde,</l>
+						<l>Door zijne geyle brant hem zelfs in zorgh verwart,</l>
+						<l>Het na-berouw doorknaeght nu 't ingewant, en hart.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Hoe is Prins Klarimeen haer Majesteyt verscheenen?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Vlood, voor die voor hem vlood, de vrees maeckt radde beenen.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Heeft dien Barbaer u niet in dit gewaed gekent?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Getrouwe ziel, de Zon die heerlijck is gewent</l>
+						<l>Te pralen, wert vaeck van een duyst're wolck verduystert,</l>
+						<l>Wiens neevel haest vertreckt, en dan blinckt heerlijck, luystert</l>
+						<l>Na 't geen ick melden zal, 't wert spade, volgh my, treurt</l>
+						<l>Niet em die zijne straf rechtvaerdigh valt te beurt.</l>
+					</sp>
+					<stage>Binnen.</stage>
+				</div>
+				<div type="scene" n="2">
+					<stage>Karismont, Philon, Arthabasus,Polinesso, Claudius, Nisus, Agis, Sidion,
+						gevolgh van Lijfwacht.</stage>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>EEn minder wraecklust kost mijn ziele niet verzaden,</l>
+						<l>Nu leeft mijn hart vernoeght, nu dat uw klingh derft baden</l>
+						<l>In 't eerloos bloedt van die mijn eer-kroon heeft gheschent,</l>
+						<l>Laet haer onzalige doot dees Heeren zijn bekent,</l>
+						<l>Al wat u wedervoer, o Philon wilt verhalen.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Beroemde Majesteyt, die Mahomet deed dalen,</l>
+						<l>Wiens stael gevreest wert daer de Wester-Zon vertreckt;</l>
+						<l>Toen ick de Koningin had uwe wil ontdeckt,</l>
+						<l>Had veynzen uyt gespeelt, zy volghde uw geboden,</l>
+						<l>Gevreesde Koningh, ach! de zilte tranen vipden</l>
+						<l>Als Nijl, of Eridiaen ter vlucht, ick wierd ontroert</l>
+						<l>Dat ick haer dooden most, o Koningh, kom volvoert</l>
+						<l>De wil van die verwoed zijn gemalin dorst slachten,</l>
+						<l>Dees hals zal van uw hant de slagh verblij dt verwachten,</l>
+						<l>'t Is beter Karismont, dan Byzantijn my moort;</l>
+						<l>Wy leven hier doch om te sterven, vaer maer voort,</l>
+						<l>De wil van die verwoed zijn gemalin dorst slachten,</l>
+						<l>Dees hals zal van uw hant de slagh verblijd verwachten,</l>
+						<l>'t Is beter Karismont, dan Byzantijn my moort,</l>
+						<l>Wy leven hier doch om te sterven, vaer maer voort,</l>
+						<l>Zy neder knielende deed' 't hart der steen en barsten,</l>
+						<l>De groote Donderaer zy tot medoogen parsten</l>
+						<l>Wanneer zy in zijn hant beval haer zuyv're ziel,</l>
+						<l>En door het wreede stael vermant ter aerde viel,</l>
+						<l>Ick ly de Vorst zijn dwangh, dus sprackeze vry, ontschuldigh,</l>
+						<l>Prins Klarimeen verschaft dees doot, dieonverduldigh,</l>
+						<l>Zijn quaet doen nu betreurt, en mijn elendigh end,</l>
+						<l>Standtvaste kuysheydt heeft onkuysheydt noyt ghekent,</l>
+						<l>Nu zal de schrale Nijt mijn Eer-star niet meer doven,</l>
+						<l>De deught wert vaeck gedruckt, maer niet verdruckt, steeck boven</l>
+						<l>Naer 't bulderend ongeval, het hooft ter kimme uyt,</l>
+						<l>Rechtvaer digheydt wiens macht de dart'le geylheydt stuyt,</l>
+						<l>Zal toonen aen de Vorst haer over-groot vermoogen,</l>
+						<l>Uw broeder die uw al te eerloos heeft bedroogen,</l>
+						<l>Voelt als verrader nu der Goden strengen straf,</l>
+						<l>Schoon d'alverslinb're doodt my rucken derft in 't graf,</l>
+						<l>Vaer wel, o Alba! stort om uw Vorstin geen tranen,</l>
+						<l>Vaer wel, o weeldrigh Hof! en trouwe onderdanen,</l>
+						<l>Nu ick van hier vertreck, en hem de Vorst bemorst</l>
+						<l>Met Alcineás bloet: ay weest gerust! haer borst</l>
+						<l>Veel blancker dan albast, zy tegens't stael dorst zetten,</l>
+						<l>Dat zonder doorverf, ick beanghstigt voor beletten</l>
+						<l>Stiet met een snellen arm het stael ten boezem in,</l>
+						<l>Toen ick 't verdub'le wou bezweeck de Koningin,</l>
+						<l>Wiens laeste stem was: Ick vergeef dit woên mijn Koningh.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Geen Honing-tongh hoe zoet, verwerft by my verschooningh,</l>
+						<l>Haer doot heeft mijne ziel ten deel vernoeght, mijn geest</l>
+						<l>Waerom zijt ghy niet Zelfs by hare doot geweest?</l>
+						<l>Is zy, o Karismont al waerlijck oock gestorven?</l>
+						<l>Gezengde zegen blaên by na geheel verdorven,</l>
+						<l>Schep nu een nieuwe moed, uw vyandin is doot,</l>
+						<l>'k Verfoey my zelfs dat ghy my daer niet meê ontboot,</l>
+						<l>Zoo had ick in dat bloet mijn handen konnen wassen.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Zoo dra haer Majesteyt door 't storten van veel plassen</l>
+						<l>Van 't springend harte-bloet, heb ick dit hart gemekt</l>
+						<l>Ter doode boezem uyt, zie nu uw wensch geluckt</l>
+						<l>Nu Philon heeft volbracht, o Koningh uw beveelen!</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>Waer zagh men in een Rijck ooyt zulck een</l>
+						<l>Treur-rol speelen?</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Ick zouw geluckigh zijn zoo ick dit eerloos hart</l>
+						<l>Haer zelver had ontruckt, geeyndight waer mijn smart,</l>
+						<l>Daer ick om deze daer, sal altijdt Abradate</l>
+						<l>Vervolgen waer ick kan, voor wel doen, altijdt haten.</l>
+						<l>Ghy Heeren zie! ay zie! hoe 't hart in geylheydt brant.</l>
+						<l>Langh na het sterven, 't is onmogelijck de schant,</l>
+						<l>Van Albás Koningin voor and'ren te verschoonen.</l>
+						<l>Ick wreeck my naer mijn zucht, 'k zal aen de werelt toonen</l>
+						<l>Hoe mijn helthafte ziel de goude deught bemint,</l>
+						<l>Panchea diese had gelijck haer zelfs bezint</l>
+						<l>Zal yzen, als 't gerucht na Lydien vlieght heenen,</l>
+						<l>Hoe geylheyts brant is als een damp gezwind verkunt, dweenen,</l>
+						<l>Wel aen gehoonde Vorst, wreeckt nu ghy wreecken kunt,</l>
+						<l>Verschoont geen leven aen die u geen leven gunt,</l>
+						<l>Mijn geyle bedgenoot die brantmerckt Vorst, en Raden,</l>
+						<l>Met deugden eer verciert, met schanden nu beladen,</l>
+						<l>Val aen geterghde poock, moort nu ghy moorden meught,</l>
+						<l>Lach uyt het leet, van die haer om uw leet verheught,</l>
+						<l>Soo straft men Konincklijck, wanneer men straft een wreede,</l>
+						<l>Die door onkuysche brant haer eer-krans derft vertreden.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Klarimeen.</speaker>
+						<l>GY naere geest hou stant, verschijn weer op een nuw,</l>
+						<l>Vermoorde zijt gy noch voor Albás Rijx-beul schuw,</l>
+						<l>Wiens wreetheydt dat steets stoft op Konincklijcke daden?</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Gins komt uw broeder aen, hy schijnt met zorgh beladen,</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Zoo komt hy recht van pas, o Philon om zijn leet</l>
+						<l>Te wreecken nevens my, Heer Broeder zie hier 't wreet</l>
+						<l>Ontaerde hart, van die door geylheydt u tot Koning</l>
+						<l>Wou kroonen met mijn kroon, my stooten uyt mijn trooningh,</l>
+						<l>De wellust heeft heur ziel nu zelver uyt gebraeckt,</l>
+						<l>Wel broeder, wat is dit? Het schijnt haer doot hem raeckt</l>
+						<l>Aen 't hart! wel hoe! wat 's dit? vervloeckte minnelusten</l>
+						<l>Zijn door dees poock verkoelt, mijn haet niet cerder velt.</l>
+						<l>Voor ick haer eerloos bloet deed stroomen langhs het</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Vervloeckte broêr, tyran, ha tyger! wiens gewelt</l>
+						<l>Het wreetste monster tart, dat ooyt in bossen woonde,</l>
+						<l>Moort ghy uweygen zelfs.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>De liefde die zy toonde</l>
+						<l>Tot u, toen u de kroon, en rijx-staf wiert vertrouwt,</l>
+						<l>Wanneer zy uwe kruyn met louter kroonen gout</l>
+						<l>Te cieren docht, heeft zy te schelms haer eer vergeeten,</l>
+						<l>Want wie recht vaerdigh straft, men nimmer wreet zal heeten.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wel geef aen my 't onnoozel hart,</l>
+						<l>Vergun dat ick het hier in 't midden,</l>
+						<l>Magh als een Heylighdom aenbidden</l>
+						<l>Verzelt met droefenis, en smart</l>
+						<l>Elendige, most gy elendighlijck dus sterven?</l>
+						<l>Kost gy geen lijfs genâ verwerven?</l>
+						<l>Tyran dat u de donder plet;</l>
+						<l>Verdrijf my burgers uyt uw vesten</l>
+						<l>Die zich te god'loos heeft besmet</l>
+						<l>Met bloet, waer in de deught huysvesten.</l>
+						<l>O hart! hoe kost de straffe doot</l>
+						<l>U doôn, 't waer beter ick verlooren</l>
+						<l>Geraeckte, waer ick noyt gebooren,</l>
+						<l>Mijn ziele leefden buyten noot.</l>
+						<l>Daer ick als Vorst in maght ten troon vol pracht blonck heer lijck,</l>
+						<l>Legh neer gestort te droef, en deerlijck,</l>
+						<l>Verwoede schantvleck van dit Rijck,</l>
+						<l>Wegh moordenaer, slâ neer uw blieken,</l>
+						<l>Waer vint men Karismonts gelijck?</l>
+						<l>Nu 't schrickelijckst dier moet voor hem schricken.</l>
+						<l>De leeuw bevaên met zoete min,</l>
+						<l>Draegt stadigh zorgh voor zijn leeuwinne;</l>
+						<l>Maer gy, o wreede! stuurs van zinnen,</l>
+						<l>Vermoort uw waerde gemalin</l>
+						<l>Hoe kost uw Koninghs hart uw Koningin doorstooten?</l>
+						<l>En u van men schlijckheyt ontblooren,</l>
+						<l>Heet dit in onheyl by te staen,</l>
+						<l>Zijn halve ziel in als te vieren,</l>
+						<l>'t Verraet heeft zijnen Heer verraên,</l>
+						<l>'t Is kunst zijn zelfs wel te bestieren.</l>
+						<l>Smeeck God Jupijn om hulp mijn Vorst,</l>
+						<l>Stil! stil! wie treet daer ginder heenen?</l>
+						<l>Het is de Koningin, mijn beenen</l>
+						<l>Die zidderen, haer blancke borst</l>
+						<l>Die druypt van bloet, Vorstin, blijf staen, ick zal u volgen,</l>
+						<l>Maer eerst dit schitterend stael verbolgen</l>
+						<l>Voort stooten in 't vervloeckte hart</l>
+						<l>Van Klarimeen, wiens helsche listen</l>
+						<l>In 't end zal ende met zijn smart</l>
+						<l>Die Albás Koningh op u hitsten.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Weerhoud zijn razerny</l>
+					</sp>
+					<sp who="#agis">
+						<speaker>Ag.</speaker>
+						<l>Wat wilt ghy doen mijn Heer?</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Vervloeckte laet my los, of 'k zal met dit geweer</l>
+						<l>Gelijck een wreê tyran de borst van u door stooten.</l>
+						<l>Een sterflijck mensch vervoert, dorst de Vorstin ontblooten</l>
+						<l>Van leven, eer, en staet, ick sterf van ongedult,</l>
+						<l>Ghy Philon moorden haer, maer ick, ick draegh de schult,</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Het wroegende gemoed doet u de ziel ontstellen.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Nu ick ten af-gront stort, hy neder zinckt ter hellen.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>De mensch wert van de mensch ghehouden voor een dier.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Voor redelijck, schoon ghy u toont onreed'lijck hier.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Dat Alcinea tuyght, die d'Heylige Echt schoffeerde.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Die als slavinne voor uw Rijx-Troon haer verneerde.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>De Huwelijx vooghdes, voeght man en vrouw aen een. o neen.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wat zelver spreeckt, weerspreeck ick nimmer niet,</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Zo mag de Koningin, haer Koning wel ontëeren.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Onnoozelen moorden, ach! dat wil den Hemel keeren. als.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Verschopt haer bed-genoot, zijn broeder viert in</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Uw licht geloovigheydt bedrieght u schelms, en valsch.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Krijg voeren buyten 't Rijck, noch grooter krijg daer binnen.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wat Koning moorden ooyt zijn waerde Koninginne?</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Vrouw Klytemnestra gaet haer in dees boosheydt voor.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Toen door Orest, Egysth, het hooft, en kroon verloor.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Ick zie als den Myceen, my werpen uyt den zeetel</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wat mensch leeft hier zoo boos, zoo stout, en zoo vermeetel?</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Het omgelegen volck, vloogh op haer woordt gezwint.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Die van veel Vorsten, om haer deughde wiert bemint.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Uw tongh vleyt te vergeefs, 'k stop voor uw reên mijn ooren.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Uw ongevoeligheydt te laet na raet zal hooren.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Stont van zijn min niet af den Keyzer Mahomet?</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Die deed' als een Barbaer, volgh ghy Natuur, en Wet.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Verwaten, derft ghy my zoo trots, en stout toe bijten?</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Dat Alba, en al 't Landt in 't kort u zal verwijten.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Als ick mijn wraeck voldoe, laet schelden wat dat wil.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Een Vorst leeft vorstelijck, die vreedigh leeft, en stil.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Ga voort uyt mijn gezicht, ontzinde Rijx verstoorder.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>'k Wijck voor geen vrouwe beul, een Koningins vermoorder.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Wie dat de deught bemint, moet straffen gruwelheên.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Wie dat de deught bemint, acht tranen, en gebeên.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Van die mijn ziel verdruckt, en glory heeft ontluystert.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Door 't moorden, eeuwigh blijft de glans van 't Rijck verduystert.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Den Koning Abradaet, treft dit zoo wel als my.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wat Lydien bezuurt, maeckt Albás hals niet vry.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Gerechtigheydt ontziet geen bloet, noch bloetverwanten.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Magh ongerechtigheydt dan tegens 't recht aen kanten?</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Mijn eedelmoedigheydt vervloeckt onkuysche min.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Weet dat zy was uw vrouw, daer by een Koningin.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Mijn naem zal door dees daet door 't heele aerdrijck wand'len.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Zegh die zijn halve ziel te god'loos dorst mishand'len.</l>
+						<l>Het na-berouw knielt met my voor 't noozel hart.</l>
+						<l>Straf my, ick ben die haer onrzielt heb. Laet de smart,</l>
+						<l>Die de Vorstin bevingh, als Rechter voor haer spreecken.</l>
+						<l>Wiert Alcinea niet door Philons stael doorsteecken,</l>
+						<l>Door mijn vervloeckte list? Tyran, nooyt heeft de aerd</l>
+						<l>Zoo wreden monster-dier, gelijck gy zijt, gebaert.</l>
+						<l>Een pest van Alba magh uw burgery u heeten;</l>
+						<l>My een ontrouwe Prins, boosaerdigh, en vermeeten.</l>
+						<l>Knaeght nu berouw tyran, geen trotzen overmoed,</l>
+						<l>Die zigh in wellust baent, door stortend menschen bloet.</l>
+						<l>Mijn bloet allleen, het bloet van de Vorstin sal koelen.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Vertreck, of 'k zweer gy zult mijn fellen haet gevoelen.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Vertrecken? neen! o neen! ick heb u niet misdaen.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Uw broeders vrouw ontzielt, uw broeder schelms verraen.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wie raet tot moorden geeft, is als den moorder schuldigh.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Hoe ben ick groote goôn zoo lijdzaem, en verduldigh,</l>
+						<l>Dat ick een slaef gedoogh, die my staetna de staf.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Geen slaef maer eygen Broêr, sta voort uw wreetheyt af,</l>
+						<l>Zoo wil ick willighlijck, en niet door dwang vertrecken.</l>
+						<l>Ick hoop dat Caucasus my zal een beul verstrecken.</l>
+						<l>Vaer wel gy Alba, en gy brave Burgery.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Voort Agis volght hem na, weerhoud zijn razerny.</l>
+						<stage>Kl. Ag. binnen.</stage>
+						<l>Hoe knaeght het hart van die Vorstinne bloet dorst slorpen,</l>
+						<l>Barmhartigheydt zijt gy met liefde heel verworpen?</l>
+						<l>Van die den Scepter zwaeyt, lichtvaerdigheyt bedreef</l>
+						<l>Dees gruwelijcke moort, ôgroote Goden! 'k beef</l>
+						<l>Als ick gedenck, hoe dat d'onnooselheyt moest sterven,</l>
+						<l>Toen de archlistigheydt heur klaeuwen zocht te verwen</l>
+						<l>In Alcineas bloet, waer vind ick heul, of raet?</l>
+						<l>Voor my elendige, berouw volght als de daet</l>
+						<l>Te god'loos is volbracht, van acht'ren op te hielen,</l>
+						<l>Het is te gruwelijck zijn waerde te ontzielen,</l>
+						<l>De helsche minne-nijt had deze borst verheert,</l>
+						<l>Natuur was van my wech gevlooden, ach hier leert</l>
+						<l>Mijn treur-rol wat een hart van een tyran moet voelen,</l>
+						<l>O groote Koningin! mijn vlugge geesten woelen</l>
+						<l>Als een ontstuy me zee, die met 't gestarnte kant:</l>
+						<l>Mijn Broeder Klarimeen, dien helsche dwingelant</l>
+						<l>Tracht nu van Rots of Bergh het leven te verlaten,</l>
+						<l>Geen wreeder mensch als die zijn eygen selfs gaet haten.</l>
+						<l>Ick haet de Koningh, mijn roemwaerde Koningin,</l>
+						<l>Gy waerd getrouw, ick niet, de wreetste duyvelin</l>
+						<l>Bestoockte mijn gemoed tot gramschap, 't was zijn loosheydt,</l>
+						<l>Na Koninginnen eer te staen is groote boosheydt;</l>
+						<l>Mijn bed geschent te zien, dat van mijn Broeder, 'k zweer</l>
+						<l>Dat hy zal sterven door dees handen, Vorsten eer</l>
+						<l>Is teerder Arthabaes, als d'appel in ons oogen,</l>
+						<l>Hoe heeft den eenen broêr, den and'ren schelms bedroogen?</l>
+						<l>O Hemel! gy die 't goet, en 't quaet na waerde loont,</l>
+						<l>Nochtans het quaet verbiet, my wreede mensch verschoont,</l>
+						<l>Die zijne Troon-Vorstin dorst zinneloos vermoorden,</l>
+						<l>Wiens schoone aenlockzelen een Koninghs ziel bekoorden,</l>
+						<l>Door Philon 't harte bloet wiert van het hart getapt,</l>
+						<l>Door Philon 't doode lijck de boezem opgekapt.</l>
+						<l>Het eerlijck hart ontëert, wat kost mijn ziel bewegen,</l>
+						<l>Dat ik als een Tyran mijn kuysche vrouw was tegen?</l>
+						<l>Beroemde Helden, laet ons nu een heerlijck graf</l>
+						<l>Op bouwen, trots Mausool, zoo wert daer door mijn straf</l>
+						<l>Door naberouw verzaght, laet voort terstont vergaeren</l>
+						<l>Uytheemsche kunstenaers, 'k zal gout, noch zilver spaeren,</l>
+						<l>Ter eeren van mijn lief, die my getrouw was, 't beelt</l>
+						<l>Moet zo na 't leven zijn, dat niet als 't leven scheelt.</l>
+						<l>Laet Indus praelgewaad vry in de oogen schitteren,</l>
+						<l>Van die op Karismont vergrimmen, en verbitteren,</l>
+						<l>Het Koninginne kleet, van diamanten stijf,</l>
+						<l>Verçiert daer mede 't beelt, en wat tot zulck bedrijf</l>
+						<l>Is noodigh. Of Jupijn de droeve ziels elenden</l>
+						<l>Van my elendige, door bidden af wou wenden.</l>
+						<l>De grijze Hanise zal het wieroox-yat met my</l>
+						<l>Zelfs zwaeyen voor het beelt, waer door de slaverny</l>
+						<l>Zalenden, die my druckt, zo zoend men d'Oppergoden.</l>
+						<l>Eenyder volgt mijn wil.</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>Wy volgen uw geboden.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>‘Nu in der ylge-ylt na 't bosch, om de Vorstin</l>
+						<l>t'Ontdecken mijn geheym, t'ontleên mijn wit, en zin,</l>
+						<l>'k Zie Alcinea op de troon, op nieuw verheven,</l>
+						<l>Zoo doet een levend beelt, een wrede Vorst herleven.</l>
+					</sp>
+					<stage>Binnen.</stage>
+				</div>
+			</div>
+			<div type="act" n="5">
+				<head>Het vyfde bedryf.</head>
+				<div type="scene" n="1">
+					<stage>Alcinea, Philon, Polimia, Octavia.</stage>
+					<sp who="#alcinea">	
+						<l>WAerom voertghy my weer ten Hoof, laet my in rust?</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Om dat de Koningh van uw leven is bewust.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Hoe brant zijn gramschap noch? moet ick op nieuw weer sterven,</l>
+						<l>Is zijne Majesteyt gevoeleloos, verwerven</l>
+						<l>Mijn tranen geen genâ? zijn trots den hemel tergt,</l>
+						<l>Waerd my niet strafs genoegh, dat ick in dit gebergt</l>
+						<l>Mijn leven enden moet, wy haten Konings kroonen,</l>
+						<l>Wiens hatelijck vergift ons stadig moort.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Verschoonen</l>
+						<l>Dat is onmogelijck, de Vorst weet dat ghy leeft,</l>
+						<l>Zijn dulligheydt gebiet hy zelfs de dootsteck geeft</l>
+						<l>Aen u stantvastige, Polimia hoe woeden,</l>
+						<l>In 's weerelts ommetreck, der Koningen gemoeden.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Ick haet des Konings haet, de Prins zijn schelmery.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Nu tart myn ziel de doot, en stelt de vrees ter zy,</l>
+						<l>In vrees te leven sterft men meer alsduyzend dooden.</l>
+						<l>O Hemel! stâ my by, gehoorzaemt vry dien snoode.</l>
+						<l>Ick haeck al na dat uur, mijn laeste, en grootste vreucht.</l>
+						<l>Onweetenheydt draegh schult, die hier om 't leet verheucht</l>
+						<l>Dat my wert aengedaen, wanneer ick ben gestorven.</l>
+						<l>Heeft dan mijn Karismont voor 't Rijck de rust verworven,</l>
+						<l>Zoo vaer ick willigh heen naer 't allerzielen velt?</l>
+						<l>Laet moorden wie dat wil, ick schroom voor geen gewelt.</l>
+						<l>Den Hemel-voogt my sterckt, wat sijn toch aerts tyrannen</l>
+						<l>Der landen plagen, die de deught verbannen,</l>
+						<l>Wiens heerschappy is kort, stantvaste kuysheydt zwicht</l>
+						<l>Noyt voor de dwinglandy, noch 't overwreet gesicht</l>
+						<l>Van een verwoede Vorst, hoe fel hy schijt te brullen.</l>
+						<l>Hoe blijft gy staen? gâ voort, mijn doot zal 't al vervullen,</l>
+						<l>Ick ben dit leven zat, hy moort my door zijn hant,</l>
+						<l>'t Zal streckende Vorstin tot eer, de Vorst tot schant.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Uw ongeval doorwond mijn hart, ô Koninginne,</l>
+						<l>Hoe wonder draeyt het rat der Vorstelijcke zinnen,</l>
+						<l>O spruyt van, Lydien, die u verhief ten troon</l>
+						<l>Verschopt u zonder reên ten Rijck uyt, groote Goôn</l>
+						<l>Kunt gy de wreetheyt van dees wrede noch gedoogen:</l>
+						<l>De Tyger toont zigh met zijn Tygerin bewoogen.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Soo tart 't onreedelijck, het reedelijcke dier.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Zijn oogen slaen Mevrouw, geduurig blixem vier,</l>
+						<l>Zijn Majefteyt vergunt geen Prins een woordt te spreecken,</l>
+						<l>Voor u onnoozelheydt, zoo is zijn haet ontsteecken.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Poli.</speaker>
+						<l>Die Alcinea had meer dan zigh zelfs bezint,</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Waer dat de gramschap heerscht, daer is de reden blint,</l>
+						<l>'t Is beter doot als hier oneerelijck te leven,</l>
+						<l>Zulx tuygt Lukretia, Polimia, wy zweven</l>
+						<l>Op wiecken vol van zorgh, tot eenen donderslagh</l>
+						<l>Van ram pen ons veld neer, mijn Karismant, ach! ach!</l>
+						<l>Die u ter doot bemint, wilt gy die noch vermoorden?</l>
+						<l>Het yzer rijcke Rijck, noch 't overkoude Noorden</l>
+						<l>Noyt hoorden van het geen waerom dat Alba treurt.</l>
+						<l>Wat Rijx-Vorstin is oyt, 't geen my gebeurt, gebeurt.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Wanneer doorluchtige de bulderende vlagen</l>
+						<l>Van ziels elenden woên, wat moet de ziel dan dragen,</l>
+						<l>Al eerze wert gered uyt doots gevaêr, en schrick?</l>
+						<l>Want angst steets schricken doet, ja yder oogenblick</l>
+						<l>De bleecke doodt verbeelt, wat leeft staet ramp beschooren,</l>
+						<l>De rampspoet wert uyt vreucht, de vreucht uyt ramp gebooren.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Vrint Philon, ach! hy hoopt vergeefs, die op genâ</l>
+						<l>Van wanhoop hoopen moet, fortuyn komt al te spâ</l>
+						<l>Indien zy leeft tot my; 'k heb weelde eer genooten,</l>
+						<l>Eer ick van mijn Gemael te eerloos wiert verstooten.</l>
+						<l>Mijn lente dageraet in d'uchtend ondergaet.</l>
+						<l>Hoe broos is het geluck der Grooten, gloor, en staet</l>
+						<l>Ach vader Abradaet! Panthea mijne moeder,</l>
+						<l>Miranth mijn zuster, en Arafpe mijne broeder,</l>
+						<l>Mocht ick u noch eenmael aenschouwen, 'k zou gerust</l>
+						<l>Dan sterven. Dat mijn doot waer Lydien bewust,</l>
+						<l>Zy zou om mijn elend geen zucht, noch tranen sparen.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Mijn reên die zijn geveynst, dies bid ick wik bedaren.</l>
+						<l>'t Geluck voert u ten troon, ô konincklijcke vrouw,</l>
+						<l>Uw vierige gebeên in uw stantvaste trouw</l>
+						<l>Die hebben Jupiter tot medely bewoogen,</l>
+						<l>Prins Klarimeen in als zigh vindende bedroogen</l>
+						<l>Doet afstant van sijn quaet, bekent vol droefenis</l>
+						<l>Dat hy alleen de bron van al dit onheyl is,</l>
+						<l>Zijn wroegende gemoed, dat roept verbaest, hier binnen;</l>
+						<l>Den helschen moorder woont, van Albás Koninginne.</l>
+						<l>Uw Vorst vol naberouw, voor u een praelbeelt sticht</l>
+						<l>Op 't prachtighst opgetoyt, wijl hy is onderricht</l>
+						<l>Van uw onnoozelheyt, ay stelt uw ziel te vreden,</l>
+						<l>En volgh my, ick zal u mijn voorneem heel ontleeden.</l>
+					</sp>
+					<stage>Binnen.</stage>
+				</div>
+				<div type="scene" n="2">
+					<stage>Klarimeen, Agis, Sidion.</stage>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>OStille eenzaemheydt, die stil en eenzaem woont,</l>
+						<l>Aenschonw het stacy-beelt, ay! zie hoe heerlijck toont</l>
+						<l>Het overgod'lijck beelt, van Alcinea, Goden</l>
+						<l>Waerom kost ghy my niet voor die stantvaste dooden?</l>
+						<l>Koom vrinden laet ons voort het kost'lijck graf beziên,</l>
+						<l>Eerwaerde Zuster gun dat ick in als u dien.</l>
+						<l>Zoo zal uw roem daer door vergrooten, niet verkorten,</l>
+						<l>Laet langs uw wangen voort een zee van tranen storten,</l>
+						<l>Koom off'ren wy ons bloet, dat in onze ad'ren leeft;</l>
+						<l>Zy is het waerdigh dat men 't lijf ten offer geeft.</l>
+					</sp>
+					<sp who="#agis">
+						<speaker>Ag.</speaker>
+						<l>Zijn Hoogheydt weet als dat den Koningh 't heeft verbooden,</l>
+						<l>Dus klaegt ghy te vergeefs.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wat wil die wrede, en snooden,</l>
+						<l>Zoeckt zijne wreetheydt zigh aen my te wreecken, neen?</l>
+						<l>Zijn onrechtvaerdigheydt zal nimmer mijn gebeen</l>
+						<l>Weerhouden, schoone Zon, toen uwe glans verdoofde,</l>
+						<l>Ontluysterde de glans van Alba, en beroofde</l>
+						<l>Mijn eygen welvaerts heyl, haer schimme waerd om my,</l>
+						<l>En wil dat ick mijn straf als een verrader ly.</l>
+						<l>Wie moort my van uw tweê, wiens gunst zal ick verwerven,</l>
+						<l>Ick kan niet leven, en helaes! noch minder sterven.</l>
+						<l>Dees handen roocken noch van het onnoozel bloet,</l>
+						<l>De geest my stadigh volght, waer dat ick maer een voet</l>
+						<l>Verzet, daer is ze oock, wijst dat de barten kender</l>
+						<l>Moet straffen Klarimeen, dien eereloozen schender,</l>
+						<l>De doot vlucht voor my wegh, anghstvalligh, doots, en bleeck.</l>
+						<l>Dat wijst my de Vorstin de doodelijcke steeck,</l>
+						<l>Zie Agis! zie! hoe 't bloet ten wonde uyt koomt vlieten,</l>
+						<l>Voort Sidion, laet voort bedroefde zuchten schieten,</l>
+						<l>Tot mijn verlichtenis, ick bid u helpt de smart</l>
+						<l>Die ick niet lijden kan, wat lijden, geef mijn hart</l>
+						<l>Onkuysche Prins weerom, die my zoo schelms vermoorde,</l>
+						<l>Soo spreeckt de nare geest, toen 't stael mijn borst doorboorde.</l>
+						<l>Wel aen; ick offer u het harte, dat my pijnt,</l>
+						<l>Waer bleef de Koningin zoo haestigh daer? verdwijnt</l>
+						<l>Ghy in een oogenblick, en zonder my te hooren?</l>
+						<l>Moet ick elendige, elendigh gaen verlooren?</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Sid.</speaker>
+						<l>De wanhoop heeft geheel zijn herssen-vat ontroert.</l>
+					</sp>
+					<sp who="#agis">
+						<speaker>Ag.</speaker>
+						<l>Waer wert door razerny de mensch niet toe vervoert.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Zwijgh! Onbeschaemde, zwijgh! zult gy uw Prins braveeren?</l>
+						<l>Doet Klarimeene niet het onderst boven keeren?</l>
+						<l>Ick ken geen Rijx-Tyran, noch leef na zijne wet,</l>
+						<l>Fortuyn heeft my als hem op Albás troon gezet,</l>
+						<l>Beheerst hy my als Vorst, ik morgen hem als Koning,</l>
+						<l>Ick heb geen broeder die zijn vrouw vermoort, verschooningh</l>
+						<l>Hy nimmermeer verwerft, by my, noch Adeldom,</l>
+						<l>'t Is Klarimeen, wiens macht trompet, en oorloghs trom</l>
+						<l>Doet zwichten, Karismont kan my in 't minst niet hind'ren.</l>
+					</sp>
+					<sp who="#agis">
+						<speaker>Ag.</speaker>
+						<l>Zijn dulheydt groeyt vast aen in plaets van te vermind'ren,</l>
+						<l>Waer wilt noch met hem heen?</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Na onzer aller doot.</l>
+					</sp>
+					<sp who="#sidion">
+						<speaker>Sid.</speaker>
+						<l>Vervolgen wy de Prins en redden hem uyt noot.</l>
+					</sp>
+					<stage>Binnen.</stage>
+				</div>
+				<div type="scene" n="3">
+					<stage>Karismont, Hanise, Arthabasus, Marcellus, Nisus, Claudius, Polimia,
+						Octavia, Philon, Rey Van Albanen.</stage>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>HAnise die uw Rey het offer-vat laet dragen</l>
+						<l>Na der Albanen wijs, zegh, zullen nu de plagen</l>
+						<l>Van Alba zijn gekeert door deze offerhant?</l>
+						<l>Hoe! zal het beeste bloet, de wreetheyt, en de schant</l>
+						<l>Van Koning Karismont uytwissen, en verschoonen?</l>
+						<l>Neen! wreetheyt moet men met een wreeder wreethey loonen,</l>
+						<l>Ick ben die mijn Vorstin de blancke borst door-stiet,</l>
+						<l>Ick ben die volck, en Rijck, al t' eereloos verriet.</l>
+						<l>Hoe kan dit offer dan de gruwelheen verdooven?</l>
+					</sp>
+					<sp who="#hanise">
+						<speaker>Ha.</speaker>
+						<l>Hier door zult ghy de glans van Polexeen berooven,</l>
+						<l>Haer gloor, en heerlijckheydt, de Koning zy gerust,</l>
+						<l>De haet van Abradaet zal werden uytgeblust,</l>
+						<l>De Koningin voldaen.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Hoe kan ick rust verwerven,</l>
+						<l>Daer ick mijn bed-vriendin zoo goddeloos deed sterven?</l>
+					</sp>
+					<sp who="#hanise">
+						<speaker>Ha.</speaker>
+						<l>Dees offerhant mijn Vorst, blust Goden gramschap uyt,</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Zoo weet de Vader dan, wat dat haer wil besluyt.</l>
+					</sp>
+					<sp who="#hanise">
+						<speaker>Ha.</speaker>
+						<l>Zy zijn door tranen, en gebeden te verwinnen.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Van die wiens wreevelheydt dorst moorden zijn Vorstinne.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Zal door dees offerhant al 't onheyl zijn gestut?</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Tol.</speaker>
+						<l>Zoo stort men beesten bloet, voor menschen bloet onnut.</l>
+					</sp>
+					<sp who="#hanise">
+						<speaker>Ha.</speaker>
+						<l>Het bloet van de Vorstin zal my dit bloet doen storten.</l>
+					</sp>
+					<sp who="#marcellus">
+						<speaker>Mar.</speaker>
+						<l>Van een onnoozel lam, dat is haer eer verkorten.</l>
+					</sp>
+					<sp who="#rey-van-wichelaers">
+						<speaker>Rey.</speaker>
+						<l>Wy volgen al het geen de Priester ons gebiet.</l>
+					</sp>
+					<sp who="#nisus">
+						<speaker>Nis.</speaker>
+						<l>Zoo zijt ghy averechts volck, dit off'ren helpt toch niet.</l>
+					</sp>
+					<sp who="#hanise">
+						<speaker>Ha.</speaker>
+						<l>Men stort tot zoeningh 't bloet van ossen, lam, of</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>Soo wilt gy beesten bloet de Goôn voor zoening stieren.</l>
+					</sp>
+					<sp who="#rey-van-wichelaers">
+						<speaker>Rey.</speaker>
+						<l>Haer gramschap stilden eer door zulck een offerhant.</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>Een offer dat de Vorst streckt eeuwighlijck tot schant.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Wie moet niet na mijn wil, en strenge wetten hooren?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Wie al te strengh regeert, gaet eer hy 't weet verlooren.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>O Alcinea 'k heb 't onwaerd uw Vorst geweest.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Een die het harte wroeght, is waer hy is bevreest.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Geen beter voorbeelt als die aen zijn zelfs magh leeren.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Dat Alba toont, alwaer men 't wonder ziet verkeeren.</l>
+					</sp>
+					<sp who="#marcellus">
+						<speaker>Mar.</speaker>
+						<l>Daer wiert d'onnoozelheyt van het gewelt gedoot.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Een strafheyt al te straf, een wreetheyt al te groot.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Dit off'ren streckt voor my, van rouw een waerlijck teecken.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Het valt gevaerelijck met Koningen te spreecken.</l>
+					</sp>
+					<sp who="#hanise">
+						<speaker>Ha.</speaker>
+						<l>De Koningin wert dit middel vry gekeurt.</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>Een die onnoozel sterft, heeft die den hals verbeurt?</l>
+					</sp>
+					<sp who="#hanise">
+						<speaker>Ha.</speaker>
+						<l>Wie dat onschuldigh sterft, die sterft vol roem, en heerlijck.</l>
+					</sp>
+					<sp who="#claudius">
+						<speaker>Cla.</speaker>
+						<l>Wie dat onschuldigh sterft, die sterft helaes! te deerlijck.</l>
+					</sp>
+					<sp who="#rey-van-wichelaers">
+						<speaker>Rey.</speaker>
+						<l>Het machtigh Lydien, met Alba wert voldaen</l>
+						<l>Door deze offerhant.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Haer bey den schelms verraen.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Onnoozelen de doot, als boozen noyt verdienen.</l>
+					</sp>
+					<sp who="#hanise">
+						<speaker>Ha.</speaker>
+						<l>Onweetende, vraegh dit 't roemruchtige Susine.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Een opgereezen wraeck ontziet geen telgh, noch stam.</l>
+					</sp>
+					<sp who="#nisus">
+						<speaker>Nis.</speaker>
+						<l>Het bloet van een Vorstin te veel scheelt van een lam.</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>Dat van ontschuldigen, wie kan dat leet verdragen?</l>
+					</sp>
+					<sp who="#marcellus">
+						<speaker>Mar.</speaker>
+						<l>Tyrannen scheppen in 't ontzielen, ziels behagen.</l>
+					</sp>
+					<sp who="#hanise">
+						<speaker>Ha.</speaker>
+						<l>Zijn Majesteyt treê voor het Konincklijck gezicht</l>
+						<l>Begunstigt 't wieroox-vat, ghy Reyen, volgh uw plicht.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Getrouwe offeraer, ick zal uw zyd bekleeden,</l>
+						<l>Leef na d'Albaensche wet, gebruyckt haer wijs, en zeden.</l>
+					</sp>
+					<sp who="#hanise">
+						<speaker>Ha.</speaker>
+						<l>Godvruchte Rey die met my 't Godendom bewaeckt,</l>
+						<l>Wiens fieren yver vol van heeten yver blaeckt,</l>
+						<l>Verçiert na uwe macht dees God-gewyden Tempel,</l>
+						<l>Rust met het offer-vat voor dees verheven drempel,</l>
+						<l>Stroyt rooze, en mirthe blâen, brengh alles voor den dagh</l>
+						<l>Wat tot dees offerhant, in 't off'ren helpen magh.</l>
+						<l>Het goude Wieroox-vat geen reuckwerck zal ontbreecken,</l>
+						<l>Of Jupiter zou zelfs hem aen Hanise wreecken:</l>
+						<l>Laet uwe voorzogh nu wel zorgen in dees tijt.</l>
+						<l>De Koningh als gy ziet koomt 't feest bywoonen, zijt</l>
+						<l>Voorzichtigh, wilt Festoen, en kransen vaerdigh maecken,</l>
+						<l>Ter eeren de Vorstin, laet gout, en zilver blaecken</l>
+						<l>Voor Alcineás beelt, ick zal dit offer-lam</l>
+						<l>Voort slachten met dees bijl, dan 't ingewand de vlam</l>
+						<l>Op-off'ren. Laet de Luyt, Cimbael, en Cyter hooren.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>O vader mijne ziel van vreuchde schijnt herbooren.</l>
+					</sp>
+					<stage>Onder het zingen en gespeel, moet een gordijn geopent werden, alwaer de
+						Koningin staende als een prachtigh stacy-beelt haer vertoont, op een
+						verheven Tombe, omheynt van Albaensche burgers, met brandende
+						toorts-lichten, waer voor de Koning knielend zijn offerhande doet.</stage>
+					<stage>Voys. Al wat men hier in deze weerelt ziet.</stage>
+					<sp who="#albanen">
+						<speaker>Albanen</speaker>
+						<l>WEgh valsche Kroon, vol ziel en harts verdriet,</l>
+						<l>Die u wel kent wil u voor nimmer niet,</l>
+						<l>Gy baert hier zorgh, daer wantrouw, gins verraet,</l>
+						<l>En kent geen Vorst, noch Vorstelijcke Staet.</l>
+						<l> </l>
+						<l>Nu Klarimeen zijn bloet derft treên op 't hart,</l>
+						<l>Waer door hy zelfs blijft in zijn strick verwart.</l>
+						<l>Stantvaste deucht staet als een rots in zeê,</l>
+						<l>Kent loogentael, noch dwing'landy, noch weê.</l>
+						<l> </l>
+						<l>Een vroom gemoed vreest hart, gewelt, noch schant,</l>
+						<l>Hier wert de deucht door Albas dwingelant</l>
+						<l>Te fel verdruckt, verdoemt dat buyten schult</l>
+						<l>En na veel smaets ten Rijx-troon ingehult.</l>
+						<l> </l>
+						<l>De Koning in vertoont zelfs Kuysheydts beelt</l>
+						<l>Vol deuchden roem dat hart en ziele streelt,</l>
+						<l>De wreetheydt zwight, die 't al vermoorden wou,</l>
+						<l>En dartelheydt schroomt zoo een Konings vrouw.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>De dootschrick die mijn ziel steets pijnden, om de schant</l>
+						<l>En gruwelheeden, wert door deze offerhant</l>
+						<l>Verzelt met zorgh, en anghst, van mijne hals gestreecken,</l>
+						<l>Beelt dat zoo heerlijck praelt, zie ick u aen, zo reecken</l>
+						<l>Ick Artemisia haer graf-gebouw niet meer,</l>
+						<l>Het machtigh Lijden, met Alba zal de eer</l>
+						<l>Van mijne Koningin, door 't heele aerdrijck brommen,</l>
+						<l>Hoe is de Rijcx-Vorstin tot zulck een eer gheklommen,</l>
+						<l>Die van Hanise wert voor heyligh aengebeên,</l>
+						<l>Berouw verzacht dit hart, eer harder dan een steen,</l>
+						<l>Betoont nu waerlijck rouw, hoe hy u heeft mishandelt,</l>
+						<l>Die in stantvaste min stantvastigh hebt gewandelt.</l>
+						<l>Onluckige, gy zijt van my te wreet verdelgt,</l>
+						<l>Dat Acheron mijn broêr, die snoode mensch verzwelgt,</l>
+						<l>Die Alcinea dorst zoo eereloos verraden,</l>
+						<l>Waerd gy roemwaerde in het leven, om genaden</l>
+						<l>Bad ick mijn Koningin, hoe heerlijck praelt het beelt</l>
+						<l>Waer in de schoonheydt van mijn bedvriendinne speelt.</l>
+						<l>Ick zie haer levend voor mijn oogen! 't zijn gedachten</l>
+						<l>Die my verrucken, en 't bedwelmde breyn verkrachten.</l>
+						<l>Is kus dan 't schoone beek voor Alcinea, lief</l>
+						<l>Die ick aen 't hel gestarnt wel eer door min verhief,</l>
+						<l>Wilt waerde, u Gemael, de wreede moort vergeven.</l>
+					</sp>
+					<stage>Karismont willende het beelt voor Alcinea kussen, houd hem by zijn hant
+						vast.</stage>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Hy heeft geen misdaet, die geen misdaet heeft bedreven,</l>
+						<l>Uw broeder Klarimeen verstiet my uyt de troon,</l>
+						<l>U, van uw Gemalin, de glory-rijcke kroon</l>
+						<l>Zal door mijn ziels elend te heerelijcker schijnen,</l>
+						<l>Uw druck is onderdruckt, de vreucht verdrijft de pijnen.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>O Hemel wat is dit? het beek houd mijne hant;</l>
+						<l>Waer bergh ick my van schaemt, waer bergh ick my van schant.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Uw Koningin dooft uyt die schant, een vreughde teecken</l>
+						<l>Aen Alcinea toont,</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Hoe kunnen beelden spreecken?</l>
+						<l>Moet ick rampzalige verduuren meer verdriet.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Een telgh van Abradaet uyt Lydien ghy ziet</l>
+						<l>Herboren machtig Vorst, en levend voor uw oogen,</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Leeft mijne Koningin? Wie heeft my dus bedroogen?</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Zijn Majesteyt genaeck de kuysche Majesteyt,</l>
+						<l>Vlucht niet voor levende, o Koningh, liefde pleyt</l>
+						<l>Voor Klarimeen uw broêr, die gy door haet verbande</l>
+						<l>Een geest heeft vlees noch been, dees poezilige handen</l>
+						<l>Doen blijck van een Vorstin, maer van geen nare geest.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Is 't droom, of spoockery? waer ben ick voor beveest?</l>
+						<l>Daer 'k als een tweede Mars kom in het oorlogh dond'ren,</l>
+						<l>Hoe zal hem Abradaet om deze daet verwond'ren,</l>
+						<l>Zo dra de Faem te post van zijn herbooren kint</l>
+						<l>Dees blijde tijdingh brengt? mijn lief, een Vorst ontzind</l>
+						<l>Betoont gy die noch gunst, mijn Engel ick die druckigh</l>
+						<l>Strax weende om uw doot, leef nu na wensch geluckigh.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Onwetend zondigen mijn Koning is geen zond.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Treet Lydien op nieuw met Alba in 't verbont,</l>
+						<l>Getrouwe Philon, zegh, wat deught zal u weer loonen?</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Dat ghy Prins Klarimeen zijn misslagh wilt verschoone.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Die 't ingewand des Rijx door valscheydt maeckt beroert,</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>'t Ontbrack zijn macht aen macht, zijn wil is niet volvoert,</l>
+						<l>Dat tuyght uw Koningin op 't heerelijckst verreezen,</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Wilt daer Polimia, ô Vorst voor danckbaer wezen.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Geluckigh is het Rijck dat op de deucht steets bouwt.</l>
+					</sp>
+					<sp who="#nisus">
+						<speaker>Nis.</speaker>
+						<l>Onluckigh daer het hooft in als zijn zelfs mistrouwt.</l>
+					</sp>
+					<sp who="#marcellus">
+						<speaker>Mar.</speaker>
+						<l>Stantvaste Kuysheydt gront op onverbreeck'bre muuren.</l>
+					</sp>
+					<sp who="#claudius">
+						<speaker>Cla.</speaker>
+						<l>Wat moet een kuysche ziel al tegenspoet bezuuren.</l>
+					</sp>
+					<sp who="#nisus">
+						<speaker>Nis.</speaker>
+						<l>Dat Alcinea tuygt Albaensche Koningin.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Wiens ziel stantvastigh bleef in onbevleckte min.</l>
+					</sp>
+					<stage>Agis, Alcinea, Karismont, Polimia, Philon, Polinesso, Nisus, Arthabasus,
+						Marcellus, Hanise, Claudius, Rey, Octavia, Albanen, Sidion,
+						Klarimeen.</stage>
+					<sp who="#agis">
+						<speaker>Ag.</speaker>
+						<l>DE Prins uw broeder wenst, ô Vorst vol na berouwen,</l>
+						<l>Dat hy genieten magh de eer, om aen te schouwen</l>
+						<l>Het heerlijck stacy-beelt van Alcinea.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Ach!</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Is hem mijn vreucht bekent,</l>
+					</sp>
+					<sp who="#agis">
+						<speaker>Ag.</speaker>
+						<l>Neen Vorst.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Mijn groot gezagh</l>
+						<l>Staet deze beede toe, laet hem terstont verschijnen,</l>
+						<l>Lief Alcinea wijck ter zijden, wilt verpijnen,</l>
+						<l>U voor een kleene tijt, zijn dulle razerny</l>
+						<stage>Al. verschuylt haer.</stage>
+						<l>Wiert heeviger, zoo hy u schoone zaeght by my.</l>
+						<stage>Kl. uyt.</stage>
+						<l>Onrustigh mensch, koomt gy my weer op nieuw verstooren,</l>
+						<l>Die mijn Vorstin ontzielt, my hebt de doot gezwooren?</l>
+						<l>Baldadige, zie nu wat dat gy zijt in 't Rijck</l>
+						<l>Een schantvleck van uw bloet, verrader, dat ick wijck</l>
+						<l>Uw doodelijck gezicht, gebiedt natuur, 't geweeten</l>
+						<l>In u gestorven is, de broeder-zucht verbeeten,</l>
+						<l>Door uw vervloeckte brant, mijn ziel betreurt dien dagh</l>
+						<l>Toen ick u overgaf het Konincklijck gezach.</l>
+						<l>Mijn goetheydt te vergeefs, u kroon, en staf, vertrouwde,</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Zaght broeder, broeder zaght, want het mijn ziel berouwde,</l>
+						<l>Ay geef uw broêr gehoor, die 't harte is doorwont</l>
+						<l>Met naberouw, dat my dees yzer harde gront</l>
+						<l>In 't holle ingewant verbergde, 'k zou my noemen</l>
+						<l>Geluckigh, en de deucht van die stantvaste roemen,</l>
+						<l>Mijn razerny die wiert daer door vermindert, bood</l>
+						<l>'t Geluck my zulck een gunst, dat ick met mijne doot</l>
+						<l>Kost de Vorstin voldoen, 'k wou graegh die schult betalen,</l>
+						<l>En zou gerust mijn Vorst, en blijd na Lethe dalen.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Onkundige laet af dees reden, wilt de min,</l>
+						<l>Die ongeoorloft is, uytdooven, zult gy in</l>
+						<l>Uw blinde minzucht noch volharden, over wreden,</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Princes Polimia mijn tranen zullen heeden</l>
+						<l>Getuygen mijn berouw, en na-smart, mijne quael</l>
+						<l>Groeyt aen door deze reên, waer toe dit laf verhael?</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Wie Rijx-Vorstinne moort, moet na verdienste lijden.</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Prins Klarimeene stel uw wanhoop wat ter zijden.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Was de Vorstin niet doot, zoo leefden ick op hoop.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>De loop der levende is wonder in heur loop.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Ghy hebt te zinneloos u zelfs uyt 't Rijck gedreven.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Een lichaem zonder hart, waer ziet men dat in 't leven?</l>
+					</sp>
+					<sp who="#marcellus">
+						<speaker>Mar.</speaker>
+						<l>Ontzielde gy haer?</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Neen.</l>
+					</sp>
+					<sp who="#hanise">
+						<speaker>Ha.</speaker>
+						<l>Zoo hebt gy niet verbeurt.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Dat Lydien beschreyt, daer Alba noch om treurt.</l>
+						<l>Moght dezen hals de schult van 's Rijx elenden boeten,</l>
+						<l>Ick offerde mijn bloet voor uwer aller voeten.</l>
+						<l>De moort te wreet begaen, maeckt dat het hart my beeft.</l>
+					</sp>
+					<stage>Al. vertoont haer.</stage>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Ontrouwe minnaer, weet dat Alcinea leeft.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wat zie ick groote goôn! de Koningin voor oogen?</l>
+						<l>Heeft my de nare hel, of spoock, of schrick bedroogen,</l>
+						<l>Dat ick haer Majesteyt hier levend voor my zie?</l>
+						<l>Ach! broeder, broeder, ach! ick bid u, ay! gebiê</l>
+						<l>Dat Klarimeen vertreckt, want mijne ziels elenden</l>
+						<l>Verdrucken ziel, en hart, waer heen zal ick my wenden?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Elendige hou stant.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wie zijt ghy die my tergt?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Ick ben de Rijx-Vorstin.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Wat wert mijn ziel gevergt.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Wat heeft de Koningin van u al dmaet geleeden.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Verban uyt uw gezicht, die u heeft schelms bestreeden.</l>
+						<l>Dees hant my dooden zal die u dorst vatten aen.</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>Wat derft onkuysche brant al gruwelheen bestaen?</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Ick schaem my eeuwiglijck, voor u ô Koninginne,</l>
+						<l>Vervloeckte geylheyds drift die Vorstelijcke zinnen</l>
+						<l>Door uwe list verraet, waer ben ick toe geraeckt?</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Tot afstant van het quaet, wijl u het quaet ontwaeckt.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Door naberouw, wert u van my dees daet vergeven.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Dat Alcinea leef, langh moet die schoone leven.</l>
+						<l>Verkeert mijn tegenspoet, zo dra in vollen vreucht,</l>
+						<l>O prael-beelt van dit Rijck, ô parel van de deucht.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Aenvaerd Polimia tot Gemalin, weest vaerdigh</l>
+						<l>'t Geen zy aen my, en u, betoont heeft, is het waerdigh.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Zijn misdaet weederroept dit woort, zy eyscht mijn straf,</l>
+						<l>Een die my zenden wou na 't graf, daelt zelfs in 't graf.</l>
+						<l>Geen tranen zullen 't vuur van mijne gramschap blussen.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Poli.</speaker>
+						<l>‘Ick moet de gramschap van den Koning zien te zussen,</l>
+						<l>Beroemde Scepter-Voogt, wiens goedertierentheydt</l>
+						<l>Veel verder streckt als 't Oost, zigh tot het West verspreyt.</l>
+						<l>Verschoon mijn minnaer, wilt uw broeder 't leven schencken.</l>
+						<l>Een Vorst van goeden aert, zal aen geen quaet gedencken.</l>
+						<l>Verschoon zijn misdaet doch, beschermt uw eygen bloet</l>
+						<l>Wiert Alcinea niet door mijn Heldinne moed</l>
+						<l>Voor Philons moort geweer bevryd? ban uyt gedachten,</l>
+						<l>O Vorst! oploopentheydt. Laet bidden u verzachten,</l>
+						<l>Een Prins die 't quaet vergeeft, wint harten zonder stael.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Wat zeyd mijn Koningin?</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Wat zegt gy mijn Gemael?</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Dat bloet, en liefde hier op 't heevighst zamen pleyten,</l>
+						<l>Verschoon ick Klarimeen, zal 't Alba my verwijten,</l>
+						<l>Verdienst, en misdaet strijt heel woedend tegen een.</l>
+						<l>Het Recht eyst recht van my, want recht bouwt lant, en steên,</l>
+						<l>Dies moet het heyligh Recht, voor moet wil nimmer</l>
+						<l>Waer 't Recht gehanthaeft wert, daer bloeyen Koninckrijcken.</l>
+						<l>Ick zal op morgen vroegh vergaren doen den Raet,</l>
+						<l>Wat my te doen staet in dees zorgelijcke staet;</l>
+						<l>Zoo hoor ick uyt haer moot, zijn leven, of zijn sterven.</l>
+					</sp>
+					<sp who="#alcinea">
+						<speaker>Al.</speaker>
+						<l>Mijn Koningh geef gehoor, laet my genâ verwerven,</l>
+						<l>Weer-roept het woort, 't welck gy mijn waerde hebt gevelt.</l>
+						<l>Denck aen Polimia, die my uyt doots gewelt</l>
+						<l>Gered heeft door haer trouw, wilt haer die trouw betalen,</l>
+						<l>Zoo zal den hemel op u laten neederdalen</l>
+						<l>Geluck, en voorspoet, slaên uw vyanden uyt 't velt.</l>
+						<l>Vernietigen al die zigh tegens Alba stelt.</l>
+						<l>De vriendschap zal hier door niet mind'ren, wel vermeeren.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Hoe? zal een meerder voor zijn minder hem verneeren</l>
+						<l>Verschoonen, die my door zijn goddeloosheyt tracht</l>
+						<l>Te bucken doen als slaef, 't Rijck hebben in zijn macht?</l>
+						<l>Doch, 'k zal om u mijn lief, haer,en het hem vergeven.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Langh leef Vorst Karismont, langh moet mijn broeder leven!</l>
+						<l>Hoe loon ick na waerdy, doorluchtige Vorstin,</l>
+						<l>Dees al te grooten deucht, die nimmer uyt mijn zin</l>
+						<l>Veel min gedachten gaet? Polimia uw handen,</l>
+						<l>Eerwaerde vrou, ick kus, wiens liefde mijne schanden</l>
+						<l>Door uw stantvastigheyt voor eeuwigh houd bedeckt.</l>
+					</sp>
+					<sp who="#albanen">
+						<speaker>Alb.</speaker>
+						<l>Dees onverwachte vreucht in Alba opgeweckt,</l>
+						<l>Zal ons Albanen doen de wegh tot welstant banen,</l>
+						<l>Laet proncken van de burgh de Turcksche leegervanen,</l>
+					</sp>
+					<sp who="#marcellus">
+						<speaker>Mar.</speaker>
+						<l>Dees dagh, verheft op nieuw, de Koningin ten troon.</l>
+						<l>Vol Majesteyt, en pracht, elck danck de opper-Goôn.</l>
+					</sp>
+					<sp who="#nisus">
+						<speaker>Nis.</speaker>
+						<l>Nu Koning Karismont komt als August te brallen.</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>Het zoet dat volgt na 't zuur, de vreucht na d'ongevallen.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Nu leeft mijn ziel vernoegt, nu 't onweer is gestilt.</l>
+						<l>Ga brenght het offer wegh, hier dient geen tijt verspilt.</l>
+						<l>Gy Rey, voort, haest u, dra, verçier altaers, en Chooren.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>Hoe zal Vordt Abradaet, als hy dit hoort, op hooren.</l>
+					</sp>
+					<sp who="#karismont">
+						<speaker>Kar.</speaker>
+						<l>Nu ick mijn Gemalin herleven zie in 't Rijck.</l>
+					</sp>
+					<sp who="#claudius">
+						<speaker>Cl.</speaker>
+						<l>Eer van de Vorst gewraeckt, nu 's Konings heul, en wijck,</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>De minne-nijt verdelgt, heeft loon na waer gekreegen.</l>
+					</sp>
+					<sp who="#klarimeen">
+						<speaker>Kl.</speaker>
+						<l>Ick danck den hemel voor dees onverwachte zeegen.</l>
+					</sp>
+					<sp who="#polimia">
+						<speaker>Pol.</speaker>
+						<l>De tijdt hier Princen leert, de wonderheen van 't Hof.</l>
+					</sp>
+					<sp who="#claudius">
+						<speaker>Cl.</speaker>
+						<l>Die dartel quaet ontdeckt, de vroomen kroont met lof.</l>
+					</sp>
+					<sp who="#arthabasus">
+						<speaker>Art.</speaker>
+						<l>Voor dees stantvastige, onkuysheydt neer moet bucken:</l>
+					</sp>
+					<sp who="#philon">
+						<speaker>Phi.</speaker>
+						<l>Zoo zeegen-praelt de deucht na duyzent ongelucken.</l>
+					</sp>
+					<stage>UYT</stage>
+				</div>
+			</div>
+		</body>
+	</text>
+
+</TEI>
