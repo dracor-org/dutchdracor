@@ -1,0 +1,3286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000036" xml:lang="dut">
+    <teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="main">Het Pascha</title>
+			<title type="sub">ofte de Verlossinge Israëls uyt Egypten</title>
+			<author>
+				<persName>
+					<forename>Joost</forename>
+					<nameLink>van den</nameLink>
+					<surname>Vondel</surname>
+				</persName>
+				<idno type="wikidata">Q312673</idno>
+			</author>
+		</titleStmt>
+		<publicationStmt>
+			<publisher xml:id="dracor">DraCor</publisher>
+			<idno type="URL">https://dracor.org</idno>
+			<availability>
+			  <licence>
+			  <ab>CC0 1.0</ab>
+			  <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+			  </licence>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl type="digitalSource">
+				<name>DBNL</name>
+				<idno type="URL">https://www.dbnl.org/tekst/vond001pasc02_01/</idno>
+				<availability status="free">
+					<p>In the public domain.</p>
+				</availability>
+			</bibl>
+			<bibl type="originalSource">
+				<title>Joost van den Vondel: Het Pascha ofte de Verlossinge Israëls uyt Egypten. Amsterdam: Dirck Cornelisz. Houthaeck, 1636 (reprint)</title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<profileDesc>
+		<particDesc>
+			<listPerson>
+				<person sex="MALE" xml:id="aaron">
+					<persName>Aaron</persName>
+				</person>
+				<person sex="MALE" xml:id="albinus">
+					<persName>Albinus</persName>
+				</person>
+				<person sex="UNKNOWN" xml:id="choor">
+					<persName>CHOOR</persName>
+				</person>
+				<person sex="MALE" xml:id="caleb">
+					<persName>Caleb</persName>
+				</person>
+				<person sex="MALE" xml:id="corach">
+					<persName>Corach</persName>
+				</person>
+				<person sex="UNKNOWN" xml:id="den-reye-der-israëliten">
+					<persName>Den Reye der Israëliten</persName>
+				</person>
+				<person sex="FEMALE" xml:id="fama">
+					<persName>Fama</persName>
+				</person>
+				<person sex="UNKNOWN" xml:id="god">
+					<persName>God</persName>
+				</person>
+				<person sex="MALE" xml:id="iosua">
+					<persName>Iosua</persName>
+				</person>
+				<person sex="MALE" xml:id="man">
+					<persName>Man</persName>
+				</person>
+				<person sex="MALE" xml:id="moyses">
+					<persName>Moyses</persName>
+				</person>
+				<person sex="UNKNOWN" xml:id="rey-der-egyptenaren">
+					<persName>Rey der Egyptenaren</persName>
+				</person>
+				<person sex="MALE" xml:id="pharao-den-koningh">
+					<persName>Pharao den Koningh</persName>
+				</person>
+				<person sex="MALE" xml:id="serax">
+					<persName>Serax</persName>
+				</person>
+				<person sex="MALE" xml:id="tiphus">
+					<persName>Tiphus</persName>
+				</person>
+				<person sex="FEMALE" xml:id="vrou">
+					<persName>Vrou</persName>
+				</person>
+			</listPerson>
+			</particDesc>
+		<textClass>
+		<keywords>
+			  <term type="genreTitle">Tragicomedy</term>
+		</keywords>
+		</textClass>
+	</profileDesc>
+    	<revisionDesc>
+    		<listChange>
+    			<change when="2024-09-24">(Lucas van der Deijl) convert from source</change>
+    		</listChange>
+    	</revisionDesc>
+
+
+</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="print" when="1612">
+				<desc />
+			</event>
+			<event type="written" when="1612">
+				<desc />
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/" />
+		</listRelation>
+	</standOff>
+    <text>
+
+        <front>
+                <docTitle>
+                    <titlePart>HET</titlePart>
+                    <titlePart>PASCHA,</titlePart>
+                    <titlePart>OFTE</titlePart>
+                    <titlePart>De Verlossinge Israëls uyt Egypten.</titlePart>
+                    <titlePart>Trage-Comoedischer-wyse een yeder tot leering op 't Toneel
+                        gestelt.</titlePart>
+                    <titlePart>Den goeden vind' my goed</titlePart>
+                    <titlePart>Den quaden straf en streng</titlePart>
+                    <titlePart>Wanneer ick d'een behoed:</titlePart>
+                    <titlePart>En d'ander t'onderbreng.</titlePart>
+                    <figure> </figure>
+                    <titlePart>t' AMSTERDAM.</titlePart>
+                    <titlePart>Voor Dirck Cornelisz. Honthaeck, Boeckverkooper, woonende op de
+                        Nieuwzyds Kolck in 't Bourgoens Kruys, Anno 1636,</titlePart>
+                </docTitle>
+            <div type="dedication">
+                <head>Den dichter VVenscht den goetwiligen leser heyl ende saligheydt.</head>
+                <p>D'Oude wyse Heydenen aenmerckende den aerdt ende verdorventheyt des menschen,
+                    ende siende hoe traeg vast een yeder was om langs de trappen der deugden op te
+                    klimmen, ende om hoog te stygen in al het gene wat loflijck ende eerlijck by hun
+                    mochte genaemt worden, als synde eenen al te steylen berg, soo hebben sy in alle
+                    manieren getracht door sekere middelen een yeder te brengen tot een goet, sedig,
+                    ende natuerlijck borgerlijck leven, 't sy door eenige Poëtische Fabulen, ende
+                    versierde gedichten, ofte door andere bequame Regulen ende Wetten: dan onder
+                    andere hebben sy voor goet ingesien de maniere van eenige oude Historien ofte
+                    vergeten Geschiedenissen wederom te ververschen, ende voor al de Werelt op 't
+                    Toneel te stellen: om alsoo door sekere aerdige toegemaeckte Beelden ende
+                    Personagien, levendig wt te drucken ende na te bootsen 't geene tijt ende
+                    outheyt met veel verlopen eeuwen ende afgemaeyde jaren bykans wt 't gedacht
+                    gewischt hadde, in voegen als of die eerst tegenwoordig geschieden: waer inne sy
+                    betoonden hoe in 't eynde alle goet sijn belooninge, ende alle quaet sijne eygen
+                    straffe veroorsaeckt op dat selfs plompe, rouwe ende ongeleerde menschen, die al
+                    hoorende doof, ende al siende blindt waren, sonder bril mochten hun feylen als
+                    met den vinger aengewesen, ende door sprekende Letteren van gesierde Figueren
+                    getemt ende gesedigt werden, ende also volgens de spreuke Horaty 't proffyt met
+                    genoechten leeren: Want nademael sy bevonden dat eenige te kreupel waren, om te
+                    graven na de kostelijcke kleynoodien der leeringen ende geheymenissen die onder
+                    de schorsse van gedroomde Fabulen wech-gescholen ende verborgen lagen, ende hun
+                    van greetige Zoeckers ende Yveraers geerne wilden laten vinden; ende dat den
+                    eenen op dese den anderen op een ander wyse wilde geleert ende onderwesen syn,
+                    soo en ist hun niet genoeg geweest of schoon de Boecken van schoone lessen al
+                    vervult waren, ende geheel dick op-gehoopt op malkanderen liggende eenen
+                    heerlijcken winckel maeckten, ende veel gulden redenen in Koperplaten ende
+                    Marbel-steenen konstig gegraveert alsins in 't voor-hooft van treffelijcke
+                    gebouwen, de Voorby-gangers al verbaest ophielden: maer sy hebben ook daer
+                    beneffens in groote bysondere schouw-plaetsen willen in 't openbaer de schatten
+                    der Philosophie in den schoot toe-werpen, de geene die te achtloos waren om daer
+                    naer te arbeyden ende te streven: sy hebben met dit doen oock den geheelen stant
+                    ende conditie der Werelt willen afbeelden, ende die eenen yegelijcken als een
+                    levende schoon-verwige schilderye voor oogen stellen. Want waer by mach het
+                    geheele Tafereel of Theatrum deser Wereldt beter vergeleecken worden, als by een
+                    groot openbaer Toneel, daer vast een yeder geduerende den handt-wylschen tydt
+                    van syn vliende leven, syn eygen Rolle ende Personagie speeldt. D'een vertoogt
+                    sig daer op als Koning, ende neemt genuchte met sijnen bepeerlden Scepter ofte
+                    Rycksstaf veel Koningrycken ende Lauden te gebieden ende te beheerschen, met een
+                    gouden Kroone syn Koninglijck hooft om te drucken, ende bekleedt met een
+                    glantsich luysterende purper sig te vertoonen op synen hoogen Troon, voor wiens
+                    Majesteyt d'onderdanen met groote eerbiedinge buygen ende neder-vallen. Een
+                    ander volgt den Kryg-Godt Mars, ende al blauw gehelmt steeckt syn peerdt met
+                    sporen, hebbende in d'eene hant een tweesnyde sweert, in d'ander een gevelde
+                    speere, ryt alsoo midden onder de vyanden, ontsiende nog leven nog dood, om met
+                    thien duysendt Tropheen triumphelijck weder te keeren, oft int bestoven veldt
+                    onder de verslagen Helden, syn graf al met groenen Palm ende Lauwer bestroydt te
+                    hebben. Desen met een verbleeckt gelaedt quelt van liefden, ende doet met syn
+                    beweeglijcke klachten alsins den schallenden Echo in 't holle gewelf van Veneris
+                    Tempel wedergalmen. Die bereydt den woesten Oceaen met een gevleugelt peerdt,
+                    niet ontsiende stormen, winden, zee-vlagen, nog syrten, nog klippen, nog diepe
+                    afgronden, om van 't Oosten in 't Westen te geraken. Een ander beploegt met een
+                    paer Joc-ossen den rugge van onser aller Moeder, om 't synder tydt de Goddine
+                    Ceres d'eerstelingen syner vruchten toe te wyden, &amp;c. T'wylen dus den eenen
+                    in dit, den anderen in een ander besig is, ontgaet hun den vluggen tydt, ende
+                    eer den eenen naer den anderen den laetsten zucht geeft, moeten sy alle met den
+                    Wysen-man ropen, dat alles niet anders isdan Al ydelheyt, Al ydelheyt ende
+                    worden alsoo door onverwachte doodt eer sy hun selven hebben recht leeren
+                    kennen, van het Tooneel des Aertbodems achter de Gordyne weg geruckt: daer is
+                    den rijcken ende den armen, den wysen ende den sotten, den schoonen ende den
+                    leelijcken, den stercken ende den swacken, d'een d'ander gelijck; soo dat met
+                    recht over dese onse ydelheyt Heraclitus schreyt, Democritus lacht, ende Timon
+                    sich voor de menschen als voor eenen vloeck versteeckt, op hoge bergen, in diepe
+                    holen, in dustere wildernissen, ende andere eensaeme plaetsen. Dit aldus
+                    aengemerckt synde, kunnen wy ligtelijck vonnissen wat d'oude wyse Heydenen met
+                    dese maniere van doen hebben willen te kennen geven, ende dat sy daer inne niet
+                    te vergeefs soo vlytig ende besig geweest syn. Jae dat meer is, wie sal dorven
+                    ontkennen dat de Wet met al heur ceremonien ende uyterlijcke diensten, als
+                    offerhanden, reynigingen, Sabbatthen, nieuwe Maenden, ende al het geene Aarons
+                    Priesterschap, ende den Tempel met alle syn cieragien, gereedtschappen, ende
+                    toerustingen aenkleeft, soo oock het regiment van 't Rijcke Israels? wie sal
+                    (segge ick) dorven verloochenen dat dit alles yet anders geweest sy als een
+                    voorspel van 't geene men in den toekomenden Messias te verwagten hadde? Want
+                    doen desen alderheylichsten Hoogenpriester ende Koning alder Koningen quam, doen
+                    hadden alle wetteiljcke letterlijcke Priesteren ende Koningen Juda hun rolle
+                    volspeelt ende wtgedient: want in Christo houden alle beelden, schaduwen ende
+                    figuren op. Ja de bloote parabolen ende gelijckenissen die de Heere onsen
+                    Zalichmaker in den Evangelio voorstelt van den mensche die onder de mordenaers
+                    gevallen was. Van den verloren Zone, die al sijns Vaders goet onnuttelijck
+                    verquist badde, van den Rijcken-man die met purper ende kostelijck lynwaet
+                    bekleedt synde, leckerlijck leefde, ende Lasarus vergat: wat syn 't anders, als
+                    naekte Comedien, ende Tragedien, om daer mede te leeren die menschen, dewelcke
+                    op geen ander maniere de verborgen misterien van 't Rijcke der Hemelen verstaen
+                    konnen? Ick gae voorby de Boecken der Koningen: daer eenen hoovaerdigen woedende
+                    Saul al rasende ende troosteloos in syn eygen sweert valt; daer eenen vluchtigen
+                    David geduerende syn ballingschap Hemel ende Aerde te nauw dunckt; daer eenen
+                    verwonnen Zedechias gevangelijck na Babylonien gevoert werdt; daer eenen
+                    tyrannischen Nebucadneser Jerusalem ende des Heeren Tempel verwoest, ende tot
+                    eenen steenhoop maeckt, &amp;c. Alle welcke Personagien ons van den H. Geest tot
+                    leerachtige voorbeelden (als op de Scena) voorgedragen werden: soo hebben wy
+                    voor-henen dese Trage-Comedie voor eens yeders oogen willen op de Stellagie
+                    opentlijck vertoonen: Ende alsoo wy bevonden hebben dat veele daer smaeck lustig
+                    ende begeerig na geweest syn, om 't selve nog eens 't overlesen, niet vernoegt
+                    synde dat sy 't gesichte ende 't gehoor daer van genoten hebben, soo hebbe ick
+                    ten ernstigen versoecke van eenige geoorloft 't selve (hoewel het gering is ten
+                    aensien van 't geene ick daer in gedaen hebbe, nogtans groot ende gewichtig van
+                    stoffe) door openbaeren druck eenen ygelijcken gemeen te maken: te meer, om dat
+                    het by velen wt myn originael getogen synde, te seer gekrenckt, ende van synen
+                    luyster te seer berooft ende onciert werdt: Wenschende dat het met soodanige
+                    vrugtbaerheydt gelesen werde, dat het gedye tot prys van den heyligen ende
+                    gebenedyden Name Godts, ende dat door het over-dencken van dese Trage-Comedie
+                    ofte dit Bly-eyndig-spel, de droeve Tragaedie of het droevig Treur-spel van ons
+                    ellendig leven, mag nemen een vrolijck eynde ende gewenschten uytgang: Amen.</p>
+                <p> </p>
+                <p>In Amstelredamme, 1612. den 29. Maert.</p>
+                <p> </p>
+                <p>Den al uwen</p>
+                <p> </p>
+                <p>J.V. Vondelen.</p>
+            </div>
+            <div type="preface">
+                <head>Op de verlossinghe Israels.</head>
+                <lg>
+                    <l>HOe Godt rechtveerdich straft den Pharo obstinaet,</l>
+                    <l>Mids sijn hardtneckich hert, en tyrannighen haet,</l>
+                    <l>Over sijn volck verheven,</l>
+                    <l>Hoe hy ook Israel verlosset uyt sijn handt</l>
+                    <l>Door Moysis sijnen knecht, wt het Egyptsche land</l>
+                    <l>Speelt VOND'LEN hier na 't leven.</l>
+                </lg>
+                <p>Ghetrou altijdt.</p>
+                <lg>
+                    <l>HEt domme mis-verstant door onbeslepen sinnen</l>
+                    <l>Verdoolt vaeck in de keur, en wisselt goet voor quaet,</l>
+                    <l>Den siende blindelingh volcht lust voor wysen raedt,</l>
+                    <l>En die doet gantsch verkeert verkeerde dingen minnen.</l>
+                    <l>De reden-rijcke mensch kant mis-bruyk haest verwinnen</l>
+                    <l>Door deuchdens liefde, die met kennis hooch begaeft</l>
+                    <l>Wanneer hy 't heylich woort ziel-yverich hanthaeft</l>
+                    <l>Wert hy Gods Rijck-genoot, de wysheyt syn vriendinnen.</l>
+                    <l>Kroont Vondels weerdich hooft heyl graege jongelingen,</l>
+                    <l>Die voor d'onkuysche min het hooghste nut leert singen</l>
+                    <l>Het welck den geest vervreucht met een inwendich juygen,</l>
+                    <l>Het wroecht niet na de daet, als die snoo leugen dichten</l>
+                    <l>Tweesinnich hy verlijckt de oud' en nieuw geschichten:</l>
+                    <l>Doorleest dit sin-rijck boeck het zal u best ghetuyghen.</l>
+                </lg>
+                <p>'t Kan verkeeren.</p>
+            </div>
+            <div type="preface">
+                <head>Kort begrijp van de Trage-comedie.</head>
+                <p>TErwylen Moses de Schapen (syns Sweers Jethro) hoedt in Madian by den Bergh Horeb
+                    ofte Sinai, verschynt hem de Heere in de gedaente eens Enghels wt den vlammenden
+                    Bosch, ende stelt hem tot een Leydtsman, Herder ende verlosser over 't Huys van
+                    Israel: Moses ontschuldicht sich om sijn onbequaeme tonge, dies verzelt hem de
+                    Heere met synen Broeder den schoontaligen ende Priesterlijcken Aaron. Dese twee
+                    Gebroeders als Ghezanten van Gods hooghe Majesteyt verzoecken de verlossinghe
+                    Jacobs aen den Koningh Pharao met bevestinghe vant eerste wonderteecken huu
+                    Slang wordende Roede: maer den hooghmoedigen Koningh verstoct (zo door 't
+                    ingeven ende goochelerije van syn Droom-bedieders ende Toovenaers, als door syns
+                    zelfs obstinaetheyt) verdruct de Hebreen meerder als voor henen: waerop volgen
+                    de thien straffen Godts, als roeden ende gheesselen van syne rechtvaerdicheyt,
+                    dies hy bedwongen is hun te verlaeten. Doch de Heere verstoct hem tot wterste
+                    straffe van syne hartneckicheyt, ende tot grootmakinge van synen heyligen Name,
+                    dat hy met syn Heyr legher, Ruyters, Paerden, ende Wagenen d'Israliten
+                    achterhaelt aen 't roode Meir, daer de Heere zyn wtverkorene droogs voets door
+                    brenght wt 't geweldt Pharaonis, die hun op 't spoor navolghende zyn droevich
+                    Treur-spel eyndight, ende alle hooghmoedige Godt-verachters zynen ondergangh als
+                    eenen spiegel voor oogen stelt. D'Israliten verlost, loven (over hun triumphante
+                    verlossinghe) den Heere met Lof-zanghen ende Danck-zegginghen. Luystert toe,
+                    &amp;c.</p>
+            </div>
+            <castList>
+                <head>Beelden van 't Bly-eyndich spel.</head>
+            	<castItem corresp="#god">
+            		<role>GODT DE HEERE.</role>
+                    </castItem>
+            	<castItem corresp="#moyses">
+            		<role>Moyses, Aaron, Corach, } d'Outste der Hebreen.</role>
+                    </castItem>
+            	<castItem corresp="#iosua">
+            		<role>Iosua en Caleb, } d'Outste der Hebreen.</role>
+                    </castItem>
+            	<castItem corresp="#pharao-den-koningh">
+            		<role>Pharao, den Koningh.</role>
+                    </castItem>
+            	<castItem corresp="#tiphus">
+            		<role>Tiphus, } Droom-bedieders ende Toovenaers.</role>
+                    </castItem>
+            	<castItem corresp="#serax">
+            		<role>Serax, } Droom-bedieders ende Toovenaers.</role>
+                    </castItem>
+            	<castItem corresp="#albinus">
+            		<role>Albinus, Velt-hooftman met sijn Heyr-legher.</role>
+                    </castItem>
+            	<castItem corresp="#rey-der-egyptenaren">
+            		<role>Den Reye der Egyptenaren.</role>
+                    </castItem>
+            	<castItem corresp="#den-reye-der-israëliten">
+            		<role>Den Reye der Israëliten.</role>
+                    </castItem>
+            	<castItem corresp="#fama">
+            		<role>Fama, oft t' vlieghende Gherucht.</role>
+                    </castItem>
+            	<castItem corresp="#choor">
+            		<role>Choor, de leerlijckheyt ofte moralisatie van 't Spel.</role>
+                    </castItem>
+            </castList>
+        </front>
+
+        <body>
+	<div type="act" n="1">
+		<div type="scene" n="1">
+			<head>Het Pascha, <lb>
+		</lb>
+			<lb>
+		</lb>
+			</head>
+			<head>Het eerste deel.</head>
+			<sp who="#moyses">
+				<speaker>Moses hoedende sijne Schapen aen den Berghe Horeb,
+                            spreeckt:</speaker>
+				<l>WEyd hier myn Beestiael, weyt hier myn tier'ge Vee,</l>
+				<l>Golft hier om dit Gebergt mijn wit-gewoelde Zee,</l>
+				<l>Scheert hier 't groen-hair'ghe loof, spaert kruyt, nog Bloemkens
+                            geurigh,</l>
+				<l>T'lacht hier dog altemael, zoet-rokig en couleurig,</l>
+				<l>Nu wauwelt soo veel gras, soo vet en graeg bedijt,</l>
+				<l>Tot gy van Madian de schoonste kudde zijdt:</l>
+				<l>Onnos'le Lammerkens, verstroyt u wijt nog verder,</l>
+				<l>Blijft al ontrent den Staf van uwen trouwen Herder,</l>
+				<l>Den Wolf (waer voor ick u soo dickmaels heb beschermt)</l>
+				<l>Is d'onrust die dog steeds naer u mijn Vliesen swermt,</l>
+				<l>Ontwijffelijck hy ligt hier al ontrent gedoken,</l>
+				<l>Want hy terstondt den snof heeft van sijn aes geroken,</l>
+				<l>Dus blijft my al ontrent, en loopt soo niet verdeelt,</l>
+				<l>Terwijl den Echo hier met mijn gedachten speelt.</l>
+				<l>Och! oft met desen Staf myn Jaren henen slipten.</l>
+				<l>Dien Staf my weerder als den Scepter van Egypten,</l>
+				<l>Of ick myn dagen sleet in dese weyden schoon</l>
+				<l>Veel heuchelijcker alst gewelf van Memphis throon:</l>
+				<l>Veel liever wilde ick hier een soèten bloem-krans plucken,</l>
+				<l>Als met de Nytsche kroon mijn voorhooft prat omdrucken,</l>
+				<l>Geen purper ruylden ick ofte Konincklijck gesmijd,</l>
+				<l>Met mijn omgorden rock, myn herderlijck habijt,</l>
+				<l>Geen wijnen liet ick in een goude schale gieten,</l>
+				<l>Voor eene koelen teug geschept wt dese vlieten,</l>
+				<l>Veel grager wt mijn mael smaeckt dese spijse grof,</l>
+				<l>Als al de leckerny vant Koninghlijcke Hof:</l>
+				<l>Al schijnet Koninghs Hof te swemmen in wellusten,</l>
+				<l>T' is wederom vermengt met sorgen en onrusten,</l>
+				<l>Nu sal de Koning sijn met purper schoon bekleet,</l>
+				<l>En morgen toegerust met wapens dul en wreedt,</l>
+				<l>Nu sal syn weerdich hooft de groote kroon bedwelmen,</l>
+				<l>En morgen t' harde stael en t' blau van eender helmen,</l>
+				<l>Druckt nu syn stercke hant den Scepter hooch en weert,</l>
+				<l>'T verandert sanderdaegs licht in een vlammich sweert.</l>
+				<l>Sit nu syn Majesteyt in syn gewelfde Salen,</l>
+				<l>Nu moet hy na de grents en 't wterst van syn palen.</l>
+				<l>Ick sie niet dan een sweert aen een sijden draet</l>
+				<l>Steets hangèn boven thoost den Koninglijcken staet.</l>
+				<l>Ons Vaders hebben dus hun leven laten glijen,</l>
+				<l>En over 't Vee gesocht de soetste heerschappijen:</l>
+				<l>Abel, en Abraham, Isac en Jacob milt</l>
+				<l>Syn wel d'aenvangers van t' eenvoudich Herder-gilt,</l>
+				<l>Geen van hun alleen heeft gedreven ander woecker,</l>
+				<l>Als met de geylicheyt van t' Vee hoe langs hoe kloecker,</l>
+				<l>Hun Beesten waren meest hun wercking en hun doen,</l>
+				<l>Ick volg hun stappen naer, en langs de kusten groen,</l>
+				<l>Dus schuwe ick heel gerust 't gewoel van groote Heeren,</l>
+				<l>Doch meer dwingt my den noot als hertelijc begeeren,</l>
+				<l>'T bloet is noch versch en lauw, waer met ick dese wijl</l>
+				<l>Eens laefden 't dorstich sant by 't stroomen van den Nyl:</l>
+				<l>Mocht ick den Pharao soo lichtelijc begraven.</l>
+				<l>En rucken Jacobs huys wt dit geduerig slaven.</l>
+				<l>Tyran! och! oft gy eens begrijpen mocht in 't minst,</l>
+				<l>Dat herderlijck beroep den Koninglijcken dienst</l>
+				<l>Beteeckent t'eenemael, gy bleeft niet soo versteenigt,</l>
+				<l>Saegt gy den Scepter met den Herder-staf vereenigt:</l>
+				<l>Het Herder-ampt vereyscht, dat hy syn kudde hoet,</l>
+				<l>De Koning dat hy 't volc heerscht met een wijs gemoet,</l>
+				<l>Den herder moet syn kud voor des wolfs tanden vrijen,</l>
+				<l>De Koning weeren al d'uytheemsche tyrannijen,</l>
+				<l>Dat d'Herder-staf geen Lam voor d'ander stoot nog sla,</l>
+				<l>En elck Inwoonder hoort den Scepter even na,</l>
+				<l>D'een vlies voor d'ander komt de weyde niet ten goeden;</l>
+				<l>Soo hoort 't Rijck om te staen, om yegelijck te voeden:</l>
+				<l>Maer Israël, eylaes! gaet op een dorre heyd,</l>
+				<l>Daer den Egyptenaer in 't grasig groene weyt,</l>
+				<l>D'een is een droeve Slaef, en moet, ocharm! ontbeeren,</l>
+				<l>Dat d'ander zal in weeld' en overvloet verteeren:</l>
+				<l>De vloer waer op sig den Egyptenaer verlust</l>
+				<l>Veel sachter is als 't bed van d'Isralijtsche rust:</l>
+				<l>Pharaos Rijcx staf hun verstreckt maer eenen vlegel,</l>
+				<l>Syn kroon een lastich Jock, dat sonder maet of regel,</l>
+				<l>Den Israliten druck: syn wedersnydig stael</l>
+				<l>Sal den Egyptenaer beschermen t'eenemael,</l>
+				<l>En al hun vyanden verstreeken eenen prickel,</l>
+				<l>Maer Jacobs vrugtbaerheyt afmaeyen als een zickel,</l>
+				<l>Fy ongeregtigheyt! Fy Koninglijcke haef</l>
+				<l>Waer van d'een Borger is en d'ander eygen slaef:</l>
+				<l>En of sy schoon met graen al Memphis solders vullen</l>
+				<l>Het kaf is al den loon die sy genieten sullen.</l>
+				<l>Myn Israliten die soo lang om vryheydt riept,</l>
+				<l>Gy graest om elcke stadt een grondeloose diept,</l>
+				<l>Gy bout syn mueren op, en gaet den Hemel tergen</l>
+				<l>Met Toornen die hun kruyn tot in 't Gesternte bergen,</l>
+				<l>En hoe gy bout, en slaeft met Truffel, Spa, of ploeg,</l>
+				<l>En arbeyt in het sweet uws aenschyn, spad' en vroeg,</l>
+				<l>Des morgens eer de Son met syne straelen lustert,</l>
+				<l>En 't Manen-zilver met syn gulden Torts verduystert,</l>
+				<l>Tot dat den swarten Nacht beschaduwt Berg en dal,</l>
+				<l>En dat 's doots suster wiegt in slaep den grooten Al:</l>
+				<l>Nog raset den Tyran, Egypten leyt ten woesten,</l>
+				<l>En sal door ledigheydt van desen swarm verroesten.</l>
+				<l>Heeft tydt, en outheydt dus Josephs weldaden groot</l>
+				<l>Wt u gemoet gewischt? denckt, hoe wt synen schoot</l>
+				<l>Egypten werdt gespijst, doen over syn limiten</l>
+				<l>Syn hoorenen den Nyl maer jaerljcks twelf cubiten</l>
+				<l>In seven Jaer verhief, en self de Hemel logt</l>
+				<l>Dy weygerden soo lang heur tranen koel en vogt</l>
+				<l>Doen u vrouw Ceres, laes! wat sy oock ploegd' of saeyde,</l>
+				<l>Met geene Seyssen krom in seven Oogsten maeyde</l>
+				<l>Doen t'elcken in den Oogst den droeven Ackerman</l>
+				<l>Vervloeckte Ploeg, en Syn, Dorsch vlegel, Eg en Wan,</l>
+				<l>Doen 't heele Ceres-gilt schier niet dan stroo en stoppel</l>
+				<l>In schooven 't samen bondt, in bondels, en gekoppel:</l>
+				<l>Doen loeg elck Josep toe, doen was hy 's Konincks beelt,</l>
+				<l>Soo lang hy vaderlijck het graen heeft wt gedeelt,</l>
+				<l>Doen hy soo vriendelijck de stralen van syn oogen</l>
+				<l>Op yegelijcken wierp, en niemant heeft ontogen</l>
+				<l>De vrugt syns overvloets, doen syne volheyt pleyn,</l>
+				<l>Gelijck de Sonneschyn, een yeder was gemeyn.</l>
+				<l>O Josep! al te slegt hebdy gevoedt te veuren</l>
+				<l>De Wolven, die nu 't Schaep van Israël verscheuren,</l>
+				<l>U mildt weldaedig hert dat gy hun hebt betoont,</l>
+				<l>Wort ons met tyranny al t'onverdient beloont:</l>
+				<l>Hadt ghy ons Vaders dog geweygert dese gaven,</l>
+				<l>En langen tijdt met hun voor onsen tijdt begraven,</l>
+				<l>Of schoon Abrahams saet in vrugtbarigheydt tiert,</l>
+				<l>Als s'Hemels mantel blau met loovers is geçiert,</l>
+				<l>Oft schoon Isacx geslagt in veelheyt goederhandig</l>
+				<l>Beklijft alst Roode Meyr opworpt syn baren sandig,</l>
+				<l>Oft Jacobs Neven sig verspreyen in saysoen,</l>
+				<l>Alst loof groeyt wt den schoot van dees valleyen groen:</l>
+				<l>Wat batet, als hun dus verheert met tyrannije</l>
+				<l>'T ondraegelijck eeuwig jock van droeve slavernije?</l>
+				<l>O onser Vad'ren God! wanneer sal eens 't gesmoock</l>
+				<l>Van onse Altaren, als een lieffelijcken roock</l>
+				<l>Ten Hemel stygen op? waerwaerts, en in wat landen</l>
+				<l>Sal u den wiroock van ons heylige offerhanden</l>
+				<l>Bevallen? och! gedenckt aen 't teecken des verbonts,</l>
+				<l>Besegelt met het woort ws Goddelijcken monts,</l>
+				<l>Dat gy den Scepter nog sult peerlen in ons handen,</l>
+				<l>Die overheeren sal den trots van u vyanden,</l>
+				<l>Bevestigt u beloft, ontreckt ons niet soo ligt</l>
+				<l>De heylige stralen van u Hemelsch aengesigt:</l>
+				<l>Oft syn wy dus gestraft om onse swaer misdaden?</l>
+				<l>Wascht ons weer in de Born en Vloet uwer genaden,</l>
+				<l>Soo wyt den morgenstont beschaemt het nagt-seyl swert,</l>
+				<l>Toont dat de gunste streckt van u Vaderlijck hert:</l>
+				<l>Treet ons met u gerigt niet altijds op de hielen,</l>
+				<l>Worpt uwen Blixem niet op soo veel duysent zielen:</l>
+				<l>Wy syn dyn handen werck, &amp;c.</l>
+			</sp>
+			<stage>Godt verschynt Moysi in den vlammenden Bosch.</stage>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Aenschout dat heerlijck ligt!</l>
+				<l>Hoe blinckt in 't sterflijck oog dit wonderlijck gesigt!</l>
+				<l>'t Bosch schynt in vuyr en vlam te sparcken en te gloeyen,</l>
+				<l>Nogtans in 's vuyrs gegolf gebloemt, en bladers bloeyen.</l>
+				<l>Ick wil my derwaerts spoen. God. Sagt, Mose, Mose, beyt.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Hier ben ick. God. T' is hier van myn tegenwoordigheyt</l>
+				<l>Een dry mael heylig lant, dus wacht u my t' ontmoeten,</l>
+				<l>Eert my, en dese plaets, ontschoeyt terstont u voeten.</l>
+				<l>'T Bosch dat hier branden schynt, en niet en wort verteert,</l>
+				<l>Daer mede is Israël naeckt afgefigureert,</l>
+				<l>'T Vuyr is een beeltenis van mynen Geest, die leerlijck</l>
+				<l>De quaedt-doender verteert, de goede loutert heerlijck,</l>
+				<l>En gh'lijck men op den touts het edel dierbaer gout</l>
+				<l>Na dat het is doorvuyrt, veel weerdiger beschout:</l>
+				<l>Soo sullen oock in 't kruys de twelf Joodsche stammen</l>
+				<l>Groen blyven, alst geboomt in 't golven deser vlammen.</l>
+				<l>Ick ben Arahams God, de God die 't al besielt,</l>
+				<l>Waer voren sig Isak, en Jacob heeft geknielt.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Amy! waer sal ick vlien, in klippen of in kuylen?</l>
+			</sp>
+			<sp who="#god">
+				<speaker>God.</speaker>
+				<l>Ik was, Ik ben. Ik blyf.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Waer sal ik my verschuylen?</l>
+			</sp>
+			<sp who="#god">
+				<speaker>God.</speaker>
+				<l>Den Hemel is myn throon, d' Aerd mynder voeten-banck,</l>
+				<l>En 't helsche Keyser-rijck 't wit van myn pylen stranck,</l>
+				<l>Dit wonderlijck geheel van Hemel en van Aerde;</l>
+				<l>Ja tot myn even beeldt den mensche hoog van waerde</l>
+				<l>Ick in ses dagen schiep, de Son is maer een vonck</l>
+				<l>Van myne heerljckheydt, die voor veel Eeuwen blonck:</l>
+				<l>De God die Abrahams zaet in Isac wilde noemen.</l>
+				<l>Soo veel als 't sant des meirs of als de Lentsche bloemen;</l>
+				<l>Ick ben de selfde God die Israëls troubel Zee</l>
+				<l>En groot heyrleger met myn vleugelen bespree.</l>
+				<l>Worpt slechts op myn beloft den Ancker van u hopen,</l>
+				<l>Want over Jacobs huys staen steeds mijn ooghen open,</l>
+				<l>Myn oor beluystert hun ghebedt van Woort tot woort,</l>
+				<l>Ick heb hun leet ghesien, en hun gheschrey ghehoort!</l>
+				<l>Myn Zeyssen maeyt nu eens den draet van hun ellenden,</l>
+				<l>Ick zal nu 't wanckel rat van mijn beproevingh wenden,</l>
+				<l>Nu zuldy zien wiens handt den Pharao ontruckt</l>
+				<l>Myn Lely, die zoo langh de Doornen heeft ghedruckt:</l>
+				<l>Ghy zult den Leydsman zijn, en brengen hun persoonich</l>
+				<l>Met uwen Staf in 't lant dat vloeyt in melck en honinch,</l>
+				<l>Int lant daer Abraham zoo dickwils zach de Maen</l>
+				<l>Heur hooren spieg'len in de glasighe Iordaen.</l>
+				<l>Daer syn ghehoorsaemheyt my over had ghegheven</l>
+				<l>Syn eenich liefste Kint den Spieghel van syn leven,</l>
+				<l>Daer hy niet en ontzach op Salems hooghte trots</l>
+				<l>Te storten 't bloet syns zoons, tot eenen offer Godts,</l>
+				<l>Daer hy te buyten trat de Vaderlijcke palen,</l>
+				<l>En zach op 't Altaer-plat alree ten Hemel stralen,</l>
+				<l>(Met ooghen des gheloofs, van wil en van gemoet)</l>
+				<l>Tvuyt van syn offerhand, en syn verkoren bloet,</l>
+				<l>Daer hy in asch en stof opt heylighe gesteente,</l>
+				<l>Alree begraven had syn vleesch en sijn ghebeente,</l>
+				<l>Daer hy sijn wandelingh ten eynde heeft ghebrocht,</l>
+				<l>En 't Hemelsch borgherschp hier boven heeft gekocht,</l>
+				<l>Daer synen zoon Isac en Iacob bey te gader</l>
+				<l>Syn pelgerims geweest, met hunnen ouden Vader,</l>
+				<l>Int lant daer ick de kroon hun drucken zal om 't hooft</l>
+				<l>Die Abraham, Isac, en Iacob is belooft.</l>
+				<l>Gaet bootschap Pharao wie dat u is verschenen,</l>
+				<l>De wech is al bereydt, dus treckt met vreden henen.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Ick ben een sterflijck mensch, ick ken my veel te swack,</l>
+			</sp>
+			<sp who="#god">
+				<speaker>God.</speaker>
+				<l>Hy maeckt u machtigh, die noyt sterkheyt en ontbrack,</l>
+				<l>En tot een teecken bly, naer u verlossingh veylich</l>
+				<l>Doet my op desen Bergh een offerhande heyligh</l>
+				<l>Van lieflijcken reuck.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>O Godt ghebenedijt!</l>
+				<l>Hoe zal ick Iacob doch betyghen wie ghy zijt</l>
+				<l>Die my gezonden hebt?</l>
+			</sp>
+			<sp who="#god">
+				<speaker>God.</speaker>
+				<l>Iehova, God almachtich</l>
+				<l>Die hun met synen erm zal helpen sterck en krachtich:</l>
+				<l>Ick ben, die ick zal zijn, die u de Kroone biet</l>
+				<l>Met wtghereckter handt, en ghy en grijptse niet:</l>
+				<l>Ick ben die 't al vermach, die uwen Staf bepeerelt</l>
+				<l>Den dans-beleyder wijs van d'een en d'ander weerelt,</l>
+				<l>Ik ben de Heere zelf.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>De vonck van hun geloof</l>
+				<l>Is zeer na wtghebluscht in asschen bleeck en doof.</l>
+			</sp>
+			<sp who="#god">
+				<speaker>God.</speaker>
+				<l>Met wonderdaden dan versterct hun swakeyd teder,</l>
+				<l>Wat hebdy in u hant?</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Een staf.</l>
+			</sp>
+			<sp who="#god">
+				<speaker>God.</speaker>
+				<l>Wel worpt hem neder.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Wat krunckelt hier alree? hier wemelt, krolt en drilt</l>
+				<l>Een Slange, die my in de hielen bijten wilt:</l>
+				<l>O Heere staet my by!</l>
+			</sp>
+			<sp who="#god">
+				<speaker>God.</speaker>
+				<l>Wel grijpt den krommen worme</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Dits mynen zelfden staf, weer in syn eerst sorme:</l>
+				<l>O Heere wonderbaer!</l>
+			</sp>
+			<sp who="#god">
+				<speaker>God.</speaker>
+				<l>Op dat u niets ontbreeckt,</l>
+				<l>V rechterhant nu eens in dynen boesem steeckt</l>
+				<l>En trecktse weder wt.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Myn hant is stijf en kromme</l>
+				<l>Melaets gelijck de sneeu.</l>
+			</sp>
+			<sp who="#god">
+				<speaker>God.</speaker>
+				<l>Wel druckt nu wederomme</l>
+				<l>V ongheloovich hert,</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>S' is zuyver reyn en klaer.</l>
+			</sp>
+			<sp who="#god">
+				<speaker>God.</speaker>
+				<l>Ghelooven sy dan niet dees teeckens wonderbaer,</l>
+				<l>Met vochtich water sprengt de vloer die ghy bewandert,</l>
+				<l>T' wert in rootverwich bloet door myne kracht verandert.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Om voor den Pharao verschynen ick my schaem,</l>
+				<l>Want, Heer, mijn tonghe lispt, myn stem is onbequaem,</l>
+				<l>Kiest elders een Gezant.</l>
+			</sp>
+			<sp who="#god">
+				<speaker>God</speaker>
+				<l>Zal my dan yets ontbreken?</l>
+				<l>Die 't alles schiep wt Niet, in d'eerste weeck der weken,</l>
+				<l>Den Hemel die om u met syne Lichten wielt,</l>
+				<l>En al wat int begrijp van nat oft drooge krielt,</l>
+				<l>T' ghevoghelt inde locht, dat op de winden swieret,</l>
+				<l>En 't water zuchtich aes, dat na 't vliet water gieret,</l>
+				<l>T' viervoetich veldsch gediert, t' geboomte dat gekromt</l>
+				<l>Van syne vruchten hanght, de dalen vol gebloemt:</l>
+				<l>Wie heeft den mensch doch eerst 't ghesuysel en 't gehoore</l>
+				<l>Van eenen sachten wint geblasen in sijn oore?</l>
+				<l>Wie heeft den appel kleyn van syn gezicht bepaelt?</l>
+				<l>Waer mede hy alsins myn heerlickheyt bestraelt;</l>
+				<l>Wie heeft doch geconsijt sijn milde tong schoon-talich?</l>
+				<l>Waer met den mont ontvloeyt sijn rijpe worden salich;</l>
+				<l>En oft ick schoon u tongh ghebreckelijcken liet</l>
+				<l>Om u hartneckicheyt: wat dunckt u kan ick niet</l>
+				<l>Ghebruycken neffens u voor Israel en Pharon</l>
+				<l>De zoetvloeyende tael van uwen broeder Aaron</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Oft Pharo blyft versteent, en dryft met ons den spot,</l>
+			</sp>
+			<sp who="#god">
+				<speaker>God.</speaker>
+				<l>Leeft met hem zo ghy wilt, tot eenen aertschen Godt</l>
+				<l>Zijt ghy van my ghesalft.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>En blijft hy onbewogen</l>
+			</sp>
+			<sp who="#god">
+				<speaker>God.</speaker>
+				<l>Zo dreyght hem mynen toorn, met mijn gespannen bogen,</l>
+				<l>Myn pijlen hangen ree gescherpt in mijnen tros</l>
+				<l>En naer myn dreyghement, zoo gaen mijn pesen los.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>En oft mijn haters my noch in Egypten vonden.</l>
+			</sp>
+			<sp who="#god">
+				<speaker>God.</speaker>
+				<l>De doodt heeft lang vernielt die naer u leven stonden.</l>
+				<l>Dus spoeyt u.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Op u woort zal ick my henen spoen,</l>
+				<l>Myn vliesen zijn hier vast verstroyt, verspreyt int groen,</l>
+				<l>Wel op myn geylich Vee, loop t'huyswaerts voor my henen,</l>
+				<l>Dits voor de laetste mael, den tijt die is verschenen</l>
+				<l>Dat ick een Herder ben van Iacobs huys bescheert:</l>
+				<l>Wat schadet dat ick 't aen dees schaepkens heb gheleert?</l>
+			</sp>
+			<stage>Binnen.</stage>
+			</div>
+		<div type="scene" n="2">			
+			<stage>Corach, Iosua, ende Caleb.</stage>
+			<sp who="#corach">
+				<l>Hoe langh zal Iacob noch betreden dese pleynen?</l>
+				<l>Daer hy syn oogen maeckt tot schreyende fonteynen?</l>
+				<l>Hoe langhe zullen noch in syne daghen out</l>
+				<l>Dees groene velden met syn tranen zijn bedout?</l>
+				<l>Hoe langhe zullen noch syn klaghelijcke lippen</l>
+				<l>Beweghen Bergh en Dal, de rootsen en de klippen</l>
+				<l>Hoe langhe zal hy hier ghelijcken onghestilt</l>
+				<l>Een sneeuwen beelt; dat inde sonneschijn versmilt?</l>
+				<l>Hoe blijft hy dus van God verworpen droef en smertich?</l>
+				<l>Wien heeft den Hemel oyt gheweest zo onbarmhertich?</l>
+				<l>O Heere, niet om ons, maer om u vast verbont,</l>
+				<l>En dry mael heyl'ghen naem verstopt den laster mondt</l>
+				<l>Der Heydenen, die stout en schempich dorven spreken</l>
+				<l>Is dit 't verkoren volck, 't welck voert het Godlijck teken?</l>
+				<l>Ghy zijt doch onsen God, wy kennen anders gheen,</l>
+				<l>Wy hebben doch noyt beelt van koper noch van steen,</l>
+				<l>Gesternte, Son noch Maen, noch schepsels creatuerlijck,</l>
+				<l>Noch noyt gouden Collos noch zilver-beelt figuerlijck</l>
+				<l>Afgodisch aenghebeen, noch sichtbaer beeltenis</l>
+				<l>In vuyr noch in gheboomt wy noyt gheheymenis</l>
+				<l>Verblint hebben ghezocht, noch u onsterflijck wesen</l>
+				<l>Den glants benomen van u heerlijckheyt ghepresen,</l>
+				<l>Wy hebben nemmermeer voor Isis onbezielt</l>
+				<l>D'Egypter Afgoddin devotelijck gheknielt,</l>
+				<l>Wy kennen Osiris niet met een blinde zotheydt</l>
+				<l>Voor yet bezonders, oft een dryvuldighe Godheydt.</l>
+				<l>Met u straffende handt en druckt ons niet altoos</l>
+				<l>Gy kent ons swackheyt teer, en ons natuere broos,</l>
+				<l>Wy zijn doch aerd en stof, wy hebben niet te roemen,</l>
+				<l>Wy zijn niet anders dan verganckelijcke bloemen,</l>
+				<l>Als ghy het stalich licht uws aenschijns van ons went,</l>
+				<l>Zoo zijn wy arm en swack, vol kommer en ellent.</l>
+				<l>Ziet, hoe ons Gosen, laes, van droefheyt overvloeyt,</l>
+				<l>Hoe ons Pharao heeft gheketent en geboeyt,</l>
+				<l>Wy zijn 't roockende vlas, wy zijn 't gekroockte riet,</l>
+				<l>Een ander eenen vloeck, ons zelven een verdriet.</l>
+				<l>Met dat de tonde Son de Hemelsche gordijnen</l>
+				<l>Van syne Koetse schuyft, en doet den nacht verdwijnen,</l>
+				<l>Met dat den Dagheraet treet heur slaepkamer uyt,</l>
+				<l>Die vanden witten Dach den draeyboom open sluyt,</l>
+				<l>Met dat sy heure vlucht gaet inden wagen spannen,</l>
+				<l>Zoo spant terstont int Iock d'Israelijtsche mannen</l>
+				<l>Den slaefschen arrebeyt, met een ghesichte leep,</l>
+				<l>Die steeds ons onvernoecht voort-klatert met syn sweep,</l>
+				<l>Dat elcken druppel hayrs schijnt eenen stroom te sweeten,</l>
+				<l>Wanneer het Son Compas den dach heeft overmeten.</l>
+				<l>Schelt-woorden is den loon van al ons dienstbaerheyt,</l>
+				<l>Ons wort nau spijs en dranck om leven by geleyt.</l>
+				<l>Och! oft de bleecke doot ons slavernije susten,</l>
+				<l>Wy hebben hier doch niet daer wy op moghen rusten:</l>
+				<l>Komt aengename doot, en helpt ons wt dit krijt,</l>
+				<l>En overschrijdet perck, het perck van onsen tijdt:</l>
+				<l>Want onse slaverny schijnt eeuwich en gedurich,</l>
+				<l>Gelijck de Zee d'een baer op d'ander golft azurich.</l>
+				<l>Een ander roept, ô doot! keert elders uwen boogh,</l>
+				<l>Maer wy, ô zoete doot! komt dwaet ons tranich oogh.</l>
+				<l>Tis onbestendich al het planten en het zaeyen,</l>
+				<l>Men weder keeren ziet in plucken en afmaeyen,</l>
+				<l>Nu ploegtmen d'aerde swert met 't kouter om end om,</l>
+				<l>Nu scheertmen weer de vrucht met eene zeysse krom,</l>
+				<l>Nu bloeyt de lieve Lent met al heur bloemkens verwich</l>
+				<l>Nu is den Herbst bekroont met gulden ayren terwich,</l>
+				<l>Nu lacht den Somer schoon, nu gnort den Winter grijs,</l>
+				<l>D'een spiegelt sich int groen, en d'ander in het ijs,</l>
+				<l>Nu rijst de Son int oost, nu daelt sy neer int westen,</l>
+				<l>Wanneer de bleecke Maen klimt wt de water vesten,</l>
+				<l>De Mane die heur nu in volle ronde stelt,</l>
+				<l>En weder heuren glants en zilver-schijn versmelt,</l>
+				<l>Ia zelf der Sterren loop, den Hemel met syn Spheren,</l>
+				<l>Met d'Elementen steeds veranderen en keeren:</l>
+				<l>Maer onsen droeven staet gelijckt een vaste Pool</l>
+				<l>Die staeg wt een climaet blijft pincken als een kool.</l>
+				<l>Het geen Godt eens belooft, breeckt Godt dat wederomme</l>
+				<l>Door wispelmericheyt?</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>Neen, Godt als een Colomme</l>
+				<l>En Pyramide sterck blijft altijt vast gegrondt.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Is hy 't niet die hem aen ons Vaderen verbondt?</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>Door ons misdaden is dien Zegel weer gebroken.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Hy hevet dog belooft, hy hevet zelf gesproken,</l>
+				<l>Oock heeft hy wel voorzien ons wanckelmoedicheyt,</l>
+				<l>Een Kroon (geen lastig Iock) heeft hy ons toegezeyt,</l>
+				<l>Nog geen Egyptenlant, maer Canaan vrugtbarig</l>
+				<l>Nog geen gehoornden Nyl, maer een Iordane barig.</l>
+			</sp>
+			<sp who="#caleb">
+				<speaker>Cal.</speaker>
+				<l>Hy heeft ons dees beloft in geenen tijt gestelt.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>En heeft syns waerheyts mont niet Abrams zaedt gemelt?</l>
+			</sp>
+			<sp who="#caleb">
+				<speaker>Cal.</speaker>
+				<l>Dat streckt sig eyndeloos op ons nakomelingen.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Wat heugenis ist ons, als onsen tijt gaet springen?</l>
+			</sp>
+			<sp who="#caleb">
+				<speaker>Cal.</speaker>
+				<l>Hy is in zagte rust, die ondertusschen sterft.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Waer toe ist dan belooft, alsmen de vrugten derft?</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>Godt hevet niet belooft die sijn gebodt versmaden.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Waer wt bewijst gy dat?</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>God bint hem aen geen quaden.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Is sijn belofte niet aen Abrams zaet verklaert?</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>Tzaet dat als Abraham oprecht vrugten baert,</l>
+				<l>In liefd', geloof en hoop, en in zachtmoedicheden,</l>
+				<l>In gehoorsamicheyt, in ootmoet en in vreden:</l>
+				<l>Dat Godt nu syn beloft' in ons niet en vervult</l>
+				<l>Daer zyn wy oorzaeck van om onser sonden schult,</l>
+				<l>Ons ongerechticheyt doet syne liefd' veranderen,</l>
+				<l>De misdaet scheydet Godt en mensche van malkanderen</l>
+				<l>Als eenen stercken muer: want Godt is onbevleckt,</l>
+				<l>Hy heeft den Hemel heel met wolcken overdeckt,</l>
+				<l>Hy went sijn aengesicht, verstoppende sijn ooren,</l>
+				<l>Ons krachteloos gebedt en wil hy niet verhooren.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Wat staet ons aan te doen?</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>Tot boete zijn bereyt</l>
+				<l>Voor hem, die overvloeyt rijck van bermherticheyt,</l>
+				<l>Misschien wy mogen dog syn wijsheyt niet begrijpen</l>
+				<l>Op dat in ons gemoet vruchtbariger mogt rijpen</l>
+				<l>De vruchte des geloofs, heeft hy ons dus bedroeft,</l>
+				<l>God kent ons nutticheyt, en wat de mensch behoeft</l>
+				<l>Weet hy te voren wel.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Behoudens u propoosten</l>
+				<l>Beproeving schijnt nogtans den mensche leyt ten boosten.</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>O neen, den rouwe die ons God heeft toegeveucht</l>
+				<l>Ontwijffelijck beklimt den steylen berg van vreucht,</l>
+				<l>Dat hy ons van hem worpt geschiet maer wt ontfarmen;</l>
+				<l>Om vaderlijcken ons t' omhelsen met syn ermen:</l>
+				<l>Wy zijn van oordeel blint, want s'Heeren wil en eysch</l>
+				<l>Meer onser zielen rust zoeckt, dan 't gemack des vleysch.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>En schiep hy lijf en ziel niet in den Paradijse?</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>D'een tot onsterflijcheyt, en d'ander tot een spijse</l>
+				<l>Der wormen in het graf, waerom hem oock gewis</l>
+				<l>Veel weerder onse ziel alst sterflijck lichaem is:</l>
+				<l>De ziele keert tot God, maer na dit tijdlijck slaven</l>
+				<l>Wort 't lichaem weder in syn zelfde stof begraven,</l>
+				<l>En moet gelijck het graen int aertrijck eerst verrot,</l>
+				<l>Versterven, eer 't verrijst in heerlijckheydt tot Godt:</l>
+				<l>Dog ons ziel' is een beelt syns heerlijckheydts zelfstandig,</l>
+				<l>Die geen Tyran en mag verdrucken, hoe vyandig,</l>
+				<l>Gelijck ons teere lijf, ellendig, naeckt en bloot,</l>
+				<l>Twelck van den menschen boos wert lichtelijck gedoot:</l>
+				<l>Maer d'edel ziele staet alleen in 's Heeren handen,</l>
+				<l>Al wortse hier beswaert met veelderleye banden,</l>
+				<l>Terwijlse int aertsche dal ons lichaem 't leven geeft,</l>
+				<l>En in 's lijfs hutte vast heur korte wooning heeft:</l>
+				<l>En oft ons lichaem schoon in alderley wellusten</l>
+				<l>En duysent weelden swom: wat waert? als niet en rusten</l>
+				<l>Ons edel ziel in God den Heere Sebaoth?</l>
+				<l>Wat baten ons dees winst? wanneer wy namaels 't lot</l>
+				<l>En 't alderhoogste goet den Hemel moesten derven?</l>
+				<l>'T wort hier dog al opt lest geeyndigt met een sterven:</l>
+				<l>Gy ziet, hoe hier het glas van onsen tijdt verloopt</l>
+				<l>Geen balling is hy die een borgerschap verhoopt</l>
+				<l>Hier namaels, zijt getroost, het dient ons al ten besten,</l>
+				<l>Dat wy als wandelaers, ons herte niet en vesten,</l>
+				<l>Op een verganglijck Rijck, dwaes is hy die verkiest</l>
+				<l>Het tijdelijck, en daer voor het eeuwige verlieft.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Ons Vaders leefden wel voorspoedig en geluckich.</l>
+			</sp>
+			<sp who="#caleb">
+				<speaker>Cal.</speaker>
+				<l>God heestse oock al gestelt in syn beproeving druckich.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Noyt in zo harden proef als nu is Iacobs huys.</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>Een yeder dunckt sig 't syn te zijn het swaerste cruys.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Heeft God ons niet opt strengst getreden op de hielen.</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>Hy heeft een geessel nog waer met hy na der zielen</l>
+				<l>Den mensche harder straft, een onverganglijck wee,</l>
+				<l>Syn alderscherpste stael steeckt nog in syne schee,</l>
+				<l>Dees waerschouwende straf ons ernstelijck te voren</l>
+				<l>Op een veel grooter wyst, dat niemant gae verloren;</l>
+				<l>Dus laet ons dese roe waer mede hy ons drieght</l>
+				<l>Waernemen nog in tyts, eer onsen tyt vervliegt:</l>
+				<l>Hy zal ons met syn gunst en vleugelen bespreyen,</l>
+				<l>Indien wy niet te spaed' ons sonden en beschreyen,</l>
+				<l>Gelijck als d'eerste weerlt die Noach al betraent,</l>
+				<l>Had zo veel jaren tot boetveerdicheyt vermaent,</l>
+				<l>Sy bleven onbeweegt, al zagen sy voor oogen</l>
+				<l>Zoo vele Wolcken swert, zoo vele Regenbogen,</l>
+				<l>Tot 't Goddelijck Compas verloopen was te vroeg,</l>
+				<l>En s'Hemels groote Kolck de laetste ure sloeg,</l>
+				<l>Doen heeft God op gestelt syn groote Waterspuyen,</l>
+				<l>En alle Sluysen van syn vochte Regen buyen,</l>
+				<l>De Meiren liepen t' zaem, met alle Stroomen droef,</l>
+				<l>Tot eyndelijck een Zee den Aerden kloot begroef.</l>
+			</sp>
+			<sp who="#caleb">
+				<speaker>Cal.</speaker>
+				<l>Ooc doen 't boos wesen hem begonste te verdrieten</l>
+				<l>Van die van Gomorra en stoute Sodomiten,</l>
+				<l>Hy alsins op hun spoog vuyr-pijlen, damp, en smoock,</l>
+				<l>Zoo datter niets van hun bleef over als den roock.</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>In tegendeel bleef Loth beschaduwt van de vlercken</l>
+				<l>Van s' Heeren Engelen, en Noach vander Arcken:</l>
+				<l>Dus bout u hoop op hem, die dees twee Heyl'gen puer</l>
+				<l>D'een vryt van s' waters vloet, en d'ander van het vuer.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>'Tis al vergeefs gehoopt.</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>Vertwijsselt niet in hopen.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Ick zie dog geenen weg tot ons verlossing open.</l>
+			</sp>
+			<sp who="#caleb">
+				<speaker>Cal.</speaker>
+				<l>Aen duysent middelen 't hem nimmermeer en schort</l>
+				<l>Syn ermen reycken wijt, syn handt is niet verkort:</l>
+				<l>Doen Ammons vader Loth geraeckt was inde handen</l>
+				<l>Van Kedor Lamors heir, en schenen niet sijn banden</l>
+				<l>Onbrekelijck te zijn? Maer Godt de Heere nam</l>
+				<l>Tot eenig Instrument den ouden Abraham,</l>
+				<l>Die darwaerts benen met syn knechten is getrocken,</l>
+				<l>Met keyen toegerust, met pijlen en met stocken:</l>
+				<l>Maer Godt was synen Schildt, den Hemel was sijn Vaen,</l>
+				<l>Waer onder hy dan by den oorsprong der Iordaen</l>
+				<l>Syn vyanden aengreep, die alree met vertzagen</l>
+				<l>Den grootsten Capiteyn had in de vlugt geslagen,</l>
+				<l>Wie niet ontvlieden mogt viel in syn eygen sweert</l>
+				<l>Aldus verlosten d'een den anderen broeder weert,</l>
+				<l>Die heel verlaten scheen, naer alle menschen oordeel,</l>
+				<l>Want die de Heere helpt heeft altijt 't grootste voordeel.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Wy hebben onsen last getrocken zoo veel jaer.</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>Wanneer den tijt verschynt, zo is Gods hulpe daer,</l>
+				<l>De Heere Zebaoth mogt wel Loths kommer stelpen,</l>
+				<l>Eer Abram oyt optrock had hy hem konnen helpen.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Waerom en deed hy 't niet?</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>Maer vraegdy dan waerom?</l>
+				<l>Van syn verlossing was de Wyser nog niet om:</l>
+				<l>Want Gods voorzienicheyt die eeuwelijck zal dueren,</l>
+				<l>Heeft heuren tyt bestemt, heur dagen en heur uren:</l>
+				<l>Ghelijck den Ackerman 't goed zaet in d'aerde zaeyt,</l>
+				<l>Waer van hy t' synder tyt de rijpe vrugten maeyt:</l>
+				<l>Godt is den Bouwer oock die tegens ons genoegen</l>
+				<l>Den acker van ons hert komt door Pharao ploegen,</l>
+				<l>Al wat steenachtig is vermortselt hy geheel,</l>
+				<l>Eer dat hy in ons zaeyt syn goede zaeden eel,</l>
+				<l>Het zaet syns Godelijck woorts, daer na begraest hy wacker</l>
+				<l>En delvet met syn eggh het zaet in onsen acker,</l>
+				<l>Als nu de troubel Son van boven wt de logt</l>
+				<l>Heur straelen op ons schiet, op dat te rijcker mogt</l>
+				<l>Syn ingezaeyde zaet is ons vrugtbarig groeyen,</l>
+				<l>Hy eenen regen laet van traenen ons bevloeyen:</l>
+				<l>Zoo weerdig zyn wy hem, daeromme zyt getroost,</l>
+				<l>Gelijck den Lantman, die op hope van den oogst</l>
+				<l>Zoo vele kommers lydt, zo dickwils moet verzuchten,</l>
+				<l>Hy bout en slaeft alleen op hope van de vruchten.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Gy keeret al int best.</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>Geeft gy ons geen geloof,</l>
+				<l>Zoo proevet by u zelf, en achtet geenen roof</l>
+				<l>Dat God ons dus beproeft, wy hebben hem te loven,</l>
+				<l>Al swermen wy, eylaes, in droeffenis verschoven,</l>
+				<l>Naer slaven volgt de rust, naer droefheydt volgt de vreught,</l>
+				<l>Wy moeten danckbaer zijn, 't zy wat ons Godt toeveught.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Hoe onlangs ist? dat nog de Koning had vermeten</l>
+				<l>Ons te verdelgen heel,</l>
+			</sp>
+			<sp who="#caleb">
+				<speaker>Cal.</speaker>
+				<l>Gelijck als aen een keten</l>
+				<l>De Leeuw gesloten staet, die synen Meester viert,</l>
+				<l>Niet langer dan hy wil, zoo wort van God bestiert</l>
+				<l>'T voornemen des Tyrans, die niet en kan volbrengen</l>
+				<l>Dan 't geene God hem zal toelaten en gehengen,</l>
+				<l>Syn voornemen heeft God ten wtersten beperckt,</l>
+				<l>Die door veel middelen voorsienichlijcken werckt:</l>
+				<l>Den Prins van Sinear, den Nemrot dagt tyrannich</l>
+				<l>Met synen Scepter wel te trotzen wederspannig</l>
+				<l>Het blauwe Firmament: eylacen, maer syn hert</l>
+				<l>Rees, eer het groot gebouw, tot boven int Gestert,</l>
+				<l>En wert van schaemten root, doen 't Babylons gestamer</l>
+				<l>Leem, kalck, voor steenen bragt, de truffel voor den hamer</l>
+				<l>Syn willen hing aen God, gelijck 't hier merklijck bleeck.</l>
+				<l>God leyt de Koningen gelijck een waterbeeck:</l>
+				<l>Niets isser zoo gering van al wat hier mag blicken,</l>
+				<l>Hy heerschet t' zamen door syn wysselijck beschicken:</l>
+				<l>God is alleen het Roer daer 't heele Schip na zeylt,</l>
+				<l>Tgerechtig Wys compas dat nimmermeer en feylt:</l>
+				<l>Zoo weynig in een zaeck ghelt 't Koninglijcke spreken,</l>
+				<l>En of hy schoon yet bout, de Heer zal 't weder breken</l>
+				<l>Zoo 't hem niet en behaeght, hun woorden altemael</l>
+				<l>Zyn krachteloos en yl, indien sy in de schael</l>
+				<l>Des Goddelijcken wils niet even op en weghen.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Gy spreeckt u zelven en de zuyver waerheyt tegen.</l>
+			</sp>
+			<sp who="#caleb">
+				<speaker>Cal.</speaker>
+				<l>Waerom?</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Het goddeloos bestier van een Tyran,</l>
+				<l>(Nat wt wys van u reen) daer is God oorzaeck van.</l>
+			</sp>
+			<sp who="#caleb">
+				<speaker>Cal.</speaker>
+				<l>Geensins, int minste niet, 't quaet dat hy mag verschaffen,</l>
+				<l>De goede streckt tot heyl, de quade t' synder straffen,</l>
+				<l>Niemant en is tot quaet gedwongen, gh'lijck men ziet,</l>
+				<l>Dat alle quaet door Gods toelating maer geschiet:</l>
+				<l>'T leed daer ons Pharao met pijnigt ongherichtich,</l>
+				<l>(Op myne woorden let, en oordeelt dan voorzichtich)</l>
+				<l>Hem 't synder straffe dient: maer ons indien ons vroet</l>
+				<l>Dees kastijdinge leydt tot rechte ware boet,</l>
+				<l>Die God hier mede eyscht, s'is ons zoo nut en salig,</l>
+				<l>Als sy den Koning is verdoemelijck en dwalig.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Gy zegt nogtans, &amp;c.</l>
+			</sp>
+			<stage>Moyses ende Aaron.</stage>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Ontluyct (gelijck een lust dal schoon</l>
+				<l>Dat in den morgenstont syn bloemen stelt ten toon.</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>Vervrolijckt u, gelijck de vogelkens met lusten</l>
+				<l>De Sonne groeten als sy stijgt wt heurder rusten)</l>
+				<l>Gy die verlaten scheent.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Wie oft met vrolijcheyd</l>
+				<l>Ons ongewoon begroet?</l>
+			</sp>
+			<sp who="#caleb">
+				<speaker>Cal.</speaker>
+				<l>'T zyn Amrams sonen beyd.</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>O Broeders willekom!</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>U voorhooft wilt vervroyen.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Waer in? in sonden druck en jammerlijck verstroyen?</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Verheft u droef gelaet, ô Israël, en steeckt</l>
+				<l>Nu 't hooft ten Hemel op, die al u banden breeckt,</l>
+				<l>De Heer die is met u, die alle u ellenden</l>
+				<l>En droevig treur-spel komt met vreugt en blyschap enden.</l>
+				<l>De God van Abraham, Isac, en Iacob zelf,</l>
+				<l>Die synen Troon pilaert op 't brandende gewelf,</l>
+				<l>Is my verschenen in een blixemende klaerheyt.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Ic denc 't is eenen droom.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Neen broeders inder waerhz</l>
+				<l>Doen ick by Sinai was hoedende myn kud</l>
+				<l>Met dees gedoornde mick, my herderlijcke stut,</l>
+				<l>Zag ick 't groot Horebs bosch een blickig vuyr omranden,</l>
+				<l>'T welck heel verteeren scheen, en t'zamen te verbranden:</l>
+				<l>Maer even vrolijck loech blaen, bloemen, kruyt en loof:</l>
+				<l>Eer desen blixem nog voor myn gezicht verstoof,</l>
+				<l>Den donder van een stem, ô wonderlijck spectakel!</l>
+				<l>Verklaerde my den sin, en eysch van dit mirakel.</l>
+				<l>Op dese wijse, Tbosch waer in dees vlamme speelt,</l>
+				<l>Daer mede is Israël na 't leven afgebeelt,</l>
+				<l>Die int vervolgings vuyr zal als dit Bosch ontluycken,</l>
+				<l>Ick wil myn Lely schoon nu wt de Doornen pluycken.</l>
+				<l>Doen dreundent heele Bosch, ick stont geheel bedut,</l>
+				<l>Drymalen heeft den Berg sig bevende verschut:</l>
+				<l>En als ick niet en wist waer henen te vervlugten,</l>
+				<l>Met een borstkloppig hert en met een swaer verzugten,</l>
+				<l>En schier van vreesen lag begraven in het gras,</l>
+				<l>Doen gaf de Heere my te kennen wie hy was,</l>
+				<l>De Godt Iehova zelf, de God van onsen Vader,</l>
+				<l>Den Schepper van den Al, alleen des leven ader,</l>
+				<l>Den Herder Israëls, die int beloofde Landt</l>
+				<l>Ons nu vervoeren wilt wt Pharaonis hant,</l>
+				<l>Wt al ons slaverny.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>En deed hy u geen teecken</l>
+				<l>Van syn Almagtigheyt, dat hy ons leet zal wreecken,</l>
+				<l>Dat hy ontboeyen zal den swerm van zoo veel duyst,</l>
+				<l>Die onder Pharao dus lange zijn gekruyst?</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Ia haddy 't zelf ghezien, doen ick ontweeck zo bange</l>
+				<l>Voor desen Staf, die wert een krunckelende Slange;</l>
+				<l>Een serpentynich dier, in wesen, niet in schyn,</l>
+				<l>En spoog alsins op my heur doodelijck fenyn</l>
+				<l>Met heur gesplitste tong, en lag int gras gescholen,</l>
+				<l>Heur oogen vlamden als twee gloeyendige kolen,</l>
+				<l>Azurig luysterden heur vel, en in myn oogh</l>
+				<l>Geleeckt de Slang die ons Voorouderen bedroogh</l>
+				<l>Int weeldig Paradijs, want waer sy henen swerfde</l>
+				<l>De groenicheyt van 't gras, en 't kruyt alsins verstersde:</l>
+				<l>Als nu de stemme my den Worm te grijpen hiet</l>
+				<l>Wast weer den zelfden stock? gelijck gy zelver ziet:</l>
+				<l>Ten bleef hier nog niet by, God smette boven desen</l>
+				<l>Myn hant met lazery, en heeftse weer genesen,</l>
+				<l>En vastelijck belooft, hoe dat ick 't water reyn</l>
+				<l>Verkeeren zal in bloet, door syne kragt alleyn:</l>
+				<l>Op dat als elcke daet myn woorden volgt waragtig,</l>
+				<l>U en Pharao maer een sterck geloove kragtig</l>
+				<l>En schort, dees boodschap dan breng ick u met der spoet,</l>
+				<l>Met mynen broeder die my is op weg ontmoet,</l>
+				<l>Die zelf de stemme Gods beval tot myn verschoning,</l>
+				<l>Te spreken neffens my voor Pharao den Koning,</l>
+				<l>En God heeft my gezalft een Leydsman, en een Hooft</l>
+				<l>Van syn verkoren Volck.</l>
+			</sp>
+			<sp who="#caleb">
+				<speaker>Cal.</speaker>
+				<l>De Heere zy gelooft,</l>
+				<l>Die Iacobs aenschyn nu de tranen wil afwassen,</l>
+				<l>En int beloofde lant bedelven eens ons' asschen</l>
+				<l>In ons Voorvaders graf.</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>De Heer zy lof en prijs.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Wy zullen niet meer zyn der dieren aes en spijs,</l>
+				<l>Den wreeden Pharao zal ons niet meer verheeren,</l>
+				<l>Den Stamme Iuda nu aenvanget te regeren,</l>
+				<l>Komt Iuda als een Leeu, klimt nu ten hoogsten staet,</l>
+				<l>Verçiert u met een kroon, en Konincklijck gewaet,</l>
+				<l>Den gulden Sceptes grypt, want God is ons Verzorger,</l>
+				<l>Wy zyn geen Slaven meer, elck Hebree is een Borger</l>
+				<l>Int zoet beloofde landt, daer de Iordane stroomt,</l>
+				<l>Daer ick in mynen slaep zoo dick van heb gedroomt:</l>
+				<l>Ach lang gewenschte vreucht,</l>
+			</sp>
+			<sp who="#caleb">
+				<speaker>Cal.</speaker>
+				<l>Ach heuchelijcke tyding,</l>
+				<l>Nu straelt den blyden dag, den dag, van ons verblyding,</l>
+			</sp>
+			<sp who="#iosua">
+				<speaker>Ios.</speaker>
+				<l>En gy twelf-stammig volck versmoort wel in u verugt'</l>
+				<l>Als gy dit hooren zult.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>Hoe zal dan met geneugt</l>
+				<l>Den Donder van dees stem zoet in u ooren klincken?</l>
+				<l>Als gy alree den glants ziet van u vryheyt blincken.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Gaet boodschapt den Hebreen hun wt komst, want int Hof</l>
+				<l>Des Konings, gaen wy beyd' verzoecken ons verlof.</l>
+			</sp>
+			<sp who="#corach">
+				<speaker>Cor.</speaker>
+				<l>En zo hy 't u ontzeyt.</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>Ten mag hem geensins baten:</l>
+				<l>Want door Gods stercke hant zo moet hy ons verlaten.</l>
+			</sp>
+			<stage>Binn.</stage>
+			</div>
+		<div type="scene" n="3">
+			<sp who="#choor">
+				<speaker>CHOOR.</speaker>
+				<l>Als de Zee vast ongestuymich</l>
+				<l>Stormt, en worpt heur baren schuymich</l>
+				<l>Na den Hemel al verbaest,</l>
+				<l>Als den Schipper hoort de buyen</l>
+				<l>Van den Noord wind 't strandt doorluyen,</l>
+				<l>Is de stilte eerst aldernaest</l>
+				<l>Zoo oock Godt, wanneer hy droeve</l>
+				<l>Stelt in't harste van syn proeve</l>
+				<l>T'menschelijc schepsel t' eenemael,</l>
+				<l>Is syn gunste soo veel nader,</l>
+				<l>En gelijck een goedich Vader</l>
+				<l>Zoo verzacht by al hun quael.</l>
+				<l>Na syn toornicheyt ontsteken,</l>
+				<l>Zal hy weer syn pijlen breken,</l>
+				<l>En na syn kastyding schier;</l>
+				<l>Na syn straffinge weldadich</l>
+				<l>Worpt hy wederom genadich</l>
+				<l>Al syn roeden in het vyer.</l>
+				<l>Want in droefheyt en ellenden</l>
+				<l>Zal de mensch tot God sig wenden:</l>
+				<l>Maer in weelde en voorspoedt zadt</l>
+				<l>Zal hy wederom vergeten</l>
+				<l>s'Heeren goetheyt ongemeten,</l>
+				<l>Wyckende van synen padt.</l>
+				<l>Dat ons God dan proeft ten lesten,</l>
+				<l>Dienet al tot onsen besten,</l>
+				<l>Oft men't schoon soo niet begrypt:</l>
+				<l>Zal den Wyngaert vrugtbaer groeyen,</l>
+				<l>Och men moet hem welbesnoeyen,</l>
+				<l>Eer syn gulden vrugte rypt.</l>
+				<l>Naer een biter sausse schele,</l>
+				<l>Zal den honing onse kele</l>
+				<l>Smaken zoeter en belust.</l>
+				<l>En na 't lang geduerig slaven</l>
+				<l>Ligt den moeden zagt begraven</l>
+				<l>Inden schoot van stille rust.</l>
+				<l>Die den Hemel meest beminnet,</l>
+				<l>Dien hy alderliefst besinnet,</l>
+				<l>Meest van droefheyt wert bespoelt:</l>
+				<l>'T moedig Peerdt dat inden stalle</l>
+				<l>Is wtmuntig boven alle,</l>
+				<l>Meest syns Heeren spooren voelt.</l>
+				<l>Ist dan vremt dat God de Joden</l>
+				<l>Inde tranen van veel noden</l>
+				<l>Heeft gewasschen reyn en klaer:</l>
+				<l>Nu den tijt ooc is verschenen</l>
+				<l>Keert in blyschap al hun weenenen,</l>
+				<l>Nu is hunnen Trooster daer.</l>
+				<l>Want God voor veel jaren Mosen</l>
+				<l>Amrams sone heeft verkosen</l>
+				<l>Tot een Trooster Israels:</l>
+				<l>Ziet eens hoe hy hem om-ermde,</l>
+				<l>Hem omhelsden en beschermde</l>
+				<l>Voor Pharaos gramschap hels.</l>
+				<l>Doen d'afgonstigheyt de sonen</l>
+				<l>Jacobs, zonder te verschoonen,</l>
+				<l>Sweert en water overgaf.</l>
+				<l>Doen het moederljcke herte</l>
+				<l>Iochebeds zag met veel smerte</l>
+				<l>Mosis wieg aen voor syn graf.</l>
+				<l>Doen de moeder heur soons leven</l>
+				<l>Moest de baren overgeven,</l>
+				<l>Als sy had heur kint gekust,</l>
+				<l>Doen de moederlijcke zorgen</l>
+				<l>Lagen met heur kint geborgen</l>
+				<l>In het kistjen ongerust.</l>
+				<l>Doen sy moest heur zelf verliesen,</l>
+				<l>Van twee quaden 't best te kiesen,</l>
+				<l>Met een droef adieu te noo,</l>
+				<l>Riep, ick hope in dese golven</l>
+				<l>Meer medogen is gedolven</l>
+				<l>Als in s'Konings herte snoo.</l>
+				<l>God hoe langs hoe goedertierder</l>
+				<l>Van dit scheepken was de Stierder</l>
+				<l>Zelf, met eene wester wint,</l>
+				<l>Die het blies hoe langs hoe lochter</l>
+				<l>Inden schoot van s'Konings dochter,</l>
+				<l>Voor een Engel en geen kint.</l>
+				<l>'Tkint dat zagmen weder dorsten</l>
+				<l>Naer syn eygen moeders borsten,</l>
+				<l>'T wies in alle schoonheyt op,</l>
+				<l>In syn voorhooft stont gelettert</l>
+				<l>Hoe 't den Pharao verplettert</l>
+				<l>Noch vertreden zou den kop,</l>
+				<l>'T groeyden op in manlijcheden</l>
+				<l>En van herren heel besneden</l>
+				<l>Voor des Hofs wellusten hy</l>
+				<l>Koos in ballingschap te swermen,</l>
+				<l>En den Hebree te beschermen</l>
+				<l>In syn droeve slaverny.</l>
+				<l>Als hy hierom moest vervluchten,</l>
+				<l>En in Madians gehuchten</l>
+				<l>Weyden 't Herderlijcke vee:</l>
+				<l>Als den tyt nu was voor handen</l>
+				<l>Dat den Heer syn offerhanden</l>
+				<l>Eysschen zou van den Hebree,</l>
+				<l>Zoo verschynt hem van den Hemel</l>
+				<l>By Sinai 't licht geschemel</l>
+				<l>Van des Heeren heerlijckheyt,</l>
+				<l>God laet hem syn stemme hooren,</l>
+				<l>Op dat hy syn wtverkoren</l>
+				<l>In het landt Canaan leyt.</l>
+				<l>Op dat sy daer zonder smetten</l>
+				<l>Onderhouden syne Wetten,</l>
+				<l>En hem lieflijck met wieroock</l>
+				<l>Eenen zoeten reuck toebrengen,</l>
+				<l>En met Boeken bloet besprengen</l>
+				<l>Syn Altaren met gesmoock.</l>
+				<l>Op dat danckbaer onverholen</l>
+				<l>Wyder als tusschen de Polen</l>
+				<l>'T Hemel-licht den nacht beschaemt,</l>
+				<l>Al syn groote wonder daden</l>
+				<l>En syn goerheyt vol genaden</l>
+				<l>Over al mocht zyn besaemt.</l>
+				<l>Dat den mensche steedts mocht haken,</l>
+				<l>Om hier boven te geraken</l>
+				<l>Daer 't hem alles looft en pryst,</l>
+				<l>‘Acht het aertsch dan veel gheringher</l>
+				<l>‘Als Het Hemelsch, daer de vinger</l>
+				<l>‘Van syn zoete wet op wyst.</l>
+			</sp>
+			</div>
+		</div>
+	<div type="act" n="2">
+		<div type="scene" n="1">
+			<head>Het tweede deel.</head>
+			<stage>Pharao den Koningh, Tiphus ende Serax, Droombedieders ende
+                        Toovenaers.</stage>
+			<sp who="#choor">
+				<speaker>Den laetst geleden nacht (wat hoef ick my te veynsen)</speaker>
+				<l>Heeft my belemmert swaer met veelderly gepeynsen,</l>
+				<l>Gelijck de groote kroon gemeynelijck aenkleeft</l>
+				<l>De zorg die altijdts met veel zorgen om ons sweeft,</l>
+				<l>De zorg die s'Konincx hooft met heuren swerm verduyselt,</l>
+				<l>En met een sterck geblas steeds in syn ooren suyselt.</l>
+				<l>Wanneer de schaduw valt, en dat het sterflijck Dal</l>
+				<l>Snachts vleugelen bespreet, zoo slaept den grooten Al,</l>
+				<l>De Son in Thetis schoot, 't gedierte met vermaken</l>
+				<l>In syne holen rust, 't gevogelt inde tacken</l>
+				<l>Syn vlercken hangen laet: maer 's Konincx Majesteyt</l>
+				<l>Doch nimmer rust omhelst, oft zoo hy wert verleyt</l>
+				<l>Door eenen zachten slaep, en d'oogen komt te sluyten,</l>
+				<l>Zoo maeckt syn zorge noch, en sluyt syn ruste buyten,</l>
+				<l>Als hy int bedde swemt in Lethes stillen stroom,</l>
+				<l>Syn zorgen werden ijl verkeert in eenen droom.</l>
+				<l>My docht in mynen slaep ick op den grooten wagen</l>
+				<l>Wert langs het roode Meyrs schum-zandich strant gedragen</l>
+				<l>In volle wapeningh, en rustingh t'eenemael,</l>
+				<l>Gelijck wanneer de Moor ontziet myn bloedich stael,</l>
+				<l>Den Hemel was gevaecht blau, helder, en azurig,</l>
+				<l>En Phoebus zach in Zee syn spiegel stralen vurig,</l>
+				<l>Het weder loeg elck toe, men hoorden geen geruys,</l>
+				<l>Zephyrus nau verblies een golfken met gedruys,</l>
+				<l>De schepen lagen stil, dat nau Neptunes gilden</l>
+				<l>Voor 't windeloose weer een zeyl wtspannen wilden,</l>
+				<l>'T gespan van myne koets den breydel gaf gehoor,</l>
+				<l>En telden, zoo het scheen, hun stappen op het spoor,</l>
+				<l>Als op het onversienst het Meyr bestont te bruyssen</l>
+				<l>Dat geene kielen sich na 't roer en lieten kruyssen,</l>
+				<l>Den sturen Boreas begonst flocx wt der Zee</l>
+				<l>'T grijs-schuymich baer geberchte te brengen op de ree,</l>
+				<l>Den Hemel wert bekleet met droeve duyster wolcken,</l>
+				<l>En 't voorhooft vande locht omstort met swerte kolcken,</l>
+				<l>Een doncker nacht zeyl blint beschaduwde den dach,</l>
+				<l>Dat 't licht alsins verdween, oft zoomen schynsel zach,</l>
+				<l>Wast blicxem wederlicht, dat met een slincx geflicker</l>
+				<l>Iupijn van boven wierp, met eyssdlijck geklicker,</l>
+				<l>Den donder dreunden met een dommelig geklack,</l>
+				<l>Dat Sirt, klip, rots, en strant Neptunus gramschap brack,</l>
+				<l>Die met syn gaffel scheen den Hemel te beklimmen,</l>
+				<l>En weder't Firmament int roode diep te swemmen,</l>
+				<l>De Tritons trompten op hun groote water-schulp,</l>
+				<l>Dat yeder Palinur de Goden riep om hulp,</l>
+				<l>De schepen stegen op genade na de Polen</l>
+				<l>En hadden 't wijs compas, en 't roer den wint bevolen.</l>
+				<l>De paerden zagen nau oock d'onweers stormen leep,</l>
+				<l>Den voerman hoefden toom, noch breydel, nochte sweep,</l>
+				<l>Sy vlogen even dul, een langdurige wijle</l>
+				<l>Als wt een schijtschen boog den onbedwongen pijle,</l>
+				<l>Veel snelder als de wint, veel snelder als de stroom</l>
+				<l>Schoof op vier raders den beslagen Disselboom</l>
+				<l>Hot, hot, al breydeloos den wagen henen glipten,</l>
+				<l>Ont ziende noch de kroon, noch Scepter van Egypten:</l>
+				<l>Wat 's Konincx Koetser ook gebaerde oft luyde riep,</l>
+				<l>De redeloose vlucht al even swijmich liep,</l>
+				<l>Nu bin nu buyten spoors, al sonder wech te peylen,</l>
+				<l>Geen schip ons volgen mocht met opgeblasen zeylen.</l>
+				<l>Dus stoof den voortocht vast als eenen water-vliet</l>
+				<l>Die vant geberchte valt, tot daermen Pharos ziet</l>
+				<l>Weerhoudeloos verbaest in hunnen loop ten vollen,</l>
+				<l>Gelijckmen eenen steen ziet vande klippen rollen,</l>
+				<l>Hoe 't grondeloose diep meer zants en waters spoog,</l>
+				<l>Hoe heftiger verschrickt elck ros om zeerste vloog,</l>
+				<l>Tot door het storm geblas een Crocodille stranden,</l>
+				<l>De grootste die hier oyt gezien mocht zijn te landen,</l>
+				<l>Dicht aenden boort des strants, int minst van drymael vijf</l>
+				<l>Cubiten, over sterck gewapent op het lijf</l>
+				<l>Met dobbel schelpen hert, 't hooft zeltsaem om aenschouwen,</l>
+				<l>Zoo eysselijck en groot dat het elck dede grouwen,</l>
+				<l>Scherptandich inden mont: zo haest ons lacht vernam</l>
+				<l>Dit zeltsaem monster, 't welck heel heftig na hun quam,</l>
+				<l>Sy hunnen loop op nieus verdobbelden verbolgen,</l>
+				<l>De koetse mocht geswint heur op het snelste volgen,</l>
+				<l>Alst koppel honden heet het Hert volgt op de hiel,</l>
+				<l>Tot dat een holligheydt den wagen weder hiel,</l>
+				<l>Waer door sy wt 't gespan van hun gareelen raeckten,</l>
+				<l>En krack, krack, tot tweemael den grooten wagen kraecten,</l>
+				<l>Die eyndelijck verswackt, niet wederhouden mocht</l>
+				<l>Met my slack op het strant de beenen inde locht!</l>
+				<l>Hier lach de dissel, gins het speeck, en daer de raden,</l>
+				<l>Tot ick my smorgens van Morpheus vont verraden.</l>
+				<l>Den droom bediet wat vreemts, hoe wel hy zomtijts liegt,</l>
+				<l>En met sijn Iden als een schaduwe vervliegt,</l>
+				<l>Want onlancx zyn gesien de dreygende Cometen,</l>
+				<l>Verscheyden beeltsels oock van bloedie Planeten,</l>
+				<l>En tot dry nachten toe een geestelijck gespoock</l>
+				<l>Is voor wijn slaeps gesicht verswenen als den roock:</l>
+				<l>De Pyramiden van de Koninglijcke graven</l>
+				<l>Drymalen zijn beweegt, een vlucht van swarte raven</l>
+				<l>'t Meyr opgeworpen heeft, graf-vogels die graf graf</l>
+				<l>Egypten dreygen gruw met d'een oft d'ander straf</l>
+				<l>De grootste Zarcken vande Tomben zijn gereten,</l>
+				<l>En 't nare Kerck-hof heeft doods-beenders opgesmeten,</l>
+				<l>Isidis heyligh beelt. tot voorspel van ons leet,</l>
+				<l>Heeft eenen regen vocht van bloedig sweet gesweet!</l>
+				<l>Osiris na den Nyl heeft sich gekeert verbolgen,</l>
+				<l>Ontwijffelijck hier na moet d'een oft d'ander volgen:</l>
+				<l>Gy Sienders, my den gront van dese zaeck verklaert.</l>
+			</sp>
+			<sp who="#tiphus">
+				<speaker>Tiph.</speaker>
+				<l>Den Koning sy hier in bekommert noch beswaert.</l>
+			</sp>
+			<sp who="#serax">
+				<speaker>Serax.</speaker>
+				<l>Den droom rijst wt een hert beslommert met veel zorgen.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Hy rijst waer wt hy wil, wat isser in verborgen?</l>
+			</sp>
+			<sp who="#tiphus">
+				<speaker>Tiph.</speaker>
+				<l>Gantsch niet grootmogent Vorst.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Nochtans den droom bediet</l>
+				<l>En wijst op 't geen daer nae gemeynelijck geschiet.</l>
+			</sp>
+			<sp who="#tiphus">
+				<speaker>Tiph.</speaker>
+				<l>Pilaer van 't grootste rijck, de droomen zijn verscheden,</l>
+				<l>En eens-deels anders niet dan ydelheyt verbreden;</l>
+				<l>Ten and'ren Prophetisch, Voorlooper, deens gebaer</l>
+				<l>De komst boodschappen van de suyver waerheyt klaer;</l>
+				<l>Ten derden, twijfelijck, en doncker int aenschouwen,</l>
+				<l>Daer niemant, dan die wil, 't geloov' op hoeft te bouwen:</l>
+				<l>Nu 't beelt van s' Konincx droom, ten aenzien ongewis,</l>
+				<l>Van yl, en twyffel t'saem in een versmolten is,</l>
+				<l>Zoo datter niet en waer yet sekers wt te ramen.</l>
+			</sp>
+			<sp who="#serax">
+				<speaker>Serax.</speaker>
+				<l>Belangende 't gespoock met dees voorteeckens t'samen,</l>
+				<l>Een deele schynet wel tot quaet te zyn geneycht,</l>
+				<l>En acht wy werden van de Goden dus gedreycht,</l>
+				<l>Om dat wy zuymich zyn, en werden lancx hoe sloffer</l>
+				<l>Int heylige gesmoock en dienst van onsen offer,</l>
+				<l>Om d'ander Goden straf t'ontslaen en maken quijt</l>
+				<l>Op den Altaren die den Priesters toegewijt</l>
+				<l>Bevolen zijn van outs, den Koning tot een teecken</l>
+				<l>Van boet, hun heylig doe het offer-vuyt ontsteken,</l>
+				<l>Op dat den Hemel (die ons dreygen schynt met wee)</l>
+				<l>Syn staet mach wederom bekleeden met der schee,</l>
+				<l>End' offerhanden als een zoeten reuck ontfangen</l>
+				<l>Wechnemende de straf, die toornich schynt te hangen</l>
+				<l>Ons alleen boven 't hooft: dat oock den Koning weer</l>
+				<l>De Godsdienst, die allencx vervallen meer en meer</l>
+				<l>Is in het gantsche Rijck, op nieuws mocht wederbaren</l>
+				<l>Geheel op 't oud gebruyck van over vele jaren,</l>
+				<l>Dat oock des Heylichdoms hoochtijt by yeder mocht</l>
+				<l>Devotich zijn geviert, en alles wederbrocht</l>
+				<l>Wert op den ouden voet, &amp;c.</l>
+			</sp>
+			<stage>Moyses ende Aaron tot Pharao.</stage>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Groot Koning vande stranden</l>
+				<l>Des Nyls, den Koning die den Scepter voert in handen</l>
+				<l>Van Hemel, Aerd, en Zee, die uwen glantz verdooft,</l>
+				<l>Der Koningen Monarch, en aller Princen Hooft,</l>
+				<l>Heeft ons gezonden hier.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Wiens Scepter oft wiens Kroon is</l>
+				<l>Ontzienelijcker als den Rijcx-staf Pharaonis?</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>'T onsterflijck wesen zelfs, de Heere Zebaoth.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Wie kenter neffens my een grooter Heer oft Godt?</l>
+				<l>Breyt sich myn Heerlijckheyt niet wt aen alle kanten.</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>Van een almachtig Heer wy beyde zyn Gezanten,</l>
+				<l>Van Godt die sijnen Troon op 's Hemels vout pilaert.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Regeert hy inde Locht, ick heersch hier op der Aerd.</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>Hy is die 's Hemels loop stiert op de hooge Polen.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Ick denck gelijck de Nyl omdraeyt de water-molen.</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>Hy is den Donder-god, en blixemende licht.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Den Donder is myn stem, den bliexem myn gesicht.</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>Syn Godelijck woort bewegt de blauwe Firmamenten.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Het Aerdrijc schut en beeft van myne dreygementen:</l>
+				<l>Wat ist dat gy verzoeckt? Ziet wien gy rebelleert.</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>De God van Abraham op Pharao begeert</l>
+				<l>Dat hy van 't jock ontslae en buyten de liemiten</l>
+				<l>Egypti trecken laet de slaefsche Israliten,</l>
+				<l>Dat sy hem mogen doen een offerhande vry</l>
+				<l>Van 't Heydensche gezicht, die hem behaeglijck zy</l>
+				<l>Daer Horeb 't voorhooft bercht ten Hemel inde Wolcken.</l>
+				<l>Dus oorloft nu 't vetreck aen al d'Hebreeusche volken.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Genade, ô Iupiter! Wie zyt gy die zoo licht</l>
+				<l>V hielen tegens my den grootsten Koning licht</l>
+				<l>Help Isis, en Osir! Ick zweer u by de sickel</l>
+				<l>Saturni, dat gy 't hooft zult steken aenden prickel</l>
+				<l>Wie isser die sich derf opwerpen tegens my?</l>
+				<l>Dwing-volck, Kroon drager van de grootste heerschappy:</l>
+				<l>Ick zweer by 't hoog Tooneel van mijn rechtveerdig leven,</l>
+				<l>Gy hebt u eygen roe my inde handt gegeven:</l>
+				<l>Als tegens sijnen Heer de Slave sich opwerpt,</l>
+				<l>Noot zakelijcken moet de roede zyn gescherpt,</l>
+				<l>Het lastich jock verswaert, den hals hem overwogen,</l>
+				<l>En sijn hardneckicheyt gebroken en gebogen,</l>
+				<l>Den stouten hoogmoet van sijn vleugelen gekort,</l>
+				<l>Hoe 't bedde sachter is, hoe hy veel trager wort,</l>
+				<l>En hoemen hem meer rechts en voordeels sal aenbieden</l>
+				<l>Hoe hem veel meer te kort sal duncken te geschieden:</l>
+				<l>'t Is weelde die u jeuckt, al lang genoeg verschoont,</l>
+				<l>Best datmen u verdruck en houd in d'oud' gewoont,</l>
+				<l>De roed' is vanden neers en eerst in 't vuyr gesmeten,</l>
+				<l>Nu 't langer niet en smert de strammen zyn vergeten,</l>
+				<l>Gelijck den gladden henghst die op den stal verkoelt</l>
+				<l>Syns Heeren sporen niet in lang en heeft gevolt,</l>
+				<l>Nog toom, oog breydels dwang, alreede quaet om temmen,</l>
+				<l>Te noo laet sijnen Heer weer op den zadel klemmen,</l>
+				<l>Het steygert en het briescht, van weelden ongesont,</l>
+				<l>Nu schort u oock 't gebit van yser inden mont,</l>
+				<l>'t Is best datmen u weer dees sieckte doe wtsweeten,</l>
+				<l>En voor een vette sop geeft slagen voor u eten:</l>
+				<l>Gaet henen in 't gareel, gaet henen bout en slaeft,</l>
+				<l>Ick wil dat gy den weg van u vertreck op-graeft.</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>Wy zijn de Boden Gods, dus laet u niet verrucken,</l>
+				<l>Hoort gy syn stemme niet sijn handt die zal u drucken,</l>
+				<l>Daer ligt de Roede tot een teecken opder eert,</l>
+				<l>Ziet hoe zy in een Slang lichaamelijck verkeert,</l>
+				<l>Sy krunckelt en sy kruypt: indien by u ons spreken</l>
+				<l>Niet eene pluym en weegt: gelooft ons by dit teecken,</l>
+				<l>En looft Israëls Godt, die u 't geloof versterckt,</l>
+				<l>En door dees wonder-daet soo krachtelijcken werckt:</l>
+				<l>Geloofdy 't niet om 't eerst, gelooft dan met den and'ren,</l>
+				<l>Het tweede als in root bloet het water sal verand'ren,</l>
+				<l>De Visch versterven sal in der Rivieren stanck,</l>
+				<l>Die Godt de Heere slaen sal zeven dagen lanck.</l>
+			</sp>
+			<sp who="#serax">
+				<speaker>Serax.</speaker>
+				<l>En dynenen lieven Godt vertoont hy sich soo brave,</l>
+				<l>Om dat hy in een Slang verandert uwen Stave?</l>
+				<l>Is dit sijn hoogste konst? Loopt met u Meersche loopt,</l>
+				<l>En uwe kramery al elders duer verkoopt,</l>
+				<l>By ons en geldse niet, gaet, gaet, ventse aende dwasen.</l>
+			</sp>
+			<sp who="#tiphus">
+				<speaker>Tiph.</speaker>
+				<l>Meynt gy den Koning soo in d'ooren wat te blasen?</l>
+				<l>Meynt gy dat onsen Prins soo lichtelijck is getrootst,</l>
+				<l>Wy hebben 't al te dick voor oogen hem gebootst:</l>
+				<l>En of gy schoon in bloedt verkeert de Vlieten stormich,</l>
+				<l>Wy sullen 't water oock coleuren gelijck formich.</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>Gy toovert, ick herschep, gy met den schijn bedriegt</l>
+				<l>Den schyn, wins wesens als een schaduwe vervliegt,</l>
+				<l>V goochel-konst en is maer forma en figure,</l>
+				<l>En 't myne lijffelijck verandert van nature:</l>
+				<l>Want gy door Satan werckt, en ick door kracht gewis</l>
+				<l>Van Godts almachticheyt, die niets onmoog'lijck is:</l>
+				<l>Schort dees hartneckicheyt, en wilt sijn stemme hooren</l>
+				<l>Die weder desen Staf maeckt als hy was te vooren.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Waer toe dit lang sermoen? preeckt elders al u best,</l>
+				<l>En Pharaonis eer niet door eens anders quest:</l>
+				<l>Gaet boodschapt den Hebreen, myn hand is veel geringer</l>
+				<l>Voor desen hun geweest als nu myn kleynste vinger.</l>
+				<l>Ick voel, ick voel, het jock is hunnen hals te licht,</l>
+				<l>Dies ick dry dobbel moet verswaren hun gewicht,</l>
+				<l>Met Schorpionenen wil ick hun voortaen kastijden,</l>
+				<l>En alle roeden 't vuyr en uwen Godt toewijden</l>
+				<l>Tot eender offerhand, Den Koning is verleydt</l>
+				<l>Die d'ondersaten meynt tot sich met zoeticheydt</l>
+				<l>Te trecken meer en meer, en siet hy niet te veuren,</l>
+				<l>Sy sullen sijn gebiedt van hunnen halse scheuren,</l>
+				<l>En stellen 't Rijck in roer, en roepen 't za wel aen,</l>
+				<l>Laet ons den swaren last van 's Konincx Kroon ontslaen,</l>
+				<l>Wat roert ost gaen ons aen sijn ingestelde Wetten,</l>
+				<l>Een yeder breeck de boey en schakel van sijn ketten.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Verheft u herte niet, want s'Heeren straffe dra,</l>
+				<l>Volgt u alree gelijck de schaduw 't lichaem na,</l>
+				<l>Der bergen 't zoppen die sich in de locht verheffen,</l>
+				<l>Afgrijselijck men ziet de slinxsche blixems treffen:</l>
+				<l>Heer Koning, luystert hoe Godts gramschap weder schalt</l>
+				<l>Verschuylt, verschuylt u, eer den Hemel op u valt,</l>
+				<l>T'wyl u Godts goetheyt noot, sijn straf komt met vetragen</l>
+				<l>Naer den godloosen toe, maer komt met sware slagen</l>
+				<l>Op der Tyrannen kop: dus wt den grootschen tret</l>
+				<l>Uws obstinaetheyts wijckt, en van u stout opset,</l>
+				<l>Haelt flocx de zeylen in, gy moogt hem niet ontslippen,</l>
+				<l>Oft gy hem schoon ontvlucht, zoo raeckt gy op de klippen</l>
+				<l>Van uwen ondergang, en oft gy u verschuylt,</l>
+				<l>In 't alderhelschte diep, in 't donckerste gekuylt,</l>
+				<l>Geen duysternissen daer sijn oog u niet zal mercken,</l>
+				<l>Geen schilden mogen u voor sijnen schicht bevlercken,</l>
+				<l>Alsins vint gy u inde kaken opgespert</l>
+				<l>Van sijn rechtveerdicheyt, en inden strick verwert</l>
+				<l>Van sijnen grimmen toorn, die altijdt nae der zielen</l>
+				<l>En na den lichaem u sal treden op de hielen</l>
+				<l>Van u versteent gemoedt: wat baet doch, kroon oft Staf,</l>
+				<l>Als hy u kroone breckt die u den Scepter gaf</l>
+				<l>Met sijnen stercken arm, dus neemt tot geen verschooning</l>
+				<l>V troetelende macht, die steeds den hoogsten Koning</l>
+				<l>Moet onderworpen zijn, Want Godts almogentheyt</l>
+				<l>Belacht, eylaes! den trots die u omhelst en vleyt</l>
+				<l>Met een vermomt gelaet.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Waer toe dees lange rollen?</l>
+			</sp>
+			<sp who="#serax">
+				<speaker>Serax.</speaker>
+				<l>Heer Koning, laet den zot 't hert met sijn tong wtbollen.</l>
+			</sp>
+			<sp who="#tiphus">
+				<speaker>Tiph.</speaker>
+				<l>Wat worpt ons Pluto op?</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>Volgt tijdelijck den raet</l>
+				<l>Des Heeren, die u met ons stemme wecken laet</l>
+				<l>Wt desen diepen slaep, ontwaeckt, eer u te spade</l>
+				<l>De helder Son begeeft het licht van sijn genade.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Help Aerde! wonder ist, dat gy 't u niet en belgt,</l>
+				<l>En dees Trotzeeders in u swerte keel verswelgt:</l>
+				<l>Past flocx het groot gewelf van Memphis Hoft te ruymen,</l>
+				<l>Eer 's Konincx gramschap als een zee begint te schuymen,</l>
+				<l>Hy heeft sijn planten swaer op 't Aaertrijck neer geset,</l>
+				<l>Verstapt hy, elcken tret een Koningrijck verplet:</l>
+				<l>Zoo gy den blixem soeckt, Iupijn is hier te vinden:</l>
+				<l>Dus wacht u wel den Leeu sijn keten te ontbinden,</l>
+				<l>Schuym-boeven van myn Rijc, gaet boodschapt den Hebreeuw</l>
+				<l>Dat 't glas verloopen is van sijnen gulden eeuw,</l>
+				<l>De laetster ure is lang geslagen aan de Wyser,</l>
+				<l>En in Pharaos Hof is sijnen kerf-stock yser:</l>
+				<l>Gaet henen maeckt hem kont wien dat u sijn verstant</l>
+				<l>Den stock om hem te slaen gaf in sijn rechter hant,</l>
+				<l>Gaet brengt dees blyde maer aen al d'wtheemsche Slaven</l>
+				<l>Dat lang voor hun vertreck den weg is opgeraven:</l>
+				<l>En ist dat uwen Godt niet vast en zit geschroeft,</l>
+				<l>Hy doe sijn boodschap zelf, indien hy yets beboeft.</l>
+			</sp>
+			<stage>Binnen.</stage>
+			</div>
+		<div type="scene" n="2">
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Syn hert is onbeweegt veel grooter als de rotzen.</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>Wie dorst den Hemel doch oyt obstinater trotzen?</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>'t Hert ligt hem veel te hoog geschoten inden krop.</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>Hy worpt den steen die hem zal vallen op den kop.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Hy heeft Godt opgeweckt met sijn grootmoedich baffen.</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>'T za gaen wy, want door ons zal hem de Heere straffen.</l>
+			</sp>
+			<stage>Binnen.</stage>
+			</div>
+		<div type="scene" n="3">
+			<sp who="#choor">
+				<speaker>CHOOR.</speaker>
+				<l>Steenen Pharao wilt swichten,</l>
+				<l>Want syn schichten</l>
+				<l>Haelt den Hemel wt den trots:</l>
+				<l>Pyramiden wacht u spitsen</l>
+				<l>Voor syn flitsen:</l>
+				<l>O daer gaen syn pijlen los!</l>
+				<l>Nylus schreyt nu al bedolven</l>
+				<l>In syn golven,</l>
+				<l>Om de Visch die in syn kruijck</l>
+				<l>Sterft, om dat de waterbaren</l>
+				<l>Aldus varen</l>
+				<l>Bloedich over syn paruijck,</l>
+				<l>Vorschen, Luysen, Wormen krielen</l>
+				<l>Waer syn hielen</l>
+				<l>Den Egyptenaer verzet:</l>
+				<l>Heptapolis groot geweste</l>
+				<l>Oock met peste</l>
+				<l>Doodelijcken is besmet.</l>
+				<l>'t Vluchtich vogelken met ylen</l>
+				<l>Van heur pijlen</l>
+				<l>Onversiens wert achterhaelt,</l>
+				<l>Dat sijn vleugels aende sterren</l>
+				<l>Wt ging sperren,</l>
+				<l>Inde baren nederdaelt.</l>
+				<l>'t Lockich schaepken sterft int bleyten,</l>
+				<l>En de Geyten</l>
+				<l>Vallen voor den Herder-stock,</l>
+				<l>Waer de Bouwer ploeght al wacker</l>
+				<l>Ziet hy 't Acker,</l>
+				<l>Vee begraven onder 't juck,</l>
+				<l>Nu druckt hun de hant des Heeren</l>
+				<l>Weer met zeeren,</l>
+				<l>Met onreynich puyst gedroomt,</l>
+				<l>Menschen ende beesten voelen,</l>
+				<l>En bevoele</l>
+				<l>'s Hemels grimmacheyt vertoont.</l>
+				<l>Nu dreygt hun AEt her vierich,</l>
+				<l>Al wraeck gierich,</l>
+				<l>Met syn kromme blixem root,</l>
+				<l>Nu laet hy Egypten vallen</l>
+				<l>Van crystallen</l>
+				<l>Een diluvie inden schoot,</l>
+				<l>Nu zoo dreygt hy hun afgrijsich</l>
+				<l>Met een ysich</l>
+				<l>Donders drommelich gheklack,</l>
+				<l>Nu jaeght Godt met haghels ronden</l>
+				<l>Om hun zonden</l>
+				<l>Al d'Egypters onder 't dack.</l>
+				<l>D'Eyck en schynet nu den Elsen</l>
+				<l>Niet 't omhelsen,</l>
+				<l>D'Aerde droef en onbespreedt</l>
+				<l>Mist heur rancken en heur noppen,</l>
+				<l>Mist heur knoppen</l>
+				<l>En heur groen geschildert kleedt.</l>
+				<l>Nu beschaduwt hy hun banen</l>
+				<l>Met Sprinck-hanen,</l>
+				<l>Die voorts rooven 't eenegaer</l>
+				<l>Al de vruchten die sy zaeyden</l>
+				<l>En afmaeyden</l>
+				<l>Inden schoot van 't ronde Jaer.</l>
+				<l>Nu houdt Phoebus sich ghescholen</l>
+				<l>Inde Polen,</l>
+				<l>En vertreckt sijn blonde hooft,</l>
+				<l>t' Licht van sijnen gulden Wagen</l>
+				<l>Hy dry daghen</l>
+				<l>Hunnen Horizont berooft.</l>
+				<l>Noch blyft desen Koningh trotze</l>
+				<l>Als een Rotze</l>
+				<l>Die gheen golven en ontsiet,</l>
+				<l>Als een klippe die gheduerich</l>
+				<l>Klieft azurich</l>
+				<l>'t Schuymsel van Neptunes spriet.</l>
+				<l>Want Godt in syn stoutheyt krieghel</l>
+				<l>Tot elcx spieghel</l>
+				<l>Heeft verstockt syn steenich hert,</l>
+				<l>Niet om met een welbehagen</l>
+				<l>Hem te jaghen</l>
+				<l>In 's doodts stricken al verwert.</l>
+				<l>Maer om straffen zyn voorleden</l>
+				<l>Godloosheden,</l>
+				<l>En om Israel bequaem</l>
+				<l>Stof te geven om te zinghen</l>
+				<l>Zonderlinghen</l>
+				<l>D'eer van synen heyl'ghen Naem.</l>
+			</sp>
+			</div>
+		</div>
+	<div type="act" n="3">
+		<div type="scene" n="1">
+			<head>Het derde deel.</head>
+			<sp who="#pharao-den-koningh">
+				<speaker>Pharao den Koningh.</speaker>
+				<l>Hoe wel wy op den throon als Aertsche Goden prachtich</l>
+				<l>Een werelt buygen schier met onsen Scepter krachtich,</l>
+				<l>Hoe wel ons goude kroon blinckt met den diadem,</l>
+				<l>Daer is een grooter Heer, daer is een hooger stem,</l>
+				<l>Daer is een Koning noch die onsen glants verduystert,</l>
+				<l>En een bepeerlden Staf die heerlijcker luystert,</l>
+				<l>Daer is een Hemelsch rijc, 't welck 't wereltsch rijc omvangt,</l>
+				<l>Daer alle mogentheyt den Scepter van ontfanght:</l>
+				<l>'t Is hy die boven woont, en heerscht oock hier beneden,</l>
+				<l>Die onse Zetels doet verschricken voor sijn treden,</l>
+				<l>Der Princen overhooft, der Koningen Monarch,</l>
+				<l>Die 't alles oversiet van sijnen hoogen berch,</l>
+				<l>Die op 't verhemelt ront gebout heeft sijnen troone,</l>
+				<l>De louter sterren zijn maer loovers van sijn kroone,</l>
+				<l>Die met sijn donder-stem den sterflijcken verschrickt,</l>
+				<l>En met het vuyrich root van sijnen blixem blick.</l>
+				<l>Meer pylen heeft hy op Egyptenlant gescherpt</l>
+				<l>Als zants; en barich schuym het roode Meyr opwerpet,</l>
+				<l>Als koren aders rijp den vochten Nyl besproeyt,</l>
+				<l>Wanneer van sijnen stroom de vliet-kruyt overvloeyt.</l>
+				<l>Wat baet my nu op 't hooft de kroone van Afriken?</l>
+				<l>Oft dat ick 't derdendeel van al des werelts Rijcken</l>
+				<l>Op myne globes zie? wat baet dar ick alleen</l>
+				<l>Maeck een triumphe van hooveerdige tropheen?</l>
+				<l>Oft dat ick op den boort van mynen vloet doe swieren</l>
+				<l>Dees vendelen gecruyst, dees bloedige banieren?</l>
+				<l>Oft dat den Arabier oft Moore martiael</l>
+				<l>Ontziet de puncten scherp en sneden van myn stael?</l>
+				<l>Wat batet (als ick doe myn oorlogs leger krielen)</l>
+				<l>Dat d'ander weerelt moet voor desen Scepter knielen?</l>
+				<l>Dat ick van 't oost tot west gevreest word en gheeert?</l>
+				<l>Als desen grooten Mars noch boven my regeert?</l>
+				<l>O Delta, Delta schoon! die met u graf pilaren,</l>
+				<l>Met u Mausolen schynt d'wtbreydselen te naren,</l>
+				<l>Daer Pharaos met syn kruyn de Firmamenten doet</l>
+				<l>Verschricken, en vertreet het Aerdrick met de voet:</l>
+				<l>Wat batet oft gy kont met flitsen en met pylen</l>
+				<l>Verdonckeren de locht? oft in zoo korten wylen</l>
+				<l>Gy een bosschagie maeckt van lancen wtgespeert?</l>
+				<l>Oft s' weerelts aensicht met u krijgers eclipsert?</l>
+				<l>Wat batet oft gy in u wapens voert geschreven</l>
+				<l>De teeckens van u deugt en vromicheyt vergeven?</l>
+				<l>Wat baet oft uwen Prins met slavernije strang</l>
+				<l>Zoo vele volcken druckt? oft dat den Ondergang</l>
+				<l>Syn roede nederworpt, en offert voor myn voeten,</l>
+				<l>Oft met sijn kroone my den Middach komt begroeten?</l>
+				<l>Als heel Egypten dus door blixem, wint en storm</l>
+				<l>Tot eenen Chaos kruypt weer in syn oude form.</l>
+				<l>Help Iupijn! wie gy zijt die met u oorloogs wempel</l>
+				<l>Ons boven 't hooft braveert, komt over uwen drempel</l>
+				<l>Int sterffelijck begrijp, en laet den Hemel staen,</l>
+				<l>Komt plant op platte velt de stenghe van u vaen:</l>
+				<l>Geen Koning is hier doch die om de beste kansse</l>
+				<l>Met my kroon tegen kroon derf zetten in balansse:</l>
+				<l>Ick waeg om 't Hemelsch Rijck noch op een goede hoop</l>
+				<l>Den ronden circkel groot van s' werelts ommeloop;</l>
+				<l>En brengdy my in 't graf op 't hoogste van myn dagen,</l>
+				<l>Zoo ist my eers genoech van u te zyn verslagen:</l>
+				<l>Komt slechts op 't aertsch toneel zo gy tournoyen wilt,</l>
+				<l>Op dat ick proeven mach de deugt van uwen schilt;</l>
+				<l>En ist dat ick u sweert noch spere niet ontvliede,</l>
+				<l>Zo wensch ick op myn graf geen schoonder Piramyde.</l>
+				<l>Oft gy al schoon d'Hebreen die mynen Scepter druckt</l>
+				<l>Van hunnen halse scheurt, en Pharao ontruckt</l>
+				<l>'t Iock van hun dienst baerheyt, waerwaerts; wilt gyse brengen</l>
+				<l>Dat sy de hoornen van u Altaeren besprengen?</l>
+				<l>Sy raken elders licht in dieper slaverny,</l>
+				<l>Oft onder een gebiet van strenger heerschappy.</l>
+				<l>Gantsch Lybien is woest daer Athlas stygt om hooge,</l>
+				<l>En 't ingeseten volck geneert sich met den booge,</l>
+				<l>En oorloogt met de spriet gestadig tegen 't wilt,</l>
+				<l>Daer yder tot nootdruft sijn pylen op verspilt.</l>
+				<l>Gaen sy hun by den Moor oft Etiopier voegen,</l>
+				<l>Die heeft noch 't meeste deel wel van sijn Rijck te ploegen;</l>
+				<l>Oft hyse schoon ontfangt, en loopts' al in 't gemoet,</l>
+				<l>d'Uytheemsche als een Slaef sijn ackers bouwen moet.</l>
+				<l>Den ruygen Barbaros oock binnen sijn limiten</l>
+				<l>Geen vreemdelingen lydt, noch Meden, nochte Sciten,</l>
+				<l>Noch over onsen vloed, noch over de Iordaen</l>
+				<l>En sal de Philistijn oock geen Hebreen ontfaen.</l>
+				<l>Den vrecken Arabier sy passen op hun stucken,</l>
+				<l>Is oock genoeg bekent noch om sijn oude tucken,</l>
+				<l>Hy vilt, besteelt en pluckt, wie in sijn handen raeckt,</l>
+				<l>En die hy borger salft hy eygen Slave maeckt.</l>
+				<l>Noch daer den Assyrier der Koninglijcker staten</l>
+				<l>'t Toneel eerst bouwen dorst, by 't stroomen der Euphraten,</l>
+				<l>Noch nergens waer het licht de duysternis verdooft,</l>
+				<l>Oft d'ingeseten is der vremden overhooft.</l>
+				<l>Oft soecken sy een Landt, oft soecken sy een wooning</l>
+				<l>Daer yder borger is, daer yeder is een Koning,</l>
+				<l>Daer yder Rechter is, en 't mes treckt uyt der schee,</l>
+				<l>Dien bodem is gelijck de diepte vander Zee,</l>
+				<l>Daer alle baergheschuym opryset met malkander,</l>
+				<l>Soo wil een yder hier oock heerschen boven d'ander,</l>
+				<l>En werden sy dan 't saem verdruckt in ongeval,</l>
+				<l>Wat Koning isser die hun sake rechten sal?</l>
+				<l>Oft trachtense onder een Climaet self te heerschappen</l>
+				<l>Daer sterflijck mensche noyt het spoor van sijne stappen</l>
+				<l>Geprent heeft laten staen, daer sonder arrebeydt</l>
+				<l>De willge natuyr het acker-veldt bereydt,</l>
+				<l>Sy sullen menichmael noch om Egypten wenschen,</l>
+				<l>Eer't tot voldoening streckt voor so veel duysent menschen,</l>
+				<l>Die buyten Pharao behoeven al ter noot,</l>
+				<l>Tot nootdruft eenen opgehoopte vollen schoot.</l>
+			</sp>
+			<stage>Moyses ende Aaron tot ten Koningh.</stage>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Monarche Misrayns hoe lang suldy noch konnen.</l>
+				<l>d'Oogh-appels sluyten voor de klaerheydt ender Sonnen?</l>
+				<l>Hoe lange ô Pharao! suldy beletten dat</l>
+				<l>Israël smoocken doe het heylig Altaer-plat</l>
+				<l>Des drie-mael hoogen Godts? Ay blint versteenigt Vorste?</l>
+				<l>Hoe priemdy op u hert, hoe steldy op u borste</l>
+				<l>Soo menich pyl en schicht, en welft u stout en trots,</l>
+				<l>Harneckich over 't hooft den strengen toorne Godts,</l>
+				<l>Die heel Egypten druckt 't onsterflijck eeuwich wesen</l>
+				<l>Dus met sijne stemme roept, ick heb voor 't laetst myn pesen</l>
+				<l>Noch eenmael uyt-gereckt en mynen krommen Boog</l>
+				<l>Gespannen, wee! ô wee! 't wit van myn grimmig oog</l>
+				<l>Is Heptapolis kroon, die trots myn Hemel schichten</l>
+				<l>Heeft negen-mael belet den Isralijt te lichten</l>
+				<l>Syn ancker van den Nyl: Wee! wee! indien sy stout</l>
+				<l>Noch dit twaelfstammich heyr van hun vertreck ophout:</l>
+				<l>Van d'oust gebooren af uyt Pharaonis lenden,</l>
+				<l>Tot d'alderminste toe die van d'Egypters benden</l>
+				<l>Sich d'eerst-gebooren roemt van Vader Moeder lief,</l>
+				<l>Niet een sal zijn die niet de doodt gelijck een dief</l>
+				<l>Sal rucken in het graf, geen hert dat niet sal voelen</l>
+				<l>Myn koude straelen in sijn heete bloedt verkoelen:</l>
+				<l>Dus loopt noch in 't gemoedt des Hemels Koning preuts</l>
+				<l>Terwijlen hy u dreygt, soo houdt u buyten scheuts</l>
+				<l>Van mynen stalen boog, die weder is gespannen;</l>
+				<l>En oorloft onsen tocht, dat d'Isralijtsche mannen</l>
+				<l>Op Horeb smoken doen hun Altaren beloedt.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Gy singt al eenen sang, gelijck de Koeckoeck doet,</l>
+				<l>En oft gy Slaven trockt om uwen Godt spysen,</l>
+				<l>Daer Horeb met sijn spits ten wolcken gaet op-rysen</l>
+				<l>En oft myn Majesleyt gedoogde goedertier</l>
+				<l>Dat gy op-stijgen deed' 't Afgodisch offer-vier</l>
+				<l>Wt de Woestijnen schoot, om ick en weet wat Goden</l>
+				<l>Vermaken met het bloedt des Altaers opgesoden,</l>
+				<l>Soudt gy my sweeren dier te keeren al met vliet</l>
+				<l>Ter plaetsen die gy met verlof te rugge liet:</l>
+				<l>Oft veynsdy my den tocht die gy hebt voorgenomen;</l>
+				<l>Zegt waerwarts hy sich strect.</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>Waer wt wy zijn gekomen,</l>
+				<l>Het lant van Canaan, recht over de Iordaen,</l>
+				<l>Daer ons Voorvaders eerst hun stappen lieten staen,</l>
+				<l>Dat God zelf heeft belooft, dat God zelf heeft geswooren</l>
+				<l>Aen Isac synen knecht en Iacob wtverkoren.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Gy 't Lant van Canaan verkrijgen in 't bezit?</l>
+				<l>V Bogen zijn te slap om schieten na dit wit,</l>
+				<l>Meynt gy met lijf en ziel zoo in dit Landt te treden?</l>
+				<l>Gaet henen, vraegt te deeg na syn gelegentheden?</l>
+				<l>Hoort Idumea, hoort! hoe achtmen dy zoo licht,</l>
+				<l>Een ander heeft genoeg en schrickt van u gezicht,</l>
+				<l>Die rondsom afgepaelt ligt midden inde bergen,</l>
+				<l>Die met u mueren trotz den Hemel schijnt te tergen,</l>
+				<l>Waer voor zoo menich Rijck syn wapens heeft geschorst,</l>
+				<l>En daer de Pilistijn wt steeck syn hooge borst,</l>
+				<l>Daer elck Inwoonder stout is eenen Giges hooge,</l>
+				<l>En gy Sprinckhanen teer en Musschen in hun ooge:</l>
+				<l>Te wijt zijdy verdoolt! en timmert inde locht</l>
+				<l>En schildert op Neptuns azure golven vocht,</l>
+				<l>Dy 't Philistijnsche Rijck zoo wonderlijck voor oogen?</l>
+				<l>Help! 't geeft my wonder wt wat borsten gy gezogen</l>
+				<l>Hebt dees hoogdragentheyt, en hoe gy zoo verruckt</l>
+				<l>Dees stoute dwaesheyt in u herssens hebt gedruckt?</l>
+				<l>Wat Rijck is u belooft? My dunct gelijck de Muggen</l>
+				<l>Gy om de kaersse swermt, tot dat gy Bedel-pluggen</l>
+				<l>V vleugelen verbrant! ick rade, ick rade u blaest</l>
+				<l>Eer gy dit heete moes wilt proeven met der haest:</l>
+				<l>Oft wildy bancken in de Philistijnsche koken,</l>
+				<l>Eer hy u heeft genoodt, oft synen haert doen smoken,</l>
+				<l>Zoo keert dan onverzaedt: gy Kranen vliegt u mat,</l>
+				<l>Om gasten met den Vos, die al in schotels plat</l>
+				<l>De spijse toebereyt, en als gy meynt te drabben</l>
+				<l>In syn gestolen vet, zult gy u niet beslabben.</l>
+				<l>Zoeckt vry een aender aes, oft sich u kele belegt,</l>
+				<l>De brock is doch zoo groot dat gyder aen verswelgt:</l>
+				<l>Dus slaet dit inde wint, en laet vry aender Eycken</l>
+				<l>De Schilden hangen die gy niet en meucht bereycken</l>
+				<l>Met uwen lammen erm, al veel te kort en stram,</l>
+				<l>En voor dien Scepter eel van dynen Geytschen Ram</l>
+				<l>De kromme hroonen grijpt, 't welck beter u zal voegen,</l>
+				<l>Of 't Kouter, om de borst des Ackers te doorploegen</l>
+				<l>Van 't Palestijnsche lant.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Israel onbezorgt</l>
+				<l>Heeft God tot eenen Schilt en tot een vaste Borgt,</l>
+				<l>Den grootsten Capiteyn die hy wil overvallen,</l>
+				<l>En baet geen preuts gebergt van opgeworpen wallen,</l>
+				<l>Noch diepe vesting van een grondeloose zee,</l>
+				<l>Noch bogen, noch geflits noch sweerden uyt der schee,</l>
+				<l>Noch vele wapentuyg, noch s'werelts oorlogs heyren</l>
+				<l>In een slach-ordening en mochten sich verweyren</l>
+				<l>Voor synen stercken erm die nau verheven schier</l>
+				<l>Om stryden, al omvlecht is met den Lauwerier.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>En of tLandt open stont van alle Philistynen,</l>
+				<l>Hoe raeckty door de dorre Arabische woestijnen,</l>
+				<l>'T onvruchtbaer woeste velt, de doornen wildernis,</l>
+				<l>Daer niet myn ruyg gediert als wilt geboomt en is,</l>
+				<l>Daer is noch vrucht tot spijs, noch vochticheyt om laven,</l>
+				<l>T'waer pas een Kerchof om u t'zamen te begraven.</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>God is de volheyt zelf wins overmilden schoot,</l>
+				<l>Voor Iacob over vloeyt van 't zoete Hemels broot,</l>
+				<l>Die 't al geschapen heeft wt niet, kan op der heyden</l>
+				<l>En 't stekel-doornich velt ons Tafel toe bereyden:</l>
+				<l>De zelfd' waer door den Nyl noch jaerlijcx overvloeyt,</l>
+				<l>Waer door den Oceaen wt zoo veel stroomen groeyt,</l>
+				<l>En zal ons nimmermeer aemachtich laeten dorsten,</l>
+				<l>De moeder zal veel eer 's kints lippen haere borsten</l>
+				<l>Ontrecken wreedt en stuers, eer onsen Herder zal</l>
+				<l>Vergeten syne kud' in 't aerdsche tranen-dal.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Stuyt u den Philistijn, zoo hebdy te passeren</l>
+				<l>T' rood grondeloose Meir, maer wildy henen keren?</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>Die met syn Water-pas bepaelt de groote Zee,</l>
+				<l>En heeft gecompasseert den boord van yeder Ree,</l>
+				<l>Dies Hemels bouten schoon te zamen heeft gewrongen,</l>
+				<l>En 't Aerdsche Centrum swaer hout allesins gedrongen,</l>
+				<l>Heeft lang de weg bereyt, heeft lang den padt gebaent</l>
+				<l>Voor 't volck van syn verbont, die stoutlijck en verwaent</l>
+				<l>Gy aen u opzet boeyt, en derft noch 't hooft opsteken</l>
+				<l>Als oft het aende macht des Hemels zou gebreken</l>
+				<l>Te blixemen den trots van u hartneckicheyt,</l>
+				<l>Daer u de vinger van Gods hooge Majesteyt</l>
+				<l>Zoo strengh' heeft aengetast, eylacen! wordt eens wyser,</l>
+				<l>En noch de wraeck verstompt van syn rechtveerdich yser</l>
+				<l>Waer mede hy u dreygt.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Rebeleen altemael,</l>
+				<l>Treckt henen, maer ick wil, ick wil u Beestiael</l>
+				<l>Hier blijft tot roof en buyt: Treckt henen uwer straten.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Wy sullen van ons Vee geen klauw' hier achter laten.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Soo blijft dan die gy zijt: Hoe sullen dees Hebreen</l>
+				<l>Ons trotsen? Neen, eer werdt den alderleegsten steen</l>
+				<l>Nemphidis omgekeert: Het Vee dat sal hier blijven,</l>
+				<l>Treckt met u Kinders heen, u Hoeren en U Wijven.</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>Waer 't Vee blijft blijven wy, grootmogende Monarch,</l>
+				<l>Als wy gekomen zijn by Sinai den bergh</l>
+				<l>Wy Godt een offerhand' van Ossen ofte Stieren</l>
+				<l>Op 't heylige gesteent danckbarig moeten vieren,</l>
+				<l>Tot eenen soeten reuck, en tot een teecken bly</l>
+				<l>Dat hy ons heeft verlost van al ons slaverny,</l>
+				<l>De palen synes Wets wy niet en overtreden,</l>
+				<l>Dus oorloft ons vertreck, en hoort syn stemme heden.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>In geenderly manier.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>Soo blijft de straffe handt</l>
+				<l>Des Heeren over u, en over 't gantsche Landt:</l>
+				<l>Godt zoud eer eenen berg of harde rotz bewegen.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Is hy een lustig Haen hy kray noch eens te degen,</l>
+				<l>Den sleutel van myn Rijck zy u voor 't lest ontseydt,</l>
+				<l>En welcker tijdt gy in myn tegenwoordigheydt</l>
+				<l>Hier weer verschynen dorft, ick sweer by mynen Throone,</l>
+				<l>Misraijns edel Hof, en by myn groote Kroonen,</l>
+				<l>Ick sweer by desen Staf bepeerelt en vergult,</l>
+				<l>Dat gy van stonden aen u kerck-hof vinden sult.</l>
+			</sp>
+			<stage>Pharao binnen.</stage>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>O Diamanten hert! oysere natuyre.</l>
+			</sp>
+			<sp who="#aaron">
+				<speaker>Aar.</speaker>
+				<l>Het yser wort gedweeg in 't gloeyen van den vuyre,</l>
+				<l>Den Diamant hoe hardt versachtet Bocken bloedt,</l>
+				<l>Maer desen blijft verstockt, versteent in syn gemoedt.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moys.</speaker>
+				<l>'T glas van ons slaverny is nittemin verloopen,</l>
+				<l>Ick sie, ick sie den weg tot ons verlossing' open,</l>
+				<l>Egypten siet om hoog, het sweert is uyt der schee,</l>
+				<l>Dies Iacob morgen licht syn Ancker van dees Ree.</l>
+			</sp>
+			<stage>Binnen.</stage>
+			</div>
+		<div type="scene" n="2">
+			<sp who="#choor">
+				<speaker>CHOOR.</speaker>
+				<l>NV't Manen-schynsel sich gaet ronden,</l>
+				<l>En met heur kromme hooren naeckt</l>
+				<l>Vast eenen halven circkel maeckt</l>
+				<l>Wert den Hebree van druck ontbonden,</l>
+				<l>En van 't tyrannig jock ontlast:</l>
+				<l>Siet hoe elck juygt met blyden geeste,</l>
+				<l>Sier hoe sy nu haer Paesshen-feeste</l>
+				<l>Met vrolijckheyt bereyden vast,</l>
+				<l>Hun jaer'ge Lammerkens sy slachten</l>
+				<l>Met dat de schaduw' sich uytstreckt</l>
+				<l>En s' Hemels oog syn licht vertreckt</l>
+				<l>Om schuylen inde water-grachten.</l>
+				<l>Siet, hoe sy met de roode stralen</l>
+				<l>Van 't suyver Lams verkoren bloet</l>
+				<l>De dropels ende posten vroet</l>
+				<l>Van hare poorten vast bemalen:</l>
+				<l>O heylig klaer ken teecken! om</l>
+				<l>Te vryden al u eerst gebooren.</l>
+				<l>Voor d'Engel die in s' Heeren tooren</l>
+				<l>Gaet maeyen met een Zeyssen krom,</l>
+				<l>Al d'eerstelingen van den Nyle,</l>
+				<l>Al d'eerste die uyt s'Moeders schoot</l>
+				<l>Beschouden Phoebi stralen root,</l>
+				<l>Door schicht hy met eert Hemel-pyle.</l>
+				<l>D'Israeliten rusten twylen</l>
+				<l>Hun toe na s'Heeren wil en eysch;</l>
+				<l>Om hun te geven op de reys</l>
+				<l>Van soo veel stadien en mijlen:</l>
+				<l>De Lammerkens die nu gedoot</l>
+				<l>Syn, sy gaen voor den vuyre speten,</l>
+				<l>Daer na met bitter sausse op-eten,</l>
+				<l>Met surig ongehevelt broot,</l>
+				<l>Omgort geschoeyt, den staf in handen,</l>
+				<l>Een yeder vlijtig 't Lamken eet</l>
+				<l>Al staende als wandel-gasten reet,</l>
+				<l>Om scheyden vande Nylsche stranden.</l>
+				<l>Schoon morgen root begint te blosen,</l>
+				<l>Sy met verlangen roepen t'saem,</l>
+				<l>Komt werpt u stralen aengenaem</l>
+				<l>Eens in ons blijschap over Gonsen</l>
+				<l>Blau Hemels licht doorschynt de Locht,</l>
+				<l>Beschaemt den silver schyn der Manen,</l>
+				<l>En distilleert de peerel tranen</l>
+				<l>Die van ons wangen rollen vocht,</l>
+				<l>Niet meer van droefheyt als voorhenen,</l>
+				<l>Maer al van blyschap en van vreucht,</l>
+				<l>Om dat den Hebree met genucht</l>
+				<l>Syn soete vryheyt is verschenen.</l>
+				<l>O soete vryheyt! wat een Krooning</l>
+				<l>Dunckt u den genen die verruckt</l>
+				<l>Nu soo veel eeuwen heeft gedruckt</l>
+				<l>'T slaefsch jock van een tyrannich Koning:</l>
+				<l>Oft schoon 't wildt vogelken met lust</l>
+				<l>In 't korfken tierreliert en fluytert</l>
+				<l>En inde traly 't wyl het tjuytert</l>
+				<l>Verdient 't gekochte zaedt gerust,</l>
+				<l>'T zou liever in de raexkens schieten,</l>
+				<l>En klieven met syn vlercxkens locht</l>
+				<l>Den blauwen Hemel, soo het mocht</l>
+				<l>Slecht mager synen kost genieten.</l>
+				<l>Waerom versteeckt sich in de stoppels</l>
+				<l>Der bosschen 't hoorn getackte Hert,</l>
+				<l>De rancke Hind' waerom soo hart</l>
+				<l>En snel vlucht sy voor s' Jagers koppels?</l>
+				<l>Waeromme vliet het schuw Konijn</l>
+				<l>En d'achter-lamme bloode Hasen,</l>
+				<l>Die als een schaduw wech geblasen</l>
+				<l>Soo flocx in hun zant-holen zijn?</l>
+				<l>D'azure Visschen waerom duycken</l>
+				<l>Sy voor 't doorluchtig net soo ras</l>
+				<l>In 't diepste van het water-glas</l>
+				<l>In 't diepste van Thetidis Kruycken?</l>
+				<l>Ach! om hun vryheyt, die soo naeckte</l>
+				<l>Een yeder van naturen wis</l>
+				<l>Syn voorhooft in geschreven is,</l>
+				<l>Van dat hy éerst in 't licht geraeckte.</l>
+				<l>O driemael edel vryheyts kroon!</l>
+				<l>Die Isac d'hooft slapen omvlechtet,</l>
+				<l>Waerom den lieven Hemel vechtet,</l>
+				<l>Die met syn vleugelen ten toon</l>
+				<l>Beschaduwt d'Isralijtsche benden,</l>
+				<l>En helpt hun uyt 't Egyptisch zandt,</l>
+				<l>In 't rijcke Palestijnen landt,</l>
+				<l>Wt al hun droef heyt en ellenden.</l>
+				<l>T'wyl Jacob dus van vreugden reyet</l>
+				<l>Den held'ren witten dag aenbreeckt,</l>
+				<l>De gulden Sonne 't hooft opsteeekt,</l>
+				<l>Die over Nylus golven spreyet</l>
+				<l>Het straligh licht van syn flambeel,</l>
+				<l>Die haest ontdeckt hoe dees Comedi</l>
+				<l>Rijst uyt de bloedige Tragedi</l>
+				<l>Van Deltas schreyende Toneel,</l>
+				<l>Daer d'oust-geboren voor hun magen</l>
+				<l>Op 't bedde ligghen kout en styf,</l>
+				<l>En laten 't graf hun doode lijf,</l>
+				<l>Dies Isr'el wert van 't jock ontslagen.</l>
+			</sp>
+			</div>
+		</div>
+	<div type="act" n="4">
+		<div type="scene" n="1">
+			<head>Het vierde deel.</head>
+			
+			<stage>Pharao den Coningh. Rey der Egyptenaren.</stage>
+			<sp who="#pharao-den-koningh">
+				<l>Hy, die na mynen tijdt zou Memphis Troon beklimmen</l>
+				<l>En als een kleynen Godt dit Aerdtich Toneel beschimmen,</l>
+				<l>Hy, die op 't hoog gestoelt van 's Konings Majesteyt</l>
+				<l>Dees dobbel groote Kroon alree was toegeseyt,</l>
+				<l>Hy, die niet minder zou als zijn half-Godsch voor ouders</l>
+				<l>In d'edel schoenen treen: en Athlas dese schouders</l>
+				<l>Ontlasten vanden last, die mynen ouden dag</l>
+				<l>Veel kommerlijcker valt dan sy te voren plag:</l>
+				<l>Diens opgang helder scheen alst licht der morgen-sonnen,</l>
+				<l>Den middag grooter hitt' en klarigheyt te jonnen,</l>
+				<l>Diens rijpe jaren my veel heyls hadden belooft,</l>
+				<l>Den eenen Pharao den and'ren is ontrooft.</l>
+				<l>Drymalen zy vervloeckt den nacht die met sijn veren</l>
+				<l>Bespreet heeft Tisiphon, Alecton, en Megeren.</l>
+				<l>Den Atropos die meer sterflijcken heeft ontzielt,</l>
+				<l>Als Astren desen nacht om ons hebben gewielt:</l>
+				<l>O Phoebus! had gy ons gewaerschout doch sorgvuldig</l>
+				<l>Eer gy u blonde hooft en u paruycke guldich</l>
+				<l>Ter quader tijd vertrockt van onse Horizont,</l>
+				<l>Geheel Egypten waer soo deerlijck niet doorwont</l>
+				<l>In synen eersten slaep, dat alletijt met tranen</l>
+				<l>Zy desen nacht beschreyt, dat nimmer 't licht der Manen</l>
+				<l>Syn duysternis doorstrael; dat nimmermeer 't gestert</l>
+				<l>Verlicht met heuren glants sijn doncker zeylen swert.</l>
+				<l>O dieftelijcke doot! O pest die onghenadich</l>
+				<l>Zijt op den boort van Styx oft Acheron beschadich,</l>
+				<l>Onsaligh voortghebrocht; wiens pijlen met vermenght</l>
+				<l>En doodelijck vergift venijnigh zijn besprenght.</l>
+				<l>Vervloeckt zy dees Bellon, die listigh inde wapen</l>
+				<l>Ons met een stille trom bekruypt wanneer wy slapen</l>
+				<l>Den tijdelijcken slaep: En komt verkeeren straf</l>
+				<l>De slapers in een Lijck, hun bedden in een graf.</l>
+			</sp>
+			<stage>Rey der Egyptenaren</stage>
+			<sp who="#man">
+				<speaker>Man.</speaker>
+				<l>Wy offeren ons leet, ons tranen aende voeten</l>
+				<l>Van s'Konincx Majesteyt, om onsen druck te boeten</l>
+				<l>Met ons verscheurde kleet, en ons verbleeckt ghelaet,</l>
+				<l>Waer uyt ghy leest wat in ons hert gheschreven staet,</l>
+				<l>Ons droeve klachten, laes! sijn hoogheyt niet en belgen,</l>
+				<l>Den Hemel sal op 't lest ons t'eenemael verdelghen.</l>
+				<l>Dus langhe heeft hy steeds ons vleughelen ghekort,</l>
+				<l>En d'een op d'ander mael den blixem neer ghestort</l>
+				<l>Van sijne gramschap, ach! siet hoe ons velden schynen</l>
+				<l>Niet dan een wildernis en doornige woestynen,</l>
+				<l>Ons bomen zijn niet meer met vruchten schoon bekleet,</l>
+				<l>Noch d'aerde met geen groen tapyten meer bespreet,</l>
+				<l>De bloemen zijn verwelckt, de kruyden en de loven</l>
+				<l>Zyn met hun lieflijckheyt en soeten reuck verstorven,</l>
+				<l>Waer op Aurora eer met 't kriecken vanden dag</l>
+				<l>De tranen vanden dau te distilleren plag,</l>
+				<l>Zephyrus voert niet meer op syne sagte vlogels</l>
+				<l>Den blyden Echo van de sorgeloose vogels,</l>
+				<l>Noch 't soet gelureluer van Pans veel gaetsche pijp</l>
+				<l>In langen niet gehoort is in dit rondt begrijp,</l>
+				<l>Het veltsche Beestiael is schielijcken gestorven,</l>
+				<l>Den droeven Ackerman sijn velden siet bedorven,</l>
+				<l>Sijn ploegen is vergeefs, sijn zaeysel is onnut,</l>
+				<l>Sijn ackers liggen woest en mager uytgeput,</l>
+				<l>Den Herder laet sijn vee, den Iager 't wout gehugtig,</l>
+				<l>Den Bouwer syne ploeg, den Visscher 't net doorlugtig,</l>
+				<l>Den Vogh'laer synen strick daer eertijds 't sorgeloos</l>
+				<l>Wilt vogelken so dick sijn vryheyt in verloos.</l>
+			</sp>
+			<sp who="#vrou">
+				<speaker>Vrou.</speaker>
+				<l>Maer, och! ontydelijck met dat sich eerst uytstreckte</l>
+				<l>De schaduw deses nachts, ontydelijck ons weckte,</l>
+				<l>Een jammerlijck geschrey, als een die onder s'Leeuws</l>
+				<l>Grijp-klauwen sich alleen verweert met met veel geschreeuws;</l>
+				<l>Wy vlogen al verbaest, ach! 't wert van tijt noch eeuwen</l>
+				<l>Soo lange d'outheyt ons grijs-harig sal besneeuwen,</l>
+				<l>Uyt ons gemoet gewischt, wy vlugen al verbaest</l>
+				<l>Naer 't bedde van die ons op 't herte lagen naest,</l>
+				<l>Te spade, eylaes! te spaed, de doot ons hier verraste;</l>
+				<l>De pols was wech eer elck al bevende noch taste</l>
+				<l>Naer 't leven van sijn kint, en yder moeder sag</l>
+				<l>Soo haest als van de kaers scheen eenen lichten dag,</l>
+				<l>In 't droefste vanden nacht, in eenen slaep te vaste</l>
+				<l>Het wit yvooren beelt, het schepsel van albaste</l>
+				<l>Sijns kints in 't pluymig bed: elck kreesch, elck riep terstont</l>
+				<l>Des spigels krystalijn op s'kints verbleecten mondt:</l>
+				<l>Maer ziel en leven was vervlogen met den aessem,</l>
+				<l>Want 't glasige krystal bleef suyver sonder waessem,</l>
+				<l>De roosen waren op de kaecxkens al verwelct,</l>
+				<l>'t Corael waer met soo dick dees' borsten zijn gemelct,</l>
+				<l>Was vande lippen weg, de stralen sonderlingen</l>
+				<l>Van d'ooghskens vriendelijck (die plagten te doordringen,</l>
+				<l>Dit moederlijcke hert, ach! dat soo veel verliest)</l>
+				<l>En flickerden niet meer, maer waren al bevliest,</l>
+				<l>Van twee wijnbrauwen droef; dat liever noyt dees' ooren,</l>
+				<l>En hadden 't soete woort van Moeder mogen hooren</l>
+				<l>Ach! ongevallig eynde! ontydelijcke doot!</l>
+				<l>Gy treft met uwen flits die eerst uyt s'moeders schoot,</l>
+				<l>Beschouden s'Hemels licht, eylaes! voor al de smerte</l>
+				<l>En pijn, wats mynen loon? niet dan 't doorschoten herte</l>
+				<l>Van myn verkoren bloet: ach! eer gy oyt verreest.</l>
+				<l>Had beter s' moeders buyck u doncker tomb geweest:</l>
+				<l>Hoe is dus mynen troost, hoe is dus mynen roeme</l>
+				<l>Op eenen nacht verwelckt gelijck een dorre bloeme.</l>
+			</sp>
+			<sp who="#man">
+				<speaker>Man.</speaker>
+				<l>Oft desen dooden mondt noyt Vader, Vader riep,</l>
+				<l>Dees wiens liefde in myn hert begraven lag soo diep,</l>
+				<l>Die letterlijcken stondt in myn gemoet geschreven,</l>
+				<l>De Sonne van myn vreugt, de Ziele van myn leven,</l>
+				<l>Den rechten erfgenaem, en d'aldernaesten oor</l>
+				<l>Van al myn rijcke haef, van 't gout in myn thresoor,</l>
+				<l>Ia 't beelt mijns aengesichts, de wortel die de vruchten</l>
+				<l>Myns zaets beloofden voort te brengen met genuchten</l>
+				<l>‘Wat is ons leven? ach! wat is ons leven oock?</l>
+				<l>‘Een lieffelijcke bloem, bel, bobbel, damp en roock</l>
+				<l>‘Oft smoock, die inde locht verblaesen en verswenen</l>
+				<l>‘Gelijck een schauw verstuyft, en ydel vliegt daer henen:</l>
+				<l>‘Het duert een wyle maer een tydeloosen eeuw,</l>
+				<l>‘En smelt weer lichter als een wit-gevlocte sneeuw,</l>
+				<l>‘Oft als een ysen beelt, 't welck spoedig overwonnen</l>
+				<l>‘Syn statua verliest met stralen eender Sonnen,</l>
+				<l>‘'T is als een blixems licht, dat nauw om schynen poogt</l>
+				<l>‘En mist sijn heerlijckheyt met dat het sich vertoogt,</l>
+				<l>‘Een torts die duerig schynt en smeltet al besweken,</l>
+				<l>‘Met dat heur lemmet sparct, met dat sy is ontsteken:</l>
+				<l>‘Hoe vlien ons dagen weg, als waren sy gevlerckt,</l>
+				<l>‘Ons uyren zijn bestemt, en onsen tijdt beperckt,</l>
+				<l>‘Ons wiege wert ons graf, ons leven is verloren,</l>
+				<l>‘Wanneer wy naulijcx zijn uyt s' moeders schoot geboren.</l>
+			</sp>
+			<sp who="#vrou">
+				<speaker>Vrou.</speaker>
+				<l>Dus schreyden d'ouders vast in sulcken harden proef,</l>
+				<l>Ons oogen vloeyden, laes! als twee fonteynen droef,</l>
+				<l>De suster op heur sus, de broeder op syn broeder</l>
+				<l>Riep, oft noyt uyt den schoot van een verkooren Moeder</l>
+				<l>Wy beyd' waren geteelt, och! oft wy noyt met smert</l>
+				<l>En pijn hadden gedruckt een selfde Moeders hert;</l>
+				<l>Och! waren wy noyt beyd' uyt eenen bloet geronnen,</l>
+				<l>Noch noyt door eenen rinck geraeckt in 't ligt der Sonnen,</l>
+				<l>Noch van een Vader noyt in sijne liefde soet</l>
+				<l>Gewonnen op een Koets, noch met de melck gevoedt</l>
+				<l>Die uyt een ader vloot, noch t'samen opgevoestert,</l>
+				<l>Noch in een wanckel wieg met pijnen opgekoestert;</l>
+				<l>Soo'n had u droevig eynd, alst ommers wesen most</l>
+				<l>Ons soo veel suchten (laes!) noch tranen niet gekost,</l>
+				<l>Wat hebdy meer misdaen als wy, dat s' doodts verstaelden</l>
+				<l>Gescherpten schicht met een dees borsten niet doorstraelden?</l>
+				<l>O! helschen Atropos, Wie dacht, wien hadt gedacht.</l>
+				<l>Dat gy huns levens draet sout korten desen nacht?</l>
+				<l>Wy hadden uwe komst wel vlijtig waer genomen,</l>
+				<l>En niet den sachten slaep roet Lethes laten stromen,</l>
+				<l>Op ons gesloten oog, en noch voor 't laest adieu</l>
+				<l>Dees wangen eens gekust, eer uwe vlimme hieu,</l>
+				<l>En scheyden ziel en lijf wraeckgierig vanden and'ren,</l>
+				<l>Voor eeuwig hadden wy noch eens omhelst malkand'ren.</l>
+				<l>Ach! saliger ist Lyck 't welck hier ligt uytgestreckt</l>
+				<l>Dat nu den rouwe met heur vleugelen bedeckt,</l>
+				<l>Als wy, die treurig om dees droefheyt te versachten</l>
+				<l>Ons over stelpen in ons tranen en ons klachten.</l>
+			</sp>
+			<sp who="#man">
+				<speaker>Man.</speaker>
+				<l>Tweemael vijf straffen wy, eylaes! hebben gevoelt,</l>
+				<l>En worden altijt meer van droefheyt noch bespoelt,</l>
+				<l>Den Hemel even streng houdt zijnen boog gespannen,</l>
+				<l>Dies bidden wy verlaet d'Isralijtsche mannen,</l>
+				<l>Verlatet den Hebreen, ontsluyt Egyptenlandt,</l>
+				<l>Op dat sy hunnen Godt voldoen sijn Offerhandt,</l>
+				<l>Ontslaetse doch van 't Iock van al haer slavernyen,</l>
+				<l>En wilt ons alle voor een grooter straf bevryen.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Sy vluchten metter ijl van daer het morgen root</l>
+				<l>Verrijst, tot daer het licht neerdaelt in Thetis schoot,</l>
+				<l>Voor Pluto trecken sy soo wijt ter hellen neder,</l>
+				<l>Tot daer sy nimmermeer en keeren herwaerts weder,</l>
+				<l>Sy reysen naer 't besneeuwt en 't kout behyselt noort,</l>
+				<l>Tot daermen nimmermeer van hun vertrecken hoort,</l>
+				<l>Sy laten dan den Nijl die overvloeyt van 't goede,</l>
+				<l>Tot daer hun al gelijck moet drucken d'arremoede:</l>
+				<l>'t Weerspannigh slaefs gedrog, sy loopen al hun best,</l>
+				<l>Die ons gesont Climaet omsteecken als een pest,</l>
+				<l>Sy nemen al hun Vee, sy nemen al hun have,</l>
+				<l>En werden op het velt een spijse voor de rave,</l>
+				<l>Sy ruymen 't gantsche Rijck, sy loopen na hun doodt,</l>
+				<l>En erven Plutoos nest voor eenen sachten schoot.</l>
+			</sp>
+			<stage>Binnen.</stage>
+			</div>
+		<div type="scene" n="2">
+			<sp who="#den-reye-der-israëliten">
+				<speaker>Den Reye der Israeliten singhen.</speaker>
+				<l>HEbreen speelt s'Hemels lof</l>
+				<l>Nu op u luyte schoone,</l>
+				<l>Adieu Misraijns Hof,</l>
+				<l>Adieu Memphidis Throone.</l>
+				<l>Adieu Egypten-land,</l>
+				<l>Adieu Rijcx-staf en Kroone</l>
+				<l>Die Nylus sandig strandt</l>
+				<l>Beheerscht door Pharaone.</l>
+				<l>Adieu tyrannigh jock,</l>
+				<l>Adieu dienstbarig Gosen</l>
+				<l>Waer uyt de Heer ons trock</l>
+				<l>Door Aaron en door Mosen.</l>
+				<l>Israel wil 't belooft</l>
+				<l>Canaan nu gelucken,</l>
+				<l>Daer Juda syn voorhooft</l>
+				<l>Sal met een Kroone drucken,</l>
+				<l>Daer Iuda onder 't licht</l>
+				<l>En 't wanckel rondt der Manen</l>
+				<l>Syn Stoel en Setel sticht</l>
+				<l>By 't stroomen der Iordanen.</l>
+				<l>Gy Philistinen haest,</l>
+				<l>En gy ô Iebusiten!</l>
+				<l>Met Amaleck verbaest</l>
+				<l>Maeckt plaets met d'Ammoniten.</l>
+				<l>De Koning Iuda komt</l>
+				<l>Preuts in u schoenen treden,</l>
+				<l>O luyster! hoe hy tromt,</l>
+				<l>En naerdert met syn schreden.</l>
+				<l>Dat dynen hoogmoet daelt</l>
+				<l>Voor die syn Rijck wil vesten</l>
+				<l>Gelijck den blixem straelt</l>
+				<l>Van 't Oosten tot den Westen.</l>
+				<l>V Grentzen open sluyt</l>
+				<l>Voor onsen Prins personigh</l>
+				<l>En laet tot roof en buyt</l>
+				<l>V melck en uwen honingh.</l>
+				<l>Iordaen die vanden 't sop</l>
+				<l>Der heuvelen komt bruysschen,</l>
+				<l>Steeckt u blau hoorenen op,</l>
+				<l>En laet u bobbes tuysschen,</l>
+				<l>Golft in d'azure Zee,</l>
+				<l>Segt d'Oceaensche baren</l>
+				<l>Hoe Iuda op u Ree</l>
+				<l>Komt synen Throon pilaren.</l>
+				<l>Sinai maeckt dy ree,</l>
+				<l>Want op u hoogte steylig</l>
+				<l>Wil smoocken doen d'Hebree</l>
+				<l>Syn brant-offeren heylig.</l>
+				<l>Dat Horeb eewig staet</l>
+				<l>Geresen onder 't Maenschijn,</l>
+				<l>En tuygt wie heeft gedwaet</l>
+				<l>De tranen van ons aenschyn.</l>
+				<l>Menschen stappen sullen eer</l>
+				<l>Des Hemels Circkel meten,</l>
+				<l>Dan hunnes Coninghs eer</l>
+				<l>Israel sal vergeten.</l>
+				<l>Den Engel maeckt het spoor,</l>
+				<l>O laet ons niet verslappen</l>
+				<l>Ons Leyds-lien treden voor,</l>
+				<l>Wy volgen hunne stappen.</l>
+			</sp>
+			<stage>Binnen.</stage>
+			</div>
+		<div type="scene" n="3">
+			<stage>Pharao den Coninck. Albinus Velt-hooftman met sijn Heir-legher.</stage>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Die niet ontsiet den roem sijns Scepters te bevlecken,</l>
+				<l>Mach doen als Pharao, en laeten henen trecken</l>
+				<l>De Slaven van sijn Rijck, die onder s'Hemels wiel</l>
+				<l>Den Koning eygen zijn met lichaem en met ziel,</l>
+				<l>Die steets gehouden zijn den Koning toe te wyden</l>
+				<l>De vruchten van hun sweet, en honger selfs te lyden.</l>
+				<l>Die Slaef die s'Princen hooft met een gemarmort dack</l>
+				<l>Moet overwelven s'daegs, en onder 't Hemel-vlack</l>
+				<l>Self slapen al den nacht, en dobbel wert vergouden,</l>
+				<l>Wanneer by synen loon hy 't leven mach behouden,</l>
+				<l>Oft rekent synen Heer hem 't schuymsel vander aerdt,</l>
+				<l>En is hy op de helft nau soo veel eeren waert,</l>
+				<l>Geen vryheyt komt hem toe, ten zy hy 't mach verwerven</l>
+				<l>Door synes Konincx gonst, oft eyndelijck door sijn sterven.</l>
+				<l>Vast hebben dees Hebreen verdobbelt sno en valsch</l>
+				<l>'t Iock van hun dienstbaerheyt geschoven van den hals,</l>
+				<l>Door toverkonst huns Gods, die 't scheen ons sou verdelgen</l>
+				<l>En heel Egypten in sijn toornigheyt verswelgen.</l>
+				<l>Soo nu sijn rechte hant verlamt is noch verkort,</l>
+				<l>Hy neemt den hantschoen op die hem geboden wort.</l>
+				<l>Sy sijn wel uyt 't gesicht, maer noch niet uyt mijn handen,</l>
+				<l>Noch uyt hun slaverny, al schynense uyt de banden</l>
+				<l>Van 't slaefsche Iock te zijn: Sy werden na gedraeft,</l>
+				<l>En eer den vluggen tijdt de bleecke Son begraeft,</l>
+				<l>Sie ick hun achterhaelt en onversiens bedrogen,</l>
+				<l>Gelijck de vogel 't net wert over 't hooft getogen,</l>
+				<l>En als in 't bladig bosch soo schielijck 't bloode Hert</l>
+				<l>Beschreyt sijn vryheydt, alst in stricken is verwert,</l>
+				<l>Soo sal oock al betraent 't Heyr-leger der Hebreeuwen</l>
+				<l>Hun vryheyt sien berooft voor allen tijde en eeuwen.</l>
+				<l>Tsa Hooftman, waerwaerts ist dat sy getogen zijn?</l>
+			</sp>
+			<sp who="#albinus">
+				<speaker>Hooft.</speaker>
+				<l>Ontsiende 't bloedig stael des preutschen Philistijn,</l>
+				<l>Heer Koningh, al verbaest begaf sich desen swerme</l>
+				<l>Daer 't rood Arabisch Meirs gekromden woesten erme</l>
+				<l>Dit Rijck ten deel omvangt, en de woestijne dreygt,</l>
+				<l>Gewapent naulijcx, sy om stryden niet geneygt</l>
+				<l>En schenen, noch bequaem ten minsten hun vyanden</l>
+				<l>Het half ghelaet te bien, ick late staen hun tanden</l>
+				<l>Te breken met gewelt: indien gy desen Rey</l>
+				<l>Vervolgt, genadig Vorst! voort oorloogs velt-geschry.</l>
+				<l>Sy raken inde vlucht, en reppen t' saem hun zolen,</l>
+				<l>Als Schaeps-kud die de Wolf het herte heeft ontstolen,</l>
+				<l>Om geen beschermer denckt, maer van een bende haest</l>
+				<l>Wel hondert benden maeckt, en vluchtig al verbaest.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Wel aen de Rossen toomt om geenen tijdt versuymen.</l>
+			</sp>
+			<sp who="#albinus">
+				<speaker>Hooft.</speaker>
+				<l>Sy briesschen, en 't gebit huns breydels doen sy schuymen,</l>
+				<l>En zijn met strydtschen moedt gespannen in 't 't gareel,</l>
+				<l>De wagens toegerust, en 't Leger al geheel</l>
+				<l>Gehelmt, gestockt, gestaeft, vierkantig in slag-orden</l>
+				<l>Verlangt wanneer den tocht sal aengevangen worden.</l>
+			</sp>
+			<sp who="#pharao-den-koningh">
+				<speaker>Phar.</speaker>
+				<l>Soo treedt de Koning voor, op trommel en trompet,</l>
+				<l>De wapen-roovers noodt tot 't bloedige banckt,</l>
+				<l>Dat elck sijn hielen licht, 't is geenen tijdt om hincken,</l>
+				<l>Nu in bestoven velt Mars synen schilt doet blincken,</l>
+				<l>Krijght onder zijn banier, hy leydt u aenden dans,</l>
+				<l>Des overwinners hooft omvlecht den Lauwer-krans,</l>
+				<l>Den weg is al gebaent, dus laet ons niet verslappen,</l>
+				<l>Soo verr' te vinden is het spoor van hunne slappen.</l>
+			</sp>
+			<stage>Binnen.</stage>
+			</div>
+		<div type="scene" n="4">
+			<sp who="#choor">
+				<speaker>CHOOR.</speaker>
+				<l>DIe den Hemel derf bekrygen,</l>
+				<l>Sal wel voor een wijl opstijgen,</l>
+				<l>Even als Neptunus vocht</l>
+				<l>Worpt sijn baren na de locht,</l>
+				<l>Die van selfs in korter stonden,</l>
+				<l>Weder vallen in d'afgronden,</l>
+				<l>Oft gelijck een vlam geswint,</l>
+				<l>Licht op na den Hemel klimt,</l>
+				<l>Diemen wederom sig zelven</l>
+				<l>En syn asschen siet bedelven:</l>
+				<l>Want de groote goetheyt Godts</l>
+				<l>Latet wel den Koning trots</l>
+				<l>Op het hoogste en even dolle</l>
+				<l>Woeden, doch wanneer hun rolle,</l>
+				<l>Is ten uytersten vol-speelt,</l>
+				<l>Op 't Theatrum getoneelt,</l>
+				<l>En wanneer hy met berommen</l>
+				<l>Meynt ten hoogsten zyn geklommen,</l>
+				<l>Stoot den Godlijcken Monarch</l>
+				<l>Hem afgrijsigh vanden Berg,</l>
+				<l>Hoe hy was den Hemel naerder</l>
+				<l>Hoe den val hem is te swaerder,</l>
+				<l>Hoe hy meerder opwaerts steeg</l>
+				<l>Hoe hy dieper valt om leeg,</l>
+				<l>Hoe hy meerder rees verkorselt</l>
+				<l>Hoe hy platter valt vermorselt.</l>
+				<l>☛ Dit blijckt aen Pharao straf,</l>
+				<l>Die soo blind'ling loopt na 't graf,</l>
+				<l>Die in s' Heeren straffe tydig</l>
+				<l>Blijft verstockt, versteent partijdig</l>
+				<l>Daer een yeder toe als vrient</l>
+				<l>Hem tot beteringhe dient:</l>
+				<l>Want de strengheyt Godts ten lesten</l>
+				<l>Yder een kastijdt ten besten,</l>
+				<l>En syn geessel al begrijft</l>
+				<l>Op een grooter roede wyst.</l>
+				<l>☛ Wie dan in der Sonnen luyster</l>
+				<l>Sluyt syn oogen in het duster,</l>
+				<l>Wie d'aenkloppers van 't gemoet</l>
+				<l>S'herten deur niet open doet,</l>
+				<l>Wie soo vele donderslagen</l>
+				<l>Luyden laet voor ydel vlagen,</l>
+				<l>Op het onversienste balt</l>
+				<l>S'Heeren blixem overvalt:</l>
+				<l>Gelijck desen Koning prachtig</l>
+				<l>Die geen teeckenen aendachtig</l>
+				<l>Mochten leyden uyt den tret</l>
+				<l>Van syn opstinaet opset.</l>
+				<l>Dies de Heere t' eenemalen</l>
+				<l>Hem ontreckt de helder stralen</l>
+				<l>Van syn Hemelsch aengesicht,</l>
+				<l>En verdustert hem int licht,</l>
+				<l>In verkeertheyt overgheven,</l>
+				<l>Tot hy eyndelijck ghedreven</l>
+				<l>Even als een roerloos schip,</l>
+				<l>Dryft al blind'ling op de klip</l>
+				<l>Van syn overgheven boosheyt,</l>
+				<l>Van syn stoute Goddeloosheyt,</l>
+				<l>Indien afgrondt en 't verleyt,</l>
+				<l>Van syn overgeventheyt.</l>
+			</sp>
+			</div>
+		</div>
+	<div type="act" n="5">
+		<div type="scene" n="1">
+			<head>Het vyfde en laetste deel</head>
+			<sp who="#fama">
+				<speaker>Fama, oft 't blasende gherucht.</speaker>
+				<l>'t Heir-leger Israels (dat God selfs hadgeleyt</l>
+				<l>Onder sijn vleug'len uyt d'Egipt'sche dienstbaerheyt,</l>
+				<l>Dat God s'nacht voorging in een vierige Colomme</l>
+				<l>En s'daegs in eene Wolck) Pharao wederomme</l>
+				<l>Had eyndlijck achterhaelt, en met sijn oorlogs-heir</l>
+				<l>Omringt tusschen 't gebergt en tusschen 't roode Meir,</l>
+				<l>Dat met de Sonne quam de duysternis verrasschen,</l>
+				<l>Sich spiegelden verbaest in soo veel harrenasschen</l>
+				<l>In soo veel yser-blau, dies riepen sy, ten helpt,</l>
+				<l>Wy blyven 't samen hier in droefheyt ovestelpt,</l>
+				<l>Wy zijn besloten van 't gebergt en vande baren,</l>
+				<l>Van soo veel oorlogs-volck en toegeruste scharen:</l>
+				<l>Ha Amrams sonen snoo! die ons soo onbedogt</l>
+				<l>Vervoert, hier op een graf en kerck-hof hebt gebrogt:</l>
+				<l>O salig waren wy in arbeyt en in slaven</l>
+				<l>Eer in Egyptenlant gestorven en begraven:</l>
+				<l>Verraders vanden Rey en 't Leger der Hebreen,</l>
+				<l>Een yder wreeck sich self en worp den eersten steen.</l>
+				<l>Gelijck de Reysigher, (als in d'azure golven</l>
+				<l>Van eenen waterbergh bedeckt wort en bedolven</l>
+				<l>Het vlottig schip, wanneer sich Boreas verheft,</l>
+				<l>En 't golvig driftig hout met groene baren treft)</l>
+				<l>Den Schipper dreygen vast, soo voor de stuere winden</l>
+				<l>Hy 't opgeblasen zeyl wil strijcken noch ontbinden:</l>
+				<l>D'een met een bleeck gelaet na 't leven vast de doot</l>
+				<l>Afschildert, d'ander klaegt dat in Thetidis schoot</l>
+				<l>Hy vint syn duyster tombe, en d'ander dat syn leven</l>
+				<l>Ontijdelick hy moet den baren overgeven,</l>
+				<l>Dat ondertusschen heeft den Zeeman al ontrust</l>
+				<l>Genoeg te doen eer hy d'een stilt en d'ander sust.</l>
+				<l>Zoo oock in desen storm d'Israelijtsche Hoeders</l>
+				<l>Aaron en Moses beyd vertroosten hun gebroeders,</l>
+				<l>En roepen, Mackers denct dat uwen Koning leeft,</l>
+				<l>Die midden in s'doots noot de syne't leven geeft,</l>
+				<l>T'is eene vasten gront, en twijffelt niet zoo wancker,</l>
+				<l>Vest u geloov' op hem, en worpt der hopen ancker</l>
+				<l>Op Gods almachticheyt, die 't steyl gebergte kan</l>
+				<l>Tot dalen platten, en verdroogen d'Ocean,</l>
+				<l>Den jongsten toont hoe hun den Hemel is te goede,</l>
+				<l>En slaet met syne dood en levendige roede</l>
+				<l>Het woeste baergeplots dat sich verdeylet stuer,</l>
+				<l>En weder zijden maeckt een roo robijnen muer,</l>
+				<l>Een schutsel van crystal, en nemet syn afscheytsel</l>
+				<l>Zoo wijt dat midden blijft een guldich zant plaveytsel,</l>
+				<l>Een droogen vloer geschelpt, waer op dees Leytslien voor</l>
+				<l>'T gantsch Leger volgen doen hun stappen op het spoor.</l>
+				<l>O zeldsaem wonder werck! wie zal ick best gelijcken</l>
+				<l>Israel die zoo haest een plaetse vint om wijcken,</l>
+				<l>Als by de watervloet, die stroomich op gehoopt</l>
+				<l>Een leeger diepte vint en snellijcken verloopt.</l>
+				<l>Terwijlen dus d'Hebreen (spijt 't wesen der natueren)</l>
+				<l>Vast dweerssen dese straet van crystalijne mueren,</l>
+				<l>Roept d'een, de Zee is droog, en 't water even vocht</l>
+				<l>Hangt ick en weet niet hoe tot boven inde locht,</l>
+				<l>En d'ander krijst, wat 's dit? t' roo meir schynt opgeblasen,</l>
+				<l>Thetis ciert heur parruyck in dese spiegel glasen:</l>
+				<l>Waer toe met schepen meer gevloten over 't nat,</l>
+				<l>Wanneer men doorgaens vint zulck eenen droogen pat?</l>
+				<l>Waer toe dient doch 't compas en d'opgespannen zeylen,</l>
+				<l>Oft grondloos diep-loot om de diepten met te pylen?</l>
+				<l>Dus in verwondering treet vast 't heyrlegher voort,</l>
+				<l>En vindet sich droogs voets van d'een op d'ander boort</l>
+				<l>Behouden op het strant, dies Pharao verbolgen</l>
+				<l>Verkiest den zelfden pat om flocx hun t' achtervolgen</l>
+				<l>Met al syn wapentuyg, met al syn krijchs gewelt,</l>
+				<l>En is nau int gebiet van 't zandich Zeesche velt</l>
+				<l>Oft den Hebreeuschen God beginnet sich te belgen,</l>
+				<l>Die om hun in een graft te samen te verswelgen,</l>
+				<l>Een slincx onweder van den Hemel neder worpt,</l>
+				<l>Dat 't slibberig gebergt weer in sijn holte slorpt,</l>
+				<l>Dat yder over hooft en hals in 't diepste sobbelt,</l>
+				<l>En comen door 't gegolf eens eyndling opgebobbelt</l>
+				<l>Met eysselijck geschreeuw, half levende en half doot:</l>
+				<l>De dooden zijn alree meer als der golven vloot:</l>
+				<l>D'eene roept Osiris, o! helpt my te boven klemmen</l>
+				<l>En d'ander, help Isis, op dat ick 't mach ontswemmen,</l>
+				<l>D'een is met 't harnas swaer gesoncken inden gront.</l>
+				<l>D'een hout sich aende Koets, oft aen de wielen ront,</l>
+				<l>En d'ander al verbaest, om boven 't water wacker</l>
+				<l>Noch 't hooft te houden op, grijpt synen naesten Macker</l>
+				<l>En sincken beyde gaer: de Zee dit altijt woelt,</l>
+				<l>Wat noch te boven drijft voorts inden afgront spoelt.</l>
+				<l>Den Prince vanden Nijl, die in sijn Koetse deftig,</l>
+				<l>Wert voorts getrocken van sneeu witte hengsten heftig,</l>
+				<l>Vervloeckt de troubel Zee, de golven sout geswint,</l>
+				<l>Den Hemel en de locht, de blixems en de wint,</l>
+				<l>En om ontyd'lijck noch de bleecke doot t'ontvlieden,</l>
+				<l>Derf hy den dullen storm 't hooft even dapper bieden,</l>
+				<l>En stijght de baren op, en krijschet, oft ghy schuymt,</l>
+				<l>Voor desen gaffel spits de wech nae 't strant op ruymt,</l>
+				<l>Ick ben Neptunus self den God van dese stranden,</l>
+				<l>Ontsiet myn blauwe spriet met dry gescherpte tanden:</l>
+				<l>Ghy bruyscht, ghy swalpt, en krielt, siet wie gy rebelleert;</l>
+				<l>Ick bent, die op het diep van uwen stroom laveert.</l>
+				<l>Den Ocean en past op vloecken noch op schelden,</l>
+				<l>Sijn dreygementen dweers en mogen hier niet gelden;</l>
+				<l>Nae dat hy sevenmael met 't woest getuymel vocht,</l>
+				<l>Sijn voorhooft heeft gebergt ten wolcken inde locht,</l>
+				<l>En weder sevenmael gedaelt is inde vesten</l>
+				<l>Van 't grondeloose diep, hem eyndelijck ten lesten</l>
+				<l>De vochtigheyt verswaert, ja alle hoop berooft,</l>
+				<l>En in heur grimmigheyt delft over hals en hooft.</l>
+				<l>Ick geef te dencken voorts, de Hebreen die 't aensagen</l>
+				<l>Hoe hunne vyant lach so corteling verslagen,</l>
+				<l>Hoe God so lichtelijck den pratten hoogen moet</l>
+				<l>Pharaos had gedempt vertreden onder voet,</l>
+				<l>Oft met een yders tong van vrolijckheyt ontsprongen,</l>
+				<l>Den drymael hoogen lof des Hemels heeft gesongen,</l>
+				<l>Als sy aenschouden vry van s'Conincx wreetheyt straf.</l>
+				<l>Dat hun verlossing werdt Pharao tot een graf,</l>
+				<l>Diens corten onderganck, diens droevig treurspel even</l>
+				<l>En onversienste doot hun strecte tot den leven.</l>
+				<l>De winden en het Meyr goetjonstig wierpen ruyt</l>
+				<l>d'Egyptsche wapening weer aenden oever uyt,</l>
+				<l>Wierp harnasch schilt en sweert juyst den Hebreen in handen,</l>
+				<l>Daer sy eerst werden met gedreygt van hun vyanden:</l>
+				<l>Dit heb ick self gesien, die heb ick self gehoort,</l>
+				<l>En deylt een yder voor de suyver waerheyt voort,</l>
+				<l>Veel wyder alsmen siet Son, Maen en Sterren blincken</l>
+				<l>Sal ick dees nieuwe-maer met mynen tromp doen klncken.</l>
+			</sp>
+			<stage>Binnen.</stage>
+			</div>
+		<div type="scene" n="2">
+			<sp who="#den-reye-der-israëliten">
+				<speaker>Hymne ofte Lof-sangh vanden Israelijtschen Reye.</speaker>
+				<l>NV singt, nu speelt, nu reyt en danst</l>
+				<l>Nu looft den Heer der Heeren</l>
+				<l>Die ons met d'overhant bekranst,</l>
+				<l>Vlegt hem een croon van eeren,</l>
+				<l>Hy is die al de banden van</l>
+				<l>Ons slavernye breken kan,</l>
+				<l>En onsen rou in vrolijcheyt verkeeren.</l>
+				<l>De Heere gedenckt aen sijn verbondt</l>
+				<l>Over syn uytvercoren,</l>
+				<l>Looft hem met ziele, tong, en mondt,</l>
+				<l>Die Israel staet vooren,</l>
+				<l>Die Iacobs Huys in dienstbaerheyt</l>
+				<l>Onder syn schaduwe bespreyt,</l>
+				<l>Prijst synen Naem, en wilt nu vreught orboren.</l>
+				<l>Hy is den God van Abraham</l>
+				<l>Isac en Iacob machtigh,</l>
+				<l>Die nu tot Koning salft den stam,</l>
+				<l>Den stamme Juda kragtig,</l>
+				<l>Die ons nae 't soet beloofde Landt</l>
+				<l>Geleydet door syn stercke handt</l>
+				<l>Om heerschen in 't landt Canaan eendragtig.</l>
+				<l>In 't Landt daer melc en honing vloeyt,</l>
+				<l>Daer de Iordaen beneven</l>
+				<l>Stroomt, die uyt soo veel beecxkens groeyt</l>
+				<l>Van 't steyl gebergt verheven:</l>
+				<l>Daer als de baren van der Zee</l>
+				<l>Of 't sant der stranden nu alree,</l>
+				<l>'t Saet Israels doet syn vyanden beven,</l>
+				<l>Looft desen Krijghs-helt onvervaert.</l>
+				<l>Die paerden, ros en wagen,</l>
+				<l>'t Gewapent heir met schilt en swaert</l>
+				<l>Heeft mannelijck verslagen,</l>
+				<l>Met den verstockten Koning trots,</l>
+				<l>Bout op dees klip en stercke rots,</l>
+				<l>Die niet en swigt voor stormen en zeevlagen.</l>
+				<l>Den root-scharlaken mantel breyt</l>
+				<l>Van 't roode Meir hy scheurde,</l>
+				<l>En heeft gult zandig geplaveyt</l>
+				<l>Een effen straet, waer deur de</l>
+				<l>Hebreen ontweken hun misval,</l>
+				<l>Tusschen twee mueren van crystal,</l>
+				<l>Daer Pharao den laetsten sucht betreurde.</l>
+				<l>Pharao die ons op de hiel</l>
+				<l>Vervolgde met syn scharen,</l>
+				<l>'T zee-water stormich overviel</l>
+				<l>Met 't swalpen vande baren,</l>
+				<l>Die 't voorhooft bergen in 't gestert,</l>
+				<l>Indien afgrondt vernedert wert,</l>
+				<l>Speelt s'Heeren lof op Harpen en op snaren.</l>
+				<l>Pharaos wimpelen ontdaen</l>
+				<l>En sag men niet meer swieren,</l>
+				<l>Noch 't bloet zeyl van syn oorlogs vaen,</l>
+				<l>Noch al syn roo banieren,</l>
+				<l>Syn wapens en geslepen stael</l>
+				<l>Sonck met syn rusting altemael,</l>
+				<l>Wilt hem op 't plat van syn Altaren vieren.</l>
+				<l>Bout al u hoop op desen Steen,</l>
+				<l>Bout u geloove vaste</l>
+				<l>Op den Monarche der Hebreen,</l>
+				<l>Die Pharao verraste,</l>
+				<l>Die des Tyrans voornemen schort,</l>
+				<l>Den hoogmoet van hun vleugels cort,</l>
+				<l>En met syn stercke schouders ons ontlaste.</l>
+				<l>In koper steen, noch yser hert,</l>
+				<l>Alleen niet dees weldaden</l>
+				<l>En prent, maer schrijft oock in u hert</l>
+				<l>Godts goetheyt vol ghenaden,</l>
+				<l>Die ons 's doodts muyle heeft ontruckt,</l>
+				<l>Groen Palmen myrte tacken pluckt,</l>
+				<l>Kroont, ciert, en vlecht u hooft met Lauwer-bladen.</l>
+			</sp>
+			<sp who="#moyses">
+				<speaker>Moyses doet sijn Offerhande ende spreect.</speaker>
+				<l>Dewijl Israel ontruckt is uyt sijn slaefsche banden,</l>
+				<l>Soo styg ten Hemel-waert ons herte met 't gesmoock</l>
+				<l>Van desen Altaer, als een lieffelijcken roock</l>
+				<l>Ontfangt o Heer! ontfangt dees' heylige offerhanden.</l>
+				<l>Ontfangt dees' offerhand tot een danckbaerig teycken</l>
+				<l>Oft schoon den teeren mensch niet anders wedergeeft</l>
+				<l>Dan 't gene hy (eylaes!) van u ontfangen heeft,</l>
+				<l>Sijn swacke sterffelijckheyt niet hoogers mach bereycken.</l>
+				<l>Gy zijt de volheyt self, de spruytende fonteyne</l>
+				<l>Die oververvloeyt van 't goede: ô mensch! die niet en hebt</l>
+				<l>Yet goets, als 't geen gy uyt dees' suyver borne schept,</l>
+				<l>En zijt niet van u selfs als stof en asch onreyne.</l>
+				<l>Wat offert gy den Heer? niet anders als den lof der</l>
+				<l>Oprechter lippen vroom voor sijn weldadigheyt,</l>
+				<l>'t Welck God veel meer behaegt als boc, stier, kalf of geyt,</l>
+				<l>‘Een danckbaer hert is hem den aengenaemsten offer,</l>
+				<l>'t Is God die 't al uyt Niet heeft door sijn woort geschapen</l>
+				<l>Die 't wonderlijck geheel gegeven heeft den eysch,</l>
+				<l>Gewelft, gebout, geçiert gelijck een schoon Palleys,</l>
+				<l>De Stieren hooren hem de Kalveren en Schapen.</l>
+				<l>Niets isser soo gering of 't is van hem gevloten,</l>
+				<l>Hy hevet al gemaeckt, ô groot is uwen lof!</l>
+				<l>Die 't al hebt rijckelijck gebouwet sonder stof,</l>
+				<l>Soo ghy in uwen raet verholen hadt besloten.</l>
+				<l>Heer, dit bekennen wy noch eenemael met verlangen,</l>
+				<l>Wat wy op den Altaer in vier en vlammen root</l>
+				<l>Onsteken, is gevloeyt uyt uwen milden schoot,</l>
+				<l>Ia hebben ziel en lijf van u, ô Godt! ontsangen.</l>
+				<l>Den offer comt u toe, die Heer verteert tot asschen,</l>
+				<l>Neemt dat u toebehoort: den Altaer toebereyt</l>
+				<l>Alleene zy 't bewys van onse danckbaerheyt,</l>
+				<l>Dat gy ons aenschyn van de tranen hebt gewasschen.</l>
+				<l>Dat ons gemoet u viert inwendig na den geeste,</l>
+				<l>En dat ons herte brant, gelijck als in 's vuyrs gloet</l>
+				<l>Op 't Heylige gesteent ons offerhande doet,</l>
+				<l>En dat wy uwe Wet betrachten aldermeeste.</l>
+				<l>Soo dickwils als het bloet der bocken sal besprengen</l>
+				<l>Des Altaers hooge plat, sal ick gedencken aen</l>
+				<l>Hoe wy de straffe hant uws Engels zijn ontgaen,</l>
+				<l>Waer door gy 't samen ons wout uyt Egypten brengen.</l>
+				<l>Ick sal gedencken hoe om Pharaos verdinsten</l>
+				<l>Al d'eerstelingen van geheel Egyptenlant</l>
+				<l>Van menschen en van vee door uwe stercke hant</l>
+				<l>Geslagen werden van den meesten tot den minsten.</l>
+				<l>En hoe gy ons verlost hebt uyt de tyrannye</l>
+				<l>Van desen Coningh, die om sijn hartneckigheyt</l>
+				<l>Met syne hooghmoet nu in 't Meir begraven leyt,</l>
+				<l>Waer door wy zijn ontboeyt van al ons slavernye.</l>
+				<l>O Heer, bereyt den weg, en trect noch voor ons henen,</l>
+				<l>Gelijck gy tot noch toe gedaen hebt goedertier,</l>
+				<l>Des daegs in eene Wolck s'nachts in een vlammig vier</l>
+				<l>Vertsaegt voor onse comst de stoute Philistinen,</l>
+				<l>Waer in gy my oock zijt op Sinai verschenen.</l>
+				<l>Quetst hunnen preutschen moet, o Heer, blijft onsen borgt</l>
+				<l>En onsen schilt, op dat wy mogen onbesorght</l>
+				<l>Geraken door de dorre Arabische woestynen.</l>
+				<l>Op dat wy eyndelijck eens mogen triumpheren</l>
+				<l>In 't Lant van Canaan, en dat wy uwe Wet,</l>
+				<l>U offerhanden deer reyn suyver onbesmet,</l>
+				<l>En ons beloft voldoen, tot uws naems prijs en eeren.</l>
+			</sp>
+			<stage>Binnen.</stage>
+			</div>
+		<div type="scene" n="3">
+			<sp who="#choor">
+				<speaker>CHOOR.</speaker>
+				<l>S'Hemels goetheyt die voor henen</l>
+				<l>Ons Voorvaders heeft beschenen</l>
+				<l>Is hier op 't Tooneel herspeelt,</l>
+				<l>En nae 't leven afgebeelt.</l>
+				<l>Tijt noch de vergetenissen</l>
+				<l>Hoort uyt ons gemoet te wissen</l>
+				<l>Dees weldaden over groot</l>
+				<l>Neergedaelt uyt s' Hemels schoot.</l>
+				<l>Doch wanneer wy sien veel milder</l>
+				<l>Wat den Goddelijcken Schilder</l>
+				<l>Hier met naect af contrefeyt,</l>
+				<l>Raect dit in vergetenheyt,</l>
+				<l>En vertoont sich veel geringher,</l>
+				<l>Wanneer dit ons met den vingher</l>
+				<l>Wijst op 't ware wesen bly</l>
+				<l>Van dees Hemel schildery,</l>
+				<l>Op een grooter weldaer leerlijck</l>
+				<l>Die door Jesum Christum heerlijck</l>
+				<l>Ons soo ryckelijck beschynt,</l>
+				<l>Dat de schaduwe verdwynt:</l>
+				<l>Want wanneer de Sonne luystert,</l>
+				<l>'t Manen zilver wert verduystert,</l>
+				<l>'t Bleecste voor het helderst swyckt;</l>
+				<l>'t Minste voor het meeste wyckt:</l>
+				<l>Om den zin hier van te mellen</l>
+				<l>d'Een wy tegens d'ander stellen.</l>
+				<l>Nu het Rijck Egypten is</l>
+				<l>Oft beteyckent duysternis,</l>
+				<l>Daer in sware slavernye</l>
+				<l>Iacob onder d'heerschappye</l>
+				<l>Pharaonis met gheclagh</l>
+				<l>Droevelijck in boeyen lagh:</l>
+				<l>Maer door 't Goddelijck verwiere</l>
+				<l>Werden sy door 't roode Meire</l>
+				<l>'t Saem verlost uyt dees spelonck</l>
+				<l>Als den Pharao versonck</l>
+				<l>Met syn schilden en syn swaerden,</l>
+				<l>Met syn ruyters, volck, en paerden:</l>
+				<l>Even laghen wy verstrickt,</l>
+				<l>Leelijck in ons bloet verstickt,</l>
+				<l>Onder Satan, Hel, en Sonden,</l>
+				<l>In s'Doodts banden vast gebonden,</l>
+				<l>Maer door 's levens claer Fonteyn</l>
+				<l>Onsen Saligmaker reyn,</l>
+				<l>Als hy in het laetst der dagen</l>
+				<l>Aen het Cruyce wert geslagen,</l>
+				<l>Werden wy door syn bloet roodt</l>
+				<l>Vry van Sond, Hel, Duyvel. Doodt</l>
+				<l>Door syn goetheyt vol ghenaden</l>
+				<l>Afgewasschen ons misdaden:</l>
+				<l>Niet verlost als Jacob bloot</l>
+				<l>Van een tydelijcke doot:</l>
+				<l>Maer door desen Samson leeuwigh</l>
+				<l>Vry van d'Helsche pynen eeuwigh,</l>
+				<l>Van Gods onvergancklijck wee,</l>
+				<l>Van het sweert dat uyt der schee</l>
+				<l>Boven 't hooft ons dreygde grammigh</l>
+				<l>Met den brandt des afgronts vlammigh,</l>
+				<l>Israel trock al gelijck</l>
+				<l>Naer een aerdsch vergancklijck Rijck,</l>
+				<l>Dat maer voor een tyt mocht bloeyen,</l>
+				<l>Maer naer ons gebroocken boeyen</l>
+				<l>Ons de Heere roept tot hem</l>
+				<l>In het nieuw Ierusalem.</l>
+				<l>Loopt dan yverig geneghen,</l>
+				<l>Hebben wy door Christum kreghen,</l>
+				<l>Eenen weg gebaent en plat</l>
+				<l>Naer de schoone Hemel-stadt,</l>
+				<l>Daer doot, sieckte, strijt noch tranen</l>
+				<l>Ghelijck over der Jordanen</l>
+				<l>Ons meer sal ontmoet en wreet,</l>
+				<l>Alst den Israliten deed,</l>
+				<l>Die soo vlytig hun bewesen</l>
+				<l>In het uyterlijcke wesen,</l>
+				<l>Oock om slaghten 't suyver Lam,</l>
+				<l>'T Welck terstont een eynde nam,</l>
+				<l>Als den Godlijcken Messias</l>
+				<l>Daer den anderen Helias</l>
+				<l>Sijn vercoren Jongers vroet</l>
+				<l>Op wees met den vinger soet,</l>
+				<l>Alder schatten kleynoot koffer,</l>
+				<l>Doen die quam, en synen offer</l>
+				<l>Als Hoogh priester dede spa</l>
+				<l>Op den Berg Calvaria,</l>
+				<l>Doen hy tegens Satan kampten,</l>
+				<l>Alle Priester-dienst en ampten,</l>
+				<l>Eynden met het Paesschen feest,</l>
+				<l>Als de Joden jaerlijcx meest</l>
+				<l>Posten dorpels noch bestreken</l>
+				<l>Met s' Lambs bloede, tot een teecken</l>
+				<l>Hoe Godt hun bevryde weerdt</l>
+				<l>Voor des slaenden Engels sweerdt,</l>
+				<l>Voorspel 't welck ons leert ten besten</l>
+				<l>Hoe dat inden alderlesten</l>
+				<l>Dagh der daghen in 't gheright,</l>
+				<l>Voor Gods toornigh aenghesight</l>
+				<l>Jesum Christum ons sal vryden</l>
+				<l>Door sijn heijligh bitter lyden,</l>
+				<l>En met 't root onschuldigh kleyt,</l>
+				<l>Van sijn droeve sterflijckheyt</l>
+				<l>Ons onreyn melaetsche vlecken</l>
+				<l>Voor des Heeren aenschijn decken.</l>
+				<l>Eet dan gheestelijcker wijs</l>
+				<l>Noch dit Lam, der zielen spijs,</l>
+				<l>Met een bitter fausse spijtigh</l>
+				<l>Ware Israeliten vlytigh,</l>
+				<l>Laet de cracht van syne doodt</l>
+				<l>V noch syn een Hemels broodt,</l>
+				<l>Weest omgordt, en staet al reede</l>
+				<l>Om te wand'len nae den vrede,</l>
+				<l>Met den Staf alsoo 't behoort</l>
+				<l>Van des Heeren heylig Wooort,</l>
+				<l>Opgeschort, omgort op vordel</l>
+				<l>Met der liefden bandt en gordel.</l>
+				<l>Oock aenmerckt hier algemeen</l>
+				<l>Dees twee Leijds lien der Hebreen,</l>
+				<l>Moses (onbespraeckt voor Pharons</l>
+				<l>Aenschyn) hoeft des Priesters Aarons</l>
+				<l>Reden-rijcke tonge vocht:</l>
+				<l>Doch geen van dees beyden mocht</l>
+				<l>Isack brengen eyndelijcken</l>
+				<l>In Canaans Coninckrijcken:</l>
+				<l>Onder welcke schorsse duyckt</l>
+				<l>Alsmen desen bast ontluijckt,</l>
+				<l>d'Onvolcomen swackheijt teder</l>
+				<l>Vander Wet, te corten leeder</l>
+				<l>Om in 't Hemelsch Vaderlant</l>
+				<l>Op te stijgen wt den brant,</l>
+				<l>Wt den brant der zielen sweerdigh,</l>
+				<l>Wt Gods toornigheyt rechtveerdigh,</l>
+				<l>Daer ons Christus als geseyt</l>
+				<l>Heeft behouden uyt-geleyt.</l>
+				<l>Want in Christo woont bequamigh</l>
+				<l>Self de volheyt Gods lichamigh,</l>
+				<l>'t Euangelische Verbondt</l>
+				<l>Vloeyet uyt sijns wijsheijts mondt,</l>
+				<l>Der genaden Fonteyn-ader,</l>
+				<l>Ons verbidder by den Vader.</l>
+				<l>Israel vertrock op hoop,</l>
+				<l>Maer voor ons heeft al den loop</l>
+				<l>Christus 't Hooft van sijne benden</l>
+				<l>Langh te vooren gaen vol enden,</l>
+				<l>En met 't Cruys ghetriumpheert</l>
+				<l>Boven Hemelen en Eerdt.</l>
+				<l>Laet dit plaetse by u grijpen,</l>
+				<l>Laet dit Godlijck zaeyssel rijpen,</l>
+				<l>Soo sal t' uwaers s'Hemels gonst</l>
+				<l>Vloeyen Wt levender ionst.</l>
+			</sp>
+			<p>
+                        <figure>
+                            </figure>
+			</p>
+			</div>
+		<div type="scene" n="4">
+			<head>Vergelyckinge vande verlossinghe der kinderen Israels, met de vrywordinghe
+                        der vereenighde Nederlandtsche PROVINCIEN.</head>
+			<sp who="#choor">
+				<speaker>HOewel den vluggen tijt d'uytcomste der Hebreeuwen</speaker>
+				<l>Spijt Mosi gulde pen met veel verloopen eeuwen</l>
+				<l>Heel uyt te wissen dacht: soo is het even-beelt</l>
+				<l>Van Israels triumph soo aerdig weer volspeelt</l>
+				<l>Op 't Nederlants Toneel, dat geene van dees beyden</l>
+				<l>Nau vanden andren is met waerheyt t'onderscheyden.</l>
+				<l>Wien schildert Pharao nae 't leven naeckter af,</l>
+				<l>Als Philippo den Monarch, den eenen met sijn Staf</l>
+				<l>Beheerscht den blauwen Nyl; den and'ren draeght in handen</l>
+				<l>Den Scepter wiens gebiet strect over Tagus stranden;</l>
+				<l>Den eenen Osiris eert met gheboghen knien;</l>
+				<l>Den and'ren sal den God des Tybers eere bien;</l>
+				<l>Den eenen maeyt in 't graf d'onnoosle suyghelinghen;</l>
+				<l>Den anderen die noch aen 'smoeders borsten hinghen;</l>
+				<l>Den eenen Iacobs huys verdruckt met slaverny;</l>
+				<l>En d'ander 't Nederlant verheert met tyranny;</l>
+				<l>Den wettigen Gods-dienst belet den eenen duyster,</l>
+				<l>En d'ander al verblint, ghehenght niet dat den luyster</l>
+				<l>Des Euangeliums gelijck een Son doorbreect,</l>
+				<l>Noch dat de waerheyt 't hooft ten Hemel ergens sleect.</l>
+				<l>Israel zijnde dus in droefheyt en in rouwe,</l>
+				<l>De bouten schallen doet van s'Hemels hoog gebouwe;</l>
+				<l>O Vader! roepen sy, wilt gy uyt uwen tros</l>
+				<l>De pylen uwes toorns steeds op ons laten los,</l>
+				<l>Gedenct doch aen 't verbont dat gy met uwer knechten</l>
+				<l>Voorvaders goedertier hier voormaels wout oprechten;</l>
+				<l>Oft soo gy onser naer u goetheyt niet gedenct,</l>
+				<l>Ten minsten d'eere uws naems, o Heere! niet en krenct,</l>
+				<l>Gedooght niet dat wy (ach!) den tijt van onse leven</l>
+				<l>Den vyanden tot roof en spyse zijn gegeven.</l>
+				<l>Belgica van gelijck met suchten en gheclagh</l>
+				<l>Den droeven Echo weckt, en stenet nacht en dagh,</l>
+				<l>O Heere! Laet op ons de lieffelijcke stralen</l>
+				<l>Ws aenschijns vanden throon des Hemels nederdalen;</l>
+				<l>Wy zijn, eylaes, bevlect met onghereghtigheyt,</l>
+				<l>Dus reynigt, ons in 't bloedt van Christi sterflijckheyt,</l>
+				<l>Sijn eenighe offerhand' neemt aen tot een voldoeningh</l>
+				<l>Onser misdaden, en volcomene versoeningh.</l>
+				<l>God Iacobs steenen hoort, en tot Voorvechters trou</l>
+				<l>Weckt Amrams soonen beyd, en die van 't Huys Nassou,</l>
+				<l>Den Nederlanders tot Beschermeren en Voogden,</l>
+				<l>Die 't samen hunnes volcks verlossinghe beooghden.</l>
+				<l>Die eer voor Memphsis heeft gestre'en als besten vrient,</l>
+				<l>Wordt eynd'lijck haer party, en die voorheen ghedient</l>
+				<l>Heeft 't streng Bourgoensche Hof, sich rustet regens Spagnien,</l>
+				<l>O wonderbaerlijck schict sich Moyses met Oragnien!</l>
+				<l>Den een strijt voor de Wet, den and'ren slaet de trom,</l>
+				<l>En vrijt met synen arm het Euangelium;</l>
+				<l>Den eenen gaet d'Hebreen de roode golven banen,</l>
+				<l>En d'ander leyt de sijn door eenen vloet van tranen,</l>
+				<l>Al recht door 't golvig Meir van klibber breyn en bloedt;</l>
+				<l>De Slaven d'een ontslaet en d'ander steeckt den Hoet</l>
+				<l>Der vryheyt inde locht, en eynd'lijck streckt sich even</l>
+				<l>Huns vyandts onderganck te samen tot den leven.</l>
+				<l>Pharao voor een graf het roode Meir beerft,</l>
+				<l>Philippus out en grijs katyvig henen sterft:</l>
+				<l>God wel verscheyden straft, d'een vroeg en d'ander spade,</l>
+				<l>Maer eyndelijck overvalt hun beyd' sijn ongenade.</l>
+				<l>Den selven Coning die 't Rijck Israels bevesten,</l>
+				<l>Heeft eyndelijck u saeck, ô Belgica! ten lesten</l>
+				<l>Voleyndight in triumph: dies dy niet langer quelst,</l>
+				<l>Dewijl hy dynen staet met syne mucht omhelst:</l>
+				<l>Hoe is de macht gegroeyt van u verbonden Steden,</l>
+				<l>Sint desen grooten Helt gingh inde schoenen treden</l>
+				<l>Sijns Vaders, welck (eylaes) verraderlijck en straf</l>
+				<l>De swaerte nydigheyt geblixemt heeft in 't graf,</l>
+				<l>Help God! de wraeck is u, gy sult hier namaels eyssen</l>
+				<l>Het dier vergoten bloedt met een gecromde Zeyssen.</l>
+				<l>Wat rester nu? dan God te vlechten met bescheydt</l>
+				<l>Den loffelijcken krans van ware danckbaerheydt:</l>
+				<l>Vreest hem die lichtlijck can verstroyen inder ylen</l>
+				<l>Het steunsel van u saeck den Bos geknoopte pylen,</l>
+				<l>Peynst om den ghenen die de volckren van Sion</l>
+				<l>Als Slaven voeren liet geboeyt naer Babylon.</l>
+			</sp>
+			<p>FINIS.</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>
