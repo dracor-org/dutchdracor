@@ -1,0 +1,2541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000278" xml:lang="dut">
+    <teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="main">De Oude Tobijas</title>
+			<author>
+				<persName>
+					<surname>De Pellicaen</surname>
+				</persName>
+				<idno type="wikidata">Q7846375</idno>
+			</author>
+		</titleStmt>
+		<publicationStmt>
+			<publisher xml:id="dracor">DraCor</publisher>
+			<idno type="URL">https://dracor.org</idno>
+			<availability>
+			  <licence>
+			  <ab>CC0 1.0</ab>
+			  <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+			  </licence>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl type="digitalSource">
+				<name>DBNL</name>
+				<idno type="URL">https://www.dbnl.org/tekst/_tro001fams03_01/_tro001fams03_01_0009.php</idno>
+				<availability status="free">
+					<p>In the public domain.</p>
+				</availability>
+			</bibl>
+			<bibl type="originalSource">
+			<title>W.N.M. Hüsken, B.A.M. Ramakers en F.A.M. Schaars (eds.) Trou moet blijcken. Bronnenuitgave van de boeken der Haarlemse rederijkerskamer ‘de Pellicanisten’. Deel 3: Boek C. Uitgeverij Quarto, Assen 1993 </title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+
+	<profileDesc>
+		<particDesc>
+			<listPerson>
+				<person sex="FEMALE" xml:id="anna">
+					<persName>Anna</persName>
+				</person>
+				<person sex="MALE" xml:id="benijdende-vree">
+					<persName>Benijdende vree</persName>
+				</person>
+				<person sex="MALE" xml:id="de-bode">
+					<persName>Bode</persName>
+				</person>
+				<person sex="MALE" xml:id="de-cnaep-vanden-huijse">
+					<persName>Een knecht vanden Ouden Tobijas</persName>
+				</person>
+				<person sex="MALE" xml:id="de-soon-van-tobias">
+					<persName>Jonge Tobijas</persName>
+				</person>
+				<person sex="MALE" xml:id="den-engel-raphael">
+					<persName>Den Engel Raphael</persName>
+				</person>
+				<person sex="MALE" xml:id="den-ouden-tobijas">
+					<persName>Den Ouden Tobijas</persName>
+				</person>
+				<person sex="FEMALE" xml:id="een-jonckwijf">
+					<persName>Een Jonckwijf</persName>
+				</person>
+				<person sex="MALE" xml:id="gabelus">
+					<persName>Gabelus</persName>
+				</person>
+				<person sex="FEMALE" xml:id="martha">
+					<persName>Martha</persName>
+				</person>
+				<person sex="MALE" xml:id="raguel">
+					<persName>Raguel</persName>
+				</person>
+                <person sex="FEMALE" xml:id="raguels-huijsvrou-met-haer-dochter">
+					<persName>Raguelsh uijsvrou met haer dochter</persName>
+				</person>
+				<person sex="FEMALE" xml:id="raguels-wijf">
+					<persName>Hanna</persName>
+				</person>
+				<person sex="FEMALE" xml:id="sara">
+					<persName>Sara</persName>
+				</person>
+				<person sex="MALE" xml:id="tijtelijcke-vreucht">
+					<persName>Tijtelijcke vreucht</persName>
+				</person>
+			</listPerson>
+			</particDesc>
+		<textClass>
+		<keywords>
+			  <term type="genreTitle">Morality Play</term>
+		</keywords>
+		</textClass>
+	</profileDesc>
+    	<revisionDesc>
+    		<listChange>
+    			<change when="2024-10-01">(Lucas van der Deijl) convert from source</change>
+    		</listChange>
+    	</revisionDesc>
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="written" when="1600">
+				<desc />
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/" />
+		</listRelation>
+	</standOff>
+    <text>
+        <front>            
+            <head>[De Oude Tobijas]</head>
+            
+                <head> Item hier begint Een spel van Sinnen vanden Ouden Tobijas de Parsonagie sijn dese.</head>
+                <castList>
+                	<castItem corresp="#den-ouden-tobijas">
+                        <role>1...	Den Ouden Tobijas</role>
+                    </castItem>
+                	<castItem corresp="#gabelus">
+                        <role>2...	Gabelus een gevangen man</role>
+                    </castItem>
+                	<castItem corresp="#de-bode">
+                        <role>3...	Een bode</role>
+                    </castItem>
+                	<castItem corresp="#anna">
+                        <role>4....	Anna / Tobijas huijsvrou Oudelijck gecleet</role>
+                    </castItem>
+                	<castItem corresp="#de-soon-van-tobias">
+                        <role>5...	Jonge Tobijas</role>
+                    </castItem>
+                	<castItem corresp="#benijdende-vree">
+                        <role>6...	Benijdende / vree / neeffgen gecleet met duijvels habijt gecleet met een crauwel inde hant genaempt Godloos werck.</role>
+                    </castItem>
+                	<castItem corresp="#tijtelijcke-vreucht">
+                        <role>7....	Tijtelijcke vreucht / een neeff gecleet met duijvels habijt en met een crauwel inde hant genaempt Afgoderije.</role>
+                    </castItem>
+                	<castItem corresp="#raguel">
+                        <role> 8...	Raguel</role>
+                    </castItem>
+                	<castItem corresp="#raguels-wijf">
+                        <role>9...	Hanna / raguels wijff</role>
+                    </castItem>
+                	<castItem corresp="#sara">
+                        <role>10...	Sara / ragulels dochter Costelijck gecleet</role>
+                    </castItem>
+                	<castItem corresp="#den-engel-raphael">
+                        <role>11..	Den Engel Raphael</role>
+                    </castItem>
+                	<castItem corresp="#martha">
+                        <role>12..	Martha / tjonckwijff als een Jonckwijff gecleet van hanna raguels wijff</role>
+                    </castItem>
+                	<castItem corresp="#de-cnaep-vanden-huijse">
+                        <role>13..	Een knecht vanden Ouden Tobijas</role>
+                    </castItem>
+                	<castItem corresp="#een-jonckwijf">
+                        <role>14..	Een Jonckwijf vanden Hanna'.</role>
+                    </castItem>
+                </castList>
+        </front>
+        <body>
+	<div type="act" n="1">
+		<div type="scene" n="1">
+			<stage>Begint En:</stage>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas Spreeckt Eerst een Refereijn</speaker>
+				<l>O heer der heeren gebenendijt</l>
+				<l>Ick weet dat ghij barmhertich sijt</l>
+				<l>ghij hebt ons bevrijt // van Pharo fel</l>
+				<l>nu sijn wij ghevangen in dese tijt</l>
+				<l>van Salmanasser den Coninck ist niet een spijt</l>
+				<l>wij sijnt al quijt / door ons sonden snel</l>
+				<l>wij saeten In Jerusalem door goods bevel</l>
+				<l>om dat wij wel // nae gods wedt soude Leven</l>
+				<l>goods woort achten wij voor boerdelijck spel</l>
+				<l>elck Lieffden nae sijn eijghen appetijt tegen godt rebel</l>
+				<l>daerom is Jisrael nu verdreven</l>
+				<l>o' heer als ghij wilt sult ghijt ons weer geven</l>
+
+				<p>2.</p>
+				<l>O heer geeft mijn vromicheijt om te
+                            draven</l>
+				<l>dat Ick mach gaen tot die arme slaven</l>
+				<l>die daer spitten en graeven // met Oogen nadt</l>
+				<l>Laet mij hongerighe spijsen en dorstige Laven</l>
+				<l>om de naeckte te cleen het sijn u gaven</l>
+				<l>o' godt wijst mij die rechte haeven // na die stat</l>
+				<l>daer u gevangen Leggen om te eeten wadt</l>
+				<l>sij sijn so madt / vanden Arbeijt bekeven</l>
+				<l>Ick heb noch verborgen een heijmelijcke schadt</l>
+				<l>Ick wilde wel dattet die ghevangen hadt</l>
+				<l>off Ick bij heur sadt // om haer te troosten daer beneven</l>
+				<l>O heer als ghij wilt sult ghij ons weer geven</l>
+
+				<p>3.</p>
+				<l>Wadt heb Ick menigen mijl getreden</l>
+				<l>hier staet die schoonne stadt van meden</l>
+				<l>Inder waerheden // Ick hoore de gevangen binnen</l>
+				<l>waer zijdij broeder die veel hebt geleden</l>
+				<l>hier is Laecken om den naeckten te cleden</l>
+				<l>stelt u hert in vreden ghij sult troost vinnen</l>
+				<l>Ick salt u te voren bidden ghij moochtet niet winnen</l>
+				<l>ghij bedroeffde sinnen // en wilt niet beven</l>
+				<l>al sijt ghij hier bij die fenijnighe spinnen</l>
+				<l>Laet ons niet afflaeten meer altijt beginnen</l>
+				<l>godt te beminnen sijn woort te verheven</l>
+				<l>O heer als ghij wilt sult ghij ons weer geven</l>
+
+				<stage>Prince. .4.</stage>
+				<l>O Princelijcke prins o Opperste regent</l>
+				<l>tis mijn sonden schult voorwaer Ick kent</l>
+				<l>dat ghij dus bent // In vreemde Landen verschoven</l>
+				<l>och dat wij so waeren in affgoderije verblent</l>
+				<l>de heer heeft ons soo menich propheet gesent</l>
+				<l>wij souden in dit ellent // vallen bedoven</l>
+				<l>nu sijn wij bedorven / Ja Castelen en schoone hoven</l>
+				<l>gestoven // voorwint sonder sneven</l>
+				<l>ons wijff ons kinder gingen sij roven</l>
+				<l>keert u Oogen na godt daer boven</l>
+				<l>wilt hem Loven al wort ons goet beschreven</l>
+				<l>O heer als ghij wilt sult ghijt ons weer geven</l>
+			</sp>
+			<sp who="#gabelus">
+				<speaker>Gabelus</speaker>
+				<l>Tobijas broeder hier Leijter seven</l>
+				<l>Die alle daege den ploech trecken</l>
+				<l>wij worden gestoten bij d'oren gewreven</l>
+				<l>die kinderen gaen met ons gecken</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Weest te vreden broeder Ick wil goods woort ontdecken</l>
+				<l>daer staet geschreven weet ghij dat niet</l>
+				<l>Ick sal een propheet uuiijt haer broeders verwecken</l>
+				<l>die haer sal verlossen uuijt allen verdriet</l>
+				<l>die propheet Amos heeft gesproocken siet</l>
+				<l>als thuijs van Juda sal houwen haer vrolijcke daegen</l>
+				<l>en niet en doet dat hem godt gebiet</l>
+				<l>haer vreuchden sal hij keeren tot claegen</l>
+			</sp>
+			<sp who="#gabelus">
+				<speaker>Gabelus</speaker>
+				<l>So ist met ons gevaeren hoort mijn gewaegen</l>
+				<l>wij hebben met blijschappen te Jerusalem geseten</l>
+				<l>die wercken die wij deen // consten godt niet behaegen</l>
+				<l>daerom heeft hij ons wederom verbeten</l>
+				<l>Tobijas broeder Ick laetet u weten</l>
+				<l>al mijn goet is mijn ontnomen</l>
+				<l>wij hebben te drincken noch teten</l>
+				<l>hoe sal Ick met mijn volck door die werrelt comen</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Gabelus weest te vreen wilt niet schromen</l>
+				<l>Ick heb hier thien talenten silvers goet</l>
+				<l>dat Leen Ick u / coopt taruwe rogge en blomen</l>
+				<l>verteert dat met u kinderen soet</l>
+				<l>een hantschrift ghij schrijven moet</l>
+				<l>daermen bij Leven en sterven niet en mach faelen</l>
+				<l>die u dit hantschrist tonen doet</l>
+				<l>die sult ghij met dat silver betaelen</l>
+			</sp>
+			<sp who="#gabelus">
+				<speaker>Gabelus</speaker>
+				<l>Hier schrijff Ick den brieff sonder draelen</l>
+				<l>Jae mijn hantmerck daer onder aen</l>
+				<l>als ghij den brieff sent die macht tgelt haelen</l>
+				<l>Ick salt u weer geven op dat Ick can</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Gabelus broeder scheijden wij dan</l>
+				<l>Ick moet meer gevangen visijteren</l>
+			</sp>
+			<sp who="#gabelus">
+				<speaker>Gabelus</speaker>
+				<l>Gelooft sij die heer die mij tot u san</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Gabelus broeder scheijden wij dan</l>
+			</sp>
+			<sp who="#gabelus">
+				<speaker>Gabelus</speaker>
+				<l>Godt sterck u In deuchden eedel
+                            man</l>
+				<l>en wil u geslachten vermeeren.</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Gabelum broeder scheijden wij dan</l>
+				<l>Ick moet meer gevangen vijsiteren</l>
+				<l>adieu broeder gaet inden naem des heeren</l>
+				<l>Ick wil mijn keeren in allen hoecken</l>
+				<l>tot die verdoolde schaepen die hulp begeeren</l>
+				<l>om hen te brengen hemden en doecken.</l>
+			</sp>
+			<sp who="#de-bode">
+				<speaker>De bode. uuijtcomende seijt</speaker>
+				<l>Lieve tobijas den Coninck doet u soecken</l>
+				<l>hij heeft bevolen u doot te slaen</l>
+				<l>Ick heb hem so hooren vloecken</l>
+				<l>hij sal u doen dooden van stonden aen</l>
+				<l>daer is volck en die hebben u sien staen</l>
+				<l>bij die gevangen verstaet dit woort</l>
+				<l>tis u verboden daer niet bij te gaen</l>
+				<l>dus sult ghij altsaemen worden vermoort</l>
+				<l>haelt u wijff en kint en gaet buijten boort</l>
+				<l>Ick hsal hem die bootschap maecken bekant</l>
+				<l>dat Ick u niet gesien en heb noch gehoort</l>
+				<l>versiet u van hier neempt u soon bijder hant</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>O heer Laet mij niet comen tot schant</l>
+				<l>waer sijdij / Anan wilt u bereijden</l>
+				<l>mijn Lieve Soon wij moeten in een ander Lant</l>
+				<l>wij moeten voort sonder verbeijden</l>
+			</sp>
+			<sp who="#anna">
+				<speaker>.Anna. uuijt ende spreeckt</speaker>
+				<l>Ghij woudet niet gelooven dat Ick u seijden</l>
+				<l>dit Evangelis volck en wildij niet laeten</l>
+				<l>Ick hebt u geclaecht met Oogen ende schreijden</l>
+				<l>het moeter al blijven daer wij in saten</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Tobijas sijn Soon uuijt ende spreeckt</speaker>
+				<l>Lieve moeder wilt malcanderen niet haten</l>
+				<l>geeft malcander moet met blijden aenschijn</l>
+				<l>laet ons elckx een sack aen vaten</l>
+				<l>so godt belieft moetet geleden sijn</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Draecht dien corff Lieve soone mijn</l>
+				<l>Ick dit pacxken wij moeten henen</l>
+				<l>o' heer is dit den wille dijn</l>
+				<l>wilt mijn verduldicheijt verlenen</l>
+			</sp>
+			<sp who="#anna">
+				<speaker>Anna</speaker>
+				<l>Moet Ick in mijn Oude daegen op de
+                            benen</l>
+				<l>O hert hoe sijdij nu verslegen</l>
+				<l>mijn is druck en Lijden toecomende Ick mach wel
+                            wenen</l>
+				<l>waer sal Ick gaen die reijse staet mij tegen</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>De Soon.</speaker>
+				<l>Moeder rust op mijn hals Ick sal u dregen.</l>
+				<l>Leght u handen op mijn schouderen vrij</l>
+				<l>dus soetelijck willen wij gaen over die wegen</l>
+				<l>Laet ons de swaericheijt setten aen deen zij</l>
+				<l>dat godt een toeschickt daer mach niemant verbij</l>
+				<l>Laet ons vreucht van droeffheijt maecken</l>
+				<l>Laet Loopen tverdriet / Liever moeder mij</l>
+				<l>godt sal ons helpen in allen saecken</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Lieve soone Ick en mach niet Langer waecken</l>
+				<l>die vaeck beloopt mij Ick ben so moe</l>
+				<l>het hert is so bange wat sal mij genaecken</l>
+				<l>Ick moet wadt rusten / (dat seg ick) en deckt mij toe</l>
+				<l>Lieve wijff neempttet toch int goe</l>
+				<l>tis gods wil dat wij dus dolen</l>
+				<l>daer en schiet niet al dat Ick doe</l>
+				<l>tis altsaemen bij den heer verholen</l>
+				<l>die ander wil dan godt heeft bevolen</l>
+				<l>Ick wil rusten Inden heer dat dunckt mij tbest</l>
+				<l>gaet sitten soon ghij sijt niet gestolen</l>
+				<l>hij
+                            doet wel die hem in godt bevest</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende .vree. een neeffgen.</speaker>
+				<l>Ou tijttelijcke vreucht.....</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht / een neeffgen</speaker>
+				<l>O benijdende vree......</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree....</speaker>
+				<l>Salmer nu slaepen.....</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht.</speaker>
+				<l>Ick ben al wacker</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree.</speaker>
+				<l>compt hier met geneucht....</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>.Tijtelijcke vreucht.</speaker>
+				<l>Ick ben Al ree</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Ou tijtelijcke vreucht...</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Ou benijdende vree</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>.Benijdende vree.</speaker>
+				<l>Ick wou dat Tobias lach in zee /...</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>at wilde Ick mee met sijn knapen</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>.Benijdende vree.</speaker>
+				<l>Hij moet Loopen over den Acker ///..</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Hij is verheven uuuijt sijn stee</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>.Benijdende vree.</speaker>
+				<l>Ou tijtelijcke vreucht.....</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>.Tijtelijcke vreucht.</speaker>
+				<l>Ou benijdende vree</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Salmer nu slaepen......</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Ick ben al wacker</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Compt hier met geneucht ///</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Ick ben al ree</l>
+				<l>Mijn hert is wee // Ick moet mijn schanden // claegen</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Van dolheijt moet Ick mijn tanden // cnaegen</l>
+				<l>geven mijn handen slaegen van dit geblas</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Wadt is de saeck........</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Maer van Tobijas.....</l>
+				<l>op dit pas // doet hij mij gequel</l>
+				<l>hij wil ons verdrucken dat weet Ick wel</l>
+				<l>in mijn vel // en mach geen vree dueren</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Neeffgen.............</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Ja wadt seggdij cousijn.............</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Men vindt geen vree inde Creatueren</l>
+				<l>besiet alle fijgueren // ontwaeckt // ras</l>
+				<l>waer vindij dat vree inden menschen volmaeckt // was</l>
+				<l>hij wert gelaeckt // as / nijdicheijt dit werck // wrocht</l>
+				<l>Ick ben die nijdicheijt In swerrels perck // brocht</l>
+				<l>Inde heijlige kerck // socht // sijmonije pecken</l>
+				<l>dan gae Ickse met mijn Crauwel tot affgoderij trecken</l>
+				<l>Laet wijse begecken // tobijas / noch oulijck wert</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijtende vree</speaker>
+				<l>Quantgen..........</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Wel Cousijntgen.............</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Hoe Onrustich Leijt een nijdich hert</l>
+				<l>u partijdich stert // en is te vreen // niet</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Ick knaege mijn selven totten been // siet</l>
+				<l>waer sal Ick heen // ijet / Ick moet verschoijen</l>
+				<l>tobijas wil daffgoderij uuijt roijen</l>
+				<l>en stroijen // dat godlijcke saet uuuijt</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Ick sal weer saeijen godloos werck dat quaet cruijt</l>
+				<l>dan gaet // uuijt / goods wercken // soet</l>
+				<l>Ick begeer dat ghij mijn reen verstercken // doet</l>
+				<l>nau mercken // moet / dat dese Loeten // wroeten</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Sij leggen gelijck de Jongens koeten // wroeten</l>
+				<l>Ick salse me moeten // groeten / dus gaen wij wadt naer</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Wij sullen haer verstooren dats is waer</l>
+				<l>Laetse daer // wadt Leggen crabbelen</l>
+				<l>Wij sullen so veel in een uure om
+                            scrabbelen</l>
+				<l>als sij met haer brabbelen // In seven
+                            Jaer reen mogen</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Wadt sij spreecken wij sullen daer spreecken togen</l>
+				<l>al ist niet waer het blijft logen // tis verloren moenis</l>
+				<l>ghij sult oock een man wesen alst van doen is</l>
+				<l>dat u hert fraij en boen is int roeren swaer</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Ick sou wel een stadt verstoeren // daer</l>
+				<l>brengen in toeren // waer vaerken en moerken</l>
+				<l>dan maeck Ick twist onder suster en broerken</l>
+				<l>Ick stroij mij poerken // In allen Oorden</l>
+				<l>nijdicheijt schieter met wreder woorden</l>
+				<l>Ick doe moorden // Lijff en zielen // veel</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Ick dee goods Insetten / bij moijsis vernielen // deel</l>
+				<l>datse vielen heel / in tijtelijcke weelden</l>
+				<l>datse godt hebben verlaeten sij knielden voor
+                            beelden</l>
+				<l>hoe godt met haer speelden // sij lieten hem kijven // siet</l>
+				<l>also datse godt Int eijlant drijven // Liet</l>
+				<l>men macht beschrijven // niet // dat Ick wracht // ras</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Door tijtelijcke vreucht Dijna' vercracht // was</l>
+				<l>datter tweedracht // was / onder Jacobs kinderen // fijn</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>En dee Ick niet Pharo sijn macht / int behinderen // pijn</l>
+				<l>dat begonst te minderen // sijn golijas moet groot</l>
+				<l>hij worde geslegen onder die voet doot</l>
+				<l>hij Lieter sijn bloet root dat hij nijt op moijsis // droech</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Ghij deet dat Agar zara wroech</l>
+				<l>genoech // hebt ghij daer gebrouwen // heet</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Waert ghij die man die nijdicheijt onderhouwen deet</l>
+				<l>dat Jacop met betrouwen reet // tot Laban</l>
+				<l>waer door dat Esau groote schae nam.</l>
+				<l>Jacop tot genae quam // int vreemde Lant Immer</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Daer en is geen man van verstant // slimner</l>
+				<l>geeft mij de hant // grimmer // cust die vuijl poot</l>
+				<l>ghij deet dat men Joseph inden cuijl schoot</l>
+				<l>Absolon op sijn muijl // vloot / draegende nijt op de
+                            vader // sijn.</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Stabij quant wadt wij moster wadt naerder // sijn</l>
+				<l>Ick van Achteren ende van voor ghij //</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Wadt sal Ick doen..........</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Slaet die hant aen en wilt hem versmoren vrij</l>
+				<l>hier staen twee dooren // bij / Ick wil uuijt mijn sin sneven</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Hoe wilt ghijt hebben......</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Ghij sult hem mistroosticheijt Ingeven</l>
+				<l>hij sal int begin // leven / vant deucht / caluws geck</l>
+				<l>hier leght op sijn Oogen een swaluws dreck</l>
+				<l>wilt hem nu menichvuldich torden</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Hij sal Claerlijck onverduldich worden</l>
+				<l>die man is ons wilt als d'ooren baeren</l>
+				<l>wij moeten ons toemaecken oft wij doctoren waeren</l>
+				<l>twee geschoren // kaeren / treet doch nu aen Jeucht</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Hoe heet dese kaerle.........</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Schijn van deucht............</l>
+				<l>mijn dunckt dat ghij nu bent / een man van
+                            machte groot</l>
+				<l>hoe heet u tarbbaert.........</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Vreese vandie doot..........</l>
+				<l>die Is van noot // in allen staeten // kaer</l>
+				<l>door vreese vandie doot // sijn verlaeten // daer</l>
+				<l>sij aenvaeten // haer / tijtelijcke vreuchden //
+                            siet</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Tis niet te seggen wat onder schijn van deuchden // schiet</l>
+				<l>dus singt met verjeuchden tliet // maeckt menschen // blij</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Om tijtelijcke vreucht sij wenschen // vrij</l>
+				<l>heeren en princen // sij elck triumpheert // hart</l>
+				<l>waer door dat gods eer niet begeert // wart</l>
+				<l>meer deen dander te cort doet</l>
+				<l>door schijn vandeuchden woort gestort het bloet</l>
+				<l>de waerheijt heeft geen voortganck</l>
+				<l>diese seijt wort vermoort // stranck</l>
+				<l>Ick maeckse met een woort banck // datse sperten</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Ghaen wij bij dese bedroeffde herten</l>
+				<l>hij compt In smerten dat hijt niet dogen mach</l>
+				<l>tis mij Leet dat Ick vredige herten met Oogen // sach</l>
+				<l>Ick wilder om pogen // nach / en dat coen</l>
+				<l>Wij hebben moijsis wel dorren hinder doen</l>
+				<l>Ick sal mij tot die kinder // spoen / sonder vertsaegen // pragen</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht.</speaker>
+				<l>Wij sullen hem met vreese vander doot cnagen // plaegen</l>
+				<l>hij sal slaegen draegen // van sijn wijff quaet // fel</l>
+				<l>dat sal doen door onsen raet snel</l>
+				<l>hij versmaet // wel // sijn godt om te eeren</l>
+				<l>wij sullen hem met mistroost tempteren</l>
+				<l>dus willen wij keeren tot tijttelijcke Laboer //
+                            quaet</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Gaet voor dat u godt bedroeven moet</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Tis mijn begeer Ick wil dat ghij voort gaet</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Dus willen wij keeren tot tijttelijcke Laboer
+                            // quaet</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Mijn dunckt dat Anna' sijn wijff voor die door staet</l>
+				<l>Ick geeff u de koer // maet schuijmsel van allen boeven // vroet</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Dus willen wij gaen tot tijtelijcke Laboer // quaet</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Ghaet ghij voor dat u godt bedroeven moet</l>
+				<l>Ick wil dat ghij sonder toeven // doet trappoort</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Lieve Anna' wij hebben quae tijdinghe
+                            gehoort</l>
+				<l>dat ghij moet voort In vreemde Landen.</l>
+				<l>Ick bijte van quaetheijt op mijn tanden</l>
+				<l>tis groote schanden // van u man // beijt</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Ick weet niet wadt hem hier an // Leijt</l>
+				<l>watmen hem nu off dan // seijt / hij wilt niet
+                            vaeten</l>
+				<l>can hij dit evangelis volck niet Laeten</l>
+				<l>noch sijn praten van dese Affgoden</l>
+				<l>wij hebbent hem op sijn halsch verboden</l>
+				<l>hij wil uuijtroden alle onse wedt // so</l>
+				<l>wel hoe vaeren sij....</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Maer sij druijpen door haer bedt // stroo</l>
+				<l>sulck volck is bedt // no / godt wil mijn behoeijen</l>
+				<l>hij moet hem met dit volck niet
+                            moeijen</l>
+				<l>sijn Leden gloeijen // van Loopen hij draecht pijn.</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Hij meent dat dit godt behaecht
+                            fijn</l>
+				<l>hij salder om geplaecht // sijn / Ick salt u togen</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas.</speaker>
+				<l>Langt mij een doeck om aff te droogen</l>
+				<l>mijn Oogen // mijn Lieve wijff bemint</l>
+				<l>mijn Ogen sijn uuijt Ick ben al blint</l>
+				<l>nu begint mijn droeffheijt</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Dit hebben wij u te vooren geseijt</l>
+				<l>ghij waert bereijt // almoessen draegende</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Ende daerom is godt ute plaegende</l>
+				<l>tis hem niet behaegende gevonden</l>
+			</sp>
+			<sp who="#anna">
+				<speaker>Anna'.</speaker>
+				<l>Ghij woort geplaecht om u sonden</l>
+				<l>tot allen stonden // den Armen gevende</l>
+				<l>waer suldij met u kint wesen Levende</l>
+				<l>mijn hert is bevende // op dese tijt</l>
+				<l>wij hadden te verteren // nu sijn wijt al quijt</l>
+				<l>mijn handen Ick smijt // met veel geschals</l>
+				<l>is dit godt te dijenen // tis den duijvel op u hals</l>
+				<l>u Leeringe is vals // ghij stierloocken</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Hadt ghij voorde beelden willen wierroocken</l>
+				<l>Jae met vier roocken // daegelijckx inde kerck</l>
+				<l>haddij onse Insettinghe gehouden sterck</l>
+				<l>int werck / als schijn van deuchden</l>
+				<l>so hadt ghij mogen Leven met geneuchden</l>
+				<l>in tijttelijcke vreuchden // nae ghij begeerde</l>
+			</sp>
+			<sp who="#anna">
+				<speaker>Anna'.</speaker>
+				<l>Hij wilde wijser sijn dan onse geleerde</l>
+				<l>hij eerde // die gevangen en heeftse gevoet toe</l>
+				<l>daer ghaff hij alle daeghen sijn goet toe</l>
+				<l>Ick en bent niet vroet // hoe hij selffs Leven // sal</l>
+				<l>Laet sien wien hem nu wadt geven // sal</l>
+				<l>wadt hebdij bedreven // al / o' dwaes // ghij</l>
+				<l>hier is broot waerder kaes // bij</l>
+				<l>Ick raes vrij //
+                            gaen wij tsaemen die verloren sinnen</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Sij sullen malcander verschoren binnen</l>
+				<l>hij blijft nu mistroostich als was</l>
+				<l>is dit de heijlige deuchdlijcke tobijas</l>
+				<l>gaen wij ras tot sijn suster nara.</l>
+				<l>Die heeft een dochter die schoone
+                            sara</l>
+				<l>Ick doe haer scha
+                            / a door mij stoocken</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Wij hebben haer seven mans den hals gebroocken</l>
+				<l>Ick sal tspel coocken // doet mijn gerijff</l>
+				<l>ginder comptse met haer Jonckwijff</l>
+				<l>op mijn Lijff // dit wordt een bootse // blij</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Benijdende vree gaetter toe nootse vrij</l>
+				<l>so mogen wij haer soetelijck vertellen /// wadt</l>
+				<l>dus Laet ons sonder Langer te staen // gaen</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Elck Aen een sije // gaen wij ons stellen radt</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>So mogen wij haer soetelijck vertellen // wadt</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Al souden sij // en hij / bernnen inder hellen // badt</l>
+				<l>so sal Ick haer In mistroost so Ick waen // slaen</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>So moghen wij haer soetelijck vertellen // wadt</l>
+				<l>Laet ons sonder Langer staen // gaen</l>
+				<l>wij sullen haer met nijdighe waen // vaen. /</l>
+			</sp>
+			<sp who="#sara">
+				<speaker>Sara uuijt met haer Jonwijf Martha</speaker>
+				<l>Ick moet het u claegen wel Lieve maerte</l>
+				<l>ghij singt // ghij sprinckt // ghij sijt so daertten</l>
+				<l>tgaet mij ter haertten // hoe Leijt dit huijs</l>
+				<l>ghij sijt niet kuijs / haelt het stroo uuijt die hoecken</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Cont ghij niet spreecken.........</l>
+			</sp>
+			<sp who="#martha">
+				<speaker>Martha</speaker>
+				<l>Dien Ick u niet ghij moecht een ander soecken</l>
+				<l>gheeft mij mijn hemden en doecken ghij // ram.</l>
+			</sp>
+			<sp who="#sara">
+				<speaker>Sara</speaker>
+				<l>Wel Sijdij daerom dus haestich gram</l>
+				<l>het quam // uuijt geen quae gront</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Wij willent niet hooren van u goet ront</l>
+				<l>hout u mont off ghij sult u deel crijghen</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Wilt ghij spreecken u mont is vol vijgen</l>
+				<l>ghij moocht wel swijgen / arm Ooetgen.</l>
+			</sp>
+			<sp who="#martha">
+				<speaker>Martha</speaker>
+				<l>Wadt segt ghij van dit malloetgen</l>
+				<l>dit Ick een quaet groetgen // soud ick schatten</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Hoe staet ghij so / gaetse vrij bij den tuijten vatten</l>
+				<l>doet haer d'ogen natten // met weenen.</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Jae smacktse vrij met steenen</l>
+				<l>wat machse meenen // die spijttige tadt // fij</l>
+			</sp>
+			<sp who="#martha">
+				<speaker>Martha</speaker>
+				<l>Ghij hebt wel seven mans gehadt // vrij</l>
+				<l>op dese stadt ghij // quamen tot gebreecken</l>
+				<l>ghij deetse al tsaemen den hals aff steecken</l>
+				<l>door u treecken quaet boven alle tijrannen</l>
+				<l>tfij ghij moorster der mannen</l>
+				<l>men sou u bannen sonder schromen</l>
+				<l>daer en sal sone noch dochters van u comen</l>
+				<l>ghij moet u verdomen // om eeuwich te sterven</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Denckt niet dat ghij gratije sult verwerven</l>
+				<l>ghij sult bederven / en In sonden smoren</l>
+			</sp>
+			<sp who="#sara">
+				<speaker>sara</speaker>
+				<l>O heer ben Ick Ick hier toe gebooren</l>
+				<l>dat Ick dit verwijt moet hooren</l>
+				<l>stopt mijn Ooren dat Ick niet verstaen // mach</l>
+				<l>O heer al compt mij dese temptatie te vooren</l>
+				<l>Ick weet dat ghij tot Lijden hebt vercoren</l>
+				<l>ghij Laetse niet verlooren off vergaen // nach</l>
+				<l>daerom dat Ick mijn Oogen naeden hemel slaen // mach</l>
+				<l>Inden quaen // dach // brenght mijn heer van dese temptatij</l>
+				<l>u goddlijcke troost de bedroeffde herten te versaen plach</l>
+				<l>thart is mij bang / gelijck als Abraham sijn soon doot belaen sach</l>
+				<l>en Joseph gevaen // Lach // buijten sijn schult Eijlacij</l>
+				<l>O heer die volstandich blijft die crijcht u gratij</l>
+			</sp>
+			<stage>Tobijas aen deen sijde vant teneel sittende seijt</stage>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>O heer Laet mij niet in temptatie verlegen</l>
+				<l>sterckt toch mijnen geest / om te wandelen u wegen</l>
+				<l>tis mijn al tegen / Ja wijff
+                            vrienden en magen</l>
+				<l>wadt sal Ick beginnen tvleijsch is verslegen</l>
+				<l>O heer Ick mach dit Lijden niet Langer dregen</l>
+				<l>den geest is tot u dienste genegen / Ja nu geheel verslagen</l>
+				<l>o' doot compt hier wilt mijn tharte doorcnagen</l>
+				<l>cort mijn daegen // vandese groote turbatie</l>
+				<l>Ick begeer niet Langer te leven / Ick mach wel clagen</l>
+				<l>Noijt mijn Oogen droever man en saegen</l>
+				<l>ist u behagen haelt mij uuijt dese murmeratie</l>
+				<l>O heer die volstandich blijft die chrijcht u gratije</l>
+			</sp>
+			<sp who="#sara">
+				<speaker>sara</speaker>
+				<l>O heer Ick bidt u met handen gewrongen</l>
+				<l>ghij weet dat Ick geen man en wil trouwen</l>
+				<l>om daermede te houwen // mijn wellusticheijt</l>
+				<l>dan Alleen tsaet van Abraham te bouwen</l>
+				<l>op datter vruchten nae u beelt comen souwen</l>
+				<l>mannen en vrouwen // daer u eer door sou sijn verbreijt</l>
+				<l>waer door dat ghijse hebt gedoot tis buijten mijn bescheijt</l>
+				<l>u raet Leijt inde godlijcke comptemplatie</l>
+				<l>Ick weet dat ghij u volck Lijden hebt bereijt</l>
+				<l>wij hebben u wegen niet gewandelt so ghij seijt</l>
+				<l>mijn hart dat schreijt voor der sonden blamatije</l>
+				<l>O heer die volstandich blijft die chrijcht u gratije</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>O Princen den princen O opperste regent</l>
+				<l>die Oordelen des heeren sijn niemant bekent</l>
+				<l>u raet ecxcelent // wie canse doch weeten</l>
+				<l>waerom hebt ghij / Job / so veel Lijdens aengesent</l>
+				<l>waerom hebt Jacop / ende Eesauw geschent</l>
+				<l>waerom so ben Ick blent // hier geseten</l>
+				<l>ghij weetet heer / en gheen propheten</l>
+				<l>Al sijn wij heijlich geheten // schuwt Arguatie</l>
+				<l>wie sou u gronderen // want u godlijcke secreten</l>
+				<l>ghij moet u werck / wercken naer u vermeten</l>
+				<l>al worden wij verbeten // van swerrelts natije</l>
+				<l>O heer die volstandich is die crijcht u
+                            gratije</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>De Soon van Tobias uuijt comende</speaker>
+				<l>O mijn Lieve vader hoe sijdij dus clachtich</l>
+				<l>het ghaet mij ter harten waerachtich</l>
+				<l>u Lijden crachtich valt mij te groot</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Compt hier mijn Soon / Ick claech u mijn noot</l>
+				<l>Ick moet sterven die doot want Ick vol smarten bin</l>
+				<l>neempt mijn woorden doch door Lieffden ter herten / in</l>
+				<l>denckt niet dat Ick derten // sin / opter Aaerden</l>
+				<l>hout u moeder Sara in grooter waerden</l>
+				<l>want sij u baerden met grooten pijn</l>
+				<l>sij heeft veel Armoede ghehadt om dijn</l>
+				<l>O soone mijn // troostse na u vermogen</l>
+				<l>sij heeft so dickmael met u achter Land getogen</l>
+				<l>sij heeft u gedrogen met swaer verdriet</l>
+				<l>Wadt ghij doet vergeet den armen
+                            niet</l>
+				<l>als ghij naeckte siet // die sult ghij cleden</l>
+				<l>die honger hebben sult ghij spijse bereden</l>
+				<l>het wordt u gebeden // wilt den dorstigen Laven</l>
+				<l>die siecken te vijsiteren // den dooden te begraven</l>
+				<l>die verdoolde slaven // sult ghij in u huijs voen</l>
+				<l>hebt ghij veel so sult ghij veel barmherticheijts doen</l>
+				<l>godt sal u behoen // hout u beheijnich</l>
+				<l>hebt ghij niet veel weest trouw en dat in weijnich</l>
+				<l>weest niet vijleijnich met vrouwen en heeren</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon</speaker>
+				<l>Vader Ick sal doen al u begeeren</l>
+				<l>die heer der heeren // wilt mij vromicheijt geven</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Siet soon wij hebben een arm Leven</l>
+				<l>wij sijn verdreven // die tranen Loopen over mijn wangen</l>
+				<l>al dat Ick hadde gaff Ick die gevangen</l>
+				<l>so .soon. wilt dit ontfangen / en tot een testament sluijten</l>
+				<l>aelmoessen doet de sonde in goods present uuijten</l>
+				<l>het doet die sielen in duijsternis bijsonder</l>
+				<l>hout geen arbeijts Loon tot die son gaet onder</l>
+				<l>het waer wonder // dat ghij sulckx werck deet</l>
+				<l>want het is u mede broeders sweet</l>
+				<l>tis godt Leet die spelen dit spel</l>
+				<l>hoort noch soon wadt Ick u seggen sel</l>
+				<l>doet mijn bevel gheeft mij u hant</l>
+				<l>daer woont een man in meden Lant</l>
+				<l>tis geen schant // Ick leenden hem een groote som</l>
+				<l>thien thalenten silvers hij hiet gabelom</l>
+				<l>al is de wech crom // ghij moettet haelen</l>
+				<l>met dit hantschrift sult ghij daer na taelen</l>
+				<l>gaet sonder draelen // ghij sult niet dolen</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon.</speaker>
+				<l>Vader Ick salt doen dat ghij mijn hebt bevolen</l>
+				<l>daer sijn veel hoolen // can Ick wel peijsen</l>
+				<l>Ick ken den wech niet om daer te reijsen</l>
+				<l>Ick sou gaern verseijsen // waer Ickse kenlijck</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Soone weest mijn woorden versinnelijck</l>
+				<l>gaet minnelijck in dese stadt sonder toeven</l>
+				<l>vraecht nae een Leijtsman sult ghij behoeven</l>
+				<l>om voor die boeven // te wachten schoon</l>
+				<l>als ghij weder compt so gheeft hem Loon</l>
+				<l>een gouwen croon // siet daer is den brieff</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>soon</speaker>
+				<l>Vader Ick wil doen al u gerieff</l>
+				<l>dat u is lieff sal Ick doen met herten blijlijck</l>
+				<l>vader weest te vreen in u Lijen Lijelijck</l>
+				<l>godt verleen mij tijelijck // een trouwe bode</l>
+				<l>Adieu vader hout u doch vroom.</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Adieu mijn Soon soeckt onder die Jode</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon</speaker>
+				<l>Godt verleen mij tijelijck een trouwe bode</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Adieu mijn Soon soeckt onder die Jode</l>
+				<l>van u te scheijden voorwaer Ick schroom.</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>soon.</speaker>
+				<l>Godt verleen mij tijelijck een trouwe bode</l>
+				<l>adieu vader hout u doch vroom</l>
+				<l>so drae als Ick coom mach ick weder coom.</l>
+			</sp>
+			<stage>Den soon weder uuijtcomende als een reijsenaer</stage>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon</speaker>
+				<l>O heer al staen mijn saecken // ru</l>
+				<l>Laet ick toch een goe bode raecken // nu</l>
+				<l>om te vermaecken // u dienaer verheucht</l>
+				<l>O godt die alle dingen vermeucht</l>
+				<l>door Lieffden veucht // dit werck recht</l>
+				<l>O ginder staet een. Jonge knecht</l>
+				<l>sijn haer Is gevlecht // sijn schoenen gegort</l>
+				<l>met een stock inde hant hij is opgeschort</l>
+				<l>vrient wilt ghij vort // ondeckt u reden wadt</l>
+			</sp>
+			<stage>Den Engel Raphael opgeschort met een stock inde hant</stage>
+			<sp who="#den-engel-raphael">
+				<speaker>Den engel Raphael.</speaker>
+				<l>Ick wil reijsen inder meden stadt</l>
+				<l>daer wil ick inder waerheden radt // gaen sandelen</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon</speaker>
+				<l>Wel vrient weet ghij den wech om daer te wandelen</l>
+				<l>Ick heb daer te handelen // dat mijn vader begeert</l>
+				<l>maer dien wech heb Ick noijt gepasseert</l>
+				<l>noch verkeert // dus ben Ick bevreest</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den engel Raphael.</speaker>
+				<l>Ick heb daer genoch int Lant geweest</l>
+				<l>daer wonen meest al mijn vrienden</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon</speaker>
+				<l>Daer woont een man die van mijn vader gelt Lienden</l>
+				<l>off ghij mij dienden // ende mijn daer brocht</l>
+				<l>Ick sal u Lonen dat gken godt // die hemel en aerde wrocht</l>
+				<l>hoe sijt ghij bedocht // hebt ghij daer moet // toe</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael</speaker>
+				<l>Jae Ick vrient gaeren Ick goet doe</l>
+				<l>met een soet // moe / willen wij daer aen</l>
+				<l>Ick moet Gabilon versoecken edel man</l>
+				<l>gaen wij dan beij te gaeder</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon.</speaker>
+				<l>Vrient compt toch noch wat naerder</l>
+				<l>segt mijn vader dat ghij van gabulon sij</l>
+				<l>hij sal van herten worden blij</l>
+				<l>dus gaen wij // broeder met hem te rae</l>
+				<l>waer sijdij vader / siet hoe Ick hier stae</l>
+				<l>wij hebben genae in godt gevonden</l>
+				<l>op een goet uur was Ick uuijt gesonden</l>
+				<l>hij heeft mijn ontbonden huijden voordaech</l>
+				<l>hij seijt dat gabilon is sijn nae maech</l>
+				<l>eer Ick vraech // weet hij mijn gedachten</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Broeder seght mij u geslachten</l>
+				<l>waer u Ouders plachten // te woonen</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den engel Raphael.</speaker>
+				<l>Soeckt ghij mij geslachten om op te stonen</l>
+				<l>om te sijn voor u sone // een Leijts man goet</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Weest niet gram / Lieffde mij dit vraegen doet</l>
+				<l>u woorden gaen soet // dit verwondert mije</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den engel Raphael.</speaker>
+				<l>Ick ben Asarija de Soone van Ananije</l>
+				<l>die moet Ick belije // Om dat ghij sijt begeerlijck</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Dit Is een groot geslacht seer eerlijck</l>
+				<l>heerlijck // moet u zaet vermenichfout // worden</l>
+				<l>die heer Laet hem out worden // en sijn Leven verlengen</l>
+				<l>Asaria / mijn kint sal door u betrout // worden</l>
+				<l>sout ghij wel mijn soon tot gabilon in meden brengen</l>
+				<l>godt sal gehengen // om dat ghij hem Leijt // daer</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael</speaker>
+				<l>Weest te vreen Ick bender toe bereijt // vaer</l>
+				<l>Ick bidt u dat ghij niet en schreijt // maer // vredelijck Leeft</l>
+				<l>verblijt u weest vrolijck / dus niet en beeft</l>
+				<l>u selven geeft // tot blijschap ris</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Wadt blijschap sou hebben die dus is</l>
+				<l>sittende in duijsternis // mijn Leden beswijcken</l>
+				<l>een blint man die hemel noch aerde mach bekijcken</l>
+				<l>Ick mach wel versijcken // dus te swerven</l>
+				<l>mijn Lust niet te Leven maer Liever te sterven</l>
+				<l>Ick sal bederven // van groote weemoede</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael</speaker>
+				<l>Tobijas broeder u verdriet sal comen int goede</l>
+				<l>doet als de vroede // betrout den heer / fijn</l>
+				<l>ghij sult haest cloeck en vroom weer // sijn</l>
+				<l>al hebt ghij nu seer pijn // tsal haest Lichten</l>
+				<l>ghij sult In corten daegen crijgen u gesichten</l>
+				<l>dus wilt swichten // dit claegen hout u fier</l>
+				<l>Ick sal u soon Leijden en weder brengen hier</l>
+				<l>met gooe manier // cloeck ende gesont</l>
+				<l>tis tijt dat wij scheijden met den dach</l>
+			</sp>
+			<sp who="#anna">
+				<speaker>Anna'</speaker>
+				<l>Calt ghij nu van scheijden Ick blijff terstont</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon.</speaker>
+				<l>Adieu moeder ende blijft gesont</l>
+			</sp>
+			<sp who="#anna">
+				<speaker>Anna</speaker>
+				<l>O doot doorsteeckt mijn herten gront</l>
+				<l>Ick roep met mijn mont o' we o' wach</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon</speaker>
+				<l>Adieu Lieffe moeder en blijft gesont</l>
+				<l>wij moeten scheijden goet ront metten dach</l>
+				<l>Ick moet u cussen Lieve vader nach</l>
+				<l>maeck geen geclach // Lieve moeder gepreesen</l>
+			</sp>
+			<sp who="#anna">
+				<speaker>Anna'</speaker>
+				<l>Ick ben bedroeffste wijff datmen ije ter werrelt sach</l>
+				<l>Ick mach mijn wel trecken int haer // en maecken geclach</l>
+				<l>compt doot sonder verdrach // Ick sal niet vresen</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon.</speaker>
+				<l>Lieve moeder ghij weet dat Ickt niet beteren en mach</l>
+				<l>ben Ick niet u kint dat u ter herten Lach</l>
+				<l>die mijn plach met u borsten te genesen</l>
+				<l>waerom is dese droeffheijt in u geresen</l>
+				<l>besiet desen Jongen man die sal mij geleijden</l>
+				<l>en weder thuijs brengen gesont vroom uuijtgelesen</l>
+				<l>daerom Lieff moeder wilt te vreden wesen</l>
+				<l>Laet staen u tesen // cust mij / mijn moeder want wij moeten scheijden</l>
+				<l>Adieu vader moeder Leght toch droeffheijt aff neer</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den engel Raphael</speaker>
+				<l>Hebt godt voor d'ogen weest te vreen met u beijden</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Adieu Lieve soon wij moetten scheijden</l>
+			</sp>
+			<sp who="#anna">
+				<speaker>Anna'</speaker>
+				<l>Adieu Lieve kint mijn kint wij moeten schreijden</l>
+				<l>Ick sal greijden // oft compt toch haest weer</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon.</speaker>
+				<l>Ick moet u Cussen Lieff moeder wij
+                            moeten scheijen</l>
+				<l>Adieu vader moeder Leght droeffheijt neer</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Adieu soone wij
+                            bevelen u godt denheer</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Sone.</speaker>
+				<l>Wij sullen ons haesten seer al dat wij mogen</l>
+				<l>om u bedroeffde herten tsaemen te verhogen</l>
+				<l>Ick wil mijn voegen met u te spoeijen</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael</speaker>
+				<l>Broeder wilt u Ontschoeijen</l>
+				<l>het waeter begint te vloeijen / van passen</l>
+				<l>wij moeten op de zee ons voeten wassen</l>
+				<l>wilt u rassen // om int waeter te betten</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon.</speaker>
+				<l>Broeder wil ick mij voeten hier
+                            setten.</l>
+				<l>sonder Letten // twaeter en is niet heet</l>
+				<l>nu wil Ick mijn voeten wassen van dit sweet</l>
+				<l>hou / daer crijch ick een beet // gewis</l>
+				<l>o' heer heer Ick en weet niet wattet is</l>
+				<l>tschijnt een visch aen sijn hoot</l>
+				<l>besiet hoe hij daer Int waeter root</l>
+				<l>hij schoot // uuijt het waeter met allen hooch</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael</speaker>
+				<l>Broeder grijpt hem sleijpt hem opt drooch</l>
+				<l>vadt hem Int Ooch // hoe staet desen bever</l>
+				<l>scheurt sijn buijck op neempt hert en Lever</l>
+				<l>die galle met den aenclever // haelt al uuijt</l>
+				<l>Ick begere dat ghijse inde mael sluijt</l>
+				<l>die kuijt is goet // daermen hem op Leijt</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>soon.</speaker>
+				<l>Broeder Ick bidt u dat ghij seght die waerheijt</l>
+				<l>en doet mijn bescheijt // wije daer aff welvaert</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael.</speaker>
+				<l>Dat wert u verclaert.....</l>
+				<l>het aert // mach die duijvel niet Luchten</l>
+				<l>met die Lever doe Ickse suchten</l>
+				<l>hij moet vluchten // van desen roock</l>
+				<l>die galle is goet voor quae Oogen Oock</l>
+				<l>daer over tlicht een vliese drijft</l>
+				<l>ist dat ghij met die galle daer op wrijft</l>
+				<l>hij wort gerijft // vande Oogen bedompt</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>de soon</speaker>
+				<l>Asaria broeder die wech die crompt</l>
+				<l>den avont compt hadden wij Logijs</l>
+				<l>bijtijts in een herberge dat ick prijs</l>
+				<l>die spijs // sou wel smaecken het waer goet voer</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael</speaker>
+				<l>Wij willen hier blijven tot u moeders broer</l>
+				<l>ken weet geen goer // noch sochter</l>
+				<l>daer is maer een kint dat is een dochter</l>
+				<l>Ick en brochter geen Liever vrient mijn Leven</l>
+				<l>bidt haer vader hij salse u gaeren geven</l>
+				<l>ghij wordt verheven. so Ick meen</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon</speaker>
+				<l>Asaria broeder Ick seg neen</l>
+				<l>bij dese reen verstaet mij wel</l>
+				<l>sij heeft seven mans gehadt hoort dit opstel</l>
+				<l>den vijant fel // heeftse doot geslegen</l>
+				<l>off mij dat beurden wadt batet geswegen</l>
+				<l>mijn Ouders bleven verlegen inder noot</l>
+				<l>ghij weet dat Ickse Liet met Lijden groot</l>
+				<l>sij bleven doot // haer beijder zielen</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael</speaker>
+				<l>Hoort mijn broeder off wij dan aen godt vielen</l>
+				<l>Ick sal vernielen // den vijant dat sijn cracht sneeft</l>
+				<l>Ick sal u seggen over wien den duijvel macht heeft</l>
+				<l>die hem dach en nacht // geeft // onbevreest vroet</l>
+				<l>sijn wellusticheijt te plegen als een beest doet</l>
+				<l>weest // goet // het sal godt aldus behaegen</l>
+				<l>ghij sult tsaemen bidden drie nachten en drie dagen</l>
+				<l>met Oogen opgeslaegen // met handen gevouwen</l>
+				<l>begint met die vrese goods tsal u niet rouwen</l>
+				<l>wilt daer aen houwen // ghij sult niet dolen</l>
+				<l>Legt die Lever op die gloeijende colen</l>
+				<l>als de vijant begint te solen // aen u Lijven</l>
+				<l>dan sal Ick hem die Lever int Aensicht wrijven</l>
+				<l>die Lucht sal hem verdrijven siendelijck</l>
+				<l>clopt hier aen het volck is soo vriendelijck</l>
+				<l>diendelijck // gaet sitten op die stoepen</l>
+				<l>rachul rachul</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Rachuel uuijtcomende</speaker>
+				<l>Wie hoor Ick daer roepen</l>
+				<l>Ick hiet u wellecom Inden heere bemint</l>
+				<l>siet wijff hoe wel gelijckt dit mijn susters kint</l>
+				<l>mijn hert begint // In vreuchden te waen</l>
+				<l>seght mijn goemannen waer comdij van daen</l>
+				<l>wilt mijn verslaen // u geslachten mee</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon</speaker>
+				<l>Van Nephtalium uuijt de gevangenis nijnive</l>
+				<l>daer Ick veel Lee // met groot verdriet</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Rachuel</speaker>
+				<l>Kent ghij tobijas mijn broeder niet</l>
+				<l>so heijligen man siet / als Ick ije heb gehoort</l>
+				<l>Wadt Lijden hij creech hij betrouden
+                            goods woort</l>
+				<l>gaende altijt voort // hij wilde niemants versmader // sijn</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon</speaker>
+				<l>Tobijas dat is de Lieffste vader mijn</l>
+				<l>dus comen wij naerder fijn // dat moet ghij weten</l>
+			</sp>
+			<sp who="#raguels-huijsvrou-met-haer-dochter">
+				<speaker>Raguels Huijsvrou met haer dochter</speaker>
+				<l>Willecom mijn vrienden hebt ghij wadt ontbeten</l>
+				<l>haelt hier wadt teeten vanden baecken</l>
+				<l>ghij sijt tsaemen moe gegaen tsal wel smaecken</l>
+				<l>spoelt het stoff uuijt u caken // dattet Lost</l>
+				<l>hier Is den wijn metten most</l>
+				<l>vraecht niet watse cost // daer sijn schaelen</l>
+				<l>drinckt ras uuijt Ick sal een ander haelen</l>
+				<l>mijn boorsken salt betaelen // tot u behoeven</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon.</speaker>
+				<l>Ick sal hier eeten noch drincken proeven</l>
+				<l>wilt wadt toeven // eer wij vreucht orboren</l>
+			</sp>
+			<sp who="#sara">
+				<speaker>Sara</speaker>
+				<l>Ghij moet eeten en drincken dat is verloren</l>
+				<l>mijn neve vercoren // maeck goet chier</l>
+				<l>Laet swaericheijt Lopen wilt u niet stooren</l>
+				<l>proeft ons cost die hier staet voren</l>
+				<l>wilt droeffheijt smoren // eedel Jongelinck fier</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>soon.</speaker>
+				<l>O schoon balsemier.....</l>
+				<l>wel ruijckende Egelentier // soetmedich</l>
+				<l>Ick mach eeten noch drincken schier</l>
+				<l>doort Lieffelijck wesen // u soete manier</l>
+				<l>dus so coom Ick hier dus onledich</l>
+				<l>door goods wil ben Ick hier tredich</l>
+				<l>weest niet onvredich // hoort mijn woorden blij</l>
+				<l>om u so ben Ick u vader bedich</l>
+				<l>daer me te Leven niet onsedich</l>
+				<l>haer wesen vredich // behaget mij</l>
+			</sp>
+			<sp who="#sara">
+				<speaker>sara</speaker>
+				<l>Mijn Lieftste neeff stelt die woorden aen deen zij</l>
+				<l>Ick en ghij worden niet verheucht</l>
+				<l>tis godt bekent wadt droeffheijt Ick Lij</l>
+				<l>Ick hadde seven mans Ick slieper noijt bij</l>
+				<l>den vijant tfij // dootse al In haer Jeucht</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael.</speaker>
+				<l>Sara die seven mans namen u om geen deucht</l>
+				<l>alleen om geneucht // des vleijs quaet</l>
+				<l>Ick segge u van gods wegen dat ghij geloven meucht</l>
+				<l>dese twee heeft godt tsaemen geveucht</l>
+				<l>om te Leven met vreucht // inden echten staet</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Rachuel</speaker>
+				<l>So begeer Ick dat ghij u handen tsaemen slaet</l>
+				<l>den goddlijcken raet wilt altijt eeren</l>
+				<l>hebt die vreese goods / den armen niet en versmaet</l>
+				<l>Abraham Jijsack Jacop o' godt Laet</l>
+				<l>haer zaet // wassen // om u Loff te vermeren</l>
+			</sp>
+			<sp who="#raguels-wijf">
+				<speaker>Raguels wijf</speaker>
+				<l>Die heer wil u gebenendijen en Leeren</l>
+				<l>besweeren // den vijant versmadich</l>
+				<l>dat hij u niet en Laet tempteren</l>
+				<l>waer door hij u sou schandelezeren</l>
+				<l>de heer der heeren wese u genadich</l>
+			</sp>
+			<sp who="#sara">
+				<speaker>Sara</speaker>
+				<l>Mijn heere mijn godt hoe beladich</l>
+				<l>In droeffheijt wadich // dit hert doorschoten</l>
+				<l>swaermoedich gepeijs in mij seer verradich</l>
+				<l>aensiet desen Jongelinck niet misdadich</l>
+				<l>deuchdelijck en stadich uuijt gesproten</l>
+			</sp>
+			<sp who="#raguels-wijf">
+				<speaker>Raguels wijf</speaker>
+				<l>Dochter u claegen heeft mij verdroten</l>
+				<l>die tranen vloten // over u vijsagie</l>
+				<l>onse vader Jacop Liet after xij genoten</l>
+				<l>desen Jongen man is gecomen van die Loten</l>
+				<l>ghij sijt gesloten // onder die xij ragie</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Raguel.</speaker>
+				<l>Heeft godt u toegevoecht dese parsonagie</l>
+				<l>Ick geeff u tot gagie mij halve goet</l>
+				<l>met een Jonckwijff en met een pagie</l>
+				<l>weest te vreden van droeffheijt om Lagie</l>
+				<l>bereijt u potagie // metter spoet</l>
+			</sp>
+			<sp who="#raguels-wijf">
+				<speaker>Raguels wijf</speaker>
+				<l>Ick begeer dat ghij een ander camer ondoet</l>
+				<l>daer ghij slaepen moet // beijde tsaemen</l>
+				<l>godt sal bewaeren den Jongelijnck soet</l>
+				<l>die godt vreest sijt dit wel vroet</l>
+				<l>thelste gebroet // mach u niet schamen</l>
+				<l>gaet tsaemen slaepen / Tobijas Sara naet betaemen</l>
+				<l>godt bewaer u zielen beij u Lichaemen wel</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon</speaker>
+				<l>Nu wil Ick gaen nae mijns broeders bevel</l>
+				<l>Ick sal die Lever opt vier doen gloeijen.</l>
+				<l>daer Ick mee sal verdrijven den vijant fel</l>
+				<l>hij is Listich boos in sijn opstel</l>
+				<l>omden mensch inde hel te cruijen</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Ghij helsch dier // compt hier // doch
+                            ruijen</l>
+				<l>metter haest // verbaest // hoort mijn doch spreecken</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Wel hout toch manier // dit getier // doet mij sproeijen</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Ghij hels dier // compt doch hier // doch ruijen</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Compt ghij niet schier // int helsche vier / tsal mij moeijen</l>
+				<l>hij blaest dattet raest // tsijn verloren treecken</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Ghij helsch dier // compt doch hier // roeijen</l>
+				<l>met haest // verbaest // hoort mijn doch spreecken</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>De saecke waerom // Ick com // u helpen wreecken</l>
+				<l>haer preecken // is verdriet // ende niet dan valsch</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Maeckt hem dom // en stom // wilt sijn mont toepeecken</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Die saecken waerom // ick com u helpen wreecken</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Treckt an // als een man // helse clom thooft staet
+                            crom gestreecken</l>
+				<l>wilt hem breecken // vliet daert riet hem val als</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>De saecken waerom // Ick com u helpen wreecken</l>
+				<l>haer preecken
+                            // is verdriet ende niet dan valsch</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Treckt an // als een man breeckt hem den hals</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael</speaker>
+				<l>Ghij helsche mooren // tis verlooren veel geschals</l>
+				<l>versiet u // als nu // Int wilde foreest</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Ick salse verstooren // doorbooren //
+                            ghij weet wat mals</l>
+				<l>Den Engel Raphael.</l>
+				<l>Ghij helsche mooren tis verloren veel geschals</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Meent ghij twee doren te versmoren met wadt gals</l>
+				<l>wij sijn te ru // Ick verspu dit tempeest</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael.</speaker>
+				<l>Ghij helsche mooren tis verloren veel geschals</l>
+				<l>versiet u // als nu int wilde foreest</l>
+				<l>dese Lever meest // hebt ghij gebroocken</l>
+				<l>Ick beveel u geen menschen te tempteren maer</l>
+				<l>vervloet moet ghij wesen inder hellen
+                            swaer</l>
+				<l>maeckt. geen misbaer // gaet al heen // treen</l>
+				<l>om dattet den raet is vanden heijligen geest</l>
+				<l>door gods wercken moet ghij ruijmen meest</l>
+				<l>ghij Leelijcke beest // hout daer met u
+                            stoocken</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Hout hout wadt duijvel gaet ghij cooken</l>
+				<l>wadt gaedij smoocken // hout off u duijmen</l>
+				<l>wij meenden hem den hals hebben gebroocken</l>
+				<l>waer zijdij neve aen deen zijde gedoocken</l>
+				<l>het sal worden gewroocken // dat wijt versuuijmen</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Bijlo neeffken Ick wilt ruijmen</l>
+				<l>Ick mach de podt schuijmen // oft den ketel daer</l>
+				<l>Laet ons een weijnich Leggen sluijmen</l>
+				<l>wij sullen haest aen een ander schieten ons pluijmen</l>
+				<l>wadt segdijer van Luijmen Is dit niet waer</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Hoe gaet al mijn kaer....</l>
+				<l>gaen wij te gaer // Ick weet u meenen</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Jae Ick mach wel suchten....</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>En Ick mach wel weenen....</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Wij moeten vluchten.......</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Wij moeten nu heenen......</l>
+				<l>die man ginck ons verbenen also men sach</l>
+				<l>duijvel noch mensch / tegen godt ijet doen mach</l>
+			</sp>
+			<stage>Pausa Binnen....</stage>
+			</div>
+		<div type="scene" n="2">
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael.</speaker>
+				<l>Broeder godt sal u bewaeren nacht en
+                            dach</l>
+				<l>Ick bidt u nach // hoe sullen wijt maecken</l>
+				<l>om te reijsen tot gabulon sonder verdrach</l>
+				<l>u vader verlangt nae u met groot geclach</l>
+				<l>u moeder heeft u gewaech // doort vijerich blaecken.</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>soon.</speaker>
+				<l>Ick moet hier drie daegen bidden en waecken</l>
+				<l>eer Ick mach genaecken // Sara verheven</l>
+				<l>Asaria beschickt doch die saecken</l>
+				<l>thoont hem den brieff ghij sult wel aen gelt raecken</l>
+				<l>hij salt schrift niet Laecken want hijt selffs heeft geschreven</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael.</speaker>
+				<l>De man Is goet hij sal mij tgelt wel geven</l>
+				<l>blijft hier beneven dat sal u niet rouwen</l>
+				<l>Adieu tobijas kint en wilt niet beven</l>
+				<l>Wilt deuchdelijck met Sara u huijsvrou
+                            Leven</l>
+				<l>Ick hoop sonder sneven // u haest weer te aenschouwen</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon</speaker>
+				<l>Adieu broeder Ick sal u de bootschap wel betrouwen</l>
+				<l>als ghij weer compt so sullen wij bruijloft houwen</l>
+				<l>wij souden uijt blijven veel te Lanck</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael</speaker>
+				<l>Adieu broeder Ick
+                            salt beschicken al waert van gouwen</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>soon.</speaker>
+				<l>Adieu broeder compt weder met de ganck</l>
+				<l>O Sara blanck stelt u hart te vreden</l>
+				<l>O stralende Oogen van Leden swanck</l>
+				<l>Amoureuse fijolette wijngaert ranck</l>
+				<l>simbaelen geclanck // inden stadt van meden</l>
+				<l>wij willen ons ootmoedich geven tot den gebeden</l>
+				<l>O heer Laet ons niet Overtreden // dat ghij wordt gram</l>
+			</sp>
+			<sp who="#sara">
+				<speaker>Sara</speaker>
+				<l>O heer geeft mij verstant en reden</l>
+				<l>dat Ick die gave gods / tot u eer mach besteden</l>
+				<l>met alle mijn Leden // sachtmoedich Leven als een Lam.</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon.</speaker>
+				<l>O heer ghij hebt geschapen inden paradijs adam</l>
+				<l>daer nae ons eerste moeder Eva</l>
+				<l>ghij hebtse gegeven tot sijnen Lichaem</l>
+				<l>waer door dattet saet der menschen quaem</l>
+				<l>desen stam // hebt ghij geplant geen ander na</l>
+				<l>hier heb Ick mijn suster gecregen met uwen ra</l>
+				<l>die schoone Sara' // wilt ons doch sparen</l>
+			</sp>
+			<sp who="#sara">
+				<speaker>Sara</speaker>
+				<l>Godt die hemel ende Aerde gemaeckt heeft daer Ick op gae</l>
+				<l>ghij weet dat Ick nae // geen ijdelheijt en stae</l>
+				<l>wellust Ick versmae In alle mijn Jonge Jaeren</l>
+				<l>Ick was noijt daer herpen oft veelen waeren</l>
+				<l>off daermen speelden op snaeren // om ijdelheijt te plegen</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>soon</speaker>
+				<l>O heer Ick heb inde werrelt niet willen openbaren</l>
+				<l>tijtelijcke vreucht om bij malcanderen te vergaren</l>
+				<l>mijn ouders niet te beswaeren // dat hen stont tegen</l>
+				<l>Lieve heer heb Ick hier een suster gecregen</l>
+				<l>bewaert mijn wegen nae u behaegen</l>
+				<l>dat Ick mijn echtelijcke staet totter eeren gods mach dragen</l>
+				<l>mijn even mensch mach geven een goet exempel te
+                            degen</l>
+				<l>dat mijn hert is genegen // nae den armen te vragen</l>
+			</sp>
+			<sp who="#sara">
+				<speaker>sara</speaker>
+				<l>O heer Laet die vreese gods van ons niet sijn verslagen</l>
+				<l>dat wij al ons dagen // u Lieft ter herten Innen</l>
+				<l>O heer mijn Oogen geen Liever man en sagen</l>
+				<l>Ist
+                            u wil niet sout ghij hem willen plaegen</l>
+				<l>doet hem verjaegen // eer wij tsaemen beginnen</l>
+				<l>Liever dus te blijven dan mijn man doot te vinnen</l>
+				<l>Ick sout niet moogen verwinnen // dus ben Ick bedacht</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>soon.</speaker>
+				<l>Sara weest te vreden Laet ons godt beminnen</l>
+				<l>hij heeft ons te saemen gevoecht van eender sinnen</l>
+				<l>dus maecken wij nae binnen // onse tocht</l>
+				<l>die selve godt die hemel ende aerde wrocht</l>
+				<l>die heeft mijn gebrocht in dit Lant</l>
+				<l>om dat wij te saemen souden sijn gecnocht</l>
+				<l>Ick wilde niet datmen ons verscheijen mocht</l>
+				<l>die heer heeft ons uijtgesocht // na mijn verstant</l>
+				<l>O Sara raguels dochter becant</l>
+				<l>geeft mij de hant als Lieff bij Lieff compt mij te moet</l>
+			</sp>
+			<sp who="#sara">
+				<speaker>sara</speaker>
+				<l>Dat wil Ick gaeren doen vroom gigant</l>
+				<l>een man die mij van godt is toegesant</l>
+				<l>overmits u deuchden // want sij gaen boven goet</l>
+				<l>o Jongelinck soet</l>
+				<l>u dienst deernne behoet</l>
+				<l>in tegen spoet // mij niet en verlaet</l>
+				<l>u wille met mijn doet</l>
+				<l>Tobijas kint edel bloet</l>
+				<l>door den godlijcken gloet // mijn // ontfaet</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>soon.</speaker>
+				<l>O maechdelijck saet</l>
+				<l>claer blinckende daegeraet</l>
+				<l>het waer quaet // sou Ick u bederven</l>
+				<l>mijn hert in vreuchden vaet</l>
+				<l>door goods raet</l>
+				<l>inden echten staet // niet en versmaet</l>
+				<l>totten armen gaet // die swerven</l>
+				<l>aelmissen niet en schaet</l>
+				<l>dus doet u charitaet</l>
+				<l>wel hem die doet sulck een daet</l>
+				<l>almisse verslaet // der sonden affkerven</l>
+				<l>die barherticheijt doet die sal bermherticheijt verwerven</l>
+			</sp>
+			<sp who="#sara">
+				<speaker>sara.</speaker>
+				<l>Godt geeff ons een deuchdelijck Leven ende een salich sterven</l>
+			</sp>
+			<stage>Pausa Binnen</stage>
+			</div>
+		<div type="scene" n="3">
+			<stage>Raguel met sijn wijf Cnaep ende Jonckwijf tsaemen uuijt. Raguel. seijt</stage>
+			<sp who="#raguel">
+				<speaker>Raqeuel</speaker>
+				<l>Lieve vrouwe Ick ben so swaermoedich</l>
+				<l>om mijn dochters man hij is so goedich</l>
+				<l>sijn deucht is overvloedich groot</l>
+			</sp>
+			<sp who="#raguels-wijf">
+				<speaker>Raguels wijf</speaker>
+				<l>O heer weest hem voor den vijant behoedich</l>
+				<l>tis een goet mans kint in Lieffden
+                            gloedich</l>
+				<l>tot den armen spoedich // om te geven broot</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Rageuel</speaker>
+				<l>Thart in mijn Lijff is also swaer als Loot</l>
+				<l>die man is doot roept om slaven</l>
+				<l>compt hier voort tis wel van noot</l>
+				<l>o' heer brengt hem in shemels conroot</l>
+				<l>In abramhans schoot // om hem te Laven</l>
+			</sp>
+			<sp who="#raguels-wijf">
+				<speaker>Raguels wijf</speaker>
+				<l>Gaet heen mijn bode haestich draven</l>
+				<l>wilt een graff graven // en scheijter van</l>
+				<l>Ick wil dat graff van houtwerck schaven</l>
+				<l>o' heer hoe wonderlijck sijn u gaven</l>
+				<l>wilt die Aerde op schraven // van stonden an</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Raguel.</speaker>
+				<l>Daer sal Ick Leggen mijn dochters man</l>
+				<l>op dat Ick can // eer dat den dach begint</l>
+				<l>Ick mach wel schreijen // wie sal mij troosten dan</l>
+				<l>O heer die mij dit Lijden san</l>
+				<l>dat Ick dit kint ije gewan // dat gaet mij ter herten in</l>
+			</sp>
+			<sp who="#de-cnaep-vanden-huijse">
+				<speaker>De Cnape.</speaker>
+				<l>Ick salt graff graeven is u sin</l>
+				<l>Ick ben tot delven al bereijt</l>
+				<l>tis mij alleens waer Ick mijn broot mee win</l>
+				<l>dus sal Ick soecken dat Ick een stee vin</l>
+				<l>want Ick bemin // om Loon den Arbeijt</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Raguel.</speaker>
+				<l>Martha gaet inde camer daer mijn dochter Leijt</l>
+				<l>brengt ons bescheijt // off die vrijer Leeft</l>
+				<l>hoort toch off mijn dochter oock greijt</l>
+				<l>segt haer datse u die waerheijt seijt</l>
+				<l>Leijt hij doot Al bijde meijt // ons dat te kennen geeft</l>
+			</sp>
+			<sp who="#een-jonckwijf">
+				<speaker>Een Jonckwijf</speaker>
+				<l>Vrou Ick sal gaen mijn hert dat beeft</l>
+				<l>Is hij doot so heeft sara groote varen</l>
+				<l>Ick wil gaen den Angst aen mijn ribben cleeft</l>
+				<l>Ick woude dat ghij geen rouw en bedreeft</l>
+				<l>tis verloren
+                            geweeft // die doot is moet verharen</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Raguel</speaker>
+				<l>Godt Almachtich die wil hem sparen</l>
+				<l>dat hij out van Jaeren mach worden sonder schromen</l>
+			</sp>
+			<sp who="#een-jonckwijf">
+				<speaker>Een Jonckwijf</speaker>
+				<l>Lieve meester wilt u niet beswaren</l>
+				<l>sij leggen tsaemen en slaepen // offt het beelden waeren</l>
+				<l>twee soete karen // in sijn arm heeft hijse genomen</l>
+			</sp>
+			<sp who="#raguels-wijf">
+				<speaker>Raguel wijf</speaker>
+				<l>Dat sal ons vromen.........</l>
+				<l>stroijt die camer met blomen // sonder spijt</l>
+				<l>godt wil den vijant verdomen</l>
+				<l>bereijt ons wel teeten // Laet ons vrienden comen</l>
+				<l>wilt tpaert doen tomen // tot ons bueren rijt</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Raguel.</speaker>
+				<l>Doet dat graff weder toe tis meer dan tijt</l>
+				<l>al eer den dach opglijt // dattet niemant en weet</l>
+				<l>O heer inder Euwicheijt gebenendijt</l>
+				<l>nu wil Ick gaen maecken ons volck verblijt</l>
+				<l>datse comen met Jolijt // die spijs is bereet</l>
+			</sp>
+			<sp who="#raguels-wijf">
+				<speaker>Raguels wijf</speaker>
+				<l>O heer sijt geloofft van u vrient secreet</l>
+				<l>den vijant wreet hebt ghij verstoort</l>
+				<l>wij sijn
+                            verlost van al ons Leet</l>
+				<l>elck sie dat hij antreckt het bruijlofts cleet</l>
+				<l>Ick wil dat ghijt deet // nu niet en treurt</l>
+				<l>ginder compt gabelum u hooft opbeurt</l>
+				<l>alle droeffheijt scheurt ons hert verheucht</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Raguel</speaker>
+				<l>Wellecom ons broeder ons bloet reurt</l>
+				<l>mijn Ansicht couleurt // anschouwende deucht</l>
+			</sp>
+			<sp who="#gabelus">
+				<speaker>Gabuelon</speaker>
+				<l>Ick dancke u dat ghij u veucht.......</l>
+				<l>met geneucht // mijn tontfangen........</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Raguel</speaker>
+				<l>Danck den heer al dat ghij meucht</l>
+				<l>wij willen tsaemen maecken vreucht</l>
+				<l>met de Jonge Jeucht // die hier comen gegangen</l>
+			</sp>
+			<sp who="#gabelus">
+				<speaker>Gabulon</speaker>
+				<l>Tobijas wilt den heer gebenedijen met loven en sangen</l>
+				<l>Ick moet u cussen aen u wangen / die mij toch biet</l>
+				<l>u vader heeft mij verlost doen Ick sadt gevangen</l>
+				<l>wij schijnde ons van honger met mijn kinders te verhangen</l>
+				<l>u vader ginck mij Langen / so veel silvers // siet</l>
+				<l>waer me Ick gecomen ben door mijn verdriet</l>
+				<l>Ick weet niet // wadt Lieffde sal Ick hem dochtonen</l>
+				<l>mij is so veel barmherticheijts geschiet</l>
+				<l>van u vader daer ghij na hiet</l>
+				<l>want hij mij Liet // alle dese cronen</l>
+				<l>de heer des hemels wilt u Loonen</l>
+				<l>hij sal niemant honen // die barmherticheijt dee</l>
+				<l>die heer verleen u soonen en dochteren schoone</l>
+				<l>vruchten des Lants teruwe rogge gerste en boone</l>
+				<l>wijnbergen tronen // moeten wassen mee</l>
+				<l>daer is geen man beter In nineve</l>
+				<l>noch indees stee / Ick wil niemant Laecken</l>
+				<l>Sara de heer geeff u rust en vree</l>
+				<l>weest tot goods wercken altijt ree</l>
+				<l>niet wree // den Armen die nae troost haecken</l>
+				<l>Leentmen gelt o' heer men sal al Lachende over raecken</l>
+				<l>off wij thantschrift braecken // wij sijn van malcander</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>soon</speaker>
+				<l>Gabelum broeder Laet Loopen die saecken</l>
+				<l>wij moeten malcander wadt vermaecken</l>
+				<l>het sal wel smaecken // die spijs is claer</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Raguel.</speaker>
+				<l>Ick bid u mijn vrienden allegaer</l>
+				<l>compt doch naer // tis mijn begeeren</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>soon</speaker>
+				<l>Ick wil gaen thuijs tot mijn bedroeffde vaer</l>
+				<l>tot mijn Lieff moeder // haer hert is swaer</l>
+				<l>om te verblijen haer // Ick sal haest weder keeren</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Raguel</speaker>
+				<l>Ghij sult mij niet tempteren.....</l>
+				<l>Ick sal u besweeren te blijven veerthien dagen</l>
+			</sp>
+			<sp who="#raguels-wijf">
+				<speaker>Raguels wijf</speaker>
+				<l>Wij moeten den echten staet houden met eeren</l>
+				<l>met ons vrienden die hier triumpheren</l>
+				<l>die heer der heeren moeten wij dit werck clagen</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Raguel.</speaker>
+				<l>Hoe souden wij malcanderen dus verjaegen</l>
+				<l>hoort mijn gewaegen // mijn soon gepresen</l>
+				<l>als ghij reijsen wilt dat wij niet garen en sagen</l>
+				<l>dan sult ghij deen helft van mijn goet me dragen</l>
+				<l>weest sonder clagen en wilt niet vreesen</l>
+				<l>tenden mijn doot so salt u altemael weesen</l>
+				<l>neempt deesen brieff Lieve Soone mijn</l>
+			</sp>
+			<sp who="#raguels-wijf">
+				<speaker>Raguels wijf</speaker>
+				<l>Dats een hantschrift om u hert te
+                            genesen</l>
+				<l>dat mijn man u Looft sult ghij daer In Lesen</l>
+				<l>niemant sal plocken en tesen // tegen dijn</l>
+				<l>al ons goet sal met ons dochter sijn</l>
+				<l>Jongelinck fijn Laet ons vreucht aenvaeten</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Raguel</speaker>
+				<l>Laet ons doch gaen drincken den coelen wijn</l>
+				<l>en singen uuijt geneuchten een Liedekijn</l>
+				<l>alle pijn wilt doch Loopen Laeten</l>
+				<l>die spijs wort cout // twaer tijt dat wij ter taeffelen
+                            aensaten</l>
+				<l>Binnen....</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Den ouden Tobijas spreeckt</speaker>
+				<l>O heer der heeren Ick mach wel versijcken</l>
+				<l>Ick ben veracht van armen en rijcken</l>
+				<l>mijn beswijcken Leden en adere</l>
+				<l>Ick en mach hemel noch aerde bekijcken</l>
+				<l>mijn soon blijft achter den Leijtsman desgelijcken</l>
+				<l>thert wil mij ontstrijcken // o' doot compt nadere</l>
+				<l>waer blijft mijn kint mijn druckx ontladere</l>
+				<l>Ja gabulon dije Leijtsman hoop Ick en is geen veradere</l>
+				<l>Is dan nu gabulon doot / geen anckxt quadere</l>
+				<l>o' hemelsche vadere Ick sorge noch</l>
+				<l>smenschen sorge is niet // die sien en helpen moch</l>
+			</sp>
+			<sp who="#anna">
+				<speaker>Anna Tobijas Huijsvrou.</speaker>
+				<l>Och dat wij hem Oijt hebben Laeten gaen</l>
+				<l>Ick mach mijn haer plocken / mijn handen slaen</l>
+				<l>wadt hebben wij gedaen als dwaese plegen</l>
+				<l>den stock onser Outheijt daer wij op souden staen</l>
+				<l>ons hoop ons troost daer wij op stonden die is verraen</l>
+				<l>heer wilt hem ontfaen // hij is doot gheslegen</l>
+				<l>Ick wil Loopen over die vreemde wegen</l>
+				<l>want Ick gaeren tijdinge had off hem oock ijemant sach</l>
+				<l>Ick sal alle menschen vraegen die mij comen tegen</l>
+				<l>off sij geen Jongelinck hebben sien onder wegen // dregen</l>
+				<l>mijn hert is toegenegen o wij o' wach</l>
+				<l>smenschen sorge is niet die hsien off helpen en mach</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Mijn Lieve wijff wilt dus niet schreijen</l>
+				<l>tis een goet man die ons kint ginck Leijen</l>
+				<l>sij mogen wadt beijen // nae dat gelt</l>
+				<l>gabulon is een goet man en wilt niet greijen</l>
+				<l>hij sal dat silver willen bereijen</l>
+				<l>om u soon te paijen // eert wort getelt</l>
+				<l>die heer seijt dat ghij niet sorgen en selt</l>
+				<l>Ick bender me gequelt nacht en dach</l>
+				<l>Ick sorge dat hij van boeven is vermelt</l>
+				<l>diet silver van hem genomen hebben met gewelt</l>
+				<l>off die beesten op het velt hebben verscheurt daer hij
+                            lach</l>
+				<l>smenschen sorge is niet die sien noch helpen en mach</l>
+			</sp>
+			<sp who="#anna">
+				<speaker>Anna Prince.</speaker>
+				<l>O Prince der princen macht boven alle machten</l>
+				<l>is mijn kint verdroncken in sloten in grachten</l>
+				<l>is hij bij nachten verdoolt opte wech verkeert</l>
+				<l>O heer hoe wonderlijck sijn mijn gedachten</l>
+				<l>tis verloren mijn kint is doot wadt wil Ick wachten</l>
+				<l>mijn geslachten is te niet heel verneert</l>
+				<l>hadden wij gabelum quijt geschouwen Ick hadt begeert</l>
+				<l>dat mijn soon sijn moeder gecontenteert so hij plach</l>
+				<l>So waer Ick met dese sorge
+                            niet gepersequeert</l>
+				<l>nu so heb Ick niemant die mijn geslachten vermeert</l>
+				<l>dit is dat
+                            mij deert heer Ick naempt wel verdrach</l>
+				<l>smenschen sorge is niet die sien en helpen en mach</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree.</speaker>
+				<l>Wel wadt seght ghij van dat queesten</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Ja sij sal uuijt haer sin sneven</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Dat wijff is heel beneesten......</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Wadt seght ghij van dat queesten</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Ick salse gaen nooden tot onser feesten</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Bij die helsche geesten // sal sij sijn daer ick bin beven</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Wel wadt seght ghij van dat queesten</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Ja sij sal uijt heur sin sneven</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Ick sal haer mistroosticheijt Ingeven</l>
+				<l>en doen haer als een spin // beven // hoort mij nu</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Cosijntgen weester nu bij / nu</l>
+				<l>elck aen een sij nu // haer bloet sal veranderen</l>
+			</sp>
+			<sp who="#anna">
+				<speaker>Anna.</speaker>
+				<l>Goede mannen hebt ghij geen Jongelinck sien wanderen</l>
+				<l>twee bij malcanderen // opten wech van meden voort</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Tis wel seven daegen geleen dat wij hebben
+                            gehoort</l>
+				<l>dat waeren vermoort // twee Jonge knechten</l>
+			</sp>
+			<sp who="#anna">
+				<speaker>Anna'</speaker>
+				<l>Waer quamen sij van daen wilt mij dat berechten</l>
+				<l>Ick schoer mijn vlechten / o fortuijne wree wree</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Dese quamen van nineve.......</l>
+				<l>godt geeft haer vree // in Abrahams schoot nu</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Tobijas</speaker>
+				<l>Anna quaet Ingeven beroort / u</l>
+				<l>den vrient verstoort u // en wilt niet vreesen</l>
+			</sp>
+			<sp who="#anna">
+				<speaker>Anna'</speaker>
+				<l>Tobijas Ick wil niet getroost weesen</l>
+				<l>mijn kint gepresen is gedoot met den swaerden.</l>
+				<l>o' doot compt hier wilt mij aenvaerden</l>
+				<l>Ick val opter Aaerden thooft schoort</l>
+				<l>O heer is mijn kint doot mijn hert
+                            doorboort</l>
+				<l>so Ick hoor / dit Lijden mach Ick mijn man wel verwijten</l>
+				<l>o' hert mocht ghij nu niet bersten off splijten</l>
+				<l>Ick sal mijn hooft wel aenstucken smijten</l>
+				<l>dat het nu schoort</l>
+			</sp>
+			<stage>Anna binnen /</stage>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Dat wij schrijff Ick binmen...</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Dat hebbe Ick oock so beloert...</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Sij verliest haer Sinnen.....</l>
+				<l>eer sij haer hooft op boert.....</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht.</speaker>
+				<l>Sij sal haer bedrogen vinmen.......</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Ja datse dus troert.........</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Nu willen wij beginnen.........</l>
+				<l>te rocken te spinnen // eet eerst een waeffel</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Neen Ick wil gaen haestelijck tot raguel</l>
+				<l>Ick stae snel // om daer te gaen // drijven</l>
+			</sp>
+			<sp who="#tijtelijcke-vreucht">
+				<speaker>Tijtelijcke vreucht</speaker>
+				<l>Wij sullen de bruijts moeder In gaen // wrijven</l>
+				<l>dat den bruijdegom daer mach blijven wat Lanck</l>
+			</sp>
+			<sp who="#benijdende-vree">
+				<speaker>Benijdende vree</speaker>
+				<l>Dan so gaen wij met dat wijff ter clanck</l>
+				<l>wij gaen ons ganck. // om ons daer toe te spoen</l>
+				<l>die godt niet en betrout // daer moogen wij veel in doen.</l>
+			</sp>
+			<stage>Pausa.</stage>
+			</div>
+		<div type="scene" n="4">
+			<sp who="#den-ouden-tobijas">
+				<speaker>Den ouden  tobijas</speaker>
+				<l>O heer wilt behoen // mijn Lieff wijff</l>
+				<l>datse mach behouwen haer sinnen vijff</l>
+				<l>dattet hert in haer // Lijff begint te spouwen</l>
+				<l>Lieve Anna' acht niet wadt quae nijders tongen brouwen</l>
+				<l>Laet ons vrede houwen // beijde te saemen</l>
+				<l>wilt den heer des hemels betrouwen</l>
+				<l>Laet sijn Lieffde In u hert niet vercouwen</l>
+				<l>ghij sult u soon haest aenschouwen nae dat Ick can ramen</l>
+			</sp>
+			</div>
+		<div type="scene" n="5">
+			<stage>Een weijmich Pausa Den Engel Raphael. uijt</stage>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael</speaker>
+				<l>Tobijas kint off wij Oorloff namen</l>
+				<l>het sou wel betamen // niet Langer en toeft</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Raguel</speaker>
+				<l>Sout ghij alree scheijden Ick soudt mij schamen.</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael</speaker>
+				<l>Tobijas kint off wij Oorloff namen</l>
+				<l>Lieve vader twaer tijt dat wij
+                            thuijs quamen</l>
+				<l>mijn Ouders Lichamen // wel troost behoeft</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael.</speaker>
+				<l>Tobijas kint off wij oorloff namen</l>
+				<l>tsou wel betamen // niet Langer en toeft</l>
+				<l>Ick weet dat u Ouders seer sijn bedroeft</l>
+				<l>dat ghij haer hert op groefft daer beneven</l>
+				<l>sij meijnen dat ghij vermoort sijt vant geboeft</l>
+				<l>die heer heeft haer genoch geproeft</l>
+				<l>den vijant troeft // om haer mistroost in te geven</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>.soon.</speaker>
+				<l>Adieu mijn vader verheven</l>
+				<l>tis verlooren ogen gewreven // nu isset tijt</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Raguel.</speaker>
+				<l>Godt Laet u deuchdelijck met malcandren Leven</l>
+				<l>daer is den brieff die Ick heb gelesen en geschreven</l>
+				<l>mijn Leden beven // die Ick u beij gae quijt</l>
+			</sp>
+			<sp who="#raguels-wijf">
+				<speaker>Raguels wijf</speaker>
+				<l>Sara siet dat ghij u man Onderdanich zijt</l>
+				<l>verblijt / sijn Ouders en dientse mee</l>
+				<l>draecht op niemant ter werrelt nijt</l>
+				<l>valter twedracht in u huijs / datmer smijt</l>
+				<l>dat niet en Lijt in u stee</l>
+				<l>past altijt te houwen met u bueren vree</l>
+				<l>Weest den armen troostelijck / en niet wree</l>
+				<l>sijt altijt ree // om u man te dienen hout statie</l>
+				<l>ofter / ander mans waeren die u int bree</l>
+				<l>deen off dander om een vrintschap bee</l>
+				<l>niet godlijck en dee // schuijt sulcke recreatie</l>
+				<l>op dat u man niet en compt in Arguatije</l>
+				<l>Alle natije der menschen en gelooft doch niet</l>
+				<l>Leeft onsterffelijck verspuijt qua temptatije</l>
+				<l>op dat ghij niet en compt tot blamatije</l>
+				<l>staet inde gratie // van u mans ouders siet</l>
+			</sp>
+			<sp who="#sara">
+				<speaker>sara</speaker>
+				<l>Moeder Ick sal doen dat ghij mij gebiet</l>
+				<l>Wat hij mijn hiet // sal hem staen in daden</l>
+				<l>sijn Ouders sal Ick aendoen geen verdriet</l>
+				<l>al waert dat hij de voet aen mij stiet</l>
+				<l>smenschen troost verbiet // Ick salse niet versmaeden</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Raguel.</speaker>
+				<l>Vaert heen nu In goods genaeden</l>
+				<l>die camelen staen geladen ginder</l>
+				<l>hier sijn mijn cnapen wijst haer die paden</l>
+				<l>die dienstmaechden sullen u staen in staeden</l>
+				<l>gaet sonder beraden // mijn godt wordt dinder</l>
+				<l>den engel goods bewaer u voor alle hinder</l>
+				<l>boven binder // dickwils onderweech</l>
+				<l>groet mijn suster haer droeffheijt wordt minder</l>
+				<l>u vader moet sien u kints kinder</l>
+				<l>wij sijnder // wel toe gesint gaet tsaemen seech</l>
+				<l>de selvige benedicxij die Abraham van godt creech</l>
+				<l>door Jacop voor Jisack bedeech // met dat wilt vande Jacht</l>
+				<l>die selvige benedicxie daer esau sijn broeder me bedeech</l>
+				<l>dat bid Ick godt dat hijse u so overdreech</l>
+				<l>dat alle saecken comen te deech // bij godt geacht</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>soon.</speaker>
+				<l>Adieu vader moeder Ick seg u goe nacht</l>
+				<l>Ick worde gewacht van mijn Ouders met armoede</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Raguel</speaker>
+				<l>Die heer wil u bewaeren die heeft u tsaemen
+                            gebracht</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon</speaker>
+				<l>Adieu vader moeder Ick segge u tsaemen goe nacht</l>
+			</sp>
+			<sp who="#raguel">
+				<speaker>Raguel.</speaker>
+				<l>Die heer die hemel en Aerde heeft gewracht</l>
+				<l>die vermeer u geslacht vanden bloede</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon</speaker>
+				<l>Adieu vader moeder Ick seg u goe nacht</l>
+				<l>Ick wor gewacht van mijn ouders met Armoede</l>
+			</sp>
+			<sp who="#raguels-wijf">
+				<speaker>Raguels wijf</speaker>
+				<l>Adie Lieff kint godt u behoede</l>
+				<l>die verleen u goede // blijde daegen</l>
+				<l>Rraguel en sijn wijf binnen</l>
+			</sp>
+			<sp who="#de-cnaep-vanden-huijse">
+				<speaker>De Cnaep vanden huijse</speaker>
+				<l>Martha compt hier metter spoede</l>
+				<l>hangt desen corff aen dese roede</l>
+				<l>sijt ghij vroede // op mijn schour woud Ick datse Laegen</l>
+			</sp>
+			<sp who="#martha">
+				<speaker>Martha</speaker>
+				<l>Compt hier Ick sal u helpen draegen.</l>
+				<l>dit sal ons plagen // het weech so swaer</l>
+				<l>Ick sadt Liever op een waegen</l>
+				<l>dat wij die beesten Loopen sagen</l>
+				<l>dat sou mij behaegen voorwaer</l>
+			</sp>
+			<sp who="#de-cnaep-vanden-huijse">
+				<speaker>Cnaep.</speaker>
+				<l>Treckt aff en aen ghij moeter al wadt naer</l>
+				<l>ghij compt daer // noch niet in twee weecken</l>
+				<l>tis noch wel hondert mijlen vaer</l>
+				<l>wij moeten somtijts wadt rusten maer</l>
+				<l>Leggen ons Armen over malcaer dats mijn
+                            reecken</l>
+			</sp>
+			<sp who="#martha">
+				<speaker>Martha</speaker>
+				<l>Hoe haelt ghij dus den halsch moet ghij breecken</l>
+				<l>Ick sat Liever inde preecken // godt gheefft mij te goe</l>
+				<l>hoe Loopt dees knecht Ick sal noch wreecken</l>
+				<l>wadt heeft hij int Lijff al dubbelde treecken</l>
+				<l>hout hout Ick moet u spreecken daer ontgaet mijn
+                            schoe</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael.</speaker>
+				<l>Tobijas broeder dit volck
+                            wordt moe</l>
+				<l>Ick weet niet hoe // wij voor sullen raecken</l>
+				<l>tis meer dan tijt dat Ick mij spoe</l>
+				<l>om voor heen te gaen nae u Ouders toe</l>
+				<l>dat Ick doe // en wilt dat niet wraecken</l>
+				<l>twaer meer dan tijt dat wij u Ouders spraecken</l>
+				<l>off wij die mael op braecken // en haelde de galle uuijt</l>
+				<l>die sal ons van noode weesen aen sticken te craecken</l>
+				<l>Legtse op u vaders Oogen als ghij hem sult genaecken</l>
+				<l>die heer sal hem gesont maecken // door sijn vijrtuijt</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>soon.</speaker>
+				<l>Sara volcht nae mijn waerde bruijt</l>
+				<l>wij willen doort
+                            cruijt // recht toe racht an</l>
+				<l>Ick weet dat mijn vader en moeder haer hert toe sluijt</l>
+				<l>die uijren worden getelt op een minuijt</l>
+				<l>het wordt u beduijt Ick moet
+                            haer helpen daer Ick can</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael.</speaker>
+				<l>Als ghij bij u vader den edel man</l>
+				<l>neempt hem dan inden armen soet</l>
+				<l>cust hem vriendelijck scheijter niet van</l>
+				<l>smeert die gal op het vliessken ontdoet den
+                            span</l>
+				<l>segt dat godt hem gan // te sien metter spoet</l>
+			</sp>
+			<sp who="#anna">
+				<speaker>Anna</speaker>
+				<l>Wadt volck compt ginder Ick bent niet vroet</l>
+				<l>Ick wilse gaen te moet // vraegen om bescheijt</l>
+				<l>o' heer Ick hoop dat de tijdinge sal wesen goet</l>
+				<l>Ick sie thondeken compt wispelen omden voet</l>
+				<l>tijs mijn vleeijs en bloet // dat mij ter herten Leijt</l>
+				<l>daer Leijt mij falij tis genoch geschreijt</l>
+				<l>mijn mont die greijt // Tobijas hier comt denhont</l>
+				<l>met u soon daer wij seer na hebben gebeijt</l>
+				<l>Ick moet hooren wadt hij seijt // nu terstont</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Den Ouden tobijas</speaker>
+				<l>Willecom mijn soon
+                            die mijn hert heeft doorwont</l>
+				<l>nu isset gesont // dat ghij mij compt visijteren</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>soon</speaker>
+				<l>Ja vader Ick verblijde mij dat Ick u noch Levendich vont</l>
+				<l>met mijn Lieve moeder inde werrelt ront</l>
+				<l>Ick moet u cussen voor u mont tis mijn begeeren</l>
+				<l>vader Ick sal wadt op u Oogen smeeren</l>
+				<l>wiltet niet keeren tis gods bevel</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Den Ouden tobijas</speaker>
+				<l>Ghebenendijt moet wesen die heer der heeren</l>
+				<l>hoe sal Ick sijn naem connen glorificeren</l>
+				<l>sijn Loff vermeeren // hier in ijsrael</l>
+				<l>Heer mijn Oogen gaen Open Ick sie nu wel</l>
+				<l>van alle gequel ben Ick genesen</l>
+				<l>die heer heeft mij gecastijt soo fel</l>
+				<l>dat die heele werrelt mijn was rebel</l>
+				<l>dit spel // is verkeert Laet ons danckbaer wesen</l>
+				<l>hoe vaert gabelum mijn vrient gepresen</l>
+				<l>Ick begonst te vreesen off hij metter doot waer bestreden</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael.</speaker>
+				<l>Daer was sulcke Lieffde In sijn hert geresen</l>
+				<l>so drae als hij thantschrift sach ende begonst te
+                            Lesen</l>
+				<l>gaff hij mij desen coffer met vreden</l>
+				<l>hij heeft u gedanck inder waerheden</l>
+				<l>Int Lant van meden // heb Ick hem gebrocht</l>
+				<l>In u soons bruijlooff hoort dese reden</l>
+				<l>wij hebben Om Sara u susters dochter gebeden</l>
+				<l>die veel heeft
+                            geleden vanden vijant onsocht</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>soon</speaker>
+				<l>Vader hier compt Sara daer Ick ben aengecnocht</l>
+				<l>door den selvigen tocht // die wij comen gegaen</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Den Ouden Tobijas</speaker>
+				<l>Wellecom beelde nae gods beelde gewrocht</l>
+				<l>mijn Lieve dochter / daer Ick Luttel om docht</l>
+				<l>Ick woud Ick mocht // te sien u kinder voor mij staen</l>
+				<l>compt hier mijn Lieve dochter toch aen</l>
+				<l>Ick sal u ontfaen met Armen beloocken</l>
+				<l>brengt dat goet In huijs daer ghij mee sijt gelaen</l>
+				<l>bode wilt een vedt weer inde coocken slaen</l>
+				<l>als dat Is gedaen // so sult ghijt coocken</l>
+			</sp>
+			<sp who="#de-cnaep-vanden-huijse">
+				<speaker>Den Cnaep.</speaker>
+				<l>Wel Tobijas Ick sal dat vier op stoocken</l>
+				<l>so ghijt hebt gesproocken // so salt geschien waerachtich</l>
+			</sp>
+			<sp who="#een-jonckwijf">
+				<speaker>het Jonckwijf</speaker>
+				<l>Ick sal sien dat de hutspot wort gebroocken</l>
+				<l>Ick weeter mee om te gaen Laet mij gaen smoocken</l>
+				<l>die mijn spijs heeft geroocken // sal nae geen ander sijn bedachtich</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Den Ouden tobijas</speaker>
+				<l>O heer des hemels waerachtich</l>
+				<l>hoe crachtich // gaet dese vreucht ter herten in</l>
+				<l>Laet ons gaen Leven met malcander eendrachtich</l>
+				<l>om te helpen den armen die sijn clachtich</l>
+				<l>offt weerslachtich // off bedroeft van sin</l>
+				<l>Ick heb veel te vraegen Lieff kint dat Ick bemin</l>
+				<l>Ick weet niet waer Ick bin // mijn geest is opgetogen</l>
+				<l>Ick was blint om te sien Ick begin</l>
+				<l>Ick was Arm groot goet Ick vin</l>
+				<l>Ick was geen gemin // nu sal Ick wadt doen mogen</l>
+			</sp>
+			<sp who="#anna">
+				<speaker>Anna</speaker>
+				<l>Ick hebbe mij beclaecht dat ghij mij borsten hadt gesogen</l>
+				<l>en mijn selven verspogen // dat Ick u vant gelt liet
+                            weten</l>
+				<l>Ick heb mijn hooft naerder aerden gebogen</l>
+				<l>denckende dat ghij waert van ijemanden bedrogen</l>
+				<l>dat ghij waert belogen off vanden besten verbeten</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Den ouden tobijas</speaker>
+				<l>Mijn Lieve kinder veel te vraegen wil Ick mij niet vermeten</l>
+				<l>voor wij sijn geseten // met geneucht</l>
+				<l>ghij sijt moe gegaen u verlangt na eeten</l>
+				<l>dus gaen wij tsaemen binnen maer wilt godt
+                            niet vergeten</l>
+				<l>noch sijn propheten // vertelt die met deucht</l>
+				<l>die sijn troost in godt sedt dat is de meeste vreucht</l>
+			</sp>
+			<stage>Pausa Een weijnich binnen / ende weder uuijt</stage>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Den Ouden Tobijas</speaker>
+				<l>Lieve soon gaet met mij te rae</l>
+				<l>u Leijtsman wadt sal hij hebben voor sijhn schae</l>
+				<l>groot genae // hij ons verleent heeft</l>
+				<l>hij heeft met u gereijst smorgens vroech savons spae</l>
+				<l>hij heeft u geholpen aan die schoone Sarae</l>
+				<l>oft Ick hem bae // dat hij hier bleeft</l>
+				<l>en gave hem de cost so lang als hij leeft</l>
+				<l>dat ghij een brieff schreeft // dat hij ons goet verthient</l>
+				<l>deen helft begeer Ick dat ghij hem geeft</l>
+				<l>van tsaemen dat ghij tsaemen / nu mee aendreeft</l>
+				<l>doen ghij die Lever wreeft tegen den Losen
+                            vient</l>
+				<l>geeft hem dat gelt dat Ick gabulon heb gelient</l>
+				<l>hij heeftet wel verdient weester mee te vreen</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>soon.</speaker>
+				<l>Vader doet dat ghij wilt wij hoorent wij sient</l>
+				<l>hij heeft mij in allen saecken so trou gedient</l>
+				<l>Ick hebbe geen beter vrient in nineve</l>
+				<l>hij heeft mij verlost vanden vijant wree</l>
+				<l>hij dee dat Ick Sara heb gecregen</l>
+				<l>hij Liep tot gabulon in mijn bruijloft mee</l>
+				<l>hij compt op dese stee // de
+                            gallen dregen</l>
+				<l>hij hadse in sijn mael geregen</l>
+				<l>hij hietse mij vegen // op u Oogen dicht</l>
+				<l>hij compt met mij gaen over die wegen</l>
+				<l>hij heeft menige soete Leringe verslegen</l>
+				<l>hij heeft te degen onse herte verlicht</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Den ouden Tobijas</speaker>
+				<l>Door hem heb Ick ontfangen mijn gesicht</l>
+				<l>door hem Is geswicht // al ons claegen</l>
+				<l>door hem wordt
+                            hier vrede gesticht</l>
+				<l>door hem dat blijschap // droeffheijt bevicht</l>
+				<l>door hem is onschicht // ons droeve daegen</l>
+				<l>hier compt hij gegaen vrient hoort ons gewaegen</l>
+				<l>boven vrienden en maechgen
+                            // heb ik hem vercoren</l>
+				<l>Asaria broeder dit is ons behaegen</l>
+				<l>dat ghij deen helft voor u sult draegen</l>
+				<l>van mijn goet sonder versaegen // eedel geboren</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>Den Engel Raphael.</speaker>
+				<l>Tobijas broeder wilt mij niet storen</l>
+				<l>tis verloren dat ghij so Ordineert</l>
+				<l>godt heeft dit werck versien te vooren</l>
+				<l>dat ghij sout worden gevangen geschooren</l>
+				<l>Sara vande helsche mooren // getempteert</l>
+				<l>die heer heeft u geproeft int Lijden vermeert</l>
+				<l>ghij sijt gekeert tot Lijtsaemheijt</l>
+				<l>Sara is mee geproeft in Lijden so godt begeert</l>
+				<l>nochtans heeft sij den heer geglorificeert</l>
+				<l>sijn naem geeeert // sijn Loff verbreijt</l>
+				<l>de heer sach aen die traenen die ghij hebt geschreijt</l>
+				<l>dat u geest was bereijt totten Armen</l>
+				<l>so heeft die heer mij gesonden om te doen t'bescheijt</l>
+				<l>dat u Soon van mij tot Sara souden worden geleijt</l>
+				<l>die heer heeft gheseijt Ick wilse ontfarmen</l>
+				<l>dus heb Ick u soon vanden vijant willen
+                            bescharmen</l>
+				<l>want ghij dat karmen // vanden armen naempt waer</l>
+				<l>ghij Leijdese in u huijs om haer Leden te verwarmen</l>
+				<l>die bedroeffde herten naempt ghij in u Armen</l>
+				<l>als bijen die swarmen Liept ghij over al naer</l>
+				<l>daerom so ben Ick gesonden van godt den
+                            vaer</l>
+				<l>Ick ben daer // raphael een vandie seven</l>
+				<l>een engel goods die den heer Loven openbaer</l>
+				<l>die daegelijckx aenschouwen goods wesen claer</l>
+				<l>hebt vreese swaer al stae Ick hier beneven</l>
+				<l>want ghij barmhertich sijt / soo is u barmherticheijt
+                            gegeven</l>
+			</sp>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Den ouden Tobijas</speaker>
+				<l>O heer mijn Leden beginnen te beven</l>
+				<l>engel goods verheven // weest godt gebenendijt</l>
+			</sp>
+			<sp who="#den-engel-raphael">
+				<speaker>.Den Engel Raphael.</speaker>
+				<l>Bijdt mij niet aen oft ghij wort bekeven</l>
+				<l>bidt godt aen so lange als ghij inde werrelt sult Leven</l>
+				<l>Ick hebt bedreven door hem In dese tijt</l>
+				<l>dus siet dat ghij godt van sijn werck danckende sijt</l>
+				<l>want hij heeft u bevrijt van alle turbatije</l>
+				<l>Ick wil weder reijsen ten hemel subbijt</l>
+				<l>dat godt u heeft gedaen / voorden menschen belijt</l>
+				<l>ghij sijt verblijt // om dat ghij troost den armen natije</l>
+				<l>die bedroeffde herten troost / die crijcht goods gratije</l>
+			</sp>
+			<stage>Binnen</stage>
+			<sp who="#den-ouden-tobijas">
+				<speaker>Den Ouden tobijas</speaker>
+				<l>Ho Lieve soon wadt soeter disputatie</l>
+				<l>wadt vriendlijcke recreatie // is ons geschiet</l>
+				<l>want den engel goods comende Eijlatije</l>
+				<l>gereijft uijt goddelijcke comptemplatie</l>
+				<l>hij heeft onse blamatie // gedaen te niet</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>Soon.</speaker>
+				<l>Hij is dije geen // door wiens gebiet</l>
+				<l>den donckerheijt siet</l>
+				<l>van u is genomen...</l>
+			</sp>
+			<sp who="#de-soon-van-tobias">
+				<speaker>vader</speaker>
+				<l>Hierom Loff sij godt die tonser vromen</l>
+				<l>hier neder heeft Laeten comen</l>
+				<l>voor ons algelijcken</l>
+				<l>een die ons dus heeft bevrijt / voor tvijandelijck schroomen</l>
+				<l>dies Loff / eer sij godt door wien Trouw TMoet Blijcken</l>
+			</sp>
+			<p>fijnis Lang in dicht 1365 Regelen.</p>
+			<p>P Trouw Moet Blijcken</p>
+			</div>
+		</div>
+	</body>
+</text>
+</TEI>
