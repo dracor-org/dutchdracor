@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000290" xml:lang="dut">
+	<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title type="main">Saul ende David</title>
+			<author>
+				<persName>
+					<surname>De Pellicaen</surname>
+				</persName>
+				<idno type="wikidata">Q7846375</idno>
+			</author>
+		</titleStmt>
+		<publicationStmt>
+			<publisher xml:id="dracor">DraCor</publisher>
+			<idno type="URL">https://dracor.org</idno>
+			<availability>
+			  <licence>
+			  <ab>CC0 1.0</ab>
+			  <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+			  </licence>
+			</availability>
+		</publicationStmt>
+		<sourceDesc>
+			<bibl type="digitalSource">
+				<name>DBNL</name>
+				<idno type="URL">https://www.dbnl.org/tekst/_tro001fams04_01/_tro001fams04_01_0008.php</idno>
+				<availability status="free">
+					<p>In the public domain.</p>
+				</availability>
+			</bibl>
+			<bibl type="originalSource">
+			<title>W.N.M. Hüsken, B.A.M. Ramakers en F.A.M. Schaars (eds.) Trou moet blijcken. Bronnenuitgave van de boeken der Haarlemse rederijkerskamer ‘de Pellicanisten’. Deel 4: Boek D. Uitgeverij Quarto, Assen 1993 </title>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+			<profileDesc>
+				<particDesc>
+					<listPerson>
+						<person sex="MALE" xml:id="david">
+							<persName>David</persName>
+						</person>
+						<person sex="MALE" xml:id="deerste-propheet">
+							<persName>Deerste propheet</persName>
+						</person>
+						<person sex="MALE"
+							xml:id="sergant">
+							<persName>Deerste serjant</persName>
+						</person>
+						<person sex="MALE" xml:id="een-kint-off-jongen">
+							<persName>Een kint off jongen</persName>
+						</person>
+						<person sex="MALE" xml:id="jonatas">
+							<persName>Jonatas</persName>
+						</person>
+						<person sex="FEMALE" xml:id="michel">
+							<persName>Michel</persName>
+						</person>
+						<person sex="MALE" xml:id="samuel">
+							<persName>Samuel</persName>
+						</person>
+						<person sex="MALE" xml:id="saul">
+							<persName>Saul</persName>
+						</person>
+						<person sex="MALE" xml:id="tweede-propheet">
+							<persName>Twede propheet</persName>
+						</person>
+						<person sex="MALE" xml:id="tweede-serjant">
+							<persName>Tweede serjant</persName>
+						</person>
+                        <person sex="MALE" xml:id="derden-serjant">
+							<persName>Derden serjant</persName>
+						</person>
+					</listPerson>
+				</particDesc>
+				<textClass>
+		<keywords>
+			  <term type="genreTitle">Morality Play</term>
+		</keywords>
+		</textClass>
+	</profileDesc>
+    	<revisionDesc>
+    		<listChange>
+    			<change when="2024-10-01">(Lucas van der Deijl) convert from source</change>
+    		</listChange>
+    	</revisionDesc>
+	</teiHeader>
+	<standOff>
+		<listEvent>
+			<event type="written" when="UNKNOWN">
+				<desc />
+			</event>
+		</listEvent>
+		<listRelation>
+			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/" />
+		</listRelation>
+	</standOff>
+	<text>
+		<front>
+			<div type="preface">
+			<head>Davidts vluchte</head>
+			
+			<lg>
+				<l>1 Saul geeft david Michol tot huisvrow</l>
+				<l>2 Saul tgoet berout / gebiet david te dooden</l>
+				<l>3 Jonathas / swaders opset david te kennen geeft</l>
+				<l>4 Jonathas voert Davids wort bij saul</l>
+				<l>5 David versoent ten hoove compt weer</l>
+			</lg>
+			<lg>
+				<l>1 Saul ontsinnich / david speelende vluchten doet</l>
+				<l>2 Saul sent uuijt om david te bewaeken</l>
+				<l>3 Door Michel en een beelt wert behoet</l>
+				<l>4 Michel / het beelt bedect int bedde</l>
+				<l>5 Michel / Den serjanten met een schoon praetgen paijt</l>
+			</lg>
+			<lg>
+				<l>1 Saul wederstiert om David te vangen</l>
+				<l>2 Die serjanten vinden heur deur tbeelt bedroogen</l>
+				<l>3 Saul gaet selfs besichtigen watter is gheschiet</l>
+				<l>4 Saul voor hem Michel ontbiet en hoort</l>
+				<l>5 Saul gebiet nae David om te hooren</l>
+			</lg>
+			<lg>
+				<l>1 David vluchtende bij Samuelem comt</l>
+				<l>2 Waer david gevlucht is saul aengeweesen</l>
+				<l>3 Saul gebiet hem te vangen</l>
+				<l>4 Niet weederkeerende Duijtgesonden ander seen</l>
+				<l>5 Ten derden noch anderen uuijtstierende</l>
+			</lg>
+			<lg>
+				<l>1 Saul verstoort Dat niemant wederkeerdeen</l>
+				<l>2 Saul wert te kennen gegeven hoe daer gestelt is</l>
+				<l>3 Saul selfs uuijttrect om deese saeck tondertasten</l>
+				<l>4 Saul geraect oick onder den propheeten</l>
+				<l>5 David vluchtende met Jonathas verbont maect</l>
+			</lg>
+			<castList>
+				<head>Personages</head>
+				<castItem corresp="#saul">
+					<role>Saul coninck met sijn garde</role>
+				</castItem>
+				<castItem corresp="#jonatas">
+					<role>Jonatas conincs soon</role>
+				</castItem>
+				<castItem corresp="#michel">
+					<role>Michel sconincxs Dochter</role>
+				</castItem>
+				<castItem corresp="#david">
+					<role>David cooninxs swager</role>
+				</castItem>
+				<castItem corresp="#samuel">
+					<role>Samuel Propheet</role>
+				</castItem>
+				<castItem corresp="#">
+					<role>Propheeten Werden 6 van Sauls knechten</role>
+				</castItem>
+			</castList>
+			<p>Regum 19 ende 20 capittel</p>
+			<lg>
+				<l>Saul davits siel sochten door veel practijken</l>
+				<l>maer Door een beelde david bleeff behouden</l>
+				<l>men niet voorbrochten al most hij wijken</l>
+				<l>sconincxs gebieden / Tsecreet Jonathe betrouden</l>
+			</lg>
+			</div>
+		</front>
+		<body>
+			<div type="act" n="1">
+				<head>[Saul ende David]</head>
+				<div type="scene" n="1">
+					<head>Een spel van sinnen Van Saul ende David</head>
+					<head>Saul / David / Michel / Jonathas</head>
+					<sp who="#saul">
+						<speaker>Saul eerst</speaker>
+						<l>Der coningen woort is heur segel dat niet is te breeken</l>
+						<l>dus vanden gedaen beloften david niet en was te versteeken</l>
+						<l>wiens crachten niet sijn besweeken tegen den geemen vianden</l>
+						<l>den phijlijstijn goliat verslaenden / bevrijdende voor scandt</l>
+						<l>geheel Israhel doverhant tegen hem behouden</l>
+						<l>door sijn cleijne macht / en goodts hulp / daer hij op bouden</l>
+						<l>ongewapent niet en mistrouden / dus wast reden en recht</l>
+						<l>die hem in periculeus gevecht / wel heeft gequeeten</l>
+						<l>door dies David en heb ick mijn beloften niet gequeeten</l>
+						<l>want ghij den viant hebt gesmeeten doot / dus sijt ghij verheven</l>
+						<l>tot mijn eijgen swager u heb ick mijn dochter gegeven</l>
+						<l>op dat ghij machtich mijn beneeven Israhel sult regeeren</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Den heer coninck Dienst te doen allen mijn begeeren</l>
+						<l>niet om doer dien te vermeeren / mijn rijckdom off hoogenstaet</l>
+						<l>Israhels salicheijt gesocht heb / niet eijgen baet</l>
+						<l>hoe wel Den coninck Doer sijn raet / goet heeft gevonden</l>
+						<l>dat ick onverdient in echten staet sow bliven verbonden</l>
+						<l>in haer Liefden verslonden / met fijn Lieve dochter bemint</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Soo wie hem wel quijt / den toegeseijden Loon vint</l>
+						<l>dit huwlick ons tsaem verbint in Lieft en eendrachte</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Wat is toch in Israhels mijns vaders geslachte</l>
+						<l>om mijn groot te achte / en om te sijn een behoude soon</l>
+						<l>van soo machtigen coninck / een scaep herder eer ongewoon</l>
+						<l>onwaerdich Dusdanich Loon / ick can mijn wel met minder lijen</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Michel</speaker>
+						<l>Mijn genoecht met u persoon david / mijn wilt niet mijen</l>
+						<l>die Israhel coent bevrijen / van alle gequellen</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Ick waer onder den minsten van u dienaers te tellen</l>
+						<l>veel eedele Jonge gesellen In Israhel vermaert</l>
+						<l>ick een arm beuselaer die niet bij en heb vergaert</l>
+						<l>om met u te werden gepaert / groote rijcdom noch scat</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Ick en behoefden geen bruijlofts goet segt mijn / wat</l>
+						<l>in dees contreije is Dat mijn ontbreeken mach</l>
+						<l>geheel Israhel onder mijn gebieden / ick en maeck geclach</l>
+						<l>over u Rijcdom / maer aensach alleen u groote Daden</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Ick danck den coninck / der onverdienden genaeden</l>
+						<l>doer mijn behoet voor scaeden / en veel gaven scenct</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonatas</speaker>
+						<l>Der hondert philistijnen verslaegens hij gedenct</l>
+						<l>sijn vianden gecrenct Die ghij Leverden bij getalle</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Michel</speaker>
+						<l>Onnoodich dees Reden / niet dienende ten principaele</l>
+						<l>met veel excuis te verhale / ghij uuijt dusenden uuijtvercoren</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Blijft Israhel getrow / soo ghij bij eede hebt geswooren</l>
+						<l>wilt haer vianden verstooren / strijt den strijt des heeren</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>Die heere godt believe ons geslacht te vermeeren</l>
+						<l>door u genereren / en maeck u huwelick voor spoedich</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Michiel</speaker>
+						<l>Dus neem ick uuijt mijns vaders huis ootmoedich</l>
+						<l>mijn affscheijt gloedich / in minne tot mijn eijgen man</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Ghij twee sielen / in een Lijff geworden gaet in vreede dan</l>
+						<l>ick u niet behouden can / altoos gecoomen tot u Jaren</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Met verloff soo gaen wij dan in Lijefden paren</l>
+						<l>die nu in eendracht vergaeren / op dat wij niet en doolen</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>Gaet in vreeden en blijft Den heer bevoolen</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Hoe Dickmaels men een ding tegens sijn eijgen gemoet doet</l>
+						<l>met den mont / ick David toe wensche alle voorspoet goet</l>
+						<l>maer Inwendich thart woet / tegen hem haet en nijt</l>
+						<l>om datmen hem toe scrijft Dat hij Israhel heeft bevrijt</l>
+						<l>met recht mijn in tgemoet spijt dat hij verheven // wert</l>
+						<l>vert boven mijn wart thien Dusent hem toe gheschreven // wert</l>
+						<l>thart tot nijt gedreven / wert / alleen een duisent mijn getal</l>
+						<l>geheel Juda bemint hem meest / hoe ick dit verdragen sal</l>
+						<l>mijn huis Door hem ten val compt / dat is mijn Leet seer</l>
+						<l>nochtans om an hem niet te doen een misdaet wreet</l>
+						<l>door mijn eijgen hant / want ick weet seer quaelick genomen</l>
+						<l>dat sow werden / Tirannich te Doen den vroomen</l>
+						<l>door dies sout ick scromen / sulcxs te doen maer practijke</l>
+						<l>meenden ick te gebruijken tot bevesting mijn rijcke</l>
+						<l>maer sulcxs most niet blijcke / dus onder tijtle eerlick</l>
+						<l>meenden ick hem te Leveren / nae sijn doot begeerlick</l>
+						<l>inder phijlistijnen handen deerlick / om te sijn vermoort</l>
+						<l>maer buijten mijn meening / is anders nieuwe maer gehoort</l>
+						<l>te voldoen heeft gespoort / tgeen ick hem affeijschen ras</l>
+						<l>dus wederom in hem mijn beloften te voldoen gehouden // was</l>
+						<l>sulcxs mijn wel Leet is / op dit pas / al moetet gedaen bliven</l>
+						<l>maer Jonatha Liefste soon / die saeck gaet meest u aen / ontlijven</l>
+						<l>wilt deesen / off verdrijven / ghij hebt volle consent</l>
+						<l>neemt tot assistencie / al tgernijsoen hier ontrent</l>
+						<l>geweldich u derwerts went / ick weesen sal sienden blent</l>
+						<l>die saeck u bevoolen / wreect mijn gramschap / tis tijt dat ghij
+							begint</l>
+					</sp>
+				</div>
+				<div type="scene" n="2">
+					<stage>Hier comt uuijt David en Jonathans</stage>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>In hoe hooger staet men is / in hoe meerder sorge</l>
+						<l>men steect / hoe wel men rijck genoch / niet behoeft te borge</l>
+						<l>den avont en den morgen / hebben haer eijgen Lasten</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>David</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Wie spreect mijn an / noijt soo waerden gasten</l>
+						<l>ick en sach mijn over Lasten / coomt ghij mijn versoeken</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>David mijn siel met den uwen in Lijefden vercloecken</l>
+						<l>alle Tweedracht vervloeken / dus moet ick u openbaren</l>
+						<l>mijns vaders gramschap / op u / door sijn gemoets verclaeren</l>
+						<l>en strect tot beswaeren / van alle onse saecken</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Ick Elendige wat sal ick dan gaen maeken</l>
+						<l>moet ick op sijn Listen waeken / och wat vreemder geruchte</l>
+						<l>fortuijn doet deen Lachhen / dander suchten</l>
+						<l>waer sal ick elendige vluchten voor dees coninxs gramschap</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>Ick sal bespooren off niet en wert in sijn gemoet gram / slap</l>
+						<l>en tgeen dat hij fel op nam / slap // niet en Laet vallen</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>En sijn nu tot mijn bevrijdinge geen bergen noch dallen</l>
+						<l>achter wat Dijcke vallen / soudt ick moghen onduijken</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>Mijn vader Saul / soo gramschap ons heeft doen ontluijken</l>
+						<l>wil conincklijke macht misbruijken / tegens u door ongenaede</l>
+						<l>en soect u te doden / cleijn achtende u weldaden</l>
+						<l>dus vindt ick geraeden dat ghij u morgen vroech</l>
+						<l>wachten wilt / hout u heijmelick / ghij hebt middelen genoch</l>
+						<l>Laet mijn drijven den plouch / en ick sal morgen uuijtgaen</l>
+						<l>en bij mijnen vader / al waer hij is blijven staen</l>
+						<l>en doen van u Daden vermaen / seer Lijeffelick smeekende</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Mijn corrage rijst wat u hulp mijn niet onbreekende</l>
+						<l>wel vermuecht ghij wel spreekende / doet toch het beste</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>U sal ick Insinueeren dan / op den requeste</l>
+						<l>het apostil daer nae te Leesen / ghij u hebt te reguleeren</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Men mach in noot certeijn geen vrienden hulp ontbeeren</l>
+						<l>dus op u hertelick mijn begeeren tot sorrich draecht</l>
+						<l>voor u vrient getrow / die tonrecht wert beclaecht</l>
+						<l>en doet al wat u behaecht / troost sal ick ver beijden</l>
+						<l>raemt hoe mijn gemoet is / door ons Droevich sceijden</l>
+					</sp>
+				</div>
+				<div type="scene" n="3">
+					<stage>Hier comt uuijt Saul ende Jonathas</stage>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Vindt ick u Jonatha beesich in coonincklijck affairen</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>Dalmogende godt wil mijn vader den coninck bewaren</l>
+						<l>voor alle beswaeren voorspoedich Levende</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>En ist niet een moeijlick ding datmen dus is verheevende</l>
+						<l>ons dienaer david begeevende hem tot des rijcxs regiering</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>Begeeft hij hem ergens toe dan door u uuijtstiering</l>
+						<l>uuijt wat cracht is sijn regiering / die door gedoogen / is</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Hij is over tijt aen deen sijde te groot sijn vermoogen // is</l>
+						<l>nae meerder sijn poogen is / inden dop het kuijken / smoort</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>O heer vader coninck / u macht niet te misbruijken / spoort</l>
+						<l>niet soo eedelen kuijken moort / sondicht tegen u knecht / niet</l>
+						<l>wat heeft hij misdaen en handelt tegens recht / niet</l>
+						<l>donnooselen en bevecht niet / al wat hij doet goet // is</l>
+						<l>die phijlistijn ver slagen / tot geheel Israhels voorspoet // is</l>
+						<l>hij altoos wel gemoet is // tegen des rijcks vianden</l>
+						<l>Dalmogende godt werct wonder doer sijn handen</l>
+						<l>en bevrijt ons voor scanden / dit alles ghij wel weet toch</l>
+						<l>u quaet opset om hem te doden Laet u sijn Leet toch</l>
+						<l>en doet niet tegens u eet noch sondicht niet aen tsondich bloet</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Is sulcxs u advijs / u Redenen uuijtvloeijende soet</l>
+						<l>stillen mijn wreet gemoet / en ick segge alsoo warachtich</l>
+						<l>als in sijn hemelen Leeft ons godt almachtich</l>
+						<l>sijn weldaeden gedachtich david niet en sal sterven</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>Haelt David dan om des coninxs gratij te verwerven</l>
+					</sp>
+				</div>
+				<div type="scene" n="4">
+					<stage>Hier comt David en Jonathas</stage>
+					<sp who="#david">
+						<speaker>David sprect</speaker>
+						<l>Tgemoet ontroert geen rust en heeft thert van binnen</l>
+						<l>hoe mijn saeken ten hove staen / wat ick sal beginnen</l>
+						<l>hier meede becommert mijn sinnen over Legge dach en nacht</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>David met verlangen seer / heb ick u hier Lang verwacht</l>
+						<l>ten eijnde comt u clacht / u saecke affgeloopen wel</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Ist mogelick mach ick op u woort hoopen / wel</l>
+						<l>en sal ick niet becoopen / fel / des coninxs gemoet</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>Met Reden en Lieffelickheijt sijn gramschap versoet</l>
+						<l>voor den doot heb ick u behoet / u gegeven tleven</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Hoe sal ick genoch dangbaer sijn / hier beneven tbeven</l>
+						<l>door sorch dat ick verheeven / sneeven sonden wechgenoomen</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>Sonder anxst / wilt dan met mijn binnen ten hoove coomen</l>
+						<l>op dat ghij met den vroomen / weder ten strijde gaet</l>
+						<l>tegen den philistijnen / en doet Israhel / door u bevrijde baet</l>
+						<l>niet Lang hier ter sijde staet / voort vrijmoedich treet</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Ten dienst des coninxs stae ick altoos gereet</l>
+						<l>Lijff goet en bloet weet te sijn tot sijn believen</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonatas</speaker>
+						<l>Laet ons vertreckken dan en bevestigen u commissij brieven</l>
+						<l>Saul Uuijtcoomende nnet David</l>
+					</sp>
+					<sp who="#david">
+						<speaker>gewapent David seijt</speaker>
+						<l>Die coninck Leve / sijn Magesteijt moet behaegen</l>
+						<l>dat veel der philistijnen / vluchtende sijn verslaegen</l>
+						<l>den rest men vert verjaegen / uuijt u Lemijten / rat</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>En was daer niemant die u oick kon doot smijten plat</l>
+						<l>dien ick moet wijten dat / mijn quelt der furijen geest</l>
+						<l>Ra ra ra / sa sa sa / waer ben ick / waer heb ick geweest</l>
+						<l>help / help / minst ende meest / doet al mijn beveelen</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Och och Langt ras mijn harp daer op dat ick mach spelen</l>
+						<l>en Liefflick met den voix queelen / om den coninck te genesen</l>
+						<l>Saul op David De Lancij werpende</l>
+						<l>Van cant / van cant / van cant / op dat ick buijten vreesen</l>
+						<l>mach doerstieten deesen / op wien ick dat heb gemunt // fel</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David vluchtende</speaker>
+						<l>Ghenaedich godt mijn toch u behoeding / gundt snel</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul met sijn volck</speaker>
+						<l>Amij en heb ick met den Lancij den boeswicht niet getreft</l>
+						<l>is hij mijn ontvlucht / die niet waerdich is dat hij Left</l>
+						<l>wel te pas hij hem nu begeft tegens mijn bij den viandt</l>
+						<l>dees vonck mostmen voorcoomen / eer vort rijst den brandt</l>
+						<l>al eer hij wijct uuijt tlant / ghij vroome mannen</l>
+						<l>trect uuijt beset hem thuis wilt tsaemen spannen</l>
+						<l>uuijt tlant wil ick hem niet bannen maer morgen dooden // wil</l>
+						<l>dit is mijn vonnis over Deesen snooden stil</l>
+					</sp>
+				</div>
+				<div type="scene" n="5">
+					<stage>Michol / Met Ruijters</stage>
+					<sp who="#michel">
+						<speaker>Michel sprect</speaker>
+						<l>De howelijcken staet vol anxst en sorge es / werdt ick gewaer</l>
+						<l>wat staet mijn te doen / Deen mijn man dander mijn vaer</l>
+						<l>och dus Lijden swaer es mijn genaekende hier</l>
+						<l>des huwelicxs bittere merceelkens / ben ick smaekende scier</l>
+						<l>mijn man geraekende hier in mijns vader Indignacie</l>
+						<l>soo dat hij voortvluchtich is / voor hem geen meer gratie</l>
+						<l>met hem in tribulacie / ick oick mede geraeke</l>
+						<l>och hier coomen nu sconinxs scerjanten om hem te bewaeken</l>
+						<l>goede Mannen / wat sult ghij maeken hier in ons Logijs</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>Deerste serjant ofte ruijter</speaker>
+						<l>Genaedichste vrow daer is van ons commissij bewijs</l>
+						<l>waer nae wij ons propijs / moeten reguleeren</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Michel</speaker>
+						<l>Och ist om mijn man te doen dat moet godt deeren</l>
+						<l>werwaert sal ick mijn keeren / met druck overlaeden</l>
+					</sp>
+					<sp who="#tweede-serjant">
+						<speaker>Tweede serjant</speaker>
+						<l>Tgeen wij Doen is u vaders bevel / u genaeden</l>
+						<l>sal ten besten neemen ons daden / u wel bekent</l>
+						<l>dat wij moeten doen / tgeen men ons gebiet torment</l>
+						<l>om selfs te ontgaen present / soo moeten wij ons quijten // dan</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Michel</speaker>
+						<l>Ick weet wel dat ick sulcxs / u niet can verwijten / van</l>
+						<l>maer wilt ghij doot smijten dan / mijn man wat baet u sijn bloede</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>Deerste serjant ofte ruijter</speaker>
+						<l>Wij sullen hem te nacht bewaeken en verhoeden</l>
+						<l>dat hij niet en vlucht / vermoede dat die coninck morgen</l>
+						<l>hem selfs sal Doen dooden</l>
+					</sp>
+					<sp who="#tweede-serjant">
+						<speaker>Tweede serjant</speaker>
+						<l>Dit is al ons sorgen</l>
+						<l>dat hem niemant verborgen / alsdan sal moogen // noch</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Michel</speaker>
+						<l>Goede mannen hebt met den bedructen meedoogen // toch</l>
+						<l>wilt niet tquaetste te doen pogen och / in gramschappen hetten</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>Deerste serjant ofte ruijter</speaker>
+						<l>Wij achtervolgen ons Last / en sullen ons schiltwacht besetten</l>
+					</sp>
+				</div>
+				<div type="scene" n="6">
+					<stage>Michel uuijt ende David</stage>
+					<sp who="#michel">
+						<speaker>Michel sprect</speaker>
+						<l>Wat is swerlts weesen / Deen Lacht dander screijt</l>
+						<l>wat wert bij mijn nu anders / dan verdriet verbeijt</l>
+						<l>indien die Doot nu sceijt Die Lijeffelick gepaert // sijn</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Och alder Lijefsten</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Michel</speaker>
+						<l>Ghij muecht met recht vervaert / sijn</l>
+						<l>hier rontsom vergaert sijn // die u sullen vangen</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Och alder Lieftste</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Michel</speaker>
+						<l>Druck gaet ons nu Deerlick prangen</l>
+						<l>nae den morgen mijn geen verlangen / die is aenstaenden</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Dat dit ons sow genaeken / wie oijt te vooren waende</l>
+						<l>mijn broeders mijn wel vermaenden / om met groote potentaten</l>
+						<l>geen doen te hebben // want sij heur ondersaeten</l>
+						<l>tot staet coomende haeten / baten wat mach mijn hoogen staet nu</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Michel</speaker>
+						<l>Och mijn alder Liefste cort beraet / goet beraet // nu</l>
+						<l>om te soeken baet nu / want ten sij ghij op desen nacht</l>
+						<l>u selfs verlost / soo op morgen ghij den doot verwacht</l>
+						<l>dus moet werden getracht / om toncoomen den Laegen</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Hoe sout ick dat coonen aen Leggen / soutmen moogen vraghen</l>
+						<l>achtervolgen sal ick u behaegen / weet ghij middel tondeckken</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Michiel</speaker>
+						<l>Eer veijnster uuijt Laet ons deesen coort uuijtstreckken</l>
+						<l>die sal ter aerden toe reckken / dan sal ick u Laten dalen</l>
+						<l>soo muecht ghij vluchten / ick sal dien weeder op haelen</l>
+						<l>op goodts avontuer dwaelen / meucht ghij dan vert</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>U Believen doe ick garen / maer ons sceijden valt mijn hart</l>
+						<l>nochtans om tontgaen smert soo moeten wij sulcxs bestaen</l>
+						<l>want het Leven is soet / Dus u onderdaen</l>
+						<l>achtervolch ick u vermaen / wel aen dan in sheeren naem</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Michel</speaker>
+						<l>A Dieu mijn Lieff</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>A Dieu Lieff boven alle vrowen / Eersaem</l>
+						<l>dees middelen bequaem / sal ick ondersoecken</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Michel</speaker>
+						<l>Die heer bewaer u / en wil u voorts vercloecken</l>
+						<l>tot versceijden hoecken / als balling vluchtende</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Hoe dickwijls sal ick om u mijn Lieff sijn suchtende</l>
+						<l>Michel tbeelt int bedt Leggende seijt</l>
+						<l>Hij is nu inden vogelensanck / inden peekel blijff ick steeken</l>
+						<l>maer noch moet ick te werck stellen / vreemde treeken</l>
+						<l>bij den voorsichtigen vergeleeken / op dat hij tijt heeft</l>
+						<l>om te vluchten / want vertreck / respijt // geeft</l>
+						<l>en als die vert benijt beeft / soo dat hij niet wel en spoijt</l>
+						<l>dus wil ick dat staenden beelt / neemen al salt sijn verfoijt</l>
+						<l>maer niemant hem anders dees saeck bemoeijt / en Leggen dat</l>
+						<l>int bedden / want alsmen vraecht / waer is den man / seggen wat</l>
+						<l>moet ick Immers / verleggen dat / en mach ick niet</l>
+						<l>hij is sieck / sal ick seggen / gaet en dat selfs besiet</l>
+						<l>maer Leggen Laet / hem verdriet / op dat daer aff comt niet meer</l>
+						<l>bij nae soo groot als mijn man / ick Leg hem int bet neer</l>
+						<l>dees harige geijten vellen weer Leg ick ten hoofden enden</l>
+						<l>met mans cleederen wil ick hem deckken als den wel bekenden</l>
+						<l>op dat als sij heur derwaerts wenden / hem waenen sieck te sijn</l>
+						<l>holla mijn dunct dat sij coomen alhier / dit valt mijn pijn</l>
+					</sp>
+					</div>
+				<div type="scene" n="7">
+					<stage>Der serjanten ende Michel</stage>
+					<sp who="#sergant">
+						<speaker>Deerste serjant</speaker>
+						<l>Tes hooch dach / en overtijt dat wij vertreckken</l>
+					</sp>
+					<sp who="#tweede-serjant">
+						<speaker>Tweede serjant</speaker>
+						<l>Wie sal nu den grooten vorst david op wreckken</l>
+						<l>hij mach noch sijn Leeden uuijtstreckken / ghij muecht hem aenspreken</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>Deerste serjant</speaker>
+						<l>Ick darff Dat niet bestaen / spraeck sal mijn ontbreeken</l>
+						<l>maer off ghij hem met smeeken / baet om te treckken mede</l>
+					</sp>
+					<sp who="#tweede-serjant">
+						<speaker>Tweede serjant</speaker>
+						<l>Off wij ons rappoort aen haer vorstelijcke genaede deden</l>
+						<l>en aenhoorden wat reden / dat sij ons geven sal</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>Deerste serjant</speaker>
+						<l>Sij is hier present / Die dat hoort mijn Leden beven al</l>
+						<l>nochtans verheeven sal / ick mijn stem / nae tbehooren</l>
+						<l>genaedichste vrow / mogen wij vraegen sonder u te storen</l>
+						<l>nae ons heer vercooren / op dat hij nu meede optrect</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Michel</speaker>
+						<l>Och mijn genaedige heer / veel te seer hij dient niet gewrect</l>
+						<l>hij slaept een weijnich gedect / Laet hem noch wat rusten</l>
+						<l>hoe sout hij doer verscrictheijt siek alrede Lusten</l>
+						<l>op te staen / een eijsdoorken ick plusten / om wat supens te maken</l>
+					</sp>
+					<sp who="#tweede-serjant">
+						<speaker>Tweede serjant</speaker>
+						<l>Hij most nochtans meede</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Michel</speaker>
+						<l>Och wilt toch niet nae genaeken</l>
+						<l>hij mocht ontwaeken / en geheel tonvreeden sijn</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>Deerste serjant</speaker>
+						<l>Achter volgende ons commissij / soo moet hij bestreden / sijn</l>
+						<l>al sijn u dees reden pijn / indien hij tegenstant // doet</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Michel</speaker>
+						<l>Hebt acht op sijn hoocheijt / hem niet desen scant doet</l>
+						<l>sulcxs men des coninxs viant doet / daar voor hij niet bekent</l>
+						<l>maer om tondersoeken sconinxs believen een derwaerts sent</l>
+						<l>op dat als die weer herwerts // went ghij doet dat hij belast</l>
+						<l>denct dat hij sconinxs swager is / en geen vreemde gast</l>
+						<l>dus op u Daden en mijn reden past / op dat tfeijt u niet en rout</l>
+					</sp>
+					<sp who="#tweede-serjant">
+						<speaker>Tweede serjant</speaker>
+						<l>Wil ick dan gaen verneemen off coninxs gramschap niet en vercout</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>Deerste serjant</speaker>
+						<l>Gaet die saeck u toe betrout wij u hier sullen vertoeven</l>
+						<l>op dat wij geen oorsaeck sijn / van het deerlick bedroeven</l>
+					</sp>
+				</div>
+				<div type="scene" n="8">
+					<stage>Saul / met dserjanten</stage>
+					<sp who="#saul">
+						<speaker>saul sprect</speaker>
+						<l>Warom soo sijt ghij gegaen / u commissij te buijten</l>
+						<l>waerdich / datmen / u selfs / inden galjoenen besluijten</l>
+						<l>als ongehoorsaemen / guten / en hadt ick u niet gesonden</l>
+						<l>dat ghij mijn alhier den man sout Leveren gebonden</l>
+						<l>bij indien hij thuis werden gevonden / daer nae mijn verlang was</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>serjant</speaker>
+						<l>Genaede heer coninck men seijden dat u swager crank / was</l>
+						<l>en dat tegen u Danck was / den crancken te verstooren</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>En heb ick niet den villeijn sijnen doot geswooren</l>
+						<l>onderweech hadt hij mogen versmooren en sijn dit waer vercooren</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>serjant</speaker>
+						<l>Des coninxs swagher aen te tasten / wie sow niet scroomen</l>
+						<l>hij getelt onder den vroomen / ons macht over den snooden</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Is hij coninck brengt hem op het bet hier dit wert u geboden</l>
+						<l>op datmen hem doden / dit is u uuijterste Last</l>
+						<l>en op dat hij u niet ontwratselt / bint hem vast</l>
+					</sp>
+				</div>
+				<div type="scene" n="9">
+					<stage>2 Serjanten</stage>
+					<sp who="#sergant">
+						<speaker>Deerste serjant</speaker>
+						<l>Holla spits broeders / wel op aftervolcht commissij strenge</l>
+						<l>de magesteijt / vertreck / Langer niet en wil gehenge</l>
+						<l>op dat wij selfs / en senge de hant dus rept u haest</l>
+					</sp>
+					<sp who="#tweede-serjant">
+						<speaker>Tweede serjant</speaker>
+						<l>Wel aen dan Dat sullen wij wel doen / al staet ghij niet en raest</l>
+					</sp>
+					<sp who="#derden-serjant">
+						<speaker>Derden serjant</speaker>
+						<l>Ghij maect ons verbaest / wat sullen wij eerst bestaen</l>
+						<l>terstont moeten wij tsaem / voor sijn bedde gaen</l>
+						<l>en doen hem vermaen terstont hem te maeken gereet</l>
+					</sp>
+					<sp who="#tweede-serjant">
+						<speaker>Tweede serjant</speaker>
+						<l>Ick ben soo beanxst waeter en bloet ick sweet</l>
+						<l>dees commissij mijn Leet / wat sullen wij beginnen</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>Deerste serjant</speaker>
+						<l>Wij moeten daer an dus treet ick voort hier binnen</l>
+						<l>om hem op sijn bedt te vinnen / volcht mijn op tspoor</l>
+					</sp>
+					<sp who="#derden-serjant">
+						<speaker>Derden serjant</speaker>
+						<l>Wij sullen u niet beswijcken treet ons voor</l>
+						<l>als geclach gehoor / niet en is te geven</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>Deerste serjant</speaker>
+						<l>Genaedige heere Dat wij u coomen beneven</l>
+						<l>dus stoutelick vergeeven / wilt sulcxs ons Laste</l>
+					</sp>
+					<sp who="#tweede-serjant">
+						<speaker>Tweede serjant</speaker>
+						<l>Hij swijcht al stil / gelijck off hij op ons en pasten</l>
+					</sp>
+					<sp who="#derden-serjant">
+						<speaker>Derden serjant</speaker>
+						<l>Wie sal hem eerst aentasten sout hij noch wel slaepen</l>
+					</sp>
+					<sp who="#tweede-serjant">
+						<speaker>Tweede serjant</speaker>
+						<l>Hij mach al bedect Leggen / in sijnen wapen</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>Deerste serjant</speaker>
+						<l>Sullen wij dus staen / gapen / heer ghij most hier uuijt</l>
+						<l>een woort sprect hij niet / wat dit beduijt</l>
+					</sp>
+					<sp who="#derden-serjant">
+						<speaker>Derden serjant</speaker>
+						<l>Noch en maect geen geluijt / Die gardijnen op scuft</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>Deerste serjant</speaker>
+						<l>Waper moort wat vinden wij hier wij sijn gehuijft</l>
+						<l>hij hier niet en snuijft / maer bedect Leijt een houten beelt</l>
+					</sp>
+					<sp who="#tweede-serjant">
+						<speaker>Tweede serjant</speaker>
+						<l>Waper moort / een beelt vert van een mensch verscheelt</l>
+						<l>men dat te vangen beveelt / dat sal niet wech Loopen</l>
+					</sp>
+					<sp who="#derden-serjant">
+						<speaker>Derden serjant</speaker>
+						<l>Al heeft dat monten oogen // dien niet en doet oopen</l>
+						<l>maer sullen wij niet beroopen / dat wij sijn bedroogen</l>
+						<l>doet dat den coninck ontbieden / met sijn eijgen oogen</l>
+					</sp>
+					<sp who="#tweede-serjant">
+						<speaker>Tweede serjant</speaker>
+						<l>dat hij Dat selfs siet belogen op dat wij werden niet</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>Deerste serjant</speaker>
+						<l>Ick Loop daer heen op dat hij weet wat hier is geschiet</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul uuijt ende sargant</speaker>
+						<l>Wel Lang vertoeven / des boeven / onderweech</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>serjant</speaker>
+						<l>Die coninck Leve</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Sijt ghij op mijn hackken mits Dat ick sweech</l>
+						<l>hoe compt ghij aenloopen dus Leech / waer blijft die gevangen</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>serjant</speaker>
+						<l>Hij al haes op is / nae u coomst men verlangen</l>
+						<l>om den Loose gangen / selfs taenschowen</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Hebt ghij den vinck Laeten vliegen uuijt den kowe</l>
+						<l>sulcxs moch u wel berowe / hoe staen die saeken</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>sergant</speaker>
+						<l>Ghij hebt ons gestiert om een beelt te bewaeken</l>
+						<l>souden wij daer door geraeken in swaericheijt off noot</l>
+						<l>twaer buijten ons scult</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Wat segt ghij booswijcht snoot /</l>
+						<l>al sijt ghij waerdich Den Doot // es hij ontvloden nu</l>
+						<l>dat ghij wel bewaeken soudt was gebooden u</l>
+						<l>mijn viant de snoden nu / te dooden hem begeerlick</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>serjant</speaker>
+						<l>Soo hebben wij gedaen / als vroomen soldaten eerlick</l>
+						<l>daer over gestraft te werden deerlick waer dat voirwaer</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>De saeck selfs ick ondertasten / sal naect en claer</l>
+						<l>terstont gae ick aldaer / wat is alhier te Doen</l>
+					</sp>
+					<sp who="#derden-serjant">
+						<speaker>Derden serjant</speaker>
+						<l>Groot miracule gesciet / alhier nae ons vermoen</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Ghij spreect stout en coen / sijn vlucht sult ghij ontgelden</l>
+					</sp>
+					<sp who="#tweede-serjant">
+						<speaker>Tweede serjant</speaker>
+						<l>De man in een houten beelt verandert / wij dat stelden</l>
+						<l>voor een transformacie selden / sulcxs alhier gebuert</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Swijcht noch booswijchten eer ghij mijn verder versteurt</l>
+						<l>den cans hebt ghij verleurt voort coomen doet // ras</l>
+						<l>michol sijn huisvrow op dat sij mijn fel gemoet // ras</l>
+						<l>versaet / affdoet / boet / ras van tgeen dat sij heeft misdreven</l>
+						<l>al ist een feijt dat geensins is te vergeeven</l>
+						<stage>Michol // Saul uuijt</stage>
+						<l>Mijns Lijffs genae heer coninck mijn vader</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Ben ick u vader waerom ghij dan den versmaeder</l>
+						<l>tot bederff van ons te gader / niet gelevert in handen</l>
+						<l>sijt ghij een dochter gebooren tot mijnder scanden</l>
+						<l>off scaede van mijn rijck en Landen / dat moet geclaecht // sijn</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Michel</speaker>
+						<l>Om te verantwoorden vader toch verdraecht // mijn</l>
+						<l>om dat niet en missaecht dijn dat ick sal spreeken</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Tis recht en reden Datmen dees vluchte aen u wreeken</l>
+						<l>ten baet suchten noch smeeken / ick Door u bedroogen</l>
+						<l>seggende dat u man sliept ghij hebt geloogen</l>
+						<l>mijn viant in u vermoogen was te Leveren terstont</l>
+						<l>dien ghij hebt Laeten vlieden / met hem in een verbont</l>
+						<l>door dies smert mijn thart doirwont / tsijn u Loose treken</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Michel</speaker>
+						<l>Wat stong mijn te doen hij seijden ick sal u Doersteeken</l>
+						<l>want door Dat besweeken / alle mijn Leden</l>
+						<l>indien ghij mijn niet Laet gaen / dus geheel tonvreeden</l>
+						<l>most ick dit beelt becleeden / en doen al sijn bevel</l>
+						<l>tlijff hiet valck / al dit geschiet om tontwijken gequel</l>
+						<l>niet dat ick int minst rebel u mijn heb vertoornt</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Dit sijn nochtans vreemde daden / hoe wel ghij dien verschoont</l>
+						<l>soo ghij alder best coont / bestaet sulcxs te doen meer niet</l>
+						<l> soo geraectij ghij in mijn Indignacij noch onneer // niet</l>
+						<l>Laet ons sulcxs hooren weer niet / dit nu vergeeten</l>
+					</sp>
+					<sp who="#michel">
+						<speaker>Miechol</speaker>
+						<l>Soe denct den vroukens sijn swack van naturen men weeten</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul met den sijnen</speaker>
+						<l>Die saecke dus affgeloopen / te neemen is ten besten</l>
+						<l>efter bet voor u siet / wert voorsichtich int Leste</l>
+						<l>op dat niet en verswaert die reste naerstich om hoort</l>
+						<l>waer David gevlucht is / hem te betraepen spoort</l>
+						<l>op dat mijn gemoet verstoort / geraect ten ruste</l>
+						<l>want hem Levende in mijn Leven heb ick geen ruste</l>
+					</sp>
+				</div>
+				<div type="scene" n="10">
+					<stage>David ende samuel uuijt serjant</stage>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Die op den vlucht is altoos als een haes omkijct</l>
+					</sp>
+					<sp who="#samuel">
+						<speaker>samuel</speaker>
+						<l>David</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Wie spreect mijn an thert mijn beswijct</l>
+						<l>tes samuel soo dat blijct / heijlige man gegroet sijt</l>
+					</sp>
+					<sp who="#samuel">
+						<speaker>samuel</speaker>
+						<l>Hoe bent ghij dus verbaest / mijn dunct ghij quaelick gemoet sijt</l>
+						<l>en in geen voorspoet sijt gelijck aenwijst u weesen wel</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Voor den coninck voorvluchtich / niet sonder vreesen snel</l>
+						<l>soo Langen armen heeft desen fel / die soo vert uuijtrecken</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>serjant</speaker>
+						<l>Van vert sie ick David werwart sal hij sijn gang strecken</l>
+						<l>dat moet ick ondeckken en houden mijn hier verhoolen</l>
+					</sp>
+					<sp who="#samuel">
+						<speaker>Samuel</speaker>
+						<l>Sijt ghij voorvluchtich david werwaerts wilt ghij doolen</l>
+						<l>onthout u bij mijn verhoolen wij sullen gaen woonen tot Namths</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Waer ben ick best veijlich op dat ick niet wert tot spot</l>
+						<l>op mijn gevallen dit Lot / des verdriets en blaeme</l>
+					</sp>
+					<sp who="#samuel">
+						<speaker>Samuel</speaker>
+						<l>In Ramatha vint ghij Logijs genouch voor u bequaeme</l>
+						<l>Saul met sij volck</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>David voorvluchtich thert blijft mijn onstelt van binnen</l>
+						<l>om dat ick mijn Lust niet coelen mach uuijt mijn sinnen</l>
+						<l>soo wert ick te vinnen als hij niet en is in ons quartiere</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>serjant</speaker>
+						<l>Gegroet heer coninck voorspoedich in u regiere</l>
+						<l>wilt ghij nu uuijtstiere om te vangen den man</l>
+						<l>dien ghij vervolcht / sonder vertreck most ghij dan</l>
+						<l>u wat haesten / onlanxs van hem gevonden tspoor</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Waer sout ick hem becoomen / ick Leg te Luijster mijn oor</l>
+						<l>en geve u vol gehoor / doet ghij mijn goet aenwijsing</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>serjant</speaker>
+						<l>Siet David is te Naroth in Ramatha niet sonder Ising</l>
+						<l>tot u verjolijsing / sult ghij hem daer coonen becoomen</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Fluxs uuijt om hem te vangen en wilt niet scroomen</l>
+						<l>staet niet als Den Loomen / slaet dhant aen hem terstont</l>
+					</sp>
+					<sp who="#een-kint-off-jongen">
+						<speaker>Een kint off Jongen</speaker>
+						<l>Hoet te werck sal gaen moet ick sien off die saick al ront</l>
+						<l>aff Lopen sal / neen wedt ick om een pont / al mis ick tgelt</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>serjant</speaker>
+						<l>Coomende benevens Ramatha goodts geest omhelt</l>
+						<l>en in tgetal der propheeten / stelt / gewelt ick staeke</l>
+						<l>goodts geest op mij daelde oick gewelt ick Laeke</l>
+						<l>en onder den propheeten geraeke samuel ons overhooft</l>
+						<l>bij heur wij ons vougen / op dat godt sij gelooft</l>
+						<l>wiens Loff niet wert verdooft / wij ons bij haer vougen</l>
+					</sp>
+					<sp who="#een-kint-off-jongen">
+						<speaker>Tkint off Jongen</speaker>
+						<l>Waper moort hoe quaelick sal die coninck daer bij vernoegen</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Mijn page ras overcompt / hoe moetet daer gestelt sijn</l>
+						<l>ick waen ten erchsten / want mijn gemoet dat quelt // mijn</l>
+						<l>hier garson vertelt mijn / tgeen ghij hebt gesien</l>
+					</sp>
+					<sp who="#een-kint-off-jongen">
+						<speaker>Een kint off Jongen</speaker>
+						<l>U sarjanten propheeten geworden sijn soo ick mien</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Haest dan ander op de bien / en atrepeert heur allen</l>
+						<l>op dat wij in geen meer dangier en vervallen</l>
+						<l>eij Leckker over berch en dallen / Loopt en bespiet</l>
+						<l>wat dees uuijtrechten / off wat daer geschiet</l>
+						<l>doet tgeen men u gebiet sonder nae te Laeten</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>serjant</speaker>
+						<l>Comende beneffes Ramatha wij gewelt haeten</l>
+						<l>goodts geest boven maeten ons met gaven begavende</l>
+					</sp>
+					<sp who="#tweede-serjant">
+						<speaker>Dander serjant</speaker>
+						<l>Uuijt den fonteijn des geests gratien Lavende</l>
+						<l>mijn dorstich hart om graevende sijn secreeten</l>
+					</sp>
+					<sp who="#een-kint-off-jongen">
+						<speaker>Tkint off Jongen</speaker>
+						<l>Sij mij dees weder te tellen onder den propheeten</l>
+						<l>dat moet ick Den coninck Doen weeten sonder vertreck</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Hoe compt ghij dus over Loopen is daer noch wat gebreck</l>
+						<l>off werden sij oick geck / en verkeert van sinnen</l>
+					</sp>
+					<sp who="#een-kint-off-jongen">
+						<speaker>Een kint off Jongen</speaker>
+						<l>Comende beneffens Ramatha terstont beghinnen</l>
+						<l>te propheteeren uuijt minen / tscijnt wel wonder</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Terstont weder ander uuijt dien ick bij sonder</l>
+						<l>betrow om heur onder / mijn subjectij te brengen</l>
+						<l>dat u Iemant oncompt / wilt niet gehengen</l>
+						<l>op dat sij met vruecht vermengen ons smerten</l>
+					</sp>
+					<sp who="#een-kint-off-jongen">
+						<speaker>Een kint off Jongen</speaker>
+						<l>Ick Loop weer achteran / ongerust therte</l>
+						<l>om te neemen regerte al op het spul</l>
+					</sp>
+				</div>
+				<div type="scene" n="11">
+					<stage>Serganten ende pagen</stage>
+					<sp who="#sergant">
+						<speaker>schergant</speaker>
+						<l>Coomende bij den propheeten wie ons sceijden sal</l>
+						<l>oick met den geest der propheeten / vul als Dander</l>
+					</sp>
+					<sp who="#tweede-serjant">
+						<speaker>Tweede serjant</speaker>
+						<l>Wat vermoghen machtigen Grus off alexander</l>
+						<l>die helsche salamander / niet sonder goodts gedoogen</l>
+					</sp>
+					<sp who="#een-kint-off-jongen">
+						<speaker>Een kint off Jongen</speaker>
+						<l>Dees mede al propheeten off oick bedroogen</l>
+						<l>sullicxs te weesen poogen / door een geest gedreven</l>
+					</sp>
+					<sp who="#sergant">
+						<speaker>serjant</speaker>
+						<l>Onder tgetal der propheeten wij ons tsaem begeeven</l>
+						<l>samuel dien beneven / die heur verder onderwijst</l>
+					</sp>
+					<sp who="#een-kint-off-jongen">
+						<speaker>Een kint off Jongen</speaker>
+						<l>Ick volch oick meeden heur een geest in mijn oick oprijst</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Ist al vant mal / dat niemant hier wederkeert</l>
+						<l>en ick dus versteeken blijft van mijn begeert</l>
+						<l>gramschap mijn vermeert / uuijtborst aen alle sijden</l>
+						<l>geen trow bij Iemant om mijn viant te bestrijden</l>
+						<l>ick moet mijn belijden wel ongeluckkich te weesen</l>
+						<l>en souden wel voor mijn eijgen scaduwe vreesen</l>
+						<l>al mijn begeven desen daer ick op betrow</l>
+						<l>al te vergeefs op menschen bij stant ick bow</l>
+						<l>waer doer thert met row / rontsom beset is</l>
+						<l>selfs in persoon om te weeten wat dit belet is</l>
+						<l>des wedercoomsts waer in mijn wet is gebrooken</l>
+						<l>overtreeden sal / mijn Leet / hoop ick sal werden gewrooken</l>
+						<l>tvonnis uuijtgesprooken / sal niet werden weder geroopen</l>
+					</sp>
+					<sp who="#een-kint-off-jongen #saul">
+						<speaker>Een kint off Jongen / Saul</speaker>
+						<l>Wonderlijcke sijn goodts Daden om uuijt te spreeken</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Hier garson</l>
+					</sp>
+					<sp who="#een-kint-off-jongen">
+						<speaker>Een kint off Jongen</speaker>
+						<l>Doen ick u hoorden mijn Leeden besweeken</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Ontrow is gebleeken / waer toe u Lang vertoeven</l>
+						<l>was die booch nae die pijl gesonden tot mijn bedroeven</l>
+						<l>off hadden u Die boeven opgerockkent tot quaet</l>
+					</sp>
+					<sp who="#een-kint-off-jongen">
+						<speaker>Een kint off Jongen</speaker>
+						<l>Mijns Lijfs genaede / mij onbekende eenich verraet</l>
+						<l>u getrow metter daet / en heb u gebiede volbrocht</l>
+						<l>alles int goede / voor sich ten nausten ondersocht</l>
+						<l>op dat ick u niet onbedocht van als sout onderrechten</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Waer sijn dan Samuel / David / waer die Lantsknechten</l>
+						<l>om david te bevechten ick wil heur selfs versoeken</l>
+					</sp>
+					<sp who="#een-kint-off-jongen">
+						<speaker>Een kint off Jongen</speaker>
+						<l>Siet sij sijn te Naroth in Ramatha en heur vercloecken</l>
+						<l>inder propheeten boeken / alte saem eendrachtich</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Onder soecken sal ick wie mijn tegenstaen sal machtich</l>
+						<l>gaet ghij thuis en sijt gedachtich / dat u bevoole is</l>
+					</sp>
+					<sp who="#een-kint-off-jongen">
+						<speaker>Een kint off Jongen</speaker>
+						<l>En ghij sult wel bevinden wat geest in heur verhoolen / is</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Bij den grooten put te Soch ben ick nu gecoomen</l>
+						<l>maer wat wonders is Dit in mijn heb ick vernoomen</l>
+						<l>die geest des heeren te stroomen en tverstant tontluijken</l>
+						<l>datmen te vergeefs anrecht tegens godt misbruijken</l>
+						<l>die boosdoender niet sal onduijken den godtlijken wraeck</l>
+						<l>maer al prophenteerende / ick naroth in Ramatha genaeck</l>
+						<l>en bij den propheeten geraeck / quaet opset gebonden</l>
+						<l>crachtiger dan die menschen wert godt bevonden</l>
+						
+					</sp>
+				</div>
+				<div type="scene" n="12">
+					<stage>Proopheeten Saul Samuel
+							Met open Gordijnen</stage>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Wilt al godt Loven</l>
+					</sp>
+					<sp who="#deerste-propheet">
+						<speaker>Deerste propheet</speaker>
+						<l>Godt groot van macht</l>
+					</sp>
+					<sp who="#tweede-propheet">
+						<speaker>Twede propheet</speaker>
+						<l>Goodts Loff verbreden</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Godt is almachtich</l>
+					</sp>
+					<sp who="#deerste-propheet">
+						<speaker>Deerste propheet</speaker>
+						<l>Goodts Daden groot</l>
+					</sp>
+					<sp who="#tweede-propheet">
+						<speaker>Tweede propheet</speaker>
+						<l>Godt wonder in sijn werken</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Alles gaet goodts eer te boven</l>
+					</sp>
+					<sp who="#deerste-propheet">
+						<speaker>Deerste propheet</speaker>
+						<l>Onuuijtspreekelick sijn cracht</l>
+					</sp>
+					<sp who="#tweede-propheet">
+						<speaker>Tweede propheet</speaker>
+						<l>Vanden sijnen niet en sceijt</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Wilt Godt</l>
+					</sp>
+					<sp who="#deerste-propheet">
+						<speaker>Deerste propheet</speaker>
+						<l>Godt groot</l>
+					</sp>
+					<sp who="#tweede-propheet">
+						<speaker>Tweede propheet</speaker>
+						<l>Goodts Loff verbreijt</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Niemant can sijn eer beroven</l>
+					</sp>
+					<sp who="#deerste-propheet">
+						<speaker>Deerste propheet</speaker>
+						<l>Met cracht groot geacht</l>
+					</sp>
+					<sp who="#tweede-propheet">
+						<speaker>Tweede propheet</speaker>
+						<l>Hulp godt den sijnen toe sende</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Godt den sijnen gedachtich</l>
+					</sp>
+					<sp who="#deerste-propheet">
+						<speaker>Deerste propheet</speaker>
+						<l>Hij ons bij staet in noot</l>
+					</sp>
+					<sp who="#tweede-propheet">
+						<speaker>Tweede propheet</speaker>
+						<l>Ons crachten doer hem verstercken</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Wilt al godt Loven</l>
+					</sp>
+					<sp who="#deerste-propheet">
+						<speaker>Deerste propheet</speaker>
+						<l>Godt groot van macht</l>
+					</sp>
+					<sp who="#tweede-propheet">
+						<speaker>Tweede propheet</speaker>
+						<l>Goodts Loff verbreijt</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Godt is almachtich</l>
+					</sp>
+					<sp who="#deerste-propheet">
+						<speaker>Deerste propheet</speaker>
+						<l>Goodts Daden groot</l>
+					</sp>
+					<sp who="#tweede-propheet">
+						<speaker>Tweede propheet</speaker>
+						<l>Godt wonderlick in wercken</l>
+					</sp>
+					<sp who="#saul">
+						<speaker>Saul</speaker>
+						<l>Waer toe wert dus Lang bij mijn verbeijt</l>
+						<l>dees cleederen costelick bereijt uuijt te treckken</l>
+						<l>en al naect om goodts Loff te singen</l>
+						<l>mijn Lichaem om uuijt te streckken mijn Leden geheel tondeckken</l>
+						<l>tot goodts Dienst nacht en dach nae sijn bevel</l>
+						<l>gelooft mijn meestendeel sal vergeeten</l>
+					</sp>
+					<sp who="#een-kint-off-jongen">
+						<speaker>Een kint off Jongen</speaker>
+						<l>Een wonderlijken godt is Saul onder die propheeten</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David wachtende Jonathas</speaker>
+						<l>Godt can wel haest van een wolff een scaep maken</l>
+						<l>nochtans sout ick niet garen onder sijn pooten geraeken</l>
+						<l>dus en staet mijn niet te Laeken dat ick vluchte</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>David</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Van een bekende hoor ick daer geruchte</l>
+						<l>Jonathan met versuchten ick u alhier nu ontmoet</l>
+						<l>wat heb ick gedaen straffwaerdich die mijn doet</l>
+						<l>en met daden boeten maer wat heb ick misdreven</l>
+						<l>tegen u vader / dat hij mijn niet en wil vergeven</l>
+						<l>dagelicxs staet nae mijn Leven / en mijn siele soect</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>Verre moet dit weesen / dat ghij bij hem vervloect</l>
+						<l>souden sterven u selfs vercloect / want niet en sal doen</l>
+						<l>tsij groot off cleijn / buijten mijn nae mijn vermoen</l>
+						<l>mijn vader / dus belooff ick u soen sonder fault</l>
+						<l>dat voor mijn te verbergen niet en mistrout</l>
+						<l>dus op mijn beloften bout / ick sal u houden eet</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Dat ick in u oogen gracij heb u vader seer wel weet</l>
+						<l>dus waert hem Leet / dat hij sulcxs te vooren wist</l>
+						<l>op dat ghij u niet en bedroeme / maer hij gebruict Lust</l>
+						<l>maer die doot alleenlick rust / voor mijn een screde</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>Wat wilt ghij dan dat ick doe om te verwerven vrede</l>
+						<l>en niet meer en wert bestreeden / door eenijch gewelt</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Siet die feest vanden nijewen maen men morgen telt</l>
+						<l>dan pleech ick te werden gestelt op den blijde maeltijt</l>
+						<l>onder sconinxs sijde maar nu weet ick te sijn / benijt</l>
+						<l>daerom versaecken sonder respijt sal ick verhoolen</l>
+						<l>tot op den derden dach int velt in een hol gescoolen</l>
+						<l>sonder verder te doolen / indien u vader dan vraecht</l>
+						<l>waer is David segt dan haestich tot bossen verdaecht</l>
+						<l>ten slachofferant / behaecht hem dat soo genaect mijn</l>
+						<l>vrientschap / maer onvreede / indien hij alsdan Laect mijn</l>
+						<l>hierom niet en versaect mijn bermherticheijt te toonen</l>
+						<l>maer ben ick onrechtvaerdich / wilt mijn niet verschoonen</l>
+						<l>slaet mijn doot vooren / Laet mijn niet onder Israhel</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>Verre sij dat van mij u sal ick sonder eenich uuijtstel</l>
+						<l>te kennen geven u bevel bij indien volcoomen is</l>
+						<l>op u mijns vaders archeijt soo haest vernoomen is</l>
+						<l>dat u saeck vol scroomen is op dat ghij in vrede wandelt</l>
+						<l>die heere tot u geleijtsman / maer bermhertich handelt</l>
+						<l>met mijn huijsgesin / ick gesturven als die heer uuijtroijt</l>
+						<l>u vianden mijns gedachtich dit verbont mijn vercroijt</l>
+						<l>op dat mijn naesaten verstroijt niet en werden geheel</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>Bevesticht ons verbont / tot niet al ons crackkeel</l>
+						<l>alleenlick blijftet verscheel / waer doer ick sal weeten</l>
+						<l>hoe den coninck op mijn gemoet blijft blijt geseeten</l>
+						<l>met hem ter taefle om teeten / een kenteeken ordineert</l>
+					</sp>
+					<sp who="#jonatas">
+						<speaker>Jonathas</speaker>
+						<l>Blijft sitten bijden eselsteen / op dat u niet en deert</l>
+						<l>om te doen weeten u begeert / soo sal ick uuijtschieten</l>
+						<l>drie pijlen waer uuijt ghij dit verstant sult genieten</l>
+						<l>dat soo wanneer mij niet sal verdrieten te roepen die knape</l>
+						<l>die pijlen sijn herwaerts achter u wilt niet Lang staen gapen</l>
+						<l>soo compt ons bij sonder wapen // want tsal sijen vrede</l>
+						<l>maer roepende de pijlen Leggen veel verder ter stede</l>
+						<l>soo muecht ghij vertreeden / dat u die heer sal geleijden</l>
+						<l>hier mede a Dieu</l>
+					</sp>
+					<sp who="#david">
+						<speaker>David</speaker>
+						<l>A Dieu broeder overtijt dat wij sceijden</l>
+					</sp>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
