@@ -1,0 +1,3031 @@
+<!--- <?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> !-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000292" xml:lang="dut">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Hamlet</title>
+                <author>
+                    <persName>
+                        <forename>Maria Geertruida</forename>
+                        <nameLink>de Cambon van der</nameLink>
+                        <surname>Werken</surname>
+                    </persName>
+                    <idno type="wikidata">Q20031805</idno>
+                </author>
+                <author>
+                    <persName>
+                        <forename>Jean-François</forename>
+                        <surname>Ducis</surname>
+                    </persName>
+                    <idno type="wikidata">Q2500310</idno>
+                </author>
+                <author>
+                    <persName>
+                        <forename>William</forename>
+                        <surname>Shakespeare</surname>
+                    </persName>
+                    <idno type="wikidata">Q692</idno>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="dracor">DraCor</publisher>
+                <idno type="URL">https://dracor.org</idno>
+                <availability>
+                    <licence>
+                        <ab>CC0 1.0</ab>
+                        <ref target="https://creativecommons.org/publicdomain/zero/1.0/"
+                            >Licence</ref>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <name>CENETON</name>
+                    <idno type="URL"
+                        >https://www.let.leidenuniv.nl/Dutch/Ceneton/CambonHamlet1778.html</idno>
+                    <title>Maria Geertruida de Cambon - van der Werken: Hamlet. ’s-Gravenhage, ca.
+                        1778.</title>
+                    <availability status="free">
+                        <p>In the public domain.</p>
+                    </availability>
+                </bibl>
+                <bibl type="originalSource">
+                    <title>Maria Geertruida de Cambon - van der Werken: Hamlet. ’s-Gravenhage, ca.
+                        1778.</title>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person sex="MALE" xml:id="hamlet">
+                        <persName>HAMLET</persName>
+                    </person>
+                    <person sex="FEMALE" xml:id="geertruid">
+                        <persName>GEERTRUID</persName>
+                    </person>
+                    <person sex="MALE" xml:id="claudius">
+                        <persName>CLAUDIUS</persName>
+                    </person>
+                    <person sex="FEMALE" xml:id="ophelia">
+                        <persName>OPHELIA</persName>
+                    </person>
+                    <person sex="MALE" xml:id="norcestes">
+                        <persName>NORCESTES</persName>
+                    </person>
+                    <person sex="MALE" xml:id="polonius">
+                        <persName>POLONIUS</persName>
+                    </person>
+                    <person sex="FEMALE" xml:id="elvire">
+                        <persName>ELVIRE</persName>
+                    </person>
+                    <person sex="MALE" xml:id="voltimand">
+                        <persName>VOLTIMAND</persName>
+                    </person>
+                    <person sex="MALE" xml:id="de-geest">
+                        <persName>DE GEEST</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <textClass>
+                <keywords>
+                    <term type="genreTitle">Tragedy</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2025-04-08">(Rachel Hartemink) convert from source</change>
+            </listChange>
+        </revisionDesc>
+
+
+    </teiHeader>
+    <standOff>
+        <listEvent>
+            <event type="print" when="1778">
+                <desc/>
+            </event>
+            <event type="premiere" when="1779-05-03">
+                <desc/>
+            </event>
+        </listEvent>
+        <listRelation>
+            <relation active="https://dracor.org/entity/" name="wikidata"
+                passive="http://www.wikidata.org/entity/"/>
+        </listRelation>
+    </standOff>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart>HAMLET,</titlePart>
+                    <titlePart>TREURSPEL.</titlePart>
+                    <titlePart>GEVOLGT NAAR HET FRANSCH, EN NAAR HET ENGELSCH, DOOR* M. G. DE
+                        CAMBON. GEB. VANDER WERKEN,</titlePart>
+                    <titlePart>[Vignet: putto]</titlePart>
+                    <titlePart>In ’sGRAVENHAGE,</titlePart>
+                    <titlePart>By J. H. MUNNIKHUIZEN.</titlePart>
+                    <titlePart>Boek- en Plaatdrukker op den Oost- Buiten-Cingel.</titlePart>
+
+                    <titlePart>Voor den Auteur.</titlePart>
+                </docTitle>
+            </titlePage>
+            <castList>
+                <head>VERTONERS.</head>
+                <castItem corresp="#hamlet">
+                    <role>HAMLET, Koning van Deenmark.</role>
+                </castItem>
+                <castItem corresp="#geertruid">
+                    <role>GEERTRUID, weduwe des overleden Koning:, moeder van Hamlet.</role>
+                </castItem>
+                <castItem corresp="#claudius">
+                    <role>CLAUDIUS, eerste Prins van den bloede.</role>
+                </castItem>
+                <castItem corresp="#ophelia">
+                    <role>OPHELIA, Dochter van Claudius.</role>
+                </castItem>
+                <castItem corresp="#norcestes">
+                    <role>NORCESTES, Deensch edelman.</role>
+                </castItem>
+                <castItem corresp="#polonius">
+                    <role>POLONIUS, Deensch Edelman.</role>
+                </castItem>
+                <castItem corresp="#elvire">
+                    <role>ELVIRE, vertrouwde van Geertruid.</role>
+                </castItem>
+                <castItem corresp="#voltimand">
+                    <role>VOLTIMAND, Hooftman van de Lyfwacht.</role>
+                </castItem>
+                <castItem corresp="#lyfwachten">
+                    <role>LYFWACHTEN EN GEVOLG.</role>
+                </castItem>
+                <castItem corresp="#de-geest">
+                    <role>DE GEEST DES OVERLEDEN KONINGS.</role>
+                </castItem>
+                <p>Het Toneel is binnen Elseneur, in het Hof.</p>
+            </castList>
+        </front>
+        <body>
+
+            <div n="1" type="act">
+                <head>HAMLET,</head>
+                <head>TREURSPEL.</head>
+                <head>EERSTE BEDRYF.</head>
+                <div n="1" type="scene">
+                    <head>EERSTE TONEEL.</head>
+                    <stage>CLAUDIUS. POLONIUS.</stage>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>JA! ’t bondgenootschap tracht Hamlet de Kroon te ontrukken,</l>
+                        <l>Alleen myn vriend om die op myne kruin te drukken.</l>
+                        <l>Die Prins, steeds eenzaam, schuw, vol angst en druk in ’t hart,</l>
+                        <l>Tracht noch de bitterheid te voeden van zyn Smart.</l>
+                        <l>Norcest, van wien ik meest het byzyn hadd’ te vreezen,</l>
+                        <l>Schynt door zyn afzyn zelf myn’ wensch van nut te weezen.</l>
+                        <l>’t Verwart en los gerucht, door ’t gantsche Hof verspreid,</l>
+                        <l>Heeft te vergeefs zyn komst in Elzeneur verbreid.</l>
+                        <l>Zyn yver voor Hamlet zal steeds onkreukbaar weezen;</l>
+                        <l>’k Moest voor een’ onderdaan zoo trouw, ’k beken het, vreezen;</l>
+                        <l>Maar myne vrienden, thans voor my gereed ten stryd,</l>
+                        <l>Begeeren, dat men my eerlang den Scepter wyd’.</l>
+                    </sp>
+                    <sp who="#polonius">
+                        <speaker>POLONIUS.</speaker>
+                        <l>’k Dacht wel dat de oorlogs-moed, die hunne ziel doed blaaken,</l>
+                        <l>Voor ’t oog van Claudius zich nimmer zou verzaaken,</l>
+                        <l>Dat, onder zyn banier, aan zyn belang getrouw,</l>
+                        <l>De hoop der zegepraal hun krygs-drift styven zou.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>’k Zach straks hun yvervuur ontbranden door myn reden.</l>
+                        <l>Myn vrienden, sprak ik ,, welk een ramp, wat yslykheden,</l>
+                        <l>,, Wat wreed verlies gevoelt de Staat door ’s Konings dood.</l>
+                        <l>,, Het deensche ryk, na dit verscheyen als in nood,</l>
+                        <l>,, Schynt by de zegepraal, waar in het zich mogt vleyën,</l>
+                        <l>,, Op ’t vorstlyk graf zyn heil en glory te beschreyën.</l>
+                        <l>,, Hoe zeer dreigde ons die dood, die ons steeds heugen zal,</l>
+                        <l>,, In het vooruitgezicht met een gewissen val.</l>
+                        <l>,, De Hemel, spreekend door zyn donders uit den hoogen,</l>
+                        <l>,, Verbaasde ’t hart, en hielt door schrik ons opgetoogen.</l>
+                        <l>,, ’t Was of, en wind en zee, by zynen laatsten snik,</l>
+                        <l>,, Vol woede ons dreigden met ons uiterste oogenblik.”</l>
+                        <l>’k Breng hunn’ ontstelden geest den naaren storm te binnen,</l>
+                        <l>Die ’s Konings dood verzelde: ik maal voor hunne zinnen</l>
+                        <l>Den hollen oçeaan, die uit zyn oevers zwelt,</l>
+                        <l>En ons ’t verblyf der doôn met d’afgrond openstelt:</l>
+                        <l>De zee, als in een drang van duisternis bedolven:</l>
+                        <l>Den blixem barstende op de bulderende golven:</l>
+                        <l>De schepen, in de zond naar ’t grondloos diep gevoert:</l>
+                        <l>Het land verwoest, de Steën door muitery ontroert:</l>
+                        <l>Den sidderenden Deen, door angst en schrik omgeeven;</l>
+                        <l>Dees, waanende het zwaart der Goôn reeds opgeheeven,</l>
+                        <l>Die weder, als vervolgt, gedreigt door ’s Konings geest,</l>
+                        <l>Ontvlugtend met een gil, of zwymend gantsch bedeest,</l>
+                        <l>Als kwam het yslyk Spook, ten afgrond uitgebrooken,</l>
+                        <l>Gewaapend, de natuur in haaren stand bestooken;</l>
+                        <l>Of dat de Goôn om hem op de elementen woên,</l>
+                        <l>En ’t wereldstelsel op zyn assen sidd’ren doen.</l>
+                        <l>Ik zie, dat, op dees taal, in hun beängstigt wezen,</l>
+                        <l>De Sombre trekken van verschrikking zyn te leezen.</l>
+                        <l>Zoo wordt dikwerf de vrees het menschdom ingeprent,</l>
+                        <l>Door schrik-verschynselen, waar van ’t geen oorzaak kent.</l>
+                        <l>’k Weet ,, (voeg ik ’er dan by) om meer hun ziel te ontstellen.</l>
+                        <l>,, Wat ramp die yslykheên in de natuur voorspellen:</l>
+                        <l>,, De vyand in ’t geweer: zyn vlooten: de oorlogsvaan:</l>
+                        <l>,, Het noorden, stookende om ons heen het krygsvuur aan,</l>
+                        <l>,, ’t Meld alles ons genoeg, door zulk een bloedvertoning,</l>
+                        <l>,, Hoe veel de Staat verliest by ’t missen van zyn’ Koning,</l>
+                        <l>,, Want in het eind zyn deugt, ’k beken ’t, zoo fier als groot,</l>
+                        <l>,, Verbind my zelf hem noch te eerbieden na zyn’ dood.</l>
+                        <l>,, Hoe was nochtans zyn wrok op myn geluk gebeten!</l>
+                        <l>,, ’t Was weinig, mynen vlyt en diensten te vergeeten,</l>
+                        <l>,, De wreedaard, stortend my in rampen en verdriet,</l>
+                        <l>,, Ontzach Ophelia zelfs in zyn gramschap niet.</l>
+                        <l>,, Myn dochter (wilde hy) zou, als aan ’t licht ontweken,</l>
+                        <l>,, Nooit voor haar jeucht de toorts des huw’lyks zien ontsteken,</l>
+                        <l>,, Belust in ’t éénig kroost, dat my was toegestaan,</l>
+                        <l>,, Het zwakke steunsel van myn huis te doen vergaan.</l>
+                        <l>,, Ik prys de traanen, die ’k zie plengen om zyn sneeven;</l>
+                        <l>,, Maar welk een’ erfgenaam heeft hy der kroon gegeeven?</l>
+                        <l>,, Een zoon, een stervend vorst, neerslachtig, somber, laf,</l>
+                        <l>,, Vol zwakheid, die tot hier nooit blyk van deugtmin gaf,</l>
+                        <l>,, Die, verr’ van ’t oorlogs-veld, in ’t Hof bevryd van zorgen</l>
+                        <l>,, Steeds zyne onnutte jeucht voor yder hield verborgen;</l>
+                        <l>,, Geen glory kennende, of betrachtende op den troon,</l>
+                        <l>,, Dan het aanbidden van zyn moeder en de Goôn.</l>
+                        <l>,, Wat zegge ik? menigwerf ontvlugt hem zelfs de reden,</l>
+                        <l>,, Nu mymerend, bedeest, vol van angstvalligheden,</l>
+                        <l>,, Beweegenloos, verstomt, dan weer vervult van schrik</l>
+                        <l>,, Verkeert zyn naare kalmte in woede op ’t oogenblik.</l>
+                        <l>,, Wat hebt gy van Hamlet in zulk een’ staat te wachten?</l>
+                        <l>,, Zie reeds den nagebuur s’ lands ondergang betrachten,</l>
+                        <l>,, En met vereende magt, door krygsdrift aangespoort,</l>
+                        <l>,, Zich storten van rondom op ons rampzaalig boort!</l>
+                        <l>,, Welk een gevreesde vuist, in de oorlogs-kunst bedreeven,</l>
+                        <l>,, Zal zoo veel armen, fors gewaapent, wederstreeven?</l>
+                        <l>,, En wat belet my, om te dingen naar de kroon?</l>
+                        <l>,, ’k Ontslaa een’ zwakken Vorst, het heerschen ongewoon,</l>
+                        <l>,, Een schim, een schynbeeld, niet bekwaam voor ’t ryk te waaken,</l>
+                        <l>,, Verteert door smart, waar van de dood een eind gaat maaken,</l>
+                        <l>,, Wiens laatste snik, door ’t recht van myn doorluchtig bloed,</l>
+                        <l>,, My van zyne oppermagt en troon verzeek’ren moet”.</l>
+                        <l>Ik spreeke, en hoor terstond deeze ed’le muiters zweeren,</l>
+                        <l>Altoos getrouw te zyn aan myne ziels begeeren.</l>
+                        <l>De waardigheid der kroon wordt aan Hamlet ontzegt;</l>
+                        <l>Men bied daar van aan my den tytel en het recht;</l>
+                        <l>Ja, ’k durf my vleyën met de streelende gedachten,</l>
+                        <l>Dat hunne ontembre drift, om my als Meester te achten,</l>
+                        <l>My mooglyk noch deez’ dag hunn’ Koning off’ren zal,</l>
+                        <l>Om my te stellen op den troon door zynen val.</l>
+                    </sp>
+                    <sp who="#polonius">
+                        <speaker>POLONIUS.</speaker>
+                        <l>De tyd is duur. Gy weet, de Koningin omtoogen</l>
+                        <l>Door al de zorgen van het koninglyk vermogen,</l>
+                        <l>Begeert tot mind’ring van dien last, in ’t kort misschien,</l>
+                        <l>Haar’ tweeden echtgenoot in u aan ’t ryk te biën.</l>
+                        <l>Zy dacht gewislyk, dat het oud gebruik der Deenen</l>
+                        <l>Een perk zou stellen aan de droefheid en aan ’t weenen,</l>
+                        <l>En dat dees staat, niet dan te veel door smart gedrukt,</l>
+                        <l>In ’t eind zich aan den nacht van rouw zou zien ontrukt.</l>
+                        <l>Met welk een hevigheid zult gy haar’ toorn zien zieden,</l>
+                        <l>Indien gy, weigerig aan de eer die ze u wil bieden,</l>
+                        <l>Haar min, door u veracht, verkeeren doet in haat!</l>
+                        <l>Haar geest, gebelgt en vol van woede om zulk een smaad,</l>
+                        <l>Wyl billyke achterdocht haar zal tot licht verstrekken,</l>
+                        <l>Gaat de geheimen van ons eedgespan ontdekken.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Ga ’k denk, wel verre van haar’ toorn te willen voën,</l>
+                        <l>Haar zelfs eerlang ’t geschenk van myne hand te doen.</l>
+                    </sp>
+                    <sp who="#polonius">
+                        <speaker>POLONIUS.</speaker>
+                        <l>Gy? Heer!</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Myn fiere moed, vol van voorzichtigheden,</l>
+                        <l>Moet dus myn stout besluit voor haar met schyn bekleden.</l>
+                        <l>’k Ontdekte ook naar my dacht, na ’s Konings laatsten snik,</l>
+                        <l>In haar ontsteldden geest dikwerf het merk van schrik.</l>
+                        <l>’t Is of zy vreest om te verschynen voor myne oogen;</l>
+                        <l>’t Vooroordeel, dat ik voed’, heeft my misschien bedrogen.</l>
+                        <l>’t Voegt my, zoo ’t zyn moet, my te dienen op deez’ dag</l>
+                        <l>Van all’ de kunstnary van ootmoed en ontzach:</l>
+                        <l>Tot aan het gunstig uur een slaaf van haar begeeren,</l>
+                        <l>Zal ik op d’oever van ’t verderf haar treeden keeren:</l>
+                        <l>’k Zal van haar diepst geheim ten vollen kundig zyn;</l>
+                        <l>Een ligtgeloovig hart bedriegt zich door den schyn.</l>
+                        <l>Maar zal ’k u zeggen, vriend! wat myne ziel doet beeven,</l>
+                        <l>Geen blixems, geene zeën, ten afgrond uitgedreven,</l>
+                        <l>Geen treffend schrik-vertoon der hemelsche Oppermagt,</l>
+                        <l>Noch ’t aaklig spook, door ’t wuft gemeen slechts uitgedacht.</l>
+                        <l>Waant gy, dat de Oppergoôn, die ’t eeuwig vonnis vellen,</l>
+                        <l>Zoo veel belang in ’t lot der wereldlingen stellen?</l>
+                        <l>En dat hun vreedzaamheid alle orde rukke uit één,</l>
+                        <l>Om ’t sterven van een’ Vorst, om ’t schreyën van ’t gemeen?</l>
+                        <l>Hamlet, Hamlet alleen, de doodverw op het wezen,</l>
+                        <l>Al de oorzaak van myn’ schrik, benaauwt me en doet my vreezen.</l>
+                        <l>Waar toe die zorg, die druk, dat sombere gelaat?</l>
+                        <l>Waar om vereischt zyn komst ten troon zoo veel beraad?</l>
+                        <l>Wat deert hem? is het hoop, of liefde, of haat of vreezen?</l>
+                        <l>Zou niet een felle zucht tot wraak hier de oorzaak weezen?</l>
+                        <l>Wat werkt dat sleepend leed, dat zyne ziel benart?</l>
+                        <l>Gy zelve, wist gy niet te dringen in zyn hart?</l>
+                        <l>Wat is ’t geheim, dat hy zoo zorglyk moet bewaaren?</l>
+                    </sp>
+                    <sp who="#polonius">
+                        <speaker>POLONIUS.</speaker>
+                        <l>’t Zou te vergeefs zyn zoo ’k dit trachtte te verklaaren;</l>
+                        <l>Maar als myn oog te recht in zynen boezem ziet,</l>
+                        <l>Zoo wacht in hem niet slechts een vlugtig zielsverdriet.</l>
+                        <l>Ik ken zyn ziel vol van gevoeligheid en zorgen;</l>
+                        <l>Hy houd een hart van vuur in schyn van vreê verborgen,</l>
+                        <l>En all’ zyn neigingen, met traagheid aangewend,</l>
+                        <l>Zyn in stilzwygenheid op ’t sterkst daar in geprent.</l>
+                        <l>’k Zag hem dikwerf, daar hem de druk scheen te overheeren,</l>
+                        <l>De schoone Ophelia een stervend oog toe keeren,</l>
+                        <l>Of, op het hevigst door de droefheid aangedaan;</l>
+                        <l>’t Gezicht, half blind geschreit, vervaart, ten hemel slaan.</l>
+                        <l>En ’k wist in ’t saamenstel der sombre wezenstrekken</l>
+                        <l>Het treffende bewys van razerny te ontdekken.</l>
+                        <l>De hoon voor ymant hem gelyk (bedrieg u niet)</l>
+                        <l>Is niet voldaan voor hy zich zelf gewroken ziet.</l>
+                        <l>Ten andren, zoo ik ’t hart van ’t volk weet te doorgronden.</l>
+                        <l>Is ’t niet dan al te veel reeds aan Hamlet verbonden;</l>
+                        <l>,, O, roept het uit, wat zou een vorst, zoo wys, zoo goed,</l>
+                        <l>,, Zoo vol rechtvaardigheid, en waaren heldenmoed,</l>
+                        <l>,, Voor ’t misdoen slechts gestreng, ons niet een zegen geeven;</l>
+                        <l>,, Laas, elk zou waanen voor zyn’ vader noch te leeven!</l>
+                        <l>’k Bid neem in ons besluit een kort en vlug beraad!</l>
+                        <l>Het is de traagheid, die hier meest te vreezen staat.</l>
+                        <l>’k Ga onze vrienden zien: ik ga hunn’ yver wekken.</l>
+                        <l>Laat ons bedenken, als wy d’aanslag gaan voltrekken,</l>
+                        <l>Terwyl wy alles stout opoff’ren aan ’t geval,</l>
+                        <l>Dat niets dan de uitkomst ons bestaan verschoonen zal.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Men komt. ’t Is de Vorstin. Wil u van hier begeeven.</l>
+                        <l>’t Weet niet wat op dit uur haar herwaart heeft gedreeven.</l>
+                        <l>Maar ga niet verre van dees plaats: dit onderhoud</l>
+                        <l>Zal daadelyk door my u worden toebetrouwt.</l>
+                    </sp>
+                </div>
+                <div n="2" type="scene">
+                    <head>II. TONEEL.</head>
+                    <stage>GEERTRUID. CLAUDIUS.</stage>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>’t Is thans de dag, Mevrouw, dat ik, van zorg ontslaagen,</l>
+                        <l>Een liefde, min beschroomt, uw heuschheid op moog’ dragen.</l>
+                        <l>Ik Weet, dat, tot uw’ lof en glory, al de Staat,</l>
+                        <l>Ontbloot van uw’ Gemaal zich op uw hulp verlaat.</l>
+                        <l>Zoo lang men vreede zach, hebt gy door tedre zorgen</l>
+                        <l>Voor ons de zwakheid van een veegen zoon verborgen;</l>
+                        <l>Maar de oorlogskreet, mevrouw, dreigt thans van allen kant</l>
+                        <l>De krygsman eischt een hooft, hy eischt het van uw hand.</l>
+                        <l>Zoo ’k naar eene eer, die aan uw goedheid hangt, durf haaken,</l>
+                        <l>Het staat aan u door d’echt die glory te volmaaken,</l>
+                        <l>En, zoo te sterke hoop myn wenschen niet misleid,</l>
+                        <l>Is ’t huwlyks vuur voor ons reeds op ’t altaar bereid.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>’k Beken, myn Heer ik dorst tot hiertoe steeds vertrouwen,</l>
+                        <l>Dat meer voorzigtigheid uw drift in toom zou houën.</l>
+                        <l>Het gantsche Ryk verzucht in angst en treurigheid;</l>
+                        <l>De dood des Konings wordt door ’t volk al-om beschreid.</l>
+                        <l>Zyn kout gebeent’, pas in de lykbus opgesloten,</l>
+                        <l>Heeft in den nacht van ’t graf noch naaulyks rust genoten,</l>
+                        <l>En wy, wy zullen, door een onbescheiden gloed,</l>
+                        <l>Den druk braveeren, die die traanen storten doet!</l>
+                        <l>In wiens bescherming zoude onze echt koets zegen vinden</l>
+                        <l>Wen zulk een trouw uw lot aan ’t myne moest verbinden?</l>
+                        <l>Versterk door te veel drifts het heimlyk oordeel niet</l>
+                        <l>Van zwakke harten, waar op de achterdocht gebied.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Hoe is ’t aan ons, Mevrouw, den onderdaan te vreezen,</l>
+                        <l>En hoopt gy in het eind, dat dit berispend wezen</l>
+                        <l>Niet langer op ’t bedryf der wereld vorsten staart?</l>
+                        <l>’t Kan zyn, dat uwe rede aan ’t volk bedenking baart;</l>
+                        <l>Maar ’t hoog gezach des staats, waar in wy zyn verheven,</l>
+                        <l>Wil niet dat wy als slaaf van zulke reglen leeven;</l>
+                        <l>Alleen ’t belang van ’t Ryk dat altyd heilig is,</l>
+                        <l>Schryft de uuren voor van zulk een echtverbintenis.</l>
+                        <l>Tracht des geene uitvlugt, zoo vol reedloosheid te vinden;</l>
+                        <l>’k Ontfing uw woord, dat gy aan my u zoud verbinden:</l>
+                        <l>Hier op vestte ik myn hoop, myn heil, myn zielsbegeer,</l>
+                        <l>Zult gy daar aan voldoen? verklaar u!</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Neen, myn Heer:</l>
+                        <l>’t Is tyd, ik zie het, om hier ’t veinzen af te breeken,</l>
+                        <l>En ’k ga u, zonder vrees en zonder omweg spreeken.</l>
+                        <l>Gy weet tot welk een’ prys ik naar die trouw dorst staan:</l>
+                        <l>De misdaad is te groot om immer ons te ontgaan:</l>
+                        <l>De schrik dier snoodheid, en een droom, die my doet beeven</l>
+                        <l>Zyn na dit yslyk uur my altoos by gebleven.</l>
+                        <l>Denk niet dat (op myn beurt geblaakt door liefde gloed)</l>
+                        <l>Myn ziel zich met de hoop van trouw of liefde voed.</l>
+                        <l>Laat die rampzaal’ge vlam voortaan vergeeten blyven.</l>
+                        <l>Ons voegt niet dan ’t berouw, het loon der wanbedryven!</l>
+                        <l>Verneer u, ’t is noch tyd, met my op ’t oogenblik</l>
+                        <l>Voor ’t heilige gezach van billyke angst en schrik,</l>
+                        <l>Die schrik is de inspraak van een magt, die elk moet vreezen.</l>
+                        <l>Ik beeve: en dit’s myn roem. Zou ’t onrechtvaardig weezen,</l>
+                        <l>Dat hy, die ons op aard ’t bestuur der wetten gaf,</l>
+                        <l>De wroeging waapent tot der vorsten vloek en straf?</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Indien ’t, in weder wil van uwe angstvalligheden,</l>
+                        <l>U niet mishaagt dat ’k u myn wenschen mooge ontleden,</l>
+                        <l>Zal ’t wanbedryf, waar van ’t berouw u hier bestryd,</l>
+                        <l>Vry minder Schriklyk zyn. Herroep u slechts den tyd.</l>
+                        <l>Geheugt u niet, mevrouw, wat wreê behandelingen</l>
+                        <l>Myn moedige oorlogsdaên wel-eer tot loon ontfingen?</l>
+                        <l>Wat dank bewees de Vorst aan all’ myn krygs bestuur?</l>
+                        <l>Ik bragt al beevende de glory in deez’ muur:</l>
+                        <l>Ik vreesde, daar ik ’t ryk de zege mogt verschaffen,</l>
+                        <l>Dat hy na myn triumph die glory zelv’ zou straffen.</l>
+                        <l>Zyn sombere achterdocht hield reeds op ons het oog:</l>
+                        <l>Bedekte haat verhief alrede ’t zwaart om hoog:</l>
+                        <l>Wie weet hoe zeer zyn woede, elk uur te meer ontstooken,</l>
+                        <l>Vol razerny zou op uw hooft zyn uitgebrooken.</l>
+                        <l>’k Zach hondertinaal uw angst. De wreedaard treurig, snood,</l>
+                        <l>Minyverig........</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Hou op; hy was myn Echtgenoot.</l>
+                        <l>’t Is recht voor ’t minst dat wy zyn glory niet bevlekken.</l>
+                        <l>En noch met welk verwyt kan ik zyn’ naam bedekken?</l>
+                        <l>Ons voegt de schrik; maar geen beschuldigende taal;</l>
+                        <l>Niets, niets verschoont in my den moord van een gemaal.</l>
+                        <l>Heeft my de min verblind; ’t berouw verlicht my de oogen,</l>
+                        <l>Van ’t heilig echtverbond ’t onwillige vermogen.</l>
+                        <l>’k Had naauw het voorwerp van myn trouw ten val gebrocht,</l>
+                        <l>Of ’k had het gaarne voor myn leeven weêr gekocht.</l>
+                        <l>’k Ben vrouw; maar de allerstoutste op aard, geloof myn reden,</l>
+                        <l>Zou lang zich zelf beraën in zulke onmenschlykheden,</l>
+                        <l>Indien haar hart voorzach, wen zy het zwaart verheft,</l>
+                        <l>Hoe zulk een moord in ’t eind de ziel met wroeging treft.</l>
+                        <l>Waar toe voor u ’t geheim van myn gemoed verzwegen?</l>
+                        <l>De misdaad volgt my na: ’t berouw behaalt de zegen.</l>
+                        <l>Zie wie ik ben, myn heer: daar gy my beeven ziet,</l>
+                        <l>Bedriegt myn valsche moed gewis uw hoopen niet.</l>
+                        <l>Geen blinde eerzuchtigheid heeft me ooit van ’t spoor gedreven,</l>
+                        <l>Had de regeerzucht my naar ’t ryksgezach doen streeven,</l>
+                        <l>Wie doch belette my te klimmen op den troon,</l>
+                        <l>En ’t recht te ontwringen uit de handen van myn’ zoon?</l>
+                        <l>Een andre vrouw meer trots, meer fier, zou ligt zich vleyen</l>
+                        <l>Om van het deensche ryk de paalen uit te breyën,</l>
+                        <l>En, wyl ’t verwondert noord al-om haar hulde bied,</l>
+                        <l>Door groote daën zich te verbergen voor ’t verdriet.</l>
+                        <l>Voor my; ik durf geensints naar zoo veel glory trachten;</l>
+                        <l>Ik kenn’ myn zwakheid, en kan nimmermeer verwachten,</l>
+                        <l>Dat, wen de Goden ons bedreigen met den val,</l>
+                        <l>Ons offer ’t wraakvuur in hun hand verdoven zal.</l>
+                        <l>’k Voed noch maar eene drift, die ’k niet kan weder streeven,</l>
+                        <l>Dat is, ’t gezach des Ryks myn’ zoon weerom te geeven:</l>
+                        <l>Hem in het einde van zyn foltering te ontslaan:</l>
+                        <l>Te waaken voor hem zelve en voor zyn’ onderdaan:</l>
+                        <l>De wroegingen te voën, die ’k in myn ziel voel blaaken:</l>
+                        <l>My waardig aan de stem van de natuur te maaken:</l>
+                        <l>U te beklagen booven al: bezef nu vry,</l>
+                        <l>Of de echtverbint’nis voor ons beiden oorbaar zy.</l>
+                        <l>Ik weet het, de achterdocht heerscht by de saamgezwooren,</l>
+                        <l>Maar ’t kunstig veinzen kan aan my niet meer bekooren.</l>
+                        <l>En ’k wil voor ’t minste hier, in myn rampspoedigheên,</l>
+                        <l>Niet langer beeven, dan voor ’t zwaart der Goôn alleen.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Ver van een wroeging, zoo rechtvaardig, te verächten,</l>
+                        <l>Eerbiedige ik uw deugt, en ’k zou die zelf betrachten.</l>
+                        <l>Maar is ’t hier tyd, mevrouw, dat gy een’ zoon bekroont?</l>
+                        <l>Bedenk wat angstigheid’ er in zyn’ boezem woont.</l>
+                        <l>Zal niet zyn pligt te zwaar voor zyne krachten weezen?</l>
+                        <l>Of zal men in zyn hand de magt des Scepters vreezen?</l>
+                        <l>En zoo in ’t eind al-om ’t gemor, de tegenweer,</l>
+                        <l>Het ongehoorzaam zyn.....</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Wie durfde zulks, myn Heer!</l>
+                        <l>De staat, die u, dicht by den troon geplaatst, zal eeren,</l>
+                        <l>Zal van uw voorbeeld steeds zyn duurste plichten leeren;</l>
+                        <l>Of, zoo een onderdaan dorst faalen in zyn trouw,</l>
+                        <l>’k Weet, wie hy ook mogt zyn, hoe ’k hem beteuglen zou.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Maar...</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>’t Is genoeg. Myn zoon zal ligt in weinig dagen</l>
+                        <l>Door u en my, als vorst, zich eerbied toe doen draagen.</l>
+                        <l>’k Hoop dat de Goôn, wier oog kan leezen in myn hart,</l>
+                        <l>Een eind gaan maaken van zyn foltering en smart!</l>
+                        <l>Hebbe ik zyn’ Vader, door eene euveldaad, doen sneeven,</l>
+                        <l>’t Is recht voor ’t minste om hem zyn moeder weer te geeven.</l>
+                        <stage>(Een Lyfwacht komt uit.)</stage>
+                        <l>Zeg aan Polonius dat hy zich herwaart spoed,</l>
+                        <l>Dat hem de Koningin hier daadlyk spreeken moet.</l>
+                        <l>Vertrek. En gy, myn Heer, myn mond zal u doen hooren,</l>
+                        <l>Hoe verre my de glans des Scepters kan bekooren.</l>
+                    </sp>
+                </div>
+                <div n="3" type="scene">
+                    <head>III. TONEEL.</head>
+                    <stage>GEERTRUID. CLAUDIUS.</stage>
+                    <stage>POLONIUS.</stage>
+                    <stage>GEERTRUID, vervolgende.</stage>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Tree toe, Polonius! ’k wil op deez’ grooten dag</l>
+                        <l>Myn’ zoon, voor ’t gantsche Hof gestelt zien in ’t gezach.</l>
+                        <l>Laat yder voor dat uur zich zelven vaardig houën</l>
+                        <stage>(Tegen Claudius.)</stage>
+                        <l>En gy, dien ’k toeven deed om ’t hooge feest te aanschouwen,</l>
+                        <l>Verbeel u niet, myn Heer, dat ’k in dit oogenblik</l>
+                        <l>Uw oog wil kwetsen door een schouwtoneel van schrik.</l>
+                        <l>Ik weet, de liefde alleen wekte ons tot gruwelstukken;</l>
+                        <l>En zoo myn zoon in ’t eind voor zyn verdriet moet bukken,</l>
+                        <l>Zult gy me in ’t volgen van uw wetten zien bereid;</l>
+                        <l>Maar thans heeft hy noch recht op uw gehoorzaamheid.</l>
+                        <l>Doe my uw wroeging zien door hem getrouw te weezen!</l>
+                        <l>Zoo ooit een nieuwe deugt, in uwe borst verrezen,</l>
+                        <l>Aan u met recht de gunst der Goôn verwerven doet,</l>
+                        <l>’t Is de ed’le zorg, waar mee ge uw’ Vorst beschermen moet.</l>
+                        <l>Ga, laat me alleen!</l>
+                    </sp>
+                </div>
+                <div n="4" type="scene">
+                    <head>IV. TONEEL.</head>
+                    <stage>GEERTRUID, (alleen.)</stage>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>’k Zal dan in ’t eind, der waan onttogen,</l>
+                        <l>Voortaan alleen ’t geluk van eenen zoon beöogen!</l>
+                        <l>Ach! had myn hart, altoos door zynen pligt geraakt,</l>
+                        <l>Nooit andere driften dan die zoete drift gesmaakt!</l>
+                        <l>Indien voor deezen zoon myn tederheid, vol schroomen....</l>
+                    </sp>
+                </div>
+                <div n="5" type="scene">
+                    <head>V. TONEEL.</head>
+                    <stage>GEERTRUID. ELVIRE.</stage>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>Men heeft Norcestes hier op ’t oogenblik vernomen.</l>
+                        <l>Elk weet hoe zich zyn hart, door tedre vriendschaps band,</l>
+                        <l>Reeds van zyne eerste jeucht had aan den Prins verpand.</l>
+                        <l>Hy zal, steeds waardig aan het koninglyk vertrouwen,</l>
+                        <l>Wen hy den Vorst in het geheim zal onderhouën,</l>
+                        <l>Gewis de redenen ontdekken van zyn smart,</l>
+                        <l>Dien druk verzachten, en verbannen uit zyn hart.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Heeft hy zich reeds aan ’t Hof by mynen zoon doen vinden?</l>
+                    </sp>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>Tot hier dorst Voltimand zich zelf niet ondervinden</l>
+                        <l>Hem in te leiden, wyl de Prins elks oog ontvlied.</l>
+                        <l>Laas, zach men eenmaal ’t eind van zulk een zielverdriet....</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Elvire, een straal van hoop vertoont zich voor myne oogen:</l>
+                        <l>Laat ons beproeven wat Norcestes kan vermogen!</l>
+                        <l>Gelukkig, zoo ’k in ’t eind, door zyn voorzichtigheid,</l>
+                        <l>Ontdekken moog’ wat ramp myn’ zoon om ’t harte leid.</l>
+                    </sp>
+                </div>
+            </div>
+            <div n="2" type="act">
+                <head>II. BEDRYF.</head>
+                <div n="1" type="scene">
+                    <head>EERSTE TONEEL.</head>
+                    <stage>GEERTRUID. ELVIRE.</stage>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>Verklaar u in het eind! dit ’s een te lang vertraagen.</l>
+                        <l>Hebt ge een geheim, waar in myn hart geen deel mag draagen?</l>
+                        <l>Mevrouw........</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Ach, laat my aan de droefheid, die ik voed.</l>
+                    </sp>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>Maar denk dat ge op deez’ dag aan ’t Hof verschynen moet!</l>
+                        <l>Denk dat dit Kroonfeest, dat zoo glansryk op komt dagen....</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>En ’k bidde, op welk een wys zal my dit feest behaagen?</l>
+                        <l>Helaas, dees droeve ziel, staag om myn’ zoon benart,</l>
+                        <l>Was nimmer aangedaan door zoo veel schrik en smart!</l>
+                        <l>Door welk een doodlyke angst wordt mynen geest gedreven!</l>
+                    </sp>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>’t Is hier voor ’t eerste niet, dat my die angst doet beeven.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Hoe! gy hebt die ontdekt? Wanneer? Spreek op! Verklaar:</l>
+                    </sp>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>Ach, dat die slechts aan my alleen gebleken waar’!</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Wat deed, wat zeide ik? waarde Elvire! doe my hooren:....</l>
+                    </sp>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>Moet ik dit schrikgeheim niet in myn’ boezem smooren?</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Wat zaagt gy? Dit ’s te veel!</l>
+                    </sp>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>Heeft nooit uw fier gemoed,</l>
+                        <l>Mevrouw, een oogmerk, een bestaan vol schuld gevoed?</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>’t Is tyd een eind te zien aan myn rampzaalig vreezen.</l>
+                        <l>Spreek! Ik begeer ’t.</l>
+                    </sp>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>Laas! Gy zult sidd’ren</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Laat zulks weezen!</l>
+                    </sp>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>Gy zyt het, die my dwingt....</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Gehoorzaam! ’t Is myn last.</l>
+                    </sp>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>Wanneer de Koning door het sterflot werdt verrast,</l>
+                        <l>Woud gy in eenzaamheid, terwyl ge elks oog ontvlugtte,</l>
+                        <l>De wreede droefheid voën, waar in uw ziel verzuchtte.</l>
+                        <l>Ik vreesde de eerste kracht, Mevrouw van zoo veel druk:</l>
+                        <l>Ik durvde u gaâ saan, in uw treffend ongeluk;</l>
+                        <l>Wat zach ik? groote Goon! Gy beefde, en stortte traanen:</l>
+                        <l>Uw klagten scheenen ’t spoor tot razerny te baanen:</l>
+                        <l>Uw hart scheen op het wreedst door wroeging aangedaan:</l>
+                        <l>Gy riep, met naar gegil den dood tot bystand aan:</l>
+                        <l>Kost ik myn’ Vorst, myn Heer, dus spraakt gy, dien ’k moest eeren....</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Ik sprak?</l>
+                    </sp>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>Door welk een’ schrik zie ik uwe angst vermeeren?</l>
+                        <l>Gy beeft, Mevrouw!</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Ik sterv’.</l>
+                    </sp>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>Wat zeide ik?</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Vraag my niet!</l>
+                    </sp>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>Hoe! ’t is uw hand....</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Waar door uw Vorst het leven liet.</l>
+                    </sp>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>Uw Ega! Gy? ô Goôn!</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Elvire! tree niet nader!</l>
+                        <l>Vlugt myne vrees, myne angst, en wroegingen te gader.</l>
+                        <l>Vlugt, zegge ik!</l>
+                    </sp>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>ô Verraad! ô Hof, vol yslykheên!</l>
+                        <l>Wat monster bragt u tot dien schuld?</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>De min alleen.</l>
+                        <l>Hoor my! Ach! mogt, wyl gy my noopt het u te ontdekken,</l>
+                        <l>Dit droef verhaal voor all’ myn kunne een voorbeeld strekken.</l>
+                        <l>’k Zal u niet zeggen, dat het heimlyk ongeluk</l>
+                        <l>My, als by trappen, bragt tot zulk een’ gruwelstuk;</l>
+                        <l>’k Zoek geene onwettige verschooning tot myn waapen;</l>
+                        <l>Ga! ’t menschlyk hart is voor de misdaad niet geschaapen;</l>
+                        <l>’t Behoeft, voor de uitspraak van zyn schuldbekentenis,</l>
+                        <l>Slechts in zich zelf te gaan, wanneer ’t misdadig is.</l>
+                        <l>Ik mogt, het heugt u noch, in duizend zielvermaaken</l>
+                        <l>Van ’t deugtsaam echtverbond all’ de bekooring smaaken;</l>
+                        <l>’k Zach myn’ verwinnaar weer, dien ’k eeuwig moest ontvliën:</l>
+                        <l>’k Was straks bereid myn hart aan Claudius te biën:</l>
+                        <l>Men deed aan ’t gantsche hof zyne ongenade blyken:</l>
+                        <l>Het overschot van pligt moest voor de spyt bezwyken:</l>
+                        <l>Ik prees den toorn, waar door myn’ minnaar was vervult:</l>
+                        <l>’k Dacht dat ik een’ Gemaal mogt gruwen zonder Schuld.</l>
+                        <l>Hoe! zyn voorzichtigheid (dus sprak ik vol ontroeren)</l>
+                        <l>Gaat dan op ’t geen ik minn’ zyn’ wreeden haat volvoeren!</l>
+                        <l>’t Scheen me alles geöorloft tot weerhouding van dien slag.</l>
+                        <l>De vorst, dien ’k aan myn zorg alleen bevolen zach,</l>
+                        <l>Ontfing van myne hand gewoonelyk de dranken,</l>
+                        <l>Waar aan geneeskunst zoo veel zegens heeft te danken.</l>
+                        <l>Myn schuldgenoot, waardoor ’k myn hart verblinden laat,</l>
+                        <l>Stelt in myn hand den kelk van dadelyk verraad:</l>
+                        <l>’k Spoey my naar myn Gemaal; zyn aanschyn doet my beeven</l>
+                        <l>’k Verberge een wyl den angst, waardoor ik wordt gedreven</l>
+                        <l>Maar, ’t zy myn hart, voor ’t laatste aanschouwen onbereid</l>
+                        <l>Noch hoorde naar de stem der mededogenheid;</l>
+                        <l>’t Zy dat natuur, gereed het moordstaal te verheffen,</l>
+                        <l>In weerwille onzer drift vervaart was om te treffen,</l>
+                        <l>Ik porde te vergeefs myn’ neêrgeslaagen moed;</l>
+                        <l>De rede ontweek my: ’k voelde een sidd’ring in myn bloed;</l>
+                        <l>Onmagtig* de ondaad te openbaaren of volvoeren,</l>
+                        <l>Plaatste ik den kelk slechts by myn offer, vol ontroeren.</l>
+                        <l>Ik vlugt; de wroeging straks gewaapend tot myn straf</l>
+                        <l>Schetst voor myn’ droeven geest een’ stervend’ ega af,</l>
+                        <l>Wyl ’t stuursche redelicht, dat my op nieuw bestraalde,</l>
+                        <l>Voor my al de yslykheên der snoode misdaad maalde.</l>
+                        <l>Toen, toen, met recht beducht dat reeds de veege vorst,</l>
+                        <l>Van argwaan vry, het gif voelt knaagen door zyn borst,</l>
+                        <l>Vlieg ik naar hem te rug, om ’t onheil te beletten,</l>
+                        <l>En voor zyn oog den kelk van moordzucht te verpletten,</l>
+                        <l>Of, drinkend zelf het vocht, dat myne hand hem bood,</l>
+                        <l>Den Hemel en natuur te wreeken door myn’ dood.</l>
+                        <l>’k Tree toe; die Hemel, tot myn straf door toorn aan ’t blaaken,</l>
+                        <l>Wist reeds myn misdryf onherroepelyk te maaken,</l>
+                        <l>Benydende aan myn hart, medogenloos en wreed,</l>
+                        <l>De vrucht der wroeging, die hy zelf my voeden deed.</l>
+                    </sp>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>ô Goôn!</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Ik vlugtte om me aan die yslykheën te onttrekken:</l>
+                        <l>’k Ontweek een hofgezin, dat my tot last moest strekken,</l>
+                        <l>En wilde in eenzaamheid, slechts van berouw verzelt,</l>
+                        <l>De wanhoop voën, die in myn’ boezem was beknelt.</l>
+                        <l>Myn klagten wisten u myn wanbedryf te ontvouwen;</l>
+                        <l>Maar ’k durf me in dit geheim op uwe deugt betrouwen.</l>
+                        <l>Ik morr’ des niet; ’k ontfang gewillig van omhoog</l>
+                        <l>De nieuwe straf, van my te schaamen voor uw oog.</l>
+                        <l>Laas! ’k hebb’, van dat myn hand zich met dien schuld bevlekte,</l>
+                        <l>Den moordkelk voor ’t gezicht, die haar tot werktuig strekte.</l>
+                        <l>Elvire, ach! wat geluk belooft ge aan myn verdriet,</l>
+                        <l>Terwyl myn zoon gestaag den dood voor oogen ziet! —</l>
+                        <l>Noch zoon noch ega meer! — wat vrucht laat my het huwen?</l>
+                        <l>Al de yslykheid een’s moords, waarvoor myn ziel moet gruwen:</l>
+                        <l>Terwyl natuur noch, tot verzwaaring van myn smart,</l>
+                        <l>Een’ strengen wreeker vind zelf in myn eigen hart.</l>
+                    </sp>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>Hy leeft die zoon. Het staat aan u om naar te spooren</l>
+                        <l>Uit welk geheim verdriet zyne onlust wordt gebooren;</l>
+                        <l>Niets kan uw liefde van die zorg ontslaan, mevrouw;</l>
+                        <l>Ik durf niet denken dat gy, vaardig tot de trouw,</l>
+                        <l>Met Claudius.....</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Hoe, wy? goôn! wy te saam verëenen?</l>
+                        <l>Dat liefst myn oog nooit weer door ’t daglicht word’ bescheenen,</l>
+                        <l>Eer een gewyde band twee harten saamen bind</l>
+                        <l>Verknocht door ’t wanbedryf, dat nergens kalmte vind.</l>
+                        <l>Elvire! al wat myn’ ramp en lyden kan verzachten,</l>
+                        <l>Is te gevoelen hoe ’k my zelve moet verächten.</l>
+                        <l>’k Wensch dikwerf in de drift, die ’t naberouw my baart,</l>
+                        <l>Myn wroeging te doen zien aan all’ wat leeft op aard’.</l>
+                        <l>’t Schynt of ik ’s hemels toorn, waar voor myn ziel moet beeven,</l>
+                        <l>Door een bekent’nis, zoo verschriklyk zou weêrstreeven.</l>
+                        <l>Ach! zoo die hemelwraak, die me alle hulp ontzeid,</l>
+                        <l>Noch op deez’ zelven dag my ’t sterfuur had bereid!</l>
+                        <l>Zoo zy door ’t staal een’s zoons de moeder wilde straffen:</l>
+                        <l>Zoo zy, ten schrik der aarde, een voorbeeld wou verschaffen</l>
+                        <l>Wie ik moet vreezen, dat myn bloed vol razerny,</l>
+                        <l>Het voorwerp van myn zorg, zich waapne tegen my!...</l>
+                        <l>Wat zegt ge? ontmenschte! welk gemor durft gy doen hooren!</l>
+                        <l>Wist gy het eerst natuur niet in uw borst te smooren!</l>
+                        <l>G’ontroofde ’t licht aan een’ gemaal, wien ’t ryk betreurt,</l>
+                        <l>Vrees, vrees uw’ zoon, rampzaal’ge en sidder op uw beurt!</l>
+                    </sp>
+                    <sp who="#elvire">
+                        <speaker>ELVIRE.</speaker>
+                        <l>Ach! ’k bid mevrouw verban die aakelige schroomen!</l>
+                        <l>Misschien ontdekt ge eerlang.... Maar ’k zie Norcestes komen.</l>
+                    </sp>
+                </div>
+                <div n="2" type="scene">
+                    <head>II. TONEEL.</head>
+                    <stage>GEERTRUID. NORCESTES. ELVIRE.</stage>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID</speaker>
+                        <l>Het is tot u myn Heer dat zich een moeder wend.</l>
+                        <l>Het leeven van myn’ zoon loopt door ’t verdriet ten end.</l>
+                        <l>Tracht de oorzaak van zyn leed en droeve smart te ontwinden.</l>
+                        <l>In u, in uw beleid hoope ik myn’ troost te vinden!</l>
+                        <l>Ligt dat zyn hart, dat zich voor ons gesloten houd,</l>
+                        <l>Door vriendschap overheert, u zyn geheim betrouwt.</l>
+                        <l>’k Hoor, naar ik hoop, welhaast hier van den uitslag nader:</l>
+                        <l>’t Betreft myn’ zoon, en my, en ’t gantsche ryk te gader,</l>
+                        <l>’t Betreft uw’ vriend vooral: aan u is ’t in deez’ druk</l>
+                        <l>Waar aan myn leeven hangt, myn heil, al myn geluk.</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>Ik ga hem zien, mevrouw, en zal met vlyt betrachten</l>
+                        <l>Al wat men van een’ vriend en onderdaan kan wachten.</l>
+                    </sp>
+                </div>
+                <div n="3" type="scene">
+                    <head>III. TONEEL.</head>
+                    <stage>NORCESTES. VOLTIMAND.</stage>
+                    <sp who="#voltimand">
+                        <speaker>VOLTIMAND.</speaker>
+                        <l>’k Bid nader niet, myn Heer! de Prins, vol razerny,</l>
+                        <l>Vervult met naar geschreeuw dees plaats van allen zy.</l>
+                        <l>Nooit was hy in zyn drift zoo schrikkelyk voor deezen:</l>
+                        <l>’t Schynt dat de onzichtb’re wraak een’s Gods, die zich doet vreezen,</l>
+                        <l>Om eenig wanbedryf hem navolgt en benart.</l>
+                        <l>Hoe werdt zyn geest deez’ nacht door doodschen angst benart!</l>
+                        <l>Myn arm heeft hem gekeert, daar hy in ’t duister vlugtte,</l>
+                        <l>En, beevend, bleek, ontroert, in naar gegil, verzuchtte,</l>
+                        <l>Waant gy, dat zyn gezicht in die wanhoopigheid,</l>
+                        <l>Die yder sidd’ren doet, zyn vrienden onderscheid?</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>Wat nood! Ik bid sta toe.....</l>
+                    </sp>
+                </div>
+                <div n="4" type="scene">
+                    <head>IV. TONEEL.</head>
+                    <stage>HAMLET. NORCESTES.</stage>
+                    <stage>VOLTIMAND.</stage>
+                    <stage>HAMLET, (Achter de Schermen.)</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Vlugt, spooksel vol afgryzen!</l>
+                        <l>Verberg in ’t hol van ’t graf uw oog, dat my doet yzen!</l>
+                    </sp>
+                    <stage>VOLTIMAND, (Tegen Norcestes.)</stage>
+                    <sp who="#voltimand">
+                        <speaker>VOLTIMAND.</speaker>
+                        <l>Gy hoort hem woeden.</l>
+                    </sp>
+                    <stage>HAMLET, (in drift inkomende, en als vervolgt wordende.)</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Hoe! ziet gy dien Geest dan niet?</l>
+                        <l>Hy vliegt my naar den hals, en volgt my waar ik vlied’.</l>
+                        <l>Ik sterf.</l>
+                        <stage>(Hy valt in een leuningstoel.)</stage>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>Verban den angst waardoor gy word bedrogen.</l>
+                        <l>Zie op, myn Heer! aanschouw Norcestes voor uwe oogen,</l>
+                        <l>Gedreeven door de kracht der vriendschap, die hy voed.</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Norcestes! ach! zyt gy ’t? wat valt dit uur my zoet!</l>
+                        <l>Hoe troost uw byzyn my in myn rampspoedigheden!</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>Wat werkt die naare zorg, waar door gy word bestreden?</l>
+                        <l>Helaas, myn Heer! indien ’k ooit, deelende in uw smart,</l>
+                        <l>Uw ziels geheimen mogt ontfangen in myn hart,</l>
+                        <l>Indien ge u van myn vlyt noch durft verzekert houën,</l>
+                        <l>Zoo wil my de oorzaak van die foltering vertrouwen,</l>
+                    </sp>
+                    <stage>HAMLET, (Tegen Voltimand.)</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Laat ons alleen.</l>
+                    </sp>
+                </div>
+                <div n="5" type="scene">
+                    <head>V. TONEEL.</head>
+                    <stage>HAMLET. NORCESTES.</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Waarom u een geheim verklaart,</l>
+                        <l>Waarvan de afgryslykheid my niet dan sidd’ring baart?</l>
+                        <l>ô Goôn!</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>Verbreek, myn Heer! zulk een halsterrig zwygen.</l>
+                        <l>Mag ik geen recht op uw vertrouwen meer verkrygen?</l>
+                        <l>Wat kan de reden zyn der droevige ongeneucht</l>
+                        <l>Waar door ge uw dagen kort in zulk een ted’re jeucht?</l>
+                        <l>Gy sleet zoo vergenoegt met eenen vader ’t leeven!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Ach, had het daglicht noch zyn oogen niet begeeven!</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>De tyd, die alle smart, hoe billyk ook, verstrooit,</l>
+                        <l>Zal mogelyk in ’t eind uw leed verzachten.</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Nooit.</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>Ik prys die droefheid, door natuur ons aangebooren:</l>
+                        <l>Het is de stem van ’t bloed, die zich aan ’t hart doet hooren;</l>
+                        <l>Maar gy gaaft reeds genoeg getraan aan deezen pligt.</l>
+                        <l>Gedoog.....</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Neen, daar is niets dat mynen druk verligt.</l>
+                        <l>Wat zorg die vader, wiens gemis ik moet beklagen,</l>
+                        <l>Wat ted’re zorg, heeft hy voor myne jeucht gedraagen!</l>
+                        <l>’k Voorzach niet dat een lot zoo wreed, zoo vol van smart,</l>
+                        <l>Hem zoo vroegtydig zou ontrukken aan myn hart.</l>
+                        <l>Hy is niet meer: zyne asch mag naaulyks rust verwerven,</l>
+                        <l>Of men verbant zyn’ naam, en men vergeet zyn sterven.</l>
+                        <l>Ik zie myn Hof, reeds moê van rouw en ongeneucht,</l>
+                        <l>Zich overgeeven aan de wellust en de vreucht;</l>
+                        <l>En ik, die in het oog steeds heete traanen gader,</l>
+                        <l>Zoek noch de stappen op van een’ rampspoedig vader,</l>
+                        <l>En lees alöm op deez’ afgrysselyken muur</l>
+                        <l>Niet dan het bloed bevel van ’t hemelsche bestuur.</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>Wat is toch dat bevel, zoo vol verborgenheden?</l>
+                        <l>Is ’t oorzaak van den angst waardoor gy word bestreeden?</l>
+                        <l>Verklaar u in het eind!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Betigt myn ziel hier niet,</l>
+                        <l>Dat zy te vaardig zich verblind door schynverdriet.</l>
+                        <l>Tweemaal, myn vriend! zach ik in dit Paleis myn vader;</l>
+                        <l>Niet wreed, met d’arm om hoog terwyl ik bevend nader,</l>
+                        <l>Maar troosteloos, maar bleek, en stikkende in ’t geween,</l>
+                        <l>Dat hem ontwrongen werdt door zyn rampspoedigheên.</l>
+                        <l>,, Myn zoon, ontdek in ’t eind (dus vangt hy aan te spreeken)</l>
+                        <l>,, Welk bloed gy storten moet om mynen dood te wreeken.</l>
+                        <l>,, Men dacht een wreede pyn beroofde my van ’t licht;</l>
+                        <l>,, (Dus schuift men aan het Hof het masker voor ’t gezicht.)</l>
+                        <l>,, Uw wreede moeder, ja, uw moeder, wie zou ’t denken,</l>
+                        <l>,, Dorst my het doodlyk gif met eigen handen schenken.</l>
+                        <l>,, De onzaall’ge Claudius, haar schuld-en vloekgenoot,</l>
+                        <l>,, Was boven allen de bewerker van myn’ dood.</l>
+                        <l>,, Wreek (voer hy verder voort) myn’ hoon en ’s Hemels tooren,</l>
+                        <l>,, Vrees niet dat gy natuur zult door die wraak verstooren;</l>
+                        <l>,, Stort zonder onderscheid zulk een onmenschlyk bloed!</l>
+                        <l>,, Ik ben ’t, het zyn de goôn, wier hand u leiden moet”.</l>
+                        <l>Ik antwoord niet, maar voel myn ziel door angst gedreven,</l>
+                        <l>Op de bezeffing van een wereld na dit leeven.</l>
+                        <l>Wat is uw lot (dus barst ik uit) welk een bestaan</l>
+                        <l>Bied aan den sterveling die nieuwe wereld aan.</l>
+                        <l>Zou ’t godendom, wiens arm op aarde ons blyft geleiden,</l>
+                        <l>Door eeuwig duurend leed ons daar een straf bereiden?</l>
+                        <l>,, Doe my (dus antwoord hy) geen vraagen meer, myn zoon!</l>
+                        <l>,, Die lessen van het graf, geheimen van de doôn,</l>
+                        <l>,, Zyn aan het eng begrip des stervlings niet gegeeven.</l>
+                        <l>,, Laat vry een Koning hier voor ’t hemel vonnis beeven!</l>
+                        <l>,, Ach! zoo ’k u spreeken mogt van zoo veel yslykheid,</l>
+                        <l>,, Gewis myn dood verw wierd op uw gelaat verspreid.</l>
+                        <l>,, Begreep men tot wat prys we op aard de kroon erlangen,</l>
+                        <l>,, De hand, myn zoon! zou ligt verstyven op ’t ontfangen.</l>
+                        <l>,, Men voelt zoo lang men leeft den last niet van ’t gebied;</l>
+                        <l>,, Maar als men sterft hoe zwaar valt dan de Scepter niet”!</l>
+                        <l>Dus sprak hy en verdween.</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>’k Beken het, zulk een reden</l>
+                        <l>Moest wreed zyn voor uw ziel: en zoo veele yslykheden....</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Hoor toe. Verbeel u niet dat myn verbystert hert</l>
+                        <l>Voort zonder weerstand door die taal verwonnen werdt.</l>
+                        <l>’k Gevoelde stryd op stryd; de magt die elk moet vreezen</l>
+                        <l>Weet of ik zonder schrik myn moeder hebb’ verwezen.</l>
+                        <l>Myn ziel, de kunst van haar te ontschuldigen gewoon,</l>
+                        <l>Vond zelf vermaak in ’t feit te onkennen aan de goôn,</l>
+                        <l>Maar ’t spook verrees des nachts meer schriklyk dan te vooren.</l>
+                        <l>,, Hoe, (sprak het) heeft uw hart al zyn gevoel verlooren?</l>
+                        <l>,, Staat ge aan een zachten slaap alle uw vermogens af,</l>
+                        <l>,, en laat ge een’ vader ongewroken in het graf?</l>
+                        <l>,, Neem ’t staal! neem ’t vat, waar myn gebeente in is besloten;</l>
+                        <l>,, Is ’t my genoeg dat het met traanen word’ begooten?</l>
+                        <l>,, Haal ’t uit zyn zerk, en vlieg daar gy my wreeken moet:</l>
+                        <l>,, Stoot toe en breng het weer noch rookende van bloed.</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>Goôn, welk een last!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Een wyl niet magtig om te spreeken,</l>
+                        <l>Beweegen loos, verstomt, scheen my ’t gevoel te ontbreeken;</l>
+                        <l>Doch, eindlyk kennende my zelven en myn leed,</l>
+                        <l>Vervuldde ik ’t Hof met een afgrysselyken kreet.</l>
+                        <l>Ik liep al beevend, zwak, in eenzaamheid, verlooren,</l>
+                        <l>Het spook scheen me, aan myn zy, tot vlugten aan te spooren.</l>
+                        <l>Die schim, die euveldaên, die redenen, vol schrik,</l>
+                        <l>Verbaazen myne ziel noch in dit oogenblik.</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>Maar zal op dit bewys, waat door ge uw laat verwinnen,</l>
+                        <l>Alleen het werk misschien van uw verdwaalde zinnen,</l>
+                        <l>Een Prins, een moeder door den arm van haaren zoon.......</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Ik zal myn vader zien gewroken en de goôn.</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>De schoone Ophelia zal dan vol onmedogen</l>
+                        <l>Haar’ vader in het kort zien slachten voor haare oogen?</l>
+                        <l>Gy zucht?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Ik beeve, en zie met diepe ontroerenis</l>
+                        <l>Aan wat barbaarsche keus myn plicht verbonden is.</l>
+                        <l>’k Tracht myn besluitloosheid al sidd’rend moed te geeven:</l>
+                        <l>Het mêly treft myn ziel: de moordzucht doet my beeven:</l>
+                        <l>D’ ontmenschten Claudius op off’ren aan myn smart,</l>
+                        <l>Is aan zyn dochter ’t staal te dringen in het hart,</l>
+                        <l>Is haar vermoorden met myn hand. Zoo dient, myn waarde!</l>
+                        <l>Myn arm ten schrik van all’ wat my bemint op aarde.</l>
+                        <l>Ik zal myn moeder dan, zich werpend voor my neer,</l>
+                        <l>Weerhoudend door getraan het bloedig moord geweer,</l>
+                        <l>My smeeken zien...., ,, Hamlet! herken my, wil my hooren,</l>
+                        <l>,, Spaar, waarde zoon, het bloed, waar uit gy zyt gebooren!</l>
+                        <l>,, Bespaar de borst waar in uw leeven werdt gevoed!</l>
+                        <l>En ik, ik zou myn hand, vol razerny, verwoed....</l>
+                        <l>Maar gy misleid me ô Goôn! uw wet, altyd rechtvaardig,</l>
+                        <l>Gebied myn’ arm geen’ moord uw goedheid zoo onwaardig.</l>
+                        <l>Wie, ik, zou ’t werktuig zyn van zulk een wreed besluit?</l>
+                        <l>Neen, kiest een’ andren arm, of andere offers, uit!</l>
+                        <l>’k Vliege om in snooder bloed myn’s vaders dood te wreeken!</l>
+                        <l>Maar ’k zal myn moeder niet ontmenscht naar ’t harte steeken.</l>
+                        <l>Een laag verleider heeft haar ziel vervoert tot schuld:</l>
+                        <l>Bepaal, o Goôn uw wraak in de angst, die haar vervult.</l>
+                        <l>Dat myne traanen, dat myn lyden u verzachten;</l>
+                        <l>Of zoo, ’k in weerwil van my zelve, haar moet slachten,</l>
+                        <l>Zal ik, tot sluiting van een euveldaad zoo snood,</l>
+                        <l>’t Bevel van uwe woede ontvlugten in den dood.</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>Myn Heer!....</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>O vader! o natuur! ’k voel my bezwyken.</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>Laat hier uw razerny geen dwaalend vonnis stryken,</l>
+                        <l>Doorgrond eerst dit geheim, op dat niet uw gezicht,</l>
+                        <l>Door schynbaarheid verwart, te spade wordt verlicht.</l>
+                        <l>Uw ’s vaders asch mogt hier de doodsche rust verwerven;</l>
+                        <l>Spoor met my de oorzaak naar van zyn te ontydig sterven.</l>
+                        <l>Kan ik zyn lykbus, aan den nacht des grafs gewyd,</l>
+                        <l>Niet heimlyk aan zyn zerk onttrekken voor een’ tyd?</l>
+                        <l>Ik hebb’ myn oogmerk, Heer! en durf my hier voorspellen,</l>
+                        <l>Dat ik wel haast dien schat in uwe hand zal stellen:</l>
+                        <l>De Koningin genaakt. Waar om beproeft ge’ er niet?</l>
+                        <l>Dat uwe hand haar de asch van haaren ega bied;</l>
+                        <l>Op ’t onverwacht gezicht, dat haar ten schrik zal weezen,</l>
+                        <l>Kunt ge in haar oog en hart en in haar houding leezen.</l>
+                        <l>Een schuldige wordt door ontroernis ligt verraên</l>
+                        <l>En gy zult dus misschien.....</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Genoeg! ’k hebbe u verstaan.</l>
+                        <l>Verberg ’t geheim. Ik vlugt. Ik zie myn moeder komen.</l>
+                    </sp>
+                </div>
+                <div n="6" type="scene">
+                    <head>VI. TONEEL.</head>
+                    <stage>GEERTRUID. NORCESTES.</stage>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Myn zoon ontvlugt me, ach! wat doet hem myn byzyn schroomen.</l>
+                        <stage>(tegen Norcestes.)</stage>
+                        <l>Gy weet zyn zielsgeheim, ’k bid dat gy ’t my verklaart.</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>’k Bekent hy heeft aan my zyn kwelling geopenbaart.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Wil my de reden van zyn foltering ontdekken.</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>Men mag ’t vertrouwen van geheimen niet bevlekken.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>’k Ben moeder: ’k denk gy kunt my spreeken van myn’ zoon.</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>’t Staat my niet vry, mevrouw!</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Gy doet my beeven. Goôn!</l>
+                        <l>Norcestes! ik begeer ’t: geef antwoord op myn vraagen!</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>Het is met smart, mevrouw, dat ik u moet mishaagen.</l>
+                        <l>Maar ik gehoorzaam aan myn’ Koning. Hoe ’t ook zy,</l>
+                        <l>Zulk een stilzwygenheid is hier een plicht voor my.</l>
+                    </sp>
+                </div>
+                <div n="7" type="scene">
+                    <head>VII TONEEL.</head>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID</speaker>
+                        <l>Wat wekt doch in Norcest die sombre wezenstrekken?</l>
+                        <l>Wat is die weig’ring, dat geheim zoo zwaar te ontdekken?</l>
+                        <l>’k Weet niet; maar ’k sidder. Laas! een onbekende schrik</l>
+                        <l>Verzwaart myn rampen in dit aaklig oogenblik.</l>
+                        <l>Maar, hoe! Ophelia?</l>
+                    </sp>
+                </div>
+                <div n="8" type="scene">
+                    <head>VIII TONEEL.</head>
+                    <stage>GEERTRUID. OPHELIA.</stage>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Mevrouw, ’k bid wil gedoogen</l>
+                        <l>Dat ik, geknielt, myn hart ondekkend’ voor uwe oogen.....</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Verklaar u.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Ach! gy zoekt de reden van ’t verdriet</l>
+                        <l>Waar door gy ’t leevens licht uws zoons verkwynen ziet....</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Zou u die zyn bekent?</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Duld dat ik eerst moog weeten</l>
+                        <l>Of uw eelaardig hart myn misdaad zal vergeeten.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Wat misdaad wilt gy doch dat ik in u verschoon’?</l>
+                        <l>Zou Claudius.... maar spreek my liever van myn zoon.</l>
+                        <l>Zoud gy hier de oorzaak van zyn rampen kundig weezen?</l>
+                        <l>Wat zyn ze? spreek! verlicht een moeder in haar vreezen.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Mevrouw!.....</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Dit is te veel; ’k eisch u een antwoord af.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Gy weet wat streng bevel wel-eer de Koning gaf:</l>
+                        <l>Geen sterveling mag ooit naar myn bezitting streeven.</l>
+                        <l>En ik kan zonder schuld myn trouw aan niemant geeven;</l>
+                        <l>’k Wraake om den prins een’ plicht, zoo streng my opgeleid.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Hoe!</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Wy beminnen; maar de hoop blyft ons ontzeid.</l>
+                        <l>Te saam weêrspannig aan die grievende bevelen,</l>
+                        <l>Bedekten we in ons hart de driften, die ons streelen;</l>
+                        <l>Maar myne tederheid, die my verraaden heeft,</l>
+                        <l>Ontwond aan hem de min die in myn’ boezem leeft.</l>
+                        <l>Zyn vlam is door myn liefde in hooger top gerezen:</l>
+                        <l>Van daar die sombre druk, mevrouw, die elk doet vreezen,</l>
+                        <l>Dat heimlyk leed, die schrik van ’t gansche Hofgezin.</l>
+                        <l>Zyn wanhoop, zyne smart ontstaat uit onze min.</l>
+                        <l>Laat vry een beter keuze u wreeken en my straffen!</l>
+                        <l>Ik ben bereid om u een offer te verschaffen:</l>
+                        <l>Gelukkig zoo myn dood, daar ’k my aan hem ontrukk’,</l>
+                        <l>U niet van hem berooft door ’t voeden van zyn’ druk.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Neen, leef te saam. o Vreucht, die my houd opgetoogen!</l>
+                        <l>’k Mag dan in ’t eind, myn zoon, uw droeve traanen droogen!</l>
+                        <l>De liefde wekte alleen die heimelyke smart!</l>
+                        <l>Welk mensch, o hemel! is steeds meester van zyn hart!</l>
+                        <l>’k Misprys de droefheid niet waar door ge u liet verwinnen;</l>
+                        <l>Zy zyn ’t beklagen waard, die zonder hoop beminnen,</l>
+                        <l>Maar ’t staat aan u dat ik uw’ wensch door d’echt voldoe:</l>
+                        <l>Het kost my slechts één woord; ik wil ’t, ik staa het toe.</l>
+                        <l>Regeert, bemint, en leeft; ik kan niets meer verlangen,</l>
+                        <l>Dan u den scepter van myn hand te zien ontfangen.</l>
+                        <l>’k Vlieg met dees blyde maar uw’ vader te gemoed.</l>
+                        <l>’k Beloove u reeds zyn stem aan uwen minnegloed.</l>
+                        <l>Wat zielverdriet, wat smart, hoe doodlyk, moet niet zwygen,</l>
+                        <l>Daar men Ophelia, tot bruid hoopt te verkrygen!</l>
+                        <l>Kus my, myn dochter! ’k wensch dat noch dees blyde dag</l>
+                        <l>Die deugt, dat schoon, die trouw, die min, bekroonen mag.</l>
+                    </sp>
+                </div>
+            </div>
+            <div n="3" type="act">
+                <head>III. BEDRYF.</head>
+                <div n="1" type="scene">
+                    <head>EERSTE TONEEL.</head>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET</speaker>
+                        <l>Te zyn of niet te zyn, dat is ’t. Zou ’t ed’ler weezen</l>
+                        <l>Te lyden, te ondergaan all’ wat natuur moet vreezen?</l>
+                        <l>Te bukken met geduld voor alle tegenheên,</l>
+                        <l>Dan met het noodlot in de waapenen te treên,</l>
+                        <l>En door dien wederstand die te eindigen, te sterven,</l>
+                        <l>Te slaapen, en niet meer, om kalmte verwerven,</l>
+                        <l>Terwyl men hoopt, dat by dien slaap alle angst en smart</l>
+                        <l>Een einde neemt? — Die slaap moet wenschlyk zyn voor ’t hart —</l>
+                        <l>Een slaap — een droom — maar neen! wat droom kan na ’t verscheyën,</l>
+                        <l>Daar geen verbeelding werkt, zich door den geest verspreyën?</l>
+                        <l>Wanneer die doodslaap ons in ’t graf de kalmte bied,</l>
+                        <l>Deelt het gevoelloos lyk gewis in de onrust niet:</l>
+                        <l>Die hoop werkt d’afkeer uit voor lange leevensdagen!</l>
+                        <l>Wie kan met taay geduld altyd het onheil draagen?</l>
+                        <l>Wie kan den geessel der verachting steeds weêrstaan?</l>
+                        <l>Wie kan de wetten zien verdraayen, ’t recht verraën?</l>
+                        <l>Wie kan gestaag den hoon van trotschen hoogmoed lyden?</l>
+                        <l>Wie den verdrukker den verdrukten zien bestryden?</l>
+                        <l>Wie kan den ryken zich zien voeden met het bloed</l>
+                        <l>Des laagen mans, dien hy zyn’ broeder noemen moet?</l>
+                        <l>Wie kan den magtigen den zwakken zien vertreden,</l>
+                        <l>Terwyl zyne onschuld kwynt in zyn behoeftigheden?</l>
+                        <l>Wie kan verdienste altoos door de ondeugt zien gesmaad?</l>
+                        <l>Wie gruwt van de ontrouw niet die ’t huwlyks bed verraad —</l>
+                        <l>Goôn!... wat doet naar een' stand, zoo vol verschrikking trachten!</l>
+                        <l>Wat.....ja! -'t is iets, dat wy na onzen dood verwachten!</l>
+                        <l>Die onbekende streek, waar elk voor ons verdwynt,</l>
+                        <l>Van waar geen sterveling op aarde weêr verschynt,</l>
+                        <l>Van waar men aan den mensch geen ’t minst bericht komt geeven;</l>
+                        <l>Die naare onzekerheid maakt ons verknocht aan ’t leeven:</l>
+                        <l>Zy leert ons lyden: zy verbant het redelicht,</l>
+                        <l>En maakt al ’t haatlyk zelf bekoorlyk voor ’t gezicht.</l>
+                        <l>Dus wordt men bloodaards door de stem van het geweten,</l>
+                        <l>Die ons van ’t lot byna alle onlust doet vergeeten;</l>
+                        <l>Men tracht vry meerder naar den rampspoed hier op aard,</l>
+                        <l>Dan naar een heil, waar van de onzekerheid vervaart.</l>
+                    </sp>
+                </div>
+                <div n="2" type="scene">
+                    <head>II. TONEEL.</head>
+                    <stage>HAMLET. OPHELIA.</stage>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Myn prins!’k dorst onze liefde in ’t eind te kennen geeven:</l>
+                        <l>Wy zien ons van ’t bevel uw ’s vaders thans ontheven.</l>
+                        <l>Uw moeder, die u mint, hoorde alles uit myn’ mond.</l>
+                        <l>Waarom voor haar ontveinst, dat ge in het trouverbond,</l>
+                        <l>Daar yder dag, elk uur uw’ ondergang doet duchten,</l>
+                        <l>Alleen het leed, dat u de min baart, kunt ontvluchten?</l>
+                        <l>Had gy de omhelzingen gezien, voor my zoo waard,</l>
+                        <l>Waar door zy my haar gunst en blydschap heeft verklaart;</l>
+                        <l>Getroffen door den gloed, dien we eindlyk zien gelukken</l>
+                        <l>Hoopt ze ons, met eigenhand de kroon op ’t hooft te drukken...</l>
+                        <l>Maar wat voorspellen my die zuchten, dat gezicht,</l>
+                        <l>Dat ge in een sombre zorg gestaag naar de aarde richt?</l>
+                        <l>Hoe! is dan myn geluk voor u een bron van vreezen?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>’t Geluk is dikwerf verr’ van daar het schynt te weezen.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Wat hoor ik! welke reên! myn heer, uw geest verdwaalt.</l>
+                        <l>Het is ’t verdriet dat u die herssenschimmen maalt.</l>
+                        <l>Zou dan uw tederheid, voor my reeds aan ’t verdooven...</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Hoe weinig kent gy my, indien gy kunt gelooven,</l>
+                        <l>Myn waarde Ophelia! dat myne oprechte trouw,</l>
+                        <l>Aan uwe deugt gewyd, zich ooit vergeeten zou!</l>
+                        <l>Myn hart zal tot in ’t graf voor uwe schoonheid blaaken.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Laas waarom vloeyen dan die traanen langs uw kaaken?</l>
+                        <l>Wat is, de reden dat uw oog, verwart, ontstelt,</l>
+                        <l>Vol wanhoop, my gestaag een eeuwig afscheid spelt?</l>
+                        <l>Verklaar my in het eind wat tegenheên u treffen.</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Neen, gy kost nooit daar van al de aakligheid bezeffen.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Dus is die waarde band, die echt, vol zegening,</l>
+                        <l>Die aan uw liefde en wet myn noodlot boeyen ging....</l>
+                        <l>Helaas.....'k Bedroog my; 't was een schaduw die 'k moest schroomen.</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Myn liefde alleen was waar; al ’t ov’rige zyn droomen.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Barbaar! uw hart verbergt zyn smart dan voor het myn!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Ach! waarom mag ’t u niet doen deelen in zyn pyn!</l>
+                        <l>Maar ’t is voor eeuwig aan stilzwygenheid verbonden.</l>
+                        <l>Gy zult my sterven zien, maar de oorzaak niet doorgronden.</l>
+                        <l>Beklaag een’ minnaar, die u vreest te keer te gaan!</l>
+                        <l>Die sterft zoo hy u mist; en die u af moet staan.</l>
+                        <l>Had ons het lot gedient, wat heil was ons beschooren!</l>
+                        <l>De Hemel ziende ons d’een voor de andere gebooren,</l>
+                        <l>Gelyk in jaaren, in geneigtheid, en van aard,</l>
+                        <l>Spelde ons naar ’t scheen al wat de zielen blydschap baart.</l>
+                        <l>Ik spreeke u van geen kroon, hoe glansryk, hoe verheven;</l>
+                        <l>Ik weete uw hart had zich alleen aan my gegeeven;</l>
+                        <l>In tusschen.... o Verdriet!....</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Ga voort!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Ik kan niet!</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Goôn!</l>
+                        <l>Waarom?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Ik ga myn’ druk verbergen by de doôn!</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Gy wilt het leeven vliën?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>’t is tyd het te verlaaten;</l>
+                        <l>Myn wanhoop dwingt my ’t licht, myn min, u zelf te haaten.</l>
+                        <l>Geloof me een heil, bevryd van wederwaardigheên,</l>
+                        <l>Is schaars het noodlot van het menschdom hier beneên,</l>
+                        <l>Vermaaken, vol bedrog; geluk, vol bitterheden:</l>
+                        <l>Vergeefs verlangen, door angstvalligheid bestreeden.</l>
+                        <l>Ophelia! wat boeyt me aan deeze elendige aard?</l>
+                        <l>Een ramp te sleepen, steeds door achterdocht vervaart!</l>
+                        <l>Den mensch te hooren, en zyn woorden te mistrouwen:</l>
+                        <l>Gestaag zyn twisten met zyn’ medemensch te aanschouwen:</l>
+                        <l>Geen vriend te vinden, die, getrou aan zynen pligt,</l>
+                        <l>De ernsthafte waarheid ons durft brengen voor ’t gezicht:</l>
+                        <l>De waarheid, groote goôn! zoo edel, zoo verheven,</l>
+                        <l>Die nooit de zyde van de vorsten moest begeeven.</l>
+                        <l>Wat is hier? kryg op kryg: verbonden vaak verraën:</l>
+                        <l>Verwinningen, gekocht voor ’t bloed van d’onderdaen:</l>
+                        <l>Ondankbre harten, die van haat en moordzucht branden:</l>
+                        <l>Vergiften, toebereid door moordgezinde handen,</l>
+                        <l>Het godendom, dat me in die rampen heeft gestort,</l>
+                        <l>Gerechtigt my gewis dat ik myn leed verkort.</l>
+                        <l>Wat baat het of myn ziel, verhart door ongenuchten,</l>
+                        <l>Een oogenblik te meer op aarde hebb’ te zuchten?</l>
+                        <l>Op d’oever van het graf, bekommert, vol van druk,</l>
+                        <l>Is niet het leeven, maar het sterven, myn geluk.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Wat zegt gy? Hemel! durft ge uw zelven dus verzaaken.</l>
+                        <l>De smart kost dan in ’t eind u tot een’ wreedaard maaken!</l>
+                        <l>Laas! ’k hadd’ de zoete hoop gekoestert, dat myn trou</l>
+                        <l>Eenmaal de traanen van myn’ minnaar droogen zou.</l>
+                        <l>Onze echt, dus sprak ik, zal, wyl niets ons kan weerstreeven</l>
+                        <l>Door nieuwe pligten hem verbinden aan het leeven.</l>
+                        <l>Doch ’k spreek niet meer u van myn liefde noch van my;</l>
+                        <l>Maar is het leeven uw? staat u het sterven vry?</l>
+                        <l>Uw pligt, uw grootheid, wyd aan ’t vaderland uw dagen.</l>
+                        <l>Hoor dus aan uwe zy de deensche volken klagen:</l>
+                        <l>,, Wy stelden ons geluk en vryheid in uw hand;</l>
+                        <l>,, Is dan ’t verbond te niet, dat u aan ’t ryk verpand?</l>
+                        <l>,, Gehoorzaamheid en liefde is duur ons voorgeschreeven,</l>
+                        <l>,, De zelfde wet leert u voor ons alleen te leeven.</l>
+                        <l>,, Weet ge, of niet menig droeve elendeling, în nood,</l>
+                        <l>,, Uw dagen weder eischt die ge offerde* aan den dood?</l>
+                        <l>,, ’t Voegt u den zwakken uw bescherming te verschaffen:</l>
+                        <l>,, Het weldoen voor te staan: het wanbedryf te straffen:</l>
+                        <l>,, Uw volk te hoeden voor verdrukking en geweld:</l>
+                        <l>,, Zie daar het recht, dat ge in uw handen ziet gestelt</l>
+                        <l>,, Bevry ons van den ramp en help den zegen schraagen!</l>
+                        <l>,, Dit zyn uw pligten! Sterf daar na zoo gy ’t durft waagen?</l>
+                        <l>Dus gaat door mynen mond al ’t ryk uw drift te keer,</l>
+                        <l>Geef, wreedaard! geef daar aan zyn’ grootsten Koning weêr?</l>
+                        <l>Dat hy in u herleeve, en gantsch Euroop te gader</l>
+                        <l>In uwe deugt de deugt bewondre van uw’ vader!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Helaas!</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Zucht hier niet meer, maar heersch!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Wat zegt ge my?</l>
+                        <l>Draag zorg dat myne deugt door u geëerbiedigt zy.</l>
+                        <l>’k Weet meer dan gy wat drift een’ koning moet doen blaaken.</l>
+                        <l>De pligt, die my een’ naam zoo groot moet waardig maaken,</l>
+                        <l>Wil, dat ik, om met roem te steigen op den troon,</l>
+                        <l>Door my alleen regeere, of afstaa van de kroon.</l>
+                        <l>Gy weet het, Hemel! al myn hoop, al myn verwachten,</l>
+                        <l>Was om door myn bewind ’s lands zegen te betrachten.</l>
+                        <l>Gy eischt gewis, daar gy my treft met ongenaâ</l>
+                        <l>Dat ik my van een ampt, dat my niet voegt, ontslaa.</l>
+                        <l>En gy, door my gebelgt, en teffens aangebeden,</l>
+                        <l>Staa voortaan af van ’t recht op myne tederheden!</l>
+                        <l>Vaarwel..... Ik zal welhaast......</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Ik beef van uw getraan!</l>
+                        <l>Gy wankelt, gy ontstelt en wilt uw zelf weêrstaan;</l>
+                        <l>Gy smeed iets in ’t geheim.</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Wie, ik?</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Ik wil het weeten!</l>
+                        <l>’k Moet leezen in uw ziel</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Wat durft gy u vermeeten!</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Dit lyden is te veel! Barbaar! wat is uw smart?</l>
+                        <l>Stort voor het minst daar van een aandeel in myn hart.</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Die last waare u te zwaar.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Ik tart de wreedste plaagen;</l>
+                        <l>Of denkt gy dan dat ik niet anders kan dan klaagen?.</l>
+                        <l>Hamlet, indien ’k om u te redden moet vergaan,</l>
+                        <l>Ley me in den dood en leer van my den ramp weêrstaan.</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Rampzaal’ge! en kent gy myn standvastigheid in ’t lyden?</l>
+                        <l>Hoort gy de vloekstem van de wraak van allen zyden?</l>
+                        <l>Ziet gy de dooden zich vertoonen voor uw oog?</l>
+                        <l>Gevreesde spooken hier verschynen van omhoog?</l>
+                        <l>Ziet gy des daags de lucht vervult met naare schimmen?</l>
+                        <l>Des nachts een bloedig vuur uit duistre neev’len klimmen?</l>
+                        <l>Wordt door den kreet der hel gestaag uw’ geest vervoert,</l>
+                        <l>En in uw stervend hart het stollend bloed beroert?</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Wat hoor ik, Goon!... wat nood, ’k eisch van dit woên de reden,</l>
+                        <l>Spreek op, verklaar my dit geheim vol yslykheden.</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Laat my alleen vergaan.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Gy zult niet sterven, neen!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Beef!</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>’k Vrees niet.</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Vlugt!</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Het is vergeefs, ik volge uw treên.</l>
+                    </sp>
+                </div>
+                <div n="3" type="scene">
+                    <head>III. TONEEL.</head>
+                    <stage>GEERTRUID. HAMLET. OPHELIA.</stage>
+                    <stage>OPHELIA, (tegen Geertruid.)</stage>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Ik bidde u spreek, mevrouw, en ondersteun myn poogen!</l>
+                        <l>Myn traanen kunnen niets op ’t hart uw’s zoons vermogen.</l>
+                        <l>’t Gevoel van liefde is hier geene oorzaak van zyn smart;</l>
+                        <l>Hy houd een wreed geheim verborgen in zyn hart.</l>
+                        <l>De droeve wanhoop is dat hart noch niet ontweken;</l>
+                        <l>Ligt gaat ze op ’t oogenblik zyn drift op nieuw ontsteeken.</l>
+                        <l>Zyn geest verdwaalt: hy zucht: hy ziet elk oogenblik</l>
+                        <l>Het naare graf, de doôn, en spooken vol van schrik.</l>
+                        <l>Die overmaat van druk, waardoor hy wordt bestreeden,</l>
+                        <l>Voed in zyn ziel noch ’t gif van sombre angstvalligheden.</l>
+                        <l>Ontruk hem zyn geheim: misschien dat op deez’ dag</l>
+                        <l>De kracht van de natuur meer dan de min vermag.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Hoe lang, myn zoon! zal ’k in uw schuw en somber wezen</l>
+                        <l>Zoo veel ontroering zoo veel pynigingen leezen?</l>
+                        <l>Zult gy, door valschen schrik vervoert en aangedaan,</l>
+                        <l>Gestaag het schynbeeld voën, dat gy ten keer moest gaan?</l>
+                        <l>Zyt ge onbewust, met zoo veel moed, dat ons dit leeven</l>
+                        <l>Alleen vergunt wordt om naar de eeuwigheid te streeven?</l>
+                        <l>Dat elk geschikt is om te sterven hier beneên?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Mevrouw, ik weet het.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Laas! waar dwaalt uw ziel dan heen,</l>
+                        <l>Dat ze aan een heimlyk leed zich zelf ten prooy laat strekken?</l>
+                        <l>Zult ge u op d’oever van het graf voor my bedekken?</l>
+                        <l>Vreest gy een moeder te doen deelen in uw smart?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Hoe meer ik ly, hoe meer ’k het smooren moet in ’t hart,</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Zyt gy ook schuldig aan een misdryf u onwaardig?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Dees hand is onbevlekt; myn wenschen zyn rechtvaardig.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Waarom, myn zoon! dan dit angstvallige gelaat,</l>
+                        <l>Die droeve wanhoop die der deugt zoo kwalyk staat?</l>
+                        <l>Wat denkbeeld kan men van die schynbre wroeging voeden?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Eene onbevlekt gemoed vreest voor geen valsch vermoeden.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Wat is dan dat geheim dat u zoo duur moet staan?</l>
+                        <l>Myn zielsverwarring groeit met de oogenblikken aan!</l>
+                        <l>’k Bidde u, uit naam van ’t bloed, waar uit gy zyt gesprooten</l>
+                        <l>Uit naam der tedre zorg van myne hand genoten,</l>
+                        <l>Ontdek my... Gy verbleekt: wat schrik zie ’k in uw oog!</l>
+                        <l>De hairen ryzen u al sidd’rend naar om hoog!</l>
+                        <l>Wat maakt u spraakloos? Door wat angst zie ’k u gedreven;</l>
+                        <l>’t Gezicht naar ’t schynt gevest op iets dat u doet beeven?</l>
+                        <l>Wat kan aan uwen geest zoo veel ontroering biên?</l>
+                        <l>Zoud gy den afgrond voor uw voeten geoopent zien?</l>
+                        <l>Myn zoon! myn waarde zoon!</l>
+                    </sp>
+                    <stage>HAMLET, (de schim zyn ’s vaders ziende.)</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Daar is ’t; het is zyn weezen.</l>
+                        <l>’k Verstaa u: ’t is genoeg.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Verban die yd’le vreezen,</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Herroep uw zinnen, laas!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Hoe! en gy zaagt dan niet....</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Het is de werking van uw dwaaling en verdriet.</l>
+                    </sp>
+                    <stage>HAMLET, (beängst op het wederzien van ’t Spooksel.)</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Ach! Goôn.... ’t komt weêr — Het dreigt — Het nadert — berg myn
+                            treden!</l>
+                        <l>Waar vlugt, waar vliede ik voor zyn oog vol yslykheden!</l>
+                        <l>Ik sterf.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Myn waarde zoon!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Ik kan dat nooit bestaan....</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Wat heeft hy u gelast?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>ô Neen; zulke euveldaên</l>
+                        <l>Zyn ons niet opgelegt door ’t wys bestuur daar booven.</l>
+                        <l>O waarde, en wreede schim, wat moet ik best gelooven?</l>
+                        <l>Komt gy me ontrusten door een kundschap vol verdriet?</l>
+                        <l>Komt gy me ontwinden wat de Hemel my gebied?</l>
+                        <l>Wie, zoo ge alleen ten vloek uit d’afgrond zyt gerezen.</l>
+                        <l>Wie gaf u recht om hier natuur ten schrik te weezen?</l>
+                        <l>Of, zoo ’k u eeren moet als afgezant der Goôn,</l>
+                        <l>Zoo geef my moed tot het voldoen van hun geboôn.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Wat zyn die, myn Hamlet?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Myn droeve angstvalligheden</l>
+                        <l>Zyn in uw oog slechts een verbyst’ring myner reden.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Laas! twyffelt gy hier aan? kan ’t zyn, dat gy niet ziet</l>
+                        <l>Dat de verwarring van uw’ geest.....</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Bedrieg u niet;</l>
+                        <l>’t Is alles wezentlyk, Mevrouw!</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Door welk een lyden,</l>
+                        <l>Door welk een foltering voelt zich zyn ziel bestryden!</l>
+                    </sp>
+                    <stage>HAMLET, (de schim met zyn gezicht volgende.)</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Hy zwygt: hy ziet my aan, slaat het gezicht omhoog,</l>
+                        <l>En zoekt zyn traanen te verbergen voor myn oog.</l>
+                        <l>Welk Schouwspel!</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Ach! — myn zoon!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Toef, toef! ik volge uw schreeden,</l>
+                        <l>Onsterffelyke schim, ik daal met u beneden!</l>
+                        <l>Laat gy my stervende, als een banneling op aard,</l>
+                        <l>Alleen, en hulpeloos aan ’t lot dat my vervaart!</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Gy hebt uw moeder.</l>
+                    </sp>
+                    <stage>HAMLET, (vervolgende.)</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Wil myn beê voldoening geeven;</l>
+                        <l>Of ’k maak met deeze hand een einde van myn leeven:</l>
+                    </sp>
+                    <stage>GEERTRUID, (hem ’t staal ontrukkende.)</stage>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Rampzalige! wat ’s dit? — Gy weent! — welk een bestaan!</l>
+                        <l>Barbaar, is ’t in myn’ arm dat ge in den dood wilt gaan!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Wie spreekt? — Waar ben ik?</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Ziet uw moeder voor uwe oogen.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Zie uwe Ophelia! Heb met haar min meêdoogen!</l>
+                    </sp>
+                    <stage>HAMLET, (tegen zyn moeder.)</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Helaas! zyt gy ’t die door myn smart vertedert wordt?</l>
+                        <stage>(tegen Ophelia.)</stage>
+                        <l>En gy, is u bekent om wien gy traanen stort?</l>
+                    </sp>
+                </div>
+                <div n="4" type="scene">
+                    <head>IV. TONEEL.</head>
+                    <stage>GEERTRUID. HAMLET. CLAUDIUS. OPHELIA.</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Goôn! ik zie Claudius.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Komt gy getuigen weezen,</l>
+                        <l>Myn Heer! van ’t lot myn’s zoons? zyn dood, welhaast te vreezen.....</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Hoe daar wy van hun echt den zegenryken stond....</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Ik hebb’ my te vergeefsch gevleit met dit verbond;</l>
+                        <l>Myn zoon gaat voor myn oog door druk het leeven derven;</l>
+                        <l>En ’k zal onkundig zyn van de oorzaak van zyn sterven.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Zyn yslyk lot verbaast me, en ik beklaag zyn smart;</l>
+                        <l>Maar eindlyk, wyl de min geen kracht heeft op zyn hart,</l>
+                        <l>Zoo wederroep de wet, door uw’ gemaal gegeeven,</l>
+                        <l>Waar door ’t myn dochter is verboôn in de echt te leeven,</l>
+                        <l>Een wet alleen gegrond op wreeden haat. Gedoog</l>
+                        <l>Dat ik voor haar in ’t einde een’ ega kiezen moog’!</l>
+                        <l>Een trouw min fier....</l>
+                    </sp>
+                    <stage>HAMLET, (schielyk van zyne bedwelming bekomende.)</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Het recht dier keuze is u benomen.</l>
+                        <l>Vermeet’le, beef! draag zorg uw muitzucht in te toomen.</l>
+                        <l>Is u vergeeten, dat ’k uw Koning ben en Heer?</l>
+                        <l>Uw dochter heeft myn hart: ik min, zy mint my weêr;</l>
+                        <l>Het staat geen sterv’ling vry haar immer te bekooren.</l>
+                        <l>Ik denk dat ik my hier genoeg als vorst doe hooren.</l>
+                        <l>Dat hart, dat gy waant zwak en zonder deugt te zyn,</l>
+                        <l>Is ligt noch niet geheel bezweken door zyn pyn</l>
+                        <stage>(Claudius aanziende.)</stage>
+                        <l>Myn scepter schynt hier nyd en afgunst te verwekken;</l>
+                        <l>Maar zoo ik binnen kort den dood ten prooy moet strekken,</l>
+                        <l>Zal ’t zyn, na dat myn arm, die reeds van woede beeft,</l>
+                        <l>Den toorn der Goden en myn’ haat gewroken heeft.</l>
+                    </sp>
+                </div>
+                <div n="5" type="scene">
+                    <head>V. TONEEL.</head>
+                    <stage>GEERTRUID. CLAUDIUS. OPHELIA.</stage>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Wat wekt in hem een drift zoo rustloos en verbolgen,</l>
+                        <l>Mevrouw?</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Het is myn pligt, myn Heer! myn’ zoon te volgen.</l>
+                        <l>Kom, myne dochter! help hem bystaan in den nood.</l>
+                        <l>Ik ga hem redden van ’t gevaar; of ’k zoek den dood.</l>
+                    </sp>
+                </div>
+                <div n="6" type="scene">
+                    <head>VI. TONEEL.</head>
+                    <stage>CLAUDIUS, (alleen.)</stage>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Welk een verwarring, Goôn! zien we in dit hof regeeren?</l>
+                        <l>Wat wil die dolheid, die den Prins blyft overheeren?</l>
+                        <l>Kent hy onze euveldaad? Kan ’t weezen dat hy weet</l>
+                        <l>Welk eedgespan, wat hand zyn’ vader sterven deed?</l>
+                        <l>Wat zyn geheim ook zy ik moet het hem onttrekken;</l>
+                        <l>’t Besluit een’s minnaars laat zich zelden lang bedekken:</l>
+                        <l>Het oog dat hem bekoort moet dringen in zyn hart;</l>
+                        <l>’t Is door myn dochter dat dien knoop moet zyn ontwart.</l>
+                        <l>Dat haare traanen, door zyn ziel in min te ontsteeken</l>
+                        <l>Ten lesten eens Hamlet dit veinzen af doen breeken.</l>
+                        <l>De Koningin, gestaag door wroeging aangedaan,</l>
+                        <l>Tracht door een mond gesprek zyn’ druk te keer te gaan:</l>
+                        <l>’k Moet by dit onderhoud my daadlyk laaten vinden:</l>
+                        <l>’k Moet zien of ze eensgezint zich tegen my verbinden;</l>
+                        <l>Myn fier gebelgden haat afwasschen in myn bloed,</l>
+                        <l>Of d’afgrond openen, die hen verzwelgen moet.</l>
+                    </sp>
+                </div>
+            </div>
+            <div n="4" type="act">
+                <head>IV. BEDRYF.</head>
+                <div n="1" type="scene">
+                    <head>EERSTE TONEEL.</head>
+                    <stage>HAMLET. NORCESTES, hebbende de Lykbus in de hand.</stage>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>Ja, myn Heer! daar is die lykbus, zoo te vreezen,</l>
+                        <l>Die ’t kout gebeent besluit een helds van elk gepreezen.</l>
+                        <l>Gelukkig, dat myn vlyt, met uwen ramp begaan,</l>
+                        <l>U die mag biën om u van achterdocht te ontslaan.</l>
+                        <l>Ach, mogt die schat in u die wreede smart weerstreeven,</l>
+                        <l>Die yder onderdaan voor uw behoud doet beeven!</l>
+                        <l>Vier hier den toom aan ’t leed, dat ge in uw hart besluit!</l>
+                        <l>Stort op dit aaklig vat een’ vloed van traanen uit —</l>
+                        <l>Maar hoe! dit voorwerp boeit met zoo veel kracht uwe oogen,</l>
+                        <l>Dat all’ wat u omringt uw zinnen is onttogen:</l>
+                        <l>’t Schynt dat uw ziel, verkropt door zuchten en door schrik;</l>
+                        <l>Alleen haar redding wacht in uwen jongsten snik.</l>
+                        <stage>(Hamlet, overstelpt van droefheid tracht te spreeken.)</stage>
+                        <l>’k Bidd’ spreek, myn Heer! vervolg! Wat wilt gy my doen hooren?</l>
+                        <l>Zyn stem, ô Goôn! schynt in zyn lippen te versmooren.</l>
+                        <l>Myn Prins! myn Koning! duld dat hier de vriendschaps pligt</l>
+                        <l>Dees dierbaare asch een wyl verberg voor uw gezicht.</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Helaas!</l>
+                    </sp>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>Laat het belang van ’t ryk uw’ boezem treffen!</l>
+                        <l>Hoor door myn’ mond dat ryk tot u zyn klacht verheffen!</l>
+                        <l>Aanschouw uw kwynend volk! bescherm ons! leef! regeer!</l>
+                        <l>Geef ons ’t verlooren heil in onzen Koning weêr!</l>
+                        <l>Maar ’k zie Ophelia.</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>o Al te onnutte zorgen,</l>
+                        <l>Hoe houde ik, best voor haar myn wreed geheim verborgen!</l>
+                    </sp>
+                </div>
+                <div n="2" type="scene">
+                    <head>II. TONEEL.</head>
+                    <stage>HAMLET. OPHELIA.</stage>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Gedoog, myn Heer! dat hier voor ’t laatst myn minnend hart,</l>
+                        <l>Voor u geknielt de stem doe hooren van myn smart,</l>
+                        <l>De haat, dien ’k u deez’ dag myn’ vader toe zach draagen,</l>
+                        <l>Heeft met een’ enk’len slag myn hoop ter neêrgeslaagen.</l>
+                        <l>Zyn eerste wensch was naar myn hand u te zien staan:</l>
+                        <l>Hy mint u: zyne ziel is met uw’ ramp begaan:</l>
+                        <l>Hy wilde, zoo ’t mogt zyn u tot een’ vader strekken.</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Hy? die barbaar!</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>ô, Goôn, wat mag dien toorn verwekken,</l>
+                        <l>Die op het noemen van zyn’ naam u blaaken doet?</l>
+                        <l>Ach! zoo hy ’t waare alleen waar op uw gramschap woed,</l>
+                        <l>Zoo hy in u.... Ik beef........ Helaas!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Wat durft gy zeggen!</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Uw hart schynt in ’t geheim op wraakzucht toe te leggen.</l>
+                        <l>Zie daar de onkenbre smart die ge aankweekt in uw’ zin:</l>
+                        <l>Gekoestert door den haat; weêrhouden door de min —</l>
+                        <l>’k Voorzie.... ô ja, myn Heer! die smart, die elk doet schroomen:</l>
+                        <l>Wil een doorluchtig bloed door ’t moordgeweer doen stroomen:</l>
+                        <l>Gy tracht vergeefsch* u te vermommen door den schyn</l>
+                        <l>Hy, die hier ’t offerhand van uwe wraak moet zyn.....</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Spreek!</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Is myn vader. Ja, ’t is de oorzaak van myn leeven.</l>
+                        <l>Het leed, de zorgen, daar uw ziel door wordt gedreven,</l>
+                        <l>Uw schrik, uw redenen, uw droeve razerny,</l>
+                        <l>Dat spook, verrezen uit den afgrond aan uw zy,</l>
+                        <l>De ontstelt’nis van uw’ geest, op ’t byzyn van myn’ vader,</l>
+                        <l>Die woorden zonder zin van pligt en wraak te gader,</l>
+                        <l>Die schrik voor ’t menschdom, dat paleis zoo fel gehaat,</l>
+                        <l>Zoo dikwerf, naar gy zegt, bewoont door de euveldaad;</l>
+                        <l>Ja, ’k voed geen twyffel meer, gy brand om uwen tooren</l>
+                        <l>In het rampzalig bloed van Claudius te smooren.</l>
+                        <l>Maar waarom hem betigt? Wat misdaad is de zyn?</l>
+                        <l>Gy wilt myn vader doôn!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Hy roofde my de myn’.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Wat dwaaling blind uw hart?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>’k Weet wat ik moet gelooven.</l>
+                        <l>Ik kenn’ den wil der Goôn.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Gy gaat uw’ roem verdooven.</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Myn roem is zoon te zyn.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>De myne is om met moed</l>
+                        <l>Myn liefde op te off’ren aan de pligten van het bloed.</l>
+                        <l>Ik onderzoek niet of myn vader heeft misdreven;</l>
+                        <l>Ik acht zyn ziel te groot om naar verraad te streeven;</l>
+                        <l>Maar schoon hy zelf zyn’ vorst ontzielt had aan myn zy,</l>
+                        <l>Schoon elk hem schuldig vond, hy is het niet voor my;</l>
+                        <l>Hy is myn vader: ’t Is myn pligt hem te verschoonen. —</l>
+                        <l>Maar op wat grond vest gy die wraak, die hem durft hoonen?*</l>
+                        <l>’k Zie welk een woede u heeft berooft van ’t redelicht:</l>
+                        <l>Gy hebt niet dan verraad en moordzucht voor ’t gezicht:</l>
+                        <l>Uw dwaalend hart, belust om de natuur te wreeken,</l>
+                        <l>Doet hier alleen ’t bedrog van schynbre misdaad spreeken.</l>
+                        <l>Hebt ge aan een’ leeven, my zoo waard, den slag bereid?</l>
+                        <l>Voed gy noch liefde, en kent uw ziel geen menschlykheid?</l>
+                        <l>De Hemel heeft, ô smart! dan al myn hoop bedrogen:</l>
+                        <l>Myn hart was reeds vooruit naar ’t echtaltaar gevlogen:</l>
+                        <l>Hier dacht ik een’ gemaal te ontfangen van uw hand;</l>
+                        <l>Uw zinn’loosheid verscheurt voor eeuwig dan dien band!</l>
+                        <l>Het is noch tyd: heb met uw zelven medelyden!</l>
+                        <l>Doorsteek dit hart niet, dat u mint en moet, bestryden!</l>
+                        <l>Aanschouw een minnares, die schreyend voor u knielt!</l>
+                        <l>Spaar, spaar myn’ vader in den haat, die u bezielt!</l>
+                        <l>Wen eens de dwaaling u tot misdoen wist te ontsteeken,</l>
+                        <l>Hoe hevig zou ’t berouw uw schuldloos offer wreeken!</l>
+                        <l>Werp tusschen onze min geen eeuw’gen scheidsmuur op,</l>
+                        <l>Voer door uw razerny myn lyden met in top,</l>
+                        <l>Door my te dwingen om myn liefdevlam te smooren,</l>
+                        <l>Of te vergeeten uit wat bloed ik ben gebooren!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Helaas!</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Gy weent?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Verberg de droefheid die gy voed!</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Voor wie, ô Goôn! stort dan uw oog dien traanenvloed?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Voor ons.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Hoe, uwe ziel....</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Ze aanbid uw minzaamheden,</l>
+                        <l>Gewis; maar lees daar in hoe ’k word’ door pligt bestreeden.</l>
+                        <l>Hoe ’t kwynend liefdevuur, door woede als overheert,</l>
+                        <l>Myn’ vader, mynen haat, de Goden zelf braveert.</l>
+                        <l>Die Goôn, die ’k hoor, die Goôn, wier magt, waar voor wy beeven,</l>
+                        <l>Een’ nietig sterveling de wraak in handen geeven.</l>
+                        <l>’k Wilde echter, daar ik hen van dwaaling heb beticht,</l>
+                        <l>Voor u geknielt myn wraak afzweeren met myn’ pligt.</l>
+                        <l>Een naare stem, die weer myn grampschap heeft ontstooken,</l>
+                        <l>Klonk my in ’t oor: hebt gy uw’s vaders leed gewroken?</l>
+                        <l>Ik trok dees pook; de min bestreed op nieuw natuur.</l>
+                        <l>De Hemel zegepraalt in ’t eind: ’t is hier het uur:</l>
+                        <l>Ik zelv’ ken naauw het woên, waardoor ik word gedreven:</l>
+                        <l>’k Voel voor een’ sterken arm myn denkend weezen beeven:</l>
+                        <l>Ik zie met afschrik die rampzaal’ge handen aan,</l>
+                        <l>Waar door het vonnis van de Goôn moet zyn voldaan.</l>
+                        <l>Myn vader is niet meer — in ’t kort ik moet hem wreeken;</l>
+                        <l>Een drift zoo heilig is door niets te wederspreeken.</l>
+                        <l>Men gaat met weinig moeite een liefdevlam te keer;</l>
+                        <l>Maar, laas! wie geeft het licht aan mynen vader weer!</l>
+                        <l>Zoo diep, zoo zwaar een wond moet eeuwig ’t hart doen bloeden,</l>
+                        <l>’t Geval kan ons een bruid, een vrouw, een’ vriend vergoeden;</l>
+                        <l>Maar, ach! een vader is een gift, voor ons zoo waard,</l>
+                        <l>Die ons de Goôn maar eens genieten doen op aard.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Hamlet, hoor my noch eens!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Neen spaar voor my uw reden;</l>
+                        <l>’k Hoor van myn’s vaders asch ’t gezucht vol yslykheden.</l>
+                        <l>Uw traanen kunnen slechts te veel op my bestaan</l>
+                        <l>’k Zach voor een’ wyl daardoor byna myn pligt verraên.</l>
+                        <l>Schrey, schrey, in ’t eind; myn hart durft uw geween braveeren,</l>
+                        <l>Ik zie uw liefde, uw’ druk, uw schoonheid, die ’k moet eeren,</l>
+                        <l>Doch zoo de kracht der min myn gramschap overwon,</l>
+                        <l>Zoo zy me in spyt myn’s zelfs uw’ ega maaken kon;</l>
+                        <l>Zou ’k, door op ’t echtaltaar myn’ haat op nieuw te ontsteeken,</l>
+                        <l>Welhaast door deeze hand den dood myn’s vaders wreeken.</l>
+                        <l>Den uwen straffen op myn beurt: hem doen vergaan,</l>
+                        <l>Om, zelf ten schrik der min, natuur ten dienst te slaan.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Gy doet my beeven! Ga, barbaar, vol onmeêdogen!</l>
+                        <l>Versterk kan ’t zyn uw woede, en volg uw yslyk pogen</l>
+                        <l>Myn pligt zal door uw’ pligt my voorgeschreeven zyn:</l>
+                        <l>Gy zoekt uw’s vaders wraak, en ik bescherm den myn’!</l>
+                        <l>’k Vlieg naar hem toe: ’k ga van uw oogmerk kundschap geeven:</l>
+                        <l>Ik zal uw drift weêrstaan, en waaken voor zyn leeven:</l>
+                        <l>’k Staa tot in ’t uiterste uur hem door myn liefde by:</l>
+                        <l>Sterft hy; ’k omhels hem, en ik sterve aan zyne zy. ——</l>
+                        <l>Wat zegge ik? zoo hy zich een’ schoonzoon wil verkiezen:</l>
+                        <l>’k Neem tot gemaal dien, die u ’t leeven doet verliezen:</l>
+                        <l>Wie hem beschermen durft, en u kan doen vergaan,</l>
+                        <l>Heeft recht om naar myn liefde en naar myn hand te staan.</l>
+                        <l>Ondankbre! dit ’s de pligt waar aan gy my doed zweeren</l>
+                        <l>Moet ik, ô Hemel! om uw slagen af te keeren,</l>
+                        <l>En tot veryd’ling van uw’ haat, waarvoor ik gruw</l>
+                        <l>Den arm een’s echtgenoots dan waap’nen tegen u.</l>
+                        <l>Moet ik met schrik zyn’ dood of zegepraal verwachten?</l>
+                        <l>Myn glory stellen in door hem u te zien slachten?</l>
+                        <l>En zoo hy overwint, zoo hy u ’t hart doorstoot,</l>
+                        <l>Myn liefde schenken aan het werktuig van uw’ dood?</l>
+                        <l>Neen, ’k denk niet dat Hamlet, der menschlykheid onttogen,</l>
+                        <l>Met vreucht in my een drift zoo schuldig zal gedoogen.</l>
+                        <l>De tyd, de min, de Goôn verlichten uw gemoed!</l>
+                        <l>Of, zoo in ’t einde u niets uw dwaaling kennen doet,</l>
+                        <l>Zal ik, door pligt gesterkt om u ten val te brengen,</l>
+                        <l>Geene andere stem dan die van ’t bloed in my gehengen!</l>
+                    </sp>
+                </div>
+                <div n="3" type="scene">
+                    <head>III. TONEEL.</head>
+                    <stage>HAMLET, alleen.</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Ha! ’k adem dan in ’t eind! ’k hebb’ dan geen liefde meer,</l>
+                        <l>En geef my aan de drift van haat en gramschap weêr!</l>
+                        <stage>(De Vaas beschouwende.)</stage>
+                        <l>ô Onderpand myn’s eeds! gebeent, zoo waard voordeezen,</l>
+                        <l>Dat ’k aan roep met geween, dat ik omhels met vreezen!</l>
+                        <l>Versterk myn hand, wen zy gereed is toe te slaan!</l>
+                        <l>Vervloekte Claudius! denk niet myn wraak te ontgaan —</l>
+                        <l>Maar, als ik hondertmaal uw vyand kon doen sneeven,</l>
+                        <l>Zou ’t in myn magt zyn u het leeven weêr te geeven,</l>
+                        <l>Rampspoedig vader! ach, elendig Koning! Goôn,</l>
+                        <l>Waarom derft gy het licht of waarom leeft uw zoon!</l>
+                        <l>Hoe! uw gelaat, dat elk vertederde op ’t aanschouwen,</l>
+                        <l>Kon by het wanbedryf hun dolheid niet weêrhouën!</l>
+                        <l>De wreedaards!... kosten zy... Gy zult de vrucht zoo snood,</l>
+                        <l>Lafhartig moordenaar! niet smaaken van zyn’ dood.</l>
+                        <l>Ik schyn, ja! ’k schyn, ten straf van zoo veel gruwelstukken,</l>
+                        <l>U reeds het bloedig hart uit uwe borst te rukken!</l>
+                        <l>Ja, wreedaard! ja, verraër! dees hand vergiete uw bloed;</l>
+                        <l>Zie daar het schrikaltaar waar voor het stroomen moet!</l>
+                        <l>Maar, Hemel! ’k voel hier de asch van mynen vader beeven;</l>
+                        <l>Zou hy ook hooren door wat drift ik word gedreven?</l>
+                        <l>ô Dierbre stof des grafs! wat mag u sidd’ren doen?</l>
+                        <l>Is ’t om myne angst en schrik, of om myn’ moed te voên?</l>
+                        <l>Ja! waarde, en kwynende asch! ik hoor uw zuchten, spreeken,</l>
+                        <l>O ja! dit bloedig staal zal straks uw onrecht wreeken;</l>
+                        <l>’k Ontfing hier voor het licht, dat myne ziel betreurt!</l>
+                        <l>’t Is uit! ik wreeke u, en ik sterve op myne beurt.</l>
+                        <l>Wat zie ik?</l>
+                    </sp>
+                </div>
+                <div n="4" type="scene">
+                    <head>IV. TONEEL.</head>
+                    <stage>GEERTRUID. HAMLET.</stage>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Ach, myn zoon! wat wil dat yslyk wezen,</l>
+                        <l>Dat dreigent oog, dat stuurs gelaat, vol angst en vreezen?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Myn moeder....</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Zeg my....</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Beef! vrees hier om toe te treên.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Wie, ik?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>’t Is gy niet, die my zoeken moest; o neen;</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Wat zegt gy?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Zult gy niet voor ’t yslyk offer beeven</l>
+                        <l>Dat ’s Hemels strenge wraak myn’ pligt heeft voorgeschreeven?</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Gerechte goôn!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Waar is myn vader? wiens beleid,</l>
+                        <l>Wat saamgespan heeft hem het doodlyk gif bereid?</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Myn zoon!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Gy vleidde u dat de wraak dier wanbedryven</l>
+                        <l>Steeds in den duistren nacht van ’t graf bedekt zou blyven.</l>
+                        <l>Ze ontbrand hier.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Laas!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Ik zach....</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Wat zaagt ge?</l>
+                        <l>Uw’ echtgenoot.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Wat eischt hy?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Bloed.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Wie was bewerker van zyn’ dood?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Gy!</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Ik! ik kon myn hand met zulk een’ moord bevlekken?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Ontken het dan der Goôn, die my uw’ schuld ontdekken.</l>
+                        <l>Hun vonnis is gevelt.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Gy durft my dan, o, smart!...</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>’k Zou voor uw oog dit staal my dringen door het hart,</l>
+                        <l>Indien het weggesleept door een te los vermoeden,</l>
+                        <l>Den minsten schyn van zulk een achterdocht dorst voeden;</l>
+                        <l>Maar ’t is des hemels stem: dees eischt gehoor naar ’k meen.</l>
+                        <l>Myn vader, die tweemaal hier uit het graf verscheen,</l>
+                        <l>Wist my een waarheid zoo verschriklyk te verklaaren.</l>
+                        <l>Noem hier geen dwaaling ’t geen verwonderen moet baaren.</l>
+                        <l>Tot tweemaal heeft de dood zyn stuursheid afgeleid,</l>
+                        <l>Eer ik geloof dorst slaan aan uwe schuldigheid.</l>
+                        <l>Gy waant myn geest verblind door doodlyke ongenuchten.</l>
+                        <l>Maar zoo geen moorder ’t oog der Goden kan ontvlugten,</l>
+                        <l>Zoo wy door hun bestaan in leeven en in dood,</l>
+                        <l>Heerscht ook hun magt op de asch, die de aard voert in haar’ schoot.</l>
+                        <l>Wie weet hoe verr’ de magt dier Goôn zich uit kan strekken.</l>
+                        <l>De moorder denkt vergeefs zich aan hun wraak te onttrekken;</l>
+                        <l>Die Zerk zal spreeken: ’t graf zich oop’nen voor ons oog,</l>
+                        <l>Om hem te ontdekken door het vonnis van omhoog.</l>
+                        <l>Hy zal welhaast, om hem zyn misdaad te bewyzen,</l>
+                        <l>Zyn schuldloos offer uit den graf kuil zien verryzen.</l>
+                        <l>Wat kan de Goôn weêrstaan, wier wil het zonnelicht</l>
+                        <l>Slechts door een woord kan doen vergaan voor ons gezicht?</l>
+                        <l>Gy zyt ontroert, mevrouw!</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Laas, moet ik op die reden</l>
+                        <l>Niet buigen voor den schrik waar door ik word bestreden?</l>
+                        <l>Ach spaar my toch, myn zoon! of de overmaat van smart..</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Wat wekt die angstigheid in een onschuldig hart?</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Zou ’k niet bezwyken, daar uw taal, die my doet beeven...</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Durf door uw’ onschuld dan myn argwaan wederstreeven.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Wat moet ik doen?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Gy moet.... spoor in uw zelven na</l>
+                        <l>Door welk een nieuwen eed ik u verbinden ga.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Spreek!</l>
+                    </sp>
+                    <stage>HAMLET, (haar de vaas brengende.)</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Neem dit aaklig vat, en durf daar op my zweeren</l>
+                        <l>,, Uw moeder heeft geen schuld, myn zoon”. Dit’s myn begeeren.</l>
+                        <l>Zoo ge u dit onderwind, geloof ik u.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Welaan!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Gy wankelt?</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Ach verschoon! myn ziel te zeer ontdaan....</l>
+                    </sp>
+                    <stage>HAMLET, (haar de vaas in handen stellende.)</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Zweer dan!</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>wel nu... ja... ik... ik zweer... ô wreede plaagen!</l>
+                        <l>Ik kan een voorwerp zoo vol schrik niet meer verdraagen.</l>
+                        <stage>(Zy valt in een leuningstoel: Hamlet plaatst de vaas naast
+                            haar.)</stage>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Myn moeder!</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Ach! ik sterf!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Keer tot uw zelven weêr!</l>
+                        <l>Aanschouw uw’ zoon! hy werpt zich schreyënd voor u neêr.</l>
+                        <l>Bedaar, en wanhoop niet aan ’t hemels medelyden;</l>
+                        <l>Niets is verlooren daar ’t berouw u mag bestryden.</l>
+                        <l>Uw schuld is doemens waard, verfoeyelyk, vol hoon?</l>
+                        <l>Maar ze is niet grooter dan de goedheid van de Goôn.</l>
+                        <l>Beminde schim! wat kan uw gramschap meer verwachten?</l>
+                        <l>Zoo veel gevoel van rouw moet uwe wraak verzachten!</l>
+                        <l>Gy ziet haar in myn’ arm daar zy den dood verbeid:</l>
+                        <l>Haar wreed berouw verdient uw mededogenheid.</l>
+                        <l>Vergeeft! — of zoo gy eischt dat ik hier bloed zal plengen,</l>
+                        <l>Ik ga u ’t rookend hart van haar’ verleider brengen.</l>
+                    </sp>
+                </div>
+                <div n="5" type="scene">
+                    <head>V. TONEEL.</head>
+                    <stage>GEERTRUID. HAMLET, NORCESTES.</stage>
+                    <sp who="#norcestes">
+                        <speaker>NORCESTES.</speaker>
+                        <l>Gy gaat hier Claudius verschynen zien, myn heer!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Hy koome</l>
+                        <stage>(Norcestes binnen.)</stage>
+                    </sp>
+                    <stage>GEERTRUID, (geheel onroert, zich voor Hamlet stellende de arm uitgestrekt
+                        om Claudius, dien men niet ziet te weerhouden.)</stage>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Een oogenblik... myn zoon!... genaak niet! keer!</l>
+                        <l>Gy wachts! draag zorg hem hier in dit vertrek te houën.</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>’k Herleeve! Ik mag dan ’t uur van myne wraak aanschouwen</l>
+                        <l>De Goden bieden zelf hem aan myn slagen aan.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Heb meêly</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>’t Meêly kan voor hem niet meer bestaan.</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Myn zoon!</l>
+                    </sp>
+                    <stage>HAMLET, (terwyl de Geest zich vertoont.)</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Ziet gy dat spook, dat myne ziel doet beeven?</l>
+                        <l>Die naare schim, die aan myn woede kracht komt geeven?</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Waar ben ik?</l>
+                    </sp>
+                    <stage>HAMLET, (tegen den Geest.)</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Ja, ’k hebbe u verstaan: ’k volge uw geboôn:</l>
+                        <l>Ja, beiden, door hun bloed... (tegen zyne moeder) wat doet gy hier?</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>ô Goôn,</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Hoe, weet gy niet, dat ’k in de drift om my te wreeken</l>
+                        <l>Dit staal, tot moord gewet, u naar het hart moet steeken?</l>
+                    </sp>
+                    <stage>GEERTRUID, (nederzygende voor Hamlet.)</stage>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>o Hemel!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET</speaker>
+                        <l>Keeren wy ’t gezicht hier van.</l>
+                    </sp>
+                    <sp who="#de-geest">
+                        <speaker>DE GEEST.</speaker>
+                        <l>Stoot toe!</l>
+                    </sp>
+                    <stage>HAMLET, zich afkeerende om haar te treffen.</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET</speaker>
+                        <l>Ik hoor zyn stem! ’t is uit... Geknielt! — zyt gy het? hoe!</l>
+                    </sp>
+                    <sp who="#geertruid">
+                        <speaker>GEERTRUID.</speaker>
+                        <l>Myn zoon!</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Myn moeder! Ach myn hart vol woede en vreezen,</l>
+                        <l>Zou in zyn drift zich zelf niet langer meester weezen.</l>
+                        <l>Ontwyk! vlied, zegge ik u! of liefst ik zelve vlugt</l>
+                        <l>’k Ben voor myne eigen drift in deezen staat beducht.</l>
+                    </sp>
+                </div>
+            </div>
+            <div n="5" type="act">
+                <head>V. BEDRYF.</head>
+                <div n="1" type="scene">
+                    <head>EERSTE TONEEL.</head>
+                    <stage>CLAUDIUS, (alleen.)</stage>
+                    <stage>(Het is in den Nacht.)</stage>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>’k Zach dan ten tweedemaal my de euveldaad gelukken:</l>
+                        <l>Zoo maakt zich ’t hart in ’t eind gewoon aan gruwelstukken,</l>
+                        <l>De Koningin, de woede een ’s zoons gantsch toegedaan.</l>
+                        <l>Zach my niet dan met schrik en haat en afkeer aan.</l>
+                        <l>’k Hebb’ myn gevaar voorzien; myn val was niet te ontvlugten,</l>
+                        <l>Hun saamgespan en haat staan my niet meer te duchten.</l>
+                        <l>’k Hebb’ in dat rouw vertrek, ontrukt aan elks gezicht,</l>
+                        <l>By ’t somber schynsel van een flaauw en aaklig licht,</l>
+                        <l>Met dees bebloedde pook myn offerhand doen sneeven.</l>
+                        <l>Zy ga nu haar’ gemaal van ’t misdryf kundschap geeven.</l>
+                        <l>En gy, o jong’ling, die door drieste razerny.</l>
+                        <l>Tot hier verstooken bleef van ’t recht der heerschappy,</l>
+                        <l>Ga, zoek, wanneer uw ziel aan ’t lyk zal zyn ontvloden,</l>
+                        <l>In ’s werelds nacht uw kroon en scepter by de dooden!</l>
+                        <l>Myn eedgenoodschap houd dit hofpaleis bezet;</l>
+                        <l>’k Hebbe allen toegang tot uw’ bystand reeds belet.</l>
+                        <l>Norcestes is bevryd van achterdocht en vreezen:</l>
+                        <l>Dat des Hamlet, wen hy in d’arm des slaaps zal weezen,</l>
+                        <l>Zich vleyënd dat ik vast zyn fellen toorn ontwyk,</l>
+                        <l>Myn byzyn ondervinde, en voor myn’ arm bezwyk’ —</l>
+                        <l>Maar wie genaakt dees plaats met wankelende schreeden?</l>
+                    </sp>
+                </div>
+                <div n="2" type="scene">
+                    <head>II. TONEEL.</head>
+                    <stage>CLAUDIUS. OPHELIA.</stage>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Myn vader!</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Hoe zyt gy ’t? hier in dees aakligheden!</l>
+                        <l>Gy, myne dochter!</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Ach myn heer!... gy weet gewis</l>
+                        <l>Niet in wat wreed gevaar uw dierbaar leeven is.</l>
+                        <l>Hamlet, eer hy bezwykt voor al zyn folteringen,</l>
+                        <l>Gaf daadlyk last om u van allen kant te omringen,</l>
+                        <l>En dat een snoode troep zich aan uw zyde voeg’.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Wat eischt zyn woede op my?</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Uw dood is niet genoeg;</l>
+                        <l>Zyn onverzoenbre haat heeft u ten straf verweezen.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Wie hy...</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Beef, beef, myn heer! men moet het ergste vreezen.</l>
+                        <l>Eens konings last wordt vaak gevolgt, hoe wreed die zy.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>En wie, wie, denkt gy, moet hier beeven, ik, of hy?</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Is hem het hoog gezach des ryks niet opgedragen?</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Maar zoo ’k in een gevaar uw’ bystand of mogt vraagen,</l>
+                        <l>En zoo ge een keur moest doen in zyn belang of ’t myn,</l>
+                        <l>Wien zoud gy voorstaan?</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.*</speaker>
+                        <l>Hoe! kunt gy in twyfling zyn?</l>
+                        <l>Kon ik uw dierbaar hooft behoên; (wat treft my nader)</l>
+                        <l>Myn eerste wensch zou zyn te sterven voor myn’ vader.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Zal niets een drift zoo schoon in uwe ziel weêrstaan?</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Ach, ’k zweer dit op myn kniën: neem hier myne eeden aan.</l>
+                        <l>O ja! uw wil, uw wet, uw wenschen en geboden,</l>
+                        <l>Zyn niet min heilig voor myn hart dan die der goden:</l>
+                        <l>En ’k roep die Goden zelf hier te getuigenis</l>
+                        <l>Dat niets my meer dan gy op aarde dierbaar is.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>’k Weet echter dat Hamlet uw’ boezem wist te ontsteeken.</l>
+                        <l>Gy mint hem.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Ja, myn heer! ja; ’k zal dit niet weerspreeken;</l>
+                        <l>Myn ziel, vertedert door zyn dengt, hoe stuurs, hoe schuw,</l>
+                        <l>Acht hem meer dan my zelf; maar ze acht hem min dan u.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Uw min had dan geen kracht op zyn verharde zinnen</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Myn traanen konden niets op zyne drift verwinnen.</l>
+                        <l>De rust is voor altoos ontzeid aan zyn gemoed,</l>
+                        <l>Zoo lang tot hy zyn hand beverwt heeft met uw bloed.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Ga, ’t is het zyn, dat ik welhaast hier denk te plengen:</l>
+                        <l>Myn vrienden zyn gereed.</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Goôn! zult gy dit gehengen!</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Gy siddert!</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Hoe! gy zoud... Myn vader!...</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Staak dit vry!</l>
+                        <l>Wat ben ik hem verschuld? wat is Hamlet voor my</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Uw koning! Hoe, barbaar! moet uwe ziel niet beeven</l>
+                        <l>Voor ’t offer, dat uw haat vol misdryf wil doen sneeven?</l>
+                        <l>Gy gaat verdelgen, wien? uw’ opperheer uw’ vorst,</l>
+                        <l>En dryvende in zyn hof hem ’t moordstaal door de borst,</l>
+                        <l>Daar hy gantsch weerloos....</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Hoe, myn dochter!</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Ja, myn vader!</l>
+                        <l>’t Is door deez’ acht’bren naam, dat ’k hoop en denk te gader</l>
+                        <l>Den haat te ontwaapenen waar door gy word vervult.</l>
+                        <l>Hebt ge aan den ramp gedacht, dien gy hier baaren zult?</l>
+                        <l>Ge ontrukt aan ’t ryk een’ vorst, die waard is te regeeren:</l>
+                        <l>Een vorst wien al het volk wenscht als zyn’ meester te eeren:</l>
+                        <l>Een vorst wien de onderdaan, door wraak en toorn verwoed,</l>
+                        <l>Zou vryden tegen u ten kosten van zyn bloed.</l>
+                        <l>En gy, door de geboorte een van zyn naatste maagen,</l>
+                        <l>Die hier geen rang bekleed dan door zyn welbehaagen;</l>
+                        <l>Die rykdom, eer, noch staat, noch hooge waardigheên,</l>
+                        <l>Die niets bezit in’t kort dan door zyn gunst alleen,</l>
+                        <l>Gy zoud hem sneeven doen! neen, ik kan niet gelooven,</l>
+                        <l>Dat dus myn vader al zyn glory zou verdooven.</l>
+                        <l>Neen, eer zyn hand zoo snood een misdryf durft bestaan,</l>
+                        <l>Moet eerst zyn wreede haat zyn dochter doen vergaan!</l>
+                        <l>Door wat beguicheling myn heer laat ge u verleyën?</l>
+                        <l>Kunt ge in ’t bezit des ryks uw zelf met zegen vleyën?</l>
+                        <l>Wat heil verwacht gy van een’ troon, waar op het bloed.</l>
+                        <l>Van uwe vorsten, door uw wreedheid stroomen moet?</l>
+                        <l>Uw razerny zal naauw dit wanbedryf volvoeren,</l>
+                        <l>Of wroeging en berouw zal uw gemoed beroeren.</l>
+                        <l>Gy zult, wyl ’t moordgeweer uw hant ontvalt met schrik,</l>
+                        <l>Uw zelf vervloeken in dat yslyk oogenblik:</l>
+                        <l>En wyl de menschlykheid uw bloeddorst komt bestryden,</l>
+                        <l>Zult gy zelfs van Hamlet het wreede lot benyden —</l>
+                        <l>De zee schynt ons een’ weg tot vlugten aan te biën:</l>
+                        <l>’k Bidd’ laat ons deeze plaats en all’ wat leeft ontvliën:</l>
+                        <l>Een sombre woesteny mooge onze woonplaats weezen:</l>
+                        <l>’k Zal wyl ik by u ben geen bange stormen vreezen.</l>
+                        <l>Vervul myn beê, myn heer! gy moogt die niet weerstaan:</l>
+                        <l>’k Moet door een waard berouw uw driften tegen gaan:</l>
+                        <l>Besluit! maar zoo uw hand, belust om bloed te plengen,</l>
+                        <l>Bestand blyft om een’ moord zoo yslyk te volbrengen,</l>
+                        <l>Wel aan! waar is uw staal, ’k hebb’ nimmer vrees gevoed,</l>
+                        <l>’t Is in dees borst, ’t is daar, dat gy ’t beproeven moet!</l>
+                        <l>Zweer uwe misdaad af, of durf uw dochter slachten.</l>
+                        <l>Ik moet, in spyt uw’s zelfs, geknielt, uw’ toorn verzachten.</l>
+                        <l>’k Begeev’ u niet, voor dat uw hart, door pligt geraakt,</l>
+                        <l>Terug keert tot de deugt en ’t wanbedryf verzaakt.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Wat haatlyk meêdely doet u den moed begeeven!</l>
+                        <l>Wilt gy my dan door ’t staal van een’ barbaar* zien sneeven.?</l>
+                        <l>Wat wonnen op Hamlet uw traanen, uwe smart?</l>
+                        <l>Weent gy voor hem, die my wil steeken naar het hart?</l>
+                        <l>De min baart voor zyn lot in u dit zielsontroeren;</l>
+                        <l>Uw poging is vergeefs; ik moet myn wraak volvoeren.</l>
+                        <l>De hand waar door zyn bloed moet stroomen is gereed.</l>
+                        <l>Vergeet uw liefde-vlam, en denk aan uwen eed!</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Myn eed! Wat is die eed.? met u in ’t bloed te baaden.?</l>
+                        <l>Myn’ pligt, myn vaderland, myn’ Koning te verraaden.?</l>
+                        <l>Un woede voor te staan.? te lyden dat ge uw’ vorst</l>
+                        <l>’t Rampzalig moordgeweer durft dringen in de borst.?</l>
+                        <l>Hy, die zyn’ roem door zulk een misdryf durft verdooven,</l>
+                        <l>Is te eenemaal onwaard aan eeden te gelooven.</l>
+                        <l>Wilt gy tot hier toe niet, dat slechts de deugt alleen,</l>
+                        <l>En niet het wanbedryf het recht hebbe op onze Eën?</l>
+                        <l>’k Beklaag de ontroerenis, die ’k in uw oog kan leezen;</l>
+                        <l>Maar ’t is aan my om Kind en Onderdaan te weezen!</l>
+                        <l>Ik ken daar van den pligt, myn heer! ’k laat u alleen.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Hoe! gy verraad uw zelve, uw’ vader en uwe Eën?</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>’k Geeve u geen antwoord meer.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Rampzaal’ge staak uw treeden</l>
+                        <l>Blyf! Zoo gy gaat volgt straks de dood u op uw schreeden!</l>
+                    </sp>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>’k Gehoorzaam u, myn heer! staak die bekomm’ring vry.</l>
+                        <l>’k Begryp thans van Hamlet de woede en razerny.</l>
+                        <l>Hy eischt zyn’s vaders wraak: een Geest heeft dit geboden:</l>
+                        <l>Zoo groot een wonderwerk is ’t wonderwerk der Goden.</l>
+                        <l>’k Hebb’ niets dan ’t sterven meer.</l>
+                    </sp>
+                </div>
+                <div n="3" type="scene">
+                    <head>III. TONEEL.</head>
+                    <stage>CLAUDIUS. OPHELIA. POLONIUS.</stage>
+                    <stage>POLONIUS, gevolgt van twee Eedgezwooren.</stage>
+                    <sp who="#polonius">
+                        <speaker>POLONIUS.</speaker>
+                        <l>Uw vrienden zyn gereed,</l>
+                        <l>En, heigende met drift naar ’t staaven van hunn’ eed.....</l>
+                        <l>Uw dochter hier.?</l>
+                    </sp>
+                    <stage>CLAUDIUS, tegen de twee Eedgenooten.</stage>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Gaa heen, ruk haar uit dees gevaaren,</l>
+                        <l>En laat een sterke wacht haar in dit hof bewaaren.</l>
+                    </sp>
+                </div>
+                <div n="4" type="scene">
+                    <head>IV. TONEEL.</head>
+                    <stage>CLAUDIUS. POLONIUS.</stage>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>’k Bidd! wat bericht gy my?</l>
+                    </sp>
+                    <sp who="#polonius">
+                        <speaker>POLONIUS.</speaker>
+                        <l>Myn heer! ’t is ’t uur naar ’k meen.</l>
+                        <l>Hamlet is naar men zeid in zyn vertrek alleen.</l>
+                        <l>Maar neem geen lang beraad; ’er zyn verscheiden wegen,</l>
+                        <l>Waar, door hy ligt, zoo hy tot vlugten is genegen,</l>
+                        <l>Begunstigt door den nagt uw slagen kan ontgaan.</l>
+                        <l>’t Is tyd: want zoo Norcest, die hem steeds voor zal staan,</l>
+                        <l>Den minsten blyk vind, die hem achterdocht kan geeven,</l>
+                        <l>Ziet zich de Prins gered; en wy, wy zyn om ’t leeven:</l>
+                        <l>Al ’t Eedgespan, verbaast door zulk een ommekeer,</l>
+                        <l>Zal buigen voor de boey, zelfs zonder tegenweer.</l>
+                        <l>Geef hun geen’ tyd terwyl zy blaaken op uw wenken,</l>
+                        <l>Om de verfoey’lykheid der misdaad te overdenken.</l>
+                        <l>Kom spoeyen we ons! De nacht moet ons zyn schaduw biên.</l>
+                        <l>Gy zult wel haast met hun my weder by u zien.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Verdenkend noch de trouw der andre saamgezwooren,</l>
+                        <l>Zal ’k door myn byzyn hier hen trachten aan te spooren.</l>
+                        <l>Wel-aan, verlies geen’ tyd.</l>
+                    </sp>
+                </div>
+                <div n="5" type="scene">
+                    <head>V. TONEEL.</head>
+                    <stage>CLAUDIUS, alleen.</stage>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>’k Tree dan in ’t eind ten troon.</l>
+                        <l>Myn staatzucht gaat Hamlet doen daalen by de doôn.</l>
+                        <l>Zyn nors verwyt, daar ’k thans ten top van eer mag steigen,</l>
+                        <l>Zal met een spook van wraak my langer niet bedreigen.</l>
+                        <l>Zoo nog de vader op dees wereld zich laat zien,</l>
+                        <l>Hy stuit den slag en durv’ der zoon zyn’ bystand bien! ——</l>
+                        <l>Maar met wat herssenschim slyte ik hier de oogenblikken!</l>
+                        <l>O Nacht, die ’t misdoen dekt! o nagt, vol van verschrikken!</l>
+                        <l>Verdik uw schaduwen en nevels in deez’ muur!</l>
+                        <l>Uwe yslykheid behaagt me: en dit ontzachlyk uur</l>
+                        <l>Leid my naar ’t hoog gezach of moet me in d’afgrond stooten:</l>
+                        <l>Bedek myn stout bestaan, en styf myn vloekgenooten!</l>
+                        <l>Bie hun myn offerhand! verberg voor hun welk bloed</l>
+                        <l>Door ’t yslyk moordgeweer hier de aard beverwen moet.</l>
+                        <l>Wat hoor ik? Ach, zoo reeds hun ongedult, aan ’t blaaken,</l>
+                        <l>Den slag gevelt had, die myn wenschen moet volmaaken.</l>
+                        <l>Polonius, myn vriend! ’t is hier dan ’t uur in ’t end!</l>
+                        <l>Kom! nader! laat ons gaan —— wie zyt gy? spreek!</l>
+                    </sp>
+                </div>
+                <div n="6" type="scene">
+                    <head>VI. TONEEL.</head>
+                    <stage>HAMLET. CLAUDIUS.</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Ik ben ’t.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Gy, Heer? Ontbloot van wacht? Dus laat der rust onttoogen...</l>
+                        <l>Gy in dees plaats.? Wat druk vervolgt u.? — Wil gedoogen...?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Neen, blyf! ’k Weet uw besluit. Dit voerde hier myn schreên.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Waar meê beticht gy my.</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Spreek zonder angstigheên.</l>
+                        <l>Doe zoo gy kunt als ik hier uw bedaartheid blyken.</l>
+                        <l>Wat vreest gy.? ’k ben alleen: myn val schynt niet te ontwyken.</l>
+                        <l>Myn vader, myne bruid gy hebt my ’t al ontrooft.</l>
+                        <l>Het bloedig moordgeweer hangt reeds my over ’t hooft.</l>
+                        <l>Niets faalt ’er meer gy wist Norcestes te verblinden:</l>
+                        <l>Myn wachten zyn verleid: ’k zal nergens bystand vinden;</l>
+                        <l>Maar ’k dorst u naderen. U voegt de schrik voortaan!</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Wat wilt ge in uwe drift, vermeetele, bestaan?</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>U straffen.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Straffen! my? ’k Ben meester van uw dagen,</l>
+                        <l>En in dit oogenblik.....</l>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Ik kenne uw snoode laagen.</l>
+                        <l>Maar wat belooft ge u van die laffe muitery.?</l>
+                        <l>Beef! beef, barbaar! een God bestuurt me, en spreekt tot my.</l>
+                        <l>’k Zach, om uw schreeden in dees duisternis te ontdekken</l>
+                        <l>Myn’s vaders bleeke schim my tot geleider strekken.</l>
+                        <l>Hier in dees moordzaal, waar die vader, teer beschreid,</l>
+                        <l>Het doodlyk gif ontfing, door uwe hand bereid.</l>
+                        <l>Hier is ’t dat ik voor hem myne eeden naar moet komen,</l>
+                        <l>En dat voor zyn gebeente uw heilloos bloed moet stroomen.</l>
+                        <l>Beef! Hy verzelt ons hier.</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Spaar zulk een taal voor my.</l>
+                        <l>Bezef wie hier het meest moet beeven ik, of gy!</l>
+                        <l>Men komt. Zie of die God, die voor uw hand moet stryden</l>
+                        <l>Den zoon hier meerder dan de moeder zal bevryden.</l>
+                        <l>Ziet gy dat bloedig lyk?</l>
+                        <stage>(Hy oopend de deur van een vertrek in het achtereinde van het Toneel
+                            alwaar men het bebloede lyk van Geertruid ziet by het licht van een
+                            fakkel.)</stage>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Goon!</l>
+                    </sp>
+                    <sp who="#claudius">
+                        <speaker>CLAUDIUS.</speaker>
+                        <l>Vrienden, bie me uw hand!</l>
+                        <l>Stort voor myne oogen ’t bloed, dat gy my hebt verpand!</l>
+                        <stage>(De Eedgenooten schieten van allen zyden toe, en naderen tot Hamlet
+                            met den degen in de vuist.)</stage>
+                    </sp>
+                    <stage>HAMLET, Claudius met een pook doorsteekende.</stage>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Sterf zelf, barbaar! En gy, zyn helsche vloekgenooten!</l>
+                        <l>Verdelgt uw’ vorst uw’ Heer, en durft zyn borst doorstooten</l>
+                        <l>Dit stervend lighaam, voor uw oog gedoemt ten straf,</l>
+                        <l>Maalt u met bloed de wraak der Hemelgoden af.</l>
+                        <l>Of wist gy niet dat, wen de hand zich durft verheffen,</l>
+                        <l>Om door het moordgeweer de Koningen te treffen,</l>
+                        <l>Een Hemelgeest, beangst voor hun en voor hunn’ staat,</l>
+                        <l>Hen veiligt of hunn’ dood niet ongewroken laat?</l>
+                        <l>Keert weder tot uw’ pligt doet my uw’ schuld vergeeten!</l>
+                        <l>Myn wraak is uitgebluscht in ’t bloed van dien vermeeten,</l>
+                        <l>Myn vader is voldaan.</l>
+                    </sp>
+                </div>
+                <div n="7" type="scene">
+                    <head>VII. TONEEL.</head>
+                    <stage>HAMLET. OPHELIA. NORCESTES.</stage>
+                    <stage>GEVOLG VAN OPHELIA EN VAN NORCESTES.</stage>
+                    <sp who="#ophelia">
+                        <speaker>OPHELIA.</speaker>
+                        <l>Gy leeft, myn Heer! Gy leeft!</l>
+                        <l>Genaâ voor Claudius! ’k bid gy hem ’t leeven geeft!</l>
+                        <l>Doe my daar door de liefde een’s vorst en minnaar blyken!</l>
+                        <l>Norcestes en zyn stoet.... Maar ’k voel myn’ moed bezwyken!</l>
+                        <l>Gy weent.... Myn vader.... ’k Wil hem zien voor myn gezicht.</l>
+                        <l>Ik wil... Ach! wat hebt gy gedaan.? barbaar!</l>
+                        <stage>(Het lighaam haar ’s vaders ziende.)</stage>
+                    </sp>
+                    <sp who="#hamlet">
+                        <speaker>HAMLET.</speaker>
+                        <l>Myn’ pligt.</l>
+                        <l>’k Mis in dit yslyk Hof myn allerwaardste panden.</l>
+                        <l>’k Min en verlieze u. ’k Hou dees pook alleen in handen;</l>
+                        <l>Maar ik ben mensch en vorst, en schoon ik alles derv’</l>
+                        <l>Zal leeven voor myn Ryk ’k doe meer dan dat ik sterv’!</l>
+                    </sp>
+                    <stage>EINDE.</stage>
+                </div>
+            </div>
+            <div type="paratext">
+                <head>NAREDEN.</head>
+                <l>DE Schoolgeleerde beoordeeling, vervat in de Vaderlandsche Letteroeffeningen van
+                    de Maand Februarij 1778, waar in Hamlet Treurspel voorkomt als een stuk, zoo vol
+                    haatlijke Characters, kwaadaardige raadslagen, en wreede bedrijven, zonder eene
+                    wezentlijke nutte leering te behelzen, dat het in geene deele geschikt zij om
+                    Lezers of Aanschouwers een aandoenlijk vermaak te leveren. Die beoordeeling,
+                    zegge ik, spoorde mij aan om de bedrijvende personaadjes van dat stuk met een
+                    naderen ernst te overwegen, vreezende dat somtijds een oog van voor oordeel mij
+                    dezelve onder een glinsterend momkleed had doen beschouwen; maar de aandoening
+                    van de Plak, die mij in den eersten verschrikte, is bij dat onderzoek
+                    verdweenen. Ik ben, des niet te min, de Heeren Letteröffenaars dank schuldig
+                    voor hun aandenken, ’t welk des te gunstiger is, dewijl ik vergeeten hadde de
+                    vrijheid te neemen van hun een afdruk aan te bieden.</l>
+                <l>Ik hebbe het geluk niet Hamlet mijn te heeten; hij is het werk van de beroemden
+                    Schakespear en van den Heer Ducis; mijn wensch was alleenlyk een kleen takje van
+                    hunnen lauẽr te mogen plukken; ’t is dus mijn werk niet dat ik verdedige.</l>
+                <l>Bedaar, zegt hy,</l>
+
+                <l>Niets is verlooren daar ’t berouw u mag bestryden;</l>
+                <l>Uw schuld was doemenswaard, verfoejelyk vol hoon;</l>
+                <l>Maar ze is niet grooter dan de goedheid van de goôn</l>
+
+                <l>Wat nu aangaat deeze schuldige Moeder zelve: haar voorleden gedrag is zonder
+                    tegen spraak verfoeijelyk, en eene tegenwoordige misdaad, gelyk de haare, zoude
+                    een bevlekt toneel uitmaaken; maar men is van die misdaad geen ooggetuigen: zy
+                    vertoont zich niet met den moordkelk in de hand, maar met een zich zelf
+                    beschuldigend hart: met een hart vol knagend naberouw, met een levendig afgryzen
+                    voor het misdryf dat zy schoorvoetende en al beevend heeft uitgevoert. Ik hebbe
+                    my dus verbeeld, dat men haar met een’ teder lievenden zoon mogt beklagen en
+                    haar vergeeven. Eene toegeevende ziel zal haar in den tyd, dat zy op het toneel
+                    verschynt minder als Echtgenoote dan als Moeder beschouwen en haar in die
+                    hoedanigheid ligt niet ten eenemaal alle gunst ontzeggen.</l>
+                <l>Wat eindelyk de braave Norcester aangaat: indien zoo veele deugt; zoo veele
+                    trouw, zoo veele voorzichtigheid en beleid, als hy laat blyken, hem niet kunnen
+                    verdedigen, ben ik daar toe noch vry minder bekwaam. Ik zal my des met het geene
+                    ik hier wegens de karacters van myne vryë vertaaling gezegt hebbe vergenoegen,
+                    my vleiënde dat ik my moge troosten in den haat, die de Heeren Schryvers der
+                    Letteroeffeningen aan dezelve toedraagen.</l>
+                <l>Zachter toneelen zouden, naar het hun voorkomt, beter geschikt zyn voor eene
+                    vrouwelyke pen. Waar in de rechte onderscheidinge van eene vrouwelyke of
+                    mannelyke pen bestaa, bekenne ik niet te weeten; zeker achte ik het, dat eene
+                    vrouwelyke pen, die bevreest is voor het verschrikkelyke, ’t welk eene
+                    toneelachtige tegenstryd van deugt en ondeugt in het verheven Treurspel
+                    noodzakelyk te wege moet brengen, beter doed nooit het treurspel ten onderwerp
+                    te kiezen, en dat het ook teffens aan eene mannelyke pen geen roem kan baaren
+                    een stuk vol haatlyke karacters, kwaadaardige raadslagen en wreede bedryven
+                    voort te brengen. Zulk eene onderscheiding dunkt my doed weinig eer aan de eene
+                    noch aan de andere kunne.</l>
+
+                <p>M. G. D E CAMBON,</p>
+                <p>GEBOOREN VAN DER WERKEN.</p>
+            </div>
+            <div type="paratext">
+                <head>TOEJUICHING, AAN DE TONEELSPEELEREN VAN HAMLET, TREURSPEL, BY DESZELFS LAATSTE
+                    VERTOONING OP DEN HAAGSCHEN SCHOUWBURG.</head>
+
+                <l>Shakespear! zach men op aard de dooden weêr heleeven!</l>
+                <l>Gy had gewis de schim uw’s Deenschen Vorst verzeld,</l>
+                <l>Om, door een oude zucht van kunstmin aangedreeven,</l>
+                <l>U te bewond’ren in uw’ Held.</l>
+                <l>Daar Neêrlands GARRICK; * Neen, ’t was Hamlet dien wy zagen,</l>
+                <l>Door deugt en kinderpligt, het recht geäard gemoed</l>
+                <l>Vertedert, aandoed, en zyn onheil doed beklagen,</l>
+                <l>De harten streelt, beroert, vermaakt, en sidd’ren doed.</l>
+                <l>Wat had uw ziel gevoelt, daar CORVER, als bezweeken</l>
+                <l>Van schrik, gevoelleloos , versteent,</l>
+                <l>En als aan ’t aardsche ontvoert noch zuchten kan noch spreeken</l>
+                <l>Op ’t zien der Lykbus van het Vaderlyk gebeent’! **</l>
+                <l>Gy had uw Geertruid hier in MOLSTER aangebeden</l>
+                <l>’t Zy daar het naberouw, verbaast door ’t wreekend staal,</l>
+                <l>Den moord beweent van een gemaal,</l>
+                <l>Of moederliefde ’t hart vervult met tederheden,</l>
+                <l>Haar kunst, door de natuur volmaakt,</l>
+                <l>Haar kunst, die elk hield opgetogen,</l>
+                <l>Wen ze ons de wroeging van het misdryf stelt voor oogen,</l>
+                <l>Had uw verheven geest geraakt.</l>
+                <l>Ophelia, in min en kinderpligt verdeelt,</l>
+                <l>Had uw gezicht een traan van medelij ontwrongen :</l>
+                <l>Gy had door yders vlyt gestreelt,</l>
+                <l>Al uw Vertooneren een’ Lofzang toegezongen,</l>
+                <l>Gy had - maar ’t is vergeefsch het treft uw doodslaap niet,</l>
+                <l>Of ge uw’ Hamlet vereeuwigt ziet.</l>
+
+                <l>Hou des, ô Priesterschaar van Phebus Tempel-Chooren!</l>
+                <l>U met den lof van ’t algemeen -</l>
+                <l>Die zich door ’t handgeklap deed hooren,</l>
+                <l>En met myn heuschen dank te vreên.</l>
+                <l>Waar ’k Melpomeen geweest, ’k waar ten Toneel gevlogen:</l>
+                <l>’k Had, met de zusters der vergode Poëzy,</l>
+                <l>Uw aller kruinen met een lauwer krans omtogen,</l>
+                <l>Verrukt en aangedaan, daar gy,</l>
+                <l>Verheffende het schoon, verzachtend de gebreken,</l>
+                <l>De Dichters van de Seine en Theems myn taal doed spreeken.</l>
+
+                <p>M.G. DE CAMBON, Geb</p>
+
+                <p>* Een ygelyk weet, byna dat de beroemde Engelsche Tooneelspeeler Garrick, dien
+                    men als by wederkaatsing ook den Britschen Corver zoude kunnen noemen, het
+                    Treurspel van Hamlet voor zijn Keurstuk hield.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
