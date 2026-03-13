@@ -13,8 +13,9 @@ The corpus can be accessed via the DraCor website and API, or directly via [GitH
 
 ## Contributors
 DutchDraCor was created with the assistance of many contributors: Teun de Vries, Hinke van Minnen, Mirthe Wubs, Mirte Triezenberg, Jasmijn van Valkenburg, 
-Hilde Bos, Marc Bos, Melissa Nijboer, Thirza Fokkens, Jarick van der Wal, Anna Lap, Maurice Eeftink, Annechien Hussem, Jens Klein, Jan de Vries, Hidde van Deemter, 
-Ivar Czudar, Evi Dijcks, Alie Lassche.
+Hilde Bos, Marc Bos, Dide Bosch, Melissa Nijboer, Ivar Czudar, Hidde van Deemter, Evi Dijcks, Maurice Eeftink, Thirza Fokkens, Annechien Hussem, Jens Klein, 
+Alie Lassche, Anna Lap, Ellie Toolsema, Jan de Vries, Janet Veenhuizen, Jarick van der Wal.
+
 
 
 ## Acknowledgments 
