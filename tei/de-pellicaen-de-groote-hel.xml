@@ -1,7 +1,7 @@
-<!-- <?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> !-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000312" xml:lang="dut">   
-        
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000312" xml:lang="nl" type="dracor">
+
+	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">De groote hel</title>
@@ -16,16 +16,12 @@
 				<publisher xml:id="dracor">DraCor</publisher>
 				<idno type="URL">https://dracor.org</idno>
 				<availability>
-					<licence>
-						<ab>CC0 1.0</ab>
-						<ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-					</licence>
+					<licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/_tro001fams06_01/_tro001fams06_01_0005.php#4</idno>
+					<ref target="https://www.dbnl.org/tekst/_tro001fams06_01/_tro001fams06_01_0005.php#4">DBNL</ref>
 					<availability status="free">
 						<p>In the public domain.</p>
 					</availability>
@@ -35,40 +31,45 @@
 						blijcken. Bronnenuitgave van de boeken der Haarlemse rederijkerskamer ‘de
 						Pellicanisten’. Deel 6: Boek F. Uitgeverij Quarto, Assen 1996 </title>
 				</bibl>
+				<listEvent>
+					<event type="written" when="1598">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<particDesc>
-				
-			<listPerson>
-				<person sex="MALE" xml:id="de-sonde">
-					<persName>De sonde</persName>
-				</person>
-				<person sex="MALE" xml:id="die-verdoemenis">
-					<persName>Die verdoemenis</persName>
-				</person>
-				<person sex="MALE" xml:id="gulsicheijt">
-					<persName>Gulsicheijt</persName>
-				</person>
-				<person sex="MALE" xml:id="knagende-conciencij">
-					<persName>Knagende conciencij</persName>
-				</person>
-				<person sex="MALE" xml:id="lucifer">
-					<persName>Lucifer</persName>
-				</person>
-				<person sex="MALE" xml:id="schijn-van-geestelickheijt">
-					<persName>Schijn van geestelickheijt</persName>
-				</person>
-				<person sex="UNKNOWN" xml:id="tende-van-die-tijt">
-					<persName>Tende van die tijt</persName>
-				</person>
-				<person sex="MALE" xml:id="waerlick-quaet-rigiment">
-					<persName>Waerlick quaet rigiment</persName>
-				</person>
-				<person sex="MALE" xml:id="zinderises">
-					<persName>Zinderises</persName>
-				</person>
-			</listPerson>
+
+				<listPerson>
+					<person sex="MALE" xml:id="de-sonde">
+						<persName>De sonde</persName>
+					</person>
+					<person sex="MALE" xml:id="die-verdoemenis">
+						<persName>Die verdoemenis</persName>
+					</person>
+					<person sex="MALE" xml:id="gulsicheijt">
+						<persName>Gulsicheijt</persName>
+					</person>
+					<person sex="MALE" xml:id="knagende-conciencij">
+						<persName>Knagende conciencij</persName>
+					</person>
+					<person sex="MALE" xml:id="lucifer">
+						<persName>Lucifer</persName>
+					</person>
+					<person sex="MALE" xml:id="schijn-van-geestelickheijt">
+						<persName>Schijn van geestelickheijt</persName>
+					</person>
+					<person sex="UNKNOWN" xml:id="tende-van-die-tijt">
+						<persName>Tende van die tijt</persName>
+					</person>
+					<person sex="MALE" xml:id="waerlick-quaet-rigiment">
+						<persName>Waerlick quaet rigiment</persName>
+					</person>
+					<person sex="MALE" xml:id="zinderises">
+						<persName>Zinderises</persName>
+					</person>
+				</listPerson>
 			</particDesc>
 			<textClass>
 				<keywords>
@@ -82,16 +83,7 @@
 			</listChange>
 		</revisionDesc>
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="written" when="1598">
-				<desc />
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/" />
-		</listRelation>
-	</standOff>
+	
     <text>
         <body>
 	<div n="1" type="act">
@@ -1576,7 +1568,7 @@
 				<l>is wech geronnen / als een verbranden Doeck</l>
 				<l>tis al verlooren gelijck een roock</l>
 			</sp>
-			
+
 			<stage>Den wachter singt weder boven uuijt</stage>
 			<sp who="#die-verdoemenis">
 				<l>Het waerlick regement // wert nu gheschent</l>

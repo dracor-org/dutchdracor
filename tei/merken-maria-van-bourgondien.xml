@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000228" xml:lang="nl">
 
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Maria van Bourgondiën, gravinne van Holland</title>
-				<title type="sub"/>
 				<author>
 					<persName>
 						<forename>Lucretia Wilhelmina</forename>
@@ -26,8 +25,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/wint009toon01_01/wint009toon01_01_0032.php</idno>
+					<ref target="https://www.dbnl.org/tekst/wint009toon01_01/wint009toon01_01_0032.php">DBNL</ref>
 					<title>Nicolaas Simon van Winter en Lucretia Wilhelmina van Merken,
 						Tooneelpoëzy. Deel 1. Pieter Meijer, Amsterdam 1774.</title>
 					<availability status="free">
@@ -38,6 +36,14 @@
 					<title>Nicolaas Simon van Winter en Lucretia Wilhelmina van Merken,
 						Tooneelpoëzy. Deel 1. Amsterdam: Pieter Meijer, 1774.</title>
 				</bibl>
+				<listEvent>
+					<event type="print" when="1774">
+						<desc/>
+					</event>
+					<event type="premiere" when="1782">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -89,19 +95,7 @@
 
 
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="print" when="1774">
-				<desc/>
-			</event>
-			<event type="premiere" when="1782">
-				<desc/>
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-		</listRelation>
-	</standOff>
+	
 	<text>
 		<front>
 
@@ -215,7 +209,7 @@
 						<l>Gy zaagt hem leevende, en ons vry van deeze elende.</l>
 						<l>De looze Lodewyk heeft zelf het vuur gevoed</l>
 						<l>Dat tusschen Nederland en Lotharingen woed.</l>
-						
+
 						<l>Hy wist hun Vorsten in zo fel een' haat te ontsteeken,</l>
 						<l>Om van den eenen door den andren zich te wreeken;</l>
 						<l>En dus, als beider kracht door 't stryden was verteerd,</l>
@@ -248,7 +242,7 @@
 						<l>Dees weg-alléén kan u uw onheil doen ontvlieden.</l>
 						<l>Wie van uw minnaars is in staat u by te staan?</l>
 						<l>Noch Ravestein noch ik raadde u dit huwlyk aan,</l>
-						
+
 						<l>Zo we in den ramp voor u een andre redding zagen.</l>
 						<l>Wilt gy het offer zyn der binnenlandsche laagen?</l>
 						<l>Word uw gezag in Gent niet schandelyk verkracht</l>
@@ -277,7 +271,7 @@
 						<l>Dan hem te wachten schynt van ons bedaard beleid.</l>
 						<l>Hy yverde eerst om ons gezantschap om te koopen;</l>
 						<l>Doch toen hun vroomheid hem niet toeliet zulks te hoopen,</l>
-						
+
 						<l>Heeft hy de boden van de muiters willen zien,</l>
 						<l>In waan dat hem hun drift meer voordeels aan zou biên.</l>
 						<l>Voor 't ovrig' scheen hy tot den vreê niet ongenegen.</l>
@@ -340,7 +334,7 @@
 						<l>Hy is vermaagschapt aan Vorst Karels edel bloed;</l>
 						<l>Hy zal 't verdedigen. Men spreekt, en vliegt met hoopen</l>
 						<l>Naar zyn gevangenis; de poort word opgeloopen;</l>
-						
+
 						<l>En Vorst Adolf, die nooit dien omzwaai had verwacht,</l>
 						<l>Word Opperhoofd des Raads en Veldheer in deez' nacht.</l>
 					</sp>
@@ -465,7 +459,7 @@
 						<l>Niets dan kloekmoedigheid kan deeze rampen weeren.</l>
 						<l>Schroom niet den aandrang van 't geweld met kracht te keeren.</l>
 						<l>Men toets', zo ras men kan, wie onze vrienden zyn.</l>
-						
+
 						<stage>Tegen Ravestein.</stage>
 						<l>Uw Broeder eerst vooräl.</l>
 					</sp>
@@ -533,7 +527,7 @@
 					<sp who="#adolf-ravestein">
 						<speaker>Ravestein</speaker>
 						<l>Betoon uw' eedlen aart, en smoor met zorg uw smart.</l>
-						
+
 						<l>Men toetse met beleid wat omgaat in zyn hart.</l>
 						<l>Hy is, door zyne drift, onmagtig zyn gepeinzen,</l>
 						<l>Schoon hy zich zulks verbeeld', voor ons gezicht te ontveinzen;</l>
@@ -565,7 +559,7 @@
 					<sp who="#adolf-gelder">
 						<speaker>Adolf</speaker>
 						<l>De Landzaat kent den Raad en ook des volks belangen.</l>
-						
+
 						<l>Ik zat ontwyfelbaar nog in dit uur gevangen</l>
 						<l>Indien ik myn ontslag gewacht had van dien kant.</l>
 						<l>Dan hoe dit weezen moog', dit ongelukkig Land,</l>
@@ -596,7 +590,7 @@
 					<sp who="#maria">
 						<speaker>Maria</speaker>
 						<l>Gy naamt ligt door die zorg myn Vrienden reeds gevangen.</l>
-						
+
 						<l>Gy toont my al te klaar, door die verhaaste daad,</l>
 						<l>Wat my en dit gewest van u te wachten staat.</l>
 						<l>Zo ik my veilig op uw toezicht kan verlaaten,</l>
@@ -623,7 +617,7 @@
 						<l>En somtyds vleide ik my, schoon tegen allen schyn,</l>
 						<l>Dat Karels Ersprinses nog eens myn Bruid zou zyn,</l>
 						<l>En de eens verbroken band der vriendschap weder heelen.</l>
-						
+
 						<l>Myn heimelyke wensch is thans de wensch van veelen.</l>
 						<l>De schrandersten des volks begeeren deezen Echt.</l>
 						<l>Zo blyve Gelder en Bourgonje saamgehecht.</l>
@@ -654,7 +648,7 @@
 						<l>Uw oogmerk is ontdekt; ik zie door 't veinzen heen.</l>
 						<l>Gy roemt belangeloos voor 't heil myns Lands te waaken,</l>
 						<l>Om u, ten koste van myn erfdeel, groot te maaken.</l>
-						
+
 						<l>Ik zie nu de oorzaak klaar van 's volks oproerigheid.</l>
 						<l>Uw vrienden hebben 't loos tot muitery verleid;</l>
 						<l>Hun dolheid aangehitst en hen in 't bloed doen baaden</l>
@@ -687,7 +681,7 @@
 						<l>En hun grootmoedigheid, die al uw magt trotseert,</l>
 						<l>Hoopt op geen uitkomst die hun Landgravinne ontëert.</l>
 						<l>Indien ge u voor altoos niet zoekt gehaat te maaken,</l>
-						
+
 						<l>Doe zonder zelfbelang dan straks hun boeijen slaaken.</l>
 						<l>Versmaad 's volks wufte gunst en 't wetteloos gezag,</l>
 						<l>En toon hoe veel de deugd op uw gemoed vermag.</l>
@@ -718,7 +712,7 @@
 						<l>Wy hebben van zyn drift het allerërgst' te schroomen.</l>
 						<l>Hy momt het blind gemeen door zyn geveinsde min,</l>
 						<l>Doch heeft geen ander doel dan door uw' echt, Vorstin,</l>
-						
+
 						<l>Het eens verloren recht op Gelder weêr te krygen,</l>
 						<l>En zelfs, als uw Gemaal, ten zetel op te stygen</l>
 						<l>In Neêrland, Vlaandren en 't Bourgondische gebied.</l>
@@ -749,7 +743,7 @@
 						<l>De Kleefsche Vorst begeert, zyn' onderstand ten loon,</l>
 						<l>Dat ik myn hand verbinde aan zyn' onwaarden Zoon,</l>
 						<l>Dien all' wat deugd waardeert om zyn gedrag moet haaten.</l>
-						
+
 						<l>Waar vinde ik hulp! wie red myn Raadsliên? Wie myn Staaten?</l>
 					</sp>
 					<sp who="#adolf-ravestein">
@@ -780,7 +774,7 @@
 						<l>Der minnaars, die uw trouw slechts wenschen uit belang.</l>
 						<l>Wat wederstreeft dien Prins? Zyn deugd zal u bekooren.</l>
 						<l>Gy waart aan hem verloofd. Hy is voor u geboren.</l>
-						
+
 						<l>Al uw geluk hangt af van een gewenscht besluit.</l>
 						<l>Besluit dan, op myn' raad, en voer het moedig uit.</l>
 						<l>De Kleefsche Vorst, die, door 't belang zyns Zoons gedreven,</l>
@@ -809,7 +803,7 @@
 						<l>Den woedenden Adolf aan u ten Egaê geeven,</l>
 						<l>Onkundig dat uw hart van zyne liefde gruuwt,</l>
 						<l>Verdeeld in hunne keus, voldaan wanneer gy huuwt,</l>
-						
+
 						<l>Zyn ligt te winnen om uw wenschen te onderschraagen,</l>
 						<l>En goed en bloed voor hem dien gy verkiest te waagen.</l>
 					</sp>
@@ -858,7 +852,7 @@
 						<l>Onkundig dat zyn woede onzichtbaar word bestierd.</l>
 						<l>Uw Vrienden hebben 't volk tot muiten aangedrongen,</l>
 						<l>Opdat de magt wierde aan Vorst Karels Raad ontwrongen.</l>
-						
+
 						<l>Een groot deel van dien Raad is door 't gemeen geveld,</l>
 						<l>Nadat men 't hen had als verraaders voorgesteld:</l>
 						<l>Men vond niet eer geraên uw' engen boei te slaaken.</l>
@@ -889,7 +883,7 @@
 						<l>Zo hy my tegenstreeft, men kan hem ligt doen vangen.</l>
 						<l>Ik vrees Saint Paul veel meer, die hier aan zyn belangen</l>
 						<l>Al de Adel houd verknocht. Lok hem op onze zy';</l>
-						
+
 						<l>Betoon hem heuschheid; laat hem d'uit- en ingang vry.</l>
 					</sp>
 					<sp who="#campobasse">
@@ -923,7 +917,7 @@
 						<l>Wier onverwrikbre trouw haar' achtbren zetel stut,</l>
 						<l>En onöphoudlyk zorgt het algemeen ten nut!</l>
 						<l>'t Verbaaze u niet dat ik dus t'ontyde u doe wekken.</l>
-						
+
 						<l>De nood eischt spoed. 'k Heb u een snood verraad te ontdekken.</l>
 						<l>Elk plaatse zich, en lette aandachtig op het stuk.</l>
 						<l>Nadat uw strydbre Vorst, door 't wankelbaar geluk,</l>
@@ -950,7 +944,7 @@
 						<speaker>van der Mark</speaker>
 						<l>Met recht is onze hoop op uwe zorg gevest.</l>
 						<l>Hoe yvrig waakt uw vlyt voor dit verdrukt Gewest!</l>
-						
+
 						<l>Dit ryk gezegend oord waare in 't verderf gedompeld,</l>
 						<l>En alles door de magt van Vrankryk overrompeld,</l>
 						<l>Indien uw wysheid ons niet tydig had gered.</l>
@@ -1059,7 +1053,7 @@
 					<sp who="#maria">
 						<speaker>Maria</speaker>
 						<l>Word dus de trouw beloond</l>
-						
+
 						<l>Die my grootmoedig poogt te redden uit de elende!</l>
 						<stage>Tegen Adolf.</stage>
 						<l>Zyt gy 't die hier gebied? Waar wil dit heen in 't ende?</l>
@@ -1128,7 +1122,7 @@
 					<sp who="#adolf-gelder">
 						<speaker>Adolf</speaker>
 						<l>Dat ge u liet welbehaagen</l>
-						
+
 						<l>Aan Vrankryk met uw hand uw Staaten op te draagen.</l>
 					</sp>
 					<sp who="#campobasse">
@@ -1200,7 +1194,7 @@
 						<l>Wat heil, wat blydschap lag in zulk een trouw voor my?</l>
 						<l>Geen ander, dan 't geluk van deeze heerschappy.</l>
 						<l>Doch nu Vorst Lodewyk zo schandlyk my durft hoonen,</l>
-						
+
 						<l>Den brief, hem toevertrouwd, aan 't wuft gemeen vertoonen,</l>
 						<l>Nu zweere ik openlyk, by all' wat heilig is,</l>
 						<l>Dat ik nooit stemmen zal in een verbintenis</l>
@@ -1482,7 +1476,7 @@
 						<speaker>Maria</speaker>
 						<l>Vertoef, helaas! gy zoud uw' eigen ramp bewerken.</l>
 						<l>Ach! stort my niet door drift in grooter ongeval.</l>
-						
+
 						<l>Waant gy dat Gelders wacht uw schreên niet stuiten zal?</l>
 						<l>Waartoe zou dan de ontmenschte u in dit Hof bezetten?</l>
 					</sp>
@@ -1515,7 +1509,7 @@
 						<speaker>Maria</speaker>
 						<l>Te pleiten voor hun zaak.</l>
 						<l>'k Zal aarde en hemel hunne onnoozelheid betuigen,</l>
-						
+
 						<l>Het volk door myne taal tot hun bescherming buigen;</l>
 						<l>En zelf, om hen, kan 't zyn, te ontrukken aan hun lot,</l>
 						<l>Met Didrik en Saint Paul verschynen op 't schavot.</l>
@@ -1625,7 +1619,7 @@
 					<sp who="#margareta">
 						<speaker>Margareta</speaker>
 						<l>Vertoef, en weiger niet aan ons gehoor te geeven.</l>
-						
+
 						<l>Men leid de Helden naar de moordplaats, en uw hart</l>
 						<l>Blyft onbewogen voor elks voorbede en hun smart?</l>
 						<l>Wy kennen uwen aart; genade aan u te vergen</l>
@@ -1658,7 +1652,7 @@
 						<speaker>Ravestein</speaker>
 						<l>Is 't mooglyk! schaamt ge u niet uws Broeders Weêuw te hoonen?</l>
 						<l>Moet gy dan eeuwig elk uw' wreevlen aart betoonen?</l>
-						
+
 						<l>Is 't uw belang...</l>
 					</sp>
 					<sp who="#adolf-gelder">
@@ -1693,7 +1687,7 @@
 						<l>Uw diergezworen trouw niet door verraad geschonden;</l>
 						<l>De vreê gebedeld van geveinsden Lodewyk;</l>
 						<l>'s Lands heilig recht vertrapt; en 't schandlyk huwelyk</l>
-						
+
 						<l>Van Hertogin Marie en Vrankryks Prins gesloten,</l>
 						<l>Ligt was, het belge u niet, hier minder bloeds vergoten.</l>
 					</sp>
@@ -1840,7 +1834,7 @@
 						<l>Onttrek uw dierbaar hoofd aan Gelders overmagt.</l>
 						<l>Hoor myn ontwerp; laat u myn trouwe raad behaagen.</l>
 						<l>Myn Echtgenoot heeft dit paleis in vroeger dagen</l>
-						
+
 						<l>Door een' geheimen weg verëend met Bavoos choor.</l>
 						<l>Dit eng en heimlyk pad loopt onder de aarde dóór.</l>
 						<l>Myn Gaê, beducht of 't volk op nieuw ons mogt weêrstreeven,</l>
@@ -1869,7 +1863,7 @@
 						<l>Verlaat u veilig op de trouw der kloosterlingen.</l>
 						<l>Zy zal nooit dulden dat Adolf een vryplaats schend',</l>
 						<l>Die eeuwen achteréén voor heilig is erkend.</l>
-						
+
 						<l>De Kerkvoogd zou vol moeds zich tegen hem verzetten;</l>
 						<l>Ja 't volk, hoe woest het woel', zou dit geweld beletten.</l>
 					</sp>
@@ -1938,7 +1932,7 @@
 						<l>Byéén drong op hun komst, met edel medelyden;</l>
 						<l>En 't scheen dat Himbercourt zich schikte om vóór den slag</l>
 						<l>Elk te overtuigen van hun schuldeloos gedrag;</l>
-						
+
 						<l>Wanneer de Hertogin, door drift op drift bewogen,</l>
 						<l>Op 't moordschavot verscheen, voor 's volks verwonderde oogen.</l>
 					</sp>
@@ -1967,7 +1961,7 @@
 						<l>Ik heb dien stap alleen tot uw behoud bestaan.</l>
 						<l>'k Vergat myn heil om 't uwe. Is hierdoor iets misdaan,</l>
 						<l>Houd myn Gezanten vry, die slechts hunn' last volbragten.</l>
-						
+
 						<l>Gy kent hun beider deugd. Herroept in uw gedachten</l>
 						<l>Hoe dier myn Staaten aan hunn' yver zyn verpligt;</l>
 						<l>En wat hun trouw al tot 's Lands welzyn heeft verricht.</l>
@@ -1996,7 +1990,7 @@
 						<l>Spitsbroeders! schreeuwde hy, 't voegt u deez' hoon te wreeken.</l>
 						<l>Gy kent uw' pligt; valt aan. Hy laat naauw' af van spreeken</l>
 						<l>Of al zyn heilloos volk zwaait fluks het schittrend zwaard.</l>
-						
+
 						<l>De trouwe Burgery, meest wapenloos vergaêrd,</l>
 						<l>Bied vruchtloos wederstand ten koste van haar leven.</l>
 						<l>Een deel des Adeldoms, door deugd en moed gedreven,</l>
@@ -2027,7 +2021,7 @@
 						<l>Voor haar ontsteld gezicht van 't levenslicht berooven.</l>
 						<l>Haar zwart gewaad wierd zelf bezoedeld door hun bloed.</l>
 						<l>Dit schriklyk schouwspel wrocht zo sterk op haar gemoed,</l>
-						
+
 						<l>Dat ze onder 't wee bezweek van haar geduchte plaagen.</l>
 						<l>Zy is, van kracht beroofd, in dit paleis gedraagen;</l>
 						<l>Terwyl haar vyand juicht, nu hy zich meester ziet.</l>
@@ -2060,7 +2054,7 @@
 						<speaker>Saint Paul</speaker>
 						<l>Wat weêrstand kunt gy biên aan dien geweldenaar?</l>
 						<l>In 's Hemels naam, laat u dit wys ontwerp behaagen.</l>
-						
+
 						<l>Stuit door een nutte vlucht de grootheid onzer plaagen.</l>
 						<l>Schoon Gelder aan zyn drift den lossen teugel geeft,</l>
 						<l>Niets is hier hoopeloos als Ravestein slechts leeft.</l>
@@ -2299,7 +2293,7 @@
 						<l>De wakkre Ravestein had, pas vóór zyn vertrek,</l>
 						<l>Met eenige Eedlen in de kerk een stil gesprek;</l>
 						<l>En mooglyk was alrede iets tot uw heil besloten,</l>
-						
+
 						<l>Ten waar' hy had verstaan door dees getrouwe Grooten,</l>
 						<l>Dat Maximilaan, aan 't hoofd van zynen stoet,</l>
 						<l>Zo ras 't hem mooglyk is, zich naar dees wallen spoed.</l>
@@ -2334,7 +2328,7 @@
 						<l>Adolf, reeds onderricht van beider naderingen,</l>
 						<l>Zal mooglyk sterker op zyn haatlyk huwlyk dringen,</l>
 						<l>In dwaazen waan dat hem 't verwerven van uw hand</l>
-						
+
 						<l>'t Bezit zal schenken van Bourgonje en Nederland.</l>
 					</sp>
 					<sp who="#margareta">
@@ -2400,7 +2394,7 @@
 					<sp who="#adolf-gelder">
 						<speaker>Adolf</speaker>
 						<l>Mevrouw! 'k zou billyk my beklaagen van uw daad,</l>
-						
+
 						<l>Die my veel onrust baart, u op veel traanen staat.</l>
 						<l>Zy, die tot deezen stap u onbedachtzaam dreeven,</l>
 						<l>Zyn oorzaak van een' ramp die al de Stad doet beeven.</l>
@@ -2414,7 +2408,7 @@
 						<l>Uw valsche vleitaal tergt myn brandend ongeduld.</l>
 						<l>Van 't geen misdreven is draagt gy-alléén de schuld.</l>
 					</sp>
-					<sp who="adolf-gelder">
+					<sp who="#adolf-gelder">
 						<speaker>Adolf</speaker>
 						<l>'t Voldoet aan mynen wensch dat ik my van de laagen,</l>
 						<l>Hoe listig my gelegd, gelukkig zie ontslaagen.</l>
@@ -2431,7 +2425,7 @@
 						<l>U, die dit rouwgewaad, in weêrwil van myn traanen,</l>
 						<l>Bevlekte met het bloed van waardige onderdaanen?</l>
 						<l>Wat stoft gy op uw liefde? Ik zag uw gunst voor my.</l>
-						
+
 						<l>Uw hart mint niets, Tyran! dan myne heerschappy.</l>
 						<l>Eer ik u ooit myn hand zal schenken voor de altaaren....</l>
 					</sp>
@@ -2464,7 +2458,7 @@
 					<sp who="#maria">
 						<speaker>Maria</speaker>
 						<l>Wyt dees Vorstin dien haat dien ik u toedraag niet.</l>
-						
+
 						<l>Die haat is uit myn deugd, die nimmer dwang ontziet,</l>
 						<l>En uit uw snoode min, niet uit haar' raad gerezen.</l>
 						<l>Uw min, waarvan ik my het voorwerp schaam te weezen,</l>
@@ -2493,7 +2487,7 @@
 					<sp who="#maria">
 						<speaker>Maria</speaker>
 						<l>'k Ben, naar myn wettig recht, tot Landvorstin gehuldigd,</l>
-						
+
 						<l>Geen' vreemdeling verslag van myn gedrag verschuldigd,</l>
 						<l>En allerminst aan u; aan u, die dag op dag</l>
 						<l>Vast sterker indringt op myn deinzend staatsgezag.</l>
@@ -2521,7 +2515,7 @@
 						<stage>tegen Adolf.</stage>
 						<l>'t Ontzet u dat een maagd zo fier uw woede tart.</l>
 						<l>'k Speur, in uw weêrwil zelfs, de ontroering van uw hart.</l>
-						
+
 						<l>Gy waande door geweld haar ziel tot u te neigen,</l>
 						<l>Doch 't glansryk licht der deugd, haar Vorstlyk stamhuis eigen,</l>
 						<l>Spreid schooner luister door de wolken van 't verdriet,</l>
@@ -2554,7 +2548,7 @@
 						<l>ô Gruwel!</l>
 						<stage>Tegen Campobasse.</stage>
 						<l>Snoode! wyk. Laat af. Ontzie myn' rouw.</l>
-						
+
 						<stage>Tegen Adolf.</stage>
 						<l>Herroep dien last, ontmenschte! ...</l>
 					</sp>
@@ -2698,7 +2692,7 @@
 						<l>Een blyde dood zal my uw wreedheid doen ontgaan.</l>
 						<l>Spoor, zo gy 't waagen durft, myn wanhoop feller aan;</l>
 						<l>Gy-zelf, ô Dwingeland! kunt op uw beurt bepaalen</l>
-						
+
 						<l>Of gy haar spaaren wilt, of my in 't graf doen daalen.</l>
 					</sp>
 					<stage>Zy vertrekt.</stage>
@@ -2731,7 +2725,7 @@
 						<l>'k Zal Gelder niet alléén, dat my 't geweld ontroofde,</l>
 						<l>Maar grooter heerschappy dan ik my ooit beloofde,</l>
 						<l>Verwerven door myn trouw. Bourgonje zal deez' dag</l>
-						
+
 						<l>Met Neêrland hulde doen aan myn volstrekt gezag.</l>
 						<l>Vorst Maximiliaan is magtloos my te deeren,</l>
 						<l>Hy zal eerlang, beschaamd, naar zyne Staaten keeren;</l>
@@ -2796,7 +2790,7 @@
 						<stage>Tegen Campobasse.</stage>
 						<l>Versterk alöm de wacht, eer 't volk haar doortogt gunt;</l>
 						<l>En sluit de poorten van de Stad zo ras gy kunt.</l>
-						
+
 						<l>Ik zal met van der Mark inmiddels alle hoeken,</l>
 						<l>Waarïn men schuilen kan in 't Hof, op nieuw doorzoeken.</l>
 						<l>Ik kan niet raamen hoe 't hen mooglyk was te ontvliên,</l>
@@ -2833,7 +2827,7 @@
 						<l>Maar ach! te huuwen aan zo snood een' Dwingeland,</l>
 						<l>En alle troost en rust in eeuwigheid te derven,</l>
 						<l>Is wreeder dan de dood, is duizendmaalen sterven;</l>
-						
+
 						<l>En mooglyk had die echt uw sterflot niet verhoed.</l>
 						<l>De dolle Gelder kent noch pligt, noch band van 't bloed,</l>
 						<l>En ziet, in 't heilloos woên, onheilig aan noch heilig.</l>
@@ -2897,7 +2891,7 @@
 						<stage>Tegen Maria.</stage>
 						<l>Wat baat het dat uw vlucht uw' afkeer elk doe blyken?</l>
 						<l>Mevrouw! gy poogt vergeefs uw' bloedverwant te ontwyken.</l>
-						
+
 						<l>Ik onderzoek niet langs wat weg gy 't Hof ontvlood,</l>
 						<l>Noch wie hy is die in uw vlucht u bystand bood:</l>
 						<l>Saint Paul, die u gewis getrouw is bygebleven,</l>
@@ -2970,7 +2964,7 @@
 						<speaker>Guido</speaker>
 						<l>Houd op, Mynheer! noemt gy dit overreeden?</l>
 						<l>'t Is onbesuisd geweld en wreede dwinglandy.</l>
-						
+
 						<l>Marie is in den kreits van 't heilig klooster vry.</l>
 						<l>Dees plaats, voor eeuwen tot een heiligdom verheven,</l>
 						<l>Bergt een' doodschuldigen, hoe snood, het veege leven;</l>
@@ -3001,7 +2995,7 @@
 					<sp who="#adolf-gelder">
 						<speaker>Adolf</speaker>
 						<l>Gy kent uw eigen heil en dat des Landzaats niet.</l>
-						
+
 						<l>'t Voegt my te zorgen voor 't geluk van dit gebied.</l>
 						<stage>Tegen Guido.</stage>
 						<l>Ontsluit de kerk terstond, en huuw ons voor de altaaren.</l>
@@ -3081,7 +3075,7 @@
 						<stage>tegen Adolf.</stage>
 						<l>Mynheer! 't is meer dan tyd voor uw belang te zorgen.</l>
 						<l>Saint Paul, die in zyn huis veel Eedlen had verborgen,</l>
-						
+
 						<l>Is, door een groote hoop der Burgery geschraagd,</l>
 						<l>Op 't onverwachtst van daar gewapend opgedaagd,</l>
 						<l>En heeft, terwyl ons volk hem vruchtloos zocht te stuiten,</l>
@@ -3120,7 +3114,7 @@
 						<l>Ondankbre! waan niet dat ge alrede triomfeert.</l>
 						<l>Saint Paul, die waagen durft den vyand in te haalen,</l>
 						<l>Zal nevens al zyn volk die snoodheid duur betaalen.</l>
-						
+
 						<l>Dat hy zich vleije met het winnen van zyn' post:</l>
 						<l>Hy zal op 't oogenblik door ons zyn afgelost.</l>
 						<l>'k Zal Oostenryk en Kleef, ik zweer 't u, wel beletten,</l>
@@ -3152,7 +3146,7 @@
 						<l>Indien Adolf verwint, en weêrkeert na het stryden,</l>
 						<l>Is 't met my uit, helaas! gy kunt my niet bevryden.</l>
 						<l>De kloosterpoort ligt door zyn woedend volk geveld.</l>
-						
+
 						<l>Gy-zelf staat nevens my ten prooije aan zyn geweld.</l>
 					</sp>
 					<sp who="#guido">
@@ -3248,7 +3242,7 @@
 						<l>Om u te ontslaan van zyn vloekwaardig trouwverbond.</l>
 						<l>Zo hy, dus voer ik voort, haar heensleept naar de altaaren,</l>
 						<l>Zo hy, haars ondanks zelfs, haar dwingt met hem te paaren,</l>
-						
+
 						<l>Zult gy u ligt te laat beklaagen dat uw moed,</l>
 						<l>Daar gy haar redden kost, haar' ramp niet heeft verhoed.</l>
 						<l>Zy zal, geloof my, nooit den wensch uws Zoons verhooren.</l>
@@ -3277,7 +3271,7 @@
 						<l>'k Dacht dat men zonder bloed de vesting zou verwinnen,</l>
 						<l>Wanneer Adolf verscheen, van al zyn volk verzeld.</l>
 						<l>Terwyl men met hem stryd, en vast zyn benden velt,</l>
-						
+
 						<l>Zend my Saint Paul bericht,</l>
 						<stage>Tegen Margareta.</stage>
 						<l>Dat Gelder u deed boeijen:</l>
@@ -3312,7 +3306,7 @@
 						<l>De blyde zege heeft uw onheil afgewend.</l>
 						<l>Vorst Maximiliaan is reeds met Kleef in Gent.</l>
 						<l>Adolf, die met zyn volk op ons dacht in te stooten,</l>
-						
+
 						<l>Vond, eer hy 't merkte, zich van allen kant besloten.</l>
 						<l>Maar waartoe de aakligheid van 't stryden u gemeld?</l>
 						<l>Des Dwinglands magt bezweek; uw Vrienden hielden 't veld.</l>
@@ -3370,7 +3364,7 @@
 						<l>De hoop is my ontvlucht, waarmeê myn hart zich vleide.</l>
 						<l>'k Zie myn bestryders hier gevestigd in 't bewint;</l>
 						<l>En Campobasse heeft, met van der Mark, zyn' vrind,</l>
-						
+
 						<l>By d'omzwaai van 't geluk my zynen aart doen blyken.</l>
 						<l>'k Zag, toen myn volk bezweek, de valsche vleijers wyken,</l>
 						<l>Wier snoode raad voorheen myn drift had aangezet.</l>
@@ -3399,7 +3393,7 @@
 						<l>Wie sleepte u blootsbeens voort? Benaauw myn ziel niet meer;</l>
 						<l>Herroep, herroep uw' vloek; ik schenk u Gelder weêr.</l>
 						<l>Myn lot, ondankbaar Kroost, strekke eeuwig u ten voorbeeld! ...</l>
-						
+
 						<l>Myn euveldaad word door het nageslacht veröordeeld! ...</l>
 						<l>Ik zie my-zelven; wat gezicht!</l>
 					</sp>
@@ -3436,7 +3430,7 @@
 					<sp who="#adolf-ravestein">
 						<speaker>Ravestein</speaker>
 						<l>Vorstin! keer naar uw Hof daar 't volk uw komst verbeid,</l>
-						
+
 						<l>En zich gereed maakt om met blyde zegezangen,</l>
 						<l>Zo ras 't u wederziet, het Vorstenpaar te ontfangen;</l>
 						<l>Dat met verëende magt de dwinglandy verplet,</l>

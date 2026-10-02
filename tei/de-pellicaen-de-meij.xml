@@ -1,6 +1,6 @@
-<!-- <?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> !-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000314" xml:lang="dut">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000314" xml:lang="nl" type="dracor">
+	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">De Meij</title>
@@ -21,16 +21,12 @@
 				<publisher xml:id="dracor">DraCor</publisher>
 				<idno type="URL">https://dracor.org</idno>
 				<availability>
-					<licence>
-						<ab>CC0 1.0</ab>
-						<ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-					</licence>
+					<licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/_tro001fams06_01/_tro001fams06_01_0007.php</idno>
+					<ref target="https://www.dbnl.org/tekst/_tro001fams06_01/_tro001fams06_01_0007.php">DBNL</ref>
 					<availability status="free">
 						<p>In the public domain.</p>
 					</availability>
@@ -40,43 +36,48 @@
 						blijcken. Bronnenuitgave van de boeken der Haarlemse rederijkerskamer ‘de
 						Pellicanisten’. Deel 6: Boek F. Uitgeverij Quarto, Assen 1996 </title>
 				</bibl>
+				<listEvent>
+					<event type="written" when="1598">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<particDesc>
-				
-			<listPerson>
-				<person sex="FEMALE" xml:id="aertsche-genoecht">
-					<persName>Aertsche genoecht</persName>
-				</person>
-				<person sex="MALE" xml:id="april">
-					<persName>April</persName>
-				</person>
-				<person sex="MALE" xml:id="februarijs">
-					<persName>Februarijs</persName>
-				</person>
-				<person sex="MALE" xml:id="jannenarijs">
-					<persName>Jannenarijs</persName>
-				</person>
-				<person sex="MALE" xml:id="mars">
-					<persName>Mars</persName>
-				</person>
-				<person sex="FEMALE" xml:id="meij">
-					<persName>Meij</persName>
-				</person>
-				<person sex="MALE" xml:id="onbedochte-jonckheijt">
-					<persName>Onbedochte jonckheijt</persName>
-				</person>
-				<person sex="MALE" xml:id="schriftuerlick-bewijs">
-					<persName>Schriftuerlick bewijs</persName>
-				</person>
-				<person sex="FEMALE" xml:id="sondige-conversacij">
-					<persName>Sondige conversacij</persName>
-				</person>
-				<person sex="MALE" xml:id="wanckelbaerich-gedocht">
-					<persName>Wanckelbaerich gedocht</persName>
-				</person>
-			</listPerson>
+
+				<listPerson>
+					<person sex="FEMALE" xml:id="aertsche-genoecht">
+						<persName>Aertsche genoecht</persName>
+					</person>
+					<person sex="MALE" xml:id="april">
+						<persName>April</persName>
+					</person>
+					<person sex="MALE" xml:id="februarijs">
+						<persName>Februarijs</persName>
+					</person>
+					<person sex="MALE" xml:id="jannenarijs">
+						<persName>Jannenarijs</persName>
+					</person>
+					<person sex="MALE" xml:id="mars">
+						<persName>Mars</persName>
+					</person>
+					<person sex="FEMALE" xml:id="meij">
+						<persName>Meij</persName>
+					</person>
+					<person sex="MALE" xml:id="onbedochte-jonckheijt">
+						<persName>Onbedochte jonckheijt</persName>
+					</person>
+					<person sex="MALE" xml:id="schriftuerlick-bewijs">
+						<persName>Schriftuerlick bewijs</persName>
+					</person>
+					<person sex="FEMALE" xml:id="sondige-conversacij">
+						<persName>Sondige conversacij</persName>
+					</person>
+					<person sex="MALE" xml:id="wanckelbaerich-gedocht">
+						<persName>Wanckelbaerich gedocht</persName>
+					</person>
+				</listPerson>
 			</particDesc>
 			<textClass>
 				<keywords>
@@ -90,16 +91,7 @@
 			</listChange>
 		</revisionDesc>
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="written" when="1598">
-				<desc />
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/" />
-		</listRelation>
-	</standOff>
+	
     <text>
         <body>
 	<div n="1" type="act">
@@ -304,7 +296,7 @@
 			</sp>
 				<stage>Hier singen sij een Lijedeken en gaet op Die wijs Mijn sinnekens
                             verstoren</stage>
-				
+
 				<sp who="#onbedochte-jonckheijt #aertsche-genoecht">
 				<l>Den somer compt aen Dringen</l>
 				<l>die winter en mach ons niet Langer dwingen</l>
@@ -626,7 +618,7 @@
 				<l>Dat wacht ick garen mijn uuijtvercooren</l>
 				<l>wij willen ons weder eens Laeten hooren</l>
 			</sp>
-			
+
 			<stage>hier singen sij Weerom</stage>
 			<sp who="#aertsche-genoecht #onbedochte-jonckheijt">
 				<l>Die bloemkens seer Lustich bloeijen</l>
@@ -698,7 +690,7 @@
 				<l>Van Niemant Liever dan van u</l>
 				<l>Dus Laet ons noch eens singen op een nu</l>
 			</sp>
-			
+
 			<stage>hier singen sij Weer</stage>
 			<sp who="#aertsche-genoecht #onbedochte-jonckheijt">
 				<l>Ghenoechelijcke Doren</l>
@@ -814,7 +806,7 @@
 				<speaker>sondige conversacij</speaker>
 				<l>Laet ons Den tijt vanden Meij gebruijcken</l>
 			</sp>
-			
+
 			<stage>hier singen sij Weder</stage>
 			<sp who="#sondige-conversacij #wanckelbaerich-gedocht #aertsche-genoecht #onbedochte-jonckheijt">
 				<l>Ghij princen wilt niet wijcken</l>

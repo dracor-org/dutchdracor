@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000140" xml:lang="nl">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Het huwelyk van Orondates en Statira</title>
-				<title type="sub"/>
 				<author>
 					<persName>
 						<forename>Jean</forename>
@@ -13,7 +12,7 @@
 					</persName>
 					<idno type="wikidata">Q2825111</idno>
 					<idno type="pnd">pnd identifier (optional)</idno>
-				</author>				
+				</author>
 				<author>
 					<persName>
 						<surname>Nil Volentibus Arduum</surname>
@@ -31,8 +30,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>Ceneton</name>
-					<idno type="URL">https://www.let.leidenuniv.nl/Dutch/Ceneton/NVAOrondates1670.html</idno>
+					<ref target="https://www.let.leidenuniv.nl/Dutch/Ceneton/NVAOrondates1670.html">Ceneton</ref>
 					<editor>Nanny ’t Hart and A.J.E. Harmsen</editor>
 					<ref>Ceneton063870</ref>
 					<availability status="free">
@@ -43,6 +41,14 @@
 					<title>Nil Volentibus Arduum: Het huwelyk van Orondates en Statira. Amsterdam:
 						Adriaan van Gaasbeek, 1670.</title>
 				</bibl>
+				<listEvent>
+					<event type="print" when="1670">
+						<desc/>
+					</event>
+					<event type="premiere" when="1678">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -88,19 +94,7 @@
 
 
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="print" when="1670">
-				<desc/>
-			</event>
-			<event type="premiere" when="1678">
-				<desc/>
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-		</listRelation>
-	</standOff>
+	
 	<text>
 		<front>
 			<docTitle>

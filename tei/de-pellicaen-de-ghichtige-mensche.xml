@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000275" xml:lang="nl">
 	<teiHeader>
 		<fileDesc>
@@ -21,8 +21,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/_tro001fams03_01/_tro001fams03_01_0013.php</idno>
+					<ref target="https://www.dbnl.org/tekst/_tro001fams03_01/_tro001fams03_01_0013.php">DBNL</ref>
 					<availability status="free">
 						<p>In the public domain.</p>
 					</availability>
@@ -32,6 +31,14 @@
 						blijcken. Bronnenuitgave van de boeken der Haarlemse rederijkerskamer ‘de
 						Pellicanisten’. Deel 3: Boek C. Uitgeverij Quarto, Assen 1993 </title>
 				</bibl>
+				<listEvent>
+					<event type="premiere" when="1582">
+						<desc/>
+					</event>
+					<event type="written" when="1604">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 
@@ -92,19 +99,7 @@
 			</listChange>
 		</revisionDesc>
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="premiere" when="1582">
-				<desc/>
-			</event>
-			<event type="written" when="1604">
-				<desc/>
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-		</listRelation>
-	</standOff>
+	
 	<text>
 		<front>
 			<head>[De Ghichtige Mensche]</head>

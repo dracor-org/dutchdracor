@@ -1,121 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000163" xml:lang="nl">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Het spookend weeuwtje</title>
-                <title type="sub"/>                
-                <author>
-                    <persName>
-                        <forename>Pedro</forename>
-                        <surname>Calderón de la Barca</surname>
-                    </persName>
-                    <idno type="wikidata">Q170800</idno>
-                    <idno type="pnd"/>
-                </author>
-                <author>
-                    <persName>
-                        <forename>Antoine</forename>
-                        <surname>Le Métel d'Ouville</surname>
-                    </persName>
-                    <idno type="wikidata">Q2854140</idno>
-                    <idno type="pnd"/>
-                </author>                
-                <author>
-                    <persName>
-                        <surname>Nil Volentibus Arduum</surname>
-                    </persName>
-                    <idno type="wikidata">Q2351891</idno>
-                    <idno type="pnd"/>
-                </author>
-            </titleStmt>
-            <publicationStmt>
-                <publisher xml:id="dracor">DraCor</publisher>
-                <idno type="URL">https://dracor.org</idno>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <name>Ceneton</name>
-                    <idno type="URL">https://www.let.leidenuniv.nl/Dutch/Ceneton/NVASpookendWeeuwtje1670.html</idno>
-                    <editor>A.J.E. Harmsen</editor>
-                    <ref>Ceneton064030</ref>
-                    <availability status="free">
-                        <p>In the public domain.</p>
-                    </availability>
-                </bibl>
-                <bibl type="originalSource">
-                    <title>Nil Volentibus Arduum: Het spookend weeuwtje. Amsterdam: Adriaan van
-                        Gaasbeek, 1670.</title>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <particDesc>
-                <listPerson>
-                    <person sex="FEMALE" xml:id="jakoba">
-                        <persName>JAKOBA</persName>
-                    </person>
-                    <person sex="MALE" xml:id="pieter">
-                        <persName>PIETER</persName>
-                    </person>
-                    <person sex="FEMALE" xml:id="sofia">
-                        <persName>SOFIA</persName>
-                    </person>
-                    <person sex="FEMALE" xml:id="katrijn">
-                        <persName>KATRIJN</persName>
-                    </person>
-                    <person sex="FEMALE" xml:id="ferdinand">
-                        <persName>FERDINAND</persName>
-                    </person>
-                    <person sex="MALE" xml:id="luidewijk">
-                        <persName>LUIDEWIJK</persName>
-                    </person>
-                    <person sex="MALE" xml:id="flip">
-                        <persName>FLIP</persName>
-                    </person>
-                    <person sex="FEMALE" xml:id="antonette">
-                        <persName>ANTONETTE</persName>
-                    </person>
-                    <person sex="FEMALE" xml:id="ida">
-                        <persName>IDA</persName>
-                    </person>
-                    <person sex="MALE" xml:id="niklaas">
-                        <persName>NIKLAAS</persName>
-                    </person>
-                    <person sex="MALE" xml:id="jan">
-                        <persName>JAN</persName>
-                    </person>
-                    <person sex="MALE" xml:id="dirk">
-                        <persName>DIRK</persName>
-                    </person>
-                </listPerson>
-            </particDesc>
-            <textClass>
-                <keywords>
-                    <term type="genreTitle">Comedy</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <listChange>
-                <change when="2024-04-02">(Lucas van der Deijl) convert from source</change>
-            </listChange>
-        </revisionDesc>
-    </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1670">
-                <desc/>
-            </event>
-        </listEvent>
-        <listRelation>
-            <relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-        </listRelation>
-    </standOff>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Het spookend weeuwtje</title>
+				<author>
+					<persName>
+						<forename>Pedro</forename>
+						<surname>Calderón de la Barca</surname>
+					</persName>
+					<idno type="wikidata">Q170800</idno>
+				</author>
+				<author>
+					<persName>
+						<forename>Antoine</forename>
+						<surname>Le Métel d'Ouville</surname>
+					</persName>
+					<idno type="wikidata">Q2854140</idno>
+				</author>
+				<author>
+					<persName>
+						<surname>Nil Volentibus Arduum</surname>
+					</persName>
+					<idno type="wikidata">Q2351891</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<ref target="https://www.let.leidenuniv.nl/Dutch/Ceneton/NVASpookendWeeuwtje1670.html">Ceneton</ref>
+					<editor>A.J.E. Harmsen</editor>
+					<ref>Ceneton064030</ref>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Nil Volentibus Arduum: Het spookend weeuwtje. Amsterdam: Adriaan van
+						Gaasbeek, 1670.</title>
+				</bibl>
+				<listEvent>
+					<event type="print" when="1670">
+						<desc/>
+					</event>
+				</listEvent>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="FEMALE" xml:id="jakoba">
+						<persName>JAKOBA</persName>
+					</person>
+					<person sex="MALE" xml:id="pieter">
+						<persName>PIETER</persName>
+					</person>
+					<person sex="FEMALE" xml:id="sofia">
+						<persName>SOFIA</persName>
+					</person>
+					<person sex="FEMALE" xml:id="katrijn">
+						<persName>KATRIJN</persName>
+					</person>
+					<person sex="FEMALE" xml:id="ferdinand">
+						<persName>FERDINAND</persName>
+					</person>
+					<person sex="MALE" xml:id="luidewijk">
+						<persName>LUIDEWIJK</persName>
+					</person>
+					<person sex="MALE" xml:id="flip">
+						<persName>FLIP</persName>
+					</person>
+					<person sex="FEMALE" xml:id="antonette">
+						<persName>ANTONETTE</persName>
+					</person>
+					<person sex="FEMALE" xml:id="ida">
+						<persName>IDA</persName>
+					</person>
+					<person sex="MALE" xml:id="niklaas">
+						<persName>NIKLAAS</persName>
+					</person>
+					<person sex="MALE" xml:id="jan">
+						<persName>JAN</persName>
+					</person>
+					<person sex="MALE" xml:id="dirk">
+						<persName>DIRK</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Comedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-02">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+    
     <text>
         <front>
             <docTitle>

@@ -1,18 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000066" xml:lang="nl">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Mey spel van Cloris en Philida</title>
-				<title type="sub"/>
 				<author>
 					<persName>
 						<forename>Jan</forename>
 						<surname>Harmensz. Krul</surname>
 					</persName>
 					<idno type="wikidata">Q2119242</idno>
-					<idno type="pnd"/>
 				</author>
 			</titleStmt>
 			<publicationStmt>
@@ -24,8 +22,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/krul001pamp02_01/krul001pamp02_01_0129.php</idno>
+					<ref target="https://www.dbnl.org/tekst/krul001pamp02_01/krul001pamp02_01_0129.php">DBNL</ref>
 					<availability status="free">
 						<p>In the public domain.</p>
 					</availability>
@@ -34,6 +31,11 @@
 					<title>Jan Harmensz. Krul: Pampiere wereld. Amsterdam: widow of Jan Jacobsz.
 						Schipper, 1681.</title>
 				</bibl>
+				<listEvent>
+					<event type="print" when="1631">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -73,19 +75,10 @@
 	</teiHeader>
 
 
-		<standOff>
-			<listEvent>
-				<event type="print" when="1631">
-					<desc/>
-				</event>
-			</listEvent>
-			<listRelation>
-				<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-			</listRelation>
-		</standOff>
+		
 	<text>
 	<front>
-		<div type="preface">			
+		<div type="preface">
 			<head>Mey spel van Cloris en Philida.</head>
 			<head>Inhoud.</head>
 			<p>CLoris, een Hoveling in 't Hof van Persen, komt in de Mey tijd met den Koning ter
@@ -134,7 +127,7 @@
 			<p>Het Tooneel beeld af Boskage.</p>
 		</castList>
 
-	</front>	
+	</front>
 		<body>
 			<div type="act" n="1">
 				<div type="scene" n="1">
@@ -791,7 +784,7 @@
 						<l>Ey! zoete Philida, gun Cloris doch een beê,</l>
 						<l>En zeg my wat gy wenscht.</l>
 					</sp>
-					<sp who="philida">
+					<sp who="#philida">
 						<speaker>Phil.</speaker>
 						<l>Neen Cloris; 't mocht my rouwen.</l>
 					</sp>

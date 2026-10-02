@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000103" xml:lang="nl">
 
 	<teiHeader>
@@ -30,8 +30,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/corn001dood01_01/</idno>
+					<ref target="https://www.dbnl.org/tekst/corn001dood01_01/">DBNL</ref>
 					<availability status="free">
 						<p>In the public domain.</p>
 					</availability>
@@ -40,6 +39,14 @@
 					<title>Pierre Corneille, De dood van Pompeus (trans. Govert Bidloo). Amsterdam:
 						Jacob Lescailje (erven), 1684.</title>
 				</bibl>
+				<listEvent>
+					<event type="print" when="1684">
+						<desc/>
+					</event>
+					<event type="premiere" when="1684">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -109,19 +116,7 @@
 
 
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="print" when="1684">
-				<desc/>
-			</event>
-			<event type="premiere" when="1684">
-				<desc/>
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-		</listRelation>
-	</standOff>
+	
 	<text>
 		<front>
 			<docTitle>
@@ -2817,7 +2812,7 @@
 				<stage>Alle die in 't treurspel gespeeld hebben, zoo sprekende als
 					zwijgende.</stage>
 				<div type="scene" n="1">
-					
+
 					<castList>
 						<head>Zingende.</head>
 						<castItem corresp="#rome">

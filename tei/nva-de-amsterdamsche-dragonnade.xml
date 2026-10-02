@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000157" xml:lang="nl">
 
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>De Amsterdamsche dragonnade</title>
-				<title type="sub"/>
 				<author>
 					<persName>
 						<surname>Nil Volentibus Arduum</surname>
@@ -24,8 +23,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>Ceneton</name>
-					<idno type="URL">https://www.let.leidenuniv.nl/Dutch/Ceneton/NVADragonnade1714.html</idno>
+					<ref target="https://www.let.leidenuniv.nl/Dutch/Ceneton/NVADragonnade1714.html">Ceneton</ref>
 					<editor>G.C. van Uitert and A.J.E. Harmsen, with contributions by Felix de
 						Jongh, Timen Kraak en Bernard Schelhaas.</editor>
 					<ref>Ceneton063570</ref>
@@ -37,6 +35,11 @@
 					<title>Nil Volentibus Arduum: De Amsterdamsche dragonnade. Amsterdam: Heirs of
 						J. Lescailje, 1714.</title>
 				</bibl>
+				<listEvent>
+					<event type="print" when="1714">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -97,16 +100,7 @@
 
 
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="print" when="1714">
-				<desc/>
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-		</listRelation>
-	</standOff>
+	
 	<text>
 		<front>
 			<docTitle>

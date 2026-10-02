@@ -1,6 +1,6 @@
-<!-- <?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> !-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000299" xml:lang="dut">
-<teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000299" xml:lang="nl" type="dracor">
+	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Die Huisvader ende Huismoeder</title>
@@ -15,16 +15,12 @@
 				<publisher xml:id="dracor">DraCor</publisher>
 				<idno type="URL">https://dracor.org</idno>
 				<availability>
-					<licence>
-						<ab>CC0 1.0</ab>
-						<ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-					</licence>
+					<licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/_tro001fams05_01/_tro001fams05_01_0006.php</idno>
+					<ref target="https://www.dbnl.org/tekst/_tro001fams05_01/_tro001fams05_01_0006.php">DBNL</ref>
 					<availability status="free">
 						<p>In the public domain.</p>
 					</availability>
@@ -34,40 +30,45 @@
 						blijcken. Bronnenuitgave van de boeken der Haarlemse rederijkerskamer ‘de
 						Pellicanisten’. Deel 5: Boek E. Uitgeverij Quarto, Assen 1994 </title>
 				</bibl>
+				<listEvent>
+					<event type="written" when="1598">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<particDesc>
-				
-			<listPerson>
-				<person sex="MALE" xml:id="boose-viant-snoot">
-					<persName>Boose Viant Snoot</persName>
-				</person>
-				<person sex="MALE" xml:id="de-huisvader">
-					<persName>De Huisvader</persName>
-				</person>
-				<person sex="MALE" xml:id="donwillige">
-					<persName>Donwillige</persName>
-				</person>
-				<person sex="FEMALE" xml:id="huis-moeder">
-					<persName>Huismoeder</persName>
-				</person>
-				<person sex="MALE" xml:id="knecht-1">
-					<persName>Knecht 1</persName>
-				</person>
-				<person sex="MALE" xml:id="knecht-2">
-					<persName>Knecht 2</persName>
-				</person>
-				<person sex="MALE" xml:id="knecht-3">
-					<persName>Knecht 3</persName>
-				</person>
-				<person sex="MALE" xml:id="knecht-4">
-					<persName>Knecht 4</persName>
-				</person>
-				<person sex="MALE" xml:id="trage">
-					<persName>Trage</persName>
-				</person>
-			</listPerson>
+
+				<listPerson>
+					<person sex="MALE" xml:id="boose-viant-snoot">
+						<persName>Boose Viant Snoot</persName>
+					</person>
+					<person sex="MALE" xml:id="de-huisvader">
+						<persName>De Huisvader</persName>
+					</person>
+					<person sex="MALE" xml:id="donwillige">
+						<persName>Donwillige</persName>
+					</person>
+					<person sex="FEMALE" xml:id="huis-moeder">
+						<persName>Huismoeder</persName>
+					</person>
+					<person sex="MALE" xml:id="knecht-1">
+						<persName>Knecht 1</persName>
+					</person>
+					<person sex="MALE" xml:id="knecht-2">
+						<persName>Knecht 2</persName>
+					</person>
+					<person sex="MALE" xml:id="knecht-3">
+						<persName>Knecht 3</persName>
+					</person>
+					<person sex="MALE" xml:id="knecht-4">
+						<persName>Knecht 4</persName>
+					</person>
+					<person sex="MALE" xml:id="trage">
+						<persName>Trage</persName>
+					</person>
+				</listPerson>
 			</particDesc>
 			<textClass>
 				<keywords>
@@ -81,16 +82,7 @@
 			</listChange>
 		</revisionDesc>
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="written" when="1598">
-				<desc />
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/" />
-		</listRelation>
-	</standOff>
+	
     <text>
         <front>
             <head>[Die Huisvader ende Huismoeder]</head>
@@ -504,12 +496,12 @@
 				<l>tot allen uren verwacht hem / onseeker den tijt wanneer</l>
 				<l>en sijt altoos met u reekening gereet niet weetende den weeken</l>
 				</sp>
-			
+
 				<stage>Pausa</stage>
 		</div>
 		<div n="2" type="scene">
 				<stage>Bose Viant ende donwillige</stage>
-			
+
 			<sp who="#boose-viant-snoot">
 				<speaker>Boose Viant Snoot Sprect</speaker>
 				<l>Hij en past op vader noch moeder die nae mij deerlick pijpen rat</l>
@@ -705,7 +697,7 @@
 			</sp>
 			<stage>Pausa</stage>
 			</div>
-		<div n="3" type="scene"> 
+		<div n="3" type="scene">
 			<stage>Vier knechten Uuijt</stage>
 			<sp who="#knecht-1">
 				<speaker>Deerste</speaker>
@@ -847,12 +839,12 @@
 				<speaker>Huis Moeder</speaker>
 				<l>Ick volch u in als / tlichaem moet volghen thoofde</l>
 			</sp>
-			
+
 				<stage>Pausa</stage>
 			</div>
 		<div n="4" type="scene">
 			<stage>2 gebroeders uuijt</stage>
-		
+
 			<sp who="#donwillige">
 				<speaker>Donwillige</speaker>
 				<l>Die Leeden gerust hebbende heur weder begeeven moeten</l>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000264" xml:lang="nl">
 	<teiHeader>
 		<fileDesc>
@@ -21,8 +21,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/_tro001fams02_01/_tro001fams02_01_0009.php</idno>
+					<ref target="https://www.dbnl.org/tekst/_tro001fams02_01/_tro001fams02_01_0009.php">DBNL</ref>
 					<availability status="free">
 						<p>In the public domain.</p>
 					</availability>
@@ -32,6 +31,11 @@
 						blijcken. Bronnenuitgave van de boeken der Haarlemse rederijkerskamer ‘de
 						Pellicanisten’. Deel 2: Boek B. Uitgeverij Quarto, Assen 1993 </title>
 				</bibl>
+				<listEvent>
+					<event type="written" when="1600">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 
@@ -74,16 +78,7 @@
 			</listChange>
 		</revisionDesc>
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="written" when="1600">
-				<desc/>
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-		</listRelation>
-	</standOff>
+	
 	<text>
 		<front>
 			<head>Hier begint een spel. van sinnen van de Cranckheijt des vleijsch hoe dat hij
@@ -425,11 +420,11 @@
 						<l>als twee nijdijghe balgen</l>
 						<l>om sijn consiencij te verduijsteren</l>
 						<l>dat hem van godts gratije sal walgen</l>
-						
+
 					</sp>
 					<stage>Pausa.</stage>
 				</div>
-				<div type="scene" n="2">					
+				<div type="scene" n="2">
 					<stage>Hier sal Crancheijt des vleijs uuijtcomen Jent gecleet.</stage>
 					<sp who="#crancheijt-des-vleeijsch">
 						<l>Ick mach wel claegen met swaere versijcke</l>

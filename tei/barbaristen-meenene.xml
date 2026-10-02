@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000244" xml:lang="nl">
 	<teiHeader>
 		<fileDesc>
@@ -21,8 +21,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/_gen001gent01_01/_gen001gent01_01_0037.php</idno>
+					<ref target="https://www.dbnl.org/tekst/_gen001gent01_01/_gen001gent01_01_0037.php">DBNL</ref>
 					<title>B.H. Erné en L.M. van Dis (eds.), De Gentse Spelen van 1539, (two
 						volumes). Martinus Nijhoff, The Hague 1982.</title>
 					<availability status="free">
@@ -35,6 +34,14 @@
 						mesche steruen meesten troost es[...] 12 junij 1539 [...] . Ghendt : Joost
 						Lambrecht, 1539.</title>
 				</bibl>
+				<listEvent>
+					<event type="print" when="1539">
+						<desc/>
+					</event>
+					<event type="premiere" when="1539">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -66,19 +73,7 @@
 			</listChange>
 		</revisionDesc>
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="print" when="1539">
-				<desc/>
-			</event>
-			<event type="premiere" when="1539">
-				<desc/>
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-		</listRelation>
-	</standOff>
+	
 	<text>
 		<front/>
 		<body>

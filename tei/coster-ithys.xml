@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000222" xml:lang="nl">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Ithys</title>
-				<title type="sub"/>
 				<author>
 					<persName>
 						<forename>Samuel</forename>
@@ -24,8 +23,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/cost001rako01_01/cost001rako01_01_0011.php</idno>
+					<ref target="https://www.dbnl.org/tekst/cost001rako01_01/cost001rako01_01_0011.php">DBNL</ref>
 					<title>Samuel Coster, Samuel Coster's werken, R.A. Kollewijn (ed). De Erven F.
 						Bohn, Haarlem 1883</title>
 					<availability status="free">
@@ -36,6 +34,11 @@
 					<title>Samuel Coster: Ithys. Amsterdam: Cornelis Lodewijcksz. vander Plasse,
 						1615.</title>
 				</bibl>
+				<listEvent>
+					<event type="print" when="1615">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -88,16 +91,7 @@
 			</listChange>
 		</revisionDesc>
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="print" when="1615">
-				<desc/>
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-		</listRelation>
-	</standOff>
+	
 	<text>
 		<front>
 

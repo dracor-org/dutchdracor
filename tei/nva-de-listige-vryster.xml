@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000159" xml:lang="nl">
 
 	<teiHeader>
@@ -13,14 +13,12 @@
 						<surname>Molière</surname>
 					</persName>
 					<idno type="wikidata">Q687</idno>
-					<idno type="pnd"/>
-				</author>				
+				</author>
 				<author>
 					<persName>
 						<surname>Nil Volentibus Arduum</surname>
 					</persName>
 					<idno type="wikidata">Q2351891</idno>
-					<idno type="pnd"/>
 				</author>
 			</titleStmt>
 			<publicationStmt>
@@ -32,8 +30,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>Ceneton</name>
-					<idno type="URL">https://www.let.leidenuniv.nl/Dutch/Ceneton/NVAListigeVryster1730a.html</idno>
+					<ref target="https://www.let.leidenuniv.nl/Dutch/Ceneton/NVAListigeVryster1730a.html">Ceneton</ref>
 					<editor>A.J.E. Harmsen</editor>
 					<ref>Ceneton090840</ref>
 					<availability status="free">
@@ -44,6 +41,14 @@
 					<title>Nil Volentibus Arduum: De listige vryster. Amsterdam: David Ruarus,
 						1730.</title>
 				</bibl>
+				<listEvent>
+					<event type="print" when="1690">
+						<desc/>
+					</event>
+					<event type="premiere" when="1690">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -87,20 +92,8 @@
 			</listChange>
 		</revisionDesc>
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="print" when="1690">
-				<desc/>
-			</event>
-			<event type="premiere" when="1690">
-				<desc/>
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-		</listRelation>
-	</standOff>
 	
+
 	<text>
 		<front>
 			<docTitle>
@@ -2528,7 +2521,7 @@
 						<l>Dat gy myn’ liefde in waard’ zult houwen,</l>
 						<l>Kom ik hier vlugten; ’k geef me in uw bescherming, Heer.</l>
 					</sp>
-						<stage>Zy gaat in eene leuning stoel zitten.</stage>					
+						<stage>Zy gaat in eene leuning stoel zitten.</stage>
 					<sp who="#heerman">
 						<speaker>HEERMAN.</speaker>
 						<l>’t Geluk kon nimmer my met meerder gunst bestraalen.</l>

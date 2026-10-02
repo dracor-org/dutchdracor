@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000086" xml:lang="nl">
 	<teiHeader>
 		<fileDesc>
@@ -29,8 +29,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/gilb007lief01_01/</idno>
+					<ref target="https://www.dbnl.org/tekst/gilb007lief01_01/">DBNL</ref>
 					<availability status="free">
 						<p>In the public domain.</p>
 					</availability>
@@ -39,6 +38,14 @@
 					<title>Gabriel Gilbert, De liefde van Diana en Endimion (trans. David
 						Lingelbach). Amsterdam: Jacob Lescailje, 1669.</title>
 				</bibl>
+				<listEvent>
+					<event type="print" when="1669">
+						<desc/>
+					</event>
+					<event type="premiere" when="1669">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -105,19 +112,7 @@
 
 
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="print" when="1669">
-				<desc/>
-			</event>
-			<event type="premiere" when="1669">
-				<desc/>
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-		</listRelation>
-	</standOff>
+	
 	<text>
 		<front>
 			<docTitle>
@@ -848,7 +843,7 @@
 				<div type="scene" n="3">
 					<head>III. Tooneel.</head>
 					<stage>Endimion ontwakende.</stage>
-					<sp who="endimion">
+					<sp who="#endimion">
 						<l>DIana, ach! vertoef; Diana, ay verlaat</l>
 						<l>Uw snelle vlucht. Beschouw uw Minnaar, die nu staat</l>
 						<l>Verlegen; want vergeefs zult ghy mijn oogh ontvluchten.</l>
@@ -1377,7 +1372,7 @@
 						getreeden, sluyt zich de wolk in malkander, en klimt van vooren weer
 						langzaam na achteren uyt het gezicht der Aanschouwers.</stage>
 					<stage>Apollo. Diana.</stage>
-					<sp who="apollo">
+					<sp who="#apollo">
 						<l>O Dochter van Iupijn, Latonas kroost, wat maakt</l>
 						<l>U waarde op Lathmus? kan d'Olimp, met schoonder straalen</l>
 						<l>Verheerlijkt, u niet meer als deze bergh onthaalen?</l>
@@ -1721,7 +1716,7 @@
 						uyt is getreden, rollen de welken in malkander, en verdwijnen allengs in de
 						Lucht.</stage>
 					<stage>Aurora. Endimion.</stage>
-					<sp who="aurora">
+					<sp who="#aurora">
 						<l>IK scheide u van haar af na veel verkreegen eer.</l>
 						<l>Nu eischt een andre zaak, dat ik op Lathmus neêr</l>
 						<l>Kom daalen; want uw deugt bestraalt een volle zeege.</l>
@@ -2040,7 +2035,7 @@
 				<div type="scene" n="8">
 					<head>VIII. Tooneel.</head>
 					<stage>Apollo. Endimion.</stage>
-					<sp who="apollo">
+					<sp who="#apollo">
 						<l>VErwaten Harder, durft gy voor mijne alziende oogen</l>
 						<l>Een daat bestaan, die zelf geen Gooden en vermoogen?</l>
 						<l>Wat onderwint gy u, in tegenwoordigheyt</l>
@@ -2891,7 +2886,7 @@
 				<div type="scene" n="7">
 					<head>VII. Tooneel.</head>
 					<stage>Diana. Pallas.</stage>
-					<sp who="diana">
+					<sp who="#diana">
 						<l>O wankelbaar geluk!</l>
 						<l>Hoe haast verandert gy in tegenspoet en druk;</l>
 						<l>'t Vermaak dat gy ons schijnt te gunnen, is doorweeven</l>

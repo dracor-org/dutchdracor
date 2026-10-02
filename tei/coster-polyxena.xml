@@ -1,115 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000221" xml:lang="nl">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Polyxena</title>
-                <title type="sub"/>
-                <author>
-                    <persName>
-                        <forename>Samuel</forename>
-                        <surname>Coster</surname>
-                    </persName>
-                    <idno type="wikidata">Q2371985</idno>
-                    <idno type="pnd"/>
-                </author>
-            </titleStmt>
-            <publicationStmt>
-                <publisher xml:id="dracor">DraCor</publisher>
-                <idno type="URL">https://dracor.org</idno>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <name>DBNL</name>
-                    <idno type="URL">https://www.dbnl.org/tekst/cost001rako01_01/cost001rako01_01_0047.php</idno>
-                    <title>Samuel Coster, Samuel Coster's werken, R.A. Kollewijn (ed). De Erven F.
-                        Bohn, Haarlem 1883</title>
-                    <availability status="free">
-                        <p>In the public domain.</p>
-                    </availability>
-                </bibl>
-                <bibl type="originalSource">
-                    <title>Samuel Coster: Polyxena. Amsterdam: Willem Iansz. Cloppenburch,
-                        1619.</title>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <particDesc>
-                <listPerson>
-                    <person sex="MALE" xml:id="agamemnon">
-                        <persName>Agamemnon</persName>
-                    </person>
-                    <person sex="FEMALE" xml:id="andromache">
-                        <persName>Andromache</persName>
-                    </person>
-                    <person sex="MALE" xml:id="astianax">
-                        <persName>Astianax</persName>
-                    </person>
-                    <person sex="FEMALE" xml:id="hecuba">
-                        <persName>Hecuba</persName>
-                    </person>
-                    <person sex="FEMALE" xml:id="ibis">
-                        <persName>Ibis</persName>
-                    </person>
-                    <person sex="MALE" xml:id="mantis">
-                        <persName>Mantis</persName>
-                    </person>
-                    <person sex="MALE" xml:id="polydorus">
-                        <persName>Polydorus</persName>
-                    </person>
-                    <person sex="MALE" xml:id="polymnestor">
-                        <persName>Polymnestor</persName>
-                    </person>
-                    <person sex="FEMALE" xml:id="polyxena">
-                        <persName>Polyxena</persName>
-                    </person>
-                    <person sex="MALE" xml:id="pyrrhus">
-                        <persName>Pyrrhus</persName>
-                    </person>
-                    <personGrp sex="FEMALE" xml:id="rey-van-trojaanse-vrouwen">
-                        <persName>Rey van Trojaanse Vrouwen</persName>
-                    </personGrp>
-                    <personGrp sex="UNKNOWN" xml:id="rey-van-traciers">
-                        <persName>Rey van Traciers</persName>
-                    </personGrp>
-                    <personGrp sex="UNKNOWN" xml:id="rey-van-trojanen">
-                        <persName>Rey van Trojanen</persName>
-                    </personGrp>
-                    <personGrp sex="UNKNOWN" xml:id="rey-van-griecken">
-                        <persName>Rey van Griecken</persName>
-                    </personGrp>
-                    <person sex="MALE" xml:id="ulysses">
-                        <persName>Ulysses</persName>
-                    </person>
-                </listPerson>
-            </particDesc>
-            <textClass>
-                <keywords>
-                    <term type="genreTitle">Tragedy</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <listChange>
-                <change when="2024-04-09">(Lucas van der Deijl) convert from source</change>
-            </listChange>
-        </revisionDesc>
-    </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1619">
-                <desc/>
-            </event>
-        </listEvent>
-        <listRelation>
-            <relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-        </listRelation>
-    </standOff>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Polyxena</title>
+				<author>
+					<persName>
+						<forename>Samuel</forename>
+						<surname>Coster</surname>
+					</persName>
+					<idno type="wikidata">Q2371985</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<ref target="https://www.dbnl.org/tekst/cost001rako01_01/cost001rako01_01_0047.php">DBNL</ref>
+					<title>Samuel Coster, Samuel Coster's werken, R.A. Kollewijn (ed). De Erven F.
+						Bohn, Haarlem 1883</title>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Samuel Coster: Polyxena. Amsterdam: Willem Iansz. Cloppenburch,
+						1619.</title>
+				</bibl>
+				<listEvent>
+					<event type="print" when="1619">
+						<desc/>
+					</event>
+				</listEvent>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="MALE" xml:id="agamemnon">
+						<persName>Agamemnon</persName>
+					</person>
+					<person sex="FEMALE" xml:id="andromache">
+						<persName>Andromache</persName>
+					</person>
+					<person sex="MALE" xml:id="astianax">
+						<persName>Astianax</persName>
+					</person>
+					<person sex="FEMALE" xml:id="hecuba">
+						<persName>Hecuba</persName>
+					</person>
+					<person sex="FEMALE" xml:id="ibis">
+						<persName>Ibis</persName>
+					</person>
+					<person sex="MALE" xml:id="mantis">
+						<persName>Mantis</persName>
+					</person>
+					<person sex="MALE" xml:id="polydorus">
+						<persName>Polydorus</persName>
+					</person>
+					<person sex="MALE" xml:id="polymnestor">
+						<persName>Polymnestor</persName>
+					</person>
+					<person sex="FEMALE" xml:id="polyxena">
+						<persName>Polyxena</persName>
+					</person>
+					<person sex="MALE" xml:id="pyrrhus">
+						<persName>Pyrrhus</persName>
+					</person>
+					<personGrp sex="FEMALE" xml:id="rey-van-trojaanse-vrouwen">
+						<persName>Rey van Trojaanse Vrouwen</persName>
+					</personGrp>
+					<personGrp sex="UNKNOWN" xml:id="rey-van-traciers">
+						<persName>Rey van Traciers</persName>
+					</personGrp>
+					<personGrp sex="UNKNOWN" xml:id="rey-van-trojanen">
+						<persName>Rey van Trojanen</persName>
+					</personGrp>
+					<personGrp sex="UNKNOWN" xml:id="rey-van-griecken">
+						<persName>Rey van Griecken</persName>
+					</personGrp>
+					<person sex="MALE" xml:id="ulysses">
+						<persName>Ulysses</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-09">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+    
     <text>
         <front>
             <docTitle>

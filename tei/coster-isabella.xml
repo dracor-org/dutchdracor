@@ -1,119 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000220" xml:lang="nl">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Isabella</title>
-                <title type="sub"/>
-                <author>
-                    <persName>
-                        <forename>Samuel</forename>
-                        <surname>Coster</surname>
-                    </persName>
-                    <idno type="wikidata">Q2371985</idno>
-                    <idno type="pnd"/>
-                </author>
-                <author>
-                    <persName>
-                        <forename>Pieter Corneliszoon</forename>
-                        <surname>Hooft</surname>
-                    </persName>
-                    <idno type="wikidata">Q10914484</idno>
-                    <idno type="pnd"/>
-                </author>
-            </titleStmt>
-            <publicationStmt>
-                <publisher xml:id="dracor">DraCor</publisher>
-                <idno type="URL">https://dracor.org</idno>
-                <availability>
-                    <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <name>DBNL</name>
-                    <idno type="URL">https://www.dbnl.org/tekst/cost001rako01_01/cost001rako01_01_0038.php</idno>
-                    <title>Samuel Coster, Samuel Coster's werken, R.A. Kollewijn (ed). De Erven F.
-                        Bohn, Haarlem 1883</title>
-                    <availability status="free">
-                        <p>In the public domain.</p>
-                    </availability>
-                </bibl>
-                <bibl type="originalSource">
-                    <title>Samuel Coster: Isabella. Amsterdam: Cornelis Lodovvijcksz. vander Plassen, 1619.</title>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <particDesc>
-                <listPerson>
-                    <person sex="MALE" xml:id="boer">
-                        <persName>Boer</persName>
-                    </person>
-                    <person sex="FEMALE" xml:id="doralice">
-                        <persName>Doralice</persName>
-                    </person>
-                    <person sex="MALE" xml:id="doctor">
-                        <persName>Doctor</persName>
-                    </person>
-                    <person sex="FEMALE" xml:id="isabella">
-                        <persName>Isabella</persName>
-                    </person>
-                    <person sex="MALE" xml:id="ian-hen">
-                        <persName>Ian Hen</persName>
-                    </person>
-                    <person sex="MALE" xml:id="labbe-kack">
-                        <persName>Labbe-kack</persName>
-                    </person>
-                    <person sex="MALE" xml:id="mandricard">
-                        <persName>Mandricard</persName>
-                    </person>
-                    <person sex="MALE" xml:id="rodomont">
-                        <persName>Rodomont</persName>
-                    </person>
-                    <personGrp sex="UNKNOWN" xml:id="rey-van-hemel-lieden">
-                        <persName>Rey van Hemel-lieden</persName>
-                    </personGrp>
-                    <person sex="MALE" xml:id="schilt-cnaap">
-                        <persName>Schilt-cnaap</persName>
-                    </person>
-                    <person sex="MALE" xml:id="theophilus">
-                        <persName>Theophilus</persName>
-                    </person>
-                    <person sex="MALE" xml:id="zerbiin">
-                        <persName>Zerbiin</persName>
-                    </person>
-                    <person sex="MALE" xml:id="min">
-                        <persName>Min</persName>
-                    </person>                    
-                </listPerson>
-            </particDesc>
-            <textClass>
-                <keywords>
-                    <term type="genreTitle">Tragedy</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <listChange>
-                <change when="2024-04-09">(Lucas van der Deijl) convert from source</change>
-            </listChange>
-        </revisionDesc>
-    </teiHeader>
-    <standOff>
-        <listEvent>
-            <event type="print" when="1619">
-                <desc/>
-            </event>
-            <event type="premiere" when="1618">
-                <desc/>
-            </event>
-        </listEvent>
-        <listRelation>
-            <relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-        </listRelation>
-    </standOff>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Isabella</title>
+				<author>
+					<persName>
+						<forename>Samuel</forename>
+						<surname>Coster</surname>
+					</persName>
+					<idno type="wikidata">Q2371985</idno>
+				</author>
+				<author>
+					<persName>
+						<forename>Pieter Corneliszoon</forename>
+						<surname>Hooft</surname>
+					</persName>
+					<idno type="wikidata">Q10914484</idno>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<publisher xml:id="dracor">DraCor</publisher>
+				<idno type="URL">https://dracor.org</idno>
+				<availability>
+					<licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<ref target="https://www.dbnl.org/tekst/cost001rako01_01/cost001rako01_01_0038.php">DBNL</ref>
+					<title>Samuel Coster, Samuel Coster's werken, R.A. Kollewijn (ed). De Erven F.
+						Bohn, Haarlem 1883</title>
+					<availability status="free">
+						<p>In the public domain.</p>
+					</availability>
+				</bibl>
+				<bibl type="originalSource">
+					<title>Samuel Coster: Isabella. Amsterdam: Cornelis Lodovvijcksz. vander Plassen, 1619.</title>
+				</bibl>
+				<listEvent>
+					<event type="print" when="1619">
+						<desc/>
+					</event>
+					<event type="premiere" when="1618">
+						<desc/>
+					</event>
+				</listEvent>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<particDesc>
+				<listPerson>
+					<person sex="MALE" xml:id="boer">
+						<persName>Boer</persName>
+					</person>
+					<person sex="FEMALE" xml:id="doralice">
+						<persName>Doralice</persName>
+					</person>
+					<person sex="MALE" xml:id="doctor">
+						<persName>Doctor</persName>
+					</person>
+					<person sex="FEMALE" xml:id="isabella">
+						<persName>Isabella</persName>
+					</person>
+					<person sex="MALE" xml:id="ian-hen">
+						<persName>Ian Hen</persName>
+					</person>
+					<person sex="MALE" xml:id="labbe-kack">
+						<persName>Labbe-kack</persName>
+					</person>
+					<person sex="MALE" xml:id="mandricard">
+						<persName>Mandricard</persName>
+					</person>
+					<person sex="MALE" xml:id="rodomont">
+						<persName>Rodomont</persName>
+					</person>
+					<personGrp sex="UNKNOWN" xml:id="rey-van-hemel-lieden">
+						<persName>Rey van Hemel-lieden</persName>
+					</personGrp>
+					<person sex="MALE" xml:id="schilt-cnaap">
+						<persName>Schilt-cnaap</persName>
+					</person>
+					<person sex="MALE" xml:id="theophilus">
+						<persName>Theophilus</persName>
+					</person>
+					<person sex="MALE" xml:id="zerbiin">
+						<persName>Zerbiin</persName>
+					</person>
+					<person sex="MALE" xml:id="min">
+						<persName>Min</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+			<textClass>
+				<keywords>
+					<term type="genreTitle">Tragedy</term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<listChange>
+				<change when="2024-04-09">(Lucas van der Deijl) convert from source</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+    
     <text>
         <front>
             <docTitle>
@@ -122,13 +114,13 @@
                 <titlePart>Vertoont in de Nederduytsche Academie</titlePart>
                 <titlePart>Over.al.Thvys.</titlePart>
                 <titlePart>t'Amsterdam. Voor Cornelis Lodovvijcksz. vander Plassen, aan de Beurs, inden Italiaanschen Bybel. 1619.</titlePart>
-                
+
             </docTitle>
             <div type="preface">
-                
+
                 <head>Tot den leser.</head>
                 <p> Daar ghy my voor aan-ziet dat en ben ick niet: de Voor-reden van het Spel meent
-                    ghy miin te ziin. Neen, de Poeet zal die door den aldvvingenden Cupido uyt laten 
+                    ghy miin te ziin. Neen, de Poeet zal die door den aldvvingenden Cupido uyt laten
                     spreken: my heeft hy ghesonden u te segghen dat hy
                         Ariosten niet stip ghevolght en heeft. Vraacht ghy de
                     vvaarom? hy heeft het niet vvillen doen; en om dat het een versiering is,
@@ -151,7 +143,7 @@
                     gangbare tale, sonder dat de Hollantsche met het lenen van vvtheemsche vvoorden
                     onteert vvort; de vvaardy van yder is niet geheel, maar so veel als den Poeet
                     doenlick gevveest is, vvaar genomen. </p>
-                <p> Die vveten vvil vvaarom dat op alle dese dinghen vvel te letten is, die lese 
+                <p> Die vveten vvil vvaarom dat op alle dese dinghen vvel te letten is, die lese
                     Aristotelem, Horatium, Schaligerem, Danielem Heynsium ,
                     voortreffelicke mannen in vvijsheyt en in allerleye vvetenschappen, die 't de
                     moeyten vvaardt ghedocht heeft vvel ernstlick haar vverck daar af te maken, om
@@ -170,7 +162,7 @@
                     spreecken, 't ooch hebbende alleen op het snel, en niet op het haar onbekende
                     vvel. Dan deze slachten de smakelose veraasden, die de schielick gegroeyde
                     paddestoelen, veel eerder geloof ick Kampervvt
-                    nieusgiericheydt, als om de kauvv diese over haar hebben noellen . 
+                    nieusgiericheydt, als om de kauvv diese over haar hebben noellen .
                     ter maaltijdt voor vvat leckers aan laten dienen, in plaatse
                         Fungi . van voedtsame, eetbare en langdurige spyse. </p>
                 <p>Ick segghe mijn meeninghe, sonder dat ick yemande maat ofte vvet begheer te
@@ -197,7 +189,7 @@
                 <p>Vaart vvel. S.A. Coster . </p>
             </div>
             <div type="preface">
-                
+
                 <head>Inhoudt van 't spel.</head>
                     <p>1.</p>
                     <p>Zerbijn wandelende met zijn Isabella, vint de wapenen van Roelandt, die
@@ -223,7 +215,7 @@
                         belooft haar een begraaffenis.</p>
                     <p>Eynde . </p>
                 </div>
-                
+
                 <castList>
                     <head>Personagien van 't spel.</head>
                     <castItem corresp="#isabella">

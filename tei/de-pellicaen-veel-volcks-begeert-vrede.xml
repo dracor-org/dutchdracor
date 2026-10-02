@@ -1,6 +1,6 @@
-<!-- <?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> !-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000302" xml:lang="dut">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000302" xml:lang="nl" type="dracor">
+	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Veel Volcks begeert Vrede</title>
@@ -15,16 +15,12 @@
 				<publisher xml:id="dracor">DraCor</publisher>
 				<idno type="URL">https://dracor.org</idno>
 				<availability>
-					<licence>
-						<ab>CC0 1.0</ab>
-						<ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-					</licence>
+					<licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/_tro001fams05_01/_tro001fams05_01_0010.php</idno>
+					<ref target="https://www.dbnl.org/tekst/_tro001fams05_01/_tro001fams05_01_0010.php">DBNL</ref>
 					<availability status="free">
 						<p>In the public domain.</p>
 					</availability>
@@ -34,43 +30,48 @@
 						blijcken. Bronnenuitgave van de boeken der Haarlemse rederijkerskamer ‘de
 						Pellicanisten’. Deel 5: Boek E. Uitgeverij Quarto, Assen 1994 </title>
 				</bibl>
+				<listEvent>
+					<event type="written" when="1598">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<particDesc>
-				
-			<listPerson>
-				<person sex="UNKNOWN" xml:id="armoede">
-					<persName>Armoede</persName>
-				</person>
-				<person sex="MALE" xml:id="nijt">
-					<persName>Nijt</persName>
-				</person>
-				<person sex="MALE" xml:id="oorloch">
-					<persName>Oorloch</persName>
-				</person>
-				<person sex="FEMALE" xml:id="overvloet">
-					<persName>Overvloet</persName>
-				</person>
-				<person sex="MALE" xml:id="simple-mensch">
-					<persName>Simple mensch</persName>
-				</person>
-				<person sex="MALE" xml:id="twist">
-					<persName>Twist</persName>
-				</person>
-				<person sex="UNKNOWN" xml:id="unknown">
-					<persName>Unknown</persName>
-				</person>
-				<person sex="UNKNOWN" xml:id="veel-volcxs">
-					<persName>Veel volcxs</persName>
-				</person>
-				<person sex="FEMALE" xml:id="vreeden">
-					<persName>Vreeden</persName>
-				</person>
-				<person sex="MALE" xml:id="weelden">
-					<persName>Weelden</persName>
-				</person>
-			</listPerson>
+
+				<listPerson>
+					<person sex="UNKNOWN" xml:id="armoede">
+						<persName>Armoede</persName>
+					</person>
+					<person sex="MALE" xml:id="nijt">
+						<persName>Nijt</persName>
+					</person>
+					<person sex="MALE" xml:id="oorloch">
+						<persName>Oorloch</persName>
+					</person>
+					<person sex="FEMALE" xml:id="overvloet">
+						<persName>Overvloet</persName>
+					</person>
+					<person sex="MALE" xml:id="simple-mensch">
+						<persName>Simple mensch</persName>
+					</person>
+					<person sex="MALE" xml:id="twist">
+						<persName>Twist</persName>
+					</person>
+					<person sex="UNKNOWN" xml:id="unknown">
+						<persName>Unknown</persName>
+					</person>
+					<person sex="UNKNOWN" xml:id="veel-volcxs">
+						<persName>Veel volcxs</persName>
+					</person>
+					<person sex="FEMALE" xml:id="vreeden">
+						<persName>Vreeden</persName>
+					</person>
+					<person sex="MALE" xml:id="weelden">
+						<persName>Weelden</persName>
+					</person>
+				</listPerson>
 			</particDesc>
 			<textClass>
 				<keywords>
@@ -83,22 +84,13 @@
 				<change when="2026-01-28">(Lucas van der Deijl) convert from source</change>
 			</listChange>
 		</revisionDesc>
-    </teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="written" when="1598">
-				<desc />
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/" />
-		</listRelation>
-	</standOff>
+	</teiHeader>
+	
     <text>
         <front>
         	<div>
             <head>Prologe</head>
-            <sp who="unknown">
+            <sp who="#unknown">
                 <l>Dalmogende goodts handt om te Loven sijn naem</l>
                 <l>bequaem tmenschelijcke geslacht heeft gemaect uuijt niet</l>
                 <l>tgebiet is voorts // als Den vogelen tot vliegen</l>
@@ -189,7 +181,7 @@
             <div type="scene">
 
                 <head>Retrograde Sonet</head>
-                <sp who="unknown">
+                <sp who="#unknown">
                     <l>Groot overvloet // paert bij vreede // Armoede volcht oorloch siet</l>
                     <l>derten / weelden / soect veel volcxs slecht // Dees baert mennich
                         verdriet</l>
@@ -231,7 +223,7 @@
                 </castList>
                 <div>
                     <head>Baniere Retrograde</head>
-                    <sp who="unknown">
+                    <sp who="#unknown">
                         <l>Haer presenteert Lieflick // selven persoonlick</l>
                         <l>vreede met overvloedicheijt Dienstlick versaemt</l>
                         <l>swaer Dunct veel volcxs haer te gunnen plaets bewoonlick</l>
@@ -240,13 +232,13 @@
                         <l>dees porren toorloch fel haeckende nae hem bloede</l>
                         <l>wreet / Dees doet vluchten / vreden soetlick vernaempt</l>
                         <l>vrees benout veel volcxs / gequelt weelde deur Armoede</l>
-                        
+
                         <l>Nijt deur Weelden / Spruijt Subbijt</l>
                         <l>haet Deur Nijt // Weelden Mijt</l>
-                        
+
                         <l>Deur vreeden / brengt tot geniet</l>
-                        <l>Overvloet van als Alsmen Siet</l>                    
-                        
+                        <l>Overvloet van als Alsmen Siet</l>
+
                     </sp>
                 	<p>Lanck 1144 Regulen</p>
                 </div>
@@ -2449,7 +2441,7 @@
 			</sp>
 			<sp who="#twist">
 				<speaker>Twist</speaker>
-				
+
 				<l>Holla / hoe gaet dat toe</l>
 			</sp>
 			<sp who="#nijt">

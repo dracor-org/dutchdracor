@@ -1,6 +1,6 @@
-<!-- <?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> !-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000303" xml:lang="dut">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000303" xml:lang="nl" type="dracor">
+	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">De mensche den Doot onderworpen</title>
@@ -15,16 +15,12 @@
 				<publisher xml:id="dracor">DraCor</publisher>
 				<idno type="URL">https://dracor.org</idno>
 				<availability>
-					<licence>
-						<ab>CC0 1.0</ab>
-						<ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-					</licence>
+					<licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/_tro001fams05_01/_tro001fams05_01_0011.php</idno>
+					<ref target="https://www.dbnl.org/tekst/_tro001fams05_01/_tro001fams05_01_0011.php">DBNL</ref>
 					<availability status="free">
 						<p>In the public domain.</p>
 					</availability>
@@ -34,45 +30,50 @@
 						blijcken. Bronnenuitgave van de boeken der Haarlemse rederijkerskamer ‘de
 						Pellicanisten’. Deel 5: Boek E. Uitgeverij Quarto, Assen 1994 </title>
 				</bibl>
+				<listEvent>
+					<event type="written" when="1598">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<particDesc>
-				
-			<listPerson>
-				<person sex="UNKNOWN" xml:id="deucht">
-					<persName>Deucht</persName>
-				</person>
-				<person sex="MALE" xml:id="die-doot">
-					<persName>Die Doot Coninck</persName>
-				</person>
-				<person sex="OTHER" xml:id="goodts-oordeel">
-					<persName>Goodts Oordeel off consiencie</persName>
-				</person>
-				<person sex="MALE" xml:id="ghoodts-ewijge-glorie">
-					<persName>Ghoodts Ewijge Glori</persName>
-				</person>
-				<person sex="MALE" xml:id="hels-afgront">
-					<persName>Hels afgront</persName>
-				</person>
-				<person sex="MALE" xml:id="ondeucht">
-					<persName>Ondeucht</persName>
-				</person>
-				<person sex="MALE" xml:id="ongevallen">
-					<persName>Oorloch-Ongevallen - Dienaers</persName>
-				</person>
-				<person sex="MALE" xml:id="oorloch">
-					<persName>Oorloch-Siecten - Dienaers</persName>
-				</person>
-				<person sex="MALE" xml:id="pelgrom">
-					<persName>Pelgrom</persName>
-				</person>
-				<person sex="MALE" xml:id="siecten">
-					<persName>Oorloch-Siecten - Dienaers</persName>
-				</person>
-				
-				
-			</listPerson>
+
+				<listPerson>
+					<person sex="UNKNOWN" xml:id="deucht">
+						<persName>Deucht</persName>
+					</person>
+					<person sex="MALE" xml:id="die-doot">
+						<persName>Die Doot Coninck</persName>
+					</person>
+					<person sex="OTHER" xml:id="goodts-oordeel">
+						<persName>Goodts Oordeel off consiencie</persName>
+					</person>
+					<person sex="MALE" xml:id="ghoodts-ewijge-glorie">
+						<persName>Ghoodts Ewijge Glori</persName>
+					</person>
+					<person sex="MALE" xml:id="hels-afgront">
+						<persName>Hels afgront</persName>
+					</person>
+					<person sex="MALE" xml:id="ondeucht">
+						<persName>Ondeucht</persName>
+					</person>
+					<person sex="MALE" xml:id="ongevallen">
+						<persName>Oorloch-Ongevallen - Dienaers</persName>
+					</person>
+					<person sex="MALE" xml:id="oorloch">
+						<persName>Oorloch-Siecten - Dienaers</persName>
+					</person>
+					<person sex="MALE" xml:id="pelgrom">
+						<persName>Pelgrom</persName>
+					</person>
+					<person sex="MALE" xml:id="siecten">
+						<persName>Oorloch-Siecten - Dienaers</persName>
+					</person>
+
+
+				</listPerson>
 			</particDesc>
 			<textClass>
 				<keywords>
@@ -85,17 +86,8 @@
 				<change when="2026-01-28">(Lucas van der Deijl) convert from source</change>
 			</listChange>
 		</revisionDesc>
-    </teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="written" when="1598">
-				<desc />
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/" />
-		</listRelation>
-	</standOff>
+	</teiHeader>
+	
     <text>
         <front>
             <head>[De mensche den Doot onderworpen]</head>
@@ -991,11 +983,11 @@
 				<l>in Dusdanich gelooff te Leven en te sterven protesterende</l>
 			</sp>
 			<stage>Ghoodts Ewijge Glorie Door een Son Schijnende Van binnen met Melodieus ghesanck</stage>
-			
+
 			</div>
 		<div n="2" type="scene">
 			<head>Liedeken</head>
-			<sp who="ghoodts-ewijge-glorie">
+			<sp who="#ghoodts-ewijge-glorie">
 				<stage>1</stage>
 				<l>Laet ons verheeven // Loff prijs sijn eer geven</l>
 				<l>den grooten godt van hemelrijck</l>
@@ -1013,9 +1005,9 @@
 				<l>dit groot visioen sal ick gaen besichtigen en horen nae tgeluijt</l>
 				<l>daer toe gebonden met des Lijefden banden</l>
 			</sp>
-			
+
 			<stage>Uuijt den Son Spreekende</stage>
-			<sp who="ghoodts-ewijge-glorie">
+			<sp who="#ghoodts-ewijge-glorie">
 				<l>Eij compt hier niet naerder op dat ghij niet en begaet scanden</l>
 				<l>off uwer voeten scoenen / des vleijschelijcke affectie uuijt trect</l>
 				<l>want die plaets daer ghij staet als Den vaillanden</l>

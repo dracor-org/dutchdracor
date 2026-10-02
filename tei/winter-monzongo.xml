@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000232" xml:lang="nl">
 	<teiHeader>
 		<fileDesc>
@@ -13,7 +13,6 @@
 						<surname>Winter</surname>
 					</persName>
 					<idno type="wikidata">Q2697615</idno>
-					<idno type="pnd"/>
 				</author>
 			</titleStmt>
 			<publicationStmt>
@@ -25,8 +24,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/wint009toon01_01/wint009toon01_01_0018.php</idno>
+					<ref target="https://www.dbnl.org/tekst/wint009toon01_01/wint009toon01_01_0018.php">DBNL</ref>
 					<availability status="free">
 						<p>In the public domain.</p>
 					</availability>
@@ -35,6 +33,14 @@
 					<title>Nicolaas Simon van Winter en Lucretia Wilhelmina van Merken:
 						Tooneelpoëzy. Deel 2. Amsterdam: Pieter Johannes Uylenbroek, 1786.</title>
 				</bibl>
+				<listEvent>
+					<event type="print" when="1774">
+						<desc/>
+					</event>
+					<event type="premiere" when="1780">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -79,30 +85,18 @@
 		</revisionDesc>
 
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="print" when="1774">
-				<desc/>
-			</event>
-			<event type="premiere" when="1780">
-				<desc/>
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-		</listRelation>
-	</standOff>
+	
 	<text>
 		<front>
 			<div type="preface">
-				
+
 				<head>Monzongo, of de koningklyke slaaf. <lb/> Treurspel. <lb/> Door Nicolaas Simon
-					van Winter.</head>	
+					van Winter.</head>
 					<figure/>
 						<p>...........Wreedäart, die de onnoozelheid verdrukt! Lig
 							daar....................................... <lb/> IVde Bedr. IVde
 							Toon.</p>
-					
+
 					<p>Voorbericht.</p>
 					<p>Toen in den jaare 1763 de Colonie de Berbice door de slaaven was afgeloopen,
 						en de verbaazende straffen daaröver geoefend waren, vond ik de gevoelens van
@@ -162,11 +156,11 @@
 					<p>Het TOONEEL is te VERA CRUX; het eerste, tweede en vierde Bedryf in een bosch;
 						het derde en vyfde Bedryf in een vertrek van het Kasteel.</p>
 				</castList>
-				
+
 		</front>
 		<body>
 			<div type="act" n="1">
-				
+
 				<head>Monzongo, of de koningklyke slaaf. </head>
 				<div type="scene" n="1">
 					<head>Eerste tooneel.</head>
@@ -182,7 +176,7 @@
 						<l>'t Is eindlyk hen gelukt dees waereld te overheeren.</l>
 						<l>Amerika! gy moet thans andre meesters eeren:</l>
 						<l>Wat zeg ik! meesters? neen, 't zyn monsters. Ach! het zyn</l>
-						<l>De snoodste beulen, die, door de uitgezochtste pyn,</l>						
+						<l>De snoodste beulen, die, door de uitgezochtste pyn,</l>
 						<l>Uw dappre Koningen naar 't vorstlyk leven dingen;</l>
 						<l>Uw vrygeboren volk, aan hun mishandelingen</l>
 						<l>Ten prooije, in ketens slaan; om goud, hun eenigst goed,</l>
@@ -206,7 +200,7 @@
 						<l>Ik zag my, onbekend, in yzren kluisters wringen.</l>
 						<l>Wat lot stond ik ten doel, wat wreede folteringen,</l>
 						<l>ô Dwingelanden! wierd Monzongo u bekend!</l>
-						<l>Maar ach! wat baat het dat ik zuchte om myne elend?</l>						
+						<l>Maar ach! wat baat het dat ik zuchte om myne elend?</l>
 						<l>Gelukkig, niemand kent me; en zelfs de braave Gade,</l>
 						<l>My opgedrongen, en wier deugd in de ongenade</l>
 						<l>Van myn rampzaligheên my nog tot troost verstrekt,</l>
@@ -236,7 +230,7 @@
 						<speaker>Semire</speaker>
 						<l>'k Wist dat thans, na vierpaar weeken,</l>
 						<l>De tyd uws arbeids in de mynen was verstreken.</l>
-						<l>'k Hoopte op uw wederkomst. 't Verlangen niet alleen</l>						
+						<l>'k Hoopte op uw wederkomst. 't Verlangen niet alleen</l>
 						<l>Dreef, daar de dag reeds daalt, my angstig boschwaarts heen.</l>
 						<l>Ik wenschte, eer 't wreed geweld my al myn' troost doet derven,</l>
 						<l>Met u te schreijen, en voor uw gezicht te sterven.</l>
@@ -264,7 +258,7 @@
 						<l>Ik smeekte dat men my van u niet wilde scheiên;</l>
 						<l>Maar ach! men noemt dit gunst en keert zich aan geen schreijen.</l>
 						<l>Uw Meester, haar Gemaal, wien ge eertyds in den nood</l>
-						<l>Met eigen lyfsgevaar een' trouwen bystand bood,</l>						
+						<l>Met eigen lyfsgevaar een' trouwen bystand bood,</l>
 						<l>Kent uw beleid eo moed, en wil u in dees staaten,</l>
 						<l>Ten dienst van 't nieuw gezag, by Alvarado laaten.</l>
 					</sp>
@@ -332,7 +326,7 @@
 					</sp>
 					<sp who="#semire">
 						<speaker>Semire</speaker>
-						<l>Ons teder hart deelt in eens anders zielverdriet,</l>						
+						<l>Ons teder hart deelt in eens anders zielverdriet,</l>
 						<l>Maar 't Spaansche vloekrot kent het mededoogen niet;</l>
 						<l>Zelfs Cortes en zyn Gaê, schoon ze in ons onheil deelen,</l>
 						<l>Doen 't zwichten, naar belang en staatzucht zulks beveelen.</l>
@@ -364,7 +358,7 @@
 					</sp>
 					<sp who="#semire">
 						<speaker>Semire</speaker>
-						<l>Slechts weinig tyds geleên kwam by den Castiljaan,</l>						
+						<l>Slechts weinig tyds geleên kwam by den Castiljaan,</l>
 						<l>Van Sempaolaas Vorst een stoet van Maagden aan,</l>
 						<l>Veelligt om 't vreêverbond te grooter kracht te geeven.</l>
 						<l>Een deezer Maagden word, als meer in rang verheven,</l>
@@ -392,7 +386,7 @@
 						<l>Dewyl zy iemand uit dat landschap wenscht te spreeken.</l>
 						<l>Myne achting voor uw deugd bekoort haar heusch gemoed,</l>
 						<l>Zodat ze alreeds voor u een billyke achting voed.</l>
-						<l>Maar ach! waag niet te veel door roekloosheid gedreven;</l>						
+						<l>Maar ach! waag niet te veel door roekloosheid gedreven;</l>
 						<l>Myn leven en myn rust hangt aan uw rust en leven.</l>
 					</sp>
 					<sp who="#monzongo">
@@ -428,7 +422,7 @@
 						<stage>Cortes het goud geknield aanbiedende.</stage>
 						<l>Ik kom op uw bevel hier uit de mynen weêr.</l>
 						<l>'t Geluk begunstigde ons. Ontfang deez' schat, Mynheer!</l>
-						
+
 						<l>Die my ons opperhoofd beval u op te draagen.</l>
 					</sp>
 					<sp who="#cortes">
@@ -457,7 +451,7 @@
 						<l>Eerlang voor ons gezag; en buigt zy onder 't juk,</l>
 						<l>Dan zwicht haast Mexico, of zal om vrede smeeken.</l>
 						<l>Uw dapperheid is ons in stryd op stryd gebleken;</l>
-						<l>Ik ken uw trouw' en stel dees nieuwgebouwde vest,</l>						
+						<l>Ik ken uw trouw' en stel dees nieuwgebouwde vest,</l>
 						<l>Den sterken sleutel van dit ryke wingewest,</l>
 						<l>Met krygsbehoefte en volk en voorraad u in handen.</l>
 						<l>Voer in myn afzyn 't hoog gebied in deeze landen,</l>
@@ -485,7 +479,7 @@
 						<l>Breng u, op mynen raad, breng altoos u te binnen</l>
 						<l>Dat ze, op onze aankomst in hun ryke heerschappy,</l>
 						<l>Zich vreedzaam boogen voor de Spaansche Monarchy;</l>
-						<l>En dat, indien zy ons hunn' onderstand doen derven,</l>						
+						<l>En dat, indien zy ons hunn' onderstand doen derven,</l>
 						<l>Ik nooit op Mexico de zege kan verwerven.</l>
 						<l>Hou 't krygsvolk streng in toom, bepaal hunn' euvelmoed;</l>
 						<l>En Sempaola zal, terwyl het lyf en goed</l>
@@ -548,7 +542,7 @@
 						<speaker>Cortes</speaker>
 						<l>Hoe 't zyn moog', ons belang, Zambizaas kundigheden,</l>
 						<l>Ja alles moet tot dit besluit ons overreeden.</l>
-						<l>Men vleij' haar dat zy hem haast weêr aanschouwen zal.</l>						
+						<l>Men vleij' haar dat zy hem haast weêr aanschouwen zal.</l>
 						<stage>Tegen Alvarado.</stage>
 						<l>Betoon hem uwe gunst; verzacht zyn ongeval.</l>
 						<l>Myn hart, dat hem waardeert, is met zyn smart bewogen.</l>
@@ -574,7 +568,7 @@
 						<l>Uit mededoogen, en aan slaaven vriendschap toonen?</l>
 						<l>Neen, dat Zambiza eerst door vlyt myn gunst verdien',</l>
 						<l>My door zyn diensten dwing' om op hem neêr te zien.</l>
-						
+
 						<l>Men veinze en spreek' dien slaaf. Ik heb hem hier ontboden.</l>
 						<l>Maar, Cortes! waant gy dat uw raad my is van nooden?</l>
 						<l>Sproot die uit vriendschap, of uit staats- en zelfbelang?</l>
@@ -681,7 +675,7 @@
 						<l>Bedaar. Misbruik geen magt, die gy door dwinglandy,</l>
 						<l>Door 't wisselvallig lot der waereld hebt verkregen;</l>
 						<l>En spoor, door trotsheid op uw' grootschen oorlogszegen,</l>
-						
+
 						<l>Geen ongelukkigen tot felle wanhoop aan.</l>
 					</sp>
 					<sp who="#alvarado">
@@ -720,7 +714,7 @@
 						<l>'k Veracht uw dreigen. 'k Zal den wreedsten dood verkiezen,</l>
 						<l>Veelëer dan myn Semire en Kinders te verliezen.</l>
 						<l>Maar gy, leer van een' slaaf, dien gy veracht, van my,</l>
-						
+
 						<l>Dat by dien laagen slaaf, in spyt der slaverny,</l>
 						<l>De trouw en teêrheid zyn ten hoogsten top gerezen;</l>
 						<l>En dat welligt zyn lot uw lot had kunnen weezen.</l>
@@ -741,7 +735,7 @@
 				</div>
 			</div>
 			<div type="act" n="2">
-				
+
 				<head>Tweede bedryf.</head>
 				<div type="scene" n="1">
 					<head>Eerste tooneel.</head>
@@ -767,7 +761,7 @@
 						<speaker>Zambiza</speaker>
 						<l>Ik slaagde op de eigen wyz'; 't raakte all', op myn bericht,</l>
 						<l>In deezen nacht in roer: gy zult by 't ryzend licht,</l>
-						
+
 						<l>Misleid myn hoop my niet, drie duizend Indiaanen</l>
 						<l>Gewapend zien, ten schrik der trotsche Castiljaanen.</l>
 					</sp>
@@ -798,7 +792,7 @@
 						<l>ô Neen; myn trouw voor u zal niet bezwyken. Maar</l>
 						<l>De omstandigheid is, in dit tydstip, vol gevaar.</l>
 						<l>De sterkte is thans voltooid; de Spanjaard kan dees wallen</l>
-						
+
 						<l>Door 't buldrend oorlogstuig ligt hoên voor 't overvallen,</l>
 						<l>Of door hun moordgeweer ons-allen nederslaan;</l>
 						<l>En Sempaolo zal met hem ons tegenstaan.</l>
@@ -829,7 +823,7 @@
 					<sp who="#monzongo">
 						<speaker>Zambiza</speaker>
 						<l>Stel u gerust, myn Vriend! ik zal voorzichtigheid</l>
-						
+
 						<l>Gebruiken, en niet eer...</l>
 					</sp>
 					<sp who="#quantimoc">
@@ -893,7 +887,7 @@
 						<speaker>Alonzo</speaker>
 						<l>Een slaaf, uit Cortes huis, aan my op 't sterkst verpligt,</l>
 						<l>Hoorde in een' duistren hoek, waar hy zich had verstoken,</l>
-						
+
 						<l>'t Geen door Semire tot Melinde wierd gesproken.</l>
 						<l>Zambizaas Echtgenoot melde aan de Ryksvorstin</l>
 						<l>Van Sempaola, dat zy Cortes Gemalin</l>
@@ -922,7 +916,7 @@
 						<l>En toon' hem dat we eerlang een' wreevlen opstand vreezen.</l>
 						<l>Zambiza zal het hoofd van 't eedverwantschap weezen.</l>
 						<l>Ziedaar hem schuldig. Maar gy hebt genoeg gehoord;</l>
-						
+
 						<l>Ik durf my langer niet verwydren van de poort</l>
 						<l>Aan myne zorg betrouwd. Nu kunt gy wraak verwerven.</l>
 					</sp>
@@ -1011,7 +1005,7 @@
 						<l>Van Urira, opdat Colombus met de zynen,</l>
 						<l>Voldaan met deezen buit, naar Spanje keeren zou.</l>
 						<l>Die Vlootvoogd scheen zo sterk bekoord door deeze trouw,</l>
-						
+
 						<l>Dat hy myn' Gaê beloofde een heusch bezoek te geeven.</l>
 						<l>'s Lands Grooten, op die maar' van allen schroom ontheven,</l>
 						<l>Verscheenen in ons huis, ter eer van 't Spaansch gebroed.</l>
@@ -1038,7 +1032,7 @@
 					<sp who="#semire">
 						<speaker>Semire</speaker>
 						<l>Ik voel myn teder hart verscheurd door uw verdriet.</l>
-						
+
 						<l>Och! zaagt gy na dat uur uw waarde Weêrhelft niet?</l>
 					</sp>
 					<sp who="#melinde">
@@ -1093,7 +1087,7 @@
 						<l>Naar Hispanjola met de slaaven was gescheept.</l>
 						<l>Dees boô zwoer by de Goôn, dat hy met eigen oogen</l>
 						<l>Hem had gezien wanneer de Spanjaards heenen toogen;</l>
-						
+
 						<l>Dat hy hem had herkend; schoon myn Gemaal, uit zorg,</l>
 						<l>Zich onder zeekren naam, dien hy niet wist, verborg;</l>
 						<l>Maar dat hy aan zyn' Vorst geen blyk van trouw dorst geeven,</l>
@@ -1122,7 +1116,7 @@
 						<l>En Kroost, zo lang beschreid, in 't einde weêr te vinden.</l>
 						<l>Maar 'k heb my-zelf misleid. De Vlootvoogd, verr' dat hy</l>
 						<l>Naar Hispanjola keer', trekt landwaart in; en wy</l>
-						
+
 						<l>Zien ons gedwongen hem te volgen. Ach! myn Waarde!</l>
 						<l>Zo iemand, tot myn' troost, my nog den naam verklaarde</l>
 						<l>Die myn Monzongo draagt, 'k viel straks aan Cortes kniên:</l>
@@ -1196,7 +1190,7 @@
 						<l>Wilt gy, trouwhartigste aller Vrouwen,</l>
 						<l>Een oogenblik de wacht by gindschen toegang houên,</l>
 						<l>Opdat ons stil gesprek van niemand word' gehoord?</l>
-						
+
 						<l>Het Spaansche moordrot zwerft gestadig door dit oord.</l>
 						<l>'k Ben hier, een uur geleên, hen naauwelyks ontkomen,</l>
 						<l>En 't is van 't hoogst gewigt hier niet te zyn vernomen.</l>
@@ -1428,7 +1422,7 @@
 					<sp who="#semire">
 						<speaker>Semire</speaker>
 						<l>Wat hiertoe oorzaak gaf blyft me een geheimenis;</l>
-						
+
 						<l>Doch 't is ontwyfelbaar dat hy onschuldig is.</l>
 						<l>Ik ken Zambizaas hart; ik ken zyn mededoogen;</l>
 						<l>Ik ken zyn trouw. 'k Ben in zyn onschuld niet bedrogen.</l>
@@ -1588,7 +1582,7 @@
 						<l>Zo hy de Vorst is die Verragua gebood,</l>
 						<l>De schrik des Castiljaans, uw dierbaare Echtgenoot,</l>
 						<l>Zal Spanje nimmer hem zyn' tegenstand vergeeven.</l>
-						
+
 						<l>Ach! waar' dit een geheim! ô Hemel! mogt hy leeven!</l>
 						<stage>Melinde omhelzende.</stage>
 						<l>Ach! leefde hy voor u!</l>
@@ -1666,7 +1660,7 @@
 						<l>En door zyn ballingschap uw mededoogen groeide,</l>
 						<l>Op 't glorirykst betoond. Herinner u dien tyd,</l>
 						<l>En al 't geleden leed, dat gy te boven zyt;</l>
-						
+
 						<l>Maar ons, rampzaligen, ons is geen troost gebleven.</l>
 						<l>Ons leed zal eindigen by 't einden van ons leven.</l>
 					</sp>
@@ -1703,7 +1697,7 @@
 						<speaker>Catharina</speaker>
 						<l>De Raadsvergaadring scheid. De wacht genaakt de zaal,</l>
 						<l>En spelt door zyne komst de komst van myn' Gemaal.</l>
-						
+
 						<l>Gy zyt te sterk ontroerd. Ontwykt zyn scherpziende oogen.</l>
 						<l>Melinde, kan het zyn, verberg uw mededoogen</l>
 						<l>Voor uwen Echtgenoot; en gy, Semire, smeek</l>
@@ -1768,7 +1762,7 @@
 					<sp who="#catharina">
 						<speaker>Catharina</speaker>
 						<l>Ik ken haar vroom gemoed.</l>
-						
+
 						<l>'k Staa voor haare onschuld in; zy zal geen rampen brouwen.</l>
 					</sp>
 					<sp who="#cortes">
@@ -1803,7 +1797,7 @@
 						<l>En heeft my aangezet hem voor de wreede smart</l>
 						<l>Der pynigingen tot dit oogenblik te hoeden.</l>
 						<l>Doch Alvarado blyft, verbitterd, op hem woeden,</l>
-						
+
 						<l>Om zich te wreeken van den hoon door hem geleên.</l>
 					</sp>
 					<sp who="#catharina">
@@ -1832,7 +1826,7 @@
 						<l>Zo ik Zambiza tot geen spreeken kan beweegen;</l>
 						<l>Indien ik hem niet straf, zo ik hem schuldig vind,</l>
 						<l>Zal Alvarado, die my opvolgt in 't bewint,</l>
-						
+
 						<l>Na myn vertrek veelligt my tot een' vyand strekken.</l>
 						<l>'k Staa met het heir gereed om landwaart in te trekken.</l>
 						<l>De vloot, die 'k aan dees kust van Hispanjola wacht,</l>
@@ -1863,7 +1857,7 @@
 						<speaker>Catharina</speaker>
 						<l>Indien</l>
 						<l>Ik, waarde Cortes! u zyne onschuld kon doen zien,</l>
-						
+
 						<l>En dat hy nimmer dacht het minst verraad te smeeden;</l>
 						<l>Zo ik hem redden kon in deeze omstandigheden,</l>
 						<l>Zo ik een middel wist, zoud gy uw Hartvriendin</l>
@@ -1900,7 +1894,7 @@
 						<l>De huwlyksliefde. Ach! hoor my smeeken!</l>
 						<l>Denk, zo ik 't waagen durf u van myn' rang te spreeken,</l>
 						<l>Dat u een Koningstelg als haar' Beschermer eert,</l>
-						
+
 						<l>En met haar Kindren zich in 't stof voor u verneêrt.</l>
 						<stage>Tegen haare Kinderen.</stage>
 						<l>Knielt neêr, rampspoedig Kroost, in slaverny geboren!</l>
@@ -1934,7 +1928,7 @@
 						<l>Geloof myn traanen. Zou Zambiza, die voordeezen</l>
 						<l>Zyn leven waagde voor het uwe, schuldig weezen?</l>
 						<l>Hy immer u verraên? Helaas! gy wend het hoofd.</l>
-						
+
 						<l>'t Is uit met hem, nu gy, gy-zelf zyn schuld gelooft.</l>
 						<l>Rampzalige Echtgenoot! gy zyt gedoemd tot sneeven.</l>
 						<l>Ter dood gedoemd! moet ik, ô Hemel! dit beleeven;</l>
@@ -1975,7 +1969,7 @@
 						<stage>tegen Semire.</stage>
 						<l>Droeve vrouw! rys met uw huwlykspanden.</l>
 						<l>Ik stel uw aller lot myne Echtgenoote in handen.</l>
-						
+
 						<stage>Tegen Catharina.</stage>
 						<l>Mevrouw, uw Gade kent uw oordeel en beleid;</l>
 						<l>Doe aan zyn inborst recht: gy kent zyn tederheid.</l>
@@ -2043,7 +2037,7 @@
 						<l>Die aan my is verpligt, zal heimlyk op myn woord</l>
 						<l>Uw' Echtgenoot ontslaan. Hy vliê straks uit dit oord.</l>
 						<l>Gy moet dit aan Melinde op 't oogenblik ontdekken.</l>
-						
+
 						<l>Laat ze in der yl met hem naar Sempaola trekken;</l>
 						<l>Daar zyn zy veilig. En Zambiza zal gewis,</l>
 						<l>Als hy zyn leven aan myn gunst verschuldigd is,</l>
@@ -2076,7 +2070,7 @@
 						<speaker>Catharina</speaker>
 						<l>Het is onmooglyk dit te dulden in 't kasteel.</l>
 						<l>De zaak eischt spoed. De tyd is kort. Men waagt te veel.</l>
-						
+
 						<l>En, stemde ik in uw beê, men zou hem straks ontdekken.</l>
 					</sp>
 					<sp who="#semire">
@@ -2111,7 +2105,7 @@
 						<l>Maak zelf dat ik zyn' eisch onfeilbaar wederstaa.</l>
 						<l>Mevrouw, bewaar myn Kroost totdat ik weêr verschyne.</l>
 						<l>Gy kent het harte van een moeder, en ook 't myne.</l>
-						
+
 						<l>Myn trouw troost zich om hen het alleryslykst leed;</l>
 						<l>'k Vergeet my-zelve eer ik myn dierbaar Kroost vergeet.</l>
 					</sp>
@@ -2169,7 +2163,7 @@
 						<l>Zy offert zich voor ons, en ik, zou ik gedoogen,</l>
 						<l>ô Trouwe Wederhelft! dat gy, beroofd van troost,</l>
 						<l>In slaverny verkwynt met ons rampzalig Kroost?</l>
-						
+
 						<l>Neen. 'k Zal om uw behoud geen lyfsgevaaren vreezen.</l>
 						<l>Hebt gy uw' Gaê gered, hy zal uw Redder weezen.</l>
 						<l>Gewis is Quantimoc met onzen Vriendenstoet</l>
@@ -2198,7 +2192,7 @@
 					<sp who="#melinde">
 						<speaker>Melinde</speaker>
 						<l>Monzongo! myn Gemaal! gy leeft, hoe vreemd zulks schyne?</l>
-						
+
 						<l>ô Wellust van myn ziel! ô Troost in myne elend!</l>
 						<l>Word gy door uw Melinde op 't onverwachtst herkend</l>
 						<l>Nadat zy, jaaren lang, die zo veele eeuwen scheenen,</l>
@@ -2229,7 +2223,7 @@
 						<l>Grootmoedige Melinde! ik schroom niet u te toonen</l>
 						<l>Dat dankbaarheid en trouw myn' boezem nog bewoonen;</l>
 						<l>Dat, schoon 't geweld my aan Semire huuwen deed,</l>
-						
+
 						<l>Haar deugd, haar teêrheid, haar behulpzaamheid in 't leed,</l>
 						<l>Haare onvermoeide vlyt in voor myn rust te waaken,</l>
 						<l>Haar onheil-zelf, my deed in dankbre weêrmin blaaken.</l>
@@ -2266,7 +2260,7 @@
 					<sp who="#monzongo">
 						<speaker>Zambiza</speaker>
 						<l>Ach! verg my niet u ooit hiervan bericht te geeven.</l>
-						
+
 						<l>Vergeet, vergeet het geen voorby is; vraag niets meer.</l>
 					</sp>
 					<sp who="#melinde">
@@ -2301,7 +2295,7 @@
 						<l>'k Ontkwam gelukkig, stout gesprongen in de zee,</l>
 						<l>Al zwemmend' hun geweld. Myn Vrienden poogden meê</l>
 						<l>Hunn' ramp te ontworstlen; maar vergeefs! 't was all' verloren.</l>
-						
+
 						<l>'t Was toen dat zy den dood voor slaverny verkooren.</l>
 						<l>Toen heeft hun wanhoop hen en ook ons Kroost geslagt.</l>
 					</sp>
@@ -2332,7 +2326,7 @@
 						<l>Zyt weêrgegeeven.</l>
 						<stage>Ter zyde.</stage>
 						<l>Om myn' laatsten zucht te ontfangen.</l>
-						
+
 						<stage>Tegen Zambiza.</stage>
 						<l>Myn dierbre Wederhelft, vergroot myn wanhoop niet.</l>
 					</sp>
@@ -2364,7 +2358,7 @@
 						<l>En ons geheim gesprek slechts voor een uur gehengt.</l>
 						<l>Uw stille ontkoming blyft, door Catharinaas zorgen,</l>
 						<l>Totdat ik wederkeer' den Castiljaan verborgen.</l>
-						
+
 						<l>Dus zyn wy veilig; doch een uur vliegt ras voorby.</l>
 						<stage>Tegen Zambiza.</stage>
 						<l>Ik ken uw tederheid, ik ken uw trouw voor my,</l>
@@ -2393,7 +2387,7 @@
 						<l>Gy vond me uwe achting waard', en in het einde uw min.</l>
 						<l>Uw tederheid groeide aan; ik mogt dien zegen smaaken;</l>
 						<l>Myn Kroost zal my dit heil altoos indachtig maaken.</l>
-						
+
 						<l>'k Zeg niet dat ik myn trouw aan u heb toegewyd:</l>
 						<l>'t Is door die trouw-alléén dat gy in vryheid zyt.</l>
 						<l>'k Erken des Hemels magt, zyn gunst ziet op u neder;</l>
@@ -2424,7 +2418,7 @@
 						<l>Ach! zou ik, de felste boezempyn</l>
 						<l>Ten prooije, en wreed beroofd van myne Huwlykspanden,</l>
 						<l>Verbreekster weezen van de heiligste aller banden?</l>
-						
+
 						<l>Semire met haar Kroost rampzalig maaken? neen.</l>
 						<stage>Tegen Semire, haar omhelzende.</stage>
 						<l>Vriendin! nooit rukt Melinde u en uw' Gaê vanéén.</l>
@@ -2487,7 +2481,7 @@
 					<sp who="#melinde">
 						<speaker>Melinde</speaker>
 						<l>Ach! wilt gy dat ik leeve,</l>
-						
+
 						<l>Ontwyk dan meê dit oord.</l>
 					</sp>
 					<sp who="#semire">
@@ -2563,7 +2557,7 @@
 						<stage>tegen Semire.</stage>
 						<l>Dit geheim besloot ik u te melden</l>
 						<l>Deez' nacht in onze hut. Ik heb drie duizend helden,</l>
-						
+
 						<l>Myn Vrienden, aangezet door myn' gerechten wrok,</l>
 						<l>Reeds in 't geweer gebragt met hulp van Quantimoc:</l>
 						<l>Zy weeten niets van 't geen hier straks is voorgevallen,</l>
@@ -2668,7 +2662,7 @@
 						<l>Zyn wacht had omgekocht, hoe vreemd u zulks ook schyne;</l>
 						<l>'k Weet dat haar Gaê daarvan geheel onkundig is.</l>
 						<l>Die wacht vertrouwde 't my als een geheimenis.</l>
-						
+
 						<l>Bewust wat felle spyt die vlucht u zou verwekken,</l>
 						<l>Dreef my myn yver aan om ze u terstond te ontdekken.</l>
 					</sp>
@@ -2743,7 +2737,7 @@
 						<l>Ik had om 't onheil dat ons dreigde door zyn' dood,</l>
 						<l>Uit wettig staatsbelang hem 't leven moeten spaaren;</l>
 						<l>Maar moogelyk my-zelv' gedompeld in gevaaren,</l>
-						
+
 						<l>Door Alvaradoos wrok my op den hals te laên.</l>
 						<l>Uw schranderheid deed me al die zwaarigheên ontgaan;</l>
 						<l>Doch Alvaradoos haat, die niet is in te toomen,</l>
@@ -2841,7 +2835,7 @@
 					<sp who="#monzongo">
 						<speaker>Zambiza</speaker>
 						<l>Ons heil? neen, uw belang dryft u naar dit gewest.</l>
-						
+
 						<l>Uw roofziek oog is op den glans van 't goud gevest,</l>
 						<l>Van 't goud, dat u zo woest doet in deeze oorden dringen,</l>
 						<l>En dat onze onkunde u verruilt voor beuzelingen.</l>
@@ -2870,7 +2864,7 @@
 						<l>Men durft, natuur ten spyt, de naauwste banden schenden.</l>
 						<l>Men scheid de harten die haar invloed saamen bind;</l>
 						<l>De Gade van haar' Gade, en de ouders van het kind;</l>
-						
+
 						<l>En zend, in weêrwil van al 't klaagen, smeeken, weenen,</l>
 						<l>Dees zuid- of noordwaarts op, die oost- of westwaarts heenen;</l>
 						<l>En dwingt de onzaalgen, die gy dus wreedäartig scheid,</l>
@@ -2934,7 +2928,7 @@
 						<l>Waar worde ik heen gedreven!</l>
 						<l>Helaas! 't verwyt word door de ervaarenis gestaafd.</l>
 						<l>Ons, door 't geloof verlicht, en, door de wet beschaafd,</l>
-						
+
 						<l>Ons ziet men onze leer, ô schand! door daên verzaaken</l>
 						<l>Waaräan dit heidendom zich niet zou schuldig maaken.</l>
 						<l>Wy doemen 't wreed ter dood als 't voor zyn leven stryd.</l>
@@ -2965,7 +2959,7 @@
 						<l>Voert elk een brandend hout, om, zo wy 't niet beletten,</l>
 						<l>Dees nieuwgebouwde sterkte in lichte vlam te zetten.</l>
 						<l>Semire en Quantimoc verëenen hunne kracht;</l>
-						
+
 						<l>Die noopt hen door geschreeuw, dees door haar jammerklagt,</l>
 						<l>Om 't onheil van Zambize en van haar Kroost te wreeken.</l>
 						<l>Wee ons indien hun vuur de vesting aan kan steeken!</l>
@@ -3025,7 +3019,7 @@
 						<speaker>Cortes</speaker>
 						<stage>tegen de Lyfwachten.</stage>
 						<l>Geleid Melinde hier, haalt voorts haar' Echtgenoot.</l>
-						
+
 						<stage>Tegen Catharina.</stage>
 						<l>'k Hoor mooglyk nog door hen waar 't eedgespan uit sproot.</l>
 					</sp>
@@ -3057,7 +3051,7 @@
 						<l>'k Spoor echter liefst den grond niet na van uw gedrag,</l>
 						<l>Omdat myn gunstig oog niet gaarne u schuldig zag.</l>
 						<stage>Hy ontboeit haar.</stage>
-						
+
 						<l>'k Stel u in vryheid en heb alles u vergeeven.</l>
 						<l>Uw Vaders Vader scheidde op gistren uit het leven;</l>
 						<l>Ik zal als Erfvorstin u plaatsen op den troon.</l>
@@ -3093,7 +3087,7 @@
 					<sp who="#monzongo">
 						<speaker>Zambiza</speaker>
 						<l>De wraak is niet voldaan dat zy my sneeven ziet;</l>
-						
+
 						<l>Helaas! zy wil vooräf, door uw wanhoopig treuren</l>
 						<l>En 't jammren van myn Kroost, myn droeve ziel verscheuren.</l>
 					</sp>
@@ -3129,7 +3123,7 @@
 						<l>Om tyding van myn Kroost en Echtgenoot te ontfangen</l>
 						<l>Dreef my hier heen, en heeft my 't uiterst doen bestaan.</l>
 						<l>Zou ik, nadat gy hen al t'saamen deed vergaan,</l>
-						
+
 						<l>Zou ik me aan u, myn volk zich aan uw volk verbinden?</l>
 						<l>Neen. Wilt ge u allen hier in veiligheid bevinden,</l>
 						<l>Voeg dan de Moeder by de Kinders; dat de Gaê</l>
@@ -3198,7 +3192,7 @@
 						<l>Vermogten om haar volk tot stoutheid aan te maanen,</l>
 						<l>Vloog hy kloekmoedig in hun drommen; greep metëen</l>
 						<l>Haar schreeuwend by den arm, en trok haar vestwaarts heen.</l>
-						
+
 						<l>Doch door het slaavenheir van allen kant besprongen,</l>
 						<l>Zag hy, ter dood gegriefd, haar zyne vuist ontwrongen.</l>
 						<l>Men zegt, zy is gewond; doch of zulks is geschied</l>
@@ -3261,7 +3255,7 @@
 						<l>Grootmoedig Landvoogd, zo gy ons van deeze stranden</l>
 						<l>U had doen volgen naar de Mexicaansche Landen;</l>
 						<l>Of zelf ons had bestierd naar uwe ervarenis,</l>
-						
+
 						<l>Met de edelmoedigheid, die u zo eigen is,</l>
 						<l>Nooit had ons vreedzaam volk een' opstand voorgenomen.</l>
 						<l>Het onheil, 't geen ons in uw afzyn stond te schroomen</l>
@@ -3311,7 +3305,7 @@
 						<l>Ik was die niet onwaard': toon my weêr mededoogen!</l>
 						<l>ô Eedle Cortes! toon hoe krachtig het vermogen</l>
 						<l>Van uwen Godsdienst werkt op uw verlicht gemoed;</l>
-						
+
 						<l>Hoe sterk een zucht gy tot het heil van 't menschdom voed.</l>
 						<l>Ik vond uw' Godsdienst zo beminlyk, zo verheven,</l>
 						<l>Dat ik, hoe slecht ik dien door de uwen zag beleeven,</l>
@@ -3417,7 +3411,7 @@
 						<speaker>Cortes</speaker>
 						<l>ô Braave Quantimoc! ik staaf het vreêverdrag,</l>
 						<l>En scheld u 't misdryf kwyt, begaan op deezen dag.</l>
-						
+
 						<l>Uw-aller trouw verdient dat we uw beschermer strekken:</l>
 						<l>Gy allen zult met my naar Mexico vertrekken.</l>
 					</sp>

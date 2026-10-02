@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000223" xml:lang="nl">
 	<teiHeader>
 		<fileDesc>
@@ -12,7 +12,6 @@
 						<surname>Rodenburg</surname>
 					</persName>
 					<idno type="wikidata">Q2361491</idno>
-					<idno type="pnd"/>
 				</author>
 			</titleStmt>
 			<publicationStmt>
@@ -24,8 +23,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/rode001casa01_01/index.php</idno>
+					<ref target="https://www.dbnl.org/tekst/rode001casa01_01/index.php">DBNL</ref>
 					<availability status="free">
 						<p>In the public domain.</p>
 					</availability>
@@ -34,6 +32,11 @@
 					<title>Theodoor Rodenburg, Casandra. Hertoginne van Borgonie en Karel Baldeus.
 						Amsterdam: Cornelis Lodewijksz. Vander Plasse, 1617.</title>
 				</bibl>
+				<listEvent>
+					<event type="print" when="1617">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -107,16 +110,7 @@
 			</listChange>
 		</revisionDesc>
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="print" when="1617">
-				<desc/>
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-		</listRelation>
-	</standOff>
+	
 	<text>
 		<front>
 			<docTitle>
@@ -352,7 +346,7 @@
 						<l>Een Hertoginnens eer, dwinght afterdenckingh neer.</l>
 						<l>'k Besluyt, en gans vergeet d'eer, en zijn Ecxellency,</l>
 						<l>En onbevreest verwaght van mins-God mijn sentency.</l>
-						<l>Grymaldus roept Camil.</l>						
+						<l>Grymaldus roept Camil.</l>
 					</sp>
 					<stage>Camilla.</stage>
 					<sp who="#camilla">
@@ -439,7 +433,7 @@
 						<l>Om hunne teere graeght te gheven t'zoete aes:</l>
 						<l>Soo henghel ick, en nae mijn Carels komtste raes,</l>
 						<l>En lijckwel schricken zal als ick hem zal beooghen,</l>
-						<l>Vermidts ick meerder wensk' als spraeck zal eysken moghen</l>						
+						<l>Vermidts ick meerder wensk' als spraeck zal eysken moghen</l>
 					</sp>
 					<stage>Camilla. Carel.</stage>
 					<sp who="#camilla">
@@ -659,7 +653,7 @@
 						<l>Maer immer traght nae't hooghst, u zelven veel vertrout,</l>
 						<l>Een ask' hy krijght die aen de gouden Waghen houdt,</l>
 						<l>En overdenckt al 'tgheen ghy my nu zegghen hoorden,</l>
-						<l>Met Wysen, somen zeyt, gebruycktmen weynich woorden.</l>						
+						<l>Met Wysen, somen zeyt, gebruycktmen weynich woorden.</l>
 					</sp>
 					<stage>binnen.</stage>
 					<sp who="#karel">
@@ -701,7 +695,7 @@
 						<l>Ha Carel, lieve Lief, 'k wensch ick nu by u waer,</l>
 						<l>Laes, moght ick zien u hert, om weten of ick daer</l>
 						<l>Huys gh'lijck ghy rust in mijn, tijt moet het openbaren,</l>
-						<l>Denckt dat ick uwen was, en ghy mijn, nu zes Jaren.</l>						
+						<l>Denckt dat ick uwen was, en ghy mijn, nu zes Jaren.</l>
 					</sp>
 					<stage>Carel Baldeus.</stage>
 					<sp who="#karel">
@@ -966,7 +960,7 @@
 					</sp>
 					<sp who="#karel">
 						<speaker>Karel</speaker>
-						<l>Vaert wel, mijn Lief, omhelst my voor het laest.</l>						
+						<l>Vaert wel, mijn Lief, omhelst my voor het laest.</l>
 					</sp>
 					<stage>Binnen.</stage>
 					<sp who="#leonora">
@@ -1123,7 +1117,7 @@
 						<speaker>Leonoor.</speaker>
 						<l>Maer zoo de Princens eghts-lust d'herderinne ztilt,</l>
 						<l>En Liefd' de oorsaeck is, zoo moet ghy oock verschoonen</l>
-						<l>Zoo ick een Gravens-liefd' met weer-liefd' niet kan loonen.</l>						
+						<l>Zoo ick een Gravens-liefd' met weer-liefd' niet kan loonen.</l>
 					</sp>
 					<stage>Carel. In boere kleederen.</stage>
 					<sp who="#karel">
@@ -1701,7 +1695,7 @@
 						<l>God geef dat dees omhelsingh 't laeste moghte wezen,</l>
 						<l>Want zulcken afkeer in dees boesem is gheresen</l>
 						<l>Dat als ick d'Hertogh zie ick ysselijck verschrick,</l>
-						<l>Zwijght tongh op dat ick zelfs my zelven niet verklick.</l>						
+						<l>Zwijght tongh op dat ick zelfs my zelven niet verklick.</l>
 					</sp>
 					<stage>Carel.</stage>
 					<sp who="#karel">
@@ -1822,7 +1816,7 @@
 						<l>Van liefde was alleen om uw door mijn beleyt</l>
 						<l>Te ryzen, en door d'echte staet u groot te maken,</l>
 						<l>Met een zeer eed'le vrou, 'tgheen ghy recht anders duyd,</l>
-						<l>En oordeelt recht verkeert, baldadighen schaefuyt.</l>						
+						<l>En oordeelt recht verkeert, baldadighen schaefuyt.</l>
 					</sp>
 					<stage>De Hertoginne binnen.</stage>
 					<sp who="#karel">
@@ -1836,7 +1830,7 @@
 						<l>En spreken recht verkeert, of ick heur had ghetercht,</l>
 						<l>En door onkuyse lust oneerbaerheyt ghevercht.</l>
 						<l>Ach, Carel, laes in wat verdriet kund' ghy noch raken,</l>
-						<l>En waerde, Leonoor, wat comt u onlucx naken.</l>						
+						<l>En waerde, Leonoor, wat comt u onlucx naken.</l>
 					</sp>
 					<stage>Prudentio. Men Trommelt en Trompet.</stage>
 					<sp who="#prudent">
@@ -2276,7 +2270,7 @@
 						<l>Stoot doch uw venster op, of vreest ghy dach te zien</l>
 						<l>Door droefheydt die u knelt, ha Carel en verdien</l>
 						<l>Ick niet, ghy ziet dat liefde Leonoor kan leden</l>
-						<l>Als Hertogin, uw vrou, en bloem-vercoopster mede.</l>						
+						<l>Als Hertogin, uw vrou, en bloem-vercoopster mede.</l>
 					</sp>
 					<stage>Prudentio. Feliciano.</stage>
 					<sp who="#feliciano">
@@ -2585,7 +2579,7 @@
 					</sp>
 					<sp who="#feliciano">
 						<speaker>Feliciano</speaker>
-						<l>Zo mogen wy wel gaen.</l>						
+						<l>Zo mogen wy wel gaen.</l>
 					</sp>
 					<stage>Binnen.</stage>
 					<sp who="#leonora">
@@ -2604,7 +2598,7 @@
 						<l>Ick zie hem, lieve hert', 'tis nu tijd dat ick rijs,</l>
 						<l>En aen mijn lieve lief liefds-teeken nu bewijs:</l>
 						<l>Wie ken doch dezen rock? allenskens moet ick naken,</l>
-						<l>Ghelijck een visschen om in't waters zoet te raken.</l>						
+						<l>Ghelijck een visschen om in't waters zoet te raken.</l>
 					</sp>
 					<stage>Karel int venster van zijn ghevange-Kamer.</stage>
 					<sp who="#karel">
@@ -2825,7 +2819,7 @@
 						<l>Van zyne lippens drucking, brenght ghij't lieve teecken.</l>
 						<l>Doch om my van uw' luck wraeck-gierichlik te wreken,</l>
 						<l>Mits ghy in glory braldt dewijl ick leef in smert,</l>
-						<l>Zal ick u plaetsen nu int naeste mynes hert.</l>						
+						<l>Zal ick u plaetsen nu int naeste mynes hert.</l>
 					</sp>
 					<stage>Zy steeckt het roosken naest haer hert.</stage>
 					<sp who="#karel">
@@ -2939,7 +2933,7 @@
 						<l>En offer met een bloosken op zijn vel uyt brack</l>
 						<l>Als hy hem zeyden dat ick vande Hertoginne</l>
 						<l>Verstaen had 'tstout bestaen zijns godeloose minne.</l>
-						<l>Prudentio die komt.</l>						
+						<l>Prudentio die komt.</l>
 					</sp>
 					<stage>Prudentio.</stage>
 					<sp who="#aernout">
@@ -3155,7 +3149,7 @@
 					</sp>
 					<sp who="#prudent">
 						<speaker>Prud.</speaker>
-						<l>Hier comt hy zelven.</l>						
+						<l>Hier comt hy zelven.</l>
 					</sp>
 					<stage>KAREL.</stage>
 					<sp who="#karel">
@@ -3280,7 +3274,7 @@
 					<sp who="#karel">
 						<speaker>Karel.</speaker>
 						<l>Lang leeft genaed'ge Heer, en laet my deze voeten,</l>
-						<l>Eerbied'lik g'raken.</l>						
+						<l>Eerbied'lik g'raken.</l>
 					</sp>
 					<stage>Binnen.</stage>
 					<sp who="#karel">
@@ -3337,7 +3331,7 @@
 						<l>En heb hem breed verhaelt de liefde die ik drage,</l>
 						<l>Ha wist ik waer hy waer 'k zoud hem vrymoedich vragen,</l>
 						<l>Of hy een vriendens stuk aen zijn vriend wou besteen.</l>
-						<l>O Hemel wel te pas comt hy hier dus aentreen.</l>						
+						<l>O Hemel wel te pas comt hy hier dus aentreen.</l>
 					</sp>
 					<stage>Karel.</stage>
 					<sp who="#feliciano">
@@ -3435,7 +3429,7 @@
 					<sp who="#karel">
 						<speaker>Karel.</speaker>
 						<l>Noch niet, laet ons het zingen en het spel eerst hooren,</l>
-						<l>Nu Leonora leest/</l>						
+						<l>Nu Leonora leest/</l>
 					</sp>
 					<stage>Daer wert ghezongen en ghespeelt.</stage>
 					<sp who="#karel">
@@ -3508,7 +3502,7 @@
 					<sp who="#karel">
 						<speaker>Karel.</speaker>
 						<l>Dat zalmen hooren lief. Heur ramp neemt nu begin,</l>
-						<l>Spreeckt zacht want daer is volk.</l>						
+						<l>Spreeckt zacht want daer is volk.</l>
 					</sp>
 					<stage>Zy spreeken beyde binnens monts </stage>
 					<sp who="#feliciano">
@@ -3568,7 +3562,7 @@
 					</sp>
 					<sp who="#leonora">
 						<speaker>Leonora.</speaker>
-						<l>Mijn Engel-lief vaert wel.</l>						
+						<l>Mijn Engel-lief vaert wel.</l>
 					</sp>
 					<stage>Binnen.</stage>
 					<sp who="#karel">
@@ -3714,7 +3708,7 @@
 						<l>Doch noet hy iemant my waer zyne liefd toe streckten,</l>
 						<l>Zo oord'lik lichtlik dat Casandra hem verwrekten,</l>
 						<l>Of dat hy heeft genoecht met eene die hy bad</l>
-						<l>Of dat hy met mijn vrou de ander voort vergat.</l>						
+						<l>Of dat hy met mijn vrou de ander voort vergat.</l>
 					</sp>
 					<stage>Prudentio.</stage>
 					<sp who="#prudent">
@@ -4232,7 +4226,7 @@
 						<l>'K verlang zeer na de uur dat Karel my zal leyden</l>
 						<l>Om zien mijn Zusters doent daer hy my veel van zeyden.</l>
 						<l>Onrustich is mijn geest tot dat ik zeker weet</l>
-						<l>Of't al warachtich is 'tgeen hy my heeft verbreed.</l>						
+						<l>Of't al warachtich is 'tgeen hy my heeft verbreed.</l>
 					</sp>
 					<stage>Binnen.</stage>
 					<sp who="#grimald">
@@ -4677,7 +4671,7 @@
 						<l>Voor uw al-schikker-Heer vermits uw straffen vielen</l>
 						<l>Op's Konings yd'le wraek, en Aernout ghy behoed</l>
 						<l>Zijn land en d'onderzaten in hun goed en bloed.</l>
-						<l>Verbreed zy uwe lof.</l>						
+						<l>Verbreed zy uwe lof.</l>
 					</sp>
 					<stage>Casandra.</stage>
 					<sp who="#casandra">
@@ -4966,9 +4960,9 @@
 						<l>Of by dees hand, ik zweert, wy zullen qualik scheyden.</l>
 						<l>En eer ik meerder zeg is't beter ik vertrek,</l>
 						<l>Voor dat ik tooren tot de haesticheid verwrek.</l>
-						
+
 					</sp>
-					<stage>binnen.</stage>					
+					<stage>binnen.</stage>
 					<stage>Casandra.</stage>
 					<sp who="#casandra">
 						<speaker>Casandra</speaker>
@@ -5338,7 +5332,7 @@
 						<l>Als d'echte man zy had, maer dit zijn vrouwens klachten,</l>
 						<l>Gelijk de winde gieren zwieren vrous gedachten.</l>
 						<l>Daer komt de Hertoch dies is't beste dat ik gae,</l>
-						<l>Eer hy my ken, op dat ik zelfs my niet verra.</l>						
+						<l>Eer hy my ken, op dat ik zelfs my niet verra.</l>
 					</sp>
 					<stage>binnen.</stage>
 					<stage>Hertoch Aernout.</stage>
@@ -5350,7 +5344,7 @@
 						<l>Vermits zy niet en was voor Lodewijk gebooren,</l>
 						<l>Doch reden kunnen veel, de nood die breekt de wet,</l>
 						<l>'t Voornemen is nu hem door Karel gansch belet,</l>
-						<l>Ik hoor de Graef, hy komt. t'is best ik hem ghemoete.</l>						
+						<l>Ik hoor de Graef, hy komt. t'is best ik hem ghemoete.</l>
 					</sp>
 					<stage>Lodewijk.</stage>
 					<sp who="#lodewijk">
@@ -5428,7 +5422,7 @@
 						<l>Niet lange zal dit rif mijn Grave hert behouwen.</l>
 						<l>Dees arme die versloech zo men'gen Fransen held,</l>
 						<l>Werdt nu tyrannelik als scherp-rechter gestelt.</l>
-						<l>Vw g'nade blijft, ik gae.</l>						
+						<l>Vw g'nade blijft, ik gae.</l>
 					</sp>
 					<stage>binnen.</stage>
 					<sp who="#aernout">
@@ -5438,7 +5432,7 @@
 						<l>Vyt 'tredelicke koor, oy me, helaes, wat raed?</l>
 						<l>De haren rysen my, mijn hertens polse slaet,</l>
 						<l>Mits dat hy reden heeft volkomen aen zijn zyde,</l>
-						<l>Doch alle werelds doent slist door't beloop des tyde.</l>						
+						<l>Doch alle werelds doent slist door't beloop des tyde.</l>
 					</sp>
 					<stage>Casandra.</stage>
 					<sp who="#casandra">
@@ -5503,7 +5497,7 @@
 					<sp who="#casandra">
 						<speaker>Casandra</speaker>
 						<l>Wat zullen wy nu doen om ons tijd te vergeten?</l>
-						<l>Hola.</l>						
+						<l>Hola.</l>
 					</sp>
 					<stage>Camilla.</stage>
 					<sp who="#camilla">
@@ -5924,7 +5918,7 @@
 						<l>In waegschael eens gestelt om Leonoor te winnen,</l>
 						<l>Wat schrikt ghy nu om ook te derven uwe zinnen?</l>
 						<l>Gheruster zult ghy zijn als ghy 't verstant zijt quijt,</l>
-						<l>Want door 'tgevoel, helaes? ghy deese knaging lijd.</l>						
+						<l>Want door 'tgevoel, helaes? ghy deese knaging lijd.</l>
 					</sp>
 					<stage>Casandra.</stage>
 					<sp who="#casandra">
@@ -6054,7 +6048,7 @@
 					<sp who="#casandra">
 						<speaker>Casandra</speaker>
 						<l>En door zijn dood zo mooght ghy Leonoor verwerven.</l>
-						<l>Heer Graef vaert wel.</l>						
+						<l>Heer Graef vaert wel.</l>
 					</sp>
 					<stage>Binnen.</stage>
 					<sp who="#lodewijk">
@@ -6087,7 +6081,7 @@
 						<l>Het bloed gheraekt my niet, 'tis maer door my beleydt leydt.</l>
 						<l>'t Is waer ik leyde aen maer dat heeft zijn bescheydt. scheydt.</l>
 						<l>Wat? scheyden ik niet zal van't geen ik heb in handen</l>
-						<l>Daer kom van wattet wil, al waert schoon in bloedschande.</l>						
+						<l>Daer kom van wattet wil, al waert schoon in bloedschande.</l>
 					</sp>
 					<stage>Dienaer.</stage>
 					<sp who="#dienaer">
@@ -6099,7 +6093,7 @@
 						<l>Wel laetze komen in.</l>
 						<l>'k Vertrou geen bloed verwant,</l>
 						<l>Maer vreemden die gelijk recht reukeloose menschen</l>
-						<l>Betrachten al te doen het geen mjn hert mach wenschen.</l>						
+						<l>Betrachten al te doen het geen mjn hert mach wenschen.</l>
 					</sp>
 					<stage>Lambrecht. Casou.</stage>
 					<sp who="#lambrecht">
@@ -6328,7 +6322,7 @@
 						<speaker>leonoor</speaker>
 						<l>Ja met dees hand zal ik my zelfs vermoorden,</l>
 						<l>En eerst uw eygen kind, 't wreed'st datmen immer hoorden,</l>
-						<l>Ik zweer't Grimaldus van mijn handen sterven zal.</l>						
+						<l>Ik zweer't Grimaldus van mijn handen sterven zal.</l>
 					</sp>
 					<stage>binnen.</stage>
 					<sp who="#karel">
@@ -6394,7 +6388,7 @@
 						<l>Gelijk of nu mijn kind waer gansch in doods gevaren,</l>
 						<l>Vw gh'nade hoop ik zal't onnoos'le wicht bewaren.</l>
 						<l>Nochtas ist best ik gae na mijn Grimaldus zien,</l>
-						<l>Op datter door de wraek geen zonde mach geschien.</l>						
+						<l>Op datter door de wraek geen zonde mach geschien.</l>
 					</sp>
 					<stage>binnen.</stage>
 					<stage>Vertooning hoe Casandra Grimaldus zijn armen bindt.</stage>
@@ -6405,14 +6399,14 @@
 						<l>Int Hof en is hy niet, ik weet niet waer ik loop,</l>
 						<l>Int lauren bosch ik zoeck Grimaldus, en verhoop</l>
 						<l>Ik mijn kind vinden zal, ach hemel wilt beletten</l>
-						<l>Zijn moeder heure wraek int werk niet en mach zetten.</l>						
+						<l>Zijn moeder heure wraek int werk niet en mach zetten.</l>
 					</sp>
 					<stage>binnen.</stage>
 					<stage>Vertooning waer Casandra Grimaldus ghebonden hebbende hem dreygt te
 						vermoorden.</stage>
 					<sp who="#karel">
 						<speaker>Karel.</speaker>
-						<l>Helaes, ik vind hem niet, ach hoe mijn herte trilt.</l>						
+						<l>Helaes, ik vind hem niet, ach hoe mijn herte trilt.</l>
 					</sp>
 					<stage>Prudentio.</stage>
 					<sp who="#karel">
@@ -6439,7 +6433,7 @@
 					</sp>
 					<sp who="#prudent">
 						<speaker>Prudent.</speaker>
-						<l>'tZal geschieden.</l>						
+						<l>'tZal geschieden.</l>
 					</sp>
 					<stage>beyde binnen.</stage>
 					<stage>Vertooning waer Casandra de pongiaert inde hand heeft en de hovenier
@@ -6497,7 +6491,7 @@
 					<sp who="#karel">
 						<speaker>Karel</speaker>
 						<l>Ja'k lief, ha lieve wicht, komt my, Grimaldus, nader,</l>
-						<l>In vaderlik behoed.</l>						
+						<l>In vaderlik behoed.</l>
 					</sp>
 					<stage>Leonora.</stage>
 					<sp who="#leonora">
@@ -6541,7 +6535,7 @@
 					</sp>
 					<sp who="#leonora">
 						<speaker>leonoor</speaker>
-						<l>Ik uw Moeder,</l>						
+						<l>Ik uw Moeder,</l>
 					</sp>
 					<stage>Aernout.</stage>
 					<sp who="#aernout">
@@ -6749,7 +6743,7 @@
 						<l>Houdt alles voort secreet, betoont in't minst geen teken</l>
 						<l>Dat ghy van't kind yets weet. 't verand'ren van habijt</l>
 						<l>Zal doen al die my zien geloven dat ghij't zijt,</l>
-						<l>Zo ben ik niet bekent.</l>						
+						<l>Zo ben ik niet bekent.</l>
 					</sp>
 					<stage>binnen.</stage>
 					<sp who="#karel">
@@ -6885,7 +6879,7 @@
 						<speaker>Aernout,</speaker>
 						<l>Graef Lodewijk wat's dit? helacy wien geloofden,</l>
 						<l>Dat in zo eed'len borst moordadicheid bestaet?</l>
-						<l>Verraed in mijn hof.</l>						
+						<l>Verraed in mijn hof.</l>
 					</sp>
 					<stage>Lodewijk.</stage>
 					<sp who="#lodewijk">
@@ -7080,7 +7074,7 @@
 					</sp>
 					<sp who="#prudent">
 						<speaker>Prudent.</speaker>
-						<l>De doente van de wereld zich zelven immer redden.</l>						
+						<l>De doente van de wereld zich zelven immer redden.</l>
 					</sp>
 					<stage>Graef Lodevvijk rasende vervolght zijnde van een stomme geest in
 						duyvels habijt, hebbende op sijn kleeding, VVantrou,

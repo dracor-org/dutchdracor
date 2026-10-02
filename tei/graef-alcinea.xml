@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000092" xml:lang="nl">
 	<teiHeader>
 		<fileDesc>
@@ -23,8 +23,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/grae002alci01_01/</idno>
+					<ref target="https://www.dbnl.org/tekst/grae002alci01_01/">DBNL</ref>
 					<availability status="free">
 						<p>In the public domain.</p>
 					</availability>
@@ -33,6 +32,11 @@
 					<title>Hendrik de Graef: Alcinea, of Stantvastige kuysheydt. Amsterdam: Adriaen
 						Venendael, 1671.</title>
 				</bibl>
+				<listEvent>
+					<event type="print" when="1671">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -105,16 +109,7 @@
 
 
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="print" when="1671">
-				<desc/>
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-		</listRelation>
-	</standOff>
+	
 	<text>
 		<front>
 			<docTitle>
@@ -270,8 +265,8 @@
 				<head>Het eerste bedryf.</head>
 				<div type="scene" n="1">
 					<stage>Alcinea. Klarimeen.</stage>
-					<sp who="#alcinea">		
-					
+					<sp who="#alcinea">
+
 					<l>HEer Broeder deze reên ontroeren mijne geest.</l>
 					</sp>
 					<sp who="#klarimeen">
@@ -2776,7 +2771,7 @@
 				<head>Het vyfde bedryf.</head>
 				<div type="scene" n="1">
 					<stage>Alcinea, Philon, Polimia, Octavia.</stage>
-					<sp who="#alcinea">	
+					<sp who="#alcinea">
 						<l>WAerom voertghy my weer ten Hoof, laet my in rust?</l>
 					</sp>
 					<sp who="#philon">

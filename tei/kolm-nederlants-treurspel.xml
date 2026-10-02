@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000212" xml:lang="nl">
 	<teiHeader>
 		<fileDesc>
@@ -22,8 +22,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/kolm001nede01_01/index.php</idno>
+					<ref target="https://www.dbnl.org/tekst/kolm001nede01_01/index.php">DBNL</ref>
 					<availability status="free">
 						<p>In the public domain.</p>
 					</availability>
@@ -31,6 +30,14 @@
 				<bibl type="originalSource">
 					<title>Jan Sijwertsz Kolm, Nederlants treur-spel. Paulus van Ravesteyn, Amsterdam 1616.</title>
 				</bibl>
+				<listEvent>
+					<event type="print" when="1616">
+						<desc/>
+					</event>
+					<event type="premiere" when="1616">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -38,7 +45,7 @@
 				<listPerson>
 					<person sex="FEMALE" xml:id="belgica">
 						<persName>Belgica</persName>
-					</person>					
+					</person>
 					<person sex="MALE" xml:id="bloedtdorstich-ghewelt">
 						<persName>Bloedtdorstich Ghewelt</persName>
 					</person>
@@ -122,19 +129,7 @@
 			</listChange>
 		</revisionDesc>
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="print" when="1616">
-				<desc/>
-			</event>
-			<event type="premiere" when="1616">
-				<desc/>
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-		</listRelation>
-	</standOff>
+	
 	<text>
 		<front>
 			<docTitle>

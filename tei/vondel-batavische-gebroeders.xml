@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000029" xml:lang="nl">
 	<teiHeader>
 		<fileDesc>
@@ -25,8 +25,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/vond001dewe09_01/vond001dewe09_01_0121.php</idno>
+					<ref target="https://www.dbnl.org/tekst/vond001dewe09_01/vond001dewe09_01_0121.php">DBNL</ref>
 					<title>J.F.M. Sterck, H.W.E. Moller, C.G.N. de Vooys, C.R. de Klerk, B.H.
 						Molkenboer, J. Prinsen J.Lzn., L. Simons, C.C. van de Graft, L.C. Michels,
 						J.D. Meerwaldt en A.A. Verdenius (eds), De werken van Vondel. Negende deel
@@ -40,6 +39,14 @@
 					<title>Joost van den Vondel: Batavische Gebroeders Of Onderdruckte Vryheit.
 						Amsterdam: widow of Abraham de Wees, 1663.</title>
 				</bibl>
+				<listEvent>
+					<event type="print" when="1663">
+						<desc/>
+					</event>
+					<event type="premiere" when="1663">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -83,19 +90,7 @@
 			</listChange>
 		</revisionDesc>
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="print" when="1663">
-				<desc/>
-			</event>
-			<event type="premiere" when="1663">
-				<desc/>
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-		</listRelation>
-	</standOff>
+	
 	<text>
 		<front>
 			<docTitle>
@@ -892,7 +887,6 @@
 					</sp>
 				</div>
 				<div type="scene" n="5">
-					<stage/>
 					<sp who="#rey-van-batavische-vrouwen">
 						<speaker>I. Zang</speaker>
 						<l>O Herkules, in offerwouden</l>
@@ -1290,7 +1284,6 @@
 
 				</div>
 				<div type="scene" n="3">
-					<stage/>
 					<sp who="#rey-van-batavische-vrouwen">
 						<speaker>I. Zang</speaker>
 						<l>Geluckigh leefden wy</l>
@@ -2490,7 +2483,6 @@
 					</sp>
 				</div>
 				<div type="scene" n="6">
-					<stage/>
 					<sp who="#rey-van-batavische-vrouwen">
 						<speaker>Zang</speaker>
 						<l>O Rijnstroom, die uit Rhetische Alpen,</l>
@@ -2981,7 +2973,6 @@
 					</sp>
 				</div>
 				<div type="scene" n="3">
-					<stage/>
 					<sp who="#rey-van-batavische-vrouwen">
 						<speaker>Zang</speaker>
 						<l>O Boschnon Welda, mont van Godt,</l>

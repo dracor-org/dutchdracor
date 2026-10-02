@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000226" xml:lang="nl">
 
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Het beleg der stad Leyden</title>
-				<title type="sub"/>
 				<author>
 					<persName>
 						<forename>Lucretia Wilhelmina</forename>
@@ -26,8 +25,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/wint009toon01_01/wint009toon01_01_0002.php</idno>
+					<ref target="https://www.dbnl.org/tekst/wint009toon01_01/wint009toon01_01_0002.php">DBNL</ref>
 					<title>Nicolaas Simon van Winter en Lucretia Wilhelmina van Merken,
 						Tooneelpoëzy. Deel 1. Pieter Meijer, Amsterdam 1774.</title>
 					<availability status="free">
@@ -38,6 +36,14 @@
 					<title>Nicolaas Simon van Winter en Lucretia Wilhelmina van Merken,
 						Tooneelpoëzy. Deel 1. Amsterdam: Pieter Meijer, 1774.</title>
 				</bibl>
+				<listEvent>
+					<event type="print" when="1774">
+						<desc/>
+					</event>
+					<event type="premiere" when="1775">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -98,19 +104,7 @@
 
 
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="print" when="1774">
-				<desc/>
-			</event>
-			<event type="premiere" when="1775">
-				<desc/>
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-		</listRelation>
-	</standOff>
+	
 	<text>
 		<front>
 

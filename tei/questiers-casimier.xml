@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000207" xml:lang="nl">
 
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Casimier</title>
-				<title type="sub">Of gedempte hoogmoet</title>							
+				<title type="sub">Of gedempte hoogmoet</title>
 				<author>
 					<persName>
 						<forename>Catharina</forename>
@@ -21,8 +21,7 @@
 						<surname>Enríquez Gómez</surname>
 					</persName>
 					<idno type="wikidata">Q4776592</idno>
-					<idno type="pnd"/>
-				</author>	
+				</author>
 			</titleStmt>
 			<publicationStmt>
 				<publisher xml:id="dracor">DraCor</publisher>
@@ -33,8 +32,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/ques002casi01_01/index.php</idno>
+					<ref target="https://www.dbnl.org/tekst/ques002casi01_01/index.php">DBNL</ref>
 					<availability status="free">
 						<p>In the public domain.</p>
 					</availability>
@@ -43,6 +41,14 @@
 					<title>Catharina Questiers: Casimier, Of gedempte hoogmoet. Amsterdam: Gerard
 						Smit / Gabriël à Roy, 1656.</title>
 				</bibl>
+				<listEvent>
+					<event type="print" when="1656">
+						<desc/>
+					</event>
+					<event type="premiere" when="1656">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
@@ -110,19 +116,7 @@
 			</listChange>
 		</revisionDesc>
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="print" when="1656">
-				<desc/>
-			</event>
-			<event type="premiere" when="1656">
-				<desc/>
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/"/>
-		</listRelation>
-	</standOff>
+	
 	<text>
 		<front>
 
@@ -694,7 +688,7 @@
 						<l>Laat toe dan Vorst, dat ick, die d'outste ben van jaaren,</l>
 						<l>En Adelijck Geslaght, u overschoone haaren</l>
 						<l>Met dese goude Kroon, op 't heerlijckts versier,</l>
-					</sp>					
+					</sp>
 					<stage>Segismont set hem de Kroon op 't hooft, en sy roepen al 't
 						samen.</stage>
 					<sp who="#casimier">
@@ -1527,7 +1521,7 @@
 						<l>Ick zal met needrigheyt, gaan volgen u believen.</l>
 					</sp>
 					<stage>Otrosky Leest.</stage>
-					<sp who="otrosky">
+					<sp who="#otrosky">
 					<l>Eerste verzoeck.</l>
 					<l>Ferdinandus die in den oorlogh u Vader en Broeder gedient heeft, die vertoont
 						hoe dat hy onder de Turck als een krijghs-helt zijn been verlooren
@@ -1592,7 +1586,7 @@
 						<l>O hooghmoet noyt gehoort, gants zonder wedergaa</l>
 					</sp>
 					<p>Vierde verzoeck.</p>
-					<sp who="otrosky">
+					<sp who="#otrosky">
 						<speaker>Otros.</speaker>
 					<l>Constantijn Dulsis vertoont sijn Majesteyt, hoe dat Ricardo zijn dochter
 						verkraght heeft, en al heeft hy hem in de kercker doen sluyten, zoo ken hy
@@ -1607,7 +1601,7 @@
 						<l>Dus smijt dat schrift vry wegh.</l>
 					</sp>
 					<p>Vijfde verzoeck.</p>
-					<sp who="otrosky">
+					<sp who="#otrosky">
 						<speaker>Otros.</speaker>
 					<l>Haar Hoogheyt Clorinde verzoeckt</l>
 					</sp>
@@ -1615,7 +1609,7 @@
 						<speaker>Casim.</speaker>
 						<l>Wat eyst zy? wilt u spoên:</l>
 					</sp>
-					<sp who="otrosky">
+					<sp who="#otrosky">
 						<speaker>Otros.</speaker>
 					<p>Verlof, terwijl sy niet trouwen en wil om haar in een Klooster te
 						begeven.</p>

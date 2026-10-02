@@ -1,6 +1,6 @@
-<!-- <?xml-model href="https://raw.githubusercontent.com/dracor-org/dracor-schema/main/dracor.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> !-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000310" xml:lang="dut">
-    <teiHeader> 
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dut000310" xml:lang="nl" type="dracor">
+	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title type="main">De andere Meij</title>
@@ -15,16 +15,12 @@
 				<publisher xml:id="dracor">DraCor</publisher>
 				<idno type="URL">https://dracor.org</idno>
 				<availability>
-					<licence>
-						<ab>CC0 1.0</ab>
-						<ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-					</licence>
+					<licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<name>DBNL</name>
-					<idno type="URL">https://www.dbnl.org/tekst/_tro001fams05_01/_tro001fams05_01_0018.php</idno>
+					<ref target="https://www.dbnl.org/tekst/_tro001fams05_01/_tro001fams05_01_0018.php">DBNL</ref>
 					<availability status="free">
 						<p>In the public domain.</p>
 					</availability>
@@ -34,43 +30,48 @@
 						blijcken. Bronnenuitgave van de boeken der Haarlemse rederijkerskamer ‘de
 						Pellicanisten’. Deel 5: Boek E. Uitgeverij Quarto, Assen 1994 </title>
 				</bibl>
+				<listEvent>
+					<event type="written" when="1598">
+						<desc/>
+					</event>
+				</listEvent>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<particDesc>
-				
-			<listPerson>
-				<person sex="FEMALE" xml:id="godtlijke-goetheijt">
-					<persName>Die godtlijke goetheijt</persName>
-				</person>
-				<person sex="MALE" xml:id="meeste-menicht">
-					<persName>Meeste menicht</persName>
-				</person>
-				<person sex="OTHER" xml:id="meij">
-					<persName>Meij</persName>
-				</person>
-				<person sex="MALE" xml:id="misbruijck">
-					<persName>Misbruijck</persName>
-				</person>
-				<person sex="UNKNOWN" xml:id="onbehoorlijk">
-					<persName>Onbehoorlijk</persName>
-				</person>
-				<person sex="MALE" xml:id="onbekentheijt">
-					<persName>Onbekentheijt</persName>
-				</person>
-				<person sex="UNKNOWN" xml:id="onwetenheijt">
-					<persName>Onwetenheijt</persName>
-				</person>
-				<person sex="MALE" xml:id="tinspreeken-goodts">
-					<persName>T'inspreeken goodts</persName>
-				</person>
-				<person sex="MALE" xml:id="verkeerde-lust">
-					<persName>Verkeerde Lust</persName>
-				</person>
-				<person sex="FEMALE" xml:id="weijnich-volcxs">
-					<persName>Weijnich volcxs</persName>
-				</person>
-			</listPerson>
+
+				<listPerson>
+					<person sex="FEMALE" xml:id="godtlijke-goetheijt">
+						<persName>Die godtlijke goetheijt</persName>
+					</person>
+					<person sex="MALE" xml:id="meeste-menicht">
+						<persName>Meeste menicht</persName>
+					</person>
+					<person sex="OTHER" xml:id="meij">
+						<persName>Meij</persName>
+					</person>
+					<person sex="MALE" xml:id="misbruijck">
+						<persName>Misbruijck</persName>
+					</person>
+					<person sex="UNKNOWN" xml:id="onbehoorlijk">
+						<persName>Onbehoorlijk</persName>
+					</person>
+					<person sex="MALE" xml:id="onbekentheijt">
+						<persName>Onbekentheijt</persName>
+					</person>
+					<person sex="UNKNOWN" xml:id="onwetenheijt">
+						<persName>Onwetenheijt</persName>
+					</person>
+					<person sex="MALE" xml:id="tinspreeken-goodts">
+						<persName>T'inspreeken goodts</persName>
+					</person>
+					<person sex="MALE" xml:id="verkeerde-lust">
+						<persName>Verkeerde Lust</persName>
+					</person>
+					<person sex="FEMALE" xml:id="weijnich-volcxs">
+						<persName>Weijnich volcxs</persName>
+					</person>
+				</listPerson>
 			</particDesc>
 			<textClass>
 				<keywords>
@@ -84,16 +85,7 @@
 			</listChange>
 		</revisionDesc>
 	</teiHeader>
-	<standOff>
-		<listEvent>
-			<event type="written" when="1598">
-				<desc />
-			</event>
-		</listEvent>
-		<listRelation>
-			<relation active="https://dracor.org/entity/" name="wikidata" passive="http://www.wikidata.org/entity/" />
-		</listRelation>
-	</standOff>
+	
     <text>
         <front> </front>
         <body>
@@ -1156,7 +1148,7 @@
 				<l>want waerdij belaen / Dat sou u Lieff weesen</l>
 			</sp>
 			<sp who="#meeste-menicht">
-				<speaker>Meeste menicht</speaker>				
+				<speaker>Meeste menicht</speaker>
 				<l>Te sieken met dat boochjen</l>
 			</sp>
 			<sp who="#weijnich-volcxs">
@@ -1374,7 +1366,7 @@
 				<l>soo est u onder Daen sonder verspaeden</l>
 				<l>Loff sij u o heer van u weldaden</l>
 			</sp>
-			
+
 			<stage>Prince</stage>
 			<sp who="#weijnich-volcxs">
 				<l>O Princelijke godt op dat ick mach gebruijken</l>
